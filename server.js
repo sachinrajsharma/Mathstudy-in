@@ -11,8 +11,10 @@ const multer         = require('multer');
 const fs             = require('fs');
 const notify         = require('./lib/notify');
 const ordersLib      = require('./lib/orders');
+const seo            = require('./lib/seo');
 
 const app  = express();
+app.locals.siteJsonLd = seo.siteJsonLd();
 const PORT = process.env.PORT || 3001;
 const BASE_URL = (process.env.BASE_URL || 'https://mathstudy.in').replace(/\/+$/, '');
 
@@ -251,11 +253,15 @@ app.get('/shop/product/:slug', async (req, res) => {
 
     await pool.query(`UPDATE products SET downloads=downloads WHERE id=?`,[product.id]); // view counter separate
 
+    const sd = seo.forProduct(product);
     res.render('product', {
-      title: product.meta_title || product.title + ' — MathStudy.in',
-      metaDesc: product.meta_desc || product.short_desc || 'Download this math ebook instantly.',
-      canonical: (process.env.BASE_URL||'https://mathstudy.in')+'/shop/product/'+product.slug,
+      title: sd.title,                 // buy-intent; respects admin meta_title
+      metaDesc: sd.metaDesc,           // respects admin meta_desc
+      canonical: sd.canonical,
       ogImage: product.cover_image || '/images/og-default.png',
+      ogType: sd.ogType,               // 'product'
+      jsonLd: sd.jsonLd,               // Product + FAQPage structured data
+      faqs: sd.faqs,                   // visible FAQ section
       product, related, alreadyOwned,
       razorpayKey: process.env.RAZORPAY_KEY_ID || ''
     });

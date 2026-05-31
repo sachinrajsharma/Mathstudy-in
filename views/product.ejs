@@ -3,20 +3,8 @@
 const base = locals.baseUrl || 'https://mathstudy.in';
 const discount = product.original_price && product.original_price > product.price
   ? Math.round((1 - product.price/product.original_price)*100) : 0;
-const productSchema = JSON.stringify({
-  "@context":"https://schema.org","@type":"Product",
-  "name": product.title,
-  "description": product.short_desc || '',
-  "image": product.cover_image ? base+product.cover_image : '',
-  "offers": {
-    "@type":"Offer","priceCurrency":"INR",
-    "price": product.price,
-    "availability":"https://schema.org/InStock",
-    "url": base+'/shop/product/'+product.slug
-  }
-});
 %>
-<script type="application/ld+json"><%- productSchema %></script>
+<%# Product + FAQPage structured data is injected from lib/seo.js via the layout %>
 
 <div class="container" style="padding-top:32px;padding-bottom:60px">
   <!-- Breadcrumb -->
@@ -95,6 +83,33 @@ const productSchema = JSON.stringify({
       </div>
     </div>
   </div>
+
+  <!-- FAQ (matches the FAQPage structured data) -->
+  <% if (locals.faqs && faqs.length) { %>
+  <section class="product-faq" style="margin-top:48px;max-width:780px">
+    <h2 style="font-size:1.35rem;font-weight:800;color:var(--dark);margin-bottom:18px">Frequently asked questions</h2>
+    <% faqs.forEach(function(f){ %>
+    <div class="faq-item" style="border:1px solid var(--border);border-radius:10px;margin-bottom:10px;overflow:hidden">
+      <button type="button" class="faq-q" style="width:100%;text-align:left;background:#fff;border:none;padding:14px 18px;font-size:0.95rem;font-weight:600;color:var(--dark);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <span><%= f.q %></span><span class="faq-ico" style="color:var(--secondary);font-size:1.2rem;flex-shrink:0">+</span>
+      </button>
+      <div class="faq-a" style="display:none;padding:0 18px 16px;font-size:0.9rem;color:var(--mid);line-height:1.7"><%= f.a %></div>
+    </div>
+    <% }); %>
+  </section>
+  <script>
+  (function(){
+    document.querySelectorAll('.product-faq .faq-q').forEach(function(b){
+      b.addEventListener('click', function(){
+        var a = b.parentNode.querySelector('.faq-a');
+        var open = a.style.display === 'block';
+        a.style.display = open ? 'none' : 'block';
+        b.querySelector('.faq-ico').textContent = open ? '+' : '–';
+      });
+    });
+  })();
+  </script>
+  <% } %>
 
   <!-- Related products -->
   <% if (related && related.length) { %>
