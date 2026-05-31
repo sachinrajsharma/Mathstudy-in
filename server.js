@@ -487,13 +487,14 @@ app.get('/admin', requireAdmin, async (req, res) => {
     const [[{orders}]]   = await pool.query(`SELECT COUNT(*) AS orders FROM orders WHERE status='paid'`);
     const [[{revenue}]]  = await pool.query(`SELECT COALESCE(SUM(total_amount),0) AS revenue FROM orders WHERE status='paid'`);
     const [[{users}]]    = await pool.query(`SELECT COUNT(*) AS users FROM users`);
+    const [[{pending}]]  = await pool.query(`SELECT COUNT(*) AS pending FROM orders WHERE status='pending'`);
     const [recent_orders]= await pool.query(
-      `SELECT o.id,u.name AS buyer,u.email,o.total_amount,o.status,o.created_at
+      `SELECT o.id,o.payment_id,u.name AS buyer,u.email,o.total_amount,o.status,o.created_at
        FROM orders o JOIN users u ON o.user_id=u.id ORDER BY o.created_at DESC LIMIT 10`
     );
     res.render('admin/index', {
       title:'Admin — MathStudy.in', metaDesc:'', canonical:null,
-      stats:{ products, orders, revenue, users }, recent_orders
+      stats:{ products, orders, revenue, users, pending }, pendingCount: pending, recent_orders
     });
   } catch(e) { console.error(e); res.status(500).send('Admin error: '+e.message); }
 });
@@ -561,10 +562,64 @@ app.post('/admin/products/:id/upload-pdf', requireAdmin, uploadPdf.single('pdf_f
   res.json({ ok:true, filename: req.file.filename });
 });
 
-// Admin — Delete product
+// Admin — Delete product (legacy soft-delete kept for compatibility)
 app.delete('/admin/products/:id', requireAdmin, async (req, res) => {
   await pool.query(`UPDATE products SET is_published=0 WHERE id=?`,[req.params.id]);
   res.json({ ok:true });
+});
+
+// Admin — toggle a product flag (published / featured) from the list switch
+app.post('/admin/products/:id/toggle', requireAdmin, async (req, res) => {
+  const field = ['is_published','is_featured'].includes(req.body.field) ? req.body.field : null;
+  if (!field) return res.status(400).json({ error:'Invalid field.' });
+  await pool.query(`UPDATE products SET ${field}=? WHERE id=?`, [req.body.value ? 1 : 0, req.params.id]);
+  res.json({ ok:true });
+});
+
+// Admin — permanently delete a product (past order history is preserved)
+app.post('/admin/products/:id/delete', requireAdmin, async (req, res) => {
+  try {
+    await pool.query(`DELETE FROM download_tokens WHERE product_id=?`, [req.params.id]);
+    await pool.query(`DELETE FROM products WHERE id=?`, [req.params.id]);
+    res.json({ ok:true });
+  } catch(e) { console.error('delete product', e.message); res.status(500).json({ error:'Could not delete this product.' }); }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+// ROUTES — ADMIN CATEGORIES
+// ════════════════════════════════════════════════════════════════════════════
+function adminSlugify(s){ return String(s||'').toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-'); }
+
+app.get('/admin/categories', requireAdmin, async (req, res) => {
+  const [cats] = await pool.query(
+    `SELECT c.*, (SELECT COUNT(*) FROM products p WHERE p.category_id=c.id) AS product_count
+       FROM categories c ORDER BY c.sort_order, c.name`);
+  res.render('admin/categories', { title:'Categories — Admin', metaDesc:'', canonical:null, cats });
+});
+
+app.post('/admin/categories', requireAdmin, async (req, res) => {
+  const name = (req.body.name || '').trim();
+  if (!name) return res.redirect('/admin/categories');
+  const slug = (req.body.slug || '').trim() || adminSlugify(name);
+  try {
+    await pool.query(`INSERT INTO categories (name,slug,description,sort_order) VALUES (?,?,?,?)`,
+      [name, slug, (req.body.description || '').trim() || null, parseInt(req.body.sort_order) || 0]);
+  } catch(e) { console.error('cat create', e.message); }
+  res.redirect('/admin/categories');
+});
+
+app.post('/admin/categories/:id', requireAdmin, async (req, res) => {
+  const name = (req.body.name || '').trim();
+  const slug = (req.body.slug || '').trim() || adminSlugify(name);
+  await pool.query(`UPDATE categories SET name=?,slug=?,description=?,sort_order=? WHERE id=?`,
+    [name, slug, (req.body.description || '').trim() || null, parseInt(req.body.sort_order) || 0, req.params.id]);
+  res.redirect('/admin/categories');
+});
+
+app.post('/admin/categories/:id/delete', requireAdmin, async (req, res) => {
+  await pool.query(`UPDATE products SET category_id=NULL WHERE category_id=?`, [req.params.id]);
+  await pool.query(`DELETE FROM categories WHERE id=?`, [req.params.id]);
+  res.redirect('/admin/categories');
 });
 
 // Admin — Orders list

@@ -1,0 +1,76 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <%- include('../partials/admin-sidebar', { active: 'categories' }) %>
+  <div class="admin-main">
+    <div style="margin-bottom:14px"><div class="admin-title">Categories</div><div class="admin-sub"><%= cats.length %> categories</div></div>
+
+    <div class="adm-editor" style="grid-template-columns:320px 1fr">
+      <!-- add / edit form -->
+      <div class="adm-box">
+        <div class="adm-box-h" id="catFormTitle">Add new category</div>
+        <div class="adm-box-b">
+          <form id="catForm" method="POST" action="/admin/categories">
+            <div class="adm-field"><label>Name *</label><input type="text" name="name" id="cf-name" required placeholder="e.g. JEE & Competitive"></div>
+            <div class="adm-field"><label>Slug</label><input type="text" name="slug" id="cf-slug" placeholder="auto from name"></div>
+            <div class="adm-field"><label>Description</label><textarea name="description" id="cf-desc" rows="3" placeholder="Short description (optional)"></textarea></div>
+            <div class="adm-field"><label>Sort order</label><input type="number" name="sort_order" id="cf-sort" value="0"></div>
+            <div class="adm-save-row">
+              <button type="submit" class="btn btn-primary" id="cf-submit" style="flex:1;justify-content:center">Add category</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="cf-cancel" style="display:none">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- list -->
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead><tr><th>Name</th><th>Slug</th><th>Products</th><th>Order</th><th>Actions</th></tr></thead>
+          <tbody>
+            <% cats.forEach(function(c){ %>
+            <tr>
+              <td><strong><%= c.name %></strong><% if (c.description) { %><div class="s" style="font-size:.76rem;color:var(--muted)"><%= c.description %></div><% } %></td>
+              <td>/<%= c.slug %></td>
+              <td><%= c.product_count %></td>
+              <td><%= c.sort_order %></td>
+              <td>
+                <div class="adm-rowacts">
+                  <a class="adm-link" href="#" data-edit data-id="<%= c.id %>" data-name="<%= c.name %>" data-slug="<%= c.slug %>" data-desc="<%= c.description || '' %>" data-sort="<%= c.sort_order %>">Edit</a>
+                  <a class="adm-link" href="/shop/category/<%= c.slug %>" target="_blank">View</a>
+                  <form method="POST" action="/admin/categories/<%= c.id %>/delete" style="display:inline" onsubmit="return confirm('Delete this category? Its products become uncategorised.')">
+                    <button class="adm-link danger" type="submit" style="background:none;border:none;cursor:pointer;padding:0;font:inherit">Delete</button>
+                  </form>
+                </div>
+              </td>
+            </tr>
+            <% }); %>
+            <% if (!cats.length) { %><tr><td colspan="5" style="text-align:center;color:var(--muted)">No categories yet — add your first one on the left.</td></tr><% } %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var form = document.getElementById('catForm'), title = document.getElementById('catFormTitle'),
+      submit = document.getElementById('cf-submit'), cancel = document.getElementById('cf-cancel');
+  document.querySelectorAll('[data-edit]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      form.action = '/admin/categories/' + a.dataset.id;
+      document.getElementById('cf-name').value = a.dataset.name;
+      document.getElementById('cf-slug').value = a.dataset.slug;
+      document.getElementById('cf-desc').value = a.dataset.desc;
+      document.getElementById('cf-sort').value = a.dataset.sort;
+      title.textContent = 'Edit category'; submit.textContent = 'Save changes'; cancel.style.display = '';
+      window.scrollTo(0, 0);
+    });
+  });
+  cancel.addEventListener('click', function(){
+    form.reset(); form.action = '/admin/categories';
+    title.textContent = 'Add new category'; submit.textContent = 'Add category'; cancel.style.display = 'none';
+  });
+})();
+</script>

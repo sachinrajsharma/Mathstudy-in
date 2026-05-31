@@ -1,15 +1,6 @@
 <% locals.layout = 'layout' %>
 <div class="admin-wrap">
-  <aside class="admin-sidebar">
-    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
-    <nav class="admin-nav">
-      <a href="/admin">Dashboard</a>
-      <a href="/admin/products">Products</a>
-      <a href="/admin/orders">Orders</a>
-      <a href="/admin/users" class="active">Users</a>
-      <a href="/admin/blog">Blog</a>
-    </nav>
-  </aside>
+  <%- include('../partials/admin-sidebar', { active: 'users' }) %>
   <div class="admin-main">
     <div class="admin-title">Users</div>
     <div class="admin-sub"><%= users.length %> registered users</div>

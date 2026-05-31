@@ -1,46 +1,94 @@
 <% locals.layout = 'layout' %>
 <div class="admin-wrap">
-  <aside class="admin-sidebar">
-    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
-    <nav class="admin-nav">
-      <a href="/admin">Dashboard</a>
-      <a href="/admin/products" class="active">Products</a>
-      <a href="/admin/orders">Orders</a>
-      <a href="/admin/users">Users</a>
-      <a href="/admin/blog">Blog</a>
-    </nav>
-  </aside>
+  <%- include('../partials/admin-sidebar', { active: 'products' }) %>
   <div class="admin-main">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px">
-      <div><div class="admin-title">Products</div><div class="admin-sub"><%= products.length %> total</div></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
+      <div><div class="admin-title">Products</div><div class="admin-sub"><%= products.length %> products</div></div>
       <a href="/admin/products/new" class="btn btn-primary">+ Add Product</a>
     </div>
+
+    <div class="adm-toolbar">
+      <div class="grow"><input id="pSearch" class="adm-search" placeholder="Search by title or slug…" autocomplete="off"></div>
+      <select id="pCat" class="adm-filter">
+        <option value="">All categories</option>
+        <% var seen = {}; products.forEach(function(p){ if (p.cat_name && !seen[p.cat_name]) { seen[p.cat_name] = 1; %><option><%= p.cat_name %></option><% } }); %>
+      </select>
+      <select id="pStatus" class="adm-filter">
+        <option value="">All statuses</option><option value="1">Published</option><option value="0">Draft</option>
+      </select>
+      <span class="adm-count" id="pCount"></span>
+    </div>
+
     <div class="admin-table-wrap">
-      <table class="admin-table">
-        <thead><tr><th>Title</th><th>Category</th><th>Price</th><th>Grade</th><th>Published</th><th>Actions</th></tr></thead>
+      <table class="admin-table" id="pTable">
+        <thead><tr><th>Product</th><th>Category</th><th>Price</th><th>File</th><th>Sales</th><th>Status</th><th>Actions</th></tr></thead>
         <tbody>
           <% products.forEach(function(p){ %>
-          <tr id="product-row-<%= p.id %>">
-            <td><strong><%= p.title.substring(0,50) %><%= p.title.length>50?'...':'' %></strong></td>
-            <td><%= p.cat_name||'—' %></td>
-            <td>&#8377;<%= parseFloat(p.price).toFixed(0) %></td>
-            <td><%= p.grade||'—' %></td>
+          <tr id="prow-<%= p.id %>" data-title="<%= (p.title + ' ' + p.slug).toLowerCase() %>" data-cat="<%= p.cat_name || '' %>" data-pub="<%= p.is_published ? 1 : 0 %>">
             <td>
-              <label style="cursor:pointer">
-                <input type="checkbox" <%= p.is_published?'checked':'' %> onchange="toggleProduct(<%= p.id %>,'is_published',this.checked)">
-                <%= p.is_published ? 'Yes':'No' %>
-              </label>
+              <div class="adm-prodcell">
+                <% if (p.cover_image) { %><img class="adm-thumb" src="<%= p.cover_image %>" alt=""><% } else { %><div class="adm-thumb"></div><% } %>
+                <div><div class="t"><%= p.title.length > 64 ? p.title.substring(0,64)+'…' : p.title %></div><div class="s">/<%= p.slug %></div></div>
+              </div>
             </td>
-            <td style="display:flex;gap:8px">
-              <a href="/admin/products/<%= p.id %>/edit" class="btn btn-ghost btn-sm">Edit</a>
-              <a href="/shop/product/<%= p.slug %>" target="_blank" class="btn btn-ghost btn-sm">View</a>
-              <button class="btn btn-danger btn-sm" onclick="deleteProduct(<%= p.id %>)">Remove</button>
+            <td><%= p.cat_name || '—' %></td>
+            <td class="adm-price"><span class="now">&#8377;<%= parseFloat(p.price).toFixed(0) %></span><% if (p.original_price && p.original_price > p.price) { %><span class="was">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span><% } %></td>
+            <td><% if (p.download_url) { %><span class="adm-badge has">🔒 Drive</span><% } else if (p.pdf_file) { %><span class="adm-badge has">PDF</span><% } else { %><span class="adm-badge no">none</span><% } %></td>
+            <td><%= p.downloads || 0 %></td>
+            <td><label class="adm-switch" title="Publish / unpublish"><input type="checkbox" <%= p.is_published ? 'checked' : '' %> data-toggle="<%= p.id %>"><span class="sl"></span></label></td>
+            <td>
+              <div class="adm-rowacts">
+                <a class="adm-link" href="/admin/products/<%= p.id %>/edit">Edit</a>
+                <a class="adm-link" href="/shop/product/<%= p.slug %>" target="_blank">View</a>
+                <a class="adm-link danger" href="#" data-del="<%= p.id %>">Delete</a>
+              </div>
             </td>
           </tr>
           <% }); %>
-          <% if (!products.length) { %><tr><td colspan="6" style="text-align:center;color:var(--muted)">No products yet. <a href="/admin/products/new">Add your first product.</a></td></tr><% } %>
         </tbody>
       </table>
+      <div id="pEmpty" style="display:none;text-align:center;padding:30px;color:var(--muted)">No products match your filters.</div>
     </div>
   </div>
 </div>
+
+<script>
+(function(){
+  var rows = [].slice.call(document.querySelectorAll('#pTable tbody tr'));
+  var search = document.getElementById('pSearch'), cat = document.getElementById('pCat'),
+      status = document.getElementById('pStatus'), count = document.getElementById('pCount'), empty = document.getElementById('pEmpty');
+  function apply(){
+    var q = (search.value||'').toLowerCase().trim(), c = cat.value, s = status.value, n = 0;
+    rows.forEach(function(r){
+      var ok = (!q || r.dataset.title.indexOf(q) > -1) && (!c || r.dataset.cat === c) && (s === '' || r.dataset.pub === s);
+      r.style.display = ok ? '' : 'none'; if (ok) n++;
+    });
+    count.textContent = n + ' shown'; empty.style.display = n ? 'none' : 'block';
+  }
+  search.addEventListener('input', apply); cat.addEventListener('change', apply); status.addEventListener('change', apply); apply();
+
+  document.querySelectorAll('[data-toggle]').forEach(function(cb){
+    cb.addEventListener('change', function(){
+      fetch('/admin/products/' + cb.dataset.toggle + '/toggle', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ field:'is_published', value: cb.checked ? 1 : 0 })
+      }).then(function(r){ return r.json(); }).then(function(d){
+        if (!d.ok) { cb.checked = !cb.checked; alert(d.error || 'Failed'); return; }
+        cb.closest('tr').dataset.pub = cb.checked ? '1' : '0'; apply();
+      });
+    });
+  });
+  document.querySelectorAll('[data-del]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      if (!confirm('Delete this product permanently? (Past orders that include it are kept.)')) return;
+      fetch('/admin/products/' + a.dataset.del + '/delete', { method:'POST' })
+        .then(function(r){ return r.json(); }).then(function(d){
+          if (!d.ok) return alert(d.error || 'Failed');
+          var row = document.getElementById('prow-' + a.dataset.del);
+          row.parentNode.removeChild(row); rows = rows.filter(function(x){ return x !== row; }); apply();
+        });
+    });
+  });
+})();
+</script>

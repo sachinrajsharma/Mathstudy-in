@@ -1,134 +1,181 @@
 <% locals.layout = 'layout' %>
+<link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
 <div class="admin-wrap">
-  <aside class="admin-sidebar">
-    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
-    <nav class="admin-nav">
-      <a href="/admin">Dashboard</a>
-      <a href="/admin/products" class="active">Products</a>
-      <a href="/admin/orders">Orders</a>
-      <a href="/admin/users">Users</a>
-      <a href="/admin/blog">Blog</a>
-    </nav>
-  </aside>
+  <%- include('../partials/admin-sidebar', { active: 'products' }) %>
   <div class="admin-main">
-    <div style="display:flex;gap:16px;align-items:center;margin-bottom:24px">
+    <div style="display:flex;gap:14px;align-items:center;margin-bottom:20px">
       <a href="/admin/products" class="btn btn-ghost btn-sm">&larr; Back</a>
       <div class="admin-title" style="margin:0"><%= product ? 'Edit Product' : 'Add New Product' %></div>
     </div>
-    <% if (locals.error && error) { %><div class="alert alert-error"><%= error %></div><% } %>
+    <% if (locals.error && error) { %><div class="alert alert-error" style="margin-bottom:16px"><%= error %></div><% } %>
 
-    <form action="/admin/products/<%= product ? product.id+'/edit' : 'new' %>" method="POST" enctype="multipart/form-data" style="max-width:700px">
-      <% if (product) { %><input type="hidden" name="existing_cover" value="<%= product.cover_image||'' %>"><% } %>
+    <form id="productForm" action="/admin/products/<%= product ? product.id + '/edit' : 'new' %>" method="POST" enctype="multipart/form-data">
+      <% if (product) { %><input type="hidden" name="existing_cover" value="<%= product.cover_image || '' %>"><% } %>
+      <div class="adm-editor">
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
-        <div class="form-group" style="grid-column:1/-1">
-          <label>Product Title *</label>
-          <input type="text" name="title" value="<%= product ? product.title : '' %>" required placeholder="e.g. Case Studies Class 9 Polynomials">
+        <!-- ── Main column ── -->
+        <div>
+          <div class="adm-box">
+            <div class="adm-box-b">
+              <div class="adm-field">
+                <label>Product title *</label>
+                <input type="text" name="title" id="pf-title" value="<%= product ? product.title : '' %>" required placeholder="e.g. Case Studies — Class 9 Polynomials">
+              </div>
+              <div class="adm-field">
+                <label>URL slug *</label>
+                <input type="text" name="slug" id="pf-slug" value="<%= product ? product.slug : '' %>" required placeholder="case-studies-class-9-polynomials">
+                <div class="hint">Used in the product URL: /shop/product/<b id="pf-slug-prev"><%= product ? product.slug : 'your-slug' %></b></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Description</div>
+            <div class="adm-box-b">
+              <div id="pf-desc" class="adm-quill"><%- product && product.description ? product.description : '' %></div>
+              <textarea name="description" id="pf-desc-input" hidden></textarea>
+              <div class="adm-field" style="margin-top:14px">
+                <label>Short description <span class="hint" style="display:inline">(shown on product cards · max 300)</span></label>
+                <textarea name="short_desc" rows="2" maxlength="300" placeholder="One or two lines for listing cards"><%= product ? product.short_desc || '' : '' %></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Search engine optimisation</div>
+            <div class="adm-box-b">
+              <div class="adm-field">
+                <label>Meta title <span class="hint" id="mt-count" style="display:inline"></span></label>
+                <input type="text" name="meta_title" id="pf-metatitle" maxlength="70" value="<%= product ? product.meta_title || '' : '' %>" placeholder="Case Studies Class 9 Polynomials PDF — MathStudy.in">
+              </div>
+              <div class="adm-field">
+                <label>Meta description <span class="hint" id="md-count" style="display:inline"></span></label>
+                <textarea name="meta_desc" id="pf-metadesc" rows="2" maxlength="160" placeholder="Download Class 9 Polynomials case-study PDF with solutions. CBSE aligned, instant download."><%= product ? product.meta_desc || '' : '' %></textarea>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>URL Slug * (used in the product URL)</label>
-          <input type="text" name="slug" value="<%= product ? product.slug : '' %>" required placeholder="e.g. case-studies-class-9-polynomials">
-        </div>
-        <div class="form-group">
-          <label>Price (INR) *</label>
-          <input type="number" name="price" value="<%= product ? product.price : '' %>" required step="0.01" min="0" placeholder="49">
-        </div>
-        <div class="form-group">
-          <label>Original Price (INR) — for discount display</label>
-          <input type="number" name="original_price" value="<%= product ? product.original_price||'' : '' %>" step="0.01" min="0" placeholder="65">
-        </div>
-        <div class="form-group">
-          <label>Category</label>
-          <select name="category_id">
-            <option value="">-- Select --</option>
-            <% cats.forEach(function(c){ %>
-            <option value="<%= c.id %>" <%= (product && product.category_id==c.id)?'selected':'' %>><%= c.name %></option>
-            <% }); %>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>Grade</label>
-          <input type="text" name="grade" value="<%= product ? product.grade||'' : '' %>" placeholder="e.g. Class 9, Grade 5">
-        </div>
-        <div class="form-group">
-          <label>Board</label>
-          <input type="text" name="board" value="<%= product ? product.board||'' : '' %>" placeholder="CBSE / ICSE / ISC">
-        </div>
-        <div class="form-group">
-          <label>Page Count</label>
-          <input type="number" name="page_count" value="<%= product ? product.page_count||'' : '' %>" min="1" placeholder="42">
-        </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>🔒 Secure download link (Google Drive) — sent to the buyer only after you approve payment</label>
-          <input type="url" name="download_url" value="<%= product ? product.download_url||'' : '' %>" placeholder="https://drive.google.com/file/d/FILE_ID/view">
-          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:4px">Stored privately on the server, never shown publicly. The buyer receives it through a one-time tokenised link, never the raw URL on a page.</p>
-        </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>Short Description (shown on cards, max 300 chars)</label>
-          <textarea name="short_desc" rows="2" maxlength="300" placeholder="Brief description for product cards"><%= product ? product.short_desc||'' : '' %></textarea>
-        </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>Full Description</label>
-          <textarea name="description" rows="5" placeholder="Detailed description of what's inside the book"><%= product ? product.description||'' : '' %></textarea>
-        </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>SEO Meta Title (50–60 chars)</label>
-          <input type="text" name="meta_title" value="<%= product ? product.meta_title||'' : '' %>" maxlength="70" placeholder="Case Studies Class 9 Polynomials PDF — MathStudy.in">
-        </div>
-        <div class="form-group" style="grid-column:1/-1">
-          <label>SEO Meta Description (120–155 chars)</label>
-          <textarea name="meta_desc" rows="2" maxlength="160" placeholder="Download Class 9 Polynomials case study PDF with solutions. CBSE aligned, instant download."><%= product ? product.meta_desc||'' : '' %></textarea>
-        </div>
-        <div class="form-group">
-          <label>Cover Image (JPG/PNG, max 5MB)</label>
-          <input type="file" name="cover_image" accept="image/jpeg,image/png,image/webp">
-          <% if (product && product.cover_image) { %>
-            <p style="font-size:0.78rem;color:var(--muted);margin-top:4px">Current: <a href="<%= product.cover_image %>" target="_blank">View</a> (leave empty to keep)</p>
+
+        <!-- ── Sidebar column ── -->
+        <div>
+          <div class="adm-box">
+            <div class="adm-box-h">Publish</div>
+            <div class="adm-box-b">
+              <label class="adm-check"><input type="checkbox" name="is_published" value="1" <%= (!product || product.is_published) ? 'checked' : '' %>> Published (visible in shop)</label>
+              <label class="adm-check"><input type="checkbox" name="is_featured" value="1" <%= (product && product.is_featured) ? 'checked' : '' %>> Featured on home page</label>
+              <div class="adm-save-row">
+                <button type="submit" class="btn btn-primary" style="flex:1;justify-content:center"><%= product ? 'Save changes' : 'Create product' %></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Pricing</div>
+            <div class="adm-box-b">
+              <div class="adm-field"><label>Price (₹) *</label><input type="number" name="price" value="<%= product ? product.price : '' %>" required step="0.01" min="0" placeholder="49"></div>
+              <div class="adm-field"><label>Original / MRP (₹) — shows a strike-through discount</label><input type="number" name="original_price" value="<%= product ? product.original_price || '' : '' %>" step="0.01" min="0" placeholder="99"></div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Category</div>
+            <div class="adm-box-b">
+              <div class="adm-field">
+                <select name="category_id">
+                  <option value="">— Uncategorised —</option>
+                  <% cats.forEach(function(c){ %><option value="<%= c.id %>" <%= (product && product.category_id == c.id) ? 'selected' : '' %>><%= c.name %></option><% }); %>
+                </select>
+                <div class="hint">Manage the list under <a href="/admin/categories">Categories</a>.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Product image</div>
+            <div class="adm-box-b">
+              <img id="pf-cover-prev" class="adm-cover-prev" src="<%= product && product.cover_image ? product.cover_image : '' %>" alt="" style="<%= product && product.cover_image ? '' : 'display:none' %>">
+              <div class="adm-field" style="margin:0">
+                <input type="file" name="cover_image" id="pf-cover" accept="image/jpeg,image/png,image/webp">
+                <div class="hint">JPG / PNG / WEBP, up to 5MB. <% if (product && product.cover_image) { %>Leave empty to keep the current image.<% } %></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">🔒 Secure download</div>
+            <div class="adm-box-b">
+              <div class="adm-field" style="margin:0">
+                <label>Google Drive link</label>
+                <input type="url" name="download_url" value="<%= product ? product.download_url || '' : '' %>" placeholder="https://drive.google.com/file/d/FILE_ID/view">
+                <div class="hint">Server-side only. The buyer gets it through a one-time tokenised link <b>after you approve payment</b> — never the raw URL.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">Details</div>
+            <div class="adm-box-b">
+              <div class="adm-field"><label>Grade</label><input type="text" name="grade" value="<%= product ? product.grade || '' : '' %>" placeholder="Class 9, Grade 5…"></div>
+              <div class="adm-field"><label>Board</label><input type="text" name="board" value="<%= product ? product.board || '' : '' %>" placeholder="CBSE / ICSE / ISC"></div>
+              <div class="adm-field" style="margin:0"><label>Page count</label><input type="number" name="page_count" value="<%= product ? product.page_count || '' : '' %>" min="1" placeholder="42"></div>
+            </div>
+          </div>
+
+          <% if (product) { %>
+          <div class="adm-box">
+            <div class="adm-box-h">Local PDF (optional fallback)</div>
+            <div class="adm-box-b">
+              <p class="hint" style="margin-top:0">Only needed if you serve the file from this server instead of Drive. Max 50MB.</p>
+              <input type="file" id="pdfFile" accept="application/pdf" style="width:100%;margin-bottom:8px">
+              <button type="button" class="btn btn-ghost btn-sm" id="pdfBtn">Upload PDF</button>
+              <% if (product.pdf_file) { %><p class="hint" style="color:var(--success)">Current: <%= product.pdf_file %></p><% } %>
+              <div id="uploadStatus" class="hint"></div>
+            </div>
+          </div>
           <% } %>
         </div>
-        <div class="form-group">
-          <label style="display:flex;gap:16px;margin-top:8px">
-            <label style="font-size:0.88rem;font-weight:400;cursor:pointer">
-              <input type="checkbox" name="is_published" value="1" <%= (!product||product.is_published)?'checked':'' %>> Published
-            </label>
-            <label style="font-size:0.88rem;font-weight:400;cursor:pointer">
-              <input type="checkbox" name="is_featured"  value="1" <%= (product&&product.is_featured)?'checked':'' %>> Featured on Home
-            </label>
-          </label>
-        </div>
       </div>
-
-      <button type="submit" class="btn btn-primary btn-lg" style="margin-top:8px">
-        <%= product ? 'Save Changes' : 'Create Product' %>
-      </button>
     </form>
-
-    <% if (product) { %>
-    <div style="margin-top:40px;padding:24px;background:#f9fafb;border:1px solid var(--border);border-radius:12px;max-width:700px">
-      <h3 style="margin-bottom:12px">Upload PDF File</h3>
-      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:16px">Upload the actual PDF that customers will download. Max 50MB.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <input type="file" id="pdfFile" accept="application/pdf" style="flex:1">
-        <button class="btn btn-secondary" onclick="uploadPdf(<%= product.id %>)">Upload PDF</button>
-      </div>
-      <% if (product.pdf_file) { %><p style="font-size:0.78rem;color:var(--success);margin-top:8px">Current PDF: <%= product.pdf_file %></p><% } %>
-      <div id="uploadStatus" style="font-size:0.82rem;margin-top:8px"></div>
-    </div>
-    <script>
-    function uploadPdf(id) {
-      var file = document.getElementById('pdfFile').files[0];
-      if (!file) { alert('Select a PDF first.'); return; }
-      var fd = new FormData();
-      fd.append('pdf_file', file);
-      document.getElementById('uploadStatus').textContent = 'Uploading...';
-      fetch('/admin/products/'+id+'/upload-pdf', { method:'POST', body:fd })
-        .then(function(r){ return r.json(); })
-        .then(function(d){
-          document.getElementById('uploadStatus').textContent = d.ok ? 'Uploaded: '+d.filename : 'Error: '+d.error;
-          document.getElementById('uploadStatus').style.color = d.ok ? 'var(--success)' : 'var(--danger)';
-        });
-    }
-    </script>
-    <% } %>
   </div>
 </div>
+
+<script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+<script>
+(function(){
+  // Rich-text description
+  var quill = new Quill('#pf-desc', {
+    theme: 'snow',
+    placeholder: 'Describe what is inside the e-book — chapters, number of questions, who it is for…',
+    modules: { toolbar: [[{ header: [2, 3, false] }], ['bold','italic','underline'], [{ list:'ordered' }, { list:'bullet' }], ['blockquote','link'], ['clean']] }
+  });
+  document.getElementById('productForm').addEventListener('submit', function(){
+    document.getElementById('pf-desc-input').value = quill.root.innerHTML;
+  });
+
+  // Auto slug from title
+  function slugify(s){ return s.toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-'); }
+  var title = document.getElementById('pf-title'), slug = document.getElementById('pf-slug'), slugPrev = document.getElementById('pf-slug-prev');
+  var slugTouched = <%= product ? 'true' : 'false' %>;
+  slug.addEventListener('input', function(){ slugTouched = true; slugPrev.textContent = slug.value || 'your-slug'; });
+  title.addEventListener('input', function(){ if (!slugTouched) { slug.value = slugify(title.value); slugPrev.textContent = slug.value || 'your-slug'; } });
+
+  // Cover preview
+  var cover = document.getElementById('pf-cover'), prev = document.getElementById('pf-cover-prev');
+  cover.addEventListener('change', function(){ if (cover.files[0]) { prev.src = URL.createObjectURL(cover.files[0]); prev.style.display = 'block'; } });
+
+  // SEO counters
+  function counter(el, out, max){ function u(){ out.textContent = el.value.length + '/' + max; } el.addEventListener('input', u); u(); }
+  counter(document.getElementById('pf-metatitle'), document.getElementById('mt-count'), 70);
+  counter(document.getElementById('pf-metadesc'), document.getElementById('md-count'), 160);
+
+  // PDF upload (edit only)
+  var pdfBtn = document.getElementById('pdfBtn');
+  if (pdfBtn) pdfBtn.addEventListener('click', function(){
+    var f = document.getElementById('pdfFile').files[0]; var st = document.getElementById('uploadStatus');
+    if (!f) { st.textContent = 'Choose a PDF first.'; return; }
+    var fd = new FormData(); fd.append('pdf_file', f); st.textContent = 'Uploading…';
+    fetch('/admin/products/<%= product ? product.id : 0 %>/upload-pdf', { method:'POST', body: fd })
+      .then(function(r){ return r.json(); }).then(function(d){ st.textContent = d.ok ? ('Uploaded: ' + d.filename) : ('Error: ' + d.error); st.style.color = d.ok ? 'var(--success)' : 'var(--danger)'; });
+  });
+})();
+</script>
