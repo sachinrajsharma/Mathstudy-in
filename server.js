@@ -253,19 +253,48 @@ app.get('/shop/product/:slug', async (req, res) => {
 
     await pool.query(`UPDATE products SET downloads=downloads WHERE id=?`,[product.id]); // view counter separate
 
-    const sd = seo.forProduct(product);
+    // Reviews → ⭐ rich snippet + on-page trust
+    const [reviews] = await pool.query(
+      `SELECT author_name,rating,title,body,created_at FROM product_reviews
+       WHERE product_id=? AND status='approved' ORDER BY created_at DESC`, [product.id]);
+    const reviewCount = reviews.length;
+    const reviewAvg = reviewCount ? reviews.reduce((s, r) => s + r.rating, 0) / reviewCount : 0;
+
+    // Bundle contents (if this product is a bundle)
+    let bundleItems = [];
+    const bIds = Array.isArray(product.bundle_items) ? product.bundle_items
+      : (product.bundle_items ? (() => { try { return JSON.parse(product.bundle_items); } catch (e) { return []; } })() : []);
+    if (bIds.length) {
+      const [bi] = await pool.query(`SELECT id,title,slug,price,cover_image FROM products WHERE id IN (?)`, [bIds]);
+      bundleItems = bi;
+    }
+
+    const sd = seo.forProduct(product, { count: reviewCount, avg: reviewAvg, reviews });
     res.render('product', {
-      title: sd.title,                 // buy-intent; respects admin meta_title
-      metaDesc: sd.metaDesc,           // respects admin meta_desc
-      canonical: sd.canonical,
+      title: sd.title, metaDesc: sd.metaDesc, canonical: sd.canonical,
       ogImage: product.cover_image || '/images/og-default.png',
-      ogType: sd.ogType,               // 'product'
-      jsonLd: sd.jsonLd,               // Product + FAQPage structured data
-      faqs: sd.faqs,                   // visible FAQ section
-      product, related, alreadyOwned,
+      ogType: sd.ogType, jsonLd: sd.jsonLd, faqs: sd.faqs,
+      product, related, alreadyOwned, reviews, reviewCount, reviewAvg, bundleItems,
       razorpayKey: process.env.RAZORPAY_KEY_ID || ''
     });
   } catch(e) { console.error(e); res.status(500).render('error',{title:'Error',message:'Something went wrong.'}); }
+});
+
+// Submit a product review (logged-in users or guests with a name)
+app.post('/shop/product/:id/review', async (req, res) => {
+  try {
+    const pid = parseInt(req.params.id, 10);
+    const rating = Math.max(1, Math.min(5, parseInt(req.body.rating, 10) || 0));
+    const name = (req.session.user && req.session.user.name) || (req.body.author_name || '').toString().trim().slice(0, 120);
+    const body = (req.body.body || '').toString().trim().slice(0, 2000);
+    const [[p]] = await pool.query('SELECT slug FROM products WHERE id=?', [pid]);
+    if (!p) return res.status(404).render('error', { title: '404', message: 'Product not found.' });
+    if (!rating || !name) return res.redirect('/shop/product/' + p.slug + '#reviews');
+    await pool.query(
+      `INSERT INTO product_reviews (product_id,user_id,author_name,rating,title,body) VALUES (?,?,?,?,?,?)`,
+      [pid, req.session.user ? req.session.user.id : null, name, rating, (req.body.title || '').toString().trim().slice(0, 160) || null, body || null]);
+    res.redirect('/shop/product/' + p.slug + '#reviews');
+  } catch (e) { console.error('review error', e); res.status(500).render('error', { title: 'Error', message: 'Could not submit review.' }); }
 });
 
 // ════════════════════════════════════════════════════════════════════════════
