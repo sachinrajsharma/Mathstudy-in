@@ -1,0 +1,83 @@
+<% locals.layout = 'layout' %>
+<section class="section-sm">
+  <div class="container">
+    <!-- Search bar -->
+    <form id="shopSearchForm" action="/shop" method="GET" style="display:flex;gap:10px;margin-bottom:28px;max-width:520px">
+      <input type="text" name="q" value="<%= q %>" placeholder="Search math e-books..." style="flex:1;padding:10px 16px;border:1.5px solid var(--border);border-radius:9px;font-size:0.92rem">
+      <% if (cat) { %><input type="hidden" name="cat" value="<%= cat %>"><% } %>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <div class="shop-wrap">
+      <!-- Sidebar filters -->
+      <aside class="shop-filters">
+        <div class="filter-head">Categories</div>
+        <ul class="filter-list">
+          <li><a href="/shop<%= sort !== 'latest' ? '?sort='+sort : '' %>" class="<%= !cat ? 'active':'' %>">All Books</a></li>
+          <% cats.forEach(function(c){ %>
+          <li><a href="/shop?cat=<%= c.slug %><%= sort !== 'latest' ? '&sort='+sort : '' %>" class="<%= cat===c.slug ? 'active':'' %>"><%= c.name %></a></li>
+          <% }); %>
+        </ul>
+      </aside>
+
+      <!-- Products -->
+      <div>
+        <div class="shop-header">
+          <span class="shop-count">Showing <%= products.length %> of <%= total %> results<%= q ? ' for "'+q+'"':'' %></span>
+          <select class="sort-select" onchange="window.location.href='/shop?sort='+this.value+'<%= cat ? '&cat='+cat : '' %><%= q ? '&q='+q : '' %>'">
+            <option value="latest"     <%= sort==='latest'     ? 'selected':'' %>>Latest</option>
+            <option value="price_asc"  <%= sort==='price_asc'  ? 'selected':'' %>>Price: Low to High</option>
+            <option value="price_desc" <%= sort==='price_desc' ? 'selected':'' %>>Price: High to Low</option>
+            <option value="popular"    <%= sort==='popular'    ? 'selected':'' %>>Most Popular</option>
+          </select>
+        </div>
+
+        <% if (!products.length) { %>
+          <div style="text-align:center;padding:60px 0">
+            <div style="font-size:3rem;margin-bottom:12px">📚</div>
+            <h3>No products found</h3>
+            <p style="margin-top:8px"><a href="/shop">Clear filters</a></p>
+          </div>
+        <% } else { %>
+        <div class="products-grid">
+          <% products.forEach(function(p){ %>
+          <div class="product-card">
+            <a href="/shop/product/<%= p.slug %>" class="product-card-img">
+              <% if (p.cover_image) { %>
+                <img src="<%= p.cover_image %>" alt="<%= p.title %>" loading="lazy">
+              <% } else { %>
+                <div class="no-cover">📚</div>
+              <% } %>
+              <% if (p.original_price && p.original_price > p.price) { %>
+                <span class="badge-discount">-<%= Math.round((1-p.price/p.original_price)*100) %>%</span>
+              <% } %>
+            </a>
+            <div class="product-card-body">
+              <% if (p.cat_name) { %><div class="product-card-cat"><%= p.cat_name %></div><% } %>
+              <a href="/shop/product/<%= p.slug %>"><div class="product-card-title"><%= p.title %></div></a>
+              <% if (p.grade) { %><div class="product-card-grade"><%= p.grade %></div><% } %>
+              <div class="product-card-price">
+                <span class="price-current">&#8377;<%= parseFloat(p.price).toFixed(0) %></span>
+                <% if (p.original_price && p.original_price > p.price) { %>
+                  <span class="price-original">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span>
+                <% } %>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="addToCart('<%= p.id %>', this)">Add to Cart</button>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+
+        <!-- Pagination -->
+        <% if (totalPages > 1) { %>
+        <div class="pagination">
+          <% for(var i=1;i<=totalPages;i++){ %>
+            <a href="/shop?page=<%= i %><%= cat ? '&cat='+cat : '' %><%= sort !== 'latest' ? '&sort='+sort : '' %><%= q ? '&q='+q : '' %>" class="page-btn <%= page===i ? 'active':'' %>"><%= i %></a>
+          <% } %>
+        </div>
+        <% } %>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</section>

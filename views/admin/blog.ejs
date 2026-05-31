@@ -1,0 +1,106 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
+    <nav class="admin-nav">
+      <a href="/admin">Dashboard</a>
+      <a href="/admin/products">Products</a>
+      <a href="/admin/orders">Orders</a>
+      <a href="/admin/users">Users</a>
+      <a href="/admin/blog" class="active">Blog</a>
+    </nav>
+  </aside>
+  <div class="admin-main">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px">
+      <div>
+        <div class="admin-title">Blog Posts</div>
+        <div class="admin-sub"><%= posts.length %> total &nbsp;·&nbsp; <%= posts.filter(function(p){return p.status==='published'}).length %> published &nbsp;·&nbsp; <%= posts.filter(function(p){return p.status==='draft'}).length %> drafts</div>
+      </div>
+      <a href="/admin/blog/new" class="btn btn-primary">+ New Post</a>
+    </div>
+
+    <% if (success) { %>
+    <div class="alert alert-success" style="margin-bottom:20px"><%= success %></div>
+    <% } %>
+
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Views</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% posts.forEach(function(p){ %>
+          <tr id="row-<%= p.id %>">
+            <td>
+              <strong><%= p.title.substring(0,60) %><%= p.title.length>60?'…':'' %></strong>
+              <div style="font-size:0.75rem;color:var(--muted);margin-top:2px">/blog/<%= p.slug %></div>
+            </td>
+            <td><%= p.category || '—' %></td>
+            <td>
+              <span class="order-status <%= p.status==='published'?'status-paid':'status-pending' %>" id="badge-<%= p.id %>">
+                <%= p.status %>
+              </span>
+            </td>
+            <td><%= p.views %></td>
+            <td><%= new Date(p.created_at).toLocaleDateString('en-IN') %></td>
+            <td>
+              <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <a href="/admin/blog/<%= p.id %>/edit" class="btn btn-outline btn-sm">Edit</a>
+                <button onclick="toggleStatus(<%= p.id %>)"
+                        id="toggle-<%= p.id %>"
+                        class="btn btn-sm"
+                        style="background:<%= p.status==='published'?'#fef3c7':'#dcfce7' %>;color:<%= p.status==='published'?'#92400e':'#166534' %>;border:none">
+                  <%= p.status==='published'?'Unpublish':'Publish' %>
+                </button>
+                <form method="POST" action="/admin/blog/<%= p.id %>/delete" style="margin:0"
+                      onsubmit="return confirm('Delete this post permanently?')">
+                  <button type="submit" class="btn btn-sm" style="background:#fee2e2;color:#991b1b;border:none">Delete</button>
+                </form>
+              </div>
+            </td>
+          </tr>
+          <% }); %>
+          <% if (!posts.length) { %>
+          <tr><td colspan="6" style="text-align:center;padding:40px;color:var(--muted)">
+            No blog posts yet. <a href="/admin/blog/new">Create your first post</a>.
+          </td></tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function toggleStatus(id) {
+  fetch('/admin/blog/' + id + '/toggle', { method: 'POST', headers: { 'Content-Type': 'application/json' } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      if (!data.ok) return;
+      var badge = document.getElementById('badge-' + id);
+      var btn   = document.getElementById('toggle-' + id);
+      if (data.status === 'published') {
+        badge.textContent = 'published';
+        badge.className = 'order-status status-paid';
+        btn.textContent = 'Unpublish';
+        btn.style.background = '#fef3c7';
+        btn.style.color = '#92400e';
+      } else {
+        badge.textContent = 'draft';
+        badge.className = 'order-status status-pending';
+        btn.textContent = 'Publish';
+        btn.style.background = '#dcfce7';
+        btn.style.color = '#166534';
+      }
+    });
+}
+</script>

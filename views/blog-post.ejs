@@ -1,0 +1,419 @@
+<% locals.layout = 'layout' %>
+<%
+const base    = locals.baseUrl || 'https://mathstudy.in';
+const postUrl = base + '/blog/' + post.slug;
+const readingTime = Math.max(1, Math.ceil((post.content || '').replace(/<[^>]+>/g,'').split(/\s+/).length / 220));
+%>
+
+<!-- Structured data -->
+<script type="application/ld+json"><%- JSON.stringify({
+  "@context":"https://schema.org","@type":"BlogPosting",
+  "headline": post.meta_title || post.title,
+  "description": post.meta_desc || post.excerpt || '',
+  "url": postUrl,
+  "datePublished": post.created_at,
+  "dateModified": post.updated_at || post.created_at,
+  "author":{"@type":"Organization","name":"MathStudy.in","url": base},
+  "publisher":{"@type":"Organization","name":"MathStudy.in","logo":{"@type":"ImageObject","url": base+"/images/logo.png"}},
+  "image": post.cover_image || base+'/images/og-default.png',
+  "mainEntityOfPage":{"@type":"WebPage","@id": postUrl}
+}) %></script>
+
+<!-- marked.js for markdown rendering -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']],
+    displayMath: [['$$','$$'],['\\[','\\]']],
+    tags: 'ams'
+  },
+  options: { skipHtmlTags:['script','noscript','style','textarea','pre'] },
+  startup: { typeset: false }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<style>
+/* ── Reading progress bar ─────────────────────────────────────────────────── */
+#reading-progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,#2563eb,#7c3aed);z-index:9999;transition:width .1s linear}
+
+/* ── Post hero ───────────────────────────────────────────────────────────── */
+.post-hero{background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 60%,#1d4ed8 100%);padding:60px 0 0;color:#fff;position:relative;overflow:hidden}
+.post-hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
+.post-hero-inner{max-width:820px;margin:0 auto;padding:0 24px 48px;position:relative;z-index:1}
+.post-breadcrumb{font-size:0.78rem;color:rgba(255,255,255,.55);margin-bottom:20px;display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.post-breadcrumb a{color:rgba(255,255,255,.6);text-decoration:none;transition:color .15s}
+.post-breadcrumb a:hover{color:#fff}
+.post-breadcrumb span{color:rgba(255,255,255,.3)}
+.post-cat-badge{display:inline-block;background:rgba(255,255,255,.15);backdrop-filter:blur(4px);color:#bfdbfe;padding:4px 14px;border-radius:99px;font-size:0.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:18px;border:1px solid rgba(255,255,255,.1)}
+.post-hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:900;line-height:1.25;color:#fff;margin-bottom:18px;letter-spacing:-.01em}
+.post-hero-excerpt{font-size:1.1rem;color:rgba(255,255,255,.78);line-height:1.65;margin-bottom:24px;max-width:680px}
+.post-meta-bar{display:flex;flex-wrap:wrap;align-items:center;gap:16px;font-size:0.8rem;color:rgba(255,255,255,.5);padding:16px 0;border-top:1px solid rgba(255,255,255,.1)}
+.post-meta-bar span{display:flex;align-items:center;gap:5px}
+.post-meta-bar .meta-icon{opacity:.7;font-size:.9em}
+
+/* ── Cover image strip ─────────────────────────────────────────── */
+.post-cover-wrap{max-width:820px;margin:-32px auto 0;padding:0 24px;position:relative;z-index:2}
+.post-cover-wrap img{width:100%;border-radius:16px;max-height:460px;object-fit:cover;box-shadow:0 20px 60px rgba(0,0,0,.3);display:block}
+
+/* ── Article layout ───────────────────────────────────────────── */
+.post-layout{max-width:820px;margin:0 auto;padding:48px 24px 80px;display:grid;grid-template-columns:1fr 220px;gap:48px;align-items:start}
+@media(max-width:900px){.post-layout{grid-template-columns:1fr;gap:0}}
+
+/* ── Article body typography ──────────────────────────────────── */
+.post-body{min-width:0}
+.blog-content{font-size:1.08rem;line-height:1.85;color:#1e293b;font-family:'Inter',sans-serif}
+.blog-content>*+*{margin-top:1.2em}
+.blog-content h1{font-size:1.9rem;font-weight:800;line-height:1.25;margin:2.4em 0 .8em;color:#0f172a;letter-spacing:-.01em}
+.blog-content h2{font-size:1.5rem;font-weight:800;line-height:1.3;margin:2.2em 0 .7em;color:#0f172a;padding-bottom:8px;border-bottom:3px solid #dbeafe}
+.blog-content h3{font-size:1.18rem;font-weight:700;margin:1.8em 0 .6em;color:#1e3a8a}
+.blog-content h4{font-size:1.05rem;font-weight:700;margin:1.5em 0 .5em;color:#334155}
+.blog-content p{margin-bottom:1.35em}
+.blog-content a{color:#2563eb;text-decoration:underline;text-decoration-color:#bfdbfe;text-underline-offset:3px;transition:text-decoration-color .15s}
+.blog-content a:hover{text-decoration-color:#2563eb}
+.blog-content strong{font-weight:700;color:#0f172a}
+.blog-content em{font-style:italic;color:#475569}
+.blog-content ul{list-style:none;padding-left:0;margin-bottom:1.35em}
+.blog-content ul li{position:relative;padding-left:20px;margin-bottom:8px}
+.blog-content ul li::before{content:'';position:absolute;left:0;top:.7em;width:7px;height:7px;background:#2563eb;border-radius:50%}
+.blog-content ol{padding-left:28px;margin-bottom:1.35em;counter-reset:item}
+.blog-content ol li{margin-bottom:8px;padding-left:4px}
+.blog-content blockquote{border-left:4px solid #2563eb;background:#eff6ff;padding:16px 22px;border-radius:0 10px 10px 0;margin:1.8em 0;color:#1e40af;font-size:1.02rem;position:relative}
+.blog-content blockquote p{margin-bottom:0;color:#1e40af}
+.blog-content code{background:#f1f5f9;padding:2px 7px;border-radius:5px;font-size:.88em;color:#c026d3;font-family:'JetBrains Mono','Fira Code','Courier New',monospace;white-space:nowrap}
+.blog-content pre{background:#0f172a;color:#e2e8f0;padding:22px 24px;border-radius:12px;overflow-x:auto;margin:1.8em 0;position:relative}
+.blog-content pre code{background:transparent;color:#e2e8f0;font-size:.875rem;white-space:pre;line-height:1.7;padding:0}
+.blog-content img{max-width:100%;border-radius:12px;margin:1.8em 0;display:block;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.blog-content hr{border:none;border-top:2px solid #f1f5f9;margin:2.4em 0}
+.blog-content table{width:100%;border-collapse:collapse;margin:1.8em 0;font-size:.95rem;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.blog-content th{background:#1e3a8a;color:#fff;font-weight:700;text-align:left;padding:12px 16px;font-size:.9rem}
+.blog-content td{padding:11px 16px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+.blog-content tr:last-child td{border-bottom:none}
+.blog-content tr:nth-child(even) td{background:#f8fafc}
+.blog-content table{display:block;overflow-x:auto} /* mobile scroll */
+
+/* Math styling */
+.blog-content .MathJax,.blog-content mjx-container{font-size:1.05em}
+.blog-content mjx-container[display="true"]{margin:1.5em auto;display:block;text-align:center;overflow-x:auto}
+.math-block{text-align:center;margin:1.8em 0;overflow-x:auto;padding:8px 0}
+
+/* FAQ section */
+.blog-content h2:has(+h3){margin-bottom:.4em}
+
+/* ── Sidebar ─────────────────────────────────────────────────── */
+.post-sidebar{position:sticky;top:80px}
+@media(max-width:900px){.post-sidebar{display:none}}
+.sidebar-card{background:#fff;border:1.5px solid #e2e8f0;border-radius:14px;padding:20px;margin-bottom:16px}
+.sidebar-card-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8;margin-bottom:14px}
+.toc-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:4px}
+.toc-list a{font-size:0.82rem;color:#475569;text-decoration:none;padding:4px 8px;border-radius:6px;display:block;line-height:1.4;transition:background .12s,color .12s}
+.toc-list a:hover,.toc-list a.active{background:#eff6ff;color:#2563eb}
+.toc-list .toc-h3{padding-left:20px;font-size:0.78rem;color:#94a3b8}
+
+/* ── Bottom share bar ─────────────────────────────────────────── */
+.share-bar{max-width:820px;margin:0 auto;padding:0 24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid #f1f5f9;padding-top:28px}
+.share-label{font-size:0.8rem;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.06em}
+.share-btns{display:flex;gap:10px;flex-wrap:wrap}
+.share-btn{display:inline-flex;align-items:center;gap:7px;padding:8px 16px;border-radius:8px;font-size:0.82rem;font-weight:600;text-decoration:none;border:none;cursor:pointer;transition:opacity .15s;font-family:inherit}
+.share-btn:hover{opacity:.85}
+.share-btn-twitter{background:#e2e8f0;color:#334155}
+.share-btn-whatsapp{background:#dcfce7;color:#15803d}
+.share-btn-linkedin{background:#dbeafe;color:#1d4ed8}
+.share-btn-copy{background:#f1f5f9;color:#475569}
+
+/* ── CTA section ─────────────────────────────────────────────── */
+.post-cta{max-width:820px;margin:0 auto 60px;padding:0 24px}
+.cta-box{background:linear-gradient(135deg,#1e3a8a,#2563eb);border-radius:20px;padding:40px 44px;text-align:center;color:#fff;position:relative;overflow:hidden}
+.cta-box::before{content:'';position:absolute;top:-40px;right:-40px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%}
+.cta-box::after{content:'';position:absolute;bottom:-30px;left:-30px;width:120px;height:120px;background:rgba(255,255,255,.04);border-radius:50%}
+.cta-emoji{font-size:2.2rem;margin-bottom:10px;display:block}
+.cta-box h3{font-size:1.4rem;font-weight:800;margin-bottom:10px;position:relative;z-index:1}
+.cta-box p{color:rgba(255,255,255,.8);margin-bottom:22px;font-size:0.95rem;position:relative;z-index:1}
+.cta-btn{display:inline-block;background:#fff;color:#1e3a8a;padding:12px 28px;border-radius:10px;font-weight:700;font-size:0.95rem;text-decoration:none;transition:transform .15s,box-shadow .15s;position:relative;z-index:1}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+
+/* ── Back link ────────────────────────────────────────────────── */
+.post-back{max-width:820px;margin:0 auto;padding:0 24px 16px}
+.post-back a{color:#2563eb;font-weight:600;font-size:0.875rem;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.post-back a:hover{text-decoration:underline}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media(max-width:640px){
+  .post-hero-inner{padding:0 16px 40px}
+  .post-cover-wrap{padding:0 16px;margin-top:-20px}
+  .post-layout{padding:32px 16px 60px}
+  .blog-content{font-size:1rem}
+  .blog-content h2{font-size:1.3rem}
+  .blog-content h3{font-size:1.05rem}
+  .cta-box{padding:28px 24px}
+  .share-bar,.post-cta,.post-back{padding-left:16px;padding-right:16px}
+}
+</style>
+
+<!-- Reading progress bar -->
+<div id="reading-progress"></div>
+
+<!-- ── HERO ─────────────────────────────────────────────────────────────────── -->
+<div class="post-hero">
+  <div class="post-hero-inner">
+
+    <!-- Breadcrumb -->
+    <nav class="post-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span>/</span>
+      <a href="/blog">Blog</a>
+      <% if (post.category) { %>
+      <span>/</span>
+      <a href="/blog?cat=<%= encodeURIComponent(post.category) %>"><%= post.category %></a>
+      <% } %>
+    </nav>
+
+    <!-- Category badge -->
+    <% if (post.category) { %>
+    <a href="/blog?cat=<%= encodeURIComponent(post.category) %>" class="post-cat-badge"><%= post.category %></a>
+    <% } %>
+
+    <!-- Title -->
+    <h1><%= post.title %></h1>
+
+    <!-- Excerpt -->
+    <% if (post.excerpt) { %>
+    <p class="post-hero-excerpt"><%= post.excerpt %></p>
+    <% } %>
+
+    <!-- Meta bar -->
+    <div class="post-meta-bar">
+      <span>
+        <svg class="meta-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <%= new Date(post.created_at).toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'}) %>
+      </span>
+      <span>
+        <svg class="meta-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <%= post.author || 'Vidara Editorial Team' %>
+      </span>
+      <span>
+        <svg class="meta-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <%= readingTime %> min read
+      </span>
+      <span>
+        <svg class="meta-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        <%= post.views %> views
+      </span>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── COVER IMAGE ────────────────────────────────────────────────────────────── -->
+<% if (post.cover_image) { %>
+<div class="post-cover-wrap">
+  <img src="<%= post.cover_image %>" alt="<%= post.title %>" loading="eager">
+</div>
+<% } %>
+
+<!-- ── ARTICLE ─────────────────────────────────────────────────────────────── -->
+<div class="post-layout">
+
+  <!-- Main content -->
+  <article class="post-body" itemscope itemtype="https://schema.org/BlogPosting">
+    <div class="blog-content" id="blog-content">
+      <!-- Content rendered by JS below -->
+    </div>
+    <!-- Raw content store for JS -->
+    <script type="text/markdown" id="raw-content"><%- (post.content || '').replace(/<\/script>/g, '<\\/script>') %></script>
+  </article>
+
+  <!-- Sidebar ToC -->
+  <aside class="post-sidebar" id="post-sidebar">
+    <div class="sidebar-card">
+      <div class="sidebar-card-title">In this article</div>
+      <ul class="toc-list" id="toc-list">
+        <!-- Built by JS -->
+      </ul>
+    </div>
+  </aside>
+
+</div>
+
+<!-- ── SHARE BAR ─────────────────────────────────────────────────────────────── -->
+<div class="share-bar">
+  <a href="/blog" style="color:#2563eb;font-weight:600;font-size:0.875rem;text-decoration:none;display:flex;align-items:center;gap:6px">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg>
+    Back to Blog
+  </a>
+  <div class="share-btns">
+    <span class="share-label">Share:</span>
+    <a class="share-btn share-btn-twitter"
+       href="https://twitter.com/intent/tweet?text=<%= encodeURIComponent(post.title) %>&url=<%= encodeURIComponent(postUrl) %>"
+       target="_blank" rel="noopener noreferrer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      Twitter
+    </a>
+    <a class="share-btn share-btn-whatsapp"
+       href="https://wa.me/?text=<%= encodeURIComponent(post.title + ' — ' + postUrl) %>"
+       target="_blank" rel="noopener noreferrer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M20.52 3.449C12.831-3.984.106 1.407.101 11.893c0 2.096.549 4.14 1.595 5.945L.057 24l6.302-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.42-8.452z"/></svg>
+      WhatsApp
+    </a>
+    <a class="share-btn share-btn-linkedin"
+       href="https://www.linkedin.com/sharing/share-offsite/?url=<%= encodeURIComponent(postUrl) %>"
+       target="_blank" rel="noopener noreferrer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn
+    </a>
+    <button class="share-btn share-btn-copy" onclick="copyLink()" id="copy-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      Copy link
+    </button>
+  </div>
+</div>
+
+<!-- ── CTA ────────────────────────────────────────────────────────────────────── -->
+<div class="post-cta">
+  <div class="cta-box">
+    <span class="cta-emoji">📚</span>
+    <h3>Want solved practice sets?</h3>
+    <p>Our CBSE Class 12 Maths Case Study Workbooks have 40+ probability questions with full step-by-step solutions — built for March boards.</p>
+    <a href="/shop" class="cta-btn">Browse Practice E-Books &rarr;</a>
+  </div>
+</div>
+
+<script>
+(function() {
+
+// ── 1. Render markdown or HTML content ───────────────────────────────────────
+var rawEl   = document.getElementById('raw-content');
+var target  = document.getElementById('blog-content');
+var raw     = rawEl ? rawEl.textContent.trim() : '';
+
+function isHTML(str) {
+  return /<[a-z][\s\S]*>/i.test(str);
+}
+
+function renderContent(str) {
+  if (!str) { target.innerHTML = '<p style="color:#94a3b8">Content coming soon.</p>'; return; }
+
+  if (isHTML(str)) {
+    // Already stored as HTML (old posts)
+    target.innerHTML = str;
+  } else {
+    // Markdown — protect math, parse, restore
+    var mathStore = [];
+
+    function protect(s) {
+      return s
+        // Display math $$...$$
+        .replace(/\$\$([\s\S]*?)\$\$/g, function(m, p) {
+          mathStore.push('\n<div class="math-block">\\[' + p + '\\]</div>\n');
+          return '\n\nMATHPLACEHOLDER' + (mathStore.length - 1) + '\n\n';
+        })
+        // Inline math $...$  (not $$ and not escaped)
+        .replace(/(?<!\$)\$(?!\$)([^\$\n]{1,300}?)(?<!\$)\$(?!\$)/g, function(m, p) {
+          mathStore.push('\\(' + p + '\\)');
+          return 'MATHPLACEHOLDER' + (mathStore.length - 1);
+        });
+    }
+
+    var protected_md = protect(str);
+
+    // Configure marked
+    if (typeof marked !== 'undefined') {
+      marked.setOptions({ breaks: true, gfm: true, smartLists: true });
+      var html = marked.parse(protected_md);
+      // Restore math
+      html = html.replace(/MATHPLACEHOLDER(\d+)/g, function(m, i) {
+        return mathStore[parseInt(i)];
+      });
+      target.innerHTML = html;
+    } else {
+      // marked not loaded — fallback: just convert ## headings manually
+      target.innerHTML = str.replace(/\n/g, '<br>');
+    }
+  }
+
+  // Typeset math
+  if (window.MathJax && MathJax.typesetPromise) {
+    MathJax.typesetPromise([target]).catch(function(){});
+  } else {
+    // MathJax not ready yet — wait for it
+    document.addEventListener('MathJaxReadyToTypeset', function() {
+      if (MathJax.typesetPromise) MathJax.typesetPromise([target]).catch(function(){});
+    });
+    setTimeout(function() {
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([target]).catch(function(){});
+      }
+    }, 1500);
+  }
+}
+
+renderContent(raw);
+
+// ── 2. Build table of contents from h2/h3 ────────────────────────────────────
+function buildToC() {
+  var tocList   = document.getElementById('toc-list');
+  var sidebar   = document.getElementById('post-sidebar');
+  if (!tocList) return;
+
+  var headings = target.querySelectorAll('h2, h3');
+  if (headings.length < 2) { if (sidebar) sidebar.style.display = 'none'; return; }
+
+  headings.forEach(function(h, i) {
+    var id = 'heading-' + i;
+    h.id = id;
+    var li = document.createElement('li');
+    var a  = document.createElement('a');
+    a.href = '#' + id;
+    a.textContent = h.textContent;
+    if (h.tagName === 'H3') a.className = 'toc-h3';
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+
+  // Highlight active heading on scroll
+  var tocLinks = tocList.querySelectorAll('a');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        tocLinks.forEach(function(l) { l.classList.remove('active'); });
+        var link = tocList.querySelector('a[href="#' + entry.target.id + '"]');
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0% -70% 0%' });
+
+  headings.forEach(function(h) { observer.observe(h); });
+}
+
+// Build ToC after content + MathJax settle
+setTimeout(buildToC, 500);
+
+// ── 3. Reading progress bar ───────────────────────────────────────────────────
+var bar = document.getElementById('reading-progress');
+window.addEventListener('scroll', function() {
+  var scrollTop  = window.scrollY || document.documentElement.scrollTop;
+  var docHeight  = document.documentElement.scrollHeight - window.innerHeight;
+  var pct        = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  bar.style.width = Math.min(100, pct) + '%';
+}, { passive: true });
+
+// ── 4. Copy link ──────────────────────────────────────────────────────────────
+window.copyLink = function() {
+  var url = window.location.href;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(function() {
+      var btn = document.getElementById('copy-btn');
+      if (btn) { btn.textContent = 'Copied!'; setTimeout(function(){ btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy link'; }, 2000); }
+    });
+  }
+};
+
+})();
+</script>

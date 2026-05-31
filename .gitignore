@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────
+# MathStudy.in — covers all three stacks (Express, Laravel, Next.js)
+# ─────────────────────────────────────────────────────────────
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment & secrets (NEVER commit real keys)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+
+# Build output / caches
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# Laravel runtime (api/)
+/api/storage/*.key
+/api/storage/framework/cache/*
+/api/storage/framework/sessions/*
+/api/storage/framework/testing/*
+/api/storage/framework/views/*
+/api/storage/logs/*
+/api/bootstrap/cache/*
+/api/.phpunit.result.cache
+/api/public/storage
+
+# Uploaded / sellable content — keep paid e-book PDFs and bulk media out of git
+public/uploads/products/*
+*.pdf
+
+# Secret product download links (Google Drive) — server-side only, never public
+data/download-urls.json
+
+# Logs & OS junk
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Personal working note that contains the secret Drive links
+PRODUCT URLS

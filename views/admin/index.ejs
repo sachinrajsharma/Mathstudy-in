@@ -1,0 +1,45 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
+    <nav class="admin-nav">
+      <a href="/admin" class="active">Dashboard</a>
+      <a href="/admin/products">Products</a>
+      <a href="/admin/orders">Orders</a>
+      <a href="/admin/users">Users</a>
+      <a href="/admin/blog">Blog</a>
+      <a href="/shop" target="_blank">View Shop</a>
+    </nav>
+  </aside>
+  <div class="admin-main">
+    <div class="admin-title">Dashboard</div>
+    <div class="admin-sub">Welcome back, <%= user.name %></div>
+
+    <div class="stat-cards">
+      <div class="stat-card"><div class="stat-label">Total Revenue</div><div class="stat-value">&#8377;<%= parseFloat(stats.revenue).toFixed(0) %></div><div class="stat-icon">💰</div></div>
+      <div class="stat-card"><div class="stat-label">Paid Orders</div><div class="stat-value"><%= stats.orders %></div><div class="stat-icon">📦</div></div>
+      <div class="stat-card"><div class="stat-label">Products</div><div class="stat-value"><%= stats.products %></div><div class="stat-icon">📚</div></div>
+      <div class="stat-card"><div class="stat-label">Users</div><div class="stat-value"><%= stats.users %></div><div class="stat-icon">👥</div></div>
+    </div>
+
+    <h3 style="margin-bottom:16px">Recent Orders</h3>
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Order ID</th><th>Buyer</th><th>Email</th><th>Amount</th><th>Status</th><th>Date</th></tr></thead>
+        <tbody>
+          <% recent_orders.forEach(function(o){ %>
+          <tr>
+            <td>#<%= o.id %></td>
+            <td><%= o.buyer %></td>
+            <td><%= o.email %></td>
+            <td>&#8377;<%= parseFloat(o.total_amount).toFixed(0) %></td>
+            <td><span class="order-status status-<%= o.status %>"><%= o.status %></span></td>
+            <td><%= new Date(o.created_at).toLocaleDateString('en-IN') %></td>
+          </tr>
+          <% }); %>
+          <% if (!recent_orders.length) { %><tr><td colspan="6" style="text-align:center;color:var(--muted)">No orders yet</td></tr><% } %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free K-12 Study Material, Online Tests & Premium E-Books | MathStudy.in</title>
+    <meta name="description" content="Access free high-quality K-12 study materials, CBSE/ICSE mock tests, and premium math e-books for JEE Main, Advanced & Olympiads at MathStudy.in.">
+    <link rel="canonical" href="https://mathstudy.in" />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "MathStudy",
+      "url": "https://mathstudy.in",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://mathstudy.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #1e3a8a;       /* Deep Trust Blue */
+            --secondary: #0d9488;     /* Emerald Teal */
+            --dark: #0f172a;          /* Slate Dark text */
+            --light: #f8fafc;         /* Ultra-clean white-gray background */
+            --accent: #f59e0b;        /* Attention gold */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        /* --- Header & Navigation --- */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            margin-left: 25px;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--secondary);
+        }
+
+        .btn-premium {
+            background: var(--secondary);
+            color: #ffffff !important;
+            padding: 8px 16px;
+            border-radius: 6px;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 46px;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.2;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #475569;
+            margin-bottom: 35px;
+        }
+
+        /* --- Clean Search Architecture --- */
+        .search-box {
+            background: #ffffff;
+            border: 2px solid #cbd5e1;
+            border-radius: 50px;
+            padding: 6px 6px 6px 24px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+            max-width: 600px;
+            margin: 0 auto 15px auto;
+            transition: border-color 0.2s;
+        }
+
+        .search-box:focus-within {
+            border-color: var(--primary);
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 16px;
+            color: var(--dark);
+        }
+
+        .search-box button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .search-box button:hover {
+            opacity: 0.9;
+        }
+
+        .search-tags {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        .search-tags span {
+            color: var(--primary);
+            cursor: pointer;
+            margin: 0 4px;
+        }
+
+        /* --- Main Layout Grid --- */
+        .main-content {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        /* --- Cards UI --- */
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05);
+        }
+
+        .tag-free {
+            background: #e0f2fe;
+            color: #0369a1;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .tag-premium {
+            background: #fef3c7;
+            color: #b45309;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 15px;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .card-btn {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* --- Competitive Advantages / trust banner --- */
+        .trust-banner {
+            background: var(--primary);
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 16px;
+            margin-bottom: 60px;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .trust-item h4 {
+            font-size: 24px;
+            color: var(--accent);
+            margin-bottom: 5px;
+        }
+
+        .trust-item p {
+            font-size: 14px;
+            color: #93c5fd;
+        }
+
+        /* --- Responsive Design Adjustment --- */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 32px; }
+            .nav-links { display: none; } /* Add a mobile menu drawer in production */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">mathstudy<span>.in</span></a>
+            <nav class="nav-links">
+                <a href="#free-materials">Free Material</a>
+                <a href="#online-tests">Online Tests</a>
+                <a href="#premium-books" class="btn-premium">Premium E-Books</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Master Mathematics from Class 3 to JEE Advanced</h1>
+            <p>High-quality verified study materials, chapter-wise systematic test series, and premium e-books written by experienced educators. No hidden platform costs.</p>
+            
+            <form action="/search" method="GET" class="search-box">
+                <input type="text" name="q" placeholder="Search chapters (e.g., Quadratic Equations, Integers)..." required autocomplete="off">
+                <button type="submit">Search</button>
+            </form>
+            <div class="search-tags">
+                Trending: <span>Class 12 Calculus</span> | <span>Class 7 Fractions</span> | <span>IMO Mock Set 20</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+
+        <div class="trust-banner">
+            <h2>Why Millions Choose MathStudy.in</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <h4>0% Fees</h4>
+                    <p>Direct Zero-Fee UPI Payment</p>
+                </div>
+                <div class="trust-item">
+                    <h4>100% Secure</h4>
+                    <p>Verified Domain Security</p>
+                </div>
+                <div class="trust-item">
+                    <h4>Curated Text</h4>
+                    <p>Strict CBSE, ICSE & JEE Alignment</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title" id="premium-books">🎯 High-Yield Premium E-Books</h2>
+        <div class="grid-3">
+            
+            <div class="card">
+                <span class="tag-premium">JEE MAIN / ADVANCED</span>
+                <h3>Advanced Calculus Mastery Pack</h3>
+                <p>Complete conceptual breakdown of limits, continuity, and high-order integration methods with hand-picked archive questions.</p>
+                <div class="card-footer">
+                    <span class="price">₹149</span>
+                    <a href="/ebooks/advanced-calculus" class="card-btn">Instant Scan & Pay →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="tag-premium">JEE MAIN / OLYMPIAD</span>
+                <h3>Algebra & Complex Numbers Vol 1</h3>
+                <p>Mastering quadratic structures, complex mapping parameters, and high-speed algebraic manipulation for top ranks.</p>
+                <div class="card-footer">
+                    <span class="price">₹199</span>
+                    <a href="/ebooks/algebra-vol-1" class="card-btn">Instant Scan & Pay →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="tag-premium">FOUNDATION / IMO</span>
+                <h3>Class 3 IMO Olympiad Crackers</h3>
+                <p>Contains full-length sample papers (Sets 1-20) with strict mathematical and logical reasoning analytical criteria.</p>
+                <div class="card-footer">
+                    <span class="price">₹99</span>
+                    <a href="/ebooks/imo-class-3" class="card-btn">Instant Scan & Pay →</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2 class="section-title" id="free-materials">📚 Free K-12 Syllabus Resources</h2>
+        <div class="grid-3">
+            
+            <div class="card">
+                <span class="tag-free">CBSE CLASS 12</span>
+                <h3>Matrices & Determinants Notes</h3>
+                <p>Fully updated syllabus text strictly removing old properties functions. Free PDF Download.</p>
+                <div class="card-footer">
+                    <span class="price" style="color: var(--secondary);">FREE</span>
+                    <a href="/free/matrices-notes" class="card-btn" style="color: var(--primary);">Download PDF</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="tag-free">ICSE CLASS 7</span>
+                <h3>Fractions & Rational Numbers Pack</h3>
+                <p>Complete classroom chapter worksheets with clean conceptual explanations and keys.</p>
+                <div class="card-footer">
+                    <span class="price" style="color: var(--secondary);">FREE</span>
+                    <a href="/free/class-7-fractions" class="card-btn" style="color: var(--primary);">Download PDF</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="tag-free">ONLINE TEST</span>
+                <h3>JEE Main Mock Test Series 2026</h3>
+                <p>Interactive self-assessment platform with timer for sequences, series, and quadratic formulas.</p>
+                <div class="card-footer">
+                    <span class="price" style="color: var(--secondary);">FREE</span>
+                    <a href="/tests/jee-main-mock" class="card-btn" style="color: var(--primary);">Start Test Now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer style="background: var(--dark); color: #94a3b8; text-align: center; padding: 40px 20px; font-size: 14px; border-top: 4px solid var(--secondary);">
+        <p>&copy; 2026 mathstudy.in. Built for Elite Mathematical Performance. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

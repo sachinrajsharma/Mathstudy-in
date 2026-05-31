@@ -1,0 +1,33 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
+    <nav class="admin-nav">
+      <a href="/admin">Dashboard</a>
+      <a href="/admin/products">Products</a>
+      <a href="/admin/orders">Orders</a>
+      <a href="/admin/users" class="active">Users</a>
+      <a href="/admin/blog">Blog</a>
+    </nav>
+  </aside>
+  <div class="admin-main">
+    <div class="admin-title">Users</div>
+    <div class="admin-sub"><%= users.length %> registered users</div>
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Orders</th><th>Joined</th></tr></thead>
+        <tbody>
+          <% users.forEach(function(u){ %>
+          <tr>
+            <td><strong><%= u.name %></strong></td>
+            <td><%= u.email %></td>
+            <td><span style="font-size:0.72rem;font-weight:700;padding:2px 8px;border-radius:20px;background:<%= u.role==='super_admin'?'#fef9c3':u.role==='admin'?'#e0f2fe':'#f3f4f6' %>;color:<%= u.role==='super_admin'?'#854d0e':u.role==='admin'?'#0369a1':'#374151' %>"><%= u.role %></span></td>
+            <td><%= u.order_count %></td>
+            <td><%= new Date(u.created_at).toLocaleDateString('en-IN') %></td>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

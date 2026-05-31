@@ -1,0 +1,46 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
+    <nav class="admin-nav">
+      <a href="/admin">Dashboard</a>
+      <a href="/admin/products" class="active">Products</a>
+      <a href="/admin/orders">Orders</a>
+      <a href="/admin/users">Users</a>
+      <a href="/admin/blog">Blog</a>
+    </nav>
+  </aside>
+  <div class="admin-main">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px">
+      <div><div class="admin-title">Products</div><div class="admin-sub"><%= products.length %> total</div></div>
+      <a href="/admin/products/new" class="btn btn-primary">+ Add Product</a>
+    </div>
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Title</th><th>Category</th><th>Price</th><th>Grade</th><th>Published</th><th>Actions</th></tr></thead>
+        <tbody>
+          <% products.forEach(function(p){ %>
+          <tr id="product-row-<%= p.id %>">
+            <td><strong><%= p.title.substring(0,50) %><%= p.title.length>50?'...':'' %></strong></td>
+            <td><%= p.cat_name||'—' %></td>
+            <td>&#8377;<%= parseFloat(p.price).toFixed(0) %></td>
+            <td><%= p.grade||'—' %></td>
+            <td>
+              <label style="cursor:pointer">
+                <input type="checkbox" <%= p.is_published?'checked':'' %> onchange="toggleProduct(<%= p.id %>,'is_published',this.checked)">
+                <%= p.is_published ? 'Yes':'No' %>
+              </label>
+            </td>
+            <td style="display:flex;gap:8px">
+              <a href="/admin/products/<%= p.id %>/edit" class="btn btn-ghost btn-sm">Edit</a>
+              <a href="/shop/product/<%= p.slug %>" target="_blank" class="btn btn-ghost btn-sm">View</a>
+              <button class="btn btn-danger btn-sm" onclick="deleteProduct(<%= p.id %>)">Remove</button>
+            </td>
+          </tr>
+          <% }); %>
+          <% if (!products.length) { %><tr><td colspan="6" style="text-align:center;color:var(--muted)">No products yet. <a href="/admin/products/new">Add your first product.</a></td></tr><% } %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

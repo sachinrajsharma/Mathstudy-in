@@ -1,0 +1,122 @@
+<% locals.layout = 'layout' %>
+<%
+const base = locals.baseUrl || 'https://mathstudy.in';
+const discount = product.original_price && product.original_price > product.price
+  ? Math.round((1 - product.price/product.original_price)*100) : 0;
+const productSchema = JSON.stringify({
+  "@context":"https://schema.org","@type":"Product",
+  "name": product.title,
+  "description": product.short_desc || '',
+  "image": product.cover_image ? base+product.cover_image : '',
+  "offers": {
+    "@type":"Offer","priceCurrency":"INR",
+    "price": product.price,
+    "availability":"https://schema.org/InStock",
+    "url": base+'/shop/product/'+product.slug
+  }
+});
+%>
+<script type="application/ld+json"><%- productSchema %></script>
+
+<div class="container" style="padding-top:32px;padding-bottom:60px">
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">Home</a><span>/</span>
+    <a href="/shop">Shop</a><span>/</span>
+    <% if (product.cat_name) { %>
+      <a href="/shop/category/<%= product.cat_slug %>"><%= product.cat_name %></a><span>/</span>
+    <% } %>
+    <span><%= product.title %></span>
+  </nav>
+
+  <div class="product-detail">
+    <!-- Cover -->
+    <div class="product-cover-wrap">
+      <div class="product-cover">
+        <% if (product.cover_image) { %>
+          <img src="<%= product.cover_image %>" alt="<%= product.title %>" >
+        <% } else { %>
+          <div style="display:flex;align-items:center;justify-content:center;height:400px;background:#f3f4f6;font-size:5rem">📚</div>
+        <% } %>
+      </div>
+      <div style="margin-top:16px;padding:16px;background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px">
+        <p style="font-size:0.82rem;color:#0369a1;font-weight:600;margin-bottom:6px">Secure Instant Download</p>
+        <p style="font-size:0.78rem;color:#0284c7">After payment, download your PDF immediately. Re-download up to 5 times within 48 hours, and always from your dashboard.</p>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div class="product-info">
+      <div class="product-meta">
+        <% if (product.cat_name) { %><span class="product-badge"><%= product.cat_name %></span><% } %>
+        <% if (product.grade) { %><span class="product-badge" style="background:#dcfce7;color:#166534"><%= product.grade %></span><% } %>
+        <% if (product.board) { %><span class="product-badge" style="background:#fef9c3;color:#854d0e"><%= product.board %></span><% } %>
+      </div>
+      <h1><%= product.title %></h1>
+
+      <div class="product-price">
+        <span class="price-current">&#8377;<%= parseFloat(product.price).toFixed(0) %></span>
+        <% if (discount) { %>
+          <span class="price-original">&#8377;<%= parseFloat(product.original_price).toFixed(0) %></span>
+          <span class="price-discount"><%= discount %>% OFF</span>
+        <% } %>
+      </div>
+
+      <% if (product.short_desc) { %>
+        <p class="product-desc"><%= product.short_desc %></p>
+      <% } %>
+      <% if (product.description) { %>
+        <div style="font-size:0.93rem;color:var(--mid);line-height:1.8;margin-bottom:24px"><%- product.description %></div>
+      <% } %>
+
+      <!-- CTA -->
+      <div class="product-cta">
+        <% if (alreadyOwned) { %>
+          <div class="alert alert-success" style="margin:0">
+            You already own this book. <a href="/dashboard">Go to My Orders</a> to download.
+          </div>
+        <% } else { %>
+          <button class="btn btn-primary btn-lg" onclick="addToCart('<%= product.id %>', this)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            Add to Cart — &#8377;<%= parseFloat(product.price).toFixed(0) %>
+          </button>
+          <a href="/cart" class="btn btn-outline btn-lg">Buy Now</a>
+        <% } %>
+      </div>
+
+      <!-- Features -->
+      <div class="product-features">
+        <div class="feature-item"><span class="feature-icon">✓</span> Instant PDF download</div>
+        <div class="feature-item"><span class="feature-icon">✓</span> High-quality content</div>
+        <div class="feature-item"><span class="feature-icon">✓</span> CBSE/ICSE aligned</div>
+        <% if (product.page_count) { %><div class="feature-item"><span class="feature-icon">✓</span> <%= product.page_count %> pages</div><% } %>
+        <div class="feature-item"><span class="feature-icon">✓</span> Re-download up to 5x</div>
+        <div class="feature-item"><span class="feature-icon">✓</span> Works on all devices</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Related products -->
+  <% if (related && related.length) { %>
+  <div style="margin-top:60px">
+    <h2 style="margin-bottom:24px">You Might Also Like</h2>
+    <div class="products-grid">
+      <% related.forEach(function(p){ %>
+      <div class="product-card">
+        <a href="/shop/product/<%= p.slug %>" class="product-card-img">
+          <% if (p.cover_image) { %><img src="<%= p.cover_image %>" alt="<%= p.title %>" loading="lazy"><% } else { %><div class="no-cover">📚</div><% } %>
+        </a>
+        <div class="product-card-body">
+          <a href="/shop/product/<%= p.slug %>"><div class="product-card-title"><%= p.title %></div></a>
+          <div class="product-card-price">
+            <span class="price-current">&#8377;<%= parseFloat(p.price).toFixed(0) %></span>
+            <% if (p.original_price && p.original_price > p.price) { %><span class="price-original">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span><% } %>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="addToCart('<%= p.id %>', this)">Add to Cart</button>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+  <% } %>
+</div>

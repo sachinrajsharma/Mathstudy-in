@@ -1,0 +1,132 @@
+<% locals.layout = 'layout' %>
+<%
+const base = locals.baseUrl || 'https://mathstudy.in';
+const schemaWebsite = JSON.stringify({
+  "@context":"https://schema.org","@type":"WebSite","name":"MathStudy.in","url":base,
+  "potentialAction":{"@type":"SearchAction","target":base+"/shop?q={search_term_string}","query-input":"required name=search_term_string"}
+});
+%>
+<script type="application/ld+json"><%- schemaWebsite %></script>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 11l3 3L22 4"/></svg>
+      Trusted by 10,000+ students across India
+    </div>
+    <h1>Premium Math E-Books<br>for Every Grade &amp; Exam</h1>
+    <p class="hero-sub">Download high-quality PDF workbooks, case studies and sample papers for CBSE, ICSE, JEE and competitive exams. Instant access after payment.</p>
+    <div class="hero-cta">
+      <a href="/shop" class="btn btn-accent btn-lg">Browse All E-Books</a>
+      <a href="/shop/category/jee-mathematics" class="btn btn-lg" style="background:rgba(255,255,255,0.15);color:#fff;border:1.5px solid rgba(255,255,255,0.4)">JEE Mathematics</a>
+    </div>
+  </div>
+</section>
+
+<!-- Trust bar -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item"><span class="trust-icon">✓</span> Instant PDF Download</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> CBSE &amp; ICSE Aligned</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> 42+ Premium Books</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> Secure Razorpay Checkout</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> Re-download Anytime</div>
+    </div>
+  </div>
+</div>
+
+<!-- Categories -->
+<section class="section-sm">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-tag">Browse by Category</div>
+      <h2>Find the Right Book</h2>
+      <p>From Grade 1 worksheets to JEE advanced problem sets — we have it covered.</p>
+    </div>
+    <div class="cats-grid">
+      <% cats.forEach(function(cat){ %>
+      <a href="/shop/category/<%= cat.slug %>" class="cat-card">
+        <div class="cat-card-icon">
+          <% const icons = {'grade-1-math':'1️⃣','grade-2-math':'2️⃣','grade-3-math':'3️⃣','grade-4-math':'4️⃣','grade-5-math':'5️⃣','grade-6-math':'6️⃣','grade-7-math':'7️⃣','grade-8-math':'8️⃣','class-9-mathematics':'9️⃣','class-12-mathematics':'🎓','jee-mathematics':'📐','case-studies-class-8':'📊','case-studies-class-9':'📈','case-studies-class-12':'📉','competitive-exams':'🏆','cuet-mathematics':'✏️'}; %>
+          <%= icons[cat.slug] || '📚' %>
+        </div>
+        <div class="cat-card-name"><%= cat.name %></div>
+        <div class="cat-card-count"><%= cat.product_count %> books</div>
+      </a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<!-- Featured products -->
+<% if (featured && featured.length) { %>
+<section class="section" style="background:#fff;border-top:1px solid var(--border)">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-tag">Featured</div>
+      <h2>Most Popular E-Books</h2>
+      <p>Hand-picked by our educators. Used by thousands of students for board exam and JEE prep.</p>
+    </div>
+    <div class="products-grid">
+      <% featured.forEach(function(p){ %>
+      <div class="product-card">
+        <a href="/shop/product/<%= p.slug %>" class="product-card-img">
+          <% if (p.cover_image) { %>
+            <img src="<%= p.cover_image %>" alt="<%= p.title %>" loading="lazy">
+          <% } else { %>
+            <div class="no-cover">📚</div>
+          <% } %>
+          <% if (p.original_price && p.original_price > p.price) { %>
+            <span class="badge-discount">
+              -<%= Math.round((1-p.price/p.original_price)*100) %>%
+            </span>
+          <% } %>
+        </a>
+        <div class="product-card-body">
+          <% if (p.grade) { %><div class="product-card-cat"><%= p.grade %></div><% } %>
+          <a href="/shop/product/<%= p.slug %>"><div class="product-card-title"><%= p.title %></div></a>
+          <div class="product-card-price">
+            <span class="price-current">&#8377;<%= parseFloat(p.price).toFixed(0) %></span>
+            <% if (p.original_price && p.original_price > p.price) { %>
+              <span class="price-original">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span>
+            <% } %>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="addToCart('<%= p.id %>', this)">Add to Cart</button>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+    <div style="text-align:center;margin-top:32px">
+      <a href="/shop" class="btn btn-outline">View All E-Books &rarr;</a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- Why choose us -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-tag">Why MathStudy.in</div>
+      <h2>Study Smarter, Not Harder</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px">
+      <% [
+        {icon:'📥',title:'Instant Download',desc:'Get your PDF immediately after payment — no waiting, no shipping.'},
+        {icon:'🎯',title:'Exam-Focused Content',desc:'Every book is aligned to the latest CBSE/ICSE syllabus and exam pattern.'},
+        {icon:'💰',title:'Affordable Prices',desc:'Books starting at just ₹7. Quality education shouldn\'t be expensive.'},
+        {icon:'♾️',title:'Re-download Anytime',desc:'Your purchases are always available in your account dashboard.'},
+        {icon:'🛡️',title:'Secure Payment',desc:'Payments processed by Razorpay — India\'s most trusted gateway.'},
+        {icon:'📱',title:'Read on Any Device',desc:'PDF format works on mobile, tablet, laptop and any PDF reader.'}
+      ].forEach(function(f){ %>
+      <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px">
+        <div style="font-size:2rem;margin-bottom:12px"><%= f.icon %></div>
+        <h3 style="margin-bottom:8px"><%= f.title %></h3>
+        <p><%= f.desc %></p>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</section>

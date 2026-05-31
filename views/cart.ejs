@@ -1,0 +1,148 @@
+<% locals.layout = 'layout' %>
+<div class="container" style="padding:40px 20px;max-width:680px">
+  <h1 style="margin-bottom:28px">Your Cart</h1>
+
+  <% if (!cart || !cart.length) { %>
+    <div style="text-align:center;padding:60px 0">
+      <div style="font-size:3rem;margin-bottom:12px">&#128722;</div>
+      <h3>Your cart is empty</h3>
+      <p style="margin:10px 0 20px">Add some e-books to get started.</p>
+      <a href="/shop" class="btn btn-primary">Browse E-Books</a>
+    </div>
+
+  <% } else { %>
+
+    <div id="cartItemsList">
+      <% cart.forEach(function(item){ %>
+      <div class="cart-item" data-cart-item="<%= item.id %>">
+        <div class="cart-item-img">
+          <% if (item.cover) { %>
+            <img src="<%= item.cover %>" alt="<%= item.title %>">
+          <% } else { %>
+            <div style="background:#f3f4f6;height:100%;display:flex;align-items:center;justify-content:center;font-size:1.8rem">&#128218;</div>
+          <% } %>
+        </div>
+        <div class="cart-item-info">
+          <div class="cart-item-title"><%= item.title %></div>
+          <div class="cart-item-price">&#8377;<%= parseFloat(item.price).toFixed(0) %></div>
+          <button class="cart-remove" onclick="removeFromCart('<%= item.id %>', this)">&#10005; Remove</button>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+
+    <div class="cart-total">
+      <span>Total</span>
+      <span id="cartTotal" style="font-size:1.3rem;color:var(--primary)">&#8377;<%= total.toFixed(0) %></span>
+    </div>
+
+    <% if (locals.user && user) { %>
+
+      <!-- Step 1: Checkout button -->
+      <div id="payStep1">
+        <button class="btn btn-primary btn-lg"
+          style="width:100%;justify-content:center;margin-top:16px"
+          onclick="showUpiPayment()">
+          Proceed to Payment &#8212; &#8377;<%= total.toFixed(0) %>
+        </button>
+        <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin-top:10px">
+          Pay securely via UPI. Books available in your dashboard after approval.
+        </p>
+      </div>
+
+      <!-- Step 2: QR Code payment panel -->
+      <div id="payStep2" style="display:none;margin-top:20px">
+        <div style="border:2px solid #e2e8f0;border-radius:16px;overflow:hidden;background:#fff">
+
+          <div style="background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:14px 20px;text-align:center">
+            <div style="font-size:1rem;font-weight:700">Pay via UPI</div>
+            <div style="font-size:0.8rem;opacity:0.85;margin-top:2px">PhonePe &bull; Google Pay &bull; Paytm &bull; Any UPI App</div>
+          </div>
+
+          <div style="padding:28px 20px;text-align:center">
+            <p style="font-size:0.82rem;color:#64748b;margin-bottom:14px">Scan the QR code with any UPI app to pay</p>
+
+            <img src="<%= qrUrl %>" alt="UPI QR Code" width="230" height="230"
+              style="border:8px solid #f8fafc;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,0.1);display:block;margin:0 auto">
+
+            <div style="margin-top:18px;padding:10px 24px;background:#eff6ff;border-radius:10px;display:inline-block">
+              <div style="font-size:0.7rem;color:#64748b;text-transform:uppercase;letter-spacing:1px">Amount</div>
+              <div style="font-size:2rem;font-weight:800;color:#1e3a8a">&#8377;<%= total.toFixed(0) %></div>
+              <div style="font-size:0.72rem;color:#64748b">to MathStudy.in</div>
+            </div>
+          </div>
+
+          <div style="padding:16px 20px 20px;border-top:1px solid #f1f5f9;text-align:center">
+            <button id="confirmPayBtn"
+              onclick="confirmUpiPayment(this)"
+              class="btn btn-primary"
+              style="width:100%;justify-content:center;font-size:0.95rem;padding:14px">
+              &#10003;&nbsp; I Have Paid
+            </button>
+            <button onclick="hideUpiPayment()"
+              style="margin-top:10px;background:none;border:none;color:#94a3b8;font-size:0.78rem;cursor:pointer;padding:6px;width:100%">
+              &#8592; Back to Cart
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    <% } else { %>
+      <a href="/auth/login?next=/cart" class="btn btn-primary btn-lg"
+        style="width:100%;justify-content:center;margin-top:16px;display:flex">
+        Log In to Checkout
+      </a>
+    <% } %>
+
+    <p style="text-align:center;font-size:0.72rem;color:#94a3b8;margin-top:14px">
+      &#128274;&nbsp;Secure payment &bull; Instant e-book delivery &bull; Re-download up to 5 times
+    </p>
+
+  <% } %>
+</div>
+
+<script>
+function showUpiPayment() {
+  document.getElementById('payStep1').style.display = 'none';
+  document.getElementById('payStep2').style.display = 'block';
+}
+function hideUpiPayment() {
+  document.getElementById('payStep2').style.display = 'none';
+  document.getElementById('payStep1').style.display = 'block';
+}
+function confirmUpiPayment(btn) {
+  btn.disabled = true;
+  btn.textContent = 'Placing order...';
+  fetch('/checkout/upi-confirm', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: 'confirmed=1'
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    if (data.ok) {
+      document.getElementById('payStep2').innerHTML =
+        '<div style="padding:40px 20px;text-align:center">' +
+        '<div style="font-size:3.5rem;margin-bottom:12px">&#9989;</div>' +
+        '<h3 style="color:#065f46;margin-bottom:8px">Order Received!</h3>' +
+        '<div style="margin:12px auto 18px;padding:10px 20px;background:#f0fdf4;border:1.5px solid #bbf7d0;border-radius:8px;display:inline-block">' +
+        '<div style="font-size:0.7rem;color:#64748b;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px">Your Order Reference</div>' +
+        '<div style="font-size:1rem;font-weight:800;color:#065f46;font-family:monospace;letter-spacing:1px">' + data.order_ref + '</div>' +
+        '</div>' +
+        '<p style="font-size:0.84rem;color:#6b7280;margin-bottom:24px">Please save this reference. Your books will be available in your dashboard once payment is verified.</p>' +
+        '<a href="/dashboard" class="btn btn-primary">Go to My Orders</a>' +
+        '</div>';
+    } else {
+      btn.disabled = false;
+      btn.textContent = 'I Have Paid';
+      showToast(data.error || 'Something went wrong. Please try again.', 'error');
+    }
+  })
+  .catch(function() {
+    btn.disabled = false;
+    btn.textContent = 'I Have Paid';
+    showToast('Network error. Please try again.', 'error');
+  });
+}
+</script>

@@ -1,0 +1,34 @@
+<% locals.layout = 'layout' %>
+<section class="section-sm">
+  <div class="container">
+    <nav class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/shop">Shop</a><span>/</span><span><%= cat.name %></span></nav>
+    <div style="margin-bottom:32px">
+      <h1><%= cat.name %> E-Books</h1>
+      <p style="color:var(--muted);margin-top:8px"><%= products.length %> books available — instant PDF download</p>
+    </div>
+    <% if (cat.description) { %><p style="max-width:700px;margin-bottom:32px;line-height:1.8"><%= cat.description %></p><% } %>
+    <% if (!products.length) { %>
+      <p>No products in this category yet. <a href="/shop">Browse all</a></p>
+    <% } else { %>
+    <div class="products-grid">
+      <% products.forEach(function(p){ %>
+      <div class="product-card">
+        <a href="/shop/product/<%= p.slug %>" class="product-card-img">
+          <% if (p.cover_image) { %><img src="<%= p.cover_image %>" alt="<%= p.title %>" loading="lazy"><% } else { %><div class="no-cover">📚</div><% } %>
+          <% if (p.original_price && p.original_price > p.price) { %><span class="badge-discount">-<%= Math.round((1-p.price/p.original_price)*100) %>%</span><% } %>
+        </a>
+        <div class="product-card-body">
+          <a href="/shop/product/<%= p.slug %>"><div class="product-card-title"><%= p.title %></div></a>
+          <% if (p.grade) { %><div class="product-card-grade"><%= p.grade %></div><% } %>
+          <div class="product-card-price">
+            <span class="price-current">&#8377;<%= parseFloat(p.price).toFixed(0) %></span>
+            <% if (p.original_price && p.original_price > p.price) { %><span class="price-original">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span><% } %>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="addToCart('<%= p.id %>', this)">Add to Cart</button>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+    <% } %>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<% locals.layout = 'layout' %>
+<div class="auth-wrap">
+  <div class="auth-card">
+    <div class="auth-logo"><a href="/" class="nav-logo" style="justify-content:center"><div class="logo-badge">M</div>MathStudy<span style="color:var(--secondary)">.in</span></a></div>
+    <h1 class="auth-title" style="font-size:1.4rem">Create an account</h1>
+    <p class="auth-sub">Sign up to purchase and download e-books</p>
+    <% if (locals.error && error) { %><div class="form-error"><%= error %></div><% } %>
+    <form action="/auth/register" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Min. 8 characters">
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required placeholder="Repeat password">
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:12px">Create Account</button>
+    </form>
+    <p class="form-alt">Already have an account? <a href="/auth/login">Log in</a></p>
+  </div>
+</div>
