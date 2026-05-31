@@ -10,6 +10,7 @@
       <div class="stat-card"><div class="stat-label">Paid Orders</div><div class="stat-value"><%= stats.orders %></div><div class="stat-icon">📦</div></div>
       <a href="/admin/orders" class="stat-card <%= stats.pending > 0 ? 'alert' : '' %>" style="text-decoration:none;color:inherit"><div class="stat-label">Pending approval</div><div class="stat-value"><%= stats.pending %></div><div class="stat-icon">⏳</div></a>
       <div class="stat-card"><div class="stat-label">Products</div><div class="stat-value"><%= stats.products %></div><div class="stat-icon">📚</div></div>
+      <a href="/admin/blog" class="stat-card" style="text-decoration:none;color:inherit"><div class="stat-label">Blog Posts</div><div class="stat-value"><%= stats.blogs %></div><div class="stat-icon">✍️</div></a>
       <div class="stat-card"><div class="stat-label">Customers</div><div class="stat-value"><%= stats.users %></div><div class="stat-icon">👥</div></div>
     </div>
 
@@ -32,6 +33,31 @@
           </tr>
           <% }); %>
           <% if (!recent_orders.length) { %><tr><td colspan="6" style="text-align:center;color:var(--muted)">No orders yet</td></tr><% } %>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin:30px 0 14px">
+      <h3 style="margin:0">✍️ Blog — Latest Posts</h3>
+      <div style="display:flex;gap:8px">
+        <a href="/admin/blog" class="btn btn-ghost btn-sm">Manage Blog</a>
+        <a href="/admin/blog/new" class="btn btn-primary btn-sm">+ New Post</a>
+      </div>
+    </div>
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Title</th><th>Status</th><th>Views</th><th>Date</th><th></th></tr></thead>
+        <tbody>
+          <% recent_posts.forEach(function(p){ %>
+          <tr>
+            <td><strong><%= p.title.length > 70 ? p.title.substring(0,70)+'…' : p.title %></strong><div style="font-size:.74rem;color:var(--muted)">/blog/<%= p.slug %></div></td>
+            <td><span class="adm-badge <%= p.status === 'published' ? 'on' : 'no' %>"><%= p.status %></span></td>
+            <td><%= p.views %></td>
+            <td><%= new Date(p.created_at).toLocaleDateString('en-IN') %></td>
+            <td><a class="adm-link" href="/admin/blog/<%= p.id %>/edit">Edit</a></td>
+          </tr>
+          <% }); %>
+          <% if (!recent_posts.length) { %><tr><td colspan="5" style="text-align:center;color:var(--muted)">No blog posts yet. <a href="/admin/blog/new">Write your first post →</a></td></tr><% } %>
         </tbody>
       </table>
     </div>

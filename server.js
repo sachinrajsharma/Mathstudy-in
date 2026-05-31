@@ -488,13 +488,18 @@ app.get('/admin', requireAdmin, async (req, res) => {
     const [[{revenue}]]  = await pool.query(`SELECT COALESCE(SUM(total_amount),0) AS revenue FROM orders WHERE status='paid'`);
     const [[{users}]]    = await pool.query(`SELECT COUNT(*) AS users FROM users`);
     const [[{pending}]]  = await pool.query(`SELECT COUNT(*) AS pending FROM orders WHERE status='pending'`);
+    const [[{blogs}]]    = await pool.query(`SELECT COUNT(*) AS blogs FROM blogs`);
     const [recent_orders]= await pool.query(
       `SELECT o.id,o.payment_id,u.name AS buyer,u.email,o.total_amount,o.status,o.created_at
        FROM orders o JOIN users u ON o.user_id=u.id ORDER BY o.created_at DESC LIMIT 10`
     );
+    const [recent_posts] = await pool.query(
+      `SELECT id,title,slug,status,views,created_at FROM blogs ORDER BY created_at DESC LIMIT 5`
+    );
     res.render('admin/index', {
       title:'Admin — MathStudy.in', metaDesc:'', canonical:null,
-      stats:{ products, orders, revenue, users, pending }, pendingCount: pending, recent_orders
+      stats:{ products, orders, revenue, users, pending, blogs }, pendingCount: pending,
+      recent_orders, recent_posts
     });
   } catch(e) { console.error(e); res.status(500).send('Admin error: '+e.message); }
 });
