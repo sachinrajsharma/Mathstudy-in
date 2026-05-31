@@ -1,0 +1,71 @@
+<% locals.layout = 'layout' %>
+<%
+const WA = 'https://wa.me/919211865759?text=' + encodeURIComponent('Hi, I would like to enquire about Maths / Computer Science home tuition in Gurgaon.');
+const areas = ['DLF Phase 1–5','Sushant Lok 1, 2 & 3','Golf Course Road','Golf Course Extension','Sohna Road','South City 1 & 2','Nirvana Country','Malibu Towne','Sectors 45, 47, 56, 57, 67','MG Road','Dwarka Expressway','New Sectors 80–99'];
+%>
+<div class="container" style="padding:40px 0 70px;max-width:1000px">
+
+  <% if (sent) { %>
+  <div class="alert alert-success" style="margin-bottom:24px">✅ Thank you! Your enquiry has reached us — we'll WhatsApp or call you shortly to arrange your <strong>free demo class</strong>.</div>
+  <% } %>
+
+  <div style="text-align:center;margin-bottom:8px">
+    <span style="display:inline-block;background:var(--secondary);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .8rem;border-radius:50px">Home &amp; Online Tuition · Gurgaon</span>
+  </div>
+  <h1 style="text-align:center;font-size:clamp(1.7rem,4vw,2.4rem);font-weight:800;color:var(--dark);margin:.4em 0 .3em">Maths &amp; Computer Science Home Tuition in Gurgaon</h1>
+  <p style="text-align:center;color:var(--mid);font-size:1.05rem;max-width:680px;margin:0 auto 26px;line-height:1.7">
+    Specialist one-on-one tuition for <strong>Class 9 to 12</strong> — CBSE, ICSE, ISC and <strong>JEE Mains &amp; Advanced</strong>.
+    Taught by an experienced subject specialist, at your home or online, with a <strong>free demo class</strong> before you decide.
+  </p>
+
+  <!-- Quick contact -->
+  <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:36px">
+    <a href="<%= WA %>" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#fff;font-weight:700;padding:13px 26px;border-radius:10px;text-decoration:none;font-size:1rem">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M20.52 3.449C12.831-3.984.106 1.407.101 11.893c0 2.096.549 4.14 1.595 5.945L.057 24l6.302-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.42-8.452z"/></svg>
+      WhatsApp +91 92118 65759
+    </a>
+    <a href="tel:+919211865759" style="display:inline-flex;align-items:center;gap:9px;background:#fff;border:1.5px solid var(--border);color:var(--dark);font-weight:700;padding:13px 24px;border-radius:10px;text-decoration:none;font-size:1rem">📞 Call +91 92118 65759</a>
+    <a href="mailto:admin@mathstudy.in" style="display:inline-flex;align-items:center;gap:9px;background:#fff;border:1.5px solid var(--border);color:var(--dark);font-weight:700;padding:13px 24px;border-radius:10px;text-decoration:none;font-size:1rem">✉️ admin@mathstudy.in</a>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:start">
+    <!-- Enquiry form -->
+    <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px">
+      <h2 style="font-size:1.25rem;font-weight:800;color:var(--dark);margin:0 0 4px">Book your free demo class</h2>
+      <p style="color:var(--muted);font-size:.9rem;margin:0 0 18px">Tell us a little and we'll get back the same day.</p>
+      <form method="POST" action="/contact">
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Your name *</label><input type="text" name="name" required style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">WhatsApp / phone *</label><input type="text" name="contact" required placeholder="+91…" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Class &amp; board / exam</label><input type="text" name="grade" placeholder="e.g. Class 11 ISC, or JEE" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:14px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Subject &amp; area (optional)</label><textarea name="message" rows="3" placeholder="e.g. Computer Science, DLF Phase 3 — prefer home tuition" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem;resize:vertical"></textarea></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center">Request free demo</button>
+      </form>
+    </div>
+
+    <!-- Areas + why -->
+    <div>
+      <div style="background:#f0fdfa;border:1px solid var(--secondary);border-radius:14px;padding:20px;margin-bottom:18px">
+        <h2 style="font-size:1.05rem;font-weight:800;color:var(--dark);margin:0 0 10px">Areas we cover in Gurgaon</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:7px">
+          <% areas.forEach(function(a){ %><span style="background:#fff;border:1px solid #ccfbf1;color:#0f766e;font-size:.8rem;font-weight:600;padding:.25rem .6rem;border-radius:50px"><%= a %></span><% }); %>
+        </div>
+        <p style="font-size:.82rem;color:var(--muted);margin:12px 0 0">Not listed? We also teach <strong>online across India</strong> — just ask.</p>
+      </div>
+      <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:20px">
+        <h2 style="font-size:1.05rem;font-weight:800;color:var(--dark);margin:0 0 10px">Why parents choose us</h2>
+        <ul style="margin:0;padding-left:18px;color:var(--mid);font-size:.92rem;line-height:1.9">
+          <li><strong>Specialist focus</strong> — Maths &amp; Computer Science only, Class 9–12.</li>
+          <li><strong>Free demo class</strong> before you commit.</li>
+          <li>One-on-one, fully <strong>personalised study plan</strong>.</li>
+          <li>CBSE, ICSE, ISC &amp; <strong>JEE Mains/Advanced</strong> covered.</li>
+          <li>Regular <strong>parent updates</strong> and honest feedback.</li>
+          <li>Home tuition in Gurgaon <strong>or live online</strong>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p style="text-align:center;color:var(--muted);font-size:.88rem;margin-top:30px">
+    Prefer to read first? See our <a href="/blog" style="color:var(--secondary);font-weight:600">tuition guides &amp; tips on the blog</a>.
+  </p>
+</div>

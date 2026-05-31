@@ -297,6 +297,30 @@ app.post('/shop/product/:id/review', async (req, res) => {
   } catch (e) { console.error('review error', e); res.status(500).render('error', { title: 'Error', message: 'Could not submit review.' }); }
 });
 
+// ── Contact / Home-tuition enquiry (Gurgaon) ──
+app.get('/contact', (req, res) => {
+  res.render('contact', {
+    title: 'Home Tuition in Gurgaon — Maths & Computer Science (Class 9–12) | MathStudy.in',
+    metaDesc: 'Maths & Computer Science home tuition in Gurgaon for Class 9–12 (CBSE, ICSE, ISC, JEE Mains & Advanced). Home & online, free demo. WhatsApp +91 92118 65759.',
+    canonical: BASE_URL + '/contact', ogType: 'website', sent: req.query.sent === '1'
+  });
+});
+app.post('/contact', async (req, res) => {
+  try {
+    const e = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const name = (req.body.name || '').toString().trim().slice(0, 120);
+    const contact = (req.body.contact || '').toString().trim().slice(0, 120);
+    const grade = (req.body.grade || '').toString().trim().slice(0, 80);
+    const message = (req.body.message || '').toString().trim().slice(0, 1500);
+    if (name && contact) {
+      const html = `<h3>New home-tuition enquiry</h3><p><b>Name:</b> ${e(name)}<br><b>Contact:</b> ${e(contact)}<br><b>Class / Board:</b> ${e(grade) || '-'}</p><p>${e(message) || '(no message)'}</p>`;
+      notify.sendEmail(process.env.ADMIN_EMAIL || 'admin@mathstudy.in', 'New tuition enquiry — ' + name, html).catch(() => {});
+      notify.sendTelegram('📩 <b>Tuition enquiry</b>\nName: ' + e(name) + '\nContact: ' + e(contact) + '\nClass: ' + (e(grade) || '-') + '\n' + e(message)).catch(() => {});
+    }
+    res.redirect('/contact?sent=1');
+  } catch (err) { console.error('contact', err); res.redirect('/contact?sent=1'); }
+});
+
 // ════════════════════════════════════════════════════════════════════════════
 // ROUTES — AUTH
 // ════════════════════════════════════════════════════════════════════════════
