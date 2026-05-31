@@ -757,7 +757,7 @@ app.get('/blog/:slug', async (req, res, next) => {
 // ── Admin Blog ────────────────────────────────────────────────────────────────
 app.get('/admin/blog', requireAdmin, async (req, res, next) => {
   try {
-    const [posts] = await pool.query(`SELECT id,title,slug,status,category,views,created_at FROM blogs ORDER BY created_at DESC`);
+    const [posts] = await pool.query(`SELECT id,title,slug,status,category,views,created_at,cover_image FROM blogs ORDER BY created_at DESC`);
     res.render('admin/blog', { title:'Blog — Admin', metaDesc:'', canonical:null, posts: posts, success: req.query.success || null });
   } catch(e) { next(e); }
 });

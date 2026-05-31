@@ -2,96 +2,80 @@
 <div class="admin-wrap">
   <%- include('../partials/admin-sidebar', { active: 'blog' }) %>
   <div class="admin-main">
-
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
       <div>
         <div class="admin-title">Blog Posts</div>
-        <div class="admin-sub"><%= posts.length %> total &nbsp;·&nbsp; <%= posts.filter(function(p){return p.status==='published'}).length %> published &nbsp;·&nbsp; <%= posts.filter(function(p){return p.status==='draft'}).length %> drafts</div>
+        <div class="admin-sub"><%= posts.length %> total · <%= posts.filter(function(p){ return p.status === 'published'; }).length %> published · <%= posts.filter(function(p){ return p.status === 'draft'; }).length %> drafts</div>
       </div>
       <a href="/admin/blog/new" class="btn btn-primary">+ New Post</a>
     </div>
 
-    <% if (success) { %>
-    <div class="alert alert-success" style="margin-bottom:20px"><%= success %></div>
-    <% } %>
+    <% if (success) { %><div class="alert alert-success" style="margin-bottom:14px"><%= success %></div><% } %>
+
+    <div class="adm-toolbar">
+      <div class="grow"><input id="bSearch" class="adm-search" placeholder="Search posts by title or slug…" autocomplete="off"></div>
+      <select id="bStatus" class="adm-filter"><option value="">All statuses</option><option value="published">Published</option><option value="draft">Draft</option></select>
+      <span class="adm-count" id="bCount"></span>
+    </div>
 
     <div class="admin-table-wrap">
-      <table class="admin-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Category</th>
-            <th>Status</th>
-            <th>Views</th>
-            <th>Date</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
+      <table class="admin-table" id="bTable">
+        <thead><tr><th>Post</th><th>Category</th><th>Views</th><th>Published</th><th>Date</th><th>Actions</th></tr></thead>
         <tbody>
           <% posts.forEach(function(p){ %>
-          <tr id="row-<%= p.id %>">
+          <tr id="brow-<%= p.id %>" data-title="<%= (p.title + ' ' + p.slug).toLowerCase() %>" data-status="<%= p.status %>">
             <td>
-              <strong><%= p.title.substring(0,60) %><%= p.title.length>60?'…':'' %></strong>
-              <div style="font-size:0.75rem;color:var(--muted);margin-top:2px">/blog/<%= p.slug %></div>
+              <div class="adm-prodcell">
+                <% if (p.cover_image) { %><img class="adm-thumb" style="width:56px;height:40px" src="<%= p.cover_image %>" alt=""><% } else { %><div class="adm-thumb" style="width:56px;height:40px"></div><% } %>
+                <div><div class="t"><%= p.title.length > 70 ? p.title.substring(0,70)+'…' : p.title %></div><div class="s">/blog/<%= p.slug %></div></div>
+              </div>
             </td>
             <td><%= p.category || '—' %></td>
-            <td>
-              <span class="order-status <%= p.status==='published'?'status-paid':'status-pending' %>" id="badge-<%= p.id %>">
-                <%= p.status %>
-              </span>
-            </td>
             <td><%= p.views %></td>
+            <td><label class="adm-switch" title="Publish / unpublish"><input type="checkbox" <%= p.status === 'published' ? 'checked' : '' %> data-toggle="<%= p.id %>"><span class="sl"></span></label></td>
             <td><%= new Date(p.created_at).toLocaleDateString('en-IN') %></td>
             <td>
-              <div style="display:flex;gap:8px;flex-wrap:wrap">
-                <a href="/admin/blog/<%= p.id %>/edit" class="btn btn-outline btn-sm">Edit</a>
-                <button onclick="toggleStatus(<%= p.id %>)"
-                        id="toggle-<%= p.id %>"
-                        class="btn btn-sm"
-                        style="background:<%= p.status==='published'?'#fef3c7':'#dcfce7' %>;color:<%= p.status==='published'?'#92400e':'#166534' %>;border:none">
-                  <%= p.status==='published'?'Unpublish':'Publish' %>
-                </button>
-                <form method="POST" action="/admin/blog/<%= p.id %>/delete" style="margin:0"
-                      onsubmit="return confirm('Delete this post permanently?')">
-                  <button type="submit" class="btn btn-sm" style="background:#fee2e2;color:#991b1b;border:none">Delete</button>
+              <div class="adm-rowacts">
+                <a class="adm-link" href="/admin/blog/<%= p.id %>/edit">Edit</a>
+                <a class="adm-link" href="/blog/<%= p.slug %>" target="_blank">View</a>
+                <form method="POST" action="/admin/blog/<%= p.id %>/delete" style="display:inline" onsubmit="return confirm('Delete this post permanently?')">
+                  <button class="adm-link danger" type="submit" style="background:none;border:none;cursor:pointer;padding:0;font:inherit">Delete</button>
                 </form>
               </div>
             </td>
           </tr>
           <% }); %>
-          <% if (!posts.length) { %>
-          <tr><td colspan="6" style="text-align:center;padding:40px;color:var(--muted)">
-            No blog posts yet. <a href="/admin/blog/new">Create your first post</a>.
-          </td></tr>
-          <% } %>
         </tbody>
       </table>
+      <div id="bEmpty" style="display:none;text-align:center;padding:30px;color:var(--muted)">No posts match your filters.</div>
+      <% if (!posts.length) { %><div style="text-align:center;padding:36px;color:var(--muted)">No blog posts yet. <a href="/admin/blog/new">Create your first post</a>.</div><% } %>
     </div>
-
   </div>
 </div>
 
 <script>
-function toggleStatus(id) {
-  fetch('/admin/blog/' + id + '/toggle', { method: 'POST', headers: { 'Content-Type': 'application/json' } })
-    .then(function(r){ return r.json(); })
-    .then(function(data) {
-      if (!data.ok) return;
-      var badge = document.getElementById('badge-' + id);
-      var btn   = document.getElementById('toggle-' + id);
-      if (data.status === 'published') {
-        badge.textContent = 'published';
-        badge.className = 'order-status status-paid';
-        btn.textContent = 'Unpublish';
-        btn.style.background = '#fef3c7';
-        btn.style.color = '#92400e';
-      } else {
-        badge.textContent = 'draft';
-        badge.className = 'order-status status-pending';
-        btn.textContent = 'Publish';
-        btn.style.background = '#dcfce7';
-        btn.style.color = '#166534';
-      }
+(function(){
+  var rows = [].slice.call(document.querySelectorAll('#bTable tbody tr'));
+  var search = document.getElementById('bSearch'), status = document.getElementById('bStatus'),
+      count = document.getElementById('bCount'), empty = document.getElementById('bEmpty');
+  function apply(){
+    var q = (search.value||'').toLowerCase().trim(), s = status.value, n = 0;
+    rows.forEach(function(r){
+      var ok = (!q || r.dataset.title.indexOf(q) > -1) && (!s || r.dataset.status === s);
+      r.style.display = ok ? '' : 'none'; if (ok) n++;
     });
-}
+    count.textContent = n + ' shown'; empty.style.display = (n ? 'none' : (rows.length ? 'block' : 'none'));
+  }
+  search.addEventListener('input', apply); status.addEventListener('change', apply); apply();
+
+  document.querySelectorAll('[data-toggle]').forEach(function(cb){
+    cb.addEventListener('change', function(){
+      fetch('/admin/blog/' + cb.dataset.toggle + '/toggle', { method:'POST', headers:{'Content-Type':'application/json'} })
+        .then(function(r){ return r.json(); }).then(function(d){
+          if (!d.ok) { cb.checked = !cb.checked; alert(d.error || 'Failed'); return; }
+          cb.closest('tr').dataset.status = d.status; apply();
+        });
+    });
+  });
+})();
 </script>
