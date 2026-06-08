@@ -20,7 +20,6 @@ function sha256(str) {
 }
 
 const SCHEMA = `
-CREATE DATABASE IF NOT EXISTS \`mathstudy\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE \`mathstudy\`;
 
 -- Users
@@ -146,6 +145,15 @@ const SEED_CATEGORIES = [
 async function run() {
   console.log('Connecting to MySQL...');
   const conn = await mysql.createConnection(cfg);
+
+  // Create the database if this MySQL user is allowed to. A locked-down app user
+  // (recommended in production) can't CREATE DATABASE — that's fine, the database
+  // is created during server setup, so we just skip and use the existing one.
+  try {
+    await conn.query("CREATE DATABASE IF NOT EXISTS `mathstudy` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;");
+  } catch (e) {
+    console.log('Note: skipping CREATE DATABASE (limited user) — using existing `mathstudy` database.');
+  }
 
   console.log('Creating schema...');
   await conn.query(SCHEMA);
