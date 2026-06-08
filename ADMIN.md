@@ -54,7 +54,14 @@ Use an **SSH tunnel** (port 3306 is firewalled):
 
 ## 3. Emergency: reset a password directly in the DB
 
-If you ever get locked out, set a new password in MySQL. Two ways:
+**Easiest — the helper script** (works locally and on the VPS):
+```bash
+node scripts/set-password.js udgamsachin@gmail.com "YourNewPassword"
+```
+It bcrypt-hashes the password, sets it, and re-activates the account. Then log in
+at `/auth/login` and open `/admin`.
+
+Or set it directly in MySQL — two ways:
 
 **Best (real bcrypt hash):** on the server run
 ```bash
