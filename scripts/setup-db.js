@@ -73,7 +73,6 @@ CREATE TABLE IF NOT EXISTS orders (
   user_id         INT            NOT NULL,
   total_amount    DECIMAL(10,2)  NOT NULL,
   payment_id      VARCHAR(100),
-  razorpay_order  VARCHAR(100),
   status          ENUM('pending','paid','failed','refunded') DEFAULT 'pending',
   created_at      DATETIME       DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id)

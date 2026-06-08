@@ -15,8 +15,8 @@ Target stack: **Ubuntu 22.04 LTS · Node 20 LTS · MySQL 8 · Nginx · PM2 · Ce
 
 - A VPS with a public IPv4 (note it as `SERVER_IP`).
 - DNS for `mathstudy.in` you control (Step 6).
-- Real credentials for the `.env` (Step 4): Razorpay keys, SMTP user/app-password,
-  Telegram bot token + chat id, admin email.
+- Real credentials for the `.env` (Step 4): SMTP user/app-password + admin email,
+  and your UPI ID for payments.
 - The sellable PDFs and the secret Google-Drive download links
   (`data/download-urls.json` — git-ignored, copy it up manually in Step 4).
 
@@ -94,17 +94,16 @@ DB_PORT=3306
 DB_USER=mathstudy
 DB_PASS=<the strong DB password from Step 3>
 DB_NAME=mathstudy
-RAZORPAY_KEY_ID=<live key>
-RAZORPAY_KEY_SECRET=<live secret>
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=<your smtp user>
 SMTP_PASS=<app password>
 MAIL_FROM="MathStudy.in <admin@mathstudy.in>"
 ADMIN_EMAIL=<your admin email>
-TELEGRAM_BOT_TOKEN=<bot token>
-TELEGRAM_CHAT_ID=<chat id>
 ```
+
+> Payments are **manual UPI** (no gateway keys). WhatsApp is **free click-to-chat**
+> (a `wa.me` link in the UI) — no API key. Order alerts reach you by **email**.
 
 Copy up the **git-ignored** secret download links (from your Windows machine):
 
@@ -123,7 +122,6 @@ node scripts/setup-db.js          # creates tables
 node scripts/seed-products.js     # seed catalog (run the seeders you need)
 node scripts/seed-blog-articles.js
 node scripts/seed-bundles-pricing.js
-node scripts/seed-tuition-blogs.js
 node scripts/seed-product-seo.js
 
 pm2 start ecosystem.config.js --env production
@@ -165,8 +163,8 @@ curl -s https://mathstudy.in/sitemap.xml | head
 ```
 
 Then in a browser confirm: home, `/shop`, a product page, add-to-cart, the UPI
-checkout/QR, admin login at `/admin`, and that a test order fires the Telegram
-+ email alert.
+checkout/QR, admin login at `/admin`, and that a test order fires the email
+order alert.
 
 ---
 
@@ -207,7 +205,7 @@ pm2 install pm2-logrotate
 
 ## Production checklist
 
-- [ ] `.env` has live Razorpay keys, real SMTP, Telegram token+chat, strong `SESSION_SECRET`
+- [ ] `.env` has real SMTP, admin email, your UPI ID, strong `SESSION_SECRET`
 - [ ] `NODE_ENV=production`, `BASE_URL=https://mathstudy.in`
 - [ ] DB user is the dedicated `mathstudy` user (not root)
 - [ ] `data/download-urls.json` + product PDFs uploaded (git-ignored)

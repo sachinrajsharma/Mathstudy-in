@@ -274,8 +274,7 @@ app.get('/shop/product/:slug', async (req, res) => {
       title: sd.title, metaDesc: sd.metaDesc, canonical: sd.canonical,
       ogImage: product.cover_image || '/images/og-default.png',
       ogType: sd.ogType, jsonLd: sd.jsonLd, faqs: sd.faqs,
-      product, related, alreadyOwned, reviews, reviewCount, reviewAvg, bundleItems,
-      razorpayKey: process.env.RAZORPAY_KEY_ID || ''
+      product, related, alreadyOwned, reviews, reviewCount, reviewAvg, bundleItems
     });
   } catch(e) { console.error(e); res.status(500).render('error',{title:'Error',message:'Something went wrong.'}); }
 });
@@ -297,11 +296,11 @@ app.post('/shop/product/:id/review', async (req, res) => {
   } catch (e) { console.error('review error', e); res.status(500).render('error', { title: 'Error', message: 'Could not submit review.' }); }
 });
 
-// ── Contact / Home-tuition enquiry (Gurgaon) ──
+// ── Contact / Support ──
 app.get('/contact', (req, res) => {
   res.render('contact', {
-    title: 'Home Tuition in Gurgaon — Maths & Computer Science (Class 9–12) | MathStudy.in',
-    metaDesc: 'Maths & Computer Science home tuition in Gurgaon for Class 9–12 (CBSE, ICSE, ISC, JEE Mains & Advanced). Home & online, free demo. WhatsApp +91 92118 65759.',
+    title: 'Contact & Support — MathStudy.in',
+    metaDesc: 'Questions about a MathStudy.in e-book, an order or a download? Contact us on WhatsApp or email and we will help you the same day.',
     canonical: BASE_URL + '/contact', ogType: 'website', sent: req.query.sent === '1'
   });
 });
@@ -313,9 +312,8 @@ app.post('/contact', async (req, res) => {
     const grade = (req.body.grade || '').toString().trim().slice(0, 80);
     const message = (req.body.message || '').toString().trim().slice(0, 1500);
     if (name && contact) {
-      const html = `<h3>New home-tuition enquiry</h3><p><b>Name:</b> ${e(name)}<br><b>Contact:</b> ${e(contact)}<br><b>Class / Board:</b> ${e(grade) || '-'}</p><p>${e(message) || '(no message)'}</p>`;
-      notify.sendEmail(process.env.ADMIN_EMAIL || 'admin@mathstudy.in', 'New tuition enquiry — ' + name, html).catch(() => {});
-      notify.sendTelegram('📩 <b>Tuition enquiry</b>\nName: ' + e(name) + '\nContact: ' + e(contact) + '\nClass: ' + (e(grade) || '-') + '\n' + e(message)).catch(() => {});
+      const html = `<h3>New contact / support enquiry</h3><p><b>Name:</b> ${e(name)}<br><b>Contact:</b> ${e(contact)}<br><b>Topic:</b> ${e(grade) || '-'}</p><p>${e(message) || '(no message)'}</p>`;
+      notify.sendEmail(process.env.ADMIN_EMAIL || 'admin@mathstudy.in', 'New support enquiry — ' + name, html).catch(() => {});
     }
     res.redirect('/contact?sent=1');
   } catch (err) { console.error('contact', err); res.redirect('/contact?sent=1'); }
@@ -467,7 +465,7 @@ app.post('/checkout/upi-confirm', requireLogin, async (req, res) => {
       );
     }
 
-    // Notify the admin (Telegram + email) with Approve/Reject tap-links — best effort.
+    // Notify the admin by email with Approve/Reject links — best effort.
     notify.adminNewOrder({
       order: { id: orderId, payment_id: orderRef, total_amount: total, admin_token: adminToken, customer_phone: phone },
       items: cart.map(c => ({ title: c.title, price: c.price })),
@@ -719,8 +717,8 @@ app.post('/admin/orders/:id/approve', requireAdmin, async (req, res) => {
   }
 });
 
-// Tap-from-phone Approve / Reject — the links sent to the admin over Telegram &
-// email. Secured by the per-order admin_token (no login needed, works on mobile).
+// Tap-from-phone Approve / Reject — the links emailed to the admin.
+// Secured by the per-order admin_token (no login needed, works on mobile).
 app.get('/order-action/:id/:action', async (req, res) => {
   const orderId = parseInt(req.params.id, 10);
   const action  = req.params.action;
