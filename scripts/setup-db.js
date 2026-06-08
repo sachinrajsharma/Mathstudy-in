@@ -5,6 +5,7 @@
 require('dotenv').config();
 const mysql = require('mysql2/promise');
 const crypto = require('crypto');
+const password = require('../lib/password');
 
 const cfg = {
   host:     process.env.DB_HOST || 'localhost',
@@ -158,18 +159,31 @@ async function run() {
   }
 
   console.log('Creating admin user...');
-  const adminEmail = process.env.ADMIN_EMAIL || 'udgamsachin@gmail.com';
-  const adminPass  = sha256('Admin@mathstudy2026');
-  await conn.query(`
+  const adminEmail = (process.env.ADMIN_EMAIL || 'admin@mathstudy.in').toLowerCase().trim();
+  // Password comes from .env (ADMIN_PASSWORD). If unset, generate a strong random
+  // one and print it ONCE — never a hardcoded default in the repo.
+  let adminPlain = process.env.ADMIN_PASSWORD;
+  const generated = !adminPlain;
+  if (generated) {
+    adminPlain = crypto.randomBytes(12).toString('base64').replace(/[^a-zA-Z0-9]/g, '').slice(0, 16);
+  }
+  const adminHash = await password.hash(adminPlain);
+  const [result] = await conn.query(`
     INSERT IGNORE INTO mathstudy.users (name, email, password_hash, role)
-    VALUES ('Sachin', ?, ?, 'super_admin')
-  `, [adminEmail, adminPass]);
+    VALUES ('Admin', ?, ?, 'super_admin')
+  `, [adminEmail, adminHash]);
 
   console.log('Done.');
-  console.log('Admin credentials:');
-  console.log('  Email:', adminEmail);
-  console.log('  Password: Admin@mathstudy2026');
-  console.log('  (Change this immediately after first login)');
+  console.log('Admin login:');
+  console.log('  Email:   ', adminEmail);
+  if (result.affectedRows === 0) {
+    console.log('  Password: (unchanged — an admin with this email already exists)');
+  } else if (generated) {
+    console.log('  Password:', adminPlain, '   <-- GENERATED, shown only once. Save it now!');
+  } else {
+    console.log('  Password: (the ADMIN_PASSWORD from your .env)');
+  }
+  console.log('  Change it after first login at /account/password');
 
   await conn.end();
 }

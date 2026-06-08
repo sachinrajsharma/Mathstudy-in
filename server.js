@@ -12,6 +12,7 @@ const fs             = require('fs');
 const notify         = require('./lib/notify');
 const ordersLib      = require('./lib/orders');
 const seo            = require('./lib/seo');
+const password       = require('./lib/password');
 
 const app  = express();
 app.locals.siteJsonLd = seo.siteJsonLd();
@@ -331,28 +332,36 @@ app.get('/auth/login',    (req, res) => res.render('auth/login',    { title:'Log
 app.get('/auth/register', (req, res) => res.render('auth/register', { title:'Sign Up — MathStudy.in', metaDesc:'', canonical:null, error:null }));
 
 app.post('/auth/login', async (req, res) => {
-  const { email, password, next } = req.body;
-  if (!email || !password) return res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Please fill all fields.', next:next||'/dashboard' });
+  const { email, next } = req.body;
+  const pw = req.body.password;
+  if (!email || !pw) return res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Please fill all fields.', next:next||'/dashboard' });
   try {
     const [[user]] = await pool.query(
-      `SELECT id,name,email,role,is_active FROM users WHERE email=? AND password_hash=?`,
-      [email.toLowerCase().trim(), sha256(password)]
+      `SELECT id,name,email,role,is_active,password_hash FROM users WHERE email=?`,
+      [email.toLowerCase().trim()]
     );
-    if (!user || !user.is_active) return res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Invalid email or password.', next:next||'/dashboard' });
+    const check = user ? await password.verify(pw, user.password_hash) : { ok:false };
+    if (!user || !user.is_active || !check.ok) return res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Invalid email or password.', next:next||'/dashboard' });
+    // Transparently upgrade a legacy SHA-256 account to bcrypt on successful login.
+    if (check.needsRehash) {
+      try { await pool.query(`UPDATE users SET password_hash=? WHERE id=?`, [await password.hash(pw), user.id]); }
+      catch(e) { console.error('rehash failed:', e.message); }
+    }
     req.session.user = { id:user.id, name:user.name, email:user.email, role:user.role };
     res.redirect(next && next.startsWith('/') ? next : '/dashboard');
   } catch(e) { console.error(e); res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Server error. Try again.', next:next||'/dashboard' }); }
 });
 
 app.post('/auth/register', async (req, res) => {
-  const { name, email, password, confirm_password } = req.body;
-  if (!name||!email||!password) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Please fill all fields.' });
-  if (password !== confirm_password) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Passwords do not match.' });
-  if (password.length < 8) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Password must be at least 8 characters.' });
+  const { name, email, confirm_password } = req.body;
+  const pw = req.body.password;
+  if (!name||!email||!pw) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Please fill all fields.' });
+  if (pw !== confirm_password) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Passwords do not match.' });
+  if (pw.length < 8) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Password must be at least 8 characters.' });
   try {
     await pool.query(
       `INSERT INTO users (name,email,password_hash) VALUES (?,?,?)`,
-      [name.trim(), email.toLowerCase().trim(), sha256(password)]
+      [name.trim(), email.toLowerCase().trim(), await password.hash(pw)]
     );
     const [[user]] = await pool.query(`SELECT id,name,email,role FROM users WHERE email=?`,[email.toLowerCase().trim()]);
     req.session.user = { id:user.id, name:user.name, email:user.email, role:user.role };
@@ -365,6 +374,28 @@ app.post('/auth/register', async (req, res) => {
 
 app.post('/auth/logout', (req, res) => {
   req.session.destroy(() => res.redirect('/'));
+});
+
+// ── Change password (logged-in users + admin) ──
+app.get('/account/password', requireLogin, (req, res) => {
+  res.render('account-password', { title:'Change Password — MathStudy.in', metaDesc:'', canonical:null, error:null, ok:false });
+});
+app.post('/account/password', requireLogin, async (req, res) => {
+  const cur = (req.body.current_password || '').toString();
+  const nw  = (req.body.new_password || '').toString();
+  const cf  = (req.body.confirm_password || '').toString();
+  const view = (extra) => res.render('account-password', Object.assign(
+    { title:'Change Password — MathStudy.in', metaDesc:'', canonical:null, error:null, ok:false }, extra));
+  if (!cur || !nw || !cf) return view({ error:'Please fill all fields.' });
+  if (nw !== cf)          return view({ error:'New passwords do not match.' });
+  if (nw.length < 8)      return view({ error:'New password must be at least 8 characters.' });
+  try {
+    const [[u]] = await pool.query(`SELECT id,password_hash FROM users WHERE id=?`, [req.session.user.id]);
+    const check = u ? await password.verify(cur, u.password_hash) : { ok:false };
+    if (!check.ok) return view({ error:'Your current password is incorrect.' });
+    await pool.query(`UPDATE users SET password_hash=? WHERE id=?`, [await password.hash(nw), req.session.user.id]);
+    return view({ ok:true });
+  } catch(e) { console.error('password change failed:', e.message); return view({ error:'Server error. Try again.' }); }
 });
 
 // ════════════════════════════════════════════════════════════════════════════
