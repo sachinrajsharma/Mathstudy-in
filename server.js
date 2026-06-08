@@ -67,6 +67,11 @@ app.use('/download/', rateLimit({ windowMs: 60*60*1000, max: 20 }));
 // treats the request as secure and will actually set the `secure` session cookie
 // (otherwise login / cart / admin sessions silently break in production).
 app.set('trust proxy', 1);
+// Never run production on the dev fallback secret (would allow session forgery).
+if (process.env.NODE_ENV === 'production' && !process.env.SESSION_SECRET) {
+  console.error('FATAL: SESSION_SECRET must be set in production (.env). Refusing to start.');
+  process.exit(1);
+}
 app.use(session({
   secret: process.env.SESSION_SECRET || 'mathstudy-dev-secret',
   resave: false,
@@ -74,6 +79,7 @@ app.use(session({
   cookie: {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax',   // mitigates CSRF on state-changing POSTs
     maxAge: 7 * 24 * 60 * 60 * 1000
   }
 }));
@@ -112,6 +118,11 @@ function requireAdmin(req, res, next) {
     return res.status(403).render('error', { title:'403 Forbidden', message:'Admin access required.' });
   }
   next();
+}
+// Only allow same-site relative redirects (blocks //evil.com and /\evil.com open redirects).
+function safeNext(next, fallback = '/dashboard') {
+  if (typeof next === 'string' && next.startsWith('/') && !next.startsWith('//') && !next.startsWith('/\\')) return next;
+  return fallback;
 }
 
 // ── Multer config ─────────────────────────────────────────────────────────────
@@ -348,7 +359,7 @@ app.post('/auth/login', async (req, res) => {
       catch(e) { console.error('rehash failed:', e.message); }
     }
     req.session.user = { id:user.id, name:user.name, email:user.email, role:user.role };
-    res.redirect(next && next.startsWith('/') ? next : '/dashboard');
+    res.redirect(safeNext(next));
   } catch(e) { console.error(e); res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Server error. Try again.', next:next||'/dashboard' }); }
 });
 
