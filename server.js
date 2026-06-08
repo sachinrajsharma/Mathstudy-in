@@ -928,6 +928,41 @@ app.get('/sitemap.xml', async (req, res) => {
   res.set('Content-Type', 'application/xml').send(xml);
 });
 
+// ── robots.txt ───────────────────────────────────────────────────────────────
+app.get('/robots.txt', function(req, res) {
+  const base = (process.env.BASE_URL || 'https://mathstudy.in').replace(/\/+$/, '');
+  const lines = [
+    'User-agent: *',
+    'Allow: /',
+    // Keep private / transactional paths out of the index.
+    'Disallow: /admin',
+    'Disallow: /dashboard',
+    'Disallow: /cart',
+    'Disallow: /checkout',
+    'Disallow: /download',
+    'Disallow: /auth',
+    'Disallow: /order-action',
+    '',
+    // Block AI training/scraper bots (per SEO-PACK).
+    'User-agent: GPTBot',
+    'Disallow: /',
+    'User-agent: CCBot',
+    'Disallow: /',
+    'User-agent: anthropic-ai',
+    'Disallow: /',
+    'User-agent: ClaudeBot',
+    'Disallow: /',
+    'User-agent: Google-Extended',
+    'Disallow: /',
+    'User-agent: PerplexityBot',
+    'Disallow: /',
+    '',
+    'Sitemap: ' + base + '/sitemap.xml',
+    ''
+  ];
+  res.type('text/plain').send(lines.join('\n'));
+});
+
 // ── 404 / Error ──────────────────────────────────────────────────────────────
 app.use((req, res) => res.status(404).render('error', {
   title: '404 — Page Not Found', metaDesc: '', canonical: null,
