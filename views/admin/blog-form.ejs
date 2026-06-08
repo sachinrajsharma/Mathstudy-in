@@ -103,6 +103,7 @@ window.MathJax = {
     <% } %>
 
     <form method="POST" action="<%= post ? '/admin/blog/'+post.id+'/edit' : '/admin/blog/new' %>" id="post-form">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
 
       <div class="grid-form" style="display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start">
 

@@ -1,5 +1,27 @@
 // MathStudy.in - Main JS
 
+// CSRF: attach the per-session token to every same-origin state-changing fetch()
+// so all existing AJAX calls (cart, checkout, admin toggles/approve/upload) pass
+// the server's CSRF check without each call needing to be edited.
+(function () {
+  var meta = document.querySelector('meta[name="csrf-token"]');
+  var token = meta ? meta.getAttribute('content') : '';
+  if (!token || !window.fetch) return;
+  var _fetch = window.fetch;
+  window.fetch = function (input, init) {
+    init = init || {};
+    var url = (typeof input === 'string') ? input : (input && input.url) || '';
+    var method = (init.method || (typeof input === 'object' && input && input.method) || 'GET').toUpperCase();
+    var sameOrigin = url.indexOf('http') !== 0 || url.indexOf(window.location.origin) === 0;
+    if (sameOrigin && method !== 'GET' && method !== 'HEAD') {
+      var headers = new Headers(init.headers || (typeof input === 'object' && input ? input.headers : undefined) || {});
+      if (!headers.has('X-CSRF-Token')) headers.set('X-CSRF-Token', token);
+      init.headers = headers;
+    }
+    return _fetch.call(this, input, init);
+  };
+})();
+
 // Mobile nav
 (function() {
   var burger = document.getElementById('navBurger');

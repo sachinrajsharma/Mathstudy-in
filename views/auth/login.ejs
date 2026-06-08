@@ -6,6 +6,7 @@
     <p class="auth-sub">Log in to access your purchased e-books</p>
     <% if (locals.error && error) { %><div class="form-error"><%= error %></div><% } %>
     <form action="/auth/login" method="POST">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <input type="hidden" name="next" value="<%= locals.next || '/dashboard' %>">
       <div class="form-group">
         <label for="email">Email Address</label>

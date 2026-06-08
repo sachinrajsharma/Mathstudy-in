@@ -10,6 +10,7 @@
         <div class="adm-box-h" id="catFormTitle">Add new category</div>
         <div class="adm-box-b">
           <form id="catForm" method="POST" action="/admin/categories">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
             <div class="adm-field"><label>Name *</label><input type="text" name="name" id="cf-name" required placeholder="e.g. JEE & Competitive"></div>
             <div class="adm-field"><label>Slug</label><input type="text" name="slug" id="cf-slug" placeholder="auto from name"></div>
             <div class="adm-field"><label>Description</label><textarea name="description" id="cf-desc" rows="3" placeholder="Short description (optional)"></textarea></div>
@@ -38,6 +39,7 @@
                   <a class="adm-link" href="#" data-edit data-id="<%= c.id %>" data-name="<%= c.name %>" data-slug="<%= c.slug %>" data-desc="<%= c.description || '' %>" data-sort="<%= c.sort_order %>">Edit</a>
                   <a class="adm-link" href="/shop/category/<%= c.slug %>" target="_blank">View</a>
                   <form method="POST" action="/admin/categories/<%= c.id %>/delete" style="display:inline" onsubmit="return confirm('Delete this category? Its products become uncategorised.')">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
                     <button class="adm-link danger" type="submit" style="background:none;border:none;cursor:pointer;padding:0;font:inherit">Delete</button>
                   </form>
                 </div>

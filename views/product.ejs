@@ -151,6 +151,7 @@ const discount = product.original_price && product.original_price > product.pric
     <div style="border:1px solid var(--border);border-radius:12px;padding:18px;background:#fafafa">
       <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 12px">Write a review</h3>
       <form method="POST" action="/shop/product/<%= product.id %>/review">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
         <div style="margin-bottom:12px">
           <label style="font-size:.85rem;font-weight:600;display:block;margin-bottom:6px">Your rating</label>
           <span class="star-pick" style="font-size:1.7rem;cursor:pointer;letter-spacing:3px"><% for (var s=1;s<=5;s++){ %><span data-v="<%= s %>" style="color:#d1d5db">☆</span><% } %></span>

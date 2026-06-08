@@ -14,6 +14,9 @@ and its status.
 | 5 | Medium   | CSRF | No CSRF tokens → **added `sameSite: 'lax'`** to the session cookie (blocks cross-site state-changing POSTs in modern browsers). |
 | 6 | Low      | Open redirect | Login `next` accepted `//evil.com` → **`safeNext()`** now allows only same-site `/path` (rejects `//`, `/\`, absolute URLs). |
 | 7 | High     | Auth | Passwords were SHA-256; default admin password was in the repo → **bcrypt (cost 12)** + no hardcoded default + change-password page (earlier commit). |
+| 8 | Medium   | CSRF | **Full CSRF tokens** added — per-session token, hidden field on every POST form + auto-attached `X-CSRF-Token` header on all AJAX; tokenless state-changing requests are rejected (403). |
+| 9 | Medium   | Sessions/DoS | In-memory session store (leak/DoS, lost on restart) → **MySQL-backed session store**. |
+| 10| Med/Low  | Attack surface | **Scanner/WordPress/PHP probe blocklist** (404s /wp-*, *.php, /.env, /.git, phpmyadmin…); dedicated **login brute-force limiter** (10/15min); **HSTS preload**, referrer-policy; static dotfiles/dir-listing disabled. |
 
 ## Audited — no action needed (already safe)
 
@@ -37,10 +40,6 @@ and its status.
 
 ## Recommended next (optional, not blockers)
 
-- **CSRF tokens** on forms (defence-in-depth beyond SameSite) — e.g. `csurf` or a
-  double-submit token. SameSite=lax already covers the common cases.
-- **MySQL-backed session store** (`express-mysql-session`) so logins survive app
-  restarts and scale beyond one instance (currently in-memory).
 - **Admin 2FA** for the dashboard.
 - **Origin firewall:** restrict the VPS to Cloudflare IPs (see `MIGRATION.md` Appendix B).
 - Keep `npm audit` clean: re-run before each deploy.

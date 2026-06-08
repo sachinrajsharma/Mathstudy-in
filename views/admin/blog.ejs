@@ -39,6 +39,7 @@
                 <a class="adm-link" href="/admin/blog/<%= p.id %>/edit">Edit</a>
                 <a class="adm-link" href="/blog/<%= p.slug %>" target="_blank">View</a>
                 <form method="POST" action="/admin/blog/<%= p.id %>/delete" style="display:inline" onsubmit="return confirm('Delete this post permanently?')">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
                   <button class="adm-link danger" type="submit" style="background:none;border:none;cursor:pointer;padding:0;font:inherit">Delete</button>
                 </form>
               </div>

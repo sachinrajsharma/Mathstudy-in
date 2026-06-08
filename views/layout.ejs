@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<% if (locals.csrfToken) { %><meta name="csrf-token" content="<%= csrfToken %>"><% } %>
 <title><%= title %></title>
 <meta name="description" content="<%= locals.metaDesc || 'Premium math e-books for CBSE, JEE, ICSE. Grades 1-12, competitive exams. Instant PDF download.' %>">
 <meta name="robots" content="index, follow">
@@ -53,6 +54,7 @@
         <% } %>
         <a class="btn-login" href="/dashboard">My Orders</a>
         <form action="/auth/logout" method="POST" style="display:inline">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
           <button class="btn-signup" type="submit">Log Out</button>
         </form>
       <% } else { %>

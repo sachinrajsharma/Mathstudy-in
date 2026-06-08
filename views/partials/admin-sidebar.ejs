@@ -11,5 +11,6 @@
     <a href="/shop" target="_blank"><span class="ic">🛍️</span> View Shop</a>
     <a href="/auth/logout" onclick="event.preventDefault();document.getElementById('adminLogoutForm').submit();"><span class="ic">🚪</span> Log out</a>
   </nav>
-  <form id="adminLogoutForm" action="/auth/logout" method="POST" style="display:none"></form>
+  <form id="adminLogoutForm" action="/auth/logout" method="POST" style="display:none">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>"></form>
 </aside>

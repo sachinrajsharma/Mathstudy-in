@@ -110,6 +110,28 @@ app.use(session({
   }
 }));
 
+// ── CSRF: issue a per-session token, expose to views ─────────────────────────
+app.use((req, res, next) => {
+  if (!req.session.csrfToken) req.session.csrfToken = crypto.randomBytes(24).toString('hex');
+  res.locals.csrfToken = req.session.csrfToken;
+  next();
+});
+// Reusable CSRF verifier (token from form field _csrf, or X-CSRF-Token header).
+function verifyCsrf(req, res, next) {
+  const sent = (req.body && req.body._csrf) || req.headers['x-csrf-token'] || req.headers['x-xsrf-token'] || '';
+  const expected = req.session && req.session.csrfToken;
+  let ok = false;
+  if (expected && typeof sent === 'string' && sent.length === expected.length) {
+    try { ok = crypto.timingSafeEqual(Buffer.from(sent), Buffer.from(expected)); } catch (e) { ok = false; }
+  }
+  if (ok) return next();
+  const wantsJson = req.xhr || req.headers['x-csrf-token'] ||
+    (req.headers.accept || '').includes('json') || (req.headers['content-type'] || '').includes('json');
+  if (wantsJson) return res.status(403).json({ error: 'Invalid or missing security token. Refresh and try again.' });
+  return res.status(403).render('error', { title: '403 — Security check failed', metaDesc: '', canonical: null,
+    message: 'Your security token was missing or expired. Please go back, refresh the page, and try again.' });
+}
+
 // ── View engine ───────────────────────────────────────────────────────────────
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -120,6 +142,15 @@ app.set('layout', 'layout');
 app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'ignore', index: false }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// ── CSRF verify on state-changing requests ───────────────────────────────────
+// Multipart forms (admin product create/edit, PDF upload) are checked per-route
+// AFTER multer parses the body; everything else is checked here.
+app.use((req, res, next) => {
+  if (['GET', 'HEAD', 'OPTIONS'].includes(req.method)) return next();
+  if (req.is('multipart/form-data')) return next();
+  return verifyCsrf(req, res, next);
+});
 
 // ── Locals injected to every view ─────────────────────────────────────────────
 app.use((req, res, next) => {
@@ -657,7 +688,7 @@ app.get('/admin/products/:id/edit', requireAdmin, async (req, res) => {
 });
 
 // Admin — Save product (new)
-app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'), async (req, res) => {
+app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'), verifyCsrf, async (req, res) => {
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : null;
   try {
@@ -674,7 +705,7 @@ app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'),
 });
 
 // Admin — Save product (edit)
-app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_image'), async (req, res) => {
+app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_image'), verifyCsrf, async (req, res) => {
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : req.body.existing_cover;
   try {
@@ -691,7 +722,7 @@ app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_ima
 });
 
 // Admin — Upload PDF for product
-app.post('/admin/products/:id/upload-pdf', requireAdmin, uploadPdf.single('pdf_file'), async (req, res) => {
+app.post('/admin/products/:id/upload-pdf', requireAdmin, uploadPdf.single('pdf_file'), verifyCsrf, async (req, res) => {
   if (!req.file) return res.status(400).json({ error:'No PDF uploaded.' });
   await pool.query(`UPDATE products SET pdf_file=? WHERE id=?`,[req.file.filename, req.params.id]);
   res.json({ ok:true, filename: req.file.filename });

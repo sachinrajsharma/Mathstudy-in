@@ -31,6 +31,7 @@ const WA = 'https://wa.me/919211865759?text=' + encodeURIComponent('Hi, I have a
       <h2 style="font-size:1.25rem;font-weight:800;color:var(--dark);margin:0 0 4px">Send us a message</h2>
       <p style="color:var(--muted);font-size:.9rem;margin:0 0 18px">Tell us how we can help and we'll reply the same day.</p>
       <form method="POST" action="/contact">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
         <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Your name *</label><input type="text" name="name" required style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
         <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">WhatsApp / email *</label><input type="text" name="contact" required placeholder="+91… or you@email.com" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
         <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Topic</label><input type="text" name="grade" placeholder="e.g. order help, download issue, book question" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>

@@ -10,6 +10,7 @@
     <% if (locals.error && error) { %><div class="alert alert-error" style="margin-bottom:16px"><%= error %></div><% } %>
 
     <form id="productForm" action="/admin/products/<%= product ? product.id + '/edit' : 'new' %>" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <% if (product) { %><input type="hidden" name="existing_cover" value="<%= product.cover_image || '' %>"><% } %>
       <div class="adm-editor">
 
