@@ -61,6 +61,11 @@ app.use('/auth/', rateLimit({ windowMs: 15*60*1000, max: 30 }));
 app.use('/download/', rateLimit({ windowMs: 60*60*1000, max: 20 }));
 
 // ── Session ───────────────────────────────────────────────────────────────────
+// Behind Nginx + Cloudflare, TLS is terminated upstream and the app is reached
+// over HTTP with X-Forwarded-Proto: https. Trust the first proxy hop so Express
+// treats the request as secure and will actually set the `secure` session cookie
+// (otherwise login / cart / admin sessions silently break in production).
+app.set('trust proxy', 1);
 app.use(session({
   secret: process.env.SESSION_SECRET || 'mathstudy-dev-secret',
   resave: false,
