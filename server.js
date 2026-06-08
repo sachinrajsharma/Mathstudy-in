@@ -13,6 +13,7 @@ const notify         = require('./lib/notify');
 const ordersLib      = require('./lib/orders');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
+const MySQLStore     = require('express-mysql-session')(session);
 
 const app  = express();
 app.locals.siteJsonLd = seo.siteJsonLd();
@@ -53,13 +54,27 @@ app.use(helmet({
       connectSrc: ["'self'", "https://cdn.jsdelivr.net", "https://cdn.quilljs.com"],
       scriptSrcAttr:  ["'unsafe-inline'"]
     }
-  }
+  },
+  hsts: { maxAge: 31536000, includeSubDomains: true, preload: true },
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
+  crossOriginResourcePolicy: { policy: 'cross-origin' }
 }));
+
+// Drop common vulnerability scanners / WordPress & PHP probes fast (this is a Node app,
+// not WordPress — these paths never exist here, so 404 them before they touch any logic).
+const SCAN_BLOCK = /^\/(?:wp-admin|wp-login|wp-content|wp-includes|wordpress|xmlrpc\.php|phpmyadmin|administrator|vendor|cgi-bin)(?:\/|$)|\.php$|^\/\.(?:env|git|svn|aws|ssh|htaccess|htpasswd)/i;
+app.use((req, res, next) => {
+  if (SCAN_BLOCK.test(req.path)) return res.status(404).type('text/plain').send('Not found');
+  next();
+});
 
 // ── Rate limiting ─────────────────────────────────────────────────────────────
 app.use('/api/', rateLimit({ windowMs: 15*60*1000, max: 200 }));
 app.use('/auth/', rateLimit({ windowMs: 15*60*1000, max: 30 }));
 app.use('/download/', rateLimit({ windowMs: 60*60*1000, max: 20 }));
+// Stricter, dedicated brute-force guard for the login POST itself.
+const loginLimiter = rateLimit({ windowMs: 15*60*1000, max: 10, standardHeaders: true, legacyHeaders: false,
+  message: 'Too many login attempts. Please try again in 15 minutes.' });
 
 // ── Session ───────────────────────────────────────────────────────────────────
 // Behind Nginx + Cloudflare, TLS is terminated upstream and the app is reached
@@ -72,7 +87,18 @@ if (process.env.NODE_ENV === 'production' && !process.env.SESSION_SECRET) {
   console.error('FATAL: SESSION_SECRET must be set in production (.env). Refusing to start.');
   process.exit(1);
 }
+// Persist sessions in MySQL (survives restarts/deploys; no in-memory leak/DoS vector).
+const sessionStore = new MySQLStore({
+  host:     process.env.DB_HOST || 'localhost',
+  port:     parseInt(process.env.DB_PORT) || 3306,
+  user:     process.env.DB_USER || 'root',
+  password: process.env.DB_PASS || '',
+  database: process.env.DB_NAME || 'mathstudy',
+  createDatabaseTable: true,
+  schema: { tableName: 'sessions' }
+});
 app.use(session({
+  store: sessionStore,
   secret: process.env.SESSION_SECRET || 'mathstudy-dev-secret',
   resave: false,
   saveUninitialized: false,
@@ -91,7 +117,7 @@ app.use(expressLayouts);
 app.set('layout', 'layout');
 
 // ── Static files & body parsing ───────────────────────────────────────────────
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'ignore', index: false }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -342,7 +368,7 @@ app.post('/contact', async (req, res) => {
 app.get('/auth/login',    (req, res) => res.render('auth/login',    { title:'Log In — MathStudy.in',    metaDesc:'', canonical:null, error:null, next: req.query.next||'/dashboard' }));
 app.get('/auth/register', (req, res) => res.render('auth/register', { title:'Sign Up — MathStudy.in', metaDesc:'', canonical:null, error:null }));
 
-app.post('/auth/login', async (req, res) => {
+app.post('/auth/login', loginLimiter, async (req, res) => {
   const { email, next } = req.body;
   const pw = req.body.password;
   if (!email || !pw) return res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Please fill all fields.', next:next||'/dashboard' });
