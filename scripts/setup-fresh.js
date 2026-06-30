@@ -16,25 +16,31 @@ const fs = require('fs');
 const path = require('path');
 
 // Ordered; each step is idempotent and safe to re-run.
+// required:true  → abort if it fails (the site can't work without it).
+// required:false → warn and continue (e.g. download-urls.json not uploaded yet).
 const STEPS = [
-  ['Schema + categories + admin user', 'setup-db.js'],
-  ['Seed products (base catalogue + Node prices)', 'seed-products.js'],
-  ['Seed Class-12 products', 'seed-class12-new.js'],
-  ['Apply bundle pricing', 'seed-bundles-pricing.js'],
-  ['Apply product SEO meta', 'seed-product-seo.js'],
-  ['Wire Google-Drive download links', 'import-download-urls.js'],
-  ['Seed curated blog articles', 'seed-blog-articles.js'],
-  ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js'],
-  ['Repoint product covers to local images', 'fix-product-covers.js'],
+  ['Schema + categories + admin user', 'setup-db.js', true],
+  ['Seed products (base catalogue + Node prices)', 'seed-products.js', true],
+  ['Seed Class-12 products', 'seed-class12-new.js', false],
+  ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
+  ['Apply product SEO meta', 'seed-product-seo.js', false],
+  ['Wire Google-Drive download links', 'import-download-urls.js', false],
+  ['Seed curated blog articles', 'seed-blog-articles.js', false],
+  ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js', false],
+  ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 
-let ok = 0, skipped = 0;
-for (const [label, file] of STEPS) {
+let ok = 0, skipped = 0, warned = 0;
+for (const [label, file, required] of STEPS) {
   const full = path.join(__dirname, file);
-  if (!fs.existsSync(full)) { console.log('\n— SKIP (missing): ' + file); skipped++; continue; }
+  if (!fs.existsSync(full)) { console.log('\n— SKIP (missing file): ' + file); skipped++; continue; }
   console.log('\n========== ' + label + '  (' + file + ') ==========');
   try { execSync('node ' + JSON.stringify(full), { stdio: 'inherit', cwd: path.join(__dirname, '..') }); ok++; }
-  catch (e) { console.error('\n!! STEP FAILED: ' + file + ' — fix and re-run (steps are idempotent).'); process.exit(1); }
+  catch (e) {
+    if (required) { console.error('\n!! REQUIRED STEP FAILED: ' + file + ' — fix env/DB and re-run.'); process.exit(1); }
+    console.warn('\n~~ optional step failed (' + file + ') — continuing. Re-run setup-fresh after fixing (e.g. upload data/download-urls.json).');
+    warned++;
+  }
 }
-console.log('\n✅ Fresh setup complete — ' + ok + ' steps run' + (skipped ? ', ' + skipped + ' skipped' : '') + '.');
+console.log('\n✅ Fresh setup done — ' + ok + ' ok' + (warned ? ', ' + warned + ' skipped(failed-optional)' : '') + (skipped ? ', ' + skipped + ' missing' : '') + '.');
 console.log('Visit /  ·  /shop  ·  /blog  ·  an old post like /2nd-grade-math-worksheets/  to verify.');
