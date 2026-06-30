@@ -145,6 +145,23 @@ app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'ignore', ind
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// ── One-time DB setup over HTTP (no SSH needed) ───────────────────────────────
+// Visit /__setup__?key=YOUR_SETUP_KEY once to build + seed the database (runs
+// scripts/setup-fresh.js). Gated by the SETUP_KEY env var — returns 404 unless it
+// matches. IMPORTANT: delete the SETUP_KEY env var once it succeeds so this goes dark.
+app.get('/__setup__', (req, res) => {
+  const key = process.env.SETUP_KEY;
+  if (!key || req.query.key !== key) return res.status(404).type('text/plain').send('Not found');
+  const { execSync } = require('child_process');
+  try {
+    const out = execSync(JSON.stringify(process.execPath) + ' ' + JSON.stringify(path.join(__dirname, 'scripts', 'setup-fresh.js')),
+      { cwd: __dirname, encoding: 'utf8', timeout: 180000, maxBuffer: 20 * 1024 * 1024 });
+    res.type('text/plain').send('SETUP OK ✅\n\n' + out);
+  } catch (e) {
+    res.status(500).type('text/plain').send('SETUP FAILED ❌\n\n' + (e.stdout || '') + '\n--- stderr ---\n' + (e.stderr || '') + '\n--- message ---\n' + (e.message || ''));
+  }
+});
+
 // ── CSRF verify on state-changing requests ───────────────────────────────────
 // Multipart forms (admin product create/edit, PDF upload) are checked per-route
 // AFTER multer parses the body; everything else is checked here.

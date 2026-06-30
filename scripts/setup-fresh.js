@@ -35,7 +35,7 @@ for (const [label, file, required] of STEPS) {
   const full = path.join(__dirname, file);
   if (!fs.existsSync(full)) { console.log('\n— SKIP (missing file): ' + file); skipped++; continue; }
   console.log('\n========== ' + label + '  (' + file + ') ==========');
-  try { execSync('node ' + JSON.stringify(full), { stdio: 'inherit', cwd: path.join(__dirname, '..') }); ok++; }
+  try { execSync(JSON.stringify(process.execPath) + ' ' + JSON.stringify(full), { stdio: 'inherit', cwd: path.join(__dirname, '..') }); ok++; }
   catch (e) {
     if (required) { console.error('\n!! REQUIRED STEP FAILED: ' + file + ' — fix env/DB and re-run.'); process.exit(1); }
     console.warn('\n~~ optional step failed (' + file + ') — continuing. Re-run setup-fresh after fixing (e.g. upload data/download-urls.json).');
