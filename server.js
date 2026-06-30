@@ -45,13 +45,15 @@ app.use(helmet({
       defaultSrc: ["'self'"],
       scriptSrc:  ["'self'", "'unsafe-inline'",
                    "https://cdnjs.cloudflare.com", "https://fonts.googleapis.com",
-                   "https://cdn.jsdelivr.net", "https://cdn.quilljs.com"],
+                   "https://cdn.jsdelivr.net", "https://cdn.quilljs.com",
+                   "https://www.googletagmanager.com"],
       styleSrc:   ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com",
                    "https://cdnjs.cloudflare.com", "https://cdn.jsdelivr.net",
                    "https://cdn.quilljs.com"],
       fontSrc:    ["'self'", "https://fonts.gstatic.com", "https://cdnjs.cloudflare.com", "data:"],
       imgSrc:     ["'self'", "data:", "https:", "blob:"],
-      connectSrc: ["'self'", "https://cdn.jsdelivr.net", "https://cdn.quilljs.com"],
+      connectSrc: ["'self'", "https://cdn.jsdelivr.net", "https://cdn.quilljs.com",
+                   "https://*.google-analytics.com", "https://*.analytics.google.com", "https://www.googletagmanager.com"],
       scriptSrcAttr:  ["'unsafe-inline'"]
     }
   },
@@ -913,7 +915,8 @@ app.get('/blog/:slug', async (req, res, next) => {
     res.render('blog-post', {
       title: post.meta_title || post.title + ' — MathStudy.in',
       metaDesc: post.meta_desc || post.excerpt || '',
-      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/blog/' + post.slug : null,
+      // Canonical is the ROOT url (/<slug>) — matches the original WordPress permalink.
+      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/' + post.slug : null,
       ogImage: post.cover_image || null,
       post: post,
     });
@@ -1015,9 +1018,17 @@ app.get('/sitemap.xml', async (req, res) => {
   const base = process.env.BASE_URL || 'https://mathstudy.in';
   const [products] = await pool.query(`SELECT slug,updated_at FROM products WHERE is_published=1`);
   const [cats]     = await pool.query(`SELECT slug FROM categories`);
+  const [blogs]    = await pool.query(`SELECT slug,updated_at FROM blogs WHERE status='published'`);
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   xml += '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>\n';
   xml += '<url><loc>' + base + '/shop</loc><changefreq>daily</changefreq><priority>0.9</priority></url>\n';
+  xml += '<url><loc>' + base + '/blog</loc><changefreq>daily</changefreq><priority>0.7</priority></url>\n';
+  // Blog posts at their ORIGINAL root URL (/<slug>) — preserves the indexed WordPress URLs.
+  blogs.forEach(function(b) {
+    xml += '<url><loc>' + base + '/' + b.slug + '</loc>';
+    if (b.updated_at) xml += '<lastmod>' + new Date(b.updated_at).toISOString().split('T')[0] + '</lastmod>';
+    xml += '<changefreq>monthly</changefreq><priority>0.7</priority></url>\n';
+  });
   products.forEach(function(p) {
     xml += '<url><loc>' + base + '/shop/product/' + p.slug + '</loc>';
     if (p.updated_at) xml += '<lastmod>' + new Date(p.updated_at).toISOString().split('T')[0] + '</lastmod>';
@@ -1063,6 +1074,27 @@ app.get('/robots.txt', function(req, res) {
     ''
   ];
   res.type('text/plain').send(lines.join('\n'));
+});
+
+// ── Legacy WordPress root URLs ───────────────────────────────────────────────
+// WordPress served posts/pages at the root (/<slug>/). Imported posts live in the
+// blogs table; serve them at their ORIGINAL root URL so Google's indexed links keep
+// working. Runs last (after every real route), only for single-segment paths.
+app.get('/:slug', async (req, res, next) => {
+  const slug = req.params.slug;
+  if (!slug || slug.indexOf('.') !== -1) return next();   // skip files (sitemap.xml, etc.)
+  try {
+    const [[post]] = await pool.query(`SELECT * FROM blogs WHERE slug=? AND status='published'`, [slug]);
+    if (!post) return next();
+    pool.query(`UPDATE blogs SET views=views+1 WHERE id=?`, [post.id]).catch(function(){});
+    res.render('blog-post', {
+      title: post.meta_title || post.title + ' — MathStudy.in',
+      metaDesc: post.meta_desc || post.excerpt || '',
+      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/' + post.slug : null,
+      ogImage: post.cover_image || null,
+      post: post,
+    });
+  } catch(e) { next(e); }
 });
 
 // ── 404 / Error ──────────────────────────────────────────────────────────────

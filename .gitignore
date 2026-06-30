@@ -56,3 +56,7 @@ Thumbs.db
 
 # Personal working note that contains the secret Drive links
 PRODUCT URLS
+
+# WP migration media — upload to server via File Manager, not git
+public/wp-content/uploads/
+data/ebooks/
