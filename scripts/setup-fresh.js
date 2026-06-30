@@ -29,6 +29,7 @@ const STEPS = [
   ['Wire Google-Drive download links', 'import-download-urls.js', false],
   ['Seed curated blog articles', 'seed-blog-articles.js', false],
   ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js', false],
+  ['Scrub injected spam links from blogs', 'clean-spam-links.js', false],
   ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 
