@@ -10,7 +10,7 @@ const cfg = {
   port:     parseInt(process.env.DB_PORT) || 3306,
   user:     process.env.DB_USER     || 'root',
   password: process.env.DB_PASS     || '',
-  database: 'mathstudy'
+  database: process.env.DB_NAME || 'mathstudy'
 };
 
 const WP = 'https://mathstudy.in/wp-content/uploads';

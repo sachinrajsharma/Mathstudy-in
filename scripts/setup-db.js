@@ -14,13 +14,15 @@ const cfg = {
   password: process.env.DB_PASS || '',
   multipleStatements: true
 };
+// Use the real database name from the environment (e.g. Hostinger's u976518892_mathstudy).
+const DB = process.env.DB_NAME || 'mathstudy';
 
 function sha256(str) {
   return crypto.createHash('sha256').update(str).digest('hex');
 }
 
 const SCHEMA = `
-USE \`mathstudy\`;
+USE \`${DB}\`;
 
 -- Users
 CREATE TABLE IF NOT EXISTS users (
@@ -150,9 +152,9 @@ async function run() {
   // (recommended in production) can't CREATE DATABASE — that's fine, the database
   // is created during server setup, so we just skip and use the existing one.
   try {
-    await conn.query("CREATE DATABASE IF NOT EXISTS `mathstudy` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;");
+    await conn.query("CREATE DATABASE IF NOT EXISTS `" + DB + "` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;");
   } catch (e) {
-    console.log('Note: skipping CREATE DATABASE (limited user) — using existing `mathstudy` database.');
+    console.log('Note: skipping CREATE DATABASE (limited user) — using existing `' + DB + '` database.');
   }
 
   console.log('Creating schema...');
@@ -161,7 +163,7 @@ async function run() {
   console.log('Seeding categories...');
   for (const cat of SEED_CATEGORIES) {
     await conn.query(
-      `INSERT IGNORE INTO mathstudy.categories (name, slug, sort_order) VALUES (?,?,?)`,
+      `INSERT IGNORE INTO \`${DB}\`.categories (name, slug, sort_order) VALUES (?,?,?)`,
       [cat.name, cat.slug, cat.sort]
     );
   }
@@ -177,7 +179,7 @@ async function run() {
   }
   const adminHash = await password.hash(adminPlain);
   const [result] = await conn.query(`
-    INSERT IGNORE INTO mathstudy.users (name, email, password_hash, role)
+    INSERT IGNORE INTO \`${DB}\`.users (name, email, password_hash, role)
     VALUES ('Admin', ?, ?, 'super_admin')
   `, [adminEmail, adminHash]);
 
