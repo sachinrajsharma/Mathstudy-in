@@ -684,6 +684,46 @@ app.get('/admin', requireAdmin, async (req, res) => {
   } catch(e) { console.error(e); res.status(500).send('Admin error: '+e.message); }
 });
 
+// Admin — Email health: shows whether order emails can send from THIS server
+// (env presence → live SMTP login check → optional test mail). No secrets shown.
+app.get('/admin/email-status', requireAdmin, async (req, res) => {
+  const status = notify.smtpStatus();
+  const verify = await notify.verifySmtp();
+  let test = null;
+  if (req.query.send === '1') {
+    test = await notify.sendEmail(
+      status.admin_email,
+      'MathStudy email test — order notifications',
+      '<p>This is a test from <b>/admin/email-status</b>. If you are reading it, new-order emails work.</p>'
+    );
+  }
+  const row = (label, ok, detail) =>
+    `<tr><td style="padding:6px 12px;border-bottom:1px solid #eee">${label}</td>
+     <td style="padding:6px 12px;border-bottom:1px solid #eee">${ok ? '✅' : '❌'} ${detail || ''}</td></tr>`;
+  res.send(`<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Email health — Admin</title></head>
+  <body style="font-family:Arial,sans-serif;max-width:640px;margin:30px auto;color:#1f2937">
+    <h1 style="font-size:22px">Order-email health</h1>
+    <table style="border-collapse:collapse;width:100%">
+      ${row('SMTP_HOST', !!status.smtp_host, status.smtp_host || 'not set')}
+      ${row('SMTP_PORT', true, String(status.smtp_port))}
+      ${row('SMTP_USER', status.smtp_user_set, status.smtp_user_set ? 'set' : 'not set')}
+      ${row('SMTP_PASS', status.smtp_pass_set, status.smtp_pass_set ? 'set' : 'not set')}
+      ${row('ADMIN_EMAIL (order alerts go here)', !!status.admin_email, status.admin_email || 'not set')}
+      ${row('MAIL_FROM', !!status.mail_from, status.mail_from || 'not set')}
+      ${row('SMTP login check', verify.ok, verify.ok ? 'connected + authenticated' : verify.error)}
+      ${test ? row('Test email', !!test.ok, test.ok ? 'sent to ' + status.admin_email + ' — check the inbox'
+                                           : (test.error || test.skipped || '')) : ''}
+    </table>
+    <p style="margin-top:18px">
+      <a href="/admin/email-status?send=1" style="background:#0d9488;color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;font-weight:700">Send a test email to ${status.admin_email || 'ADMIN_EMAIL'}</a>
+      &nbsp; <a href="/admin">← Back to admin</a>
+    </p>
+    <p style="color:#64748b;font-size:13px">On this Hostinger server the working recipe is:
+    SMTP_HOST=smtp.hostinger.com, SMTP_PORT=465, SMTP_USER=admin@mathstudy.in,
+    SMTP_PASS=&lt;that mailbox's password&gt;, ADMIN_EMAIL=admin@mathstudy.in.</p>
+  </body></html>`);
+});
+
 // Admin — Products list
 app.get('/admin/products', requireAdmin, async (req, res) => {
   const [products] = await pool.query(
