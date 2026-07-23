@@ -36,14 +36,15 @@
         <tbody>
           <% orders.forEach(function(o){ %>
           <tr data-status="<%= o.status %>">
-            <td>#<%= o.id %></td>
-            <td style="font-family:monospace;font-size:0.78rem;color:#1e3a8a;font-weight:700">
-              <%= o.payment_id || '—' %>
+            <td><a href="/admin/orders/<%= o.id %>" style="color:#1e3a8a;font-weight:700">#<%= o.id %></a></td>
+            <td style="font-family:monospace;font-size:0.78rem;font-weight:700">
+              <a href="/admin/orders/<%= o.id %>" style="color:#1e3a8a;text-decoration:none"><%= o.payment_id || '—' %></a>
             </td>
             <td><%= o.buyer %></td>
             <td style="font-size:0.78rem;color:var(--muted)"><%= o.email %></td>
             <td style="font-size:0.8rem;max-width:180px;word-break:break-word">
-              <%= o.item_titles ? o.item_titles.split('||').join(', ') : '—' %>
+              <a href="/admin/orders/<%= o.id %>" style="color:#0f172a;text-decoration:none"><%= o.item_titles ? o.item_titles.split('||').join(', ') : '—' %></a>
+              <div><a href="/admin/orders/<%= o.id %>" style="font-size:0.74rem;color:#1e3a8a;font-weight:700">View details &rarr;</a></div>
             </td>
             <td style="font-weight:700">&#8377;<%= parseFloat(o.total_amount).toFixed(0) %></td>
             <td>

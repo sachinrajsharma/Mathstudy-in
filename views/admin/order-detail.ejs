@@ -1,0 +1,117 @@
+<% locals.layout = 'layout' %>
+<div class="admin-wrap">
+  <%- include('../partials/admin-sidebar', { active: 'orders' }) %>
+  <div class="admin-main">
+    <p style="margin-bottom:10px"><a href="/admin/orders" style="color:#1e3a8a;font-weight:600;text-decoration:none">&larr; All orders</a></p>
+    <div class="admin-title">Order #<%= order.id %></div>
+    <div class="admin-sub" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <span style="font-family:monospace;font-weight:700;color:#1e3a8a"><%= order.payment_id || '—' %></span>
+      <span class="order-status status-<%= order.status %>"><%= order.status %></span>
+      <span><%= new Date(order.created_at).toLocaleString('en-IN') %></span>
+      <span style="font-weight:800">&#8377;<%= parseFloat(order.total_amount).toFixed(0) %></span>
+    </div>
+
+    <!-- Buyer -->
+    <div class="od-card">
+      <div class="od-card-title">Buyer</div>
+      <div style="font-size:0.9rem;line-height:1.9">
+        <b><%= order.buyer %></b><br>
+        <a href="mailto:<%= order.buyer_email %>" style="color:#1e3a8a"><%= order.buyer_email %></a>
+        <% if (order.customer_phone) { %><br>Phone / WhatsApp: <b><%= order.customer_phone %></b><% } %>
+        <% if (order.customer_note) { %><br>Note: <span style="color:#475569"><%= order.customer_note %></span><% } %>
+      </div>
+    </div>
+
+    <!-- Purchased products -->
+    <div class="od-card">
+      <div class="od-card-title">Products purchased (<%= items.length %>)</div>
+      <table class="admin-table" style="width:100%">
+        <thead><tr><th>Product</th><th>Price</th><th>Delivery source</th></tr></thead>
+        <tbody>
+          <% items.forEach(function(it){
+               var isBundle = false;
+               try { var b = Array.isArray(it.bundle_items) ? it.bundle_items : JSON.parse(it.bundle_items || '[]'); isBundle = b.length > 0; } catch(e) {}
+          %>
+          <tr>
+            <td>
+              <a href="/product/<%= it.slug %>" target="_blank" rel="noopener" style="color:#0f172a;font-weight:600"><%= it.title %></a>
+              <a href="/admin/products/<%= it.id %>/edit" style="font-size:0.75rem;color:#1e3a8a;margin-left:8px">edit</a>
+              <% if (isBundle) { %><span style="font-size:0.72rem;background:#eff6ff;border:1px solid #bfdbfe;color:#1d4ed8;border-radius:12px;padding:2px 8px;margin-left:6px">bundle</span><% } %>
+            </td>
+            <td style="font-weight:700">&#8377;<%= parseFloat(it.price).toFixed(0) %></td>
+            <td style="font-size:0.82rem">
+              <% if (isBundle) { %>via component e-books
+              <% } else if (it.download_url) { %>&#128274; Google Drive
+              <% } else if (it.pdf_file) { %>Local PDF
+              <% } else { %><span style="color:#b91c1c;font-weight:700">&#10060; nothing attached</span>
+              <% } %>
+            </td>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Download links -->
+    <div class="od-card">
+      <div class="od-card-title">Buyer's download links (<%= downloads.length %> e-book<%= downloads.length === 1 ? '' : 's' %>)</div>
+      <% if (order.status !== 'paid') { %>
+        <p style="font-size:0.86rem;color:#b45309">Links are generated when you approve this order. Approve it from the <a href="/admin/orders" style="color:#1e3a8a">orders list</a> or the email.</p>
+      <% } else { %>
+        <p style="font-size:0.82rem;color:#64748b;margin-bottom:10px">These are the exact links the buyer received. If they say the email never arrived, use <b>Resend email</b> below — or copy a link and send it yourself (WhatsApp / any email). Links only work while logged in to the buyer's account.</p>
+        <% downloads.forEach(function(d, i){ %>
+          <div style="margin-bottom:10px">
+            <div style="font-size:0.85rem;font-weight:700"><%= d.title %></div>
+            <% if (d.token) { %>
+              <div style="display:flex;gap:6px;margin-top:4px">
+                <input id="dl-<%= i %>" type="text" readonly value="<%= baseUrl %>/download/<%= d.token.token %>"
+                  style="flex:1;font-family:monospace;font-size:0.74rem;border:1.5px solid #cbd5e1;border-radius:6px;padding:6px 8px;background:#f8fafc">
+                <button onclick="copyDl('dl-<%= i %>', this)" style="border:1.5px solid #1e3a8a;background:#fff;color:#1e3a8a;border-radius:6px;font-size:0.75rem;font-weight:700;cursor:pointer;padding:0 12px">Copy</button>
+              </div>
+              <div style="font-size:0.72rem;color:#94a3b8;margin-top:2px">
+                Used <%= d.token.used_count %>/<%= d.token.max_uses %> &bull; expires <%= new Date(d.token.expires_at).toLocaleDateString('en-IN') %>
+              </div>
+            <% } else { %>
+              <div style="font-size:0.8rem;color:#b45309">Token not minted yet — click <b>Resend email</b> to generate it.</div>
+            <% } %>
+          </div>
+        <% }); %>
+        <button id="resendBtn" onclick="resendEmail(this)" class="btn-approve" style="width:auto;padding:9px 18px;margin-top:6px">&#9993; Resend download email to <%= order.buyer_email %></button>
+      <% } %>
+    </div>
+  </div>
+</div>
+
+<style>
+.od-card { background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:18px 20px;margin:16px 0; }
+.od-card-title { font-size:0.78rem;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;color:#64748b;margin-bottom:10px; }
+.status-pending  { background:#fef3c7; color:#b45309; border:1px solid #fde68a; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
+.status-paid     { background:#d1fae5; color:#065f46; border:1px solid #6ee7b7; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
+.status-failed   { background:#fee2e2; color:#991b1b; border:1px solid #fca5a5; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
+.status-refunded { background:#f3f4f6; color:#6b7280; border:1px solid #d1d5db; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
+.btn-approve { background:#065f46;color:#fff;border:none;border-radius:6px;font-size:0.8rem;font-weight:700;cursor:pointer; }
+.btn-approve:disabled { background:#94a3b8;cursor:default; }
+</style>
+
+<script>
+function copyDl(id, btn) {
+  var input = document.getElementById(id);
+  input.select(); input.setSelectionRange(0, 99999);
+  try { navigator.clipboard.writeText(input.value); } catch (e) { document.execCommand('copy'); }
+  btn.textContent = 'Copied!';
+  setTimeout(function(){ btn.textContent = 'Copy'; }, 1500);
+}
+function resendEmail(btn) {
+  btn.disabled = true; btn.textContent = 'Sending…';
+  fetch(window.location.pathname + '/resend', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:'go=1' })
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      btn.disabled = false; btn.textContent = '✉ Resend download email';
+      if (d.ok && d.emailOk) alert('Email with ' + d.count + ' download link(s) sent to ' + d.to + '.');
+      else if (d.ok) alert('Links are ready (' + d.count + ') but the EMAIL FAILED to send — check /admin/email-status, or copy the links above and send manually.');
+      else alert(d.error || 'Failed.');
+      window.location.reload();
+    })
+    .catch(function(){ btn.disabled = false; btn.textContent = '✉ Resend download email'; alert('Network error.'); });
+}
+</script>

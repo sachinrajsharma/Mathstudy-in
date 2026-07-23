@@ -932,6 +932,52 @@ app.get('/admin/orders', requireAdmin, async (req, res) => {
   res.render('admin/orders', { title:'Orders — Admin', metaDesc:'', canonical:null, orders });
 });
 
+// Admin — Order detail (WooCommerce-style): buyer, purchased products with
+// links, delivery readiness, and the buyer's actual download links so they
+// can be copied and sent manually if an email ever goes missing.
+app.get('/admin/orders/:id', requireAdmin, async (req, res) => {
+  const orderId = parseInt(req.params.id, 10);
+  if (!orderId) return res.status(404).render('error', { title:'Not found', metaDesc:'', canonical:null, message:'Order not found.' });
+  try {
+    const [[order]] = await pool.query(
+      `SELECT o.*, u.name AS buyer, u.email AS buyer_email FROM orders o
+       JOIN users u ON o.user_id = u.id WHERE o.id=?`, [orderId]);
+    if (!order) return res.status(404).render('error', { title:'Not found', metaDesc:'', canonical:null, message:'Order not found.' });
+
+    const [items] = await pool.query(
+      `SELECT oi.price, p.id, p.title, p.slug, p.download_url, p.pdf_file, p.bundle_items
+         FROM order_items oi JOIN products p ON p.id = oi.product_id
+        WHERE oi.order_id=?`, [orderId]);
+
+    // Every e-book this order grants (bundles expanded) + its token, if minted.
+    const deliverables = await ordersLib.expandDeliverables(pool, orderId);
+    const [tokens] = await pool.query(
+      `SELECT dt.token, dt.product_id, dt.used_count, dt.max_uses, dt.expires_at
+         FROM download_tokens dt WHERE dt.order_id=?`, [orderId]);
+    const tokenByProduct = new Map(tokens.map(t => [t.product_id, t]));
+    const downloads = deliverables.map(d => ({
+      title: d.title,
+      token: tokenByProduct.get(d.product_id) || null,
+    }));
+
+    res.render('admin/order-detail', {
+      title: 'Order #' + order.id + ' — Admin', metaDesc: '', canonical: null,
+      order, items, downloads, baseUrl: BASE_URL,
+    });
+  } catch (e) { console.error('order detail error:', e); res.status(500).send('Order detail error: ' + e.message); }
+});
+
+// Admin — Re-send the download email for a paid order (tokens reused/minted).
+app.post('/admin/orders/:id/resend', requireAdmin, async (req, res) => {
+  const orderId = parseInt(req.params.id, 10);
+  if (!orderId) return res.status(400).json({ error: 'Invalid order ID.' });
+  try {
+    const r = await ordersLib.resendOrder(pool, orderId, BASE_URL);
+    if (r.error) return res.status(r.code || 400).json({ error: r.error });
+    res.json({ ok: true, emailOk: r.emailOk, count: r.downloads.length, to: r.user.email });
+  } catch (e) { console.error('resend error:', e); res.status(500).json({ error: 'Server error. Try again.' }); }
+});
+
 // Admin — Approve / Reject a UPI order (from the admin panel). Shares the engine
 // in lib/orders.js so the buyer is notified and download links are minted.
 app.post('/admin/orders/:id/approve', requireAdmin, async (req, res) => {
