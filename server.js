@@ -750,6 +750,50 @@ app.get('/admin/email-status', requireAdmin, async (req, res) => {
   </body></html>`);
 });
 
+// Admin — Delivery health: can every published product actually deliver its
+// e-book after approval? Mirrors the /download/:token logic: Drive URL first,
+// local PDF fallback; bundles deliver via their components.
+app.get('/admin/delivery-status', requireAdmin, async (req, res) => {
+  try {
+    const [products] = await pool.query(
+      `SELECT id, slug, title, download_url, pdf_file, bundle_items FROM products WHERE is_published=1 ORDER BY title`);
+    const byId = new Map(products.map(p => [p.id, p]));
+    const check = (p) => {
+      if (p.download_url) return { ok: true, how: '🔒 Google Drive' };
+      if (p.pdf_file && fs.existsSync(path.join(__dirname, 'data/ebooks', p.pdf_file)))
+        return { ok: true, how: 'Local PDF (' + p.pdf_file + ')' };
+      if (p.pdf_file) return { ok: false, how: 'pdf_file set but MISSING on server: ' + p.pdf_file };
+      return { ok: false, how: 'No Drive URL and no PDF' };
+    };
+    const rows = products.map((p) => {
+      let ids = [];
+      try { ids = Array.isArray(p.bundle_items) ? p.bundle_items : JSON.parse(p.bundle_items || '[]'); } catch (e) {}
+      if (ids.length) {
+        const comps = ids.map(id => byId.get(id)).filter(Boolean);
+        const bad = comps.filter(c => !check(c).ok);
+        return { p, ok: !bad.length && comps.length === ids.length,
+          how: 'Bundle of ' + ids.length + (bad.length ? ' — components missing delivery: ' + bad.map(c => c.slug).join(', ') : ' — all components deliverable') };
+      }
+      const r = check(p); return { p, ok: r.ok, how: r.how };
+    });
+    const bad = rows.filter(r => !r.ok).length;
+    res.send(`<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Delivery health — Admin</title></head>
+    <body style="font-family:Arial,sans-serif;max-width:860px;margin:30px auto;color:#1f2937">
+      <h1 style="font-size:22px">E-book delivery health</h1>
+      <p>${rows.length} published products — <b style="color:${bad ? '#b91c1c' : '#059669'}">${bad ? bad + ' cannot deliver' : 'all can deliver ✅'}</b>.
+      Fix a ❌ by pasting its Google-Drive link into the product's <i>Download URL</i> field in <a href="/admin/products">Products → Edit</a>.</p>
+      <table style="border-collapse:collapse;width:100%;font-size:14px">
+        <tr><th style="text-align:left;padding:6px 10px;border-bottom:2px solid #ddd">Product</th>
+            <th style="text-align:left;padding:6px 10px;border-bottom:2px solid #ddd">Delivery</th></tr>
+        ${rows.map(r => `<tr>
+          <td style="padding:6px 10px;border-bottom:1px solid #eee">${r.ok ? '✅' : '❌'} <a href="/admin/products/${r.p.id}/edit">${r.p.title.replace(/</g,'&lt;')}</a><br><span style="color:#94a3b8;font-size:12px">${r.p.slug}</span></td>
+          <td style="padding:6px 10px;border-bottom:1px solid #eee;color:${r.ok ? '#334155' : '#b91c1c'}">${r.how.replace(/</g,'&lt;')}</td></tr>`).join('')}
+      </table>
+      <p style="margin-top:16px"><a href="/admin">← Back to admin</a></p>
+    </body></html>`);
+  } catch (e) { console.error(e); res.status(500).send('Delivery status error: ' + e.message); }
+});
+
 // Admin — Products list
 app.get('/admin/products', requireAdmin, async (req, res) => {
   const [products] = await pool.query(
