@@ -796,10 +796,29 @@ app.get('/admin/delivery-status', requireAdmin, async (req, res) => {
 
 // Admin — Products list
 app.get('/admin/products', requireAdmin, async (req, res) => {
+  // WooCommerce-style catalogue: every product with real sales (paid orders
+  // only), revenue, delivery source and publish state.
   const [products] = await pool.query(
-    `SELECT p.*,c.name AS cat_name FROM products p LEFT JOIN categories c ON p.category_id=c.id ORDER BY p.created_at DESC`
+    `SELECT p.*, c.name AS cat_name,
+            COALESCE(s.units, 0)   AS units_sold,
+            COALESCE(s.revenue, 0) AS revenue
+       FROM products p
+       LEFT JOIN categories c ON p.category_id = c.id
+       LEFT JOIN (
+         SELECT oi.product_id, COUNT(*) AS units, SUM(oi.price) AS revenue
+           FROM order_items oi JOIN orders o ON o.id = oi.order_id
+          WHERE o.status = 'paid' GROUP BY oi.product_id
+       ) s ON s.product_id = p.id
+      ORDER BY p.created_at DESC`
   );
-  res.render('admin/products', { title:'Products — Admin', metaDesc:'', canonical:null, products });
+  const counts = {
+    total: products.length,
+    published: products.filter(p => p.is_published).length,
+    draft: products.filter(p => !p.is_published).length,
+    nofile: products.filter(p => !p.download_url && !p.pdf_file &&
+              !(p.bundle_items && p.bundle_items !== '[]' && String(p.bundle_items) !== 'null')).length,
+  };
+  res.render('admin/products', { title:'E-Books — Admin', metaDesc:'', canonical:null, products, counts });
 });
 
 // Admin — Add product form

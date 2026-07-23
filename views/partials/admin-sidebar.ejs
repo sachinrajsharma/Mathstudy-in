@@ -2,7 +2,7 @@
   <div class="admin-sidebar-brand"><span>MathStudy Admin</span></div>
   <nav class="admin-nav">
     <a href="/admin" class="<%= active==='dashboard' ? 'active' : '' %>"><span class="ic">📊</span> Dashboard</a>
-    <a href="/admin/products" class="<%= active==='products' ? 'active' : '' %>"><span class="ic">📚</span> Products</a>
+    <a href="/admin/products" class="<%= active==='products' ? 'active' : '' %>"><span class="ic">📚</span> E-Books (Products)</a>
     <a href="/admin/categories" class="<%= active==='categories' ? 'active' : '' %>"><span class="ic">🗂️</span> Categories</a>
     <a href="/admin/orders" class="<%= active==='orders' ? 'active' : '' %>"><span class="ic">🧾</span> Orders<% if (typeof pendingCount !== 'undefined' && pendingCount > 0) { %><span class="adm-pill"><%= pendingCount %></span><% } %></a>
     <a href="/admin/users" class="<%= active==='users' ? 'active' : '' %>"><span class="ic">👥</span> Customers</a>

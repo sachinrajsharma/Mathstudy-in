@@ -3,8 +3,17 @@
   <%- include('../partials/admin-sidebar', { active: 'products' }) %>
   <div class="admin-main">
     <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
-      <div><div class="admin-title">Products</div><div class="admin-sub"><%= products.length %> products</div></div>
-      <a href="/admin/products/new" class="btn btn-primary">+ Add Product</a>
+      <div><div class="admin-title">E-Books</div><div class="admin-sub"><%= counts.total %> products in the catalogue</div></div>
+      <a href="/admin/products/new" class="btn btn-primary">+ Add E-Book</a>
+    </div>
+
+    <!-- WooCommerce-style status counts (clickable) -->
+    <div class="adm-subsub" id="pTabs">
+      <a href="#" class="active" data-tab="">All <span>(<%= counts.total %>)</span></a>
+      <a href="#" data-tab="pub">Published <span>(<%= counts.published %>)</span></a>
+      <a href="#" data-tab="draft">Draft <span>(<%= counts.draft %>)</span></a>
+      <a href="#" data-tab="nofile" <%= counts.nofile ? 'style="color:#b91c1c"' : '' %>>Missing delivery file <span>(<%= counts.nofile %>)</span></a>
+      <a href="/admin/delivery-status" style="margin-left:auto">Delivery health &rarr;</a>
     </div>
 
     <div class="adm-toolbar">
@@ -21,10 +30,13 @@
 
     <div class="admin-table-wrap">
       <table class="admin-table" id="pTable">
-        <thead><tr><th>Product</th><th>Category</th><th>Price</th><th>File</th><th>Sales</th><th>Status</th><th>Actions</th></tr></thead>
+        <thead><tr><th>Product</th><th>Category</th><th>Price</th><th>Delivery</th><th>Sold</th><th>Revenue</th><th>Downloads</th><th>Status</th><th>Actions</th></tr></thead>
         <tbody>
-          <% products.forEach(function(p){ %>
-          <tr id="prow-<%= p.id %>" data-title="<%= (p.title + ' ' + p.slug).toLowerCase() %>" data-cat="<%= p.cat_name || '' %>" data-pub="<%= p.is_published ? 1 : 0 %>">
+          <% products.forEach(function(p){
+               var isBundle = false;
+               try { var bi = Array.isArray(p.bundle_items) ? p.bundle_items : JSON.parse(p.bundle_items || '[]'); isBundle = bi.length > 0; } catch(e) {}
+               var noFile = !p.download_url && !p.pdf_file && !isBundle; %>
+          <tr id="prow-<%= p.id %>" data-title="<%= (p.title + ' ' + p.slug).toLowerCase() %>" data-cat="<%= p.cat_name || '' %>" data-pub="<%= p.is_published ? 1 : 0 %>" data-nofile="<%= noFile ? 1 : 0 %>">
             <td>
               <div class="adm-prodcell">
                 <% if (p.cover_image) { %><img class="adm-thumb" src="<%= p.cover_image %>" alt=""><% } else { %><div class="adm-thumb"></div><% } %>
@@ -33,7 +45,9 @@
             </td>
             <td><%= p.cat_name || '—' %></td>
             <td class="adm-price"><span class="now">&#8377;<%= parseFloat(p.price).toFixed(0) %></span><% if (p.original_price && p.original_price > p.price) { %><span class="was">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span><% } %></td>
-            <td><% if (p.download_url) { %><span class="adm-badge has">🔒 Drive</span><% } else if (p.pdf_file) { %><span class="adm-badge has">PDF</span><% } else { %><span class="adm-badge no">none</span><% } %></td>
+            <td><% if (p.download_url) { %><span class="adm-badge has">🔒 Drive</span><% } else if (p.pdf_file) { %><span class="adm-badge has">PDF</span><% } else if (isBundle) { %><span class="adm-badge has">Bundle</span><% } else { %><span class="adm-badge no">none</span><% } %></td>
+            <td><strong><%= p.units_sold %></strong></td>
+            <td>&#8377;<%= parseFloat(p.revenue).toFixed(0) %></td>
             <td><%= p.downloads || 0 %></td>
             <td><label class="adm-switch" title="Publish / unpublish"><input type="checkbox" <%= p.is_published ? 'checked' : '' %> data-toggle="<%= p.id %>"><span class="sl"></span></label></td>
             <td>
@@ -52,19 +66,40 @@
   </div>
 </div>
 
+<style>
+.adm-subsub { display:flex; gap:4px 14px; flex-wrap:wrap; align-items:center; margin:4px 0 12px; font-size:0.85rem; }
+.adm-subsub a { color:#1e3a8a; text-decoration:none; font-weight:600; padding:4px 2px; }
+.adm-subsub a span { color:#64748b; font-weight:500; }
+.adm-subsub a.active { color:#0f172a; border-bottom:2px solid #0d9488; }
+.adm-subsub a:hover { text-decoration:underline; }
+</style>
+
 <script>
 (function(){
   var rows = [].slice.call(document.querySelectorAll('#pTable tbody tr'));
   var search = document.getElementById('pSearch'), cat = document.getElementById('pCat'),
       status = document.getElementById('pStatus'), count = document.getElementById('pCount'), empty = document.getElementById('pEmpty');
+  var tab = '';
   function apply(){
     var q = (search.value||'').toLowerCase().trim(), c = cat.value, s = status.value, n = 0;
     rows.forEach(function(r){
-      var ok = (!q || r.dataset.title.indexOf(q) > -1) && (!c || r.dataset.cat === c) && (s === '' || r.dataset.pub === s);
+      var tabOk = !tab || (tab === 'pub' && r.dataset.pub === '1') ||
+                  (tab === 'draft' && r.dataset.pub === '0') ||
+                  (tab === 'nofile' && r.dataset.nofile === '1');
+      var ok = tabOk && (!q || r.dataset.title.indexOf(q) > -1) && (!c || r.dataset.cat === c) && (s === '' || r.dataset.pub === s);
       r.style.display = ok ? '' : 'none'; if (ok) n++;
     });
     count.textContent = n + ' shown'; empty.style.display = n ? 'none' : 'block';
   }
+  document.querySelectorAll('#pTabs a[data-tab]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      tab = a.dataset.tab;
+      document.querySelectorAll('#pTabs a[data-tab]').forEach(function(x){ x.classList.remove('active'); });
+      a.classList.add('active');
+      apply();
+    });
+  });
   search.addEventListener('input', apply); cat.addEventListener('change', apply); status.addEventListener('change', apply); apply();
 
   document.querySelectorAll('[data-toggle]').forEach(function(cb){
