@@ -517,6 +517,15 @@ app.post('/cart/remove', (req, res) => {
   });
 });
 
+// Simple self-hosted purchase captcha: a small sum stored in the session,
+// verified before an order is created. No third-party service or keys needed.
+function newCheckoutCaptcha(req) {
+  const a = 2 + crypto.randomInt(8); // 2–9
+  const b = 1 + crypto.randomInt(9); // 1–9
+  req.session.checkoutCaptcha = a + b;
+  return a + ' + ' + b;
+}
+
 app.get('/cart', (req, res) => {
   const cart  = req.session.cart || [];
   const total = cart.reduce((s,i) => s+i.price, 0);
@@ -527,7 +536,8 @@ app.get('/cart', (req, res) => {
   const qrUrl = 'https://api.qrserver.com/v1/create-qr-code/?size=260x260&data=' + encodeURIComponent(upiString);
   res.render('cart', {
     title:'Your Cart — MathStudy.in', metaDesc:'', canonical:null,
-    cart, total, upiId: UPI_ID, upiName: UPI_NAME, qrUrl
+    cart, total, upiId: UPI_ID, upiName: UPI_NAME, qrUrl,
+    captchaQ: newCheckoutCaptcha(req)
   });
 });
 
@@ -558,9 +568,25 @@ function makeOrderRef(cartItems, monthlyCount) {
   return code + '/' + mm + '/' + yy + '/' + dd + '/' + seq;
 }
 
-app.post('/checkout/upi-confirm', requireLogin, async (req, res) => {
+const checkoutLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 10, standardHeaders: true, legacyHeaders: false,
+  message: { error: 'Too many order attempts. Please wait a few minutes and try again.' } });
+
+app.post('/checkout/upi-confirm', checkoutLimiter, requireLogin, async (req, res) => {
   const cart = req.session.cart || [];
   if (!cart.length) return res.status(400).json({ error:'Cart is empty.' });
+
+  // Purchase captcha: the answer must match the sum shown on the cart page.
+  // One-time use — right or wrong, a fresh question is issued for the retry.
+  const expected = req.session.checkoutCaptcha;
+  const given = parseInt((req.body && req.body.captcha) || '', 10);
+  if (!Number.isInteger(expected) || given !== expected) {
+    return res.status(400).json({
+      error: 'Security check failed — please answer the small maths question next to the button.',
+      captcha_q: newCheckoutCaptcha(req)
+    });
+  }
+  delete req.session.checkoutCaptcha;
+
   const total = cart.reduce((s,i) => s+i.price, 0);
 
   try {
