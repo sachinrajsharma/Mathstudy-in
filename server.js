@@ -316,8 +316,19 @@ const CATEGORY_MOVED = {
 // Category landing pages for SEO
 app.get('/shop/category/:slug', async (req, res) => {
   try {
+    // Only redirect once the destination genuinely has stock. Code deploys and
+    // database seeding are separate steps on this host, so between the two the
+    // destination may not exist yet — redirecting regardless would turn a
+    // working, indexed page into a 404.
     const movedTo = CATEGORY_MOVED[req.params.slug];
-    if (movedTo) return res.redirect(301, '/shop/category/' + movedTo);
+    if (movedTo) {
+      const [[dest]] = await pool.query(
+        `SELECT c.id FROM categories c
+         JOIN products p ON p.category_id = c.id AND p.is_published = 1
+         WHERE c.slug = ? LIMIT 1`, [movedTo]);
+      if (dest) return res.redirect(301, '/shop/category/' + movedTo);
+      // Destination not ready — fall through and serve this category as before.
+    }
     const [[cat]] = await pool.query(`SELECT * FROM categories WHERE slug=?`, [req.params.slug]);
     if (!cat) return res.status(404).render('error', { title:'404', message:'Category not found.' });
     const [products] = await pool.query(
