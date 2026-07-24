@@ -24,6 +24,17 @@ const cfg = {
 };
 
 const CAT = { name: 'Case Studies Class 7', slug: 'case-studies-class-7', sort: 12 };
+
+// Class 7 case-study books that were filed under "Grade 7 Math" before this
+// category existed. Class 8 and Class 9 already work the other way round --
+// grade-8-math is empty and every Class 8 case study sits in
+// case-studies-class-8 -- so these are moved across to match, which also puts
+// the whole Class 7 case-study range on one category page.
+const MOVE_INTO_CAT = [
+  'class-7-integers-case-studies-with-solutions',
+  'class-7-fractions-and-decimals-case-studies-with-solutions',
+  'math-case-studies-class-7',
+];
 const IMG = '/wp-content/uploads';
 const PRICE = 7, ORIGINAL = 12;
 
@@ -218,7 +229,18 @@ async function run() {
     }
   }
 
-  console.log(`\nDone — ${added} added, ${updated} updated (${BOOKS.length} Class 7 case-study books).`);
+  // 3. gather the older Class 7 case-study books into the same category
+  let moved = 0;
+  for (const slug of MOVE_INTO_CAT) {
+    const [r] = await conn.query(
+      `UPDATE products SET category_id=? WHERE slug=? AND (category_id IS NULL OR category_id<>?)`,
+      [cat.id, slug, cat.id]);
+    if (r.affectedRows) { moved++; console.log('  moved    ' + slug); }
+  }
+
+  const [[total]] = await conn.query(`SELECT COUNT(*) n FROM products WHERE category_id=?`, [cat.id]);
+  console.log(`\nDone — ${added} added, ${updated} updated, ${moved} moved.`);
+  console.log(`"${CAT.name}" now holds ${total.n} products.`);
   console.log('Next: upload data/download-urls.json and run  node scripts/import-download-urls.js');
   await conn.end();
 }

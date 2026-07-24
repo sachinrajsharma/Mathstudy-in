@@ -306,9 +306,18 @@ app.get('/shop', async (req, res) => {
   } catch(e) { console.error(e); res.render('shop', { title:'Shop', metaDesc:'', canonical:null, products:[], cats:[], page:1, total:0, limit:12, cat:'', sort:'latest', q:'', totalPages:0 }); }
 });
 
+// Categories whose whole stock moved elsewhere. The old URL is already indexed
+// and linked, so it must send visitors (and its ranking) to the new home rather
+// than show an empty shelf.
+const CATEGORY_MOVED = {
+  'grade-7-math': 'case-studies-class-7',
+};
+
 // Category landing pages for SEO
 app.get('/shop/category/:slug', async (req, res) => {
   try {
+    const movedTo = CATEGORY_MOVED[req.params.slug];
+    if (movedTo) return res.redirect(301, '/shop/category/' + movedTo);
     const [[cat]] = await pool.query(`SELECT * FROM categories WHERE slug=?`, [req.params.slug]);
     if (!cat) return res.status(404).render('error', { title:'404', message:'Category not found.' });
     const [products] = await pool.query(
@@ -1249,7 +1258,13 @@ app.patch('/api/admin/products/:id', requireAdmin, async (req, res) => {
 app.get('/sitemap.xml', async (req, res) => {
   const base = process.env.BASE_URL || 'https://mathstudy.in';
   const [products] = await pool.query(`SELECT slug,updated_at FROM products WHERE is_published=1`);
-  const [cats]     = await pool.query(`SELECT slug FROM categories`);
+  // Only categories that actually have something to show. Listing empty ones
+  // (or a category whose stock has moved and now 301s) puts thin and redirecting
+  // URLs in front of Google for no gain.
+  const [cats]     = await pool.query(
+    `SELECT c.slug FROM categories c
+     JOIN products p ON p.category_id = c.id AND p.is_published = 1
+     GROUP BY c.slug`);
   const [blogs]    = await pool.query(`SELECT slug,updated_at FROM blogs WHERE status='published'`);
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   xml += '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>\n';
@@ -1266,8 +1281,12 @@ app.get('/sitemap.xml', async (req, res) => {
     if (p.updated_at) xml += '<lastmod>' + new Date(p.updated_at).toISOString().split('T')[0] + '</lastmod>';
     xml += '<changefreq>weekly</changefreq><priority>0.8</priority></url>\n';
   });
+  // Submit the category *landing pages*. The old '/shop?cat=' form was a
+  // filtered view of /shop that canonicalises back to /shop, so every one of
+  // those URLs told Google to ignore it — while the real landing pages, which
+  // carry their own title and canonical, were never listed at all.
   cats.forEach(function(c) {
-    xml += '<url><loc>' + base + '/shop?cat=' + c.slug + '</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n';
+    xml += '<url><loc>' + base + '/shop/category/' + c.slug + '</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n';
   });
   xml += '</urlset>';
   res.set('Content-Type', 'application/xml').send(xml);
