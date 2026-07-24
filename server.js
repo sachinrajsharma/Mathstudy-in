@@ -173,6 +173,54 @@ app.get('/__setup__', (req, res) => {
   }
 });
 
+// The download-links file is git-ignored (paid Drive URLs must never sit in the
+// repo), so a deploy cannot ship it — and File Manager uploads keep missing the
+// app root. This page removes the guesswork: paste the JSON here and the server
+// writes it into its own data/ folder, then runs the importer at once.
+// Gated by the same SETUP_KEY as /__setup__; delete that env var when finished.
+app.get('/__setup__/links', (req, res) => {
+  const key = process.env.SETUP_KEY;
+  if (!key || req.query.key !== key) return res.status(404).type('text/plain').send('Not found');
+  const target = path.join(__dirname, 'data', 'download-urls.json');
+  const exists = fs.existsSync(target);
+  res.type('html').send(`<!doctype html><meta name="robots" content="noindex"><title>Load download links</title>
+<body style="font-family:system-ui;max-width:780px;margin:40px auto;padding:0 16px">
+<h2>Load download-urls.json</h2>
+<p>Will write to: <code>${target}</code><br>Current file there: <b>${exists ? 'present' : 'missing'}</b></p>
+<p>Paste the full contents of your local <code>data/download-urls.json</code> below and submit.
+The server saves it and immediately wires the links to the products.</p>
+<form method="POST" action="/__setup__/links?key=${encodeURIComponent(req.query.key)}">
+<textarea name="links" rows="24" style="width:100%;font-family:monospace" placeholder='{"product-slug":"https://drive.google.com/file/d/FILE_ID/view?usp=sharing"}'></textarea>
+<button type="submit" style="margin-top:12px;padding:10px 24px;font-size:16px">Save &amp; wire links</button>
+</form></body>`);
+});
+app.post('/__setup__/links', (req, res) => {
+  const key = process.env.SETUP_KEY;
+  if (!key || req.query.key !== key) return res.status(404).type('text/plain').send('Not found');
+  try {
+    const parsed = JSON.parse(req.body.links || '');
+    if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed) || !Object.keys(parsed).length) {
+      throw new Error('Expected a JSON object mapping product slug -> Drive URL.');
+    }
+    for (const [k, v] of Object.entries(parsed)) {
+      if (k.startsWith('_')) continue; // comment keys
+      if (typeof v !== 'string' || !/^https:\/\/drive\.google\.com\//.test(v)) {
+        throw new Error('Value for "' + k + '" is not a Google Drive URL.');
+      }
+    }
+    const target = path.join(__dirname, 'data', 'download-urls.json');
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, JSON.stringify(parsed, null, 2) + '\n');
+    const { execSync } = require('child_process');
+    const out = execSync(JSON.stringify(process.execPath) + ' ' + JSON.stringify(path.join(__dirname, 'scripts', 'import-download-urls.js')),
+      { cwd: __dirname, encoding: 'utf8', timeout: 120000, maxBuffer: 10 * 1024 * 1024 });
+    const n = Object.keys(parsed).filter((k) => !k.startsWith('_')).length;
+    res.type('text/plain').send('LINKS SAVED ✅  ' + n + ' entries written to ' + target + '\n\n' + out);
+  } catch (e) {
+    res.status(400).type('text/plain').send('FAILED ❌\n\n' + (e.stdout || '') + (e.message || String(e)));
+  }
+});
+
 // ── CSRF verify on state-changing requests ───────────────────────────────────
 // Multipart forms (admin product create/edit, PDF upload) are checked per-route
 // AFTER multer parses the body; everything else is checked here.
