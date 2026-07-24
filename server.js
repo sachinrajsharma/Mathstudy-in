@@ -1289,6 +1289,21 @@ app.get('/:slug', async (req, res, next) => {
   } catch(e) { next(e); }
 });
 
+// ── Delivery health (public, secret-free counts only) ───────────────────────
+// How many published (non-bundle) products still lack any delivery file, and
+// how many have a Drive URL wired. Used for remote verification/monitoring.
+app.get('/health/delivery', async (req, res) => {
+  try {
+    const [[{ missing }]] = await pool.query(
+      `SELECT COUNT(*) AS missing FROM products
+        WHERE is_published=1 AND download_url IS NULL AND pdf_file IS NULL
+          AND (bundle_items IS NULL OR bundle_items = '[]')`);
+    const [[{ linked }]] = await pool.query(
+      `SELECT COUNT(*) AS linked FROM products WHERE is_published=1 AND download_url IS NOT NULL`);
+    res.json({ ok: true, products_missing_delivery: missing, products_with_drive_url: linked });
+  } catch (e) { res.status(500).json({ ok: false }); }
+});
+
 // ── 404 / Error ──────────────────────────────────────────────────────────────
 app.use((req, res) => res.status(404).render('error', {
   title: '404 — Page Not Found', metaDesc: '', canonical: null,
