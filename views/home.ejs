@@ -49,7 +49,7 @@ const schemaWebsite = JSON.stringify({
       <% cats.forEach(function(cat){ %>
       <a href="/shop/category/<%= cat.slug %>" class="cat-card">
         <div class="cat-card-icon">
-          <% const icons = {'grade-1-math':'1️⃣','grade-2-math':'2️⃣','grade-3-math':'3️⃣','grade-4-math':'4️⃣','grade-5-math':'5️⃣','grade-6-math':'6️⃣','grade-7-math':'7️⃣','grade-8-math':'8️⃣','class-9-mathematics':'9️⃣','class-12-mathematics':'🎓','jee-mathematics':'📐','case-studies-class-8':'📊','case-studies-class-9':'📈','case-studies-class-12':'📉','competitive-exams':'🏆','cuet-mathematics':'✏️'}; %>
+          <% const icons = {'grade-1-math':'1️⃣','grade-2-math':'2️⃣','grade-3-math':'3️⃣','grade-4-math':'4️⃣','grade-5-math':'5️⃣','grade-6-math':'6️⃣','grade-7-math':'7️⃣','grade-8-math':'8️⃣','class-9-mathematics':'9️⃣','class-12-mathematics':'🎓','jee-mathematics':'📐','case-studies-class-6':'📙','case-studies-class-7':'📗','case-studies-class-8':'📊','case-studies-class-9':'📈','case-studies-class-12':'📉','competitive-exams':'🏆','cuet-mathematics':'✏️'}; %>
           <%= icons[cat.slug] || '📚' %>
         </div>
         <div class="cat-card-name"><%= cat.name %></div>
