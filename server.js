@@ -822,9 +822,33 @@ app.get('/admin/products', requireAdmin, async (req, res) => {
 });
 
 // Admin — Add product form
+// Products that can be bundle components (not bundles themselves).
+async function bundleCandidates(excludeId) {
+  const [rows] = await pool.query(
+    `SELECT id, title, price, is_published FROM products
+      WHERE (bundle_items IS NULL OR bundle_items = '[]') ${excludeId ? 'AND id != ?' : ''}
+      ORDER BY title`, excludeId ? [excludeId] : []);
+  return rows;
+}
+
+// Parse + sanitise the bundle_items[] checkboxes from the product form.
+async function parseBundleItems(body, selfId) {
+  let raw = body.bundle_items;
+  if (raw == null) return null;
+  if (!Array.isArray(raw)) raw = [raw];
+  const ids = [...new Set(raw.map(v => parseInt(v, 10)).filter(n => Number.isInteger(n) && n > 0 && n !== Number(selfId)))];
+  if (!ids.length) return null;
+  // Keep only real, non-bundle products (no nested bundles).
+  const [ok] = await pool.query(
+    `SELECT id FROM products WHERE id IN (?) AND (bundle_items IS NULL OR bundle_items = '[]')`, [ids]);
+  const valid = ok.map(r => r.id);
+  return valid.length ? JSON.stringify(valid) : null;
+}
+
 app.get('/admin/products/new', requireAdmin, async (req, res) => {
   const [cats] = await pool.query(`SELECT id,name FROM categories ORDER BY sort_order`);
-  res.render('admin/product-form', { title:'Add Product', metaDesc:'', canonical:null, product:null, cats, error:null });
+  const candidates = await bundleCandidates(null);
+  res.render('admin/product-form', { title:'Add Product', metaDesc:'', canonical:null, product:null, cats, candidates, error:null });
 });
 
 // Admin — Edit product form
@@ -832,7 +856,8 @@ app.get('/admin/products/:id/edit', requireAdmin, async (req, res) => {
   const [[product]] = await pool.query(`SELECT * FROM products WHERE id=?`,[req.params.id]);
   if (!product) return res.status(404).send('Not found');
   const [cats] = await pool.query(`SELECT id,name FROM categories ORDER BY sort_order`);
-  res.render('admin/product-form', { title:'Edit Product', metaDesc:'', canonical:null, product, cats, error:null });
+  const candidates = await bundleCandidates(product.id);
+  res.render('admin/product-form', { title:'Edit Product', metaDesc:'', canonical:null, product, cats, candidates, error:null });
 });
 
 // Admin — Save product (new)
@@ -840,15 +865,17 @@ app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'),
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : null;
   try {
+    const bundleJson = await parseBundleItems(req.body, null);
     await pool.query(
-      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,cover_image,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url)
-       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
-      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null]
+      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,cover_image,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url,bundle_items)
+       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson]
     );
     res.redirect('/admin/products');
   } catch(e) {
     const [cats] = await pool.query(`SELECT id,name FROM categories ORDER BY sort_order`);
-    res.render('admin/product-form',{ title:'Add Product', metaDesc:'', canonical:null, product:req.body, cats, error:e.message });
+    const candidates = await bundleCandidates(null);
+    res.render('admin/product-form',{ title:'Add Product', metaDesc:'', canonical:null, product:req.body, cats, candidates, error:e.message });
   }
 });
 
@@ -857,15 +884,17 @@ app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_ima
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : req.body.existing_cover;
   try {
+    const bundleJson = await parseBundleItems(req.body, req.params.id);
     await pool.query(
-      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,is_featured=?,is_published=?,download_url=? WHERE id=?`,
-      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,req.params.id]
+      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
+      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson,req.params.id]
     );
     res.redirect('/admin/products');
   } catch(e) {
     const [[product]] = await pool.query(`SELECT * FROM products WHERE id=?`,[req.params.id]);
     const [cats] = await pool.query(`SELECT id,name FROM categories ORDER BY sort_order`);
-    res.render('admin/product-form',{ title:'Edit Product', metaDesc:'', canonical:null, product, cats, error:e.message });
+    const candidates = await bundleCandidates(req.params.id);
+    res.render('admin/product-form',{ title:'Edit Product', metaDesc:'', canonical:null, product, cats, candidates, error:e.message });
   }
 });
 

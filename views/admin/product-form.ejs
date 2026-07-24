@@ -114,6 +114,32 @@
           </div>
 
           <div class="adm-box">
+            <div class="adm-box-h">📦 Bundle builder (optional)</div>
+            <div class="adm-box-b">
+              <%
+                var bsel = [];
+                try { bsel = product && product.bundle_items ? (Array.isArray(product.bundle_items) ? product.bundle_items : JSON.parse(product.bundle_items)) : []; } catch(e) { bsel = []; }
+              %>
+              <p class="hint" style="margin-top:0">Tick the e-books this product includes to sell it as a <b>discounted bundle</b>. After you approve a buyer's payment, they automatically receive a download link for <b>every ticked e-book</b>. Leave all unticked for a normal single e-book.</p>
+              <div id="bundleList" style="max-height:260px;overflow-y:auto;border:1.5px solid #e2e8f0;border-radius:8px;padding:8px 10px">
+                <% (typeof candidates !== 'undefined' ? candidates : []).forEach(function(c){ %>
+                  <label style="display:flex;align-items:center;gap:8px;padding:4px 2px;font-size:0.86rem;cursor:pointer">
+                    <input type="checkbox" name="bundle_items" value="<%= c.id %>" data-price="<%= c.price %>" <%= bsel.indexOf(c.id) > -1 ? 'checked' : '' %>>
+                    <span style="flex:1"><%= c.title.length > 70 ? c.title.substring(0,70)+'…' : c.title %><% if (!c.is_published) { %> <em style="color:#b45309">(draft)</em><% } %></span>
+                    <span style="color:#64748b">&#8377;<%= parseFloat(c.price).toFixed(0) %></span>
+                  </label>
+                <% }); %>
+              </div>
+              <div id="bundleMath" style="margin-top:10px;font-size:0.88rem;background:#f0fdfa;border:1.5px solid #99f6e4;border-radius:8px;padding:8px 12px;display:none">
+                <b><span id="bmCount">0</span> e-books selected</b> · combined value <b>&#8377;<span id="bmTotal">0</span></b>
+                · your bundle price <b>&#8377;<span id="bmPrice">0</span></b>
+                · buyer saves <b style="color:#059669"><span id="bmSave">0</span>%</b>
+                <div class="hint" style="margin-top:4px">Tip: set <b>Original / MRP</b> to the combined value so the shop shows the strike-through discount automatically.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
             <div class="adm-box-h">Details</div>
             <div class="adm-box-b">
               <div class="adm-field"><label>Grade</label><input type="text" name="grade" value="<%= product ? product.grade || '' : '' %>" placeholder="Class 9, Grade 5…"></div>
@@ -178,5 +204,25 @@
     fetch('/admin/products/<%= product ? product.id : 0 %>/upload-pdf', { method:'POST', body: fd })
       .then(function(r){ return r.json(); }).then(function(d){ st.textContent = d.ok ? ('Uploaded: ' + d.filename) : ('Error: ' + d.error); st.style.color = d.ok ? 'var(--success)' : 'var(--danger)'; });
   });
+
+  // Bundle builder: live discount maths
+  var bundleBoxes = [].slice.call(document.querySelectorAll('#bundleList input[type="checkbox"]'));
+  var priceInput = document.querySelector('input[name="price"]');
+  function bundleMath() {
+    var picked = bundleBoxes.filter(function(b){ return b.checked; });
+    var wrap = document.getElementById('bundleMath');
+    if (!wrap) return;
+    if (!picked.length) { wrap.style.display = 'none'; return; }
+    var total = picked.reduce(function(s,b){ return s + (parseFloat(b.dataset.price) || 0); }, 0);
+    var mine = parseFloat(priceInput && priceInput.value) || 0;
+    document.getElementById('bmCount').textContent = picked.length;
+    document.getElementById('bmTotal').textContent = total.toFixed(0);
+    document.getElementById('bmPrice').textContent = mine.toFixed(0);
+    document.getElementById('bmSave').textContent = (total > 0 && mine > 0 && mine < total) ? Math.round((1 - mine/total) * 100) : 0;
+    wrap.style.display = 'block';
+  }
+  bundleBoxes.forEach(function(b){ b.addEventListener('change', bundleMath); });
+  if (priceInput) priceInput.addEventListener('input', bundleMath);
+  bundleMath();
 })();
 </script>
