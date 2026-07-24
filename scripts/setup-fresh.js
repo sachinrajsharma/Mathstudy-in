@@ -24,6 +24,7 @@ const STEPS = [
   ['Migrate: product_reviews table + products.bundle_items', 'migrate-sales.js', true],
   ['Seed products (base catalogue + Node prices)', 'seed-products.js', true],
   ['Seed Class-12 products', 'seed-class12-new.js', false],
+  ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
   ['Wire Google-Drive download links', 'import-download-urls.js', false],
