@@ -297,15 +297,19 @@ app.get('/', async (req, res) => {
        FROM categories c LEFT JOIN products p ON p.category_id=c.id AND p.is_published=1
        GROUP BY c.id HAVING product_count > 0 ORDER BY c.sort_order LIMIT 12`
     );
+    // Live catalogue size — the trust bar shows this, so it grows with the shop
+    // instead of going stale like a hardcoded number.
+    const [[{ totalBooks }]] = await pool.query(
+      `SELECT COUNT(*) AS totalBooks FROM products WHERE is_published=1`);
     res.render('home', {
       title: 'MathStudy.in — Premium Math E-Books for CBSE, JEE, ICSE',
       metaDesc: 'Buy premium math e-books for Grades 1–12, JEE, CAT, CUET. CBSE & ICSE aligned worksheets, case studies and sample papers. Instant PDF download.',
       canonical: process.env.BASE_URL || 'https://mathstudy.in',
-      featured, cats
+      featured, cats, totalBooks
     });
   } catch(e) {
     console.error(e);
-    res.render('home', { title:'MathStudy.in', metaDesc:'Premium math ebooks', canonical:null, featured:[], cats:[] });
+    res.render('home', { title:'MathStudy.in', metaDesc:'Premium math ebooks', canonical:null, featured:[], cats:[], totalBooks:0 });
   }
 });
 

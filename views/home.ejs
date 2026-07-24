@@ -30,7 +30,7 @@ const schemaWebsite = JSON.stringify({
     <div class="trust-items">
       <div class="trust-item"><span class="trust-icon">✓</span> Instant PDF Download</div>
       <div class="trust-item"><span class="trust-icon">✓</span> CBSE &amp; ICSE Aligned</div>
-      <div class="trust-item"><span class="trust-icon">✓</span> 42+ Premium Books</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> <%= locals.totalBooks > 0 ? (Math.floor(totalBooks/5)*5) + '+ Premium E-Books' : 'Premium E-Books' %></div>
       <div class="trust-item"><span class="trust-icon">✓</span> Secure UPI Checkout</div>
       <div class="trust-item"><span class="trust-icon">✓</span> Re-download Anytime</div>
     </div>
@@ -104,6 +104,32 @@ const schemaWebsite = JSON.stringify({
   </div>
 </section>
 <% } %>
+
+<!-- Vidaara — free learning platform -->
+<section class="section-sm">
+  <div class="container">
+    <div class="vidaara-banner">
+      <div>
+        <span class="vb-eyebrow">✦ From the same team — 100% free</span>
+        <h2>Keep Learning for Free on <span class="vb-brand">Vidaara</span></h2>
+        <p>Our e-books give you focused practice — Vidaara gives you the full classroom. Complete courses for Classes 1–12, exam preparation, virtual labs, mock tests and doubt forums. No fees, no subscriptions, ever.</p>
+        <div class="vb-chips">
+          <span>Maths · Science · English</span>
+          <span>JEE · NEET · SAT · GRE · GMAT · CAT</span>
+          <span>Free Mock Tests</span>
+          <span>Maths Lab &amp; Virtual Labs</span>
+          <span>AI Tutor &amp; Forums</span>
+        </div>
+      </div>
+      <div class="vb-cta">
+        <div class="vb-free">FREE</div>
+        <div class="vb-free-sub">Every course. Every student. Forever.</div>
+        <a class="vb-btn" href="https://vidaara.org" target="_blank" rel="noopener">Start Learning on vidaara.org →</a>
+        <span class="vb-note">Run by Udgam Welfare Foundation — the team behind MathStudy.in</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Why choose us -->
 <section class="section">

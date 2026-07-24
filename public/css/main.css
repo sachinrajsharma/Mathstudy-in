@@ -71,7 +71,7 @@ nav { background:var(--white); border-bottom:1px solid var(--border); position:s
 .nav-logo .logo-badge { width:36px; height:36px; background:var(--primary); color:#fff; border-radius:8px; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:1rem }
 .nav-logo:hover { text-decoration:none }
 .nav-links  { display:flex; align-items:center; gap:6px }
-.nav-links a { padding:6px 12px; font-size:0.87rem; font-weight:500; color:var(--mid); border-radius:7px; transition:all 0.15s }
+.nav-links a { white-space:nowrap; padding:6px 10px; font-size:0.87rem; font-weight:500; color:var(--mid); border-radius:7px; transition:all 0.15s }
 .nav-links a:hover { background:#f0f4ff; color:var(--primary); text-decoration:none }
 .nav-right  { display:flex; align-items:center; gap:10px }
 .nav-cart   { position:relative; padding:7px 10px; background:var(--bg); border:1px solid var(--border); border-radius:8px; color:var(--mid); cursor:pointer; display:flex; align-items:center; gap:5px; font-size:0.85rem; font-weight:600; transition:all 0.15s }
@@ -354,3 +354,35 @@ footer { background:var(--dark); color:rgba(255,255,255,0.7); padding:56px 0 24p
 /* Stat cards (dashboard) */
 .stat-card.alert{border-color:var(--accent);background:#fffbeb}
 .adm-pill{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:50px;margin-left:6px}
+
+/* ── Nav dropdowns (desktop) ─────────────────────────────────────────────── */
+.nav-dd { position:relative }
+.nav-dd > a { display:inline-flex; align-items:center; gap:5px; cursor:pointer }
+.nav-dd .dd-caret { width:7px; height:7px; border-right:2px solid currentColor; border-bottom:2px solid currentColor; transform:rotate(45deg); margin-top:-4px; transition:transform .15s }
+.nav-dd-menu { position:absolute; top:calc(100% + 8px); left:0; min-width:230px; background:#fff; border:1px solid var(--border); border-radius:12px; box-shadow:0 12px 32px rgba(15,23,42,.14); padding:8px; display:none; z-index:150 }
+.nav-dd-menu::before { content:''; position:absolute; top:-9px; left:0; right:0; height:10px }
+.nav-dd:hover .nav-dd-menu, .nav-dd:focus-within .nav-dd-menu { display:block }
+.nav-dd:hover .dd-caret, .nav-dd:focus-within .dd-caret { transform:rotate(225deg); margin-top:2px }
+.nav-dd-menu a { display:flex; align-items:center; gap:10px; padding:9px 12px; border-radius:8px; font-size:0.87rem; color:var(--mid); white-space:nowrap }
+.nav-dd-menu a:hover { background:#f0f4ff; color:var(--primary) }
+.nav-dd-menu .dd-ic { font-size:1.05rem; width:22px; text-align:center }
+.nav-dd-menu .dd-sub { display:block; font-size:0.72rem; font-weight:400; color:var(--muted); margin-top:1px }
+.nav-drawer .drawer-label { padding:12px 12px 4px; font-size:0.68rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); border-bottom:none }
+
+/* ── Vidaara free-platform banner (home) ─────────────────────────────────── */
+.vidaara-banner { background:linear-gradient(120deg,#101c3f 0%,#1b2a5e 55%,#27357a 100%); border-radius:22px; overflow:hidden; position:relative; color:#fff; padding:44px 40px; display:grid; grid-template-columns:1.5fr 1fr; gap:32px; align-items:center }
+.vidaara-banner::after { content:''; position:absolute; right:-90px; top:-90px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle,rgba(255,153,51,.28),transparent 65%) }
+.vb-eyebrow { display:inline-flex; align-items:center; gap:8px; background:rgba(255,153,51,.16); color:#ffb85c; border:1px solid rgba(255,153,51,.4); font-size:0.72rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; padding:6px 14px; border-radius:99px; margin-bottom:16px }
+.vidaara-banner h2 { color:#fff; font-size:clamp(1.4rem,3vw,2rem); line-height:1.25; margin-bottom:12px }
+.vidaara-banner h2 .vb-brand { color:#ff9933 }
+.vidaara-banner p { color:#c7d0ea; font-size:0.95rem; max-width:520px }
+.vb-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px }
+.vb-chips span { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.16); color:#e3e9fb; font-size:0.76rem; font-weight:600; padding:6px 13px; border-radius:99px }
+.vb-cta { position:relative; z-index:1; text-align:center }
+.vb-cta .vb-free { font-size:2.4rem; font-weight:800; color:#ff9933; line-height:1 }
+.vb-cta .vb-free-sub { color:#c7d0ea; font-size:0.82rem; margin:6px 0 18px }
+.vb-btn { display:inline-block; background:#ff9933; color:#101c3f; font-weight:800; font-size:1rem; padding:14px 30px; border-radius:12px; text-decoration:none; box-shadow:0 8px 24px rgba(255,153,51,.35); transition:transform .15s, box-shadow .15s }
+.vb-btn:hover { transform:translateY(-2px); box-shadow:0 12px 30px rgba(255,153,51,.45); color:#101c3f; text-decoration:none }
+.vb-cta .vb-note { display:block; margin-top:12px; color:#8e9bc4; font-size:0.75rem }
+@media (max-width:860px){ .vidaara-banner { grid-template-columns:1fr; padding:32px 22px; text-align:center } .vidaara-banner p { margin:0 auto } .vb-chips { justify-content:center } }
+@media(min-width:769px) and (max-width:1020px){ .nav-links { gap:2px } .nav-links a { padding:6px 7px; font-size:0.82rem } }

@@ -47,9 +47,23 @@
     </a>
     <div class="nav-links">
       <a href="/shop">Shop</a>
-      <a href="/shop/category/class-9-mathematics">Class 9</a>
-      <a href="/shop/category/class-12-mathematics">Class 12</a>
-      <a href="/shop/category/jee-mathematics">JEE</a>
+      <div class="nav-dd">
+        <a href="/shop" aria-haspopup="true">Shop by Class <span class="dd-caret" aria-hidden="true"></span></a>
+        <div class="nav-dd-menu" role="menu">
+          <a href="/shop/category/grade-1-math"><span class="dd-ic">🧮</span><span>Grades 1–5<span class="dd-sub">Worksheets &amp; practice books</span></span></a>
+          <a href="/shop/category/case-studies-class-7"><span class="dd-ic">📗</span><span>Classes 6–7<span class="dd-sub">Chapter-wise case studies</span></span></a>
+          <a href="/shop/category/case-studies-class-8"><span class="dd-ic">📘</span><span>Class 8<span class="dd-sub">Chapter-wise case studies</span></span></a>
+          <a href="/shop/category/case-studies-class-9"><span class="dd-ic">📙</span><span>Classes 9–10<span class="dd-sub">Case studies &amp; HOTS</span></span></a>
+          <a href="/shop/category/class-12-mathematics"><span class="dd-ic">🎓</span><span>Classes 11–12<span class="dd-sub">Boards &amp; case studies</span></span></a>
+        </div>
+      </div>
+      <div class="nav-dd">
+        <a href="/shop/category/competitive-exams" aria-haspopup="true">Exam Prep <span class="dd-caret" aria-hidden="true"></span></a>
+        <div class="nav-dd-menu" role="menu">
+          <a href="/shop/category/jee-mathematics"><span class="dd-ic">📐</span><span>JEE Mathematics<span class="dd-sub">Advanced problem sets</span></span></a>
+          <a href="/shop/category/competitive-exams"><span class="dd-ic">🏆</span><span>Competitive Exams<span class="dd-sub">CAT, CUET &amp; more</span></span></a>
+        </div>
+      </div>
       <a href="/shop/case-studies">Case Studies</a>
       <a href="/blog">Blog</a>
       <a href="/support">Support</a>
@@ -83,13 +97,21 @@
 <!-- Mobile drawer -->
 <div class="nav-drawer" id="navDrawer">
   <button class="nav-drawer-close" id="navDrawerClose">&times;</button>
-  <a href="/shop">Shop All</a>
-  <a href="/shop/category/class-9-mathematics">Class 9</a>
-  <a href="/shop/category/class-12-mathematics">Class 12</a>
-  <a href="/shop/category/jee-mathematics">JEE</a>
+  <a href="/shop">Shop All E-Books</a>
+  <div class="drawer-label">Shop by Class</div>
+  <a href="/shop/category/grade-1-math">Grades 1–5</a>
+  <a href="/shop/category/case-studies-class-7">Classes 6–7</a>
+  <a href="/shop/category/case-studies-class-8">Class 8</a>
+  <a href="/shop/category/case-studies-class-9">Classes 9–10</a>
+  <a href="/shop/category/class-12-mathematics">Classes 11–12</a>
+  <div class="drawer-label">Exam Prep</div>
+  <a href="/shop/category/jee-mathematics">JEE Mathematics</a>
+  <a href="/shop/category/competitive-exams">Competitive Exams</a>
+  <div class="drawer-label">More</div>
   <a href="/shop/case-studies">Case Studies</a>
   <a href="/blog">Blog</a>
   <a href="/support">Support</a>
+  <a href="https://vidaara.org" target="_blank" rel="noopener">Vidaara — Free Learning ↗</a>
   <a href="/cart">Cart (<%= locals.cartCount %>)</a>
   <% if (locals.user && user) { %>
     <a href="/dashboard">My Orders</a>
@@ -130,6 +152,7 @@
         <a href="/about">About Us</a>
         <a href="/contact">Contact</a>
         <a href="/support">Customer Support</a>
+        <a href="https://vidaara.org" target="_blank" rel="noopener">Vidaara — Free E-Learning ↗</a>
         <a href="/blog">Blog</a>
         <a href="/privacy-policy">Privacy Policy</a>
         <a href="/terms">Terms &amp; Conditions</a>
