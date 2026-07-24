@@ -306,6 +306,33 @@ app.get('/shop', async (req, res) => {
   } catch(e) { console.error(e); res.render('shop', { title:'Shop', metaDesc:'', canonical:null, products:[], cats:[], page:1, total:0, limit:12, cat:'', sort:'latest', q:'', totalPages:0 }); }
 });
 
+// All case-study books in one place, grouped by class. The nav's "Case Studies"
+// tab points here — previously it went to the Class 8 category alone, which hid
+// the Class 7/9/12 ranges from anyone using the menu.
+app.get('/shop/case-studies', async (req, res) => {
+  try {
+    const [groups] = await pool.query(
+      `SELECT c.id, c.name, c.slug FROM categories c
+       WHERE c.slug LIKE 'case-studies-%'
+       ORDER BY c.sort_order`);
+    for (const g of groups) {
+      const [items] = await pool.query(
+        `SELECT id,title,slug,price,original_price,cover_image,grade
+         FROM products WHERE category_id=? AND is_published=1 ORDER BY created_at ASC, id ASC`,
+        [g.id]);
+      g.products = items;
+    }
+    const shown = groups.filter(g => g.products.length);
+    const total = shown.reduce((s, g) => s + g.products.length, 0);
+    res.render('case-studies', {
+      title: 'Maths Case Study Questions — Class 7, 8, 9 & 12 PDFs',
+      metaDesc: 'All maths case-study e-books in one place — Class 7, 8, 9 and 12, chapter-wise, with full solutions. CBSE & ICSE pattern. Instant PDF download.',
+      canonical: (process.env.BASE_URL || 'https://mathstudy.in') + '/shop/case-studies',
+      groups: shown, total
+    });
+  } catch (e) { console.error(e); res.status(500).render('error', { title: 'Error', message: 'Something went wrong.' }); }
+});
+
 // Categories whose whole stock moved elsewhere. The old URL is already indexed
 // and linked, so it must send visitors (and its ranking) to the new home rather
 // than show an empty shelf.
@@ -1280,6 +1307,7 @@ app.get('/sitemap.xml', async (req, res) => {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   xml += '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>\n';
   xml += '<url><loc>' + base + '/shop</loc><changefreq>daily</changefreq><priority>0.9</priority></url>\n';
+  xml += '<url><loc>' + base + '/shop/case-studies</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>\n';
   xml += '<url><loc>' + base + '/blog</loc><changefreq>daily</changefreq><priority>0.7</priority></url>\n';
   // Blog posts at their ORIGINAL root URL (/<slug>) — preserves the indexed WordPress URLs.
   blogs.forEach(function(b) {

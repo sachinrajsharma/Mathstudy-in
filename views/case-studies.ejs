@@ -1,0 +1,42 @@
+<% locals.layout = 'layout' %>
+<section class="section-sm">
+  <div class="container">
+    <nav class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/shop">Shop</a><span>/</span><span>Case Studies</span></nav>
+    <div style="margin-bottom:32px">
+      <h1>Maths Case Study E-Books</h1>
+      <p style="color:var(--muted);margin-top:8px"><%= total %> books across Class 7, 8, 9 and 12 — every case study fully solved, instant PDF download</p>
+    </div>
+
+    <% if (!groups.length) { %>
+      <p>No case-study books available yet. <a href="/shop">Browse all e-books</a></p>
+    <% } %>
+
+    <% groups.forEach(function(g){ %>
+    <div style="margin-bottom:48px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px">
+        <h2 style="margin:0"><%= g.name %></h2>
+        <a href="/shop/category/<%= g.slug %>" style="white-space:nowrap">View <%= g.name %> page &rarr;</a>
+      </div>
+      <div class="products-grid">
+        <% g.products.forEach(function(p){ %>
+        <div class="product-card">
+          <a href="/shop/product/<%= p.slug %>" class="product-card-img">
+            <% if (p.cover_image) { %><img src="<%= p.cover_image %>" alt="<%= p.title %>" loading="lazy"><% } else { %><div class="no-cover">&#128218;</div><% } %>
+            <% if (p.original_price && p.original_price > p.price) { %><span class="badge-discount">-<%= Math.round((1-p.price/p.original_price)*100) %>%</span><% } %>
+          </a>
+          <div class="product-card-body">
+            <a href="/shop/product/<%= p.slug %>"><div class="product-card-title"><%= p.title %></div></a>
+            <% if (p.grade) { %><div class="product-card-grade"><%= p.grade %></div><% } %>
+            <div class="product-card-price">
+              <span class="price-current">&#8377;<%= parseFloat(p.price).toFixed(0) %></span>
+              <% if (p.original_price && p.original_price > p.price) { %><span class="price-original">&#8377;<%= parseFloat(p.original_price).toFixed(0) %></span><% } %>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="addToCart('<%= p.id %>', this)">Add to Cart</button>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+    <% }); %>
+  </div>
+</section>
