@@ -22,6 +22,7 @@ const STEPS = [
   ['Schema + categories + admin user', 'setup-db.js', true],
   ['Migrate: products.download_url + order status enum', 'migrate-approval.js', true],
   ['Migrate: product_reviews table + products.bundle_items', 'migrate-sales.js', true],
+  ['Migrate: customer-support ticket tables', 'migrate-support.js', false],
   ['Seed products (base catalogue + Node prices)', 'seed-products.js', true],
   ['Seed Class-12 products', 'seed-class12-new.js', false],
   ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],

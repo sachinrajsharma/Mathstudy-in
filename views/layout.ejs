@@ -28,6 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/main.css">
+<% if (locals.extraCss) { %><link rel="stylesheet" href="<%= extraCss %>"><% } %>
 <%- locals.siteJsonLd || '' %>
 <%- locals.jsonLd || '' %>
 <!-- Add Search Console verification here when ready: <meta name="google-site-verification" content="TOKEN"> -->
@@ -51,7 +52,7 @@
       <a href="/shop/category/jee-mathematics">JEE</a>
       <a href="/shop/case-studies">Case Studies</a>
       <a href="/blog">Blog</a>
-      <a href="/contact">Contact</a>
+      <a href="/support">Support</a>
     </div>
     <div class="nav-right">
       <a href="/cart" class="nav-cart" title="Cart">
@@ -88,6 +89,7 @@
   <a href="/shop/category/jee-mathematics">JEE</a>
   <a href="/shop/case-studies">Case Studies</a>
   <a href="/blog">Blog</a>
+  <a href="/support">Support</a>
   <a href="/cart">Cart (<%= locals.cartCount %>)</a>
   <% if (locals.user && user) { %>
     <a href="/dashboard">My Orders</a>
@@ -127,6 +129,7 @@
         <h4>Company</h4>
         <a href="/about">About Us</a>
         <a href="/contact">Contact</a>
+        <a href="/support">Customer Support</a>
         <a href="/blog">Blog</a>
         <a href="/privacy-policy">Privacy Policy</a>
         <a href="/terms">Terms &amp; Conditions</a>

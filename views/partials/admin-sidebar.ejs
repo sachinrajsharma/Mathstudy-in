@@ -7,6 +7,7 @@
     <a href="/admin/orders" class="<%= active==='orders' ? 'active' : '' %>"><span class="ic">🧾</span> Orders<% if (typeof pendingCount !== 'undefined' && pendingCount > 0) { %><span class="adm-pill"><%= pendingCount %></span><% } %></a>
     <a href="/admin/users" class="<%= active==='users' ? 'active' : '' %>"><span class="ic">👥</span> Customers</a>
     <a href="/admin/blog" class="<%= active==='blog' ? 'active' : '' %>"><span class="ic">✍️</span> Blog</a>
+    <a href="/admin/support" class="<%= active==='support' ? 'active' : '' %>"><span class="ic">🎫</span> Support Tickets</a>
     <div class="nav-sep"></div>
     <a href="/shop" target="_blank"><span class="ic">🛍️</span> View Shop</a>
     <a href="/auth/logout" onclick="event.preventDefault();document.getElementById('adminLogoutForm').submit();"><span class="ic">🚪</span> Log out</a>

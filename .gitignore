@@ -59,3 +59,4 @@ PRODUCT URLS
 
 # Public images ARE committed (so they ship with the deploy). Paid PDFs are NOT.
 data/ebooks/
+data/support-uploads/

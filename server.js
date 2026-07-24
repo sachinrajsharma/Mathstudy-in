@@ -1362,6 +1362,7 @@ app.get('/sitemap.xml', async (req, res) => {
   xml += '<url><loc>' + base + '/shop</loc><changefreq>daily</changefreq><priority>0.9</priority></url>\n';
   xml += '<url><loc>' + base + '/shop/case-studies</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>\n';
   xml += '<url><loc>' + base + '/blog</loc><changefreq>daily</changefreq><priority>0.7</priority></url>\n';
+  xml += '<url><loc>' + base + '/support</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>\n';
   // Blog posts at their ORIGINAL root URL (/<slug>) — preserves the indexed WordPress URLs.
   blogs.forEach(function(b) {
     xml += '<url><loc>' + base + '/' + b.slug + '</loc>';
@@ -1454,6 +1455,11 @@ app.get('/health/delivery', async (req, res) => {
     res.json({ ok: true, products_missing_delivery: missing, products_with_drive_url: linked });
   } catch (e) { res.status(500).json({ ok: false }); }
 });
+
+// ── Customer support ticket system ───────────────────────────────────────────
+// Public form /support, customer /dashboard/support, admin /admin/support.
+// Schema is created idempotently on boot (see lib/support.js).
+app.use(require('./routes/support')({ pool, requireLogin, requireAdmin, verifyCsrf }));
 
 // ── 404 / Error ──────────────────────────────────────────────────────────────
 app.use((req, res) => res.status(404).render('error', {
