@@ -25,6 +25,7 @@ const STEPS = [
   ['Seed products (base catalogue + Node prices)', 'seed-products.js', true],
   ['Seed Class-12 products', 'seed-class12-new.js', false],
   ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],
+  ['Seed Class-8 chapter case-study books', 'seed-class8-case-studies.js', false],
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
   ['Wire Google-Drive download links', 'import-download-urls.js', false],
