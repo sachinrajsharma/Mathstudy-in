@@ -289,10 +289,13 @@ app.get('/', async (req, res) => {
       `SELECT id,title,slug,price,original_price,cover_image,short_desc,grade
        FROM products WHERE is_published=1 AND is_featured=1 ORDER BY created_at DESC LIMIT 8`
     );
+    // Only stocked categories get a tile. Empty ones read "0 books" and lead to
+    // a bare shelf (or a redirect) — and, worse, they were crowding the stocked
+    // case-study categories out of the 12-tile grid.
     const [cats] = await pool.query(
       `SELECT c.id,c.name,c.slug, COUNT(p.id) AS product_count
        FROM categories c LEFT JOIN products p ON p.category_id=c.id AND p.is_published=1
-       GROUP BY c.id ORDER BY c.sort_order LIMIT 12`
+       GROUP BY c.id HAVING product_count > 0 ORDER BY c.sort_order LIMIT 12`
     );
     res.render('home', {
       title: 'MathStudy.in — Premium Math E-Books for CBSE, JEE, ICSE',
@@ -386,6 +389,8 @@ app.get('/shop/case-studies', async (req, res) => {
 // than show an empty shelf.
 const CATEGORY_MOVED = {
   'grade-7-math': 'case-studies-class-7',
+  'grade-8-math': 'case-studies-class-8',
+  'class-9-mathematics': 'case-studies-class-9',
 };
 
 // Category landing pages for SEO
