@@ -12,11 +12,18 @@
 <meta property="og:description" content="<%= locals.metaDesc || '' %>">
 <meta property="og:type"        content="<%= locals.ogType || 'website' %>">
 <% if (locals.canonical) { %><meta property="og:url" content="<%= canonical %>"><% } %>
-<meta property="og:image"       content="<%= locals.ogImage || '/images/og-default.png' %>">
+<%
+  // Social crawlers ignore a relative image path, so always emit an absolute URL.
+  const _img  = locals.ogImage || '/images/og-default.png';
+  const _site = locals.SITE_URL || 'https://mathstudy.in';
+  const ogImageAbs = /^https?:\/\//i.test(_img) ? _img : _site + (_img.charAt(0) === '/' ? _img : '/' + _img);
+%>
+<meta property="og:image"       content="<%= ogImageAbs %>">
 <meta property="og:site_name"   content="MathStudy.in">
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="<%= title %>">
 <meta name="twitter:description" content="<%= locals.metaDesc || '' %>">
+<meta name="twitter:image"       content="<%= ogImageAbs %>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

@@ -19,6 +19,9 @@ const app  = express();
 app.locals.siteJsonLd = seo.siteJsonLd();
 const PORT = process.env.PORT || 3001;
 const BASE_URL = (process.env.BASE_URL || 'https://mathstudy.in').replace(/\/+$/, '');
+// Facebook, WhatsApp, LinkedIn and X all reject a relative og:image, so the
+// layout needs the site origin to turn '/wp-content/...' into a full URL.
+app.locals.SITE_URL = BASE_URL;
 
 // Convert a Google-Drive "view" link into a direct-download link at click time
 // (the raw link is never exposed to the browser before a paid+approved token).
@@ -64,8 +67,16 @@ app.use(helmet({
 
 // Drop common vulnerability scanners / WordPress & PHP probes fast (this is a Node app,
 // not WordPress — these paths never exist here, so 404 them before they touch any logic).
+//
+// One genuine exception: /wp-content/uploads/ holds the media migrated from the old
+// WordPress site — every product cover and blog image is served from there, and those
+// URLs are already indexed. Blocking the whole /wp-content/ tree 404s all of them, so
+// the uploads folder is allowed through to the static handler while wp-admin,
+// wp-login, wp-includes and the rest stay blocked.
+const SCAN_ALLOW = /^\/wp-content\/uploads\/[^?]*\.(?:jpe?g|png|gif|webp|svg|avif|pdf)$/i;
 const SCAN_BLOCK = /^\/(?:wp-admin|wp-login|wp-content|wp-includes|wordpress|xmlrpc\.php|phpmyadmin|administrator|vendor|cgi-bin)(?:\/|$)|\.php$|^\/\.(?:env|git|svn|aws|ssh|htaccess|htpasswd)/i;
 app.use((req, res, next) => {
+  if (SCAN_ALLOW.test(req.path)) return next();
   if (SCAN_BLOCK.test(req.path)) return res.status(404).type('text/plain').send('Not found');
   next();
 });
