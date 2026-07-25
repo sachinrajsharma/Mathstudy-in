@@ -262,7 +262,13 @@ function safeNext(next, fallback = '/dashboard') {
 
 // ── Multer config ─────────────────────────────────────────────────────────────
 const storageCovers = multer.diskStorage({
-  destination: (req, file, cb) => cb(null, path.join(__dirname, 'public/uploads/products')),
+  // public/uploads/products is git-ignored, so a fresh checkout does not have
+  // it — create it like the PDF storage below, or every cover upload 500s.
+  destination: (req, file, cb) => {
+    const dir = path.join(__dirname, 'public/uploads/products');
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    cb(null, dir);
+  },
   filename:    (req, file, cb) => cb(null, Date.now() + '-' + file.originalname.replace(/[^a-zA-Z0-9._-]/g,'_'))
 });
 const storagePdfs = multer.diskStorage({
