@@ -65,7 +65,10 @@ p  { color:var(--mid); font-size:0.95rem }
 .btn-danger:hover { background:#dc2626 }
 
 /* ── Nav ─────────────────────────────────────────────────────────────────── */
-nav { background:var(--white); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:100; height:64px; display:flex; align-items:center }
+/* Scoped to the header bar only — a bare `nav` selector used to catch the
+   breadcrumb <nav> too, turning it into a second sticky white bar that sat on
+   top of the Shop-by-Class dropdown. */
+.site-nav { background:var(--white); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:100; height:64px; display:flex; align-items:center }
 .nav-inner { max-width:1200px; margin:0 auto; padding:0 20px; display:flex; align-items:center; justify-content:space-between; width:100% }
 .nav-logo  { display:flex; align-items:center; gap:10px; font-size:1.2rem; font-weight:800; color:var(--primary); text-decoration:none }
 .nav-logo .logo-badge { width:36px; height:36px; background:var(--primary); color:#fff; border-radius:8px; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:1rem }
