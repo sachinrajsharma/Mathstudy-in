@@ -115,7 +115,7 @@ nav { background:var(--white); border-bottom:1px solid var(--border); position:s
 .products-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:24px }
 .product-card  { background:var(--white); border:1px solid var(--border); border-radius:14px; overflow:hidden; transition:all 0.2s; display:flex; flex-direction:column }
 .product-card:hover { box-shadow:var(--shadow); transform:translateY(-3px) }
-.product-card-img { position:relative; aspect-ratio:3/4; background:#f3f4f6; overflow:hidden }
+.product-card-img { position:relative; aspect-ratio:1410/2250; background:#f3f4f6; overflow:hidden }
 .product-card-img img { width:100%; height:100%; object-fit:contain; background:#fff; transition:transform 0.3s }
 .product-card:hover .product-card-img img { transform:scale(1.03) }
 .product-card-img .badge-discount { position:absolute; top:10px; left:10px; background:var(--danger); color:#fff; font-size:0.65rem; font-weight:700; padding:3px 8px; border-radius:4px }
@@ -155,8 +155,19 @@ nav { background:var(--white); border-bottom:1px solid var(--border); position:s
 /* ── Product detail ──────────────────────────────────────────────────────── */
 .product-detail { display:grid; grid-template-columns:320px 1fr; gap:48px; align-items:start }
 .product-cover-wrap { position:sticky; top:80px }
-.product-cover { border-radius:14px; box-shadow:var(--shadow-lg); overflow:hidden; aspect-ratio:3/4; background:#f3f4f6 }
-.product-cover img { width:100%; height:100%; object-fit:cover }
+/* Covers are produced at 1410x2250 — the box matches that ratio exactly so the
+   whole cover is always visible (object-fit:contain guards odd legacy sizes). */
+.product-cover { position:relative; border-radius:16px; overflow:hidden; aspect-ratio:1410/2250;
+  background:linear-gradient(160deg,#eef2ff 0%,#f8fafc 55%,#e0f2fe 100%);
+  box-shadow:0 18px 40px -12px rgba(15,23,42,0.28), 0 4px 12px rgba(15,23,42,0.08);
+  border:1px solid rgba(148,163,184,0.35) }
+.product-cover img { width:100%; height:100%; object-fit:contain; display:block;
+  transition:transform 0.35s ease }
+.product-cover:hover img { transform:scale(1.025) }
+.product-cover .cover-ribbon { position:absolute; top:14px; right:-34px; transform:rotate(45deg);
+  background:linear-gradient(90deg,var(--primary),#4f46e5); color:#fff; font-size:0.62rem;
+  font-weight:800; letter-spacing:1px; text-transform:uppercase; padding:5px 38px;
+  box-shadow:0 2px 8px rgba(15,23,42,0.25); pointer-events:none }
 .product-info h1 { font-size:clamp(1.4rem,2.5vw,2rem); margin-bottom:12px }
 .product-meta  { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px }
 .product-badge { font-size:0.72rem; font-weight:700; padding:4px 12px; border-radius:20px; background:#e0f2fe; color:#0369a1 }
@@ -172,7 +183,7 @@ nav { background:var(--white); border-bottom:1px solid var(--border); position:s
 @media(max-width:768px){
   .product-detail { grid-template-columns:1fr }
   .product-cover-wrap { position:static }
-  .product-cover { max-width:280px; margin:0 auto }
+  .product-cover { max-width:300px; margin:0 auto }
 }
 
 /* ── Cart ─────────────────────────────────────────────────────────────────── */
@@ -277,7 +288,7 @@ footer { background:var(--dark); color:rgba(255,255,255,0.7); padding:56px 0 24p
 @media(max-width:768px){
   .footer-grid { grid-template-columns:1fr 1fr }
   .products-grid { grid-template-columns:repeat(auto-fill,minmax(160px,1fr)) }
-  .product-card-img { aspect-ratio:3/4 }
+  .product-card-img { aspect-ratio:1410/2250 }
 }
 @media(max-width:480px){
   .footer-grid { grid-template-columns:1fr }

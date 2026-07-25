@@ -22,6 +22,7 @@ const discount = product.original_price && product.original_price > product.pric
     <div class="product-cover-wrap">
       <div class="product-cover">
         <% if (product.cover_image) { %>
+          <span class="cover-ribbon">Instant PDF</span>
           <img src="<%= product.cover_image %>" alt="<%= product.title %>" >
         <% } else { %>
           <div style="display:flex;align-items:center;justify-content:center;height:400px;background:#f3f4f6;font-size:5rem">📚</div>

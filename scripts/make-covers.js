@@ -249,6 +249,30 @@ const BOOKS = [
       PDF,
     ],
   },
+  // These two shipped 16:9 landscape WP images that crop badly in the portrait
+  // product frame — replaced with proper 1410x2250 house-style covers.
+  {
+    file: '4th-class-word-problems.jpg',
+    eyebrow: 'Maths Workbook', title: 'Addition Word Problems', ribbon: 'Class 4', badge: '60 Pages',
+    bullets: [
+      { head: '100 Addition Word Problems', body: 'Real-life situations: shopping, travel, sports and school.' },
+      { head: 'Step-by-Step Solutions', body: 'Every problem worked out in full for self-checking.' },
+      { head: 'Curriculum Aligned', body: 'Matched to the Grade 4 addition syllabus.' },
+      BOARDS,
+      PDF,
+    ],
+  },
+  {
+    file: 'mixed-word-problems-for-grade-3.jpg',
+    eyebrow: 'Maths Workbook', title: 'Mixed Word Problems', ribbon: 'Class 3', badge: '80 Pages',
+    bullets: [
+      { head: 'All Four Operations Mixed', body: 'Addition, subtraction, multiplication and division together.' },
+      { head: 'Decide the Operation Yourself', body: 'The skill mixed practice builds best.' },
+      { head: 'Step-by-Step Solutions', body: 'Every problem worked out in full for self-checking.' },
+      BOARDS,
+      PDF,
+    ],
+  },
 ];
 
 async function run() {
