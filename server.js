@@ -380,8 +380,8 @@ app.get('/shop/case-studies', async (req, res) => {
     const shown = groups.filter(g => g.products.length);
     const total = shown.reduce((s, g) => s + g.products.length, 0);
     res.render('case-studies', {
-      title: 'Maths Case Study Questions — Class 7, 8, 9 & 12 PDFs',
-      metaDesc: 'All maths case-study e-books in one place — Class 7, 8, 9 and 12, chapter-wise, with full solutions. CBSE & ICSE pattern. Instant PDF download.',
+      title: 'Maths Case Study Questions — Class 5 to 12 PDFs',
+      metaDesc: 'All maths case-study e-books in one place — Class 5, 6, 7, 8, 9 and 12, chapter-wise, with full solutions. CBSE & ICSE pattern. Instant PDF download.',
       canonical: (process.env.BASE_URL || 'https://mathstudy.in') + '/shop/case-studies',
       groups: shown, total
     });
@@ -392,6 +392,7 @@ app.get('/shop/case-studies', async (req, res) => {
 // and linked, so it must send visitors (and its ranking) to the new home rather
 // than show an empty shelf.
 const CATEGORY_MOVED = {
+  'grade-5-math': 'case-studies-class-5',
   'grade-6-math': 'case-studies-class-6',
   'grade-7-math': 'case-studies-class-7',
   'grade-8-math': 'case-studies-class-8',
