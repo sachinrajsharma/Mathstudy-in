@@ -321,7 +321,10 @@ const PRODUCTS = [
     description:    '<p>The <strong>Subtraction Word Problems For 4th Grade</strong> workbook provides structured practice with 100 subtraction word problems designed specifically for 4th graders.</p><ul><li>100 subtraction word problems across 20 printable worksheets</li><li>Detailed step-by-step solutions for every problem</li><li>Real-life contexts: shopping, measurement, time, sports</li><li>Aligned with Grade 4 mathematics curriculum standards (CBSE/ICSE)</li></ul>',
     price:          34,
     original_price: 39,
-    cover_image:    WP_BASE + '/Subtraction-Word-Problems-For-4th-Grade.jpg',
+    // Lowercase on purpose: the file on disk is subtraction-word-problems-for-4th-grade.jpg
+    // and the production host is Linux (case-sensitive), so the old capitalised
+    // name 404'd there while working on Windows.
+    cover_image:    WP_BASE + '/subtraction-word-problems-for-4th-grade.jpg',
     pdf_file:       null,
     page_count:     60,
     grade:          'Grade 4',
