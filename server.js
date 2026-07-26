@@ -398,7 +398,6 @@ app.get('/shop/case-studies', async (req, res) => {
 // and linked, so it must send visitors (and its ranking) to the new home rather
 // than show an empty shelf.
 const CATEGORY_MOVED = {
-  'grade-5-math': 'case-studies-class-5',
   'grade-6-math': 'case-studies-class-6',
   'grade-7-math': 'case-studies-class-7',
   'grade-8-math': 'case-studies-class-8',
