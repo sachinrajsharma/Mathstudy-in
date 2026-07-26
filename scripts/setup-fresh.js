@@ -26,6 +26,7 @@ const STEPS = [
   ['Seed products (base catalogue + Node prices)', 'seed-products.js', true],
   ['Seed Class-12 products', 'seed-class12-new.js', false],
   ['Seed Grade-1 worksheet e-books', 'seed-grade1-worksheets.js', false],
+  ['Seed Grade-2 worksheet e-books', 'seed-grade2-worksheets.js', false],
   ['Seed Class-5 chapter case-study books', 'seed-class5-case-studies.js', false],
   ['Seed Class-6 chapter case-study books', 'seed-class6-case-studies.js', false],
   ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],
