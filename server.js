@@ -1240,6 +1240,16 @@ pool.query(`CREATE TABLE IF NOT EXISTS blogs (
   console.error('[Blog] Could not create blogs table:', e.message);
 });
 
+// Ensure products.price_locked exists on boot (the admin save handler and the
+// seeds reference it). Idempotent: a "Duplicate column" error means it is already
+// there and is safely ignored, so a plain restart is enough — no /__setup__ needed.
+pool.query(`ALTER TABLE products ADD COLUMN price_locked TINYINT(1) NOT NULL DEFAULT 0`)
+  .then(function() { console.log('[schema] added products.price_locked'); })
+  .catch(function(e) {
+    if (!/duplicate column|check that column\/key exists/i.test(e.message))
+      console.error('[schema] price_locked:', e.message);
+  });
+
 // ── Public Blog ───────────────────────────────────────────────────────────────
 app.get('/blog', async (req, res, next) => {
   try {
