@@ -31,6 +31,7 @@ const STEPS = [
   ['Seed Grade-4 worksheet e-books', 'seed-grade4-worksheets.js', false],
   ['Seed Grade-5 worksheet e-books', 'seed-grade5-worksheets.js', false],
   ['Seed Grade-6 worksheet e-books', 'seed-grade6-worksheets.js', false],
+  ['Seed Grade-7 worksheet e-books', 'seed-grade7-worksheets.js', false],
   ['Seed Class-5 chapter case-study books', 'seed-class5-case-studies.js', false],
   ['Seed Class-6 chapter case-study books', 'seed-class6-case-studies.js', false],
   ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],
