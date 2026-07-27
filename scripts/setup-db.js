@@ -134,6 +134,8 @@ const SEED_CATEGORIES = [
   { name: 'Grade 6 Math',         slug: 'grade-6-math',         sort: 6 },
   { name: 'Grade 7 Math',         slug: 'grade-7-math',         sort: 7 },
   { name: 'Grade 8 Math',         slug: 'grade-8-math',         sort: 8 },
+  { name: 'Grade 9 Math',         slug: 'grade-9-math',         sort: 9 },
+  { name: 'Grade 12 Math',        slug: 'grade-12-math',        sort: 12 },
   { name: 'Class 9 Mathematics',  slug: 'class-9-mathematics',  sort: 9 },
   { name: 'Class 12 Mathematics', slug: 'class-12-mathematics', sort: 12 },
   { name: 'Case Studies Class 7', slug: 'case-studies-class-7', sort: 12 },

@@ -355,7 +355,10 @@ app.get('/shop', async (req, res) => {
       `SELECT COUNT(*) AS total FROM products p LEFT JOIN categories c ON p.category_id=c.id WHERE ${where}`,
       params
     );
-    const [cats] = await pool.query(`SELECT id,name,slug FROM categories ORDER BY sort_order`);
+    const [cats] = await pool.query(
+      `SELECT c.id,c.name,c.slug FROM categories c
+       JOIN products p ON p.category_id=c.id AND p.is_published=1
+       GROUP BY c.id ORDER BY c.sort_order`);
 
     res.render('shop', {
       title: q ? `"${q}" Math E-Books — MathStudy.in` : 'Shop Math E-Books — MathStudy.in',
@@ -397,12 +400,18 @@ app.get('/shop/case-studies', async (req, res) => {
 // Categories whose whole stock moved elsewhere. The old URL is already indexed
 // and linked, so it must send visitors (and its ranking) to the new home rather
 // than show an empty shelf.
+// Each numbered class now lives under one canonical "Grade N Math" category
+// (worksheets + case studies merged). The old per-topic category URLs are
+// indexed, so 301 them to the merged category.
 const CATEGORY_MOVED = {
-  'grade-5-math': 'case-studies-class-5',
-  'grade-6-math': 'case-studies-class-6',
-  'grade-7-math': 'case-studies-class-7',
-  'grade-8-math': 'case-studies-class-8',
-  'class-9-mathematics': 'case-studies-class-9',
+  'case-studies-class-5':  'grade-5-math',
+  'case-studies-class-6':  'grade-6-math',
+  'case-studies-class-7':  'grade-7-math',
+  'case-studies-class-8':  'grade-8-math',
+  'case-studies-class-9':  'grade-9-math',
+  'case-studies-class-12': 'grade-12-math',
+  'class-9-mathematics':   'grade-9-math',
+  'class-12-mathematics':  'grade-12-math',
 };
 
 // Category landing pages for SEO
