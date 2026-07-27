@@ -999,8 +999,8 @@ app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'),
   try {
     const bundleJson = await parseBundleItems(req.body, null);
     await pool.query(
-      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,cover_image,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url,bundle_items)
-       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,price_locked,cover_image,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url,bundle_items)
+       VALUES (?,?,?,?,?,?,?,1,?,?,?,?,?,?,?,?,?,?)`,
       [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson]
     );
     res.redirect('/admin/products');
@@ -1018,7 +1018,7 @@ app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_ima
   try {
     const bundleJson = await parseBundleItems(req.body, req.params.id);
     await pool.query(
-      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
+      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,price_locked=1,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
       [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson,req.params.id]
     );
     res.redirect('/admin/products');

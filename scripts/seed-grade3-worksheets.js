@@ -207,8 +207,8 @@ async function run() {
     ];
     if (existing) {
       await conn.query(
-        `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,
-         original_price=?,cover_image=?,page_count=?,grade=?,board=?,meta_title=?,meta_desc=?,
+        `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=IF(price_locked=1,price,?),
+         original_price=IF(price_locked=1,original_price,?),cover_image=?,page_count=?,grade=?,board=?,meta_title=?,meta_desc=?,
          is_published=1 WHERE id=?`, [...row, existing.id]);
       updated++; console.log('  updated  ' + slug);
     } else {

@@ -54,6 +54,7 @@ CREATE TABLE IF NOT EXISTS products (
   category_id     INT,
   price           DECIMAL(10,2)  NOT NULL,
   original_price  DECIMAL(10,2),
+  price_locked    TINYINT(1)     NOT NULL DEFAULT 0,
   cover_image     VARCHAR(300),
   pdf_file        VARCHAR(300),
   page_count      INT,

@@ -50,7 +50,7 @@ const BUNDLES = [
   });
 
   // ── (4) Reprice individual (non-bundle) products ──
-  const [prods] = await db.query('SELECT id,slug,title FROM products WHERE bundle_items IS NULL');
+  const [prods] = await db.query('SELECT id,slug,title FROM products WHERE bundle_items IS NULL AND price_locked=0');
   let repriced = 0;
   for (const p of prods) {
     const [price, mrp] = priceFor(p.slug, p.title);
