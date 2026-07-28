@@ -30,12 +30,23 @@ const WA = 'https://wa.me/919211865759?text=' + encodeURIComponent('Hi, I have a
     <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px">
       <h2 style="font-size:1.25rem;font-weight:800;color:var(--dark);margin:0 0 4px">Send us a message</h2>
       <p style="color:var(--muted);font-size:.9rem;margin:0 0 18px">Tell us how we can help and we'll reply the same day.</p>
+      <% if (locals.error && error) { %>
+        <div style="background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:8px;padding:10px 14px;font-size:.88rem;margin-bottom:14px"><%= error %></div>
+      <% } %>
       <form method="POST" action="/contact">
         <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Your name *</label><input type="text" name="name" required style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
-        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">WhatsApp / email *</label><input type="text" name="contact" required placeholder="+91… or you@email.com" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
-        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Topic</label><input type="text" name="grade" placeholder="e.g. order help, download issue, book question" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
-        <div style="margin-bottom:14px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Message</label><textarea name="message" rows="4" placeholder="How can we help?" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem;resize:vertical"></textarea></div>
+        <input type="hidden" name="form_ts" value="<%= Date.now() %>">
+        <!-- Honeypot: humans never see or fill this field -->
+        <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true">
+          <label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Your name *</label><input type="text" name="name" required value="<%= (locals.form && form.name) || '' %>" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">WhatsApp / email *</label><input type="text" name="contact" required placeholder="+91… or you@email.com" value="<%= (locals.form && form.contact) || '' %>" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:12px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Topic</label><input type="text" name="grade" placeholder="e.g. order help, download issue, book question" value="<%= (locals.form && form.grade) || '' %>" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <div style="margin-bottom:14px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Message</label><textarea name="message" rows="4" placeholder="How can we help?" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem;resize:vertical"><%= (locals.form && form.message) || '' %></textarea></div>
+        <% if (locals.captchaQ && captchaQ) { %>
+          <div style="margin-bottom:14px"><label style="font-size:.82rem;font-weight:600;display:block;margin-bottom:5px">Security check: what is <strong><%= captchaQ %></strong>? *</label><input type="number" name="captcha" required inputmode="numeric" style="max-width:140px;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.95rem"></div>
+        <% } %>
         <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center">Send message</button>
       </form>
     </div>

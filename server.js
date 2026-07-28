@@ -13,6 +13,7 @@ const notify         = require('./lib/notify');
 const ordersLib      = require('./lib/orders');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
+const antispam       = require('./lib/antispam');
 const MySQLStore     = require('express-mysql-session')(session);
 
 const app  = express();
@@ -499,46 +500,97 @@ app.get('/shop/product/:slug', async (req, res) => {
       title: sd.title, metaDesc: sd.metaDesc, canonical: sd.canonical,
       ogImage: product.cover_image || '/images/og-default.png',
       ogType: sd.ogType, jsonLd: sd.jsonLd, faqs: sd.faqs,
-      product, related, alreadyOwned, reviews, reviewCount, reviewAvg, bundleItems
+      product, related, alreadyOwned, reviews, reviewCount, reviewAvg, bundleItems,
+      reviewCaptchaQ: req.session.user ? null : antispam.newCaptcha(req, 'reviewCaptcha'),
+      reviewError: req.query.rerr === '1' ? 'The security answer was wrong — please try again.'
+                 : req.query.rerr === '2' ? 'Reviews may not contain links.' : null
     });
   } catch(e) { console.error(e); res.status(500).render('error',{title:'Error',message:'Something went wrong.'}); }
 });
 
-// Submit a product review (logged-in users or guests with a name)
-app.post('/shop/product/:id/review', async (req, res) => {
+// Submit a product review (logged-in users or guests with a name).
+// Anti-spam: per-IP limit, honeypot, time trap, guest captcha and a hard
+// no-links rule — review text is shown publicly, so URL spam is SEO poison.
+const reviewLimiter = rateLimit({ windowMs: 60 * 60 * 1000, max: 5, standardHeaders: true, legacyHeaders: false,
+  handler: (req, res) => res.status(429).render('error', { title: 'Too many reviews', metaDesc: '', canonical: null,
+    message: 'You have posted several reviews in a short time. Please try again later.' }) });
+
+app.post('/shop/product/:id/review', reviewLimiter, async (req, res) => {
   try {
+    const b = req.body || {};
     const pid = parseInt(req.params.id, 10);
-    const rating = Math.max(1, Math.min(5, parseInt(req.body.rating, 10) || 0));
-    const name = (req.session.user && req.session.user.name) || (req.body.author_name || '').toString().trim().slice(0, 120);
-    const body = (req.body.body || '').toString().trim().slice(0, 2000);
+    const rating = Math.max(1, Math.min(5, parseInt(b.rating, 10) || 0));
+    const name = (req.session.user && req.session.user.name) || (b.author_name || '').toString().trim().slice(0, 120);
+    const title = (b.title || '').toString().trim().slice(0, 160);
+    const body = (b.body || '').toString().trim().slice(0, 2000);
     const [[p]] = await pool.query('SELECT slug FROM products WHERE id=?', [pid]);
     if (!p) return res.status(404).render('error', { title: '404', message: 'Product not found.' });
+
+    // Bot signals -> silently ignore (no DB row, no error the bot can learn from).
+    if (antispam.honeypotHit(b) || antispam.tooFast(b, 3)) {
+      console.warn('[antispam] dropped review from', req.ip);
+      return res.redirect('/shop/product/' + p.slug + '#reviews');
+    }
+    // Reviews are public content: no URLs, from anyone.
+    if (antispam.countLinks(name + ' ' + title + ' ' + body) > 0) {
+      return res.redirect('/shop/product/' + p.slug + '?rerr=2#reviews');
+    }
+    // Guests must solve the sum shown next to the form.
+    if (!req.session.user && !antispam.captchaOk(req, 'reviewCaptcha', b.captcha)) {
+      return res.redirect('/shop/product/' + p.slug + '?rerr=1#reviews');
+    }
+
     if (!rating || !name) return res.redirect('/shop/product/' + p.slug + '#reviews');
     await pool.query(
       `INSERT INTO product_reviews (product_id,user_id,author_name,rating,title,body) VALUES (?,?,?,?,?,?)`,
-      [pid, req.session.user ? req.session.user.id : null, name, rating, (req.body.title || '').toString().trim().slice(0, 160) || null, body || null]);
+      [pid, req.session.user ? req.session.user.id : null, name, rating, title || null, body || null]);
     res.redirect('/shop/product/' + p.slug + '#reviews');
   } catch (e) { console.error('review error', e); res.status(500).render('error', { title: 'Error', message: 'Could not submit review.' }); }
 });
 
 // ── Contact / Support ──
-app.get('/contact', (req, res) => {
-  res.render('contact', {
-    title: 'Contact & Support — MathStudy.in',
-    metaDesc: 'Questions about a MathStudy.in e-book, an order or a download? Contact us on WhatsApp or email and we will help you the same day.',
-    canonical: BASE_URL + '/contact', ogType: 'website', sent: req.query.sent === '1'
-  });
-});
-app.post('/contact', async (req, res) => {
+// Anti-spam: math captcha (guests), honeypot, time trap, link heuristic and a
+// per-IP rate limit. Bot signals are dropped SILENTLY (redirect to ?sent=1
+// without emailing) so spammers cannot learn what tripped them.
+const contactView = (req, res, extra) => res.render('contact', Object.assign({
+  title: 'Contact & Support — MathStudy.in',
+  metaDesc: 'Questions about a MathStudy.in e-book, an order or a download? Contact us on WhatsApp or email and we will help you the same day.',
+  canonical: BASE_URL + '/contact', ogType: 'website', sent: req.query.sent === '1',
+  captchaQ: req.session.user ? null : antispam.newCaptcha(req, 'contactCaptcha'),
+  error: null, form: {}
+}, extra || {}));
+app.get('/contact', (req, res) => contactView(req, res));
+
+const contactLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 5, standardHeaders: true, legacyHeaders: false,
+  handler: (req, res) => res.status(429).render('error', { title: 'Too many messages', metaDesc: '', canonical: null,
+    message: 'You have sent several messages in a short time. Please wait a few minutes and try again.' }) });
+
+app.post('/contact', contactLimiter, async (req, res) => {
   try {
     const e = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    const name = (req.body.name || '').toString().trim().slice(0, 120);
-    const contact = (req.body.contact || '').toString().trim().slice(0, 120);
-    const grade = (req.body.grade || '').toString().trim().slice(0, 80);
-    const message = (req.body.message || '').toString().trim().slice(0, 1500);
-    if (name && contact) {
+    const b = req.body || {};
+    const name = (b.name || '').toString().trim().slice(0, 120);
+    const contact = (b.contact || '').toString().trim().slice(0, 120);
+    const grade = (b.grade || '').toString().trim().slice(0, 80);
+    const message = (b.message || '').toString().trim().slice(0, 1500);
+
+    // Bot signals -> pretend success, never email.
+    const isBot = antispam.honeypotHit(b) || antispam.tooFast(b, 3) ||
+                  antispam.countLinks(message + ' ' + name + ' ' + grade) >= 3;
+
+    // Humans who mistype the sum get the form back with their text intact.
+    if (!req.session.user && !isBot && !antispam.captchaOk(req, 'contactCaptcha', b.captcha)) {
+      return contactView(req, res, {
+        error: 'The security answer was wrong — please solve the small sum shown.',
+        form: { name, contact, grade, message }
+      });
+    }
+
+    if (name && contact && !isBot) {
       const html = `<h3>New contact / support enquiry</h3><p><b>Name:</b> ${e(name)}<br><b>Contact:</b> ${e(contact)}<br><b>Topic:</b> ${e(grade) || '-'}</p><p>${e(message) || '(no message)'}</p>`;
       notify.sendEmail(process.env.ADMIN_EMAIL || 'admin@mathstudy.in', 'New support enquiry — ' + name, html).catch(() => {});
+    } else if (isBot) {
+      console.warn('[antispam] dropped /contact submission from', req.ip);
     }
     res.redirect('/contact?sent=1');
   } catch (err) { console.error('contact', err); res.redirect('/contact?sent=1'); }
@@ -548,7 +600,12 @@ app.post('/contact', async (req, res) => {
 // ROUTES — AUTH
 // ════════════════════════════════════════════════════════════════════════════
 app.get('/auth/login',    (req, res) => res.render('auth/login',    { title:'Log In — MathStudy.in',    metaDesc:'', canonical:null, error:null, next: req.query.next||'/dashboard' }));
-app.get('/auth/register', (req, res) => res.render('auth/register', { title:'Sign Up — MathStudy.in', metaDesc:'', canonical:null, error:null }));
+// Registration renders always carry a fresh captcha (guards bot signups).
+const registerView = (req, res, error) => res.render('auth/register', {
+  title:'Sign Up — MathStudy.in', metaDesc:'', canonical:null, error: error || null,
+  captchaQ: antispam.newCaptcha(req, 'registerCaptcha')
+});
+app.get('/auth/register', (req, res) => registerView(req, res));
 
 app.post('/auth/login', loginLimiter, async (req, res) => {
   const { email, next } = req.body;
@@ -571,12 +628,24 @@ app.post('/auth/login', loginLimiter, async (req, res) => {
   } catch(e) { console.error(e); res.render('auth/login',{ title:'Log In', metaDesc:'', canonical:null, error:'Server error. Try again.', next:next||'/dashboard' }); }
 });
 
-app.post('/auth/register', async (req, res) => {
+const registerLimiter = rateLimit({ windowMs: 60 * 60 * 1000, max: 10, standardHeaders: true, legacyHeaders: false,
+  handler: (req, res) => res.status(429).render('error', { title: 'Too many sign-ups', metaDesc: '', canonical: null,
+    message: 'Too many sign-up attempts from this connection. Please try again later.' }) });
+
+app.post('/auth/register', registerLimiter, async (req, res) => {
   const { name, email, confirm_password } = req.body;
   const pw = req.body.password;
-  if (!name||!email||!pw) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Please fill all fields.' });
-  if (pw !== confirm_password) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Passwords do not match.' });
-  if (pw.length < 8) return res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:'Password must be at least 8 characters.' });
+  // Bot signals: fail without revealing which check tripped.
+  if (antispam.honeypotHit(req.body) || antispam.tooFast(req.body, 3)) {
+    console.warn('[antispam] dropped /auth/register from', req.ip);
+    return registerView(req, res, 'Something went wrong. Please try again.');
+  }
+  if (!antispam.captchaOk(req, 'registerCaptcha', req.body.captcha)) {
+    return registerView(req, res, 'The security answer was wrong — please solve the small sum shown.');
+  }
+  if (!name||!email||!pw) return registerView(req, res, 'Please fill all fields.');
+  if (pw !== confirm_password) return registerView(req, res, 'Passwords do not match.');
+  if (pw.length < 8) return registerView(req, res, 'Password must be at least 8 characters.');
   try {
     await pool.query(
       `INSERT INTO users (name,email,password_hash) VALUES (?,?,?)`,
@@ -587,7 +656,7 @@ app.post('/auth/register', async (req, res) => {
     res.redirect('/dashboard');
   } catch(e) {
     const msg = e.code==='ER_DUP_ENTRY' ? 'An account with this email already exists.' : 'Server error. Try again.';
-    res.render('auth/register',{ title:'Sign Up', metaDesc:'', canonical:null, error:msg });
+    registerView(req, res, msg);
   }
 });
 
