@@ -151,8 +151,16 @@ const discount = product.original_price && product.original_price > product.pric
 
     <div style="border:1px solid var(--border);border-radius:12px;padding:18px;background:#fafafa">
       <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 12px">Write a review</h3>
+      <% if (locals.reviewError && reviewError) { %>
+        <div style="background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:8px;padding:10px 14px;font-size:.88rem;margin-bottom:12px"><%= reviewError %></div>
+      <% } %>
       <form method="POST" action="/shop/product/<%= product.id %>/review">
         <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <input type="hidden" name="form_ts" value="<%= Date.now() %>">
+        <!-- Honeypot: humans never see or fill this field -->
+        <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true">
+          <label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off">
+        </div>
         <div style="margin-bottom:12px">
           <label style="font-size:.85rem;font-weight:600;display:block;margin-bottom:6px">Your rating</label>
           <span class="star-pick" style="font-size:1.7rem;cursor:pointer;letter-spacing:3px"><% for (var s=1;s<=5;s++){ %><span data-v="<%= s %>" style="color:#d1d5db">☆</span><% } %></span>
@@ -163,6 +171,12 @@ const discount = product.original_price && product.original_price > product.pric
         <% } %>
         <input type="text" name="title" placeholder="Headline (optional)" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;margin-bottom:10px;font-size:.92rem">
         <textarea name="body" rows="3" placeholder="What did you think? Was it helpful?" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;margin-bottom:12px;font-size:.92rem;resize:vertical"></textarea>
+        <% if (locals.reviewCaptchaQ && reviewCaptchaQ) { %>
+        <div style="margin-bottom:12px">
+          <label style="font-size:.85rem;font-weight:600;display:block;margin-bottom:6px">Security check: what is <strong><%= reviewCaptchaQ %></strong>?</label>
+          <input type="number" name="captcha" required inputmode="numeric" style="max-width:140px;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:.92rem">
+        </div>
+        <% } %>
         <button type="submit" class="btn btn-primary">Submit review</button>
       </form>
     </div>
