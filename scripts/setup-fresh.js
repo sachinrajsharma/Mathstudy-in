@@ -38,6 +38,7 @@ const STEPS = [
   ['Seed Class-6 chapter case-study books', 'seed-class6-case-studies.js', false],
   ['Seed Class-7 chapter case-study books', 'seed-class7-case-studies.js', false],
   ['Seed Class-8 chapter case-study books', 'seed-class8-case-studies.js', false],
+  ['Seed Class-9 chapter-test e-books', 'seed-grade9-chapter-tests.js', false],
   ['Merge each class into one "Grade N Math" category', 'merge-class-categories.js', false],
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
