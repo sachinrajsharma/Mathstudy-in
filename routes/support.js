@@ -552,7 +552,7 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       await support.logEvent(pool, t.id, 'staff:' + req.session.user.name, ns === 'open' && ['resolved', 'closed'].includes(t.status) ? 'reopen' : 'status', `${t.status} → ${ns}`);
       const [[fresh]] = await pool.query(`SELECT * FROM support_tickets WHERE id=?`, [t.id]);
       await support.emailStatusChanged(pool, fresh);
-      res.redirect('/admin/support/' + t.id);
+      res.redirect(req.body.back === 'list' ? '/admin/support' : '/admin/support/' + t.id);
     } catch (e) { console.error(e); res.status(500).send('Status change failed'); }
   });
 

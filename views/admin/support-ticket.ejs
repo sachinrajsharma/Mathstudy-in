@@ -12,7 +12,26 @@
         <% if (t.rating) { %><span class="sup-badge" style="background:#fef3c7;color:#b45309"><%= t.rating %>★ rated</span><% } %>
       </p>
     </div>
-    <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      <a class="sup-btn-sm" style="text-decoration:none;display:inline-flex;align-items:center" href="#reply">✉ Reply</a>
+      <% if (!['resolved','closed'].includes(t.status)) { %>
+        <form method="POST" action="/admin/support/<%= t.id %>/status" style="display:inline">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <input type="hidden" name="status" value="resolved">
+          <button type="submit" class="sup-btn-sm" style="background:#059669">✔ Mark Resolved</button>
+        </form>
+        <form method="POST" action="/admin/support/<%= t.id %>/status" style="display:inline">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <input type="hidden" name="status" value="closed">
+          <button type="submit" class="sup-btn-sm ghost">Close ticket</button>
+        </form>
+      <% } else { %>
+        <form method="POST" action="/admin/support/<%= t.id %>/status" style="display:inline">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <input type="hidden" name="status" value="open">
+          <button type="submit" class="sup-btn-sm ghost">↺ Reopen</button>
+        </form>
+      <% } %>
       <a class="sup-btn-sm ghost" style="text-decoration:none;display:inline-flex;align-items:center" href="/admin/support/<%= t.id %>/print" target="_blank" rel="noopener">🖨 Print / PDF</a>
       <a class="sup-btn-sm ghost" style="text-decoration:none;display:inline-flex;align-items:center" href="/support/ticket/<%= t.access_token %>" target="_blank" rel="noopener">Customer view ↗</a>
     </div>
@@ -98,7 +117,7 @@
   </div>
 
   <!-- ── Reply box ── -->
-  <div class="sup-card">
+  <div class="sup-card" id="reply">
     <h2 style="font-size:1rem;margin:0 0 12px">Reply</h2>
     <form class="sup-form" method="POST" action="/admin/support/<%= t.id %>/reply" enctype="multipart/form-data">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
