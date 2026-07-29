@@ -63,6 +63,12 @@ Every content band in blog-post.ejs uses `max-width:var(--post-wrap)` (a single 
 truth, currently 1120px). Never reintroduce a hardcoded `max-width:820px` band — it breaks
 alignment and makes the reading column too narrow.
 
+## Cover image (do not crop)
+`cover_image` is a PORTRAIT product cover (e.g. 1410x2250) with important text top and
+bottom. blog-post.ejs shows it centred and UNCROPPED (`max-height:560px;width:auto;height:auto`).
+Never use `object-fit:cover` + a fixed height on the cover — it slices off the header/footer
+of the cover art.
+
 ## Anti-cannibalisation (non-negotiable)
 Your blog targets an INFORMATIONAL intent (how-to / practice / explain), which is DIFFERENT from the
 product page's transactional "buy worksheets" intent, and different from every other blog's intent.
