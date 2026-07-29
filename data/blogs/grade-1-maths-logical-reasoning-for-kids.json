@@ -3,7 +3,7 @@
   "title": "Logical Reasoning for Grade 1: Thinking Skills Every Child Needs + Free Quiz",
   "meta_title": "Logical Reasoning for Grade 1 Kids + Free Quiz",
   "meta_desc": "Build logical reasoning for Grade 1 with sorting, odd-one-out, sequences and deduction. Everyday examples, a free quiz and printable practice.",
-  "excerpt": "Grade 1 is not only about adding and counting. It is where a child first learns to sort, spot the odd one out, and finish a simple &lsquo;if this, then that&rsquo;. Here is how to grow that thinking, with a quick quiz to try.",
+  "excerpt": "Grade 1 is not only about adding and counting. It is where a child first learns to sort, spot the odd one out, and finish a simple ‘if this, then that’. Here is how to grow that thinking, with a quick quiz to try.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-mathematical-reasoning.jpg",
   "cta_product_slug": "grade-1-mathematical-reasoning-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 logical reasoning and thinking skills",
     "level": "Grade 1",
     "questions": [
-      { "q": "Apple, banana, mango, shoe. Which one does not belong?", "options": ["Apple", "Shoe", "Banana", "Mango"], "answer": 1, "explanation": "The apple, banana and mango are all fruits you can eat. The shoe is not food, so it is the odd one out." },
-      { "q": "Small, medium, big. What size comes next?", "options": ["Bigger", "Small again", "Medium", "Tiny"], "answer": 0, "explanation": "The sizes are getting larger each time, so the next one should be even bigger than big." },
-      { "q": "Riya has 5 small marbles. Sam has 3 big marbles. Who has MORE marbles?", "options": ["Sam", "Riya", "They have the same", "You cannot tell"], "answer": 1, "explanation": "More means a bigger number of things, not bigger in size. Riya has 5 and Sam has 3, so Riya has more." },
-      { "q": "If it is raining, then you take an umbrella. It is raining. What do you take?", "options": ["A kite", "Nothing", "An umbrella", "A ball"], "answer": 2, "explanation": "The rule says when it rains you take an umbrella. It is raining, so the answer must be the umbrella." },
-      { "q": "A puppy is a baby dog. A kitten is a baby ...?", "options": ["Cat", "Cow", "Bird", "Fish"], "answer": 0, "explanation": "A puppy grows into a dog, and a kitten grows into a cat. So a kitten is a baby cat." },
-      { "q": "Which one does NOT belong with the others?", "options": ["Red car", "Red bus", "Red ball", "Blue car"], "answer": 3, "explanation": "Three of the things are red. The blue car is the only one that is not red, so it is the odd one out." },
-      { "q": "All the balls in the box are red. You take one out with your eyes shut. What colour is it?", "options": ["Blue", "Green", "Red", "You cannot know"], "answer": 2, "explanation": "If every ball in the box is red, then any ball you pick must also be red, even without looking." },
-      { "q": "Day comes, then night, then day, then night. What comes after night?", "options": ["Night again", "Day", "Nothing", "Rain"], "answer": 1, "explanation": "Day and night take turns. After a night, the next thing in the order is day." }
+      {
+        "q": "Apple, banana, mango, shoe. Which one does not belong?",
+        "options": [
+          "Apple",
+          "Shoe",
+          "Banana",
+          "Mango"
+        ],
+        "answer": 1,
+        "explanation": "The apple, banana and mango are all fruits you can eat. The shoe is not food, so it is the odd one out."
+      },
+      {
+        "q": "Small, medium, big. What size comes next?",
+        "options": [
+          "Bigger",
+          "Small again",
+          "Medium",
+          "Tiny"
+        ],
+        "answer": 0,
+        "explanation": "The sizes are getting larger each time, so the next one should be even bigger than big."
+      },
+      {
+        "q": "Riya has 5 small marbles. Sam has 3 big marbles. Who has MORE marbles?",
+        "options": [
+          "Sam",
+          "Riya",
+          "They have the same",
+          "You cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "More means a bigger number of things, not bigger in size. Riya has 5 and Sam has 3, so Riya has more."
+      },
+      {
+        "q": "If it is raining, then you take an umbrella. It is raining. What do you take?",
+        "options": [
+          "A kite",
+          "Nothing",
+          "An umbrella",
+          "A ball"
+        ],
+        "answer": 2,
+        "explanation": "The rule says when it rains you take an umbrella. It is raining, so the answer must be the umbrella."
+      },
+      {
+        "q": "A puppy is a baby dog. A kitten is a baby ...?",
+        "options": [
+          "Cat",
+          "Cow",
+          "Bird",
+          "Fish"
+        ],
+        "answer": 0,
+        "explanation": "A puppy grows into a dog, and a kitten grows into a cat. So a kitten is a baby cat."
+      },
+      {
+        "q": "Which one does NOT belong with the others?",
+        "options": [
+          "Red car",
+          "Red bus",
+          "Red ball",
+          "Blue car"
+        ],
+        "answer": 3,
+        "explanation": "Three of the things are red. The blue car is the only one that is not red, so it is the odd one out."
+      },
+      {
+        "q": "All the balls in the box are red. You take one out with your eyes shut. What colour is it?",
+        "options": [
+          "Blue",
+          "Green",
+          "Red",
+          "You cannot know"
+        ],
+        "answer": 2,
+        "explanation": "If every ball in the box is red, then any ball you pick must also be red, even without looking."
+      },
+      {
+        "q": "Day comes, then night, then day, then night. What comes after night?",
+        "options": [
+          "Night again",
+          "Day",
+          "Nothing",
+          "Rain"
+        ],
+        "answer": 1,
+        "explanation": "Day and night take turns. After a night, the next thing in the order is day."
+      }
     ]
   },
   "faq": [
-    { "q": "Why does logical reasoning matter as much as arithmetic in Grade 1?", "a": "Reasoning is the thinking that makes arithmetic make sense. A child who can sort, compare and follow an &lsquo;if&hellip; then&rsquo; rule understands <em>why</em> a sum works instead of only memorising the answer &mdash; and that understanding is what carries them through the harder years." },
-    { "q": "My child gives a strange answer to an odd-one-out question. Is that a problem?", "a": "Usually not. Ask &lsquo;why do you think so?&rsquo; before deciding it is wrong. Often the child has spotted a genuine rule you did not plan for, such as sorting by colour instead of by type. Rewarding the explanation matters more than the single &lsquo;correct&rsquo; answer." },
-    { "q": "How is this different from number patterns?", "a": "Number and shape patterns are one small part of reasoning. Logical reasoning here is broader &mdash; sorting and classifying, finding the odd one out, comparing more and fewer, and simple deduction and analogy. Much of it uses no numbers at all." },
-    { "q": "How do I practise reasoning without buying anything?", "a": "Use what is around you. Sort the cutlery, compare who has more rotis, ask what size cup comes next, play &lsquo;if the light is red, then&hellip;&rsquo; on the walk to school. Ten minutes of these everyday questions does real work." },
-    { "q": "Where can I get printable Grade 1 reasoning worksheets with answers?", "a": "Our Grade 1 mathematical reasoning worksheet e-book has graded puzzles &mdash; sorting, odd one out, sequences, comparisons and simple deduction &mdash; each with a full answer key, as an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Why does logical reasoning matter as much as arithmetic in Grade 1?",
+      "a": "Reasoning is the thinking that makes arithmetic make sense. A child who can sort, compare and follow an &lsquo;if&hellip; then&rsquo; rule understands <em>why</em> a sum works instead of only memorising the answer &mdash; and that understanding is what carries them through the harder years."
+    },
+    {
+      "q": "My child gives a strange answer to an odd-one-out question. Is that a problem?",
+      "a": "Usually not. Ask &lsquo;why do you think so?&rsquo; before deciding it is wrong. Often the child has spotted a genuine rule you did not plan for, such as sorting by colour instead of by type. Rewarding the explanation matters more than the single &lsquo;correct&rsquo; answer."
+    },
+    {
+      "q": "How is this different from number patterns?",
+      "a": "Number and shape patterns are one small part of reasoning. Logical reasoning here is broader &mdash; sorting and classifying, finding the odd one out, comparing more and fewer, and simple deduction and analogy. Much of it uses no numbers at all."
+    },
+    {
+      "q": "How do I practise reasoning without buying anything?",
+      "a": "Use what is around you. Sort the cutlery, compare who has more rotis, ask what size cup comes next, play &lsquo;if the light is red, then&hellip;&rsquo; on the walk to school. Ten minutes of these everyday questions does real work."
+    },
+    {
+      "q": "Where can I get printable Grade 1 reasoning worksheets with answers?",
+      "a": "Our Grade 1 mathematical reasoning worksheet e-book has graded puzzles &mdash; sorting, odd one out, sequences, comparisons and simple deduction &mdash; each with a full answer key, as an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

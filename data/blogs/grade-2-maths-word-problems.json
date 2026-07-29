@@ -16,21 +16,116 @@
     "about": "Grade 2 word problems within 100 to 999",
     "level": "Grade 2",
     "questions": [
-      { "q": "A kirana shop sold 326 packets on Monday and 247 on Tuesday. How many in all?", "options": ["573", "563", "583", "579"], "answer": 0, "explanation": "The clue words 'in all' mean add: 326 + 247 = 573. Estimate 330 + 250 is about 580, so 573 fits." },
-      { "q": "A library had 480 books and lent out 155. How many are left?", "options": ["335", "325", "315", "345"], "answer": 1, "explanation": "The clue word 'left' means subtract: 480 &minus; 155 = 325." },
-      { "q": "A cricket team uses 5 bottles each match. How many bottles for 6 matches?", "options": ["11", "25", "30", "35"], "answer": 2, "explanation": "The clue word 'each' means equal groups: 5 &times; 6 = 30, the same as adding 5 six times." },
-      { "q": "Anaya had &#8377;254 and her grandmother gave her &#8377;138 more. How much now?", "options": ["382", "402", "116", "392"], "answer": 3, "explanation": "The clue word 'more' means add: 254 + 138 = 392 rupees." },
-      { "q": "Rohan has 120 marbles, which is 45 more than Anaya. How many does Anaya have?", "options": ["75", "165", "85", "155"], "answer": 0, "explanation": "The word 'more' is a trap here. Anaya has fewer, so subtract: 120 &minus; 45 = 75." },
-      { "q": "A pencil box costs &#8377;145 and sketch pens cost &#8377;238. What is the total?", "options": ["373", "383", "93", "393"], "answer": 1, "explanation": "Total means add: 145 + 238 = 383 rupees." },
-      { "q": "You buy items worth &#8377;383 and pay with a &#8377;500 note. What change do you get?", "options": ["127", "883", "107", "117"], "answer": 3, "explanation": "Change means subtract the total from what you paid: 500 &minus; 383 = 117 rupees." },
-      { "q": "First estimate: 298 + 203 is closest to which round number?", "options": ["400", "700", "500", "600"], "answer": 2, "explanation": "Round to 300 + 200 = 500. Estimating first gives you a target to check the exact answer against." }
+      {
+        "q": "A kirana shop sold 326 packets on Monday and 247 on Tuesday. How many in all?",
+        "options": [
+          "573",
+          "563",
+          "583",
+          "579"
+        ],
+        "answer": 0,
+        "explanation": "The clue words 'in all' mean add: 326 + 247 = 573. Estimate 330 + 250 is about 580, so 573 fits."
+      },
+      {
+        "q": "A library had 480 books and lent out 155. How many are left?",
+        "options": [
+          "335",
+          "325",
+          "315",
+          "345"
+        ],
+        "answer": 1,
+        "explanation": "The clue word 'left' means subtract: 480 − 155 = 325."
+      },
+      {
+        "q": "A cricket team uses 5 bottles each match. How many bottles for 6 matches?",
+        "options": [
+          "11",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "The clue word 'each' means equal groups: 5 × 6 = 30, the same as adding 5 six times."
+      },
+      {
+        "q": "Anaya had ₹254 and her grandmother gave her ₹138 more. How much now?",
+        "options": [
+          "382",
+          "402",
+          "116",
+          "392"
+        ],
+        "answer": 3,
+        "explanation": "The clue word 'more' means add: 254 + 138 = 392 rupees."
+      },
+      {
+        "q": "Rohan has 120 marbles, which is 45 more than Anaya. How many does Anaya have?",
+        "options": [
+          "75",
+          "165",
+          "85",
+          "155"
+        ],
+        "answer": 0,
+        "explanation": "The word 'more' is a trap here. Anaya has fewer, so subtract: 120 − 45 = 75."
+      },
+      {
+        "q": "A pencil box costs ₹145 and sketch pens cost ₹238. What is the total?",
+        "options": [
+          "373",
+          "383",
+          "93",
+          "393"
+        ],
+        "answer": 1,
+        "explanation": "Total means add: 145 + 238 = 383 rupees."
+      },
+      {
+        "q": "You buy items worth ₹383 and pay with a ₹500 note. What change do you get?",
+        "options": [
+          "127",
+          "883",
+          "107",
+          "117"
+        ],
+        "answer": 3,
+        "explanation": "Change means subtract the total from what you paid: 500 − 383 = 117 rupees."
+      },
+      {
+        "q": "First estimate: 298 + 203 is closest to which round number?",
+        "options": [
+          "400",
+          "700",
+          "500",
+          "600"
+        ],
+        "answer": 2,
+        "explanation": "Round to 300 + 200 = 500. Estimating first gives you a target to check the exact answer against."
+      }
     ]
   },
   "faq": [
-    { "q": "Why does my child solve sums easily but freeze on word problems?", "a": "Because a word problem asks two jobs at once: work out what to calculate, then calculate it. Split those into separate steps &mdash; underline the question first, decide the operation, and only then do the arithmetic &mdash; and the freezing usually stops." },
-    { "q": "Are clue words like 'more' and 'left' always reliable?", "a": "No, and it is worth being honest about that. 'Rohan has 45 more than Anaya' contains 'more' but needs subtraction. Treat clue words as a first guess, then confirm with the real test: does the answer make sense?" },
-    { "q": "How big should the numbers be in Grade 2?", "a": "Comfortably within 100 to 999 for addition and subtraction, and small equal groups for multiplication since times-tables are still forming. Keep numbers small when a new problem type is introduced, then grow them." },
-    { "q": "How many word problems a day is enough?", "a": "Three or four done properly, with all five steps said out loud, beats a rushed page of twenty. At this age the method matters far more than the volume." },
-    { "q": "Where can I get printable Grade 2 word problem worksheets with answers?", "a": "Our mixed word problems e-book for Grade 2 has graded one-step and two-step questions across addition, subtraction and multiplication, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "Why does my child solve sums easily but freeze on word problems?",
+      "a": "Because a word problem asks two jobs at once: work out what to calculate, then calculate it. Split those into separate steps &mdash; underline the question first, decide the operation, and only then do the arithmetic &mdash; and the freezing usually stops."
+    },
+    {
+      "q": "Are clue words like 'more' and 'left' always reliable?",
+      "a": "No, and it is worth being honest about that. 'Rohan has 45 more than Anaya' contains 'more' but needs subtraction. Treat clue words as a first guess, then confirm with the real test: does the answer make sense?"
+    },
+    {
+      "q": "How big should the numbers be in Grade 2?",
+      "a": "Comfortably within 100 to 999 for addition and subtraction, and small equal groups for multiplication since times-tables are still forming. Keep numbers small when a new problem type is introduced, then grow them."
+    },
+    {
+      "q": "How many word problems a day is enough?",
+      "a": "Three or four done properly, with all five steps said out loud, beats a rushed page of twenty. At this age the method matters far more than the volume."
+    },
+    {
+      "q": "Where can I get printable Grade 2 word problem worksheets with answers?",
+      "a": "Our mixed word problems e-book for Grade 2 has graded one-step and two-step questions across addition, subtraction and multiplication, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

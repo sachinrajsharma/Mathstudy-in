@@ -1,6 +1,6 @@
 {
   "slug": "grade-2-multiplication-tables-introduction",
-  "title": "Multiplication for Grade 2: Repeated Addition, Groups &amp; the 2, 5, 10 Tables + Free Quiz",
+  "title": "Multiplication for Grade 2: Repeated Addition, Groups & the 2, 5, 10 Tables + Free Quiz",
   "meta_title": "Multiplication for Grade 2: A Gentle Start + Quiz",
   "meta_desc": "Introduce multiplication for grade 2 as repeated addition and equal groups, master the 2, 5 and 10 tables, plus a free quiz and printable practice.",
   "excerpt": "Before any child memorises a times table, they need to see what multiplication actually is: equal groups, counted the fast way. Here is how I introduce it in Grade 2, plus a quick quiz to test the 2, 5 and 10 tables.",
@@ -16,21 +16,116 @@
     "about": "Grade 2 introduction to multiplication",
     "level": "Grade 2",
     "questions": [
-      { "q": "Which multiplication matches 3 + 3 + 3 + 3?", "options": ["3 &times; 3", "4 &times; 3", "3 + 4", "4 &times; 4"], "answer": 1, "explanation": "There are four groups of three, so it is 4 &times; 3 = 12." },
-      { "q": "What does 5 &times; 2 mean?", "options": ["5 groups of 2", "5 plus 2", "2 groups of 2", "5 groups of 5"], "answer": 0, "explanation": "The &times; sign means groups of, so 5 &times; 2 is five groups of two, which is 10." },
-      { "q": "What is 3 &times; 5?", "options": ["8", "10", "15", "20"], "answer": 2, "explanation": "Three groups of five: 5 + 5 + 5 = 15. On the five-times table the third number is 15." },
-      { "q": "Skip-count in twos: 2, 4, 6, 8, ___. What comes next?", "options": ["9", "10", "11", "12"], "answer": 1, "explanation": "Each jump adds 2, so after 8 comes 10. The twos are all even numbers." },
-      { "q": "An array has 2 rows of 5 dots. How many dots in all?", "options": ["7", "10", "12", "25"], "answer": 1, "explanation": "Two rows of five is 2 &times; 5 = 10, the same as 5 + 5." },
-      { "q": "What is 4 &times; 10?", "options": ["14", "40", "44", "400"], "answer": 1, "explanation": "On the ten-times table you add a zero to the counting number, so 4 becomes 40." },
-      { "q": "Which of these gives the same answer as 3 &times; 4?", "options": ["4 &times; 3", "3 + 4", "3 &times; 3", "4 + 4"], "answer": 0, "explanation": "Turning an array on its side does not change the total, so 3 &times; 4 and 4 &times; 3 both equal 12." },
-      { "q": "There are 5 packets with 2 pens in each. How many pens altogether?", "options": ["7", "8", "10", "12"], "answer": 2, "explanation": "Five groups of two is 5 &times; 2 = 10, or 2 + 2 + 2 + 2 + 2." }
+      {
+        "q": "Which multiplication matches 3 + 3 + 3 + 3?",
+        "options": [
+          "3 × 3",
+          "4 × 3",
+          "3 + 4",
+          "4 × 4"
+        ],
+        "answer": 1,
+        "explanation": "There are four groups of three, so it is 4 × 3 = 12."
+      },
+      {
+        "q": "What does 5 × 2 mean?",
+        "options": [
+          "5 groups of 2",
+          "5 plus 2",
+          "2 groups of 2",
+          "5 groups of 5"
+        ],
+        "answer": 0,
+        "explanation": "The × sign means groups of, so 5 × 2 is five groups of two, which is 10."
+      },
+      {
+        "q": "What is 3 × 5?",
+        "options": [
+          "8",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "Three groups of five: 5 + 5 + 5 = 15. On the five-times table the third number is 15."
+      },
+      {
+        "q": "Skip-count in twos: 2, 4, 6, 8, ___. What comes next?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Each jump adds 2, so after 8 comes 10. The twos are all even numbers."
+      },
+      {
+        "q": "An array has 2 rows of 5 dots. How many dots in all?",
+        "options": [
+          "7",
+          "10",
+          "12",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "Two rows of five is 2 × 5 = 10, the same as 5 + 5."
+      },
+      {
+        "q": "What is 4 × 10?",
+        "options": [
+          "14",
+          "40",
+          "44",
+          "400"
+        ],
+        "answer": 1,
+        "explanation": "On the ten-times table you add a zero to the counting number, so 4 becomes 40."
+      },
+      {
+        "q": "Which of these gives the same answer as 3 × 4?",
+        "options": [
+          "4 × 3",
+          "3 + 4",
+          "3 × 3",
+          "4 + 4"
+        ],
+        "answer": 0,
+        "explanation": "Turning an array on its side does not change the total, so 3 × 4 and 4 × 3 both equal 12."
+      },
+      {
+        "q": "There are 5 packets with 2 pens in each. How many pens altogether?",
+        "options": [
+          "7",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Five groups of two is 5 × 2 = 10, or 2 + 2 + 2 + 2 + 2."
+      }
     ]
   },
   "faq": [
-    { "q": "When should a Grade 2 child start multiplication?", "a": "Around age seven, once addition within 20 is comfortable. Begin with equal groups and repeated addition rather than table chanting &mdash; the meaning has to come before the memorising." },
-    { "q": "Which tables should a Grade 2 child learn?", "a": "Just the 2, 5 and 10 tables. They carry clear patterns and cover most everyday sums. Save the 3, 4 and higher tables for Grade 3 rather than rushing all twelve now." },
-    { "q": "How is multiplication different from addition?", "a": "Addition puts any amounts together; multiplication puts together equal groups, again and again. So 3 &times; 4 is a shortcut for 4 + 4 + 4 &mdash; three groups of the same size." },
-    { "q": "How do I explain the &times; sign to my child?", "a": "Read it as groups of or times. So 4 &times; 5 is four groups of five. Building the groups with buttons or coins first makes the symbol feel obvious rather than abstract." },
-    { "q": "Where can I get printable Grade 2 multiplication worksheets with answers?", "a": "Our Grade 2 multiplication worksheet e-book has graded practice on repeated addition, equal groups and the 2, 5 and 10 tables, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "When should a Grade 2 child start multiplication?",
+      "a": "Around age seven, once addition within 20 is comfortable. Begin with equal groups and repeated addition rather than table chanting &mdash; the meaning has to come before the memorising."
+    },
+    {
+      "q": "Which tables should a Grade 2 child learn?",
+      "a": "Just the 2, 5 and 10 tables. They carry clear patterns and cover most everyday sums. Save the 3, 4 and higher tables for Grade 3 rather than rushing all twelve now."
+    },
+    {
+      "q": "How is multiplication different from addition?",
+      "a": "Addition puts any amounts together; multiplication puts together equal groups, again and again. So 3 &times; 4 is a shortcut for 4 + 4 + 4 &mdash; three groups of the same size."
+    },
+    {
+      "q": "How do I explain the × sign to my child?",
+      "a": "Read it as groups of or times. So 4 &times; 5 is four groups of five. Building the groups with buttons or coins first makes the symbol feel obvious rather than abstract."
+    },
+    {
+      "q": "Where can I get printable Grade 2 multiplication worksheets with answers?",
+      "a": "Our Grade 2 multiplication worksheet e-book has graded practice on repeated addition, equal groups and the 2, 5 and 10 tables, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

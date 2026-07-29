@@ -3,7 +3,7 @@
   "title": "Position and Direction Grade 2: Turns, Routes and Direction Words + Free Quiz",
   "meta_title": "Position and Direction Grade 2 + Free Quiz",
   "meta_desc": "Teach position and direction to Grade 2: left/right, above/below, quarter and half turns, clockwise and route directions. Free quiz plus printables.",
-  "excerpt": "Left, right, above, below, a quarter turn to the right &mdash; the language of position trips up more seven-year-olds than the maths itself. Here is how I teach it, plus a quick quiz.",
+  "excerpt": "Left, right, above, below, a quarter turn to the right — the language of position trips up more seven-year-olds than the maths itself. Here is how I teach it, plus a quick quiz.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-position-direction.jpg",
   "cta_product_slug": "grade-2-position-and-direction-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 position, direction and turns",
     "level": "Grade 2",
     "questions": [
-      { "q": "A cat sits with a dog on each side of it. Where is the cat?", "options": ["Above the dogs", "Between the dogs", "Behind the dogs", "Below the dogs"], "answer": 1, "explanation": "Between means there is something on each side. The cat has a dog on its left and a dog on its right, so it is between them." },
-      { "q": "You face the board and make a half turn. What are you facing now?", "options": ["The same way, the board", "The opposite way", "One quarter to the right", "The floor"], "answer": 1, "explanation": "A half turn is two quarter turns and leaves you facing the exact opposite way. So you now face away from the board." },
-      { "q": "Which way do the hands of a clock move?", "options": ["Anticlockwise", "Backwards", "Clockwise", "In a straight line"], "answer": 2, "explanation": "The hands of a clock sweep clockwise. The opposite direction is called anticlockwise." },
-      { "q": "A book is on the table and a lamp is over it, higher up. Where is the lamp?", "options": ["Below the book", "Next to the book", "Behind the book", "Above the book"], "answer": 3, "explanation": "Something higher up is above. The lamp is higher than the book, so the lamp is above the book." },
-      { "q": "How many quarter turns make one half turn?", "options": ["One", "Two", "Three", "Four"], "answer": 1, "explanation": "A half turn is made of two quarter turns. Four quarter turns would make a full turn." },
-      { "q": "You start at the gate, go up 2 squares, then go right 3 squares. How many squares did you move in total?", "options": ["3", "4", "5", "6"], "answer": 2, "explanation": "2 squares up and 3 squares right is 2 + 3 = 5 squares moved altogether." },
-      { "q": "Which turn is the same as a quarter turn to the left?", "options": ["A quarter turn clockwise", "A quarter turn anticlockwise", "A half turn", "A full turn"], "answer": 1, "explanation": "Turning to the left goes the opposite way to a clock, so a quarter turn to the left is a quarter turn anticlockwise." },
-      { "q": "Riya faces the door. She makes a full turn. What can she see now?", "options": ["The door again", "The wall behind her", "The window on her left", "Nothing"], "answer": 0, "explanation": "A full turn brings you all the way round to face the start. Riya faces the door again." }
+      {
+        "q": "A cat sits with a dog on each side of it. Where is the cat?",
+        "options": [
+          "Above the dogs",
+          "Between the dogs",
+          "Behind the dogs",
+          "Below the dogs"
+        ],
+        "answer": 1,
+        "explanation": "Between means there is something on each side. The cat has a dog on its left and a dog on its right, so it is between them."
+      },
+      {
+        "q": "You face the board and make a half turn. What are you facing now?",
+        "options": [
+          "The same way, the board",
+          "The opposite way",
+          "One quarter to the right",
+          "The floor"
+        ],
+        "answer": 1,
+        "explanation": "A half turn is two quarter turns and leaves you facing the exact opposite way. So you now face away from the board."
+      },
+      {
+        "q": "Which way do the hands of a clock move?",
+        "options": [
+          "Anticlockwise",
+          "Backwards",
+          "Clockwise",
+          "In a straight line"
+        ],
+        "answer": 2,
+        "explanation": "The hands of a clock sweep clockwise. The opposite direction is called anticlockwise."
+      },
+      {
+        "q": "A book is on the table and a lamp is over it, higher up. Where is the lamp?",
+        "options": [
+          "Below the book",
+          "Next to the book",
+          "Behind the book",
+          "Above the book"
+        ],
+        "answer": 3,
+        "explanation": "Something higher up is above. The lamp is higher than the book, so the lamp is above the book."
+      },
+      {
+        "q": "How many quarter turns make one half turn?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 1,
+        "explanation": "A half turn is made of two quarter turns. Four quarter turns would make a full turn."
+      },
+      {
+        "q": "You start at the gate, go up 2 squares, then go right 3 squares. How many squares did you move in total?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "2 squares up and 3 squares right is 2 + 3 = 5 squares moved altogether."
+      },
+      {
+        "q": "Which turn is the same as a quarter turn to the left?",
+        "options": [
+          "A quarter turn clockwise",
+          "A quarter turn anticlockwise",
+          "A half turn",
+          "A full turn"
+        ],
+        "answer": 1,
+        "explanation": "Turning to the left goes the opposite way to a clock, so a quarter turn to the left is a quarter turn anticlockwise."
+      },
+      {
+        "q": "Riya faces the door. She makes a full turn. What can she see now?",
+        "options": [
+          "The door again",
+          "The wall behind her",
+          "The window on her left",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explanation": "A full turn brings you all the way round to face the start. Riya faces the door again."
+      }
     ]
   },
   "faq": [
-    { "q": "Why does my Grade 2 child keep mixing up left and right?", "a": "This is completely normal at 6 to 7 &mdash; and many adults still pause too. Anchor it to their writing hand and repeat it during everyday moments (which shoe, which side of the plate) rather than only on worksheets." },
-    { "q": "What is the difference between a quarter turn and a half turn?", "a": "A quarter turn is a single right angle, like the corner of a book. A half turn is two quarter turns and leaves you facing the exact opposite way. Four quarter turns bring you back to the start." },
-    { "q": "How do I explain clockwise and anticlockwise without a clock?", "a": "Trace a big circle in the air together, starting at the top and moving to the right and down &mdash; that is clockwise. The opposite way round is anticlockwise. A round wall clock with hands makes it click fastest." },
-    { "q": "Should Grade 2 children learn grid coordinates yet?", "a": "Not yet. Keep it to following and giving simple route directions &mdash; up, down, left, right along the squares. Coordinates and diagonal moves belong in later grades once the direction words are secure." },
-    { "q": "Where can I get printable Grade 2 position and direction worksheets with answers?", "a": "Our Grade 2 position and direction worksheet e-book has graded practice on positional words, turns, clockwise and route-following, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "Why does my Grade 2 child keep mixing up left and right?",
+      "a": "This is completely normal at 6 to 7 &mdash; and many adults still pause too. Anchor it to their writing hand and repeat it during everyday moments (which shoe, which side of the plate) rather than only on worksheets."
+    },
+    {
+      "q": "What is the difference between a quarter turn and a half turn?",
+      "a": "A quarter turn is a single right angle, like the corner of a book. A half turn is two quarter turns and leaves you facing the exact opposite way. Four quarter turns bring you back to the start."
+    },
+    {
+      "q": "How do I explain clockwise and anticlockwise without a clock?",
+      "a": "Trace a big circle in the air together, starting at the top and moving to the right and down &mdash; that is clockwise. The opposite way round is anticlockwise. A round wall clock with hands makes it click fastest."
+    },
+    {
+      "q": "Should Grade 2 children learn grid coordinates yet?",
+      "a": "Not yet. Keep it to following and giving simple route directions &mdash; up, down, left, right along the squares. Coordinates and diagonal moves belong in later grades once the direction words are secure."
+    },
+    {
+      "q": "Where can I get printable Grade 2 position and direction worksheets with answers?",
+      "a": "Our Grade 2 position and direction worksheet e-book has graded practice on positional words, turns, clockwise and route-following, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

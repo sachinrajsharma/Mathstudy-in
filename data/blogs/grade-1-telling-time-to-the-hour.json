@@ -3,7 +3,7 @@
   "title": "Telling Time in Grade 1: O'clock and Half Past for Kids + Free Quiz",
   "meta_title": "Telling Time Grade 1: O'clock & Half Past Guide",
   "meta_desc": "Teach telling time to Grade 1 kids the easy way: read o'clock and half past, learn the two hands, plus a free 8-question quiz and printable practice.",
-  "excerpt": "The short hand and the long hand confuse almost every six-year-old at first. Here is the order I teach telling time to Grade 1 &mdash; o'clock, then half past &mdash; with the one tricky bit most people skip, and a quick quiz to check it stuck.",
+  "excerpt": "The short hand and the long hand confuse almost every six-year-old at first. Here is the order I teach telling time to Grade 1 — o'clock, then half past — with the one tricky bit most people skip, and a quick quiz to check it stuck.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-time.jpg",
   "cta_product_slug": "grade-1-time-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 telling time to the hour and half hour",
     "level": "Grade 1",
     "questions": [
-      { "q": "The long hand points to the 12 and the short hand points to the 5. What time is it?", "options": ["12 o'clock", "5 o'clock", "Half past 5", "Half past 12"], "answer": 1, "explanation": "The long hand on 12 means it is o'clock. Read the short hand, which is on the 5, so it is 5 o'clock." },
-      { "q": "Which hand tells you the hour?", "options": ["The long hand", "The short hand", "Both hands together", "Neither hand"], "answer": 1, "explanation": "The short hand is the hour hand &mdash; short word, short hand. The long hand is the minute hand." },
-      { "q": "The long hand points to the 6 and the short hand sits between the 3 and the 4. What time is it?", "options": ["Half past 3", "Half past 4", "3 o'clock", "Half past 6"], "answer": 0, "explanation": "The long hand on 6 means half past. Read the smaller number the short hand has just left, the 3, so it is half past 3." },
-      { "q": "Where does the long hand point when it is exactly o'clock?", "options": ["On the 6", "On the 3", "On the 12", "On the 9"], "answer": 2, "explanation": "At o'clock the long minute hand points straight up to the 12." },
-      { "q": "It is 8 o'clock. Where is the long hand pointing?", "options": ["On the 8", "On the 6", "On the 12", "On the 4"], "answer": 2, "explanation": "At any o'clock time the long hand is on the 12. The short hand is the one on the 8." },
-      { "q": "Which part of the day comes right after morning?", "options": ["Night", "Afternoon", "Evening", "Bedtime"], "answer": 1, "explanation": "The day goes morning, afternoon, evening, then night. Afternoon comes right after morning." },
-      { "q": "What day comes after Monday?", "options": ["Sunday", "Wednesday", "Tuesday", "Friday"], "answer": 2, "explanation": "The order is Sunday, Monday, Tuesday, Wednesday. Tuesday comes right after Monday." },
-      { "q": "The long hand points to the 6 and the short hand is between the 9 and the 10. What time is it?", "options": ["9 o'clock", "Half past 10", "Half past 9", "10 o'clock"], "answer": 2, "explanation": "The long hand on 6 means half past. The short hand has just left the 9, so it is half past 9." }
+      {
+        "q": "The long hand points to the 12 and the short hand points to the 5. What time is it?",
+        "options": [
+          "12 o'clock",
+          "5 o'clock",
+          "Half past 5",
+          "Half past 12"
+        ],
+        "answer": 1,
+        "explanation": "The long hand on 12 means it is o'clock. Read the short hand, which is on the 5, so it is 5 o'clock."
+      },
+      {
+        "q": "Which hand tells you the hour?",
+        "options": [
+          "The long hand",
+          "The short hand",
+          "Both hands together",
+          "Neither hand"
+        ],
+        "answer": 1,
+        "explanation": "The short hand is the hour hand — short word, short hand. The long hand is the minute hand."
+      },
+      {
+        "q": "The long hand points to the 6 and the short hand sits between the 3 and the 4. What time is it?",
+        "options": [
+          "Half past 3",
+          "Half past 4",
+          "3 o'clock",
+          "Half past 6"
+        ],
+        "answer": 0,
+        "explanation": "The long hand on 6 means half past. Read the smaller number the short hand has just left, the 3, so it is half past 3."
+      },
+      {
+        "q": "Where does the long hand point when it is exactly o'clock?",
+        "options": [
+          "On the 6",
+          "On the 3",
+          "On the 12",
+          "On the 9"
+        ],
+        "answer": 2,
+        "explanation": "At o'clock the long minute hand points straight up to the 12."
+      },
+      {
+        "q": "It is 8 o'clock. Where is the long hand pointing?",
+        "options": [
+          "On the 8",
+          "On the 6",
+          "On the 12",
+          "On the 4"
+        ],
+        "answer": 2,
+        "explanation": "At any o'clock time the long hand is on the 12. The short hand is the one on the 8."
+      },
+      {
+        "q": "Which part of the day comes right after morning?",
+        "options": [
+          "Night",
+          "Afternoon",
+          "Evening",
+          "Bedtime"
+        ],
+        "answer": 1,
+        "explanation": "The day goes morning, afternoon, evening, then night. Afternoon comes right after morning."
+      },
+      {
+        "q": "What day comes after Monday?",
+        "options": [
+          "Sunday",
+          "Wednesday",
+          "Tuesday",
+          "Friday"
+        ],
+        "answer": 2,
+        "explanation": "The order is Sunday, Monday, Tuesday, Wednesday. Tuesday comes right after Monday."
+      },
+      {
+        "q": "The long hand points to the 6 and the short hand is between the 9 and the 10. What time is it?",
+        "options": [
+          "9 o'clock",
+          "Half past 10",
+          "Half past 9",
+          "10 o'clock"
+        ],
+        "answer": 2,
+        "explanation": "The long hand on 6 means half past. The short hand has just left the 9, so it is half past 9."
+      }
     ]
   },
   "faq": [
-    { "q": "Should Grade 1 children learn quarter past and quarter to?", "a": "No. Grade 1 stops at o'clock and half past. Quarter past, quarter to and counting minutes in fives belong to Grade 2. Adding them too early usually confuses a six-year-old and slows the whole thing down." },
-    { "q": "How do I stop my child reading the wrong hand?", "a": "Cover the long minute hand with your thumb for a few days so the child can only see the short hour hand. Once reading the hour becomes automatic, uncover it and add the &lsquo;long hand on 12 means o'clock&rsquo; rule back in." },
-    { "q": "Why does the short hand sit between two numbers at half past?", "a": "Because the hour hand moves slowly all through the hour. By half past it has walked halfway to the next number. The rule for kids: read the smaller number it has just left, not the one it is heading towards." },
-    { "q": "Is an analogue or digital clock better for teaching time first?", "a": "Analogue first, every time. A geared clock you can turn by hand shows the two hands moving together, which is exactly the idea a child needs. Digital clocks hide that relationship and are easier to add later." },
-    { "q": "Where can I get printable Grade 1 time worksheets with answers?", "a": "Our Grade 1 time worksheet e-book has graded practice for reading o'clock and half past, plus days of the week and parts of the day, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Should Grade 1 children learn quarter past and quarter to?",
+      "a": "No. Grade 1 stops at o'clock and half past. Quarter past, quarter to and counting minutes in fives belong to Grade 2. Adding them too early usually confuses a six-year-old and slows the whole thing down."
+    },
+    {
+      "q": "How do I stop my child reading the wrong hand?",
+      "a": "Cover the long minute hand with your thumb for a few days so the child can only see the short hour hand. Once reading the hour becomes automatic, uncover it and add the &lsquo;long hand on 12 means o'clock&rsquo; rule back in."
+    },
+    {
+      "q": "Why does the short hand sit between two numbers at half past?",
+      "a": "Because the hour hand moves slowly all through the hour. By half past it has walked halfway to the next number. The rule for kids: read the smaller number it has just left, not the one it is heading towards."
+    },
+    {
+      "q": "Is an analogue or digital clock better for teaching time first?",
+      "a": "Analogue first, every time. A geared clock you can turn by hand shows the two hands moving together, which is exactly the idea a child needs. Digital clocks hide that relationship and are easier to add later."
+    },
+    {
+      "q": "Where can I get printable Grade 1 time worksheets with answers?",
+      "a": "Our Grade 1 time worksheet e-book has graded practice for reading o'clock and half past, plus days of the week and parts of the day, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

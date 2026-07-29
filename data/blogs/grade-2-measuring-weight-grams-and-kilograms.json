@@ -3,7 +3,7 @@
   "title": "Measuring Weight in Grade 2: Grams and Kilograms Made Simple + Free Quiz",
   "meta_title": "Measuring Weight Grade 2: Grams & Kilograms + Quiz",
   "meta_desc": "A simple Grade 2 guide to measuring weight in grams and kilograms: balance vs scale, estimate then check, plus a free 8-question quiz to practise.",
-  "excerpt": "A biscuit is weighed in grams, a bag of atta in kilograms &mdash; and a seven-year-old needs to feel the difference before the numbers make sense. Here is how I teach measuring weight in Grade 2, with a quick quiz to check what has stuck.",
+  "excerpt": "A biscuit is weighed in grams, a bag of atta in kilograms — and a seven-year-old needs to feel the difference before the numbers make sense. Here is how I teach measuring weight in Grade 2, with a quick quiz to check what has stuck.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-measurement-weight.jpg",
   "cta_product_slug": "grade-2-weight-measurement-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 measuring weight in grams and kilograms",
     "level": "Grade 2",
     "questions": [
-      { "q": "Which is the best unit to weigh a bag of atta (flour)?", "options": ["Grams", "Kilograms", "Centimetres", "Litres"], "answer": 1, "explanation": "A bag of atta is heavy, so we weigh it in kilograms (kg). Grams are for light things." },
-      { "q": "How many grams are equal to 1 kilogram?", "options": ["10 grams", "100 grams", "1000 grams", "500 grams"], "answer": 2, "explanation": "1 kilogram = 1000 grams. A 1 kg pack of sugar is the same as 1000 g." },
-      { "q": "Which of these is heaviest?", "options": ["A feather", "A paper clip", "A biscuit", "A brick"], "answer": 3, "explanation": "A brick is by far the heaviest. A feather, a paper clip and a biscuit are all very light." },
-      { "q": "You want to weigh one small biscuit. Which unit is best?", "options": ["Grams", "Kilograms", "Metres", "Hours"], "answer": 0, "explanation": "A biscuit is very light, so we use grams (g). Metres measure length and hours measure time." },
-      { "q": "On a balance (taraazu), which pan goes DOWN?", "options": ["The pan with the lighter thing", "The pan with the heavier thing", "Neither pan moves", "The empty pan"], "answer": 1, "explanation": "The heavier thing pulls its pan down. The lighter pan rises up." },
-      { "q": "Which of these would you weigh in kilograms, not grams?", "options": ["A postage stamp", "A coin", "A pencil", "A school bag full of books"], "answer": 3, "explanation": "A full school bag is heavy, so kilograms fit best. The others are light and belong in grams." },
-      { "q": "2 kilograms is the same as how many grams?", "options": ["200 grams", "20 grams", "2000 grams", "250 grams"], "answer": 2, "explanation": "1 kg is 1000 g, so 2 kg is 2000 g. Just double the 1000." },
-      { "q": "A bunch of bananas weighs 500 g. That is the same as...", "options": ["Half a kilogram", "Two kilograms", "Five kilograms", "A tenth of a kilogram"], "answer": 0, "explanation": "1000 g makes 1 kg, so 500 g is half of that &mdash; half a kilogram." }
+      {
+        "q": "Which is the best unit to weigh a bag of atta (flour)?",
+        "options": [
+          "Grams",
+          "Kilograms",
+          "Centimetres",
+          "Litres"
+        ],
+        "answer": 1,
+        "explanation": "A bag of atta is heavy, so we weigh it in kilograms (kg). Grams are for light things."
+      },
+      {
+        "q": "How many grams are equal to 1 kilogram?",
+        "options": [
+          "10 grams",
+          "100 grams",
+          "1000 grams",
+          "500 grams"
+        ],
+        "answer": 2,
+        "explanation": "1 kilogram = 1000 grams. A 1 kg pack of sugar is the same as 1000 g."
+      },
+      {
+        "q": "Which of these is heaviest?",
+        "options": [
+          "A feather",
+          "A paper clip",
+          "A biscuit",
+          "A brick"
+        ],
+        "answer": 3,
+        "explanation": "A brick is by far the heaviest. A feather, a paper clip and a biscuit are all very light."
+      },
+      {
+        "q": "You want to weigh one small biscuit. Which unit is best?",
+        "options": [
+          "Grams",
+          "Kilograms",
+          "Metres",
+          "Hours"
+        ],
+        "answer": 0,
+        "explanation": "A biscuit is very light, so we use grams (g). Metres measure length and hours measure time."
+      },
+      {
+        "q": "On a balance (taraazu), which pan goes DOWN?",
+        "options": [
+          "The pan with the lighter thing",
+          "The pan with the heavier thing",
+          "Neither pan moves",
+          "The empty pan"
+        ],
+        "answer": 1,
+        "explanation": "The heavier thing pulls its pan down. The lighter pan rises up."
+      },
+      {
+        "q": "Which of these would you weigh in kilograms, not grams?",
+        "options": [
+          "A postage stamp",
+          "A coin",
+          "A pencil",
+          "A school bag full of books"
+        ],
+        "answer": 3,
+        "explanation": "A full school bag is heavy, so kilograms fit best. The others are light and belong in grams."
+      },
+      {
+        "q": "2 kilograms is the same as how many grams?",
+        "options": [
+          "200 grams",
+          "20 grams",
+          "2000 grams",
+          "250 grams"
+        ],
+        "answer": 2,
+        "explanation": "1 kg is 1000 g, so 2 kg is 2000 g. Just double the 1000."
+      },
+      {
+        "q": "A bunch of bananas weighs 500 g. That is the same as...",
+        "options": [
+          "Half a kilogram",
+          "Two kilograms",
+          "Five kilograms",
+          "A tenth of a kilogram"
+        ],
+        "answer": 0,
+        "explanation": "1000 g makes 1 kg, so 500 g is half of that — half a kilogram."
+      }
     ]
   },
   "faq": [
-    { "q": "What weight units should a Grade 2 child know?", "a": "Just two standard units: the gram (g) for light things like a biscuit or a pencil, and the kilogram (kg) for heavy things like a bag of atta or a school bag. That, plus knowing 1 kg = 1000 g, is the whole Grade 2 target." },
-    { "q": "What is the difference between a balance and a weighing scale?", "a": "A balance (taraazu) compares two things and tells you which is heavier &mdash; the pan that dips down holds the heavier object. A weighing scale gives an actual number, like 150 g or 2 kg. Children should meet the balance first, then the scale." },
-    { "q": "Does my child need to do gram-to-kilogram conversions in Grade 2?", "a": "Only very simple ones. If they know 1 kg is 1000 g and can see that 2 kg is 2000 g, that is enough. Full conversion practice with tricky numbers belongs to Grade 3 and 4." },
-    { "q": "How do I build a real feel for weight at home?", "a": "Use the estimate-then-check routine. Before weighing an object, have your child guess in grams or kilograms, then put it on the scale and compare. A week of guessing everyday items fixes wild estimates fast." },
-    { "q": "Where can I get printable Grade 2 weight worksheets with answers?", "a": "Our Grade 2 weight and measurement worksheet e-book has graded practice on grams, kilograms, reading a scale and comparing weights, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What weight units should a Grade 2 child know?",
+      "a": "Just two standard units: the gram (g) for light things like a biscuit or a pencil, and the kilogram (kg) for heavy things like a bag of atta or a school bag. That, plus knowing 1 kg = 1000 g, is the whole Grade 2 target."
+    },
+    {
+      "q": "What is the difference between a balance and a weighing scale?",
+      "a": "A balance (taraazu) compares two things and tells you which is heavier &mdash; the pan that dips down holds the heavier object. A weighing scale gives an actual number, like 150 g or 2 kg. Children should meet the balance first, then the scale."
+    },
+    {
+      "q": "Does my child need to do gram-to-kilogram conversions in Grade 2?",
+      "a": "Only very simple ones. If they know 1 kg is 1000 g and can see that 2 kg is 2000 g, that is enough. Full conversion practice with tricky numbers belongs to Grade 3 and 4."
+    },
+    {
+      "q": "How do I build a real feel for weight at home?",
+      "a": "Use the estimate-then-check routine. Before weighing an object, have your child guess in grams or kilograms, then put it on the scale and compare. A week of guessing everyday items fixes wild estimates fast."
+    },
+    {
+      "q": "Where can I get printable Grade 2 weight worksheets with answers?",
+      "a": "Our Grade 2 weight and measurement worksheet e-book has graded practice on grams, kilograms, reading a scale and comparing weights, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

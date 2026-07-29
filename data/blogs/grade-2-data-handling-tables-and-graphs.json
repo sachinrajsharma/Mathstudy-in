@@ -3,7 +3,7 @@
   "title": "Data Handling Grade 2: Tally Tables, Pictographs and Block Graphs + Free Quiz",
   "meta_title": "Data Handling Grade 2: Tables & Graphs + Quiz",
   "meta_desc": "Teach data handling grade 2 the easy way: tally tables, pictographs and block graphs, plus most, least and total questions and a free 8-question quiz.",
-  "excerpt": "A Grade 2 child can already count. Data handling asks them to do something new with the counting &mdash; sort it, record it in a table with tally marks, then read it back off a picture or block graph. Here is how I teach it, plus a quick quiz.",
+  "excerpt": "A Grade 2 child can already count. Data handling asks them to do something new with the counting — sort it, record it in a table with tally marks, then read it back off a picture or block graph. Here is how I teach it, plus a quick quiz.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-data-handling.jpg",
   "cta_product_slug": "grade-2-data-handling-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 data handling: tables, pictographs and block graphs",
     "level": "Grade 2",
     "questions": [
-      { "q": "A tally shows four lines with a fifth line drawn across them. What number is that?", "options": ["4", "5", "6", "10"], "answer": 1, "explanation": "Four lines with the fifth crossing them make a bundle of 5. That is why tally marks are counted in fives." },
-      { "q": "In a fruit survey the tally for apple is 7 and for banana is 5. Which fruit was chosen more?", "options": ["Banana", "Apple", "They are equal", "Cannot tell"], "answer": 1, "explanation": "7 is more than 5, so apple was chosen by more children." },
-      { "q": "Mango has 8 votes and orange has 4. How many more children chose mango?", "options": ["3", "12", "4", "2"], "answer": 2, "explanation": "How many more means subtract: 8 &minus; 4 = 4." },
-      { "q": "A pictograph uses one picture for one child. If banana has 5 pictures, how many children chose banana?", "options": ["1", "10", "50", "5"], "answer": 3, "explanation": "One picture stands for one child, so 5 pictures means 5 children." },
-      { "q": "On a block graph, which column tells you the favourite?", "options": ["The tallest column", "The shortest column", "The first column", "The middle column"], "answer": 0, "explanation": "The tallest column has the most blocks, so it shows the favourite (the most chosen)." },
-      { "q": "A block graph has columns of 7, 5, 8 and 4 squares. What is the total number surveyed?", "options": ["20", "24", "8", "19"], "answer": 1, "explanation": "Add every column: 7 + 5 + 8 + 4 = 24." },
-      { "q": "Which is the LEAST liked fruit if apple is 7, banana is 5, mango is 8 and orange is 4?", "options": ["Mango", "Apple", "Banana", "Orange"], "answer": 3, "explanation": "The smallest number is 4, which is orange, so orange is the least liked." },
-      { "q": "Why do we sort objects before we count them for a table?", "options": ["To make the pile look neat only", "So it is easy to count and compare each group", "Because counting is not allowed", "To hide some objects"], "answer": 1, "explanation": "Sorting into groups first means each group is easy to count and the groups are easy to compare." }
+      {
+        "q": "A tally shows four lines with a fifth line drawn across them. What number is that?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Four lines with the fifth crossing them make a bundle of 5. That is why tally marks are counted in fives."
+      },
+      {
+        "q": "In a fruit survey the tally for apple is 7 and for banana is 5. Which fruit was chosen more?",
+        "options": [
+          "Banana",
+          "Apple",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "7 is more than 5, so apple was chosen by more children."
+      },
+      {
+        "q": "Mango has 8 votes and orange has 4. How many more children chose mango?",
+        "options": [
+          "3",
+          "12",
+          "4",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "How many more means subtract: 8 − 4 = 4."
+      },
+      {
+        "q": "A pictograph uses one picture for one child. If banana has 5 pictures, how many children chose banana?",
+        "options": [
+          "1",
+          "10",
+          "50",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "One picture stands for one child, so 5 pictures means 5 children."
+      },
+      {
+        "q": "On a block graph, which column tells you the favourite?",
+        "options": [
+          "The tallest column",
+          "The shortest column",
+          "The first column",
+          "The middle column"
+        ],
+        "answer": 0,
+        "explanation": "The tallest column has the most blocks, so it shows the favourite (the most chosen)."
+      },
+      {
+        "q": "A block graph has columns of 7, 5, 8 and 4 squares. What is the total number surveyed?",
+        "options": [
+          "20",
+          "24",
+          "8",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "Add every column: 7 + 5 + 8 + 4 = 24."
+      },
+      {
+        "q": "Which is the LEAST liked fruit if apple is 7, banana is 5, mango is 8 and orange is 4?",
+        "options": [
+          "Mango",
+          "Apple",
+          "Banana",
+          "Orange"
+        ],
+        "answer": 3,
+        "explanation": "The smallest number is 4, which is orange, so orange is the least liked."
+      },
+      {
+        "q": "Why do we sort objects before we count them for a table?",
+        "options": [
+          "To make the pile look neat only",
+          "So it is easy to count and compare each group",
+          "Because counting is not allowed",
+          "To hide some objects"
+        ],
+        "answer": 1,
+        "explanation": "Sorting into groups first means each group is easy to count and the groups are easy to compare."
+      }
     ]
   },
   "faq": [
-    { "q": "What is data handling in Grade 2?", "a": "It is collecting information, sorting it into groups, recording it in a table with tally marks, and then reading it back from a pictograph or a simple block graph to answer questions like most, least and total." },
-    { "q": "How is Grade 2 data handling different from Grade 1?", "a": "Grade 1 mostly reads a pictograph where one picture means one thing. Grade 2 adds recording data in a tally and frequency table and reading a simple block or bar graph, plus &lsquo;how many more&rsquo; and total questions." },
-    { "q": "Why teach tally marks instead of just writing numbers?", "a": "Tally marks let a child record each item the moment they see it, without losing count, and the bundle-of-five means they can total in fives &mdash; faster and far less error-prone than counting single marks." },
-    { "q": "Which question do Grade 2 children find hardest?", "a": "The &lsquo;how many more&rsquo; question, because it needs a subtraction step after reading two values. Ask the child to point to both numbers first, then subtract the smaller from the bigger." },
-    { "q": "Where can I get printable Grade 2 data handling worksheets with answers?", "a": "Our Grade 2 data handling worksheet e-book has graded practice on tally tables, pictographs and block graphs, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What is data handling in Grade 2?",
+      "a": "It is collecting information, sorting it into groups, recording it in a table with tally marks, and then reading it back from a pictograph or a simple block graph to answer questions like most, least and total."
+    },
+    {
+      "q": "How is Grade 2 data handling different from Grade 1?",
+      "a": "Grade 1 mostly reads a pictograph where one picture means one thing. Grade 2 adds recording data in a tally and frequency table and reading a simple block or bar graph, plus &lsquo;how many more&rsquo; and total questions."
+    },
+    {
+      "q": "Why teach tally marks instead of just writing numbers?",
+      "a": "Tally marks let a child record each item the moment they see it, without losing count, and the bundle-of-five means they can total in fives &mdash; faster and far less error-prone than counting single marks."
+    },
+    {
+      "q": "Which question do Grade 2 children find hardest?",
+      "a": "The &lsquo;how many more&rsquo; question, because it needs a subtraction step after reading two values. Ask the child to point to both numbers first, then subtract the smaller from the bigger."
+    },
+    {
+      "q": "Where can I get printable Grade 2 data handling worksheets with answers?",
+      "a": "Our Grade 2 data handling worksheet e-book has graded practice on tally tables, pictographs and block graphs, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

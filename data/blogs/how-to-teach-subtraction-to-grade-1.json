@@ -16,21 +16,116 @@
     "about": "Grade 1 subtraction within 20",
     "level": "Grade 1",
     "questions": [
-      { "q": "There are 8 birds. 3 fly away. How many are left?", "options": ["4", "5", "6", "3"], "answer": 1, "explanation": "This is take-away. Count back from 8 three hops: 7, 6, 5. So 8 &minus; 3 = 5." },
-      { "q": "Riya has 9 stickers and Aman has 5. How many more does Riya have?", "options": ["3", "5", "4", "2"], "answer": 2, "explanation": "This is finding the difference. Count up from 5 to 9: 6, 7, 8, 9 &mdash; that is 4 hops. So 9 &minus; 5 = 4." },
-      { "q": "What is 12 &minus; 9?", "options": ["3", "4", "2", "5"], "answer": 0, "explanation": "The numbers are close, so count up from 9 to 12: 10, 11, 12 &mdash; three hops. 12 &minus; 9 = 3." },
-      { "q": "There are 10 pencils in a box. 6 are on the desk. How many are still in the box?", "options": ["5", "3", "6", "4"], "answer": 3, "explanation": "This is a missing part. Six and what makes ten? 6 + 4 = 10, so 10 &minus; 6 = 4." },
-      { "q": "Which addition helps you solve 10 &minus; 7?", "options": ["7 + 3 = 10", "10 + 7 = 17", "5 + 5 = 10", "7 + 7 = 14"], "answer": 0, "explanation": "10, 7 and 3 are a fact family. Because 7 + 3 = 10, you know 10 &minus; 7 = 3." },
-      { "q": "What is 11 &minus; 2?", "options": ["8", "10", "9", "7"], "answer": 2, "explanation": "You are taking away a small number, so count back from 11 two hops: 10, 9. So 11 &minus; 2 = 9." },
-      { "q": "Fill the missing number: 6 + __ = 10", "options": ["3", "5", "2", "4"], "answer": 3, "explanation": "This is subtraction in disguise. Six needs 4 more to reach 10, so the missing number is 4." },
-      { "q": "A basket had 15 mangoes. The family ate 5. How many are left?", "options": ["9", "11", "10", "8"], "answer": 2, "explanation": "Take away 5 from 15. Count back or use the bond: 15 &minus; 5 = 10." }
+      {
+        "q": "There are 8 birds. 3 fly away. How many are left?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "This is take-away. Count back from 8 three hops: 7, 6, 5. So 8 − 3 = 5."
+      },
+      {
+        "q": "Riya has 9 stickers and Aman has 5. How many more does Riya have?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "This is finding the difference. Count up from 5 to 9: 6, 7, 8, 9 — that is 4 hops. So 9 − 5 = 4."
+      },
+      {
+        "q": "What is 12 − 9?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The numbers are close, so count up from 9 to 12: 10, 11, 12 — three hops. 12 − 9 = 3."
+      },
+      {
+        "q": "There are 10 pencils in a box. 6 are on the desk. How many are still in the box?",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "This is a missing part. Six and what makes ten? 6 + 4 = 10, so 10 − 6 = 4."
+      },
+      {
+        "q": "Which addition helps you solve 10 − 7?",
+        "options": [
+          "7 + 3 = 10",
+          "10 + 7 = 17",
+          "5 + 5 = 10",
+          "7 + 7 = 14"
+        ],
+        "answer": 0,
+        "explanation": "10, 7 and 3 are a fact family. Because 7 + 3 = 10, you know 10 − 7 = 3."
+      },
+      {
+        "q": "What is 11 − 2?",
+        "options": [
+          "8",
+          "10",
+          "9",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "You are taking away a small number, so count back from 11 two hops: 10, 9. So 11 − 2 = 9."
+      },
+      {
+        "q": "Fill the missing number: 6 + __ = 10",
+        "options": [
+          "3",
+          "5",
+          "2",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "This is subtraction in disguise. Six needs 4 more to reach 10, so the missing number is 4."
+      },
+      {
+        "q": "A basket had 15 mangoes. The family ate 5. How many are left?",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Take away 5 from 15. Count back or use the bond: 15 − 5 = 10."
+      }
     ]
   },
   "faq": [
-    { "q": "Which meaning of subtraction should I teach first?", "a": "Start with take-away because it is the most physical &mdash; things actually leave. But move to finding the difference and missing parts within a few weeks, or your child will only recognise subtraction when something is being removed." },
-    { "q": "My child can do 8 &minus; 3 but freezes on 'how many more'. Why?", "a": "Because 'how many more' compares two amounts rather than removing any, so it does not feel like subtraction to a child taught only take-away. Line up two rows of counters and let them see the extra bit &mdash; that gap is the answer." },
-    { "q": "When should I use counting back versus counting up?", "a": "Count back when you subtract a small number, like 11 &minus; 2. Count up when the two numbers are close, like 12 &minus; 9 &mdash; hopping up from 9 to 12 is far quicker than hopping back nine times." },
-    { "q": "Do I have to teach subtraction separately from addition?", "a": "No, and I would not. Teach fact families instead: if a child knows 6 + 4 = 10, they already know 10 &minus; 6 and 10 &minus; 4. Subtraction becomes the flip side of addition they already own." },
-    { "q": "Where can I get printable Grade 1 subtraction worksheets with answers?", "a": "Our Grade 1 basic subtraction worksheet e-book has graded practice across take-away, difference and missing-part questions, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Which meaning of subtraction should I teach first?",
+      "a": "Start with take-away because it is the most physical &mdash; things actually leave. But move to finding the difference and missing parts within a few weeks, or your child will only recognise subtraction when something is being removed."
+    },
+    {
+      "q": "My child can do 8 − 3 but freezes on 'how many more'. Why?",
+      "a": "Because 'how many more' compares two amounts rather than removing any, so it does not feel like subtraction to a child taught only take-away. Line up two rows of counters and let them see the extra bit &mdash; that gap is the answer."
+    },
+    {
+      "q": "When should I use counting back versus counting up?",
+      "a": "Count back when you subtract a small number, like 11 &minus; 2. Count up when the two numbers are close, like 12 &minus; 9 &mdash; hopping up from 9 to 12 is far quicker than hopping back nine times."
+    },
+    {
+      "q": "Do I have to teach subtraction separately from addition?",
+      "a": "No, and I would not. Teach fact families instead: if a child knows 6 + 4 = 10, they already know 10 &minus; 6 and 10 &minus; 4. Subtraction becomes the flip side of addition they already own."
+    },
+    {
+      "q": "Where can I get printable Grade 1 subtraction worksheets with answers?",
+      "a": "Our Grade 1 basic subtraction worksheet e-book has graded practice across take-away, difference and missing-part questions, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

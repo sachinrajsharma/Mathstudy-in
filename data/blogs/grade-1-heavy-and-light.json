@@ -13,24 +13,119 @@
   "quiz": {
     "title": "Grade 1 Heavy and Light Quiz",
     "intro": "Eight quick questions on comparing weight, reading a balance and ordering objects. Pick an answer for each, then press Check my score.",
-    "about": "Grade 1 heavy and light &mdash; comparing weight",
+    "about": "Grade 1 heavy and light — comparing weight",
     "level": "Grade 1",
     "questions": [
-      { "q": "You hold a mango in one hand and a cotton ball in the other. Which hand goes down?", "options": ["The cotton ball hand", "The mango hand", "Neither hand moves", "Both go down the same"], "answer": 1, "explanation": "The heavier object pulls the hand down. A mango is much heavier than a cotton ball, so the mango hand sinks." },
-      { "q": "On a balance, one pan goes down and the other goes up. Which object is heavier?", "options": ["The one in the pan that went up", "The one in the pan that went down", "They weigh the same", "You cannot tell"], "answer": 1, "explanation": "The pan that goes down holds the heavier object. Down means heavier, up means lighter." },
-      { "q": "A big balloon and a small stone are placed on a balance. Which side goes down?", "options": ["The stone side", "The balloon side", "Both stay level", "The bigger side always goes down"], "answer": 0, "explanation": "Big is not always heavy. The small stone is heavier than the large balloon, so the stone side goes down." },
-      { "q": "Both pans of a balance sit perfectly level. What does that tell you?", "options": ["The left one is heavier", "The right one is heavier", "The two objects weigh the same", "One pan is broken"], "answer": 2, "explanation": "When the pans are level, neither object pulls harder, so they weigh the same." },
-      { "q": "A pencil box balances exactly against 8 marbles. A book balances against 15 of the same marbles. Which is heavier?", "options": ["The pencil box", "They weigh the same", "The book", "You need a real scale to know"], "answer": 2, "explanation": "More marbles means heavier. 15 marbles is more than 8, so the book is heavier than the pencil box." },
-      { "q": "Put these in order from lightest to heaviest: a grape, a mango, an apple.", "options": ["Mango, apple, grape", "Grape, apple, mango", "Apple, grape, mango", "Grape, mango, apple"], "answer": 1, "explanation": "A grape is lightest, a mango is heaviest, and the apple sits in between: grape, apple, mango." },
-      { "q": "Which one is the LIGHTEST?", "options": ["A full water bottle", "A feather", "A shoe", "An atta packet"], "answer": 1, "explanation": "A feather barely pushes your hand down at all, so it is the lightest of the four." },
-      { "q": "An empty box looks bigger than a small full water bottle. Which is heavier?", "options": ["The empty box, because it is bigger", "They must weigh the same", "The water bottle", "You cannot compare them"], "answer": 2, "explanation": "Size is not weight. The empty box is light even though it is big, and the full water bottle is heavier." }
+      {
+        "q": "You hold a mango in one hand and a cotton ball in the other. Which hand goes down?",
+        "options": [
+          "The cotton ball hand",
+          "The mango hand",
+          "Neither hand moves",
+          "Both go down the same"
+        ],
+        "answer": 1,
+        "explanation": "The heavier object pulls the hand down. A mango is much heavier than a cotton ball, so the mango hand sinks."
+      },
+      {
+        "q": "On a balance, one pan goes down and the other goes up. Which object is heavier?",
+        "options": [
+          "The one in the pan that went up",
+          "The one in the pan that went down",
+          "They weigh the same",
+          "You cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "The pan that goes down holds the heavier object. Down means heavier, up means lighter."
+      },
+      {
+        "q": "A big balloon and a small stone are placed on a balance. Which side goes down?",
+        "options": [
+          "The stone side",
+          "The balloon side",
+          "Both stay level",
+          "The bigger side always goes down"
+        ],
+        "answer": 0,
+        "explanation": "Big is not always heavy. The small stone is heavier than the large balloon, so the stone side goes down."
+      },
+      {
+        "q": "Both pans of a balance sit perfectly level. What does that tell you?",
+        "options": [
+          "The left one is heavier",
+          "The right one is heavier",
+          "The two objects weigh the same",
+          "One pan is broken"
+        ],
+        "answer": 2,
+        "explanation": "When the pans are level, neither object pulls harder, so they weigh the same."
+      },
+      {
+        "q": "A pencil box balances exactly against 8 marbles. A book balances against 15 of the same marbles. Which is heavier?",
+        "options": [
+          "The pencil box",
+          "They weigh the same",
+          "The book",
+          "You need a real scale to know"
+        ],
+        "answer": 2,
+        "explanation": "More marbles means heavier. 15 marbles is more than 8, so the book is heavier than the pencil box."
+      },
+      {
+        "q": "Put these in order from lightest to heaviest: a grape, a mango, an apple.",
+        "options": [
+          "Mango, apple, grape",
+          "Grape, apple, mango",
+          "Apple, grape, mango",
+          "Grape, mango, apple"
+        ],
+        "answer": 1,
+        "explanation": "A grape is lightest, a mango is heaviest, and the apple sits in between: grape, apple, mango."
+      },
+      {
+        "q": "Which one is the LIGHTEST?",
+        "options": [
+          "A full water bottle",
+          "A feather",
+          "A shoe",
+          "An atta packet"
+        ],
+        "answer": 1,
+        "explanation": "A feather barely pushes your hand down at all, so it is the lightest of the four."
+      },
+      {
+        "q": "An empty box looks bigger than a small full water bottle. Which is heavier?",
+        "options": [
+          "The empty box, because it is bigger",
+          "They must weigh the same",
+          "The water bottle",
+          "You cannot compare them"
+        ],
+        "answer": 2,
+        "explanation": "Size is not weight. The empty box is light even though it is big, and the full water bottle is heavier."
+      }
     ]
   },
   "faq": [
-    { "q": "How do I explain heavy and light to a Grade 1 child?", "a": "Give them one object in each hand and ask which hand goes down. The hand that sinks holds the heavier thing. Comparing by feel, with words like <em>heavier</em> and <em>lighter</em>, teaches weight far better than any definition at this age." },
-    { "q": "Should I use a real weighing scale in Grade 1?", "a": "Not yet. A simple balance &mdash; a taraazu, or even a ruler on a pencil &mdash; teaches which object is heavier without any numbers. Grams and kilograms come in Grade 2 and 3, once the child already understands what weighing means." },
-    { "q": "My child thinks the bigger object is always heavier. How do I fix that?", "a": "Show them the exceptions on purpose. Let them hold a big balloon and a small stone, or a puffy cotton ball and a coin. Feeling the smaller object win the tug is the surprise that breaks the size-equals-weight idea." },
-    { "q": "What are non-standard units for weight?", "a": "They are everyday objects used to measure, like marbles or bottle caps. If a pencil box balances against 8 identical marbles, it weighs the same as 8 marbles. This is how measurement should begin &mdash; counting weight in things before using grams." },
-    { "q": "Where can I get printable Grade 1 weight worksheets with answers?", "a": "Our Grade 1 weight worksheet e-book has graded practice on heavier and lighter, reading a balance, and ordering objects, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "How do I explain heavy and light to a Grade 1 child?",
+      "a": "Give them one object in each hand and ask which hand goes down. The hand that sinks holds the heavier thing. Comparing by feel, with words like <em>heavier</em> and <em>lighter</em>, teaches weight far better than any definition at this age."
+    },
+    {
+      "q": "Should I use a real weighing scale in Grade 1?",
+      "a": "Not yet. A simple balance &mdash; a taraazu, or even a ruler on a pencil &mdash; teaches which object is heavier without any numbers. Grams and kilograms come in Grade 2 and 3, once the child already understands what weighing means."
+    },
+    {
+      "q": "My child thinks the bigger object is always heavier. How do I fix that?",
+      "a": "Show them the exceptions on purpose. Let them hold a big balloon and a small stone, or a puffy cotton ball and a coin. Feeling the smaller object win the tug is the surprise that breaks the size-equals-weight idea."
+    },
+    {
+      "q": "What are non-standard units for weight?",
+      "a": "They are everyday objects used to measure, like marbles or bottle caps. If a pencil box balances against 8 identical marbles, it weighs the same as 8 marbles. This is how measurement should begin &mdash; counting weight in things before using grams."
+    },
+    {
+      "q": "Where can I get printable Grade 1 weight worksheets with answers?",
+      "a": "Our Grade 1 weight worksheet e-book has graded practice on heavier and lighter, reading a balance, and ordering objects, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

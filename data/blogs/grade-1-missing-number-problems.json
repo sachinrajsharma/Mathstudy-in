@@ -3,7 +3,7 @@
   "title": "Missing Number Problems for Grade 1: A First Taste of Algebra + Free Quiz",
   "meta_title": "Missing Number Problems Grade 1 + Free Quiz",
   "meta_desc": "Teach missing number problems for Grade 1: the box as an unknown, the balance idea and fact families, with a free 8-question quiz and printable practice.",
-  "excerpt": "A blank in 7 + __ = 10 is a child&rsquo;s first algebra problem, whether anyone calls it that or not. Here is how I teach missing-number thinking so it builds real number sense, plus a quick quiz to test it.",
+  "excerpt": "A blank in 7 + __ = 10 is a child’s first algebra problem, whether anyone calls it that or not. Here is how I teach missing-number thinking so it builds real number sense, plus a quick quiz to test it.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-intro-algebraic-thinking.jpg",
   "cta_product_slug": "grade-1-algebraic-thinking-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 missing number problems within 20",
     "level": "Grade 1",
     "questions": [
-      { "q": "Find the missing number: 7 + __ = 10", "options": ["2", "3", "4", "17"], "answer": 1, "explanation": "Count on from 7 to 10, or use the bond to ten: 7 needs 3 more. The box is 3." },
-      { "q": "Find the missing number: __ &minus; 3 = 5", "options": ["2", "15", "8", "6"], "answer": 2, "explanation": "Think addition to subtract: add back, 5 + 3 = 8. The whole was 8." },
-      { "q": "Find the missing number: 6 + 2 = __ + 4", "options": ["4", "8", "12", "2"], "answer": 0, "explanation": "Balance the see-saw. The left pan is 8. The right already has 4, so the box adds 4 more to match." },
-      { "q": "Find the missing number: 9 &minus; __ = 4", "options": ["13", "6", "3", "5"], "answer": 3, "explanation": "Ask: 9 take away what leaves 4? The gap from 4 up to 9 is 5, so the box is 5." },
-      { "q": "Find the missing number: __ + 5 = 12", "options": ["7", "6", "8", "17"], "answer": 0, "explanation": "What adds to 5 to make 12? Count on from 5 to 12, that is 7. The box is 7." },
-      { "q": "The box is hiding a number. What does the box mean in 4 + __ = 9?", "options": ["Any number you like", "The one number that makes it true", "Always zero", "The bigger number"], "answer": 1, "explanation": "The box stands for the single number that makes both sides equal. Here that number is 5." },
-      { "q": "Which fact helps you solve 8 &minus; __ = 3 fastest?", "options": ["8 + 3 = 11", "3 + 5 = 8", "8 + 8 = 16", "3 + 3 = 6"], "answer": 1, "explanation": "The family for 3, 5 and 8 gives 3 + 5 = 8, so 8 take away 5 leaves 3. The box is 5." },
-      { "q": "Find the missing number: 10 = 6 + __", "options": ["16", "5", "4", "3"], "answer": 2, "explanation": "The equals sign balances both sides even when the total is on the left. 6 needs 4 more to make 10." }
+      {
+        "q": "Find the missing number: 7 + __ = 10",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "Count on from 7 to 10, or use the bond to ten: 7 needs 3 more. The box is 3."
+      },
+      {
+        "q": "Find the missing number: __ − 3 = 5",
+        "options": [
+          "2",
+          "15",
+          "8",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Think addition to subtract: add back, 5 + 3 = 8. The whole was 8."
+      },
+      {
+        "q": "Find the missing number: 6 + 2 = __ + 4",
+        "options": [
+          "4",
+          "8",
+          "12",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Balance the see-saw. The left pan is 8. The right already has 4, so the box adds 4 more to match."
+      },
+      {
+        "q": "Find the missing number: 9 − __ = 4",
+        "options": [
+          "13",
+          "6",
+          "3",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Ask: 9 take away what leaves 4? The gap from 4 up to 9 is 5, so the box is 5."
+      },
+      {
+        "q": "Find the missing number: __ + 5 = 12",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "17"
+        ],
+        "answer": 0,
+        "explanation": "What adds to 5 to make 12? Count on from 5 to 12, that is 7. The box is 7."
+      },
+      {
+        "q": "The box is hiding a number. What does the box mean in 4 + __ = 9?",
+        "options": [
+          "Any number you like",
+          "The one number that makes it true",
+          "Always zero",
+          "The bigger number"
+        ],
+        "answer": 1,
+        "explanation": "The box stands for the single number that makes both sides equal. Here that number is 5."
+      },
+      {
+        "q": "Which fact helps you solve 8 − __ = 3 fastest?",
+        "options": [
+          "8 + 3 = 11",
+          "3 + 5 = 8",
+          "8 + 8 = 16",
+          "3 + 3 = 6"
+        ],
+        "answer": 1,
+        "explanation": "The family for 3, 5 and 8 gives 3 + 5 = 8, so 8 take away 5 leaves 3. The box is 5."
+      },
+      {
+        "q": "Find the missing number: 10 = 6 + __",
+        "options": [
+          "16",
+          "5",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "The equals sign balances both sides even when the total is on the left. 6 needs 4 more to make 10."
+      }
     ]
   },
   "faq": [
-    { "q": "Are missing number problems really algebra for a six-year-old?", "a": "Yes, in the truest sense. Finding the value that makes 7 + __ = 10 true is the same reasoning as solving 7 + x = 10, minus the letter. Grade 1 children handle the idea comfortably when the numbers stay within 20." },
-    { "q": "Why does my child write 8 in 6 + 2 = __ + 4?", "a": "Because they read the equals sign as &lsquo;the answer comes next&rsquo; rather than &lsquo;both sides must match&rsquo;. Teach = as a see-saw or <em>taraazu</em> that has to balance, and the error usually fixes itself within a couple of weeks." },
-    { "q": "How do I teach subtraction missing numbers like __ &minus; 3 = 5?", "a": "Use think-addition-to-subtract: add the two known numbers back together. 5 + 3 = 8, so the box is 8. Fact families make this automatic, which is why they are worth drilling more than isolated sums." },
-    { "q": "Should the numbers stay small?", "a": "Keep everything within 20 in Grade 1. The point is the backwards reasoning, not big arithmetic. Larger numbers just add memory load and hide whether the child actually understands the missing-number idea." },
-    { "q": "Where can I get printable Grade 1 missing number worksheets with answers?", "a": "Our Grade 1 algebraic thinking worksheet e-book has graded missing-number practice across addition, subtraction and both-sides balance, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Are missing number problems really algebra for a six-year-old?",
+      "a": "Yes, in the truest sense. Finding the value that makes 7 + __ = 10 true is the same reasoning as solving 7 + x = 10, minus the letter. Grade 1 children handle the idea comfortably when the numbers stay within 20."
+    },
+    {
+      "q": "Why does my child write 8 in 6 + 2 = __ + 4?",
+      "a": "Because they read the equals sign as &lsquo;the answer comes next&rsquo; rather than &lsquo;both sides must match&rsquo;. Teach = as a see-saw or <em>taraazu</em> that has to balance, and the error usually fixes itself within a couple of weeks."
+    },
+    {
+      "q": "How do I teach subtraction missing numbers like __ − 3 = 5?",
+      "a": "Use think-addition-to-subtract: add the two known numbers back together. 5 + 3 = 8, so the box is 8. Fact families make this automatic, which is why they are worth drilling more than isolated sums."
+    },
+    {
+      "q": "Should the numbers stay small?",
+      "a": "Keep everything within 20 in Grade 1. The point is the backwards reasoning, not big arithmetic. Larger numbers just add memory load and hide whether the child actually understands the missing-number idea."
+    },
+    {
+      "q": "Where can I get printable Grade 1 missing number worksheets with answers?",
+      "a": "Our Grade 1 algebraic thinking worksheet e-book has graded missing-number practice across addition, subtraction and both-sides balance, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

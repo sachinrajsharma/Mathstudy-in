@@ -3,7 +3,7 @@
   "title": "Missing Number Sums for Grade 2: Early Algebra Made Simple + Free Quiz",
   "meta_title": "Missing Number Sums Grade 2 + Free Quiz",
   "meta_desc": "Teach missing number sums to Grade 2 the easy way: balance the equals sign, use inverse operations, and crack pattern rules. Free 8-question quiz inside.",
-  "excerpt": "A blank in a sum is a child&rsquo;s first taste of algebra. Here is how I teach Grade 2 to solve 7 + _ = 12 by balancing both sides and working backwards, plus a quick quiz to test it.",
+  "excerpt": "A blank in a sum is a child’s first taste of algebra. Here is how I teach Grade 2 to solve 7 + _ = 12 by balancing both sides and working backwards, plus a quick quiz to test it.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-algebraic-thinking.jpg",
   "cta_product_slug": "grade-2-algebraic-thinking-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 early algebra: missing numbers, balance and patterns",
     "level": "Grade 2",
     "questions": [
-      { "q": "What number goes in the blank? 7 + _ = 12", "options": ["19", "5", "6", "4"], "answer": 1, "explanation": "The two sides must balance. Count up from 7 to 12, or do the inverse: 12 &minus; 7 = 5." },
-      { "q": "Find the missing number: _ &minus; 4 = 5", "options": ["1", "20", "9", "8"], "answer": 2, "explanation": "To find the start, do the opposite of subtracting: add it back. 5 + 4 = 9." },
-      { "q": "Which sentence is TRUE?", "options": ["6 + 4 = 11", "10 = 6 + 4", "6 + 4 = 9", "6 = 4 + 10"], "answer": 1, "explanation": "The equals sign means both sides weigh the same. 10 really does equal 6 + 4, even with the total on the left." },
-      { "q": "What is the missing number? _ + 6 = 15", "options": ["21", "8", "9", "10"], "answer": 2, "explanation": "Turn it around using the inverse: 15 &minus; 6 = 9." },
-      { "q": "A machine turns 2 into 5, 3 into 6, and 10 into 13. What is its rule?", "options": ["Add 3", "Add 2", "Times 2", "Add 5"], "answer": 0, "explanation": "Every input goes up by 3: 2&rarr;5, 3&rarr;6, 10&rarr;13. The rule is add 3." },
-      { "q": "Find the missing number: 13 &minus; _ = 8", "options": ["21", "6", "4", "5"], "answer": 3, "explanation": "Find the gap between 13 and 8: 13 &minus; 8 = 5. Here the inverse is a subtraction, not an addition." },
-      { "q": "What comes next in the pattern? 2, 4, 6, 8, _", "options": ["9", "10", "12", "16"], "answer": 1, "explanation": "The rule is add 2 each step, so after 8 comes 10." },
-      { "q": "If 5 + 4 = 9 is true, which sentence is also true?", "options": ["9 &minus; 4 = 5", "9 + 4 = 5", "5 &minus; 4 = 9", "9 &minus; 5 = 3"], "answer": 0, "explanation": "Subtraction undoes addition. Since 5 + 4 = 9, taking 4 back gives 9 &minus; 4 = 5." }
+      {
+        "q": "What number goes in the blank? 7 + _ = 12",
+        "options": [
+          "19",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The two sides must balance. Count up from 7 to 12, or do the inverse: 12 − 7 = 5."
+      },
+      {
+        "q": "Find the missing number: _ − 4 = 5",
+        "options": [
+          "1",
+          "20",
+          "9",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "To find the start, do the opposite of subtracting: add it back. 5 + 4 = 9."
+      },
+      {
+        "q": "Which sentence is TRUE?",
+        "options": [
+          "6 + 4 = 11",
+          "10 = 6 + 4",
+          "6 + 4 = 9",
+          "6 = 4 + 10"
+        ],
+        "answer": 1,
+        "explanation": "The equals sign means both sides weigh the same. 10 really does equal 6 + 4, even with the total on the left."
+      },
+      {
+        "q": "What is the missing number? _ + 6 = 15",
+        "options": [
+          "21",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "Turn it around using the inverse: 15 − 6 = 9."
+      },
+      {
+        "q": "A machine turns 2 into 5, 3 into 6, and 10 into 13. What is its rule?",
+        "options": [
+          "Add 3",
+          "Add 2",
+          "Times 2",
+          "Add 5"
+        ],
+        "answer": 0,
+        "explanation": "Every input goes up by 3: 2→5, 3→6, 10→13. The rule is add 3."
+      },
+      {
+        "q": "Find the missing number: 13 − _ = 8",
+        "options": [
+          "21",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Find the gap between 13 and 8: 13 − 8 = 5. Here the inverse is a subtraction, not an addition."
+      },
+      {
+        "q": "What comes next in the pattern? 2, 4, 6, 8, _",
+        "options": [
+          "9",
+          "10",
+          "12",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "The rule is add 2 each step, so after 8 comes 10."
+      },
+      {
+        "q": "If 5 + 4 = 9 is true, which sentence is also true?",
+        "options": [
+          "9 − 4 = 5",
+          "9 + 4 = 5",
+          "5 − 4 = 9",
+          "9 − 5 = 3"
+        ],
+        "answer": 0,
+        "explanation": "Subtraction undoes addition. Since 5 + 4 = 9, taking 4 back gives 9 − 4 = 5."
+      }
     ]
   },
   "faq": [
-    { "q": "Is algebra really taught in Grade 2?", "a": "Not with letters like x, but yes in spirit. Missing number sums such as 7 + _ = 12, balancing both sides of the equals sign, and finding the rule of a pattern are all early algebraic thinking, and they build directly toward formal algebra later." },
-    { "q": "Why does my child add both numbers when the blank is on the right?", "a": "Because they read the equals sign as &lsquo;write the answer&rsquo;. Re-teach it as a balance &mdash; both sides must weigh the same &mdash; using a pan balance or true-or-false sentences like &lsquo;10 = 6 + 4&rsquo;. That single shift usually fixes it." },
-    { "q": "What is the inverse operation and why does it help?", "a": "Subtraction undoes addition, and addition undoes subtraction. So 7 + _ = 12 becomes 12 &minus; 7 = 5. Turning a missing-number sum around into its inverse is the most reliable method for a Grade 2 child." },
-    { "q": "What is a function machine?", "a": "A little box that takes a number in and gives a number out by a hidden rule &mdash; feed it 2 and get 5, feed it 3 and get 6. The child works out the rule (add 3) that works for every number, which is genuine algebraic reasoning." },
-    { "q": "Where can I get printable missing number worksheets for Grade 2?", "a": "Our Grade 2 algebraic thinking worksheet e-book has graded missing-number sums, balance questions and pattern rules, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Is algebra really taught in Grade 2?",
+      "a": "Not with letters like x, but yes in spirit. Missing number sums such as 7 + _ = 12, balancing both sides of the equals sign, and finding the rule of a pattern are all early algebraic thinking, and they build directly toward formal algebra later."
+    },
+    {
+      "q": "Why does my child add both numbers when the blank is on the right?",
+      "a": "Because they read the equals sign as &lsquo;write the answer&rsquo;. Re-teach it as a balance &mdash; both sides must weigh the same &mdash; using a pan balance or true-or-false sentences like &lsquo;10 = 6 + 4&rsquo;. That single shift usually fixes it."
+    },
+    {
+      "q": "What is the inverse operation and why does it help?",
+      "a": "Subtraction undoes addition, and addition undoes subtraction. So 7 + _ = 12 becomes 12 &minus; 7 = 5. Turning a missing-number sum around into its inverse is the most reliable method for a Grade 2 child."
+    },
+    {
+      "q": "What is a function machine?",
+      "a": "A little box that takes a number in and gives a number out by a hidden rule &mdash; feed it 2 and get 5, feed it 3 and get 6. The child works out the rule (add 3) that works for every number, which is genuine algebraic reasoning."
+    },
+    {
+      "q": "Where can I get printable missing number worksheets for Grade 2?",
+      "a": "Our Grade 2 algebraic thinking worksheet e-book has graded missing-number sums, balance questions and pattern rules, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

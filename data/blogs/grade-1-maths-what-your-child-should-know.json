@@ -3,7 +3,7 @@
   "title": "Grade 1 Maths: What Your Child Should Know by Year End + Free Quiz",
   "meta_title": "Grade 1 Maths Syllabus: What Your Child Should Know",
   "meta_desc": "A parent's guide to the whole Grade 1 maths syllabus, what mastery looks like in each strand, red flags to watch, and a free readiness quiz for your child.",
-  "excerpt": "Numbers to 100, sums within 20, shapes, time to the hour, coins. Here is the full map of Grade 1 maths, what &lsquo;mastered&rsquo; actually looks like for each part, and the one warning sign to catch early.",
+  "excerpt": "Numbers to 100, sums within 20, shapes, time to the hour, coins. Here is the full map of Grade 1 maths, what ‘mastered’ actually looks like for each part, and the one warning sign to catch early.",
   "category": "Grade 1",
   "cover_image": "https://mathstudy.in/wp-content/uploads/mathematics-workbook-for-class-1.jpg",
   "cta_product_slug": "best-math-workbook-for-1st-grade-printable-worksheets",
@@ -16,21 +16,116 @@
     "about": "A mixed Grade 1 maths readiness check",
     "level": "Grade 1",
     "questions": [
-      { "q": "What number comes just after 68?", "options": ["67", "70", "69", "78"], "answer": 2, "explanation": "Counting on from 68 gives the next number, 69." },
-      { "q": "How many tens and ones are in 34?", "options": ["3 tens and 4 ones", "4 tens and 3 ones", "34 ones only", "30 tens and 4 ones"], "answer": 0, "explanation": "The 3 stands for 3 tens (30) and the 4 stands for 4 ones, so 30 + 4 = 34." },
-      { "q": "What is 8 + 5?", "options": ["12", "14", "15", "13"], "answer": 3, "explanation": "Make ten: take 2 from the 5 to turn 8 into 10, then add the leftover 3. 10 + 3 = 13." },
-      { "q": "Which shape is round with no corners?", "options": ["Circle", "Square", "Triangle", "Rectangle"], "answer": 0, "explanation": "A circle is perfectly round and has no corners or straight sides." },
-      { "q": "The short hand points to 7 and the long hand points to 12. What is the time?", "options": ["12 o&rsquo;clock", "7 o&rsquo;clock", "Half past 7", "7 minutes past 12"], "answer": 1, "explanation": "At o&rsquo;clock the long hand is on 12; the short hand shows the hour, which is 7. So it is 7 o&rsquo;clock." },
-      { "q": "Which is worth the most?", "options": ["One &#8377;1 coin", "Two &#8377;1 coins", "One &#8377;5 coin", "Three &#8377;1 coins"], "answer": 2, "explanation": "A &#8377;5 coin is worth 5 rupees, more than three &#8377;1 coins (3 rupees). Value comes from the number, not the coin&rsquo;s size." },
-      { "q": "What comes next in the pattern: circle, square, circle, square, ___?", "options": ["Square", "Circle", "Triangle", "Nothing"], "answer": 1, "explanation": "The rule alternates circle then square, so after square comes circle again." },
-      { "q": "Which group has more: 6 apples or 9 apples?", "options": ["6 apples", "They are equal", "You cannot tell", "9 apples"], "answer": 3, "explanation": "9 is greater than 6, so the group of 9 apples has more." }
+      {
+        "q": "What number comes just after 68?",
+        "options": [
+          "67",
+          "70",
+          "69",
+          "78"
+        ],
+        "answer": 2,
+        "explanation": "Counting on from 68 gives the next number, 69."
+      },
+      {
+        "q": "How many tens and ones are in 34?",
+        "options": [
+          "3 tens and 4 ones",
+          "4 tens and 3 ones",
+          "34 ones only",
+          "30 tens and 4 ones"
+        ],
+        "answer": 0,
+        "explanation": "The 3 stands for 3 tens (30) and the 4 stands for 4 ones, so 30 + 4 = 34."
+      },
+      {
+        "q": "What is 8 + 5?",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "13"
+        ],
+        "answer": 3,
+        "explanation": "Make ten: take 2 from the 5 to turn 8 into 10, then add the leftover 3. 10 + 3 = 13."
+      },
+      {
+        "q": "Which shape is round with no corners?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": 0,
+        "explanation": "A circle is perfectly round and has no corners or straight sides."
+      },
+      {
+        "q": "The short hand points to 7 and the long hand points to 12. What is the time?",
+        "options": [
+          "12 o’clock",
+          "7 o’clock",
+          "Half past 7",
+          "7 minutes past 12"
+        ],
+        "answer": 1,
+        "explanation": "At o’clock the long hand is on 12; the short hand shows the hour, which is 7. So it is 7 o’clock."
+      },
+      {
+        "q": "Which is worth the most?",
+        "options": [
+          "One ₹1 coin",
+          "Two ₹1 coins",
+          "One ₹5 coin",
+          "Three ₹1 coins"
+        ],
+        "answer": 2,
+        "explanation": "A ₹5 coin is worth 5 rupees, more than three ₹1 coins (3 rupees). Value comes from the number, not the coin’s size."
+      },
+      {
+        "q": "What comes next in the pattern: circle, square, circle, square, ___?",
+        "options": [
+          "Square",
+          "Circle",
+          "Triangle",
+          "Nothing"
+        ],
+        "answer": 1,
+        "explanation": "The rule alternates circle then square, so after square comes circle again."
+      },
+      {
+        "q": "Which group has more: 6 apples or 9 apples?",
+        "options": [
+          "6 apples",
+          "They are equal",
+          "You cannot tell",
+          "9 apples"
+        ],
+        "answer": 3,
+        "explanation": "9 is greater than 6, so the group of 9 apples has more."
+      }
     ]
   },
   "faq": [
-    { "q": "What maths should a Grade 1 child know by the end of the year?", "a": "Counting and writing numbers to 100, place value with tens and ones, addition and subtraction within 20, basic 2D and 3D shapes, simple patterns, comparing length, weight and capacity, telling time to the hour, recognising coins to &#8377;10, and sorting objects into simple picture charts." },
-    { "q": "Is my child behind if they still count on fingers?", "a": "In the first term, no &mdash; fingers make maths concrete and every child starts there. The concern is only if finger-counting is still the main method for sums like 8 + 5 in the final term, which signals they need more work on number bonds and making ten." },
-    { "q": "Which Grade 1 strand should I focus on most?", "a": "Number sense &mdash; counting on, place value and bonds to ten. These underpin addition, subtraction, money and measurement, so time spent here pays off across every other strand for years." },
-    { "q": "Does Grade 1 maths follow the NCERT and CBSE syllabus?", "a": "Yes. The nine strands in this guide map to the CBSE and NCERT Class 1 maths curriculum. Most state boards and private schools follow the same broad outline, so the milestones here apply widely across India." },
-    { "q": "Where can I get worksheets covering the whole Grade 1 syllabus?", "a": "Our all-in-one Grade 1 maths workbook covers every strand in this guide &mdash; numbers, addition, shapes, time, money and more &mdash; as printable worksheets with a full answer key, so you can practise each topic in order without hunting across the web. The link is in the box below." }
+    {
+      "q": "What maths should a Grade 1 child know by the end of the year?",
+      "a": "Counting and writing numbers to 100, place value with tens and ones, addition and subtraction within 20, basic 2D and 3D shapes, simple patterns, comparing length, weight and capacity, telling time to the hour, recognising coins to &#8377;10, and sorting objects into simple picture charts."
+    },
+    {
+      "q": "Is my child behind if they still count on fingers?",
+      "a": "In the first term, no &mdash; fingers make maths concrete and every child starts there. The concern is only if finger-counting is still the main method for sums like 8 + 5 in the final term, which signals they need more work on number bonds and making ten."
+    },
+    {
+      "q": "Which Grade 1 strand should I focus on most?",
+      "a": "Number sense &mdash; counting on, place value and bonds to ten. These underpin addition, subtraction, money and measurement, so time spent here pays off across every other strand for years."
+    },
+    {
+      "q": "Does Grade 1 maths follow the NCERT and CBSE syllabus?",
+      "a": "Yes. The nine strands in this guide map to the CBSE and NCERT Class 1 maths curriculum. Most state boards and private schools follow the same broad outline, so the milestones here apply widely across India."
+    },
+    {
+      "q": "Where can I get worksheets covering the whole Grade 1 syllabus?",
+      "a": "Our all-in-one Grade 1 maths workbook covers every strand in this guide &mdash; numbers, addition, shapes, time, money and more &mdash; as printable worksheets with a full answer key, so you can practise each topic in order without hunting across the web. The link is in the box below."
+    }
   ]
 }

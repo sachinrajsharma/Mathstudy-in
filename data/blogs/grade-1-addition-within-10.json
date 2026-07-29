@@ -3,7 +3,7 @@
   "title": "Addition Within 10 for Grade 1: Master Sums to Ten First + Free Quiz",
   "meta_title": "Addition Within 10 Grade 1: Bonds to Ten Guide",
   "meta_desc": "Master addition within 10 in Grade 1 before crossing ten. The full set of number bonds to 10, ten-frame tips, fluency games and a free 8-question quiz.",
-  "excerpt": "Before a child can add 8 + 5, they need every sum up to 10 to feel automatic. Here is why the 0&ndash;10 range is the real foundation, the complete set of bonds to ten, and how to make them stick.",
+  "excerpt": "Before a child can add 8 + 5, they need every sum up to 10 to feel automatic. Here is why the 0–10 range is the real foundation, the complete set of bonds to ten, and how to make them stick.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-basic-addition.jpg",
   "cta_product_slug": "grade-1-basic-addition-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 addition within 10",
     "level": "Grade 1",
     "questions": [
-      { "q": "What is 4 + 3?", "options": ["6", "7", "8", "5"], "answer": 1, "explanation": "Start from the bigger number, 4, and count on three: 5, 6, 7." },
-      { "q": "Which pair makes 10?", "options": ["3 and 7", "2 and 6", "5 and 4", "8 and 3"], "answer": 0, "explanation": "3 and 7 fill a ten-frame exactly. The bonds to ten are 1+9, 2+8, 3+7, 4+6 and 5+5." },
-      { "q": "What is 5 + 5?", "options": ["9", "11", "10", "8"], "answer": 2, "explanation": "This is a double and also a bond to ten. Double 5 is 10." },
-      { "q": "6 + ? = 10. What is the missing part?", "options": ["3", "5", "2", "4"], "answer": 3, "explanation": "6 needs 4 more to fill the ten-frame, so the bond is 6 + 4 = 10." },
-      { "q": "What is 7 + 0?", "options": ["7", "0", "8", "1"], "answer": 0, "explanation": "Adding zero changes nothing, so 7 + 0 = 7." },
-      { "q": "What is 2 + 6?", "options": ["7", "9", "8", "10"], "answer": 2, "explanation": "Start from the bigger number, 6, and count on two: 7, 8." },
-      { "q": "3 + ? = 10. What is the missing part?", "options": ["7", "6", "8", "5"], "answer": 0, "explanation": "3 and 7 are a bond to ten, so the missing part is 7." },
-      { "q": "A basket has 4 mangoes and 5 more are added. How many now?", "options": ["8", "10", "9", "11"], "answer": 2, "explanation": "4 + 5 stays within ten. Think double 4 is 8, one more makes 9." }
+      {
+        "q": "What is 4 + 3?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Start from the bigger number, 4, and count on three: 5, 6, 7."
+      },
+      {
+        "q": "Which pair makes 10?",
+        "options": [
+          "3 and 7",
+          "2 and 6",
+          "5 and 4",
+          "8 and 3"
+        ],
+        "answer": 0,
+        "explanation": "3 and 7 fill a ten-frame exactly. The bonds to ten are 1+9, 2+8, 3+7, 4+6 and 5+5."
+      },
+      {
+        "q": "What is 5 + 5?",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "This is a double and also a bond to ten. Double 5 is 10."
+      },
+      {
+        "q": "6 + ? = 10. What is the missing part?",
+        "options": [
+          "3",
+          "5",
+          "2",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "6 needs 4 more to fill the ten-frame, so the bond is 6 + 4 = 10."
+      },
+      {
+        "q": "What is 7 + 0?",
+        "options": [
+          "7",
+          "0",
+          "8",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Adding zero changes nothing, so 7 + 0 = 7."
+      },
+      {
+        "q": "What is 2 + 6?",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "Start from the bigger number, 6, and count on two: 7, 8."
+      },
+      {
+        "q": "3 + ? = 10. What is the missing part?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "3 and 7 are a bond to ten, so the missing part is 7."
+      },
+      {
+        "q": "A basket has 4 mangoes and 5 more are added. How many now?",
+        "options": [
+          "8",
+          "10",
+          "9",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "4 + 5 stays within ten. Think double 4 is 8, one more makes 9."
+      }
     ]
   },
   "faq": [
-    { "q": "Why teach addition within 10 before sums up to 20?", "a": "Because every harder strategy leans on it. To add 8 + 5 by making ten, a child must instantly know that 8 needs 2 &mdash; a bond to ten. If the within-ten facts are shaky, crossing ten has nothing to stand on." },
-    { "q": "What are the number bonds to 10?", "a": "The pairs that join to make ten: 0 and 10, 1 and 9, 2 and 8, 3 and 7, 4 and 6, and 5 and 5. Six pairs in all &mdash; learn these cold and much of primary arithmetic gets easier for years." },
-    { "q": "How long should a child spend on sums within 10?", "a": "As long as it takes for the answers to come in a couple of seconds without fingers &mdash; usually a few weeks of ten-minute sessions. There is no prize for moving on early; a solid foundation saves months later." },
-    { "q": "Is it fine if my child still uses fingers for these sums?", "a": "At the start, yes &mdash; fingers make the maths concrete. The aim is to give better tools, like a ten-frame and bonds to ten, so the child chooses to leave fingers behind rather than being told to." },
-    { "q": "Where can I get printable addition within 10 worksheets with answers?", "a": "Our Grade 1 basic addition worksheet e-book has graded sums to ten and bond practice, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Why teach addition within 10 before sums up to 20?",
+      "a": "Because every harder strategy leans on it. To add 8 + 5 by making ten, a child must instantly know that 8 needs 2 &mdash; a bond to ten. If the within-ten facts are shaky, crossing ten has nothing to stand on."
+    },
+    {
+      "q": "What are the number bonds to 10?",
+      "a": "The pairs that join to make ten: 0 and 10, 1 and 9, 2 and 8, 3 and 7, 4 and 6, and 5 and 5. Six pairs in all &mdash; learn these cold and much of primary arithmetic gets easier for years."
+    },
+    {
+      "q": "How long should a child spend on sums within 10?",
+      "a": "As long as it takes for the answers to come in a couple of seconds without fingers &mdash; usually a few weeks of ten-minute sessions. There is no prize for moving on early; a solid foundation saves months later."
+    },
+    {
+      "q": "Is it fine if my child still uses fingers for these sums?",
+      "a": "At the start, yes &mdash; fingers make the maths concrete. The aim is to give better tools, like a ten-frame and bonds to ten, so the child chooses to leave fingers behind rather than being told to."
+    },
+    {
+      "q": "Where can I get printable addition within 10 worksheets with answers?",
+      "a": "Our Grade 1 basic addition worksheet e-book has graded sums to ten and bond practice, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

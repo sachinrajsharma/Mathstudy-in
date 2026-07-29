@@ -3,7 +3,7 @@
   "title": "Capacity for Grade 1: Full, Empty and Holds More (with a Free Quiz)",
   "meta_title": "Capacity for Grade 1: Full and Empty for Kids",
   "meta_desc": "Teach capacity to Grade 1 the way children learn it: full, empty, half-full and holds more by pouring, with a free 8-question quiz and printable practice.",
-  "excerpt": "Before a Grade 1 child ever hears the word litre, they learn capacity with a jug of water and two cups. Here is how to teach full, empty and holds more by pouring &mdash; and the shape trick that fools every six-year-old.",
+  "excerpt": "Before a Grade 1 child ever hears the word litre, they learn capacity with a jug of water and two cups. Here is how to teach full, empty and holds more by pouring — and the shape trick that fools every six-year-old.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-capacity.jpg",
   "cta_product_slug": "grade-1-capacity-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 capacity: full, empty and holds more",
     "level": "Grade 1",
     "questions": [
-      { "q": "A water bottle is filled right to the top. We say it is:", "options": ["Empty", "Half-full", "Full", "Broken"], "answer": 2, "explanation": "Filled all the way to the top means the container is full." },
-      { "q": "A cup with nothing inside it is:", "options": ["Empty", "Full", "Half-full", "Heavy"], "answer": 0, "explanation": "Nothing inside means the cup is empty." },
-      { "q": "Which one holds more water?", "options": ["A tea spoon", "A big bucket", "A small mug", "A bottle cap"], "answer": 1, "explanation": "A bucket is the biggest of these, so it holds the most water." },
-      { "q": "Which one holds less water?", "options": ["A lota", "A jug", "A bucket", "A tea cup"], "answer": 3, "explanation": "A small tea cup holds the least of these four containers." },
-      { "q": "A glass is filled only up to the middle. We say it is:", "options": ["Full", "Empty", "Half-full", "Overflowing"], "answer": 2, "explanation": "Filled to the middle line means the glass is half-full." },
-      { "q": "It takes 6 small cups to fill a jug. How many cups of water does the jug hold?", "options": ["3 cups", "6 cups", "1 cup", "10 cups"], "answer": 1, "explanation": "If 6 cups fill it up, the jug holds 6 cups of water." },
-      { "q": "A tall thin glass and a short wide glass hold the same amount. If you pour the full tall glass into the empty wide glass, the wide glass will be:", "options": ["Full", "Overflowing", "Empty", "Still tall"], "answer": 0, "explanation": "Same amount means the water fits exactly, so the wide glass becomes full. Tall does not always mean more." },
-      { "q": "The best way to find out which of two glasses really holds more is to:", "options": ["Look at which is taller", "Pour one into the other and see", "Pick the wider one", "Guess"], "answer": 1, "explanation": "Shape can fool your eyes, so pour one glass into the other to check which truly holds more." }
+      {
+        "q": "A water bottle is filled right to the top. We say it is:",
+        "options": [
+          "Empty",
+          "Half-full",
+          "Full",
+          "Broken"
+        ],
+        "answer": 2,
+        "explanation": "Filled all the way to the top means the container is full."
+      },
+      {
+        "q": "A cup with nothing inside it is:",
+        "options": [
+          "Empty",
+          "Full",
+          "Half-full",
+          "Heavy"
+        ],
+        "answer": 0,
+        "explanation": "Nothing inside means the cup is empty."
+      },
+      {
+        "q": "Which one holds more water?",
+        "options": [
+          "A tea spoon",
+          "A big bucket",
+          "A small mug",
+          "A bottle cap"
+        ],
+        "answer": 1,
+        "explanation": "A bucket is the biggest of these, so it holds the most water."
+      },
+      {
+        "q": "Which one holds less water?",
+        "options": [
+          "A lota",
+          "A jug",
+          "A bucket",
+          "A tea cup"
+        ],
+        "answer": 3,
+        "explanation": "A small tea cup holds the least of these four containers."
+      },
+      {
+        "q": "A glass is filled only up to the middle. We say it is:",
+        "options": [
+          "Full",
+          "Empty",
+          "Half-full",
+          "Overflowing"
+        ],
+        "answer": 2,
+        "explanation": "Filled to the middle line means the glass is half-full."
+      },
+      {
+        "q": "It takes 6 small cups to fill a jug. How many cups of water does the jug hold?",
+        "options": [
+          "3 cups",
+          "6 cups",
+          "1 cup",
+          "10 cups"
+        ],
+        "answer": 1,
+        "explanation": "If 6 cups fill it up, the jug holds 6 cups of water."
+      },
+      {
+        "q": "A tall thin glass and a short wide glass hold the same amount. If you pour the full tall glass into the empty wide glass, the wide glass will be:",
+        "options": [
+          "Full",
+          "Overflowing",
+          "Empty",
+          "Still tall"
+        ],
+        "answer": 0,
+        "explanation": "Same amount means the water fits exactly, so the wide glass becomes full. Tall does not always mean more."
+      },
+      {
+        "q": "The best way to find out which of two glasses really holds more is to:",
+        "options": [
+          "Look at which is taller",
+          "Pour one into the other and see",
+          "Pick the wider one",
+          "Guess"
+        ],
+        "answer": 1,
+        "explanation": "Shape can fool your eyes, so pour one glass into the other to check which truly holds more."
+      }
     ]
   },
   "faq": [
-    { "q": "What does capacity mean for a Grade 1 child?", "a": "Capacity is simply how much a container holds when you fill it up. In Grade 1 children learn it through words like full, empty, half-full, holds more and holds less &mdash; by pouring water, not by using numbers or litres yet." },
-    { "q": "Should I teach litres in Grade 1?", "a": "No, keep litres for Grade 2. A six-year-old should first feel capacity by filling, emptying and pouring, and by counting how many cups fill a jug. Litres make sense only after this hands-on stage is solid." },
-    { "q": "Why does my child think a tall glass always holds more?", "a": "Because tall looks like more to young eyes. The fix is to pour: fill the tall glass into a short wide one and let them see the water fit or overflow. A tall thin glass and a short wide glass can hold exactly the same amount." },
-    { "q": "What household things can we use to practise capacity?", "a": "Whatever is in the kitchen &mdash; a lota, a water bottle, a tea cup, a mug, a bucket, a steel tumbler. Let the child pour between them over a tray or at the sink and compare which holds more and which holds less." },
-    { "q": "Where can I get printable Grade 1 capacity worksheets with answers?", "a": "Our Grade 1 capacity worksheet e-book has graded practice on full and empty, holds more and less, half-full and counting cups, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What does capacity mean for a Grade 1 child?",
+      "a": "Capacity is simply how much a container holds when you fill it up. In Grade 1 children learn it through words like full, empty, half-full, holds more and holds less &mdash; by pouring water, not by using numbers or litres yet."
+    },
+    {
+      "q": "Should I teach litres in Grade 1?",
+      "a": "No, keep litres for Grade 2. A six-year-old should first feel capacity by filling, emptying and pouring, and by counting how many cups fill a jug. Litres make sense only after this hands-on stage is solid."
+    },
+    {
+      "q": "Why does my child think a tall glass always holds more?",
+      "a": "Because tall looks like more to young eyes. The fix is to pour: fill the tall glass into a short wide one and let them see the water fit or overflow. A tall thin glass and a short wide glass can hold exactly the same amount."
+    },
+    {
+      "q": "What household things can we use to practise capacity?",
+      "a": "Whatever is in the kitchen &mdash; a lota, a water bottle, a tea cup, a mug, a bucket, a steel tumbler. Let the child pour between them over a tray or at the sink and compare which holds more and which holds less."
+    },
+    {
+      "q": "Where can I get printable Grade 1 capacity worksheets with answers?",
+      "a": "Our Grade 1 capacity worksheet e-book has graded practice on full and empty, holds more and less, half-full and counting cups, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

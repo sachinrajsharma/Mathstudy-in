@@ -3,7 +3,7 @@
   "title": "Counting to 100 in Grade 1: Hundred Chart, Skip Counting & Counting Back + Free Quiz",
   "meta_title": "Counting to 100 for Grade 1 + Free Quiz",
   "meta_desc": "Help your Grade 1 child count to 100 with the hundred chart, skip counting by 2s, 5s and 10s, and a free 8-question quiz plus printable practice.",
-  "excerpt": "Almost every six-year-old can rattle off one to twenty. The wall goes up at the decade bridges &mdash; 29 to 30, 39 to 40. Here is how to get a Grade 1 child counting to 100 with real understanding, plus a quick quiz.",
+  "excerpt": "Almost every six-year-old can rattle off one to twenty. The wall goes up at the decade bridges — 29 to 30, 39 to 40. Here is how to get a Grade 1 child counting to 100 with real understanding, plus a quick quiz.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-counting-numbers.jpg",
   "cta_product_slug": "grade-1-counting-numbers-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 counting and number sequences to 100",
     "level": "Grade 1",
     "questions": [
-      { "q": "What comes right after 29?", "options": ["28", "30", "31", "40"], "answer": 1, "explanation": "This is a decade bridge. After 29 the units reset to zero and the ten-word changes, so 29 is followed by 30." },
-      { "q": "Skip counting by 5s: 5, 10, 15, __ ?", "options": ["20", "16", "25", "21"], "answer": 0, "explanation": "Counting by fives means adding five each jump. After 15 comes 20." },
-      { "q": "Count backwards: 15, 14, 13, __ ?", "options": ["10", "16", "11", "12"], "answer": 3, "explanation": "Counting back means going down by one. After 13 comes 12." },
-      { "q": "Skip counting by 2s: 2, 4, 6, 8, __ ?", "options": ["9", "12", "10", "11"], "answer": 2, "explanation": "Counting by twos means adding two each jump. After 8 comes 10." },
-      { "q": "What comes right before 40?", "options": ["41", "39", "30", "38"], "answer": 1, "explanation": "The number just before 40 is 39. This is the tricky decade bridge, counted the backward way." },
-      { "q": "Skip counting by 10s: 30, 40, 50, __ ?", "options": ["60", "55", "51", "70"], "answer": 0, "explanation": "Counting by tens adds ten each jump. After 50 comes 60." },
-      { "q": "Fill the gap: 47, 48, __, 50", "options": ["40", "58", "51", "49"], "answer": 3, "explanation": "Counting up by ones, the number between 48 and 50 is 49." },
-      { "q": "Counting by fives 5, 10, 15, 20, how many jumps of five did you make?", "options": ["2", "3", "4", "5"], "answer": 2, "explanation": "The jumps are 5, 10, 15, 20 &mdash; four jumps of five. That is the same as 4 &times; 5, which is why skip counting is early multiplication." }
+      {
+        "q": "What comes right after 29?",
+        "options": [
+          "28",
+          "30",
+          "31",
+          "40"
+        ],
+        "answer": 1,
+        "explanation": "This is a decade bridge. After 29 the units reset to zero and the ten-word changes, so 29 is followed by 30."
+      },
+      {
+        "q": "Skip counting by 5s: 5, 10, 15, __ ?",
+        "options": [
+          "20",
+          "16",
+          "25",
+          "21"
+        ],
+        "answer": 0,
+        "explanation": "Counting by fives means adding five each jump. After 15 comes 20."
+      },
+      {
+        "q": "Count backwards: 15, 14, 13, __ ?",
+        "options": [
+          "10",
+          "16",
+          "11",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Counting back means going down by one. After 13 comes 12."
+      },
+      {
+        "q": "Skip counting by 2s: 2, 4, 6, 8, __ ?",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "Counting by twos means adding two each jump. After 8 comes 10."
+      },
+      {
+        "q": "What comes right before 40?",
+        "options": [
+          "41",
+          "39",
+          "30",
+          "38"
+        ],
+        "answer": 1,
+        "explanation": "The number just before 40 is 39. This is the tricky decade bridge, counted the backward way."
+      },
+      {
+        "q": "Skip counting by 10s: 30, 40, 50, __ ?",
+        "options": [
+          "60",
+          "55",
+          "51",
+          "70"
+        ],
+        "answer": 0,
+        "explanation": "Counting by tens adds ten each jump. After 50 comes 60."
+      },
+      {
+        "q": "Fill the gap: 47, 48, __, 50",
+        "options": [
+          "40",
+          "58",
+          "51",
+          "49"
+        ],
+        "answer": 3,
+        "explanation": "Counting up by ones, the number between 48 and 50 is 49."
+      },
+      {
+        "q": "Counting by fives 5, 10, 15, 20, how many jumps of five did you make?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "The jumps are 5, 10, 15, 20 — four jumps of five. That is the same as 4 × 5, which is why skip counting is early multiplication."
+      }
     ]
   },
   "faq": [
-    { "q": "By when should a Grade 1 child count to 100?", "a": "Most children reach a reliable count to 100 across Grade 1, usually by the second half of the year. Counting confidently to 50 with understanding first, including the decade bridges, matters more than rushing to 100." },
-    { "q": "What is a hundred chart and why does it help?", "a": "It is a 10 by 10 grid of the numbers 1 to 100. It turns counting into a visual pattern &mdash; move right to add one, move down to add ten &mdash; so children can see the structure instead of memorising a long list." },
-    { "q": "My child says twenty-ten instead of thirty. How do I fix it?", "a": "That is the classic decade-bridge slip. Practise just the crossings: start counting from 27 up to 33, or ask directly what comes after 39. Drilling the exact tricky spot works far better than restarting from one every time." },
-    { "q": "Is skip counting really needed this early?", "a": "Yes. Counting in 10s, 5s and 2s is early multiplication in disguise &mdash; four jumps of five is 4 times 5. Children who skip count fluently in Grade 1 find the times tables in Grade 2 far less of a shock." },
-    { "q": "Where can I get printable Grade 1 counting worksheets with answers?", "a": "Our Grade 1 counting numbers worksheet e-book has graded practice from filling in the hundred chart to counting back and skip-counting patterns, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "By when should a Grade 1 child count to 100?",
+      "a": "Most children reach a reliable count to 100 across Grade 1, usually by the second half of the year. Counting confidently to 50 with understanding first, including the decade bridges, matters more than rushing to 100."
+    },
+    {
+      "q": "What is a hundred chart and why does it help?",
+      "a": "It is a 10 by 10 grid of the numbers 1 to 100. It turns counting into a visual pattern &mdash; move right to add one, move down to add ten &mdash; so children can see the structure instead of memorising a long list."
+    },
+    {
+      "q": "My child says twenty-ten instead of thirty. How do I fix it?",
+      "a": "That is the classic decade-bridge slip. Practise just the crossings: start counting from 27 up to 33, or ask directly what comes after 39. Drilling the exact tricky spot works far better than restarting from one every time."
+    },
+    {
+      "q": "Is skip counting really needed this early?",
+      "a": "Yes. Counting in 10s, 5s and 2s is early multiplication in disguise &mdash; four jumps of five is 4 times 5. Children who skip count fluently in Grade 1 find the times tables in Grade 2 far less of a shock."
+    },
+    {
+      "q": "Where can I get printable Grade 1 counting worksheets with answers?",
+      "a": "Our Grade 1 counting numbers worksheet e-book has graded practice from filling in the hundred chart to counting back and skip-counting patterns, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

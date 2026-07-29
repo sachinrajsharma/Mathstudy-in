@@ -2,8 +2,8 @@
   "slug": "grade-1-patterns-in-maths",
   "title": "Patterns in Maths for Grade 1: Repeating, Growing & the Rule + Free Quiz",
   "meta_title": "Patterns in Maths for Grade 1 (+ Free Quiz)",
-  "meta_desc": "See which patterns a Grade 1 child learns &mdash; repeating, growing, and finding the rule &mdash; with a free 8-question quiz and printable practice.",
-  "excerpt": "A bead necklace, a rangoli border, floor tiles &mdash; patterns are everywhere a six-year-old looks. Here is what your Grade 1 child actually learns about patterns, why it is early algebra in disguise, and a quick quiz to try.",
+  "meta_desc": "See which patterns a Grade 1 child learns — repeating, growing, and finding the rule — with a free 8-question quiz and printable practice.",
+  "excerpt": "A bead necklace, a rangoli border, floor tiles — patterns are everywhere a six-year-old looks. Here is what your Grade 1 child actually learns about patterns, why it is early algebra in disguise, and a quick quiz to try.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-patterns.jpg",
   "cta_product_slug": "grade-1-patterns-worksheets-with-answers",
@@ -13,24 +13,119 @@
   "quiz": {
     "title": "Grade 1 Patterns Quiz",
     "intro": "Eight quick questions on repeating patterns, growing patterns and finding the rule. Pick an answer for each, then press Check my score.",
-    "about": "Grade 1 patterns &mdash; repeating and growing",
+    "about": "Grade 1 patterns — repeating and growing",
     "level": "Grade 1",
     "questions": [
-      { "q": "A pattern goes red, blue, red, blue, red. What colour comes next?", "options": ["red", "blue", "green", "yellow"], "answer": 1, "explanation": "The core is red-blue and it keeps looping. After red always comes blue, so blue is next." },
-      { "q": "In the pattern circle, square, circle, square, what is the repeating core?", "options": ["circle, square", "square, circle, square", "circle, circle", "square, square"], "answer": 0, "explanation": "The smallest chunk that repeats is circle-square. That two-shape chunk is the core." },
-      { "q": "Count in twos: 2, 4, 6, 8, __. What number comes next?", "options": ["9", "10", "12", "16"], "answer": 1, "explanation": "This is a growing pattern with the rule add 2 each time. After 8 comes 8 + 2 = 10." },
-      { "q": "A staircase grows 1, 2, 3, 4, __. How tall is the next step?", "options": ["4", "5", "6", "8"], "answer": 1, "explanation": "Each step is 1 taller than the one before. After 4 the next step is 4 + 1 = 5." },
-      { "q": "Which number breaks the pattern? 5, 10, 15, 18, 25", "options": ["10", "15", "18", "25"], "answer": 2, "explanation": "The rule is add 5 each time: 5, 10, 15, 20, 25. So 18 is the break &mdash; it should have been 20." },
-      { "q": "The pattern is clap, stamp, stamp, clap, stamp, stamp. Which type of pattern is this?", "options": ["AB", "ABB", "ABC", "growing"], "answer": 1, "explanation": "One clap then two stamps repeats. One thing then two of another is an ABB pattern." },
-      { "q": "A bead necklace goes red, red, blue, red, red, blue. What are the next two beads?", "options": ["blue, red", "red, red", "red, blue", "blue, blue"], "answer": 1, "explanation": "The core is red-red-blue. After the second blue the core starts again, so the next two beads are red, red." },
-      { "q": "In the pattern triangle, star, moon, triangle, star, moon, what comes right after the second moon?", "options": ["star", "moon", "triangle", "nothing"], "answer": 2, "explanation": "The core is triangle-star-moon. After moon the core repeats from the start, so triangle comes next." }
+      {
+        "q": "A pattern goes red, blue, red, blue, red. What colour comes next?",
+        "options": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "answer": 1,
+        "explanation": "The core is red-blue and it keeps looping. After red always comes blue, so blue is next."
+      },
+      {
+        "q": "In the pattern circle, square, circle, square, what is the repeating core?",
+        "options": [
+          "circle, square",
+          "square, circle, square",
+          "circle, circle",
+          "square, square"
+        ],
+        "answer": 0,
+        "explanation": "The smallest chunk that repeats is circle-square. That two-shape chunk is the core."
+      },
+      {
+        "q": "Count in twos: 2, 4, 6, 8, __. What number comes next?",
+        "options": [
+          "9",
+          "10",
+          "12",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "This is a growing pattern with the rule add 2 each time. After 8 comes 8 + 2 = 10."
+      },
+      {
+        "q": "A staircase grows 1, 2, 3, 4, __. How tall is the next step?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Each step is 1 taller than the one before. After 4 the next step is 4 + 1 = 5."
+      },
+      {
+        "q": "Which number breaks the pattern? 5, 10, 15, 18, 25",
+        "options": [
+          "10",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "The rule is add 5 each time: 5, 10, 15, 20, 25. So 18 is the break — it should have been 20."
+      },
+      {
+        "q": "The pattern is clap, stamp, stamp, clap, stamp, stamp. Which type of pattern is this?",
+        "options": [
+          "AB",
+          "ABB",
+          "ABC",
+          "growing"
+        ],
+        "answer": 1,
+        "explanation": "One clap then two stamps repeats. One thing then two of another is an ABB pattern."
+      },
+      {
+        "q": "A bead necklace goes red, red, blue, red, red, blue. What are the next two beads?",
+        "options": [
+          "blue, red",
+          "red, red",
+          "red, blue",
+          "blue, blue"
+        ],
+        "answer": 1,
+        "explanation": "The core is red-red-blue. After the second blue the core starts again, so the next two beads are red, red."
+      },
+      {
+        "q": "In the pattern triangle, star, moon, triangle, star, moon, what comes right after the second moon?",
+        "options": [
+          "star",
+          "moon",
+          "triangle",
+          "nothing"
+        ],
+        "answer": 2,
+        "explanation": "The core is triangle-star-moon. After moon the core repeats from the start, so triangle comes next."
+      }
     ]
   },
   "faq": [
-    { "q": "What patterns does a Grade 1 child actually learn?", "a": "Two main kinds: repeating patterns (AB, ABB and ABC with colours, shapes, sounds or objects) and growing patterns like counting in twos or a staircase getting one taller. In both cases the aim is to find the rule and say what comes next." },
-    { "q": "What is the pattern core, and why does it matter?", "a": "The core is the smallest chunk that repeats &mdash; in red, blue, red, blue it is just red-blue. Once a child finds the core, they can extend the pattern forever, because it simply loops. Finding the core is the key skill in repeating patterns." },
-    { "q": "How are patterns connected to algebra?", "a": "Patterns teach the question that algebra is built on: what is the rule, and what stays the same when the numbers change? Counting in twos is a growing pattern that becomes multiplication; spotting a rule is the same thinking as finishing a sequence &mdash; just without letters yet." },
-    { "q": "My child can copy a pattern but cannot extend it. What helps?", "a": "Copying is imitation; extending needs the rule. Ask &lsquo;how do you know what comes next?&rsquo; and get them to say the rule out loud, like &lsquo;red then blue, so after blue comes red&rsquo;. Then try breaking a pattern on purpose and asking them to spot it &mdash; that forces real understanding." },
-    { "q": "Where can I get printable Grade 1 patterns worksheets with answers?", "a": "Our Grade 1 patterns worksheet e-book has graded practice on repeating and growing patterns, finding the core, and continuing sequences &mdash; each page with a full answer key, as an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What patterns does a Grade 1 child actually learn?",
+      "a": "Two main kinds: repeating patterns (AB, ABB and ABC with colours, shapes, sounds or objects) and growing patterns like counting in twos or a staircase getting one taller. In both cases the aim is to find the rule and say what comes next."
+    },
+    {
+      "q": "What is the pattern core, and why does it matter?",
+      "a": "The core is the smallest chunk that repeats &mdash; in red, blue, red, blue it is just red-blue. Once a child finds the core, they can extend the pattern forever, because it simply loops. Finding the core is the key skill in repeating patterns."
+    },
+    {
+      "q": "How are patterns connected to algebra?",
+      "a": "Patterns teach the question that algebra is built on: what is the rule, and what stays the same when the numbers change? Counting in twos is a growing pattern that becomes multiplication; spotting a rule is the same thinking as finishing a sequence &mdash; just without letters yet."
+    },
+    {
+      "q": "My child can copy a pattern but cannot extend it. What helps?",
+      "a": "Copying is imitation; extending needs the rule. Ask &lsquo;how do you know what comes next?&rsquo; and get them to say the rule out loud, like &lsquo;red then blue, so after blue comes red&rsquo;. Then try breaking a pattern on purpose and asking them to spot it &mdash; that forces real understanding."
+    },
+    {
+      "q": "Where can I get printable Grade 1 patterns worksheets with answers?",
+      "a": "Our Grade 1 patterns worksheet e-book has graded practice on repeating and growing patterns, finding the core, and continuing sequences &mdash; each page with a full answer key, as an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }
