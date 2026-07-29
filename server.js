@@ -1361,6 +1361,43 @@ pool.query(`ALTER TABLE products ADD COLUMN price_locked TINYINT(1) NOT NULL DEF
       console.error('[schema] price_locked:', e.message);
   });
 
+// Blog SEO engine columns (idempotent): an embedded MCQ test (quiz_json), a
+// per-blog product CTA (cta_product_slug) and an FAQ block (faq_json) so every
+// article can carry an interactive practice test + a buy button + FAQ schema.
+['ALTER TABLE blogs ADD COLUMN quiz_json LONGTEXT NULL',
+ 'ALTER TABLE blogs ADD COLUMN cta_product_slug VARCHAR(512) NULL',
+ 'ALTER TABLE blogs ADD COLUMN faq_json LONGTEXT NULL'
+].forEach(function(sql) {
+  pool.query(sql).catch(function(e) {
+    if (!/duplicate column|check that column\/key exists/i.test(e.message))
+      console.error('[schema] blog column:', e.message);
+  });
+});
+
+// Load a published blog + its quiz, FAQ and CTA product, and render it. Shared by
+// /blog/:slug and the root /:slug legacy handler so both get the full SEO engine.
+async function renderBlogPost(req, res, next, post) {
+  try {
+    pool.query(`UPDATE blogs SET views=views+1 WHERE id=?`, [post.id]).catch(function(){});
+    let quiz = null, faq = null, ctaProduct = null;
+    try { if (post.quiz_json) quiz = JSON.parse(post.quiz_json); } catch (e) {}
+    try { if (post.faq_json)  faq  = JSON.parse(post.faq_json);  } catch (e) {}
+    if (post.cta_product_slug) {
+      const [[p]] = await pool.query(
+        `SELECT slug,title,price,original_price,cover_image,grade FROM products WHERE slug=? AND is_published=1`,
+        [post.cta_product_slug]);
+      ctaProduct = p || null;
+    }
+    res.render('blog-post', {
+      title: post.meta_title || post.title + ' — MathStudy.in',
+      metaDesc: post.meta_desc || post.excerpt || '',
+      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/' + post.slug : null,
+      ogImage: post.cover_image || null,
+      post: post, quiz: quiz, faq: faq, ctaProduct: ctaProduct,
+    });
+  } catch (e) { next(e); }
+}
+
 // ── Public Blog ───────────────────────────────────────────────────────────────
 app.get('/blog', async (req, res, next) => {
   try {
@@ -1385,15 +1422,7 @@ app.get('/blog/:slug', async (req, res, next) => {
   try {
     const [[post]] = await pool.query(`SELECT * FROM blogs WHERE slug=? AND status='published'`, [req.params.slug]);
     if (!post) return res.status(404).render('error', { title:'404 — Post Not Found', metaDesc:'', canonical:null, message:'This post does not exist or has been unpublished.' });
-    pool.query(`UPDATE blogs SET views=views+1 WHERE id=?`, [post.id]).catch(function(){});
-    res.render('blog-post', {
-      title: post.meta_title || post.title + ' — MathStudy.in',
-      metaDesc: post.meta_desc || post.excerpt || '',
-      // Canonical is the ROOT url (/<slug>) — matches the original WordPress permalink.
-      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/' + post.slug : null,
-      ogImage: post.cover_image || null,
-      post: post,
-    });
+    return renderBlogPost(req, res, next, post);
   } catch(e) { next(e); }
 });
 
@@ -1572,14 +1601,7 @@ app.get('/:slug', async (req, res, next) => {
   try {
     const [[post]] = await pool.query(`SELECT * FROM blogs WHERE slug=? AND status='published'`, [slug]);
     if (!post) return next();
-    pool.query(`UPDATE blogs SET views=views+1 WHERE id=?`, [post.id]).catch(function(){});
-    res.render('blog-post', {
-      title: post.meta_title || post.title + ' — MathStudy.in',
-      metaDesc: post.meta_desc || post.excerpt || '',
-      canonical: process.env.BASE_URL ? process.env.BASE_URL + '/' + post.slug : null,
-      ogImage: post.cover_image || null,
-      post: post,
-    });
+    return renderBlogPost(req, res, next, post);
   } catch(e) { next(e); }
 });
 
