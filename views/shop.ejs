@@ -68,13 +68,25 @@
           <% }); %>
         </div>
 
-        <!-- Pagination -->
-        <% if (totalPages > 1) { %>
-        <div class="pagination">
-          <% for(var i=1;i<=totalPages;i++){ %>
-            <a href="/shop?page=<%= i %><%= cat ? '&cat='+cat : '' %><%= sort !== 'latest' ? '&sort='+sort : '' %><%= q ? '&q='+q : '' %>" class="page-btn <%= page===i ? 'active':'' %>"><%= i %></a>
-          <% } %>
-        </div>
+        <!-- Pagination: Prev / 1 ... window around current ... last / Next -->
+        <% if (totalPages > 1) {
+             var pageUrl = function(n){ return '/shop?page=' + n + (cat ? '&cat='+cat : '') + (sort !== 'latest' ? '&sort='+sort : '') + (q ? '&q='+encodeURIComponent(q) : ''); };
+             var shown = [];
+             for (var i = 1; i <= totalPages; i++) {
+               if (i === 1 || i === totalPages || (i >= page-2 && i <= page+2)) shown.push(i);
+             }
+        %>
+        <nav class="pagination" aria-label="Shop pages">
+          <% if (page > 1) { %><a href="<%= pageUrl(page-1) %>" class="page-btn nav" rel="prev">&laquo; Prev</a>
+          <% } else { %><span class="page-btn nav disabled">&laquo; Prev</span><% } %>
+          <% var last = 0; shown.forEach(function(i){ %>
+            <% if (i - last > 1) { %><span class="page-gap">&hellip;</span><% } %>
+            <a href="<%= pageUrl(i) %>" class="page-btn <%= page===i ? 'active':'' %>" <%= page===i ? 'aria-current="page"' : '' %>><%= i %></a>
+            <% last = i; %>
+          <% }) %>
+          <% if (page < totalPages) { %><a href="<%= pageUrl(page+1) %>" class="page-btn nav" rel="next">Next &raquo;</a>
+          <% } else { %><span class="page-btn nav disabled">Next &raquo;</span><% } %>
+        </nav>
         <% } %>
         <% } %>
       </div>
