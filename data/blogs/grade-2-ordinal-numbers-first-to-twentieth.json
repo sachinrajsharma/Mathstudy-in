@@ -1,6 +1,6 @@
 {
   "slug": "grade-2-ordinal-numbers-first-to-twentieth",
-  "title": "Ordinal Numbers Grade 2: First to Twentieth (1st&ndash;20th) + Free Quiz",
+  "title": "Ordinal Numbers Grade 2: First to Twentieth (1st–20th) + Free Quiz",
   "meta_title": "Ordinal Numbers Grade 2: First to Twentieth Guide",
   "meta_desc": "Teach ordinal numbers grade 2 the easy way: first to twentieth, short forms like 1st and 2nd, the -th pattern, dates and races, plus a free quiz.",
   "excerpt": "Ordinals tell you position, not how many. Here is how I teach first to twentieth to seven-year-olds, the short-form pattern that trips them up, and a quick quiz to check it stuck.",
@@ -16,21 +16,116 @@
     "about": "Grade 2 ordinal numbers, first to twentieth",
     "level": "Grade 2",
     "questions": [
-      { "q": "In the race Riya finished right after the winner. What position is Riya?", "options": ["1st", "2nd", "3rd", "4th"], "answer": 1, "explanation": "The winner is 1st, so the runner right after is 2nd." },
-      { "q": "What is the short form of &lsquo;fifth&rsquo;?", "options": ["5rd", "5nd", "5th", "5st"], "answer": 2, "explanation": "From 4th onwards the tail is -th, so fifth is written 5th." },
-      { "q": "Which word tells you a POSITION, not how many?", "options": ["third", "seven", "twelve", "twenty"], "answer": 0, "explanation": "Third is an ordinal &mdash; it names a place in order. The others count how many." },
-      { "q": "Independence Day is on the 15th of August. How do we say &lsquo;15th&rsquo;?", "options": ["fifteen", "fiftieth", "fifteenth", "fifty"], "answer": 2, "explanation": "The ordinal for 15 is fifteenth, written 15th." },
-      { "q": "Which short form is written correctly?", "options": ["3st", "3nd", "3th", "3rd"], "answer": 3, "explanation": "Third ends in -rd, so it is written 3rd." },
-      { "q": "There are 20 children in a line. What is the LAST child&rsquo;s position?", "options": ["twentyth", "twelfth", "twentieth", "twenteeth"], "answer": 2, "explanation": "The ordinal for 20 is twentieth, written 20th." },
-      { "q": "In the list mango, apple, banana, guava &mdash; which fruit is third?", "options": ["mango", "apple", "banana", "guava"], "answer": 2, "explanation": "First mango, second apple, third banana. Banana is in third position." },
-      { "q": "Which of these is spelt correctly?", "options": ["eighth", "eightth", "eigth", "eighteith"], "answer": 0, "explanation": "Eighth has just one t: eigh-th. So 8 in position is eighth, or 8th." }
+      {
+        "q": "In the race Riya finished right after the winner. What position is Riya?",
+        "options": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th"
+        ],
+        "answer": 1,
+        "explanation": "The winner is 1st, so the runner right after is 2nd."
+      },
+      {
+        "q": "What is the short form of ‘fifth’?",
+        "options": [
+          "5rd",
+          "5nd",
+          "5th",
+          "5st"
+        ],
+        "answer": 2,
+        "explanation": "From 4th onwards the tail is -th, so fifth is written 5th."
+      },
+      {
+        "q": "Which word tells you a POSITION, not how many?",
+        "options": [
+          "third",
+          "seven",
+          "twelve",
+          "twenty"
+        ],
+        "answer": 0,
+        "explanation": "Third is an ordinal — it names a place in order. The others count how many."
+      },
+      {
+        "q": "Independence Day is on the 15th of August. How do we say ‘15th’?",
+        "options": [
+          "fifteen",
+          "fiftieth",
+          "fifteenth",
+          "fifty"
+        ],
+        "answer": 2,
+        "explanation": "The ordinal for 15 is fifteenth, written 15th."
+      },
+      {
+        "q": "Which short form is written correctly?",
+        "options": [
+          "3st",
+          "3nd",
+          "3th",
+          "3rd"
+        ],
+        "answer": 3,
+        "explanation": "Third ends in -rd, so it is written 3rd."
+      },
+      {
+        "q": "There are 20 children in a line. What is the LAST child’s position?",
+        "options": [
+          "twentyth",
+          "twelfth",
+          "twentieth",
+          "twenteeth"
+        ],
+        "answer": 2,
+        "explanation": "The ordinal for 20 is twentieth, written 20th."
+      },
+      {
+        "q": "In the list mango, apple, banana, guava — which fruit is third?",
+        "options": [
+          "mango",
+          "apple",
+          "banana",
+          "guava"
+        ],
+        "answer": 2,
+        "explanation": "First mango, second apple, third banana. Banana is in third position."
+      },
+      {
+        "q": "Which of these is spelt correctly?",
+        "options": [
+          "eighth",
+          "eightth",
+          "eigth",
+          "eighteith"
+        ],
+        "answer": 0,
+        "explanation": "Eighth has just one t: eigh-th. So 8 in position is eighth, or 8th."
+      }
     ]
   },
   "faq": [
-    { "q": "What is the difference between ordinal and cardinal numbers?", "a": "A cardinal number tells you how many &mdash; three apples. An ordinal number tells you the position in an order &mdash; the third apple in the row. Same objects, different question." },
-    { "q": "Which ordinal short forms do not use -th?", "a": "Only the first three: 1st (first), 2nd (second) and 3rd (third). From 4th all the way to 20th within Grade 2 the tail is -th." },
-    { "q": "Which ordinal spellings do Grade 2 children get wrong most?", "a": "Fifth, eighth, ninth and twelfth. &lsquo;Eighth&rsquo; has one t, &lsquo;ninth&rsquo; drops the e from nine, and &lsquo;twelfth&rsquo; swaps the ve of twelve for an f. A little extra drill on these four helps." },
-    { "q": "Where do children use ordinal numbers in real life?", "a": "Dates on a calendar (the 9th of the month), positions in a race (first, second, third), and places in a queue. Naming these out loud as they happen is the best practice." },
-    { "q": "Where can I get printable Grade 2 ordinal numbers worksheets with answers?", "a": "Our Grade 2 ordinal numbers worksheet e-book has graded practice from matching to fill-in-the-blank, first to twentieth, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What is the difference between ordinal and cardinal numbers?",
+      "a": "A cardinal number tells you how many &mdash; three apples. An ordinal number tells you the position in an order &mdash; the third apple in the row. Same objects, different question."
+    },
+    {
+      "q": "Which ordinal short forms do not use -th?",
+      "a": "Only the first three: 1st (first), 2nd (second) and 3rd (third). From 4th all the way to 20th within Grade 2 the tail is -th."
+    },
+    {
+      "q": "Which ordinal spellings do Grade 2 children get wrong most?",
+      "a": "Fifth, eighth, ninth and twelfth. &lsquo;Eighth&rsquo; has one t, &lsquo;ninth&rsquo; drops the e from nine, and &lsquo;twelfth&rsquo; swaps the ve of twelve for an f. A little extra drill on these four helps."
+    },
+    {
+      "q": "Where do children use ordinal numbers in real life?",
+      "a": "Dates on a calendar (the 9th of the month), positions in a race (first, second, third), and places in a queue. Naming these out loud as they happen is the best practice."
+    },
+    {
+      "q": "Where can I get printable Grade 2 ordinal numbers worksheets with answers?",
+      "a": "Our Grade 2 ordinal numbers worksheet e-book has graded practice from matching to fill-in-the-blank, first to twentieth, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

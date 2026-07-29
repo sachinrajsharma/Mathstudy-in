@@ -21,6 +21,7 @@
 require('dotenv').config();
 const fs = require('fs');
 const mysql = require('mysql2/promise');
+const { cleanBlogText } = require('../lib/blog-import');
 
 const cfg = {
   host:     process.env.DB_HOST || 'localhost',
@@ -56,6 +57,7 @@ function validate(b) {
 
   const errs = validate(b);
   if (errs.length) { console.error('VALIDATION FAILED:\n - ' + errs.join('\n - ')); process.exit(1); }
+  cleanBlogText(b); // decode entities in escaped-rendered fields (title/meta/excerpt/quiz/faq-q)
 
   const wc = b.content.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
   console.log(`slug        ${b.slug}`);

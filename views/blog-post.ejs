@@ -78,10 +78,13 @@ window.MathJax = {
 /* ── Reading progress bar ─────────────────────────────────────────────────── */
 #reading-progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,#2563eb,#7c3aed);z-index:9999;transition:width .1s linear}
 
+/* ── Content width (single source of truth for every band) ───────────────── */
+:root{--post-wrap:1120px}
+
 /* ── Post hero ───────────────────────────────────────────────────────────── */
 .post-hero{background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 60%,#1d4ed8 100%);padding:60px 0 0;color:#fff;position:relative;overflow:hidden}
 .post-hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
-.post-hero-inner{max-width:820px;margin:0 auto;padding:0 24px 48px;position:relative;z-index:1}
+.post-hero-inner{max-width:var(--post-wrap);margin:0 auto;padding:0 24px 48px;position:relative;z-index:1}
 .post-breadcrumb{font-size:0.78rem;color:rgba(255,255,255,.55);margin-bottom:20px;display:flex;align-items:center;flex-wrap:wrap;gap:6px}
 .post-breadcrumb a{color:rgba(255,255,255,.6);text-decoration:none;transition:color .15s}
 .post-breadcrumb a:hover{color:#fff}
@@ -94,11 +97,12 @@ window.MathJax = {
 .post-meta-bar .meta-icon{opacity:.7;font-size:.9em}
 
 /* ── Cover image strip ─────────────────────────────────────────── */
-.post-cover-wrap{max-width:820px;margin:-32px auto 0;padding:0 24px;position:relative;z-index:2}
+.post-cover-wrap{max-width:var(--post-wrap);margin:-32px auto 0;padding:0 24px;position:relative;z-index:2}
 .post-cover-wrap img{width:100%;border-radius:16px;max-height:460px;object-fit:cover;box-shadow:0 20px 60px rgba(0,0,0,.3);display:block}
 
 /* ── Article layout ───────────────────────────────────────────── */
-.post-layout{max-width:820px;margin:0 auto;padding:48px 24px 80px;display:grid;grid-template-columns:1fr 220px;gap:48px;align-items:start}
+.post-layout{max-width:var(--post-wrap);margin:0 auto;padding:48px 40px 80px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;align-items:start}
+@media(max-width:1100px){.post-layout{padding:48px 32px 80px;gap:40px;grid-template-columns:minmax(0,1fr) 260px}}
 @media(max-width:900px){.post-layout{grid-template-columns:1fr;gap:0}}
 
 /* ── Article body typography ──────────────────────────────────── */
@@ -152,7 +156,7 @@ window.MathJax = {
 .toc-list .toc-h3{padding-left:20px;font-size:0.78rem;color:#94a3b8}
 
 /* ── Bottom share bar ─────────────────────────────────────────── */
-.share-bar{max-width:820px;margin:0 auto;padding:0 24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid #f1f5f9;padding-top:28px}
+.share-bar{max-width:var(--post-wrap);margin:0 auto;padding:0 24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid #f1f5f9;padding-top:28px}
 .share-label{font-size:0.8rem;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.06em}
 .share-btns{display:flex;gap:10px;flex-wrap:wrap}
 .share-btn{display:inline-flex;align-items:center;gap:7px;padding:8px 16px;border-radius:8px;font-size:0.82rem;font-weight:600;text-decoration:none;border:none;cursor:pointer;transition:opacity .15s;font-family:inherit}
@@ -163,7 +167,7 @@ window.MathJax = {
 .share-btn-copy{background:#f1f5f9;color:#475569}
 
 /* ── CTA section ─────────────────────────────────────────────── */
-.post-cta{max-width:820px;margin:0 auto 60px;padding:0 24px}
+.post-cta{max-width:var(--post-wrap);margin:0 auto 60px;padding:0 24px}
 .cta-box{background:linear-gradient(135deg,#1e3a8a,#2563eb);border-radius:20px;padding:40px 44px;text-align:center;color:#fff;position:relative;overflow:hidden}
 .cta-box::before{content:'';position:absolute;top:-40px;right:-40px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%}
 .cta-box::after{content:'';position:absolute;bottom:-30px;left:-30px;width:120px;height:120px;background:rgba(255,255,255,.04);border-radius:50%}
@@ -174,7 +178,7 @@ window.MathJax = {
 .cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
 
 /* ── Interactive MCQ quiz ─────────────────────────────────────── */
-.mcq-quiz{max-width:820px;margin:8px auto 40px;padding:28px 24px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:18px}
+.mcq-quiz{max-width:var(--post-wrap);margin:8px auto 40px;padding:28px 24px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:18px}
 .quiz-head{text-align:center;margin-bottom:22px}
 .quiz-eyebrow{display:inline-block;background:#dbeafe;color:#1d4ed8;font-size:.72rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:99px;margin-bottom:10px}
 .quiz-head h2{font-size:1.35rem;font-weight:800;color:#0f172a;margin:0 0 8px}
@@ -201,7 +205,7 @@ window.MathJax = {
 .quiz-result .qr-msg{display:block;font-size:.92rem;font-weight:600;color:#475569;margin-top:6px}
 
 /* ── FAQ ──────────────────────────────────────────────────────── */
-.post-faq{max-width:820px;margin:0 auto 40px;padding:0 24px}
+.post-faq{max-width:var(--post-wrap);margin:0 auto 40px;padding:0 24px}
 .post-faq h2{font-size:1.35rem;font-weight:800;color:#0f172a;margin:0 0 16px}
 .faq-item{border:1px solid #e2e8f0;border-radius:11px;margin-bottom:10px;background:#fff;overflow:hidden}
 .faq-item summary{cursor:pointer;padding:15px 18px;font-weight:700;color:#0f172a;font-size:.96rem;list-style:none;position:relative}
@@ -211,7 +215,7 @@ window.MathJax = {
 .faq-a{padding:0 18px 16px;color:#475569;font-size:.92rem;line-height:1.7}
 
 /* ── Per-blog product CTA ─────────────────────────────────────── */
-.product-cta-wrap{max-width:820px;margin:0 auto 24px;padding:0 24px}
+.product-cta-wrap{max-width:var(--post-wrap);margin:0 auto 24px;padding:0 24px}
 .product-cta{display:flex;gap:20px;align-items:center;background:#fff;border:2px solid #1d4ed8;border-radius:18px;padding:20px 22px}
 .product-cta img{width:120px;height:auto;border-radius:8px;flex:0 0 auto;box-shadow:0 6px 18px rgba(0,0,0,.12)}
 .product-cta-noimg{width:120px;height:150px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:3rem;background:#eff6ff;border-radius:8px}
@@ -226,7 +230,7 @@ window.MathJax = {
 @media(max-width:560px){.product-cta{flex-direction:column;text-align:center}.product-cta-price{justify-content:center}}
 
 /* ── Back link ────────────────────────────────────────────────── */
-.post-back{max-width:820px;margin:0 auto;padding:0 24px 16px}
+.post-back{max-width:var(--post-wrap);margin:0 auto;padding:0 24px 16px}
 .post-back a{color:#2563eb;font-weight:600;font-size:0.875rem;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
 .post-back a:hover{text-decoration:underline}
 
@@ -399,7 +403,7 @@ window.MathJax = {
 
 <% if (!(locals.ctaProduct && ctaProduct)) { %>
 <!-- ── SHOP CTA (only when the blog has no specific product CTA) ───────────────── -->
-<div style="max-width:820px;margin:0 auto 8px;padding:0 24px">
+<div style="max-width:var(--post-wrap);margin:0 auto 8px;padding:0 24px">
   <div style="background:linear-gradient(135deg,#0d9488,#0f766e);border-radius:16px;padding:26px 28px;color:#fff;text-align:center">
     <h3 style="font-size:1.3rem;font-weight:800;margin:0 0 8px;color:#fff">Get exam-ready faster with our e-books</h3>
     <p style="margin:0 0 18px;opacity:.95;font-size:.95rem">Chapter-wise notes, case studies, DPPs &amp; formula books — instant PDF download, from ₹7.</p>

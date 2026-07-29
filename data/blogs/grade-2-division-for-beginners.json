@@ -16,21 +16,116 @@
     "about": "Grade 2 division within the 2, 5 and 10 tables",
     "level": "Grade 2",
     "questions": [
-      { "q": "12 sweets are shared equally among 3 children. How many does each child get?", "options": ["3", "4", "6", "5"], "answer": 1, "explanation": "Deal them out one at a time: each child ends up with 4. So 12 &divide; 3 = 4." },
-      { "q": "How many groups of 5 are there in 10?", "options": ["5", "10", "4", "2"], "answer": 3, "explanation": "Make piles of 5 from 10 counters and you get 2 piles. So 10 &divide; 5 = 2." },
-      { "q": "What is 10 &divide; 2?", "options": ["5", "2", "4", "10"], "answer": 0, "explanation": "Sharing 10 into 2 equal groups gives 5 in each group." },
-      { "q": "If 5 &times; 2 = 10, which division fact is in the same fact family?", "options": ["10 &divide; 2 = 6", "5 &divide; 2 = 10", "10 &divide; 5 = 2", "2 &divide; 5 = 10"], "answer": 2, "explanation": "The family from 5, 2 and 10 gives 10 &divide; 5 = 2 and 10 &divide; 2 = 5." },
-      { "q": "What does 12 &divide; 4 mean?", "options": ["12 added to 4", "12 shared into 4 equal groups", "4 groups of 12", "12 take away 4"], "answer": 1, "explanation": "The &divide; sign means dividing, so 12 &divide; 4 shares 12 into 4 equal groups." },
-      { "q": "What is 20 &divide; 5?", "options": ["5", "10", "2", "4"], "answer": 3, "explanation": "How many groups of 5 fit in 20? Four groups, so 20 &divide; 5 = 4." },
-      { "q": "A teacher puts 10 pencils into groups of 2. How many groups can she make?", "options": ["5", "2", "10", "4"], "answer": 0, "explanation": "This is grouping: piles of 2 from 10 give 5 groups. So 10 &divide; 2 = 5." },
-      { "q": "You know 10 &divide; 5 = 2. Using the same three numbers, what is 10 &divide; 2?", "options": ["2", "10", "5", "4"], "answer": 2, "explanation": "10, 5 and 2 are one fact family, so 10 &divide; 2 = 5." }
+      {
+        "q": "12 sweets are shared equally among 3 children. How many does each child get?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Deal them out one at a time: each child ends up with 4. So 12 ÷ 3 = 4."
+      },
+      {
+        "q": "How many groups of 5 are there in 10?",
+        "options": [
+          "5",
+          "10",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "Make piles of 5 from 10 counters and you get 2 piles. So 10 ÷ 5 = 2."
+      },
+      {
+        "q": "What is 10 ÷ 2?",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Sharing 10 into 2 equal groups gives 5 in each group."
+      },
+      {
+        "q": "If 5 × 2 = 10, which division fact is in the same fact family?",
+        "options": [
+          "10 ÷ 2 = 6",
+          "5 ÷ 2 = 10",
+          "10 ÷ 5 = 2",
+          "2 ÷ 5 = 10"
+        ],
+        "answer": 2,
+        "explanation": "The family from 5, 2 and 10 gives 10 ÷ 5 = 2 and 10 ÷ 2 = 5."
+      },
+      {
+        "q": "What does 12 ÷ 4 mean?",
+        "options": [
+          "12 added to 4",
+          "12 shared into 4 equal groups",
+          "4 groups of 12",
+          "12 take away 4"
+        ],
+        "answer": 1,
+        "explanation": "The ÷ sign means dividing, so 12 ÷ 4 shares 12 into 4 equal groups."
+      },
+      {
+        "q": "What is 20 ÷ 5?",
+        "options": [
+          "5",
+          "10",
+          "2",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "How many groups of 5 fit in 20? Four groups, so 20 ÷ 5 = 4."
+      },
+      {
+        "q": "A teacher puts 10 pencils into groups of 2. How many groups can she make?",
+        "options": [
+          "5",
+          "2",
+          "10",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "This is grouping: piles of 2 from 10 give 5 groups. So 10 ÷ 2 = 5."
+      },
+      {
+        "q": "You know 10 ÷ 5 = 2. Using the same three numbers, what is 10 ÷ 2?",
+        "options": [
+          "2",
+          "10",
+          "5",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "10, 5 and 2 are one fact family, so 10 ÷ 2 = 5."
+      }
     ]
   },
   "faq": [
-    { "q": "What does a Grade 2 child need to know about division?", "a": "Two meanings: equal sharing (how many each) and equal grouping (how many groups), plus reading the &divide; sign and simple facts inside the 2, 5 and 10 tables. Long division and remainders come much later." },
-    { "q": "Should I teach sharing or grouping first?", "a": "Start with sharing, because dealing things out fairly is something children already do. Bring in grouping soon after &mdash; it is the harder of the two, so it needs the most practice." },
-    { "q": "How is division linked to multiplication?", "a": "They are the same relationship read two ways. If 5 &times; 2 = 10 then 10 &divide; 5 = 2 and 10 &divide; 2 = 5. These four sentences form a fact family, so times-table knowledge answers division too." },
-    { "q": "Do I need to teach the times tables before division?", "a": "Not in depth. A rough grip on the 2, 5 and 10 tables is enough for Grade 2, and division practice actually reinforces those facts rather than waiting for them." },
-    { "q": "Where can I get printable Grade 2 division worksheets with answers?", "a": "Our Grade 2 division worksheet e-book gives graded sharing and grouping practice within the 2, 5 and 10 tables, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What does a Grade 2 child need to know about division?",
+      "a": "Two meanings: equal sharing (how many each) and equal grouping (how many groups), plus reading the &divide; sign and simple facts inside the 2, 5 and 10 tables. Long division and remainders come much later."
+    },
+    {
+      "q": "Should I teach sharing or grouping first?",
+      "a": "Start with sharing, because dealing things out fairly is something children already do. Bring in grouping soon after &mdash; it is the harder of the two, so it needs the most practice."
+    },
+    {
+      "q": "How is division linked to multiplication?",
+      "a": "They are the same relationship read two ways. If 5 &times; 2 = 10 then 10 &divide; 5 = 2 and 10 &divide; 2 = 5. These four sentences form a fact family, so times-table knowledge answers division too."
+    },
+    {
+      "q": "Do I need to teach the times tables before division?",
+      "a": "Not in depth. A rough grip on the 2, 5 and 10 tables is enough for Grade 2, and division practice actually reinforces those facts rather than waiting for them."
+    },
+    {
+      "q": "Where can I get printable Grade 2 division worksheets with answers?",
+      "a": "Our Grade 2 division worksheet e-book gives graded sharing and grouping practice within the 2, 5 and 10 tables, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

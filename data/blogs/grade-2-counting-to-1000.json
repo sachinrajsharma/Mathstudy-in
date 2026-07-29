@@ -1,9 +1,9 @@
 {
   "slug": "grade-2-counting-to-1000",
-  "title": "Counting to 1000 in Grade 2: Skip-Counting, Compare &amp; Order + Free Quiz",
+  "title": "Counting to 1000 in Grade 2: Skip-Counting, Compare & Order + Free Quiz",
   "meta_title": "Counting to 1000 Grade 2: Skip-Count & Compare +Quiz",
   "meta_desc": "A Grade 2 guide to counting to 1000: skip-count in 2s, 5s, 10s and 100s, count on and back, and compare numbers to 999, plus a free 8-question quiz.",
-  "excerpt": "Skip-counting is not busywork &mdash; it is the runway to multiplication. Here is how I take a Grade 2 child from counting on by ones all the way to comparing numbers up to 999, with a quick quiz to test it.",
+  "excerpt": "Skip-counting is not busywork — it is the runway to multiplication. Here is how I take a Grade 2 child from counting on by ones all the way to comparing numbers up to 999, with a quick quiz to test it.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-counting-numbers.jpg",
   "cta_product_slug": "grade-2-counting-numbers-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 counting and skip-counting to 1000",
     "level": "Grade 2",
     "questions": [
-      { "q": "Skip-count in 5s: 15, 20, 25, ___. What comes next?", "options": ["26", "29", "35", "30"], "answer": 3, "explanation": "Counting in 5s adds five each time, and the number always ends in 5 or 0. After 25 comes 30." },
-      { "q": "What number comes just after 699?", "options": ["700", "690", "600", "6910"], "answer": 0, "explanation": "Counting on by one across a hundreds boundary: after 699 comes 700." },
-      { "q": "Count back by ones from 302: 302, 301, ___. What is next?", "options": ["303", "300", "299", "200"], "answer": 1, "explanation": "Counting back means one less each time: 302, 301, 300. Next would be 300." },
-      { "q": "Skip-count in 100s: 400, 500, 600, ___. What comes next?", "options": ["601", "610", "700", "660"], "answer": 2, "explanation": "In 100s only the hundreds digit changes, adding one hundred each time. After 600 comes 700." },
-      { "q": "Which number is between 798 and 800?", "options": ["801", "799", "780", "808"], "answer": 1, "explanation": "The number line goes 798, 799, 800. So 799 sits between them." },
-      { "q": "Which sign makes this true: 512 ___ 498?", "options": ["less than", "greater than", "equal to", "cannot tell"], "answer": 1, "explanation": "Compare the hundreds digit first: 5 is more than 4, so 512 is greater than 498." },
-      { "q": "Skip-count in 10s starting from 44: 44, 54, 64, ___?", "options": ["65", "70", "74", "84"], "answer": 2, "explanation": "Counting in 10s adds ten each time, so only the tens digit moves: 44, 54, 64, 74." },
-      { "q": "Put in order from smallest to largest: 270, 207, 702. Which is smallest?", "options": ["270", "702", "207", "They are equal"], "answer": 2, "explanation": "Look at the hundreds digit first: 207 and 270 both have 2 hundreds, 702 has 7. Between 207 and 270, the tens digit 0 is less than 7, so 207 is smallest." }
+      {
+        "q": "Skip-count in 5s: 15, 20, 25, ___. What comes next?",
+        "options": [
+          "26",
+          "29",
+          "35",
+          "30"
+        ],
+        "answer": 3,
+        "explanation": "Counting in 5s adds five each time, and the number always ends in 5 or 0. After 25 comes 30."
+      },
+      {
+        "q": "What number comes just after 699?",
+        "options": [
+          "700",
+          "690",
+          "600",
+          "6910"
+        ],
+        "answer": 0,
+        "explanation": "Counting on by one across a hundreds boundary: after 699 comes 700."
+      },
+      {
+        "q": "Count back by ones from 302: 302, 301, ___. What is next?",
+        "options": [
+          "303",
+          "300",
+          "299",
+          "200"
+        ],
+        "answer": 1,
+        "explanation": "Counting back means one less each time: 302, 301, 300. Next would be 300."
+      },
+      {
+        "q": "Skip-count in 100s: 400, 500, 600, ___. What comes next?",
+        "options": [
+          "601",
+          "610",
+          "700",
+          "660"
+        ],
+        "answer": 2,
+        "explanation": "In 100s only the hundreds digit changes, adding one hundred each time. After 600 comes 700."
+      },
+      {
+        "q": "Which number is between 798 and 800?",
+        "options": [
+          "801",
+          "799",
+          "780",
+          "808"
+        ],
+        "answer": 1,
+        "explanation": "The number line goes 798, 799, 800. So 799 sits between them."
+      },
+      {
+        "q": "Which sign makes this true: 512 ___ 498?",
+        "options": [
+          "less than",
+          "greater than",
+          "equal to",
+          "cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "Compare the hundreds digit first: 5 is more than 4, so 512 is greater than 498."
+      },
+      {
+        "q": "Skip-count in 10s starting from 44: 44, 54, 64, ___?",
+        "options": [
+          "65",
+          "70",
+          "74",
+          "84"
+        ],
+        "answer": 2,
+        "explanation": "Counting in 10s adds ten each time, so only the tens digit moves: 44, 54, 64, 74."
+      },
+      {
+        "q": "Put in order from smallest to largest: 270, 207, 702. Which is smallest?",
+        "options": [
+          "270",
+          "702",
+          "207",
+          "They are equal"
+        ],
+        "answer": 2,
+        "explanation": "Look at the hundreds digit first: 207 and 270 both have 2 hundreds, 702 has 7. Between 207 and 270, the tens digit 0 is less than 7, so 207 is smallest."
+      }
     ]
   },
   "faq": [
-    { "q": "Why is skip-counting so important in Grade 2?", "a": "It is the bridge to multiplication. Counting in 5s to 100 is the five times table in disguise, so a child who skip-counts fluently meets multiplication in Grade 3 already half-prepared." },
-    { "q": "My child can count to 1000 but stumbles at 199 and 299. Is that normal?", "a": "Completely normal. Crossing a hundreds boundary is the hardest part of counting to 1000. Practise just those crossings &mdash; 199 to 200, 299 to 300 &mdash; on their own for a week and it settles." },
-    { "q": "Should I teach counting back as well as counting on?", "a": "Yes, and most parents skip it. Counting back from any number is the exact skill subtraction across a hundred will need soon, so give it equal time now." },
-    { "q": "What is the quickest way to teach comparing three-digit numbers?", "a": "One rule: check the hundreds digit first, and only move to the tens when the hundreds are equal. Drill that left-to-right habit and comparing becomes automatic." },
-    { "q": "Where can I get printable Grade 2 counting worksheets with answers?", "a": "Our Grade 2 counting numbers worksheet e-book has graded practice on skip-counting, before and after, and comparing numbers to 999, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "Why is skip-counting so important in Grade 2?",
+      "a": "It is the bridge to multiplication. Counting in 5s to 100 is the five times table in disguise, so a child who skip-counts fluently meets multiplication in Grade 3 already half-prepared."
+    },
+    {
+      "q": "My child can count to 1000 but stumbles at 199 and 299. Is that normal?",
+      "a": "Completely normal. Crossing a hundreds boundary is the hardest part of counting to 1000. Practise just those crossings &mdash; 199 to 200, 299 to 300 &mdash; on their own for a week and it settles."
+    },
+    {
+      "q": "Should I teach counting back as well as counting on?",
+      "a": "Yes, and most parents skip it. Counting back from any number is the exact skill subtraction across a hundred will need soon, so give it equal time now."
+    },
+    {
+      "q": "What is the quickest way to teach comparing three-digit numbers?",
+      "a": "One rule: check the hundreds digit first, and only move to the tens when the hundreds are equal. Drill that left-to-right habit and comparing becomes automatic."
+    },
+    {
+      "q": "Where can I get printable Grade 2 counting worksheets with answers?",
+      "a": "Our Grade 2 counting numbers worksheet e-book has graded practice on skip-counting, before and after, and comparing numbers to 999, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "slug": "grade-2-measuring-capacity-litres",
   "title": "Capacity for Grade 2: Litres, the Measuring Jug and Estimate-Then-Check + Free Quiz",
-  "meta_title": "Capacity Grade 2 Litres: Jug &amp; Half-Litre Guide",
+  "meta_title": "Capacity Grade 2 Litres: Jug & Half-Litre Guide",
   "meta_desc": "Teach capacity to Grade 2 in litres: read a measuring jug, compare holds-more, estimate then check, plus a free 8-question quiz and printable worksheet.",
-  "excerpt": "A one-litre water bottle, a half-litre milk packet and a kitchen jug are all your Grade 2 child needs to understand capacity. Here is how I teach litres and half-litres, holds-more versus holds-less, and the estimate-then-check habit &mdash; with a quick quiz at the end.",
+  "excerpt": "A one-litre water bottle, a half-litre milk packet and a kitchen jug are all your Grade 2 child needs to understand capacity. Here is how I teach litres and half-litres, holds-more versus holds-less, and the estimate-then-check habit — with a quick quiz at the end.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-measurement-capacity.jpg",
   "cta_product_slug": "grade-2-capacity-measurement-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 measuring capacity in litres",
     "level": "Grade 2",
     "questions": [
-      { "q": "Which of these is a unit for measuring capacity?", "options": ["Centimetre", "Litre", "Kilogram", "Hour"], "answer": 1, "explanation": "Capacity is how much liquid a container holds, and it is measured in litres. Centimetres measure length and kilograms measure weight." },
-      { "q": "How many half-litres make one litre?", "options": ["Two", "Three", "Four", "One"], "answer": 0, "explanation": "A half-litre is half of a litre, so two half-litres together make one full litre." },
-      { "q": "A measuring jug shows water up to the half-litre line. How much water is in it?", "options": ["One litre", "Half a litre", "Two litres", "None"], "answer": 1, "explanation": "You read the jug at the line where the water sits. The water is at the half-litre mark, so it holds half a litre." },
-      { "q": "Which container most likely holds MORE than one litre?", "options": ["A tea cup", "A milk packet", "A bucket", "A spoon"], "answer": 2, "explanation": "A bucket holds several litres, far more than a cup, a milk packet or a spoon." },
-      { "q": "A water bottle holds one litre. About how much does a small milk packet usually hold?", "options": ["Half a litre", "Five litres", "Ten litres", "One hundred litres"], "answer": 0, "explanation": "A common small milk packet holds about half a litre, which is less than the one-litre bottle." },
-      { "q": "The best way to read a measuring jug is to:", "options": ["Hold it up high and look down", "Shake it first", "Put it on a table and look at eye level", "Guess without looking"], "answer": 2, "explanation": "Stand the jug on a flat table and bring your eyes level with the water, then read the nearest marking." },
-      { "q": "Before you pour water into a jug to measure it, what should you do first?", "options": ["Estimate how much it holds", "Empty the jug into the sink", "Weigh the water", "Measure its length"], "answer": 0, "explanation": "Estimate first, then check by pouring and reading the jug. Guessing first is what makes the measuring worthwhile." },
-      { "q": "Two glasses each hold half a litre. How much do they hold together?", "options": ["Half a litre", "One litre", "Two litres", "A quarter litre"], "answer": 1, "explanation": "Half a litre plus half a litre makes one whole litre." }
+      {
+        "q": "Which of these is a unit for measuring capacity?",
+        "options": [
+          "Centimetre",
+          "Litre",
+          "Kilogram",
+          "Hour"
+        ],
+        "answer": 1,
+        "explanation": "Capacity is how much liquid a container holds, and it is measured in litres. Centimetres measure length and kilograms measure weight."
+      },
+      {
+        "q": "How many half-litres make one litre?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "One"
+        ],
+        "answer": 0,
+        "explanation": "A half-litre is half of a litre, so two half-litres together make one full litre."
+      },
+      {
+        "q": "A measuring jug shows water up to the half-litre line. How much water is in it?",
+        "options": [
+          "One litre",
+          "Half a litre",
+          "Two litres",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "You read the jug at the line where the water sits. The water is at the half-litre mark, so it holds half a litre."
+      },
+      {
+        "q": "Which container most likely holds MORE than one litre?",
+        "options": [
+          "A tea cup",
+          "A milk packet",
+          "A bucket",
+          "A spoon"
+        ],
+        "answer": 2,
+        "explanation": "A bucket holds several litres, far more than a cup, a milk packet or a spoon."
+      },
+      {
+        "q": "A water bottle holds one litre. About how much does a small milk packet usually hold?",
+        "options": [
+          "Half a litre",
+          "Five litres",
+          "Ten litres",
+          "One hundred litres"
+        ],
+        "answer": 0,
+        "explanation": "A common small milk packet holds about half a litre, which is less than the one-litre bottle."
+      },
+      {
+        "q": "The best way to read a measuring jug is to:",
+        "options": [
+          "Hold it up high and look down",
+          "Shake it first",
+          "Put it on a table and look at eye level",
+          "Guess without looking"
+        ],
+        "answer": 2,
+        "explanation": "Stand the jug on a flat table and bring your eyes level with the water, then read the nearest marking."
+      },
+      {
+        "q": "Before you pour water into a jug to measure it, what should you do first?",
+        "options": [
+          "Estimate how much it holds",
+          "Empty the jug into the sink",
+          "Weigh the water",
+          "Measure its length"
+        ],
+        "answer": 0,
+        "explanation": "Estimate first, then check by pouring and reading the jug. Guessing first is what makes the measuring worthwhile."
+      },
+      {
+        "q": "Two glasses each hold half a litre. How much do they hold together?",
+        "options": [
+          "Half a litre",
+          "One litre",
+          "Two litres",
+          "A quarter litre"
+        ],
+        "answer": 1,
+        "explanation": "Half a litre plus half a litre makes one whole litre."
+      }
     ]
   },
   "faq": [
-    { "q": "What is the difference between capacity and weight for a Grade 2 child?", "a": "Capacity is how much liquid a container can hold, measured in litres. Weight is how heavy something is, measured in kilograms. At Grade 2 keep them separate &mdash; capacity is only about pouring and filling, not about how heavy the water feels." },
-    { "q": "Do I need special equipment to teach capacity at home?", "a": "No. A clear plastic measuring jug, a one-litre water bottle, an empty half-litre milk packet, a mug and a bucket cover the whole topic. Real kitchen containers work better than pictures because the child pours the water themselves." },
-    { "q": "Why does my child think a tall thin glass holds more than a wide bowl?", "a": "Because taller looks bigger to young eyes. This is exactly why we pour into a measuring jug and read the marks &mdash; measuring settles the argument that guessing cannot, and the surprise helps the idea stick." },
-    { "q": "What does estimate-then-check mean and why does it matter?", "a": "The child guesses how much a container holds before measuring, then pours into the jug to see if the guess was right. The gap between the guess and the real answer is where the learning happens, so let them commit to a guess before you correct anything." },
-    { "q": "Where can I get printable Grade 2 capacity worksheets with answers?", "a": "Our Grade 2 capacity worksheet e-book has graded practice on litres, half-litres, reading a jug and comparing containers, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What is the difference between capacity and weight for a Grade 2 child?",
+      "a": "Capacity is how much liquid a container can hold, measured in litres. Weight is how heavy something is, measured in kilograms. At Grade 2 keep them separate &mdash; capacity is only about pouring and filling, not about how heavy the water feels."
+    },
+    {
+      "q": "Do I need special equipment to teach capacity at home?",
+      "a": "No. A clear plastic measuring jug, a one-litre water bottle, an empty half-litre milk packet, a mug and a bucket cover the whole topic. Real kitchen containers work better than pictures because the child pours the water themselves."
+    },
+    {
+      "q": "Why does my child think a tall thin glass holds more than a wide bowl?",
+      "a": "Because taller looks bigger to young eyes. This is exactly why we pour into a measuring jug and read the marks &mdash; measuring settles the argument that guessing cannot, and the surprise helps the idea stick."
+    },
+    {
+      "q": "What does estimate-then-check mean and why does it matter?",
+      "a": "The child guesses how much a container holds before measuring, then pours into the jug to see if the guess was right. The gap between the guess and the real answer is where the learning happens, so let them commit to a guess before you correct anything."
+    },
+    {
+      "q": "Where can I get printable Grade 2 capacity worksheets with answers?",
+      "a": "Our Grade 2 capacity worksheet e-book has graded practice on litres, half-litres, reading a jug and comparing containers, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

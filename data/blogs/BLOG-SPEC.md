@@ -50,6 +50,19 @@ Read it first. Match the JSON keys, the semantic-HTML content style, the quiz sh
   stacked, "unlock", "in conclusion", "embark on a journey", "in the realm of". No emoji in content.
 - FAQ answers are direct, not restatements of the question.
 
+## Entities & escaped fields (handled automatically)
+The pipeline auto-decodes HTML entities in the fields the template renders ESCAPED —
+`title`, `meta_title`, `meta_desc`, `excerpt`, and all `quiz` text (title/intro/questions/
+options/explanations) + `faq` QUESTIONS — so `&amp;`/`&mdash;`/`&#8377;` there become real
+characters on the page. `content` and `faq` ANSWERS are rendered as HTML, so keep using
+entities there. You may still author entities anywhere; just don't rely on them showing
+literally in a title.
+
+## Layout width (do not hardcode)
+Every content band in blog-post.ejs uses `max-width:var(--post-wrap)` (a single source of
+truth, currently 1120px). Never reintroduce a hardcoded `max-width:820px` band — it breaks
+alignment and makes the reading column too narrow.
+
 ## Anti-cannibalisation (non-negotiable)
 Your blog targets an INFORMATIONAL intent (how-to / practice / explain), which is DIFFERENT from the
 product page's transactional "buy worksheets" intent, and different from every other blog's intent.

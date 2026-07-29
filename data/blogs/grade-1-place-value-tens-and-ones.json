@@ -2,7 +2,7 @@
   "slug": "grade-1-place-value-tens-and-ones",
   "title": "Place Value for Grade 1: Tens and Ones Made Simple + Free Quiz",
   "meta_title": "Place Value Grade 1: Tens and Ones Made Simple",
-  "meta_desc": "Teach place value to Grade 1 with tens and ones the easy way &mdash; bundling straws, the teen-number trap, expanded form and a free quiz. Try it now.",
+  "meta_desc": "Teach place value to Grade 1 with tens and ones the easy way — bundling straws, the teen-number trap, expanded form and a free quiz. Try it now.",
   "excerpt": "The moment a child sees that 34 is three bundles of ten and four loose ones, two-digit numbers stop being scary. Here is how I teach tens and ones in Grade 1, teen traps and all, with a quick quiz to check it stuck.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-place-value.jpg",
@@ -16,21 +16,116 @@
     "about": "Grade 1 place value: tens and ones",
     "level": "Grade 1",
     "questions": [
-      { "q": "How many tens are in the number 34?", "options": ["4", "3", "7", "34"], "answer": 1, "explanation": "The first digit shows the tens. In 34, the 3 means three tens, or thirty. The 4 is the ones." },
-      { "q": "How many ones are in the number 26?", "options": ["6", "2", "8", "20"], "answer": 0, "explanation": "The second digit shows the ones. In 26, the 6 loose ones sit in the ones place; the 2 stands for two tens." },
-      { "q": "What is the expanded form of 47?", "options": ["4 + 7", "40 + 7", "47 + 0", "4 + 70"], "answer": 1, "explanation": "47 is four tens and seven ones, so it breaks into 40 + 7." },
-      { "q": "The number 14 is made of...", "options": ["4 tens and 1 one", "1 ten and 4 ones", "14 tens", "1 ten and 1 one"], "answer": 1, "explanation": "Fourteen sounds like four first, but it is written as 1 ten and 4 ones. That is the teen-number trap." },
-      { "q": "Which number has 5 tens and 0 ones?", "options": ["5", "15", "50", "55"], "answer": 2, "explanation": "Five full bundles of ten and no loose ones make 50. The zero in the ones place shows nothing is left over." },
-      { "q": "30 + 6 is the same as which number?", "options": ["36", "63", "306", "39"], "answer": 0, "explanation": "Three tens is 30 and six ones is 6, so 30 + 6 joins back into 36." },
-      { "q": "A child has 3 bundles of ten straws and 2 loose straws. How many straws?", "options": ["5", "23", "32", "302"], "answer": 2, "explanation": "Three tens make thirty, plus two loose ones, gives 32." },
-      { "q": "How many tens are in the number 50?", "options": ["0", "50", "1", "5"], "answer": 3, "explanation": "50 is five tens and zero ones, so there are 5 tens." }
+      {
+        "q": "How many tens are in the number 34?",
+        "options": [
+          "4",
+          "3",
+          "7",
+          "34"
+        ],
+        "answer": 1,
+        "explanation": "The first digit shows the tens. In 34, the 3 means three tens, or thirty. The 4 is the ones."
+      },
+      {
+        "q": "How many ones are in the number 26?",
+        "options": [
+          "6",
+          "2",
+          "8",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "The second digit shows the ones. In 26, the 6 loose ones sit in the ones place; the 2 stands for two tens."
+      },
+      {
+        "q": "What is the expanded form of 47?",
+        "options": [
+          "4 + 7",
+          "40 + 7",
+          "47 + 0",
+          "4 + 70"
+        ],
+        "answer": 1,
+        "explanation": "47 is four tens and seven ones, so it breaks into 40 + 7."
+      },
+      {
+        "q": "The number 14 is made of...",
+        "options": [
+          "4 tens and 1 one",
+          "1 ten and 4 ones",
+          "14 tens",
+          "1 ten and 1 one"
+        ],
+        "answer": 1,
+        "explanation": "Fourteen sounds like four first, but it is written as 1 ten and 4 ones. That is the teen-number trap."
+      },
+      {
+        "q": "Which number has 5 tens and 0 ones?",
+        "options": [
+          "5",
+          "15",
+          "50",
+          "55"
+        ],
+        "answer": 2,
+        "explanation": "Five full bundles of ten and no loose ones make 50. The zero in the ones place shows nothing is left over."
+      },
+      {
+        "q": "30 + 6 is the same as which number?",
+        "options": [
+          "36",
+          "63",
+          "306",
+          "39"
+        ],
+        "answer": 0,
+        "explanation": "Three tens is 30 and six ones is 6, so 30 + 6 joins back into 36."
+      },
+      {
+        "q": "A child has 3 bundles of ten straws and 2 loose straws. How many straws?",
+        "options": [
+          "5",
+          "23",
+          "32",
+          "302"
+        ],
+        "answer": 2,
+        "explanation": "Three tens make thirty, plus two loose ones, gives 32."
+      },
+      {
+        "q": "How many tens are in the number 50?",
+        "options": [
+          "0",
+          "50",
+          "1",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "50 is five tens and zero ones, so there are 5 tens."
+      }
     ]
   },
   "faq": [
-    { "q": "At what age should a child understand tens and ones?", "a": "Most children meet place value in Grade 1, around age six. By the end of the year the aim is to read any two-digit number as a count of tens and ones &mdash; for example, seeing 34 as three tens and four ones rather than the digits three and four." },
-    { "q": "Why do teen numbers confuse Grade 1 children?", "a": "Because the word order is backwards. We say &lsquo;fourteen&rsquo; with the four first, but we write it as 1 ten and 4 ones. Building teen numbers with straw bundles and saying &lsquo;one ten and four ones&rsquo; before the real word fixes this faster than correction alone." },
-    { "q": "What is the best hands-on way to teach place value?", "a": "Bundling. Give the child loose straws or matchsticks and have them tie groups of ten together. The physical act of making a bundle is what turns an abstract ten into something concrete, which is why it beats flashcards at this age." },
-    { "q": "What is expanded form and should Grade 1 learn it?", "a": "Expanded form writes a number as its tens plus its ones &mdash; 34 becomes 30 + 4. Yes, it belongs in Grade 1 once bundling is secure, because it simply records what the bundles already show and reinforces the two places." },
-    { "q": "Where can I get printable Grade 1 place value worksheets with answers?", "a": "Our Grade 1 place value worksheet e-book has graded practice on tens and ones, teen numbers, expanded form and chart reading, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "At what age should a child understand tens and ones?",
+      "a": "Most children meet place value in Grade 1, around age six. By the end of the year the aim is to read any two-digit number as a count of tens and ones &mdash; for example, seeing 34 as three tens and four ones rather than the digits three and four."
+    },
+    {
+      "q": "Why do teen numbers confuse Grade 1 children?",
+      "a": "Because the word order is backwards. We say &lsquo;fourteen&rsquo; with the four first, but we write it as 1 ten and 4 ones. Building teen numbers with straw bundles and saying &lsquo;one ten and four ones&rsquo; before the real word fixes this faster than correction alone."
+    },
+    {
+      "q": "What is the best hands-on way to teach place value?",
+      "a": "Bundling. Give the child loose straws or matchsticks and have them tie groups of ten together. The physical act of making a bundle is what turns an abstract ten into something concrete, which is why it beats flashcards at this age."
+    },
+    {
+      "q": "What is expanded form and should Grade 1 learn it?",
+      "a": "Expanded form writes a number as its tens plus its ones &mdash; 34 becomes 30 + 4. Yes, it belongs in Grade 1 once bundling is secure, because it simply records what the bundles already show and reinforces the two places."
+    },
+    {
+      "q": "Where can I get printable Grade 1 place value worksheets with answers?",
+      "a": "Our Grade 1 place value worksheet e-book has graded practice on tens and ones, teen numbers, expanded form and chart reading, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

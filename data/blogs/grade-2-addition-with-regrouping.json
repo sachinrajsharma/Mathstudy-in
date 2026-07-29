@@ -3,7 +3,7 @@
   "title": "Addition with Regrouping Grade 2: The Column Method Made Clear + Free Quiz",
   "meta_title": "Addition with Regrouping Grade 2 (Column Method)",
   "meta_desc": "Teach addition with regrouping in Grade 2 the written way: line up columns, add the ones, carry the ten. Clear steps, common-mistake fixes and a free quiz.",
-  "excerpt": "Carrying trips up more Grade 2 children than any other part of addition. Here is the column method, step by step, why we carry at all, and the two mistakes to watch for &mdash; plus a quick quiz.",
+  "excerpt": "Carrying trips up more Grade 2 children than any other part of addition. Here is the column method, step by step, why we carry at all, and the two mistakes to watch for — plus a quick quiz.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-advanced-addition.jpg",
   "cta_product_slug": "grade-2-addition-with-regrouping-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 addition with regrouping",
     "level": "Grade 2",
     "questions": [
-      { "q": "What is 27 + 8?", "options": ["35", "34", "45", "315"], "answer": 0, "explanation": "Add the ones: 7 + 8 = 15. Write 5, carry 1 ten. Tens: 2 + 1 = 3. Answer 35." },
-      { "q": "In the ones column you add 9 + 6 = 15. What do you write in the ones place, and what do you carry?", "options": ["Write 1, carry 5", "Write 5, carry 1", "Write 15, carry nothing", "Write 6, carry 1"], "answer": 1, "explanation": "Ten ones make one ten. Fifteen ones are one ten and five ones: write 5, carry the 1 ten." },
-      { "q": "What is 46 + 38?", "options": ["74", "84", "714", "83"], "answer": 1, "explanation": "Ones: 6 + 8 = 14, write 4 carry 1. Tens: 4 + 3 + 1 = 8. Answer 84." },
-      { "q": "Which column should you always add first?", "options": ["The tens", "The hundreds", "The ones", "The biggest one"], "answer": 2, "explanation": "Start at the right, in the ones, and move left, so each carry arrives before you need it." },
-      { "q": "What is 148 + 76?", "options": ["214", "224", "1114", "124"], "answer": 1, "explanation": "Ones: 8 + 6 = 14, write 4 carry 1. Tens: 4 + 7 + 1 = 12, write 2 carry 1. Hundreds: 1 + 1 = 2. Answer 224." },
-      { "q": "Why do we carry a 1 to the next column?", "options": ["To make the sum look neat", "Because ten ones make one ten", "Because the teacher says so", "To make the answer bigger"], "answer": 1, "explanation": "A place only holds one digit. Ten ones are traded for one ten, which moves left to the tens column." },
-      { "q": "A child writes 27 + 8 as the answer 315. What went wrong?", "options": ["They lined up the columns wrong", "They wrote all of 15 in the ones instead of carrying", "They added instead of subtracting", "Nothing, 315 is correct"], "answer": 1, "explanation": "7 + 8 = 15. They should write 5 and carry 1. Cramming 15 into the ones gives the wrong 315." },
-      { "q": "What is 265 + 158?", "options": ["313", "423", "413", "323"], "answer": 1, "explanation": "Ones: 5 + 8 = 13, write 3 carry 1. Tens: 6 + 5 + 1 = 12, write 2 carry 1. Hundreds: 2 + 1 + 1 = 4. Answer 423." }
+      {
+        "q": "What is 27 + 8?",
+        "options": [
+          "35",
+          "34",
+          "45",
+          "315"
+        ],
+        "answer": 0,
+        "explanation": "Add the ones: 7 + 8 = 15. Write 5, carry 1 ten. Tens: 2 + 1 = 3. Answer 35."
+      },
+      {
+        "q": "In the ones column you add 9 + 6 = 15. What do you write in the ones place, and what do you carry?",
+        "options": [
+          "Write 1, carry 5",
+          "Write 5, carry 1",
+          "Write 15, carry nothing",
+          "Write 6, carry 1"
+        ],
+        "answer": 1,
+        "explanation": "Ten ones make one ten. Fifteen ones are one ten and five ones: write 5, carry the 1 ten."
+      },
+      {
+        "q": "What is 46 + 38?",
+        "options": [
+          "74",
+          "84",
+          "714",
+          "83"
+        ],
+        "answer": 1,
+        "explanation": "Ones: 6 + 8 = 14, write 4 carry 1. Tens: 4 + 3 + 1 = 8. Answer 84."
+      },
+      {
+        "q": "Which column should you always add first?",
+        "options": [
+          "The tens",
+          "The hundreds",
+          "The ones",
+          "The biggest one"
+        ],
+        "answer": 2,
+        "explanation": "Start at the right, in the ones, and move left, so each carry arrives before you need it."
+      },
+      {
+        "q": "What is 148 + 76?",
+        "options": [
+          "214",
+          "224",
+          "1114",
+          "124"
+        ],
+        "answer": 1,
+        "explanation": "Ones: 8 + 6 = 14, write 4 carry 1. Tens: 4 + 7 + 1 = 12, write 2 carry 1. Hundreds: 1 + 1 = 2. Answer 224."
+      },
+      {
+        "q": "Why do we carry a 1 to the next column?",
+        "options": [
+          "To make the sum look neat",
+          "Because ten ones make one ten",
+          "Because the teacher says so",
+          "To make the answer bigger"
+        ],
+        "answer": 1,
+        "explanation": "A place only holds one digit. Ten ones are traded for one ten, which moves left to the tens column."
+      },
+      {
+        "q": "A child writes 27 + 8 as the answer 315. What went wrong?",
+        "options": [
+          "They lined up the columns wrong",
+          "They wrote all of 15 in the ones instead of carrying",
+          "They added instead of subtracting",
+          "Nothing, 315 is correct"
+        ],
+        "answer": 1,
+        "explanation": "7 + 8 = 15. They should write 5 and carry 1. Cramming 15 into the ones gives the wrong 315."
+      },
+      {
+        "q": "What is 265 + 158?",
+        "options": [
+          "313",
+          "423",
+          "413",
+          "323"
+        ],
+        "answer": 1,
+        "explanation": "Ones: 5 + 8 = 13, write 3 carry 1. Tens: 6 + 5 + 1 = 12, write 2 carry 1. Hundreds: 2 + 1 + 1 = 4. Answer 423."
+      }
     ]
   },
   "faq": [
-    { "q": "What is regrouping in Grade 2 addition?", "a": "Regrouping, also called carrying, is what you do when a column adds to 10 or more. You keep the ones digit in that column and carry the ten (or hundred) to the next column left, because ten ones make one ten." },
-    { "q": "Why do we add from right to left?", "a": "Because carries travel leftward. You finish the ones before you know what carries into the tens, so starting on the right means every carried 1 arrives just before you need to add it in." },
-    { "q": "My child keeps forgetting to carry. What helps?", "a": "Have them say the full number out loud &mdash; &lsquo;fourteen, so four down and one up&rsquo; &mdash; for every column. Squared paper with one digit per box also stops them cramming a two-digit sum into one place." },
-    { "q": "At what stage should Grade 2 children learn regrouping?", "a": "After they are secure with sums that do not cross ten. Start with two-digit sums that carry once, then three-digit sums, and only move to double carries once single carries feel easy." },
-    { "q": "Where can I get printable Grade 2 addition with regrouping worksheets with answers?", "a": "Our Grade 2 advanced addition worksheet e-book has graded column-addition practice, from single carries to double carries, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What is regrouping in Grade 2 addition?",
+      "a": "Regrouping, also called carrying, is what you do when a column adds to 10 or more. You keep the ones digit in that column and carry the ten (or hundred) to the next column left, because ten ones make one ten."
+    },
+    {
+      "q": "Why do we add from right to left?",
+      "a": "Because carries travel leftward. You finish the ones before you know what carries into the tens, so starting on the right means every carried 1 arrives just before you need to add it in."
+    },
+    {
+      "q": "My child keeps forgetting to carry. What helps?",
+      "a": "Have them say the full number out loud &mdash; &lsquo;fourteen, so four down and one up&rsquo; &mdash; for every column. Squared paper with one digit per box also stops them cramming a two-digit sum into one place."
+    },
+    {
+      "q": "At what stage should Grade 2 children learn regrouping?",
+      "a": "After they are secure with sums that do not cross ten. Start with two-digit sums that carry once, then three-digit sums, and only move to double carries once single carries feel easy."
+    },
+    {
+      "q": "Where can I get printable Grade 2 addition with regrouping worksheets with answers?",
+      "a": "Our Grade 2 advanced addition worksheet e-book has graded column-addition practice, from single carries to double carries, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

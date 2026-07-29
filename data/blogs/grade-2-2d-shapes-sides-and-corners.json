@@ -3,7 +3,7 @@
   "title": "2D Shapes for Grade 2: Sides and Corners Made Simple + Free Quiz",
   "meta_title": "2D Shapes Grade 2: Sides and Corners + Free Quiz",
   "meta_desc": "Learn 2D shapes for Grade 2 by counting sides and corners. Name triangles to hexagons, sort by sides, spot flat shapes around you, and try a free quiz.",
-  "excerpt": "A triangle has three corners, a hexagon has six &mdash; and once a Grade 2 child learns to count sides and corners, naming flat shapes stops being guesswork. Here is how to teach it, with a quick quiz to check the learning.",
+  "excerpt": "A triangle has three corners, a hexagon has six — and once a Grade 2 child learns to count sides and corners, naming flat shapes stops being guesswork. Here is how to teach it, with a quick quiz to check the learning.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-2d-shapes.jpg",
   "cta_product_slug": "grade-2-2d-shapes-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 2D shapes, sides and corners",
     "level": "Grade 2",
     "questions": [
-      { "q": "How many sides does a triangle have?", "options": ["2", "3", "4", "5"], "answer": 1, "explanation": "A triangle has 3 straight sides and 3 corners. The name even starts with tri, meaning three." },
-      { "q": "Which shape has no corners at all?", "options": ["Square", "Triangle", "Circle", "Pentagon"], "answer": 2, "explanation": "A circle is one smooth curve with no straight sides and no corners. Every other shape here has corners." },
-      { "q": "How many corners does a square have?", "options": ["4", "3", "6", "5"], "answer": 0, "explanation": "A square has 4 sides, so it has 4 corners. The number of sides and corners is always the same." },
-      { "q": "A shape has 6 sides. What is it called?", "options": ["Pentagon", "Rectangle", "Triangle", "Hexagon"], "answer": 3, "explanation": "Six sides make a hexagon. Think of a honeycomb cell, which the bees pack together." },
-      { "q": "How many sides does a pentagon have?", "options": ["4", "5", "6", "7"], "answer": 1, "explanation": "A pentagon has 5 sides and 5 corners." },
-      { "q": "Which pair of shapes both have exactly 4 sides?", "options": ["Triangle and circle", "Square and rectangle", "Pentagon and hexagon", "Circle and triangle"], "answer": 1, "explanation": "A square and a rectangle both have 4 sides and 4 corners. A square has all sides equal; a rectangle has two long and two short." },
-      { "q": "A clock face and a coin are the same 2D shape. Which one?", "options": ["Square", "Rectangle", "Circle", "Hexagon"], "answer": 2, "explanation": "Both are round with no corners, so both are circles." },
-      { "q": "You turn a square so it balances on one corner. What shape is it now?", "options": ["A triangle", "Still a square", "A pentagon", "A circle"], "answer": 1, "explanation": "It is still a square. A shape keeps its name when you turn it, even though it may look like a diamond." }
+      {
+        "q": "How many sides does a triangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "A triangle has 3 straight sides and 3 corners. The name even starts with tri, meaning three."
+      },
+      {
+        "q": "Which shape has no corners at all?",
+        "options": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Pentagon"
+        ],
+        "answer": 2,
+        "explanation": "A circle is one smooth curve with no straight sides and no corners. Every other shape here has corners."
+      },
+      {
+        "q": "How many corners does a square have?",
+        "options": [
+          "4",
+          "3",
+          "6",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "A square has 4 sides, so it has 4 corners. The number of sides and corners is always the same."
+      },
+      {
+        "q": "A shape has 6 sides. What is it called?",
+        "options": [
+          "Pentagon",
+          "Rectangle",
+          "Triangle",
+          "Hexagon"
+        ],
+        "answer": 3,
+        "explanation": "Six sides make a hexagon. Think of a honeycomb cell, which the bees pack together."
+      },
+      {
+        "q": "How many sides does a pentagon have?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "A pentagon has 5 sides and 5 corners."
+      },
+      {
+        "q": "Which pair of shapes both have exactly 4 sides?",
+        "options": [
+          "Triangle and circle",
+          "Square and rectangle",
+          "Pentagon and hexagon",
+          "Circle and triangle"
+        ],
+        "answer": 1,
+        "explanation": "A square and a rectangle both have 4 sides and 4 corners. A square has all sides equal; a rectangle has two long and two short."
+      },
+      {
+        "q": "A clock face and a coin are the same 2D shape. Which one?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Hexagon"
+        ],
+        "answer": 2,
+        "explanation": "Both are round with no corners, so both are circles."
+      },
+      {
+        "q": "You turn a square so it balances on one corner. What shape is it now?",
+        "options": [
+          "A triangle",
+          "Still a square",
+          "A pentagon",
+          "A circle"
+        ],
+        "answer": 1,
+        "explanation": "It is still a square. A shape keeps its name when you turn it, even though it may look like a diamond."
+      }
     ]
   },
   "faq": [
-    { "q": "What 2D shapes should a Grade 2 child know?", "a": "Six flat shapes: the circle, triangle, square, rectangle, pentagon and hexagon. For each one a child should be able to count the sides and corners and give the correct name." },
-    { "q": "What is the difference between a side and a corner?", "a": "A side is a straight edge of the shape &mdash; one of the lines you draw. A corner is the point where two sides meet. In these shapes the number of sides always equals the number of corners." },
-    { "q": "Is a square the same as a rectangle?", "a": "Both have 4 sides and 4 corners, so they are close cousins. The difference is that a square has all four sides equal, while a rectangle has two long sides and two short ones." },
-    { "q": "Why does a circle have no corners?", "a": "A circle is a single smooth curve with no straight sides. Corners only happen where two straight sides meet, and a circle has none, so it has zero corners." },
-    { "q": "Where can I get printable Grade 2 2D shapes worksheets with answers?", "a": "Our Grade 2 2D shapes worksheet e-book has graded practice on counting sides and corners, naming shapes and sorting them, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What 2D shapes should a Grade 2 child know?",
+      "a": "Six flat shapes: the circle, triangle, square, rectangle, pentagon and hexagon. For each one a child should be able to count the sides and corners and give the correct name."
+    },
+    {
+      "q": "What is the difference between a side and a corner?",
+      "a": "A side is a straight edge of the shape &mdash; one of the lines you draw. A corner is the point where two sides meet. In these shapes the number of sides always equals the number of corners."
+    },
+    {
+      "q": "Is a square the same as a rectangle?",
+      "a": "Both have 4 sides and 4 corners, so they are close cousins. The difference is that a square has all four sides equal, while a rectangle has two long sides and two short ones."
+    },
+    {
+      "q": "Why does a circle have no corners?",
+      "a": "A circle is a single smooth curve with no straight sides. Corners only happen where two straight sides meet, and a circle has none, so it has zero corners."
+    },
+    {
+      "q": "Where can I get printable Grade 2 2D shapes worksheets with answers?",
+      "a": "Our Grade 2 2D shapes worksheet e-book has graded practice on counting sides and corners, naming shapes and sorting them, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

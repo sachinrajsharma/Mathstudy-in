@@ -3,7 +3,7 @@
   "title": "Mental Subtraction for Grade 2: 5 Tricks to Do It in Your Head + Free Quiz",
   "meta_title": "Mental Subtraction Grade 2: 5 Head Tricks + Quiz",
   "meta_desc": "Teach mental subtraction to your Grade 2 child with five no-paper tricks, from counting up to subtracting 9. Free 8-question quiz and printable practice.",
-  "excerpt": "No paper, no borrowing, no tears. These are the five mental subtraction tricks I teach Grade 2 children so they can work out 34 &minus; 9 in their head, plus a quick quiz to test them.",
+  "excerpt": "No paper, no borrowing, no tears. These are the five mental subtraction tricks I teach Grade 2 children so they can work out 34 − 9 in their head, plus a quick quiz to test them.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-subtraction-strategies.jpg",
   "cta_product_slug": "grade-2-mental-subtraction-strategies-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 mental subtraction within 100",
     "level": "Grade 2",
     "questions": [
-      { "q": "What is 34 &minus; 9?", "options": ["24", "26", "23", "25"], "answer": 3, "explanation": "Subtract 10 then give 1 back: 34 &minus; 10 = 24, and 24 + 1 = 25." },
-      { "q": "Count up to find 23 &minus; 18.", "options": ["4", "5", "6", "3"], "answer": 1, "explanation": "Start at 18 and hop up: 19, 20, 21, 22, 23. That is 5 hops, so the answer is 5." },
-      { "q": "What is 56 &minus; 23?", "options": ["31", "32", "33", "34"], "answer": 2, "explanation": "Take away the tens then the ones: 56 &minus; 20 = 36, then 36 &minus; 3 = 33." },
-      { "q": "8 plus what makes 15? Use it to find 15 &minus; 8.", "options": ["6", "9", "7", "8"], "answer": 2, "explanation": "8 + 7 = 15, so 15 &minus; 8 = 7. Every subtraction hides an addition." },
-      { "q": "What is 63 &minus; 28?", "options": ["35", "34", "36", "45"], "answer": 0, "explanation": "Round 28 up to 30: 63 &minus; 30 = 33, then add back 2 to get 35." },
-      { "q": "Which is the easy way to work out 47 &minus; 9?", "options": ["Count back nine times", "Take away 10, then add 1 back", "Take away 10, then take 1 more", "Add 9 to 47"], "answer": 1, "explanation": "Subtracting 9 is the same as subtracting 10 and giving 1 back: 47 &minus; 10 = 37, then 37 + 1 = 38." },
-      { "q": "What is 41 &minus; 38?", "options": ["2", "4", "3", "5"], "answer": 2, "explanation": "The numbers are close, so count up from 38: 39, 40, 41. That is 3 hops, so the answer is 3." },
-      { "q": "A toy costs &#8377;27. You pay &#8377;30. How much change?", "options": ["&#8377;2", "&#8377;4", "&#8377;3", "&#8377;5"], "answer": 2, "explanation": "Count up from 27 to 30: 28, 29, 30. That is 3, so the change is &#8377;3." }
+      {
+        "q": "What is 34 − 9?",
+        "options": [
+          "24",
+          "26",
+          "23",
+          "25"
+        ],
+        "answer": 3,
+        "explanation": "Subtract 10 then give 1 back: 34 − 10 = 24, and 24 + 1 = 25."
+      },
+      {
+        "q": "Count up to find 23 − 18.",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Start at 18 and hop up: 19, 20, 21, 22, 23. That is 5 hops, so the answer is 5."
+      },
+      {
+        "q": "What is 56 − 23?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": 2,
+        "explanation": "Take away the tens then the ones: 56 − 20 = 36, then 36 − 3 = 33."
+      },
+      {
+        "q": "8 plus what makes 15? Use it to find 15 − 8.",
+        "options": [
+          "6",
+          "9",
+          "7",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "8 + 7 = 15, so 15 − 8 = 7. Every subtraction hides an addition."
+      },
+      {
+        "q": "What is 63 − 28?",
+        "options": [
+          "35",
+          "34",
+          "36",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "Round 28 up to 30: 63 − 30 = 33, then add back 2 to get 35."
+      },
+      {
+        "q": "Which is the easy way to work out 47 − 9?",
+        "options": [
+          "Count back nine times",
+          "Take away 10, then add 1 back",
+          "Take away 10, then take 1 more",
+          "Add 9 to 47"
+        ],
+        "answer": 1,
+        "explanation": "Subtracting 9 is the same as subtracting 10 and giving 1 back: 47 − 10 = 37, then 37 + 1 = 38."
+      },
+      {
+        "q": "What is 41 − 38?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "The numbers are close, so count up from 38: 39, 40, 41. That is 3 hops, so the answer is 3."
+      },
+      {
+        "q": "A toy costs ₹27. You pay ₹30. How much change?",
+        "options": [
+          "₹2",
+          "₹4",
+          "₹3",
+          "₹5"
+        ],
+        "answer": 2,
+        "explanation": "Count up from 27 to 30: 28, 29, 30. That is 3, so the change is ₹3."
+      }
     ]
   },
   "faq": [
-    { "q": "What is mental subtraction and why teach it in Grade 2?", "a": "It means working out a subtraction in your head without writing it down. Grade 2 is the right time because the numbers are small enough to hold in mind, and the head tricks &mdash; counting up, subtracting 9 as &minus;10 then +1 &mdash; build real number sense that speeds up everything later." },
-    { "q": "Should my child learn mental subtraction or the written borrowing method first?", "a": "Mental tricks first, for the everyday sums. The written borrowing method is for larger or trickier numbers and is a separate skill. A child who can already do 34 &minus; 9 in their head understands borrowing far more easily when it comes." },
-    { "q": "My child gets stuck subtracting across a ten. What helps?", "a": "Flip it into an addition. For 15 &minus; 8, ask &lsquo;8 plus what makes 15?&rsquo; instead. Strong number bonds to 10 and 20 fix most of these stalls, so drill the bonds until they are instant." },
-    { "q": "How much daily practice does mental subtraction need?", "a": "About ten minutes of out-loud practice, ideally woven into real life like shopping and change. Little and often beats a long weekly session. Ask the questions during ordinary moments and keep paper out of it." },
-    { "q": "Where can I get printable Grade 2 mental subtraction worksheets with answers?", "a": "Our Grade 2 mental subtraction strategies worksheet e-book has graded head-maths practice for each trick &mdash; counting up, splitting, subtracting 9 and inverse &mdash; every page with a full answer key. It is an instant PDF you can print as often as you like, and the link is in the box below." }
+    {
+      "q": "What is mental subtraction and why teach it in Grade 2?",
+      "a": "It means working out a subtraction in your head without writing it down. Grade 2 is the right time because the numbers are small enough to hold in mind, and the head tricks &mdash; counting up, subtracting 9 as &minus;10 then +1 &mdash; build real number sense that speeds up everything later."
+    },
+    {
+      "q": "Should my child learn mental subtraction or the written borrowing method first?",
+      "a": "Mental tricks first, for the everyday sums. The written borrowing method is for larger or trickier numbers and is a separate skill. A child who can already do 34 &minus; 9 in their head understands borrowing far more easily when it comes."
+    },
+    {
+      "q": "My child gets stuck subtracting across a ten. What helps?",
+      "a": "Flip it into an addition. For 15 &minus; 8, ask &lsquo;8 plus what makes 15?&rsquo; instead. Strong number bonds to 10 and 20 fix most of these stalls, so drill the bonds until they are instant."
+    },
+    {
+      "q": "How much daily practice does mental subtraction need?",
+      "a": "About ten minutes of out-loud practice, ideally woven into real life like shopping and change. Little and often beats a long weekly session. Ask the questions during ordinary moments and keep paper out of it."
+    },
+    {
+      "q": "Where can I get printable Grade 2 mental subtraction worksheets with answers?",
+      "a": "Our Grade 2 mental subtraction strategies worksheet e-book has graded head-maths practice for each trick &mdash; counting up, splitting, subtracting 9 and inverse &mdash; every page with a full answer key. It is an instant PDF you can print as often as you like, and the link is in the box below."
+    }
   ]
 }

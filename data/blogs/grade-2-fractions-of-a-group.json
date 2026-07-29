@@ -3,7 +3,7 @@
   "title": "Fraction of a Collection for Grade 2 (Sharing a Set Equally) + Free Quiz",
   "meta_title": "Fraction of a Collection Grade 2 + Free Quiz",
   "meta_desc": "Teach fraction of a collection to Grade 2: find half of 8 sweets or a quarter of 12 marbles by sharing a set equally. Free 8-question quiz and worksheet.",
-  "excerpt": "Half of a laddoo is one idea. Half of eight laddoos is a different one &mdash; and it trips up more Grade 2 children than you would expect. Here is the sharing method that makes fraction of a collection click, plus a quick quiz.",
+  "excerpt": "Half of a laddoo is one idea. Half of eight laddoos is a different one — and it trips up more Grade 2 children than you would expect. Here is the sharing method that makes fraction of a collection click, plus a quick quiz.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-fractions-collection.jpg",
   "cta_product_slug": "grade-2-fractions-of-a-collection-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 fractions of a collection",
     "level": "Grade 2",
     "questions": [
-      { "q": "What is half of 8 sweets?", "options": ["3 sweets", "4 sweets", "5 sweets", "6 sweets"], "answer": 1, "explanation": "Share the 8 sweets into 2 equal groups. Each group has 4, so half of 8 is 4." },
-      { "q": "What is a quarter of 12 marbles?", "options": ["2 marbles", "6 marbles", "3 marbles", "4 marbles"], "answer": 2, "explanation": "A quarter means 4 equal groups. Deal 12 marbles into 4 piles and each pile has 3." },
-      { "q": "What is half of 6 mangoes?", "options": ["2 mangoes", "4 mangoes", "5 mangoes", "3 mangoes"], "answer": 3, "explanation": "Share 6 mangoes into 2 equal groups. Each group has 3." },
-      { "q": "A quarter of 8 laddoos is how many?", "options": ["2 laddoos", "3 laddoos", "4 laddoos", "1 laddoo"], "answer": 0, "explanation": "A quarter means 4 equal groups. 8 dealt into 4 piles gives 2 in each pile." },
-      { "q": "How many equal groups do you make to find a quarter of a collection?", "options": ["2 groups", "4 groups", "3 groups", "1 group"], "answer": 1, "explanation": "A quarter always means 4 equal parts. You count what is in one of those parts." },
-      { "q": "There are 10 coins shared into 2 equal piles. How many coins is half?", "options": ["4 coins", "6 coins", "5 coins", "10 coins"], "answer": 2, "explanation": "10 shared into 2 equal piles gives 5 in each pile, so half of 10 is 5." },
-      { "q": "Which total can be shared into 2 equal groups with none left over?", "options": ["7 sweets", "5 sweets", "9 sweets", "8 sweets"], "answer": 3, "explanation": "8 splits into two equal fours. Odd numbers like 5, 7 and 9 leave one over." },
-      { "q": "Riya has 12 laddoos and gives half to her brother. How many does she give?", "options": ["4 laddoos", "6 laddoos", "3 laddoos", "8 laddoos"], "answer": 1, "explanation": "Share 12 into 2 equal groups. Each group has 6, so half of 12 is 6." }
+      {
+        "q": "What is half of 8 sweets?",
+        "options": [
+          "3 sweets",
+          "4 sweets",
+          "5 sweets",
+          "6 sweets"
+        ],
+        "answer": 1,
+        "explanation": "Share the 8 sweets into 2 equal groups. Each group has 4, so half of 8 is 4."
+      },
+      {
+        "q": "What is a quarter of 12 marbles?",
+        "options": [
+          "2 marbles",
+          "6 marbles",
+          "3 marbles",
+          "4 marbles"
+        ],
+        "answer": 2,
+        "explanation": "A quarter means 4 equal groups. Deal 12 marbles into 4 piles and each pile has 3."
+      },
+      {
+        "q": "What is half of 6 mangoes?",
+        "options": [
+          "2 mangoes",
+          "4 mangoes",
+          "5 mangoes",
+          "3 mangoes"
+        ],
+        "answer": 3,
+        "explanation": "Share 6 mangoes into 2 equal groups. Each group has 3."
+      },
+      {
+        "q": "A quarter of 8 laddoos is how many?",
+        "options": [
+          "2 laddoos",
+          "3 laddoos",
+          "4 laddoos",
+          "1 laddoo"
+        ],
+        "answer": 0,
+        "explanation": "A quarter means 4 equal groups. 8 dealt into 4 piles gives 2 in each pile."
+      },
+      {
+        "q": "How many equal groups do you make to find a quarter of a collection?",
+        "options": [
+          "2 groups",
+          "4 groups",
+          "3 groups",
+          "1 group"
+        ],
+        "answer": 1,
+        "explanation": "A quarter always means 4 equal parts. You count what is in one of those parts."
+      },
+      {
+        "q": "There are 10 coins shared into 2 equal piles. How many coins is half?",
+        "options": [
+          "4 coins",
+          "6 coins",
+          "5 coins",
+          "10 coins"
+        ],
+        "answer": 2,
+        "explanation": "10 shared into 2 equal piles gives 5 in each pile, so half of 10 is 5."
+      },
+      {
+        "q": "Which total can be shared into 2 equal groups with none left over?",
+        "options": [
+          "7 sweets",
+          "5 sweets",
+          "9 sweets",
+          "8 sweets"
+        ],
+        "answer": 3,
+        "explanation": "8 splits into two equal fours. Odd numbers like 5, 7 and 9 leave one over."
+      },
+      {
+        "q": "Riya has 12 laddoos and gives half to her brother. How many does she give?",
+        "options": [
+          "4 laddoos",
+          "6 laddoos",
+          "3 laddoos",
+          "8 laddoos"
+        ],
+        "answer": 1,
+        "explanation": "Share 12 into 2 equal groups. Each group has 6, so half of 12 is 6."
+      }
     ]
   },
   "faq": [
-    { "q": "What does fraction of a collection mean at Grade 2?", "a": "It means finding a fraction &mdash; usually half or a quarter &mdash; of a set of separate objects, like 8 sweets or 12 marbles. You share the whole group into equal parts and count what is in one part." },
-    { "q": "How is this different from half of a single object?", "a": "With one object, such as a chapati, you cut it into equal pieces. With a collection you do not cut anything &mdash; you deal the objects out into equal groups. Same word &lsquo;half&rsquo;, but sharing a set instead of breaking one thing." },
-    { "q": "Why do we only use certain totals like 8 or 12?", "a": "Because they share out evenly. Half of 8 gives two equal fours; half of 7 would leave one sweet spare. At Grade 2 we pick even numbers for halves and multiples of four for quarters so nothing is left over." },
-    { "q": "What is the most common mistake children make?", "a": "Counting the number of groups instead of what is in one group. For a quarter of 12 they say &lsquo;4&rsquo; because a quarter is 4 parts. Ask &lsquo;how many in ONE part?&rsquo; and have them deal out real objects to see it is 3." },
-    { "q": "Where can I get printable fraction of a collection worksheets with answers?", "a": "Our Grade 2 fractions of a collection worksheet e-book has graded practice on half and a quarter of sets of objects, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What does fraction of a collection mean at Grade 2?",
+      "a": "It means finding a fraction &mdash; usually half or a quarter &mdash; of a set of separate objects, like 8 sweets or 12 marbles. You share the whole group into equal parts and count what is in one part."
+    },
+    {
+      "q": "How is this different from half of a single object?",
+      "a": "With one object, such as a chapati, you cut it into equal pieces. With a collection you do not cut anything &mdash; you deal the objects out into equal groups. Same word &lsquo;half&rsquo;, but sharing a set instead of breaking one thing."
+    },
+    {
+      "q": "Why do we only use certain totals like 8 or 12?",
+      "a": "Because they share out evenly. Half of 8 gives two equal fours; half of 7 would leave one sweet spare. At Grade 2 we pick even numbers for halves and multiples of four for quarters so nothing is left over."
+    },
+    {
+      "q": "What is the most common mistake children make?",
+      "a": "Counting the number of groups instead of what is in one group. For a quarter of 12 they say &lsquo;4&rsquo; because a quarter is 4 parts. Ask &lsquo;how many in ONE part?&rsquo; and have them deal out real objects to see it is 3."
+    },
+    {
+      "q": "Where can I get printable fraction of a collection worksheets with answers?",
+      "a": "Our Grade 2 fractions of a collection worksheet e-book has graded practice on half and a quarter of sets of objects, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

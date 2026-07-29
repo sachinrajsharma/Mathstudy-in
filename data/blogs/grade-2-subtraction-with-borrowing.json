@@ -3,7 +3,7 @@
   "title": "Subtraction with Borrowing for Grade 2: Step-by-Step (+ Free Quiz)",
   "meta_title": "Subtraction with Borrowing Grade 2: Step-by-Step",
   "meta_desc": "Teach subtraction with borrowing in Grade 2 the clear way: exchange a ten for ten ones, work column by column, and check by adding back. Free quiz inside.",
-  "excerpt": "The moment a Grade 2 child meets 52 &minus; 27, the fingers come out and the guessing starts. Here is the written borrowing method explained the way it actually clicks, with a free 8-question quiz to test it.",
+  "excerpt": "The moment a Grade 2 child meets 52 − 27, the fingers come out and the guessing starts. Here is the written borrowing method explained the way it actually clicks, with a free 8-question quiz to test it.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-advanced-subtraction.jpg",
   "cta_product_slug": "grade-2-subtraction-with-borrowing-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 two-digit subtraction with borrowing",
     "level": "Grade 2",
     "questions": [
-      { "q": "What is 52 &minus; 27?", "options": ["35", "25", "20", "15"], "answer": 1, "explanation": "The ones need borrowing: 2 becomes 12, so 12 &minus; 7 = 5. The tens drop to 4, and 4 &minus; 2 = 2. Answer: 25." },
-      { "q": "In 43 &minus; 18, what does the ones column become after borrowing?", "options": ["13 &minus; 8", "3 &minus; 8", "13 &minus; 1", "4 &minus; 8"], "answer": 0, "explanation": "You borrow one ten, so the 3 ones become 13 ones. The ones column is 13 &minus; 8 = 5." },
-      { "q": "What is 60 &minus; 24?", "options": ["44", "46", "36", "34"], "answer": 2, "explanation": "0 ones cannot take 4, so borrow: 10 &minus; 4 = 6. The tens go from 6 to 5, and 5 &minus; 2 = 3. Answer: 36." },
-      { "q": "Which subtraction does NOT need borrowing?", "options": ["71 &minus; 35", "84 &minus; 29", "56 &minus; 23", "40 &minus; 17"], "answer": 2, "explanation": "In 56 &minus; 23 the top ones digit 6 is already bigger than 3, so no exchange is needed." },
-      { "q": "After borrowing in 74 &minus; 46, what is the new tens digit on top?", "options": ["7", "5", "8", "6"], "answer": 3, "explanation": "You borrow one ten from the 7, so it drops by one to 6. Then the tens column is 6 &minus; 4 = 2." },
-      { "q": "What is 85 &minus; 47?", "options": ["38", "42", "48", "32"], "answer": 0, "explanation": "5 cannot take 7, so borrow: 15 &minus; 7 = 8. Tens drop to 7, and 7 &minus; 4 = 3. Answer: 38." },
-      { "q": "You worked out 63 &minus; 28 = 35. How do you check it by adding back?", "options": ["35 &minus; 28", "63 + 28", "35 + 28", "63 &minus; 35"], "answer": 2, "explanation": "Add the answer to the number you took away: 35 + 28 should give 63. It does, so 35 is correct." },
-      { "q": "A shop had 90 pens and sold 55. How many are left?", "options": ["45", "25", "40", "35"], "answer": 3, "explanation": "90 &minus; 55: borrow so 10 &minus; 5 = 5 ones; tens go from 9 to 8, and 8 &minus; 5 = 3. Answer: 35 pens." }
+      {
+        "q": "What is 52 − 27?",
+        "options": [
+          "35",
+          "25",
+          "20",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "The ones need borrowing: 2 becomes 12, so 12 − 7 = 5. The tens drop to 4, and 4 − 2 = 2. Answer: 25."
+      },
+      {
+        "q": "In 43 − 18, what does the ones column become after borrowing?",
+        "options": [
+          "13 − 8",
+          "3 − 8",
+          "13 − 1",
+          "4 − 8"
+        ],
+        "answer": 0,
+        "explanation": "You borrow one ten, so the 3 ones become 13 ones. The ones column is 13 − 8 = 5."
+      },
+      {
+        "q": "What is 60 − 24?",
+        "options": [
+          "44",
+          "46",
+          "36",
+          "34"
+        ],
+        "answer": 2,
+        "explanation": "0 ones cannot take 4, so borrow: 10 − 4 = 6. The tens go from 6 to 5, and 5 − 2 = 3. Answer: 36."
+      },
+      {
+        "q": "Which subtraction does NOT need borrowing?",
+        "options": [
+          "71 − 35",
+          "84 − 29",
+          "56 − 23",
+          "40 − 17"
+        ],
+        "answer": 2,
+        "explanation": "In 56 − 23 the top ones digit 6 is already bigger than 3, so no exchange is needed."
+      },
+      {
+        "q": "After borrowing in 74 − 46, what is the new tens digit on top?",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "You borrow one ten from the 7, so it drops by one to 6. Then the tens column is 6 − 4 = 2."
+      },
+      {
+        "q": "What is 85 − 47?",
+        "options": [
+          "38",
+          "42",
+          "48",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "5 cannot take 7, so borrow: 15 − 7 = 8. Tens drop to 7, and 7 − 4 = 3. Answer: 38."
+      },
+      {
+        "q": "You worked out 63 − 28 = 35. How do you check it by adding back?",
+        "options": [
+          "35 − 28",
+          "63 + 28",
+          "35 + 28",
+          "63 − 35"
+        ],
+        "answer": 2,
+        "explanation": "Add the answer to the number you took away: 35 + 28 should give 63. It does, so 35 is correct."
+      },
+      {
+        "q": "A shop had 90 pens and sold 55. How many are left?",
+        "options": [
+          "45",
+          "25",
+          "40",
+          "35"
+        ],
+        "answer": 3,
+        "explanation": "90 − 55: borrow so 10 − 5 = 5 ones; tens go from 9 to 8, and 8 − 5 = 3. Answer: 35 pens."
+      }
     ]
   },
   "faq": [
-    { "q": "What is the difference between borrowing and regrouping?", "a": "They are two names for the same step. NCERT and newer textbooks say regrouping; older books and many parents say borrowing. Both mean exchanging one ten for ten ones so the ones column has enough to subtract from." },
-    { "q": "Why does my child do the smaller digit minus the bigger one?", "a": "Because 7 looks bigger than 2, they flip it to 7 &minus; 2. Fix it by always asking &lsquo;is the top digit big enough?&rsquo; first &mdash; if not, borrow before subtracting. Practising with straws or coins makes the exchange concrete." },
-    { "q": "Should I teach borrowing before or after mental subtraction?", "a": "Teach the written column method here once single-digit subtraction is secure. Mental shortcuts are a separate skill for another day &mdash; mixing both at once tends to confuse a Grade 2 child." },
-    { "q": "How can my child check a subtraction answer alone?", "a": "By adding back: the answer plus the number taken away should return the starting number. For 52 &minus; 27 = 25, check 25 + 27 = 52. If it does not match, they know to redo it &mdash; usually a forgotten tens reduction." },
-    { "q": "Where can I get printable Grade 2 borrowing worksheets with answers?", "a": "Our Grade 2 subtraction e-book has graded column-subtraction practice, from no-borrow warm-ups to two-digit regrouping, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What is the difference between borrowing and regrouping?",
+      "a": "They are two names for the same step. NCERT and newer textbooks say regrouping; older books and many parents say borrowing. Both mean exchanging one ten for ten ones so the ones column has enough to subtract from."
+    },
+    {
+      "q": "Why does my child do the smaller digit minus the bigger one?",
+      "a": "Because 7 looks bigger than 2, they flip it to 7 &minus; 2. Fix it by always asking &lsquo;is the top digit big enough?&rsquo; first &mdash; if not, borrow before subtracting. Practising with straws or coins makes the exchange concrete."
+    },
+    {
+      "q": "Should I teach borrowing before or after mental subtraction?",
+      "a": "Teach the written column method here once single-digit subtraction is secure. Mental shortcuts are a separate skill for another day &mdash; mixing both at once tends to confuse a Grade 2 child."
+    },
+    {
+      "q": "How can my child check a subtraction answer alone?",
+      "a": "By adding back: the answer plus the number taken away should return the starting number. For 52 &minus; 27 = 25, check 25 + 27 = 52. If it does not match, they know to redo it &mdash; usually a forgotten tens reduction."
+    },
+    {
+      "q": "Where can I get printable Grade 2 borrowing worksheets with answers?",
+      "a": "Our Grade 2 subtraction e-book has graded column-subtraction practice, from no-borrow warm-ups to two-digit regrouping, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

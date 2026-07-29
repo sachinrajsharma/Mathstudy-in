@@ -16,21 +16,116 @@
     "about": "Grade 1 addition word problems within 20",
     "level": "Grade 1",
     "questions": [
-      { "q": "Meera picked 8 mangoes in the morning and 6 more in the evening. How many did she pick in all?", "options": ["12", "13", "14", "15"], "answer": 2, "explanation": "The words 'more' and 'in all' mean add. 8 + 6: make ten to get 10 + 4 = 14 mangoes." },
-      { "q": "Rohan had 9 marbles. His friend gave him 5 more. How many does he have now?", "options": ["13", "14", "15", "12"], "answer": 1, "explanation": "'Gave him more' means the group grows, so add. 9 + 5 = 14 marbles." },
-      { "q": "Sara saved &#8377;7 last week and &#8377;8 this week. How much altogether?", "options": ["&#8377;14", "&#8377;16", "&#8377;15", "&#8377;13"], "answer": 2, "explanation": "'Altogether' means add. 7 + 8 is a near-double: double 7 is 14, plus 1 is &#8377;15." },
-      { "q": "There were 6 girls and 7 boys on the bus. How many children in total?", "options": ["12", "14", "11", "13"], "answer": 3, "explanation": "Two groups joined by 'and', asking for the total, so add. 6 + 7 = 13 children." },
-      { "q": "A shop had 10 red balloons and 4 blue balloons. How many balloons altogether?", "options": ["14", "13", "15", "16"], "answer": 0, "explanation": "'Altogether' means add the two groups. 10 + 4 = 14 balloons." },
-      { "q": "Aarav read 5 pages before lunch and 5 pages after. How many pages in all?", "options": ["9", "11", "10", "12"], "answer": 2, "explanation": "'In all' means add. This is a double: 5 + 5 = 10 pages." },
-      { "q": "Which word in a story usually tells you to add?", "options": ["Left", "Altogether", "Took away", "Fewer"], "answer": 1, "explanation": "'Altogether' signals combining two groups, which means addition. 'Left' and 'took away' usually mean subtract." },
-      { "q": "Priya had 8 stickers and her mother gave her 7 more. How many now?", "options": ["14", "16", "13", "15"], "answer": 3, "explanation": "'Gave her more' means add. 8 + 7: make ten to get 10 + 5 = 15 stickers." }
+      {
+        "q": "Meera picked 8 mangoes in the morning and 6 more in the evening. How many did she pick in all?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "The words 'more' and 'in all' mean add. 8 + 6: make ten to get 10 + 4 = 14 mangoes."
+      },
+      {
+        "q": "Rohan had 9 marbles. His friend gave him 5 more. How many does he have now?",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "'Gave him more' means the group grows, so add. 9 + 5 = 14 marbles."
+      },
+      {
+        "q": "Sara saved ₹7 last week and ₹8 this week. How much altogether?",
+        "options": [
+          "₹14",
+          "₹16",
+          "₹15",
+          "₹13"
+        ],
+        "answer": 2,
+        "explanation": "'Altogether' means add. 7 + 8 is a near-double: double 7 is 14, plus 1 is ₹15."
+      },
+      {
+        "q": "There were 6 girls and 7 boys on the bus. How many children in total?",
+        "options": [
+          "12",
+          "14",
+          "11",
+          "13"
+        ],
+        "answer": 3,
+        "explanation": "Two groups joined by 'and', asking for the total, so add. 6 + 7 = 13 children."
+      },
+      {
+        "q": "A shop had 10 red balloons and 4 blue balloons. How many balloons altogether?",
+        "options": [
+          "14",
+          "13",
+          "15",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "'Altogether' means add the two groups. 10 + 4 = 14 balloons."
+      },
+      {
+        "q": "Aarav read 5 pages before lunch and 5 pages after. How many pages in all?",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "'In all' means add. This is a double: 5 + 5 = 10 pages."
+      },
+      {
+        "q": "Which word in a story usually tells you to add?",
+        "options": [
+          "Left",
+          "Altogether",
+          "Took away",
+          "Fewer"
+        ],
+        "answer": 1,
+        "explanation": "'Altogether' signals combining two groups, which means addition. 'Left' and 'took away' usually mean subtract."
+      },
+      {
+        "q": "Priya had 8 stickers and her mother gave her 7 more. How many now?",
+        "options": [
+          "14",
+          "16",
+          "13",
+          "15"
+        ],
+        "answer": 3,
+        "explanation": "'Gave her more' means add. 8 + 7: make ten to get 10 + 5 = 15 stickers."
+      }
     ]
   },
   "faq": [
-    { "q": "Why can my child do sums but not word problems?", "a": "Because a word problem asks them to find the sum before solving it. The arithmetic is the easy part; reading the story, picking out the two numbers and choosing the right operation is the real work. Practise the finding, not just the adding." },
-    { "q": "What words tell a Grade 1 child to add?", "a": "The reliable signals are 'altogether', 'in all', 'total', 'both', 'more' and two groups joined by 'and'. Teach your child to circle that word first &mdash; but always check that the answer should be bigger than the numbers in the story." },
-    { "q": "How do I stop my child choosing the wrong operation?", "a": "Ask one question every time: will the answer be bigger or smaller than the numbers in the story? If two groups come together, it is bigger, so you add. That sanity check catches most wrong-operation mistakes before they reach the page." },
-    { "q": "Should I read the word problem for my child?", "a": "Read it with them at first, twice each time. Once they can decode simple words, let them read it themselves &mdash; the reading is part of the maths. Only step in for a word they genuinely cannot sound out." },
-    { "q": "Where can I get printable Grade 1 addition word problem worksheets?", "a": "Our Grade 1 addition word problems e-book has graded story sums in everyday Indian settings &mdash; mangoes, marbles, rupees &mdash; each with a full answer key, as an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "Why can my child do sums but not word problems?",
+      "a": "Because a word problem asks them to find the sum before solving it. The arithmetic is the easy part; reading the story, picking out the two numbers and choosing the right operation is the real work. Practise the finding, not just the adding."
+    },
+    {
+      "q": "What words tell a Grade 1 child to add?",
+      "a": "The reliable signals are 'altogether', 'in all', 'total', 'both', 'more' and two groups joined by 'and'. Teach your child to circle that word first &mdash; but always check that the answer should be bigger than the numbers in the story."
+    },
+    {
+      "q": "How do I stop my child choosing the wrong operation?",
+      "a": "Ask one question every time: will the answer be bigger or smaller than the numbers in the story? If two groups come together, it is bigger, so you add. That sanity check catches most wrong-operation mistakes before they reach the page."
+    },
+    {
+      "q": "Should I read the word problem for my child?",
+      "a": "Read it with them at first, twice each time. Once they can decode simple words, let them read it themselves &mdash; the reading is part of the maths. Only step in for a word they genuinely cannot sound out."
+    },
+    {
+      "q": "Where can I get printable Grade 1 addition word problem worksheets?",
+      "a": "Our Grade 1 addition word problems e-book has graded story sums in everyday Indian settings &mdash; mangoes, marbles, rupees &mdash; each with a full answer key, as an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

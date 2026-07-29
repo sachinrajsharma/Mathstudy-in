@@ -16,21 +16,116 @@
     "about": "Grade 1 data handling: sorting, tallies and pictographs",
     "level": "Grade 1",
     "questions": [
-      { "q": "A child sorts a box of crayons into a red pile and a blue pile. What is the sorting rule?", "options": ["Size", "Colour", "Shape", "Length"], "answer": 1, "explanation": "The crayons are grouped by their colour, so the rule is colour." },
-      { "q": "In tally marks, how do we show a group of five?", "options": ["Five strokes in a circle", "Four strokes with the fifth crossing them", "Five dots", "The number 5 written down"], "answer": 1, "explanation": "The fifth stroke is drawn across the first four to make a bundle of five." },
-      { "q": "The tally |||| || stands for which number?", "options": ["5", "6", "7", "8"], "answer": 2, "explanation": "One bundle of five plus two more strokes is 5 + 2 = 7." },
-      { "q": "On a pictograph, one apple picture stands for one apple. The apple row has 6 pictures. How many apples?", "options": ["3", "6", "12", "16"], "answer": 1, "explanation": "One picture means one, so 6 pictures means 6 apples." },
-      { "q": "Mango row has 8 pictures, banana row has 5. Which fruit is liked by more children?", "options": ["Banana", "Mango", "Both the same", "Cannot tell"], "answer": 1, "explanation": "The mango row is longer (8 is more than 5), so more children like mango." },
-      { "q": "On a pictograph, how do you find which group has the FEWEST?", "options": ["Find the longest row", "Find the shortest row", "Count all the rows", "Look at the first row"], "answer": 1, "explanation": "The group with the fewest has the shortest row of pictures." },
-      { "q": "A pictograph shows: dogs 4, cats 3, fish 2. How many pets altogether?", "options": ["7", "8", "9", "10"], "answer": 2, "explanation": "Add the rows: 4 + 3 + 2 = 9 pets in all." },
-      { "q": "Mango row has 7 pictures, banana row has 4. How many MORE children chose mango than banana?", "options": ["2", "3", "4", "11"], "answer": 1, "explanation": "Compare by subtracting: 7 &minus; 4 = 3 more children chose mango." }
+      {
+        "q": "A child sorts a box of crayons into a red pile and a blue pile. What is the sorting rule?",
+        "options": [
+          "Size",
+          "Colour",
+          "Shape",
+          "Length"
+        ],
+        "answer": 1,
+        "explanation": "The crayons are grouped by their colour, so the rule is colour."
+      },
+      {
+        "q": "In tally marks, how do we show a group of five?",
+        "options": [
+          "Five strokes in a circle",
+          "Four strokes with the fifth crossing them",
+          "Five dots",
+          "The number 5 written down"
+        ],
+        "answer": 1,
+        "explanation": "The fifth stroke is drawn across the first four to make a bundle of five."
+      },
+      {
+        "q": "The tally |||| || stands for which number?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "One bundle of five plus two more strokes is 5 + 2 = 7."
+      },
+      {
+        "q": "On a pictograph, one apple picture stands for one apple. The apple row has 6 pictures. How many apples?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "One picture means one, so 6 pictures means 6 apples."
+      },
+      {
+        "q": "Mango row has 8 pictures, banana row has 5. Which fruit is liked by more children?",
+        "options": [
+          "Banana",
+          "Mango",
+          "Both the same",
+          "Cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "The mango row is longer (8 is more than 5), so more children like mango."
+      },
+      {
+        "q": "On a pictograph, how do you find which group has the FEWEST?",
+        "options": [
+          "Find the longest row",
+          "Find the shortest row",
+          "Count all the rows",
+          "Look at the first row"
+        ],
+        "answer": 1,
+        "explanation": "The group with the fewest has the shortest row of pictures."
+      },
+      {
+        "q": "A pictograph shows: dogs 4, cats 3, fish 2. How many pets altogether?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "Add the rows: 4 + 3 + 2 = 9 pets in all."
+      },
+      {
+        "q": "Mango row has 7 pictures, banana row has 4. How many MORE children chose mango than banana?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "Compare by subtracting: 7 − 4 = 3 more children chose mango."
+      }
     ]
   },
   "faq": [
-    { "q": "What does data handling mean in Grade 1?", "a": "At this age it means three simple things: sorting objects into groups, counting how many are in each group (often with tally marks), and showing those counts in a picture graph. There are no averages or bar-graph axes yet." },
-    { "q": "What is a pictograph for kids?", "a": "A pictograph is a picture graph. Each count is shown as a row of small pictures, and in Grade 1 one picture always stands for one thing &mdash; so the longer the row, the bigger the count." },
-    { "q": "Why teach tally marks?", "a": "Tally marks let a child count a growing group one mark at a time, and bundling every fifth mark quietly teaches counting in fives &mdash; a head start on skip counting and multiplication." },
-    { "q": "Should a Grade 1 child learn bar graphs?", "a": "Not yet. Bar graphs with number axes and scaled pictographs (one picture meaning two or five) are Grade 2 and beyond. Rushing them usually confuses a child who has just met the one-picture-for-one idea." },
-    { "q": "Where can I get printable Grade 1 data handling worksheets?", "a": "Our Grade 1 data-handling worksheet e-book has graded sorting, tally and pictograph tasks, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What does data handling mean in Grade 1?",
+      "a": "At this age it means three simple things: sorting objects into groups, counting how many are in each group (often with tally marks), and showing those counts in a picture graph. There are no averages or bar-graph axes yet."
+    },
+    {
+      "q": "What is a pictograph for kids?",
+      "a": "A pictograph is a picture graph. Each count is shown as a row of small pictures, and in Grade 1 one picture always stands for one thing &mdash; so the longer the row, the bigger the count."
+    },
+    {
+      "q": "Why teach tally marks?",
+      "a": "Tally marks let a child count a growing group one mark at a time, and bundling every fifth mark quietly teaches counting in fives &mdash; a head start on skip counting and multiplication."
+    },
+    {
+      "q": "Should a Grade 1 child learn bar graphs?",
+      "a": "Not yet. Bar graphs with number axes and scaled pictographs (one picture meaning two or five) are Grade 2 and beyond. Rushing them usually confuses a child who has just met the one-picture-for-one idea."
+    },
+    {
+      "q": "Where can I get printable Grade 1 data handling worksheets?",
+      "a": "Our Grade 1 data-handling worksheet e-book has graded sorting, tally and pictograph tasks, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

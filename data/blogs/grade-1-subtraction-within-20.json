@@ -3,7 +3,7 @@
   "title": "Subtraction Within 20 for Grade 1: 4 Smart Strategies + Free Quiz",
   "meta_title": "Subtraction Within 20 Grade 1: 4 Strategies",
   "meta_desc": "The four subtraction strategies for Grade 1 within 20 - count back, count up, number bonds and bridging ten - with a free quiz and printable practice.",
-  "excerpt": "Some subtractions within 20 are best counted back, others counted up, and 15 &minus; 8 needs a different trick entirely. Here is how to help a Grade 1 child pick the smart strategy, plus a quiz to test it.",
+  "excerpt": "Some subtractions within 20 are best counted back, others counted up, and 15 − 8 needs a different trick entirely. Here is how to help a Grade 1 child pick the smart strategy, plus a quiz to test it.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-subtraction-strategies.jpg",
   "cta_product_slug": "grade-1-subtraction-strategies-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 subtraction strategies within 20",
     "level": "Grade 1",
     "questions": [
-      { "q": "What is 17 &minus; 2? Count back from the bigger number.", "options": ["15", "16", "14", "13"], "answer": 0, "explanation": "Counting back is best here because you are taking away a small number. Start at 17 and hop back two: 16, 15." },
-      { "q": "What is 15 &minus; 13? The numbers are close, so which strategy is smart?", "options": ["Count back thirteen times", "Add 15 and 13", "Bridge through ten", "Count up from 13 to 15"], "answer": 3, "explanation": "When the two numbers are close, count up to find the difference. From 13 it is two hops to 15, so the answer is 2." },
-      { "q": "What is 15 &minus; 13?", "options": ["3", "2", "1", "4"], "answer": 1, "explanation": "Count up from 13: fourteen, fifteen. That is two hops, so 15 &minus; 13 = 2." },
-      { "q": "You know that 6 + 4 = 10. What is 10 &minus; 6?", "options": ["6", "3", "4", "5"], "answer": 2, "explanation": "This is a number bond. The family 6, 4, 10 gives you 10 &minus; 6 = 4 with no counting at all." },
-      { "q": "What is 15 &minus; 8? Bridge through ten.", "options": ["6", "8", "9", "7"], "answer": 3, "explanation": "Bridge through ten: 15 &minus; 5 lands on 10, then take away the leftover 3. 10 &minus; 3 = 7." },
-      { "q": "What is 14 &minus; 6?", "options": ["8", "7", "9", "6"], "answer": 0, "explanation": "Bridge through ten: 14 &minus; 4 gets to 10, then take away the leftover 2. 10 &minus; 2 = 8." },
-      { "q": "Which subtraction is best solved by counting up?", "options": ["16 &minus; 2", "18 &minus; 16", "13 &minus; 3", "17 &minus; 1"], "answer": 1, "explanation": "18 and 16 are close together, so counting up from 16 to 18 is quick: two hops, difference 2." },
-      { "q": "A child has 13 stickers and gives away 3. How many are left?", "options": ["9", "11", "10", "12"], "answer": 2, "explanation": "Use the bond: 13 is 10 and 3, so taking away 3 leaves exactly 10. 13 &minus; 3 = 10." }
+      {
+        "q": "What is 17 − 2? Count back from the bigger number.",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "Counting back is best here because you are taking away a small number. Start at 17 and hop back two: 16, 15."
+      },
+      {
+        "q": "What is 15 − 13? The numbers are close, so which strategy is smart?",
+        "options": [
+          "Count back thirteen times",
+          "Add 15 and 13",
+          "Bridge through ten",
+          "Count up from 13 to 15"
+        ],
+        "answer": 3,
+        "explanation": "When the two numbers are close, count up to find the difference. From 13 it is two hops to 15, so the answer is 2."
+      },
+      {
+        "q": "What is 15 − 13?",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Count up from 13: fourteen, fifteen. That is two hops, so 15 − 13 = 2."
+      },
+      {
+        "q": "You know that 6 + 4 = 10. What is 10 − 6?",
+        "options": [
+          "6",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "This is a number bond. The family 6, 4, 10 gives you 10 − 6 = 4 with no counting at all."
+      },
+      {
+        "q": "What is 15 − 8? Bridge through ten.",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Bridge through ten: 15 − 5 lands on 10, then take away the leftover 3. 10 − 3 = 7."
+      },
+      {
+        "q": "What is 14 − 6?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Bridge through ten: 14 − 4 gets to 10, then take away the leftover 2. 10 − 2 = 8."
+      },
+      {
+        "q": "Which subtraction is best solved by counting up?",
+        "options": [
+          "16 − 2",
+          "18 − 16",
+          "13 − 3",
+          "17 − 1"
+        ],
+        "answer": 1,
+        "explanation": "18 and 16 are close together, so counting up from 16 to 18 is quick: two hops, difference 2."
+      },
+      {
+        "q": "A child has 13 stickers and gives away 3. How many are left?",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Use the bond: 13 is 10 and 3, so taking away 3 leaves exactly 10. 13 − 3 = 10."
+      }
     ]
   },
   "faq": [
-    { "q": "What does subtraction within 20 actually cover?", "a": "Take-away and difference questions where both numbers and the answer stay at 20 or below, including sums that cross the ten-line like 15 &minus; 8. It is the range where a child moves beyond finger-counting into real strategies." },
-    { "q": "When should my child count back and when should they count up?", "a": "Count back when taking away a small number, such as 17 &minus; 2. Count up when the two numbers are close, such as 15 &minus; 13, where finding the gap is far quicker than hopping backwards." },
-    { "q": "Why is bridging through ten so important?", "a": "It is the strategy for sums that cross the ten-line, like 14 &minus; 6, which are too big to count back easily. You subtract down to 10 first, then take away the rest &mdash; two clean steps instead of one messy one." },
-    { "q": "My child mixes up all the strategies. Is that normal?", "a": "Completely. Choosing the right strategy is a skill that comes with mixed practice. Keep bonds to ten solid first, then practise sums of different types together so the child has to look and decide rather than count on autopilot." },
-    { "q": "Where can I get printable Grade 1 subtraction worksheets with answers?", "a": "Our Grade 1 subtraction strategies worksheet e-book has graded practice for counting back, counting up, bonds and bridging through ten, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What does subtraction within 20 actually cover?",
+      "a": "Take-away and difference questions where both numbers and the answer stay at 20 or below, including sums that cross the ten-line like 15 &minus; 8. It is the range where a child moves beyond finger-counting into real strategies."
+    },
+    {
+      "q": "When should my child count back and when should they count up?",
+      "a": "Count back when taking away a small number, such as 17 &minus; 2. Count up when the two numbers are close, such as 15 &minus; 13, where finding the gap is far quicker than hopping backwards."
+    },
+    {
+      "q": "Why is bridging through ten so important?",
+      "a": "It is the strategy for sums that cross the ten-line, like 14 &minus; 6, which are too big to count back easily. You subtract down to 10 first, then take away the rest &mdash; two clean steps instead of one messy one."
+    },
+    {
+      "q": "My child mixes up all the strategies. Is that normal?",
+      "a": "Completely. Choosing the right strategy is a skill that comes with mixed practice. Keep bonds to ten solid first, then practise sums of different types together so the child has to look and decide rather than count on autopilot."
+    },
+    {
+      "q": "Where can I get printable Grade 1 subtraction worksheets with answers?",
+      "a": "Our Grade 1 subtraction strategies worksheet e-book has graded practice for counting back, counting up, bonds and bridging through ten, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

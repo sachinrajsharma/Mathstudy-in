@@ -3,7 +3,7 @@
   "title": "Money for Grade 2: Rupees and Paise Made Easy (with a Free Quiz)",
   "meta_title": "Money for Grade 2: Rupees and Paise + Free Quiz",
   "meta_desc": "Teach Grade 2 money the easy way: recognise rupees and paise, make amounts, add shop prices and find change, with a free 8-question quiz and worksheet.",
-  "excerpt": "Coins and notes are the first maths a child actually holds in their hand. Here is how I teach Grade 2 money &mdash; rupees and paise, making amounts, shop totals and change &mdash; plus a quick quiz.",
+  "excerpt": "Coins and notes are the first maths a child actually holds in their hand. Here is how I teach Grade 2 money — rupees and paise, making amounts, shop totals and change — plus a quick quiz.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-measurement-money.jpg",
   "cta_product_slug": "grade-2-money-worksheets-with-answers",
@@ -13,24 +13,119 @@
   "quiz": {
     "title": "Grade 2 Money Quiz: Rupees and Paise",
     "intro": "Eight quick questions on coins, notes, making amounts, shop totals and change. Pick an answer for each, then press Check my score.",
-    "about": "Grade 2 Indian money &mdash; rupees and paise",
+    "about": "Grade 2 Indian money — rupees and paise",
     "level": "Grade 2",
     "questions": [
-      { "q": "How many paise make one rupee (&#8377;1)?", "options": ["10 paise", "50 paise", "100 paise", "1000 paise"], "answer": 2, "explanation": "One rupee is made of 100 paise. That is the same 100 you meet when counting in tens." },
-      { "q": "Which of these makes exactly &#8377;10?", "options": ["Two &#8377;5 coins", "Three &#8377;2 coins", "One &#8377;5 coin", "Four &#8377;2 coins"], "answer": 0, "explanation": "Two &#8377;5 coins are &#8377;5 + &#8377;5 = &#8377;10. Three &#8377;2 coins make only &#8377;6." },
-      { "q": "Riya buys a pencil for &#8377;7 and an eraser for &#8377;5. What does she pay in all?", "options": ["&#8377;10", "&#8377;12", "&#8377;13", "&#8377;11"], "answer": 1, "explanation": "&#8377;7 + &#8377;5 = &#8377;12. Adding the rupee sign does not change the addition." },
-      { "q": "A chocolate costs &#8377;15. You pay with a &#8377;20 note. How much change do you get?", "options": ["&#8377;10", "&#8377;3", "&#8377;15", "&#8377;5"], "answer": 3, "explanation": "Change is &#8377;20 &minus; &#8377;15 = &#8377;5. Count up: fifteen and five more makes twenty." },
-      { "q": "Which is more money, &#8377;50 or 50 paise?", "options": ["50 paise", "They are equal", "&#8377;50", "Cannot say"], "answer": 2, "explanation": "&#8377;50 is fifty rupees. 50 paise is only half a rupee, so &#8377;50 is much more." },
-      { "q": "How can you make exactly &#8377;6 using coins?", "options": ["&#8377;5 + &#8377;1", "&#8377;2 + &#8377;2", "&#8377;5 + &#8377;2", "&#8377;10 + &#8377;2"], "answer": 0, "explanation": "&#8377;5 + &#8377;1 = &#8377;6. The others make &#8377;4, &#8377;7 and &#8377;12." },
-      { "q": "A packet of biscuits costs &#8377;25. You give a &#8377;50 note. What is the change?", "options": ["&#8377;20", "&#8377;25", "&#8377;30", "&#8377;15"], "answer": 1, "explanation": "&#8377;50 &minus; &#8377;25 = &#8377;25. Twenty-five and twenty-five more makes fifty." },
-      { "q": "Which set of coins makes exactly &#8377;15?", "options": ["Two &#8377;5 coins", "&#8377;10 + &#8377;2 + &#8377;2", "&#8377;5 + &#8377;5 + &#8377;2", "One &#8377;10 coin and one &#8377;5 coin"], "answer": 3, "explanation": "&#8377;10 + &#8377;5 = &#8377;15. The other sets make &#8377;10, &#8377;14 and &#8377;12." }
+      {
+        "q": "How many paise make one rupee (₹1)?",
+        "options": [
+          "10 paise",
+          "50 paise",
+          "100 paise",
+          "1000 paise"
+        ],
+        "answer": 2,
+        "explanation": "One rupee is made of 100 paise. That is the same 100 you meet when counting in tens."
+      },
+      {
+        "q": "Which of these makes exactly ₹10?",
+        "options": [
+          "Two ₹5 coins",
+          "Three ₹2 coins",
+          "One ₹5 coin",
+          "Four ₹2 coins"
+        ],
+        "answer": 0,
+        "explanation": "Two ₹5 coins are ₹5 + ₹5 = ₹10. Three ₹2 coins make only ₹6."
+      },
+      {
+        "q": "Riya buys a pencil for ₹7 and an eraser for ₹5. What does she pay in all?",
+        "options": [
+          "₹10",
+          "₹12",
+          "₹13",
+          "₹11"
+        ],
+        "answer": 1,
+        "explanation": "₹7 + ₹5 = ₹12. Adding the rupee sign does not change the addition."
+      },
+      {
+        "q": "A chocolate costs ₹15. You pay with a ₹20 note. How much change do you get?",
+        "options": [
+          "₹10",
+          "₹3",
+          "₹15",
+          "₹5"
+        ],
+        "answer": 3,
+        "explanation": "Change is ₹20 − ₹15 = ₹5. Count up: fifteen and five more makes twenty."
+      },
+      {
+        "q": "Which is more money, ₹50 or 50 paise?",
+        "options": [
+          "50 paise",
+          "They are equal",
+          "₹50",
+          "Cannot say"
+        ],
+        "answer": 2,
+        "explanation": "₹50 is fifty rupees. 50 paise is only half a rupee, so ₹50 is much more."
+      },
+      {
+        "q": "How can you make exactly ₹6 using coins?",
+        "options": [
+          "₹5 + ₹1",
+          "₹2 + ₹2",
+          "₹5 + ₹2",
+          "₹10 + ₹2"
+        ],
+        "answer": 0,
+        "explanation": "₹5 + ₹1 = ₹6. The others make ₹4, ₹7 and ₹12."
+      },
+      {
+        "q": "A packet of biscuits costs ₹25. You give a ₹50 note. What is the change?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹30",
+          "₹15"
+        ],
+        "answer": 1,
+        "explanation": "₹50 − ₹25 = ₹25. Twenty-five and twenty-five more makes fifty."
+      },
+      {
+        "q": "Which set of coins makes exactly ₹15?",
+        "options": [
+          "Two ₹5 coins",
+          "₹10 + ₹2 + ₹2",
+          "₹5 + ₹5 + ₹2",
+          "One ₹10 coin and one ₹5 coin"
+        ],
+        "answer": 3,
+        "explanation": "₹10 + ₹5 = ₹15. The other sets make ₹10, ₹14 and ₹12."
+      }
     ]
   },
   "faq": [
-    { "q": "What money skills should a Grade 2 child know?", "a": "Recognising coins and notes up to &#8377;100, knowing that &#8377;1 is 100 paise, making an amount in different ways, adding a short list of prices, and working out simple change from &#8377;10 or &#8377;20." },
-    { "q": "Do children still need to learn paise?", "a": "The syllabus keeps it, so yes &mdash; a child should know one rupee is 100 paise. In real shops paise coins are almost gone, so I teach the fact once and spend the practice time on rupees." },
-    { "q": "What is the easiest way to teach change?", "a": "Count up from the price to the note rather than subtracting downwards. For a &#8377;15 item paid with &#8377;20, say &lsquo;fifteen and five more makes twenty&rsquo; &mdash; that gives &#8377;5 change without any borrowing." },
-    { "q": "Should I use real coins or play money?", "a": "Real coins, every time. Children recognise the coins they will actually use, and the weight and size help them tell &#8377;2 from &#8377;5. Play money adds a step of pretend that this age does not need." },
-    { "q": "Where can I get printable Grade 2 money worksheets with answers?", "a": "Our Grade 2 money worksheet e-book has graded practice on coins, making amounts, shop totals and change, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What money skills should a Grade 2 child know?",
+      "a": "Recognising coins and notes up to &#8377;100, knowing that &#8377;1 is 100 paise, making an amount in different ways, adding a short list of prices, and working out simple change from &#8377;10 or &#8377;20."
+    },
+    {
+      "q": "Do children still need to learn paise?",
+      "a": "The syllabus keeps it, so yes &mdash; a child should know one rupee is 100 paise. In real shops paise coins are almost gone, so I teach the fact once and spend the practice time on rupees."
+    },
+    {
+      "q": "What is the easiest way to teach change?",
+      "a": "Count up from the price to the note rather than subtracting downwards. For a &#8377;15 item paid with &#8377;20, say &lsquo;fifteen and five more makes twenty&rsquo; &mdash; that gives &#8377;5 change without any borrowing."
+    },
+    {
+      "q": "Should I use real coins or play money?",
+      "a": "Real coins, every time. Children recognise the coins they will actually use, and the weight and size help them tell &#8377;2 from &#8377;5. Play money adds a step of pretend that this age does not need."
+    },
+    {
+      "q": "Where can I get printable Grade 2 money worksheets with answers?",
+      "a": "Our Grade 2 money worksheet e-book has graded practice on coins, making amounts, shop totals and change, each page with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

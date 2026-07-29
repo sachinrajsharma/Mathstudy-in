@@ -3,7 +3,7 @@
   "title": "Teaching Number Recognition to Grade 1 (1 to 20, the Right Way) + Free Quiz",
   "meta_title": "Number Recognition Grade 1: Teach 1 to 20 + Quiz",
   "meta_desc": "A parent-friendly guide to number recognition for Grade 1: read and write numerals 1 to 20, fix reversed digits, plus a free 8-question quiz to try.",
-  "excerpt": "A child can chant one-two-three all day and still not know which shape on the page is a 7. Number recognition is a separate skill &mdash; here is how to teach reading and writing numerals 1 to 20, with a quick quiz to check.",
+  "excerpt": "A child can chant one-two-three all day and still not know which shape on the page is a 7. Number recognition is a separate skill — here is how to teach reading and writing numerals 1 to 20, with a quick quiz to check.",
   "category": "Grade 1",
   "cover_image": "/wp-content/uploads/grade-1-worksheets-number-recognition.jpg",
   "cta_product_slug": "grade-1-number-recognition-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 1 number recognition, numerals 1 to 20",
     "level": "Grade 1",
     "questions": [
-      { "q": "Which numeral matches the word &lsquo;seven&rsquo;?", "options": ["7", "9", "5", "1"], "answer": 0, "explanation": "The word seven is written as the numeral 7." },
-      { "q": "How do you write the number &lsquo;twelve&rsquo;?", "options": ["21", "2", "20", "12"], "answer": 3, "explanation": "Twelve is a 1 followed by a 2, written 12. The 21 shape is twenty-one." },
-      { "q": "You see a group of &#9679; &#9679; &#9679; &#9679; dots. Which numeral shows how many?", "options": ["3", "4", "5", "6"], "answer": 1, "explanation": "There are four dots, so the numeral is 4." },
-      { "q": "Which numeral shows a group of nine objects?", "options": ["6", "7", "8", "9"], "answer": 3, "explanation": "Nine objects are shown by the numeral 9, which has its ball at the top and a tail going down." },
-      { "q": "Which of these is the numeral 3 written the correct way round?", "options": ["A 3 with both bumps facing left", "A 3 with both bumps facing right", "A 3 turned upside down", "A 3 with a flat top"], "answer": 1, "explanation": "A correct 3 has both curved bumps opening to the left, so the digit itself faces right." },
-      { "q": "Which numeral comes just after 15?", "options": ["14", "16", "17", "20"], "answer": 1, "explanation": "Counting on by one from 15 gives 16, the numeral that comes just after." },
-      { "q": "Which numeral comes just before 10?", "options": ["11", "8", "9", "1"], "answer": 2, "explanation": "The numeral just before 10 is 9." },
-      { "q": "A 6 and a 9 look alike but flipped. Which sentence is true?", "options": ["6 has its ball at the top", "9 has its ball at the bottom", "6 has its ball at the bottom", "6 and 9 are exactly the same"], "answer": 2, "explanation": "The 6 has its round ball at the bottom, while the 9 has its ball at the top. That is how you tell the flip apart." }
+      {
+        "q": "Which numeral matches the word ‘seven’?",
+        "options": [
+          "7",
+          "9",
+          "5",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "The word seven is written as the numeral 7."
+      },
+      {
+        "q": "How do you write the number ‘twelve’?",
+        "options": [
+          "21",
+          "2",
+          "20",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Twelve is a 1 followed by a 2, written 12. The 21 shape is twenty-one."
+      },
+      {
+        "q": "You see a group of ● ● ● ● dots. Which numeral shows how many?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "There are four dots, so the numeral is 4."
+      },
+      {
+        "q": "Which numeral shows a group of nine objects?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "Nine objects are shown by the numeral 9, which has its ball at the top and a tail going down."
+      },
+      {
+        "q": "Which of these is the numeral 3 written the correct way round?",
+        "options": [
+          "A 3 with both bumps facing left",
+          "A 3 with both bumps facing right",
+          "A 3 turned upside down",
+          "A 3 with a flat top"
+        ],
+        "answer": 1,
+        "explanation": "A correct 3 has both curved bumps opening to the left, so the digit itself faces right."
+      },
+      {
+        "q": "Which numeral comes just after 15?",
+        "options": [
+          "14",
+          "16",
+          "17",
+          "20"
+        ],
+        "answer": 1,
+        "explanation": "Counting on by one from 15 gives 16, the numeral that comes just after."
+      },
+      {
+        "q": "Which numeral comes just before 10?",
+        "options": [
+          "11",
+          "8",
+          "9",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The numeral just before 10 is 9."
+      },
+      {
+        "q": "A 6 and a 9 look alike but flipped. Which sentence is true?",
+        "options": [
+          "6 has its ball at the top",
+          "9 has its ball at the bottom",
+          "6 has its ball at the bottom",
+          "6 and 9 are exactly the same"
+        ],
+        "answer": 2,
+        "explanation": "The 6 has its round ball at the bottom, while the 9 has its ball at the top. That is how you tell the flip apart."
+      }
     ]
   },
   "faq": [
-    { "q": "What is the difference between counting and number recognition?", "a": "Counting is saying the number-words in order, like a song. Number recognition is looking at a printed numeral and knowing what it is, and matching it to a quantity. A child can count to twenty and still not recognise the numeral 13 on the page &mdash; the two are separate skills." },
-    { "q": "Why does my Grade 1 child keep writing numbers backwards?", "a": "Reversals of 3, 5, 7, 9 and the 6 or 9 flip are completely normal until about age seven. It is not usually a sign of a learning problem. Model the correct stroke calmly, practise in a salt tray so mistakes wipe away, and it fades with time." },
-    { "q": "How many numbers should a Grade 1 student recognise?", "a": "The Grade 1 expectation is confident reading and writing of numerals 1 to 20, then extending towards 100 through the year. Get 1 to 20 solid first &mdash; both reading the symbol and writing it &mdash; before pushing higher." },
-    { "q": "What is subitising and why does it matter?", "a": "Subitising is seeing a small group and knowing how many at a glance, without counting one-by-one &mdash; like reading a dice face. It matters because it links the numeral to real quantity, which stops children treating digits as meaningless shapes." },
-    { "q": "Where can I get printable number recognition worksheets with answers?", "a": "Our Grade 1 number recognition worksheet e-book has graded pages with dotted tracing, numeral-to-quantity matching and before-and-after practice, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below." }
+    {
+      "q": "What is the difference between counting and number recognition?",
+      "a": "Counting is saying the number-words in order, like a song. Number recognition is looking at a printed numeral and knowing what it is, and matching it to a quantity. A child can count to twenty and still not recognise the numeral 13 on the page &mdash; the two are separate skills."
+    },
+    {
+      "q": "Why does my Grade 1 child keep writing numbers backwards?",
+      "a": "Reversals of 3, 5, 7, 9 and the 6 or 9 flip are completely normal until about age seven. It is not usually a sign of a learning problem. Model the correct stroke calmly, practise in a salt tray so mistakes wipe away, and it fades with time."
+    },
+    {
+      "q": "How many numbers should a Grade 1 student recognise?",
+      "a": "The Grade 1 expectation is confident reading and writing of numerals 1 to 20, then extending towards 100 through the year. Get 1 to 20 solid first &mdash; both reading the symbol and writing it &mdash; before pushing higher."
+    },
+    {
+      "q": "What is subitising and why does it matter?",
+      "a": "Subitising is seeing a small group and knowing how many at a glance, without counting one-by-one &mdash; like reading a dice face. It matters because it links the numeral to real quantity, which stops children treating digits as meaningless shapes."
+    },
+    {
+      "q": "Where can I get printable number recognition worksheets with answers?",
+      "a": "Our Grade 1 number recognition worksheet e-book has graded pages with dotted tracing, numeral-to-quantity matching and before-and-after practice, each with a full answer key &mdash; an instant PDF you can print as often as you like. The link is in the box below."
+    }
   ]
 }

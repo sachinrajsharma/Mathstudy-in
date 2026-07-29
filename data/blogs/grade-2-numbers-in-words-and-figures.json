@@ -1,9 +1,9 @@
 {
   "slug": "grade-2-numbers-in-words-and-figures",
   "title": "Numbers in Words for Grade 2: Figures to Words the Easy Way + Free Quiz",
-  "meta_title": "Numbers in Words Grade 2: Figures &amp; Words + Quiz",
+  "meta_title": "Numbers in Words Grade 2: Figures & Words + Quiz",
   "meta_desc": "Teach numbers in words for Grade 2 with a clear method for writing 3-digit numbers in words and figures, spelling traps fixed, plus a free 8-question quiz.",
-  "excerpt": "Your child can say &lsquo;three hundred forty-seven&rsquo; but freezes when asked to write it. Here is the simple hundreds-tens-ones method for turning figures into words and back, with the spelling traps that trip up every Grade 2 kid.",
+  "excerpt": "Your child can say ‘three hundred forty-seven’ but freezes when asked to write it. Here is the simple hundreds-tens-ones method for turning figures into words and back, with the spelling traps that trip up every Grade 2 kid.",
   "category": "Grade 2",
   "cover_image": "/wp-content/uploads/grade-2-worksheets-number-recognition.jpg",
   "cta_product_slug": "grade-2-number-recognition-worksheets-with-answers",
@@ -16,21 +16,116 @@
     "about": "Grade 2 number names up to 999",
     "level": "Grade 2",
     "questions": [
-      { "q": "How do you write 46 in words?", "options": ["fourty-six", "forty-six", "fourtysix", "forty six"], "answer": 1, "explanation": "It is forty-six. Forty drops the u from four, and the tens and ones join with a hyphen." },
-      { "q": "Which number is 'three hundred twelve'?", "options": ["302", "3012", "312", "320"], "answer": 2, "explanation": "Three hundred is 300, and twelve is 12, so together they make 312." },
-      { "q": "What is 90 in words?", "options": ["ninty", "ninety", "ninenty", "nineity"], "answer": 1, "explanation": "Ninety keeps the e from nine. It is not spelled ninty." },
-      { "q": "How do you write 105 in words?", "options": ["one hundred zero five", "one hundred five", "ten hundred five", "one hundred and fifty"], "answer": 1, "explanation": "There are no tens, so you skip the empty place and say one hundred five, not one hundred zero five." },
-      { "q": "Which number is 'six hundred eighty'?", "options": ["608", "680", "618", "860"], "answer": 1, "explanation": "Six hundred is 600 and eighty is 80, so the number is 680. There are no ones, so nothing follows." },
-      { "q": "What is 15 in words?", "options": ["fiveteen", "fifthteen", "fifteen", "fiftteen"], "answer": 2, "explanation": "Five becomes fif, giving fifteen. It is never spelled fiveteen." },
-      { "q": "How do you write 519 in words?", "options": ["five hundred ninteen", "five hundred nineteen", "five hundred ninety", "fifty hundred nineteen"], "answer": 1, "explanation": "Five hundred is 500 and nineteen is 19, so it is five hundred nineteen. Nineteen keeps its e." },
-      { "q": "Which number is 'nine hundred ninety-nine'?", "options": ["9099", "999", "909", "990"], "answer": 1, "explanation": "Nine hundred is 900, ninety is 90, and nine is 9, which add to 999, the biggest three-digit number." }
+      {
+        "q": "How do you write 46 in words?",
+        "options": [
+          "fourty-six",
+          "forty-six",
+          "fourtysix",
+          "forty six"
+        ],
+        "answer": 1,
+        "explanation": "It is forty-six. Forty drops the u from four, and the tens and ones join with a hyphen."
+      },
+      {
+        "q": "Which number is 'three hundred twelve'?",
+        "options": [
+          "302",
+          "3012",
+          "312",
+          "320"
+        ],
+        "answer": 2,
+        "explanation": "Three hundred is 300, and twelve is 12, so together they make 312."
+      },
+      {
+        "q": "What is 90 in words?",
+        "options": [
+          "ninty",
+          "ninety",
+          "ninenty",
+          "nineity"
+        ],
+        "answer": 1,
+        "explanation": "Ninety keeps the e from nine. It is not spelled ninty."
+      },
+      {
+        "q": "How do you write 105 in words?",
+        "options": [
+          "one hundred zero five",
+          "one hundred five",
+          "ten hundred five",
+          "one hundred and fifty"
+        ],
+        "answer": 1,
+        "explanation": "There are no tens, so you skip the empty place and say one hundred five, not one hundred zero five."
+      },
+      {
+        "q": "Which number is 'six hundred eighty'?",
+        "options": [
+          "608",
+          "680",
+          "618",
+          "860"
+        ],
+        "answer": 1,
+        "explanation": "Six hundred is 600 and eighty is 80, so the number is 680. There are no ones, so nothing follows."
+      },
+      {
+        "q": "What is 15 in words?",
+        "options": [
+          "fiveteen",
+          "fifthteen",
+          "fifteen",
+          "fiftteen"
+        ],
+        "answer": 2,
+        "explanation": "Five becomes fif, giving fifteen. It is never spelled fiveteen."
+      },
+      {
+        "q": "How do you write 519 in words?",
+        "options": [
+          "five hundred ninteen",
+          "five hundred nineteen",
+          "five hundred ninety",
+          "fifty hundred nineteen"
+        ],
+        "answer": 1,
+        "explanation": "Five hundred is 500 and nineteen is 19, so it is five hundred nineteen. Nineteen keeps its e."
+      },
+      {
+        "q": "Which number is 'nine hundred ninety-nine'?",
+        "options": [
+          "9099",
+          "999",
+          "909",
+          "990"
+        ],
+        "answer": 1,
+        "explanation": "Nine hundred is 900, ninety is 90, and nine is 9, which add to 999, the biggest three-digit number."
+      }
     ]
   },
   "faq": [
-    { "q": "Do I write 'and' as in 'three hundred and forty-seven'?", "a": "In most Indian school books the answer is written without &lsquo;and&rsquo; &mdash; three hundred forty-seven. Saying &lsquo;and&rsquo; aloud is fine, but check your child&rsquo;s NCERT-aligned workbook, as some accept both. Be consistent with whatever the school marks." },
-    { "q": "Why does my child keep spelling forty as 'fourty'?", "a": "Because four keeps its u and they assume forty does too. It does not. A quick way to fix it: write four and forty side by side and highlight the missing u. After a week of spotting it, the mistake usually stops." },
-    { "q": "How do I explain a number with a zero in the middle, like 305?", "a": "Tell your child there are no tens, so they simply skip that place: three hundred five. They should never say &lsquo;three hundred zero five&rsquo;. Skipping empty places is the single rule that clears up round numbers." },
-    { "q": "Should Grade 2 learn numbers beyond 999?", "a": "Not for number names at this stage. Grade 2 focuses on numbers up to 999 in most syllabi. Getting the hundreds, tens and ones pattern solid now makes larger numbers in Grade 3 far easier." },
-    { "q": "Where can I get printable Grade 2 number-in-words worksheets with answers?", "a": "Our Grade 2 number recognition worksheet e-book has graded practice for writing numbers in words and figures up to 999, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "Do I write 'and' as in 'three hundred and forty-seven'?",
+      "a": "In most Indian school books the answer is written without &lsquo;and&rsquo; &mdash; three hundred forty-seven. Saying &lsquo;and&rsquo; aloud is fine, but check your child&rsquo;s NCERT-aligned workbook, as some accept both. Be consistent with whatever the school marks."
+    },
+    {
+      "q": "Why does my child keep spelling forty as 'fourty'?",
+      "a": "Because four keeps its u and they assume forty does too. It does not. A quick way to fix it: write four and forty side by side and highlight the missing u. After a week of spotting it, the mistake usually stops."
+    },
+    {
+      "q": "How do I explain a number with a zero in the middle, like 305?",
+      "a": "Tell your child there are no tens, so they simply skip that place: three hundred five. They should never say &lsquo;three hundred zero five&rsquo;. Skipping empty places is the single rule that clears up round numbers."
+    },
+    {
+      "q": "Should Grade 2 learn numbers beyond 999?",
+      "a": "Not for number names at this stage. Grade 2 focuses on numbers up to 999 in most syllabi. Getting the hundreds, tens and ones pattern solid now makes larger numbers in Grade 3 far easier."
+    },
+    {
+      "q": "Where can I get printable Grade 2 number-in-words worksheets with answers?",
+      "a": "Our Grade 2 number recognition worksheet e-book has graded practice for writing numbers in words and figures up to 999, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

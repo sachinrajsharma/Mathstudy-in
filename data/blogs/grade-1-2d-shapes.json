@@ -16,21 +16,116 @@
     "about": "Grade 1 flat (2D) shapes",
     "level": "Grade 1",
     "questions": [
-      { "q": "How many corners does a triangle have?", "options": ["2", "3", "4", "0"], "answer": 1, "explanation": "A triangle has three straight sides, and where they meet it has three corners." },
-      { "q": "Which shape has no corners at all?", "options": ["Square", "Triangle", "Circle", "Rectangle"], "answer": 2, "explanation": "A circle has one smooth curved edge and no pointy corners. An oval is the same." },
-      { "q": "A samosa is shaped most like which flat shape?", "options": ["Circle", "Triangle", "Square", "Oval"], "answer": 1, "explanation": "A samosa has three sides and three corners, so it looks like a triangle." },
-      { "q": "How many sides does a square have?", "options": ["3", "4", "5", "6"], "answer": 1, "explanation": "A square has four straight sides, and all four are the same length." },
-      { "q": "Which real object is shaped like a rectangle?", "options": ["A chapati", "A door", "A bangle", "A coin"], "answer": 1, "explanation": "A door has four sides and four corners, with two long sides and two short sides &mdash; that makes it a rectangle." },
-      { "q": "A triangle is turned upside down. What shape is it now?", "options": ["A square", "Still a triangle", "A circle", "An oval"], "answer": 1, "explanation": "Turning a shape does not change it. It still has three sides and three corners, so it is still a triangle." },
-      { "q": "Which shape has four corners and all sides the same length?", "options": ["Rectangle", "Triangle", "Square", "Circle"], "answer": 2, "explanation": "A square has four equal sides and four corners. A rectangle also has four corners, but its sides are not all equal." },
-      { "q": "Which one is the odd shape out: circle, oval, egg outline, triangle?", "options": ["Circle", "Oval", "Egg outline", "Triangle"], "answer": 3, "explanation": "The circle, oval and egg outline are all round with no corners. The triangle has corners, so it is the odd one out." }
+      {
+        "q": "How many corners does a triangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "A triangle has three straight sides, and where they meet it has three corners."
+      },
+      {
+        "q": "Which shape has no corners at all?",
+        "options": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": 2,
+        "explanation": "A circle has one smooth curved edge and no pointy corners. An oval is the same."
+      },
+      {
+        "q": "A samosa is shaped most like which flat shape?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": 1,
+        "explanation": "A samosa has three sides and three corners, so it looks like a triangle."
+      },
+      {
+        "q": "How many sides does a square have?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "A square has four straight sides, and all four are the same length."
+      },
+      {
+        "q": "Which real object is shaped like a rectangle?",
+        "options": [
+          "A chapati",
+          "A door",
+          "A bangle",
+          "A coin"
+        ],
+        "answer": 1,
+        "explanation": "A door has four sides and four corners, with two long sides and two short sides — that makes it a rectangle."
+      },
+      {
+        "q": "A triangle is turned upside down. What shape is it now?",
+        "options": [
+          "A square",
+          "Still a triangle",
+          "A circle",
+          "An oval"
+        ],
+        "answer": 1,
+        "explanation": "Turning a shape does not change it. It still has three sides and three corners, so it is still a triangle."
+      },
+      {
+        "q": "Which shape has four corners and all sides the same length?",
+        "options": [
+          "Rectangle",
+          "Triangle",
+          "Square",
+          "Circle"
+        ],
+        "answer": 2,
+        "explanation": "A square has four equal sides and four corners. A rectangle also has four corners, but its sides are not all equal."
+      },
+      {
+        "q": "Which one is the odd shape out: circle, oval, egg outline, triangle?",
+        "options": [
+          "Circle",
+          "Oval",
+          "Egg outline",
+          "Triangle"
+        ],
+        "answer": 3,
+        "explanation": "The circle, oval and egg outline are all round with no corners. The triangle has corners, so it is the odd one out."
+      }
     ]
   },
   "faq": [
-    { "q": "What 2D shapes should a Grade 1 child know?", "a": "Circle, triangle, square, rectangle and oval. NCERT keeps the Grade 1 list to these five flat shapes, described by their number of sides and corners. Solid shapes like cubes and spheres come a little later." },
-    { "q": "What is the difference between a square and a rectangle?", "a": "Both have four straight sides and four corners. A rectangle has two long sides and two short sides, while a square has all four sides equal. That makes a square a special kind of rectangle &mdash; so every square is a rectangle, but not every rectangle is a square." },
-    { "q": "Is a shape still a triangle if it is upside down?", "a": "Yes. Any shape with three straight sides and three corners is a triangle, no matter how you turn, tilt or stretch it. Rotating a shape never changes what it is &mdash; teach children to count sides and corners rather than match one memorised picture." },
-    { "q": "How do I teach 2D shapes at home without worksheets?", "a": "Use everyday objects &mdash; a chapati for a circle, a samosa for a triangle, a door for a rectangle. Then cut a few shapes from a cereal box and play a sorting game: which have corners, which are round, which have exactly three sides. Real objects beat flashcards at this age." },
-    { "q": "Where can I get printable Grade 1 shapes worksheets with answers?", "a": "Our Grade 1 basic shapes worksheet e-book has tracing, sorting and side-and-corner counting pages, each with a full answer key &mdash; an instant PDF you can print as many times as you like. The link is in the box below." }
+    {
+      "q": "What 2D shapes should a Grade 1 child know?",
+      "a": "Circle, triangle, square, rectangle and oval. NCERT keeps the Grade 1 list to these five flat shapes, described by their number of sides and corners. Solid shapes like cubes and spheres come a little later."
+    },
+    {
+      "q": "What is the difference between a square and a rectangle?",
+      "a": "Both have four straight sides and four corners. A rectangle has two long sides and two short sides, while a square has all four sides equal. That makes a square a special kind of rectangle &mdash; so every square is a rectangle, but not every rectangle is a square."
+    },
+    {
+      "q": "Is a shape still a triangle if it is upside down?",
+      "a": "Yes. Any shape with three straight sides and three corners is a triangle, no matter how you turn, tilt or stretch it. Rotating a shape never changes what it is &mdash; teach children to count sides and corners rather than match one memorised picture."
+    },
+    {
+      "q": "How do I teach 2D shapes at home without worksheets?",
+      "a": "Use everyday objects &mdash; a chapati for a circle, a samosa for a triangle, a door for a rectangle. Then cut a few shapes from a cereal box and play a sorting game: which have corners, which are round, which have exactly three sides. Real objects beat flashcards at this age."
+    },
+    {
+      "q": "Where can I get printable Grade 1 shapes worksheets with answers?",
+      "a": "Our Grade 1 basic shapes worksheet e-book has tracing, sorting and side-and-corner counting pages, each with a full answer key &mdash; an instant PDF you can print as many times as you like. The link is in the box below."
+    }
   ]
 }

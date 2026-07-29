@@ -16,21 +16,116 @@
     "about": "Grade 1 Indian money: coins, notes and simple counting",
     "level": "Grade 1",
     "questions": [
-      { "q": "Which of these is a coin, not a note?", "options": ["&#8377;50", "&#8377;100", "&#8377;5", "&#8377;20"], "answer": 2, "explanation": "&#8377;5 comes as a coin. &#8377;20, &#8377;50 and &#8377;100 are notes." },
-      { "q": "You have one &#8377;5 coin and one &#8377;2 coin. How much is that?", "options": ["&#8377;6", "&#8377;7", "&#8377;8", "&#8377;10"], "answer": 1, "explanation": "Count on from the bigger coin: five, then two more makes seven. &#8377;5 + &#8377;2 = &#8377;7." },
-      { "q": "Which coins together make &#8377;5?", "options": ["Five &#8377;1 coins", "Two &#8377;2 coins", "One &#8377;2 coin", "Three &#8377;1 coins"], "answer": 0, "explanation": "Five &#8377;1 coins add up to &#8377;5. Two &#8377;2 coins make only &#8377;4." },
-      { "q": "Which is worth more?", "options": ["A &#8377;2 coin", "A &#8377;5 coin", "They are equal", "You cannot tell"], "answer": 1, "explanation": "A &#8377;5 coin is worth more than a &#8377;2 coin, even though the &#8377;2 coin can look bigger. Size does not decide value." },
-      { "q": "A chocolate costs &#8377;10. You have one &#8377;5 coin and two &#8377;2 coins. How much more do you need?", "options": ["&#8377;1", "&#8377;2", "&#8377;3", "&#8377;5"], "answer": 0, "explanation": "&#8377;5 + &#8377;2 + &#8377;2 = &#8377;9. You need &#8377;1 more to reach &#8377;10." },
-      { "q": "How many &#8377;2 coins make &#8377;10?", "options": ["Two", "Three", "Four", "Five"], "answer": 3, "explanation": "Count in twos: 2, 4, 6, 8, 10. That is five &#8377;2 coins." },
-      { "q": "Which note would you use to pay a &#8377;20 auto fare exactly?", "options": ["A &#8377;10 note", "A &#8377;20 note", "A &#8377;50 note", "A &#8377;100 note"], "answer": 1, "explanation": "A single &#8377;20 note pays the &#8377;20 fare exactly, with no change needed." },
-      { "q": "You have a &#8377;10 note and a &#8377;5 coin. How much money is that?", "options": ["&#8377;12", "&#8377;15", "&#8377;20", "&#8377;50"], "answer": 1, "explanation": "&#8377;10 + &#8377;5 = &#8377;15. The note and the coin add together." }
+      {
+        "q": "Which of these is a coin, not a note?",
+        "options": [
+          "₹50",
+          "₹100",
+          "₹5",
+          "₹20"
+        ],
+        "answer": 2,
+        "explanation": "₹5 comes as a coin. ₹20, ₹50 and ₹100 are notes."
+      },
+      {
+        "q": "You have one ₹5 coin and one ₹2 coin. How much is that?",
+        "options": [
+          "₹6",
+          "₹7",
+          "₹8",
+          "₹10"
+        ],
+        "answer": 1,
+        "explanation": "Count on from the bigger coin: five, then two more makes seven. ₹5 + ₹2 = ₹7."
+      },
+      {
+        "q": "Which coins together make ₹5?",
+        "options": [
+          "Five ₹1 coins",
+          "Two ₹2 coins",
+          "One ₹2 coin",
+          "Three ₹1 coins"
+        ],
+        "answer": 0,
+        "explanation": "Five ₹1 coins add up to ₹5. Two ₹2 coins make only ₹4."
+      },
+      {
+        "q": "Which is worth more?",
+        "options": [
+          "A ₹2 coin",
+          "A ₹5 coin",
+          "They are equal",
+          "You cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "A ₹5 coin is worth more than a ₹2 coin, even though the ₹2 coin can look bigger. Size does not decide value."
+      },
+      {
+        "q": "A chocolate costs ₹10. You have one ₹5 coin and two ₹2 coins. How much more do you need?",
+        "options": [
+          "₹1",
+          "₹2",
+          "₹3",
+          "₹5"
+        ],
+        "answer": 0,
+        "explanation": "₹5 + ₹2 + ₹2 = ₹9. You need ₹1 more to reach ₹10."
+      },
+      {
+        "q": "How many ₹2 coins make ₹10?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "answer": 3,
+        "explanation": "Count in twos: 2, 4, 6, 8, 10. That is five ₹2 coins."
+      },
+      {
+        "q": "Which note would you use to pay a ₹20 auto fare exactly?",
+        "options": [
+          "A ₹10 note",
+          "A ₹20 note",
+          "A ₹50 note",
+          "A ₹100 note"
+        ],
+        "answer": 1,
+        "explanation": "A single ₹20 note pays the ₹20 fare exactly, with no change needed."
+      },
+      {
+        "q": "You have a ₹10 note and a ₹5 coin. How much money is that?",
+        "options": [
+          "₹12",
+          "₹15",
+          "₹20",
+          "₹50"
+        ],
+        "answer": 1,
+        "explanation": "₹10 + ₹5 = ₹15. The note and the coin add together."
+      }
     ]
   },
   "faq": [
-    { "q": "When should a Grade 1 child learn Indian money?", "a": "Most children meet coins and notes during Grade 1, around age 6. Aim for recognising the &#8377;1, &#8377;2, &#8377;5 and &#8377;10 coins and the smaller notes, and counting a small handful &mdash; not change-making with paise, which comes later." },
-    { "q": "Why does my child think a bigger coin is worth more?", "a": "Because for a five-year-old, bigger has always meant more. The &#8377;1 and &#8377;2 coins are often larger than the &#8377;5 coin, so the fix is a real shop trip where value, not size, decides what a chocolate costs." },
-    { "q": "Should I use real coins or printed pictures?", "a": "Real coins, every time. A child needs to feel and sort actual money to learn it. Save printed pictures and worksheets for practice once they already recognise the real thing." },
-    { "q": "Do we need to teach paise in Grade 1?", "a": "No. Keep it to whole rupees up to about &#8377;100 this year. Recognising coins and notes and counting small amounts is plenty &mdash; paise and rupee-paise notation belong in later grades." },
-    { "q": "Where can I get printable Indian money worksheets for Grade 1?", "a": "Our Grade 1 money worksheet e-book has coin-counting, matching and shop questions using real rupee amounts, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "When should a Grade 1 child learn Indian money?",
+      "a": "Most children meet coins and notes during Grade 1, around age 6. Aim for recognising the &#8377;1, &#8377;2, &#8377;5 and &#8377;10 coins and the smaller notes, and counting a small handful &mdash; not change-making with paise, which comes later."
+    },
+    {
+      "q": "Why does my child think a bigger coin is worth more?",
+      "a": "Because for a five-year-old, bigger has always meant more. The &#8377;1 and &#8377;2 coins are often larger than the &#8377;5 coin, so the fix is a real shop trip where value, not size, decides what a chocolate costs."
+    },
+    {
+      "q": "Should I use real coins or printed pictures?",
+      "a": "Real coins, every time. A child needs to feel and sort actual money to learn it. Save printed pictures and worksheets for practice once they already recognise the real thing."
+    },
+    {
+      "q": "Do we need to teach paise in Grade 1?",
+      "a": "No. Keep it to whole rupees up to about &#8377;100 this year. Recognising coins and notes and counting small amounts is plenty &mdash; paise and rupee-paise notation belong in later grades."
+    },
+    {
+      "q": "Where can I get printable Indian money worksheets for Grade 1?",
+      "a": "Our Grade 1 money worksheet e-book has coin-counting, matching and shop questions using real rupee amounts, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }

@@ -16,21 +16,116 @@
     "about": "Grade 2 measuring length with cm and m",
     "level": "Grade 2",
     "questions": [
-      { "q": "Which unit is best for measuring the length of a pencil?", "options": ["metres", "centimetres", "kilometres", "litres"], "answer": 1, "explanation": "A pencil is small, so we use centimetres (cm). A pencil is about 12 cm long." },
-      { "q": "When you measure with a ruler, which mark should the start of the object line up with?", "options": ["0", "1", "10", "the middle"], "answer": 0, "explanation": "Always start at the 0 mark, not the edge. Starting at 1 makes every answer one centimetre too big." },
-      { "q": "Which of these is best measured in metres?", "options": ["a pencil", "an eraser", "a coin", "the length of a classroom"], "answer": 3, "explanation": "A classroom is large, so we use metres (m). Small things like a pencil use centimetres." },
-      { "q": "How many centimetres are in 1 metre?", "options": ["10", "50", "90", "100"], "answer": 3, "explanation": "One metre equals 100 centimetres. A metre stick has 100 little marks on it." },
-      { "q": "A door is about 2 ___ tall. Which unit fits?", "options": ["cm", "mm", "m", "km"], "answer": 2, "explanation": "A door is tall, so metres (m) fit best. Two metres is about the height of a door." },
-      { "q": "Which is longer, 90 cm or 1 m?", "options": ["90 cm", "1 m", "they are equal", "you cannot tell"], "answer": 1, "explanation": "1 m is 100 cm, and 100 is more than 90, so 1 m is longer than 90 cm." },
-      { "q": "Which length is the shortest?", "options": ["1 m", "75 cm", "50 cm", "100 cm"], "answer": 2, "explanation": "Change 1 m to 100 cm. Now compare 100, 75, 50 and 100 &mdash; the smallest is 50 cm." },
-      { "q": "A pencil is about 12 ___ long. Which unit fits?", "options": ["cm", "m", "km", "kg"], "answer": 0, "explanation": "A pencil is small, so we measure it in centimetres (cm). kg measures weight, not length." }
+      {
+        "q": "Which unit is best for measuring the length of a pencil?",
+        "options": [
+          "metres",
+          "centimetres",
+          "kilometres",
+          "litres"
+        ],
+        "answer": 1,
+        "explanation": "A pencil is small, so we use centimetres (cm). A pencil is about 12 cm long."
+      },
+      {
+        "q": "When you measure with a ruler, which mark should the start of the object line up with?",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "the middle"
+        ],
+        "answer": 0,
+        "explanation": "Always start at the 0 mark, not the edge. Starting at 1 makes every answer one centimetre too big."
+      },
+      {
+        "q": "Which of these is best measured in metres?",
+        "options": [
+          "a pencil",
+          "an eraser",
+          "a coin",
+          "the length of a classroom"
+        ],
+        "answer": 3,
+        "explanation": "A classroom is large, so we use metres (m). Small things like a pencil use centimetres."
+      },
+      {
+        "q": "How many centimetres are in 1 metre?",
+        "options": [
+          "10",
+          "50",
+          "90",
+          "100"
+        ],
+        "answer": 3,
+        "explanation": "One metre equals 100 centimetres. A metre stick has 100 little marks on it."
+      },
+      {
+        "q": "A door is about 2 ___ tall. Which unit fits?",
+        "options": [
+          "cm",
+          "mm",
+          "m",
+          "km"
+        ],
+        "answer": 2,
+        "explanation": "A door is tall, so metres (m) fit best. Two metres is about the height of a door."
+      },
+      {
+        "q": "Which is longer, 90 cm or 1 m?",
+        "options": [
+          "90 cm",
+          "1 m",
+          "they are equal",
+          "you cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "1 m is 100 cm, and 100 is more than 90, so 1 m is longer than 90 cm."
+      },
+      {
+        "q": "Which length is the shortest?",
+        "options": [
+          "1 m",
+          "75 cm",
+          "50 cm",
+          "100 cm"
+        ],
+        "answer": 2,
+        "explanation": "Change 1 m to 100 cm. Now compare 100, 75, 50 and 100 — the smallest is 50 cm."
+      },
+      {
+        "q": "A pencil is about 12 ___ long. Which unit fits?",
+        "options": [
+          "cm",
+          "m",
+          "km",
+          "kg"
+        ],
+        "answer": 0,
+        "explanation": "A pencil is small, so we measure it in centimetres (cm). kg measures weight, not length."
+      }
     ]
   },
   "faq": [
-    { "q": "What length skills should a child have by the end of Grade 2?", "a": "Reading a ruler from zero, measuring small objects in centimetres and larger ones in metres, estimating before measuring, comparing and ordering lengths in the same unit, and knowing that 1 m = 100 cm." },
-    { "q": "Why does my child keep getting answers one centimetre too big?", "a": "They are almost certainly starting at the ruler&rsquo;s edge or the 1 mark instead of the 0. Have them slide the object so its end lines up with 0, then read the far end. This one fix solves most measuring errors." },
-    { "q": "When should a child use cm and when should they use m?", "a": "Small things you can hold &mdash; a pencil, a hand, a book &mdash; use centimetres. Big things you walk past &mdash; a door, a room, a wall &mdash; use metres. A quick anchor: a fingernail is about 1 cm, a big step about 1 m." },
-    { "q": "Should I teach centimetre-to-metre conversions in Grade 2?", "a": "Keep it simple. The one fact worth knowing is 1 m = 100 cm, plus easy whole-metre cases like 2 m = 200 cm. Real ruler skills and estimating matter far more than slick conversions at this age." },
-    { "q": "Where can I get printable Grade 2 measuring length worksheets with answers?", "a": "Our Grade 2 length measurement worksheet e-book has graded practice on reading a ruler, choosing cm or m, estimating and comparing lengths, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+    {
+      "q": "What length skills should a child have by the end of Grade 2?",
+      "a": "Reading a ruler from zero, measuring small objects in centimetres and larger ones in metres, estimating before measuring, comparing and ordering lengths in the same unit, and knowing that 1 m = 100 cm."
+    },
+    {
+      "q": "Why does my child keep getting answers one centimetre too big?",
+      "a": "They are almost certainly starting at the ruler&rsquo;s edge or the 1 mark instead of the 0. Have them slide the object so its end lines up with 0, then read the far end. This one fix solves most measuring errors."
+    },
+    {
+      "q": "When should a child use cm and when should they use m?",
+      "a": "Small things you can hold &mdash; a pencil, a hand, a book &mdash; use centimetres. Big things you walk past &mdash; a door, a room, a wall &mdash; use metres. A quick anchor: a fingernail is about 1 cm, a big step about 1 m."
+    },
+    {
+      "q": "Should I teach centimetre-to-metre conversions in Grade 2?",
+      "a": "Keep it simple. The one fact worth knowing is 1 m = 100 cm, plus easy whole-metre cases like 2 m = 200 cm. Real ruler skills and estimating matter far more than slick conversions at this age."
+    },
+    {
+      "q": "Where can I get printable Grade 2 measuring length worksheets with answers?",
+      "a": "Our Grade 2 length measurement worksheet e-book has graded practice on reading a ruler, choosing cm or m, estimating and comparing lengths, each with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below."
+    }
   ]
 }
