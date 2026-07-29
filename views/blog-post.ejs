@@ -369,21 +369,9 @@ window.MathJax = {
 </section>
 <% } %>
 
-<% if (locals.faq && faq.length) { %>
-<!-- ── FAQ (visible, matches FAQ schema) ───────────────────────────────────────── -->
-<section class="post-faq" aria-label="Frequently asked questions">
-  <h2>Frequently asked questions</h2>
-  <% faq.forEach(function(f){ %>
-  <details class="faq-item">
-    <summary><%= f.q %></summary>
-    <div class="faq-a"><%- f.a %></div>
-  </details>
-  <% }) %>
-</section>
-<% } %>
-
 <% if (locals.ctaProduct && ctaProduct) { %>
-<!-- ── Per-blog product CTA (buy the matching e-book) ──────────────────────────── -->
+<!-- ── Per-blog product CTA — placed right after the quiz (peak engagement), NOT
+     after the FAQ, since many readers never scroll to the end ──────────────────── -->
 <div class="product-cta-wrap">
   <div class="product-cta">
     <% if (ctaProduct.cover_image) { %><img src="<%= ctaProduct.cover_image %>" alt="<%= ctaProduct.title %> cover" loading="lazy">
@@ -415,6 +403,19 @@ window.MathJax = {
     </div>
   </div>
 </div>
+<% } %>
+
+<% if (locals.faq && faq.length) { %>
+<!-- ── FAQ (visible, matches FAQ schema) — after the CTA ────────────────────────── -->
+<section class="post-faq" aria-label="Frequently asked questions">
+  <h2>Frequently asked questions</h2>
+  <% faq.forEach(function(f){ %>
+  <details class="faq-item">
+    <summary><%= f.q %></summary>
+    <div class="faq-a"><%- f.a %></div>
+  </details>
+  <% }) %>
+</section>
 <% } %>
 
 <!-- ── SHARE BAR ─────────────────────────────────────────────────────────────── -->
