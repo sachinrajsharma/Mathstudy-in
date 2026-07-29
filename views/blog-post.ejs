@@ -19,6 +19,44 @@ const readingTime = Math.max(1, Math.ceil((post.content || '').replace(/<[^>]+>/
   "mainEntityOfPage":{"@type":"WebPage","@id": postUrl}
 }) %></script>
 
+<!-- Breadcrumb schema -->
+<script type="application/ld+json"><%- JSON.stringify({
+  "@context":"https://schema.org","@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":base},
+    {"@type":"ListItem","position":2,"name":"Blog","item":base+"/blog"},
+    {"@type":"ListItem","position":3,"name": post.title,"item": postUrl}
+  ]
+}) %></script>
+
+<% if (locals.quiz && quiz.questions && quiz.questions.length) { %>
+<!-- Quiz schema — tells Google this page is an interactive practice test -->
+<script type="application/ld+json"><%- JSON.stringify({
+  "@context":"https://schema.org","@type":"Quiz",
+  "name": quiz.title || (post.title + ' — Practice Quiz'),
+  "about":{"@type":"Thing","name": quiz.about || post.title},
+  "educationalLevel": quiz.level || (post.category || ''),
+  "hasPart": quiz.questions.map(function(q){
+    var correct = q.options[q.answer];
+    return {
+      "@type":"Question",
+      "eduQuestionType":"Multiple choice",
+      "text": q.q,
+      "acceptedAnswer":{"@type":"Answer","text": correct},
+      "suggestedAnswer": q.options.filter(function(o,i){return i!==q.answer;}).map(function(o){return {"@type":"Answer","text": o};})
+    };
+  })
+}) %></script>
+<% } %>
+
+<% if (locals.faq && faq.length) { %>
+<!-- FAQ schema -->
+<script type="application/ld+json"><%- JSON.stringify({
+  "@context":"https://schema.org","@type":"FAQPage",
+  "mainEntity": faq.map(function(f){ return {"@type":"Question","name": f.q,"acceptedAnswer":{"@type":"Answer","text": f.a}}; })
+}) %></script>
+<% } %>
+
 <!-- marked.js for markdown rendering -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
 
@@ -135,6 +173,58 @@ window.MathJax = {
 .cta-btn{display:inline-block;background:#fff;color:#1e3a8a;padding:12px 28px;border-radius:10px;font-weight:700;font-size:0.95rem;text-decoration:none;transition:transform .15s,box-shadow .15s;position:relative;z-index:1}
 .cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
 
+/* ── Interactive MCQ quiz ─────────────────────────────────────── */
+.mcq-quiz{max-width:820px;margin:8px auto 40px;padding:28px 24px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:18px}
+.quiz-head{text-align:center;margin-bottom:22px}
+.quiz-eyebrow{display:inline-block;background:#dbeafe;color:#1d4ed8;font-size:.72rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:99px;margin-bottom:10px}
+.quiz-head h2{font-size:1.35rem;font-weight:800;color:#0f172a;margin:0 0 8px}
+.quiz-head p{color:#475569;font-size:.92rem;max-width:600px;margin:0 auto;line-height:1.6}
+.quiz-q{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.quiz-q-text{font-weight:700;color:#0f172a;font-size:.98rem;margin:0 0 12px;line-height:1.5;display:flex;gap:9px;align-items:flex-start}
+.quiz-num{flex:0 0 auto;width:24px;height:24px;background:#1e3a8a;color:#fff;border-radius:50%;font-size:.8rem;display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+.quiz-opts{display:grid;gap:8px}
+.quiz-opt{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1.5px solid #e2e8f0;border-radius:9px;cursor:pointer;transition:border-color .12s,background .12s;font-size:.92rem;color:#334155}
+.quiz-opt:hover{border-color:#93c5fd;background:#f0f7ff}
+.quiz-opt input{accent-color:#1d4ed8;width:16px;height:16px;flex:0 0 auto}
+.quiz-opt-letter{flex:0 0 auto;width:22px;height:22px;border:1px solid #cbd5e1;border-radius:6px;font-size:.78rem;font-weight:700;color:#64748b;display:inline-flex;align-items:center;justify-content:center}
+.quiz-opt.is-correct{border-color:#16a34a;background:#f0fdf4}
+.quiz-opt.is-correct .quiz-opt-letter{background:#16a34a;color:#fff;border-color:#16a34a}
+.quiz-opt.is-wrong{border-color:#dc2626;background:#fef2f2}
+.quiz-opt.is-wrong .quiz-opt-letter{background:#dc2626;color:#fff;border-color:#dc2626}
+.quiz-explain{margin-top:10px;padding:10px 12px;background:#eff6ff;border-left:3px solid #2563eb;border-radius:6px;font-size:.86rem;color:#1e3a5f;line-height:1.55}
+.quiz-actions{display:flex;gap:12px;justify-content:center;margin-top:6px;flex-wrap:wrap}
+.quiz-submit{background:#1d4ed8;color:#fff;border:none;border-radius:10px;padding:12px 30px;font-weight:700;font-size:.95rem;cursor:pointer;transition:background .15s}
+.quiz-submit:hover{background:#1e40af}
+.quiz-reset{background:#fff;color:#1d4ed8;border:1.5px solid #1d4ed8;border-radius:10px;padding:12px 24px;font-weight:700;font-size:.92rem;cursor:pointer}
+.quiz-result{margin-top:18px;text-align:center;font-weight:800;font-size:1.15rem;color:#0f172a;padding:16px;background:#fff;border-radius:12px;border:1px solid #e2e8f0}
+.quiz-result .qr-score{font-size:1.8rem;color:#1d4ed8}
+.quiz-result .qr-msg{display:block;font-size:.92rem;font-weight:600;color:#475569;margin-top:6px}
+
+/* ── FAQ ──────────────────────────────────────────────────────── */
+.post-faq{max-width:820px;margin:0 auto 40px;padding:0 24px}
+.post-faq h2{font-size:1.35rem;font-weight:800;color:#0f172a;margin:0 0 16px}
+.faq-item{border:1px solid #e2e8f0;border-radius:11px;margin-bottom:10px;background:#fff;overflow:hidden}
+.faq-item summary{cursor:pointer;padding:15px 18px;font-weight:700;color:#0f172a;font-size:.96rem;list-style:none;position:relative}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';position:absolute;right:18px;top:14px;font-size:1.3rem;color:#1d4ed8;font-weight:400}
+.faq-item[open] summary::after{content:'\2212'}
+.faq-a{padding:0 18px 16px;color:#475569;font-size:.92rem;line-height:1.7}
+
+/* ── Per-blog product CTA ─────────────────────────────────────── */
+.product-cta-wrap{max-width:820px;margin:0 auto 24px;padding:0 24px}
+.product-cta{display:flex;gap:20px;align-items:center;background:#fff;border:2px solid #1d4ed8;border-radius:18px;padding:20px 22px}
+.product-cta img{width:120px;height:auto;border-radius:8px;flex:0 0 auto;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.product-cta-noimg{width:120px;height:150px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:3rem;background:#eff6ff;border-radius:8px}
+.product-cta-kicker{font-size:.72rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#1d4ed8;margin-bottom:6px}
+.product-cta-body h3{font-size:1.1rem;font-weight:800;color:#0f172a;margin:0 0 10px;line-height:1.35}
+.product-cta-price{display:flex;align-items:baseline;gap:9px;margin-bottom:14px;flex-wrap:wrap}
+.pc-now{font-size:1.5rem;font-weight:800;color:#0f172a}
+.pc-was{color:#94a3b8;text-decoration:line-through;font-size:1rem}
+.pc-off{background:#dcfce7;color:#15803d;font-size:.72rem;font-weight:800;padding:2px 8px;border-radius:6px}
+.product-cta-btn{display:inline-block;background:#1d4ed8;color:#fff;font-weight:700;padding:11px 24px;border-radius:10px;text-decoration:none;font-size:.94rem;transition:background .15s}
+.product-cta-btn:hover{background:#1e40af}
+@media(max-width:560px){.product-cta{flex-direction:column;text-align:center}.product-cta-price{justify-content:center}}
+
 /* ── Back link ────────────────────────────────────────────────── */
 .post-back{max-width:820px;margin:0 auto;padding:0 24px 16px}
 .post-back a{color:#2563eb;font-weight:600;font-size:0.875rem;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
@@ -218,12 +308,13 @@ window.MathJax = {
 <div class="post-layout">
 
   <!-- Main content -->
+  <% var _c = (post.content || '').trim(); var _isHtml = /^\s*</.test(_c); %>
   <article class="post-body" itemscope itemtype="https://schema.org/BlogPosting">
-    <div class="blog-content" id="blog-content">
-      <!-- Content rendered by JS below -->
-    </div>
-    <!-- Raw content store for JS -->
-    <script type="text/markdown" id="raw-content"><%- (post.content || '').replace(/<\/script>/g, '<\\/script>') %></script>
+    <!-- HTML posts are server-rendered here (best for SEO); legacy markdown renders via JS -->
+    <div class="blog-content" id="blog-content"><% if (_isHtml) { %><%- post.content %><% } %></div>
+    <% if (!_isHtml) { %>
+    <script type="text/markdown" id="raw-content"><%- _c.replace(/<\/script>/g, '<\\/script>') %></script>
+    <% } %>
   </article>
 
   <!-- Sidebar ToC -->
@@ -237,6 +328,74 @@ window.MathJax = {
   </aside>
 
 </div>
+
+<% if (locals.quiz && quiz.questions && quiz.questions.length) { %>
+<!-- ── Interactive MCQ practice test ───────────────────────────────────────────── -->
+<section class="mcq-quiz" id="mcqQuiz" aria-label="Practice quiz">
+  <div class="quiz-head">
+    <span class="quiz-eyebrow">✏️ Free online practice test</span>
+    <h2><%= quiz.title || (post.title + ' — Quick Quiz') %></h2>
+    <p><%= quiz.intro || ('Answer these ' + quiz.questions.length + ' questions to check what you have learned. Instant score and explanations — no sign-up needed.') %></p>
+  </div>
+  <form id="quizForm">
+    <% quiz.questions.forEach(function(q, qi){ %>
+    <div class="quiz-q" data-answer="<%= q.answer %>" data-qi="<%= qi %>">
+      <p class="quiz-q-text"><span class="quiz-num"><%= qi+1 %></span> <%= q.q %></p>
+      <div class="quiz-opts">
+        <% q.options.forEach(function(opt, oi){ %>
+        <label class="quiz-opt">
+          <input type="radio" name="q<%= qi %>" value="<%= oi %>">
+          <span class="quiz-opt-letter"><%= String.fromCharCode(65+oi) %></span>
+          <span class="quiz-opt-text"><%= opt %></span>
+        </label>
+        <% }) %>
+      </div>
+      <% if (q.explanation) { %><div class="quiz-explain" hidden><strong>Answer:</strong> <%= String.fromCharCode(65+q.answer) %>. <%= q.explanation %></div><% } %>
+    </div>
+    <% }) %>
+    <div class="quiz-actions">
+      <button type="submit" class="quiz-submit">Check my score</button>
+      <button type="button" class="quiz-reset" id="quizReset" hidden>Try again</button>
+    </div>
+    <div class="quiz-result" id="quizResult" hidden></div>
+  </form>
+</section>
+<% } %>
+
+<% if (locals.faq && faq.length) { %>
+<!-- ── FAQ (visible, matches FAQ schema) ───────────────────────────────────────── -->
+<section class="post-faq" aria-label="Frequently asked questions">
+  <h2>Frequently asked questions</h2>
+  <% faq.forEach(function(f){ %>
+  <details class="faq-item">
+    <summary><%= f.q %></summary>
+    <div class="faq-a"><%- f.a %></div>
+  </details>
+  <% }) %>
+</section>
+<% } %>
+
+<% if (locals.ctaProduct && ctaProduct) { %>
+<!-- ── Per-blog product CTA (buy the matching e-book) ──────────────────────────── -->
+<div class="product-cta-wrap">
+  <div class="product-cta">
+    <% if (ctaProduct.cover_image) { %><img src="<%= ctaProduct.cover_image %>" alt="<%= ctaProduct.title %> cover" loading="lazy">
+    <% } else { %><div class="product-cta-noimg">📘</div><% } %>
+    <div class="product-cta-body">
+      <div class="product-cta-kicker">Practise on paper next</div>
+      <h3><%= ctaProduct.title %></h3>
+      <div class="product-cta-price">
+        <span class="pc-now">&#8377;<%= parseFloat(ctaProduct.price).toFixed(0) %></span>
+        <% if (ctaProduct.original_price && ctaProduct.original_price > ctaProduct.price) { %>
+          <span class="pc-was">&#8377;<%= parseFloat(ctaProduct.original_price).toFixed(0) %></span>
+          <span class="pc-off"><%= Math.round((1 - ctaProduct.price/ctaProduct.original_price)*100) %>% off</span>
+        <% } %>
+      </div>
+      <a class="product-cta-btn" href="/shop/product/<%= ctaProduct.slug %>">Get the printable PDF &rarr;</a>
+    </div>
+  </div>
+</div>
+<% } %>
 
 <!-- ── SHOP CTA (every blog) ───────────────────────────────────────────────────── -->
 <div style="max-width:820px;margin:0 auto 8px;padding:0 24px">
@@ -282,15 +441,17 @@ window.MathJax = {
   </div>
 </div>
 
-<!-- ── CTA ────────────────────────────────────────────────────────────────────── -->
+<% if (!(locals.ctaProduct && ctaProduct)) { %>
+<!-- ── CTA (generic — only when no per-blog product is set) ────────────────────── -->
 <div class="post-cta">
   <div class="cta-box">
     <span class="cta-emoji">📚</span>
-    <h3>Want solved practice sets?</h3>
-    <p>Our CBSE Class 12 Maths Case Study Workbooks have 40+ probability questions with full step-by-step solutions — built for March boards.</p>
+    <h3>Want ready-to-print practice sets?</h3>
+    <p>Chapter-wise worksheets, case-study workbooks and full-length practice papers with step-by-step solutions — instant PDF download.</p>
     <a href="/shop" class="cta-btn">Browse Practice E-Books &rarr;</a>
   </div>
 </div>
+<% } %>
 
 <script>
 (function() {
@@ -361,7 +522,13 @@ function renderContent(str) {
   }
 }
 
-renderContent(raw);
+// HTML posts are already server-rendered into #blog-content — only run the
+// client-side renderer for legacy markdown (which ships a #raw-content store).
+if (rawEl && raw) {
+  renderContent(raw);
+} else if (window.MathJax && MathJax.typesetPromise) {
+  MathJax.typesetPromise([target]).catch(function(){});
+}
 
 // ── 2. Build table of contents from h2/h3 ────────────────────────────────────
 function buildToC() {
@@ -425,6 +592,54 @@ window.copyLink = function() {
     });
   }
 };
+
+// ── 5. Interactive MCQ quiz: score, colour answers, reveal explanations ───────
+var quizForm = document.getElementById('quizForm');
+if (quizForm) {
+  var quizEls   = Array.prototype.slice.call(quizForm.querySelectorAll('.quiz-q'));
+  var resultEl  = document.getElementById('quizResult');
+  var resetBtn  = document.getElementById('quizReset');
+
+  quizForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var score = 0, answered = 0;
+    quizEls.forEach(function(qEl) {
+      var correct = parseInt(qEl.getAttribute('data-answer'), 10);
+      var picked  = qEl.querySelector('input:checked');
+      var labels  = qEl.querySelectorAll('.quiz-opt');
+      labels.forEach(function(l){ l.classList.remove('is-correct','is-wrong'); });
+      labels[correct].classList.add('is-correct');
+      if (picked) {
+        answered++;
+        var pi = parseInt(picked.value, 10);
+        if (pi === correct) score++;
+        else labels[pi].classList.add('is-wrong');
+      }
+      var ex = qEl.querySelector('.quiz-explain');
+      if (ex) ex.hidden = false;
+    });
+    var total = quizEls.length;
+    var pct = Math.round((score / total) * 100);
+    var msg = pct === 100 ? 'Perfect! You have mastered this topic.'
+            : pct >= 60   ? 'Good work — revise the ones you missed and try again.'
+            : 'Keep practising — read the explanations above, then retry.';
+    resultEl.innerHTML = 'You scored <span class="qr-score">' + score + '/' + total + '</span>'
+      + '<span class="qr-msg">' + msg + '</span>';
+    resultEl.hidden = false;
+    resetBtn.hidden = false;
+    resultEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  resetBtn.addEventListener('click', function() {
+    quizForm.reset();
+    quizEls.forEach(function(qEl) {
+      qEl.querySelectorAll('.quiz-opt').forEach(function(l){ l.classList.remove('is-correct','is-wrong'); });
+      var ex = qEl.querySelector('.quiz-explain'); if (ex) ex.hidden = true;
+    });
+    resultEl.hidden = true; resetBtn.hidden = true;
+    document.getElementById('mcqQuiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
 
 })();
 </script>
