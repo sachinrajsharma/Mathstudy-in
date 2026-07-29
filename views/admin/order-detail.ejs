@@ -6,10 +6,41 @@
     <div class="admin-title">Order #<%= order.id %></div>
     <div class="admin-sub" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
       <span style="font-family:monospace;font-weight:700;color:#1e3a8a"><%= order.payment_id || '—' %></span>
-      <span class="order-status status-<%= order.status %>"><%= order.status %></span>
+      <span style="font-size:0.72rem;color:#94a3b8">(order ref — site-generated, NOT payment proof)</span>
+      <span class="order-status status-<%= order.status %>"><%= order.status === 'pending' ? 'pending · UNVERIFIED' : order.status %></span>
       <span><%= new Date(order.created_at).toLocaleString('en-IN') %></span>
       <span style="font-weight:800">&#8377;<%= parseFloat(order.total_amount).toFixed(0) %></span>
     </div>
+
+    <% if (order.status === 'pending') { %>
+    <!-- Payment verification warning + on-page approve/reject -->
+    <div class="od-card" style="background:#fffbeb;border-color:#fde68a">
+      <div class="od-card-title" style="color:#92400e">&#9888; Payment NOT verified — check before approving</div>
+      <p style="font-size:0.88rem;color:#92400e;line-height:1.7;margin:0 0 12px">
+        This order was created the moment the buyer clicked <b>"I Have Paid"</b> at checkout — the site
+        <b>cannot verify UPI payments automatically</b>. Open your UPI app and confirm that
+        <b>&#8377;<%= parseFloat(order.total_amount).toFixed(0) %></b> actually arrived
+        (around <%= new Date(order.created_at).toLocaleString('en-IN') %>) before approving.
+      </p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn-approve" data-amt="<%= parseFloat(order.total_amount).toFixed(0) %>" onclick="approveHere(<%= order.id %>, this)" style="padding:10px 18px">&#10003; Verified in UPI app &mdash; Approve</button>
+        <button onclick="rejectHere(<%= order.id %>, this)" style="background:#fff;border:1.5px solid #b91c1c;color:#b91c1c;border-radius:6px;font-size:0.8rem;font-weight:700;cursor:pointer;padding:10px 18px">&#10005; Payment not received &mdash; Reject</button>
+      </div>
+    </div>
+    <% } %>
+
+    <% if (order.status === 'paid') { %>
+    <!-- Danger zone: undo a wrong approval -->
+    <div class="od-card" style="background:#fef2f2;border-color:#fecaca">
+      <div class="od-card-title" style="color:#991b1b">Danger zone</div>
+      <p style="font-size:0.84rem;color:#7f1d1d;line-height:1.7;margin:0 0 10px">
+        Approved by mistake (payment never arrived)? Revoking marks the order rejected and
+        <b>kills all its download links immediately</b> (dashboard + emailed links). If the buyer already
+        downloaded, also rotate the file's Google Drive share link to fully cut access.
+      </p>
+      <button onclick="revokeHere(<%= order.id %>, this)" style="background:#b91c1c;color:#fff;border:none;border-radius:6px;font-size:0.8rem;font-weight:700;cursor:pointer;padding:10px 18px">&#128683; Revoke access &mdash; payment not received</button>
+    </div>
+    <% } %>
 
     <!-- Buyer -->
     <div class="od-card">
@@ -89,6 +120,7 @@
 .status-paid     { background:#d1fae5; color:#065f46; border:1px solid #6ee7b7; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
 .status-failed   { background:#fee2e2; color:#991b1b; border:1px solid #fca5a5; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
 .status-refunded { background:#f3f4f6; color:#6b7280; border:1px solid #d1d5db; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
+.status-rejected { background:#fee2e2; color:#991b1b; border:1px solid #fca5a5; padding:3px 9px; border-radius:20px; font-size:0.75rem; font-weight:700; display:inline-block; }
 .btn-approve { background:#065f46;color:#fff;border:none;border-radius:6px;font-size:0.8rem;font-weight:700;cursor:pointer; }
 .btn-approve:disabled { background:#94a3b8;cursor:default; }
 </style>
@@ -100,6 +132,33 @@ function copyDl(id, btn) {
   try { navigator.clipboard.writeText(input.value); } catch (e) { document.execCommand('copy'); }
   btn.textContent = 'Copied!';
   setTimeout(function(){ btn.textContent = 'Copy'; }, 1500);
+}
+function orderAction(orderId, btn, action, done) {
+  btn.disabled = true;
+  fetch('/admin/orders/' + orderId + '/approve', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: 'action=' + action
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(d){
+    if (d.ok) { alert(done(d)); window.location.reload(); }
+    else { btn.disabled = false; alert(d.error || 'Failed.'); }
+  })
+  .catch(function(){ btn.disabled = false; alert('Network error.'); });
+}
+function approveHere(orderId, btn) {
+  var amt = (btn.dataset && btn.dataset.amt) || '';
+  if (!confirm('PAYMENT IS NOT VERIFIED AUTOMATICALLY.\n\nHave you OPENED YOUR UPI APP and confirmed that Rs ' + amt + ' was actually received for order #' + orderId + '?\n\nOK = yes, money received - approve and email the download links.')) return;
+  orderAction(orderId, btn, 'approve', function(d){ return 'Order approved. ' + (d.tokens || 0) + ' download link(s) emailed to the buyer.'; });
+}
+function rejectHere(orderId, btn) {
+  if (!confirm('Reject order #' + orderId + '? The buyer will be told the payment was not received.')) return;
+  orderAction(orderId, btn, 'reject', function(){ return 'Order rejected.'; });
+}
+function revokeHere(orderId, btn) {
+  if (!confirm('REVOKE order #' + orderId + '?\n\nThis marks it rejected and immediately kills all its download links (dashboard + emailed). Use when it was approved by mistake and the payment never arrived.')) return;
+  orderAction(orderId, btn, 'revoke', function(d){ return 'Access revoked. ' + (d.revoked || 0) + ' download link(s) disabled.'; });
 }
 function resendEmail(btn) {
   btn.disabled = true; btn.textContent = 'Sending…';
