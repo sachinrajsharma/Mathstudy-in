@@ -1234,11 +1234,12 @@ app.post('/admin/orders/:id/approve', requireAdmin, async (req, res) => {
   const action  = req.body.action;
   if (!orderId) return res.status(400).json({ error: 'Invalid order ID.' });
   try {
-    const r = action === 'reject'
-      ? await ordersLib.rejectOrder(pool, orderId)
-      : await ordersLib.approveOrder(pool, orderId, BASE_URL);
+    const r = action === 'reject'  ? await ordersLib.rejectOrder(pool, orderId)
+            : action === 'revoke'  ? await ordersLib.revokeOrder(pool, orderId)
+            : await ordersLib.approveOrder(pool, orderId, BASE_URL);
     if (r.error && !r.already) return res.status(r.code || 400).json({ error: r.error });
-    res.json({ ok: true, tokens: r.downloads ? r.downloads.length : 0, already: !!r.already });
+    res.json({ ok: true, tokens: r.downloads ? r.downloads.length : 0,
+               revoked: r.tokensRevoked || 0, already: !!r.already });
   } catch(e) {
     console.error('approve order error:', e);
     res.status(500).json({ error: 'Server error. Try again.' });
@@ -1263,9 +1264,29 @@ app.get('/order-action/:id/:action', async (req, res) => {
     if (!order.admin_token || token !== order.admin_token) return res.status(403).send('Invalid or expired action link.');
 
     if (action === 'approve') {
-      const r = await ordersLib.approveOrder(pool, orderId, BASE_URL);
-      if (r.error && !r.already) return page('⚠️', 'Could not approve', r.error);
-      return page('✅', 'Order approved', r.already ? 'This order was already approved.' : 'The buyer has been emailed their secure download link.');
+      // Two-step: never approve straight from a GET link. Show the amount and
+      // force an explicit "I verified the money arrived" confirmation, because
+      // the site does NOT verify UPI payments automatically — the order exists
+      // only because the buyer clicked "I Have Paid".
+      if (order.status === 'paid') return page('✅', 'Order approved', 'This order was already approved.');
+      const csrf = res.locals.csrfToken || (req.session && req.session.csrfToken) || '';
+      const amt = parseFloat(order.total_amount).toFixed(0);
+      return res.send(
+        `<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1">` +
+        `<div style="font-family:Arial,sans-serif;max-width:520px;margin:40px auto;padding:30px;border:1px solid #eee;border-radius:14px">` +
+        `<h2 style="color:#0f172a;margin-top:0">Approve order #${order.id}?</h2>` +
+        `<div style="background:#fef3c7;border:1px solid #fde68a;border-radius:10px;padding:14px 16px;color:#92400e;font-size:14px;line-height:1.6">` +
+        `<b>⚠️ Payment is NOT verified automatically.</b> This order exists only because the buyer tapped ` +
+        `"I Have Paid" at checkout. Open your UPI app and confirm that <b>&#8377;${amt}</b> was actually received ` +
+        `(around ${new Date(order.created_at).toLocaleString('en-IN')}) before approving.</div>` +
+        `<p style="color:#475569;font-size:14px;line-height:1.8;margin:16px 0">Order ref (site-generated, not a bank ID): ` +
+        `<b style="font-family:monospace">${order.payment_id || '—'}</b><br>Amount: <b>&#8377;${amt}</b></p>` +
+        `<form method="POST" action="/order-action/${order.id}/approve?t=${encodeURIComponent(token)}" style="margin:0">` +
+        `<input type="hidden" name="_csrf" value="${csrf}">` +
+        `<button type="submit" style="background:#065f46;color:#fff;border:none;border-radius:8px;padding:12px 20px;font-size:15px;font-weight:700;cursor:pointer;width:100%">` +
+        `✅ I checked my UPI app — &#8377;${amt} received. Approve &amp; send download links</button></form>` +
+        `<a href="/order-action/${order.id}/reject?t=${encodeURIComponent(token)}" style="display:block;text-align:center;margin-top:12px;color:#b91c1c;font-weight:700;text-decoration:none">✖ Payment NOT received — reject this order</a>` +
+        `<a href="/admin/orders/${order.id}" style="display:block;text-align:center;margin-top:12px;color:#0d9488;font-weight:600;text-decoration:none">Open the full order in the admin panel →</a></div>`);
     }
     if (action === 'reject') {
       const r = await ordersLib.rejectOrder(pool, orderId);
@@ -1274,6 +1295,27 @@ app.get('/order-action/:id/:action', async (req, res) => {
     }
     return res.status(400).send('Unknown action.');
   } catch(e) { console.error('order-action error:', e); res.status(500).send('Server error.'); }
+});
+
+// Step 2 of the tap-from-phone Approve: the interstitial's confirm button POSTs
+// here (CSRF-checked by the global gate). Only then is the order approved.
+app.post('/order-action/:id/approve', async (req, res) => {
+  const orderId = parseInt(req.params.id, 10);
+  const token   = (req.query.t || '').toString();
+  const page = (icon, title, msg) => res.send(
+    `<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1">` +
+    `<div style="font-family:Arial,sans-serif;max-width:480px;margin:56px auto;padding:30px;border:1px solid #eee;border-radius:14px;text-align:center">` +
+    `<div style="font-size:46px">${icon}</div><h2 style="color:#0f172a;margin:.4em 0">${title}</h2>` +
+    `<p style="color:#475569;font-size:15px;line-height:1.6">${msg}</p>` +
+    `<a href="/admin/orders" style="display:inline-block;margin-top:14px;color:#0d9488;font-weight:700;text-decoration:none">→ Open admin orders</a></div>`);
+  try {
+    const order = await ordersLib.getOrder(pool, orderId);
+    if (!order) return res.status(404).send('Order not found.');
+    if (!order.admin_token || token !== order.admin_token) return res.status(403).send('Invalid or expired action link.');
+    const r = await ordersLib.approveOrder(pool, orderId, BASE_URL);
+    if (r.error && !r.already) return page('⚠️', 'Could not approve', r.error);
+    return page('✅', 'Order approved', r.already ? 'This order was already approved.' : 'The buyer has been emailed their secure download link.');
+  } catch(e) { console.error('order-action approve error:', e); res.status(500).send('Server error.'); }
 });
 
 // Admin — Users list
