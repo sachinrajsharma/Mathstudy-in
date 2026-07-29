@@ -397,7 +397,8 @@ window.MathJax = {
 </div>
 <% } %>
 
-<!-- ── SHOP CTA (every blog) ───────────────────────────────────────────────────── -->
+<% if (!(locals.ctaProduct && ctaProduct)) { %>
+<!-- ── SHOP CTA (only when the blog has no specific product CTA) ───────────────── -->
 <div style="max-width:820px;margin:0 auto 8px;padding:0 24px">
   <div style="background:linear-gradient(135deg,#0d9488,#0f766e);border-radius:16px;padding:26px 28px;color:#fff;text-align:center">
     <h3 style="font-size:1.3rem;font-weight:800;margin:0 0 8px;color:#fff">Get exam-ready faster with our e-books</h3>
@@ -407,6 +408,7 @@ window.MathJax = {
     </div>
   </div>
 </div>
+<% } %>
 
 <!-- ── SHARE BAR ─────────────────────────────────────────────────────────────── -->
 <div class="share-bar">
