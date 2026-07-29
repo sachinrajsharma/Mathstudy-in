@@ -142,6 +142,7 @@ p  { color:var(--mid); font-size:0.95rem }
 
 /* ── Shop page layout ────────────────────────────────────────────────────── */
 .shop-wrap { display:grid; grid-template-columns:220px 1fr; gap:32px; align-items:start }
+.shop-wrap > * { min-width:0 } /* grid items default to min-width:auto and refuse to shrink — this stops wide content forcing horizontal page scroll */
 .shop-filters { background:var(--white); border:1px solid var(--border); border-radius:14px; padding:20px; position:sticky; top:80px }
 .filter-head  { font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--muted); margin-bottom:12px }
 .filter-list  { list-style:none; display:flex; flex-direction:column; gap:3px }
@@ -274,8 +275,11 @@ p  { color:var(--mid); font-size:0.95rem }
 .breadcrumb span { margin:0 6px }
 
 /* ── Pagination ─────────────────────────────────────────────────────────── */
-.pagination { display:flex; gap:6px; justify-content:center; margin-top:40px }
+.pagination { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:40px }
 .page-btn   { padding:8px 14px; border:1px solid var(--border); border-radius:8px; font-size:0.84rem; color:var(--mid); background:var(--white); transition:all 0.15s }
+.page-gap   { padding:8px 4px; color:var(--muted); font-size:0.84rem; user-select:none }
+.page-btn.nav { font-weight:600 }
+.page-btn.disabled { opacity:.4; pointer-events:none }
 .page-btn:hover { border-color:var(--primary); color:var(--primary); text-decoration:none }
 .page-btn.active { background:var(--primary); color:#fff; border-color:var(--primary) }
 
