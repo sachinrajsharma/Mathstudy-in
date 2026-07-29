@@ -1364,14 +1364,28 @@ pool.query(`ALTER TABLE products ADD COLUMN price_locked TINYINT(1) NOT NULL DEF
 // Blog SEO engine columns (idempotent): an embedded MCQ test (quiz_json), a
 // per-blog product CTA (cta_product_slug) and an FAQ block (faq_json) so every
 // article can carry an interactive practice test + a buy button + FAQ schema.
-['ALTER TABLE blogs ADD COLUMN quiz_json LONGTEXT NULL',
- 'ALTER TABLE blogs ADD COLUMN cta_product_slug VARCHAR(512) NULL',
- 'ALTER TABLE blogs ADD COLUMN faq_json LONGTEXT NULL'
-].forEach(function(sql) {
-  pool.query(sql).catch(function(e) {
-    if (!/duplicate column|check that column\/key exists/i.test(e.message))
-      console.error('[schema] blog column:', e.message);
-  });
+Promise.allSettled(
+  ['ALTER TABLE blogs ADD COLUMN quiz_json LONGTEXT NULL',
+   'ALTER TABLE blogs ADD COLUMN cta_product_slug VARCHAR(512) NULL',
+   'ALTER TABLE blogs ADD COLUMN faq_json LONGTEXT NULL'
+  ].map(function(sql) {
+    return pool.query(sql).catch(function(e) {
+      if (!/duplicate column|check that column\/key exists/i.test(e.message))
+        console.error('[schema] blog column:', e.message);
+    });
+  })
+).then(function() {
+  // Auto-import every data/blogs/*.json into the blogs table on boot (idempotent
+  // by slug). This means a plain Hostinger redeploy/restart publishes new blogs —
+  // no manual `node scripts/upsert-blog.js` loop over SSH is needed. Runs AFTER
+  // the columns above exist so quiz/faq/cta write successfully.
+  try {
+    const { importAllBlogs } = require('./lib/blog-import');
+    return importAllBlogs(pool).then(function(r) {
+      console.log('[blog-import] files=' + r.total + ' inserted=' + r.inserted +
+                  ' updated=' + r.updated + ' skipped=' + r.skipped);
+    });
+  } catch (e) { console.error('[blog-import] failed:', e.message); }
 });
 
 // Load a published blog + its quiz, FAQ and CTA product, and render it. Shared by
