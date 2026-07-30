@@ -280,32 +280,12 @@
     "route": "FRESH"
   },
   {
-    "cta": "addition-worksheets-for-grade-1",
-    "fmt": "html",
-    "slug": "grade-1-addition-worksheets",
-    "title": "grade 1 addition worksheets",
-    "views": 49,
-    "wc": 171,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
     "cta": "word-problems-for-grade-1-addition-mixed",
     "fmt": "html",
     "slug": "1st-grade-subtraction-word-problems",
     "title": "1st grade subtraction word problems",
     "views": 49,
     "wc": 142,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "grade-2-addition-with-regrouping-worksheets-with-answers",
-    "fmt": "html",
-    "slug": "maths-worksheet-grade-2-chapter-addition-2",
-    "title": "maths worksheet grade 2 chapter addition",
-    "views": 49,
-    "wc": 172,
     "isCanon": false,
     "route": "FRESH"
   },
