@@ -1,0 +1,85 @@
+{
+  "slug": "addition-of-matrices-assignment-class-x-icse-board",
+  "meta_title": "Addition of Matrices Assignment — Class 10 ICSE",
+  "meta_desc": "Practise addition of matrices for Class 10 ICSE with an 8-question quiz on matrix order, compatibility, the zero matrix and commutativity, plus solved answers.",
+  "category": "Class 10 Maths",
+  "cta_product_slug": "class-10-matrices-case-studies-with-solutions",
+  "quiz": {
+    "title": "Addition of Matrices Quiz — Class 10 ICSE",
+    "intro": "Eight questions on adding matrices at ICSE Class 10 level: order, when addition is allowed, 2&times;2 sums, the zero matrix and commutativity. Pick an answer for each, then press Check my score.",
+    "about": "Addition of matrices for Class 10 ICSE",
+    "level": "Class 10 ICSE",
+    "questions": [
+      {
+        "q": "Two matrices can be added only when",
+        "options": ["they are both square", "they have the same order", "they have the same number of rows only", "their product is defined"],
+        "answer": 1,
+        "explanation": "Addition is defined only for matrices of the same order &mdash; the same number of rows AND the same number of columns &mdash; because you add corresponding elements."
+      },
+      {
+        "q": "A is a 2&times;3 matrix and B is a 3&times;2 matrix. Is A + B possible?",
+        "options": ["Yes, the sum is 2&times;2", "Yes, the sum is 3&times;3", "No, the orders are different", "Yes, the sum is 2&times;3"],
+        "answer": 2,
+        "explanation": "A is 2&times;3 and B is 3&times;2, so their orders do not match. Addition is not defined, even though multiplication AB would be."
+      },
+      {
+        "q": "If A = [[2, 1], [3, 4]] and B = [[1, 5], [0, 2]], then A + B equals",
+        "options": ["[[3, 6], [3, 6]]", "[[3, 5], [3, 8]]", "[[2, 5], [0, 8]]", "[[1, 4], [3, 2]]"],
+        "answer": 0,
+        "explanation": "Add corresponding elements: 2+1=3, 1+5=6, 3+0=3, 4+2=6, giving [[3, 6], [3, 6]]."
+      },
+      {
+        "q": "The additive identity for 2&times;2 matrices is",
+        "options": ["the identity matrix [[1, 0], [0, 1]]", "the zero matrix [[0, 0], [0, 0]]", "the matrix [[1, 1], [1, 1]]", "any diagonal matrix"],
+        "answer": 1,
+        "explanation": "Adding the zero (null) matrix leaves any matrix unchanged: A + O = A. The identity matrix I is the identity for multiplication, not addition."
+      },
+      {
+        "q": "For matrices of the same order, A + B is equal to",
+        "options": ["A &minus; B", "B + A", "AB", "2A"],
+        "answer": 1,
+        "explanation": "Matrix addition is commutative: A + B = B + A, because each pair of corresponding elements is added and ordinary number addition is commutative."
+      },
+      {
+        "q": "If A = [[4, 0], [1, 3]], then A + O, where O is the 2&times;2 zero matrix, is",
+        "options": ["[[0, 0], [0, 0]]", "[[5, 1], [2, 4]]", "[[4, 0], [1, 3]]", "[[8, 0], [2, 6]]"],
+        "answer": 2,
+        "explanation": "O is the additive identity, so A + O = A. Nothing changes: the answer is [[4, 0], [1, 3]]."
+      },
+      {
+        "q": "If A = [[1, 2], [3, 4]], then find 2A + B where B = [[0, 1], [2, 0]].",
+        "options": ["[[2, 5], [8, 8]]", "[[1, 3], [5, 4]]", "[[2, 4], [6, 8]]", "[[3, 6], [9, 12]]"],
+        "answer": 0,
+        "explanation": "First multiply by the scalar: 2A = [[2, 4], [6, 8]]. Then add B: 2+0=2, 4+1=5, 6+2=8, 8+0=8, giving [[2, 5], [8, 8]]."
+      },
+      {
+        "q": "If A + B = [[5, 7], [4, 9]] and A = [[2, 3], [1, 6]], then B is",
+        "options": ["[[7, 10], [5, 15]]", "[[3, 4], [3, 3]]", "[[2, 3], [1, 6]]", "[[5, 7], [4, 9]]"],
+        "answer": 1,
+        "explanation": "Subtract A from both sides: B = (A + B) &minus; A. Element-wise: 5&minus;2=3, 7&minus;3=4, 4&minus;1=3, 9&minus;6=3, giving [[3, 4], [3, 3]]."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When can two matrices be added in ICSE Class 10?",
+      "a": "Only when they have exactly the same order &mdash; the same number of rows and the same number of columns. You then add the elements that sit in matching positions. A 2&times;2 can be added to another 2&times;2, but not to a 2&times;3."
+    },
+    {
+      "q": "How do you add two 2&times;2 matrices?",
+      "a": "Add the corresponding entries one by one: top-left to top-left, top-right to top-right, and so on. If A = [[a, b], [c, d]] and B = [[p, q], [r, s]], then A + B = [[a+p, b+q], [c+r, d+s]]."
+    },
+    {
+      "q": "What is the zero matrix and why does it matter for addition?",
+      "a": "The zero (or null) matrix has every entry equal to 0. It is the additive identity: A + O = A for any matrix A of the same order, just as adding 0 leaves an ordinary number unchanged."
+    },
+    {
+      "q": "Is matrix addition commutative like ordinary addition?",
+      "a": "Yes. For matrices of the same order, A + B = B + A. This is because each entry is a sum of two numbers, and number addition is commutative. Matrix multiplication, by contrast, is usually not commutative."
+    },
+    {
+      "q": "Where can I get more ICSE Class 10 matrix problems with full solutions?",
+      "a": "Our Class 10 Matrices case-study e-book has application-style questions on addition, subtraction, scalar multiplication and multiplication of matrices, each with a complete worked solution. The download link is in the box below."
+    }
+  ]
+}

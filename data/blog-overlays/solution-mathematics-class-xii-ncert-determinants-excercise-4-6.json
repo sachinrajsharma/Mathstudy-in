@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-determinants-excercise-4-6",
+  "meta_title": "NCERT Class 12 Maths Determinants Ex 4.6 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Determinants Exercise 4.6 solutions on solving linear systems by the inverse method and checking consistency. Practise free.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Determinants Ex 4.6 Quiz: Systems of Linear Equations",
+    "intro": "Eight questions on consistency, the inverse method and when a system has a unique, infinite or no solution. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Determinants Exercise 4.6 — solving systems using matrices",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For the matrix equation AX = B, when is the unique-solution formula X = A&#8315;&#185;B valid?", "options": ["When |A| = 0", "When |A| &#8800; 0", "When B = 0", "When A is not square"], "answer": 1, "explanation": "A&#8315;&#185; exists only when A is non-singular, that is |A| &#8800; 0. Then X = A&#8315;&#185;B gives the unique solution." },
+      { "q": "A system AX = B with |A| &#8800; 0 is called:", "options": ["Consistent with a unique solution", "Inconsistent", "Consistent with infinitely many solutions", "Homogeneous"], "answer": 0, "explanation": "|A| &#8800; 0 means A is invertible, so the system is consistent and has exactly one solution." },
+      { "q": "If |A| = 0 and (adj A) B &#8800; 0, the system AX = B is:", "options": ["Consistent with a unique solution", "Inconsistent (no solution)", "Consistent with infinitely many solutions", "Always homogeneous"], "answer": 1, "explanation": "When |A| = 0 and (adj A)B &#8800; 0 the equations contradict each other, so no solution exists — the system is inconsistent." },
+      { "q": "If |A| = 0 and (adj A) B = 0, the system AX = B usually has:", "options": ["No solution", "Exactly one solution", "Infinitely many solutions (if consistent)", "A negative solution"], "answer": 2, "explanation": "With |A| = 0 and (adj A)B = 0 the system, if consistent, has infinitely many solutions." },
+      { "q": "For the system 2x + 5y = 1, 3x + 2y = 7, the value of |A| is:", "options": ["11", "&#8722;11", "19", "&#8722;19"], "answer": 1, "explanation": "|A| = (2)(2) &#8722; (5)(3) = 4 &#8722; 15 = &#8722;11. Since it is non-zero, the system has a unique solution." },
+      { "q": "Solving 2x + 5y = 1, 3x + 2y = 7 by the inverse method gives:", "options": ["x = 3, y = &#8722;1", "x = 1, y = 7", "x = &#8722;1, y = 3", "x = 2, y = 5"], "answer": 0, "explanation": "With |A| = &#8722;11, X = A&#8315;&#185;B gives x = 3 and y = &#8722;1. Check: 2(3) + 5(&#8722;1) = 1 and 3(3) + 2(&#8722;1) = 7." },
+      { "q": "In X = A&#8315;&#185;B, the inverse A&#8315;&#185; equals:", "options": ["|A| &#183; adj A", "adj A &#247; |A|", "adj A &#215; |A|", "|A| &#247; adj A"], "answer": 1, "explanation": "A&#8315;&#185; = (1/|A|) adj A, valid whenever |A| &#8800; 0." },
+      { "q": "A homogeneous system AX = 0 has a non-trivial (non-zero) solution only when:", "options": ["|A| &#8800; 0", "|A| = 0", "B &#8800; 0", "A is a 1&#215;1 matrix"], "answer": 1, "explanation": "If |A| &#8800; 0 the only solution is X = 0. A non-trivial solution needs |A| = 0." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 4.6 of Class 12 Determinants cover?", "a": "It focuses on solving systems of linear equations using matrices — writing the system as AX = B, finding A&#8315;&#185;, and applying X = A&#8315;&#185;B. It also covers checking whether a system is consistent or inconsistent." },
+    { "q": "How do I know if a system of equations is consistent?", "a": "Compute |A|. If |A| &#8800; 0 the system is consistent with a unique solution. If |A| = 0, check (adj A)B: if it is zero the system may have infinitely many solutions, and if it is non-zero the system is inconsistent with no solution." },
+    { "q": "When can I use X = A&#8315;&#185;B to solve a system?", "a": "Only when the coefficient matrix A is square and non-singular, that is |A| &#8800; 0, so that A&#8315;&#185; exists. If |A| = 0 the inverse method does not apply and you analyse consistency separately." },
+    { "q": "What is the difference between a unique solution and infinitely many solutions?", "a": "A unique solution occurs when |A| &#8800; 0 — the lines or planes meet at a single point. Infinitely many solutions occur when |A| = 0 and the equations are dependent yet consistent, so the whole solution set satisfies them." },
+    { "q": "Where can I get fully solved answers for all Determinants exercises?", "a": "Our fully solved Class 12 CBSE workbook works through every Determinants exercise, including Ex 4.6 systems and consistency problems, with each step explained. The link is in the box below." }
+  ]
+}

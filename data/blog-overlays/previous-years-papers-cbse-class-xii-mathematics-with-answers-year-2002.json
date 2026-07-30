@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2002",
+  "meta_title": "CBSE Class 12 Maths 2002 Question Paper + Answers",
+  "meta_desc": "Practise the CBSE Class 12 Maths 2002 previous-year paper on calculus, matrices, vectors and probability, with worked answers and a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2002 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 2002 paper, covering calculus, matrices and determinants, vectors and 3D geometry, integrals and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2002 previous year paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = cos(x<sup>2</sup>), then dy/dx equals:", "options": ["&minus;2x sin(x<sup>2</sup>)", "2x sin(x<sup>2</sup>)", "&minus;sin(x<sup>2</sup>)", "sin(2x)"], "answer": 0, "explanation": "By the chain rule, d/dx cos(u) = &minus;sin(u) &middot; du/dx. Here u = x<sup>2</sup>, so du/dx = 2x and dy/dx = &minus;2x sin(x<sup>2</sup>)." },
+      { "q": "The matrix | 3 x ; 2 4 | is singular when x equals:", "options": ["3", "6", "8", "12"], "answer": 1, "explanation": "A matrix is singular when its determinant is zero. Here det = (3)(4) &minus; (x)(2) = 12 &minus; 2x = 0, so x = 6." },
+      { "q": "&int; sec<sup>2</sup> x dx equals:", "options": ["sec x + C", "&minus;cot x + C", "tan x + C", "ln|sec x| + C"], "answer": 2, "explanation": "The derivative of tan x is sec<sup>2</sup> x, so &int; sec<sup>2</sup> x dx = tan x + C." },
+      { "q": "If a = i + j and b = j + k, then |a &times; b| equals:", "options": ["1", "&radic;2", "2", "&radic;3"], "answer": 3, "explanation": "a &times; b = (1, &minus;1, 1), so its magnitude is &radic;(1 + 1 + 1) = &radic;3." },
+      { "q": "The probability that a leap year has 53 Sundays is:", "options": ["2/7", "1/7", "3/7", "1/53"], "answer": 0, "explanation": "A leap year has 366 days = 52 weeks and 2 extra consecutive days. Of the 7 possible pairs, two contain a Sunday, so the probability is 2/7." },
+      { "q": "The value of &int; from &minus;a to a of x<sup>3</sup> dx is:", "options": ["a<sup>4</sup>/4", "0", "2a<sup>4</sup>", "a<sup>3</sup>/3"], "answer": 1, "explanation": "x<sup>3</sup> is an odd function, and the integral of an odd function over a symmetric interval [&minus;a, a] is 0." },
+      { "q": "The distance of the point (2, 3, &minus;6) from the origin is:", "options": ["5", "6", "7", "&radic;41"], "answer": 2, "explanation": "Distance = &radic;(2<sup>2</sup> + 3<sup>2</sup> + (&minus;6)<sup>2</sup>) = &radic;(4 + 9 + 36) = &radic;49 = 7." },
+      { "q": "A square matrix A satisfying A<sup>2</sup> = A is called:", "options": ["nilpotent", "orthogonal", "singular", "idempotent"], "answer": 3, "explanation": "A matrix that equals its own square, A<sup>2</sup> = A, is called idempotent (for example, the identity matrix)." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the CBSE Class 12 Maths 2002 paper cover?", "a": "It follows the Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations and probability. The same core areas still dominate the board paper today." },
+    { "q": "Is the 2002 paper still worth solving for the current board exam?", "a": "Yes. The format has changed &mdash; today's paper adds MCQ and case-study sections &mdash; but the underlying concepts are the same. Older papers like 2002 offer clean, well-set questions that are ideal for building fundamentals before you switch to recent sample papers." },
+    { "q": "How is a matrix shown to be singular?", "a": "A square matrix is singular when its determinant equals zero, which means it has no inverse. To check, compute the determinant and set it to zero; any value that makes it vanish makes the matrix singular." },
+    { "q": "What is the best way to revise using an old paper?", "a": "Solve it in one timed sitting without notes, mark it against the answer key, then re-work only the questions you got wrong. That targeted second pass fixes weak spots far faster than re-reading solved answers." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from as often as you like. The link is in the box below." }
+  ]
+}

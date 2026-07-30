@@ -1,0 +1,30 @@
+{
+  "slug": "ncert-solution-chapter-matrices-excercise-miscellaneous",
+  "meta_title": "NCERT Class 12 Matrices Miscellaneous Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths solutions for the Matrices miscellaneous exercise, plus a free 8-question quiz on polynomials, inverses and symmetry.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-matrices-chapter-practice-tests",
+  "quiz": {
+    "title": "Matrices Miscellaneous Exercise Quiz",
+    "intro": "Eight mixed questions on the miscellaneous exercise topics — matrix polynomials, inverses, symmetric and skew-symmetric parts, and matrix equations. Answer each, then press Check my score.",
+    "about": "Class 12 Matrices — miscellaneous exercise",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For A = [[0, 1], [0, 0]], what is A&sup2;?", "options": ["The identity matrix I", "The zero matrix O", "A itself", "2A"], "answer": 1, "explanation": "A&sup2; = A&middot;A. Row 1 &times; columns gives [[0,0],[0,0]], so A&sup2; = O. Such a matrix is called nilpotent." },
+      { "q": "A square matrix A can always be written as the sum of which two matrices?", "options": ["Two symmetric matrices", "A symmetric and a skew-symmetric matrix", "Two skew-symmetric matrices", "A diagonal and an identity matrix"], "answer": 1, "explanation": "A = &frac12;(A + A&prime;) + &frac12;(A &minus; A&prime;). The first part is symmetric, the second is skew-symmetric." },
+      { "q": "For the symmetric part &frac12;(A + A&prime;) to exist and be defined, A must be", "options": ["A row matrix", "A square matrix", "A singular matrix", "A diagonal matrix"], "answer": 1, "explanation": "A&prime; can only be added to A when both have the same order, which requires A to be square." },
+      { "q": "If A is invertible and satisfies A&sup2; &minus; 4A + 3I = O, then A&#8315;&sup1; equals", "options": ["&frac13;(4I &minus; A)", "&frac14;(A &minus; 3I)", "3I &minus; 4A", "A &minus; 4I"], "answer": 0, "explanation": "From A&sup2; &minus; 4A + 3I = O, multiply by A&#8315;&sup1;: A &minus; 4I + 3A&#8315;&sup1; = O, so A&#8315;&sup1; = &frac13;(4I &minus; A)." },
+      { "q": "A diagonal element of any skew-symmetric matrix must be", "options": ["1", "Equal to the trace", "0", "Positive"], "answer": 2, "explanation": "Skew-symmetry means a&#8341;&#8342; = &minus;a&#8342;&#8341;. For a diagonal entry a&#8341;&#8341; = &minus;a&#8341;&#8341;, which forces a&#8341;&#8341; = 0." },
+      { "q": "If A is a 3&times;3 matrix with A&prime; = A, then A is called", "options": ["Skew-symmetric", "Orthogonal", "Symmetric", "Singular"], "answer": 2, "explanation": "A matrix equal to its own transpose (A&prime; = A) is symmetric." },
+      { "q": "For invertible matrices A and B of the same order, (AB)&#8315;&sup1; equals", "options": ["A&#8315;&sup1;B&#8315;&sup1;", "B&#8315;&sup1;A&#8315;&sup1;", "AB", "(BA)&#8315;&sup1;"], "answer": 1, "explanation": "The reversal law: (AB)&#8315;&sup1; = B&#8315;&sup1;A&#8315;&sup1;, since (AB)(B&#8315;&sup1;A&#8315;&sup1;) = A(BB&#8315;&sup1;)A&#8315;&sup1; = I." },
+      { "q": "If X is a 2&times;2 matrix and AX = B with A invertible, then X equals", "options": ["BA&#8315;&sup1;", "A&#8315;&sup1;B", "B&#8315;&sup1;A", "AB&#8315;&sup1;"], "answer": 1, "explanation": "Left-multiply both sides by A&#8315;&sup1;: A&#8315;&sup1;AX = A&#8315;&sup1;B, so X = A&#8315;&sup1;B. Order matters — you must pre-multiply." }
+    ]
+  },
+  "faq": [
+    { "q": "What kinds of problems appear in the Class 12 Matrices miscellaneous exercise?", "a": "It mixes everything from the chapter — matrix polynomials such as A&sup2; &minus; 5A + 6I, finding inverses from a matrix equation, expressing a matrix as the sum of a symmetric and a skew-symmetric matrix, and solving matrix equations like AX = B." },
+    { "q": "How do you write a square matrix as a symmetric plus a skew-symmetric matrix?", "a": "Use A = &frac12;(A + A&prime;) + &frac12;(A &minus; A&prime;). The first term is symmetric because (A + A&prime;)&prime; = A + A&prime;, and the second is skew-symmetric because (A &minus; A&prime;)&prime; = &minus;(A &minus; A&prime;)." },
+    { "q": "How do you find the inverse of A from an equation like A&sup2; &minus; 4A + 3I = O?", "a": "Multiply the whole equation by A&#8315;&sup1;. Every A term drops by one power, leaving an expression for A&#8315;&sup1; in terms of A and I — here A&#8315;&sup1; = &frac13;(4I &minus; A). No cofactor work is needed." },
+    { "q": "Why does the order matter when solving matrix equations?", "a": "Matrix multiplication is not commutative, so AX = B and XA = B have different solutions. For AX = B you pre-multiply by A&#8315;&sup1; to get X = A&#8315;&sup1;B; for XA = B you post-multiply to get X = BA&#8315;&sup1;." },
+    { "q": "Where can I get full solutions and extra practice for this exercise?", "a": "Our Class 12 Matrices chapter practice tests give worked, step-by-step solutions to the miscellaneous exercise plus fresh problems on polynomials, inverses and symmetric decomposition, each with an answer key. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2003",
+  "meta_title": "CBSE Class 12 Maths 2003 Paper Solved + Free Quiz",
+  "meta_desc": "Work through the CBSE Class 12 Maths 2003 board paper with answers across calculus, matrices, vectors, 3D and probability, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2003 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 2003 paper, spanning calculus, matrices and determinants, vectors, 3D geometry and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2003 previous-year paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The derivative of tan x with respect to x is:", "options": ["sec<sup>2</sup> x", "cosec<sup>2</sup> x", "&minus;sec<sup>2</sup> x", "sec x tan x"], "answer": 0, "explanation": "d/dx (tan x) = sec<sup>2</sup> x is a standard result. Note that sec x tan x is the derivative of sec x, not tan x." },
+      { "q": "The matrix | k 2 ; 3 6 | is singular when k equals:", "options": ["0", "1", "2", "3"], "answer": 1, "explanation": "A matrix is singular when its determinant is 0. Here 6k &minus; 6 = 0, so k = 1." },
+      { "q": "&int; sec<sup>2</sup> x dx equals:", "options": ["cot x + C", "&minus;cot x + C", "sec x + C", "tan x + C"], "answer": 3, "explanation": "Since d/dx (tan x) = sec<sup>2</sup> x, the integral of sec<sup>2</sup> x is tan x + C." },
+      { "q": "If two non-zero vectors a and b are parallel, then a &times; b is:", "options": ["a &middot; b", "a unit vector", "the zero vector", "|a||b|"], "answer": 2, "explanation": "|a &times; b| = |a||b| sin&theta;. For parallel vectors &theta; = 0, so sin&theta; = 0 and the cross product is the zero vector." },
+      { "q": "The distance between the points (2, 3, 1) and (2, 3, 6) is:", "options": ["2", "3", "4", "5"], "answer": 3, "explanation": "Distance = &radic;((2&minus;2)<sup>2</sup> + (3&minus;3)<sup>2</sup> + (6&minus;1)<sup>2</sup>) = &radic;25 = 5." },
+      { "q": "A fair die is rolled once. The probability of getting a prime number is:", "options": ["1/3", "1/2", "2/3", "1/6"], "answer": 1, "explanation": "The primes on a die are 2, 3 and 5 &mdash; three outcomes out of six, so the probability is 3/6 = 1/2." },
+      { "q": "&int; from 0 to &pi;/2 of cos x dx equals:", "options": ["1", "0", "2", "1/2"], "answer": 0, "explanation": "&int; cos x dx = sin x. Evaluating from 0 to &pi;/2 gives sin(&pi;/2) &minus; sin 0 = 1 &minus; 0 = 1." },
+      { "q": "For any square matrix A, the matrix A + A<sup>T</sup> is always:", "options": ["symmetric", "skew-symmetric", "the identity matrix", "singular"], "answer": 0, "explanation": "(A + A<sup>T</sup>)<sup>T</sup> = A<sup>T</sup> + A = A + A<sup>T</sup>. A matrix equal to its own transpose is symmetric." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the CBSE Class 12 Maths 2003 paper cover?", "a": "It follows the Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations and probability. That spread still forms the backbone of the board paper today." },
+    { "q": "Is the 2003 paper still worth solving for the current exam?", "a": "Yes. The pattern has changed &mdash; today's paper adds MCQ and case-study sections &mdash; but the underlying concepts are the same. The 2003 paper offers clean, well-set questions that are excellent for strengthening fundamentals." },
+    { "q": "How is the 2003 paper different from a recent CBSE paper?", "a": "The 2003 paper uses the older marking scheme with mostly short- and long-answer questions and no objective or case-based section. Use it for concept practice, then switch to a recent sample paper to rehearse the current format." },
+    { "q": "What is the best way to practise with a previous-year paper?", "a": "Attempt it in one timed sitting without notes, mark it against the answer key, then re-solve only the questions you got wrong. That gap analysis teaches far more than reading solved answers straight through." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from repeatedly. The link is in the box below." }
+  ]
+}

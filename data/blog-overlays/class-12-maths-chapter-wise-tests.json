@@ -1,0 +1,30 @@
+{
+  "slug": "class-12-maths-chapter-wise-tests",
+  "meta_title": "Class 12 Maths Chapter-wise Tests + Free Quiz",
+  "meta_desc": "Practise Class 12 Maths with chapter-wise tests across calculus, matrices, vectors, 3D, probability and LPP, plus a free 8-question quiz to test your prep.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "chapter-wise-test-papers-for-class-12-maths",
+  "quiz": {
+    "title": "Class 12 Maths Chapter-wise Test",
+    "intro": "Eight mixed questions drawn from calculus, matrices and determinants, vectors and 3D, probability and linear programming. Answer each, then press Check my score.",
+    "about": "Class 12 Maths mixed chapter-wise revision",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The value of &#8747;&#8320;<sup>&pi;/2</sup> cos x dx is:", "options": ["0", "1", "&pi;/2", "2"], "answer": 1, "explanation": "The antiderivative of cos x is sin x, so the value is sin(&pi;/2) &minus; sin 0 = 1 &minus; 0 = 1." },
+      { "q": "If A is a 3&times;3 invertible matrix with |A| = 5, then |A&#8315;&sup1;| equals:", "options": ["5", "25", "1/5", "1/25"], "answer": 2, "explanation": "For an invertible matrix, |A&#8315;&sup1;| = 1/|A|. Here that is 1/5." },
+      { "q": "The area of the parallelogram with adjacent sides a = i + j and b = j + k is:", "options": ["1", "&radic;2", "3", "&radic;3"], "answer": 3, "explanation": "a &times; b = (1, &minus;1, 1), so the area is its magnitude &radic;(1 + 1 + 1) = &radic;3." },
+      { "q": "The distance between the parallel planes 2x &minus; y + 2z = 5 and 2x &minus; y + 2z = 11 is:", "options": ["2", "3", "4", "6"], "answer": 0, "explanation": "Distance = |11 &minus; 5| / &radic;(2&sup2; + (&minus;1)&sup2; + 2&sup2;) = 6 / 3 = 2." },
+      { "q": "A box has 3 red and 2 blue balls. Two are drawn without replacement. The probability both are red is:", "options": ["1/10", "1/5", "3/10", "2/5"], "answer": 2, "explanation": "P(both red) = (3/5) &times; (2/4) = 6/20 = 3/10, since the first red leaves 2 red out of 4 balls." },
+      { "q": "The corner points of a feasible region are (0,0), (4,0), (3,3) and (0,5). The maximum of Z = 2x + 3y is:", "options": ["8", "15", "18", "21"], "answer": 1, "explanation": "Evaluate Z at each corner: 0, 8, 15, 15. The maximum value is 15, attained at (3,3) and (0,5)." },
+      { "q": "The function f(x) = 2x&sup3; &minus; 9x&sup2; + 12x has a local maximum at:", "options": ["x = 1", "x = 2", "x = 3", "x = 0"], "answer": 0, "explanation": "f&prime;(x) = 6(x &minus; 1)(x &minus; 2) is zero at x = 1 and x = 2. Since f&Prime;(1) = &minus;6 &lt; 0, x = 1 gives the local maximum." },
+      { "q": "For a 3&times;3 matrix A with |A| = 3, the value of |adj A| is:", "options": ["3", "6", "27", "9"], "answer": 3, "explanation": "For an n&times;n matrix, |adj A| = |A|<sup>n&minus;1</sup>. With n = 3, that is 3&sup2; = 9." }
+    ]
+  },
+  "faq": [
+    { "q": "Which chapters do Class 12 Maths chapter-wise tests usually cover?", "a": "They span the full CBSE syllabus &mdash; relations and functions, inverse trig, matrices and determinants, continuity and differentiability, applications of derivatives, integrals, differential equations, vectors, three-dimensional geometry, linear programming and probability." },
+    { "q": "How should I use chapter-wise tests during revision?", "a": "Finish a chapter, take its test the same week while the ideas are fresh, and log every wrong answer. Revisit those exact question types after two or three days rather than re-reading the whole chapter." },
+    { "q": "Which Class 12 Maths chapters carry the most marks in the board exam?", "a": "Calculus &mdash; integrals, applications of derivatives and differential equations &mdash; is the largest block, followed by vectors and 3D geometry together, then matrices and determinants. Probability and linear programming are smaller but scoring." },
+    { "q": "How many questions should one chapter test have?", "a": "A focused chapter test of 8 to 12 questions is enough for a single sitting. Mix one-mark objective questions with a few longer problems so you practise both speed and full-solution writing." },
+    { "q": "Where can I get chapter-wise test papers for Class 12 Maths with answers?", "a": "Our Class 12 Maths chapter-wise test papers cover every chapter with graded questions and full solutions, delivered as an instant printable PDF. The link is in the box below." }
+  ]
+}
