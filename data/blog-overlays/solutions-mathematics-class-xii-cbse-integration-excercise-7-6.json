@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-6",
+  "meta_title": "Integration by Parts: Class 12 Exercise 7.6 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 7.6 solutions on integration by parts with the ILATE rule, plus a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Integration by Parts Quiz (Exercise 7.6)",
+    "intro": "Eight questions on integration by parts, the ILATE rule and the standard integrals from Exercise 7.6. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths integration by parts",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Integration by parts is derived from which rule?", "options": ["The chain rule", "The product rule for differentiation", "The quotient rule", "The power rule"], "answer": 1, "explanation": "Integrating the product rule (uv)' = u'v + uv' and rearranging gives &int;u v' dx = uv &minus; &int;u' v dx, which is integration by parts." },
+      { "q": "In the ILATE rule, which function is chosen as the first function (u)?", "options": ["The one that comes later in ILATE", "The exponential function always", "The one that comes earlier in ILATE", "The trigonometric function always"], "answer": 2, "explanation": "ILATE orders Inverse, Logarithmic, Algebraic, Trigonometric, Exponential. The function appearing earlier is taken as u (the part to differentiate)." },
+      { "q": "Evaluate &int; x e^x dx.", "options": ["x e^x + C", "e^x(x &minus; 1) + C", "e^x(x + 1) + C", "x e^x &minus; e^x + x + C"], "answer": 1, "explanation": "Take u = x, dv = e^x dx. Then &int; x e^x dx = x e^x &minus; &int; e^x dx = x e^x &minus; e^x + C = e^x(x &minus; 1) + C." },
+      { "q": "Evaluate &int; x sin x dx.", "options": ["&minus;x cos x + sin x + C", "x cos x &minus; sin x + C", "&minus;x cos x &minus; sin x + C", "x sin x + cos x + C"], "answer": 0, "explanation": "Take u = x, dv = sin x dx, so v = &minus;cos x. Then &int; x sin x dx = &minus;x cos x + &int; cos x dx = &minus;x cos x + sin x + C." },
+      { "q": "Evaluate &int; x ln x dx.", "options": ["(x^2/2) ln x + x^2/4 + C", "(x^2/2) ln x &minus; x^2/4 + C", "x ln x &minus; x + C", "(x^2/2) ln x &minus; x^2/2 + C"], "answer": 1, "explanation": "Here ln x is Logarithmic, so u = ln x, dv = x dx, v = x^2/2. Then &int; x ln x dx = (x^2/2) ln x &minus; &int;(x^2/2)(1/x) dx = (x^2/2) ln x &minus; x^2/4 + C." },
+      { "q": "Which integral matches the form &int; e^x[f(x) + f'(x)] dx?", "options": ["e^x f'(x) + C", "e^x f(x) + C", "f(x) + C", "e^x f(x) f'(x) + C"], "answer": 1, "explanation": "The standard result is &int; e^x[f(x) + f'(x)] dx = e^x f(x) + C, since the derivative of e^x f(x) is exactly e^x[f(x) + f'(x)]." },
+      { "q": "Evaluate &int; ln x dx.", "options": ["x ln x + x + C", "ln x + C", "1/x + C", "x ln x &minus; x + C"], "answer": 3, "explanation": "Write ln x as (ln x)(1). Take u = ln x, dv = dx, v = x. Then &int; ln x dx = x ln x &minus; &int; x(1/x) dx = x ln x &minus; x + C." },
+      { "q": "Using &int; e^x[f(x) + f'(x)] dx = e^x f(x) + C, evaluate &int; e^x(sin x + cos x) dx.", "options": ["e^x cos x + C", "e^x(sin x &minus; cos x) + C", "e^x sin x + C", "e^x(sin x + cos x) + C"], "answer": 2, "explanation": "Here f(x) = sin x and f'(x) = cos x, so the integral is e^x sin x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "When should I use integration by parts?", "a": "Use it when the integrand is a product of two different types of functions &mdash; for example x times e^x, or x times sin x, or x times ln x. It rewrites &int;u v' dx as uv &minus; &int;u' v dx so the remaining integral is simpler." },
+    { "q": "What does the ILATE rule tell you?", "a": "ILATE (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential) is the order for choosing the first function u. Whichever function appears earlier in ILATE is taken as u and differentiated; the other is integrated. This keeps the second integral easier." },
+    { "q": "Why is ln x integrated by parts when it looks like a single function?", "a": "Write ln x as the product (ln x)(1). Take u = ln x and dv = dx. Applying integration by parts gives x ln x &minus; x + C. The same trick works for inverse trigonometric functions like sin&#8315;&#185; x." },
+    { "q": "What is the special formula &int; e^x[f(x) + f'(x)] dx?", "a": "When an integrand has e^x multiplied by a function plus its own derivative, the answer is simply e^x f(x) + C. Spotting this pattern saves a full round of integration by parts and appears often in Exercise 7.6." },
+    { "q": "Where can I get fully solved answers for all of Exercise 7.6?", "a": "Our fully solved Class 12 CBSE workbook works through every integration by parts problem step by step, with the ILATE choice shown for each question and clean final answers &mdash; a printable PDF you can revise from anytime. The link is in the box below." }
+  ]
+}

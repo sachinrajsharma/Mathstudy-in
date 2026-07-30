@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-9",
+  "meta_title": "NCERT Class 12 Integration Ex 7.9 Solutions + Quiz",
+  "meta_desc": "NCERT Class 12 Maths Integration Exercise 7.9 solutions on definite integrals, with a free 8-question quiz to test your fundamental theorem skills.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Definite Integrals Quiz (Exercise 7.9)",
+    "intro": "Eight questions on evaluating definite integrals with the fundamental theorem of calculus. Find an antiderivative, plug in the upper and lower limits, then subtract. Pick an answer for each and press Check my score.",
+    "about": "Class 12 definite integrals via the fundamental theorem",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Evaluate &int;<sub>0</sub><sup>&pi;/2</sup> cos x dx.", "options": ["0", "1", "2", "&pi;/2"], "answer": 1, "explanation": "An antiderivative of cos x is sin x, so the value is sin(&pi;/2) &minus; sin 0 = 1 &minus; 0 = 1." },
+      { "q": "Evaluate &int;<sub>1</sub><sup>2</sup> x&sup2; dx.", "options": ["7/3", "3", "8/3", "1"], "answer": 0, "explanation": "The antiderivative is x&sup3;/3, so the value is 8/3 &minus; 1/3 = 7/3." },
+      { "q": "Evaluate &int;<sub>0</sub><sup>&pi;</sup> sin x dx.", "options": ["0", "1", "2", "&minus;1"], "answer": 2, "explanation": "An antiderivative of sin x is &minus;cos x. So &minus;cos &pi; &minus; (&minus;cos 0) = &minus;(&minus;1) + 1 = 2." },
+      { "q": "Evaluate &int;<sub>0</sub><sup>1</sup> e<sup>x</sup> dx.", "options": ["e", "1", "e + 1", "e &minus; 1"], "answer": 3, "explanation": "e<sup>x</sup> is its own antiderivative, so the value is e&sup1; &minus; e&#8304; = e &minus; 1." },
+      { "q": "Evaluate &int;<sub>1</sub><sup>e</sup> (1/x) dx.", "options": ["e", "1", "0", "e &minus; 1"], "answer": 1, "explanation": "An antiderivative of 1/x is ln x, so the value is ln e &minus; ln 1 = 1 &minus; 0 = 1." },
+      { "q": "Evaluate &int;<sub>0</sub><sup>1</sup> x&sup3; dx.", "options": ["1/4", "1/3", "1/2", "1"], "answer": 0, "explanation": "The antiderivative is x&#8308;/4, so the value is 1/4 &minus; 0 = 1/4." },
+      { "q": "Evaluate &int;<sub>0</sub><sup>&pi;/2</sup> sin x dx.", "options": ["0", "1/2", "1", "2"], "answer": 2, "explanation": "With antiderivative &minus;cos x: &minus;cos(&pi;/2) &minus; (&minus;cos 0) = 0 + 1 = 1." },
+      { "q": "Evaluate &int;<sub>0</sub><sup>3</sup> x&sup2; dx.", "options": ["3", "6", "27", "9"], "answer": 3, "explanation": "The antiderivative is x&sup3;/3, so the value is 27/3 &minus; 0 = 9." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.9 of NCERT Class 12 Maths cover?", "a": "It is the first set of problems where you actually evaluate definite integrals. You find an antiderivative of the function, then apply the fundamental theorem of calculus by substituting the upper and lower limits and subtracting." },
+    { "q": "What is the fundamental theorem of calculus used here?", "a": "If F is an antiderivative of f, then the definite integral of f from a to b equals F(b) &minus; F(a). The constant of integration cancels out, so you never need to write &lsquo;+ C&rsquo; for a definite integral." },
+    { "q": "Which limit do I substitute first, upper or lower?", "a": "Evaluate the antiderivative at the upper limit first, then subtract its value at the lower limit. Reversing the two flips the sign of the answer, which is a common slip in this exercise." },
+    { "q": "Do I still add the constant of integration for definite integrals?", "a": "No. The constant appears at both limits and cancels when you subtract, so a definite integral gives a single number with no &lsquo;+ C&rsquo;. Keep the constant only for indefinite integrals." },
+    { "q": "Where can I get the full worked solutions for Exercise 7.9?", "a": "Our fully-solved Class 12 CBSE workbook works through every part of Exercise 7.9 and the rest of the integration chapter, with each step shown so you can check your method, not just the final value. The link is in the box below." }
+  ]
+}

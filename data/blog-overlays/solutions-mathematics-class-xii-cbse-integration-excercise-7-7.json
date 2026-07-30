@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-7",
+  "meta_title": "NCERT Class 12 Maths Ex 7.7 Integration Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 7.7 solutions for root-of-quadratic integrals, with a free 8-question quiz on the standard forms. Practise now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Class 12 Integration Ex 7.7 Quiz",
+    "intro": "Eight questions on the three standard root-of-quadratic integrals and completing the square. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths Exercise 7.7 — integrals of the form root(x²+a²), root(x²−a²) and root(a²−x²)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the integral of root(a²−x²) with respect to x?", "options": ["(x/2)root(a²−x²) + (a²/2)sin⁻¹(x/a) + C", "(x/2)root(a²−x²) − (a²/2)sin⁻¹(x/a) + C", "(x/2)root(a²−x²) + (a²/2)log|x+root(a²−x²)| + C", "(a²/2)sin⁻¹(x/a) + C"], "answer": 0, "explanation": "This is the only form of the three that produces an inverse-sine term. The 'minus x²' inside the root is the signal for sin⁻¹(x/a)." },
+      { "q": "Besides (x/2)root(x²+a²), which term appears in the integral of root(x²+a²)?", "options": ["(a²/2)sin⁻¹(x/a)", "(a²/2)log|x+root(x²+a²)|", "−(a²/2)log|x+root(x²+a²)|", "(a²/2)cos⁻¹(x/a)"], "answer": 1, "explanation": "For root(x²+a²) the log term is added: +(a²/2)log|x+root(x²+a²)|. The minus sign belongs to the root(x²−a²) case." },
+      { "q": "Completing the square, x²+2x+5 equals which of these?", "options": ["(x+2)²+1", "(x+1)²+1", "(x+1)²+4", "(x+2)²+5"], "answer": 2, "explanation": "Half of 2 is 1, so x²+2x+5 = (x+1)² − 1 + 5 = (x+1)² + 4 = (x+1)² + 2². This is the root(x²+a²) type with a = 2." },
+      { "q": "To integrate root(x²−9), which standard form and value of a apply?", "options": ["root(a²−x²) with a = 3", "root(x²+a²) with a = 3", "root(x²−a²) with a = 9", "root(x²−a²) with a = 3"], "answer": 3, "explanation": "9 = 3², so root(x²−9) = root(x²−3²), the root(x²−a²) form with a = 3, not 9." },
+      { "q": "What is the integral of root(x²−a²) with respect to x?", "options": ["(x/2)root(x²−a²) − (a²/2)log|x+root(x²−a²)| + C", "(x/2)root(x²−a²) + (a²/2)log|x+root(x²−a²)| + C", "(x/2)root(x²−a²) + (a²/2)sin⁻¹(x/a) + C", "(x/2)root(x²−a²) − (a²/2)sin⁻¹(x/a) + C"], "answer": 0, "explanation": "root(x²−a²) gives a subtracted log term: −(a²/2)log|x+root(x²−a²)|. Only root(a²−x²) uses sin⁻¹." },
+      { "q": "After completing the square, root(x²+4x+8) becomes which standard type?", "options": ["root(a²−u²) with u = x+2, a = 2", "root(u²+a²) with u = x+2, a = 2", "root(u²−a²) with u = x+2, a = 2", "root(u²+a²) with u = x+2, a = 4"], "answer": 1, "explanation": "x²+4x+8 = (x+2)² + 4 = (x+2)² + 2². Substituting u = x+2 gives root(u²+a²) with a = 2, so a² = 4 but a = 2." },
+      { "q": "The expression 3 − 2x − x², written as a completed square, equals:", "options": ["(x+1)² − 4", "(x−1)² + 4", "4 − (x+1)²", "2 − (x+1)²"], "answer": 2, "explanation": "3 − 2x − x² = −(x²+2x−3) = −((x+1)² − 4) = 4 − (x+1)². This is the root(a²−u²) type with a = 2, u = x+1." },
+      { "q": "What is the integral of root(1−x²) with respect to x?", "options": ["(x/2)root(1−x²) + (1/2)log|x+root(1−x²)| + C", "(x/2)root(1−x²) − (1/2)sin⁻¹x + C", "sin⁻¹x + C", "(x/2)root(1−x²) + (1/2)sin⁻¹x + C"], "answer": 3, "explanation": "Here a = 1, so a²/2 = 1/2. Using the root(a²−x²) formula: (x/2)root(1−x²) + (1/2)sin⁻¹x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.7 in NCERT Class 12 Maths cover?", "a": "It deals with integrating functions that are the square root of a quadratic — the three standard forms root(x²+a²), root(x²−a²) and root(a²−x²). Most questions first need you to complete the square before a standard formula fits." },
+    { "q": "How do I know which of the three formulas to use?", "a": "Look at the sign inside the root after completing the square. A '+a²' with x² positive points to root(x²+a²); 'x²−a²' points to root(x²−a²); and 'a²−x²' (a constant minus x²) points to root(a²−x²), the only one that gives an inverse-sine term." },
+    { "q": "Why is completing the square needed in this exercise?", "a": "Expressions like root(x²+4x+8) or root(3−2x−x²) do not match a standard form as written. Completing the square rewrites them as root of a perfect square plus or minus a constant, so a simple substitution turns them into the memorised forms." },
+    { "q": "Which formula produces an inverse-sine term?", "a": "Only the integral of root(a²−x²), which gives (a²/2)sin⁻¹(x/a). The other two forms, root(x²+a²) and root(x²−a²), each produce a logarithmic term instead." },
+    { "q": "Where can I get fully worked solutions and extra practice for Exercise 7.7?", "a": "Our Class 12 CBSE fully-solved workbook has every root-of-quadratic integral worked step by step, plus graded practice with answer keys so you can test yourself after each standard form. The link is in the box below." }
+  ]
+}

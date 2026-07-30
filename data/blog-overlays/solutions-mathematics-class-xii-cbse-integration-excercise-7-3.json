@@ -1,0 +1,70 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-3",
+  "meta_title": "NCERT Class 12 Integration Exercise 7.3 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 7.3 solutions on integrating trigonometric identities, plus a free 8-question quiz to test your integration skills.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Class 12 Integration (Exercise 7.3) Quiz",
+    "intro": "Eight questions on integrating trigonometric functions the Exercise 7.3 way &mdash; half-angle for squares, product-to-sum, and identities like tan&sup2;x = sec&sup2;x &minus; 1. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Integration using trigonometric identities",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Which identity is used to integrate sin&sup2;x?",
+        "options": ["sin&sup2;x = (1 &minus; cos 2x)/2", "sin&sup2;x = 1 + cos 2x", "sin&sup2;x = 2 sin x cos x", "sin&sup2;x = (1 + cos 2x)/2"],
+        "answer": 0,
+        "explanation": "The half-angle form sin&sup2;x = (1 &minus; cos 2x)/2 turns the square into a term you can integrate directly. (1 + cos 2x)/2 is the identity for cos&sup2;x."
+      },
+      {
+        "q": "&int; cos&sup2;x dx equals:",
+        "options": ["x/2 &minus; (sin 2x)/4 + C", "(sin 2x)/2 + C", "x/2 + (sin 2x)/4 + C", "x &minus; sin 2x + C"],
+        "answer": 2,
+        "explanation": "Write cos&sup2;x = (1 + cos 2x)/2. Integrating gives x/2 + (sin 2x)/4 + C."
+      },
+      {
+        "q": "To integrate sin 3x cos x you first rewrite it as:",
+        "options": ["(1/2)(cos 4x + cos 2x)", "(1/2)(sin 4x &minus; sin 2x)", "(1/2)(sin 4x + sin 2x)", "sin 4x + sin 2x"],
+        "answer": 2,
+        "explanation": "Product-to-sum: sin A cos B = &frac12;[sin(A+B) + sin(A&minus;B)], so sin 3x cos x = &frac12;(sin 4x + sin 2x)."
+      },
+      {
+        "q": "&int; tan&sup2;x dx equals:",
+        "options": ["sec&sup2;x + C", "tan x &minus; x + C", "tan x + x + C", "x &minus; tan x + C"],
+        "answer": 1,
+        "explanation": "Use tan&sup2;x = sec&sup2;x &minus; 1. Then &int;(sec&sup2;x &minus; 1) dx = tan x &minus; x + C."
+      },
+      {
+        "q": "The product 2 cos 3x cos x can be rewritten as:",
+        "options": ["cos 4x &minus; cos 2x", "cos 4x + cos 2x", "sin 4x + sin 2x", "2 cos 4x"],
+        "answer": 1,
+        "explanation": "2 cos A cos B = cos(A+B) + cos(A&minus;B), so 2 cos 3x cos x = cos 4x + cos 2x."
+      },
+      {
+        "q": "&int; sin&sup2;x dx equals:",
+        "options": ["x/2 + (sin 2x)/4 + C", "&minus;(cos 2x)/2 + C", "x/2 &minus; (sin 2x)/4 + C", "x + sin 2x + C"],
+        "answer": 2,
+        "explanation": "Using sin&sup2;x = (1 &minus; cos 2x)/2, integration gives x/2 &minus; (sin 2x)/4 + C."
+      },
+      {
+        "q": "Which identity converts cot&sup2;x for integration?",
+        "options": ["cot&sup2;x = 1 &minus; cosec&sup2;x", "cot&sup2;x = cosec&sup2;x &minus; 1", "cot&sup2;x = sec&sup2;x &minus; 1", "cot&sup2;x = 1 + cosec&sup2;x"],
+        "answer": 1,
+        "explanation": "cot&sup2;x = cosec&sup2;x &minus; 1, so &int; cot&sup2;x dx = &minus;cot x &minus; x + C."
+      },
+      {
+        "q": "&int; sin 2x cos 3x dx uses the product-to-sum form giving the integrand:",
+        "options": ["&frac12;(sin 5x + sin x)", "&frac12;(cos 5x + cos x)", "sin 5x &minus; sin x", "&frac12;(sin 5x &minus; sin x)"],
+        "answer": 3,
+        "explanation": "sin A cos B = &frac12;[sin(A+B) + sin(A&minus;B)] with A = 2x, B = 3x gives &frac12;[sin 5x + sin(&minus;x)] = &frac12;(sin 5x &minus; sin x)."
+      }
+    ]
+  },
+  "faq": [
+    { "q": "What does NCERT Class 12 Exercise 7.3 cover?", "a": "Exercise 7.3 is about integrating trigonometric functions using identities rather than substitution. You rewrite sin&sup2;x and cos&sup2;x with half-angle formulas, turn products like sin 3x cos x into sums, and use tan&sup2;x = sec&sup2;x &minus; 1 before integrating." },
+    { "q": "How do I integrate sin&sup2;x and cos&sup2;x?", "a": "You cannot integrate the squares directly. Replace sin&sup2;x with (1 &minus; cos 2x)/2 and cos&sup2;x with (1 + cos 2x)/2, then integrate each term. The cos 2x part integrates to (sin 2x)/2." },
+    { "q": "Why do we convert products of sines and cosines into sums?", "a": "A product such as sin 3x cos x has no direct antiderivative, but the product-to-sum identities turn it into a sum of single sine or cosine terms, and each of those integrates in one step." },
+    { "q": "How is tan&sup2;x integrated in this exercise?", "a": "Use the Pythagorean identity tan&sup2;x = sec&sup2;x &minus; 1. Since &int; sec&sup2;x dx = tan x, the whole integral becomes tan x &minus; x + C. The same trick works for cot&sup2;x using cosec&sup2;x &minus; 1." },
+    { "q": "Where can I get fully solved Class 12 integration problems?", "a": "Our Class 12 CBSE fully solved workbook works through every integration exercise, including 7.3, with each step shown and worked answers you can check against &mdash; the link is in the box below." }
+  ]
+}
