@@ -590,72 +590,12 @@
     "route": "FRESH"
   },
   {
-    "cta": null,
-    "fmt": "html",
-    "slug": "download-cbse-class-2-math-workhsheets",
-    "title": "download cbse class 2 math workhsheets",
-    "views": 21,
-    "wc": 172,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "download-cbse-class-1-math-workhsheets",
-    "title": "download cbse class 1 math workhsheets",
-    "views": 17,
-    "wc": 172,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
     "cta": "best-math-workbook-for-1st-grade-printable-worksheets",
     "fmt": "html",
     "slug": "best-math-workbooks",
     "title": "best math workbooks",
     "views": 55,
     "wc": 59,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "eget-elementum-on-train",
-    "title": "Eget elementum on train",
-    "views": 42,
-    "wc": 166,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "outing-justo-morbi-wild",
-    "title": "Outing justo morbi wild",
-    "views": 42,
-    "wc": 166,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "ebooks-math",
-    "title": "ebooks math",
-    "views": 42,
-    "wc": 128,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "prove-that-tan-1left-fracsqrt-1-x2-sqrt-1-x2-sqrt-1-x2-sqrt-1-x2-right-fracpi-4-frac12cos-1x2-nce",
-    "title": "Prove that ${\\tan ^{ - 1}}\\left( {\\frac{{\\sqrt {1 + {x^2}} + \\sqrt {1 - {x^2}} }}{{\\sqrt {1 + {x^2}} - \\sqrt {1 - {x^2}} }}} \\right) = \\frac{\\pi }{4} + \\frac{1}{2}{\\cos ^{ - 1}}{x^2}$.<br>[NCERT,Exemplar.2.3,Q.12,Page.3",
-    "views": 40,
-    "wc": 486,
     "isCanon": false,
     "route": "FRESH"
   },
@@ -672,70 +612,10 @@
   {
     "cta": null,
     "fmt": "markdown",
-    "slug": "aquarius-ascendant-april-2022",
-    "title": "AQUARIUS ASCENDANT APRIL 2022",
-    "views": 39,
-    "wc": 0,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "let-f-r-r-be-defined-as-fx-10x-7-find-the-function-g-r-rightarrow-r-such-that-gof-fog-ir-ncert-misc-q-1-page-29",
-    "title": "Let f: R$ - $R be defined as f(x)$ = $ 10x + 7. Find the function g : R $\\rightarrow$ R such that gof $ = $ fog $ = $ IR. ~~~~[NCERT Misc.,Q.1, Page 29]",
-    "views": 38,
-    "wc": 132,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "markdown",
-    "slug": "pisces-ascendant-horoscope-april-2022",
-    "title": "PISCES ASCENDANT HOROSCOPE APRIL 2022",
-    "views": 38,
-    "wc": 0,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "visit-sagittis-malesuada-vestibulum",
-    "title": "Visit sagittis malesuada vestibulum",
-    "views": 37,
-    "wc": 166,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "find-the-value-of-tan-1left-frac1sqrt-3-right-cot-1left-frac1sqrt-3-right-tan-1left-sin-left-frac-pi-2",
-    "title": "Find the value of ${\\tan ^{ - 1}}\\left( { - \\frac{1}{{\\sqrt 3 }}} \\right) + {\\cot ^{ - 1}}\\left( {\\frac{1}{{\\sqrt 3 }}} \\right) + {\\tan ^{ - 1}}\\left[ {\\sin \\left( {\\frac{{ - \\pi }}{2}} \\right)} \\right]$.<br>[NCERT,Exem",
-    "views": 34,
-    "wc": 228,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "markdown",
     "slug": "class-i-what-comes-after-what-comes-before-15-minutes",
     "title": "CLASS I - What Comes After , What Comes Before - 15 Minutes",
     "views": 32,
     "wc": 2,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "markdown",
-    "slug": "mesh-lagan-rashifal-may-2022",
-    "title": "Mesh Lagan Rashifal May 2022",
-    "views": 30,
-    "wc": 0,
     "isCanon": false,
     "route": "FRESH"
   }

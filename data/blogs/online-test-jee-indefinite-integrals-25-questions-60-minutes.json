@@ -1,0 +1,91 @@
+{
+  "slug": "online-test-jee-indefinite-integrals-25-questions-60-minutes",
+  "title": "Online Test: JEE Indefinite Integrals (Timed) + 8-Question Quiz",
+  "meta_title": "Online Test: JEE Indefinite Integrals (Timed Quiz)",
+  "meta_desc": "Master JEE indefinite integrals with a timed online test. Standard forms, substitution, by parts (ILATE), partial fractions and an 8-question quiz.",
+  "excerpt": "Indefinite integration on JEE rewards pattern recognition, not brute force. Here is how to read a question in ten seconds, the four methods that cover almost everything, and a timed 8-question test to see where you stand.",
+  "category": "JEE",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/math-formula-book-pdf-1.jpg",
+  "cta_product_slug": "mathematics-formula-book-for-jee",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Give a JEE aspirant the integral of x&middot;e<sup>x</sup> and, if they have drilled it, the pen moves in seconds. Give them &int; x&middot;e<sup>x&sup2;</sup> dx and half the room reaches for integration by parts &mdash; and gets stuck. The two look almost identical, but the first is by parts and the second is a one-line substitution (u = x&sup2;). That gap, between what a question looks like and what it actually wants, is where most marks in indefinite integration are won or lost.</p><p>Indefinite integrals show up every single year in JEE Main, usually as one or two direct questions, and they feed straight into definite integrals, area, and differential equations. The good news: the syllabus here is finite and pattern-driven. Learn to read the integrand, pick from four core methods, and you will clear most of what the paper throws at you. This post walks through that decision process, the traps that cost easy marks, how to pace a timed set, and then hands you a short online test to check yourself.</p><h2>Read the integrand before you touch a method</h2><p>The single habit that separates a 30-second solve from a three-minute mess is pausing to classify the integrand first. In my experience coaching students for JEE, the ones who panic are the ones who start writing before they have decided what kind of animal they are looking at. Run this quick mental checklist:</p><ul><li>Is it a <strong>standard form</strong> you already know? (1/(1+x&sup2;), 1/&radic;(a&sup2;&minus;x&sup2;), sec&sup2;x, and friends.)</li><li>Is there a function <em>and</em> its derivative hiding inside? Then <strong>substitution</strong>.</li><li>Is it a <em>product</em> of two unrelated function types &mdash; a polynomial times an exponential, say? Then <strong>by parts</strong>.</li><li>Is it a <em>ratio of polynomials</em> with the denominator factorable? Then <strong>partial fractions</strong>.</li></ul><p>Ninety percent of JEE indefinite integrals fall cleanly into one of those four buckets. The rest are algebraic or trigonometric tricks that convert a hard integrand into one of the four.</p><h2>The four methods, and when each one wins</h2><h3>Standard forms and the power rule</h3><p>These are non-negotiable muscle memory: &int; x<sup>n</sup> dx = x<sup>n+1</sup>/(n+1) for n &ne; &minus;1, &int; 1/x dx = ln|x|, and the inverse-trig and log forms. If you hesitate on &int; 1/(1+x&sup2;) dx = tan<sup>&minus;1</sup>x, stop and memorise the list cold before anything else. Everything downstream assumes these are instant.</p><h3>Substitution &mdash; the workhorse</h3><p>The tell is that the integrand contains some g(x) and, up to a constant, its derivative g&prime;(x). For &int; 2x&middot;cos(x&sup2;) dx, set u = x&sup2; so du = 2x dx, and the whole thing collapses to &int; cos u du = sin(x&sup2;) + C. Trigonometric and exponential composites are almost always substitution. The classic trap: forgetting to convert dx into du, or leaving a stray x behind that will not cancel.</p><h3>Integration by parts and ILATE</h3><p>Use it for a product of two <em>different</em> function families. The formula is &int; u&middot;v&prime; dx = u&middot;v &minus; &int; v&middot;u&prime; dx, and the whole game is choosing which factor is u. The <strong>ILATE</strong> order &mdash; Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential &mdash; tells you which to pick as u (whatever comes first in ILATE). For &int; x&middot;ln x dx, ln x is Logarithmic and x is Algebraic, so u = ln x. Two neat cases worth memorising: &int; ln x dx = x ln x &minus; x + C (take v&prime; = 1), and any integral of the form &int; e<sup>x</sup>[f(x) + f&prime;(x)] dx = e<sup>x</sup> f(x) + C, which JEE loves to disguise.</p><h3>Partial fractions</h3><p>When you have a proper rational function, split it. &int; 1/((x&minus;1)(x&minus;2)) dx breaks into &int; [&minus;1/(x&minus;1) + 1/(x&minus;2)] dx = ln|x&minus;2| &minus; ln|x&minus;1| + C. If the numerator degree is &ge; the denominator degree, do polynomial division first &mdash; skipping that step is the most common partial-fractions error I see.</p><h2>Trig and algebraic tricks that unlock the hard ones</h2><p>A slice of JEE questions look impossible until you rewrite the integrand. Keep these in your kit:</p><ul><li>Powers of sin and cos: use identities (sin&sup2;x = (1 &minus; cos 2x)/2) to lower the power.</li><li>&int; dx/(a + b&middot;cos x) type: the Weierstrass substitution t = tan(x/2).</li><li>Rationalising or multiplying by a clever form of 1 &mdash; e.g. multiply numerator and denominator by sec x for some tan integrals.</li><li>Adding and subtracting a term in the numerator so it splits into a derivative-of-denominator part plus a standard form.</li></ul><h2>Pacing a timed set of 25 in 60 minutes</h2><p>A full timed set is 25 questions in 60 minutes &mdash; a shade over two minutes each, which is realistic only if you triage. Here is the pacing I recommend to students, and it maps onto how the actual paper feels.</p><table><thead><tr><th>Question type</th><th>Target time</th><th>Strategy</th></tr></thead><tbody><tr><td>Standard form / direct</td><td>Under 60 sec</td><td>Recognise and write &mdash; no working needed</td></tr><tr><td>Single substitution</td><td>1&ndash;2 min</td><td>Spot g and g&prime;, substitute cleanly</td></tr><tr><td>By parts / partial fractions</td><td>2&ndash;3 min</td><td>Set up carefully; watch signs</td></tr><tr><td>Trig/algebraic trick</td><td>3&ndash;4 min or skip</td><td>Try one idea; if stuck, flag and return</td></tr></tbody></table><p>The discipline that saves scores: bank the easy ones first. Do a fast pass picking off every standard form and clean substitution, then spend the remaining time on the setups and tricks. Chasing one stubborn integral for six minutes is how good students run out of clock with four gettable questions untouched.</p><h2>The traps that quietly eat marks</h2><ul><li><strong>Forgetting +C.</strong> An indefinite integral without the constant of integration is, strictly, wrong &mdash; and in match-the-column or assertion questions it can be the difference between two options.</li><li><strong>Dropping the modulus in ln.</strong> &int; 1/x dx = ln|x| + C, not ln x. JEE options are written to punish this.</li><li><strong>Substitution left half-done.</strong> Every x, including dx, must become the new variable before you integrate.</li><li><strong>Wrong ILATE pick.</strong> Choosing the exponential as u when a log is present usually leads to an integral harder than the one you started with.</li></ul><h2>Take the timed online test below</h2><p>Below is a free, self-scoring test of 8 JEE-level indefinite integrals covering standard forms, substitution, by parts, and partial fractions. Give yourself about two minutes per question, pick an answer, then read the worked explanation for anything you miss. When you want the full method list and every standard form on one clean sheet, the JEE formula book linked in the box below is built exactly for that revision.</p>",
+  "quiz": {
+    "title": "JEE Indefinite Integrals Online Test",
+    "intro": "Eight JEE-level indefinite integrals covering standard forms, substitution, integration by parts and partial fractions. Aim for about two minutes each, pick an answer, then press Check my score.",
+    "about": "JEE Main & Advanced indefinite integration",
+    "level": "JEE",
+    "questions": [
+      {
+        "q": "Evaluate &int; 2x&middot;cos(x&sup2;) dx.",
+        "options": ["cos(x&sup2;) + C", "sin(x&sup2;) + C", "2 sin(x&sup2;) + C", "x&sup2; sin x + C"],
+        "answer": 1,
+        "explanation": "Substitute u = x&sup2;, so du = 2x dx. The integral becomes &int; cos u du = sin u + C = sin(x&sup2;) + C."
+      },
+      {
+        "q": "Evaluate &int; x&middot;e^x dx.",
+        "options": ["x e^x + C", "e^x(x + 1) + C", "e^x(x &minus; 1) + C", "x&sup2; e^x / 2 + C"],
+        "answer": 2,
+        "explanation": "By parts with u = x, v&prime; = e^x: x e^x &minus; &int; e^x dx = x e^x &minus; e^x + C = e^x(x &minus; 1) + C."
+      },
+      {
+        "q": "Evaluate &int; 1/(x&sup2; &minus; 1) dx.",
+        "options": ["(1/2) ln|(x &minus; 1)/(x + 1)| + C", "(1/2) ln|(x + 1)/(x &minus; 1)| + C", "ln|x&sup2; &minus; 1| + C", "tan&#8315;&sup1; x + C"],
+        "answer": 0,
+        "explanation": "Partial fractions: 1/((x&minus;1)(x+1)) = (1/2)[1/(x&minus;1) &minus; 1/(x+1)]. Integrating gives (1/2) ln|(x&minus;1)/(x+1)| + C."
+      },
+      {
+        "q": "Evaluate &int; ln x dx.",
+        "options": ["1/x + C", "x ln x + C", "ln x &minus; x + C", "x ln x &minus; x + C"],
+        "answer": 3,
+        "explanation": "By parts with u = ln x and v&prime; = 1: x ln x &minus; &int; x&middot;(1/x) dx = x ln x &minus; x + C."
+      },
+      {
+        "q": "Evaluate &int; e^x(sin x + cos x) dx.",
+        "options": ["e^x cos x + C", "e^x sin x + C", "e^x(sin x &minus; cos x) + C", "e^x(cos x &minus; sin x) + C"],
+        "answer": 1,
+        "explanation": "This fits &int; e^x[f(x) + f&prime;(x)] dx = e^x f(x) + C with f(x) = sin x, since f&prime;(x) = cos x. The answer is e^x sin x + C."
+      },
+      {
+        "q": "Evaluate &int; tan x dx.",
+        "options": ["ln|cos x| + C", "sec&sup2; x + C", "ln|sec x| + C", "&minus;ln|sin x| + C"],
+        "answer": 2,
+        "explanation": "Write tan x = sin x/cos x and substitute u = cos x, du = &minus;sin x dx: &minus;ln|cos x| + C = ln|sec x| + C."
+      },
+      {
+        "q": "Evaluate &int; 1/(9 + x&sup2;) dx.",
+        "options": ["(1/3) tan&#8315;&sup1;(x/3) + C", "tan&#8315;&sup1;(x/3) + C", "(1/9) tan&#8315;&sup1;(x) + C", "3 tan&#8315;&sup1;(3x) + C"],
+        "answer": 0,
+        "explanation": "Standard form &int; dx/(a&sup2; + x&sup2;) = (1/a) tan&#8315;&sup1;(x/a) + C with a = 3, giving (1/3) tan&#8315;&sup1;(x/3) + C."
+      },
+      {
+        "q": "Evaluate &int; sin&sup2; x dx.",
+        "options": ["(x/2) + (sin 2x)/4 + C", "(x/2) &minus; (sin 2x)/4 + C", "&minus;cos&sup2; x + C", "(sin&sup3; x)/3 + C"],
+        "answer": 1,
+        "explanation": "Use sin&sup2; x = (1 &minus; cos 2x)/2. Then &int; (1 &minus; cos 2x)/2 dx = x/2 &minus; (sin 2x)/4 + C."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many indefinite integral questions appear in JEE Main?",
+      "a": "Expect one to two direct questions on indefinite integration in a typical JEE Main paper, plus several definite-integral and area questions that depend on the same antiderivative skills. It is a high-yield topic relative to how finite the syllabus is."
+    },
+    {
+      "q": "What is the fastest way to decide which method to use?",
+      "a": "Classify the integrand first. A known standard form is instant; a function paired with its own derivative means substitution; a product of two different function types means by parts (use ILATE to pick u); a factorable rational function means partial fractions."
+    },
+    {
+      "q": "What does ILATE stand for and why does it matter?",
+      "a": "ILATE orders function types &mdash; Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential &mdash; and tells you which factor to call u in integration by parts. Pick whichever appears first in that order; it almost always leads to a simpler remaining integral."
+    },
+    {
+      "q": "Why do I keep losing marks even when my method is right?",
+      "a": "Usually small slips: forgetting the +C, writing ln x instead of ln|x|, leaving a stray x after substitution, or not doing polynomial division before partial fractions. JEE options are deliberately written to catch each of these."
+    },
+    {
+      "q": "Where can I get all the integration formulas on one revision sheet?",
+      "a": "The Mathematics Formula Book for JEE collects every standard form, substitution pattern, by-parts result and partial-fraction template on clean revision pages &mdash; an instant PDF you can print and revise from before the exam. The link is in the box below."
+    }
+  ]
+}
