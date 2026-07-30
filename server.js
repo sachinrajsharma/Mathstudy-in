@@ -14,7 +14,7 @@ const ordersLib      = require('./lib/orders');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
 const antispam       = require('./lib/antispam');
-const { redirectFor } = require('./lib/blog-redirects');
+const { redirectFor, archiveRedirectedBlogs } = require('./lib/blog-redirects');
 const MySQLStore     = require('express-mysql-session')(session);
 
 const app  = express();
@@ -1385,6 +1385,9 @@ Promise.allSettled(
     return importAllBlogs(pool).then(function(r) {
       console.log('[blog-import] files=' + r.total + ' inserted=' + r.inserted +
                   ' updated=' + r.updated + ' skipped=' + r.skipped);
+      return archiveRedirectedBlogs(pool).then(function(a) {
+        console.log('[blog-redirects] archived duplicates=' + a.archived);
+      });
     });
   } catch (e) { console.error('[blog-import] failed:', e.message); }
 });
