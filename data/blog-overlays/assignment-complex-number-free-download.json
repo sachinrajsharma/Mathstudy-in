@@ -1,0 +1,30 @@
+{
+  "slug": "assignment-complex-number-free-download",
+  "meta_title": "Complex Numbers Assignment: Free PDF + Quiz",
+  "meta_desc": "Download a free Complex Numbers assignment for Class 11 and JEE, then take an 8-question quiz on modulus, argument, powers of i and roots of unity.",
+  "category": "Class 11 Maths",
+  "cta_product_slug": "jee-mains-advance-dpp-complex-numbers",
+  "quiz": {
+    "title": "Complex Numbers Quiz",
+    "intro": "Eight questions on modulus and argument, conjugates, powers of i, De Moivre's theorem, roots of unity and basic algebra. Pick an answer for each, then press Check my score.",
+    "about": "Complex numbers for Class 11 and JEE",
+    "level": "Class 11 / JEE",
+    "questions": [
+      { "q": "What is the modulus of z = 3 + 4i?", "options": ["5", "7", "25", "1"], "answer": 0, "explanation": "The modulus is &radic;(3&sup2; + 4&sup2;) = &radic;(9 + 16) = &radic;25 = 5." },
+      { "q": "The conjugate of z = 2 &minus; 7i is:", "options": ["&minus;2 + 7i", "2 + 7i", "&minus;2 &minus; 7i", "7 &minus; 2i"], "answer": 1, "explanation": "Conjugation flips the sign of the imaginary part only, so the conjugate of 2 &minus; 7i is 2 + 7i." },
+      { "q": "What is the value of i raised to the power 50?", "options": ["1", "i", "&minus;1", "&minus;i"], "answer": 2, "explanation": "Powers of i cycle with period 4. Since 50 = 4&times;12 + 2, i&sup5;&#8304; = i&sup2; = &minus;1." },
+      { "q": "The argument (principal value) of z = &minus;1 + i is:", "options": ["&pi;/4", "3&pi;/4", "&minus;&pi;/4", "&minus;3&pi;/4"], "answer": 1, "explanation": "The point (&minus;1, 1) lies in the second quadrant, so the principal argument is &pi; &minus; &pi;/4 = 3&pi;/4." },
+      { "q": "Using De Moivre's theorem, (cos 30&deg; + i sin 30&deg;)&sup3; equals:", "options": ["cos 10&deg; + i sin 10&deg;", "cos 90&deg; + i sin 90&deg;", "cos 30&deg; + i sin 30&deg;", "cos 60&deg; + i sin 60&deg;"], "answer": 1, "explanation": "De Moivre's theorem multiplies the angle by the power: (cos&theta; + i sin&theta;)&#8319; = cos n&theta; + i sin n&theta;. Here 3&times;30&deg; = 90&deg;." },
+      { "q": "If &omega; is a non-real cube root of unity, then 1 + &omega; + &omega;&sup2; equals:", "options": ["3", "1", "0", "&omega;"], "answer": 2, "explanation": "The three cube roots of unity sum to zero, so 1 + &omega; + &omega;&sup2; = 0." },
+      { "q": "The value of (1 + i)&sup2; is:", "options": ["2i", "2", "1 + 2i", "&minus;2i"], "answer": 0, "explanation": "(1 + i)&sup2; = 1 + 2i + i&sup2; = 1 + 2i &minus; 1 = 2i." },
+      { "q": "Which complex number has modulus 1 and argument &pi;/2?", "options": ["1", "&minus;1", "i", "&minus;i"], "answer": 2, "explanation": "A modulus of 1 and argument &pi;/2 gives cos(&pi;/2) + i sin(&pi;/2) = 0 + i = i." }
+    ]
+  },
+  "faq": [
+    { "q": "What does an assignment on complex numbers usually cover?", "a": "A Class 11 assignment typically runs through algebra of complex numbers, modulus and argument, conjugates, the Argand plane, powers of i, De Moivre's theorem and roots of unity. That is the same ground the quiz above tests." },
+    { "q": "How do you find the modulus and argument of a complex number?", "a": "For z = a + bi, the modulus is &radic;(a&sup2; + b&sup2;) and the argument is the angle the point (a, b) makes with the positive real axis. Check which quadrant the point sits in before fixing the sign of the argument." },
+    { "q": "What is the quickest way to simplify high powers of i?", "a": "Divide the exponent by 4 and keep only the remainder. i to the power of the remainder gives the answer, because i&sup1; = i, i&sup2; = &minus;1, i&sup3; = &minus;i and i&#8308; = 1 repeat in a cycle of four." },
+    { "q": "Is De Moivre's theorem in the Class 11 syllabus?", "a": "The polar form and the statement (cos&theta; + i sin&theta;)&#8319; = cos n&theta; + i sin n&theta; are introduced in Class 11 and used heavily in JEE for powers and roots, so it is worth mastering early." },
+    { "q": "Where can I download the free complex numbers assignment with solutions?", "a": "The complete assignment, along with a JEE Main and Advanced level DPP that includes fully worked solutions, is available as an instant PDF. The download link is in the box below." }
+  ]
+}
