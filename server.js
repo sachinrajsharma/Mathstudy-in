@@ -14,6 +14,7 @@ const ordersLib      = require('./lib/orders');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
 const antispam       = require('./lib/antispam');
+const { redirectFor } = require('./lib/blog-redirects');
 const MySQLStore     = require('express-mysql-session')(session);
 
 const app  = express();
@@ -1434,6 +1435,8 @@ app.get('/blog', async (req, res, next) => {
 
 app.get('/blog/:slug', async (req, res, next) => {
   try {
+    const moved = redirectFor(req.params.slug);
+    if (moved) return res.redirect(301, '/blog/' + moved);
     const [[post]] = await pool.query(`SELECT * FROM blogs WHERE slug=? AND status='published'`, [req.params.slug]);
     if (!post) return res.status(404).render('error', { title:'404 — Post Not Found', metaDesc:'', canonical:null, message:'This post does not exist or has been unpublished.' });
     return renderBlogPost(req, res, next, post);
@@ -1613,6 +1616,8 @@ app.get('/:slug', async (req, res, next) => {
   const slug = req.params.slug;
   if (!slug || slug.indexOf('.') !== -1) return next();   // skip files (sitemap.xml, etc.)
   try {
+    const moved = redirectFor(slug);
+    if (moved) return res.redirect(301, '/' + moved);
     const [[post]] = await pool.query(`SELECT * FROM blogs WHERE slug=? AND status='published'`, [slug]);
     if (!post) return next();
     return renderBlogPost(req, res, next, post);
