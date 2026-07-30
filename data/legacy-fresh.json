@@ -162,16 +162,6 @@
   {
     "cta": null,
     "fmt": "html",
-    "slug": "subject-test-math-2",
-    "title": "subject test math 2",
-    "views": 47,
-    "wc": 65,
-    "isCanon": true,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
     "slug": "e-books-mathematics",
     "title": "E - books mathematics",
     "views": 43,
@@ -386,16 +376,6 @@
     "title": "class 12 maths books",
     "views": 44,
     "wc": 130,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "most-important-questions-sat-math-level-2",
-    "title": "most important questions sat math level 2",
-    "views": 44,
-    "wc": 69,
     "isCanon": false,
     "route": "FRESH"
   },
@@ -846,16 +826,6 @@
     "title": "Visit sagittis malesuada vestibulum",
     "views": 37,
     "wc": 166,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "sat-math-2-official-practice-test",
-    "title": "sat math 2 official practice test",
-    "views": 37,
-    "wc": 68,
     "isCanon": false,
     "route": "FRESH"
   },
