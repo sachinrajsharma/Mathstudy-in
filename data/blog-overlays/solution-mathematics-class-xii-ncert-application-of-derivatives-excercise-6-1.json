@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-1",
+  "meta_title": "NCERT Class 12 Maths Ex 6.1 Solutions: Rate of Change",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 6.1 solutions on rate of change of quantities, plus a free 8-question rate-of-change quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Rate of Change Quiz (Exercise 6.1)",
+    "intro": "Eight questions on rate of change of quantities: dA/dt, dV/dt, perimeter and related rates. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives, Exercise 6.1 (rate of change)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The radius of a circle grows at 3 cm/s. How fast is the area changing when the radius is 10 cm?", "options": ["30&pi; cm&sup2;/s", "60&pi; cm&sup2;/s", "20&pi; cm&sup2;/s", "10&pi; cm&sup2;/s"], "answer": 1, "explanation": "A = &pi;r&sup2;, so dA/dt = 2&pi;r (dr/dt) = 2&pi;(10)(3) = 60&pi; cm&sup2;/s." },
+      { "q": "The side of a square increases at 4 cm/s. How fast is the perimeter increasing?", "options": ["16 cm/s", "8 cm/s", "4 cm/s", "12 cm/s"], "answer": 0, "explanation": "P = 4x, so dP/dt = 4(dx/dt) = 4(4) = 16 cm/s. The perimeter rate is constant here, independent of the side length." },
+      { "q": "The edge of a cube is expanding at 2 cm/s. How fast is the volume changing when the edge is 5 cm?", "options": ["50 cm&sup3;/s", "75 cm&sup3;/s", "150 cm&sup3;/s", "100 cm&sup3;/s"], "answer": 2, "explanation": "V = x&sup3;, so dV/dt = 3x&sup2; (dx/dt) = 3(25)(2) = 150 cm&sup3;/s." },
+      { "q": "A balloon is inflated so its radius increases at 1 cm/s. How fast is the volume increasing when r = 7 cm?", "options": ["49&pi; cm&sup3;/s", "98&pi; cm&sup3;/s", "147&pi; cm&sup3;/s", "196&pi; cm&sup3;/s"], "answer": 3, "explanation": "V = (4/3)&pi;r&sup3;, so dV/dt = 4&pi;r&sup2; (dr/dt) = 4&pi;(49)(1) = 196&pi; cm&sup3;/s." },
+      { "q": "The radius of a circle increases at 0.7 cm/s. How fast is the circumference increasing?", "options": ["0.7&pi; cm/s", "2.8&pi; cm/s", "0.35&pi; cm/s", "1.4&pi; cm/s"], "answer": 3, "explanation": "C = 2&pi;r, so dC/dt = 2&pi;(dr/dt) = 2&pi;(0.7) = 1.4&pi; cm/s. Notice this does not depend on r." },
+      { "q": "A stone dropped in a pond makes circular ripples whose radius grows at 5 cm/s. How fast is the enclosed area growing when r = 8 cm?", "options": ["80&pi; cm&sup2;/s", "40&pi; cm&sup2;/s", "25&pi; cm&sup2;/s", "16&pi; cm&sup2;/s"], "answer": 0, "explanation": "A = &pi;r&sup2;, so dA/dt = 2&pi;r (dr/dt) = 2&pi;(8)(5) = 80&pi; cm&sup2;/s." },
+      { "q": "If y = 7x&sup3; and x increases at 2 units/s, at what rate is y changing when x = 1?", "options": ["21 units/s", "14 units/s", "42 units/s", "7 units/s"], "answer": 2, "explanation": "dy/dt = 21x&sup2; (dx/dt) = 21(1)(2) = 42 units/s." },
+      { "q": "The length x of a rectangle decreases at 3 cm/min while the width y increases at 1 cm/min. When x = 10 and y = 6, how is the area changing?", "options": ["Increasing at 8 cm&sup2;/min", "Decreasing at 8 cm&sup2;/min", "Decreasing at 2 cm&sup2;/min", "Increasing at 2 cm&sup2;/min"], "answer": 1, "explanation": "A = xy, so dA/dt = y(dx/dt) + x(dy/dt) = 6(&minus;3) + 10(1) = &minus;18 + 10 = &minus;8, so the area is decreasing at 8 cm&sup2;/min." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 6.1 of Class 12 Maths cover?", "a": "It covers the rate of change of quantities: using the derivative dy/dx (and the chain rule dy/dt = (dy/dx)(dx/dt)) to find how areas, volumes, perimeters and other quantities change with respect to time or another variable." },
+    { "q": "What is the chain rule trick for related-rate problems?", "a": "Write the quantity you want as a formula, differentiate both sides with respect to time t, and substitute the known rate. For a circle, A = &pi;r&sup2; gives dA/dt = 2&pi;r (dr/dt), so if you know dr/dt you can find dA/dt." },
+    { "q": "Why does the perimeter of a square grow at a constant rate but the area does not?", "a": "Perimeter P = 4x is linear, so dP/dt = 4(dx/dt) has no x in it. Area A = x&sup2; is quadratic, so dA/dt = 2x(dx/dt) still depends on the current side length x." },
+    { "q": "What units should the answer carry in rate-of-change questions?", "a": "The unit is the quantity's unit divided by the driving variable's unit. Area rate is cm&sup2;/s, volume rate is cm&sup3;/s, and a length rate is cm/s. Always write the unit in the final line to avoid losing marks." },
+    { "q": "Where can I get full solved solutions for Exercise 6.1?", "a": "Our Class 12 Application of Derivatives case-study e-book has every rate-of-change problem worked step by step with the reasoning and units shown, ideal for board revision. The download link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-relations-functions-excercise-1-1",
+  "meta_title": "NCERT Class 12 Relations & Functions Ex 1.1 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 1.1 solutions on types of relations: reflexive, symmetric, transitive and equivalence. Try the free quiz below.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Types of Relations Quiz (Class 12, Exercise 1.1)",
+    "intro": "Eight questions on reflexive, symmetric, transitive and equivalence relations, straight from Exercise 1.1. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Chapter 1 Relations and Functions, Exercise 1.1 — types of relations",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A relation R on a set A is reflexive when:", "options": ["(a, a) &isin; R for every a &isin; A", "(a, b) &isin; R implies (b, a) &isin; R", "R is the empty set", "(a, b), (b, c) &isin; R imply (a, c) &isin; R"], "answer": 0, "explanation": "Reflexive means every element is related to itself, so (a, a) must lie in R for each a in A." },
+      { "q": "A relation R on A is symmetric when:", "options": ["(a, a) &isin; R for all a", "whenever (a, b) &isin; R, (b, a) &isin; R too", "R has no ordered pairs", "R is also transitive"], "answer": 1, "explanation": "Symmetry requires that if a is related to b, then b is related to a, i.e. (a, b) &isin; R forces (b, a) &isin; R." },
+      { "q": "If (a, b) and (b, c) both belong to a transitive relation R, then R must also contain:", "options": ["(a, a)", "(b, a)", "(a, c)", "(c, a)"], "answer": 2, "explanation": "Transitivity chains the pairs: (a, b) and (b, c) in R force (a, c) into R." },
+      { "q": "A relation is called an equivalence relation only if it is:", "options": ["reflexive only", "symmetric only", "transitive only", "reflexive, symmetric and transitive"], "answer": 3, "explanation": "An equivalence relation must satisfy all three properties together — reflexive, symmetric and transitive." },
+      { "q": "On A = {1, 2, 3}, which relation is reflexive?", "options": ["{(1, 1), (2, 2), (3, 3)}", "{(1, 1), (2, 2)}", "{(1, 2), (2, 1)}", "{ } (empty)"], "answer": 0, "explanation": "Reflexivity needs (1, 1), (2, 2) and (3, 3) all present. Only the first option has every self-pair." },
+      { "q": "The relation R = {(1, 2), (2, 1)} on {1, 2, 3} is:", "options": ["reflexive", "transitive", "an equivalence relation", "symmetric only"], "answer": 3, "explanation": "It is symmetric since both (1, 2) and (2, 1) appear. It is not reflexive (no (1, 1)) and not transitive ((1, 2), (2, 1) would need (1, 1))." },
+      { "q": "Which relation on {1, 2, 3} is transitive?", "options": ["{(1, 2), (2, 3)}", "{(1, 2), (2, 3), (1, 3)}", "{(1, 2), (2, 1)}", "{(2, 3), (3, 2)}"], "answer": 1, "explanation": "Only option (b) contains (1, 3) as required by (1, 2) and (2, 3), so it is transitive. The others are missing a forced pair." },
+      { "q": "The identity relation R = {(a, a) : a &isin; A} on any set A is:", "options": ["symmetric but not reflexive", "reflexive but not symmetric", "an equivalence relation", "neither symmetric nor transitive"], "answer": 2, "explanation": "Every self-pair is present (reflexive), each pair trivially reverses (symmetric) and chains (transitive), so the identity relation is an equivalence relation." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 1.1 of Class 12 Relations and Functions cover?", "a": "It focuses on the three core properties of a relation — reflexive, symmetric and transitive — and asks you to test given relations and decide which are equivalence relations. Most questions define a relation on a set or on the integers and ask you to verify each property one at a time." },
+    { "q": "How do I check whether a relation is an equivalence relation?", "a": "Check the three properties in order. First confirm every element is related to itself (reflexive), then that each pair reverses (symmetric), then that related pairs chain together (transitive). If any one fails, the relation is not an equivalence relation — a single counterexample is enough." },
+    { "q": "What is the difference between symmetric and transitive?", "a": "Symmetric is about reversing a single pair: if a relates to b, then b relates to a. Transitive is about chaining two pairs: if a relates to b and b relates to c, then a relates to c. A relation can have one property without the other." },
+    { "q": "Can a relation be symmetric and transitive but not reflexive?", "a": "Yes. A common example is the empty relation on a non-empty set — it is vacuously symmetric and transitive but fails reflexivity because no self-pair (a, a) is present. This is exactly the kind of edge case Exercise 1.1 tests." },
+    { "q": "Where can I get full solutions and extra practice for this exercise?", "a": "Our Class 12 Relations and Functions case-study pack has worked solutions plus additional practice on reflexive, symmetric, transitive and equivalence relations, each with a complete answer key — an instant PDF. The link is in the box below." }
+  ]
+}
