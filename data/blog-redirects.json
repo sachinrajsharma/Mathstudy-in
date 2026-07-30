@@ -1,0 +1,4 @@
+{
+  "_comment": "301 map for consolidated/renamed legacy blogs. Key = OLD slug (no leading slash), value = NEW slug. Populated by the duplicate-intent audit. Applied at /<slug> and /blog/<slug>. Safe when empty.",
+  "redirects": {}
+}
