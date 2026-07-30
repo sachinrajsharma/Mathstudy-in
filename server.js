@@ -1413,6 +1413,37 @@ async function renderBlogPost(req, res, next, post) {
   } catch (e) { next(e); }
 }
 
+// ── TEMPORARY: token-gated blog metadata export for the one-time legacy SEO audit.
+// Returns only PUBLIC blog metadata (no secrets) + the product catalogue, so the
+// duplicate-intent audit can run. Remove this route once the audit export is done.
+const BLOG_AUDIT_TOKEN = 'mathstudy-seo-audit-2026-legacy-441';
+app.get('/api/blog-audit-data', async (req, res, next) => {
+  try {
+    if (req.query.key !== BLOG_AUDIT_TOKEN) return res.status(403).json({ error: 'forbidden' });
+    const [blogs] = await pool.query(
+      `SELECT id, slug, title, meta_title, meta_desc, excerpt, category, status,
+              cover_image, cta_product_slug,
+              (quiz_json IS NOT NULL) AS has_quiz, (faq_json IS NOT NULL) AS has_faq,
+              views, created_at,
+              CHAR_LENGTH(content) AS content_chars, LEFT(content, 300) AS content_snippet,
+              (content REGEXP '^[[:space:]]*<') AS is_html
+         FROM blogs ORDER BY id`);
+    const [products] = await pool.query(
+      `SELECT p.slug, p.title, c.slug AS category_slug, c.name AS category_name
+         FROM products p LEFT JOIN categories c ON c.id = p.category_id
+        WHERE p.is_published = 1 ORDER BY p.id`);
+    const out = blogs.map(b => ({
+      id: b.id, slug: b.slug, title: b.title, meta_title: b.meta_title, meta_desc: b.meta_desc,
+      excerpt: b.excerpt, category: b.category, status: b.status, cover_image: b.cover_image,
+      cta_product_slug: b.cta_product_slug, has_quiz: !!b.has_quiz, has_faq: !!b.has_faq,
+      views: b.views, created_at: b.created_at,
+      word_count: Math.round((b.content_chars || 0) / 6), // rough words from char length
+      content_snippet: b.content_snippet, content_format: b.is_html ? 'html' : 'markdown',
+    }));
+    res.json({ exported_at: new Date().toISOString(), blog_count: out.length, product_count: products.length, blogs: out, products });
+  } catch (e) { next(e); }
+});
+
 // ── Public Blog ───────────────────────────────────────────────────────────────
 app.get('/blog', async (req, res, next) => {
   try {
