@@ -1,0 +1,30 @@
+{
+  "slug": "ncert-exemplar-solution-class-12-mathematics",
+  "meta_title": "NCERT Exemplar Solutions Class 12 Maths + Quiz",
+  "meta_desc": "Worked NCERT Exemplar solutions for Class 12 Maths across calculus, matrices, vectors and probability, plus a free 8-question exemplar-level quiz to try.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "ncert-exemplar-problems-solutions-mathematics-class-12",
+  "quiz": {
+    "title": "NCERT Exemplar Class 12 Maths Quiz",
+    "intro": "Eight harder questions drawn from across the Class 12 syllabus — calculus, matrices and determinants, vectors and 3D, probability and differential equations. Answer each, then press Check my score.",
+    "about": "NCERT Exemplar Class 12 Mathematics — mixed chapters",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If &int;<sub>0</sub><sup>1</sup> x(1&minus;x)<sup>9</sup> dx, its value is:", "options": ["1/110", "1/90", "1/132", "1/72"], "answer": 0, "explanation": "Use the beta-style result &int;<sub>0</sub><sup>1</sup> x<sup>m</sup>(1&minus;x)<sup>n</sup>dx = m! n!/(m+n+1)!. Here m=1, n=9, giving 1!&middot;9!/11! = 1/(10&middot;11) = 1/110." },
+      { "q": "If A is a 3&times;3 matrix with |A| = 4, then |2A| equals:", "options": ["8", "16", "32", "64"], "answer": 2, "explanation": "For an n&times;n matrix, |kA| = k<sup>n</sup>|A|. With n=3, k=2: |2A| = 2<sup>3</sup>&middot;4 = 8&middot;4 = 32." },
+      { "q": "The angle between the vectors a and b where |a|=1, |b|=2 and a&middot;b = 1 is:", "options": ["30&deg;", "45&deg;", "90&deg;", "60&deg;"], "answer": 3, "explanation": "cos&theta; = (a&middot;b)/(|a||b|) = 1/(1&middot;2) = 1/2, so &theta; = 60&deg;." },
+      { "q": "The integrating factor of dy/dx + y&thinsp;tan x = sec x is:", "options": ["sec x", "cos x", "tan x", "cosec x"], "answer": 0, "explanation": "IF = e<sup>&int;tan x dx</sup> = e<sup>ln|sec x|</sup> = sec x." },
+      { "q": "A die is thrown twice. The probability that the sum of the numbers is 8, given the first throw is 5, is:", "options": ["1/6", "1/36", "5/36", "1/9"], "answer": 0, "explanation": "Given first = 5, the second must be 3 for a sum of 8. With the first fixed, the second is uniform over 6 outcomes, so the conditional probability is 1/6." },
+      { "q": "If the function f(x) = |x&minus;1| + |x&minus;2| is considered on R, the number of points where it is NOT differentiable is:", "options": ["0", "3", "1", "2"], "answer": 3, "explanation": "A sum of modulus terms has corners at each break point. |x&minus;1| gives a corner at x=1 and |x&minus;2| at x=2, so f is non-differentiable at exactly 2 points." },
+      { "q": "The distance of the point (1, 2, 3) from the plane x + y + z = 3 is:", "options": ["3", "&radic;3", "1", "9"], "answer": 1, "explanation": "Distance = |1+2+3&minus;3|/&radic;(1&sup2;+1&sup2;+1&sup2;) = |3|/&radic;3 = 3/&radic;3 = &radic;3." },
+      { "q": "If A is a square matrix such that A&sup2; = A, then (I + A)&sup3; &minus; 7A equals:", "options": ["A", "I &minus; A", "I", "3A"], "answer": 2, "explanation": "Since A is idempotent, A<sup>n</sup>=A. Expand (I+A)&sup3; = I + 3A + 3A&sup2; + A&sup3; = I + 3A + 3A + A = I + 7A. Subtracting 7A leaves I." }
+    ]
+  },
+  "faq": [
+    { "q": "What are NCERT Exemplar problems and how do they differ from the textbook?", "a": "The NCERT Exemplar is a separate problem book published by NCERT with higher-order, application-heavy questions — MCQs, fill-in-the-blanks, true/false and long problems. They are tougher than the standard textbook exercises and are widely used to prepare for board exams as well as JEE Main." },
+    { "q": "Which Class 12 chapters carry the most exemplar weight for boards and JEE?", "a": "Calculus dominates — continuity and differentiability, applications of derivatives, integrals and differential equations together carry the largest share. Matrices and determinants, vectors and three-dimensional geometry, and probability round out the high-yield chapters." },
+    { "q": "Is it enough to solve only the NCERT Exemplar for the Class 12 board exam?", "a": "For the board exam the NCERT textbook exercises are essential and the Exemplar is a strong add-on for the harder problems that appear in longer-mark questions. If you are also targeting JEE Main, the Exemplar is close to a must, since several questions map directly to its style." },
+    { "q": "How should I use exemplar solutions without just copying the answers?", "a": "Attempt each problem cold first, give it a genuine try, and only then check the worked solution. Focus on the method and the point where you got stuck rather than the final number — that is where exemplar problems teach the most." },
+    { "q": "Where can I get complete worked NCERT Exemplar solutions for Class 12 Mathematics?", "a": "Our NCERT Exemplar Class 12 Mathematics solutions e-book has full step-by-step answers to every problem, chapter by chapter, in an instant printable PDF. The link is in the box below." }
+  ]
+}

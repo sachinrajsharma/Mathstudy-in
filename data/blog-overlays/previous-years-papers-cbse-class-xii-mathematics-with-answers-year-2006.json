@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2006",
+  "meta_title": "CBSE Class 12 Maths 2006 Paper with Answers + Quiz",
+  "meta_desc": "Work through the CBSE Class 12 Mathematics 2006 board paper with full answers on calculus, matrices, vectors and probability, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2006 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 2006 paper, covering differentiation, integrals, matrices and determinants, vectors, 3D geometry and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2006 previous-year paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = sin(x<sup>2</sup>), then dy/dx equals:", "options": ["2x cos(x<sup>2</sup>)", "cos(x<sup>2</sup>)", "2x sin(x<sup>2</sup>)", "cos(2x)"], "answer": 0, "explanation": "By the chain rule, differentiate the outer sine to get cos(x<sup>2</sup>) and multiply by the derivative of the inner x<sup>2</sup>, which is 2x. So dy/dx = 2x cos(x<sup>2</sup>)." },
+      { "q": "If A is a 3 &times; 3 matrix with det(A) = 3, then det(adj A) equals:", "options": ["3", "6", "27", "9"], "answer": 3, "explanation": "For an n &times; n matrix, det(adj A) = det(A)<sup>n&minus;1</sup>. Here n = 3, so det(adj A) = 3<sup>2</sup> = 9." },
+      { "q": "&int; 1/(1 + x<sup>2</sup>) dx equals:", "options": ["log(1 + x<sup>2</sup>) + C", "tan<sup>&minus;1</sup>x + C", "1/(1 + x<sup>2</sup>) + C", "2x/(1 + x<sup>2</sup>) + C"], "answer": 1, "explanation": "This is a standard integral: &int; 1/(1 + x<sup>2</sup>) dx = tan<sup>&minus;1</sup>x + C." },
+      { "q": "For vectors a and b with |a| = 2, |b| = 3 and the angle between them 30&deg;, |a &times; b| equals:", "options": ["3", "6", "3&radic;3", "3/2"], "answer": 0, "explanation": "|a &times; b| = |a||b| sin&theta; = 2 &times; 3 &times; sin 30&deg; = 6 &times; 1/2 = 3." },
+      { "q": "If A and B are mutually exclusive events with P(A) = 0.5 and P(B) = 0.3, then P(A &cup; B) equals:", "options": ["0.15", "0.2", "0.8", "0.5"], "answer": 2, "explanation": "For mutually exclusive events P(A &cap; B) = 0, so P(A &cup; B) = P(A) + P(B) = 0.5 + 0.3 = 0.8." },
+      { "q": "The distance of the plane 2x &minus; 2y + z = 6 from the origin is:", "options": ["6", "3", "1", "2"], "answer": 3, "explanation": "Distance = |&minus;6| / &radic;(2<sup>2</sup> + (&minus;2)<sup>2</sup> + 1<sup>2</sup>) = 6 / &radic;9 = 6/3 = 2." },
+      { "q": "For any square matrix A, the matrix A + A<sup>T</sup> is always:", "options": ["skew-symmetric", "symmetric", "the identity matrix", "singular"], "answer": 1, "explanation": "(A + A<sup>T</sup>)<sup>T</sup> = A<sup>T</sup> + A = A + A<sup>T</sup>, so the matrix equals its own transpose and is therefore symmetric." },
+      { "q": "&int; from 0 to &pi; of sin x dx equals:", "options": ["0", "1", "2", "&pi;"], "answer": 2, "explanation": "&int; sin x dx = &minus;cos x. Evaluating from 0 to &pi; gives &minus;cos &pi; &minus; (&minus;cos 0) = &minus;(&minus;1) + 1 = 2." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the CBSE Class 12 Mathematics 2006 paper cover?", "a": "It follows the Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations, linear programming and probability. That spread is still the backbone of today's board paper." },
+    { "q": "Is the 2006 paper still worth solving for the current CBSE exam?", "a": "Yes. The methods it tests &mdash; chain-rule derivatives, standard integrals, determinant properties, dot and cross products &mdash; are unchanged. The pattern has since added objective and case-study sections, but the 2006 paper is clean drill for building core accuracy." },
+    { "q": "How should I attempt a previous-year paper like this?", "a": "Solve it in one timed sitting with no notes, then mark it honestly against the answer key and re-work only the questions you missed. That gap analysis fixes weak spots far faster than reading through solved answers." },
+    { "q": "Which mistakes cost students the most marks on these questions?", "a": "Forgetting the inner-derivative in chain-rule problems, sign slips during determinant expansion, and confusing the dot product (a scalar) with the cross product (a vector). Writing each step out prevents most of these." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from repeatedly. The link is in the box below." }
+  ]
+}

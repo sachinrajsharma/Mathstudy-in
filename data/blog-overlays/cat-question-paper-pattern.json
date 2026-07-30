@@ -1,0 +1,30 @@
+{
+  "slug": "cat-question-paper-pattern",
+  "meta_title": "CAT Question Paper Pattern + Free Quant Quiz",
+  "meta_desc": "Understand the CAT question paper pattern and quant section with a free 8-question quiz on arithmetic, algebra, geometry and modern maths. Try it now.",
+  "category": "CAT",
+  "cta_product_slug": "cat-sample-papers-with-solutions-pdf",
+  "quiz": {
+    "title": "CAT Quant Pattern Quiz",
+    "intro": "Eight CAT-level questions spread across arithmetic, algebra, number systems, geometry and modern maths &mdash; the same mix the quant section tests. Answer each, then press Check my score.",
+    "about": "CAT quantitative aptitude pattern",
+    "level": "CAT",
+    "questions": [
+      { "q": "How many factors does 720 have?", "options": ["24", "28", "30", "36"], "answer": 2, "explanation": "720 = 2&#8308; &times; 3&sup2; &times; 5. Add one to each power and multiply: (4+1)(2+1)(1+1) = 5 &times; 3 &times; 2 = 30." },
+      { "q": "In an arithmetic progression the 7th term is 34 and the 13th term is 64. What is the common difference?", "options": ["3", "4", "6", "5"], "answer": 3, "explanation": "Six steps separate the 7th and 13th terms, and the value rises by 64 &minus; 34 = 30. So d = 30 &divide; 6 = 5." },
+      { "q": "In what ratio should rice costing Rs 30/kg be mixed with rice costing Rs 40/kg to make a mixture worth Rs 36/kg?", "options": ["2 : 3", "3 : 2", "1 : 2", "3 : 4"], "answer": 0, "explanation": "By alligation the ratio is (40 &minus; 36) : (36 &minus; 30) = 4 : 6 = 2 : 3." },
+      { "q": "What is the distance between the points (2, 3) and (5, 7)?", "options": ["4", "5", "6", "7"], "answer": 1, "explanation": "Distance = &radic;((5&minus;2)&sup2; + (7&minus;3)&sup2;) = &radic;(9 + 16) = &radic;25 = 5." },
+      { "q": "How many ways can a committee of 3 be formed from 7 people?", "options": ["21", "42", "210", "35"], "answer": 3, "explanation": "Order does not matter, so use combinations: C(7,3) = (7 &times; 6 &times; 5) &divide; (3 &times; 2 &times; 1) = 35." },
+      { "q": "If log&#8322; x = 5, what is x?", "options": ["10", "25", "32", "64"], "answer": 2, "explanation": "log&#8322; x = 5 means x = 2&#8309; = 32." },
+      { "q": "A cylinder has radius 7 cm and height 10 cm. What is its volume? (Take &pi; = 22/7.)", "options": ["1540 cm&sup3;", "770 cm&sup3;", "2200 cm&sup3;", "1450 cm&sup3;"], "answer": 0, "explanation": "Volume = &pi;r&sup2;h = (22/7) &times; 49 &times; 10 = 22 &times; 7 &times; 10 = 1540 cm&sup3;." },
+      { "q": "A fair die is rolled twice. What is the probability that the two numbers add up to 8?", "options": ["5/36", "1/6", "1/9", "5/18"], "answer": 0, "explanation": "The pairs summing to 8 are (2,6), (3,5), (4,4), (5,3) and (6,2) &mdash; 5 outcomes out of 36, so the probability is 5/36." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the pattern of the CAT quantitative aptitude section?", "a": "The quant section carries 22 questions to be solved in 40 minutes, mixing MCQs and TITA (type-in-the-answer) questions. There is no fixed split by topic, but arithmetic, algebra and geometry together usually dominate the paper." },
+    { "q": "Which topics carry the most weight in CAT quant?", "a": "Arithmetic &mdash; percentages, ratios, time-speed-distance, profit and loss &mdash; is the single largest bucket most years, followed closely by algebra and number systems. Geometry, mensuration and modern maths round out the rest." },
+    { "q": "How much time should I spend per question?", "a": "Roughly 1.5 to 2 minutes on average, but strong scorers do not solve every question. Clear the easy and medium ones first, mark the hard ones, and come back only if time allows &mdash; accuracy matters more than attempt count." },
+    { "q": "Is there negative marking in CAT quant?", "a": "Yes for MCQs: +3 for a correct answer and &minus;1 for a wrong one. TITA questions carry no penalty, so it is always worth entering your best answer on those." },
+    { "q": "Where can I get CAT question papers with full solutions?", "a": "Our CAT sample papers e-book has full-length sets built on the current pattern, each with step-by-step solutions and shortcuts for the quant section &mdash; an instant PDF you can print and revise from. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "int-frac2x-1x-1x-2x-3-dx-ncert-exemplar-q-38page-165",
+  "meta_title": "Partial Fractions Integration: NCERT Exemplar Q38",
+  "meta_desc": "Solve NCERT Exemplar Class 12 Q38: integrate (2x-1)/[(x-1)(x+2)(x-3)] by partial fractions, step by step. Try the free 8-question quiz to lock it in.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Partial Fractions Integration Quiz",
+    "intro": "Eight questions on splitting a rational function over distinct linear factors and integrating to logarithms. Pick an answer for each, then press Check my score.",
+    "about": "Integration by partial fractions over distinct linear factors",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "To decompose (2x-1)/[(x-1)(x+2)(x-3)], which form is correct?",
+        "options": [
+          "A/(x-1) + B/(x+2) + C/(x-3)",
+          "(Ax+B)/(x-1) + C/(x+2)",
+          "A/(x-1)&sup2; + B/(x+2) + C/(x-3)",
+          "A/[(x-1)(x+2)] + B/(x-3)"
+        ],
+        "answer": 0,
+        "explanation": "Each factor is distinct and linear, so each contributes a single constant over that factor: A/(x-1) + B/(x+2) + C/(x-3)."
+      },
+      {
+        "q": "Using the cover-up method, what is A (the coefficient of 1/(x-1))?",
+        "options": ["1/6", "1/3", "1/2", "-1/6"],
+        "answer": 3,
+        "explanation": "Cover (x-1) and put x=1 in the rest: (2&middot;1-1)/[(1+2)(1-3)] = 1/[3&middot;(-2)] = -1/6. So A = -1/6."
+      },
+      {
+        "q": "By cover-up, the constant over (x+2) is found by substituting which value of x?",
+        "options": ["x = 2", "x = -2", "x = 1", "x = 3"],
+        "answer": 1,
+        "explanation": "The factor (x+2) is zero when x = -2, so you cover it and evaluate the rest at x = -2."
+      },
+      {
+        "q": "The integral of A/(x-1) with respect to x is:",
+        "options": ["A ln|x-1| + C", "A/(x-1)&sup2; + C", "-A ln|x-1| + C", "A(x-1) + C"],
+        "answer": 0,
+        "explanation": "&int; A/(x-1) dx = A ln|x-1| + C, since the derivative of ln|x-1| is 1/(x-1)."
+      },
+      {
+        "q": "Cover-up for a factor (x-a) works because at x=a the other partial-fraction terms:",
+        "options": [
+          "become undefined",
+          "vanish, since each is multiplied by (x-a)",
+          "double in value",
+          "equal the original function"
+        ],
+        "answer": 1,
+        "explanation": "After multiplying through by (x-a), every other term still carries a factor (x-a), which is zero at x=a, leaving only that term's constant."
+      },
+      {
+        "q": "The constant over (x-3), by cover-up, is (2&middot;3-1)/[(3-1)(3+2)]. This equals:",
+        "options": ["5/12", "1/3", "1/2", "1/6"],
+        "answer": 2,
+        "explanation": "Numerator 5, denominator (2)(5)=10, so 5/10 = 1/2. The constant over (x-3) is 1/2."
+      },
+      {
+        "q": "After decomposing, the full integral is a sum of terms each of the form:",
+        "options": [
+          "constant &times; ln|linear factor|",
+          "constant &times; arctan",
+          "constant / linear factor",
+          "constant &times; (linear factor)&sup2;"
+        ],
+        "answer": 0,
+        "explanation": "Each 1/(x-a) integrates to ln|x-a|, so the answer is a linear combination of logarithms plus a constant."
+      },
+      {
+        "q": "Why must every constant (A, B, C) be checked for consistency, e.g. by comparing coefficients?",
+        "options": [
+          "To confirm the decomposition reproduces the original numerator",
+          "Because cover-up gives wrong signs",
+          "Because logs need absolute values",
+          "To avoid using u-substitution"
+        ],
+        "answer": 0,
+        "explanation": "Recombining A/(x-1)+B/(x+2)+C/(x-3) must give back (2x-1)/[(x-1)(x+2)(x-3)]; comparing numerators confirms the constants are right."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When can I use partial fractions to integrate a rational function?",
+      "a": "Use partial fractions when the integrand is a ratio of polynomials and the denominator factorises. First make sure the degree of the numerator is less than the degree of the denominator; if not, do polynomial long division first, then split the proper fraction into simpler pieces."
+    },
+    {
+      "q": "What is the cover-up method and when does it work?",
+      "a": "The cover-up (Heaviside) method finds the constant over a distinct linear factor (x-a) quickly: cover that factor and substitute x=a into everything else. It works only for non-repeated linear factors. Repeated or quadratic factors need the full coefficient-comparison approach."
+    },
+    {
+      "q": "Why do the answers come out as natural logarithms?",
+      "a": "Each simple term 1/(x-a) integrates to ln|x-a|, because the derivative of ln|x-a| is 1/(x-a). So a fraction over distinct linear factors always integrates to a sum of logarithm terms plus a constant of integration."
+    },
+    {
+      "q": "Do I always need the absolute value signs inside the log?",
+      "a": "Yes, keep |x-a| inside the logarithm. The argument of ln can be negative for some x values in the domain, and the absolute value keeps the antiderivative valid on both sides of x=a."
+    },
+    {
+      "q": "Where can I get worked NCERT Exemplar Class 12 integration solutions?",
+      "a": "The full step-by-step solution to this Q38 and the rest of the NCERT Exemplar integration set is in our Class 12 Maths solutions e-book, with every partial-fraction step shown and an answer key. The link is in the box below."
+    }
+  ]
+}

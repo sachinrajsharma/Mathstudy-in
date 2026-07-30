@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-4",
+  "meta_title": "NCERT Class 12 Maths Ex 5.4 Solutions + Quiz",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 5.4 solutions on derivatives of exponential and logarithmic functions, with a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Exercise 5.4 Quiz: Exponential &amp; Logarithmic Derivatives",
+    "intro": "Eight questions on differentiating exponential and logarithmic functions, the core of NCERT Exercise 5.4. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Continuity and Differentiability, Exercise 5.4",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is d/dx (e<sup>x</sup>)?", "options": ["x e<sup>x-1</sup>", "e<sup>x</sup>", "e<sup>x</sup> log x", "1"], "answer": 1, "explanation": "The exponential function e<sup>x</sup> is its own derivative: d/dx (e<sup>x</sup>) = e<sup>x</sup>." },
+      { "q": "What is d/dx (log x) for x &gt; 0?", "options": ["1/x", "x", "log x", "-1/x<sup>2</sup>"], "answer": 0, "explanation": "The derivative of the natural logarithm is 1/x, valid for x &gt; 0." },
+      { "q": "Differentiate a<sup>x</sup> with respect to x (a &gt; 0).", "options": ["x a<sup>x-1</sup>", "a<sup>x</sup>", "a<sup>x</sup> log a", "a<sup>x</sup>/log a"], "answer": 2, "explanation": "Writing a<sup>x</sup> = e<sup>x log a</sup> and using the chain rule gives d/dx (a<sup>x</sup>) = a<sup>x</sup> log a." },
+      { "q": "What is d/dx (e<sup>sin x</sup>)?", "options": ["e<sup>sin x</sup>", "cos x &middot; e<sup>sin x</sup>", "e<sup>cos x</sup>", "sin x &middot; e<sup>sin x</sup>"], "answer": 1, "explanation": "By the chain rule, differentiate the exponential and multiply by the derivative of sin x: e<sup>sin x</sup> &middot; cos x." },
+      { "q": "Differentiate log(sin x).", "options": ["cot x", "tan x", "1/(sin x)", "cos x log(sin x)"], "answer": 0, "explanation": "d/dx log(sin x) = (1/sin x) &middot; cos x = cos x / sin x = cot x." },
+      { "q": "What is d/dx (e<sup>x</sup> &middot; log x)?", "options": ["e<sup>x</sup>/x", "e<sup>x</sup> log x", "e<sup>x</sup>(log x + 1/x)", "e<sup>x</sup>/x - log x"], "answer": 2, "explanation": "Use the product rule: e<sup>x</sup> log x + e<sup>x</sup>(1/x) = e<sup>x</sup>(log x + 1/x)." },
+      { "q": "Differentiate log(cos e<sup>x</sup>).", "options": ["-e<sup>x</sup> tan e<sup>x</sup>", "e<sup>x</sup> tan e<sup>x</sup>", "-tan e<sup>x</sup>", "e<sup>x</sup>/cos e<sup>x</sup>"], "answer": 0, "explanation": "Chain rule twice: (1/cos e<sup>x</sup>) &middot; (-sin e<sup>x</sup>) &middot; e<sup>x</sup> = -e<sup>x</sup> tan e<sup>x</sup>." },
+      { "q": "What is d/dx (e<sup>x</sup> + e<sup>x<sup>2</sup></sup> + ... up to e<sup>x<sup>5</sup></sup>), evaluated for the term e<sup>x<sup>3</sup></sup> alone?", "options": ["3x<sup>2</sup> e<sup>x<sup>3</sup></sup>", "e<sup>x<sup>3</sup></sup>", "3x e<sup>x<sup>3</sup></sup>", "x<sup>3</sup> e<sup>x<sup>3</sup>-1</sup>"], "answer": 0, "explanation": "By the chain rule, d/dx (e<sup>x<sup>3</sup></sup>) = e<sup>x<sup>3</sup></sup> &middot; 3x<sup>2</sup> = 3x<sup>2</sup> e<sup>x<sup>3</sup></sup>." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 5.4 of Class 12 Maths cover?", "a": "Exercise 5.4 is about differentiating exponential and logarithmic functions &mdash; d/dx of e<sup>x</sup>, a<sup>x</sup>, log x and composite forms like e<sup>sin x</sup> or log(cos e<sup>x</sup>). Most problems combine these with the chain, product and quotient rules." },
+    { "q": "How is Exercise 5.4 different from Exercise 5.5?", "a": "Exercise 5.4 differentiates functions that already contain e<sup>x</sup> or log x directly. Exercise 5.5 uses logarithmic differentiation, where you take a log of both sides first &mdash; useful for powers like x<sup>x</sup> where the variable appears in both base and exponent." },
+    { "q": "Why does the derivative of a<sup>x</sup> include log a?", "a": "Because a<sup>x</sup> can be rewritten as e<sup>x log a</sup>. Differentiating with the chain rule brings down the constant log a, giving a<sup>x</sup> log a. Only when a = e does log a become 1, so e<sup>x</sup> is its own derivative." },
+    { "q": "What is the most common mistake in this exercise?", "a": "Forgetting the inner derivative in the chain rule. For log(sin x) students often write 1/sin x and stop, but you must also multiply by cos x to get cot x. Always differentiate the inside function too." },
+    { "q": "Where can I get full worked solutions for this exercise?", "a": "Our Class 12 Continuity and Differentiability case-study collection has step-by-step solutions for these exponential and logarithmic derivatives, plus exam-style practice with answers &mdash; an instant PDF. The link is in the box below." }
+  ]
+}
