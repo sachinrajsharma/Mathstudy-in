@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-determinants-excercise-4-4",
+  "meta_title": "NCERT Class 12 Determinants Ex 4.4 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Determinants Exercise 4.4 solutions on minors and cofactors, with a free 8-question quiz to test your expansion skills.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Minors &amp; Cofactors Quiz (Class 12)",
+    "intro": "Eight questions on finding minors, computing cofactors and expanding a determinant along a row or column. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 Determinants — minors and cofactors (Exercise 4.4)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The minor M<sub>ij</sub> of an element a<sub>ij</sub> is obtained by:", "options": ["Deleting the i-th row and j-th column, then taking the determinant of what remains", "Multiplying a<sub>ij</sub> by (&minus;1)<sup>i+j</sup>", "Deleting the j-th row and i-th column only", "Taking the sum of all other elements"], "answer": 0, "explanation": "The minor of a<sub>ij</sub> is the determinant left after deleting the row and column through a<sub>ij</sub> — the i-th row and j-th column." },
+      { "q": "The cofactor A<sub>ij</sub> is related to the minor M<sub>ij</sub> by:", "options": ["A<sub>ij</sub> = M<sub>ij</sub>", "A<sub>ij</sub> = (&minus;1)<sup>i+j</sup> M<sub>ij</sub>", "A<sub>ij</sub> = (&minus;1)<sup>ij</sup> M<sub>ij</sub>", "A<sub>ij</sub> = i + j + M<sub>ij</sub>"], "answer": 1, "explanation": "The cofactor attaches the sign (&minus;1)<sup>i+j</sup> to the minor: A<sub>ij</sub> = (&minus;1)<sup>i+j</sup> M<sub>ij</sub>." },
+      { "q": "For the matrix [[3, &minus;2], [4, 5]], the minor M<sub>11</sub> is:", "options": ["4", "&minus;2", "5", "3"], "answer": 2, "explanation": "Delete row 1 and column 1; only the element 5 remains, so M<sub>11</sub> = 5." },
+      { "q": "For the same matrix [[3, &minus;2], [4, 5]], the cofactor A<sub>12</sub> equals:", "options": ["4", "&minus;4", "&minus;2", "5"], "answer": 1, "explanation": "M<sub>12</sub> deletes row 1 and column 2, leaving 4. Then A<sub>12</sub> = (&minus;1)<sup>1+2</sup>(4) = &minus;4." },
+      { "q": "When you expand a determinant along the first row, you use:", "options": ["a<sub>11</sub>M<sub>11</sub> + a<sub>12</sub>M<sub>12</sub> + a<sub>13</sub>M<sub>13</sub>", "a<sub>11</sub>A<sub>11</sub> + a<sub>12</sub>A<sub>12</sub> + a<sub>13</sub>A<sub>13</sub>", "M<sub>11</sub> + M<sub>12</sub> + M<sub>13</sub>", "a<sub>11</sub> + a<sub>12</sub> + a<sub>13</sub>"], "answer": 1, "explanation": "The determinant equals the sum of each element times its own cofactor: &Delta; = a<sub>11</sub>A<sub>11</sub> + a<sub>12</sub>A<sub>12</sub> + a<sub>13</sub>A<sub>13</sub>." },
+      { "q": "The sign pattern (&minus;1)<sup>i+j</sup> for a 3&times;3 matrix, read left to right along the top row, is:", "options": ["&minus;, +, &minus;", "+, &minus;, +", "+, +, +", "&minus;, &minus;, &minus;"], "answer": 1, "explanation": "For the top row i=1: positions give (&minus;1)<sup>2</sup>, (&minus;1)<sup>3</sup>, (&minus;1)<sup>4</sup> = +, &minus;, +." },
+      { "q": "For the matrix [[1, 0, 4], [3, 5, &minus;1], [0, 1, 2]], the cofactor A<sub>21</sub> is:", "options": ["4", "&minus;4", "&minus;20", "8"], "answer": 1, "explanation": "M<sub>21</sub> deletes row 2 and column 1: det[[0, 4],[1, 2]] = 0&middot;2 &minus; 4&middot;1 = &minus;4. Then A<sub>21</sub> = (&minus;1)<sup>2+1</sup>(&minus;4) = (&minus;1)(&minus;4) = 4." },
+      { "q": "If you multiply the elements of a row by the cofactors of a DIFFERENT row, the sum is always:", "options": ["The determinant", "Zero", "One", "The trace"], "answer": 1, "explanation": "Only element &times; its own cofactor sums to the determinant. Elements of one row against another row's cofactors always sum to 0." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the difference between a minor and a cofactor?", "a": "A minor M<sub>ij</sub> is the determinant you get after deleting the row and column of an element. A cofactor A<sub>ij</sub> is that same minor with a sign attached: A<sub>ij</sub> = (&minus;1)<sup>i+j</sup> M<sub>ij</sub>. So for half the positions the cofactor equals the minor, and for the other half it is its negative." },
+    { "q": "How do I remember the sign pattern for cofactors?", "a": "Picture a checkerboard starting with + in the top-left corner: +, &minus;, +, &minus; alternating across every row and column. That pattern is exactly (&minus;1)<sup>i+j</sup>, so you never have to compute the power each time." },
+    { "q": "Which row or column should I expand along?", "a": "Choose the row or column with the most zeros. Every zero element contributes nothing to the sum, so you compute fewer minors. The answer is the same whichever line you pick — that freedom is the whole point of cofactor expansion." },
+    { "q": "Why does a<sub>i1</sub>A<sub>i1</sub> + a<sub>i2</sub>A<sub>i2</sub> + a<sub>i3</sub>A<sub>i3</sub> give the determinant?", "a": "This is the cofactor-expansion theorem: the determinant equals the sum of each element of any single row (or column) multiplied by its own cofactor. Cross-mixing rows — one row's elements against another row's cofactors — always gives zero instead." },
+    { "q": "Where can I find fully worked NCERT Determinants Exercise 4.4 solutions?", "a": "The full step-by-step solutions on this page walk through every minor and cofactor in Exercise 4.4. For extra graded practice with complete answer keys, the 'Class XII CBSE Fully Solved' workbook covers the whole Determinants chapter — the link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-determinants-excercise-miscellaneous",
+  "meta_title": "Class 12 Determinants Miscellaneous Exercise Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Determinants Miscellaneous Exercise solutions on properties, cofactors, adjoint, inverse and systems, plus a free quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Class 12 Determinants Miscellaneous Quiz",
+    "intro": "Eight mixed questions on determinant properties, cofactors, adjoint, inverse and solving systems. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Determinants Miscellaneous Exercise",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If A is a 3&times;3 matrix with |A| = 5, what is |3A|?", "options": ["15", "45", "135", "125"], "answer": 2, "explanation": "For an n&times;n matrix, |kA| = k<sup>n</sup>|A|. Here n = 3, so |3A| = 3<sup>3</sup> &times; 5 = 27 &times; 5 = 135." },
+      { "q": "For a square matrix A of order 3, |adj A| equals:", "options": ["|A|", "|A|<sup>2</sup>", "|A|<sup>3</sup>", "2|A|"], "answer": 1, "explanation": "For order n, |adj A| = |A|<sup>n-1</sup>. With n = 3 this gives |A|<sup>2</sup>." },
+      { "q": "If A is invertible of order 3 and |A| = 2, then |A<sup>-1</sup>| is:", "options": ["2", "8", "1/8", "1/2"], "answer": 3, "explanation": "|A<sup>-1</sup>| = 1/|A|. So |A<sup>-1</sup>| = 1/2." },
+      { "q": "The value of the determinant of a matrix equals the value of its transpose because:", "options": ["Rows and columns can be swapped without changing the value", "Determinants are always positive", "Every determinant equals zero", "Only for diagonal matrices"], "answer": 0, "explanation": "A key property: |A| = |A<sup>T</sup>|. Interchanging rows into columns leaves the determinant unchanged." },
+      { "q": "If two rows of a determinant are identical, its value is:", "options": ["1", "0", "Equal to the common row", "Undefined"], "answer": 1, "explanation": "A determinant with two identical (or proportional) rows is 0. This property is used often to prove identities in the miscellaneous exercise." },
+      { "q": "The cofactor C<sub>ij</sub> of an element a<sub>ij</sub> is defined as:", "options": ["The minor M<sub>ij</sub>", "(-1)<sup>i+j</sup> M<sub>ij</sub>", "(-1)<sup>ij</sup> M<sub>ij</sub>", "a<sub>ij</sub> M<sub>ij</sub>"], "answer": 1, "explanation": "The cofactor is the signed minor: C<sub>ij</sub> = (-1)<sup>i+j</sup> M<sub>ij</sub>, where M<sub>ij</sub> is the minor obtained by deleting row i and column j." },
+      { "q": "For a nonsingular matrix A, A<sup>-1</sup> is given by:", "options": ["adj A", "(adj A)/|A|", "|A| &times; adj A", "A<sup>T</sup>/|A|"], "answer": 1, "explanation": "The inverse formula is A<sup>-1</sup> = (1/|A|) adj A, valid only when |A| &ne; 0." },
+      { "q": "A system AX = B of linear equations has a unique solution when:", "options": ["|A| = 0", "|A| &ne; 0", "B = 0", "A is not square"], "answer": 1, "explanation": "If |A| &ne; 0, A is invertible and X = A<sup>-1</sup>B gives a unique solution &mdash; the consistency test used throughout this exercise." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the Determinants Miscellaneous Exercise cover?", "a": "It mixes every idea from the chapter: applying determinant properties to evaluate or simplify, finding minors and cofactors, computing the adjoint and inverse, proving algebraic identities, and solving systems of linear equations using |A| and A<sup>-1</sup>." },
+    { "q": "Which determinant properties are most useful here?", "a": "The ones that let you create zeros: |A| = |A<sup>T</sup>|, a row/column of zeros gives 0, two identical or proportional rows give 0, and adding a multiple of one row to another leaves the value unchanged. Row and column operations are the fastest route through most miscellaneous problems." },
+    { "q": "How do I find the inverse of a 3&times;3 matrix in this exercise?", "a": "First compute |A|; if it is nonzero, find the cofactor of every element, form the cofactor matrix, transpose it to get adj A, then use A<sup>-1</sup> = (1/|A|) adj A. Verify by checking A A<sup>-1</sup> = I." },
+    { "q": "How are systems of equations solved using determinants?", "a": "Write the system as AX = B. If |A| &ne; 0 the solution is unique and X = A<sup>-1</sup>B. If |A| = 0 the system is either inconsistent or has infinitely many solutions, which you test using the matrix method." },
+    { "q": "Where can I get the full solved solutions for this exercise?", "a": "Our fully solved Class 12 CBSE workbook works through the entire Determinants Miscellaneous Exercise step by step, with every property and cofactor calculation shown, plus extra practice with answers. The link is in the box below." }
+  ]
+}

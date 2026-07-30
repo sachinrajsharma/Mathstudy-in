@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-miscellaneous-excercise",
+  "meta_title": "Application of Derivatives Miscellaneous Solutions",
+  "meta_desc": "NCERT Class 12 Application of Derivatives miscellaneous exercise solutions on rates, tangents, maxima and minima, plus a free 8-question practice quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Application of Derivatives Miscellaneous Quiz",
+    "intro": "Eight mixed questions from the whole chapter &mdash; rate of change, increasing and decreasing functions, tangents and normals, maxima and minima, and approximations. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives, miscellaneous exercise",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The radius of a circle increases at 3 cm/s. How fast is the area changing when r = 10 cm?", "options": ["30&pi; cm&sup2;/s", "20&pi; cm&sup2;/s", "60&pi; cm&sup2;/s", "100&pi; cm&sup2;/s"], "answer": 2, "explanation": "A = &pi;r&sup2;, so dA/dt = 2&pi;r &middot; dr/dt = 2&pi;(10)(3) = 60&pi; cm&sup2;/s." },
+      { "q": "On which interval is f(x) = x&sup2; &minus; 4x + 5 increasing?", "options": ["(2, &infin;)", "(&minus;&infin;, 2)", "(&minus;&infin;, &infin;)", "(0, 4)"], "answer": 0, "explanation": "f'(x) = 2x &minus; 4 > 0 when x > 2, so f is increasing on (2, &infin;)." },
+      { "q": "The slope of the tangent to y = x&sup3; &minus; 2x + 1 at x = 1 is:", "options": ["0", "2", "3", "1"], "answer": 3, "explanation": "dy/dx = 3x&sup2; &minus; 2; at x = 1 this equals 3 &minus; 2 = 1." },
+      { "q": "The point on y = x&sup2; where the tangent is parallel to the x-axis is:", "options": ["(1, 1)", "(0, 0)", "(2, 4)", "(&minus;1, 1)"], "answer": 1, "explanation": "A horizontal tangent needs dy/dx = 2x = 0, so x = 0, giving the point (0, 0)." },
+      { "q": "The absolute maximum of f(x) = 2x&sup3; &minus; 15x&sup2; + 36x + 1 on [1, 5] occurs at:", "options": ["x = 1", "x = 3", "x = 2", "x = 5"], "answer": 2, "explanation": "f'(x) = 6x&sup2; &minus; 30x + 36 = 6(x&minus;2)(x&minus;3). Checking f at 1, 2, 3, 5 gives f(2) = 29, the largest value." },
+      { "q": "Using differentials, the approximate value of &radic;25.3 is:", "options": ["5.03", "5.3", "5.06", "5.15"], "answer": 0, "explanation": "With f(x) = &radic;x, x = 25, &Delta;x = 0.3: &radic;25.3 &asymp; 5 + (1/(2&middot;5))(0.3) = 5 + 0.03 = 5.03." },
+      { "q": "The equation of the normal to y = x&sup2; at the point (1, 1) is:", "options": ["2x + y = 3", "x + 2y = 3", "x &minus; 2y = &minus;1", "2x &minus; y = 1"], "answer": 1, "explanation": "Slope of tangent is 2, so the normal slope is &minus;1/2. Normal: y &minus; 1 = &minus;&frac12;(x &minus; 1), i.e. x + 2y = 3." },
+      { "q": "A rectangle has perimeter 20 cm. Its maximum area is:", "options": ["16 cm&sup2;", "20 cm&sup2;", "24 cm&sup2;", "25 cm&sup2;"], "answer": 3, "explanation": "With sides x and 10 &minus; x, area A = x(10 &minus; x). A'(x) = 10 &minus; 2x = 0 gives x = 5 (a square), so A = 25 cm&sup2;." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the Application of Derivatives miscellaneous exercise cover?", "a": "It mixes every sub-topic of the chapter in one place: rate of change of quantities, increasing and decreasing functions, tangents and normals, approximations using differentials, and maxima and minima. That is what makes it good final revision before the board exam." },
+    { "q": "How do I decide whether a function is increasing or decreasing?", "a": "Find the derivative f'(x). Where f'(x) > 0 the function is increasing, and where f'(x) < 0 it is decreasing. Solve the inequality to get the exact intervals rather than testing single points." },
+    { "q": "What is the difference between a tangent and a normal to a curve?", "a": "The tangent touches the curve with slope equal to dy/dx at that point. The normal is perpendicular to it, so its slope is the negative reciprocal, &minus;1 divided by dy/dx. Both pass through the same point of contact." },
+    { "q": "How do I find absolute maxima and minima on a closed interval?", "a": "Find the critical points where f'(x) = 0 or is undefined, then evaluate f at those points and at both endpoints of the interval. The largest of those values is the absolute maximum and the smallest is the absolute minimum." },
+    { "q": "Where can I get fully solved Application of Derivatives problems?", "a": "Our Class 12 Application of Derivatives case-studies e-book has fully worked solutions to rate, tangent, maxima and minima problems in the exact NCERT and board style, each with clear steps. The link is in the box below." }
+  ]
+}

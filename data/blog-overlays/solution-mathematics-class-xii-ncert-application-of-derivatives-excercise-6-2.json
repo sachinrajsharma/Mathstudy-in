@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-2",
+  "meta_title": "NCERT Class 12 Ex 6.2: Increasing & Decreasing Functions",
+  "meta_desc": "NCERT Class 12 Application of Derivatives Exercise 6.2 solutions on increasing and decreasing functions, with a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Increasing &amp; Decreasing Functions Quiz",
+    "intro": "Eight questions on the sign of f&#39;(x), intervals of increase and decrease, and strict monotonicity &mdash; exactly the ideas tested in Exercise 6.2. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives, Exercise 6.2",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A differentiable function f is strictly increasing on an interval when, for every x in it, f&#39;(x) is:", "options": ["greater than 0", "less than 0", "equal to 0", "not defined"], "answer": 0, "explanation": "A positive derivative means the tangent slopes upward everywhere on the interval, so the function values keep rising. f&#39;(x) &gt; 0 is the test for strictly increasing." },
+      { "q": "On which interval is f(x) = x&sup2; strictly increasing?", "options": ["(&minus;&infin;, 0)", "(0, &infin;)", "(&minus;1, 1)", "nowhere"], "answer": 1, "explanation": "f&#39;(x) = 2x, which is positive only when x &gt; 0. So the parabola rises on (0, &infin;) and falls on (&minus;&infin;, 0)." },
+      { "q": "For f(x) = x&sup3;, which statement is correct?", "options": ["decreasing on R", "constant on R", "strictly increasing on R", "decreasing on (0, &infin;)"], "answer": 2, "explanation": "f&#39;(x) = 3x&sup2; is never negative and is zero only at the single point x = 0, so f is strictly increasing on the whole of R." },
+      { "q": "For f(x) = 2x&sup3; &minus; 3x&sup2; &minus; 36x + 7, we get f&#39;(x) = 6(x &minus; 3)(x + 2). The function is increasing on:", "options": ["(&minus;2, 3)", "(&minus;2, 3) only", "(3, &infin;) only", "(&minus;&infin;, &minus;2) and (3, &infin;)"], "answer": 3, "explanation": "The product 6(x &minus; 3)(x + 2) is positive when both factors share a sign, i.e. x &lt; &minus;2 or x &gt; 3. So f increases on (&minus;&infin;, &minus;2) and (3, &infin;), and decreases on (&minus;2, 3)." },
+      { "q": "The function f(x) = e&#8339; is:", "options": ["increasing on R", "decreasing on R", "increasing only for x &gt; 0", "constant"], "answer": 0, "explanation": "f&#39;(x) = e&#8339;, which is positive for every real x. So the exponential function is strictly increasing on the whole real line." },
+      { "q": "On what interval is f(x) = x&sup2; &minus; 4x + 6 decreasing?", "options": ["(2, &infin;)", "(&minus;&infin;, 2)", "(&minus;&infin;, &infin;)", "(0, 2)"], "answer": 1, "explanation": "f&#39;(x) = 2x &minus; 4, which is negative when x &lt; 2. So the function decreases on (&minus;&infin;, 2) and increases on (2, &infin;)." },
+      { "q": "If f&#39;(x) &lt; 0 for every x in an interval, then on that interval f is:", "options": ["strictly increasing", "constant", "strictly decreasing", "at a maximum"], "answer": 2, "explanation": "A negative derivative means the slope is downward throughout, so the values fall as x rises. That is the definition of strictly decreasing." },
+      { "q": "For f(x) = log x with x &gt; 0, the function is:", "options": ["decreasing on (0, &infin;)", "constant", "increasing only for x &gt; 1", "strictly increasing on (0, &infin;)"], "answer": 3, "explanation": "f&#39;(x) = 1/x, which is positive for all x &gt; 0. So the logarithm is strictly increasing throughout its domain, not just beyond x = 1." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you tell if a function is increasing or decreasing in Exercise 6.2?", "a": "Differentiate the function, then check the sign of f&#39;(x). Where f&#39;(x) &gt; 0 the function is increasing; where f&#39;(x) &lt; 0 it is decreasing. Solving f&#39;(x) = 0 gives the boundary points that split the number line into these intervals." },
+    { "q": "What is the difference between increasing and strictly increasing?", "a": "A function is increasing if its values never fall as x rises (f&#39;(x) is at least 0). It is strictly increasing if its values always rise (f&#39;(x) &gt; 0, allowing zeros only at isolated points). For example, x&sup3; is strictly increasing on R even though f&#39;(0) = 0." },
+    { "q": "How do you find the intervals of increase and decrease?", "a": "Set f&#39;(x) = 0 to locate the critical points, mark them on the number line, then test the sign of f&#39;(x) in each resulting interval. Positive intervals are increasing and negative ones are decreasing." },
+    { "q": "Is a constant function increasing or decreasing?", "a": "Neither. A constant function has f&#39;(x) = 0 everywhere, so its value never rises or falls. It is treated as neither strictly increasing nor strictly decreasing." },
+    { "q": "Where can I get full solutions for Exercise 6.2 and more practice?", "a": "Our Class 12 Application of Derivatives case-study book works through the monotonicity method step by step and adds exam-style problems with complete answer keys &mdash; an instant PDF you can print. The link is in the box below." }
+  ]
+}
