@@ -390,36 +390,6 @@
     "route": "OVERLAY"
   },
   {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-8",
-    "title": "NCERT Integration chapter solution – Class XII – Excercise -7.8",
-    "views": 42,
-    "wc": 40,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-9",
-    "title": "NCERT Integration chapter solution – Class XII – Excercise -7.9",
-    "views": 42,
-    "wc": 40,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "html",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-11",
-    "title": "NCERT Integration chapter solution – Class XII – Excercise -7.11",
-    "views": 42,
-    "wc": 352,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
     "cta": "work-book-class-xii-c-b-s-e-fully-solved",
     "fmt": "html",
     "slug": "solutions-mathematics-class-xii-cbse-integration-miscellaneous-excercise",
@@ -586,26 +556,6 @@
     "title": "Free GRE Vocabulary Online Tests – Practice &amp; Improve GRE Word Power",
     "views": 40,
     "wc": 1750,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-1",
-    "title": "NCERT Integration chapter solution - Class XII - Excercise -7.1",
-    "views": 39,
-    "wc": 40,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-7",
-    "title": "NCERT Integration chapter solution - Class XII - Excercise -7.7",
-    "views": 39,
-    "wc": 40,
     "isCanon": false,
     "route": "OVERLAY"
   },
@@ -840,16 +790,6 @@
     "route": "OVERLAY"
   },
   {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-4",
-    "title": "NCERT Integration chapter solution - Class XII - Excercise -7.4",
-    "views": 36,
-    "wc": 40,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
     "cta": "class-12-matrices-chapter-practice-tests",
     "fmt": "html",
     "slug": "ncert-mathematics-solution-chapter-matrices-3-3",
@@ -970,16 +910,6 @@
     "route": "OVERLAY"
   },
   {
-    "cta": "class-12-continuity-and-differentiability-case-studies-with-solutions",
-    "fmt": "html",
-    "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-7-2",
-    "title": "SOLUTION MATHEMATICS CLASS XII NCERT CONTINUITY & DIFFERENTIABILITY EXCERCISE 5.7",
-    "views": 35,
-    "wc": 546,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
     "cta": "class-12-application-of-derivatives-case-studies-with-solutions",
     "fmt": "html",
     "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-1",
@@ -996,16 +926,6 @@
     "title": "SOLUTION MATHEMATICS CLASS XII NCERT APPLICATION OF DERIVATIVES EXCERCISE 6.5",
     "views": 35,
     "wc": 537,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "html",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-1-2",
-    "title": "NCERT Integration chapter solution - Class XII - Excercise -7.6",
-    "views": 34,
-    "wc": 45,
     "isCanon": false,
     "route": "OVERLAY"
   },
@@ -1046,16 +966,6 @@
     "title": "SOLUTION MATHEMATICS CLASS XII NCERT CONTINUITY & DIFFERENTIABILITY EXCERCISE 5.6",
     "views": 34,
     "wc": 544,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "markdown",
-    "slug": "ncert-integration-chapter-solution-class-xii-excercise-7-10",
-    "title": "NCERT Integration chapter solution – Class XII – Excercise -7.10",
-    "views": 33,
-    "wc": 40,
     "isCanon": false,
     "route": "OVERLAY"
   },
@@ -1242,26 +1152,6 @@
   {
     "cta": null,
     "fmt": "html",
-    "slug": "integration-ncert-excercise-7-1-solution",
-    "title": "Integration NCERT Excercise 7.1 Solution",
-    "views": 41,
-    "wc": 42,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": null,
-    "fmt": "markdown",
-    "slug": "integration-ncert-excercise-7-2-solution",
-    "title": "Integration NCERT Excercise 7.2 Solution",
-    "views": 41,
-    "wc": 38,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
     "slug": "what-is-the-integration-of-int-fracxsqrt-x-1-dx-ncert-exemp-q-10page-164",
     "title": "What is the integration of \\[ \\int {\\frac{x}{{\\sqrt x + 1}}} dx\\] ~~~~~[NCERT Exemp. Q. 10,Page 164 ]",
     "views": 41,
@@ -1306,16 +1196,6 @@
     "title": "Find the simplified form of<br>${\\cos ^{ - 1}}\\left( {\\frac{3}{5}\\cos x + \\frac{4}{5}\\sin x} \\right)$, where $x \\in \\left[ {\\frac{{ - 3\\pi }}{4},\\frac{\\pi }{4}} \\right]$.<br>[NCERT,Exemplar.2.3,Q.13,Page.36]",
     "views": 40,
     "wc": 284,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": null,
-    "fmt": "markdown",
-    "slug": "integration-ncert-excercise-7-3-solution",
-    "title": "Integration NCERT Excercise 7.3 Solution",
-    "views": 39,
-    "wc": 40,
     "isCanon": false,
     "route": "OVERLAY"
   },
@@ -1616,16 +1496,6 @@
     "title": "Top 10 Must-Read eBooks Finding for Personal Growth",
     "views": 34,
     "wc": 959,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
-    "cta": null,
-    "fmt": "html",
-    "slug": "solution-miscelaneous-integration-excercise-ncert",
-    "title": "Solution Miscelaneous Integration Excercise NCERT",
-    "views": 33,
-    "wc": 353,
     "isCanon": false,
     "route": "OVERLAY"
   },

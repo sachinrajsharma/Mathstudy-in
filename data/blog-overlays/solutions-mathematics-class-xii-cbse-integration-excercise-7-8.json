@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-8",
+  "meta_title": "Integration Exercise 7.8 Solutions - Class 12 Maths",
+  "meta_desc": "NCERT Class 12 Maths Exercise 7.8 solutions: evaluate definite integrals as the limit of a sum, with a free 8-question quiz to test your first principles.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Definite Integral as a Limit of a Sum Quiz",
+    "intro": "Eight questions on the first-principles definition from Exercise 7.8 &mdash; the width h, the sum formulas, and evaluating integrals from the definition. Pick an answer for each, then press Check my score.",
+    "about": "Definite integral as the limit of a sum (NCERT Exercise 7.8)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "In the definition &int;<sub>a</sub><sup>b</sup> f(x) dx = lim<sub>n&rarr;&infin;</sub> h[f(a) + f(a+h) + &hellip;], what does h equal?", "options": ["(a &minus; b)/n", "n/(b &minus; a)", "(b &minus; a)/n", "(a + b)/n"], "answer": 2, "explanation": "The interval [a, b] is cut into n equal strips, so each strip has width h = (b &minus; a)/n." },
+      { "q": "Evaluating &int;<sub>0</sub><sup>1</sup> x dx as a limit of a sum gives what value?", "options": ["1/2", "1", "1/4", "3/2"], "answer": 0, "explanation": "With a = 0, b = 1, h = 1/n, the sum is h(0 + h + 2h + &hellip;) = h&sup2;(0+1+&hellip;+(n&minus;1)) = (1/n&sup2;)&middot;n(n&minus;1)/2 &rarr; 1/2." },
+      { "q": "What is the value of &int;<sub>1</sub><sup>3</sup> x dx?", "options": ["2", "4", "6", "8"], "answer": 1, "explanation": "Whether by the antiderivative x&sup2;/2 or the limit of a sum, the result is 9/2 &minus; 1/2 = 4." },
+      { "q": "Which formula for the sum of squares is needed to integrate x&sup2; from the definition?", "options": ["n(n+1)/2", "n&sup2;(n+1)&sup2;/4", "[n(n+1)/2]&sup2;", "n(n+1)(2n+1)/6"], "answer": 3, "explanation": "&Sigma;r&sup2; = 1&sup2; + 2&sup2; + &hellip; + n&sup2; = n(n+1)(2n+1)/6. Its leading term n&sup3;/3 is what survives the limit." },
+      { "q": "Evaluating &int;<sub>0</sub><sup>2</sup> x&sup2; dx as a limit of a sum gives what value?", "options": ["8/3", "4", "2", "4/3"], "answer": 0, "explanation": "With h = 2/n, the sum is h&sup3;(0&sup2; + 1&sup2; + &hellip; + (n&minus;1)&sup2;) &rarr; (8/n&sup3;)&middot;n&sup3;/3 = 8/3, matching [x&sup3;/3] from 0 to 2." },
+      { "q": "As the number of strips n grows without bound, the strip width h behaves how?", "options": ["h &rarr; &infin;", "h &rarr; 1", "h &rarr; 0", "h &rarr; a"], "answer": 2, "explanation": "Since h = (b &minus; a)/n and (b &minus; a) is fixed, letting n &rarr; &infin; forces h &rarr; 0, so the rectangles shrink to the exact area." },
+      { "q": "Finding a definite integral as a limit of a sum is another name for which approach?", "options": ["The substitution method", "Partial fractions", "Integration by parts", "Integration from first principles"], "answer": 3, "explanation": "Exercise 7.8 evaluates integrals straight from the definition &mdash; first principles &mdash; without using any antiderivative shortcut." },
+      { "q": "What is the value of &int;<sub>0</sub><sup>1</sup> x&sup2; dx?", "options": ["1/2", "1/3", "2/3", "1"], "answer": 1, "explanation": "With h = 1/n, the sum h&sup3;&Sigma;r&sup2; = (1/n&sup3;)&middot;n(n+1)(2n+1)/6 &rarr; 2n&sup3;/(6n&sup3;) = 1/3, which equals [x&sup3;/3] from 0 to 1." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.8 of Class 12 Maths cover?", "a": "It asks you to evaluate definite integrals as the limit of a sum &mdash; the first-principles definition &mdash; instead of using antiderivatives. You split the interval into n equal strips of width h = (b &minus; a)/n and take the limit as n tends to infinity." },
+    { "q": "Which sum formulas do I need for these problems?", "a": "The three standard results: &Sigma;1 = n, &Sigma;r = n(n+1)/2, and &Sigma;r&sup2; = n(n+1)(2n+1)/6. For most Exercise 7.8 questions the sum of the first n natural numbers and the sum of their squares are enough." },
+    { "q": "Why do we bother with the limit of a sum when antiderivatives are faster?", "a": "It shows where the definite integral actually comes from &mdash; the area under a curve as a limit of thin rectangles. Understanding this makes the Fundamental Theorem of Calculus meaningful rather than a rule to memorise, and it is regularly examined." },
+    { "q": "What is a common mistake when evaluating these limits?", "a": "Mixing up the sample points. Using left endpoints gives f(a), f(a+h), &hellip;, f(a+(n&minus;1)h), so the sum runs to n&minus;1, not n. Getting the endpoints and the limits of the summation right is where most marks are lost." },
+    { "q": "Where can I get fully worked solutions for Exercise 7.8?", "a": "Our Class 12 CBSE workbook works every Exercise 7.8 problem line by line, from setting up h and the sum to taking the limit, alongside the rest of the integration chapter. The link is in the box below." }
+  ]
+}

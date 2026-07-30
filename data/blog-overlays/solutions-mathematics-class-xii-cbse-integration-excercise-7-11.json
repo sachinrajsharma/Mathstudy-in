@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-11",
+  "meta_title": "Class 12 Integration Ex 7.11 Solutions + Quiz",
+  "meta_desc": "Step-by-step NCERT Class 12 Exercise 7.11 solutions on properties of definite integrals, plus a free 8-question quiz on the king property and symmetry.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Properties of Definite Integrals Quiz",
+    "intro": "Eight questions on the properties used all through Exercise 7.11 &mdash; the king property, even and odd functions over symmetric limits, and the 0 to 2a split. Pick an answer, then press Check my score.",
+    "about": "NCERT Class 12 definite integral properties",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The 'king property' states that the integral of f(x) from 0 to a equals the integral from 0 to a of which function?", "options": ["f(a &minus; x)", "f(x &minus; a)", "f(a + x)", "&minus;f(x)"], "answer": 0, "explanation": "Substituting x &rarr; a &minus; x leaves the limits 0 and a unchanged and gives &int;<sub>0</sub><sup>a</sup> f(x) dx = &int;<sub>0</sub><sup>a</sup> f(a &minus; x) dx." },
+      { "q": "If f is an odd function, the integral of f(x) from &minus;a to a equals:", "options": ["2&int;<sub>0</sub><sup>a</sup> f(x) dx", "0", "&int;<sub>0</sub><sup>a</sup> f(x) dx", "a &middot; f(a)"], "answer": 1, "explanation": "For an odd function f(&minus;x) = &minus;f(x), the areas on either side of 0 cancel, so the integral over the symmetric interval [&minus;a, a] is 0." },
+      { "q": "If f is an even function, the integral of f(x) from &minus;a to a equals:", "options": ["0", "&int;<sub>0</sub><sup>a</sup> f(x) dx", "2&int;<sub>0</sub><sup>a</sup> f(x) dx", "&minus;2&int;<sub>0</sub><sup>a</sup> f(x) dx"], "answer": 2, "explanation": "For an even function f(&minus;x) = f(x), the two halves are equal, so &int;<sub>&minus;a</sub><sup>a</sup> f(x) dx = 2&int;<sub>0</sub><sup>a</sup> f(x) dx." },
+      { "q": "Using the king property, &int;<sub>0</sub><sup>&pi;/2</sup> sin x / (sin x + cos x) dx equals:", "options": ["&pi;/2", "&pi;", "&pi;/4", "1"], "answer": 2, "explanation": "Call the integral I. Applying x &rarr; &pi;/2 &minus; x gives I = &int; cos x/(cos x + sin x) dx. Adding the two forms, 2I = &int;<sub>0</sub><sup>&pi;/2</sup> 1 dx = &pi;/2, so I = &pi;/4." },
+      { "q": "The integral of x&sup3; from &minus;2 to 2 is:", "options": ["0", "8", "16", "4"], "answer": 0, "explanation": "x&sup3; is an odd function and the limits are symmetric about 0, so the integral is 0 without any further calculation." },
+      { "q": "&int;<sub>0</sub><sup>2a</sup> f(x) dx can be written as which of the following?", "options": ["2&int;<sub>0</sub><sup>a</sup> f(x) dx always", "&int;<sub>0</sub><sup>a</sup> [f(x) + f(2a &minus; x)] dx", "&int;<sub>0</sub><sup>a</sup> f(x) dx", "0"], "answer": 1, "explanation": "Splitting at a and substituting x &rarr; 2a &minus; x in the second piece gives &int;<sub>0</sub><sup>2a</sup> f(x) dx = &int;<sub>0</sub><sup>a</sup> [f(x) + f(2a &minus; x)] dx." },
+      { "q": "By the 0 to 2a rule, &int;<sub>0</sub><sup>2a</sup> f(x) dx = 2&int;<sub>0</sub><sup>a</sup> f(x) dx holds when:", "options": ["f(2a &minus; x) = &minus;f(x)", "f(2a &minus; x) = f(x)", "f is odd", "f(x) = 0"], "answer": 1, "explanation": "When f(2a &minus; x) = f(x) the second piece equals the first, doubling the 0-to-a integral; if instead f(2a &minus; x) = &minus;f(x) the result is 0." },
+      { "q": "The integral of cos x from &minus;&pi;/2 to &pi;/2 is:", "options": ["0", "1", "2", "&pi;"], "answer": 2, "explanation": "cos x is even, so &int;<sub>&minus;&pi;/2</sub><sup>&pi;/2</sup> cos x dx = 2&int;<sub>0</sub><sup>&pi;/2</sup> cos x dx = 2[sin x]<sub>0</sub><sup>&pi;/2</sup> = 2(1 &minus; 0) = 2." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.11 of NCERT Class 12 Maths cover?", "a": "Exercise 7.11 is on the properties of definite integrals. The problems use the king property &int;<sub>0</sub><sup>a</sup> f(x) dx = &int;<sub>0</sub><sup>a</sup> f(a &minus; x) dx, the even and odd function rules over symmetric limits, and the 0-to-2a split to evaluate integrals that are hard to compute directly." },
+    { "q": "What is the king property of definite integrals?", "a": "The king property says &int;<sub>0</sub><sup>a</sup> f(x) dx = &int;<sub>0</sub><sup>a</sup> f(a &minus; x) dx, and more generally &int;<sub>b</sub><sup>a</sup> f(x) dx = &int;<sub>b</sub><sup>a</sup> f(a + b &minus; x) dx. It replaces x by the reflected value, and adding the original and reflected integrals often collapses a messy expression into a simple constant." },
+    { "q": "How do even and odd functions simplify a symmetric integral?", "a": "Over a symmetric interval [&minus;a, a], an odd function integrates to 0 because the two halves cancel, while an even function integrates to twice the 0-to-a integral. Spotting the symmetry first can save an entire page of working." },
+    { "q": "Why do so many trigonometric integrals appear in this exercise?", "a": "Ratios like sin x/(sin x + cos x) on [0, &pi;/2] are the classic testing ground for the king property. The substitution x &rarr; &pi;/2 &minus; x swaps sine and cosine, so adding the two forms gives 2I = a constant &mdash; a trick that recurs in board and JEE papers." },
+    { "q": "Where can I get the full worked solutions to Exercise 7.11?", "a": "Our fully solved Class 12 CBSE workbook has step-by-step solutions to every property-of-definite-integrals problem, with the substitution and the final answer shown for each &mdash; an instant PDF you can revise from. The link is in the box below." }
+  ]
+}

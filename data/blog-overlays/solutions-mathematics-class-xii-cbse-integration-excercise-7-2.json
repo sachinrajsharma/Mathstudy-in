@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-2",
+  "meta_title": "NCERT Class 12 Integration Ex 7.2 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Integration Exercise 7.2 solutions on integration by substitution, with a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Integration Exercise 7.2 Quiz",
+    "intro": "Eight questions on integration by substitution from Exercise 7.2 &mdash; spotting the inner function, the f&prime;(x)/f(x) pattern and powers of a bracket. Pick an answer for each, then press Check my score. Add + C to every antiderivative.",
+    "about": "Integration by substitution (u-substitution); the f&prime;(x)/f(x) rule",
+    "level": "Class 12",
+    "questions": [
+      { "q": "&int; 2x &middot; e^(x&sup2;) dx equals:", "options": ["e^(x&sup2;) + C", "2x e^(x&sup2;) + C", "e^(2x) + C", "x&sup2; e^(x&sup2;) + C"], "answer": 0, "explanation": "Put u = x&sup2;, so du = 2x dx. The integral becomes &int; e^u du = e^u + C = e^(x&sup2;) + C. The 2x is exactly the derivative of the inner function." },
+      { "q": "&int; 2x/(x&sup2; + 1) dx equals:", "options": ["2/(x&sup2; + 1) + C", "ln(x&sup2; + 1) + C", "(x&sup2; + 1)&sup2; + C", "1/(x&sup2; + 1)&sup2; + C"], "answer": 1, "explanation": "This is the f&prime;(x)/f(x) pattern: the top, 2x, is the derivative of the bottom, x&sup2; + 1. So &int; f&prime;/f dx = ln|f| + C = ln(x&sup2; + 1) + C." },
+      { "q": "&int; sin x cos x dx equals:", "options": ["cos&sup2; x / 2 + C", "sin x cos x + C", "sin&sup2; x / 2 + C", "&minus;cos&sup2; x + C"], "answer": 2, "explanation": "Let u = sin x, so du = cos x dx. Then &int; u du = u&sup2;/2 + C = sin&sup2; x / 2 + C. (Substituting u = cos x gives an equivalent answer differing by a constant.)" },
+      { "q": "&int; (2x + 1)&#8309; dx equals:", "options": ["(2x + 1)&#8310; + C", "(2x + 1)&#8310; / 6 + C", "5(2x + 1)&#8308; + C", "(2x + 1)&#8310; / 12 + C"], "answer": 3, "explanation": "Let u = 2x + 1, so du = 2 dx and dx = du/2. Then &frac12; &int; u&#8309; du = &frac12; &middot; u&#8310;/6 = (2x + 1)&#8310;/12 + C. Do not forget to divide by the 2 from du." },
+      { "q": "For a differentiable f, &int; f&prime;(x)/f(x) dx equals:", "options": ["ln|f(x)| + C", "f(x)&sup2; / 2 + C", "1/f(x) + C", "f&prime;(x) ln|f(x)| + C"], "answer": 0, "explanation": "Substitute u = f(x), so du = f&prime;(x) dx. The integral becomes &int; du/u = ln|u| + C = ln|f(x)| + C. Recognising this pattern saves time in the exam." },
+      { "q": "&int; cos 3x dx equals:", "options": ["sin 3x + C", "(1/3) sin 3x + C", "3 sin 3x + C", "&minus;(1/3) sin 3x + C"], "answer": 1, "explanation": "Let u = 3x, so du = 3 dx and dx = du/3. Then (1/3) &int; cos u du = (1/3) sin u + C = (1/3) sin 3x + C." },
+      { "q": "&int; (ln x)/x dx equals:", "options": ["ln(ln x) + C", "1/x&sup2; + C", "(ln x)&sup2; / 2 + C", "(ln x)&sup2; + C"], "answer": 2, "explanation": "Let u = ln x, so du = (1/x) dx. The integral becomes &int; u du = u&sup2;/2 + C = (ln x)&sup2; / 2 + C." },
+      { "q": "&int; 2x (x&sup2; + 1)&sup3; dx equals:", "options": ["(x&sup2; + 1)&sup3; + C", "6x&sup2;(x&sup2; + 1)&sup2; + C", "(x&sup2; + 1)&#8308; + C", "(x&sup2; + 1)&#8308; / 4 + C"], "answer": 3, "explanation": "Let u = x&sup2; + 1, so du = 2x dx. Then &int; u&sup3; du = u&#8308;/4 + C = (x&sup2; + 1)&#8308;/4 + C. The 2x supplies du exactly, so no extra constant is needed." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.2 of Class 12 Maths cover?", "a": "It is the integration-by-substitution exercise. You rewrite an integral in terms of a new variable u &mdash; usually the 'inner' function &mdash; so that its derivative also appears in the integrand. Once in terms of u it reduces to a standard integral from Exercise 7.1." },
+    { "q": "How do I choose the right substitution?", "a": "Look for an inner function whose derivative is also present (up to a constant). In &int; 2x e^(x&sup2;) dx the inner function is x&sup2; and its derivative 2x is right there, so u = x&sup2; works. Powers of a bracket, angles inside sin/cos, and denominators are the usual candidates." },
+    { "q": "When can I use the f&prime;(x)/f(x) shortcut?", "a": "Whenever the numerator is the exact derivative of the denominator, the integral is ln|denominator| + C. For example &int; 2x/(x&sup2; + 1) dx = ln(x&sup2; + 1) + C. Spotting this pattern is quicker than writing out the full substitution." },
+    { "q": "Why do I divide by a constant after substituting?", "a": "If du = k dx, then dx = du/k, and that 1/k factor must be carried outside the integral. This is why &int; (2x + 1)&#8309; dx gives (2x + 1)&#8310;/12 rather than /6 &mdash; the extra 2 from du halves the result. Forgetting it is the most common slip." },
+    { "q": "Where can I get fully solved Class 12 substitution integrals?", "a": "Our fully-solved Class XII CBSE workbook works through every integration exercise, including Ex 7.2 substitution problems, with clean step-by-step solutions and answer keys &mdash; an instant PDF for revision. The link is in the box below." }
+  ]
+}
