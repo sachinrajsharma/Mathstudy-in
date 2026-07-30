@@ -1381,10 +1381,13 @@ Promise.allSettled(
   // no manual `node scripts/upsert-blog.js` loop over SSH is needed. Runs AFTER
   // the columns above exist so quiz/faq/cta write successfully.
   try {
-    const { importAllBlogs } = require('./lib/blog-import');
+    const { importAllBlogs, importOverlays } = require('./lib/blog-import');
     return importAllBlogs(pool).then(function(r) {
       console.log('[blog-import] files=' + r.total + ' inserted=' + r.inserted +
                   ' updated=' + r.updated + ' skipped=' + r.skipped);
+      return importOverlays(pool);
+    }).then(function(ov) {
+      console.log('[blog-overlay] files=' + ov.total + ' applied=' + ov.applied + ' skipped=' + ov.skipped);
       return archiveRedirectedBlogs(pool).then(function(a) {
         console.log('[blog-redirects] archived duplicates=' + a.archived);
       });
