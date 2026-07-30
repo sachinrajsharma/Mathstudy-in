@@ -1,0 +1,29 @@
+{
+  "slug": "what-is-the-integration-of-int-fracxsqrt-x-1-dx-ncert-exemp-q-10page-164",
+  "meta_title": "Integral of x/(&radic;x+1) dx &mdash; NCERT Exemplar Q10 Solved",
+  "meta_desc": "Solve &int; x/(&radic;x + 1) dx step by step with the substitution t = &radic;x from NCERT Exemplar Class 12 Q10, plus a free 8-question integration quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Substitution Integration Quiz: t = &radic;x",
+    "intro": "Eight questions on solving &int; x/(&radic;x + 1) dx by the substitution t = &radic;x. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Exemplar Class 12 integration by substitution",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Which substitution best simplifies &int; x/(&radic;x + 1) dx?", "options": ["t = &radic;x", "t = x + 1", "t = 1/&radic;x", "t = x&sup2;"], "answer": 0, "explanation": "Setting t = &radic;x removes the awkward root, since x = t&sup2; turns the whole integrand into a rational function of t." },
+      { "q": "If t = &radic;x, then x equals:", "options": ["t", "t&sup2;", "&radic;t", "1/t&sup2;"], "answer": 1, "explanation": "Squaring t = &radic;x gives x = t&sup2;, which is what lets us replace every x in the integral." },
+      { "q": "With t = &radic;x, dx works out to:", "options": ["dt", "t dt", "2t dt", "t&sup2; dt"], "answer": 2, "explanation": "From x = t&sup2;, differentiate: dx/dt = 2t, so dx = 2t dt." },
+      { "q": "After substituting, &int; x/(&radic;x + 1) dx becomes:", "options": ["&int; t&sup2;/(t + 1) dt", "&int; 2t&sup2;/(t + 1) dt", "&int; t&sup3;/(t + 1) dt", "&int; 2t&sup3;/(t + 1) dt"], "answer": 3, "explanation": "The integrand x/(&radic;x + 1) = t&sup2;/(t + 1), and dx = 2t dt, so the product is 2t&sup3;/(t + 1)." },
+      { "q": "Dividing out, 2t&sup3;/(t + 1) equals:", "options": ["2t&sup2; &minus; 2t + 2 &minus; 2/(t + 1)", "2t&sup2; + 2t + 2 + 2/(t + 1)", "2t&sup2; &minus; 2t &minus; 2/(t + 1)", "t&sup2; &minus; t + 1"], "answer": 0, "explanation": "Since t&sup3; = (t + 1)(t&sup2; &minus; t + 1) &minus; 1, we get t&sup3;/(t + 1) = t&sup2; &minus; t + 1 &minus; 1/(t + 1). Doubling gives 2t&sup2; &minus; 2t + 2 &minus; 2/(t + 1)." },
+      { "q": "What is &int; 2/(t + 1) dt?", "options": ["ln|t + 1| + C", "2 ln|t + 1| + C", "2/(t + 1)&sup2; + C", "t ln|t + 1| + C"], "answer": 1, "explanation": "The integral of 1/(t + 1) is ln|t + 1|, so the factor of 2 gives 2 ln|t + 1| + C." },
+      { "q": "Writing the result back in x, &int; x/(&radic;x + 1) dx equals:", "options": ["(2/3)x^(3/2) + x &minus; 2&radic;x + C", "x^(3/2) &minus; x + &radic;x &minus; ln(&radic;x + 1) + C", "(2/3)x^(3/2) &minus; x + 2&radic;x &minus; 2 ln(&radic;x + 1) + C", "(2/3)x^(3/2) + 2&radic;x + 2 ln(&radic;x + 1) + C"], "answer": 2, "explanation": "Integrating term by term gives (2/3)t&sup3; &minus; t&sup2; + 2t &minus; 2 ln|t + 1| + C, then t = &radic;x yields (2/3)x^(3/2) &minus; x + 2&radic;x &minus; 2 ln(&radic;x + 1) + C." },
+      { "q": "Once the answer is found in t, the final step is to:", "options": ["Leave the answer in t", "Differentiate the result again", "Add another constant", "Replace t with &radic;x"], "answer": 3, "explanation": "Substitution is only finished when you undo it: back-substitute t = &radic;x so the answer is in the original variable." }
+    ]
+  },
+  "faq": [
+    { "q": "Why substitute t = &radic;x instead of t = &radic;x + 1?", "a": "Both work, but t = &radic;x is the cleaner choice here because x = t&sup2; is easy to differentiate and it turns the whole integrand into a simple rational function of t that you can divide out." },
+    { "q": "Why do we need polynomial division after substituting?", "a": "The substitution leaves 2t&sup3;/(t + 1), where the numerator degree is higher than the denominator. Dividing first splits it into terms you can integrate directly, plus a 1/(t + 1) piece that gives a log." },
+    { "q": "Where does the logarithm in the answer come from?", "a": "After division, the leftover term is &minus;2/(t + 1). Integrating 1/(t + 1) gives ln|t + 1|, which becomes 2 ln(&radic;x + 1) once you put t = &radic;x back in." },
+    { "q": "How can I check the final answer is correct?", "a": "Differentiate (2/3)x^(3/2) &minus; x + 2&radic;x &minus; 2 ln(&radic;x + 1). Simplifying the derivative brings you back to x/(&radic;x + 1), which confirms the integral." },
+    { "q": "Where can I get full solutions to more NCERT Exemplar integration problems?", "a": "Our NCERT Exemplar Class 12 integration solutions cover substitution, partial fractions and by-parts problems with the same step-by-step working. The link is in the box below." }
+  ]
+}

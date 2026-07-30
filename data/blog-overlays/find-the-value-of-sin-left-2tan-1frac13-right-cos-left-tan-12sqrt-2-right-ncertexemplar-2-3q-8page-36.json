@@ -1,0 +1,29 @@
+{
+  "slug": "find-the-value-of-sin-left-2tan-1frac13-right-cos-left-tan-12sqrt-2-right-ncertexemplar-2-3q-8page-36",
+  "meta_title": "sin(2tan-1 1/3)+cos(tan-1 2&#8730;2) Solved: Exemplar",
+  "meta_desc": "Step-by-step NCERT Exemplar Class 12 Q8 solution: evaluate sin(2 tan-1 1/3) + cos(tan-1 2&#8730;2) = 14/15 by double-angle and triangle method. Free quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Inverse Trig Double-Angle Quiz",
+    "intro": "Eight questions on the double-angle inverse-trig formulas and on evaluating a trig function of an inverse-trig value. Choose an answer for each, then press Check my score.",
+    "about": "Class 12 inverse trigonometric functions",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the value of sin(2 tan-1 1/3) + cos(tan-1 2&#8730;2)?", "options": ["14/15", "13/15", "4/5", "1"], "answer": 0, "explanation": "sin(2 tan-1 1/3) = 3/5 and cos(tan-1 2&#8730;2) = 1/3, so the sum is 9/15 + 5/15 = 14/15." },
+      { "q": "The double-angle identity sin(2 tan-1 x) equals which expression?", "options": ["2x/(1 - x&#178;)", "2x/(1 + x&#178;)", "(1 - x&#178;)/(1 + x&#178;)", "x/(1 + x&#178;)"], "answer": 1, "explanation": "Since sin 2A = 2 tanA/(1 + tan&#178;A) and tanA = x when A = tan-1 x, sin(2 tan-1 x) = 2x/(1 + x&#178;)." },
+      { "q": "Evaluate sin(2 tan-1 1/3).", "options": ["3/10", "1/3", "3/5", "6/5"], "answer": 2, "explanation": "Use 2x/(1 + x&#178;) with x = 1/3: (2/3) / (10/9) = (2/3)(9/10) = 3/5." },
+      { "q": "Using a right triangle, what is cos(tan-1 2&#8730;2)?", "options": ["2&#8730;2/3", "1/&#8730;3", "2/3", "1/3"], "answer": 3, "explanation": "If tan&#952; = 2&#8730;2, take opposite = 2&#8730;2 and adjacent = 1, so hypotenuse = &#8730;(1 + 8) = 3. Then cos&#952; = 1/3." },
+      { "q": "The identity cos(2 tan-1 x) equals which expression?", "options": ["(1 - x&#178;)/(1 + x&#178;)", "(1 + x&#178;)/(1 - x&#178;)", "2x/(1 + x&#178;)", "(x&#178; - 1)/(1 + x&#178;)"], "answer": 0, "explanation": "cos 2A = (1 - tan&#178;A)/(1 + tan&#178;A), so with tanA = x this gives (1 - x&#178;)/(1 + x&#178;)." },
+      { "q": "The identity tan(2 tan-1 x) equals which expression?", "options": ["2x/(1 + x&#178;)", "2x/(1 - x&#178;)", "(1 - x&#178;)/2x", "x&#178;/(1 - x&#178;)"], "answer": 1, "explanation": "tan 2A = 2 tanA/(1 - tan&#178;A), so with tanA = x this is 2x/(1 - x&#178;)." },
+      { "q": "What is sin(tan-1 3/4)?", "options": ["4/5", "3/4", "3/5", "5/3"], "answer": 2, "explanation": "With tan&#952; = 3/4, take opposite = 3 and adjacent = 4, so hypotenuse = 5. Then sin&#952; = 3/5." },
+      { "q": "Evaluate cos(2 tan-1 1/3).", "options": ["3/5", "8/9", "3/4", "4/5"], "answer": 3, "explanation": "Use (1 - x&#178;)/(1 + x&#178;) with x = 1/3: (1 - 1/9)/(1 + 1/9) = (8/9)/(10/9) = 4/5." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you solve NCERT Exemplar Class 12 Q8 on inverse trig?", "a": "Split it into two parts. For sin(2 tan-1 1/3) apply the double-angle result 2x/(1 + x&#178;) with x = 1/3 to get 3/5. For cos(tan-1 2&#8730;2) draw a right triangle with opposite 2&#8730;2 and adjacent 1, giving cos = 1/3. Adding, 3/5 + 1/3 = 14/15." },
+    { "q": "Why does sin(2 tan-1 x) equal 2x/(1 + x&#178;)?", "a": "Let A = tan-1 x, so tanA = x. The standard double-angle identity sin 2A = 2 tanA/(1 + tan&#178;A) turns straight into 2x/(1 + x&#178;) once you substitute tanA = x. The same idea gives the cos and tan double-angle forms." },
+    { "q": "When should I use the triangle method instead of a formula?", "a": "Use a right triangle whenever you need a single trig function of one inverse-trig value, such as cos(tan-1 2&#8730;2). Label the sides from the given ratio, find the third side by Pythagoras, then read off the function you want. Formulas are faster when a double angle like 2 tan-1 x is involved." },
+    { "q": "What is the final answer and does the order of the two terms matter?", "a": "The final value is 14/15. Addition is commutative, so it does not matter which term you compute first; sin(2 tan-1 1/3) + cos(tan-1 2&#8730;2) and cos(tan-1 2&#8730;2) + sin(2 tan-1 1/3) give the same 14/15." },
+    { "q": "Where can I get more solved NCERT Exemplar inverse trigonometry problems?", "a": "Our Class 12 inverse trigonometric functions solutions cover the full NCERT Exemplar set with worked double-angle and triangle methods, plus practice like the quiz above. The link is in the box below." }
+  ]
+}

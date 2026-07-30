@@ -1,0 +1,84 @@
+{
+  "slug": "how-to-integrate-int_pi-3pi-2-fracsqrt-1-cos-x-1-cos-x5-2-dx-ncert-exemp-q-41page-166",
+  "meta_title": "NCERT Exemplar Class 12 Integration Q41 Solved + Quiz",
+  "meta_desc": "Solve NCERT Exemplar Class 12 integration Q41 (page 166) with half-angle identities, plus a free 8-question quiz on simplifying trig integrands.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Half-Angle Identities & Trig Integration Quiz",
+    "intro": "Eight questions on rewriting 1 &plusmn; cos x with half-angle identities, integrating powers of cosec and cot, and finishing a definite trig integral. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Exemplar Class 12 integration Q41 — half-angle simplification and definite trig integrals",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Which identity rewrites 1 + cos x for this problem?",
+        "options": ["1 + cos x = 2 sin&sup2;(x/2)", "1 + cos x = 1 &minus; 2 sin&sup2;(x/2)", "1 + cos x = 2 cos&sup2;(x/2)", "1 + cos x = cos&sup2;(x/2) &minus; sin&sup2;(x/2)"],
+        "answer": 2,
+        "explanation": "From cos x = 2 cos&sup2;(x/2) &minus; 1, adding 1 to both sides gives 1 + cos x = 2 cos&sup2;(x/2)."
+      },
+      {
+        "q": "Which identity rewrites 1 &minus; cos x?",
+        "options": ["1 &minus; cos x = 2 sin&sup2;(x/2)", "1 &minus; cos x = 2 cos&sup2;(x/2)", "1 &minus; cos x = 1 &minus; 2 sin&sup2;(x/2)", "1 &minus; cos x = sin x"],
+        "answer": 0,
+        "explanation": "Since cos x = 1 &minus; 2 sin&sup2;(x/2), subtracting from 1 gives 1 &minus; cos x = 2 sin&sup2;(x/2)."
+      },
+      {
+        "q": "Using the two identities, (1 + cos x)/(1 &minus; cos x) simplifies to:",
+        "options": ["tan&sup2;(x/2)", "cot&sup2;(x/2)", "cosec&sup2;(x/2)", "sec&sup2;(x/2)"],
+        "answer": 1,
+        "explanation": "The ratio is 2 cos&sup2;(x/2) over 2 sin&sup2;(x/2) = cos&sup2;(x/2)/sin&sup2;(x/2) = cot&sup2;(x/2)."
+      },
+      {
+        "q": "Therefore &radic;[(1 + cos x)/(1 &minus; cos x)] equals:",
+        "options": ["tan(x/2)", "sec(x/2)", "cosec(x/2)", "|cot(x/2)|"],
+        "answer": 3,
+        "explanation": "The square root of cot&sup2;(x/2) is |cot(x/2)|; the modulus matters because sign depends on the interval of x."
+      },
+      {
+        "q": "What is &int; cosec&sup2; x dx?",
+        "options": ["&minus;cot x + C", "cot x + C", "tan x + C", "&minus;cosec x + C"],
+        "answer": 0,
+        "explanation": "Since d/dx(cot x) = &minus;cosec&sup2; x, we get &int; cosec&sup2; x dx = &minus;cot x + C."
+      },
+      {
+        "q": "What is d/dx (cot x)?",
+        "options": ["cosec&sup2; x", "sec&sup2; x", "&minus;cosec&sup2; x", "&minus;cot x cosec x"],
+        "answer": 2,
+        "explanation": "The derivative of cot x is &minus;cosec&sup2; x, the identity that makes cot terms easy to integrate."
+      },
+      {
+        "q": "What is &int; cosec x cot x dx?",
+        "options": ["cosec x + C", "cot x + C", "ln|cosec x| + C", "&minus;cosec x + C"],
+        "answer": 3,
+        "explanation": "Since d/dx(cosec x) = &minus;cosec x cot x, the integral is &minus;cosec x + C."
+      },
+      {
+        "q": "On the interval [&pi;, 3&pi;/2], x/2 lies in [&pi;/2, 3&pi;/4], where cot(x/2) is:",
+        "options": ["positive throughout", "negative throughout", "zero throughout", "undefined throughout"],
+        "answer": 1,
+        "explanation": "For x/2 in the second quadrant [&pi;/2, 3&pi;/4], cosine is negative and sine positive, so cot(x/2) = cos/sin is negative. This sign controls how |cot(x/2)| is unwrapped before integrating."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why do we use half-angle identities on this integral?",
+      "a": "The integrand mixes 1 + cos x and 1 &minus; cos x, which resist standard formulas. Rewriting them as 2 cos&sup2;(x/2) and 2 sin&sup2;(x/2) collapses the ratio into a single power of cot(x/2), turning the problem into an integral of cosec and cot terms you already know."
+    },
+    {
+      "q": "Why does the modulus appear when taking the square root?",
+      "a": "&radic;(cot&sup2;(x/2)) is |cot(x/2)|, not cot(x/2). On the limits &pi; to 3&pi;/2 the angle x/2 sits in the second quadrant, where cot is negative, so |cot(x/2)| = &minus;cot(x/2). Dropping the modulus is the most common way students lose marks here."
+    },
+    {
+      "q": "Which integration formulas do I actually need?",
+      "a": "Just three: &int; cosec&sup2; x dx = &minus;cot x + C, &int; cosec x cot x dx = &minus;cosec x + C, and &int; cosec x dx = ln|cosec x &minus; cot x| + C. After the half-angle simplification the whole problem reduces to these standard results."
+    },
+    {
+      "q": "Do the limits change when I switch to x/2?",
+      "a": "If you substitute u = x/2 then yes &mdash; the limits become u = &pi;/2 to u = 3&pi;/4, and dx = 2 du. Many students keep x as the variable and simply evaluate the antiderivative at &pi; and 3&pi;/2, which is fine as long as the modulus sign is handled first."
+    },
+    {
+      "q": "Where can I get the full worked solution and more Class 12 integration practice?",
+      "a": "Our NCERT Exemplar Class 12 Integration solutions cover every miscellaneous and Q41-type problem step by step, with the half-angle set-up written out in full. It is an instant PDF with an answer key &mdash; the link is in the box below."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "what-is-the-integration-of-int-sqrt-2ax-x2-dx-ncert-exemp-q-20page-164",
+  "meta_title": "Integral of √(2ax − x²): NCERT Exemplar Q20",
+  "meta_desc": "Solve ∫√(2ax − x²) dx from NCERT Exemplar Class 12 Q20 by completing the square, then apply the √(a²−u²) standard formula. Free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Completing the Square Under a Root Quiz",
+    "intro": "Eight questions on turning 2ax &minus; x&sup2; into a&sup2; &minus; (x &minus; a)&sup2; and applying the &radic;(a&sup2; &minus; u&sup2;) integral. Pick an answer for each, then press Check my score.",
+    "about": "Integrating &radic;(2ax &minus; x&sup2;) by completing the square",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Which of these is 2ax &minus; x&sup2; written as a completed square?", "options": ["a&sup2; &minus; (x &minus; a)&sup2;", "(x &minus; a)&sup2; &minus; a&sup2;", "a&sup2; + (x &minus; a)&sup2;", "(x + a)&sup2; &minus; a&sup2;"], "answer": 0, "explanation": "2ax &minus; x&sup2; = &minus;(x&sup2; &minus; 2ax) = &minus;[(x &minus; a)&sup2; &minus; a&sup2;] = a&sup2; &minus; (x &minus; a)&sup2;." },
+      { "q": "What is the standard integral &int;&radic;(a&sup2; &minus; u&sup2;) du?", "options": ["(u/2)&radic;(a&sup2; &minus; u&sup2;) &minus; (a&sup2;/2) arcsin(u/a) + C", "(u/2)&radic;(a&sup2; &minus; u&sup2;) + (a&sup2;/2) arcsin(u/a) + C", "(a&sup2;/2)&radic;(a&sup2; &minus; u&sup2;) + (u/2) arcsin(u/a) + C", "u&radic;(a&sup2; &minus; u&sup2;) + a&sup2; arcsin(u/a) + C"], "answer": 1, "explanation": "The standard form is &int;&radic;(a&sup2; &minus; u&sup2;) du = (u/2)&radic;(a&sup2; &minus; u&sup2;) + (a&sup2;/2) arcsin(u/a) + C." },
+      { "q": "After writing 2ax &minus; x&sup2; = a&sup2; &minus; (x &minus; a)&sup2;, which substitution gives the standard form?", "options": ["u = x + a", "u = a &minus; x", "u = x &minus; a", "u = x&sup2;"], "answer": 2, "explanation": "Put u = x &minus; a, so du = dx and the integrand becomes &radic;(a&sup2; &minus; u&sup2;)." },
+      { "q": "So &int;&radic;(2ax &minus; x&sup2;) dx equals which expression?", "options": ["((x &minus; a)/2)&radic;(2ax &minus; x&sup2;) &minus; (a&sup2;/2) arcsin((x &minus; a)/a) + C", "(x/2)&radic;(2ax &minus; x&sup2;) + (a&sup2;/2) arcsin(x/a) + C", "((x + a)/2)&radic;(2ax &minus; x&sup2;) + (a&sup2;/2) arcsin((x + a)/a) + C", "((x &minus; a)/2)&radic;(2ax &minus; x&sup2;) + (a&sup2;/2) arcsin((x &minus; a)/a) + C"], "answer": 3, "explanation": "Substituting u = x &minus; a back into (u/2)&radic;(a&sup2; &minus; u&sup2;) + (a&sup2;/2) arcsin(u/a) gives ((x &minus; a)/2)&radic;(2ax &minus; x&sup2;) + (a&sup2;/2) arcsin((x &minus; a)/a) + C." },
+      { "q": "To complete the square of x&sup2; &minus; 2ax, what must you add and subtract?", "options": ["a&sup2;", "2a&sup2;", "a&sup2;/2", "4a&sup2;"], "answer": 0, "explanation": "Half of the middle coefficient is &minus;a, and (&minus;a)&sup2; = a&sup2;, so x&sup2; &minus; 2ax = (x &minus; a)&sup2; &minus; a&sup2;." },
+      { "q": "In a&sup2; &minus; (x &minus; a)&sup2;, what plays the role of the constant &lsquo;a&rsquo; in the &radic;(a&sup2; &minus; u&sup2;) formula?", "options": ["2a", "a", "a&sup2;", "a/2"], "answer": 1, "explanation": "The expression is a&sup2; &minus; u&sup2; with u = x &minus; a, so the constant is simply a." },
+      { "q": "For &int;&radic;(6x &minus; x&sup2;) dx, completing the square gives 6x &minus; x&sup2; = a&sup2; &minus; (x &minus; a)&sup2;. What is a?", "options": ["6", "2", "3", "9"], "answer": 2, "explanation": "Here 2a = 6, so a = 3 and 6x &minus; x&sup2; = 9 &minus; (x &minus; 3)&sup2;." },
+      { "q": "Therefore &int;&radic;(6x &minus; x&sup2;) dx equals which of these?", "options": ["((x &minus; 3)/2)&radic;(6x &minus; x&sup2;) &minus; (9/2) arcsin((x &minus; 3)/3) + C", "(x/2)&radic;(6x &minus; x&sup2;) + (9/2) arcsin(x/3) + C", "((x &minus; 3)/2)&radic;(6x &minus; x&sup2;) + (3/2) arcsin((x &minus; 3)/3) + C", "((x &minus; 3)/2)&radic;(6x &minus; x&sup2;) + (9/2) arcsin((x &minus; 3)/3) + C"], "answer": 3, "explanation": "With a = 3 and u = x &minus; 3, the formula gives ((x &minus; 3)/2)&radic;(6x &minus; x&sup2;) + (9/2) arcsin((x &minus; 3)/3) + C." }
+    ]
+  },
+  "faq": [
+    { "q": "Why do we complete the square in &int;&radic;(2ax &minus; x&sup2;) dx?", "a": "The integrand has no ready standard form as written. Rewriting 2ax &minus; x&sup2; as a&sup2; &minus; (x &minus; a)&sup2; turns it into the recognisable &radic;(a&sup2; &minus; u&sup2;) pattern, which has a known antiderivative." },
+    { "q": "How do I complete the square for 2ax &minus; x&sup2;?", "a": "Factor out the minus sign first: 2ax &minus; x&sup2; = &minus;(x&sup2; &minus; 2ax). Then x&sup2; &minus; 2ax = (x &minus; a)&sup2; &minus; a&sup2;, so the whole thing becomes a&sup2; &minus; (x &minus; a)&sup2;." },
+    { "q": "Which standard formula does this problem use?", "a": "It uses &int;&radic;(a&sup2; &minus; u&sup2;) du = (u/2)&radic;(a&sup2; &minus; u&sup2;) + (a&sup2;/2) arcsin(u/a) + C, with the substitution u = x &minus; a." },
+    { "q": "What is the final answer to &int;&radic;(2ax &minus; x&sup2;) dx?", "a": "It is ((x &minus; a)/2)&radic;(2ax &minus; x&sup2;) + (a&sup2;/2) arcsin((x &minus; a)/a) + C, obtained by substituting u = x &minus; a back into the standard result." },
+    { "q": "Where can I get the full worked solution and more NCERT Exemplar integration problems?", "a": "The complete step-by-step solution for this Q20, along with more solved NCERT Exemplar Class 12 integration problems, is in our solutions e-book. The link is in the box below." }
+  ]
+}

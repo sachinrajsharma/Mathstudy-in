@@ -1,0 +1,84 @@
+{
+  "slug": "find-the-simplified-form-ofcos-1left-frac35cos-x-frac45sin-x-right-where-x-in-left-frac-3pi-4fracpi-4-right-ncertexemplar-2-3",
+  "meta_title": "Simplify cos-1(3/5 cos x + 4/5 sin x) NCERT Exemplar",
+  "meta_desc": "Simplify cos-1(3/5 cos x + 4/5 sin x) on [-3pi/4, pi/4] using the cos(x - a) technique, with a free 8-question NCERT Exemplar quiz and clear worked steps.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Inverse Cosine: the cos(x - a) Technique Quiz",
+    "intro": "Eight questions on writing a cos x + b sin x as a single cosine inside cos-1, and on the range that decides the final answer. Pick one option each, then press Check my score.",
+    "about": "Simplifying inverse trig expressions via a cos x + b sin x = R cos(x - a)",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "To simplify cos-1((3/5)cos x + (4/5)sin x) we set 3/5 = cos a and 4/5 = sin a. What is a?",
+        "options": ["tan-1(4/3)", "tan-1(3/4)", "sin-1(3/5)", "cos-1(4/5)"],
+        "answer": 0,
+        "explanation": "With cos a = 3/5 and sin a = 4/5, tan a = sin a / cos a = (4/5) / (3/5) = 4/3, so a = tan-1(4/3)."
+      },
+      {
+        "q": "After the substitution, (3/5)cos x + (4/5)sin x collapses to which single term?",
+        "options": ["sin(x + a)", "cos(x - a)", "cos(x + a)", "sin(x - a)"],
+        "answer": 1,
+        "explanation": "cos a cos x + sin a sin x is the expansion of cos(x - a), so the argument becomes cos(x - a)."
+      },
+      {
+        "q": "For the identity cos-1(cos t) = t to hold, t must lie in which interval?",
+        "options": ["[-pi/2, pi/2]", "(-infinity, infinity)", "[0, pi]", "[-pi, pi]"],
+        "answer": 2,
+        "explanation": "The principal value range of cos-1 is [0, pi]. Only when the angle t sits in [0, pi] does cos-1(cos t) return t unchanged."
+      },
+      {
+        "q": "Why must you check where x - a falls before writing cos-1(cos(x - a)) = x - a?",
+        "options": ["Because sine is undefined there", "Because x could be negative", "Because a is irrational", "Because the identity only holds when x - a lies in [0, pi]"],
+        "answer": 3,
+        "explanation": "cos-1(cos t) equals t only for t in [0, pi]. Outside that range you must fold t back into [0, pi] using cos(-t) = cos(t), which can change the sign of the answer."
+      },
+      {
+        "q": "Writing 3/5 = cos a and 4/5 = sin a is legitimate only because...",
+        "options": ["(3/5)^2 + (4/5)^2 = 1, so a genuine angle a exists", "3/5 is smaller than 4/5", "5 is the hypotenuse of every triangle", "3, 4, 5 are consecutive integers"],
+        "answer": 0,
+        "explanation": "Any pair used as (cos a, sin a) must satisfy cos^2 a + sin^2 a = 1. Here 9/25 + 16/25 = 25/25 = 1, so such an angle a truly exists."
+      },
+      {
+        "q": "An expression a cos x + b sin x can be written as R cos(x - a). For a = 3/5 and b = 4/5, what is R?",
+        "options": ["5/3", "1", "7/5", "25"],
+        "answer": 1,
+        "explanation": "R = sqrt(a^2 + b^2) = sqrt(9/25 + 16/25) = sqrt(1) = 1. That is exactly why the coefficients could be read directly as cos a and sin a."
+      },
+      {
+        "q": "Using the standard textbook method, cos-1((3/5)cos x + (4/5)sin x) simplifies to:",
+        "options": ["x + tan-1(4/3)", "2x - tan-1(3/4)", "x - tan-1(4/3)", "tan-1(4/3) - x/2"],
+        "answer": 2,
+        "explanation": "The argument is cos(x - a) with a = tan-1(4/3), so on the given interval the expression simplifies to x - a = x - tan-1(4/3)."
+      },
+      {
+        "q": "To express a cos x + b sin x as R cos(x - a) in general, which pair of equations defines R and a?",
+        "options": ["R = a + b and a = a/b", "R sin a = a and R cos a = b", "R = ab and tan a = b - a", "R cos a = a and R sin a = b"],
+        "answer": 3,
+        "explanation": "Expand R cos(x - a) = R cos a cos x + R sin a sin x. Matching coefficients gives R cos a = a (the cos x term) and R sin a = b (the sin x term)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the simplified form of cos-1((3/5)cos x + (4/5)sin x)?",
+      "a": "Write 3/5 = cos a and 4/5 = sin a, so a = tan-1(4/3). The argument becomes cos(x - a), and on the interval [-3pi/4, pi/4] the expression simplifies to x - tan-1(4/3)."
+    },
+    {
+      "q": "Why do we rewrite the coefficients as cos a and sin a?",
+      "a": "Because a cos x + b sin x matches the expansion cos a cos x + sin a sin x = cos(x - a). Turning two terms into one cosine lets the cos-1 collapse cleanly. It works here since (3/5)^2 + (4/5)^2 = 1."
+    },
+    {
+      "q": "Where does the interval [-3pi/4, pi/4] come in?",
+      "a": "The range decides the final sign. cos-1(cos t) equals t only when t lies in [0, pi]; outside it you fold t back using cos(-t) = cos(t). The given interval is what fixes the accepted simplified answer x - tan-1(4/3)."
+    },
+    {
+      "q": "Can any a cos x + b sin x be simplified this way?",
+      "a": "Yes. First take R = sqrt(a^2 + b^2), then a cos x + b sin x = R cos(x - a) where cos a = a/R and sin a = b/R. In this problem R = 1, so the coefficients doubled as cos a and sin a directly."
+    },
+    {
+      "q": "Where can I get full solutions to this NCERT Exemplar chapter?",
+      "a": "Our Class 12 Inverse Trigonometric Functions solutions e-book works through every NCERT Exemplar problem step by step, including this one, with the range reasoning spelled out. The link is in the box below."
+    }
+  ]
+}

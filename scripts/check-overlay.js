@@ -5,7 +5,7 @@ const f = process.argv[2];
 if (!f) { console.error('usage: check-overlay.js <file>'); process.exit(1); }
 let o; try { o = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { console.error('VALIDATION FAILED: bad JSON -', e.message); process.exit(1); }
 const errs = [];
-if (!o.slug || !/^[a-z0-9-]+$/.test(o.slug)) errs.push('slug missing/not kebab');
+if (!o.slug || !/^[a-z0-9_-]+$/.test(o.slug)) errs.push('slug missing/not kebab'); // underscores exist in some legacy NCERT-exemplar slugs
 if (o.content !== undefined) errs.push('overlay MUST NOT include a content field (content is preserved)');
 if (o.meta_title && o.meta_title.length > 65) errs.push('meta_title > 65 (' + o.meta_title.length + ')');
 if (o.meta_desc && o.meta_desc.length > 160) errs.push('meta_desc > 160 (' + o.meta_desc.length + ')');

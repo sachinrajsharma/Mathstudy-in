@@ -1,0 +1,29 @@
+{
+  "slug": "show-that-integration-of-int-frac2x-3x2-3x-dx-log-left-x2-3x-right-c-ncert-exemp-q-2page-163",
+  "meta_title": "&int;(2x+3)/(x&sup2;+3x) dx = log|x&sup2;+3x| + C Solved",
+  "meta_desc": "NCERT Exemplar Class 12 Q2 solved: prove &int;(2x+3)/(x&sup2;+3x) dx = log|x&sup2;+3x| + C via the f'(x)/f(x) log rule. Free 8-question quiz to practise.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "f'(x)/f(x) Integration Quiz",
+    "intro": "Eight questions on spotting when the numerator is the derivative of the denominator, so the integral becomes a natural log. Pick an answer for each, then press Check my score.",
+    "about": "Integrals of the form &int; f'(x)/f(x) dx = log|f(x)| + C",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Which standard result lets you solve &int;(2x+3)/(x&sup2;+3x) dx directly?", "options": ["&int; f'(x)/f(x) dx = log|f(x)| + C", "&int; xⁿ dx = xⁿ⁺¹/(n+1) + C", "&int; eˣ dx = eˣ + C", "&int; 1/(1+x&sup2;) dx = tan⁻¹x + C"], "answer": 0, "explanation": "The numerator 2x+3 is exactly the derivative of the denominator x&sup2;+3x, so the integral fits &int; f'(x)/f(x) dx = log|f(x)| + C." },
+      { "q": "For f(x) = x&sup2; + 3x, what is f'(x)?", "options": ["x&sup2; + 3", "2x + 3", "2x", "x + 3"], "answer": 1, "explanation": "Differentiate term by term: d/dx(x&sup2;) = 2x and d/dx(3x) = 3, giving f'(x) = 2x + 3, which matches the numerator." },
+      { "q": "What is &int;(2x+3)/(x&sup2;+3x) dx?", "options": ["(x&sup2;+3x)&sup2;/2 + C", "log|2x+3| + C", "log|x&sup2;+3x| + C", "tan⁻¹(x&sup2;+3x) + C"], "answer": 2, "explanation": "With numerator = derivative of denominator, the integral is log of the absolute value of the denominator: log|x&sup2;+3x| + C." },
+      { "q": "Which substitution turns &int;(2x+3)/(x&sup2;+3x) dx into &int;(1/t) dt?", "options": ["t = 2x + 3", "t = x + 3", "t = log x", "t = x&sup2; + 3x"], "answer": 3, "explanation": "Let t = x&sup2;+3x, then dt = (2x+3) dx. The integral becomes &int;(1/t) dt = log|t| + C = log|x&sup2;+3x| + C." },
+      { "q": "&int;(2x)/(x&sup2;+1) dx equals which of these?", "options": ["log|x&sup2;+1| + C", "2 log|x| + C", "tan⁻¹x + C", "1/(x&sup2;+1) + C"], "answer": 0, "explanation": "The numerator 2x is the derivative of x&sup2;+1, so &int;(2x)/(x&sup2;+1) dx = log|x&sup2;+1| + C." },
+      { "q": "&int; tan x dx = &int;(sin x)/(cos x) dx. What is the result?", "options": ["log|cos x| + C", "log|sec x| + C", "log|sin x| + C", "&minus;log|sin x| + C"], "answer": 1, "explanation": "Here f(x) = cos x and f'(x) = &minus;sin x, so &int;(sin x)/(cos x) dx = &minus;log|cos x| + C = log|sec x| + C." },
+      { "q": "Why does the answer carry an absolute value, log|x&sup2;+3x| rather than log(x&sup2;+3x)?", "options": ["To make the answer look longer", "Because the constant C requires it", "Because x&sup2;+3x can be negative, and log is defined only for positive arguments", "It is optional and can be dropped"], "answer": 2, "explanation": "The expression x&sup2;+3x is negative for &minus;3 < x < 0, so the modulus keeps the logarithm's argument positive and the result valid on every interval." },
+      { "q": "&int;(3x&sup2;+2)/(x&sup3;+2x) dx equals which of these?", "options": ["log|3x&sup2;+2| + C", "(x&sup3;+2x)&sup2; + C", "3 log|x| + C", "log|x&sup3;+2x| + C"], "answer": 3, "explanation": "d/dx(x&sup3;+2x) = 3x&sup2;+2, which is the numerator, so the integral is log|x&sup3;+2x| + C." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you know to use the log rule for &int;(2x+3)/(x&sup2;+3x) dx?", "a": "Differentiate the denominator: d/dx(x&sup2;+3x) = 2x+3, which is exactly the numerator. Whenever the top is the derivative of the bottom, the integral is log of the bottom." },
+    { "q": "What is the general rule being applied here?", "a": "&int; f'(x)/f(x) dx = log|f(x)| + C. Set t = f(x) so dt = f'(x) dx, and the integral collapses to &int;(1/t) dt = log|t| + C." },
+    { "q": "Why does the answer use log|x&sup2;+3x| with a modulus?", "a": "Because x&sup2;+3x is negative for &minus;3 < x < 0, and the logarithm needs a positive argument. The absolute value keeps the result valid across all intervals of x." },
+    { "q": "Do I need partial fractions for this integral?", "a": "No. Partial fractions would work but are unnecessary once you spot that the numerator is the derivative of the denominator &mdash; the log rule gives the answer in one step." },
+    { "q": "Where can I get the full worked NCERT Exemplar integration solutions?", "a": "Our NCERT Exemplar Class 12 solutions e-book covers every integration problem step by step, including the f'(x)/f(x) log method with more practice. The link is in the box below." }
+  ]
+}
