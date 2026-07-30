@@ -1,0 +1,29 @@
+{
+  "slug": "gre-vocabulary-quiz-free-2",
+  "meta_title": "GRE Vocabulary Quiz (Free): Test 8 High-Frequency Words",
+  "meta_desc": "Free GRE vocabulary quiz with 8 high-frequency words. Match each word to its closest meaning or antonym, check your answers, and learn the definitions.",
+  "category": "GRE",
+  "quiz": {
+    "title": "GRE Vocabulary Quiz (Free)",
+    "intro": "Eight high-frequency GRE words. For each one, pick the closest meaning or the answer the question asks for, then press Check my score to see the explanations.",
+    "about": "GRE high-frequency vocabulary",
+    "level": "GRE",
+    "questions": [
+      { "q": "Which word is closest in meaning to 'laconic'?", "options": ["Talkative", "Terse", "Cheerful", "Careless"], "answer": 1, "explanation": "'Laconic' describes someone who uses very few words, so 'terse' fits. It comes from Laconia, the region around Sparta, whose people were famous for blunt, short replies." },
+      { "q": "The word 'ephemeral' most nearly means:", "options": ["Lasting a very short time", "Extremely heavy", "Openly hostile", "Difficult to see"], "answer": 0, "explanation": "'Ephemeral' means short-lived or fleeting, like a mayfly that lives a single day. The opposite would be enduring or permanent." },
+      { "q": "Which choice is the best ANTONYM of 'garrulous'?", "options": ["Generous", "Reticent", "Fragrant", "Reckless"], "answer": 1, "explanation": "'Garrulous' means excessively talkative, so its antonym is 'reticent', meaning reserved or unwilling to speak. Do not confuse it with 'generous'." },
+      { "q": "A person described as 'obsequious' is best understood as:", "options": ["Fiercely independent", "Excessively eager to please", "Deeply confused", "Physically clumsy"], "answer": 1, "explanation": "'Obsequious' means fawning or servile, going out of one's way to flatter and obey. It carries a negative, sycophantic tone rather than genuine kindness." },
+      { "q": "Which word is closest in meaning to 'prodigal'?", "options": ["Honest", "Wastefully extravagant", "Highly gifted", "Silent"], "answer": 1, "explanation": "'Prodigal' means recklessly wasteful with money or resources, as in the parable of the prodigal son. A common trap is 'highly gifted', which confuses it with 'prodigy'." },
+      { "q": "The word 'assuage' most nearly means:", "options": ["To make worse", "To make less severe", "To measure precisely", "To accuse falsely"], "answer": 1, "explanation": "'Assuage' means to ease or relieve, as in assuaging someone's fears or hunger. Its opposite, to make worse, would be 'exacerbate'." },
+      { "q": "Which choice is the best ANTONYM of 'nascent'?", "options": ["Emerging", "Declining", "Colourful", "Honest"], "answer": 1, "explanation": "'Nascent' describes something just coming into existence or beginning to develop. Its antonym is 'declining' or waning; 'emerging' is a synonym meant to trap you." },
+      { "q": "A 'perfunctory' effort is best described as:", "options": ["Done carelessly, out of routine", "Done with great passion", "Perfect in every detail", "Kept completely secret"], "answer": 0, "explanation": "'Perfunctory' means carried out with minimal effort or interest, merely to fulfil an obligation. A perfunctory nod is a quick, indifferent one, not a wholehearted gesture." }
+    ]
+  },
+  "faq": [
+    { "q": "How many words do I need for a strong GRE Verbal score?", "a": "There is no fixed number, but most high scorers are comfortable with roughly 1,000 to 1,500 high-frequency words. Depth matters more than raw count: knowing exactly how a word is used beats half-recognising thousands." },
+    { "q": "Is memorising word lists still worth it for the current GRE?", "a": "Yes, within reason. The GRE tests vocabulary through Text Completion and Sentence Equivalence, so a strong word bank helps. Pair lists with reading in context so you learn connotation and usage, not just a one-line definition." },
+    { "q": "What is the difference between a synonym and an antonym question?", "a": "A synonym question asks for the word closest in meaning; an antonym question asks for the opposite. On the GRE the trap is often a synonym planted among antonym choices, so read the instruction carefully before answering." },
+    { "q": "How should I study words I keep getting wrong?", "a": "Keep a short list of your misses, write your own example sentence for each, and revisit them every few days. Spaced repetition and using the word in a sentence fix it far better than rereading the definition." },
+    { "q": "Where can I get more GRE vocabulary practice?", "a": "Our GRE vocabulary and verbal practice resources include graded word lists, meaning-and-antonym drills and full answer keys you can work through at your own pace. The link is in the box below." }
+  ]
+}

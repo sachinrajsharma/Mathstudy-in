@@ -1,0 +1,30 @@
+{
+  "slug": "mathematics-formula-pdf-for-competitive-exam",
+  "meta_title": "Mathematics Formula PDF for Competitive Exams",
+  "meta_desc": "Maths formulas for competitive exams — algebra, mensuration, trigonometry, progressions, percentages and calculus. Take the free 8-question quiz inside.",
+  "category": "Competitive Exams",
+  "cta_product_slug": "mathematics-formula-book-for-jee",
+  "quiz": {
+    "title": "Competitive Exam Maths Formula Quiz",
+    "intro": "Eight questions on the formulas that turn up again and again in bank, SSC and entrance papers. Choose an answer for each, then press Check my score.",
+    "about": "Key maths formulas used across competitive exams",
+    "level": "Competitive Exams",
+    "questions": [
+      { "q": "Expand (a + b)&sup2;.", "options": ["a&sup2; + b&sup2;", "a&sup2; + 2ab + b&sup2;", "a&sup2; &minus; 2ab + b&sup2;", "2a + 2b"], "answer": 1, "explanation": "The square of a sum is a&sup2; + 2ab + b&sup2;. The matching identity (a &minus; b)&sup2; = a&sup2; &minus; 2ab + b&sup2; only changes the sign of the middle term." },
+      { "q": "If a + b = 7 and ab = 12, what is a&sup2; + b&sup2;?", "options": ["25", "37", "49", "13"], "answer": 0, "explanation": "Use a&sup2; + b&sup2; = (a + b)&sup2; &minus; 2ab = 49 &minus; 24 = 25. This rearrangement is a standard exam shortcut." },
+      { "q": "What is the area of a circle of radius r?", "options": ["2&pi;r", "&pi;r&sup2;", "&pi;d&sup2;", "4&pi;r&sup2;"], "answer": 1, "explanation": "Area = &pi;r&sup2;. The 2&pi;r formula gives the circumference, and 4&pi;r&sup2; is the surface area of a sphere." },
+      { "q": "What is the value of sin&sup2;&theta; + cos&sup2;&theta;?", "options": ["0", "2", "1", "tan&sup2;&theta;"], "answer": 2, "explanation": "The fundamental Pythagorean identity gives sin&sup2;&theta; + cos&sup2;&theta; = 1 for every angle &theta;." },
+      { "q": "The n-th term of an arithmetic progression with first term a and common difference d is:", "options": ["a + nd", "a + (n &minus; 1)d", "ar^(n &minus; 1)", "n/2 [2a + (n &minus; 1)d]"], "answer": 1, "explanation": "The n-th term is a + (n &minus; 1)d. The last option is the sum of n terms, not a single term, and ar^(n &minus; 1) is the geometric-progression term." },
+      { "q": "A shirt priced at 800 is sold at a 15% discount. What is the selling price?", "options": ["680", "720", "760", "685"], "answer": 0, "explanation": "A 15% discount leaves 85% of the price: 800 &times; 0.85 = 680. Working with the surviving fraction is faster than subtracting the discount." },
+      { "q": "If two numbers are in the ratio 3 : 5 and their sum is 64, the larger number is:", "options": ["24", "30", "40", "45"], "answer": 2, "explanation": "The parts total 3 + 5 = 8, so one part is 64 &divide; 8 = 8. The larger number is 5 &times; 8 = 40." },
+      { "q": "What is the derivative of x&sup3; with respect to x?", "options": ["3x&sup2;", "x&sup2;", "3x", "x&#8308;/4"], "answer": 0, "explanation": "By the power rule, d/dx (x&#8319;) = n&middot;x&#8319;&#8315;&sup1;, so d/dx (x&sup3;) = 3x&sup2;. The last option is the integral of x&sup3;, not its derivative." }
+    ]
+  },
+  "faq": [
+    { "q": "Which maths formulas matter most for competitive exams?", "a": "Across bank, SSC and entrance papers the recurring blocks are algebraic identities, mensuration (area, volume, surface area), trigonometric ratios and identities, arithmetic and geometric progressions, percentage and ratio, and for JEE-level papers the basic rules of differentiation and integration." },
+    { "q": "Is it enough to memorise formulas, or do I need to understand them?", "a": "Memorising gets you speed, but exams reward the ability to pick the right formula under time pressure. Learn where each identity comes from once, then drill it so recall is automatic. Understanding a formula also means you can rebuild it if you blank in the hall." },
+    { "q": "How do formulas save time in the actual exam?", "a": "Most quantitative questions are solvable the long way, but the clock is the real opponent. A known identity like a&sup2; + b&sup2; = (a + b)&sup2; &minus; 2ab, or working with the surviving percentage instead of subtracting a discount, turns a 90-second problem into a 20-second one." },
+    { "q": "Should I make my own formula sheet or use a ready PDF?", "a": "Do both. A ready PDF gives you a complete, correct reference so nothing is missed, and copying the ones you keep forgetting into your own one-page sheet cements them through active recall. Revise the short sheet daily in the last month before the exam." },
+    { "q": "Where can I download a complete maths formula PDF for competitive exams?", "a": "Our mathematics formula book covers algebra, mensuration, trigonometry, progressions, percentages and calculus in one organised PDF you can print and revise from. The download link is in the box below." }
+  ]
+}

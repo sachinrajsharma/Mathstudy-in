@@ -1,0 +1,30 @@
+{
+  "slug": "maths-quiz-questions-with-answers-for-class-12-pdf",
+  "meta_title": "Maths Quiz Questions with Answers for Class 12 PDF",
+  "meta_desc": "Solve 8 Class 12 maths quiz questions with answers across calculus, algebra, probability and vectors, then grab the free objective PDF to practise more.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "objective-type-question-bank-for-mathematics-class-xii-c-b-s-e",
+  "quiz": {
+    "title": "Class 12 Maths Mixed Quiz",
+    "intro": "Eight quick questions across calculus, algebra, probability and vectors, at Class 12 board level. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 mixed-topic maths MCQs",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the derivative of x&sup3; with respect to x?", "options": ["x&sup2;", "3x", "3x&sup2;", "x&#8308;"], "answer": 2, "explanation": "By the power rule, d/dx(x&#8319;) = n&middot;x&#8319;&#8315;&sup1;, so d/dx(x&sup3;) = 3x&sup2;." },
+      { "q": "Evaluate &#8747; 2x dx.", "options": ["x&sup2; + C", "2x&sup2; + C", "x + C", "2 + C"], "answer": 0, "explanation": "&#8747; x&#8319; dx = x&#8319;&#8314;&sup1;/(n+1). Here &#8747; 2x dx = 2&middot;(x&sup2;/2) = x&sup2; + C." },
+      { "q": "A fair six-sided die is rolled once. What is the probability of getting an even number?", "options": ["1/3", "1/2", "1/6", "2/3"], "answer": 1, "explanation": "The even outcomes are 2, 4 and 6 &mdash; three of six equally likely results, so the probability is 3/6 = 1/2." },
+      { "q": "For a = (1, 2, 3) and b = (2, 0, 1), what is a &middot; b?", "options": ["3", "4", "6", "5"], "answer": 3, "explanation": "The dot product multiplies matching components and adds: (1)(2) + (2)(0) + (3)(1) = 2 + 0 + 3 = 5." },
+      { "q": "What is the distance of the point (2, 3, 6) from the origin?", "options": ["7", "5", "9", "11"], "answer": 0, "explanation": "Distance = &#8730;(2&sup2; + 3&sup2; + 6&sup2;) = &#8730;(4 + 9 + 36) = &#8730;49 = 7." },
+      { "q": "Find the determinant of the matrix [[2, 3], [1, 4]].", "options": ["3", "8", "5", "11"], "answer": 2, "explanation": "For a 2&times;2 matrix [[a, b], [c, d]] the determinant is ad &minus; bc = (2)(4) &minus; (3)(1) = 8 &minus; 3 = 5." },
+      { "q": "Evaluate the definite integral &#8747;&#8320;&sup1; x dx.", "options": ["1", "1/2", "2", "1/4"], "answer": 1, "explanation": "&#8747; x dx = x&sup2;/2. Evaluated from 0 to 1 this is 1&sup2;/2 &minus; 0 = 1/2." },
+      { "q": "Two fair coins are tossed together. What is the probability of getting two heads?", "options": ["1/2", "1/3", "3/4", "1/4"], "answer": 3, "explanation": "The sample space is HH, HT, TH, TT &mdash; four equally likely outcomes. Only HH gives two heads, so the probability is 1/4." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics do Class 12 maths quizzes usually cover?", "a": "A balanced Class 12 quiz draws from calculus (differentiation and integration), algebra and matrices, probability, and vectors and three-dimensional geometry &mdash; the four areas that carry the most weight in the CBSE board paper." },
+    { "q": "Are these quiz questions at CBSE board level?", "a": "Yes. Each question sits at the objective standard you meet in the Class 12 board paper and its MCQ section, so the practice maps directly onto what the exam asks." },
+    { "q": "How should I use a mixed-topic quiz while revising?", "a": "Attempt it without notes first to find weak spots, then read the explanation for every question you miss and revisit that chapter. Mixed quizzes are best kept for the final weeks, once each topic has been studied on its own." },
+    { "q": "Why practise with objective-type questions for Class 12 maths?", "a": "MCQs force you to reason quickly and expose gaps that long-answer practice can hide. They also mirror the case-study and assertion-reason formats CBSE now includes, so regular MCQ practice steadies your accuracy under time pressure." },
+    { "q": "Where can I get a full Class 12 maths quiz with answers in PDF?", "a": "Our Objective Type Question Bank for Class XII Mathematics collects hundreds of chapter-wise MCQs with worked answers in one printable PDF, so you can practise offline across every topic. The link is in the box below." }
+  ]
+}
