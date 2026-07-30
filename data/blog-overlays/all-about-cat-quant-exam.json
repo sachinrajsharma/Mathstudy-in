@@ -1,0 +1,30 @@
+{
+  "slug": "all-about-cat-quant-exam",
+  "meta_title": "CAT Quant Exam: Syllabus, Prep & Free Quiz",
+  "meta_desc": "All about the CAT Quant exam - syllabus, topic weightage and prep tips, plus a free 8-question quiz on arithmetic, algebra, geometry and modern maths.",
+  "category": "CAT",
+  "cta_product_slug": "cat-sample-papers-with-solutions-pdf",
+  "quiz": {
+    "title": "CAT Quant Aptitude Quiz",
+    "intro": "Eight fresh CAT-level quantitative questions across arithmetic, algebra, number systems, geometry and modern maths. Solve each one, then press Check my score to see the working.",
+    "about": "CAT quantitative aptitude",
+    "level": "CAT",
+    "questions": [
+      { "q": "A car covers a distance at 60 km/h and returns along the same road at 40 km/h. What is its average speed for the whole trip?", "options": ["50 km/h", "48 km/h", "45 km/h", "52 km/h"], "answer": 1, "explanation": "For equal distances the average speed is the harmonic mean: (2 &times; 60 &times; 40) / (60 + 40) = 4800 / 100 = 48 km/h. It is never the simple average of 50." },
+      { "q": "If the roots of x&sup2; &minus; 5x + 6 = 0 are &alpha; and &beta;, what is &alpha;&sup2; + &beta;&sup2;?", "options": ["11", "12", "13", "14"], "answer": 2, "explanation": "By Vieta, &alpha; + &beta; = 5 and &alpha;&beta; = 6. Then &alpha;&sup2; + &beta;&sup2; = (&alpha; + &beta;)&sup2; &minus; 2&alpha;&beta; = 25 &minus; 12 = 13." },
+      { "q": "How many trailing zeros does 25! have?", "options": ["4", "5", "7", "6"], "answer": 3, "explanation": "Trailing zeros come from factors of 5: &lfloor;25/5&rfloor; + &lfloor;25/25&rfloor; = 5 + 1 = 6. There are plenty of 2s to pair with them." },
+      { "q": "A circle has a circumference of 44 cm. What is its area? (Take &pi; = 22/7.)", "options": ["154 cm&sup2;", "144 cm&sup2;", "121 cm&sup2;", "98 cm&sup2;"], "answer": 0, "explanation": "From 2&pi;r = 44 we get r = 44 &times; 7 / 44 = 7 cm. Area = &pi;r&sup2; = (22/7) &times; 49 = 154 cm&sup2;." },
+      { "q": "A bag holds 4 red and 6 blue balls. If two are drawn at random, what is the probability that both are red?", "options": ["1/15", "2/15", "1/5", "4/15"], "answer": 1, "explanation": "Favourable = C(4,2) = 6; total = C(10,2) = 45. Probability = 6/45 = 2/15." },
+      { "q": "The LCM of two numbers is 48 and their HCF is 4. If one number is 12, what is the other?", "options": ["8", "24", "16", "20"], "answer": 2, "explanation": "For two numbers, product = LCM &times; HCF = 48 &times; 4 = 192. The other number = 192 / 12 = 16." },
+      { "q": "What is the value of (0.125)&#8315;&sup2;&#8260;&sup3;?", "options": ["1/4", "2", "8", "4"], "answer": 3, "explanation": "0.125 = 1/8 = 2&#8315;&sup3;. Raising to the power &minus;2/3 gives 2&#8310; = 2&sup2; = 4." },
+      { "q": "A boat travels 12 km downstream in 2 hours and returns the same 12 km upstream in 3 hours. What is the speed of the stream?", "options": ["1 km/h", "2 km/h", "2.5 km/h", "5 km/h"], "answer": 0, "explanation": "Downstream speed = 12/2 = 6 km/h; upstream = 12/3 = 4 km/h. Stream speed = (6 &minus; 4)/2 = 1 km/h." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the CAT Quantitative Aptitude section?", "a": "It is one of the three timed sections of the CAT, testing school-level maths applied under pressure. The syllabus spans arithmetic, algebra, number systems, geometry and modern maths, with roughly 22 questions to attempt in 40 minutes." },
+    { "q": "Which topics should I prioritise in CAT quant?", "a": "Arithmetic is the biggest bucket &mdash; percentages, ratios, profit and loss, time-speed-distance and time-and-work recur every year. Build that base first, then layer on algebra, number systems and geometry rather than trying to cover everything at once." },
+    { "q": "How much maths background do I need for CAT quant?", "a": "Nothing beyond Class 10 concepts. The difficulty comes from the twist in each question and the clock, not from advanced theory. Speed with fundamentals matters far more than knowing obscure formulas." },
+    { "q": "What is a good CAT quant score or percentile?", "a": "A 90+ percentile in quant is a realistic target for most top-B-school aspirants, and even attempting 12 to 15 questions accurately can get you there. Accuracy usually beats raw attempt count, since wrong answers carry negative marks." },
+    { "q": "Where can I get CAT sample papers with full solutions?", "a": "Our CAT sample papers e-book bundles multiple full-length papers with detailed step-by-step solutions for every question, so you can check your method and not just the final answer. The download link is in the box below." }
+  ]
+}

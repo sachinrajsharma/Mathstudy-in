@@ -1,0 +1,30 @@
+{
+  "slug": "maths-mock-test-class-12-term-1",
+  "meta_title": "Class 12 Maths Mock Test (Term 1) + Free Quiz",
+  "meta_desc": "Take a free Class 12 Maths Term 1 mock test: 8 MCQs on relations, inverse trig, matrices, determinants and calculus, each with a worked solution.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "chapter-wise-test-papers-for-class-12-maths",
+  "quiz": {
+    "title": "Class 12 Maths Term 1 Mock Test",
+    "intro": "Eight Term 1 questions spanning relations and functions, inverse trigonometry, matrices, determinants, continuity and derivatives. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 Maths Term 1 (relations, inverse trig, matrices, determinants, calculus)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "How many one-one functions are there from a set with 3 elements to a set with 4 elements?", "options": ["12", "24", "64", "81"], "answer": 1, "explanation": "The first element has 4 choices, the second 3, the third 2, so 4 &times; 3 &times; 2 = 24 one-one functions." },
+      { "q": "What is the principal value of sin&minus;&sup1;(1/2)?", "options": ["&pi;/6", "&pi;/3", "&pi;/4", "&pi;/2"], "answer": 0, "explanation": "sin&minus;&sup1; returns a value in [&minus;&pi;/2, &pi;/2]. Since sin(&pi;/6) = 1/2, the principal value is &pi;/6." },
+      { "q": "If A is a 2 &times; 3 matrix and B is a 3 &times; 4 matrix, what is the order of the product AB?", "options": ["3 &times; 3", "4 &times; 2", "2 &times; 4", "3 &times; 4"], "answer": 2, "explanation": "For AB the inner dimensions (3 and 3) must match, and the product takes the outer dimensions: 2 &times; 4." },
+      { "q": "If A is a 3 &times; 3 matrix with det(A) = 2, what is det(2A)?", "options": ["4", "8", "12", "16"], "answer": 3, "explanation": "For an n &times; n matrix, det(kA) = k&#8319; det(A). Here det(2A) = 2&sup3; &times; 2 = 8 &times; 2 = 16." },
+      { "q": "At x = 0, the function f(x) = |x| is:", "options": ["Continuous but not differentiable", "Differentiable but not continuous", "Both continuous and differentiable", "Neither continuous nor differentiable"], "answer": 0, "explanation": "|x| has no break, so it is continuous, but the left and right derivatives at 0 are &minus;1 and +1, so it is not differentiable there." },
+      { "q": "On which interval is f(x) = x&sup2; increasing?", "options": ["(&minus;&infin;, 0)", "(&minus;&infin;, &infin;)", "(0, &infin;)", "Only at x = 0"], "answer": 2, "explanation": "f&prime;(x) = 2x, which is positive when x > 0. So x&sup2; is increasing on (0, &infin;)." },
+      { "q": "A relation on a set that is reflexive, symmetric and transitive is called:", "options": ["A symmetric relation", "A reflexive relation", "A partial order", "An equivalence relation"], "answer": 3, "explanation": "A relation with all three properties &mdash; reflexive, symmetric and transitive &mdash; is by definition an equivalence relation." },
+      { "q": "For a differentiable function, at a point of local maximum the value of f&prime;(x) is:", "options": ["Always positive", "Zero", "Always negative", "Undefined"], "answer": 1, "explanation": "At an interior local maximum of a differentiable function the tangent is horizontal, so f&prime;(x) = 0 (a first-order necessary condition)." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the Class 12 Maths Term 1 syllabus usually cover?", "a": "Term 1 typically includes relations and functions, inverse trigonometric functions, matrices, determinants, continuity and differentiability, and applications of derivatives. Check your board's latest circular, as the split can change year to year." },
+    { "q": "How should I prepare for a Class 12 Maths mock test?", "a": "Revise each chapter's key results first, then solve mixed sets under a timer. A short mock like this one is useful for spotting weak areas quickly before you move to full-length papers." },
+    { "q": "Are inverse trigonometry questions important for Term 1?", "a": "Yes. Principal-value and simplification questions from inverse trigonometry appear almost every year and are usually quick marks once you know the standard ranges." },
+    { "q": "How much weight do matrices and determinants carry?", "a": "Together they form a substantial part of Term 1, covering order and products of matrices, properties of determinants, and applications such as solving linear equations. They reward careful, error-free calculation." },
+    { "q": "Where can I get chapter-wise Class 12 Maths test papers with solutions?", "a": "Our chapter-wise test papers for Class 12 Maths cover every Term 1 chapter with graded questions and full worked solutions, delivered as an instant PDF. The link is in the box below." }
+  ]
+}

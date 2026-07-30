@@ -1,0 +1,69 @@
+{
+  "slug": "regression-model-in-r-programming",
+  "meta_title": "Regression Model in R Programming + Free Quiz",
+  "meta_desc": "Fit and read a linear regression in R with lm(), summary(), coefficients, R-squared, residuals and predict(). Test yourself with a free 8-question quiz.",
+  "category": "R Programming",
+  "quiz": {
+    "title": "R Regression Quiz",
+    "intro": "Eight questions on fitting and interpreting linear models in R &mdash; lm(), coefficients, summary(), R-squared, predict() and residuals. Pick an answer for each, then press Check my score.",
+    "about": "Linear regression with lm() in R",
+    "level": "Intermediate R / statistics",
+    "questions": [
+      {
+        "q": "Which call fits a simple linear regression of y on x in a data frame df?",
+        "options": ["lm(y ~ x, data = df)", "lm(df, y, x)", "regress(y, x, df)", "glm(y = x, df)"],
+        "answer": 0,
+        "explanation": "The formula interface is response ~ predictor, with the data frame passed via the data argument: lm(y ~ x, data = df)."
+      },
+      {
+        "q": "In the formula y ~ x, what does the tilde (~) separate?",
+        "options": ["Two predictors", "The response (left) from the predictors (right)", "Rows from columns", "The intercept from the slope"],
+        "answer": 1,
+        "explanation": "In an R formula the response variable sits on the left of ~ and the predictor(s) on the right. So y ~ x models y as a function of x."
+      },
+      {
+        "q": "You run summary(model). Which value tells you the proportion of variance in y explained by the model?",
+        "options": ["Residual standard error", "F-statistic", "Multiple R-squared", "Std. Error of the intercept"],
+        "answer": 2,
+        "explanation": "Multiple R-squared is the fraction of variance in the response explained by the predictors, ranging from 0 to 1."
+      },
+      {
+        "q": "In the coefficients table, the Estimate for x is 2.5. How do you read it?",
+        "options": ["y equals 2.5 when x is 0", "A one-unit rise in x is linked to a 2.5-unit change in y, holding else equal", "The model explains 2.5% of variance", "The residuals sum to 2.5"],
+        "answer": 1,
+        "explanation": "A slope coefficient is the expected change in the response for a one-unit increase in that predictor, with other predictors held constant."
+      },
+      {
+        "q": "Which extractor returns just the fitted intercept and slope from a model object?",
+        "options": ["residuals(model)", "predict(model)", "coef(model)", "summary(model)$r.squared"],
+        "answer": 2,
+        "explanation": "coef(model) (or coefficients(model)) returns the named vector of estimated coefficients, including the intercept."
+      },
+      {
+        "q": "To predict y for new x values stored in a data frame newdf, which call is correct?",
+        "options": ["predict(model, newdata = newdf)", "predict(model, newdf$x)", "forecast(model, newdf)", "lm(model, newdf)"],
+        "answer": 0,
+        "explanation": "predict() takes the fitted model and a newdata data frame whose columns match the predictor names used in the formula."
+      },
+      {
+        "q": "What does a residual represent in a fitted regression?",
+        "options": ["The predicted value of y", "The observed y minus the fitted y", "The slope coefficient", "The R-squared value"],
+        "answer": 1,
+        "explanation": "A residual is observed minus fitted (y - y-hat). residuals(model) returns them; small, patternless residuals suggest a good fit."
+      },
+      {
+        "q": "How do you add a second predictor z to the model y ~ x?",
+        "options": ["lm(y ~ x, z)", "lm(y ~ x + z, data = df)", "lm(y ~ x - z, data = df)", "lm(y ~ x : z only, data = df)"],
+        "answer": 1,
+        "explanation": "Add predictors with + on the right of the formula: y ~ x + z fits a multiple regression on both x and z."
+      }
+    ]
+  },
+  "faq": [
+    { "q": "What does the lm() function do in R?", "a": "lm() fits a linear model by least squares. You give it a formula like y ~ x and a data frame, and it returns a model object holding the coefficients, fitted values and residuals that the other functions read." },
+    { "q": "How do I read the output of summary(model)?", "a": "Look at the coefficients table for each estimate, its standard error and p-value, then check Multiple R-squared for how much variance is explained and the F-statistic for whether the model as a whole is significant." },
+    { "q": "What is the difference between R-squared and adjusted R-squared?", "a": "R-squared always rises when you add predictors, even useless ones. Adjusted R-squared penalises extra terms, so it is the fairer number to compare models with different numbers of predictors." },
+    { "q": "How do I make predictions from a fitted model?", "a": "Use predict(model, newdata = newdf), where newdf is a data frame whose columns have the same names as the predictors in your formula. Without newdata, predict() just returns the fitted values for the training data." },
+    { "q": "Where can I get more worked R and statistics practice?", "a": "Our R programming and statistics study material walks through lm(), diagnostics and worked regression examples with full code and explanations. The link is in the box below." }
+  ]
+}

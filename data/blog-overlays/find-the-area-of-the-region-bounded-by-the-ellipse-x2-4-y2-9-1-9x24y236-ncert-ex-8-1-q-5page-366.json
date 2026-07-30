@@ -1,0 +1,84 @@
+{
+  "slug": "find-the-area-of-the-region-bounded-by-the-ellipse-x2-4-y2-9-1-9x24y236-ncert-ex-8-1-q-5page-366",
+  "meta_title": "Area of Ellipse x2/4 + y2/9 = 1 | NCERT Ex 8.1 Q5",
+  "meta_desc": "Solved NCERT Class 12 Ex 8.1 Q5: area bounded by the ellipse x2/4 + y2/9 = 1 using integration. Try a free 8-question area MCQ quiz and check your steps.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Area Using Integration Quiz (Ellipses & Curves)",
+    "intro": "Eight questions on finding area with definite integrals &mdash; ellipses, curves and standard regions. Pick an answer for each, then press Check my score.",
+    "about": "Application of Integrals: area of an ellipse and area under curves",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "What is the total area enclosed by the ellipse x&sup2;/4 + y&sup2;/9 = 1?",
+        "options": ["6&pi;", "12&pi;", "36&pi;", "3&pi;"],
+        "answer": 0,
+        "explanation": "Here a&sup2; = 4 and b&sup2; = 9, so a = 2 and b = 3. Area of an ellipse is &pi;ab = &pi;(2)(3) = 6&pi;."
+      },
+      {
+        "q": "For an ellipse x&sup2;/a&sup2; + y&sup2;/b&sup2; = 1, its area is:",
+        "options": ["&pi;(a + b)", "&pi;ab", "2&pi;ab", "&pi;a&sup2;b&sup2;"],
+        "answer": 1,
+        "explanation": "The standard result is Area = &pi;ab, where a and b are the semi-axis lengths. When a = b = r it reduces to the circle area &pi;r&sup2;."
+      },
+      {
+        "q": "Rewriting 9x&sup2; + 4y&sup2; = 36 in standard form gives which ellipse?",
+        "options": ["x&sup2;/9 + y&sup2;/4 = 1", "x&sup2;/4 + y&sup2;/9 = 1", "x&sup2;/36 + y&sup2;/36 = 1", "x&sup2;/6 + y&sup2;/9 = 1"],
+        "answer": 1,
+        "explanation": "Divide both sides by 36: 9x&sup2;/36 + 4y&sup2;/36 = 1, i.e. x&sup2;/4 + y&sup2;/9 = 1. It is the same ellipse as in Q5."
+      },
+      {
+        "q": "For the ellipse x&sup2;/4 + y&sup2;/9 = 1, the area of the region in the first quadrant is:",
+        "options": ["6&pi;", "3&pi;", "3&pi;/2", "&pi;"],
+        "answer": 2,
+        "explanation": "By symmetry the ellipse splits into four equal quadrant regions, so first-quadrant area = (1/4)(6&pi;) = 3&pi;/2."
+      },
+      {
+        "q": "The value of &int; from 0 to a of (b/a)&radic;(a&sup2; &minus; x&sup2;) dx equals:",
+        "options": ["&pi;ab/4", "&pi;ab/2", "&pi;ab", "ab/2"],
+        "answer": 0,
+        "explanation": "&int; from 0 to a of &radic;(a&sup2; &minus; x&sup2;) dx = &pi;a&sup2;/4 (a quarter circle). Multiplying by b/a gives &pi;ab/4 &mdash; the first-quadrant ellipse area."
+      },
+      {
+        "q": "The area under the curve y = x&sup2; from x = 0 to x = 3 is:",
+        "options": ["9", "27", "6", "18"],
+        "answer": 0,
+        "explanation": "&int; from 0 to 3 of x&sup2; dx = [x&sup3;/3] from 0 to 3 = 27/3 = 9 square units."
+      },
+      {
+        "q": "The area bounded by y = &radic;x, the x-axis and the line x = 4 is:",
+        "options": ["8/3", "16/3", "4", "8"],
+        "answer": 1,
+        "explanation": "&int; from 0 to 4 of &radic;x dx = [ (2/3)x^(3/2) ] from 0 to 4 = (2/3)(8) = 16/3 square units."
+      },
+      {
+        "q": "When finding the area of an ellipse by integration, why do we compute &int; y dx and then multiply by 4?",
+        "options": ["Because integration only works in the first quadrant", "Because the ellipse is symmetric about both axes, so all four quadrant areas are equal", "Because &pi;ab must be divided by 4", "Because the limits are always 0 to a"],
+        "answer": 1,
+        "explanation": "The ellipse is symmetric about the x-axis and y-axis. So we find the first-quadrant area with &int; from 0 to a of y dx and multiply by 4 to get the total."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the area bounded by the ellipse x2/4 + y2/9 = 1?",
+      "a": "Comparing with x&sup2;/a&sup2; + y&sup2;/b&sup2; = 1 gives a = 2 and b = 3. The enclosed area is &pi;ab = &pi;(2)(3) = 6&pi; square units."
+    },
+    {
+      "q": "Is 9x2 + 4y2 = 36 the same as x2/4 + y2/9 = 1?",
+      "a": "Yes. Dividing 9x&sup2; + 4y&sup2; = 36 throughout by 36 gives x&sup2;/4 + y&sup2;/9 = 1, so both equations describe the same ellipse in NCERT Ex 8.1 Q5."
+    },
+    {
+      "q": "How do you set up the integral for the area of this ellipse?",
+      "a": "Solve for y in the first quadrant: y = (3/2)&radic;(4 &minus; x&sup2;). The total area is 4 times &int; from 0 to 2 of (3/2)&radic;(4 &minus; x&sup2;) dx, using the symmetry of the ellipse about both axes."
+    },
+    {
+      "q": "Why is the ellipse area formula pi*a*b and not pi*r squared?",
+      "a": "A circle is a special ellipse where a = b = r, so &pi;ab becomes &pi;r&sup2;. For a general ellipse the two semi-axes differ, and integration confirms the area is &pi;ab."
+    },
+    {
+      "q": "Where can I get the full worked solution and more area problems?",
+      "a": "The complete step-by-step solution for this ellipse and a graded set of Application of Integrals practice, with answer keys, is in our Class 12 Maths e-book. The download link is in the box below."
+    }
+  ]
+}
