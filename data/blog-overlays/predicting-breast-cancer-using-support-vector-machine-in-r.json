@@ -1,0 +1,29 @@
+{
+  "slug": "predicting-breast-cancer-using-support-vector-machine-in-r",
+  "meta_title": "Support Vector Machine in R: Breast Cancer Prediction",
+  "meta_desc": "Build an SVM breast-cancer classifier in R with e1071, tune linear and radial kernels, and read the confusion matrix. Try the free 8-question quiz below.",
+  "category": "R Programming",
+  "quiz": {
+    "title": "SVM in R Quiz",
+    "intro": "Eight questions on training a support vector machine in R for breast-cancer prediction: the e1071 package, kernels, train/test splits, confusion matrices and the margin. Pick an answer for each, then press Check my score.",
+    "about": "Support Vector Machines in R with e1071",
+    "level": "Programming / Machine Learning",
+    "questions": [
+      { "q": "Which R package provides the svm() function most tutorials use for this model?", "options": ["e1071", "ggplot2", "dplyr", "lubridate"], "answer": 0, "explanation": "svm() lives in the e1071 package, a wrapper around the C++ libsvm library. Load it with library(e1071) before calling svm()." },
+      { "q": "To fit a straight-line decision boundary, which argument do you pass to svm()?", "options": ["kernel = 'polynomial'", "kernel = 'linear'", "kernel = 'radial'", "kernel = 'sigmoid'"], "answer": 1, "explanation": "kernel = 'linear' separates classes with a flat hyperplane. It is a sensible first try when the two classes look roughly linearly separable, as the benign/malignant data often does." },
+      { "q": "In a 2x2 confusion matrix for this classifier, what does the count of malignant tumours wrongly labelled benign represent?", "options": ["A true positive", "A true negative", "A false negative", "A false positive"], "answer": 2, "explanation": "Missing a malignant case (predicting benign when it is malignant) is a false negative. In cancer screening these are the most costly errors, so you watch recall closely, not just accuracy." },
+      { "q": "If the model predicts correctly on 137 of 143 test cases, what is its accuracy?", "options": ["Roughly 0.62", "Roughly 0.74", "Roughly 0.88", "Roughly 0.96"], "answer": 3, "explanation": "Accuracy = correct / total = 137 / 143 which is about 0.958, near 96%. It is (TP + TN) divided by the number of test observations." },
+      { "q": "What does the 'margin' refer to in a support vector machine?", "options": ["The distance from the hyperplane to the nearest data points of each class", "The share of misclassified points", "The number of features in the dataset", "The learning rate used during training"], "answer": 0, "explanation": "SVM chooses the hyperplane that maximises the margin, the gap to the closest points (the support vectors). A wider margin usually generalises better to unseen tumours." },
+      { "q": "Why should the numeric features be scaled before or during SVM training?", "options": ["Scaling removes the need for a test set", "Features on larger numeric ranges would otherwise dominate the distance calculations", "It converts the labels to factors automatically", "It guarantees a linear boundary will fit"], "answer": 1, "explanation": "SVM relies on distances, so a feature measured in the thousands would swamp one measured in decimals. Standardising puts them on a comparable scale. e1071's svm() scales columns by default." },
+      { "q": "What is the main reason for splitting the data into training and test sets?", "options": ["To make the model train faster", "To reduce the number of support vectors", "To estimate how the model performs on data it has never seen", "To avoid loading the e1071 package twice"], "answer": 2, "explanation": "Testing on held-out data (e.g. a 70/30 split) gives an honest estimate of generalisation. Judging accuracy on the same rows used for training flatters the model." },
+      { "q": "When would the radial (RBF) kernel be the better choice over the linear one?", "options": ["When you have no test data", "When the response variable is continuous", "When you want to skip feature scaling", "When the boundary between classes is curved rather than straight"], "answer": 3, "explanation": "kernel = 'radial' maps the data into a higher-dimensional space, letting SVM draw non-linear, curved boundaries. It is worth trying when a linear kernel underfits, tuning cost and gamma with tune()." }
+    ]
+  },
+  "faq": [
+    { "q": "Which dataset is usually used for breast-cancer SVM examples in R?", "a": "The Wisconsin Breast Cancer dataset, available through the mlbench package (BreastCancer) or the UCI repository. It has cell-nuclei measurements as features and a benign/malignant class label, which is what the SVM learns to separate." },
+    { "q": "How do I choose between the linear and radial kernel?", "a": "Start with the linear kernel because it is fast and easy to interpret. If test accuracy is disappointing, try the radial kernel and tune the cost and gamma parameters with tune.svm(). Compare both on the same held-out test set before deciding." },
+    { "q": "Why is accuracy alone not enough for a cancer classifier?", "a": "If most tumours in the data are benign, a model that always predicts 'benign' scores high accuracy while missing every malignant case. Check the confusion matrix, recall (sensitivity) and precision so false negatives do not hide behind a good headline number." },
+    { "q": "Does svm() in e1071 scale the features for me?", "a": "Yes. By default svm() standardises numeric predictors internally, so you do not have to call scale() first. If you scale manually, apply the training set's mean and standard deviation to the test set as well." },
+    { "q": "Where can I get the full R code and worked solutions for this project?", "a": "The linked solutions e-book walks through the whole workflow, loading the data, the train/test split, fitting linear and radial kernels, and reading the confusion matrix, with runnable R code and explanations. The link is in the box below." }
+  ]
+}

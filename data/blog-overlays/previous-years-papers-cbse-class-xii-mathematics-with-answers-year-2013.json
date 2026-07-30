@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2013",
+  "meta_title": "CBSE Class 12 Maths 2013 Paper with Answers + Quiz",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 2013 paper with full answers, then try a free 8-question quiz on calculus, matrices, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2013 Practice Quiz",
+    "intro": "Eight board-level questions in the style of the 2013 paper, spanning calculus, matrices and determinants, vectors, three-dimensional geometry, probability, integrals and differential equations. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2013 board paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = sin(x<sup>2</sup>), then dy/dx equals:", "options": ["2x cos(x<sup>2</sup>)", "cos(x<sup>2</sup>)", "2x sin(x<sup>2</sup>)", "&minus;2x cos(x<sup>2</sup>)"], "answer": 0, "explanation": "By the chain rule, dy/dx = cos(x<sup>2</sup>) &times; d/dx(x<sup>2</sup>) = cos(x<sup>2</sup>) &times; 2x = 2x cos(x<sup>2</sup>)." },
+      { "q": "If A is a square matrix of order 3 with |A| = 5, then |adj A| equals:", "options": ["5", "15", "25", "125"], "answer": 2, "explanation": "For an n &times; n matrix, |adj A| = |A|<sup>n&minus;1</sup>. Here n = 3, so |adj A| = 5<sup>2</sup> = 25." },
+      { "q": "For vectors a and b with |a| = 2, |b| = 3 and the angle between them 30&deg;, |a &times; b| equals:", "options": ["6", "3", "6&radic;3", "3&radic;3"], "answer": 1, "explanation": "|a &times; b| = |a||b| sin&theta; = 2 &times; 3 &times; sin 30&deg; = 6 &times; 1/2 = 3." },
+      { "q": "The direction ratios of the line joining the points (1, 2, 3) and (3, 5, 7) are:", "options": ["1, 2, 3", "3, 5, 7", "4, 7, 10", "2, 3, 4"], "answer": 3, "explanation": "Direction ratios come from the differences of coordinates: (3&minus;1, 5&minus;2, 7&minus;3) = (2, 3, 4)." },
+      { "q": "A fair die is thrown once. The probability of getting a number greater than 4 is:", "options": ["1/6", "1/3", "1/2", "2/3"], "answer": 1, "explanation": "Numbers greater than 4 are 5 and 6, giving 2 favourable outcomes out of 6, so the probability is 2/6 = 1/3." },
+      { "q": "Evaluate &int; from 0 to 1 of x<sup>2</sup> dx.", "options": ["1", "1/2", "1/3", "2/3"], "answer": 2, "explanation": "The antiderivative of x<sup>2</sup> is x<sup>3</sup>/3, so the value is 1<sup>3</sup>/3 &minus; 0 = 1/3." },
+      { "q": "The degree of the differential equation (d<sup>2</sup>y/dx<sup>2</sup>)<sup>3</sup> + (dy/dx)<sup>2</sup> + y = 0 is:", "options": ["1", "2", "4", "3"], "answer": 3, "explanation": "Degree is the power of the highest-order derivative once the equation is polynomial in derivatives. The highest derivative d<sup>2</sup>y/dx<sup>2</sup> is raised to the power 3, so the degree is 3." },
+      { "q": "&int; sec<sup>2</sup>x dx equals:", "options": ["tan x + C", "sec x + C", "&minus;cot x + C", "ln|sec x| + C"], "answer": 0, "explanation": "The derivative of tan x is sec<sup>2</sup>x, so &int; sec<sup>2</sup>x dx = tan x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "How difficult was the CBSE Class 12 Mathematics 2013 paper?", "a": "The 2013 paper followed the standard board pattern of the time, mixing one-mark, four-mark and six-mark questions across calculus, algebra, vectors and probability. Most questions sat close to NCERT examples, so a student who had worked through the textbook found it fair rather than tricky." },
+    { "q": "Which topics carried the most marks in the 2013 paper?", "a": "Calculus dominated, as it usually does in Class 12 &mdash; differentiation, applications of derivatives, integrals and differential equations formed the largest block. Matrices, determinants, vectors, three-dimensional geometry, probability and linear programming shared the rest." },
+    { "q": "Is the 2013 paper still worth solving today?", "a": "Yes. Chapters such as integrals, vectors and differential equations have barely changed, so the paper is good practice for accuracy and timing. Just check the current CBSE blueprint for exact weightage and any topics that have since been dropped." },
+    { "q": "What is the best way to practise with an old board paper?", "a": "Sit it in one timed attempt with no notes, then mark it honestly against the answer key. Write down every error, revisit that concept in your textbook, and re-solve similar questions a few days later so the correction actually sticks." },
+    { "q": "Where can I get more Class 12 Maths papers with full solutions?", "a": "Our Class 12 Mathematics sample papers e-book gives exam-pattern papers with complete step-by-step solutions and answer keys, ready to print and practise. The link is in the box below." }
+  ]
+}

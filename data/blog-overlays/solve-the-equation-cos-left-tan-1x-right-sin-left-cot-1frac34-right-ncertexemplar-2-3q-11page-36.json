@@ -1,0 +1,29 @@
+{
+  "slug": "solve-the-equation-cos-left-tan-1x-right-sin-left-cot-1frac34-right-ncertexemplar-2-3q-11page-36",
+  "meta_title": "cos(tan⁻¹x)=sin(cot⁻¹ 3/4) NCERT Exemplar Solution",
+  "meta_desc": "Solve cos(tan⁻¹x) = sin(cot⁻¹ 3/4) step by step using the right-triangle method, NCERT Exemplar Class 12. Free 8-question inverse trig quiz below.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Inverse Trigonometric Compositions Quiz",
+    "intro": "Eight questions on evaluating cos(tan⁻¹x), sin(cot⁻¹x) and similar compositions with the right-triangle method, plus solving simple inverse-trig equations. Pick an answer for each, then press Check my score.",
+    "about": "Inverse trigonometric functions — evaluating compositions and solving equations",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is sin(cot⁻¹(3/4))?", "options": ["3/5", "4/5", "3/4", "4/3"], "answer": 1, "explanation": "Let θ = cot⁻¹(3/4), so cot θ = 3/4, meaning adjacent 3 and opposite 4. The hypotenuse is √(3² + 4²) = 5, so sin θ = opposite/hypotenuse = 4/5." },
+      { "q": "For real x, cos(tan⁻¹x) equals which expression?", "options": ["1/√(1 + x²)", "x/√(1 + x²)", "√(1 + x²)", "x/√(1 − x²)"], "answer": 0, "explanation": "Let θ = tan⁻¹x, so tan θ = x = opposite/adjacent. Take opposite x and adjacent 1; hypotenuse is √(1 + x²). Then cos θ = adjacent/hypotenuse = 1/√(1 + x²)." },
+      { "q": "Solve cos(tan⁻¹x) = 4/5 for real x.", "options": ["x = 3/4 only", "x = 4/3", "x = −3/4 only", "x = ±3/4"], "answer": 3, "explanation": "cos(tan⁻¹x) = 1/√(1 + x²) = 4/5 gives √(1 + x²) = 5/4, so 1 + x² = 25/16 and x² = 9/16. Hence x = ±3/4. This is exactly the NCERT Exemplar problem, since sin(cot⁻¹ 3/4) = 4/5." },
+      { "q": "What is tan(cos⁻¹x) for 0 < x < 1?", "options": ["x/√(1 − x²)", "1/x", "√(1 − x²)/x", "√(1 + x²)/x"], "answer": 2, "explanation": "Let θ = cos⁻¹x, so cos θ = x = adjacent/hypotenuse. Take adjacent x and hypotenuse 1; opposite is √(1 − x²). Then tan θ = opposite/adjacent = √(1 − x²)/x." },
+      { "q": "What is sin(tan⁻¹(3/4))?", "options": ["3/5", "4/5", "3/4", "4/3"], "answer": 0, "explanation": "Let θ = tan⁻¹(3/4), so tan θ = 3/4 with opposite 3 and adjacent 4. Hypotenuse is 5, so sin θ = 3/5." },
+      { "q": "For real x, cos(cot⁻¹x) equals which expression?", "options": ["1/√(1 + x²)", "x/√(1 + x²)", "√(1 + x²)", "x"], "answer": 1, "explanation": "Let θ = cot⁻¹x, so cot θ = x = adjacent/opposite. Take adjacent x and opposite 1; hypotenuse is √(1 + x²). Then cos θ = adjacent/hypotenuse = x/√(1 + x²)." },
+      { "q": "What is tan(cos⁻¹(3/5))?", "options": ["3/4", "3/5", "4/3", "5/3"], "answer": 2, "explanation": "Let θ = cos⁻¹(3/5), so cos θ = 3/5 with adjacent 3 and hypotenuse 5. Opposite is √(25 − 9) = 4, so tan θ = 4/3." },
+      { "q": "What is cos(tan⁻¹ 1)?", "options": ["1", "1/2", "√2", "1/√2"], "answer": 3, "explanation": "tan⁻¹ 1 = 45°, and cos 45° = 1/√2. You can also use cos(tan⁻¹x) = 1/√(1 + x²) with x = 1 to get 1/√2." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you evaluate an expression like cos(tan⁻¹x)?", "a": "Set θ = tan⁻¹x so that tan θ = x, then draw a right triangle with opposite x and adjacent 1. The hypotenuse is √(1 + x²), and you read off whichever ratio you need — here cos θ = 1/√(1 + x²)." },
+    { "q": "Why is sin(cot⁻¹(3/4)) equal to 4/5?", "a": "cot⁻¹(3/4) is the angle whose cotangent is 3/4, so adjacent 3 and opposite 4. The hypotenuse is √(3² + 4²) = 5, giving sin = opposite/hypotenuse = 4/5. It is the classic 3-4-5 triangle." },
+    { "q": "What is the final answer to cos(tan⁻¹x) = sin(cot⁻¹(3/4))?", "a": "The right side is 4/5, so 1/√(1 + x²) = 4/5. Squaring gives 1 + x² = 25/16, so x² = 9/16 and x = ±3/4. Both values are valid because cos(tan⁻¹x) is even in x." },
+    { "q": "When should I keep both signs of the answer?", "a": "Keep both when the expression is even in x, like cos(tan⁻¹x), because it gives the same value for x and −x. If a later condition restricts the domain (for example x must be positive), then discard the sign that fails it." },
+    { "q": "Where can I get full NCERT Exemplar Class 12 inverse trigonometry solutions?", "a": "Our NCERT Exemplar Class 12 Maths solutions e-book covers every inverse trigonometric functions problem with clean right-triangle working and answer keys, ready to print. The link is in the box below." }
+  ]
+}

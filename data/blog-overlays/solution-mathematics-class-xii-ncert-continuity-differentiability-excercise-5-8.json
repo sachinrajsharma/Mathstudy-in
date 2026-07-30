@@ -1,0 +1,85 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-8",
+  "meta_title": "NCERT Class 12 Maths Ex 5.8 Solutions (MVT)",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 5.8 solutions on Rolle's theorem and Mean Value Theorem, plus a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Rolle's & Mean Value Theorem Quiz",
+    "intro": "Eight questions on the conditions, applicability and value of c for Rolle's theorem and Lagrange's MVT. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Exercise 5.8 — Mean Value Theorem",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Which condition is NOT required for Rolle's theorem to apply to f on [a, b]?",
+        "options": ["f is continuous on [a, b]", "f is differentiable on (a, b)", "f(a) = f(b)", "f is increasing on [a, b]"],
+        "answer": 3,
+        "explanation": "Rolle's theorem needs continuity on [a, b], differentiability on (a, b) and equal endpoint values f(a) = f(b). Monotonicity is not required."
+      },
+      {
+        "q": "For f(x) = x&sup2; on [-2, 2], the value of c given by Rolle's theorem is:",
+        "options": ["0", "1", "2", "-1"],
+        "answer": 0,
+        "explanation": "f(-2) = f(2) = 4, so Rolle's applies. f'(x) = 2x = 0 gives c = 0, which lies in (-2, 2)."
+      },
+      {
+        "q": "Lagrange's Mean Value Theorem guarantees a c in (a, b) such that f'(c) equals:",
+        "options": ["f(b) - f(a)", "[f(b) - f(a)] / (b - a)", "f(b) + f(a)", "(b - a) / [f(b) - f(a)]"],
+        "answer": 1,
+        "explanation": "MVT states f'(c) = [f(b) - f(a)] / (b - a), the slope of the chord joining the endpoints."
+      },
+      {
+        "q": "Rolle's theorem does NOT apply to f(x) = |x| on [-1, 1] because:",
+        "options": ["f is not continuous on [-1, 1]", "f(-1) is not equal to f(1)", "f is not differentiable at x = 0", "f(x) is always positive"],
+        "answer": 2,
+        "explanation": "|x| is continuous and f(-1) = f(1) = 1, but it is not differentiable at x = 0, so a hypothesis of Rolle's theorem fails."
+      },
+      {
+        "q": "For f(x) = x&sup2; on [2, 4], the value of c from the Mean Value Theorem is:",
+        "options": ["2.5", "3", "3.5", "4"],
+        "answer": 1,
+        "explanation": "f'(c) = 2c and [f(4) - f(2)] / (4 - 2) = (16 - 4)/2 = 6, so 2c = 6 gives c = 3."
+      },
+      {
+        "q": "Rolle's theorem is a special case of the Mean Value Theorem when:",
+        "options": ["f(a) = f(b)", "a = b", "f'(c) = 0 always", "f is linear"],
+        "answer": 0,
+        "explanation": "If f(a) = f(b), the MVT chord slope is 0, so f'(c) = 0 — exactly the conclusion of Rolle's theorem."
+      },
+      {
+        "q": "For f(x) = x&sup3; - 3x on [0, &radic;3], applying Rolle's theorem, c equals:",
+        "options": ["&radic;3", "0", "-1", "1"],
+        "answer": 3,
+        "explanation": "f(0) = 0 and f(&radic;3) = 3&radic;3 - 3&radic;3 = 0, so Rolle's applies. f'(x) = 3x&sup2; - 3 = 0 gives x = &plusmn;1; c = 1 lies in (0, &radic;3)."
+      },
+      {
+        "q": "The geometric meaning of the Mean Value Theorem is that there is a point where the tangent is:",
+        "options": ["horizontal", "vertical", "parallel to the chord joining the endpoints", "perpendicular to the x-axis"],
+        "answer": 2,
+        "explanation": "MVT says the tangent at x = c is parallel to the chord joining (a, f(a)) and (b, f(b)), since both have slope [f(b) - f(a)]/(b - a)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between Rolle's theorem and the Mean Value Theorem?",
+      "a": "Both need f continuous on [a, b] and differentiable on (a, b). Rolle's theorem adds the condition f(a) = f(b) and concludes f'(c) = 0. Lagrange's MVT drops that condition and concludes f'(c) equals the chord slope [f(b) - f(a)] / (b - a). Rolle's is the special case where the endpoint values are equal."
+    },
+    {
+      "q": "How do I find the value of c in these problems?",
+      "a": "First check the theorem's conditions hold. Then differentiate f, set f'(c) equal to 0 for Rolle's or to [f(b) - f(a)] / (b - a) for MVT, solve for c, and keep only the root that lies inside the open interval (a, b)."
+    },
+    {
+      "q": "Why does Rolle's theorem fail for f(x) = |x| on [-1, 1]?",
+      "a": "The function is continuous and satisfies f(-1) = f(1), but it has a sharp corner at x = 0 where the derivative does not exist. Since differentiability on the open interval is a required hypothesis, the theorem simply does not apply — there is no contradiction, the conditions were never met."
+    },
+    {
+      "q": "What is the geometric interpretation of the Mean Value Theorem?",
+      "a": "It guarantees at least one point c in (a, b) where the tangent to the curve is parallel to the straight chord joining the endpoints (a, f(a)) and (b, f(b)). For Rolle's theorem that chord is horizontal, so the tangent at c is horizontal too."
+    },
+    {
+      "q": "Where can I get full solutions to NCERT Class 12 Exercise 5.8?",
+      "a": "This page works through Exercise 5.8 step by step. For extra board-style practice on continuity and differentiability, our Class 12 case-studies e-book gives worked case studies with complete solutions and an answer key — the link is in the box below."
+    }
+  ]
+}

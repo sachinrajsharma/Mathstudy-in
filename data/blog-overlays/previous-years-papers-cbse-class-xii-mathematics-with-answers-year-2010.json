@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2010",
+  "meta_title": "CBSE Class 12 Maths 2010 Paper with Answers + Quiz",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 2010 board paper with full answers spanning calculus, matrices, vectors and probability, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2010 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 2010 paper, spanning calculus, matrices and determinants, integrals, differential equations, vectors, 3D geometry and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2010 previous-year paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = sin(x<sup>2</sup>), then dy/dx equals:", "options": ["2x cos(x<sup>2</sup>)", "cos(x<sup>2</sup>)", "2x sin(x<sup>2</sup>)", "&minus;2x cos(x<sup>2</sup>)"], "answer": 0, "explanation": "By the chain rule, d/dx sin(u) = cos(u) &middot; du/dx with u = x<sup>2</sup>, so dy/dx = cos(x<sup>2</sup>) &middot; 2x = 2x cos(x<sup>2</sup>)." },
+      { "q": "If A is a 3 &times; 3 matrix with det(A) = 5, then det(adj A) equals:", "options": ["5", "10", "25", "125"], "answer": 2, "explanation": "For an n &times; n matrix, det(adj A) = det(A)<sup>n&minus;1</sup>. Here n = 3, so det(adj A) = 5<sup>2</sup> = 25." },
+      { "q": "Evaluate &int; from 0 to &pi;/2 of cos x dx.", "options": ["0", "1", "&pi;/2", "&minus;1"], "answer": 1, "explanation": "The antiderivative of cos x is sin x, so the value is sin(&pi;/2) &minus; sin(0) = 1 &minus; 0 = 1." },
+      { "q": "The order of the differential equation d<sup>3</sup>y/dx<sup>3</sup> + (d<sup>2</sup>y/dx<sup>2</sup>)<sup>2</sup> + y = 0 is:", "options": ["1", "2", "3", "6"], "answer": 2, "explanation": "Order is the order of the highest derivative present. Here the highest is d<sup>3</sup>y/dx<sup>3</sup>, so the order is 3 (its power affects degree, not order)." },
+      { "q": "If a and b are unit vectors with an angle of 60&deg; between them, then |a &times; b| equals:", "options": ["1/2", "&radic;3/2", "1", "0"], "answer": 1, "explanation": "|a &times; b| = |a||b| sin&theta; = 1 &times; 1 &times; sin 60&deg; = &radic;3/2." },
+      { "q": "A line has direction ratios 2, &minus;1, 2. Its direction cosines are:", "options": ["(2, &minus;1, 2)", "(1/3, 1/3, 1/3)", "(1/&radic;3, 1/&radic;3, 1/&radic;3)", "(2/3, &minus;1/3, 2/3)"], "answer": 3, "explanation": "Divide each ratio by the magnitude &radic;(2<sup>2</sup> + 1<sup>2</sup> + 2<sup>2</sup>) = &radic;9 = 3, giving direction cosines (2/3, &minus;1/3, 2/3)." },
+      { "q": "If P(A &cap; B) = 0.2 and P(B) = 0.5, then the conditional probability P(A | B) equals:", "options": ["0.4", "0.1", "0.2", "0.7"], "answer": 0, "explanation": "P(A | B) = P(A &cap; B)/P(B) = 0.2/0.5 = 0.4." },
+      { "q": "The principal value of sin<sup>&minus;1</sup>(1/2) is:", "options": ["&pi;/2", "&pi;/3", "&pi;/4", "&pi;/6"], "answer": 3, "explanation": "sin<sup>&minus;1</sup> returns a value in [&minus;&pi;/2, &pi;/2]. Since sin(&pi;/6) = 1/2, the principal value is &pi;/6." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the CBSE Class 12 Mathematics 2010 paper cover?", "a": "It runs across the Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations, linear programming, inverse trigonometry and probability. That spread still anchors the board paper today." },
+    { "q": "Is the 2010 paper good practice for the current CBSE exam?", "a": "Yes. The exam now adds MCQ and case-study sections, but the core concepts have not changed. The 2010 paper is clean drill for building accuracy in calculus, algebra and vectors before you switch to a recent sample paper for the current pattern." },
+    { "q": "How is the 2010 paper different from a recent board paper?", "a": "The 2010 paper uses the older scheme of mostly short-answer and long-answer questions, with no objective or case-based section. Treat it as concept practice, then rehearse the present-day format with an up-to-date sample paper." },
+    { "q": "What is the best way to practise with a previous-year paper?", "a": "Attempt it in one timed sitting without notes, mark it honestly against the answer key, then re-solve only the questions you got wrong. That targeted correction fixes weak spots far better than reading through solved answers." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from again and again. The link is in the box below." }
+  ]
+}

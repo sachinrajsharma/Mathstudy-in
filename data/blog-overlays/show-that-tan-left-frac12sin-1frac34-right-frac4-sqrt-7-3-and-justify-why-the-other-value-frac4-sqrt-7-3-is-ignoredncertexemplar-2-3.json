@@ -1,0 +1,84 @@
+{
+  "slug": "show-that-tan-left-frac12sin-1frac34-right-frac4-sqrt-7-3-and-justify-why-the-other-value-frac4-sqrt-7-3-is-ignoredncertexemplar-2-3",
+  "meta_title": "Prove tan(½ sin⁻¹ 3/4)=(4−√7)/3 | NCERT Exemplar",
+  "meta_desc": "Step-by-step NCERT Exemplar solution proving tan(½ sin⁻¹ 3/4) = (4−√7)/3, with the reason the other root is rejected, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Half-Angle Inverse Trig Quiz",
+    "intro": "Eight questions on tan of half a sin⁻¹, the range and quadrant of sin⁻¹, and rejecting the extraneous root. Choose an answer for each, then press Check my score.",
+    "about": "tan(½ sin⁻¹ x) and half-angle inverse trigonometry (Class 12)",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "What is the principal value range of sin⁻¹ x?",
+        "options": ["[−π/2, π/2]", "[0, π]", "[−π, π]", "[0, π/2]"],
+        "answer": 0,
+        "explanation": "By definition sin⁻¹ returns an angle in [−π/2, π/2]. That range is what fixes the sign of every later step in this problem."
+      },
+      {
+        "q": "If θ = sin⁻¹(3/4), what is cos θ?",
+        "options": ["−√7/4", "√7/4", "3/4", "1/4"],
+        "answer": 1,
+        "explanation": "sin θ = 3/4, so cos θ = √(1 − 9/16) = √7/4. It is positive because θ lies in the first quadrant, where cosine is positive."
+      },
+      {
+        "q": "For θ = sin⁻¹(3/4), in which interval does θ/2 lie?",
+        "options": ["(π/4, π/2)", "(−π/4, 0)", "(0, π/4)", "(π/2, π)"],
+        "answer": 2,
+        "explanation": "Since 3/4 > 0, θ is in (0, π/2), so θ/2 is in (0, π/4). This is the fact that later lets you throw out one root."
+      },
+      {
+        "q": "Writing t = tan(θ/2) and sin θ = 2t/(1+t²), which equation does sin θ = 3/4 give?",
+        "options": ["3t² + 8t + 3 = 0", "4t² − 3t + 4 = 0", "3t² + 8t − 3 = 0", "3t² − 8t + 3 = 0"],
+        "answer": 3,
+        "explanation": "2t/(1+t²) = 3/4 gives 8t = 3(1+t²), which rearranges to 3t² − 8t + 3 = 0."
+      },
+      {
+        "q": "What are the roots of 3t² − 8t + 3 = 0?",
+        "options": ["(4 ± √7)/3", "(8 ± √7)/3", "(4 ± √7)/6", "(2 ± √7)/3"],
+        "answer": 0,
+        "explanation": "t = [8 ± √(64 − 36)]/6 = [8 ± 2√7]/6 = (4 ± √7)/3."
+      },
+      {
+        "q": "Why is the value (4 + √7)/3 rejected?",
+        "options": ["Because tangent is negative in this quadrant", "Because θ/2 ∈ (0, π/4), so tan(θ/2) < 1, but (4 + √7)/3 > 1", "Because it is an irrational number", "Because sin⁻¹(3/4) is undefined"],
+        "answer": 1,
+        "explanation": "θ/2 lies in (0, π/4), where tan is between 0 and 1. Since (4 + √7)/3 ≈ 2.22 > 1, it cannot be tan(θ/2), so only (4 − √7)/3 survives."
+      },
+      {
+        "q": "What is the value of tan(½ sin⁻¹(3/4))?",
+        "options": ["(4 + √7)/3", "(3 − √7)/4", "(4 − √7)/3", "√7/3"],
+        "answer": 2,
+        "explanation": "The accepted root is (4 − √7)/3 ≈ 0.45, which correctly sits between 0 and 1 as required for an angle in (0, π/4)."
+      },
+      {
+        "q": "In terms of t = tan(θ/2), how is tan θ expressed?",
+        "options": ["t²/(1 − t²)", "(1 − t²)/2t", "2t/(1 + t²)", "2t/(1 − t²)"],
+        "answer": 3,
+        "explanation": "The double-angle identity gives tan θ = 2t/(1 − t²). Note 2t/(1 + t²) is sin θ, not tan θ — a common mix-up."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why does sin⁻¹(3/4) land in the first quadrant?",
+      "a": "The principal value of sin⁻¹ is always in [−π/2, π/2]. Since 3/4 is positive, the angle is in (0, π/2), the first quadrant, so both its cosine and its half-angle tangent are positive."
+    },
+    {
+      "q": "Where does the quadratic 3t² − 8t + 3 = 0 come from?",
+      "a": "Set t = tan(θ/2). Using sin θ = 2t/(1+t²) and sin θ = 3/4 gives 8t = 3(1+t²), which rearranges into 3t² − 8t + 3 = 0. Solving it produces the two candidate values."
+    },
+    {
+      "q": "How do you decide which root to keep?",
+      "a": "θ/2 lies in (0, π/4), so tan(θ/2) must be between 0 and 1. Of the two roots, (4 + √7)/3 ≈ 2.22 is greater than 1 and impossible, while (4 − √7)/3 ≈ 0.45 fits, so it is the answer."
+    },
+    {
+      "q": "Can this be solved without the half-angle formula?",
+      "a": "Yes. You can use tan(θ/2) = sin θ / (1 + cos θ). With sin θ = 3/4 and cos θ = √7/4 you get (3/4)/(1 + √7/4) = 3/(4 + √7), which rationalises to (4 − √7)/3 — the same answer, no rejection needed."
+    },
+    {
+      "q": "Where can I get full solutions to more NCERT Exemplar inverse trig problems?",
+      "a": "Our Class 12 inverse trigonometry solutions e-book works through the Exemplar and textbook problems step by step, including the tricky root-rejection cases. The link is in the box below."
+    }
+  ]
+}

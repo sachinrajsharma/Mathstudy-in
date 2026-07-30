@@ -1,0 +1,29 @@
+{
+  "slug": "find-the-area-of-the-region-bounded-by-the-ellipse-x2-16-y2-9-1-9x216y2144-ncert-ex-8-1-q-4page-366",
+  "meta_title": "Area of Ellipse x²/16 + y²/9 = 1 (NCERT Ex 8.1 Q4)",
+  "meta_desc": "Solve the NCERT Class 12 area of the ellipse x²/16 + y²/9 = 1 (Ex 8.1 Q4), then test yourself with a free 8-question integration quiz with answers.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Area of an Ellipse Quiz",
+    "intro": "Eight questions on finding area by integration, built around the ellipse x²/16 + y²/9 = 1 from NCERT Ex 8.1 Q4. Pick an answer for each, then press Check my score.",
+    "about": "Area bounded by an ellipse using definite integration",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For the ellipse x²/16 + y²/9 = 1, what are the lengths of the semi-major and semi-minor axes?", "options": ["a = 4, b = 3", "a = 16, b = 9", "a = 3, b = 4", "a = 8, b = 6"], "answer": 0, "explanation": "The denominators are the squares of the semi-axes: 16 = 4² and 9 = 3², so a = 4 along the x-axis and b = 3 along the y-axis." },
+      { "q": "Solving x²/16 + y²/9 = 1 for the upper half, y equals which expression?", "options": ["(4/3)√(9 − x²)", "3√(16 − x²)", "(3/4)√(16 + x²)", "(3/4)√(16 − x²)"], "answer": 3, "explanation": "y² = 9(1 − x²/16) = 9(16 − x²)/16, so y = (3/4)√(16 − x²) for the part above the x-axis." },
+      { "q": "The equation 9x² + 16y² = 144 becomes which standard form when divided by 144?", "options": ["x²/9 + y²/16 = 1", "x²/16 + y²/9 = 1", "x²/144 + y²/144 = 1", "x²/12 + y²/12 = 1"], "answer": 1, "explanation": "Dividing every term by 144 gives 9x²/144 + 16y²/144 = 1, which simplifies to x²/16 + y²/9 = 1 — the same ellipse." },
+      { "q": "The total area enclosed by the ellipse x²/16 + y²/9 = 1 is:", "options": ["6π", "9π", "12π", "16π"], "answer": 2, "explanation": "For an ellipse the area is πab. Here a = 4 and b = 3, so the area is π × 4 × 3 = 12π square units." },
+      { "q": "The area of just the first-quadrant quarter of this ellipse equals:", "options": ["3π", "6π", "12π", "4π"], "answer": 0, "explanation": "By symmetry each quadrant holds one quarter of the total. 12π ÷ 4 = 3π square units." },
+      { "q": "To get the whole area, the first-quadrant integral (3/4)∫₀⁴ √(16 − x²) dx is multiplied by:", "options": ["2", "4", "3", "1"], "answer": 1, "explanation": "The ellipse is symmetric about both axes, so the first-quadrant area is repeated in all four quadrants — multiply by 4." },
+      { "q": "The standard result ∫₀ᵃ √(a² − x²) dx equals:", "options": ["a²", "πa²/2", "πa²", "πa²/4"], "answer": 3, "explanation": "This integral gives the area of a quarter-circle of radius a, which is πa²/4. With a = 4 it evaluates to 4π." },
+      { "q": "For a general ellipse x²/a² + y²/b² = 1, its area is:", "options": ["πa²", "π(a + b)", "πab", "2πab"], "answer": 2, "explanation": "The area of an ellipse is πab. When a = b it reduces to πa², the familiar area of a circle of radius a." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the area bounded by the ellipse x²/16 + y²/9 = 1?", "a": "The area is 12π square units. Here a = 4 and b = 3, and the area of any ellipse is πab, so π × 4 × 3 = 12π." },
+    { "q": "How is 9x² + 16y² = 144 the same as x²/16 + y²/9 = 1?", "a": "Divide both sides of 9x² + 16y² = 144 by 144. You get x²/16 + y²/9 = 1, so both equations describe the identical ellipse." },
+    { "q": "Why do we integrate only the first quadrant and then multiply by 4?", "a": "The ellipse is symmetric about both the x-axis and the y-axis, so all four quadrants have equal area. Finding one quarter and multiplying by 4 keeps the working short and the limits simple (0 to 4)." },
+    { "q": "Which is longer, the major or the minor axis of this ellipse?", "a": "Since 16 &gt; 9, the ellipse stretches further along the x-axis. The semi-major axis is a = 4 (along x) and the semi-minor axis is b = 3 (along y)." },
+    { "q": "Where can I get the full worked solution and more area-by-integration practice?", "a": "The complete NCERT Ex 8.1 Q4 solution is on this page, with the integration steps laid out in order. For more Class 12 Application of Integrals practice and solved papers, the linked e-book is in the box below." }
+  ]
+}

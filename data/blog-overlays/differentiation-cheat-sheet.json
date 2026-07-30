@@ -1,0 +1,29 @@
+{
+  "slug": "differentiation-cheat-sheet",
+  "meta_title": "Differentiation Cheat Sheet: Rules + Free Quiz",
+  "meta_desc": "Master every differentiation rule with our cheat sheet, then test yourself with a free 8-question quiz on power, product, quotient and chain rules.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Differentiation Rules Quiz",
+    "intro": "Eight questions on the core rules and standard derivatives every Class 11-12 and competitive student needs cold. Pick an answer for each, then press Check my score.",
+    "about": "Differentiation rules and standard derivatives",
+    "level": "Class 11-12 / Competitive",
+    "questions": [
+      { "q": "Using the power rule, what is d/dx (x<sup>5</sup>)?", "options": ["5x<sup>4</sup>", "4x<sup>5</sup>", "5x<sup>5</sup>", "x<sup>4</sup>"], "answer": 0, "explanation": "The power rule gives d/dx (x<sup>n</sup>) = n&middot;x<sup>n&minus;1</sup>. With n = 5 that is 5x<sup>4</sup>." },
+      { "q": "By the product rule, d/dx (x<sup>2</sup> sin x) equals which of these?", "options": ["2x cos x", "2x sin x + x<sup>2</sup> cos x", "2x sin x &minus; x<sup>2</sup> cos x", "x<sup>2</sup> cos x"], "answer": 1, "explanation": "Product rule: (uv)' = u'v + uv'. Here u = x<sup>2</sup> (u' = 2x) and v = sin x (v' = cos x), giving 2x sin x + x<sup>2</sup> cos x." },
+      { "q": "Using the quotient rule, what is d/dx (sin x / x)?", "options": ["cos x / x<sup>2</sup>", "(sin x &minus; x cos x) / x<sup>2</sup>", "(x cos x &minus; sin x) / x<sup>2</sup>", "cos x / x"], "answer": 2, "explanation": "Quotient rule: (u/v)' = (u'v &minus; uv') / v<sup>2</sup>. With u = sin x, v = x this is (x cos x &minus; sin x) / x<sup>2</sup>." },
+      { "q": "Applying the chain rule, what is d/dx (e<sup>2x</sup>)?", "options": ["e<sup>2x</sup>", "2x e<sup>2x</sup>", "e<sup>2x</sup> / 2", "2e<sup>2x</sup>"], "answer": 3, "explanation": "Chain rule: d/dx e<sup>u</sup> = e<sup>u</sup>&middot;u'. With u = 2x, u' = 2, so the derivative is 2e<sup>2x</sup>." },
+      { "q": "What is the derivative of tan x?", "options": ["sec<sup>2</sup> x", "&minus;cosec<sup>2</sup> x", "sec x tan x", "1 / cos x"], "answer": 0, "explanation": "d/dx (tan x) = sec<sup>2</sup> x. It follows from the quotient rule applied to sin x / cos x." },
+      { "q": "What is the derivative of ln x (for x &gt; 0)?", "options": ["x ln x", "1 / x", "1 / (x ln x)", "ln x"], "answer": 1, "explanation": "d/dx (ln x) = 1/x. This is a standard result you should know without deriving it each time." },
+      { "q": "For a &gt; 0, what is d/dx (a<sup>x</sup>)?", "options": ["x a<sup>x&minus;1</sup>", "a<sup>x</sup>", "a<sup>x</sup> ln a", "a<sup>x</sup> / ln a"], "answer": 2, "explanation": "d/dx (a<sup>x</sup>) = a<sup>x</sup> ln a. The e<sup>x</sup> case is just a = e, where ln e = 1, giving back e<sup>x</sup>." },
+      { "q": "What is the derivative of sin<sup>&minus;1</sup> x (arcsin x)?", "options": ["1 / (1 + x<sup>2</sup>)", "&minus;1 / &radic;(1 &minus; x<sup>2</sup>)", "1 / |x|&radic;(x<sup>2</sup> &minus; 1)", "1 / &radic;(1 &minus; x<sup>2</sup>)"], "answer": 3, "explanation": "d/dx (sin<sup>&minus;1</sup> x) = 1 / &radic;(1 &minus; x<sup>2</sup>), valid for &minus;1 &lt; x &lt; 1. Note cos<sup>&minus;1</sup> x is the negative of this." }
+    ]
+  },
+  "faq": [
+    { "q": "When should I use the product rule instead of the chain rule?", "a": "Use the product rule when two functions are multiplied, like x<sup>2</sup> sin x. Use the chain rule when one function is composed inside another, like sin(x<sup>2</sup>). Many problems need both, applied one step at a time." },
+    { "q": "How do I remember the quotient rule?", "a": "A common mnemonic is 'low d-high minus high d-low, over low squared': (u/v)' = (u'v &minus; uv') / v<sup>2</sup>. Keep the order of the numerator terms right, because subtraction is not commutative." },
+    { "q": "Why is the derivative of e<sup>x</sup> just e<sup>x</sup>?", "a": "Because e is the unique base where the exponential function equals its own rate of change. For a general base, d/dx (a<sup>x</sup>) = a<sup>x</sup> ln a, and ln e = 1, so the ln factor vanishes." },
+    { "q": "Which standard derivatives should I memorise for board and entrance exams?", "a": "At minimum: the power rule, derivatives of sin, cos and tan, e<sup>x</sup>, a<sup>x</sup>, ln x, and the inverse trig functions. Knowing these instantly frees you to focus on the harder parts of a question." },
+    { "q": "Where can I get worked solutions to practise these differentiation rules?", "a": "Our differentiation solutions e-book works through graded problems on every rule on this cheat sheet, each with full steps and answers you can check against. The link is in the box below." }
+  ]
+}
