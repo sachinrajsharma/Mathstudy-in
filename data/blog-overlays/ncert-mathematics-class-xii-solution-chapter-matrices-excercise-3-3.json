@@ -1,0 +1,30 @@
+{
+  "slug": "ncert-mathematics-class-xii-solution-chapter-matrices-excercise-3-3",
+  "meta_title": "NCERT Class 12 Maths Matrices Exercise 3.3 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths solutions for Matrices Exercise 3.3 on transpose, symmetric and skew-symmetric matrices, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-matrices-chapter-practice-tests",
+  "quiz": {
+    "title": "Matrices Exercise 3.3 Quiz",
+    "intro": "Eight questions on transpose, symmetric and skew-symmetric matrices and the properties from Exercise 3.3. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Matrices Exercise 3.3 (transpose of a matrix)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If A is a 3 &times; 4 matrix, what is the order of its transpose A'?", "options": ["3 &times; 4", "4 &times; 3", "4 &times; 4", "3 &times; 3"], "answer": 1, "explanation": "Transposing swaps rows and columns, so an m &times; n matrix becomes n &times; m. Here 3 &times; 4 becomes 4 &times; 3." },
+      { "q": "A square matrix A is symmetric when:", "options": ["A' = &minus;A", "A' = A", "A' = A&sup2;", "A' = I"], "answer": 1, "explanation": "A matrix is symmetric if it equals its own transpose, that is A' = A, so a<sub>ij</sub> = a<sub>ji</sub> for all i, j." },
+      { "q": "For a skew-symmetric matrix, every diagonal entry must be:", "options": ["1", "equal to each other", "0", "positive"], "answer": 2, "explanation": "Skew-symmetric means A' = &minus;A, so a<sub>ii</sub> = &minus;a<sub>ii</sub>, which forces 2a<sub>ii</sub> = 0, hence every diagonal entry is 0." },
+      { "q": "Which identity does Exercise 3.3 establish for the transpose of a product?", "options": ["(AB)' = A'B'", "(AB)' = B'A'", "(AB)' = AB", "(AB)' = (BA)'"], "answer": 1, "explanation": "The transpose of a product reverses the order: (AB)' = B'A'. The order of the factors is switched." },
+      { "q": "The matrix A + A' is always:", "options": ["skew-symmetric", "symmetric", "the zero matrix", "the identity matrix"], "answer": 1, "explanation": "Take the transpose: (A + A')' = A' + A = A + A'. Since it equals its own transpose, A + A' is symmetric." },
+      { "q": "The matrix A &minus; A' is always:", "options": ["symmetric", "the identity matrix", "skew-symmetric", "equal to A"], "answer": 2, "explanation": "(A &minus; A')' = A' &minus; A = &minus;(A &minus; A'), which is the skew-symmetric condition, so A &minus; A' is skew-symmetric." },
+      { "q": "Any square matrix A can be written as the sum of:", "options": ["two symmetric matrices", "a symmetric and a skew-symmetric matrix", "two skew-symmetric matrices", "a diagonal and an identity matrix"], "answer": 1, "explanation": "A = &frac12;(A + A') + &frac12;(A &minus; A'). The first part is symmetric and the second is skew-symmetric, and this decomposition is unique." },
+      { "q": "For a scalar k, which statement about transpose is correct?", "options": ["(kA)' = k'A", "(kA)' = kA'", "(kA)' = k&minus;A'", "(kA)' = A'"], "answer": 1, "explanation": "A scalar multiple passes straight through the transpose: (kA)' = kA'. Multiplying every entry by k does not change how rows and columns swap." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 3.3 of NCERT Class 12 Matrices cover?", "a": "It covers the transpose of a matrix and its properties &mdash; (A')' = A, (kA)' = kA', (A + B)' = A' + B', (AB)' = B'A' &mdash; and uses them to study symmetric and skew-symmetric matrices." },
+    { "q": "What is the difference between a symmetric and a skew-symmetric matrix?", "a": "A symmetric matrix satisfies A' = A, so entries mirror across the diagonal. A skew-symmetric matrix satisfies A' = &minus;A, which also forces every diagonal entry to be 0." },
+    { "q": "Why can every square matrix be split into symmetric and skew-symmetric parts?", "a": "Because A = &frac12;(A + A') + &frac12;(A &minus; A'). The first bracket is always symmetric and the second is always skew-symmetric, so the split works for any square matrix and is unique." },
+    { "q": "Is (AB)' equal to A'B' or B'A'?", "a": "It is B'A'. The transpose of a product reverses the order of the factors. Writing A'B' is one of the most common mistakes in this exercise." },
+    { "q": "Where can I get full solved solutions and practice for Matrices Exercise 3.3?", "a": "Our Class 12 Matrices practice-test e-book gives every Exercise 3.3 problem solved step by step, plus extra graded papers on transpose and symmetric matrices with a full answer key. The link is in the box below." }
+  ]
+}
