@@ -1,0 +1,29 @@
+{
+  "slug": "dplyr-tutorial-data-manipulation-using-dplyr-package-in-r-programming",
+  "meta_title": "dplyr Tutorial: Data Manipulation in R",
+  "meta_desc": "Learn dplyr in R: the five verbs (filter, select, mutate, arrange, summarise), the pipe and group_by, with a free 8-question quiz to test yourself.",
+  "category": "R Programming",
+  "quiz": {
+    "title": "dplyr Data Manipulation Quiz",
+    "intro": "Eight questions on the core dplyr verbs, the pipe and group_by. Pick an answer for each, then press Check my score.",
+    "about": "Data manipulation with the dplyr package in R",
+    "level": "Programming",
+    "questions": [
+      { "q": "Which dplyr verb keeps only the rows that meet a condition?", "options": ["select()", "filter()", "arrange()", "mutate()"], "answer": 1, "explanation": "filter() subsets rows by a logical test, e.g. filter(df, age > 30). select() works on columns, not rows." },
+      { "q": "You want to keep only the columns 'name' and 'salary'. Which verb do you use?", "options": ["select(df, name, salary)", "filter(df, name, salary)", "mutate(df, name, salary)", "summarise(df, name, salary)"], "answer": 0, "explanation": "select() chooses columns by name (or helpers like starts_with()). filter() is for rows." },
+      { "q": "Which verb adds a new column computed from existing ones?", "options": ["arrange()", "summarise()", "mutate()", "select()"], "answer": 2, "explanation": "mutate() creates or overwrites columns, e.g. mutate(df, bmi = weight / height^2), keeping all existing rows." },
+      { "q": "What does arrange(df, desc(score)) do?", "options": ["Drops the score column", "Sorts rows by score from highest to lowest", "Keeps rows where score is high", "Averages the score column"], "answer": 1, "explanation": "arrange() reorders rows; wrapping a column in desc() sorts it in descending order." },
+      { "q": "Which verb collapses many rows into a single summary value such as a mean or count?", "options": ["mutate()", "summarise()", "select()", "filter()"], "answer": 1, "explanation": "summarise() (also spelled summarize()) reduces rows to summary statistics, e.g. summarise(df, avg = mean(score))." },
+      { "q": "What does the pipe operator %>% do?", "options": ["Comments out a line of code", "Passes the result on its left into the first argument of the function on its right", "Multiplies two vectors element-wise", "Loads a package"], "answer": 1, "explanation": "%>% (from magrittr, re-exported by dplyr) chains steps: df %>% filter(...) %>% select(...) reads left to right instead of nesting calls." },
+      { "q": "To get the mean salary for each department, which verb do you pair with summarise()?", "options": ["arrange()", "group_by()", "select()", "rename()"], "answer": 1, "explanation": "group_by(department) splits the data into groups; summarise() then produces one summary row per group." },
+      { "q": "Given df %>% group_by(city) %>% summarise(n = n()), what does n() return?", "options": ["The number of columns in df", "The number of rows in each city group", "The sum of a numeric column", "The unique values of city"], "answer": 1, "explanation": "n() counts rows within the current group, so you get the row count for each city." }
+    ]
+  },
+  "faq": [
+    { "q": "What are the five main verbs in dplyr?", "a": "filter() for rows, select() for columns, mutate() to add or change columns, arrange() to sort rows, and summarise() to reduce rows to summary values. group_by() is often used with summarise() for grouped results." },
+    { "q": "What is the pipe operator %>% and why use it?", "a": "The pipe passes the object on its left into the next function as the first argument, so you can chain steps left to right: df %>% filter(x > 0) %>% summarise(mean(x)). It replaces deeply nested calls and reads like a sentence." },
+    { "q": "What is the difference between filter() and select()?", "a": "filter() keeps or drops rows based on a condition, while select() keeps or drops columns by name. One works on observations, the other on variables." },
+    { "q": "How does group_by() change what summarise() returns?", "a": "Without group_by(), summarise() returns one row for the whole data. With group_by(col), the data is split into groups and summarise() returns one summary row per group." },
+    { "q": "Where can I get more R data-manipulation practice and solutions?", "a": "Our R programming solutions cover dplyr verbs, the pipe and grouped summaries with worked examples you can run yourself. The link is in the box below." }
+  ]
+}

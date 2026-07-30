@@ -1,0 +1,85 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-5",
+  "meta_title": "NCERT Class 12 Maths Ex 7.5 Solutions (Partial Fractions)",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 7.5 solutions on integration by partial fractions, plus a free 8-question quiz to test yourself. Start solving now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Integration by Partial Fractions Quiz (Ex 7.5)",
+    "intro": "Eight questions on the partial-fraction method from Exercise 7.5 &mdash; proper vs improper fractions, distinct and repeated linear factors, and irreducible quadratics. Choose an answer for each, then press Check my score.",
+    "about": "Integration by partial fractions, NCERT Class 12 Exercise 7.5",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Before splitting a rational function into partial fractions, it must be a proper fraction. Which of these is already proper?",
+        "options": ["(x&sup2; + 1)/(x + 2)", "x/(x&sup2; &minus; 1)", "(x&sup3;)/(x + 1)", "(x&sup2;)/(x + 3)"],
+        "answer": 1,
+        "explanation": "A fraction is proper when the numerator degree is less than the denominator degree. x/(x&sup2; &minus; 1) has degree 1 over degree 2, so it is proper. The others have numerator degree &ge; denominator degree."
+      },
+      {
+        "q": "For the improper fraction (x&sup2; + 1)/(x + 1), what must you do first?",
+        "options": ["Apply partial fractions directly", "Divide to get a polynomial plus a proper remainder fraction", "Substitute x = &minus;1", "Complete the square"],
+        "answer": 1,
+        "explanation": "When the fraction is improper, do polynomial long division first. (x&sup2; + 1)/(x + 1) = (x &minus; 1) + 2/(x + 1); only the proper part 2/(x + 1) needs further work."
+      },
+      {
+        "q": "The correct partial-fraction form of 1/[(x &minus; 1)(x &minus; 2)] is:",
+        "options": ["A/(x &minus; 1) + B/(x &minus; 2)", "(Ax + B)/(x &minus; 1)(x &minus; 2)", "A/(x &minus; 1)&sup2; + B/(x &minus; 2)", "A/(x &minus; 1) + Bx/(x &minus; 2)"],
+        "answer": 0,
+        "explanation": "Two distinct linear factors each get a single constant numerator: A/(x &minus; 1) + B/(x &minus; 2)."
+      },
+      {
+        "q": "Solving 1/[(x &minus; 1)(x &minus; 2)] = A/(x &minus; 1) + B/(x &minus; 2), the values are:",
+        "options": ["A = 1, B = 1", "A = &minus;1, B = 1", "A = 1, B = &minus;1", "A = 2, B = &minus;2"],
+        "answer": 1,
+        "explanation": "Multiply out: 1 = A(x &minus; 2) + B(x &minus; 1). Put x = 1: 1 = A(&minus;1), so A = &minus;1. Put x = 2: 1 = B(1), so B = 1."
+      },
+      {
+        "q": "For a repeated linear factor, the fraction 1/[(x &minus; 1)&sup2;(x + 2)] must be written as:",
+        "options": ["A/(x &minus; 1) + B/(x + 2)", "A/(x &minus; 1)&sup2; + B/(x + 2)", "A/(x &minus; 1) + B/(x &minus; 1)&sup2; + C/(x + 2)", "(Ax + B)/(x &minus; 1)&sup2; + C/(x + 2)"],
+        "answer": 2,
+        "explanation": "A repeated factor (x &minus; 1)&sup2; contributes two terms, A/(x &minus; 1) and B/(x &minus; 1)&sup2;, and the distinct factor (x + 2) contributes C/(x + 2)."
+      },
+      {
+        "q": "For an irreducible quadratic factor, the correct numerator in the partial fraction is:",
+        "options": ["A constant A", "A linear term Ax + B", "A quadratic Ax&sup2; + Bx + C", "Zero"],
+        "answer": 1,
+        "explanation": "An irreducible quadratic such as (x&sup2; + 1) takes a linear numerator (Ax + B)/(x&sup2; + 1), because the numerator degree is one less than the denominator degree."
+      },
+      {
+        "q": "&int; dx/[(x &minus; 1)(x &minus; 2)] equals:",
+        "options": ["log|x &minus; 1| + log|x &minus; 2| + C", "log|(x &minus; 2)/(x &minus; 1)| + C", "log|(x &minus; 1)/(x &minus; 2)| + C", "log|(x &minus; 1)(x &minus; 2)| + C"],
+        "answer": 1,
+        "explanation": "Using A = &minus;1, B = 1, the integral is &minus;log|x &minus; 1| + log|x &minus; 2| + C = log|(x &minus; 2)/(x &minus; 1)| + C."
+      },
+      {
+        "q": "Which substitution turns 1/[x(x&sup2; + 1)] type problems into an easier partial-fraction split when only even powers of x appear?",
+        "options": ["Let t = x&sup2;", "Let t = log x", "Let t = sin x", "Let t = e&#8339;"],
+        "answer": 0,
+        "explanation": "When the expression depends on x&sup2; (for example 1/[x(x&sup2; + 1)] handled via x dx), the substitution t = x&sup2; converts it to a rational function in t that splits with simple partial fractions."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is Exercise 7.5 in NCERT Class 12 Maths about?",
+      "a": "Exercise 7.5 covers integration by partial fractions. You learn to break a rational function into simpler fractions &mdash; using distinct linear factors, repeated factors and irreducible quadratic factors &mdash; and then integrate each piece."
+    },
+    {
+      "q": "When can I apply the partial-fraction method?",
+      "a": "Only to a proper rational function, where the numerator degree is less than the denominator degree. If the fraction is improper, first divide to get a polynomial plus a proper remainder, then split the remainder into partial fractions."
+    },
+    {
+      "q": "How do I handle a repeated linear factor like (x &minus; 1)&sup2;?",
+      "a": "A repeated factor needs one term for each power. For (x &minus; 1)&sup2; write A/(x &minus; 1) + B/(x &minus; 1)&sup2;. Missing the second term is the most common mistake students make in this exercise."
+    },
+    {
+      "q": "What numerator goes over an irreducible quadratic factor?",
+      "a": "Use a linear numerator of the form (Ax + B) over a factor like (x&sup2; + 1). After splitting, such terms usually integrate to a log and an arctan expression."
+    },
+    {
+      "q": "Where can I get fully solved answers for every question in Exercise 7.5?",
+      "a": "Our Class 12 CBSE fully-solved workbook gives step-by-step solutions for the whole Integrals chapter, including every partial-fraction problem in Exercise 7.5, with the setup and each simplification shown. The link is in the box below."
+    }
+  ]
+}

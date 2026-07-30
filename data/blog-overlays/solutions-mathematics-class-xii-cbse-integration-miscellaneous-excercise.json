@@ -1,0 +1,85 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-miscellaneous-excercise",
+  "meta_title": "Integration Miscellaneous Exercise Solutions Class 12",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths solutions for the Integration miscellaneous exercise, covering partial fractions, by parts and substitution. Try the quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Class 12 Integration Miscellaneous Quiz",
+    "intro": "Eight mixed questions covering partial fractions, integration by parts, substitution, special forms and definite integrals. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 integration methods (Chapter 7 miscellaneous)",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Using substitution, &int; 2x&thinsp;cos(x&sup2;) dx equals:",
+        "options": ["sin(x&sup2;) + C", "2 sin(x&sup2;) + C", "cos(x&sup2;) + C", "&frac12; sin(x&sup2;) + C"],
+        "answer": 0,
+        "explanation": "Put u = x&sup2;, so du = 2x dx. The integral becomes &int; cos u du = sin u + C = sin(x&sup2;) + C."
+      },
+      {
+        "q": "By partial fractions, 1/[(x&minus;1)(x+1)] can be written as:",
+        "options": ["&frac12;[1/(x&minus;1) + 1/(x+1)]", "&frac12;[1/(x&minus;1) &minus; 1/(x+1)]", "1/(x&minus;1) &minus; 1/(x+1)", "&frac12;[1/(x+1) &minus; 1/(x&minus;1)]"],
+        "answer": 1,
+        "explanation": "Set 1/[(x&minus;1)(x+1)] = A/(x&minus;1) + B/(x+1). Solving gives A = &frac12; and B = &minus;&frac12;, so the answer is &frac12;[1/(x&minus;1) &minus; 1/(x+1)]."
+      },
+      {
+        "q": "Using integration by parts, &int; x&thinsp;e&#8339; dx equals:",
+        "options": ["x&thinsp;e&#8339; + e&#8339; + C", "x&thinsp;e&#8339; &minus; e&#8339; + C", "e&#8339;(x&sup2;/2) + C", "x&thinsp;e&#8339; + C"],
+        "answer": 1,
+        "explanation": "Take u = x, dv = e&#8339; dx. Then &int; x e&#8339; dx = x e&#8339; &minus; &int; e&#8339; dx = x e&#8339; &minus; e&#8339; + C = e&#8339;(x &minus; 1) + C."
+      },
+      {
+        "q": "The value of the definite integral &int; from 0 to 1 of 2x dx is:",
+        "options": ["2", "1", "&frac12;", "0"],
+        "answer": 1,
+        "explanation": "&int; 2x dx = x&sup2;. Evaluating from 0 to 1 gives 1&sup2; &minus; 0&sup2; = 1."
+      },
+      {
+        "q": "For the special form &int; dx/(x&sup2; + a&sup2;), the result is:",
+        "options": ["ln|x&sup2; + a&sup2;| + C", "(1/a) tan&#8315;&sup1;(x/a) + C", "(1/2a) ln|(x&minus;a)/(x+a)| + C", "a tan&#8315;&sup1;(ax) + C"],
+        "answer": 1,
+        "explanation": "This is the standard form &int; dx/(x&sup2; + a&sup2;) = (1/a) tan&#8315;&sup1;(x/a) + C."
+      },
+      {
+        "q": "By substitution, &int; (ln x)/x dx equals:",
+        "options": ["(ln x)&sup2; + C", "&frac12;(ln x)&sup2; + C", "ln|ln x| + C", "1/x + C"],
+        "answer": 1,
+        "explanation": "Let u = ln x, so du = (1/x) dx. The integral becomes &int; u du = u&sup2;/2 + C = &frac12;(ln x)&sup2; + C."
+      },
+      {
+        "q": "Using the property of definite integrals, &int; from &minus;a to a of an odd function f(x) dx equals:",
+        "options": ["2 &int; from 0 to a of f(x) dx", "0", "a&sup2;", "&int; from 0 to a of f(x) dx"],
+        "answer": 1,
+        "explanation": "For an odd function f(&minus;x) = &minus;f(x), the symmetric integral &int; from &minus;a to a f(x) dx = 0."
+      },
+      {
+        "q": "The special form &int; dx/(x&sup2; &minus; a&sup2;) equals:",
+        "options": ["(1/a) tan&#8315;&sup1;(x/a) + C", "(1/2a) ln|(x&minus;a)/(x+a)| + C", "ln|x&sup2; &minus; a&sup2;| + C", "(1/2a) ln|(x+a)/(x&minus;a)| + C"],
+        "answer": 1,
+        "explanation": "The standard result is &int; dx/(x&sup2; &minus; a&sup2;) = (1/2a) ln|(x &minus; a)/(x + a)| + C."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I decide which integration method to use in this exercise?",
+      "a": "Look at the form of the integrand first. A product of two different functions usually calls for integration by parts, a rational function with factorable denominator suggests partial fractions, and anything where an inner function's derivative is present points to substitution. Special forms like 1/(x&sup2;+a&sup2;) are worth memorising outright."
+    },
+    {
+      "q": "What order should I try methods in if I am stuck?",
+      "a": "Start with substitution, since it is fastest when it works. If the integrand is a ratio of polynomials, check whether the degree of the numerator is less than the denominator and then split into partial fractions. Save integration by parts for products like x&thinsp;e&#8339; or x&thinsp;sin x."
+    },
+    {
+      "q": "Why do definite integrals sometimes come out to zero here?",
+      "a": "When the limits are symmetric, from &minus;a to a, and the integrand is an odd function, the areas above and below the axis cancel exactly, giving zero. Spotting odd or even symmetry before integrating can save a lot of work."
+    },
+    {
+      "q": "Do I need to memorise the standard integral forms?",
+      "a": "Yes. The forms for 1/(x&sup2;+a&sup2;), 1/(x&sup2;&minus;a&sup2;), 1/&radic;(a&sup2;&minus;x&sup2;) and their relatives appear across the miscellaneous exercise and in board exams. Knowing them on sight turns hard-looking problems into one-line answers."
+    },
+    {
+      "q": "Where can I get the full worked solutions for this exercise?",
+      "a": "Our fully solved Class 12 CBSE workbook has every miscellaneous integration problem worked step by step, with the method labelled and the substitution or partial-fraction setup shown in full. The link is in the box below."
+    }
+  ]
+}
