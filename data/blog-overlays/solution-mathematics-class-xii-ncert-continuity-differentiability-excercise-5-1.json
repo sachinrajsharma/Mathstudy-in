@@ -1,0 +1,85 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-1",
+  "meta_title": "NCERT Class 12 Maths Ex 5.1 Solutions: Continuity",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 5.1 solutions on continuity, plus a free 8-question quiz on checking continuity and finding k. Practice now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Continuity Quiz (NCERT Ex 5.1)",
+    "intro": "Eight questions on continuity at a point, discontinuities, and finding k for continuity. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Continuity and Differentiability, Exercise 5.1",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "A function f is continuous at x = a when which condition holds?",
+        "options": ["f(a) merely exists", "The left-hand limit exists only", "lim(x&rarr;a) f(x) = f(a)", "f is defined on both sides of a"],
+        "answer": 2,
+        "explanation": "Continuity at a needs three things together: f(a) is defined, lim(x&rarr;a) f(x) exists, and that limit equals f(a). Only the third option captures the full condition."
+      },
+      {
+        "q": "Every polynomial function, such as f(x) = 2x&sup3; &minus; x + 5, is continuous at which points?",
+        "options": ["Only at x = 0", "At every real number", "Only where f(x) = 0", "Nowhere without checking"],
+        "answer": 1,
+        "explanation": "Polynomials are continuous for all real x. For any point a, the limit equals the direct substitution value f(a), so no point ever fails."
+      },
+      {
+        "q": "For f(x) = 1/(x &minus; 3), at which point is the function discontinuous?",
+        "options": ["x = 3", "x = 0", "x = &minus;3", "It is continuous everywhere"],
+        "answer": 0,
+        "explanation": "A rational function is continuous wherever the denominator is non-zero. At x = 3 the denominator is 0 and f is undefined, so that is the only point of discontinuity."
+      },
+      {
+        "q": "The function f(x) = |x| is continuous at x = 0 because&hellip;",
+        "options": ["The left limit is 1", "f(0) is undefined", "Both one-sided limits equal 0 = f(0)", "It has a jump at 0"],
+        "answer": 2,
+        "explanation": "As x &rarr; 0 from either side, |x| &rarr; 0, and f(0) = 0. The limit equals the value, so the modulus function is continuous at 0 (it only lacks differentiability there)."
+      },
+      {
+        "q": "If f(x) = kx&sup2; for x &le; 2 and f(x) = 3 for x &gt; 2 is continuous at x = 2, then k equals:",
+        "options": ["3/4", "4/3", "3", "1/3"],
+        "answer": 0,
+        "explanation": "For continuity at 2 the two pieces must agree: k(2)&sup2; = 3, so 4k = 3 and k = 3/4."
+      },
+      {
+        "q": "A function has a jump discontinuity at x = a when:",
+        "options": ["f(a) equals the limit", "The left and right limits exist but differ", "The function is a polynomial", "Both limits are infinite"],
+        "answer": 1,
+        "explanation": "A jump (or step) discontinuity occurs when both one-sided limits exist finitely but are unequal, so no single limit value can match f(a)."
+      },
+      {
+        "q": "For f(x) = (x&sup2; &minus; 4)/(x &minus; 2) with x &ne; 2, what value of f(2) makes f continuous at x = 2?",
+        "options": ["0", "2", "4", "No value works"],
+        "answer": 2,
+        "explanation": "For x &ne; 2, (x&sup2; &minus; 4)/(x &minus; 2) = x + 2, whose limit as x &rarr; 2 is 4. Defining f(2) = 4 removes the discontinuity."
+      },
+      {
+        "q": "If f and g are both continuous at x = a, which of the following is guaranteed continuous at a?",
+        "options": ["f/g always", "f + g", "Only f", "Neither f + g nor fg"],
+        "answer": 1,
+        "explanation": "Sums, differences and products of continuous functions are continuous. The quotient f/g is continuous only where g(a) &ne; 0, so f + g is the safe choice."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the main idea of NCERT Class 12 Exercise 5.1?",
+      "a": "Exercise 5.1 is entirely about continuity. You check whether a function is continuous at a given point, find every point of discontinuity, and determine the value of a constant (often k) that makes a piecewise function continuous."
+    },
+    {
+      "q": "How do I check if a function is continuous at a point?",
+      "a": "Confirm three things at that point: f(a) is defined, the limit as x approaches a exists (left-hand limit equals right-hand limit), and that limit equals f(a). If all three hold, f is continuous there."
+    },
+    {
+      "q": "Which functions are continuous everywhere in this exercise?",
+      "a": "Every polynomial is continuous for all real x. Rational functions are continuous wherever the denominator is non-zero, and the modulus function |x| is continuous everywhere, including at x = 0."
+    },
+    {
+      "q": "How do you find the value of k for continuity?",
+      "a": "Set the two pieces of the function equal at the breakpoint. Compute the left-hand and right-hand limits there, equate them to f at that point, and solve the resulting equation for k."
+    },
+    {
+      "q": "Where can I get full solved solutions and extra practice?",
+      "a": "Our Class 12 Continuity and Differentiability case-study e-book gives worked solutions plus exam-style case studies with full answer keys, as an instant printable PDF. The link is in the box below."
+    }
+  ]
+}

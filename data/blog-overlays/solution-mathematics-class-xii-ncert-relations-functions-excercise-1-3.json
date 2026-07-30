@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-relations-functions-excercise-1-3",
+  "meta_title": "NCERT Class 12 Relations & Functions Ex 1.3 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 1.3 solutions on composition of functions (gof, fog) and invertible functions, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Composition & Inverse Functions Quiz",
+    "intro": "Eight questions on gof, fog, one-one, onto and finding inverses, straight from Exercise 1.3. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Relations and Functions, Exercise 1.3",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If f(x) = 2x and g(x) = x + 3, what is (gof)(x)?", "options": ["2x + 3", "2x + 6", "2(x + 3)", "x + 6"], "answer": 0, "explanation": "(gof)(x) = g(f(x)) = g(2x) = 2x + 3. Apply f first, then g." },
+      { "q": "For the same f(x) = 2x and g(x) = x + 3, what is (fog)(x)?", "options": ["2x + 3", "2x + 6", "x + 6", "2x"], "answer": 1, "explanation": "(fog)(x) = f(g(x)) = f(x + 3) = 2(x + 3) = 2x + 6. Notice fog is not the same as gof." },
+      { "q": "A function f is invertible if and only if it is:", "options": ["only one-one", "only onto", "both one-one and onto (bijective)", "neither one-one nor onto"], "answer": 2, "explanation": "A function has an inverse exactly when it is a bijection, that is one-one (injective) and onto (surjective) together." },
+      { "q": "If f(x) = 3x + 5 on R, what is its inverse f-inverse(y)?", "options": ["(y + 5)/3", "3y - 5", "(5 - y)/3", "(y - 5)/3"], "answer": 3, "explanation": "Set y = 3x + 5, so x = (y - 5)/3. Hence f-inverse(y) = (y - 5)/3." },
+      { "q": "If f is invertible, then (f-inverse o f)(x) equals:", "options": ["f(x)", "x", "1", "f-inverse(x)"], "answer": 1, "explanation": "Composing a function with its inverse gives the identity: (f-inverse o f)(x) = x for every x in the domain." },
+      { "q": "If f: R to R is f(x) = x squared, why is it NOT invertible?", "options": ["It is not one-one", "It is not defined at 0", "It has no formula", "It is not a function"], "answer": 0, "explanation": "f(2) = f(-2) = 4, so different inputs share an output. It fails the one-one test, so no inverse exists on all of R." },
+      { "q": "If (gof) is onto, which statement must be true?", "options": ["f is onto", "f is one-one", "g is onto", "g is one-one"], "answer": 2, "explanation": "The final output of gof comes from g, so if gof is onto then g must be onto. f need not be onto." },
+      { "q": "For invertible f and g, the inverse of (gof) is:", "options": ["g-inverse o f-inverse", "gof", "fog", "f-inverse o g-inverse"], "answer": 3, "explanation": "The reversal law gives (gof)-inverse = f-inverse o g-inverse. Undo the last-applied function (g) first." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 1.3 of Class 12 Relations and Functions cover?", "a": "It deals with composition of functions (gof and fog) and invertible functions. You learn to compute composites, check whether a function is one-one and onto, and find the inverse when it exists." },
+    { "q": "Is gof the same as fog?", "a": "Usually not. gof means apply f first then g, while fog applies g first then f. For f(x) = 2x and g(x) = x + 3 you get gof = 2x + 3 but fog = 2x + 6, so the order genuinely matters." },
+    { "q": "When is a function invertible?", "a": "A function is invertible exactly when it is a bijection &mdash; both one-one (injective) and onto (surjective). If either property fails, no inverse exists over that domain and codomain." },
+    { "q": "How do I find the inverse of a function?", "a": "First confirm it is one-one and onto. Then write y = f(x), solve the equation for x in terms of y, and swap the roles so f-inverse(y) is that expression. For f(x) = 3x + 5 you get f-inverse(y) = (y - 5)/3." },
+    { "q": "Where can I get full solutions and case-study practice for this chapter?", "a": "Our Class 12 Relations and Functions case-studies e-book gives worked solutions to every Exercise 1.3 problem plus exam-style case studies with answer keys &mdash; an instant PDF. The link is in the box below." }
+  ]
+}
