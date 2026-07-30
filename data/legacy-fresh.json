@@ -330,16 +330,6 @@
     "route": "FRESH"
   },
   {
-    "cta": "addition-worksheets-for-grade-1",
-    "fmt": "html",
-    "slug": "maths-worksheet-grade-1-chapter-addition-2",
-    "title": "maths worksheet grade 1 chapter addition",
-    "views": 45,
-    "wc": 175,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
     "cta": null,
     "fmt": "html",
     "slug": "cbse-class-1-maths-pattern-worksheets",
@@ -356,16 +346,6 @@
     "title": "class 12 maths books",
     "views": 44,
     "wc": 130,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "class-9-trigonometry-chapter-tests",
-    "fmt": "html",
-    "slug": "trigonometry-dpp-pdf",
-    "title": "Trigonometry DPP pdf",
-    "views": 44,
-    "wc": 338,
     "isCanon": false,
     "route": "FRESH"
   },
@@ -390,16 +370,6 @@
     "route": "FRESH"
   },
   {
-    "cta": "work-book-class-xii-c-b-s-e-fully-solved",
-    "fmt": "html",
-    "slug": "class-12-math-workbook-fully-solved",
-    "title": "Class 12 math workbook fully solved C.B.S.E.",
-    "views": 43,
-    "wc": 686,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
     "cta": "jee-mains-advance-dpp-complex-numbers",
     "fmt": "markdown",
     "slug": "online-test-logarithm-for-jee-mains-and-advance",
@@ -416,16 +386,6 @@
     "title": "worksheets on differential equations class 12",
     "views": 42,
     "wc": 134,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "best-math-workbook-for-1st-grade-printable-worksheets",
-    "fmt": "html",
-    "slug": "best-e-book-on-mathematics",
-    "title": "best e book on mathematics",
-    "views": 42,
-    "wc": 131,
     "isCanon": false,
     "route": "FRESH"
   },
