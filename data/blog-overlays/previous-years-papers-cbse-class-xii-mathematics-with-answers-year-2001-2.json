@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2001-2",
+  "meta_title": "CBSE Class 12 Maths 2001 Question Paper + Answers",
+  "meta_desc": "Practise the CBSE Class 12 Maths 2001 previous-year paper covering calculus, matrices, vectors and probability, with answers and a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2001 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 2001 paper, spanning calculus, matrices, vectors, 3D geometry and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2001 board paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If A is a 3&times;3 matrix with |A| = 4, what is |2A|?", "options": ["8", "16", "32", "64"], "answer": 2, "explanation": "For an n&times;n matrix, |kA| = k<sup>n</sup>|A|. Here n = 3, so |2A| = 2<sup>3</sup> &times; 4 = 8 &times; 4 = 32." },
+      { "q": "If y = x<sup>x</sup>, then dy/dx equals:", "options": ["x<sup>x</sup> ln x", "x &middot; x<sup>x&minus;1</sup>", "x<sup>x</sup>", "x<sup>x</sup>(1 + ln x)"], "answer": 3, "explanation": "Take logs: ln y = x ln x. Differentiate: (1/y) y' = ln x + 1, so dy/dx = x<sup>x</sup>(1 + ln x)." },
+      { "q": "Evaluate &int; from 0 to 1 of x e<sup>x</sup> dx.", "options": ["0", "1", "e", "e &minus; 1"], "answer": 1, "explanation": "By parts, &int; x e<sup>x</sup> dx = x e<sup>x</sup> &minus; e<sup>x</sup>. At the limits: (e &minus; e) &minus; (0 &minus; 1) = 1." },
+      { "q": "Two vectors a and b satisfy a &middot; b = |a||b|/2. The angle between them is:", "options": ["30&deg;", "45&deg;", "60&deg;", "90&deg;"], "answer": 2, "explanation": "a &middot; b = |a||b| cos&theta;, so cos&theta; = 1/2, giving &theta; = 60&deg;." },
+      { "q": "A bag has 3 red and 2 black balls. Two are drawn without replacement. What is P(both red)?", "options": ["3/10", "1/5", "2/5", "3/5"], "answer": 0, "explanation": "P(both red) = (3/5) &times; (2/4) = 6/20 = 3/10." },
+      { "q": "A line has direction ratios 2, &minus;1, 2. Its direction cosines are:", "options": ["(2/3, &minus;1/3, 2/3)", "(1/3, &minus;1/3, 1/3)", "(2/5, &minus;1/5, 2/5)", "(2/9, &minus;1/9, 2/9)"], "answer": 0, "explanation": "Magnitude = &radic;(4 + 1 + 4) = 3. Divide each ratio by 3 to get (2/3, &minus;1/3, 2/3)." },
+      { "q": "For a 3&times;3 matrix A with |A| = 5, the value of |adj A| is:", "options": ["5", "10", "125", "25"], "answer": 3, "explanation": "|adj A| = |A|<sup>n&minus;1</sup>. With n = 3, |adj A| = 5<sup>2</sup> = 25." },
+      { "q": "The order and degree of (d<sup>2</sup>y/dx<sup>2</sup>)<sup>3</sup> + (dy/dx)<sup>2</sup> + y = 0 are:", "options": ["Order 3, degree 2", "Order 2, degree 3", "Order 2, degree 2", "Order 3, degree 3"], "answer": 1, "explanation": "The highest derivative is d<sup>2</sup>y/dx<sup>2</sup> (order 2), and its highest power in the polynomial form is 3 (degree 3)." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the CBSE Class 12 Maths 2001 paper cover?", "a": "It spans the full Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations and probability. The mix mirrors what still appears on the board paper today." },
+    { "q": "Are older papers like 2001 still useful for current board exams?", "a": "Yes. The core concepts &mdash; continuity, definite integrals, adjoint and inverse, dot and cross products, conditional probability &mdash; have barely changed. Older papers give clean, well-set questions for building fundamentals before you move to recent patterns." },
+    { "q": "How should I use a previous-year paper while revising?", "a": "Attempt it in one timed sitting without notes, mark it against the answer key, then re-work only the questions you missed. That gap analysis is far more useful than passively reading solved answers." },
+    { "q": "How is the degree of a differential equation decided?", "a": "First write the equation as a polynomial in its derivatives (no radicals or fractions of derivatives). The degree is then the highest power of the highest-order derivative. If it cannot be written as such a polynomial, the degree is not defined." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from repeatedly. The link is in the box below." }
+  ]
+}

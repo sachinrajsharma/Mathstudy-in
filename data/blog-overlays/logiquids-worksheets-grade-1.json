@@ -1,0 +1,30 @@
+{
+  "slug": "logiquids-worksheets-grade-1",
+  "meta_title": "Logiquids Worksheets Grade 1 + Free Reasoning Quiz",
+  "meta_desc": "Logiquids worksheets for Grade 1 build logical reasoning, patterns and odd-one-out skills. Try a free 8-question quiz and grab printable practice below.",
+  "category": "Grade 1 Maths",
+  "cta_product_slug": "best-math-workbook-for-1st-grade-printable-worksheets",
+  "quiz": {
+    "title": "Grade 1 Logical Reasoning Quiz",
+    "intro": "Eight simple questions on patterns, sequences and odd-one-out, the same thinking skills Logiquids worksheets build. Pick an answer for each, then press Check my score.",
+    "about": "Grade 1 logical reasoning and patterns",
+    "level": "Grade 1",
+    "questions": [
+      { "q": "What comes next? Circle, Square, Circle, Square, ___", "options": ["Circle", "Square", "Triangle", "Star"], "answer": 0, "explanation": "The shapes take turns: circle, square, circle, square. After a square it is the circle's turn again." },
+      { "q": "Which one is the odd one out? Apple, Banana, Car, Mango", "options": ["Apple", "Banana", "Car", "Mango"], "answer": 2, "explanation": "Apple, banana and mango are all fruits you can eat. A car is not a fruit, so it does not belong." },
+      { "q": "Fill in the missing number: 2, 4, 6, ___, 10", "options": ["7", "8", "9", "5"], "answer": 1, "explanation": "The numbers go up by 2 each time: 2, 4, 6, then 8, then 10." },
+      { "q": "Big, Bigger, ___. Which word completes it?", "options": ["Small", "Biggest", "Little", "Tall"], "answer": 1, "explanation": "The words show more and more size: big, bigger, biggest. This is a size sequence." },
+      { "q": "A cat has 4 legs. How many legs do 2 cats have?", "options": ["6", "7", "8", "4"], "answer": 2, "explanation": "Each cat has 4 legs. Two cats means 4 and 4 more, which is 8 legs in all." },
+      { "q": "Which shape is different from the others? Red circle, Red circle, Blue circle, Red circle", "options": ["First red circle", "Second red circle", "Blue circle", "Last red circle"], "answer": 2, "explanation": "Three of the circles are red and one is blue. The blue circle is the one that is different." },
+      { "q": "What comes next? 1, 2, 3, 4, ___", "options": ["6", "4", "5", "3"], "answer": 2, "explanation": "The numbers count up one at a time: 1, 2, 3, 4, then 5 comes next." },
+      { "q": "Sunday, Monday, Tuesday, ___. Which day is next?", "options": ["Friday", "Wednesday", "Sunday", "Saturday"], "answer": 1, "explanation": "The days go in order. After Tuesday comes Wednesday." }
+    ]
+  },
+  "faq": [
+    { "q": "What are Logiquids worksheets for Grade 1?", "a": "Logiquids is a logical-reasoning worksheet programme for young children. For Grade 1 the sheets use pictures and simple numbers to practise patterns, sequences, odd-one-out and sorting, so a 6-year-old builds thinking skills alongside early maths." },
+    { "q": "What skills do these worksheets build?", "a": "They train the reasoning a child needs across every subject: spotting patterns, comparing sizes and quantities, grouping things that belong together, and working out what comes next. These are the habits behind confident problem-solving later on." },
+    { "q": "Are logical-reasoning worksheets too hard for a 6-year-old?", "a": "No, as long as they stay picture-based and short. A Grade 1 child handles odd-one-out and simple patterns happily; the trick is a few questions at a time rather than a long sheet, so it feels like a puzzle and not a test." },
+    { "q": "How often should my child practise reasoning?", "a": "About ten minutes a day works better than one long session on the weekend. Mix a pattern puzzle with a couple of counting questions so the child has to choose how to think, which is where real reasoning shows up." },
+    { "q": "Where can I get printable Grade 1 reasoning and maths worksheets?", "a": "Our Grade 1 printable workbook has graded pattern, sequence and early-maths practice with a full answer key, ready to print as often as you like. The link is in the box below." }
+  ]
+}

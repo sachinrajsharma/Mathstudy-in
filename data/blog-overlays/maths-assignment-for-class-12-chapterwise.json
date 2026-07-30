@@ -1,0 +1,30 @@
+{
+  "slug": "maths-assignment-for-class-12-chapterwise",
+  "meta_title": "Maths Assignment for Class 12 (Chapter-wise) + Quiz",
+  "meta_desc": "Chapter-wise Class 12 Maths assignment questions across all board units, plus a free 8-question quiz and printable test papers with full solutions.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "chapter-wise-test-papers-for-class-12-maths",
+  "quiz": {
+    "title": "Class 12 Maths Chapter-wise Quiz",
+    "intro": "Eight questions spanning the Class 12 syllabus, one from each major chapter. Choose an answer for each, then press Check my score and read the working for anything you miss.",
+    "about": "Class 12 Maths across all chapters",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A relation R on a set is called an equivalence relation when it is:", "options": ["Reflexive and symmetric only", "Symmetric and transitive only", "Reflexive, symmetric and transitive", "Reflexive and transitive only"], "answer": 2, "explanation": "An equivalence relation must satisfy all three properties at once: reflexive, symmetric and transitive. Miss any one and it is not an equivalence relation." },
+      { "q": "The principal value of sin&minus;&sup1;(1/2) is:", "options": ["&pi;/6", "&pi;/3", "&pi;/4", "&pi;/2"], "answer": 0, "explanation": "sin&minus;&sup1; returns an angle in [&minus;&pi;/2, &pi;/2]. Since sin(&pi;/6) = 1/2, the principal value is &pi;/6." },
+      { "q": "If A is a 3&times;3 matrix with |A| = 4, then |2A| equals:", "options": ["8", "16", "24", "32"], "answer": 3, "explanation": "For an n&times;n matrix, |kA| = k&#8319;|A|. Here n = 3, so |2A| = 2&sup3; &times; 4 = 8 &times; 4 = 32." },
+      { "q": "The function f(x) = |x| is continuous but not differentiable at:", "options": ["x = 1", "x = 0", "x = &minus;1", "every point"], "answer": 1, "explanation": "|x| has a sharp corner at x = 0, where the left and right derivatives differ (&minus;1 and +1), so it is continuous there but not differentiable." },
+      { "q": "&int; 1/x dx equals:", "options": ["x&sup2;/2 + C", "ln|x| + C", "&minus;1/x&sup2; + C", "e&#8339; + C"], "answer": 1, "explanation": "The integral of 1/x is the natural logarithm of |x|: &int; 1/x dx = ln|x| + C. The modulus keeps it valid for negative x too." },
+      { "q": "The order of the differential equation d&sup2;y/dx&sup2; + 3(dy/dx)&sup3; + y = 0 is:", "options": ["3", "1", "2", "0"], "answer": 2, "explanation": "Order is the highest derivative present. The highest here is d&sup2;y/dx&sup2;, so the order is 2. The cube is only the degree of dy/dx, not the order." },
+      { "q": "The dot product of two perpendicular non-zero vectors is:", "options": ["1", "Their magnitudes multiplied", "0", "&minus;1"], "answer": 2, "explanation": "a&middot;b = |a||b|cos&theta;. For perpendicular vectors &theta; = 90&deg; and cos 90&deg; = 0, so the dot product is 0." },
+      { "q": "Two events A and B are independent when:", "options": ["P(A&cap;B) = P(A) + P(B)", "P(A&cap;B) = P(A)&middot;P(B)", "P(A&cap;B) = 0", "P(A) = P(B)"], "answer": 1, "explanation": "Independence means one event does not affect the other, so the probability of both occurring is the product: P(A&cap;B) = P(A)&middot;P(B)." }
+    ]
+  },
+  "faq": [
+    { "q": "Which chapters does a Class 12 Maths chapter-wise assignment cover?", "a": "It runs across the full CBSE syllabus: relations and functions, inverse trigonometric functions, matrices and determinants, continuity and differentiability, applications of derivatives, integrals, differential equations, vectors and three-dimensional geometry, linear programming and probability." },
+    { "q": "How should I use chapter-wise assignments in my revision?", "a": "Finish a chapter, then attempt only that chapter's assignment while the theory is fresh. This isolates weak spots faster than a mixed paper, and you can return to full-syllabus practice once each chapter is solid." },
+    { "q": "Which Class 12 chapters carry the most marks in the board exam?", "a": "Calculus is the heaviest block &mdash; continuity, differentiability, applications of derivatives, integrals and differential equations together account for the largest share. Vectors and 3D geometry, and algebra (matrices and determinants) follow." },
+    { "q": "Are these assignment questions enough for the board exam?", "a": "They build the routine practice you need chapter by chapter, but pair them with previous-year board papers and at least a few full-length timed mock tests so you get used to the exam's spread and time pressure." },
+    { "q": "Where can I get chapter-wise test papers for Class 12 Maths with solutions?", "a": "Our chapter-wise test papers e-book for Class 12 Maths gives graded papers for every unit with full step-by-step solutions, as an instant printable PDF. The link is in the box below." }
+  ]
+}

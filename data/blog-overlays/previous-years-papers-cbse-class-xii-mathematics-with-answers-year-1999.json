@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-1999",
+  "meta_title": "CBSE Class 12 Maths 1999 Previous Year Paper + Answers",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 1999 board paper with worked answers, then take a free 8-question quiz on calculus, matrices, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 1999 Paper Quiz",
+    "intro": "Eight board-level questions in the style of the 1999 paper, covering calculus, matrices and determinants, vectors and 3D, integrals and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 1999 previous year paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = e^(2x), then dy/dx equals:", "options": ["2e^(2x)", "e^(2x)", "e^(2x)/2", "2x e^(2x)"], "answer": 0, "explanation": "By the chain rule, d/dx e^(u) = e^(u) du/dx. Here u = 2x, so du/dx = 2 and dy/dx = 2e^(2x)." },
+      { "q": "The value of the determinant | 2 3 ; 4 5 | is:", "options": ["-2", "2", "22", "-22"], "answer": 0, "explanation": "A 2x2 determinant is ad - bc = (2)(5) - (3)(4) = 10 - 12 = -2." },
+      { "q": "The integral of 1/x dx (x &gt; 0) is:", "options": ["x^2/2 + C", "ln|x| + C", "-1/x^2 + C", "1 + C"], "answer": 1, "explanation": "The integral of 1/x is the natural logarithm: &#8747; (1/x) dx = ln|x| + C." },
+      { "q": "The angle between two vectors a and b when a &middot; b = 0 (both non-zero) is:", "options": ["0&deg;", "45&deg;", "90&deg;", "180&deg;"], "answer": 2, "explanation": "a &middot; b = |a||b|cos&theta;. A zero dot product with non-zero vectors forces cos&theta; = 0, so &theta; = 90&deg; (the vectors are perpendicular)." },
+      { "q": "A fair coin is tossed twice. The probability of getting exactly one head is:", "options": ["1/4", "1/2", "3/4", "1/3"], "answer": 1, "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head occurs in HT and TH, so the probability is 2/4 = 1/2." },
+      { "q": "The derivative of sin x with respect to x is:", "options": ["-cos x", "-sin x", "cos x", "tan x"], "answer": 2, "explanation": "The standard result is d/dx (sin x) = cos x." },
+      { "q": "If A is a 3x3 matrix with det(A) = 5, then det(2A) equals:", "options": ["10", "20", "40", "80"], "answer": 2, "explanation": "For an n x n matrix, det(kA) = k^n det(A). Here n = 3, so det(2A) = 2^3 &times; 5 = 8 &times; 5 = 40." },
+      { "q": "The direction ratios of the line joining points (1, 2, 3) and (4, 6, 3) are:", "options": ["3, 4, 0", "5, 8, 6", "3, 4, 6", "4, 6, 3"], "answer": 0, "explanation": "Direction ratios are the differences of coordinates: (4-1, 6-2, 3-3) = (3, 4, 0)." }
+    ]
+  },
+  "faq": [
+    { "q": "Is the CBSE Class 12 Maths 1999 paper still useful for today's board exam?", "a": "Yes. The 1999 paper predates the current pattern, but its core topics &mdash; calculus, matrices and determinants, vectors, 3D geometry and probability &mdash; are still the backbone of the Class 12 syllabus. Older papers are excellent for building fundamentals, even if the exact format has changed." },
+    { "q": "How is the 1999 paper different from recent CBSE papers?", "a": "The 1999 paper has no MCQ or case-study section and follows the older marking scheme with mostly long-answer questions. Recent papers mix objective, short-answer and case-based questions. Use 1999 for concept practice and a recent sample paper for exam-format practice." },
+    { "q": "Which chapters carry the most weight in this paper?", "a": "Calculus &mdash; differentiation, integration and their applications &mdash; dominates, as it still does today. Matrices and determinants, vectors and 3D geometry, and probability together make up most of the rest." },
+    { "q": "Should I time myself while solving this paper?", "a": "Once you have revised the chapters, yes. Sitting the paper in a single timed session shows you where you slow down &mdash; usually long integration or 3D problems &mdash; so you can plan your exam time better." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our CBSE Class 12 Mathematics sample papers e-book collects full-length practice papers with detailed solutions matched to the current board pattern &mdash; an instant PDF you can print and solve as often as you like. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "math-case-studies-class-12",
+  "meta_title": "Math Case Studies Class 12 — Solved with Free Quiz",
+  "meta_desc": "Practise CBSE Class 12 maths case study questions on calculus, matrices, probability, 3D and LPP with a free 8-question quiz and full solutions.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "math-case-studies-class-12-pdf-book",
+  "quiz": {
+    "title": "Class 12 Maths Case Study Quiz",
+    "intro": "Eight CBSE-style case study questions across calculus, matrices, probability, 3D geometry and linear programming. Read each short scenario, pick an answer, then press Check my score.",
+    "about": "Class 12 maths case study questions (CBSE)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A tin maker builds an open box from an 18 cm square sheet by cutting equal squares of side x cm from the corners and folding up the sides, giving volume V(x) = x(18 &minus; 2x)&sup2;. For what x is the volume greatest?", "options": ["2 cm", "3 cm", "4.5 cm", "9 cm"], "answer": 1, "explanation": "V'(x) = (18 &minus; 2x)(18 &minus; 6x). Setting it to zero gives x = 9 (a minimum, box collapses) or x = 3. The second-derivative test confirms x = 3 cm is the maximum." },
+      { "q": "A spherical weather balloon is inflated so its radius grows at 0.5 cm/s. Using dV/dt = 4&pi;r&sup2;(dr/dt), how fast is the volume rising when the radius is 7 cm?", "options": ["14&pi; cm&sup3;/s", "49&pi; cm&sup3;/s", "98&pi; cm&sup3;/s", "196&pi; cm&sup3;/s"], "answer": 2, "explanation": "dV/dt = 4&pi;(7&sup2;)(0.5) = 4&pi;(49)(0.5) = 98&pi; cm&sup3;/s." },
+      { "q": "A school orders x cricket bats and y balls. The count gives x + y = 30 and the cost gives 2x + y = 40, written as [[1,1],[2,1]][x;y] = [30;40]. What is the determinant of the coefficient matrix?", "options": ["&minus;1", "0", "1", "3"], "answer": 0, "explanation": "The determinant is (1)(1) &minus; (1)(2) = 1 &minus; 2 = &minus;1. It is non-zero, so the system has a unique solution." },
+      { "q": "Solving the same order system x + y = 30 and 2x + y = 40, how many bats (x) did the school buy?", "options": ["5", "15", "20", "10"], "answer": 3, "explanation": "Subtracting the first equation from the second: (2x + y) &minus; (x + y) = 40 &minus; 30, so x = 10 (and y = 20)." },
+      { "q": "A plant runs machines A and B. A makes 60% of bolts, B makes 40%; 2% of A's and 5% of B's bolts are defective. A bolt is found defective. By Bayes' theorem, what is the probability it came from B?", "options": ["3/8", "5/8", "1/2", "2/5"], "answer": 1, "explanation": "P(B and defective) = 0.4 &times; 0.05 = 0.02; total defective = 0.6 &times; 0.02 + 0.02 = 0.032. So P(B | defective) = 0.02 / 0.032 = 5/8." },
+      { "q": "A student guesses on a 5-question true/false test, each answer correct with probability 1/2 independently. Using the binomial distribution, what is P(exactly 3 correct)?", "options": ["5/16", "1/2", "3/16", "10/16"], "answer": 0, "explanation": "P = C(5,3)(1/2)&sup3;(1/2)&sup2; = 10 &times; (1/32) = 10/32 = 5/16." },
+      { "q": "A drone sits at the point (1, 2, 3). A flat camera panel lies on the plane 2x &minus; y + 2z = 15. What is the shortest distance from the drone to the panel?", "options": ["1 unit", "2 units", "3 units", "9 units"], "answer": 2, "explanation": "Distance = |2(1) &minus; 2 + 2(3) &minus; 15| / &radic;(2&sup2; + 1&sup2; + 2&sup2;) = |6 &minus; 15| / 3 = 9/3 = 3 units." },
+      { "q": "A bakery makes x cakes (profit &#8377;80 each) and y cookie batches (profit &#8377;30 each). Its feasible corner points are (0,0), (20,0), (12,16) and (0,24). Maximising Z = 80x + 30y, which corner gives the most profit?", "options": ["(0, 0)", "(0, 24)", "(12, 16)", "(20, 0)"], "answer": 3, "explanation": "Z at (20,0) = 1600, at (12,16) = 1440, at (0,24) = 720, at (0,0) = 0. The maximum, &#8377;1600, is at (20, 0)." }
+    ]
+  },
+  "faq": [
+    { "q": "What are case study questions in Class 12 maths?", "a": "They are questions that open with a short real-world scenario &mdash; a box being cut, a balloon inflating, a factory's defect rate &mdash; and then ask sub-questions that test the underlying concept. CBSE includes them to check whether you can apply a method, not just recall a formula." },
+    { "q": "Which chapters do Class 12 case studies usually cover?", "a": "The most common are applications of derivatives (maxima, minima and rates), matrices and determinants, probability (Bayes' theorem and binomial), three-dimensional geometry, and linear programming. These carry the bulk of the application-based marks in the board paper." },
+    { "q": "How many marks do case study questions carry in the CBSE Class 12 exam?", "a": "The paper typically has case-based questions worth 4 marks each, usually split into smaller parts. They reward students who read the scenario carefully and set up the right equation before calculating." },
+    { "q": "How should I approach a case study question in the exam?", "a": "Read the scenario twice, write down the given data and what is asked, then match it to a standard method &mdash; optimisation, a matrix equation, Bayes' theorem, a distance formula or an LPP corner check. Solving the setup correctly is worth more than rushing to an answer." },
+    { "q": "Where can I get more solved Class 12 maths case study questions?", "a": "Our Class 12 maths case studies PDF e-book collects chapter-wise case-based questions across calculus, matrices, probability, 3D geometry and LPP, each with a full worked solution. The download link is in the box below." }
+  ]
+}
