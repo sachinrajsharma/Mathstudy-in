@@ -1,0 +1,29 @@
+{
+  "slug": "how-to-integrate-int-e-3x-cos-3xdx-ncert-exemp-q-42page-166",
+  "meta_title": "Integrate e^(-3x) cos^3 x dx — NCERT Exemplar Q42",
+  "meta_desc": "Solve NCERT Exemplar Class 12 Q42, the integral of e^(-3x) cos^3 x dx, using cos^3 x expansion and the e^(ax) cos(bx) formula, with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Integrating e^(ax) cos(bx) Quiz",
+    "intro": "Eight questions on integrating exponential times cosine, the power-reduction of cos^3 x, and putting the pieces together. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Exemplar Class 12 integration — e^(-3x) cos^3 x",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Which identity turns cos^3 x into a sum of single cosines?", "options": ["cos^3 x = (3 cos x + cos 3x)/4", "cos^3 x = (cos x + cos 3x)/2", "cos^3 x = (3 cos x - cos 3x)/4", "cos^3 x = (cos 3x - 3 cos x)/4"], "answer": 0, "explanation": "From cos 3x = 4 cos^3 x - 3 cos x, solving for cos^3 x gives cos^3 x = (3 cos x + cos 3x)/4. This linearises the cube so each term is a standard e^(ax) cos(bx) integral." },
+      { "q": "What is the standard result for &int; e^(ax) cos(bx) dx?", "options": ["e^(ax)(a sin bx - b cos bx)/(a^2 + b^2) + C", "e^(ax)(a cos bx + b sin bx)/(a^2 + b^2) + C", "e^(ax)(cos bx + sin bx)/(a + b) + C", "e^(ax)(a cos bx - b sin bx)/(a^2 - b^2) + C"], "answer": 1, "explanation": "The classic formula is &int; e^(ax) cos(bx) dx = e^(ax)(a cos bx + b sin bx)/(a^2 + b^2) + C, derived by integration by parts twice." },
+      { "q": "For this problem, e^(-3x) cos^3 x, what value of a appears in every exponential integral?", "options": ["a = 3", "a = 1", "a = -3", "a = -1"], "answer": 2, "explanation": "The common factor is e^(-3x), so a = -3 throughout. Only the cosine frequency b changes between the two terms (b = 1 and b = 3)." },
+      { "q": "After expanding, which two integrals must you evaluate?", "options": ["&int; e^(-3x) sin x dx and &int; e^(-3x) sin 3x dx", "&int; e^(-3x) cos x dx and &int; e^(-3x) sin 3x dx", "&int; e^(3x) cos x dx and &int; e^(3x) cos 3x dx", "&int; e^(-3x) cos x dx and &int; e^(-3x) cos 3x dx"], "answer": 3, "explanation": "cos^3 x = (3 cos x + cos 3x)/4, so e^(-3x) cos^3 x = (3/4) e^(-3x) cos x + (1/4) e^(-3x) cos 3x. Both remaining pieces are e^(ax) cos(bx) integrals." },
+      { "q": "Evaluate &int; e^(-3x) cos x dx.", "options": ["e^(-3x)(-3 cos x + sin x)/10 + C", "e^(-3x)(3 cos x + sin x)/10 + C", "e^(-3x)(-3 cos x - sin x)/9 + C", "e^(-3x)(cos x - 3 sin x)/10 + C"], "answer": 0, "explanation": "Here a = -3, b = 1, so a^2 + b^2 = 10 and the result is e^(-3x)(-3 cos x + 1·sin x)/10 + C = e^(-3x)(sin x - 3 cos x)/10 + C." },
+      { "q": "Evaluate &int; e^(-3x) cos 3x dx.", "options": ["e^(-3x)(3 cos 3x + 3 sin 3x)/18 + C", "e^(-3x)(-3 cos 3x + 3 sin 3x)/18 + C", "e^(-3x)(-3 cos 3x + 3 sin 3x)/9 + C", "e^(-3x)(cos 3x - sin 3x)/6 + C"], "answer": 1, "explanation": "With a = -3, b = 3, a^2 + b^2 = 9 + 9 = 18, giving e^(-3x)(-3 cos 3x + 3 sin 3x)/18 + C, which simplifies to e^(-3x)(sin 3x - cos 3x)/6 + C." },
+      { "q": "Combining the two results, &int; e^(-3x) cos^3 x dx equals which expression (before simplifying)?", "options": ["(1/4)·e^(-3x)(sin x - 3 cos x)/10 + (3/4)·e^(-3x)(sin 3x - cos 3x)/6 + C", "(3/4)·e^(-3x)(3 cos x + sin x)/10 + (1/4)·e^(-3x)(cos 3x + sin 3x)/18 + C", "(3/4)·e^(-3x)(sin x - 3 cos x)/10 + (1/4)·e^(-3x)(sin 3x - cos 3x)/6 + C", "(3/4)·e^(-3x)(sin x - 3 cos x)/10 - (1/4)·e^(-3x)(sin 3x - cos 3x)/6 + C"], "answer": 2, "explanation": "Multiply each integral by its coefficient from the expansion: 3/4 times the cos x result plus 1/4 times the cos 3x result. Then add a single constant C." },
+      { "q": "Why do you write only one constant of integration for the whole answer?", "options": ["Definite integrals never need a constant", "The exponential cancels the constants", "Because cos^3 x is an odd function", "The sum of two arbitrary constants is itself a single arbitrary constant"], "answer": 3, "explanation": "Each integral contributes an arbitrary constant, but any sum of constants is still an arbitrary constant, so one C at the end covers the whole indefinite integral." }
+    ]
+  },
+  "faq": [
+    { "q": "Why expand cos^3 x instead of integrating it directly?", "a": "There is no simple product rule for e^(-3x) times cos^3 x as it stands. Writing cos^3 x = (3 cos x + cos 3x)/4 turns the cube into single cosines, so every term becomes a standard e^(ax) cos(bx) integral you already know how to solve." },
+    { "q": "Where does the identity cos^3 x = (3 cos x + cos 3x)/4 come from?", "a": "It comes from the triple-angle formula cos 3x = 4 cos^3 x - 3 cos x. Rearranging for cos^3 x gives 4 cos^3 x = cos 3x + 3 cos x, so cos^3 x = (3 cos x + cos 3x)/4." },
+    { "q": "How is the formula for &int; e^(ax) cos(bx) dx derived?", "a": "Apply integration by parts twice; the original integral reappears, and you solve the resulting equation for it. The result is e^(ax)(a cos bx + b sin bx)/(a^2 + b^2) + C, which you can quote directly in exams." },
+    { "q": "Do the signs of a and b matter in the formula?", "a": "The denominator a^2 + b^2 is always positive, so only the numerator carries the signs. With a = -3 the cosine term picks up the minus sign, which is why answers show terms like (sin x - 3 cos x)." },
+    { "q": "Where can I find full NCERT Exemplar Class 12 integration solutions?", "a": "This page already works Q42 in full. For step-by-step solutions to the rest of the NCERT Exemplar integration set, our Class 12 Maths solutions e-book covers every solved problem with the same method — the link is in the box below." }
+  ]
+}

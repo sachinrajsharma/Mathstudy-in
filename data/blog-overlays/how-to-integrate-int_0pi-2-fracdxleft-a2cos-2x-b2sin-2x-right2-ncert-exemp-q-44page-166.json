@@ -1,0 +1,124 @@
+{
+  "slug": "how-to-integrate-int_0pi-2-fracdxleft-a2cos-2x-b2sin-2x-right2-ncert-exemp-q-44page-166",
+  "meta_title": "NCERT Exemplar Class 12 Integration Q44 Solved + Quiz",
+  "meta_desc": "Solve NCERT Exemplar Class 12 integration Q44 by dividing by cos-squared and substituting t = tan x, then test the method with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Integrating a&sup2;cos&sup2;x + b&sup2;sin&sup2;x Denominators Quiz",
+    "intro": "Eight questions on the divide-by-cos&sup2;x and t = tan x method used to crack integrals of the form &int; dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x). Pick an answer for each, then press Check my score.",
+    "about": "Definite integration of a&sup2;cos&sup2;x + b&sup2;sin&sup2;x type denominators",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Dividing the numerator and denominator of &int; dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x) by cos&sup2;x gives which integral?",
+        "options": [
+          "&int; sec&sup2;x dx / (a&sup2; + b&sup2;tan&sup2;x)",
+          "&int; cos&sup2;x dx / (a&sup2; + b&sup2;tan&sup2;x)",
+          "&int; sec&sup2;x dx / (a&sup2;tan&sup2;x + b&sup2;)",
+          "&int; dx / (a&sup2;sec&sup2;x + b&sup2;)"
+        ],
+        "answer": 0,
+        "explanation": "Dividing top and bottom by cos&sup2;x turns 1 in the numerator into sec&sup2;x, a&sup2;cos&sup2;x into a&sup2;, and b&sup2;sin&sup2;x into b&sup2;tan&sup2;x. That is exactly the shape the t = tan x substitution needs."
+      },
+      {
+        "q": "With the substitution t = tan x, what is dt?",
+        "options": [
+          "cos&sup2;x dx",
+          "sec&sup2;x dx",
+          "&minus;cosec&sup2;x dx",
+          "sec x tan x dx"
+        ],
+        "answer": 1,
+        "explanation": "The derivative of tan x is sec&sup2;x, so dt = sec&sup2;x dx. This is why the sec&sup2;x created in the numerator is so convenient &mdash; it becomes dt outright."
+      },
+      {
+        "q": "After substituting, the integral becomes &int; dt / (a&sup2; + b&sup2;t&sup2;). What is its antiderivative?",
+        "options": [
+          "(1/ab) tan&sup2;(bt/a) + C",
+          "(1/b&sup2;) ln(a&sup2; + b&sup2;t&sup2;) + C",
+          "(1/ab) tan&#8315;&sup1;(bt/a) + C",
+          "(1/a&sup2;) tan&#8315;&sup1;(at/b) + C"
+        ],
+        "answer": 2,
+        "explanation": "Write a&sup2; + b&sup2;t&sup2; = b&sup2;((a/b)&sup2; + t&sup2;). Using &int; dt/(k&sup2; + t&sup2;) = (1/k) tan&#8315;&sup1;(t/k) with k = a/b gives (1/ab) tan&#8315;&sup1;(bt/a) + C."
+      },
+      {
+        "q": "What is the value of &int;&#8320;^(&pi;/2) dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x)?",
+        "options": [
+          "&pi;/(ab)",
+          "&pi;/(4ab)",
+          "&pi;(a&sup2; + b&sup2;)/(2ab)",
+          "&pi;/(2ab)"
+        ],
+        "answer": 3,
+        "explanation": "As x runs from 0 to &pi;/2, t = tan x runs from 0 to &infin;. So (1/ab) tan&#8315;&sup1;(bt/a) is evaluated from 0 to &infin;, giving (1/ab)(&pi;/2) = &pi;/(2ab)."
+      },
+      {
+        "q": "Why is dividing through by cos&sup2;x the key first step for these integrals?",
+        "options": [
+          "It manufactures a sec&sup2;x numerator so that t = tan x turns the whole thing into a standard 1/(a&sup2; + b&sup2;t&sup2;) form",
+          "It removes the constants a and b from the problem",
+          "It converts the definite limits into 0 and 1",
+          "It changes the integrand into a perfect square"
+        ],
+        "answer": 0,
+        "explanation": "The single trick that unlocks the problem is producing sec&sup2;x on top. Once dt = sec&sup2;x dx is available, t = tan x collapses the trigonometric integral into a rational one you already know how to integrate."
+      },
+      {
+        "q": "Evaluate &int;&#8320;^(&pi;/2) dx / (cos&sup2;x + 4 sin&sup2;x).",
+        "options": [
+          "&pi;/2",
+          "&pi;/4",
+          "&pi;/8",
+          "&pi;"
+        ],
+        "answer": 1,
+        "explanation": "Here a&sup2; = 1 and b&sup2; = 4, so a = 1 and b = 2. Using &pi;/(2ab) gives &pi;/(2 &middot; 1 &middot; 2) = &pi;/4."
+      },
+      {
+        "q": "Q44 asks for the squared denominator &int;&#8320;^(&pi;/2) dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x)&sup2;. What is its value?",
+        "options": [
+          "&pi;/(2ab)",
+          "&pi;/(4a&sup3;b&sup3;)",
+          "&pi;(a&sup2; + b&sup2;)/(4a&sup3;b&sup3;)",
+          "&pi;(a&sup2; + b&sup2;)/(2ab)"
+        ],
+        "answer": 2,
+        "explanation": "Differentiating I = &pi;/(2ab) with respect to a&sup2; gives &int; cos&sup2;x dx/(&hellip;)&sup2; = &pi;/(4a&sup3;b); with respect to b&sup2; gives &int; sin&sup2;x dx/(&hellip;)&sup2; = &pi;/(4ab&sup3;). Adding them (since cos&sup2;x + sin&sup2;x = 1) gives &pi;(a&sup2; + b&sup2;)/(4a&sup3;b&sup3;)."
+      },
+      {
+        "q": "How is the squared-denominator result of Q44 obtained from the simpler integral I = &pi;/(2ab)?",
+        "options": [
+          "By squaring the value &pi;/(2ab)",
+          "By integrating I once more from 0 to &pi;/2",
+          "By multiplying I by a&sup2; + b&sup2;",
+          "By differentiating I with respect to the parameters a&sup2; and b&sup2; and adding the two results"
+        ],
+        "answer": 3,
+        "explanation": "Treating a&sup2; and b&sup2; as parameters, &part;/&part;(a&sup2;) and &part;/&part;(b&sup2;) each pull down a factor and raise the denominator power to 2. Summing the two partial derivatives reconstructs cos&sup2;x + sin&sup2;x = 1 in the numerator, giving the squared integral directly."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Which technique solves integrals like &int; dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x)?",
+      "a": "Divide the numerator and denominator by cos&sup2;x to get a sec&sup2;x on top, then substitute t = tan x. The integral becomes &int; dt/(a&sup2; + b&sup2;t&sup2;), a standard arctangent form."
+    },
+    {
+      "q": "What is the value of &int;&#8320;^(&pi;/2) dx / (a&sup2;cos&sup2;x + b&sup2;sin&sup2;x)?",
+      "a": "It equals &pi;/(2ab). As x goes from 0 to &pi;/2, t = tan x goes from 0 to infinity, so the arctangent term evaluates to &pi;/2 and the constant 1/(ab) sits outside."
+    },
+    {
+      "q": "How do you handle the squared denominator in Q44?",
+      "a": "Start from the known result I = &pi;/(2ab), treat a&sup2; and b&sup2; as parameters, and differentiate I with respect to each. Adding the two partial derivatives rebuilds cos&sup2;x + sin&sup2;x = 1 in the numerator and gives &pi;(a&sup2; + b&sup2;)/(4a&sup3;b&sup3;)."
+    },
+    {
+      "q": "Why divide by cos&sup2;x rather than sin&sup2;x?",
+      "a": "Either works, but dividing by cos&sup2;x creates sec&sup2;x, whose integral pairs with t = tan x. Dividing by sin&sup2;x would create cosec&sup2;x and push you toward t = cot x with a sign to track, so cos&sup2;x is the tidier default."
+    },
+    {
+      "q": "Where can I get the full worked solution and more practice?",
+      "a": "The complete step-by-step solution to this NCERT Exemplar Class 12 integration problem, along with graded practice on the divide-by-cos&sup2;x and tan-x substitution method, is in our Class 12 integration solutions e-book. The link is in the box below."
+    }
+  ]
+}

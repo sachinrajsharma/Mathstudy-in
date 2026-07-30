@@ -1,0 +1,84 @@
+{
+  "slug": "how-to-integrate-int-sqrt-tan-x-dx-ncert-exemp-q-43page-166",
+  "meta_title": "Integral of root tan x: NCERT Exemplar Q43 Solved",
+  "meta_desc": "Solve the integral of root tan x (NCERT Exemplar Class 12 Q43) using t squared = tan x, then split into standard forms. Free 8-question quiz included.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Integral of Root Tan x Quiz",
+    "intro": "Eight questions on the substitution t squared = tan x and integrating rational functions with 1 + t to the fourth. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Exemplar Class 12 integration Q43",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "In &int; &radic;(tan x) dx, we set t&sup2; = tan x. What is dx in terms of t and dt?",
+        "options": ["dx = (2t)/(1 + t&#8308;) dt", "dx = 2t dt", "dx = t&sup2; dt", "dx = dt/(1 + t&sup2;)"],
+        "answer": 0,
+        "explanation": "Differentiating t&sup2; = tan x gives 2t dt = sec&sup2;x dx = (1 + tan&sup2;x) dx = (1 + t&#8308;) dx, so dx = 2t/(1 + t&#8308;) dt."
+      },
+      {
+        "q": "After the substitution t&sup2; = tan x, the integral &int; &radic;(tan x) dx becomes which of these?",
+        "options": ["&int; 2t/(1 + t&#8308;) dt", "&int; 2t&sup2;/(1 + t&#8308;) dt", "&int; t&sup2;/(1 + t&sup2;) dt", "&int; 2/(1 + t&#8308;) dt"],
+        "answer": 1,
+        "explanation": "&radic;(tan x) = t and dx = 2t/(1 + t&#8308;) dt, so the integrand is t &times; 2t/(1 + t&#8308;) = 2t&sup2;/(1 + t&#8308;)."
+      },
+      {
+        "q": "To split 2t&sup2;/(1 + t&#8308;), it helps to divide numerator and denominator by t&sup2;. What does the denominator 1 + t&#8308; become?",
+        "options": ["t&sup2; &minus; 1/t&sup2;", "1 + 1/t&#8308;", "t&sup2; + 1/t&sup2;", "2/t&sup2;"],
+        "answer": 2,
+        "explanation": "Dividing 1 + t&#8308; by t&sup2; gives 1/t&sup2; + t&sup2;, i.e. t&sup2; + 1/t&sup2;. The numerator 2t&sup2; becomes 2."
+      },
+      {
+        "q": "We write 2t&sup2;/(1 + t&#8308;) as the sum of (t&sup2; + 1)/(t&#8308; + 1) and (t&sup2; &minus; 1)/(t&#8308; + 1) after multiplying by a constant. What constant works?",
+        "options": ["1/2", "2", "1/4", "1"],
+        "answer": 3,
+        "explanation": "(t&sup2; + 1) + (t&sup2; &minus; 1) = 2t&sup2;, so 2t&sup2;/(1 + t&#8308;) = (t&sup2; + 1)/(1 + t&#8308;) + (t&sup2; &minus; 1)/(1 + t&#8308;) directly, with constant 1."
+      },
+      {
+        "q": "For &int; (t&sup2; + 1)/(t&#8308; + 1) dt, divide top and bottom by t&sup2; and use the substitution u = t &minus; 1/t. What is du?",
+        "options": ["(1 + 1/t&sup2;) dt", "(1 &minus; 1/t&sup2;) dt", "(2t) dt", "(1/t&sup2;) dt"],
+        "answer": 0,
+        "explanation": "d/dt (t &minus; 1/t) = 1 + 1/t&sup2;. The numerator (t&sup2; + 1)/t&sup2; = 1 + 1/t&sup2; matches du exactly, and t&sup2; + 1/t&sup2; = u&sup2; + 2."
+      },
+      {
+        "q": "For &int; (t&sup2; &minus; 1)/(t&#8308; + 1) dt, divide by t&sup2; and use v = t + 1/t. The denominator t&sup2; + 1/t&sup2; equals which expression in v?",
+        "options": ["v&sup2; + 2", "v&sup2; &minus; 2", "v&sup2; + 1", "v&sup2; &minus; 1"],
+        "answer": 1,
+        "explanation": "v = t + 1/t gives v&sup2; = t&sup2; + 2 + 1/t&sup2;, so t&sup2; + 1/t&sup2; = v&sup2; &minus; 2. And dv = (1 &minus; 1/t&sup2;) dt matches the numerator."
+      },
+      {
+        "q": "&int; du/(u&sup2; + 2), where u = t &minus; 1/t, evaluates to which standard form?",
+        "options": ["ln|u&sup2; + 2| + C", "(1/&radic;2) sin&#8315;&sup1;(u/&radic;2) + C", "(1/&radic;2) tan&#8315;&sup1;(u/&radic;2) + C", "(1/2&radic;2) ln|(u &minus; &radic;2)/(u + &radic;2)| + C"],
+        "answer": 2,
+        "explanation": "&int; du/(u&sup2; + a&sup2;) = (1/a) tan&#8315;&sup1;(u/a) + C. Here a&sup2; = 2, so a = &radic;2, giving (1/&radic;2) tan&#8315;&sup1;(u/&radic;2) + C."
+      },
+      {
+        "q": "&int; dv/(v&sup2; &minus; 2), where v = t + 1/t, evaluates to which standard form?",
+        "options": ["(1/&radic;2) tan&#8315;&sup1;(v/&radic;2) + C", "(1/&radic;2) sec&#8315;&sup1;(v/&radic;2) + C", "ln|v&sup2; &minus; 2| + C", "(1/2&radic;2) ln|(v &minus; &radic;2)/(v + &radic;2)| + C"],
+        "answer": 3,
+        "explanation": "&int; dv/(v&sup2; &minus; a&sup2;) = (1/2a) ln|(v &minus; a)/(v + a)| + C. With a = &radic;2 this gives (1/2&radic;2) ln|(v &minus; &radic;2)/(v + &radic;2)| + C."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why substitute t&sup2; = tan x instead of t = tan x?",
+      "a": "The integrand carries a square root, &radic;(tan x). Setting t&sup2; = tan x makes &radic;(tan x) equal to t, a clean polynomial in t, so the whole integral turns into a rational function of t with no surd left to fight."
+    },
+    {
+      "q": "Where does the denominator 1 + t&#8308; come from?",
+      "a": "From dx. Differentiating t&sup2; = tan x gives 2t dt = sec&sup2;x dx = (1 + tan&sup2;x) dx = (1 + t&#8308;) dx. So dx = 2t/(1 + t&#8308;) dt, and that 1 + t&#8308; is what forces the split-into-standard-forms trick."
+    },
+    {
+      "q": "Why split 2t&sup2;/(1 + t&#8308;) into two fractions?",
+      "a": "A single integral with 1 + t&#8308; on the bottom has no direct formula. Writing it as (t&sup2; + 1)/(1 + t&#8308;) + (t&sup2; &minus; 1)/(1 + t&#8308;) lets each piece be reduced by u = t &minus; 1/t and v = t + 1/t into the standard 1/(u&sup2; + a&sup2;) and 1/(v&sup2; &minus; a&sup2;) forms."
+    },
+    {
+      "q": "What is the final answer to &int; &radic;(tan x) dx?",
+      "a": "Adding the two pieces and putting t = &radic;(tan x): the result is (1/&radic;2) tan&#8315;&sup1;((tan x &minus; 1)/(&radic;2 &middot; &radic;(tan x))) + (1/2&radic;2) ln|(tan x + 1 &minus; &radic;(2 tan x))/(tan x + 1 + &radic;(2 tan x))| + C."
+    },
+    {
+      "q": "Where can I get worked solutions for the rest of NCERT Exemplar integration?",
+      "a": "Our Class 12 NCERT Exemplar solutions e-book covers the full integration chapter step by step, including tricky substitution problems like this one, with each stage explained. The link is in the box below."
+    }
+  ]
+}

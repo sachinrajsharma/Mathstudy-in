@@ -1,0 +1,29 @@
+{
+  "slug": "find-the-area-of-the-region-bounded-by-the-curve-y2-x-and-the-lines-x-1x-4-and-the-x-axis-ncert-ex-8-1-q-1page-365",
+  "meta_title": "Area Bounded by y²=x, x=1 to x=4 (NCERT Ex 8.1 Q1)",
+  "meta_desc": "NCERT Class 12 Ex 8.1 Q1 solved: the area bounded by y²=x, x=1, x=4 and the x-axis is 14/3. Try the free 8-question area-by-integration quiz below.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Area by Integration Quiz (NCERT Ex 8.1 Q1)",
+    "intro": "Eight questions on finding area under y=√x between x=1 and x=4. Choose an answer for each, then press Check my score.",
+    "about": "Area under a curve using definite integration",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The upper half of the parabola y²=x (the part above the x-axis) is described by which function?", "options": ["y = x²", "y = √x", "y = x/2", "y = 2√x"], "answer": 1, "explanation": "Solving y²=x for the branch where y is non-negative gives y = +√x, so the region above the x-axis sits under y = √x." },
+      { "q": "For a curve y=f(x) with f≥0, the area enclosed by the curve, the x-axis and the lines x=a and x=b is given by:", "options": ["∫ from a to b of y dx", "∫ from a to b of x dy", "π ∫ from a to b of y² dx", "∫ from a to b of y² dx"], "answer": 0, "explanation": "Area between the curve and the x-axis over [a, b] is the definite integral of y with respect to x, i.e. ∫ from a to b of y dx." },
+      { "q": "What is ∫ √x dx?", "options": ["x^(3/2) + C", "(3/2)x^(3/2) + C", "(2/3)x^(3/2) + C", "(1/2)x^(1/2) + C"], "answer": 2, "explanation": "Write √x as x^(1/2). Raise the power by 1 to x^(3/2) and divide by 3/2, giving (2/3)x^(3/2) + C." },
+      { "q": "Evaluate ∫ from 1 to 4 of √x dx.", "options": ["7/3", "28/3", "16/3", "14/3"], "answer": 3, "explanation": "The antiderivative is (2/3)x^(3/2). At x=4 it is 16/3, at x=1 it is 2/3, and 16/3 − 2/3 = 14/3." },
+      { "q": "What is the value of (2/3)x^(3/2) at x=4?", "options": ["8/3", "16/3", "32/3", "4/3"], "answer": 1, "explanation": "4^(3/2) = (√4)³ = 2³ = 8, so (2/3)(8) = 16/3." },
+      { "q": "What is the value of (2/3)x^(3/2) at x=1?", "options": ["2/3", "3/2", "1", "2"], "answer": 0, "explanation": "1^(3/2) = 1, so (2/3)(1) = 2/3." },
+      { "q": "The area of the region bounded by y²=x, x=1, x=4 and the x-axis is:", "options": ["7/3 sq units", "28/3 sq units", "5 sq units", "14/3 sq units"], "answer": 3, "explanation": "Area = ∫ from 1 to 4 of √x dx = [(2/3)x^(3/2)] from 1 to 4 = 16/3 − 2/3 = 14/3 square units." },
+      { "q": "A region lies under y=√x from x=1 to x=4. Which definite integral gives its area?", "options": ["∫ from 1 to 4 of x dx", "∫ from 1 to 4 of x² dx", "∫ from 1 to 4 of √x dx", "∫ from 0 to 4 of √x dx"], "answer": 2, "explanation": "The height at each x is y=√x and the limits are x=1 and x=4, so the area is ∫ from 1 to 4 of √x dx." }
+    ]
+  },
+  "faq": [
+    { "q": "Why does y²=x become y=√x in this problem?", "a": "The region asked for lies above the x-axis, where y is positive. Taking the positive square root of y²=x gives y=√x, which is the boundary of that region." },
+    { "q": "What is the final area for NCERT Ex 8.1 Q1?", "a": "The area bounded by y²=x, the lines x=1 and x=4, and the x-axis is 14/3 square units, found by evaluating the integral of √x from x=1 to x=4." },
+    { "q": "How do you integrate √x?", "a": "Rewrite √x as x^(1/2), then use the power rule: add 1 to the exponent to get x^(3/2) and divide by 3/2. The result is (2/3)x^(3/2) + C." },
+    { "q": "Do I need to sketch the region before integrating?", "a": "A quick sketch helps you confirm the curve stays above the x-axis over [1, 4], so the integral is positive and no splitting into parts is needed. It is good exam practice even when not asked." },
+    { "q": "Where can I get the full NCERT Application of Integrals solutions?", "a": "The complete step-by-step solutions for Exercise 8.1 and the rest of the chapter are available in the linked e-book, with worked figures for every problem. The link is in the box below." }
+  ]
+}

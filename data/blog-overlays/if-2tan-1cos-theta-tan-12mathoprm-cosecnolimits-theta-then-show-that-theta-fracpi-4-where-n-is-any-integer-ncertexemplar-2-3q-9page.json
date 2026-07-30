@@ -1,0 +1,29 @@
+{
+  "slug": "if-2tan-1cos-theta-tan-12mathoprm-cosecnolimits-theta-then-show-that-theta-fracpi-4-where-n-is-any-integer-ncertexemplar-2-3q-9page",
+  "meta_title": "NCERT Exemplar Class 12 Inverse Trig Q9 Solution",
+  "meta_desc": "NCERT Exemplar Class 12 inverse trig Q9: prove 2 tan-1(cos θ) = tan-1(2 cosec θ) gives θ = π/4. Full steps plus a free 8-question quiz to practise.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Inverse Trig Equations Quiz",
+    "intro": "Eight questions on the double-angle identity for tan inverse and on solving inverse-trig equations like this NCERT Exemplar problem. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 inverse trigonometric functions",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For |x| &lt; 1, 2 tan&#8315;&#185; x equals which of the following?", "options": ["tan&#8315;&#185;(2x/(1 + x&#178;))", "tan&#8315;&#185;(2x/(1 &minus; x&#178;))", "tan&#8315;&#185;(x&#178;/(1 &minus; x&#178;))", "2 sin&#8315;&#185; x"], "answer": 1, "explanation": "The double-angle identity is 2 tan&#8315;&#185; x = tan&#8315;&#185;(2x/(1 &minus; x&#178;)) for |x| &lt; 1. It comes from tan(2A) = 2 tan A/(1 &minus; tan&#178; A) with A = tan&#8315;&#185; x." },
+      { "q": "Applying that identity to 2 tan&#8315;&#185;(cos &theta;) gives tan&#8315;&#185; of what expression?", "options": ["2 cos &theta; / sin&#178; &theta;", "2 cos &theta; / (1 + cos&#178; &theta;)", "2 sin &theta; / cos&#178; &theta;", "cos &theta; / sin &theta;"], "answer": 0, "explanation": "Put x = cos &theta;: 2x/(1 &minus; x&#178;) = 2 cos &theta;/(1 &minus; cos&#178; &theta;) = 2 cos &theta;/sin&#178; &theta;, since 1 &minus; cos&#178; &theta; = sin&#178; &theta;." },
+      { "q": "The right-hand side term 2 cosec &theta; can be rewritten as:", "options": ["2 sin &theta;", "2 / cos &theta;", "2 / sin &theta;", "sin &theta; / 2"], "answer": 2, "explanation": "cosec &theta; = 1/sin &theta;, so 2 cosec &theta; = 2/sin &theta;." },
+      { "q": "Equating the two arguments, 2 cos &theta;/sin&#178; &theta; = 2/sin &theta; simplifies to:", "options": ["sin &theta; = 2 cos &theta;", "cos &theta; = 2 sin &theta;", "cos &theta; = sin&#178; &theta;", "cos &theta; = sin &theta;"], "answer": 3, "explanation": "Multiply both sides by sin&#178; &theta; and divide by 2: cos &theta;/sin&#178; &theta; = 1/sin &theta; gives cos &theta; = sin &theta;." },
+      { "q": "From cos &theta; = sin &theta;, the value of tan &theta; is:", "options": ["0", "1", "&minus;1", "&radic;3"], "answer": 1, "explanation": "Dividing cos &theta; = sin &theta; by cos &theta; gives 1 = tan &theta;, so tan &theta; = 1." },
+      { "q": "The value of &theta; in the interval (0, &pi;/2) with tan &theta; = 1 is:", "options": ["&pi;/6", "&pi;/3", "&pi;/4", "&pi;/2"], "answer": 2, "explanation": "tan(&pi;/4) = 1, and &pi;/4 lies in (0, &pi;/2), so &theta; = &pi;/4." },
+      { "q": "The identity 2 tan&#8315;&#185; x = tan&#8315;&#185;(2x/(1 &minus; x&#178;)) holds without adjustment when:", "options": ["&minus;1 &lt; x &lt; 1", "x &gt; 1 always", "x &lt; &minus;1 always", "for every real x"], "answer": 0, "explanation": "The plain identity is valid only for &minus;1 &lt; x &lt; 1. Outside that range you must add or subtract &pi; to keep the principal value correct." },
+      { "q": "The general solution of tan &theta; = 1, with n any integer, is:", "options": ["&theta; = n&pi;", "&theta; = 2n&pi; + &pi;/4", "&theta; = n&pi; &minus; &pi;/4", "&theta; = n&pi; + &pi;/4"], "answer": 3, "explanation": "tan has period &pi;, so tan &theta; = 1 = tan(&pi;/4) gives &theta; = n&pi; + &pi;/4 for any integer n." }
+    ]
+  },
+  "faq": [
+    { "q": "Which identity is the key to this NCERT Exemplar problem?", "a": "The double-angle result 2 tan&#8315;&#185; x = tan&#8315;&#185;(2x/(1 &minus; x&#178;)), valid for |x| &lt; 1. Setting x = cos &theta; turns the left side into a single tan inverse you can match against the right side." },
+    { "q": "Why does 1 &minus; cos&#178; &theta; become sin&#178; &theta; in the working?", "a": "It uses the Pythagorean identity sin&#178; &theta; + cos&#178; &theta; = 1, which rearranges to 1 &minus; cos&#178; &theta; = sin&#178; &theta;. That step collapses the denominator neatly to sin&#178; &theta;." },
+    { "q": "How does the equation reduce to tan &theta; = 1?", "a": "After equating arguments you reach cos &theta;/sin&#178; &theta; = 1/sin &theta;. Cancelling one sin &theta; gives cos &theta; = sin &theta;, and dividing by cos &theta; gives tan &theta; = 1." },
+    { "q": "Is &theta; = &pi;/4 the only answer, or are there more?", "a": "&pi;/4 is the principal solution in (0, &pi;/2). Because tan repeats every &pi;, the full set is &theta; = n&pi; + &pi;/4 for any integer n, which is why the question mentions n." },
+    { "q": "Where can I get more solved NCERT Exemplar inverse trig problems?", "a": "Our Class 12 inverse trigonometric functions solutions e-book covers the full NCERT Exemplar exercise with step-by-step working and practice sets. The link is in the box below." }
+  ]
+}
