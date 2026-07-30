@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-determinants-excercise-4-2",
+  "meta_title": "Determinants Exercise 4.2 Solutions Class 12 NCERT",
+  "meta_desc": "Step-by-step NCERT Class 12 Determinants Exercise 4.2 solutions on properties of determinants, plus a free 8-question quiz to test your row and column skills.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Properties of Determinants Quiz",
+    "intro": "Eight questions on the row and column properties used all through Exercise 4.2. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 NCERT Determinants Exercise 4.2 &mdash; properties of determinants",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If two rows of a determinant are interchanged, the value of the determinant is:", "options": ["unchanged", "multiplied by the sign of the determinant", "unchanged in magnitude but its sign is reversed", "always zero"], "answer": 2, "explanation": "Swapping any two rows (or columns) keeps the magnitude the same but changes the sign of the determinant." },
+      { "q": "If every element of a single column of a determinant is multiplied by k, the new determinant equals:", "options": ["k times the original determinant", "k&sup2; times the original", "the original determinant", "k&sup3; times the original"], "answer": 0, "explanation": "A common factor from ONE row or column can be taken outside, so multiplying one column by k multiplies the determinant by k once." },
+      { "q": "A 3&times;3 determinant has two identical rows. Its value is:", "options": ["1", "equal to the repeated row&rsquo;s sum", "undefined", "0"], "answer": 3, "explanation": "If two rows (or columns) are identical, swapping them gives the same determinant D, but the swap rule says it becomes &minus;D, so D = &minus;D, hence D = 0." },
+      { "q": "For a 3&times;3 matrix A, det(A) compared with det(A&#39;) (the transpose) is:", "options": ["det(A&#39;) = &minus;det(A)", "det(A&#39;) = det(A)", "det(A&#39;) = 3 det(A)", "det(A&#39;) = 0"], "answer": 1, "explanation": "The value of a determinant is unchanged when rows and columns are interchanged, so det(A) = det(A&#39;). This is why every row property has a matching column property." },
+      { "q": "The operation R&#8321; &rarr; R&#8321; + 3R&#8322; (adding a multiple of one row to another) changes the determinant by:", "options": ["multiplying it by 3", "adding 3 to it", "not at all", "reversing its sign"], "answer": 2, "explanation": "Adding a multiple of one row (or column) to another leaves the determinant unchanged. This is the workhorse operation for creating zeros in Exercise 4.2." },
+      { "q": "If a 3&times;3 determinant is multiplied throughout, i.e. every one of its rows is multiplied by k, the value becomes:", "options": ["k times the original", "k&sup2; times the original", "k&sup3; times the original", "unchanged"], "answer": 2, "explanation": "Each row multiplied by k contributes one factor of k. For all three rows of a 3&times;3 determinant that gives k&times;k&times;k = k&sup3; times the original." },
+      { "q": "A determinant has an entire row of zeros. Its value is:", "options": ["0", "1", "equal to the other rows added", "cannot be found"], "answer": 0, "explanation": "Taking the common factor 0 out of the zero row multiplies the determinant by 0, so a determinant with a zero row (or zero column) is always 0." },
+      { "q": "To prove a determinant identity like the one factoring to (x&minus;y)(y&minus;z)(z&minus;x), the most efficient first step is usually to:", "options": ["expand fully along the first row", "apply column/row operations such as C&#8322; &rarr; C&#8322; &minus; C&#8321; to create zeros or common factors", "square the determinant", "swap the first and last rows"], "answer": 1, "explanation": "Subtracting one column (or row) from another creates a common factor like (x&minus;y) that can be pulled out, turning a messy expansion into a clean factorised proof &mdash; the standard technique in Exercise 4.2." }
+    ]
+  },
+  "faq": [
+    { "q": "What does NCERT Class 12 Determinants Exercise 4.2 cover?", "a": "Exercise 4.2 is entirely about the properties of determinants: how swapping rows changes the sign, how a common factor comes out of a row or column, why identical rows make a determinant zero, and how to add a multiple of one row to another. You use these to prove identities without full expansion." },
+    { "q": "Which property is used most in Exercise 4.2?", "a": "The invariance property &mdash; that adding a multiple of one row or column to another does not change the value. It lets you create zeros or common factors, so most of the proof-type questions in 4.2 start with an operation like R&#8321; &rarr; R&#8321; + R&#8322; + R&#8323;." },
+    { "q": "Why does a determinant with two identical rows equal zero?", "a": "Swapping the two identical rows must reverse the sign, giving D = &minus;D, which forces D = 0. The same reasoning works for two identical columns, which is why proportional rows or columns also give zero." },
+    { "q": "Do I need to expand every determinant in Exercise 4.2?", "a": "No, and that is the whole point. The exercise trains you to simplify first using properties, pull out common factors, and reduce to a small expansion or a fully factorised form. Expanding blindly usually leads to long, error-prone algebra." },
+    { "q": "Where can I get the full worked solutions for Exercise 4.2?", "a": "Our fully solved Class 12 CBSE workbook works through every Exercise 4.2 property proof step by step, with the exact row and column operations written out and an answer key you can check against. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-5",
+  "meta_title": "NCERT Class 12 Maths Exercise 5.5 Solutions + Quiz",
+  "meta_desc": "NCERT Class 12 Maths Exercise 5.5 solutions on logarithmic differentiation, with worked steps and a free 8-question quiz. Practise x^x and start now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Logarithmic Differentiation Quiz (Exercise 5.5)",
+    "intro": "Eight questions on the logarithmic differentiation method from Exercise 5.5 &mdash; taking log both sides, variable powers and products. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Continuity and Differentiability, Exercise 5.5 (logarithmic differentiation)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the first step to differentiate y = x<sup>x</sup>?", "options": ["Apply the power rule directly, as with x<sup>3</sup>", "Take the natural log of both sides, then differentiate", "Use the quotient rule", "Substitute x = 1 first"], "answer": 1, "explanation": "The base and the exponent both contain x, so no ordinary rule applies. Taking ln of both sides gives ln y = x ln x, which you can then differentiate implicitly." },
+      { "q": "If y = x<sup>x</sup>, then dy/dx equals:", "options": ["x<sup>x</sup>(1 + ln x)", "x<sup>x</sup> ln x", "x&middot;x<sup>x-1</sup>", "x<sup>x-1</sup>"], "answer": 0, "explanation": "From ln y = x ln x, differentiate: (1/y)y' = ln x + x&middot;(1/x) = ln x + 1. So y' = x<sup>x</sup>(1 + ln x)." },
+      { "q": "For y = (sin x)<sup>x</sup>, taking log of both sides gives ln y =", "options": ["ln x &middot; sin x", "x + ln(sin x)", "x ln(sin x)", "(sin x) ln x"], "answer": 2, "explanation": "The exponent x comes down as a multiplier of the log of the base: ln y = x ln(sin x)." },
+      { "q": "The derivative of y = x<sup>cos x</sup> is:", "options": ["x<sup>cos x</sup> &middot; (cos x)/x", "x<sup>cos x</sup>(&minus;sin x &middot; ln x)", "cos x &middot; x<sup>cos x &minus; 1</sup>", "x<sup>cos x</sup>((cos x)/x &minus; sin x &middot; ln x)"], "answer": 3, "explanation": "With ln y = cos x &middot; ln x, differentiate: (1/y)y' = &minus;sin x &middot; ln x + cos x &middot;(1/x). Multiply by y to get x<sup>cos x</sup>((cos x)/x &minus; sin x ln x)." },
+      { "q": "Logarithmic differentiation is best suited to functions of the form:", "options": ["a polynomial such as x<sup>4</sup> + 2x", "(a variable expression)<sup>(a variable expression)</sup>, e.g. x<sup>x</sup>", "a constant such as 7", "a straight line y = mx + c"], "answer": 1, "explanation": "When both the base and the exponent vary, neither the power rule nor the exponential rule works alone. Taking logs first is the standard technique for such functions and for long products or quotients." },
+      { "q": "For y = x<sup>sin x</sup>, dy/dx equals:", "options": ["x<sup>sin x</sup> &middot; (sin x)/x", "x<sup>sin x</sup> &middot; cos x &middot; ln x", "x<sup>sin x</sup>(cos x &middot; ln x + (sin x)/x)", "x<sup>sin x</sup> &middot; ln x"], "answer": 2, "explanation": "From ln y = sin x &middot; ln x, differentiate: (1/y)y' = cos x &middot; ln x + sin x &middot;(1/x). So y' = x<sup>sin x</sup>(cos x ln x + (sin x)/x)." },
+      { "q": "For y = x<sup>x</sup>, the value of dy/dx at x = 1 is:", "options": ["0", "e", "2", "1"], "answer": 3, "explanation": "Since y' = x<sup>x</sup>(1 + ln x), at x = 1 this is 1<sup>1</sup>(1 + ln 1) = 1&middot;(1 + 0) = 1." },
+      { "q": "The easiest way to differentiate a long product like y = (x&sup2; + 1)(x&sup3; + 2)(x&#8308; + 3) is to:", "options": ["Take log of both sides to turn the product into a sum of logs, then differentiate", "Multiply everything out first, then use the power rule", "Integrate term by term", "Substitute x = 0"], "answer": 0, "explanation": "Logs turn products into sums: ln y = ln(x&sup2;+1) + ln(x&sup3;+2) + ln(x&#8308;+3). Differentiating each term is far simpler than expanding the product." }
+    ]
+  },
+  "faq": [
+    { "q": "What does NCERT Class 12 Maths Exercise 5.5 cover?", "a": "Exercise 5.5 of Chapter 5 (Continuity and Differentiability) is on logarithmic differentiation. You take the natural log of both sides before differentiating, which handles functions like x<sup>x</sup>, (f(x))<sup>g(x)</sup>, and long products or quotients." },
+    { "q": "When should I use logarithmic differentiation instead of the chain rule?", "a": "Use it whenever the exponent itself contains the variable (a variable raised to a variable power, such as x<sup>sin x</sup>), or when the function is a big product or quotient of several factors. Taking logs first turns products into sums and brings variable exponents down as multipliers." },
+    { "q": "How do you differentiate y = x<sup>x</sup>?", "a": "Take log both sides to get ln y = x ln x. Differentiate: (1/y)(dy/dx) = ln x + 1. Multiply through by y to get dy/dx = x<sup>x</sup>(1 + ln x). The same three steps solve every question in this exercise." },
+    { "q": "How is Exercise 5.5 different from 5.2 and 5.3?", "a": "Exercise 5.2 is the chain rule for composite functions, and 5.3 is implicit differentiation of relations. Exercise 5.5 is specifically logarithmic differentiation &mdash; the log-both-sides trick for variable powers and products &mdash; so the setup step is different even though implicit differentiation is used afterwards." },
+    { "q": "Where can I get full solutions and extra practice for this chapter?", "a": "Our Class 12 Continuity and Differentiability case-study e-book has step-by-step solutions plus application questions covering logarithmic differentiation and the rest of the chapter, with a full answer key. The link is in the box below." }
+  ]
+}
