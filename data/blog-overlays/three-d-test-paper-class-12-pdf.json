@@ -1,0 +1,85 @@
+{
+  "slug": "three-d-test-paper-class-12-pdf",
+  "meta_title": "3D Geometry Test Paper Class 12 PDF + Free Quiz",
+  "meta_desc": "Practise Class 12 Three-Dimensional Geometry with a free 8-question quiz on direction cosines, line and plane equations, angles and distance. Grab the PDF.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-three-dimensional-geometry-case-studies-with-solutions",
+  "quiz": {
+    "title": "Class 12 Three-Dimensional Geometry Quiz",
+    "intro": "Eight questions on direction cosines and ratios, equations of lines and planes, angles, distances and coplanarity. Choose an answer for each, then press Check my score.",
+    "about": "Class 12 Three-Dimensional Geometry",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The direction cosines l, m, n of any line satisfy which relation?",
+        "options": ["l + m + n = 1", "l&sup2; + m&sup2; + n&sup2; = 1", "l&sup2; + m&sup2; + n&sup2; = 0", "lm + mn + nl = 1"],
+        "answer": 1,
+        "explanation": "Direction cosines are the cosines of the angles a line makes with the axes, and they always satisfy l&sup2; + m&sup2; + n&sup2; = 1."
+      },
+      {
+        "q": "A line has direction ratios 2, -1, 2. Its direction cosines are:",
+        "options": ["2, -1, 2", "2/3, -1/3, 2/3", "1/3, -1/3, 1/3", "2/9, -1/9, 2/9"],
+        "answer": 1,
+        "explanation": "Divide each ratio by the magnitude &radic;(4+1+4) = 3, giving direction cosines 2/3, -1/3, 2/3."
+      },
+      {
+        "q": "The angle between two lines with direction ratios (1, 2, 2) and (2, 2, 1) is:",
+        "options": ["cos&#8315;&sup1;(8/9)", "cos&#8315;&sup1;(1/9)", "90&deg;", "cos&#8315;&sup1;(4/9)"],
+        "answer": 0,
+        "explanation": "cos&theta; = (1&middot;2 + 2&middot;2 + 2&middot;1)/(3&middot;3) = 8/9, so &theta; = cos&#8315;&sup1;(8/9)."
+      },
+      {
+        "q": "Two lines with direction ratios (a&#8321;, b&#8321;, c&#8321;) and (a&#8322;, b&#8322;, c&#8322;) are perpendicular when:",
+        "options": ["a&#8321;/a&#8322; = b&#8321;/b&#8322; = c&#8321;/c&#8322;", "a&#8321;a&#8322; + b&#8321;b&#8322; + c&#8321;c&#8322; = 0", "a&#8321;a&#8322; + b&#8321;b&#8322; + c&#8321;c&#8322; = 1", "a&#8321; + a&#8322; = b&#8321; + b&#8322;"],
+        "answer": 1,
+        "explanation": "Perpendicular lines have a zero dot product of their direction ratios: a&#8321;a&#8322; + b&#8321;b&#8322; + c&#8321;c&#8322; = 0. Equal ratios instead mean the lines are parallel."
+      },
+      {
+        "q": "The plane 2x - 3y + 6z = 7 has which vector normal to it?",
+        "options": ["7i", "2i - 3j + 6k", "-3i + 6j", "2i + 3j + 6k"],
+        "answer": 1,
+        "explanation": "For a plane ax + by + cz = d, the coefficients give the normal vector, so here the normal is 2i - 3j + 6k."
+      },
+      {
+        "q": "The distance of the point (1, 2, 3) from the plane 2x - 2y + z + 3 = 0 is:",
+        "options": ["1", "2", "4/3", "2/3"],
+        "answer": 1,
+        "explanation": "Distance = |2(1) - 2(2) + 1(3) + 3| / &radic;(4+4+1) = |2 - 4 + 3 + 3|/3 = 6/3 = 2."
+      },
+      {
+        "q": "The angle between a line with direction ratios (1, 1, 2) and a plane with normal (2, -1, 1) is found using:",
+        "options": ["sin&theta; = |b&middot;n| / (|b||n|)", "cos&theta; = |b&middot;n| / (|b||n|)", "tan&theta; = |b&middot;n|", "sin&theta; = b&middot;n"],
+        "answer": 0,
+        "explanation": "For a line and a plane the angle uses the sine, since &theta; is measured from the plane while the dot product gives the angle with the normal: sin&theta; = |b&middot;n|/(|b||n|)."
+      },
+      {
+        "q": "Two lines are coplanar if and only if:",
+        "options": ["their direction ratios are equal", "the shortest distance between them is zero", "they meet the same plane", "their direction cosines sum to 1"],
+        "answer": 1,
+        "explanation": "Coplanar lines lie in one plane, so the shortest distance between them is zero (skew lines have a non-zero shortest distance)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What topics does the Class 12 Three-Dimensional Geometry chapter cover?",
+      "a": "It covers direction cosines and direction ratios of a line, the vector and Cartesian equations of a line, the angle between two lines, coplanarity, the equation of a plane in various forms, the angle between two planes and between a line and a plane, and the distance of a point from a plane."
+    },
+    {
+      "q": "What is the difference between direction cosines and direction ratios?",
+      "a": "Direction cosines are the cosines of the angles a line makes with the x, y and z axes and always satisfy l&sup2; + m&sup2; + n&sup2; = 1. Direction ratios are any numbers proportional to the direction cosines, so a line has one set of direction cosines but infinitely many sets of direction ratios."
+    },
+    {
+      "q": "How do you find the angle between a line and a plane?",
+      "a": "Use the direction ratios of the line and the normal to the plane. Since the angle is measured from the plane and not its normal, it is given by sin&theta; = |b&middot;n| / (|b||n|), where b is the line's direction vector and n is the plane's normal."
+    },
+    {
+      "q": "How do you check whether two lines are coplanar?",
+      "a": "Two lines are coplanar when the shortest distance between them is zero. In practice you check that the vector joining a point on each line, together with the two direction vectors, gives a zero scalar triple product. If it is non-zero the lines are skew."
+    },
+    {
+      "q": "Where can I get a Class 12 3D Geometry test paper with solutions in PDF?",
+      "a": "Our Class 12 Three-Dimensional Geometry case-study e-book has exam-style problems on direction cosines, lines, planes, angles and distances, each worked through with full step-by-step solutions as an instant printable PDF. The link is in the box below."
+    }
+  ]
+}

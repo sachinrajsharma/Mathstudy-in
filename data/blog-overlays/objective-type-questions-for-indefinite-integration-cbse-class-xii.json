@@ -1,0 +1,30 @@
+{
+  "slug": "objective-type-questions-for-indefinite-integration-cbse-class-xii",
+  "meta_title": "Indefinite Integration MCQs - CBSE Class 12 Maths",
+  "meta_desc": "Practise objective questions on indefinite integration for CBSE Class 12: standard results, substitution, by parts and partial fractions. Free quiz inside.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "objective-type-question-bank-for-mathematics-class-xii-c-b-s-e",
+  "quiz": {
+    "title": "Indefinite Integration MCQ Quiz",
+    "intro": "Eight objective-type questions on indefinite integration covering standard results, substitution, integration by parts and partial fractions. Pick an answer for each, then press Check my score.",
+    "about": "Indefinite integration for CBSE Class 12",
+    "level": "Class 12",
+    "questions": [
+      { "q": "&int; sec<sup>2</sup>x dx equals", "options": ["tan x + C", "sec x + C", "&minus;cot x + C", "sec x tan x + C"], "answer": 0, "explanation": "The derivative of tan x is sec<sup>2</sup>x, so &int; sec<sup>2</sup>x dx = tan x + C." },
+      { "q": "&int; 1/(1 + x<sup>2</sup>) dx equals", "options": ["ln(1 + x<sup>2</sup>) + C", "tan<sup>&minus;1</sup>x + C", "sin<sup>&minus;1</sup>x + C", "&minus;1/(1 + x<sup>2</sup>) + C"], "answer": 1, "explanation": "This is a standard result: &int; dx/(1 + x<sup>2</sup>) = tan<sup>&minus;1</sup>x + C." },
+      { "q": "Using substitution, &int; 2x&nbsp;cos(x<sup>2</sup>) dx equals", "options": ["sin(x<sup>2</sup>) + C", "&minus;sin(x<sup>2</sup>) + C", "cos(x<sup>2</sup>) + C", "x<sup>2</sup> sin(x<sup>2</sup>) + C"], "answer": 0, "explanation": "Put t = x<sup>2</sup>, so dt = 2x dx. Then &int; cos t dt = sin t + C = sin(x<sup>2</sup>) + C." },
+      { "q": "&int; tan x dx equals", "options": ["ln|cos x| + C", "&minus;ln|cos x| + C", "ln|sin x| + C", "sec<sup>2</sup>x + C"], "answer": 1, "explanation": "Write tan x = sin x/cos x and put t = cos x. The result is &minus;ln|cos x| + C, i.e. ln|sec x| + C." },
+      { "q": "By parts, &int; x&nbsp;e<sup>x</sup> dx equals", "options": ["x e<sup>x</sup> + e<sup>x</sup> + C", "x e<sup>x</sup> &minus; e<sup>x</sup> + C", "x<sup>2</sup>e<sup>x</sup>/2 + C", "e<sup>x</sup>(x + 1) + C"], "answer": 1, "explanation": "Take u = x, dv = e<sup>x</sup>dx. Then &int; x e<sup>x</sup> dx = x e<sup>x</sup> &minus; &int; e<sup>x</sup> dx = x e<sup>x</sup> &minus; e<sup>x</sup> + C." },
+      { "q": "&int; e<sup>x</sup>(sin x + cos x) dx equals", "options": ["e<sup>x</sup> cos x + C", "e<sup>x</sup> sin x + C", "e<sup>x</sup>(sin x &minus; cos x) + C", "&minus;e<sup>x</sup> sin x + C"], "answer": 1, "explanation": "This is the &int; e<sup>x</sup>[f(x) + f&prime;(x)] dx form with f(x) = sin x, giving e<sup>x</sup> f(x) + C = e<sup>x</sup> sin x + C." },
+      { "q": "Using partial fractions, &int; 1/((x &minus; 1)(x &minus; 2)) dx equals", "options": ["ln|(x &minus; 2)/(x &minus; 1)| + C", "ln|(x &minus; 1)/(x &minus; 2)| + C", "ln|(x &minus; 1)(x &minus; 2)| + C", "tan<sup>&minus;1</sup>(x &minus; 1) + C"], "answer": 0, "explanation": "1/((x&minus;1)(x&minus;2)) = 1/(x&minus;2) &minus; 1/(x&minus;1). Integrating gives ln|x&minus;2| &minus; ln|x&minus;1| + C = ln|(x&minus;2)/(x&minus;1)| + C." },
+      { "q": "&int; 1/&radic;(1 &minus; x<sup>2</sup>) dx equals", "options": ["tan<sup>&minus;1</sup>x + C", "sec<sup>&minus;1</sup>x + C", "sin<sup>&minus;1</sup>x + C", "ln|x + &radic;(1 &minus; x<sup>2</sup>)| + C"], "answer": 2, "explanation": "This is the standard inverse-trig result: &int; dx/&radic;(1 &minus; x<sup>2</sup>) = sin<sup>&minus;1</sup>x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "What kinds of objective questions come from indefinite integration in Class 12?", "a": "Most MCQs test recall of standard results, spotting the right substitution, choosing u and dv for integration by parts, and splitting a rational function into partial fractions. Recognising which method a form needs is usually half the battle." },
+    { "q": "How do I decide between substitution and integration by parts?", "a": "If the integrand contains a function and its derivative (up to a constant), substitution is the natural choice. If it is a product of two unrelated functions such as a polynomial times an exponential or a log, integration by parts (ILATE order) is usually the way." },
+    { "q": "Do I need to add the constant of integration in MCQs?", "a": "Yes. An indefinite integral is a family of functions, so the correct option always carries + C. Options that omit it or fix a particular value are deliberate distractors." },
+    { "q": "Which standard results are worth memorising for objective questions?", "a": "Learn the integrals of the six trig functions, the three inverse-trig forms (1/(1 + x&sup2;), 1/&radic;(1 &minus; x&sup2;) and their partners), 1/x, e&#94;x, a&#94;x, and the e&#94;x[f + f&prime;] pattern. These cover the bulk of single-line MCQs." },
+    { "q": "Where can I get more objective questions for indefinite integration?", "a": "Our Objective Type Question Bank for Mathematics (Class 12, CBSE) has chapter-wise MCQs on integrals with worked answers, so you can drill each method until it is automatic. The link is in the box below." }
+  ]
+}

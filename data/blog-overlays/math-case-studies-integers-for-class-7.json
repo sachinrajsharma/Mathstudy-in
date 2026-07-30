@@ -1,0 +1,30 @@
+{
+  "slug": "math-case-studies-integers-for-class-7",
+  "meta_title": "Class 7 Integers Case Studies + Free Quiz",
+  "meta_desc": "Master Class 7 integers with case studies on the number line, addition, subtraction, multiplication and division, plus a free 8-question quiz to test yourself.",
+  "category": "Class 7 Maths",
+  "cta_product_slug": "class-7-integers-case-studies-with-solutions",
+  "quiz": {
+    "title": "Class 7 Integers Quiz",
+    "intro": "Eight questions on adding, subtracting, multiplying and dividing integers, plus the number line and properties. Pick an answer for each, then press Check my score.",
+    "about": "Class 7 integers",
+    "level": "Class 7",
+    "questions": [
+      { "q": "What is (&minus;7) + (&minus;5)?", "options": ["&minus;12", "&minus;2", "12", "2"], "answer": 0, "explanation": "Two negatives add like their sizes and keep the sign: 7 + 5 = 12, so the answer is &minus;12." },
+      { "q": "Evaluate (&minus;9) + 4.", "options": ["&minus;13", "13", "&minus;5", "5"], "answer": 2, "explanation": "Different signs subtract: 9 &minus; 4 = 5, and the larger size (9) is negative, so the answer is &minus;5." },
+      { "q": "What is 6 &minus; (&minus;8)?", "options": ["&minus;2", "&minus;14", "2", "14"], "answer": 3, "explanation": "Subtracting a negative means adding its opposite: 6 &minus; (&minus;8) = 6 + 8 = 14." },
+      { "q": "On the number line, which integer lies to the LEFT of &minus;3?", "options": ["&minus;2", "&minus;5", "0", "&minus;1"], "answer": 1, "explanation": "Moving left means smaller. Of the choices only &minus;5 is less than &minus;3, so it sits to the left." },
+      { "q": "What is (&minus;6) &times; 4?", "options": ["24", "&minus;24", "&minus;10", "10"], "answer": 1, "explanation": "A negative times a positive is negative: 6 &times; 4 = 24, so the product is &minus;24." },
+      { "q": "Evaluate (&minus;48) &divide; (&minus;8).", "options": ["6", "&minus;6", "40", "&minus;40"], "answer": 0, "explanation": "A negative divided by a negative is positive: 48 &divide; 8 = 6." },
+      { "q": "Which property is shown by (&minus;5) + 3 = 3 + (&minus;5)?", "options": ["Associative property", "Commutative property", "Distributive property", "Closure property"], "answer": 1, "explanation": "The order of the numbers is swapped but the sum is the same, which is the commutative property of addition." },
+      { "q": "A diver is 15 m below sea level and rises 9 m. What is her new position relative to sea level?", "options": ["&minus;24 m", "24 m", "6 m", "&minus;6 m"], "answer": 3, "explanation": "Below sea level is negative: start at &minus;15, rising 9 gives &minus;15 + 9 = &minus;6, so she is 6 m below sea level." }
+    ]
+  },
+  "faq": [
+    { "q": "What are integers in Class 7 Maths?", "a": "Integers are the whole numbers together with their negatives and zero: ...&minus;3, &minus;2, &minus;1, 0, 1, 2, 3... In Class 7 you learn to add, subtract, multiply and divide them and to place them on a number line." },
+    { "q": "How do you add integers with different signs?", "a": "Ignore the signs and subtract the smaller size from the larger, then keep the sign of the number with the larger size. For example &minus;9 + 4: since 9 &minus; 4 = 5 and 9 is negative, the answer is &minus;5." },
+    { "q": "Why is a negative times a negative a positive?", "a": "Multiplying by a negative reverses direction, and reversing twice returns you to the positive side. So (&minus;6) &times; (&minus;4) = 24, while (&minus;6) &times; 4 = &minus;24." },
+    { "q": "What properties do integers follow?", "a": "Integers are closed under addition, subtraction and multiplication, and addition and multiplication are both commutative and associative. Multiplication also distributes over addition, which case study problems often test." },
+    { "q": "Where can I get Class 7 integers case studies with solutions?", "a": "Our Class 7 Integers case-study e-book gives situation-based problems on the number line, operations and properties, each with worked solutions and answer keys as an instant PDF you can print. The link is in the box below." }
+  ]
+}

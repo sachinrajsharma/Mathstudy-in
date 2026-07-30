@@ -1,0 +1,30 @@
+{
+  "slug": "cat-question-paper-pdf",
+  "meta_title": "CAT Question Paper PDF with Solutions + Free Quiz",
+  "meta_desc": "Download CAT question paper PDFs and test yourself with a free 8-question CAT quant quiz covering arithmetic, algebra, number systems and geometry.",
+  "category": "CAT",
+  "cta_product_slug": "cat-sample-papers-with-solutions-pdf",
+  "quiz": {
+    "title": "CAT Quant Aptitude Quiz",
+    "intro": "Eight CAT-level quantitative questions spanning arithmetic, algebra, number systems, geometry and modern maths. Work each one, then press Check my score to see the reasoning.",
+    "about": "CAT quantitative aptitude",
+    "level": "CAT",
+    "questions": [
+      { "q": "A shopkeeper marks goods 40% above cost and gives a 25% discount. What is his profit percentage?", "options": ["5%", "10%", "15%", "12.5%"], "answer": 0, "explanation": "Take cost as 100. Marked price is 140; a 25% discount gives 140 &times; 0.75 = 105. Profit is 5 on 100, so 5%." },
+      { "q": "If x + 1/x = 4, what is the value of x&sup2; + 1/x&sup2;?", "options": ["12", "14", "16", "18"], "answer": 1, "explanation": "Square both sides: (x + 1/x)&sup2; = x&sup2; + 2 + 1/x&sup2; = 16, so x&sup2; + 1/x&sup2; = 16 &minus; 2 = 14." },
+      { "q": "What is the remainder when 7&sup1;&#8304;&#8304; is divided by 4?", "options": ["3", "2", "0", "1"], "answer": 3, "explanation": "7 &equiv; 3 &equiv; &minus;1 (mod 4), so 7&sup1;&#8304;&#8304; &equiv; (&minus;1)&sup1;&#8304;&#8304; = 1. The remainder is 1." },
+      { "q": "The sum of the interior angles of a regular polygon is 1080&deg;. How many sides does it have?", "options": ["6", "7", "8", "9"], "answer": 2, "explanation": "Interior angle sum is (n &minus; 2) &times; 180. Setting (n &minus; 2) &times; 180 = 1080 gives n &minus; 2 = 6, so n = 8." },
+      { "q": "In how many ways can the letters of the word LEVEL be arranged?", "options": ["120", "60", "30", "20"], "answer": 2, "explanation": "LEVEL has 5 letters with L twice and E twice. Arrangements = 5! / (2! &times; 2!) = 120 / 4 = 30." },
+      { "q": "Two pipes fill a tank in 12 and 18 minutes respectively. How long do they take together?", "options": ["7.2 min", "6 min", "8 min", "7.5 min"], "answer": 0, "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 per minute, so the time is 36/5 = 7.2 minutes." },
+      { "q": "The average of 5 consecutive even numbers is 32. What is the largest number?", "options": ["34", "36", "38", "40"], "answer": 1, "explanation": "For consecutive numbers the average is the middle term, so the middle is 32. The five terms are 28, 30, 32, 34, 36 and the largest is 36." },
+      { "q": "A sum doubles in 8 years at simple interest. In how many years will it triple?", "options": ["12", "16", "24", "20"], "answer": 1, "explanation": "Doubling in 8 years means the interest equals the principal in 8 years, so the annual rate is 12.5%. Tripling needs interest of twice the principal, which takes 16 years." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the CAT Quantitative Aptitude section like?", "a": "It is one of the three CAT sections and draws heavily on arithmetic, algebra, number systems, geometry and modern maths. The questions reward clear reasoning over rote formulas, and many can be solved faster by picking smart numbers than by heavy calculation." },
+    { "q": "Which topics carry the most weight in CAT quant?", "a": "Arithmetic dominates &mdash; percentages, ratios, profit and loss, time-speed-distance and time-and-work show up every year. Algebra and number systems come next, with geometry and modern maths rounding out the section." },
+    { "q": "Are older CAT question papers still useful for preparation?", "a": "Yes. The exam pattern shifts, but the underlying concepts barely change. Working through past papers under a timer teaches you which questions to attempt first and which to leave, which is often what separates a good percentile from an average one." },
+    { "q": "How should I use a CAT question paper PDF while preparing?", "a": "Solve it in one timed sitting first, without looking at solutions, to mimic exam pressure. Then review every question &mdash; especially the ones you got right by luck &mdash; and note the traps. Repeat with a fresh paper each week." },
+    { "q": "Where can I get CAT sample papers with full solutions?", "a": "Our CAT sample papers e-book bundles multiple full-length papers with detailed step-by-step solutions for every question, so you can check your method and not just the final answer. The download link is in the box below." }
+  ]
+}
