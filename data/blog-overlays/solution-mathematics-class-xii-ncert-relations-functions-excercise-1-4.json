@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-relations-functions-excercise-1-4",
+  "meta_title": "NCERT Class 12 Relations & Functions Ex 1.4 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 1.4 solutions on binary operations, commutativity, associativity, identity and inverse, with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Binary Operations Quiz",
+    "intro": "Eight questions on binary operations &mdash; commutativity, associativity, identity and inverse elements &mdash; drawn from Exercise 1.4. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Relations and Functions, Exercise 1.4",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A binary operation * on a non-empty set A is a function of the form *: A &times; A &rarr;", "options": ["A &times; A", "A", "R", "{0, 1}"], "answer": 1, "explanation": "A binary operation takes an ordered pair from A &times; A and returns a single element that must lie back in A. So the codomain is A itself." },
+      { "q": "Why is the operation a * b = a &minus; b on R NOT commutative?", "options": ["a &minus; b = b &minus; a for all a, b", "it is also associative", "a &minus; b is generally not equal to b &minus; a", "0 acts as the identity"], "answer": 2, "explanation": "Commutativity needs a * b = b * a for every pair. But 5 &minus; 3 = 2 while 3 &minus; 5 = &minus;2, so subtraction fails the test." },
+      { "q": "For the operation a * b = a + b &minus; ab on R, it turns out (a * b) * c = a * (b * c). This means * is:", "options": ["not defined", "commutative only", "non-associative", "associative"], "answer": 3, "explanation": "Associativity means the grouping does not change the result. Since (a * b) * c equals a * (b * c) here, the operation is associative." },
+      { "q": "For the operation a * b = a + b on R, the identity element e satisfies a + e = a. So e =", "options": ["0", "1", "&minus;1", "a"], "answer": 0, "explanation": "The identity leaves every element unchanged. a + e = a forces e = 0, and indeed 0 + a = a as well." },
+      { "q": "For multiplication a * b = ab on R, the identity element is:", "options": ["0", "1", "&minus;1", "2"], "answer": 1, "explanation": "We need a * e = a, that is a &middot; e = a for all a. This gives e = 1, since a &middot; 1 = a." },
+      { "q": "Under addition on the set of integers Z, the inverse of the element 5 is:", "options": ["1/5", "5", "&minus;5", "0"], "answer": 2, "explanation": "An inverse b satisfies a * b = e. With addition the identity is 0, so 5 + b = 0 gives b = &minus;5." },
+      { "q": "On the set N of natural numbers, which of these is NOT a binary operation because it fails closure?", "options": ["a * b = a + b", "a * b = ab", "a * b = max(a, b)", "a * b = a &minus; b"], "answer": 3, "explanation": "For * to be a binary operation on N the result must stay in N. But 3 &minus; 5 = &minus;2 is not a natural number, so subtraction is not closed on N." },
+      { "q": "In the operation table of *, the operation is commutative exactly when the table is:", "options": ["symmetric about the leading diagonal", "filled entirely with zeros", "strictly increasing along each row", "equal to its own identity row"], "answer": 0, "explanation": "The entry for a * b sits in row a, column b, and b * a sits in row b, column a. These match for all pairs only when the table is symmetric across the main diagonal." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 1.4 of Class 12 Relations and Functions cover?", "a": "It introduces binary operations on a set and their key properties: closure, commutativity, associativity, the identity element and the inverse of an element. You also learn to read and build operation (Cayley) tables." },
+    { "q": "What is the difference between an identity element and an inverse element?", "a": "The identity element e leaves every element unchanged, so a * e = e * a = a. The inverse of a particular element a is the element b for which a * b = b * a = e, bringing you back to the identity." },
+    { "q": "How do I check whether a binary operation is commutative or associative?", "a": "For commutativity, verify a * b = b * a for all a and b &mdash; a single counterexample disproves it. For associativity, check that (a * b) * c = a * (b * c) holds for every triple a, b, c." },
+    { "q": "How does an operation table help identify properties?", "a": "A symmetric table (across the leading diagonal) signals commutativity. The identity element is the one whose row and column simply repeat the headings. To find an element's inverse, look along its row for the identity and read off the column heading." },
+    { "q": "Where can I get full solutions and case-study practice for this chapter?", "a": "Our Class 12 Relations and Functions case-studies e-book gives worked solutions to every Exercise 1.4 problem plus exam-style case studies with answer keys &mdash; an instant PDF. The link is in the box below." }
+  ]
+}

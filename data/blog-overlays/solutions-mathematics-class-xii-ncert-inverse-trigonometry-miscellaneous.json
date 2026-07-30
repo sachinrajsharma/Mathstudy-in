@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-ncert-inverse-trigonometry-miscellaneous",
+  "meta_title": "NCERT Class 12 Inverse Trig Miscellaneous Solutions",
+  "meta_desc": "NCERT Class 12 Inverse Trigonometry Miscellaneous Exercise solutions — principal values, properties, identities and equations, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Inverse Trigonometric Functions Miscellaneous Quiz",
+    "intro": "Eight mixed questions on principal values, properties, simplification and solving equations. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Inverse Trigonometric Functions — miscellaneous problems",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the principal value of cos&#8315;&#185;(&#8722;1/2)?", "options": ["2&#960;/3", "&#960;/3", "5&#960;/6", "&#960;/6"], "answer": 0, "explanation": "The range of cos&#8315;&#185; is [0, &#960;]. The angle in that range whose cosine is &#8722;1/2 is 2&#960;/3." },
+      { "q": "The value of tan&#8315;&#185;(1) + tan&#8315;&#185;(2) + tan&#8315;&#185;(3) is:", "options": ["&#960;/2", "&#960;", "3&#960;/4", "2&#960;"], "answer": 1, "explanation": "tan&#8315;&#185;1 = &#960;/4. Adding tan&#8315;&#185;2 + tan&#8315;&#185;3 gives 3&#960;/4 (since 2&#183;3 &gt; 1, add &#960;). The total is &#960;/4 + 3&#960;/4 = &#960;." },
+      { "q": "Evaluate sin&#8315;&#185;(sin(2&#960;/3)).", "options": ["2&#960;/3", "&#960;/3", "&#8722;&#960;/3", "&#960;/6"], "answer": 1, "explanation": "2&#960;/3 lies outside [&#8722;&#960;/2, &#960;/2], so use sin(2&#960;/3) = sin(&#960; &#8722; 2&#960;/3) = sin(&#960;/3). The answer is &#960;/3." },
+      { "q": "For x &gt; 0, tan&#8315;&#185;(x) + tan&#8315;&#185;(1/x) equals:", "options": ["0", "&#960;/4", "&#960;/2", "&#960;"], "answer": 2, "explanation": "When x &gt; 0, tan&#8315;&#185;x + tan&#8315;&#185;(1/x) = &#960;/2. (For x &lt; 0 it equals &#8722;&#960;/2.)" },
+      { "q": "For every x in [&#8722;1, 1], sin&#8315;&#185;(x) + cos&#8315;&#185;(x) equals:", "options": ["0", "&#960;/4", "&#960;", "&#960;/2"], "answer": 3, "explanation": "This is a standard identity: sin&#8315;&#185;x + cos&#8315;&#185;x = &#960;/2 for all x in the domain [&#8722;1, 1]." },
+      { "q": "Evaluate cos&#8315;&#185;(cos(7&#960;/6)).", "options": ["7&#960;/6", "&#960;/6", "5&#960;/6", "&#8722;5&#960;/6"], "answer": 2, "explanation": "7&#960;/6 is outside [0, &#960;]. Since cos(7&#960;/6) = cos(2&#960; &#8722; 7&#960;/6) = cos(5&#960;/6), the principal value is 5&#960;/6." },
+      { "q": "The value of tan&#8315;&#185;(&#8730;3) &#8722; sec&#8315;&#185;(&#8722;2) is:", "options": ["&#8722;&#960;/3", "&#960;/3", "&#960;", "&#8722;&#960;"], "answer": 0, "explanation": "tan&#8315;&#185;&#8730;3 = &#960;/3. sec&#8315;&#185;(&#8722;2) = 2&#960;/3 (its range is [0, &#960;], sec = &#8722;2 means cos = &#8722;1/2). So &#960;/3 &#8722; 2&#960;/3 = &#8722;&#960;/3." },
+      { "q": "If tan&#8315;&#185;((1 &#8722; x)/(1 + x)) = &#189; tan&#8315;&#185;x for x &gt; 0, then x equals:", "options": ["1/2", "&#8730;3", "1", "1/&#8730;3"], "answer": 3, "explanation": "The left side is &#960;/4 &#8722; tan&#8315;&#185;x. Setting &#960;/4 &#8722; tan&#8315;&#185;x = &#189; tan&#8315;&#185;x gives tan&#8315;&#185;x = &#960;/6, so x = tan(&#960;/6) = 1/&#8730;3." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the miscellaneous exercise on inverse trigonometry cover?", "a": "It mixes every idea from the chapter: finding principal values, applying properties like sin&#8315;&#185;x + cos&#8315;&#185;x = &#960;/2, simplifying nested expressions, proving identities and solving equations that contain inverse trigonometric functions." },
+    { "q": "How do I find the principal value of an inverse trigonometric function?", "a": "First recall the principal-value range of that function &mdash; for example [&#8722;&#960;/2, &#960;/2] for sin&#8315;&#185; and [0, &#960;] for cos&#8315;&#185;. Then choose the angle inside that range whose sine, cosine or tangent matches the given value." },
+    { "q": "Why does sin&#8315;&#185;(sin x) sometimes not equal x?", "a": "sin&#8315;&#185;(sin x) equals x only when x already lies in [&#8722;&#960;/2, &#960;/2]. Otherwise you replace the angle with an equivalent one inside that range, such as &#960; &#8722; x, so the output stays within the principal range." },
+    { "q": "Which properties are used most in these problems?", "a": "The additions tan&#8315;&#185;x + tan&#8315;&#185;y = tan&#8315;&#185;((x + y)/(1 &#8722; xy)), the complementary pairs sin&#8315;&#185;x + cos&#8315;&#185;x = &#960;/2 and tan&#8315;&#185;x + cot&#8315;&#185;x = &#960;/2, and the double-angle forms of 2tan&#8315;&#185;x." },
+    { "q": "Where can I get fully solved answers for this exercise?", "a": "Our fully solved CBSE Class 12 workbook works through every miscellaneous inverse-trigonometry problem step by step, with the property used named at each stage &mdash; an instant PDF you can revise from anytime. The link is in the box below." }
+  ]
+}

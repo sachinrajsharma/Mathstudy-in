@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-4",
+  "meta_title": "Application of Derivatives Ex 6.4: Approximations Quiz",
+  "meta_desc": "NCERT Class 12 Application of Derivatives Exercise 6.4 solutions on approximations using differentials, with a free 8-question quiz. Practice now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Approximations by Differentials Quiz (Ex 6.4)",
+    "intro": "Eight questions on the Exercise 6.4 method: using dy = f'(x) dx to approximate roots, powers and small changes. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives Exercise 6.4 — approximations",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Using differentials, the approximate value of &radic;25.3 is:", "options": ["5.3", "5.003", "5.03", "4.97"], "answer": 2, "explanation": "Let f(x) = &radic;x, x = 25, &Delta;x = 0.3. f'(x) = 1/(2&radic;x) = 1/10, so dy = 0.1 &times; 0.3 = 0.03. Hence &radic;25.3 &asymp; 5 + 0.03 = 5.03." },
+      { "q": "In the approximation method of Exercise 6.4, the differential dy equals:", "options": ["f'(x) dx", "f(x) dx", "x f'(x)", "dx / f'(x)"], "answer": 0, "explanation": "By definition dy = f'(x) dx, and for a small change &Delta;x we take &Delta;y &asymp; dy, so f(x + &Delta;x) &asymp; f(x) + f'(x) &Delta;x." },
+      { "q": "The approximate value of (26)^(1/3) using differentials is:", "options": ["2.926", "2.963", "3.037", "2.996"], "answer": 1, "explanation": "Let f(x) = x^(1/3), x = 27, &Delta;x = &minus;1. f'(x) = 1/(3x^(2/3)) = 1/27, so dy = (1/27)(&minus;1) &asymp; &minus;0.037. Hence (26)^(1/3) &asymp; 3 &minus; 0.037 = 2.963." },
+      { "q": "If there is an error of 2% in measuring the edge of a cube, the approximate percentage error in its volume is:", "options": ["2%", "3%", "4%", "6%"], "answer": 3, "explanation": "V = x^3, so dV/V = 3(dx/x). A 2% error in the edge gives 3 &times; 2% = 6% error in volume." },
+      { "q": "Using differentials, the approximate value of (255)^(1/4) is:", "options": ["3.9961", "4.0039", "3.984", "4.004"], "answer": 0, "explanation": "Let f(x) = x^(1/4), x = 256, &Delta;x = &minus;1. f'(x) = 1/(4x^(3/4)) = 1/256, so dy &asymp; &minus;0.0039. Hence (255)^(1/4) &asymp; 4 &minus; 0.0039 = 3.9961." },
+      { "q": "The radius of a sphere increases from 9 cm to 9.05 cm. The approximate increase in surface area (S = 4&pi;r&sup2;) is:", "options": ["1.8&pi; cm&sup2;", "2.4&pi; cm&sup2;", "3.6&pi; cm&sup2;", "7.2&pi; cm&sup2;"], "answer": 2, "explanation": "dS = 8&pi;r dr = 8&pi;(9)(0.05) = 3.6&pi; cm&sup2;." },
+      { "q": "The edge of a cube is 10 cm and increases by 0.1 cm. The approximate increase in its volume is:", "options": ["3 cm&sup3;", "30 cm&sup3;", "300 cm&sup3;", "10 cm&sup3;"], "answer": 1, "explanation": "V = x^3, so dV = 3x&sup2; dx = 3(10)&sup2;(0.1) = 30 cm&sup3;." },
+      { "q": "For a small change &Delta;x, the value f(x + &Delta;x) is approximated as:", "options": ["f(x) &minus; f'(x)&Delta;x", "f(x) &middot; f'(x)&Delta;x", "f'(x) + f(x)&Delta;x", "f(x) + f'(x)&Delta;x"], "answer": 3, "explanation": "The linear approximation is f(x + &Delta;x) &asymp; f(x) + f'(x)&Delta;x, which is the basis of every Exercise 6.4 estimate." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 6.4 of Application of Derivatives cover?", "a": "It covers approximations using differentials — estimating values like square roots, cube roots and small powers, and finding approximate errors in area or volume, all from the formula dy = f'(x) dx." },
+    { "q": "What is the main formula used in these approximation problems?", "a": "The linear approximation f(x + &Delta;x) &asymp; f(x) + f'(x) &Delta;x. You pick a nearby value x where f(x) is exact, then add the differential dy = f'(x) &Delta;x to correct it." },
+    { "q": "How do you approximate &radic;25.3 by differentials?", "a": "Take f(x) = &radic;x with x = 25 and &Delta;x = 0.3. Since f'(x) = 1/(2&radic;x) = 0.1, the change is dy = 0.03, so &radic;25.3 &asymp; 5.03." },
+    { "q": "How is percentage error in volume related to error in the edge?", "a": "For a cube, V = x&sup3; gives dV/V = 3(dx/x), so the percentage error in volume is three times the percentage error in the edge. A 2% edge error means about 6% in volume." },
+    { "q": "Where can I get full solutions to Exercise 6.4 with more practice?", "a": "Our Class 12 Application of Derivatives case studies with solutions e-book works through approximation problems step by step alongside extra practice and answer keys. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "find-the-area-of-the-region-bounded-by-y2-9xx-2x-4-and-the-x-axis-in-the-first-quadrant-ncert-ex-8-1-q-2page-365",
+  "meta_title": "NCERT Ex 8.1 Q2: Area Bounded by y²=9x, x=2 to 4",
+  "meta_desc": "Solve NCERT Class 12 Ex 8.1 Q2: find the area bounded by y²=9x, the lines x=2, x=4 and the x-axis by integrating w.r.t. x, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Area Under y = 3√x Quiz (NCERT Ex 8.1 Q2)",
+    "intro": "Eight questions on finding area by integration — reading the parabola, setting up the definite integral between x = 2 and x = 4, and evaluating it. Pick an answer for each, then press Check my score.",
+    "about": "Area under a curve using definite integration (Application of Integrals)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For the parabola y² = 9x, what is y in the first quadrant, written in terms of x?", "options": ["y = 9√x", "y = 3√x", "y = √(3x)", "y = 3x"], "answer": 1, "explanation": "y² = 9x gives y = ±3√x. In the first quadrant y is positive, so y = 3√x." },
+      { "q": "The area is measured against the x-axis between x = 2 and x = 4. Which definite integral gives it?", "options": ["∫ from 2 to 4 of 3√x dx", "∫ from 0 to 4 of 3√x dx", "∫ from 2 to 4 of 9x dx", "∫ from 2 to 4 of √x dx"], "answer": 0, "explanation": "Area under y = f(x) between the vertical lines x = a and x = b is ∫ from a to b of f(x) dx. Here f(x) = 3√x, a = 2, b = 4." },
+      { "q": "What is ∫ √x dx?", "options": ["(1/2)x^(-1/2) + C", "(2/3)x^(3/2) + C", "(3/2)x^(3/2) + C", "x^(3/2) + C"], "answer": 1, "explanation": "√x = x^(1/2). Raise the power by one to 3/2 and divide by 3/2, giving (2/3)x^(3/2) + C." },
+      { "q": "Evaluate 4^(3/2).", "options": ["6", "16", "8", "12"], "answer": 2, "explanation": "4^(3/2) = (√4)³ = 2³ = 8." },
+      { "q": "Evaluate 2^(3/2).", "options": ["4", "2", "√2", "2√2"], "answer": 3, "explanation": "2^(3/2) = 2^1 · 2^(1/2) = 2√2." },
+      { "q": "Evaluate ∫ from 2 to 4 of 3√x dx.", "options": ["16 − 4√2", "8 − 2√2", "16 + 4√2", "4√2"], "answer": 0, "explanation": "∫3√x dx = 3·(2/3)x^(3/2) = 2x^(3/2). Between 2 and 4: 2(4^(3/2) − 2^(3/2)) = 2(8 − 2√2) = 16 − 4√2." },
+      { "q": "In the first quadrant, the region under y = 3√x from x = 2 to x = 4 is bounded below by which line?", "options": ["y = 4", "x = 2", "the x-axis (y = 0)", "x = 4"], "answer": 2, "explanation": "The area is measured down to the x-axis, so the lower boundary is y = 0. The lines x = 2 and x = 4 form the left and right edges." },
+      { "q": "Approximately, what is the value of the area 16 − 4√2 (in square units)?", "options": ["5.66", "20.34", "13.66", "10.34"], "answer": 3, "explanation": "√2 ≈ 1.414, so 4√2 ≈ 5.66. Then 16 − 5.66 ≈ 10.34 square units." }
+    ]
+  },
+  "faq": [
+    { "q": "Why do we integrate with respect to x for this question?", "a": "The bounding lines x = 2 and x = 4 are vertical, and the strip is measured down to the x-axis. Vertical strips of width dx and height y = 3√x make integration with respect to x the natural choice." },
+    { "q": "How is y = 3√x obtained from y² = 9x?", "a": "Taking the square root of both sides of y² = 9x gives y = ±3√x. Since the region lies in the first quadrant, y is positive, so we keep y = 3√x." },
+    { "q": "What is the exact area of the region?", "a": "The area equals ∫ from 2 to 4 of 3√x dx = 2x^(3/2) evaluated from 2 to 4 = 16 − 4√2 square units, which is about 10.34 square units." },
+    { "q": "Would the answer change if we integrated with respect to y instead?", "a": "The exact value stays the same, but the set-up is messier: you would express x = y²/9 and split the region across horizontal strips using the y-values at x = 2 and x = 4. Integrating in x is far cleaner here." },
+    { "q": "Where can I get the full worked solution for NCERT Ex 8.1?", "a": "The complete step-by-step solutions for all of Exercise 8.1, Application of Integrals, are available in our Class 12 Maths solutions e-book with clear working and diagrams. The link is in the box below." }
+  ]
+}
