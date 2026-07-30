@@ -1,0 +1,30 @@
+{
+  "slug": "jee-online-test-integration-25-questions-60-minutes",
+  "meta_title": "JEE Integration Online Test: 25 Questions in 60 Minutes",
+  "meta_desc": "Take a timed JEE integration test: 25 questions, 60 minutes. Try 8 free integral calculus MCQs on substitution, by parts and partial fractions.",
+  "category": "JEE",
+  "cta_product_slug": "mathematics-formula-book-for-jee",
+  "quiz": {
+    "title": "JEE Integration Online Test",
+    "intro": "Eight JEE-level integral calculus questions under exam conditions &mdash; substitution, integration by parts, partial fractions, definite integrals and standard forms. Give yourself about two minutes each, then check the worked reasons.",
+    "about": "Indefinite and definite integration for JEE Main and Advanced",
+    "level": "JEE",
+    "questions": [
+      { "q": "&int; 2x e<sup>x&sup2;</sup> dx equals", "options": ["e<sup>x&sup2;</sup> + C", "2e<sup>x&sup2;</sup> + C", "x&sup2; e<sup>x&sup2;</sup> + C", "e<sup>2x</sup> + C"], "answer": 0, "explanation": "Put t = x&sup2;, so dt = 2x dx. The integral becomes &int; e<sup>t</sup> dt = e<sup>t</sup> + C = e<sup>x&sup2;</sup> + C." },
+      { "q": "&int; x cos x dx equals", "options": ["x sin x &minus; cos x + C", "x sin x + cos x + C", "x cos x + sin x + C", "&minus;x sin x + cos x + C"], "answer": 1, "explanation": "Integration by parts with u = x, dv = cos x dx gives x sin x &minus; &int; sin x dx = x sin x + cos x + C." },
+      { "q": "&int; dx / (x&sup2; &minus; 1) equals", "options": ["ln|x&sup2; &minus; 1| + C", "&frac12; ln|(x + 1)/(x &minus; 1)| + C", "&frac12; ln|(x &minus; 1)/(x + 1)| + C", "tan<sup>&minus;1</sup> x + C"], "answer": 2, "explanation": "Partial fractions: 1/(x&sup2; &minus; 1) = &frac12;[1/(x &minus; 1) &minus; 1/(x + 1)], which integrates to &frac12; ln|(x &minus; 1)/(x + 1)| + C." },
+      { "q": "&int;<sub>0</sub><sup>&pi;/2</sup> sin x / (sin x + cos x) dx equals", "options": ["&pi;/2", "&pi;", "1", "&pi;/4"], "answer": 3, "explanation": "Using the king property with x &rarr; &pi;/2 &minus; x, the same integral appears with cos x on top. Adding the two copies gives 2I = &int;<sub>0</sub><sup>&pi;/2</sup> 1 dx = &pi;/2, so I = &pi;/4." },
+      { "q": "&int; dx / (9 + x&sup2;) equals", "options": ["&frac13; tan<sup>&minus;1</sup>(x/3) + C", "&frac19; tan<sup>&minus;1</sup>(x/3) + C", "3 tan<sup>&minus;1</sup>(x/3) + C", "tan<sup>&minus;1</sup>(x/3) + C"], "answer": 0, "explanation": "This is the standard form &int; dx/(a&sup2; + x&sup2;) = (1/a) tan<sup>&minus;1</sup>(x/a) + C with a = 3, giving &frac13; tan<sup>&minus;1</sup>(x/3) + C." },
+      { "q": "&int; tan x dx equals", "options": ["ln|cos x| + C", "ln|sec x| + C", "sec&sup2; x + C", "&minus;ln|sec x| + C"], "answer": 1, "explanation": "Write tan x = sin x / cos x and substitute t = cos x, dt = &minus;sin x dx. The result is &minus;ln|cos x| + C = ln|sec x| + C." },
+      { "q": "&int;<sub>&minus;1</sub><sup>1</sup> x&sup3; cos x dx equals", "options": ["2", "1", "0", "&pi;"], "answer": 2, "explanation": "x&sup3; is odd and cos x is even, so the product x&sup3; cos x is an odd function. The integral of an odd function over a symmetric interval [&minus;1, 1] is 0." },
+      { "q": "&int; dx / &radic;(4 &minus; x&sup2;) equals", "options": ["sin<sup>&minus;1</sup> x + C", "&frac12; sin<sup>&minus;1</sup>(x/2) + C", "cos<sup>&minus;1</sup>(x/2) + C", "sin<sup>&minus;1</sup>(x/2) + C"], "answer": 3, "explanation": "Standard form &int; dx/&radic;(a&sup2; &minus; x&sup2;) = sin<sup>&minus;1</sup>(x/a) + C with a = 2, giving sin<sup>&minus;1</sup>(x/2) + C." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the JEE integration test cover?", "a": "It spans the methods JEE actually rewards: substitution, integration by parts, partial fractions, standard forms such as dx/(a&sup2;+x&sup2;) and dx/&radic;(a&sup2;-x&sup2;), and definite integrals using properties like the king rule and odd-even symmetry." },
+    { "q": "How should I split 60 minutes across 25 questions?", "a": "That is about 2.4 minutes per question. Do the direct-formula and substitution ones first in under a minute each, which banks time for the partial-fraction and property-based definite integrals that need more setup." },
+    { "q": "Which integration method saves the most time in JEE?", "a": "Recognising a standard form before you start. Many questions collapse to dx/(a&sup2;+x&sup2;), dx/&radic;(a&sup2;-x&sup2;) or a linear-over-quadratic split, so memorising the standard results turns a two-minute problem into a ten-second one." },
+    { "q": "Are definite-integral properties worth learning separately?", "a": "Yes. The king property, &int;<sub>0</sub><sup>a</sup> f dx = &int;<sub>0</sub><sup>a</sup> f(a-x) dx, and odd-even symmetry solve integrals that look impossible to evaluate directly, and they appear in nearly every JEE paper." },
+    { "q": "Where can I get all the integration formulas in one place?", "a": "Our Mathematics Formula Book for JEE gathers every integration standard form, substitution and definite-integral property alongside the rest of the JEE syllabus in one quick-revision PDF. The link is in the box below." }
+  ]
+}

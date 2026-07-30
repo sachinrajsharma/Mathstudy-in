@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-6",
+  "meta_title": "NCERT Class 12 Maths Ex 5.6 Solutions: Parametric",
+  "meta_desc": "Full NCERT Class 12 Maths Exercise 5.6 solutions on derivatives in parametric form, plus a free 8-question quiz to test your dy/dx skills. Start now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Parametric Differentiation Quiz (Ex 5.6)",
+    "intro": "Eight questions on derivatives in parametric form, where x and y are both given in terms of a parameter t or &theta;. Work out each dy/dx, pick an answer, then press Check my score.",
+    "about": "NCERT Class 12 Maths Exercise 5.6 — derivatives in parametric form",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If x = at&sup2; and y = 2at, find dy/dx.", "options": ["1/t", "t", "2t", "1/(2t)"], "answer": 0, "explanation": "dx/dt = 2at and dy/dt = 2a. So dy/dx = (dy/dt)/(dx/dt) = 2a / (2at) = 1/t." },
+      { "q": "If x = cos t and y = sin t, find dy/dx.", "options": ["cot t", "&minus;cot t", "tan t", "&minus;tan t"], "answer": 1, "explanation": "dx/dt = &minus;sin t and dy/dt = cos t. So dy/dx = cos t / (&minus;sin t) = &minus;cot t." },
+      { "q": "If x = a cos&theta; and y = b sin&theta;, find dy/dx.", "options": ["(b/a) cot&theta;", "(a/b) tan&theta;", "&minus;(b/a) cot&theta;", "&minus;(a/b) tan&theta;"], "answer": 2, "explanation": "dx/d&theta; = &minus;a sin&theta; and dy/d&theta; = b cos&theta;. So dy/dx = (b cos&theta;)/(&minus;a sin&theta;) = &minus;(b/a) cot&theta;." },
+      { "q": "If x = t&sup2; and y = t&sup3;, find dy/dx.", "options": ["3/2", "2t/3", "3t&sup2;", "3t/2"], "answer": 3, "explanation": "dx/dt = 2t and dy/dt = 3t&sup2;. So dy/dx = 3t&sup2; / (2t) = 3t/2." },
+      { "q": "When x = f(t) and y = g(t), the derivative dy/dx equals which of these?", "options": ["(dx/dt) / (dy/dt)", "(dy/dt) / (dx/dt)", "(dy/dt) &times; (dx/dt)", "dx/dy"], "answer": 1, "explanation": "By the chain rule, dy/dx = (dy/dt) / (dx/dt), valid wherever dx/dt is not zero. Never forget to divide by dx/dt." },
+      { "q": "For the cycloid x = a(&theta; &minus; sin&theta;), y = a(1 &minus; cos&theta;), find dy/dx.", "options": ["cot(&theta;/2)", "tan(&theta;/2)", "&minus;cot(&theta;/2)", "sec(&theta;/2)"], "answer": 0, "explanation": "dx/d&theta; = a(1 &minus; cos&theta;) and dy/d&theta; = a sin&theta;. So dy/dx = sin&theta; / (1 &minus; cos&theta;) = cot(&theta;/2), using sin&theta; = 2 sin(&theta;/2)cos(&theta;/2) and 1 &minus; cos&theta; = 2 sin&sup2;(&theta;/2)." },
+      { "q": "If x = at and y = a/t, find dy/dx.", "options": ["1/t&sup2;", "t&sup2;", "&minus;1/t&sup2;", "&minus;t&sup2;"], "answer": 2, "explanation": "dx/dt = a and dy/dt = &minus;a/t&sup2;. So dy/dx = (&minus;a/t&sup2;) / a = &minus;1/t&sup2;." },
+      { "q": "If x = e&#8484;&#690; (that is, e to the power t) and y = e to the power &minus;t, find dy/dx.", "options": ["e to the power 2t", "e to the power &minus;2t", "&minus;e to the power 2t", "&minus;e to the power &minus;2t"], "answer": 3, "explanation": "dx/dt = e^t and dy/dt = &minus;e^(&minus;t). So dy/dx = &minus;e^(&minus;t) / e^t = &minus;e^(&minus;2t)." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 5.6 of NCERT Class 12 Maths cover?", "a": "It covers derivatives in parametric form. Here x and y are each written in terms of a third variable, the parameter (usually t or &theta;), instead of y being a direct function of x. You differentiate both with respect to the parameter and divide." },
+    { "q": "What is the formula for dy/dx in parametric form?", "a": "If x = f(t) and y = g(t), then dy/dx = (dy/dt) / (dx/dt), provided dx/dt is not zero. Find dy/dt and dx/dt separately, then divide the two." },
+    { "q": "How is parametric differentiation different from implicit differentiation in Ex 5.3?", "a": "In Exercise 5.3 x and y are tied together in one equation and you differentiate that whole relation. In Exercise 5.6 both x and y are given as separate functions of a parameter, so you differentiate each one with respect to that parameter and take the ratio." },
+    { "q": "Do I need to eliminate the parameter before differentiating?", "a": "No. That is the whole point of the parametric method. You keep the parameter, differentiate x and y with respect to it, and divide. Eliminating the parameter first is usually messier and often not possible." },
+    { "q": "Where can I get worked solutions and extra practice for this exercise?", "a": "Our Class 12 Continuity and Differentiability case studies e-book gives step-by-step solutions and exam-style practice covering parametric derivatives and the rest of the chapter, with a full answer key. The link is in the box below." }
+  ]
+}

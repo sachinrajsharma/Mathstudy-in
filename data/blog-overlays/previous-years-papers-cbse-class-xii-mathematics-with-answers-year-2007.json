@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2007",
+  "meta_title": "CBSE Class 12 Maths 2007 Question Paper with Answers",
+  "meta_desc": "Work through the CBSE Class 12 Mathematics 2007 paper with worked answers, plus a free 8-question quiz on calculus, matrices, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2007 Quiz",
+    "intro": "Eight board-level questions in the style of the 2007 paper, covering calculus, matrices and determinants, vectors, 3D geometry, probability and differential equations. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2007 past paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = e<sup>x</sup> sin x, then dy/dx equals:", "options": ["e<sup>x</sup>(sin x + cos x)", "e<sup>x</sup> cos x", "e<sup>x</sup> sin x", "e<sup>x</sup>(cos x &minus; sin x)"], "answer": 0, "explanation": "Use the product rule: d/dx(e<sup>x</sup> sin x) = e<sup>x</sup> sin x + e<sup>x</sup> cos x = e<sup>x</sup>(sin x + cos x)." },
+      { "q": "If A is a 3 &times; 3 matrix with det(A) = 4, then det(2A) equals:", "options": ["8", "16", "32", "64"], "answer": 2, "explanation": "For an n &times; n matrix, det(kA) = k<sup>n</sup> det(A). Here n = 3 and k = 2, so det(2A) = 2<sup>3</sup> &times; 4 = 8 &times; 4 = 32." },
+      { "q": "&int; sec<sup>2</sup> x dx equals:", "options": ["cot x + C", "tan x + C", "sec x tan x + C", "&minus;tan x + C"], "answer": 1, "explanation": "The derivative of tan x is sec<sup>2</sup> x, so &int; sec<sup>2</sup> x dx = tan x + C." },
+      { "q": "If the vectors a = 2i + &lambda;j + k and b = i &minus; 2j + 3k are perpendicular, then &lambda; equals:", "options": ["1", "2", "3/2", "5/2"], "answer": 3, "explanation": "Perpendicular vectors have a &middot; b = 0. Here a &middot; b = (2)(1) + (&lambda;)(&minus;2) + (1)(3) = 5 &minus; 2&lambda; = 0, so &lambda; = 5/2." },
+      { "q": "For the standard unit vectors, i &times; j equals:", "options": ["k", "&minus;k", "j", "&minus;i"], "answer": 0, "explanation": "Following the right-hand rule in the cyclic order i, j, k, the cross product i &times; j = k." },
+      { "q": "If P(A) = 0.4, P(B) = 0.5 and P(A &cap; B) = 0.2, then P(A | B) equals:", "options": ["0.2", "0.5", "0.8", "0.4"], "answer": 3, "explanation": "P(A | B) = P(A &cap; B) / P(B) = 0.2 / 0.5 = 0.4." },
+      { "q": "&int; from 0 to 1 of x<sup>2</sup> dx equals:", "options": ["1", "1/3", "1/2", "1/4"], "answer": 1, "explanation": "&int; x<sup>2</sup> dx = x<sup>3</sup>/3. Evaluating from 0 to 1 gives 1<sup>3</sup>/3 &minus; 0 = 1/3." },
+      { "q": "The integrating factor of the differential equation dy/dx + y = e<sup>x</sup> is:", "options": ["x", "e<sup>&minus;x</sup>", "e<sup>x</sup>", "1"], "answer": 2, "explanation": "For dy/dx + Py = Q the integrating factor is e<sup>&int; P dx</sup>. Here P = 1, so the factor is e<sup>&int; 1 dx</sup> = e<sup>x</sup>." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does the CBSE Class 12 Mathematics 2007 paper cover?", "a": "It follows the Class 12 syllabus of that year &mdash; differentiation and integration, matrices and determinants, vectors and three-dimensional geometry, differential equations, linear programming and probability. Those chapters still form the core of today's board paper." },
+    { "q": "Is the 2007 paper still worth solving for the current CBSE exam?", "a": "Yes. The pattern has since added objective and case-study sections, but the methods tested &mdash; product-rule derivatives, standard integrals, determinant properties, dot and cross products &mdash; have not changed. It is clean drill for building accuracy." },
+    { "q": "How do I find the integrating factor of a linear differential equation?", "a": "Write the equation in the form dy/dx + Py = Q, identify P as the coefficient of y, then compute e raised to the integral of P dx. For dy/dx + y = e<sup>x</sup> the coefficient P is 1, giving an integrating factor of e<sup>x</sup>." },
+    { "q": "Which mistakes cost students the most marks on these questions?", "a": "Dropping a term in product-rule differentiation, forgetting the power k<sup>n</sup> when scaling a determinant, and mixing up the dot product (a scalar) with the cross product (a vector). Writing each step out prevents most slips." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-papers e-book collects full board-style papers with complete step-by-step solutions and marking guidance &mdash; an instant PDF you can print and practise from repeatedly. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-relations-and-functions-miscellaneous-exercise",
+  "meta_title": "NCERT Class 12 Relations & Functions Misc Solutions",
+  "meta_desc": "Step-by-step solutions to the Class 12 Relations and Functions miscellaneous exercise, plus a free 8-question MCQ quiz on functions and relations.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Relations & Functions Miscellaneous Quiz",
+    "intro": "Eight mixed questions covering types of relations, one-one and onto functions, composition, inverses and binary operations. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Relations and Functions miscellaneous exercise",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A relation R on set A is an equivalence relation if it is:", "options": ["Only reflexive and symmetric", "Reflexive, symmetric and transitive", "Only symmetric and transitive", "Only reflexive and transitive"], "answer": 1, "explanation": "An equivalence relation must satisfy all three properties together: reflexive, symmetric and transitive." },
+      { "q": "The function f : R &rarr; R given by f(x) = 3x + 5 is:", "options": ["Neither one-one nor onto", "One-one but not onto", "Onto but not one-one", "Both one-one and onto"], "answer": 3, "explanation": "f(a) = f(b) forces a = b, so it is one-one, and every real y has a pre-image x = (y &minus; 5)/3, so it is onto. Hence bijective." },
+      { "q": "If f(x) = 2x and g(x) = x + 3, then (g &compfn; f)(x) equals:", "options": ["2x + 3", "2x + 6", "2(x + 3)", "x + 6"], "answer": 0, "explanation": "(g &compfn; f)(x) = g(f(x)) = g(2x) = 2x + 3. Apply f first, then g." },
+      { "q": "For a bijective function f, the composition (f &compfn; f&#8315;&#185;)(x) equals:", "options": ["f(x)", "x", "f&#8315;&#185;(x)", "1"], "answer": 1, "explanation": "A function composed with its inverse gives the identity, so (f &compfn; f&#8315;&#185;)(x) = x for every x in the range." },
+      { "q": "The operation * on R defined by a * b = a + b &minus; ab has identity element:", "options": ["1", "&minus;1", "0", "No identity exists"], "answer": 2, "explanation": "We need a * e = a, so a + e &minus; ae = a, giving e(1 &minus; a) = 0 for all a, hence e = 0." },
+      { "q": "The greatest integer function f(x) = [x] from R to R is:", "options": ["One-one and onto", "One-one but not onto", "Neither one-one nor onto", "Onto but not one-one"], "answer": 2, "explanation": "Many values such as 2.1 and 2.7 map to 2, so it is not one-one, and no non-integer is an image, so it is not onto." },
+      { "q": "A relation R on Z defined by aRb if a &minus; b is divisible by 5 is:", "options": ["Reflexive only", "An equivalence relation", "Symmetric but not transitive", "Transitive but not reflexive"], "answer": 1, "explanation": "a &minus; a = 0 is divisible by 5 (reflexive), if 5 | (a &minus; b) then 5 | (b &minus; a) (symmetric), and divisibility is preserved on adding (transitive). So it is an equivalence relation." },
+      { "q": "For a binary operation * on a set A, closure means that for all a, b in A:", "options": ["a * b = b * a", "a * b belongs to A", "(a * b) * c = a * (b * c)", "There exists an identity element"], "answer": 1, "explanation": "Closure requires the result a * b to remain inside the set A. Commutativity, associativity and identity are separate properties." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the Relations and Functions miscellaneous exercise cover?", "a": "It mixes every idea from the chapter: types of relations (reflexive, symmetric, transitive, equivalence), one-one and onto functions, composition of functions, invertible functions and binary operations. The problems combine these rather than testing them one at a time." },
+    { "q": "How do you prove a function is invertible?", "a": "Show it is both one-one (injective) and onto (surjective), which makes it bijective. Once that is established, the inverse exists; you then find it by solving y = f(x) for x in terms of y." },
+    { "q": "What is the difference between a relation and a function?", "a": "Every function is a relation, but a relation is a function only when each input is paired with exactly one output. In the miscellaneous exercise you often decide which category a given rule falls into." },
+    { "q": "How do you find the identity element of a binary operation?", "a": "Set a * e = a and a = e * a, then solve for e so the equation holds for every element of the set. If no single value works for all elements, the operation has no identity." },
+    { "q": "Where can I get more solved Relations and Functions problems?", "a": "Our Class 12 Relations and Functions case-study e-book gives worked case-based questions with full step-by-step solutions, matched to the CBSE pattern. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-5",
+  "meta_title": "Class 12 Maths Ex 6.5 Solutions: Maxima and Minima",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 6.5 solutions on maxima and minima, plus a free 8-question quiz on the derivative tests. Start practising today.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Maxima and Minima Quiz (Class 12)",
+    "intro": "Eight questions on the first and second derivative tests, absolute extrema and optimisation from Exercise 6.5. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives, Exercise 6.5 &mdash; maxima and minima",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The local minimum value of f(x) = x&sup2; &minus; 4x + 5 is:", "options": ["1", "3", "5", "&minus;1"], "answer": 0, "explanation": "f&prime;(x) = 2x &minus; 4 = 0 gives x = 2. f(2) = 4 &minus; 8 + 5 = 1, and f&Prime;(2) = 2 &gt; 0, so 1 is the local minimum." },
+      { "q": "By the second derivative test, if f&prime;(c) = 0 and f&Prime;(c) &gt; 0, then x = c is a point of:", "options": ["local maximum", "local minimum", "inflection", "no conclusion"], "answer": 1, "explanation": "A positive second derivative means the curve is concave up at c, so the stationary point is a local minimum." },
+      { "q": "The absolute maximum of f(x) = x&sup3; on the closed interval [&minus;2, 2] is:", "options": ["&minus;8", "2", "8", "6"], "answer": 2, "explanation": "x&sup3; is increasing, so on [&minus;2, 2] the largest value occurs at the right endpoint x = 2, giving 2&sup3; = 8." },
+      { "q": "Two positive numbers add to 16. Their product is greatest when the product equals:", "options": ["48", "60", "63", "64"], "answer": 3, "explanation": "Let the numbers be x and 16 &minus; x. P = 16x &minus; x&sup2;, P&prime; = 16 &minus; 2x = 0 gives x = 8. The maximum product is 8 &times; 8 = 64." },
+      { "q": "How many critical points does f(x) = x&sup3; &minus; 3x have?", "options": ["2", "1", "3", "0"], "answer": 0, "explanation": "f&prime;(x) = 3x&sup2; &minus; 3 = 0 gives x&sup2; = 1, so x = 1 and x = &minus;1 &mdash; two critical points." },
+      { "q": "If f&prime;(x) changes sign from positive to negative as x increases through c, then c is a point of:", "options": ["inflection", "local maximum", "local minimum", "absolute minimum"], "answer": 1, "explanation": "By the first derivative test, a change from increasing to decreasing means the function peaks at c, so it is a local maximum." },
+      { "q": "The maximum area of a rectangle with perimeter 20 units is:", "options": ["20", "24", "25", "30"], "answer": 2, "explanation": "With perimeter 20, sides are x and 10 &minus; x, so area A = 10x &minus; x&sup2;. A&prime; = 10 &minus; 2x = 0 gives x = 5, a square of area 25." },
+      { "q": "For f(x) = 2x&sup3; &minus; 3x&sup2; &minus; 12x + 5, the local minimum occurs at:", "options": ["x = &minus;1", "x = 0", "x = 1", "x = 2"], "answer": 3, "explanation": "f&prime;(x) = 6(x &minus; 2)(x + 1) = 0 gives x = 2 and x = &minus;1. f&Prime;(x) = 12x &minus; 6, and f&Prime;(2) = 18 &gt; 0, so the local minimum is at x = 2." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 6.5 of Class 12 Maths cover?", "a": "Exercise 6.5 is the maxima and minima part of Application of Derivatives. It covers finding local maxima and minima using the first and second derivative tests, absolute maximum and minimum on a closed interval, and optimisation word problems." },
+    { "q": "When should I use the first derivative test instead of the second?", "a": "Use the second derivative test first because it is quicker: check the sign of f&Prime; at a critical point. If f&Prime; is zero or does not exist there, the test fails, so fall back on the first derivative test and study how f&prime; changes sign around the point." },
+    { "q": "How is an absolute maximum different from a local maximum?", "a": "A local maximum is the highest value in a small neighbourhood of a point. An absolute maximum is the highest value over the whole interval. On a closed interval you compare the values at all critical points with the values at the two endpoints to find it." },
+    { "q": "What is the usual method for optimisation word problems?", "a": "Write the quantity to be optimised as a function of one variable using the given constraint, differentiate it, set the derivative to zero to locate critical points, then confirm maximum or minimum with the second derivative test before answering the question asked." },
+    { "q": "Where can I get full solutions and extra practice for this exercise?", "a": "This page has the step-by-step Exercise 6.5 solutions above. For exam-style case studies with worked answers on Application of Derivatives, our Class 12 e-book covers optimisation and rate problems in depth &mdash; the link is in the box below." }
+  ]
+}

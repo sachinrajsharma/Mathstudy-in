@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2005",
+  "meta_title": "CBSE Class 12 Maths 2005 Question Paper with Answers",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 2005 board paper with full answers, plus a free 8-question mixed quiz on calculus, matrices, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2005 Practice Quiz",
+    "intro": "Eight board-level questions spanning the 2005 syllabus &mdash; calculus, matrices and determinants, vectors and 3D, probability and integrals. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2005 mixed revision",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If A is a 3&times;3 matrix with |A| = 4, what is |2A|?", "options": ["32", "8", "16", "64"], "answer": 0, "explanation": "For an n&times;n matrix, |kA| = k<sup>n</sup>|A|. Here n = 3, so |2A| = 2<sup>3</sup> &times; 4 = 8 &times; 4 = 32." },
+      { "q": "What is the derivative of tan(x<sup>2</sup>) with respect to x?", "options": ["sec<sup>2</sup>(x<sup>2</sup>)", "2x&nbsp;sec<sup>2</sup>(x<sup>2</sup>)", "2x&nbsp;sec<sup>2</sup>x", "x&nbsp;sec<sup>2</sup>(x<sup>2</sup>)"], "answer": 1, "explanation": "Chain rule: d/dx tan(u) = sec<sup>2</sup>(u)&middot;u&prime; with u = x<sup>2</sup>, u&prime; = 2x. So the derivative is 2x&nbsp;sec<sup>2</sup>(x<sup>2</sup>)." },
+      { "q": "The unit vector along i &minus; 2j + 2k is:", "options": ["i &minus; 2j + 2k", "(i &minus; 2j + 2k)/2", "(i &minus; 2j + 2k)/3", "(i &minus; 2j + 2k)/9"], "answer": 2, "explanation": "The magnitude is &radic;(1 + 4 + 4) = &radic;9 = 3. A unit vector divides by the magnitude, giving (i &minus; 2j + 2k)/3." },
+      { "q": "A fair die is rolled once. What is the probability of getting a prime number?", "options": ["1/6", "1/3", "2/3", "1/2"], "answer": 3, "explanation": "The primes among 1&ndash;6 are 2, 3 and 5 &mdash; three outcomes. So P(prime) = 3/6 = 1/2." },
+      { "q": "Evaluate the definite integral of e<sup>x</sup> from 0 to 1.", "options": ["e &minus; 1", "e", "1 &minus; e", "e + 1"], "answer": 0, "explanation": "The integral of e<sup>x</sup> is e<sup>x</sup>. Evaluating from 0 to 1 gives e<sup>1</sup> &minus; e<sup>0</sup> = e &minus; 1." },
+      { "q": "If A is a 2&times;3 matrix and B is a 3&times;4 matrix, the order of AB is:", "options": ["3&times;4", "2&times;4", "2&times;3", "4&times;2"], "answer": 1, "explanation": "For AB the inner dimensions (3 and 3) must match, and the product takes the outer dimensions: 2 rows from A and 4 columns from B, giving 2&times;4." },
+      { "q": "The distance between the parallel planes 2x &minus; 2y + z = 1 and 2x &minus; 2y + z = 5 is:", "options": ["1/3", "2/3", "4/3", "5/3"], "answer": 2, "explanation": "For parallel planes the distance is |d&#8322; &minus; d&#8321;| / &radic;(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>) = |5 &minus; 1| / &radic;(4 + 4 + 1) = 4/3." },
+      { "q": "For f(x) = x<sup>3</sup> &minus; 3x, at which point does a local maximum occur?", "options": ["x = 0", "x = 2", "x = 1", "x = &minus;1"], "answer": 3, "explanation": "f&prime;(x) = 3x<sup>2</sup> &minus; 3 = 0 gives x = &plusmn;1. Since f&Prime;(x) = 6x is negative at x = &minus;1, the local maximum is at x = &minus;1." }
+    ]
+  },
+  "faq": [
+    { "q": "Is the CBSE 2005 Class 12 Maths paper still useful for today's boards?", "a": "The topics &mdash; calculus, matrices and determinants, vectors, 3D geometry, probability and integrals &mdash; are all still in the current syllabus, so the concepts transfer directly. The format has changed (more objective questions now), but the problem-solving practice is very much worth doing." },
+    { "q": "Which chapters carry the most weight in a paper like this?", "a": "Calculus (continuity, differentiation, integrals and applications) is consistently the largest block, followed by algebra of matrices and determinants. Vectors, 3D geometry and probability together make up most of the remaining marks." },
+    { "q": "How should I use an old board paper to revise?", "a": "Attempt it in one timed sitting without notes, then mark it against the answers and list every topic you slipped on. Re-solve only those topics from your textbook before moving to the next year's paper &mdash; targeted revision beats re-reading everything." },
+    { "q": "What is a common mistake in the determinant and matrix questions?", "a": "Forgetting that |kA| = k<sup>n</sup>|A| for an n&times;n matrix, and mixing up when a matrix product is defined. Always check that the inner dimensions match before multiplying." },
+    { "q": "Where can I get more CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample-paper e-book collects full solved papers and model sets aligned to the board pattern, each with a complete answer key &mdash; an instant PDF you can print and re-attempt. The link is in the box below." }
+  ]
+}
