@@ -430,46 +430,6 @@
     "route": "FRESH"
   },
   {
-    "cta": "mixed-word-problems-for-grade-3",
-    "fmt": "markdown",
-    "slug": "grade-3-maths-word-problems-guide",
-    "title": "Grade 3 Maths Word Problems: How to Help Your Child (15 Examples)",
-    "views": 39,
-    "wc": 271,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "grade-2-addition-with-regrouping-worksheets-with-answers",
-    "fmt": "html",
-    "slug": "maths-worksheet-grade-2-chapter-addition",
-    "title": "maths worksheet grade 2 chapter addition",
-    "views": 39,
-    "wc": 164,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "work-book-class-xii-c-b-s-e-fully-solved",
-    "fmt": "html",
-    "slug": "math-workbook-class-xii",
-    "title": "math workbook class xii",
-    "views": 39,
-    "wc": 63,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "ncert-exemplar-problems-solutions-mathematics-class-12",
-    "fmt": "html",
-    "slug": "daily-practice-problems-dpp",
-    "title": "Daily practice problems dpp",
-    "views": 39,
-    "wc": 358,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
     "cta": null,
     "fmt": "html",
     "slug": "grade-1-maths-homework",
@@ -496,16 +456,6 @@
     "title": "maths online practice tests quizzes for grade 2",
     "views": 38,
     "wc": 173,
-    "isCanon": false,
-    "route": "FRESH"
-  },
-  {
-    "cta": "grade-2-addition-with-regrouping-worksheets-with-answers",
-    "fmt": "html",
-    "slug": "grade-2-addition-worksheets",
-    "title": "grade 2 addition worksheets",
-    "views": 38,
-    "wc": 170,
     "isCanon": false,
     "route": "FRESH"
   },
