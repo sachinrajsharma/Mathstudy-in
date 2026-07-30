@@ -1,0 +1,30 @@
+{
+  "slug": "ncert-mathematics-class-xii-solution-chapter-matrices-excercise-3-4",
+  "meta_title": "NCERT Class 12 Matrices Ex 3.4 Solutions + Quiz",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 3.4 solutions: finding the inverse of a matrix by elementary operations, plus a free 8-question quiz to try.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-matrices-chapter-practice-tests",
+  "quiz": {
+    "title": "Inverse by Elementary Operations Quiz",
+    "intro": "Eight questions on elementary row and column operations and finding A inverse by the A = IA method. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Matrices Exercise 3.4 &mdash; inverse of a matrix by elementary operations",
+    "level": "Class 12",
+    "questions": [
+      { "q": "In the elementary transformation method, to find the inverse of A you begin by writing which equation?", "options": ["A = AI", "A = IA", "I = AA", "A = A"], "answer": 1, "explanation": "The row-operation method starts from A = IA. You then apply row operations to reduce the left A to I, and the same operations turn the right I into A inverse." },
+      { "q": "When finding the inverse using row operations from A = IA, on which matrices must each operation be applied?", "options": ["Only on the left matrix A", "Only on the pre-factor I", "On A and simultaneously on the I to its right", "On A and on the answer at the end"], "answer": 2, "explanation": "Every row operation is applied to A on the left AND to the identity matrix on the right at the same time, so the equality is preserved throughout." },
+      { "q": "Which of these is a valid elementary row operation?", "options": ["Squaring a row", "Interchanging two rows", "Deleting a row", "Adding a constant to every entry of a row"], "answer": 1, "explanation": "The three elementary operations are interchanging two rows, multiplying a row by a non-zero scalar, and adding a multiple of one row to another. Interchange is one of them." },
+      { "q": "For the inverse to exist by elementary operations, the matrix A must be", "options": ["Symmetric", "Singular", "Non-singular (invertible)", "Diagonal"], "answer": 2, "explanation": "Only a non-singular matrix, one whose determinant is non-zero, has an inverse. If A is singular no sequence of elementary operations can reduce it to I." },
+      { "q": "While reducing A to I by row operations, if all the entries of one row of A become zero, this means", "options": ["A inverse equals that zero row", "A is non-singular", "A inverse does not exist", "You must switch to column operations"], "answer": 2, "explanation": "A full zero row shows A is singular, so the inverse does not exist. NCERT notes this as the signal to stop." },
+      { "q": "If you choose column operations, which equation should you start from?", "options": ["A = IA", "A = AI", "I = IA", "A = A inverse"], "answer": 1, "explanation": "Column operations use A = AI. You reduce the left A to I using column operations, applying each to the I on the right, which becomes A inverse." },
+      { "q": "The notation R1 to R1 - 2R2 means", "options": ["Multiply row 1 by -2", "Replace row 1 with row 1 minus twice row 2", "Swap rows 1 and 2", "Replace row 2 with row 1 minus 2"], "answer": 1, "explanation": "It is the operation 'add a multiple of one row to another': the new row 1 is the old row 1 minus 2 times row 2. Row 2 itself is unchanged." },
+      { "q": "In a single derivation of A inverse, NCERT advises that you should", "options": ["Mix row and column operations freely", "Use only row operations or only column operations, not both", "Always use column operations first", "Use row operations only for 2x2 matrices"], "answer": 1, "explanation": "You must apply either row operations throughout or column operations throughout in one derivation. Mixing the two in the same process is not valid." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 3.4 of NCERT Class 12 Matrices cover?", "a": "It covers finding the inverse of a square matrix using elementary transformations &mdash; the elementary row operations and column operations &mdash; rather than the adjoint or determinant formula. You practise the A = IA method until A reduces to the identity." },
+    { "q": "How do you find the inverse of a matrix by elementary row operations?", "a": "Write A = IA. Apply elementary row operations to the A on the left to reduce it step by step to the identity matrix, applying the exact same operation to the I on the right each time. When the left side becomes I, the right side is A inverse." },
+    { "q": "Can I mix row and column operations while finding one inverse?", "a": "No. In a single derivation you use either row operations throughout (starting from A = IA) or column operations throughout (starting from A = AI). Mixing the two in the same process gives a wrong result." },
+    { "q": "What happens if a whole row or column becomes zero during the process?", "a": "If every entry of a row (or column) turns to zero before you reach the identity, the matrix is singular and its inverse does not exist. That zero line is the signal to stop." },
+    { "q": "Where can I get the full step-by-step solutions and extra practice for Exercise 3.4?", "a": "The complete worked solutions for every Exercise 3.4 question are on this page above. For timed chapter tests and more inverse-by-elementary-operations practice with answer keys, our Class 12 Matrices practice-test e-book has graded papers &mdash; the link is in the box below." }
+  ]
+}

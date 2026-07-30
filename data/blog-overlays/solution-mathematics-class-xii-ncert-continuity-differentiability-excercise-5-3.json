@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-3",
+  "meta_title": "NCERT Class 12 Maths Ex 5.3 Solutions (Implicit)",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 5.3 solutions on implicit differentiation, with a free 8-question quiz to test your dy/dx skills. Start solving now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Implicit Differentiation Quiz (Exercise 5.3)",
+    "intro": "Eight questions on finding dy/dx for implicit relations, exactly the skills NCERT Exercise 5.3 tests. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths Exercise 5.3 &mdash; implicit differentiation",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For x&sup2; + y&sup2; = 1, what is dy/dx?", "options": ["&minus;x/y", "x/y", "&minus;y/x", "y/x"], "answer": 0, "explanation": "Differentiate term by term: 2x + 2y(dy/dx) = 0. Solving gives dy/dx = &minus;x/y." },
+      { "q": "The core idea of implicit differentiation is that y is treated as", "options": ["a constant", "a function of x, so d/dx of y&#8319; needs the chain rule", "always equal to x", "a second independent variable"], "answer": 1, "explanation": "Since y depends on x, differentiating any term in y brings out a factor of dy/dx by the chain rule &mdash; for example d/dx(y&sup2;) = 2y&middot;(dy/dx)." },
+      { "q": "For 2x + 3y = sin x, what is dy/dx?", "options": ["(cos x + 2)/3", "(cos x &minus; 2)/3", "(2 &minus; cos x)/3", "cos x &minus; 2"], "answer": 1, "explanation": "Differentiate: 2 + 3(dy/dx) = cos x. So 3(dy/dx) = cos x &minus; 2, giving dy/dx = (cos x &minus; 2)/3." },
+      { "q": "Differentiating the product term xy with respect to x gives", "options": ["1", "x(dy/dx)", "y", "y + x(dy/dx)"], "answer": 3, "explanation": "Use the product rule: d/dx(xy) = x(dy/dx) + y&middot;1 = y + x(dy/dx). This step trips up many students in Exercise 5.3." },
+      { "q": "For x&sup2; + xy + y&sup2; = 100, dy/dx equals", "options": ["&minus;(2x + y)/(x + 2y)", "(2x + y)/(x + 2y)", "&minus;(x + 2y)/(2x + y)", "(2x &minus; y)/(x + 2y)"], "answer": 0, "explanation": "Differentiate: 2x + (y + x&middot;dy/dx) + 2y(dy/dx) = 0. Group dy/dx: (x + 2y)dy/dx = &minus;(2x + y), so dy/dx = &minus;(2x + y)/(x + 2y)." },
+      { "q": "If y = sin&#8315;&sup1;x, then dy/dx is", "options": ["1/&radic;(1 &minus; x&sup2;)", "&minus;1/&radic;(1 &minus; x&sup2;)", "1/(1 + x&sup2;)", "&minus;1/(1 + x&sup2;)"], "answer": 0, "explanation": "The inverse-trig relation sin y = x differentiates to cos y&middot;(dy/dx) = 1. Since cos y = &radic;(1 &minus; x&sup2;), dy/dx = 1/&radic;(1 &minus; x&sup2;)." },
+      { "q": "For y = tan&#8315;&sup1;x, dy/dx equals", "options": ["1/&radic;(1 &minus; x&sup2;)", "&minus;1/(1 + x&sup2;)", "1/(1 + x&sup2;)", "1/x"], "answer": 2, "explanation": "From tan y = x, sec&sup2;y&middot;(dy/dx) = 1. Since sec&sup2;y = 1 + tan&sup2;y = 1 + x&sup2;, dy/dx = 1/(1 + x&sup2;)." },
+      { "q": "For sin&sup2;y + cos(xy) = k, the derivative of cos(xy) with respect to x is", "options": ["&minus;sin(xy)", "&minus;sin(xy)&middot;(y + x&middot;dy/dx)", "sin(xy)&middot;(y + x&middot;dy/dx)", "&minus;x&middot;sin(xy)"], "answer": 1, "explanation": "Chain rule on cos(u) with u = xy: d/dx cos(xy) = &minus;sin(xy)&middot;d/dx(xy) = &minus;sin(xy)&middot;(y + x&middot;dy/dx)." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 5.3 of NCERT Class 12 Maths cover?", "a": "Exercise 5.3 is about implicit differentiation &mdash; finding dy/dx when x and y are tied together in one equation, such as x&sup2; + y&sup2; = 1 or ax + by&sup2; = cos y, rather than y written explicitly as a function of x." },
+    { "q": "How is implicit differentiation different from Exercise 5.2?", "a": "Exercise 5.2 applies the chain rule to explicit functions like y = sin(x&sup2;). In 5.3 y is never isolated, so every y-term picks up a dy/dx factor and you solve algebraically for dy/dx at the end." },
+    { "q": "Why does a dy/dx term appear when I differentiate y&sup2; or xy?", "a": "Because y is itself a function of x. By the chain rule d/dx(y&sup2;) = 2y&middot;(dy/dx), and by the product rule d/dx(xy) = y + x&middot;(dy/dx). Forgetting this factor is the most common Exercise 5.3 mistake." },
+    { "q": "Do inverse trigonometric functions appear in this exercise?", "a": "Yes. Several questions use relations like y = sin&#8315;&sup1;x or tan y = x. You differentiate the trig form implicitly and substitute back to get standard results such as 1/&radic;(1 &minus; x&sup2;) or 1/(1 + x&sup2;)." },
+    { "q": "Where can I get full worked solutions for Exercise 5.3?", "a": "Our Class 12 Continuity and Differentiability case-study e-book gives every implicit-differentiation problem solved step by step, plus exam-style case studies with answer keys &mdash; an instant PDF. The link is in the box below." }
+  ]
+}

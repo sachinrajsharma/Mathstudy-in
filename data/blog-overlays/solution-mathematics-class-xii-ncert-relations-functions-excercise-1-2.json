@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-relations-functions-excercise-1-2",
+  "meta_title": "NCERT Class 12 Relations & Functions Ex 1.2 Solutions",
+  "meta_desc": "Step-by-step NCERT solutions for Class 12 Maths Exercise 1.2 on one-one, onto and bijective functions, plus a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Types of Functions Quiz (Ex 1.2)",
+    "intro": "Eight questions on one-one (injective), onto (surjective) and bijective functions, drawn straight from Exercise 1.2. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Relations and Functions, Exercise 1.2 (types of functions)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "A function f : A &rarr; B is called one-one (injective) when:", "options": ["Every element of B has a pre-image", "Distinct elements of A have distinct images in B", "f(a) is the same for all a", "A and B have equal size"], "answer": 1, "explanation": "Injective means f(x&#8321;) = f(x&#8322;) forces x&#8321; = x&#8322; &mdash; distinct inputs never share an image." },
+      { "q": "A function f : A &rarr; B is onto (surjective) when:", "options": ["Its range equals its co-domain B", "It is strictly increasing", "A is finite", "No two inputs share an image"], "answer": 0, "explanation": "Surjective means every element of the co-domain B is an image of some element of A, so range = co-domain." },
+      { "q": "The function f : N &rarr; N given by f(x) = 2x is:", "options": ["One-one but not onto", "Onto but not one-one", "Bijective", "Neither one-one nor onto"], "answer": 0, "explanation": "Different naturals give different doubles (one-one), but odd numbers like 3 are never hit, so it is not onto N." },
+      { "q": "For f : R &rarr; R, f(x) = x&sup2; is:", "options": ["One-one and onto", "One-one but not onto", "Neither one-one nor onto", "Onto but not one-one"], "answer": 2, "explanation": "f(&minus;2) = f(2) = 4 breaks one-one, and negative numbers have no square-root pre-image, so it is not onto R either." },
+      { "q": "A function that is both one-one and onto is called:", "options": ["Constant", "Bijective", "Identity", "Into"], "answer": 1, "explanation": "A bijection is injective and surjective together, which is exactly the condition for an inverse to exist." },
+      { "q": "How many one-one functions are there from a set with 2 elements to a set with 3 elements?", "options": ["3", "9", "8", "6"], "answer": 3, "explanation": "The first element has 3 image choices, the second has 2 remaining: 3 &times; 2 = 6." },
+      { "q": "The signum function f : R &rarr; R (giving &minus;1, 0 or 1) is:", "options": ["One-one", "Onto R", "Neither one-one nor onto", "Bijective"], "answer": 2, "explanation": "Many inputs map to 1 (not one-one) and its range is only {&minus;1, 0, 1}, not all of R (not onto)." },
+      { "q": "If A has 3 elements and B has 3 elements, a one-one function f : A &rarr; B is automatically:", "options": ["Not onto", "Onto (hence bijective)", "Constant", "Undefined"], "answer": 1, "explanation": "For finite sets of equal size, a one-one function uses all 3 distinct images, so it is also onto &mdash; and therefore bijective." }
+    ]
+  },
+  "faq": [
+    { "q": "What is the difference between one-one and onto functions?", "a": "A one-one (injective) function sends distinct inputs to distinct outputs, so f(x&#8321;) = f(x&#8322;) implies x&#8321; = x&#8322;. An onto (surjective) function covers the whole co-domain, meaning every element of B is the image of at least one element of A. A function can be one but not the other." },
+    { "q": "How do I prove a function is one-one in Exercise 1.2?", "a": "Assume f(x&#8321;) = f(x&#8322;), then use algebra to show x&#8321; = x&#8322;. For a graph, apply the horizontal-line test: if no horizontal line meets the graph more than once, the function is one-one." },
+    { "q": "How do I check whether a function is onto?", "a": "Take an arbitrary element y in the co-domain and try to solve f(x) = y for some x in the domain. If a valid x always exists, the function is onto; if some y has no pre-image, it is not. In short, onto means range equals co-domain." },
+    { "q": "What makes a function bijective?", "a": "A function is bijective when it is both one-one and onto. Only bijective functions are invertible, which is why Exercise 1.2 matters before you study inverse functions later in the chapter." },
+    { "q": "Where can I get full solutions and case studies for Relations and Functions?", "a": "Our Class 12 Relations and Functions case-study e-book gives worked solutions and exam-style case studies on one-one, onto and bijective functions, each with a complete answer key. The link is in the box below." }
+  ]
+}

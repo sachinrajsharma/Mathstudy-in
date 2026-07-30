@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2000",
+  "meta_title": "CBSE Class 12 Maths 2000 Paper Solved + Free Quiz",
+  "meta_desc": "Solved CBSE Class 12 Mathematics 2000 paper with answers, plus a free 8-question quiz on calculus, matrices, vectors and probability to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2000 Quiz",
+    "intro": "Eight board-level questions in the style of the 2000 paper, spanning calculus, matrices and determinants, vectors and 3D, probability and integrals. Pick an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2000 board paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = &radic;x, then dy/dx equals:", "options": ["&radic;x", "2&radic;x", "1/(2&radic;x)", "1/&radic;x"], "answer": 2, "explanation": "Write &radic;x as x<sup>1/2</sup>. Its derivative is (1/2)x<sup>&minus;1/2</sup>, which is 1/(2&radic;x)." },
+      { "q": "The value of the determinant | 1 2 ; 3 4 | is:", "options": ["2", "&minus;2", "10", "&minus;10"], "answer": 1, "explanation": "For a 2&times;2 determinant, subtract the cross products: (1)(4) &minus; (2)(3) = 4 &minus; 6 = &minus;2." },
+      { "q": "&int; e<sup>x</sup> dx equals:", "options": ["e<sup>x</sup> + C", "x e<sup>x</sup> + C", "e<sup>x</sup>/x + C", "e<sup>x&minus;1</sup> + C"], "answer": 0, "explanation": "The natural exponential is its own integral, so &int; e<sup>x</sup> dx = e<sup>x</sup> + C." },
+      { "q": "The magnitude of the vector 3i + 4j is:", "options": ["7", "12", "25", "5"], "answer": 3, "explanation": "Magnitude = &radic;(3<sup>2</sup> + 4<sup>2</sup>) = &radic;25 = 5." },
+      { "q": "Two fair dice are thrown together. The probability that the sum is 7 is:", "options": ["1/12", "1/6", "5/36", "1/9"], "answer": 1, "explanation": "Six ordered pairs give a sum of 7 out of 36 outcomes, so the probability is 6/36 = 1/6." },
+      { "q": "The derivative of cos x with respect to x is:", "options": ["&minus;sin x", "sin x", "&minus;cos x", "sec<sup>2</sup> x"], "answer": 0, "explanation": "The standard result is d/dx (cos x) = &minus;sin x." },
+      { "q": "For any square matrix A and the identity matrix I of the same order, the product A I equals:", "options": ["I", "the zero matrix", "A", "A<sup>2</sup>"], "answer": 2, "explanation": "The identity matrix leaves A unchanged, so A I = I A = A." },
+      { "q": "The distance of the point (1, 2, 2) from the origin is:", "options": ["9", "5", "4", "3"], "answer": 3, "explanation": "Distance = &radic;(1<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup>) = &radic;9 = 3." }
+    ]
+  },
+  "faq": [
+    { "q": "Is solving the CBSE 2000 Class 12 Maths paper still useful today?", "a": "Yes. The 2000 paper predates the current pattern, but the core skills it tests &mdash; differentiation, integration, determinants, vector products and probability &mdash; are unchanged. Working through older papers widens the variety of problems you meet before the exam." },
+    { "q": "Which topics carry the most marks in this paper?", "a": "Calculus dominates, with differentiation and definite and indefinite integrals appearing repeatedly. Matrices and determinants, three-dimensional geometry and probability make up most of the remaining marks." },
+    { "q": "How should I use a past paper like this one?", "a": "Attempt it in one timed sitting without notes first, then check every answer and rework the questions you missed. The learning comes from correcting mistakes, not from reading the solutions cold." },
+    { "q": "Are the answers in the solved paper reliable?", "a": "Each question is worked step by step so you can follow the method, not just the final value. If a step is unclear, redo it yourself with the rule named in the solution to confirm it." },
+    { "q": "Where can I get more solved Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample papers e-book has full-length practice papers with complete, marked-up solutions covering the whole syllabus. The link is in the box below." }
+  ]
+}

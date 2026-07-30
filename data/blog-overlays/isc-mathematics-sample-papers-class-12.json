@@ -1,0 +1,30 @@
+{
+  "slug": "isc-mathematics-sample-papers-class-12",
+  "meta_title": "ISC Mathematics Sample Papers Class 12 + Free Quiz",
+  "meta_desc": "Practise ISC Class 12 Maths sample papers on calculus, probability, vectors, conics and matrices, with a free 8-question quiz and solved papers to download.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "ISC Class 12 Maths Sample Paper Quiz",
+    "intro": "Eight questions sampling the ISC Class 12 syllabus &mdash; calculus, probability, vectors and 3D, conics, linear regression and matrices. Pick an answer for each, then press Check my score.",
+    "about": "ISC Class 12 Mathematics sample-paper practice",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the value of &int; from 0 to 1 of 2x dx?", "options": ["1", "2", "1/2", "0"], "answer": 0, "explanation": "&int; 2x dx = x&sup2;. Evaluated from 0 to 1 gives 1&sup2; &minus; 0&sup2; = 1." },
+      { "q": "A fair die is rolled once. What is the probability of getting a number greater than 4?", "options": ["1/2", "1/6", "1/3", "2/3"], "answer": 2, "explanation": "Numbers greater than 4 are 5 and 6, so 2 favourable outcomes out of 6, which is 2/6 = 1/3." },
+      { "q": "If a = i + 2j + 2k, what is its magnitude |a|?", "options": ["5", "9", "4", "3"], "answer": 3, "explanation": "|a| = &radic;(1&sup2; + 2&sup2; + 2&sup2;) = &radic;(1 + 4 + 4) = &radic;9 = 3." },
+      { "q": "The eccentricity of the ellipse x&sup2;/25 + y&sup2;/16 = 1 is:", "options": ["3/5", "4/5", "5/4", "5/3"], "answer": 0, "explanation": "Here a&sup2; = 25, b&sup2; = 16, so e = &radic;(1 &minus; b&sup2;/a&sup2;) = &radic;(1 &minus; 16/25) = &radic;(9/25) = 3/5." },
+      { "q": "For the two regression lines, the coefficient of correlation r is the ___ of the two regression coefficients (with the sign of the coefficients).", "options": ["arithmetic mean", "geometric mean", "harmonic mean", "product"], "answer": 1, "explanation": "r = &plusmn;&radic;(b_yx &middot; b_xy), the geometric mean of the two regression coefficients, taking the common sign of b_yx and b_xy." },
+      { "q": "What is the determinant of the 2&times;2 matrix [[3, 4], [1, 2]]?", "options": ["10", "2", "6", "5"], "answer": 1, "explanation": "For [[a, b], [c, d]] the determinant is ad &minus; bc = (3)(2) &minus; (4)(1) = 6 &minus; 4 = 2." },
+      { "q": "What is the derivative of sin(x&sup2;) with respect to x?", "options": ["cos(x&sup2;)", "2x cos(x&sup2;)", "2x sin(x&sup2;)", "&minus;2x cos(x&sup2;)"], "answer": 1, "explanation": "By the chain rule, d/dx sin(u) = cos(u)&middot;u' with u = x&sup2;, so the answer is 2x cos(x&sup2;)." },
+      { "q": "Two cards are drawn without replacement from a standard deck. What is the probability that both are kings?", "options": ["1/221", "1/169", "4/663", "1/26"], "answer": 0, "explanation": "P = (4/52) &times; (3/51) = 12/2652 = 1/221." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics do ISC Class 12 Maths sample papers cover?", "a": "They span the full ISC syllabus &mdash; calculus (differentiation, integration, differential equations), probability, vectors and three-dimensional geometry, conic sections, linear regression, and matrices and determinants. Section A is compulsory, with a choice between Section B (vectors/3D/conics) and Section C (linear regression/applications)." },
+    { "q": "How is the ISC Class 12 Maths paper structured?", "a": "The theory paper is 80 marks over three hours. Section A carries 65 marks and is compulsory; you then attempt either Section B or Section C for the remaining 15 marks. The other 20 marks come from the project work." },
+    { "q": "How many sample papers should I solve before the exam?", "a": "Aim for at least 8 to 10 full papers under timed conditions in the last two months. Solving fewer papers slowly, then reviewing every mistake, beats rushing through twenty without checking your working." },
+    { "q": "Should I focus more on Section B or Section C?", "a": "Pick based on your strength. Most students find Section B (vectors, 3D geometry, conics) more scoring if their geometry is solid, while Section C (linear regression, application of calculus in commerce) suits those comfortable with statistics. Practise both early, then commit to one." },
+    { "q": "Where can I download solved ISC Class 12 Maths sample papers?", "a": "Our Class 12 Mathematics sample-papers e-book has full solved papers with step-by-step marking-scheme-style solutions across every section &mdash; an instant PDF you can print and revise from. The link is in the box below." }
+  ]
+}
