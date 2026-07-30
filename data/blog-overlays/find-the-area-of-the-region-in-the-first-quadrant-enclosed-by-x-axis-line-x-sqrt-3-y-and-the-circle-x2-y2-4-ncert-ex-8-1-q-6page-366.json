@@ -1,0 +1,29 @@
+{
+  "slug": "find-the-area-of-the-region-in-the-first-quadrant-enclosed-by-x-axis-line-x-sqrt-3-y-and-the-circle-x2-y2-4-ncert-ex-8-1-q-6page-366",
+  "meta_title": "Area in First Quadrant: Line, x-axis & Circle | Ex 8.1 Q6",
+  "meta_desc": "NCERT Class 12 Ex 8.1 Q6 solved: first-quadrant area bounded by the x-axis, x=&radic;3 y and the circle x&sup2;+y&sup2;=4. See the steps, then take a free quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Application of Integrals Quiz",
+    "intro": "Eight questions on area under a curve, area between curves and circular sectors. Choose an answer for each, then press Check my score.",
+    "about": "Class 12 Application of Integrals: area under and between curves",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The area under a curve y = f(x) from x = a to x = b (with f(x) &ge; 0) is given by:", "options": ["&int; from a to b of x dy", "&int; from a to b of f(x) dx", "&int; from a to b of f'(x) dx", "f(b) &minus; f(a)"], "answer": 1, "explanation": "Area = &int; from a to b of y dx = &int; from a to b of f(x) dx when the curve lies above the x-axis." },
+      { "q": "The area of the region enclosed by the circle x&sup2; + y&sup2; = 4 is:", "options": ["2&pi;", "4&pi;", "8&pi;", "16&pi;"], "answer": 1, "explanation": "Radius r = 2, so area = &pi;r&sup2; = &pi;(2)&sup2; = 4&pi;." },
+      { "q": "In NCERT Ex 8.1 Q6, the line x = &radic;3 y makes what angle with the positive x-axis?", "options": ["30&deg;", "45&deg;", "60&deg;", "90&deg;"], "answer": 0, "explanation": "x = &radic;3 y means y = x/&radic;3, so slope = 1/&radic;3 = tan 30&deg;. The line is at 30&deg; to the x-axis." },
+      { "q": "The line x = &radic;3 y meets the circle x&sup2; + y&sup2; = 4 (first quadrant) at:", "options": ["(1, &radic;3)", "(&radic;3, 1)", "(2, 0)", "(&radic;2, &radic;2)"], "answer": 1, "explanation": "Substitute x = &radic;3 y: 3y&sup2; + y&sup2; = 4, so y&sup2; = 1, y = 1 and x = &radic;3. The point is (&radic;3, 1)." },
+      { "q": "&int; from 0 to 2 of &radic;(4 &minus; x&sup2;) dx equals:", "options": ["&pi;", "2", "&pi;/2", "4"], "answer": 0, "explanation": "This is a quarter of the circle of radius 2. Using &int;&radic;(a&sup2;&minus;x&sup2;)dx, the value from 0 to 2 is &pi;." },
+      { "q": "The area of the region in Ex 8.1 Q6 (first quadrant, bounded by x-axis, x = &radic;3 y and the circle) is:", "options": ["&pi;/2", "&pi;/3", "2&pi;/3", "&pi;"], "answer": 1, "explanation": "Split at x = &radic;3: area = &int; from 0 to &radic;3 of (x/&radic;3) dx + &int; from &radic;3 to 2 of &radic;(4&minus;x&sup2;) dx = &radic;3/2 + (&pi;/3 &minus; &radic;3/2) = &pi;/3." },
+      { "q": "The area between two curves y = f(x) (upper) and y = g(x) (lower) from a to b is:", "options": ["&int; [f(x) + g(x)] dx", "&int; [f(x) &minus; g(x)] dx", "&int; [g(x) &minus; f(x)] dx", "&int; f(x) g(x) dx"], "answer": 1, "explanation": "Area between curves = &int; from a to b of (upper &minus; lower) dx = &int; [f(x) &minus; g(x)] dx." },
+      { "q": "The area of the ellipse x&sup2;/a&sup2; + y&sup2;/b&sup2; = 1 is:", "options": ["&pi;ab", "&pi;(a + b)", "2&pi;ab", "&pi;a&sup2;b&sup2;"], "answer": 0, "explanation": "By integrating, the total area of the ellipse works out to &pi;ab; when a = b = r it reduces to the circle area &pi;r&sup2;." }
+    ]
+  },
+  "faq": [
+    { "q": "What region does NCERT Ex 8.1 Q6 ask about?", "a": "It asks for the area in the first quadrant that is enclosed by the x-axis, the line x = &radic;3 y, and the circle x&sup2; + y&sup2; = 4. It is a wedge of the circle between the x-axis and the line." },
+    { "q": "Why is the answer &pi;/3?", "a": "The line x = &radic;3 y sits at 30&deg; to the x-axis, so the region is a 30&deg; sector of a circle of radius 2. A full circle has area 4&pi;, and 30&deg; is one-twelfth of 360&deg;, giving 4&pi;/12 = &pi;/3." },
+    { "q": "How do you set up the integral for this problem?", "a": "Find where the line meets the circle at (&radic;3, 1), then split the x-range. From x = 0 to &radic;3 the top boundary is the line y = x/&radic;3; from x = &radic;3 to 2 the top boundary is the circle y = &radic;(4&minus;x&sup2;). Add the two integrals." },
+    { "q": "Where does the point (&radic;3, 1) come from?", "a": "Substitute x = &radic;3 y into x&sup2; + y&sup2; = 4 to get 4y&sup2; = 4, so y = 1 and x = &radic;3. That intersection is where you switch the upper boundary from the line to the circle." },
+    { "q": "Where can I get full NCERT Ex 8.1 solutions with steps?", "a": "Our Class 12 Application of Integrals solutions cover every Exercise 8.1 question with worked steps, diagrams and answer checks in a printable PDF. The link is in the box below." }
+  ]
+}

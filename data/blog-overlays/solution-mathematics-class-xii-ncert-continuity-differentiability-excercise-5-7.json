@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-7",
+  "meta_title": "NCERT Class 12 Maths Ex 5.7 Solutions + Free Quiz",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Exercise 5.7 solutions on second order derivatives, plus a free 8-question quiz to test your d2y/dx2 skills.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Second Order Derivatives Quiz (Ex 5.7)",
+    "intro": "Eight questions on second order derivatives, straight from the ideas in Exercise 5.7. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 Continuity and Differentiability &mdash; second order derivatives",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = x&sup3;, what is d&sup2;y/dx&sup2;?", "options": ["3x&sup2;", "6x", "6", "2x"], "answer": 1, "explanation": "First derivative is 3x&sup2;; differentiating again gives 6x." },
+      { "q": "If y = sin x, then d&sup2;y/dx&sup2; equals:", "options": ["cos x", "&minus;sin x", "sin x", "&minus;cos x"], "answer": 1, "explanation": "y' = cos x and y'' = &minus;sin x, so d&sup2;y/dx&sup2; = &minus;sin x = &minus;y." },
+      { "q": "For y = e^(2x), the second derivative d&sup2;y/dx&sup2; is:", "options": ["2e^(2x)", "e^(2x)", "4e^(2x)", "4x e^(2x)"], "answer": 2, "explanation": "y' = 2e^(2x), y'' = 4e^(2x). Each derivative brings down another factor of 2." },
+      { "q": "If y = log x (x &gt; 0), then d&sup2;y/dx&sup2; equals:", "options": ["1/x", "&minus;1/x&sup2;", "1/x&sup2;", "&minus;1/x"], "answer": 1, "explanation": "y' = 1/x = x^(&minus;1); differentiating gives &minus;x^(&minus;2) = &minus;1/x&sup2;." },
+      { "q": "If y = cos x, which relation does y satisfy?", "options": ["y'' + y = 0", "y'' &minus; y = 0", "y'' + 2y = 0", "y'' = y"], "answer": 0, "explanation": "y' = &minus;sin x and y'' = &minus;cos x = &minus;y, so y'' + y = 0." },
+      { "q": "If y = e^x, what is the value of y'' &minus; y?", "options": ["e^x", "2e^x", "0", "1"], "answer": 2, "explanation": "Every derivative of e^x is e^x, so y'' = y and y'' &minus; y = 0." },
+      { "q": "If y = x&sup2; + 3x + 2, then d&sup2;y/dx&sup2; is:", "options": ["2x + 3", "2", "3", "0"], "answer": 1, "explanation": "y' = 2x + 3, and differentiating again the constant 3 vanishes, leaving y'' = 2." },
+      { "q": "If y = tan x, then d&sup2;y/dx&sup2; equals:", "options": ["sec&sup2;x", "2 sec&sup2;x tan x", "2 tan x", "sec&sup2;x tan x"], "answer": 1, "explanation": "y' = sec&sup2;x; using the chain rule, y'' = 2 sec x (sec x tan x) = 2 sec&sup2;x tan x." }
+    ]
+  },
+  "faq": [
+    { "q": "What is Exercise 5.7 of Class 12 Maths about?", "a": "Exercise 5.7 of the Continuity and Differentiability chapter deals with second order derivatives. You differentiate a function once to get dy/dx, then differentiate that result again to get d&sup2;y/dx&sup2;." },
+    { "q": "How do you find a second order derivative?", "a": "Find the first derivative dy/dx using the usual rules, simplify it, and then differentiate that expression a second time with respect to x. The result is written as d&sup2;y/dx&sup2; or y''." },
+    { "q": "Why do many Ex 5.7 problems ask you to prove a relation?", "a": "Several questions give a function and ask you to show it satisfies an equation such as y'' + y = 0 or y'' &minus; y = 0. You compute y' and y'', substitute them in, and confirm both sides match &mdash; this checks that you can handle the derivatives correctly." },
+    { "q": "What are the second derivatives of the standard functions?", "a": "Useful ones to remember: for sin x it is &minus;sin x, for cos x it is &minus;cos x, for e^x it is e^x, for log x it is &minus;1/x&sup2;, and for x^n it is n(n&minus;1)x^(n&minus;2)." },
+    { "q": "Where can I get full solutions and more practice for this chapter?", "a": "Our Class 12 Continuity and Differentiability case-study e-book has worked examples and second-order-derivative practice with complete step-by-step solutions. The link is in the box below." }
+  ]
+}

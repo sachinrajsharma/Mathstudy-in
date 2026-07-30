@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-cbse-integration-excercise-7-1",
+  "meta_title": "NCERT Class 12 Maths Integration Ex 7.1 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Integration Exercise 7.1 solutions covering standard integrals, with a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Integration Exercise 7.1 Quiz",
+    "intro": "Eight questions on the standard integrals from Exercise 7.1 &mdash; powers, sin/cos, sec&sup2;, e^x and 1/x. Pick an answer for each, then press Check my score. Add + C to every antiderivative.",
+    "about": "Integration as the inverse of differentiation; standard integrals by inspection",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is &int; x&sup3; dx?", "options": ["3x&sup2; + C", "x&#8308;/4 + C", "x&#8308; + C", "4x&#8308; + C"], "answer": 1, "explanation": "Use the power rule &int; x&#8319; dx = x&#8319;&#8314;&sup1;/(n+1) + C. With n = 3 you get x&#8308;/4 + C. Check by differentiating: d/dx(x&#8308;/4) = x&sup3;." },
+      { "q": "&int; cos x dx equals:", "options": ["&minus;sin x + C", "sin x + C", "&minus;cos x + C", "tan x + C"], "answer": 1, "explanation": "Integration reverses differentiation. Since d/dx(sin x) = cos x, the antiderivative of cos x is sin x + C." },
+      { "q": "&int; sec&sup2; x dx equals:", "options": ["tan x + C", "sec x + C", "&minus;cot x + C", "sec x tan x + C"], "answer": 0, "explanation": "d/dx(tan x) = sec&sup2; x, so &int; sec&sup2; x dx = tan x + C." },
+      { "q": "&int; (1/x) dx, for x &gt; 0, equals:", "options": ["&minus;1/x&sup2; + C", "ln|x| + C", "x&#8315;&sup2; + C", "1 + C"], "answer": 1, "explanation": "The power rule fails when n = &minus;1. Instead &int; (1/x) dx = ln|x| + C, because d/dx(ln x) = 1/x." },
+      { "q": "&int; e^x dx equals:", "options": ["e^x + C", "x e^(x&minus;1) + C", "e^x / x + C", "ln x + C"], "answer": 0, "explanation": "The exponential function is its own derivative, so it is also its own integral: &int; e^x dx = e^x + C." },
+      { "q": "&int; sin x dx equals:", "options": ["cos x + C", "sin x + C", "&minus;cos x + C", "&minus;sin x + C"], "answer": 2, "explanation": "Since d/dx(&minus;cos x) = sin x, the antiderivative of sin x is &minus;cos x + C. Watch the sign &mdash; it is the common slip here." },
+      { "q": "What is &int; (3x&sup2; + 2) dx?", "options": ["6x + C", "x&sup3; + 2x + C", "3x&sup3; + 2x + C", "x&sup3; + 2 + C"], "answer": 1, "explanation": "Integrate term by term: &int; 3x&sup2; dx = x&sup3; and &int; 2 dx = 2x. Together, x&sup3; + 2x + C." },
+      { "q": "&int; 5 dx (integral of a constant) equals:", "options": ["0 + C", "5 + C", "5x + C", "x&#8309;/5 + C"], "answer": 2, "explanation": "A constant k integrates to kx + C, since d/dx(kx) = k. So &int; 5 dx = 5x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 7.1 of Class 12 Maths cover?", "a": "It introduces integration as the inverse process of differentiation and asks you to find the antiderivatives of standard functions &mdash; powers of x, sin and cos, sec&sup2;, e^x and 1/x &mdash; mostly by inspection. It is the foundation the rest of the chapter builds on." },
+    { "q": "Why must I always add + C to an indefinite integral?", "a": "Any two antiderivatives of the same function differ only by a constant, because the derivative of a constant is zero. The + C (the constant of integration) represents that whole family of curves. An answer without it is marked incomplete." },
+    { "q": "Why is the integral of 1/x written as ln|x| and not just ln x?", "a": "The power rule x&#8319;&#8314;&sup1;/(n+1) breaks down when n = &minus;1. The correct antiderivative is ln|x| + C; the absolute value keeps it valid for negative x as well, where ln x alone is undefined." },
+    { "q": "How do I check whether my integration answer is right?", "a": "Differentiate your result. If it gives back the original integrand, the answer is correct. This reverse-check works for every question in Exercise 7.1 and is worth doing under exam pressure." },
+    { "q": "Where can I get fully solved Class 12 Maths integration exercises?", "a": "Our fully-solved Class XII CBSE workbook works through every integration exercise, including Ex 7.1, with clean step-by-step solutions and answer keys &mdash; an instant PDF for revision. The link is in the box below." }
+  ]
+}
