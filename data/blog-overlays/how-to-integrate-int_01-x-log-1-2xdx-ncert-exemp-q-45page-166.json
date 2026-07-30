@@ -1,0 +1,29 @@
+{
+  "slug": "how-to-integrate-int_01-x-log-1-2xdx-ncert-exemp-q-45page-166",
+  "meta_title": "Integrate x log(1+2x) 0 to 1 — NCERT Exemplar Q45",
+  "meta_desc": "Step-by-step integration by parts for NCERT Exemplar Class 12 Q45: evaluate x log(1+2x) from 0 to 1, get 3/8 log 3, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Integration by Parts (Log Factor) Quiz",
+    "intro": "Eight questions built around NCERT Exemplar Q45 — choosing u and dv, running the by-parts step, and finishing the leftover rational integral. Pick an answer for each, then press Check my score.",
+    "about": "Definite integration by parts with a logarithmic factor",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For &int;&#8320;&#185; x&middot;log(1+2x) dx, which choice for integration by parts is correct?", "options": ["u = log(1+2x), dv = x dx", "u = x, dv = log(1+2x) dx", "u = x&middot;log(1+2x), dv = dx", "u = 1, dv = x&middot;log(1+2x) dx"], "answer": 0, "explanation": "By ILATE the logarithmic function is differentiated, so u = log(1+2x) and dv = x dx. Differentiating the log removes it from the next integral." },
+      { "q": "If u = log(1+2x), then du equals?", "options": ["1/(1+2x) dx", "2/(1+2x) dx", "2x/(1+2x) dx", "1/(1+x) dx"], "answer": 1, "explanation": "d/dx log(1+2x) = (1/(1+2x))&middot;2 by the chain rule, so du = 2/(1+2x) dx." },
+      { "q": "With dv = x dx, what is v?", "options": ["x", "2x", "x&sup2;/2", "x&sup2;"], "answer": 2, "explanation": "v = &int; x dx = x&sup2;/2 (the constant is dropped in by-parts)." },
+      { "q": "The integration by parts formula &int; u dv equals?", "options": ["uv + &int; v du", "&int; v du &minus; uv", "u&int;v &minus; &int;v", "uv &minus; &int; v du"], "answer": 3, "explanation": "The standard formula is &int; u dv = uv &minus; &int; v du." },
+      { "q": "After one by-parts step the leftover is (1/2)log 3 &minus; &int;&#8320;&#185; ( ? ) dx. What is the integrand?", "options": ["x&sup2;/(1+2x)", "x/(1+2x)", "x&sup2;/2", "2x&sup2;/(1+2x)"], "answer": 0, "explanation": "v du = (x&sup2;/2)&middot;(2/(1+2x)) dx = x&sup2;/(1+2x) dx, so that fraction is subtracted." },
+      { "q": "The boundary term [ (x&sup2;/2)&middot;log(1+2x) ]&#8320;&#185; evaluates to?", "options": ["log 3", "(1/2) log 3", "(1/8) log 3", "0"], "answer": 1, "explanation": "At x=1: (1/2)log 3; at x=0: (0)&middot;log 1 = 0. So the term is (1/2) log 3." },
+      { "q": "To integrate x&sup2;/(1+2x), what is the correct first step?", "options": ["Apply integration by parts again", "Substitute u = x&sup2;", "Reduce the improper fraction by dividing", "Split into two linear partial fractions"], "answer": 2, "explanation": "The numerator degree is not less than the denominator, so divide first: x&sup2;/(1+2x) = x/2 &minus; 1/4 + (1/4)/(1+2x)." },
+      { "q": "The value of &int;&#8320;&#185; x&middot;log(1+2x) dx is?", "options": ["(1/2) log 3", "(1/8) log 3", "log 3", "(3/8) log 3"], "answer": 3, "explanation": "The result is (1/2)log 3 &minus; (1/8)log 3 = (3/8) log 3, since the rational integral equals (1/8) log 3." }
+    ]
+  },
+  "faq": [
+    { "q": "Why is log(1+2x) chosen as u and not x?", "a": "The ILATE order puts the logarithmic function ahead of the algebraic one, so log(1+2x) becomes u and gets differentiated. Its derivative, 2/(1+2x), is far easier to handle than trying to integrate a logarithm." },
+    { "q": "How do you integrate x&sup2;/(1+2x) that appears in the second step?", "a": "It is an improper fraction, so divide first: x&sup2;/(1+2x) = x/2 &minus; 1/4 + (1/4)/(1+2x). Integrating term by term from 0 to 1 gives (1/8) log 3." },
+    { "q": "What is the final answer to this NCERT Exemplar Q45 integral?", "a": "The definite integral of x&middot;log(1+2x) from 0 to 1 equals (3/8) log 3, which is roughly 0.412." },
+    { "q": "Do the limits change when using integration by parts?", "a": "No. In a definite integral by parts the limits stay 0 to 1 throughout; you evaluate the boundary term uv at both limits and keep the same limits on the remaining integral." },
+    { "q": "Where can I get the full worked solution and more Class 12 integration practice?", "a": "The complete step-by-step solution to this problem, along with more NCERT Exemplar integration questions and answer keys, is available in our Class 12 Maths solutions e-book. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "discover-the-hidden-gems-best-lesser-known-ebooks",
+  "meta_title": "Best Lesser-Known eBooks: Hidden Gems to Read",
+  "meta_desc": "Discover the best lesser-known eBooks worth reading, plus a quick quiz on choosing study resources and smarter study habits. Find your next hidden gem today.",
+  "category": "Study Tips",
+  "quiz": {
+    "title": "Smart Study & Choosing eBooks Quiz",
+    "intro": "Eight quick questions on picking good study eBooks and studying them well. Choose an answer for each, then press Check my score.",
+    "about": "Choosing study eBooks and effective study habits",
+    "level": "Study Tips",
+    "questions": [
+      { "q": "Before buying a study eBook, which check tells you most about its quality?", "options": ["A preview or sample of a real chapter", "The cover design", "The number of pages", "The price alone"], "answer": 0, "explanation": "A sample chapter shows the actual explanations, examples and worked answers, which reveals quality far better than the cover, length or price." },
+      { "q": "You have read a chapter and closed the book. What is the strongest way to check you actually learned it?", "options": ["Re-read the chapter twice more", "Cover the page and recall the main points from memory", "Highlight the key lines again", "Skim the summary"], "answer": 1, "explanation": "Active recall, retrieving the ideas from memory without looking, builds far stronger, longer-lasting learning than re-reading or highlighting." },
+      { "q": "What does spaced practice mean?", "options": ["Studying one subject for many hours in a row", "Leaving wide spaces in your notes", "Revisiting the same material over several days with gaps between sessions", "Studying only the night before a test"], "answer": 2, "explanation": "Spaced practice spreads short review sessions across days. The gaps force recall and beat one long cram session for memory." },
+      { "q": "An eBook includes end-of-chapter practice questions with answer keys. Why does that matter?", "options": ["It makes the file larger", "It looks more professional", "It replaces the need to read the chapter", "It lets you test yourself and find gaps before an exam"], "answer": 3, "explanation": "Practice tests turn passive reading into self-testing. Checking answers shows exactly which topics still need work, well before the real exam." },
+      { "q": "Which is a realistic, useful reading goal for a study eBook?", "options": ["Read one chapter and do its questions, three evenings a week", "Finish the whole book in one sitting", "Read only when you feel motivated", "Read every book on the topic before starting practice"], "answer": 0, "explanation": "A specific, repeatable goal tied to a schedule is achievable and measurable. Vague or all-at-once goals tend to stall." },
+      { "q": "Two eBooks cover the same syllabus. One lists no author or sources; the other names its author and cites the syllabus. Which is safer to trust?", "options": ["The one with no author, since it is simpler", "Whichever is cheaper", "The one that names its author and cites the syllabus", "It makes no difference"], "answer": 2, "explanation": "A named author and clear sources signal accountability and let you judge credibility, an idea Google calls E-E-A-T. Anonymous, unsourced material is riskier." },
+      { "q": "You keep forgetting a topic no matter how often you re-read it. What should you try next?", "options": ["Re-read it a fifth time", "Skip it and hope it is not on the test", "Copy the whole section by hand", "Explain it aloud in your own words, as if teaching someone"], "answer": 3, "explanation": "Explaining a topic in your own words, sometimes called the teach-back or Feynman approach, exposes the exact gaps that silent re-reading hides." },
+      { "q": "What is the best use of an answer key while practising?", "options": ["Copy the answers straight into your notes", "Attempt each question first, then check the key and review your mistakes", "Read the answers before trying the questions", "Ignore it entirely"], "answer": 1, "explanation": "The value is in attempting first, then using the key to confirm and to understand why any answer was wrong. Reading answers first removes the retrieval that makes practice work." }
+    ]
+  },
+  "faq": [
+    { "q": "How do I judge whether a lesser-known eBook is worth reading?", "a": "Look past the download count. Read a sample chapter, check that it names an author and its sources, and see whether it includes practice questions or an answer key. A clear preview tells you more about quality than reviews or price." },
+    { "q": "Are lesser-known eBooks less reliable than bestsellers?", "a": "Not necessarily. Popularity measures reach, not accuracy. A well-sourced eBook by a named author can be more useful for your exact syllabus than a famous title written for a general audience. Judge each book on its content, not its fame." },
+    { "q": "What is the most effective way to study from an eBook?", "a": "Read a chapter, then close it and recall the main points from memory. This active recall, spread over several short sessions rather than one long cram, fixes ideas far better than re-reading or highlighting." },
+    { "q": "How do practice tests inside an eBook help me learn?", "a": "Self-testing shows you exactly which topics you have not yet mastered, so you can review them before an exam instead of discovering the gap during it. Always attempt a question first, then check the answer key and study any mistakes." },
+    { "q": "Where can I find the study eBooks and worksheets recommended here?", "a": "Our MathStudy library has graded worksheet and case-study eBooks, each with worked answers and instant-print PDFs you can use as often as you like. The link is in the box below." }
+  ]
+}
