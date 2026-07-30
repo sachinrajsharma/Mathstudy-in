@@ -1,0 +1,30 @@
+{
+  "slug": "important-questions-class-12-maths-chapter-wise",
+  "meta_title": "Important Questions Class 12 Maths (Chapter-wise)",
+  "meta_desc": "High-yield chapter-wise important questions for Class 12 Maths with a free 8-question quiz spanning every major unit. Practise the sums examiners repeat.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "chapter-wise-test-papers-for-class-12-maths",
+  "quiz": {
+    "title": "Class 12 Maths Chapter-wise Quiz",
+    "intro": "Eight high-yield questions, one from each major chapter &mdash; relations and functions, inverse trig, matrices, determinants, continuity, integrals, differential equations and probability. Answer each, then press Check my score.",
+    "about": "Class 12 Maths important questions across all core chapters",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The relation R on {1, 2, 3} given by R = {(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2)} is:", "options": ["Reflexive and symmetric but not transitive", "An equivalence relation", "Symmetric and transitive but not reflexive", "Reflexive and transitive but not symmetric"], "answer": 0, "explanation": "Every (a,a) is present, so R is reflexive, and each off-diagonal pair appears with its reverse, so R is symmetric. But (1,2) and (2,3) are in R while (1,3) is not, so R is not transitive." },
+      { "q": "The principal value of cos&#8315;&sup1;(cos(7&pi;/6)) is:", "options": ["7&pi;/6", "5&pi;/6", "&pi;/6", "&minus;5&pi;/6"], "answer": 1, "explanation": "The range of cos&#8315;&sup1; is [0, &pi;]. Since 7&pi;/6 lies outside it, use cos(7&pi;/6) = cos(2&pi; &minus; 7&pi;/6) = cos(5&pi;/6), and 5&pi;/6 is in [0, &pi;]. So the value is 5&pi;/6." },
+      { "q": "If A is a 3&times;3 matrix with |A| = 4, then |2A| equals:", "options": ["8", "16", "24", "32"], "answer": 3, "explanation": "For an n&times;n matrix, |kA| = k&#8319;|A|. Here n = 3, so |2A| = 2&sup3; &times; 4 = 8 &times; 4 = 32." },
+      { "q": "If the points (2, &minus;3), (k, 2) and (&minus;1, 4) are collinear, then k equals:", "options": ["7", "&minus;7", "&minus;1/7", "1/7"], "answer": 2, "explanation": "Collinear points give a zero-area determinant: x&#8321;(y&#8322;&minus;y&#8323;) + x&#8322;(y&#8323;&minus;y&#8321;) + x&#8323;(y&#8321;&minus;y&#8322;) = 0. So 2(2&minus;4) + k(4&minus;(&minus;3)) + (&minus;1)((&minus;3)&minus;2) = &minus;4 + 7k + 5 = 0 &rarr; 7k = &minus;1 &rarr; k = &minus;1/7." },
+      { "q": "The value of k that makes f(x) = kx&sup2; for x &le; 2 and f(x) = 3 for x &gt; 2 continuous at x = 2 is:", "options": ["1/2", "3/4", "3/2", "4/3"], "answer": 1, "explanation": "For continuity at x = 2, the left limit must equal the right limit: k(2)&sup2; = 3 &rarr; 4k = 3 &rarr; k = 3/4." },
+      { "q": "&#8747; (2x)/(1 + x&sup2;) dx equals:", "options": ["log|1 + x&sup2;| + C", "2 log|x| + C", "1/(1 + x&sup2;) + C", "tan&#8315;&sup1;x + C"], "answer": 0, "explanation": "The numerator 2x is exactly the derivative of the denominator 1 + x&sup2;. An integral of the form &#8747; f&prime;(x)/f(x) dx = log|f(x)| + C, so the answer is log|1 + x&sup2;| + C." },
+      { "q": "The order and degree of the differential equation (d&sup2;y/dx&sup2;)&sup3; + (dy/dx)&#8309; + y = 0 are:", "options": ["Order 2, degree 3", "Order 3, degree 2", "Order 2, degree 5", "Order 2, degree 6"], "answer": 0, "explanation": "Order is the highest derivative present &mdash; here d&sup2;y/dx&sup2;, so order 2. Degree is the power of that highest derivative once the equation is polynomial in derivatives &mdash; here it is cubed, so degree 3." },
+      { "q": "A fair die is rolled. Given that the number is odd, the probability it is prime is:", "options": ["1/3", "1/2", "2/3", "3/4"], "answer": 2, "explanation": "Odd outcomes are {1, 3, 5}. Among these the primes are 3 and 5. By conditional probability, P(prime | odd) = 2/3." }
+    ]
+  },
+  "faq": [
+    { "q": "Which Class 12 Maths chapters carry the most marks in the board exam?", "a": "Calculus dominates &mdash; integrals, application of derivatives, continuity and differentiability, and differential equations together account for the largest weightage. Vectors, three-dimensional geometry, matrices and determinants, and probability follow. Prioritise these when time is short." },
+    { "q": "How are 'important questions' different from just solving the NCERT textbook?", "a": "Important questions are the sums examiners repeat year after year &mdash; NCERT exercises, exemplar problems and past-paper favourites filtered down to the highest-yield ones. NCERT is the base; important questions tell you where to concentrate revision." },
+    { "q": "How should I revise chapter-wise in the final month?", "a": "Take one chapter per study block, revise its formulas, then solve 8 to 10 mixed important questions from it without looking at solutions. Mark the ones you miss and redo only those two days later. This spaced approach beats re-reading." },
+    { "q": "Are inverse trigonometry and determinants worth the effort for their few marks?", "a": "Yes. Both are short, formula-driven chapters where the questions are predictable, so the marks are almost guaranteed once you drill the principal-value ranges and the property-based determinant shortcuts. They protect your score with little study time." },
+    { "q": "Where can I get chapter-wise test papers for Class 12 Maths with solutions?", "a": "Our chapter-wise test papers for Class 12 Maths cover every unit with graded questions and full step-by-step solutions, so you can practise one chapter at a time and self-check. The link is in the box below." }
+  ]
+}

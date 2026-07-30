@@ -1,0 +1,30 @@
+{
+  "slug": "class-1-logical-reasoning-worksheet",
+  "meta_title": "Class 1 Logical Reasoning Worksheet + Free Quiz",
+  "meta_desc": "Practice Class 1 logical reasoning with patterns, odd-one-out, sequences and analogies, plus a free 8-question quiz and a printable worksheet with answers.",
+  "category": "Grade 1 Maths",
+  "cta_product_slug": "grade-1-mathematical-reasoning-worksheets-with-answers",
+  "quiz": {
+    "title": "Class 1 Logical Reasoning Quiz",
+    "intro": "Eight friendly reasoning questions on patterns, odd-one-out, sequences, sorting and simple analogies. Read each one with your child, pick an answer, then press Check my score.",
+    "about": "Grade 1 logical reasoning",
+    "level": "Grade 1",
+    "questions": [
+      { "q": "A pattern goes triangle, circle, triangle, circle, triangle, and then ___. What shape comes next?", "options": ["Circle", "Triangle", "Square", "Star"], "answer": 0, "explanation": "The shapes take turns: triangle, circle, triangle, circle. After a triangle it is always a circle&rsquo;s turn." },
+      { "q": "Which one is the odd one out: cat, apple, dog, cow?", "options": ["Cat", "Apple", "Dog", "Cow"], "answer": 1, "explanation": "Cat, dog and cow are animals. Apple is a fruit, so it does not belong with the others." },
+      { "q": "What number comes next: 2, 4, 6, 8, ___?", "options": ["9", "11", "10", "7"], "answer": 2, "explanation": "The numbers jump by 2 each time: 2, 4, 6, 8, so the next one is 8 + 2 = 10." },
+      { "q": "Which of these belongs in a group of things you can eat?", "options": ["Ball", "Shoe", "Book", "Banana"], "answer": 3, "explanation": "A banana is food you can eat. A ball, a shoe and a book are not, so the banana is the one that fits the group." },
+      { "q": "Big is to small as tall is to ___?", "options": ["Short", "Long", "Wide", "High"], "answer": 0, "explanation": "Big and small are opposites. The opposite of tall is short, so tall goes with short." },
+      { "q": "Look at this growing pattern: 1 star, 2 stars, 3 stars, ___ stars. How many stars come next?", "options": ["3", "4", "5", "2"], "answer": 1, "explanation": "Each step adds one more star: 1, 2, 3, so the next step has 3 + 1 = 4 stars." },
+      { "q": "Count backward: 10, 9, 8, ___. What number comes next?", "options": ["6", "5", "7", "8"], "answer": 2, "explanation": "Counting backward means one less each time: 10, 9, 8, so the next number is 8 &minus; 1 = 7." },
+      { "q": "Three of these shapes have straight sides and corners. Which one is different: square, triangle, rectangle, circle?", "options": ["Square", "Triangle", "Rectangle", "Circle"], "answer": 3, "explanation": "A square, a triangle and a rectangle all have straight sides and corners. A circle is round with no corners, so it is the odd one out." }
+    ]
+  },
+  "faq": [
+    { "q": "What is logical reasoning for Class 1?", "a": "It is simple thinking practice for 6 to 7 year olds &mdash; spotting patterns, finding the odd one out, continuing number sequences, sorting things into groups, and matching simple opposites. The maths is easy on purpose; the skill being built is careful noticing." },
+    { "q": "Why should a Grade 1 child practise reasoning and not just sums?", "a": "Reasoning teaches a child to look for the rule behind a question rather than guess. That habit makes addition, word problems and later maths far less confusing, because the child already asks &lsquo;what is the pattern here?&rsquo;" },
+    { "q": "How do I help my child with a pattern question?", "a": "Read the pattern out loud together and let the child say it back with you. Hearing &lsquo;triangle, circle, triangle, circle&rsquo; makes the missing part almost obvious. Point to each item as you say it so the eye and voice move together." },
+    { "q": "How much reasoning practice is enough at this age?", "a": "A few questions a day is plenty &mdash; about five to ten minutes. Short and regular beats a long session once a week, and it keeps a young child curious instead of tired." },
+    { "q": "Where can I get printable Class 1 logical reasoning worksheets with answers?", "a": "Our Grade 1 mathematical reasoning worksheet e-book has graded pattern, odd-one-out, sequence and sorting practice, each page with a full answer key &mdash; an instant PDF you can print again and again. The link is in the box below." }
+  ]
+}

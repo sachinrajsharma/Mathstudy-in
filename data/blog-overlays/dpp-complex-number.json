@@ -1,0 +1,30 @@
+{
+  "slug": "dpp-complex-number",
+  "meta_title": "Complex Numbers DPP - Daily Practice + Free Quiz",
+  "meta_desc": "Solve a free Complex Numbers DPP for JEE Main and Advanced, then test yourself with 8 questions on modulus, argument, cube roots of unity and locus.",
+  "category": "JEE",
+  "cta_product_slug": "jee-mains-advance-dpp-complex-numbers",
+  "quiz": {
+    "title": "Complex Numbers DPP Quiz",
+    "intro": "Eight JEE-level questions on modulus and argument, conjugates, De Moivre's theorem, cube roots of unity, locus and algebra of complex numbers. Pick an answer for each, then press Check my score.",
+    "about": "Complex numbers daily practice for JEE Main and Advanced",
+    "level": "JEE",
+    "questions": [
+      { "q": "What is the modulus of z = (1 + i)/(1 &minus; i)?", "options": ["1", "&radic;2", "2", "1/2"], "answer": 0, "explanation": "(1 + i)/(1 &minus; i) = (1 + i)&sup2;/[(1 &minus; i)(1 + i)] = 2i/2 = i, and |i| = 1. Dividing two numbers divides their moduli, and |1 + i| = |1 &minus; i| = &radic;2, so the ratio is 1." },
+      { "q": "If z = 3 &minus; i, then z multiplied by its conjugate z&#772; equals:", "options": ["9", "10", "&radic;10", "8"], "answer": 1, "explanation": "z times its conjugate is |z|&sup2; = 3&sup2; + (&minus;1)&sup2; = 9 + 1 = 10." },
+      { "q": "Using De Moivre's theorem, (1 + i)&#8312; equals:", "options": ["8", "&minus;16", "16", "16i"], "answer": 2, "explanation": "(1 + i)&sup2; = 2i, so (1 + i)&#8308; = (2i)&sup2; = &minus;4, and (1 + i)&#8312; = (&minus;4)&sup2; = 16." },
+      { "q": "If &omega; is a non-real cube root of unity, then (1 &minus; &omega; + &omega;&sup2;)(1 + &omega; &minus; &omega;&sup2;) equals:", "options": ["1", "2", "&minus;4", "4"], "answer": 3, "explanation": "Since 1 + &omega; + &omega;&sup2; = 0, we get 1 + &omega;&sup2; = &minus;&omega; so 1 &minus; &omega; + &omega;&sup2; = &minus;2&omega;, and 1 + &omega; = &minus;&omega;&sup2; so 1 + &omega; &minus; &omega;&sup2; = &minus;2&omega;&sup2;. Their product is 4&omega;&sup3; = 4." },
+      { "q": "The principal argument of z = &minus;1 &minus; i&radic;3 is:", "options": ["&minus;2&pi;/3", "2&pi;/3", "&minus;&pi;/3", "&pi;/3"], "answer": 0, "explanation": "The point (&minus;1, &minus;&radic;3) lies in the third quadrant with reference angle &pi;/3. The principal argument (in the range &minus;&pi; to &pi;) is therefore &minus;(&pi; &minus; &pi;/3) = &minus;2&pi;/3." },
+      { "q": "The locus of z satisfying |z &minus; 2| = |z + 2| is:", "options": ["A circle centred at the origin", "The imaginary axis", "The real axis", "A parabola"], "answer": 1, "explanation": "|z &minus; 2| = |z + 2| means z is equidistant from (2, 0) and (&minus;2, 0), i.e. the perpendicular bisector of that segment. That is the y-axis, so the real part is zero and z is purely imaginary." },
+      { "q": "The multiplicative inverse of z = 3 + 4i is:", "options": ["(3 + 4i)/25", "(3 &minus; 4i)/5", "(3 &minus; 4i)/25", "(4 &minus; 3i)/25"], "answer": 2, "explanation": "1/z = z&#772;/|z|&sup2;. Here z&#772; = 3 &minus; 4i and |z|&sup2; = 9 + 16 = 25, so the inverse is (3 &minus; 4i)/25." },
+      { "q": "The smallest positive integer n for which [(1 + i)/(1 &minus; i)]&#8319; = 1 is:", "options": ["1", "2", "8", "4"], "answer": 3, "explanation": "(1 + i)/(1 &minus; i) = i, and i&#8319; = 1 first happens at n = 4, since the powers of i cycle i, &minus;1, &minus;i, 1 with period 4." }
+    ]
+  },
+  "faq": [
+    { "q": "What is a Complex Numbers DPP and why practise one daily?", "a": "A DPP (Daily Practice Problem set) is a short, mixed set of questions solved every day to keep a topic fresh. For complex numbers it blends modulus, argument, powers of i, De Moivre's theorem and roots of unity, so you rotate through every sub-skill instead of drilling one type in isolation." },
+    { "q": "How do you find the principal argument of a complex number?", "a": "Locate the point (a, b) for z = a + bi and find the reference angle from the positive real axis using arctan(|b|/|a|). Then adjust for the quadrant so the answer sits between &minus;&pi; and &pi; &mdash; a common slip is forgetting the sign in the third and fourth quadrants." },
+    { "q": "What are the key properties of cube roots of unity for JEE?", "a": "If &omega; is a non-real cube root of unity, then &omega;&sup3; = 1 and 1 + &omega; + &omega;&sup2; = 0. These two facts collapse most cube-root problems quickly, and &omega;&sup2; is just the conjugate of &omega;." },
+    { "q": "How is De Moivre's theorem used in JEE problems?", "a": "Write the number in polar form r(cos&theta; + i sin&theta;), then (cos&theta; + i sin&theta;)&#8319; = cos n&theta; + i sin n&theta;. It turns high powers and nth roots into simple angle arithmetic and is essential for roots of unity and locus questions in JEE Advanced." },
+    { "q": "Where can I download the full complex numbers DPP with solutions?", "a": "The complete JEE Main and Advanced Complex Numbers DPP, with fully worked step-by-step solutions, is available as an instant PDF. The download link is in the box below." }
+  ]
+}

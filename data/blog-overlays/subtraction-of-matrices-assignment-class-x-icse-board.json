@@ -1,0 +1,30 @@
+{
+  "slug": "subtraction-of-matrices-assignment-class-x-icse-board",
+  "meta_title": "Subtraction of Matrices Assignment — Class 10 ICSE",
+  "meta_desc": "Practise Class 10 ICSE matrix subtraction, order, equality and scalar multiplication with a free 8-question quiz and worked answers. Start solving now.",
+  "category": "Class 10 Maths",
+  "cta_product_slug": "class-10-matrices-case-studies-with-solutions",
+  "quiz": {
+    "title": "Class 10 ICSE Matrices Quiz",
+    "intro": "Eight questions on the order of a matrix, addition and subtraction, equality and scalar multiplication, all at ICSE Class 10 level. Pick an answer for each, then press Check my score.",
+    "about": "Class 10 ICSE matrices — order, addition, subtraction, equality and scalar multiplication",
+    "level": "Class 10 ICSE",
+    "questions": [
+      { "q": "A matrix has 2 rows and 3 columns. What is its order?", "options": ["3 &times; 2", "2 &times; 3", "6 &times; 1", "2 &times; 2"], "answer": 1, "explanation": "Order is written as rows &times; columns, so 2 rows and 3 columns give an order of 2 &times; 3." },
+      { "q": "For A &minus; B to be defined, the matrices A and B must have", "options": ["the same order", "the same determinant", "at least one common row", "any orders at all"], "answer": 0, "explanation": "Subtraction (like addition) is only possible when both matrices have the same order, since it works element by element." },
+      { "q": "If A = [5  8] and B = [2  3] (both 1 &times; 2), what is A &minus; B?", "options": ["[3  5]", "[7  11]", "[3  11]", "[7  5]"], "answer": 0, "explanation": "Subtract element by element: 5 &minus; 2 = 3 and 8 &minus; 3 = 5, giving [3  5]." },
+      { "q": "For a 2 &times; 2 matrix, if A = [[4, 1],[6, 2]] and B = [[1, 1],[2, 5]], the bottom-right entry of A &minus; B is", "options": ["7", "&minus;3", "3", "&minus;7"], "answer": 1, "explanation": "The bottom-right entries are 2 and 5, so 2 &minus; 5 = &minus;3." },
+      { "q": "If [[x, 3],[4, y]] = [[7, 3],[4, 9]], then the values of x and y are", "options": ["x = 3, y = 7", "x = 9, y = 7", "x = 7, y = 9", "x = 4, y = 3"], "answer": 2, "explanation": "Two matrices are equal only when every corresponding entry matches, so x = 7 and y = 9." },
+      { "q": "What is 3 &times; [[2, &minus;1],[0, 4]]?", "options": ["[[6, &minus;3],[0, 12]]", "[[6, &minus;1],[0, 4]]", "[[5, 2],[3, 7]]", "[[6, &minus;3],[3, 12]]"], "answer": 0, "explanation": "In scalar multiplication every entry is multiplied by 3: 3&middot;2 = 6, 3&middot;(&minus;1) = &minus;3, 3&middot;0 = 0, 3&middot;4 = 12." },
+      { "q": "If A = [[9, 5],[7, 2]], what is A &minus; A?", "options": ["A", "The identity matrix", "The zero matrix", "2A"], "answer": 2, "explanation": "Subtracting a matrix from itself makes every entry zero, giving the null (zero) matrix of the same order." },
+      { "q": "Given 2A = [[8, 6],[10, 4]], what is matrix A?", "options": ["[[4, 3],[5, 2]]", "[[16, 12],[20, 8]]", "[[8, 6],[10, 4]]", "[[2, 3],[5, 4]]"], "answer": 0, "explanation": "Divide each entry by 2: 8/2 = 4, 6/2 = 3, 10/2 = 5, 4/2 = 2, so A = [[4, 3],[5, 2]]." }
+    ]
+  },
+  "faq": [
+    { "q": "When can two matrices be subtracted?", "a": "Only when they have the same order, meaning the same number of rows and the same number of columns. You then subtract the entries in matching positions. If the orders differ, subtraction is simply not defined." },
+    { "q": "How do you find the order of a matrix?", "a": "Count the rows first, then the columns, and write it as rows &times; columns. A matrix with 2 rows and 3 columns has order 2 &times; 3, and it contains 2 &times; 3 = 6 elements in total." },
+    { "q": "What does it mean for two matrices to be equal?", "a": "They must have the same order and every pair of corresponding entries must be equal. This is why equal-matrix questions let you form equations like x = 7 or y = 9 by comparing entries one by one." },
+    { "q": "How is scalar multiplication different from matrix subtraction?", "a": "Scalar multiplication multiplies every single entry by the same number, so 3 times a matrix triples each element. Subtraction instead works between two matrices of the same order, taking the difference of matching entries." },
+    { "q": "Where can I get Class 10 ICSE matrices practice with full solutions?", "a": "Our Class 10 Matrices case studies e-book covers order, addition, subtraction, equality and scalar multiplication with step-by-step worked answers, so you can check every method as you go. The link is in the box below." }
+  ]
+}

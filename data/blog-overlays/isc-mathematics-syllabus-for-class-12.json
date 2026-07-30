@@ -1,0 +1,29 @@
+{
+  "slug": "isc-mathematics-syllabus-for-class-12",
+  "meta_title": "ISC Class 12 Maths Syllabus: Topics + Free Quiz",
+  "meta_desc": "See the ISC Class 12 Maths syllabus - calculus, probability, vectors, conics, matrices and regression - then test yourself with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "ISC Class 12 Maths Syllabus Quiz",
+    "intro": "Eight questions sampled straight from the ISC Class 12 syllabus - calculus, probability, vectors and 3D, conics, linear regression and matrices. Pick an answer for each, then press Check my score.",
+    "about": "ISC Class 12 Mathematics core topics",
+    "level": "Class 12 (ISC)",
+    "questions": [
+      { "q": "A square matrix A is invertible if and only if", "options": ["det(A) = 0", "det(A) &ne; 0", "A is symmetric", "A is of order 2"], "answer": 1, "explanation": "The inverse A&#8315;&#185; = adj(A)/det(A), so it exists only when det(A) is non-zero. A matrix with a zero determinant is singular and has no inverse." },
+      { "q": "The value of the determinant | 2 3 ; 1 4 | is", "options": ["5", "11", "8", "&minus;5"], "answer": 0, "explanation": "For a 2&times;2 determinant, subtract the product of the off-diagonal from the product of the leading diagonal: (2)(4) &minus; (3)(1) = 8 &minus; 3 = 5." },
+      { "q": "What is the derivative of e^(2x) with respect to x?", "options": ["e^(2x)", "e^(2x)/2", "2e^(2x)", "2x&middot;e^(2x&minus;1)"], "answer": 2, "explanation": "By the chain rule, d/dx e^(u) = e^(u)&middot;(du/dx). Here u = 2x, so du/dx = 2, giving 2e^(2x)." },
+      { "q": "The value of &int; (1/x) dx is", "options": ["&minus;1/x&sup2; + C", "x ln x &minus; x + C", "1/x + C", "ln|x| + C"], "answer": 3, "explanation": "The integral of 1/x is the natural logarithm of the absolute value of x, so &int; (1/x) dx = ln|x| + C. The modulus keeps it valid for negative x." },
+      { "q": "If two non-zero vectors a and b are perpendicular, then a &middot; b equals", "options": ["0", "1", "|a||b|", "&minus;1"], "answer": 0, "explanation": "The dot product is |a||b|cos&theta;. For perpendicular vectors &theta; = 90&deg; and cos 90&deg; = 0, so the dot product is 0." },
+      { "q": "The eccentricity of a parabola is", "options": ["0", "1", "between 0 and 1", "greater than 1"], "answer": 1, "explanation": "A parabola has eccentricity exactly 1. An ellipse lies between 0 and 1, a circle is 0, and a hyperbola is greater than 1." },
+      { "q": "The two lines of regression always pass through", "options": ["the origin", "the point (1, 1)", "the point (x&#772;, y&#772;), the means of the data", "a point that varies with each sample"], "answer": 2, "explanation": "Both regression lines are constructed to pass through the mean point (x&#772;, y&#772;), which is why they intersect there. This is a standard check in ISC statistics problems." },
+      { "q": "For two independent events A and B, P(A &cap; B) equals", "options": ["P(A) + P(B)", "P(A) &minus; P(B)", "P(A | B)", "P(A) &times; P(B)"], "answer": 3, "explanation": "Independence means one event does not affect the other, so P(A | B) = P(A). The multiplication rule then reduces to P(A &cap; B) = P(A) &times; P(B)." }
+    ]
+  },
+  "faq": [
+    { "q": "What are the main topics in the ISC Class 12 Maths syllabus?", "a": "The paper covers three broad sections: Section A (relations and functions, algebra including matrices and determinants, calculus, probability), Section B (vectors, three-dimensional geometry, conics) and Section C (linear regression, applications of derivatives and integrals in commerce). Section A is compulsory, and you choose either B or C." },
+    { "q": "How much weight does calculus carry in ISC Class 12 Maths?", "a": "Calculus is the single largest block in Section A, typically around 35 to 40 marks. It spans differentiation, integration, differential equations and applications, so it deserves the most consistent practice through the year." },
+    { "q": "Is the ISC Class 12 Maths paper the same as CBSE?", "a": "No. The two syllabi overlap heavily in calculus, matrices and probability, but ISC adds conics and linear regression, treats three-dimensional geometry differently, and generally frames questions with a bit more depth. Prepare from ISC-specific material rather than assuming CBSE resources cover everything." },
+    { "q": "Which chapters are the highest scoring in ISC Class 12 Maths?", "a": "Matrices and determinants, probability, and vectors and 3D geometry are the most reliable for full marks because the methods are procedural once understood. Calculus rewards those who practise a wide range of integrals and application problems." },
+    { "q": "Where can I get solved ISC Class 12 Maths questions to practise?", "a": "This page has worked solutions across the ISC syllabus, and the linked solutions e-book adds chapter-wise practice with full answer keys for calculus, probability, vectors and more. The link is in the box below." }
+  ]
+}

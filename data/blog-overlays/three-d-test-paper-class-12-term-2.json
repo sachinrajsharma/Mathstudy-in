@@ -1,0 +1,85 @@
+{
+  "slug": "three-d-test-paper-class-12-term-2",
+  "meta_title": "3D Geometry Test Paper Class 12 Term 2 + Quiz",
+  "meta_desc": "Class 12 Term 2 three-dimensional geometry test paper on lines, planes, skew distance and coplanarity, with a free 8-question quiz and full solutions.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-three-dimensional-geometry-case-studies-with-solutions",
+  "quiz": {
+    "title": "Class 12 Three-Dimensional Geometry Quiz (Term 2)",
+    "intro": "Eight Term 2 questions on direction cosines, equations of lines and planes, angles, shortest distance between skew lines and coplanarity. Choose an answer for each, then press Check my score.",
+    "about": "Class 12 three-dimensional geometry, Term 2",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The direction ratios of a line are 2, &minus;1, 2. Its direction cosines are:",
+        "options": ["2/3, &minus;1/3, 2/3", "1/3, &minus;1/3, 1/3", "2/9, &minus;1/9, 2/9", "2, &minus;1, 2"],
+        "answer": 0,
+        "explanation": "Divide each ratio by the magnitude &radic;(2&sup2;+(&minus;1)&sup2;+2&sup2;) = &radic;9 = 3, giving 2/3, &minus;1/3, 2/3."
+      },
+      {
+        "q": "If a line makes angles 90&deg;, 60&deg; and 30&deg; with the x, y and z axes, its direction cosines are:",
+        "options": ["1, 1/2, &radic;3/2", "0, 1/2, &radic;3/2", "0, &radic;3/2, 1/2", "1/2, 0, &radic;3/2"],
+        "answer": 1,
+        "explanation": "Direction cosines are cos of each angle: cos 90&deg; = 0, cos 60&deg; = 1/2, cos 30&deg; = &radic;3/2. Check: 0 + 1/4 + 3/4 = 1."
+      },
+      {
+        "q": "The angle between the planes 2x &minus; y + 2z = 5 and x + 2y + 2z = 3 is cos&#8315;&sup1; of:",
+        "options": ["5/9", "4/9", "1/3", "7/9"],
+        "answer": 1,
+        "explanation": "cos&theta; = |(2)(1)+(&minus;1)(2)+(2)(2)| / (&radic;9&middot;&radic;9) = |2&minus;2+4|/(3&middot;3) = 4/9."
+      },
+      {
+        "q": "The shortest distance between two intersecting lines in space is:",
+        "options": ["Equal to the distance between their points", "Always positive", "Zero", "Undefined"],
+        "answer": 2,
+        "explanation": "Intersecting lines share a common point, so the shortest distance between them is 0. A non-zero shortest distance means the lines are skew (or parallel)."
+      },
+      {
+        "q": "The angle &phi; between a line with direction vector b and a plane with normal n is given by:",
+        "options": ["cos&phi; = |b&middot;n| / (|b||n|)", "sin&phi; = |b&middot;n| / (|b||n|)", "tan&phi; = |b&middot;n| / (|b||n|)", "sin&phi; = |b&times;n| / (|b||n|)"],
+        "answer": 1,
+        "explanation": "The angle a line makes with a plane is the complement of the angle with the normal, so sin&phi; = |b&middot;n| / (|b||n|)."
+      },
+      {
+        "q": "The Cartesian equation of a line through (1, 2, 3) with direction ratios 3, &minus;1, 4 is:",
+        "options": ["(x&minus;3)/1 = (y+1)/2 = (z&minus;4)/3", "(x+1)/3 = (y+2)/(&minus;1) = (z+3)/4", "(x&minus;1)/1 = (y&minus;2)/2 = (z&minus;3)/3", "(x&minus;1)/3 = (y&minus;2)/(&minus;1) = (z&minus;3)/4"],
+        "answer": 3,
+        "explanation": "The symmetric form is (x&minus;x&#8321;)/a = (y&minus;y&#8321;)/b = (z&minus;z&#8321;)/c with point (1,2,3) and ratios 3, &minus;1, 4."
+      },
+      {
+        "q": "Two lines are coplanar if the scalar triple product [ (a&#8322; &minus; a&#8321;) b&#8321; b&#8322; ] equals:",
+        "options": ["1", "The shortest distance", "Zero", "|b&#8321; &times; b&#8322;|"],
+        "answer": 2,
+        "explanation": "Lines with position vectors a&#8321;, a&#8322; and direction vectors b&#8321;, b&#8322; are coplanar when the shortest distance is zero, i.e. the scalar triple product (a&#8322;&minus;a&#8321;)&middot;(b&#8321;&times;b&#8322;) = 0."
+      },
+      {
+        "q": "The perpendicular distance from the point (2, 3, &minus;1) to the plane 2x &minus; 2y + z + 3 = 0 is:",
+        "options": ["0 units", "1 unit", "2 units", "4/3 units"],
+        "answer": 0,
+        "explanation": "Distance = |2(2) &minus; 2(3) + (&minus;1) + 3| / &radic;(4+4+1) = |4 &minus; 6 &minus; 1 + 3| / 3 = 0/3 = 0. The point lies on the plane."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What topics from three-dimensional geometry are important for Class 12 Term 2?",
+      "a": "Direction cosines and ratios, the vector and Cartesian equations of a line and a plane, the angle between two lines, a line and a plane, and two planes, the shortest distance between skew lines, and the condition for coplanarity. These carry the bulk of the marks."
+    },
+    {
+      "q": "How do I find the shortest distance between two skew lines?",
+      "a": "Use the formula d = |(a&#8322; &minus; a&#8321;) &middot; (b&#8321; &times; b&#8322;)| / |b&#8321; &times; b&#8322;|, where a&#8321;, a&#8322; are points on the lines and b&#8321;, b&#8322; are their direction vectors. If the numerator is zero the lines are coplanar (intersecting or parallel)."
+    },
+    {
+      "q": "What is the difference between the angle a line makes with a plane and with the plane's normal?",
+      "a": "They are complementary. If the angle with the normal is &theta;, the angle with the plane itself is 90&deg; &minus; &theta;. That is why the line-plane angle uses sine of the dot product ratio while the line-normal angle uses cosine."
+    },
+    {
+      "q": "How do I check whether two lines are coplanar?",
+      "a": "Compute the scalar triple product (a&#8322; &minus; a&#8321;) &middot; (b&#8321; &times; b&#8322;). If it equals zero the lines lie in one plane; otherwise they are skew. This is the same numerator that appears in the shortest-distance formula."
+    },
+    {
+      "q": "Where can I get solved case studies for Class 12 three-dimensional geometry?",
+      "a": "Our Class 12 Three-Dimensional Geometry case studies e-book has application-style problems on lines, planes, angles and skew-line distance, each worked out with full step-by-step solutions. The download link is in the box below."
+    }
+  ]
+}
