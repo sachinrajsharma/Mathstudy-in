@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2004",
+  "meta_title": "CBSE Class 12 Maths 2004 Paper with Answers + Quiz",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 2004 board paper with full answers, then test yourself on calculus, matrices, vectors and probability with a free quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2004 Practice Quiz",
+    "intro": "Eight board-level questions in the style of the 2004 paper, covering calculus, matrices, vectors, 3D geometry and probability. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2004 board paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = e<sup>sin x</sup>, then dy/dx equals:", "options": ["e<sup>sin x</sup>", "cos x &middot; e<sup>cos x</sup>", "e<sup>sin x</sup> &middot; cos x", "sin x &middot; e<sup>sin x</sup>"], "answer": 2, "explanation": "By the chain rule, differentiate the outer exponential and multiply by the derivative of the exponent sin x, which is cos x. So dy/dx = e<sup>sin x</sup> &middot; cos x." },
+      { "q": "For two square matrices A and B of the same order with det(A) = 2 and det(B) = 5, det(AB) equals:", "options": ["10", "7", "2/5", "25"], "answer": 0, "explanation": "The determinant is multiplicative: det(AB) = det(A) &times; det(B) = 2 &times; 5 = 10." },
+      { "q": "If a = i + 2j + 3k and b = 3i + 2j + k, then a &middot; b equals:", "options": ["6", "3", "14", "10"], "answer": 3, "explanation": "The dot product multiplies matching components and adds: (1)(3) + (2)(2) + (3)(1) = 3 + 4 + 3 = 10." },
+      { "q": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a king is:", "options": ["1/52", "1/13", "4/13", "1/4"], "answer": 1, "explanation": "There are 4 kings among 52 cards, so the probability is 4/52 = 1/13." },
+      { "q": "The value of &int; from 0 to 1 of x<sup>2</sup> dx is:", "options": ["1", "1/2", "1/3", "2/3"], "answer": 2, "explanation": "&int; x<sup>2</sup> dx = x<sup>3</sup>/3. Evaluating from 0 to 1 gives 1/3 &minus; 0 = 1/3." },
+      { "q": "The general solution of the differential equation dy/dx = 2x is:", "options": ["y = x<sup>2</sup> + C", "y = 2x<sup>2</sup> + C", "y = 2 + C", "y = x<sup>2</sup>"], "answer": 0, "explanation": "Integrate both sides: y = &int; 2x dx = x<sup>2</sup> + C. The arbitrary constant C is essential for a general solution." },
+      { "q": "The distance of the point (3, 4, 12) from the origin is:", "options": ["12", "5", "19", "13"], "answer": 3, "explanation": "Distance = &radic;(3<sup>2</sup> + 4<sup>2</sup> + 12<sup>2</sup>) = &radic;(9 + 16 + 144) = &radic;169 = 13." },
+      { "q": "If A is a 2 &times; 3 matrix and B is a 3 &times; 4 matrix, then the order of the product AB is:", "options": ["3 &times; 3", "2 &times; 4", "3 &times; 4", "2 &times; 3"], "answer": 1, "explanation": "Matrix multiplication is defined because the inner dimensions match (3 = 3). The product takes the outer dimensions, giving a 2 &times; 4 matrix." }
+    ]
+  },
+  "faq": [
+    { "q": "Is the CBSE Class 12 Maths 2004 paper still useful for the current syllabus?", "a": "The concepts tested in 2004 &mdash; derivatives, integrals, matrices, determinants, vectors, 3D geometry and probability &mdash; remain core to the Class 12 syllabus. The question format has evolved, but the underlying methods are exactly what today's board and competitive exams expect." },
+    { "q": "How should I use a past paper like this when revising?", "a": "Attempt it under timed conditions first, without notes, then check every answer and rework anything you missed until you can explain the step. Passive reading of solutions builds far less than solving and self-correcting." },
+    { "q": "Which topics carry the most marks in Class 12 Mathematics?", "a": "Calculus &mdash; differentiation, integration and their applications &mdash; usually carries the largest weight, followed by vectors and 3D geometry, then algebra of matrices and determinants. Probability and linear programming round out the paper." },
+    { "q": "What is a common mistake students make on determinant and vector questions?", "a": "For determinants, sign errors during cofactor expansion trip up most students; write each sign before you compute. For vectors, mixing up the dot product (a scalar) and the cross product (a vector) is the usual slip." },
+    { "q": "Where can I get more Class 12 Maths papers with full answers?", "a": "Our Class 12 Mathematics sample papers e-book collects board-style papers with worked, step-by-step answer keys across every chapter, so you can practise and self-check the way you would in the exam. The download link is in the box below." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "free-gre-vocabulary-online-tests-practice-improve-gre-word-power",
+  "meta_title": "Free GRE Vocabulary Online Tests: 8 Word-Power MCQs",
+  "meta_desc": "Free GRE vocabulary online tests with 8 high-frequency words. Match each word to its meaning, synonym or antonym, check your score and build word power.",
+  "category": "GRE",
+  "quiz": {
+    "title": "Free GRE Vocabulary Online Test",
+    "intro": "Eight high-frequency GRE words, none repeated from our other vocabulary quiz. For each one pick the answer the question asks for, then press Check my score to read the explanations.",
+    "about": "GRE high-frequency vocabulary",
+    "level": "GRE",
+    "questions": [
+      { "q": "Which word is closest in meaning to 'abate'?", "options": ["Intensify", "Subside", "Confuse", "Postpone"], "answer": 1, "explanation": "'Abate' means to lessen or die down, as when a storm abates. Its opposite is 'intensify' or 'aggravate', which is the trap in the first option." },
+      { "q": "The word 'cacophony' most nearly means:", "options": ["A harsh, jarring mix of sounds", "A soothing melody", "A large silent crowd", "A written apology"], "answer": 0, "explanation": "'Cacophony' is a clashing, unpleasant blend of sounds. The Greek root 'kakos' means bad, so it is literally 'bad sound'; its opposite is 'euphony'." },
+      { "q": "A person described as 'capricious' is best understood as:", "options": ["Careful and deliberate", "Extremely generous", "Physically powerful", "Prone to sudden changes of mind"], "answer": 3, "explanation": "'Capricious' means impulsive and unpredictable, driven by whim rather than reason. A capricious boss changes plans on a moment's notice." },
+      { "q": "To 'equivocate' means:", "options": ["To agree openly", "To calculate exactly", "To use vague language to mislead", "To praise excessively"], "answer": 2, "explanation": "'Equivocate' is to speak ambiguously on purpose so as to avoid commitment or to deceive. A politician who dodges a yes-or-no question is equivocating." },
+      { "q": "Which choice is the best ANTONYM of 'venerate'?", "options": ["Despise", "Worship", "Ignore", "Question"], "answer": 0, "explanation": "'Venerate' means to regard with deep respect or reverence, so its antonym is 'despise'. 'Worship' is a synonym planted to trap you on an antonym question." },
+      { "q": "Which word is closest in meaning to 'gregarious'?", "options": ["Easily angered", "Deeply private", "Extremely tall", "Sociable and outgoing"], "answer": 3, "explanation": "'Gregarious' describes someone who enjoys the company of others. It comes from the Latin 'grex', a flock or herd, the same root as 'gregate'." },
+      { "q": "Which choice is the best ANTONYM of 'taciturn'?", "options": ["Reserved", "Talkative", "Honest", "Nervous"], "answer": 1, "explanation": "'Taciturn' means habitually silent or reserved in speech, so its antonym is 'talkative' (or 'loquacious'). 'Reserved' is a synonym set as a distractor." },
+      { "q": "An 'insipid' film is best described as:", "options": ["Dull and lacking interest", "Brightly coloured", "Highly controversial", "Very expensive"], "answer": 0, "explanation": "'Insipid' means bland, flavourless or unstimulating, whether describing food or a story. Its opposites include 'vivid', 'engaging' and 'piquant'." }
+    ]
+  },
+  "faq": [
+    { "q": "How do these online tests differ from your other GRE vocabulary quiz?", "a": "This test uses eight completely different high-frequency words, so you can take both back to back without repeats. Together the two quizzes cover sixteen words drawn from the GRE's most common Text Completion and Sentence Equivalence vocabulary." },
+    { "q": "What is the best way to learn a word I got wrong?", "a": "Read the explanation, then write your own sentence using the word in context. Revisit your misses every few days with spaced repetition. Seeing a word in use fixes its connotation far better than rereading a one-line definition." },
+    { "q": "Do I need to know a word's exact definition or just the general sense?", "a": "The GRE rewards precision. Many wrong answers are near-misses that share the general sense but not the exact shade of meaning, and antonym questions plant synonyms as traps. Aim to know each word's connotation, not just a rough idea." },
+    { "q": "How many GRE words should I aim to learn?", "a": "Most strong scorers are comfortable with roughly 1,000 to 1,500 high-frequency words. Depth beats raw count, so master the common words thoroughly before chasing obscure ones you are unlikely to see." },
+    { "q": "Where can I get more GRE vocabulary and verbal practice?", "a": "Our GRE vocabulary and verbal practice resources include graded word lists, meaning-and-antonym drills and full answer keys you can work through at your own pace. The link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "multiplication-of-matrices-assignment-class-x-icse-board",
+  "meta_title": "Matrix Multiplication Assignment: Class 10 ICSE",
+  "meta_desc": "Practise Class 10 ICSE matrix multiplication with an 8-question MCQ test on order, compatibility and AB vs BA, plus worked case studies. Start free now.",
+  "category": "Class 10 Maths",
+  "cta_product_slug": "class-10-matrices-case-studies-with-solutions",
+  "quiz": {
+    "title": "Matrix Multiplication Quiz (Class 10 ICSE)",
+    "intro": "Eight questions on multiplying matrices &mdash; when a product exists, the order of the answer, 2&times;2 products, non-commutativity and the identity matrix. Pick an answer for each, then press Check my score.",
+    "about": "Class 10 ICSE matrix multiplication",
+    "level": "Class 10 ICSE",
+    "questions": [
+      { "q": "For the product AB to exist, which condition must hold?", "options": ["Columns of A equal rows of B", "Rows of A equal rows of B", "A and B have the same order", "Columns of A equal columns of B"], "answer": 0, "explanation": "AB is defined only when the number of columns of A equals the number of rows of B. The 'inner' dimensions must match." },
+      { "q": "If A is a 2&times;3 matrix and B is a 3&times;4 matrix, what is the order of AB?", "options": ["3&times;3", "4&times;2", "2&times;3", "2&times;4"], "answer": 3, "explanation": "The product takes the outer dimensions: rows of A (2) by columns of B (4), so AB is 2&times;4." },
+      { "q": "A is 3&times;2 and B is 2&times;3. Which products are defined?", "options": ["Only AB", "Only BA", "Both AB and BA", "Neither"], "answer": 2, "explanation": "AB: columns of A (2) match rows of B (2), giving 3&times;3. BA: columns of B (3) match rows of A (3), giving 2&times;2. Both exist but have different orders." },
+      { "q": "If A = [[1, 2], [3, 4]] and B = [[1, 0], [0, 1]], what is AB?", "options": ["[[1, 0], [0, 1]]", "[[1, 2], [3, 4]]", "[[4, 3], [2, 1]]", "[[2, 2], [3, 5]]"], "answer": 1, "explanation": "B is the 2&times;2 identity matrix I. Multiplying any matrix by I leaves it unchanged, so AB = A = [[1, 2], [3, 4]]." },
+      { "q": "For A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]], the top-left entry of AB is:", "options": ["2", "6", "8", "4"], "answer": 3, "explanation": "The (1,1) entry is row 1 of A dotted with column 1 of B: (1&times;2) + (2&times;1) = 2 + 2 = 4." },
+      { "q": "Which statement about matrix multiplication is generally TRUE?", "options": ["AB always equals BA", "AB = BA only for square matrices", "AB is generally not equal to BA", "AB equals BA whenever both are defined"], "answer": 2, "explanation": "Matrix multiplication is not commutative in general: AB &ne; BA. Even when both products exist, they usually differ (and may have different orders)." },
+      { "q": "The distributive law for matrices states that A(B + C) equals:", "options": ["AB + AC", "BA + CA", "AB &times; AC", "(A + B)(A + C)"], "answer": 0, "explanation": "Matrix multiplication distributes over addition: A(B + C) = AB + AC, provided the orders make each product defined." },
+      { "q": "If A = [[2, 1], [0, 3]] and B = [[1, 4], [2, 0]], the (2,2) entry of AB is:", "options": ["0", "3", "6", "9"], "answer": 0, "explanation": "The (2,2) entry is row 2 of A dotted with column 2 of B: (0&times;4) + (3&times;0) = 0 + 0 = 0." }
+    ]
+  },
+  "faq": [
+    { "q": "When can two matrices be multiplied?", "a": "The product AB exists only if the number of columns of A equals the number of rows of B. If A is m&times;n and B is n&times;p, then AB is defined and has order m&times;p. When the inner dimensions do not match, the product simply does not exist." },
+    { "q": "How do I find the order of the product AB?", "a": "Write the orders side by side: (m&times;n)(n&times;p). Cancel the matching inner numbers, and the outer numbers give the answer's order, m&times;p. For example, a 2&times;3 times a 3&times;4 gives a 2&times;4 matrix." },
+    { "q": "Why is AB not the same as BA?", "a": "Matrix multiplication is not commutative. Even when both AB and BA are defined, the entries are computed from different row-column combinations, so the results usually differ &mdash; and the two products can even have different orders. Always keep the factors in the given order." },
+    { "q": "What does the identity matrix do in multiplication?", "a": "The identity matrix I has 1s on its main diagonal and 0s elsewhere. Multiplying any square matrix A by I of the same order leaves it unchanged: AI = IA = A. It plays the same role for matrices that the number 1 plays for ordinary numbers." },
+    { "q": "Where can I get full solutions to Class 10 ICSE matrix problems?", "a": "Our Class 10 Matrices case studies e-book works through multiplication, non-commutativity and identity questions step by step, each with a complete answer key you can download as an instant PDF. The link is in the box below." }
+  ]
+}
