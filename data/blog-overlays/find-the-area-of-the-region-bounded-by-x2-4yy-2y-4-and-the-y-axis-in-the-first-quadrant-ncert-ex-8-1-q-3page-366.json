@@ -1,0 +1,124 @@
+{
+  "slug": "find-the-area-of-the-region-bounded-by-x2-4yy-2y-4-and-the-y-axis-in-the-first-quadrant-ncert-ex-8-1-q-3page-366",
+  "meta_title": "Area Bounded by x2=4y, y=2, y=4 | NCERT Ex 8.1 Q3",
+  "meta_desc": "Step-by-step solution to NCERT Class 12 Ex 8.1 Q3: area bounded by x2=4y, y=2, y=4 and the y-axis, integrated w.r.t. y, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Area Using Integration Quiz (Ex 8.1 Q3)",
+    "intro": "Eight questions on finding area with respect to y, area under a parabola and area between horizontal lines. Choose an answer for each, then press Check my score.",
+    "about": "Application of Integrals — area bounded by x2=4y, y=2 and y=4",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "For the region bounded by x&sup2; = 4y and the y-axis between y = 2 and y = 4, which integral gives the area?",
+        "options": [
+          "&int;<sub>2</sub><sup>4</sup> 2&radic;y dy",
+          "&int;<sub>2</sub><sup>4</sup> 4y dy",
+          "&int;<sub>0</sub><sup>4</sup> 2&radic;y dy",
+          "&int;<sub>2</sub><sup>4</sup> y&sup2;/4 dy"
+        ],
+        "answer": 0,
+        "explanation": "In the first quadrant x = 2&radic;y from x&sup2; = 4y. The strip is horizontal, so integrate x with respect to y from 2 to 4: &int;<sub>2</sub><sup>4</sup> 2&radic;y dy."
+      },
+      {
+        "q": "What is the exact area of the region bounded by x&sup2; = 4y, y = 2, y = 4 and the y-axis in the first quadrant?",
+        "options": [
+          "(32 + 8&radic;2)/3 sq units",
+          "(32 &minus; 8&radic;2)/3 sq units",
+          "(8 &minus; 2&radic;2)/3 sq units",
+          "16/3 sq units"
+        ],
+        "answer": 1,
+        "explanation": "&int;<sub>2</sub><sup>4</sup> 2&radic;y dy = 2 &middot; (2/3) y<sup>3/2</sup> from 2 to 4 = (4/3)(8 &minus; 2&radic;2) = (32 &minus; 8&radic;2)/3."
+      },
+      {
+        "q": "Why do we integrate with respect to y here instead of x?",
+        "options": [
+          "Because the area is negative otherwise",
+          "Because the y-axis is not a boundary",
+          "The bounding lines y = 2 and y = 4 are horizontal, so horizontal strips of width x are natural",
+          "Because x&sup2; = 4y cannot be solved for x"
+        ],
+        "answer": 2,
+        "explanation": "The region is bounded above and below by horizontal lines, so a strip parallel to the x-axis has length x = 2&radic;y and thickness dy — integrating w.r.t. y is the clean choice."
+      },
+      {
+        "q": "The antiderivative of 2&radic;y with respect to y is:",
+        "options": [
+          "&radic;y",
+          "(2/3) y<sup>3/2</sup>",
+          "y<sup>3/2</sup>",
+          "(4/3) y<sup>3/2</sup>"
+        ],
+        "answer": 3,
+        "explanation": "&int; 2y<sup>1/2</sup> dy = 2 &middot; y<sup>3/2</sup>/(3/2) = (4/3) y<sup>3/2</sup>."
+      },
+      {
+        "q": "For the parabola x&sup2; = 4y, what is x when y = 4 in the first quadrant?",
+        "options": [
+          "4",
+          "16",
+          "2",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "x&sup2; = 4(4) = 16, so x = 4 (positive root for the first quadrant)."
+      },
+      {
+        "q": "What is the area under x&sup2; = 4y in the first quadrant between y = 0 and y = 2 (bounded by the y-axis)?",
+        "options": [
+          "8/3 sq units",
+          "(8&radic;2)/3 sq units",
+          "16/3 sq units",
+          "(4&radic;2)/3 sq units"
+        ],
+        "answer": 1,
+        "explanation": "&int;<sub>0</sub><sup>2</sup> 2&radic;y dy = (4/3) y<sup>3/2</sup> from 0 to 2 = (4/3)(2&radic;2) = (8&radic;2)/3."
+      },
+      {
+        "q": "If the same parabola were bounded between y = 1 and y = 4, the area (w.r.t. y) would be:",
+        "options": [
+          "(4/3)(4 &minus; 1) = 4 sq units",
+          "(4/3)(2 &minus; 1) = 4/3 sq units",
+          "(4/3)(8 &minus; 1) = 28/3 sq units",
+          "(4/3)(8 + 1) = 12 sq units"
+        ],
+        "answer": 2,
+        "explanation": "Area = (4/3) y<sup>3/2</sup> from 1 to 4 = (4/3)(4<sup>3/2</sup> &minus; 1) = (4/3)(8 &minus; 1) = 28/3 sq units."
+      },
+      {
+        "q": "Which statement about area found by definite integration is correct here?",
+        "options": [
+          "The integral must be made negative before it is an area",
+          "The area depends on which variable of integration you choose",
+          "The y-axis boundary means the lower limit must be 0",
+          "Because the region lies to the right of the y-axis, x = 2&radic;y is positive throughout, so the integral gives the area directly"
+        ],
+        "answer": 3,
+        "explanation": "The whole region is in the first quadrant where x &ge; 0, so 2&radic;y &ge; 0 on [2, 4] and the definite integral is already the positive area."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find the area bounded by x&sup2; = 4y, y = 2, y = 4 and the y-axis?",
+      "a": "Solve the parabola for x in the first quadrant: x = 2&radic;y. Since the boundaries y = 2 and y = 4 are horizontal, integrate x with respect to y: area = &int; from 2 to 4 of 2&radic;y dy."
+    },
+    {
+      "q": "What is the final answer to NCERT Ex 8.1 Q3?",
+      "a": "The area is (4/3)(8 &minus; 2&radic;2) = (32 &minus; 8&radic;2)/3 square units, which is about 7.77 square units."
+    },
+    {
+      "q": "Why integrate with respect to y rather than x in this problem?",
+      "a": "The region is capped by the horizontal lines y = 2 and y = 4, so a horizontal strip of length x = 2&radic;y and thickness dy sweeps the region cleanly. Integrating w.r.t. y avoids splitting the area."
+    },
+    {
+      "q": "Does the y-axis actually change the calculation?",
+      "a": "The y-axis (x = 0) is the left boundary of each horizontal strip, so the strip length is just x = 2&radic;y measured from the axis. It confirms we take x from 0 out to the curve, not the region on the other side."
+    },
+    {
+      "q": "Where can I get the full worked solution for this and the rest of Exercise 8.1?",
+      "a": "Our NCERT Class 12 Application of Integrals solutions cover every question in Exercise 8.1 with clear diagrams and each integration step shown &mdash; an instant PDF. The link is in the box below."
+    }
+  ]
+}

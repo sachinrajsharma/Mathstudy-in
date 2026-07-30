@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2008",
+  "meta_title": "CBSE Class 12 Maths 2008 Question Paper with Answers",
+  "meta_desc": "Work through the CBSE Class 12 Mathematics 2008 paper with worked answers, plus a free 8-question quiz on calculus, matrices, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2008 Quiz",
+    "intro": "Eight board-level questions in the style of the 2008 paper, covering calculus, matrices, vectors, 3D geometry, probability and differential equations. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2008 past paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = log(sin x), then dy/dx equals:", "options": ["cot x", "tan x", "&minus;cot x", "sec<sup>2</sup> x"], "answer": 0, "explanation": "Differentiate the outer log and the inner sin x: (1/sin x) &times; cos x = cot x." },
+      { "q": "If A is a square matrix of order 3 with det(A) = 5, then det(adj A) equals:", "options": ["5", "15", "25", "125"], "answer": 2, "explanation": "For an n &times; n matrix, det(adj A) = [det(A)]<sup>n&minus;1</sup>. Here n = 3, so 5<sup>2</sup> = 25." },
+      { "q": "&int; 1/(1 + x<sup>2</sup>) dx equals:", "options": ["log(1 + x<sup>2</sup>) + C", "tan<sup>&minus;1</sup> x + C", "sin<sup>&minus;1</sup> x + C", "&minus;1/(1 + x<sup>2</sup>) + C"], "answer": 1, "explanation": "This is a standard result: the integral of 1/(1 + x<sup>2</sup>) is the inverse tangent, tan<sup>&minus;1</sup> x + C." },
+      { "q": "If a and b are unit vectors with a 60&deg; angle between them, then a &middot; b equals:", "options": ["1", "&radic;3/2", "0", "1/2"], "answer": 3, "explanation": "a &middot; b = |a||b|cos&theta; = 1 &times; 1 &times; cos 60&deg; = 1/2." },
+      { "q": "The direction cosines of the x-axis are:", "options": ["(0, 0, 1)", "(0, 1, 0)", "(1, 0, 0)", "(1, 1, 1)"], "answer": 2, "explanation": "The x-axis makes 0&deg; with itself and 90&deg; with the other axes, so its direction cosines are (cos 0&deg;, cos 90&deg;, cos 90&deg;) = (1, 0, 0)." },
+      { "q": "A bag has 3 red and 2 black balls. Two balls are drawn one after another without replacement. The probability that both are red is:", "options": ["3/10", "9/25", "2/5", "3/5"], "answer": 0, "explanation": "P(both red) = (3/5) &times; (2/4) = 6/20 = 3/10, since the first draw leaves 2 red among 4 balls." },
+      { "q": "The general solution of the differential equation dy/dx = e<sup>x</sup> is:", "options": ["y = x e<sup>x</sup> + C", "y = e<sup>&minus;x</sup> + C", "y = e<sup>x</sup>", "y = e<sup>x</sup> + C"], "answer": 3, "explanation": "Integrate both sides: &int; e<sup>x</sup> dx = e<sup>x</sup> + C, so y = e<sup>x</sup> + C." },
+      { "q": "&int; from 0 to &pi;/2 of sin x dx equals:", "options": ["0", "1", "&minus;1", "&pi;/2"], "answer": 1, "explanation": "The antiderivative of sin x is &minus;cos x. Evaluating from 0 to &pi;/2 gives &minus;cos(&pi;/2) + cos 0 = 0 + 1 = 1." }
+    ]
+  },
+  "faq": [
+    { "q": "Is the CBSE 2008 Class 12 Maths paper still useful for today's board exam?", "a": "Yes. The 2008 paper predates the current pattern, but the core topics &mdash; continuity and differentiability, integrals, matrices and determinants, vectors, 3D geometry, probability and differential equations &mdash; are still the backbone of the syllabus. Solving it sharpens the fundamentals that every current paper tests." },
+    { "q": "Which chapters carry the most marks in a paper like 2008?", "a": "Calculus dominates: differentiation, integration and their applications together account for the largest share. Matrices and determinants, vectors with 3D geometry, and probability make up most of the rest, which is why this quiz samples across all of them." },
+    { "q": "What is the fastest way to compute det(adj A)?", "a": "Use the shortcut det(adj A) = [det(A)]<sup>n&minus;1</sup> for an n &times; n matrix, instead of writing out the whole adjoint. For a 3 &times; 3 matrix that is simply det(A) squared." },
+    { "q": "How should I practise past papers to actually improve?", "a": "Attempt the paper in one timed sitting without notes, then mark it honestly against the answer key and redo only the questions you got wrong. Repeating the mistakes-only set a few days later fixes them far better than solving a fresh paper each time." },
+    { "q": "Where can I get more solved CBSE Class 12 Maths papers with answers?", "a": "Our Class 12 Mathematics sample papers e-book bundles full-length practice papers with complete, step-by-step solutions and answer keys &mdash; an instant PDF you can print and time yourself against. The link is in the box below." }
+  ]
+}

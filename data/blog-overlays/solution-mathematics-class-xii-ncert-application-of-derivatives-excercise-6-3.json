@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-application-of-derivatives-excercise-6-3",
+  "meta_title": "NCERT Class 12 Maths Ex 6.3 Solutions: Tangents & Normals",
+  "meta_desc": "Full NCERT Class 12 Maths Exercise 6.3 solutions on tangents and normals, plus a free 8-question quiz on slopes and line equations. Practise now.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "quiz": {
+    "title": "Tangents and Normals Quiz (Exercise 6.3)",
+    "intro": "Eight questions on slopes, tangent lines and normal lines drawn from NCERT Exercise 6.3. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Application of Derivatives Exercise 6.3 &mdash; tangents and normals",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The slope of the tangent to a curve y = f(x) at a point is given by which quantity?", "options": ["The value of y at that point", "dy/dx at that point", "The x-coordinate of the point", "The area under the curve"], "answer": 1, "explanation": "The slope of the tangent to y = f(x) at any point equals the derivative dy/dx evaluated at that point." },
+      { "q": "Find the slope of the tangent to y = x&sup2; at the point (2, 4).", "options": ["2", "4", "8", "16"], "answer": 1, "explanation": "dy/dx = 2x, so at x = 2 the slope is 2(2) = 4." },
+      { "q": "The slope of the normal to a curve at a point where the tangent slope is m (m &ne; 0) is:", "options": ["m", "&minus;1/m", "1/m", "&minus;m"], "answer": 1, "explanation": "The normal is perpendicular to the tangent, so its slope is the negative reciprocal, &minus;1/m." },
+      { "q": "At which points is the tangent to y = x&sup2; &minus; 4x + 3 parallel to the x-axis?", "options": ["x = 0", "x = 2", "x = 1", "x = 4"], "answer": 1, "explanation": "A horizontal tangent needs dy/dx = 0. Here 2x &minus; 4 = 0 gives x = 2." },
+      { "q": "The equation of the tangent to y = x&sup2; at (1, 1) is:", "options": ["y = 2x &minus; 1", "y = x", "y = 2x + 1", "y = x &minus; 1"], "answer": 0, "explanation": "Slope = 2x = 2 at x = 1. Using y &minus; 1 = 2(x &minus; 1) gives y = 2x &minus; 1." },
+      { "q": "A tangent is vertical (parallel to the y-axis) when:", "options": ["dy/dx = 0", "dy/dx = 1", "dy/dx is undefined (dx/dy = 0)", "y = 0"], "answer": 2, "explanation": "A vertical tangent occurs where the slope dy/dx is undefined, i.e. where dx/dy = 0." },
+      { "q": "The slope of the normal to y = x&sup3; at the point (1, 1) is:", "options": ["3", "&minus;3", "1/3", "&minus;1/3"], "answer": 3, "explanation": "dy/dx = 3x&sup2; = 3 at x = 1, so the tangent slope is 3 and the normal slope is &minus;1/3." },
+      { "q": "The equation of the normal to y = x&sup2; at (1, 1), where the tangent slope is 2, is:", "options": ["x + 2y = 3", "2x + y = 3", "x &minus; 2y = 3", "y = 2x &minus; 1"], "answer": 0, "explanation": "Normal slope = &minus;1/2. Using y &minus; 1 = &minus;&frac12;(x &minus; 1) gives x + 2y = 3." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you find the slope of a tangent in Exercise 6.3?", "a": "Differentiate the curve to get dy/dx, then substitute the point's coordinates. The value of dy/dx at that point is the slope of the tangent there." },
+    { "q": "How is the slope of the normal related to the slope of the tangent?", "a": "The normal is perpendicular to the tangent, so its slope is the negative reciprocal. If the tangent slope is m, the normal slope is &minus;1/m, provided m is not zero." },
+    { "q": "What does a horizontal or vertical tangent mean?", "a": "A tangent is horizontal (parallel to the x-axis) where dy/dx = 0. It is vertical (parallel to the y-axis) where dy/dx is undefined, which is where dx/dy = 0." },
+    { "q": "How do you write the equation of a tangent or a normal line?", "a": "Find the slope at the given point, then use the point-slope form y &minus; y&#8321; = m(x &minus; x&#8321;). Use the tangent slope for the tangent line and the negative-reciprocal slope for the normal line." },
+    { "q": "Where can I get more solved tangent and normal problems for Class 12?", "a": "Our Class 12 Application of Derivatives case-studies e-book has application-based problems on tangents, normals, rates and maxima with full step-by-step solutions. The link is in the box below." }
+  ]
+}
