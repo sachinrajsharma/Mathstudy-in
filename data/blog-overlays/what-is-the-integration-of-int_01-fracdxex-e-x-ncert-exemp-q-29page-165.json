@@ -1,0 +1,29 @@
+{
+  "slug": "what-is-the-integration-of-int_01-fracdxex-e-x-ncert-exemp-q-29page-165",
+  "meta_title": "Integral of 1/(e^x+e^-x) 0 to 1 - NCERT Exemplar Q29",
+  "meta_desc": "Solve the NCERT Exemplar Class 12 integral of dx/(e^x+e^-x) from 0 to 1 with the substitution e^x=t to reach arctan, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Substitution to Arctan Integrals Quiz",
+    "intro": "Eight questions on turning a definite integral into an arctan form by substitution, exactly the method used for this NCERT Exemplar problem. Pick an answer for each, then press Check my score.",
+    "about": "Definite integration by substitution to an arctan form (Class 12)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If you set e<sup>x</sup> = t, what is dt equal to?", "options": ["e<sup>x</sup> dx", "dx", "e<sup>-x</sup> dx", "t<sup>2</sup> dx"], "answer": 0, "explanation": "Differentiating t = e<sup>x</sup> gives dt/dx = e<sup>x</sup>, so dt = e<sup>x</sup> dx. That is why we multiply the integrand by e<sup>x</sup>/e<sup>x</sup>." },
+      { "q": "Multiplying numerator and denominator by e<sup>x</sup>, the integrand dx/(e<sup>x</sup>+e<sup>-x</sup>) becomes:", "options": ["dx/(e<sup>2x</sup>+1)", "e<sup>x</sup> dx/(e<sup>2x</sup>+1)", "e<sup>-x</sup> dx/(e<sup>2x</sup>+1)", "e<sup>x</sup> dx/(e<sup>2x</sup>-1)"], "answer": 1, "explanation": "e<sup>x</sup>(e<sup>x</sup>+e<sup>-x</sup>) = e<sup>2x</sup>+1, so the integrand is e<sup>x</sup> dx/(e<sup>2x</sup>+1) = dt/(1+t<sup>2</sup>) after substitution." },
+      { "q": "As x runs from 0 to 1, the new variable t = e<sup>x</sup> runs from:", "options": ["0 to 1", "0 to e", "1 to e", "1 to e<sup>2</sup>"], "answer": 2, "explanation": "When x = 0, t = e<sup>0</sup> = 1; when x = 1, t = e<sup>1</sup> = e. So the limits change to t: 1 to e." },
+      { "q": "What is the antiderivative of 1/(1+t<sup>2</sup>)?", "options": ["ln(1+t<sup>2</sup>) + C", "1/(1+t<sup>2</sup>) + C", "2t/(1+t<sup>2</sup>) + C", "arctan t + C"], "answer": 3, "explanation": "This is the standard result: the integral of 1/(1+t<sup>2</sup>) is tan<sup>-1</sup> t + C." },
+      { "q": "Putting the pieces together, the value of the integral is:", "options": ["arctan e - &pi;/4", "arctan e + &pi;/4", "&pi;/4 - arctan e", "arctan e - 1"], "answer": 0, "explanation": "Evaluating arctan t from 1 to e gives arctan e - arctan 1 = arctan e - &pi;/4." },
+      { "q": "What is arctan 1 (i.e. tan<sup>-1</sup> 1)?", "options": ["&pi;/2", "&pi;/4", "&pi;/3", "&pi;/6"], "answer": 1, "explanation": "tan(&pi;/4) = 1, so arctan 1 = &pi;/4. This supplies the lower-limit term." },
+      { "q": "The general formula for the integral of 1/(a<sup>2</sup>+x<sup>2</sup>) is:", "options": ["a&middot;arctan(ax) + C", "arctan(x/a) + C", "(1/a) arctan(x/a) + C", "ln(a<sup>2</sup>+x<sup>2</sup>) + C"], "answer": 2, "explanation": "The integral of 1/(a<sup>2</sup>+x<sup>2</sup>) is (1/a) tan<sup>-1</sup>(x/a) + C. Here a = 1, which reduces it to arctan t." },
+      { "q": "The denominator e<sup>x</sup>+e<sup>-x</sup> can also be written as:", "options": ["2 sinh x", "cosh 2x", "e<sup>2x</sup>", "2 cosh x"], "answer": 3, "explanation": "By definition cosh x = (e<sup>x</sup>+e<sup>-x</sup>)/2, so e<sup>x</sup>+e<sup>-x</sup> = 2 cosh x. Recognising this is another route to the same integral." }
+    ]
+  },
+  "faq": [
+    { "q": "Which substitution solves the integral of dx/(e^x+e^-x)?", "a": "Set e<sup>x</sup> = t, so dt = e<sup>x</sup> dx. After multiplying the integrand by e<sup>x</sup>/e<sup>x</sup>, it collapses to dt/(1+t<sup>2</sup>), whose antiderivative is arctan t." },
+    { "q": "What is the final value of the definite integral from 0 to 1?", "a": "The limits become t = 1 to t = e, so the integral equals arctan e - arctan 1, which is arctan e - &pi;/4." },
+    { "q": "Why do the limits change from 0 and 1 to 1 and e?", "a": "The substitution replaces x with t = e<sup>x</sup>. When x = 0, t = 1; when x = 1, t = e. In a definite integral you convert the limits so no back-substitution is needed." },
+    { "q": "Is there a way to solve it without substitution?", "a": "You can recognise e<sup>x</sup>+e<sup>-x</sup> = 2 cosh x and use hyperbolic identities, but the e<sup>x</sup> = t substitution is faster and is the method NCERT Exemplar expects for Class 12." },
+    { "q": "Where can I get the full worked solution and more practice?", "a": "The complete step-by-step solution for this NCERT Exemplar Class 12 problem, along with graded integration practice and answer keys, is available in our Class 12 Maths solutions collection. The link is in the box below." }
+  ]
+}

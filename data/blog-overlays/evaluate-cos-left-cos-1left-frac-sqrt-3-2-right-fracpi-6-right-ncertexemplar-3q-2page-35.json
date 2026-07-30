@@ -1,0 +1,29 @@
+{
+  "slug": "evaluate-cos-left-cos-1left-frac-sqrt-3-2-right-fracpi-6-right-ncertexemplar-3q-2page-35",
+  "meta_title": "Evaluate cos[cos⁻¹(−√3/2)+π/6] | NCERT Exemplar",
+  "meta_desc": "Step-by-step NCERT Exemplar Class 12 solution to evaluate cos[cos⁻¹(−√3/2)+π/6], with cos⁻¹(−√3/2)=5π/6 and answer −1, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Inverse Cosine Principal Values Quiz",
+    "intro": "Eight questions on principal values of cos⁻¹ with negative arguments and on evaluating cos of an inverse-cos-plus-angle expression. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 Inverse Trigonometric Functions — cos⁻¹ principal values",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is cos⁻¹(−√3/2)?", "options": ["5π/6", "2π/3", "7π/6", "π/6"], "answer": 0, "explanation": "cos⁻¹ takes values in [0, π]. Since cos(5π/6) = −√3/2 and 5π/6 lies in that range, cos⁻¹(−√3/2) = 5π/6." },
+      { "q": "What is the principal-value range of cos⁻¹ x?", "options": ["[−π/2, π/2]", "[0, π]", "(0, π)", "[−π, π]"], "answer": 1, "explanation": "The principal value branch of cos⁻¹ is the closed interval [0, π]. That is why cos⁻¹ of a negative number lands in (π/2, π]." },
+      { "q": "Evaluate cos[cos⁻¹(−√3/2) + π/6].", "options": ["−√3/2", "0", "−1", "1"], "answer": 2, "explanation": "cos⁻¹(−√3/2) = 5π/6, so the angle is 5π/6 + π/6 = π. Then cos π = −1." },
+      { "q": "What is cos⁻¹(−1/2)?", "options": ["π/3", "5π/6", "4π/3", "2π/3"], "answer": 3, "explanation": "cos(2π/3) = −1/2 and 2π/3 is in [0, π], so cos⁻¹(−1/2) = 2π/3." },
+      { "q": "What is cos⁻¹(−1)?", "options": ["π", "0", "π/2", "−π"], "answer": 0, "explanation": "cos π = −1 and π is the largest value in the range [0, π], so cos⁻¹(−1) = π." },
+      { "q": "For x in [−1, 1], cos⁻¹(−x) equals which of these?", "options": ["−cos⁻¹ x", "π − cos⁻¹ x", "π + cos⁻¹ x", "cos⁻¹ x"], "answer": 1, "explanation": "The standard identity is cos⁻¹(−x) = π − cos⁻¹ x. For example, cos⁻¹(−√3/2) = π − cos⁻¹(√3/2) = π − π/6 = 5π/6." },
+      { "q": "What is cos⁻¹(−1/√2)?", "options": ["π/4", "5π/4", "3π/4", "7π/4"], "answer": 2, "explanation": "cos(3π/4) = −1/√2 and 3π/4 lies in [0, π], so cos⁻¹(−1/√2) = 3π/4." },
+      { "q": "Evaluate cos[cos⁻¹(−1/2) + π/3].", "options": ["1/2", "0", "√3/2", "−1"], "answer": 3, "explanation": "cos⁻¹(−1/2) = 2π/3, so the angle is 2π/3 + π/3 = π. Then cos π = −1." }
+    ]
+  },
+  "faq": [
+    { "q": "Why is cos⁻¹(−√3/2) equal to 5π/6 and not −π/6 or 7π/6?", "a": "Because the principal value of cos⁻¹ must lie in [0, π]. Both −π/6 and 7π/6 fall outside that interval, so the only valid answer is 5π/6, which is where the cosine equals −√3/2 within the allowed range." },
+    { "q": "How do you evaluate cos[cos⁻¹(−√3/2) + π/6] step by step?", "a": "First find cos⁻¹(−√3/2) = 5π/6. Add the extra angle: 5π/6 + π/6 = 6π/6 = π. Finally take the outer cosine: cos π = −1. So the whole expression equals −1." },
+    { "q": "What is the quick rule for cos⁻¹ of a negative number?", "a": "Use cos⁻¹(−x) = π − cos⁻¹ x. So cos⁻¹(−√3/2) = π − cos⁻¹(√3/2) = π − π/6 = 5π/6. This keeps the answer inside the [0, π] range automatically." },
+    { "q": "Why does cos⁻¹ have range [0, π] instead of the same range as sin⁻¹?", "a": "Cosine is one-to-one and covers every value from 1 down to −1 exactly once on [0, π], so that interval is chosen as its principal branch. sin⁻¹ uses [−π/2, π/2] for the same reason applied to sine." },
+    { "q": "Where can I get full NCERT Exemplar inverse trigonometry solutions?", "a": "Our Class 12 inverse trigonometric functions solutions e-book works through every NCERT Exemplar problem of this type with clean, exam-ready steps and an answer key. The link is in the box below." }
+  ]
+}

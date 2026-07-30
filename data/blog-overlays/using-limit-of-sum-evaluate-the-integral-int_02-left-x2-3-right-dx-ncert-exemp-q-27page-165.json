@@ -1,0 +1,29 @@
+{
+  "slug": "using-limit-of-sum-evaluate-the-integral-int_02-left-x2-3-right-dx-ncert-exemp-q-27page-165",
+  "meta_title": "Limit of a Sum: Evaluate &#8747;&#8320;&#178;(x&#178;+3)dx",
+  "meta_desc": "NCERT Exemplar Class 12 Q27 solved: evaluate the definite integral of x squared plus 3 from 0 to 2 as a limit of a sum, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Definite Integral as a Limit of a Sum Quiz",
+    "intro": "Eight questions on the first-principles definition of the definite integral, using this NCERT Exemplar problem as the anchor. Pick an answer for each, then press Check my score.",
+    "about": "Definite integral as the limit of a sum (Class 12 integration)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "In the limit-of-a-sum definition &#8747;&#8320;&#178; f(x)dx, what is the width h of each subinterval when [0, 2] is split into n equal parts?", "options": ["2/n", "n/2", "1/n", "2n"], "answer": 0, "explanation": "The width is h = (b &#8722; a)/n = (2 &#8722; 0)/n = 2/n. As n &#8594; &#8734;, h &#8594; 0." },
+      { "q": "Using right endpoints on [0, 2] with n parts, what is the sample point x&#7522; for the i-th rectangle?", "options": ["i/n", "2i", "ih only when a &#8800; 0", "2i/n"], "answer": 3, "explanation": "With a = 0, x&#7522; = a + ih = 0 + i(2/n) = 2i/n, for i = 1, 2, ..., n." },
+      { "q": "For f(x) = x&#178; + 3 on [0, 2], the term f(x&#7522;)h equals which expression?", "options": ["(4i&#178;/n&#178; + 3)(1/n)", "(2i/n + 3)(2/n)", "(4i&#178;/n&#178; + 3)(2/n)", "(i&#178;/n&#178; + 3)(2/n)"], "answer": 2, "explanation": "f(x&#7522;) = (2i/n)&#178; + 3 = 4i&#178;/n&#178; + 3, and h = 2/n, so f(x&#7522;)h = (4i&#178;/n&#178; + 3)(2/n)." },
+      { "q": "Which formula for the sum of the first n squares is needed in this problem?", "options": ["n(n+1)/2", "n(n+1)(2n+1)/6", "n&#178;(n+1)&#178;/4", "n(2n+1)/3"], "answer": 1, "explanation": "&#931;i&#178; = 1&#178; + 2&#178; + ... + n&#178; = n(n+1)(2n+1)/6. The sum of the first n natural numbers, n(n+1)/2, is not required here." },
+      { "q": "As n &#8594; &#8734;, the limit of (2n+1)(n+1)/n&#178; equals what value?", "options": ["1", "3", "2", "6"], "answer": 2, "explanation": "Divide out: (2n+1)(n+1)/n&#178; = (2 + 1/n)(1 + 1/n) &#8594; 2 &#215; 1 = 2 as n &#8594; &#8734;." },
+      { "q": "What is the exact value of &#8747;&#8320;&#178; (x&#178; + 3) dx?", "options": ["26/3", "6", "8/3", "22/3"], "answer": 0, "explanation": "The limit of the sum gives 8/3 + 6 = 26/3. Checking by antiderivative: [x&#179;/3 + 3x]&#8320;&#178; = 8/3 + 6 = 26/3." },
+      { "q": "Verifying by the Fundamental Theorem, the term 3x in the antiderivative of x&#178; + 3 contributes how much over [0, 2]?", "options": ["3", "8/3", "12", "6"], "answer": 3, "explanation": "The antiderivative of the constant 3 is 3x, and [3x]&#8320;&#178; = 3(2) &#8722; 3(0) = 6. The x&#178; part contributes 8/3." },
+      { "q": "In the definition &#8747;&#8090;&#7495; f(x)dx = lim h[f(a) + f(a+h) + ... + f(a+(n-1)h)], what does 'nh' equal?", "options": ["n", "b &#8722; a", "a", "b + a"], "answer": 1, "explanation": "Since h = (b &#8722; a)/n, we get nh = b &#8722; a. This keeps the total length of the interval fixed as n grows." }
+    ]
+  },
+  "faq": [
+    { "q": "What does it mean to evaluate an integral 'as a limit of a sum'?", "a": "It means computing the definite integral straight from its first-principles definition rather than using an antiderivative. You split the interval into n equal strips, add the areas of the rectangles, and take the limit as n tends to infinity so the strips become infinitely thin." },
+    { "q": "Why is the sum-of-squares formula needed for this problem?", "a": "Because f(x) = x&#178; + 3 has a squared term, the Riemann sum contains &#931;i&#178;. Replacing it with the closed form n(n+1)(2n+1)/6 turns the sum into an algebraic expression in n that you can take the limit of." },
+    { "q": "What is the final answer to &#8747;&#8320;&#178;(x&#178;+3)dx?", "a": "The value is 26/3. The x&#178; part contributes 8/3 and the constant 3 contributes 6 over the interval [0, 2], giving 8/3 + 6 = 26/3." },
+    { "q": "How can I check the limit-of-a-sum answer quickly?", "a": "Use the Fundamental Theorem of Calculus: the antiderivative of x&#178; + 3 is x&#179;/3 + 3x, and evaluating [x&#179;/3 + 3x] from 0 to 2 gives 8/3 + 6 = 26/3. Matching this value confirms your limit calculation was correct." },
+    { "q": "Where can I get full step-by-step NCERT Exemplar Class 12 integration solutions?", "a": "Our Class 12 Maths solutions e-book works through the NCERT Exemplar integration problems, including every limit-of-a-sum question, with each algebraic step shown and verified. The link is in the box below." }
+  ]
+}
