@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-determinants-excercise-4-3",
+  "meta_title": "NCERT Class 12 Determinants Exercise 4.3 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Determinants Exercise 4.3 solutions on area of a triangle and collinearity, plus a free 8-question quiz to practise.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Area of a Triangle by Determinants Quiz",
+    "intro": "Eight questions on Exercise 4.3 &mdash; the area formula, the collinearity condition and finding an unknown coordinate. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Determinants, Exercise 4.3 (area of a triangle)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "The area of a triangle with vertices (x&#8321;,y&#8321;), (x&#8322;,y&#8322;), (x&#8323;,y&#8323;) equals the absolute value of:", "options": ["One half the determinant with rows (x&#8321;,y&#8321;,1), (x&#8322;,y&#8322;,1), (x&#8323;,y&#8323;,1)", "That determinant taken without halving it", "Half the sum of all the coordinates", "The product of the base and the height"], "answer": 0, "explanation": "Area = &frac12; |&Delta;|, where &Delta; is the determinant whose rows are (x,y,1) for each vertex. The one-half factor is essential." },
+      { "q": "What is the area of the triangle with vertices (2, 0), (&minus;2, 0) and (0, 3)?", "options": ["3 sq units", "9 sq units", "12 sq units", "6 sq units"], "answer": 3, "explanation": "Area = &frac12; |2(0&minus;3) + (&minus;2)(3&minus;0) + 0(0&minus;0)| = &frac12; |&minus;6 &minus; 6| = 6 sq units. The base is 4 and the height is 3." },
+      { "q": "Three points are collinear exactly when the area of the triangle they form is:", "options": ["1 sq unit", "negative", "0", "undefined"], "answer": 2, "explanation": "If the three points lie on one line, no triangle is enclosed, so the determinant &mdash; and hence the area &mdash; is 0. This gives the collinearity test." },
+      { "q": "If the area of the triangle with vertices (k, 0), (4, 0) and (0, 2) is 4 sq units, then k equals:", "options": ["2 or 6", "0 or 8", "&minus;4 or 4", "only 4"], "answer": 1, "explanation": "Area = &frac12; |k(0&minus;2) + 4(2&minus;0) + 0| = &frac12; |&minus;2k + 8| = 4, so |&minus;2k + 8| = 8, giving k = 0 or k = 8." },
+      { "q": "Are the points (3, &minus;2), (8, 8) and (5, 2) collinear?", "options": ["Yes, the area works out to 0", "No, the area is 5 sq units", "No, the area is 10 sq units", "It cannot be decided"], "answer": 0, "explanation": "Area = &frac12; |3(8&minus;2) + 8(2&minus;(&minus;2)) + 5(&minus;2&minus;8)| = &frac12; |18 + 32 &minus; 50| = 0, so the points are collinear." },
+      { "q": "The determinant used for the area can come out negative. What does that mean?", "options": ["The triangle does not exist", "The formula was applied wrongly", "The area is genuinely negative", "Take the absolute value; the sign only reflects the order in which the vertices are listed"], "answer": 3, "explanation": "Area is a magnitude, so we take |&Delta;|. A negative sign only shows whether the vertices were listed clockwise or anticlockwise." },
+      { "q": "For what value of x are the points (x, &minus;1), (2, 1) and (4, 5) collinear?", "options": ["0", "1", "2", "&minus;1"], "answer": 1, "explanation": "Set the area to 0: &frac12; |x(1&minus;5) + 2(5&minus;(&minus;1)) + 4(&minus;1&minus;1)| = &frac12; |&minus;4x + 12 &minus; 8| = 0, so &minus;4x + 4 = 0 and x = 1." },
+      { "q": "What is the area of the triangle with vertices (1, 0), (6, 0) and (4, 3)?", "options": ["9/2 sq units", "21/2 sq units", "15/2 sq units", "12 sq units"], "answer": 2, "explanation": "Area = &frac12; |1(0&minus;3) + 6(3&minus;0) + 4(0&minus;0)| = &frac12; |&minus;3 + 18| = 15/2 sq units." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 4.3 of NCERT Class 12 Determinants cover?", "a": "It applies determinants to coordinate geometry: finding the area of a triangle from its three vertices, using the area formula, and the collinearity test where the area comes out to zero." },
+    { "q": "What is the determinant formula for the area of a triangle?", "a": "For vertices (x&#8321;,y&#8321;), (x&#8322;,y&#8322;), (x&#8323;,y&#8323;), the area is one half the absolute value of the determinant whose rows are (x&#8321;,y&#8321;,1), (x&#8322;,y&#8322;,1) and (x&#8323;,y&#8323;,1). The half factor and the absolute value both matter." },
+    { "q": "How do I check whether three points are collinear using determinants?", "a": "Plug the three points into the area determinant. If the value is 0, the triangle has no area, so the points lie on a single straight line. Setting the determinant to zero also lets you solve for an unknown coordinate." },
+    { "q": "Why is the area written with an absolute value?", "a": "Area cannot be negative. The raw determinant may be positive or negative depending on whether the vertices are listed clockwise or anticlockwise, so we take its magnitude to get the actual area." },
+    { "q": "Where can I get fully solved Class 12 determinants questions to practise more?", "a": "Our Class 12 CBSE fully solved workbook works through determinants and every other chapter step by step, with clean solutions you can follow and revise from &mdash; the link is in the box below." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-ncert-determinants-excercise-4-1",
+  "meta_title": "NCERT Class 12 Determinants Ex 4.1 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths determinants Exercise 4.1 solutions on evaluating 2x2 and 3x3 determinants, with a free 8-question quiz to practise.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "work-book-class-xii-c-b-s-e-fully-solved",
+  "quiz": {
+    "title": "Determinants Exercise 4.1 Quiz",
+    "intro": "Eight questions on evaluating 2x2 and 3x3 determinants and finding x from a determinant equation. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Chapter 4 Determinants, Exercise 4.1",
+    "level": "Class 12",
+    "questions": [
+      { "q": "Evaluate the determinant of the matrix with rows (2, 4) and (&minus;5, &minus;1).", "options": ["&minus;22", "18", "22", "&minus;18"], "answer": 1, "explanation": "For a 2x2 determinant, cross-multiply: (2)(&minus;1) &minus; (4)(&minus;5) = &minus;2 + 20 = 18." },
+      { "q": "What is the value of the determinant with rows (cos&theta;, &minus;sin&theta;) and (sin&theta;, cos&theta;)?", "options": ["0", "sin2&theta;", "1", "cos2&theta;"], "answer": 2, "explanation": "Expand: (cos&theta;)(cos&theta;) &minus; (&minus;sin&theta;)(sin&theta;) = cos&sup2;&theta; + sin&sup2;&theta; = 1." },
+      { "q": "Evaluate the 3x3 determinant with rows (1, 2, 3), (4, 5, 6) and (7, 8, 9).", "options": ["0", "3", "&minus;3", "6"], "answer": 0, "explanation": "Expand along row 1: 1(45&minus;48) &minus; 2(36&minus;42) + 3(32&minus;35) = &minus;3 + 12 &minus; 9 = 0. The rows are in arithmetic progression, so the value is 0." },
+      { "q": "If the determinant of rows (x, 2), (18, x) equals the determinant of rows (6, 2), (18, 6), find x.", "options": ["6 only", "&plusmn;6", "&minus;6 only", "&plusmn;9"], "answer": 1, "explanation": "Left side: x&sup2; &minus; 36. Right side: 36 &minus; 36 = 0. So x&sup2; &minus; 36 = 0, giving x = &plusmn;6." },
+      { "q": "Evaluate the diagonal determinant with rows (2, 0, 0), (0, 3, 0) and (0, 0, 4).", "options": ["9", "0", "24", "14"], "answer": 2, "explanation": "For a diagonal matrix the determinant is the product of the diagonal entries: 2 &times; 3 &times; 4 = 24." },
+      { "q": "What is the value of the determinant with two identical rows (a, b) and (a, b)?", "options": ["ab", "a + b", "2ab", "0"], "answer": 3, "explanation": "A determinant with two identical rows is always 0: (a)(b) &minus; (b)(a) = 0." },
+      { "q": "Evaluate the determinant of the matrix with rows (3, &minus;2) and (1, 4).", "options": ["10", "&minus;14", "2", "14"], "answer": 3, "explanation": "Cross-multiply: (3)(4) &minus; (&minus;2)(1) = 12 + 2 = 14." },
+      { "q": "If the determinant of rows (2, 3), (4, x) is 0, find x.", "options": ["6", "3", "&minus;6", "2"], "answer": 0, "explanation": "Expand: (2)(x) &minus; (3)(4) = 2x &minus; 12. Set equal to 0: 2x = 12, so x = 6." }
+    ]
+  },
+  "faq": [
+    { "q": "How do you evaluate a 2x2 determinant?", "a": "For a matrix with rows (a, b) and (c, d), the determinant is ad &minus; bc. Multiply the main diagonal, then subtract the product of the other diagonal. Exercise 4.1 uses this repeatedly." },
+    { "q": "How do you expand a 3x3 determinant?", "a": "Pick a row or column and expand using cofactors. For row 1 the value is a11 times its 2x2 minor, minus a12 times its minor, plus a13 times its minor &mdash; keeping the + &minus; + sign pattern. Choosing a row or column with zeros makes the work shorter." },
+    { "q": "How do you find the value of x in a determinant equation?", "a": "Expand the determinant into an algebraic expression, set it equal to the given value, and solve the resulting equation. Many Exercise 4.1 problems lead to x&sup2; = k, so remember both the positive and negative roots." },
+    { "q": "Why is a determinant with two equal rows always zero?", "a": "When two rows (or columns) are identical, the diagonal products cancel exactly. This is a standard property of determinants and a quick way to spot a zero value without full expansion." },
+    { "q": "Where can I get fully solved Class 12 determinants practice?", "a": "Our fully solved CBSE Class 12 workbook works through determinants and every other chapter step by step, with complete solutions you can check your method against. The download link is in the box below." }
+  ]
+}

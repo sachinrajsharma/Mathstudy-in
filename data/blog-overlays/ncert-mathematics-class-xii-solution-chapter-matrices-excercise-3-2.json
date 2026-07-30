@@ -1,0 +1,85 @@
+{
+  "slug": "ncert-mathematics-class-xii-solution-chapter-matrices-excercise-3-2",
+  "meta_title": "NCERT Class 12 Maths Matrices Ex 3.2 Solutions",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Matrices Exercise 3.2 solutions on addition, scalar and matrix multiplication, plus a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-matrices-chapter-practice-tests",
+  "quiz": {
+    "title": "Matrices Exercise 3.2 Quiz",
+    "intro": "Eight questions on the operations from Exercise 3.2 &mdash; addition, scalar multiplication, matrix products, order of a product and simple matrix equations. Choose an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Matrices Exercise 3.2 (operations on matrices)",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 5]], what is A + B?",
+        "options": ["[[2, 2], [4, 9]]", "[[3, 2], [3, 9]]", "[[3, 2], [4, 9]]", "[[3, 0], [4, 20]]"],
+        "answer": 2,
+        "explanation": "Add matrices entry by entry: 1+2=3, 2+0=2, 3+1=4, 4+5=9, giving [[3, 2], [4, 9]]."
+      },
+      {
+        "q": "What is 3 times the matrix [[1, -2], [0, 4]]?",
+        "options": ["[[3, -6], [0, 12]]", "[[3, -2], [0, 4]]", "[[3, -6], [3, 12]]", "[[4, 1], [3, 7]]"],
+        "answer": 0,
+        "explanation": "Scalar multiplication multiplies every entry by 3: 3, -6, 0 and 12."
+      },
+      {
+        "q": "If A has order 2 x 3 and B has order 3 x 4, what is the order of the product AB?",
+        "options": ["3 x 3", "2 x 4", "4 x 2", "AB is not defined"],
+        "answer": 1,
+        "explanation": "AB is defined because the columns of A (3) equal the rows of B (3). The product keeps the outer dimensions: 2 x 4."
+      },
+      {
+        "q": "For two matrices A and B where both AB and BA are defined and square, which statement is true in general?",
+        "options": ["AB is always equal to BA", "AB and BA are never defined together", "AB always equals the zero matrix", "AB need not equal BA"],
+        "answer": 3,
+        "explanation": "Matrix multiplication is not commutative. Even when both products exist and have the same order, AB and BA are usually different."
+      },
+      {
+        "q": "What is the product [[1, 2]] x [[3], [4]]?",
+        "options": ["[7]", "[11]", "[[3, 8]]", "[10]"],
+        "answer": 1,
+        "explanation": "A 1 x 2 matrix times a 2 x 1 matrix gives a 1 x 1 result: 1(3) + 2(4) = 3 + 8 = 11."
+      },
+      {
+        "q": "If 2X = [[4, 6], [8, 2]], what is the matrix X?",
+        "options": ["[[2, 3], [4, 1]]", "[[8, 12], [16, 4]]", "[[2, 6], [8, 1]]", "[[4, 6], [8, 2]]"],
+        "answer": 0,
+        "explanation": "Divide every entry by 2 (multiply by the scalar 1/2): X = [[2, 3], [4, 1]]."
+      },
+      {
+        "q": "If I is the 2 x 2 identity matrix and B is any 2 x 2 matrix, what is IB?",
+        "options": ["The zero matrix", "The identity matrix I", "B", "2B"],
+        "answer": 2,
+        "explanation": "The identity matrix leaves any matrix unchanged under multiplication, so IB = B (and BI = B as well)."
+      },
+      {
+        "q": "What is the product [[2, 1], [3, 4]] x [[1, 0], [2, 1]]?",
+        "options": ["[[2, 1], [6, 4]]", "[[3, 1], [7, 4]]", "[[4, 1], [10, 4]]", "[[4, 1], [11, 4]]"],
+        "answer": 3,
+        "explanation": "Row-by-column: top row 2(1)+1(2)=4, 2(0)+1(1)=1; bottom row 3(1)+4(2)=11, 3(0)+4(1)=4, giving [[4, 1], [11, 4]]."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When can two matrices be added in Exercise 3.2?",
+      "a": "Only matrices of the same order can be added. You add corresponding entries, so a 2 x 3 matrix can be added to another 2 x 3 matrix but not to a 3 x 2 one."
+    },
+    {
+      "q": "When is the product AB defined, and what is its order?",
+      "a": "AB is defined only when the number of columns of A equals the number of rows of B. If A is m x n and B is n x p, then AB has order m x p."
+    },
+    {
+      "q": "Why is AB usually not equal to BA?",
+      "a": "Matrix multiplication is not commutative. Swapping the order changes which rows meet which columns, so AB and BA generally differ &mdash; and sometimes only one of them is even defined."
+    },
+    {
+      "q": "How do I solve a matrix equation like 2X = A?",
+      "a": "Treat the scalar like a number: multiply both sides by 1/2, which means dividing every entry of A by 2. For equations such as A + X = B, subtract A entry by entry to get X = B - A."
+    },
+    {
+      "q": "Where can I get more practice on Matrices Exercise 3.2?",
+      "a": "Our Class 12 Matrices chapter practice-test e-book has graded papers on addition, scalar multiplication and matrix products, each with full solutions. The download link is in the box below."
+    }
+  ]
+}
