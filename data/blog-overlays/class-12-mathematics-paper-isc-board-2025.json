@@ -1,0 +1,84 @@
+{
+  "slug": "class-12-mathematics-paper-isc-board-2025",
+  "meta_title": "ISC Class 12 Maths 2025 Paper + Free Quiz",
+  "meta_desc": "Work the ISC Class 12 Maths 2025 paper with worked solutions, then test yourself on calculus, probability, vectors and 3D with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "ISC Class 12 Maths 2025 Quiz",
+    "intro": "Eight questions pitched at ISC Class 12 level, covering calculus, probability, vectors and 3D geometry, matrices and determinants, and linear regression. Choose an answer for each, then press Check my score.",
+    "about": "ISC Class 12 Mathematics",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The derivative of tan&#8315;&#185;(x) with respect to x is:",
+        "options": ["1/(1 + x&#178;)", "&#8722;1/(1 + x&#178;)", "1/&#8730;(1 &#8722; x&#178;)", "1/(1 &#8722; x&#178;)"],
+        "answer": 0,
+        "explanation": "The standard result is d/dx[tan&#8315;&#185;x] = 1/(1 + x&#178;). The negative version belongs to cot&#8315;&#185;x, and the surd form belongs to sin&#8315;&#185;x."
+      },
+      {
+        "q": "&#8747; from 0 to 1 of 2x dx equals:",
+        "options": ["0", "1", "2", "1/2"],
+        "answer": 1,
+        "explanation": "The antiderivative of 2x is x&#178;. Evaluating x&#178; from 0 to 1 gives 1&#178; &#8722; 0&#178; = 1."
+      },
+      {
+        "q": "For a 3&#215;3 matrix A with det(A) = 4, the value of det(2A) is:",
+        "options": ["8", "16", "24", "32"],
+        "answer": 3,
+        "explanation": "For an n&#215;n matrix, det(kA) = k&#8319; det(A). Here det(2A) = 2&#179; &#215; 4 = 8 &#215; 4 = 32."
+      },
+      {
+        "q": "Two dice are rolled. The probability that the sum is 7 is:",
+        "options": ["1/12", "1/9", "1/6", "5/36"],
+        "answer": 2,
+        "explanation": "There are 6 favourable outcomes for a sum of 7 (1-6, 2-5, 3-4, 4-3, 5-2, 6-1) out of 36 total, giving 6/36 = 1/6."
+      },
+      {
+        "q": "If vectors a = i + 2j + 3k and b = 2i &#8722; j + k, then a &#183; b equals:",
+        "options": ["3", "5", "7", "2"],
+        "answer": 0,
+        "explanation": "The dot product is (1)(2) + (2)(&#8722;1) + (3)(1) = 2 &#8722; 2 + 3 = 3."
+      },
+      {
+        "q": "The general solution of the differential equation dy/dx = y is:",
+        "options": ["y = Cx", "y = Ce&#739;", "y = x + C", "y = C/x"],
+        "answer": 1,
+        "explanation": "Separating variables gives dy/y = dx, so ln|y| = x + c, hence y = Ce&#739;. This is a first-order variables-separable equation from the ISC calculus unit."
+      },
+      {
+        "q": "In a regression study, if the two regression coefficients are b&#7527;&#8339; = 0.8 and b&#8339;&#7527; = 0.5, the correlation coefficient r is:",
+        "options": ["0.4", "0.632", "0.65", "1.3"],
+        "answer": 1,
+        "explanation": "r&#178; = b&#7527;&#8339; &#215; b&#8339;&#7527; = 0.8 &#215; 0.5 = 0.4, so r = &#8730;0.4 &#8776; 0.632. The sign matches the coefficients (both positive)."
+      },
+      {
+        "q": "The distance of the point (1, 2, 2) from the origin is:",
+        "options": ["5", "4", "3", "&#8730;5"],
+        "answer": 2,
+        "explanation": "Distance = &#8730;(1&#178; + 2&#178; + 2&#178;) = &#8730;(1 + 4 + 4) = &#8730;9 = 3, using the 3D distance formula from the coordinate geometry unit."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Which units carry the most marks in the ISC Class 12 Maths paper?",
+      "a": "Calculus is the heaviest block by far, covering differentiation, integration, differential equations and applications. Probability, vectors and three-dimensional geometry together form the next large chunk, with matrices, determinants and linear regression rounding out the rest."
+    },
+    {
+      "q": "Is the ISC Class 12 Maths paper harder than CBSE?",
+      "a": "ISC questions tend to be more application-heavy and expect longer, fully justified working, especially in calculus and probability. The syllabus also includes topics like conics and linear regression that CBSE handles differently, so practising with ISC-specific papers matters."
+    },
+    {
+      "q": "How should I approach the calculus section?",
+      "a": "Master the standard derivative and integral results first, then drill substitution, integration by parts and partial fractions. For differential equations, learn to spot variables-separable, homogeneous and linear forms quickly, since identifying the type is half the work."
+    },
+    {
+      "q": "What is a common mistake in the probability and statistics questions?",
+      "a": "Students often mix up the two regression coefficients or forget that the correlation coefficient takes the sign of the regression coefficients. In probability, missing a favourable outcome when listing cases is the usual slip, so count carefully."
+    },
+    {
+      "q": "Where can I get the full solved ISC Class 12 Mathematics 2025 paper?",
+      "a": "The complete solved paper on this page walks through every question with step-by-step working. For extra graded practice with answer keys across all ISC units, the linked solutions e-book is available in the box below."
+    }
+  ]
+}

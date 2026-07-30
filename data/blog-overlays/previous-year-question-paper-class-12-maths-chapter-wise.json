@@ -1,0 +1,85 @@
+{
+  "slug": "previous-year-question-paper-class-12-maths-chapter-wise",
+  "meta_title": "PYQ Class 12 Maths Chapter-wise + Free Quiz",
+  "meta_desc": "Solve chapter-wise previous year question papers for Class 12 Maths across calculus, matrices, vectors, probability and LPP, with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "chapter-wise-test-papers-for-class-12-maths",
+  "quiz": {
+    "title": "Class 12 Maths PYQ Quiz",
+    "intro": "Eight board-level questions drawn from the chapters that show up most in Class 12 papers: calculus, matrices and determinants, vectors and 3D, probability and LPP. Pick an answer for each, then press Check my score.",
+    "about": "Class 12 Maths previous year questions, chapter-wise",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "What is the value of &int; 2x&nbsp;e<sup>x&sup2;</sup> dx?",
+        "options": ["e<sup>x&sup2;</sup> + C", "2e<sup>x&sup2;</sup> + C", "x&sup2;e<sup>x&sup2;</sup> + C", "e<sup>x</sup> + C"],
+        "answer": 0,
+        "explanation": "Put t = x&sup2;, so dt = 2x&nbsp;dx. The integral becomes &int; e<sup>t</sup> dt = e<sup>t</sup> + C = e<sup>x&sup2;</sup> + C."
+      },
+      {
+        "q": "If A is a 3&times;3 matrix with |A| = 4, what is |2A|?",
+        "options": ["16", "32", "8", "64"],
+        "answer": 1,
+        "explanation": "For an n&times;n matrix, |kA| = k<sup>n</sup>|A|. Here |2A| = 2&sup3; &times; 4 = 8 &times; 4 = 32."
+      },
+      {
+        "q": "The derivative of sin<sup>-1</sup>(x) with respect to x is:",
+        "options": ["1/(1 + x&sup2;)", "-1/&radic;(1 - x&sup2;)", "1/&radic;(1 - x&sup2;)", "1/&radic;(x&sup2; - 1)"],
+        "answer": 2,
+        "explanation": "This is a standard result: d/dx [sin<sup>-1</sup> x] = 1/&radic;(1 - x&sup2;) for -1 &lt; x &lt; 1."
+      },
+      {
+        "q": "The angle between two vectors a and b with a&middot;b = 0 and both non-zero is:",
+        "options": ["0&deg;", "45&deg;", "180&deg;", "90&deg;"],
+        "answer": 3,
+        "explanation": "a&middot;b = |a||b|cos&theta;. Since the magnitudes are non-zero, cos&theta; = 0, so &theta; = 90&deg; &mdash; the vectors are perpendicular."
+      },
+      {
+        "q": "A die is thrown once. What is the probability of getting a prime number?",
+        "options": ["1/2", "1/6", "1/3", "2/3"],
+        "answer": 0,
+        "explanation": "The primes on a die are 2, 3 and 5 &mdash; three outcomes out of six. So the probability is 3/6 = 1/2."
+      },
+      {
+        "q": "The general solution of the differential equation dy/dx = y is:",
+        "options": ["y = Cx", "y = Ce<sup>x</sup>", "y = x + C", "y = e<sup>x</sup> + C"],
+        "answer": 1,
+        "explanation": "Separate variables: dy/y = dx. Integrating gives ln|y| = x + C, so y = Ce<sup>x</sup>."
+      },
+      {
+        "q": "In a linear programming problem, the optimal value of the objective function, if it exists, occurs at:",
+        "options": ["The centre of the feasible region", "Any interior point", "A corner (vertex) of the feasible region", "A point outside the feasible region"],
+        "answer": 2,
+        "explanation": "By the corner point theorem, the maximum or minimum of a linear objective function over a feasible region occurs at one of its vertices."
+      },
+      {
+        "q": "The value of the determinant of a 2&times;2 matrix [[3, 1], [2, 4]] is:",
+        "options": ["14", "12", "5", "10"],
+        "answer": 3,
+        "explanation": "For [[a, b], [c, d]] the determinant is ad - bc = (3)(4) - (1)(2) = 12 - 2 = 10."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Which Class 12 Maths chapters carry the most weight in board papers?",
+      "a": "Calculus &mdash; continuity, differentiation, integrals and their applications &mdash; is the single largest block, worth roughly a third of the paper. Matrices and determinants, vectors and 3D geometry, probability and linear programming together make up most of the rest, so chapter-wise practice on these five areas covers the bulk of the marks."
+    },
+    {
+      "q": "How should I use previous year question papers chapter-wise?",
+      "a": "Finish a chapter, then solve only that chapter's past questions before moving on. It shows you exactly how the board frames questions on that topic and which sub-parts repeat year after year, so you spot patterns instead of drowning in a full mixed paper too early."
+    },
+    {
+      "q": "Are chapter-wise PYQs enough, or should I also solve full papers?",
+      "a": "Do both, in that order. Chapter-wise questions build topic confidence and expose your weak spots; full-length papers then train time management and the habit of switching between chapters under pressure. Aim to move to whole papers in the last four to six weeks before the exam."
+    },
+    {
+      "q": "How many years of previous papers should I practise?",
+      "a": "The last five to seven years is a sensible target. Older than that and the syllabus and paper pattern start to drift, so very old questions can waste time on topics that have changed or been dropped."
+    },
+    {
+      "q": "Where can I get chapter-wise test papers for Class 12 Maths with solutions?",
+      "a": "Our chapter-wise test papers e-book for Class 12 Maths bundles graded questions for every chapter &mdash; calculus, matrices, vectors, probability, LPP and more &mdash; each with a full worked solution, as an instant PDF you can print. The link is in the box below."
+    }
+  ]
+}

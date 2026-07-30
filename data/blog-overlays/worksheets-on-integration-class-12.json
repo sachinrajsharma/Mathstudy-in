@@ -1,0 +1,29 @@
+{
+  "slug": "worksheets-on-integration-class-12",
+  "meta_title": "Worksheets on Integration Class 12 + Free Quiz",
+  "meta_desc": "Practise Class 12 integration worksheets on standard forms, substitution, by parts, partial fractions and definite integrals, with a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "quiz": {
+    "title": "Class 12 Integration Quiz",
+    "intro": "Eight questions across the Class 12 integration toolkit &mdash; standard forms, substitution, by parts, partial fractions and definite integrals. Answer each, then press Check my score.",
+    "about": "Class 12 integration (indefinite and definite integrals)",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is &int; x<sup>5</sup> dx?", "options": ["x<sup>6</sup>/6 + C", "6x<sup>6</sup> + C", "x<sup>4</sup>/4 + C", "5x<sup>4</sup> + C"], "answer": 0, "explanation": "Use the power rule &int; x<sup>n</sup> dx = x<sup>n+1</sup>/(n+1) + C with n = 5, giving x<sup>6</sup>/6 + C." },
+      { "q": "What is &int; (1/x) dx for x &gt; 0?", "options": ["1/x<sup>2</sup> + C", "x + C", "ln|x| + C", "&minus;1/x<sup>2</sup> + C"], "answer": 2, "explanation": "The power rule fails at n = &minus;1. This is the special standard form &int; (1/x) dx = ln|x| + C." },
+      { "q": "Using the substitution u = x<sup>2</sup>, what is &int; 2x cos(x<sup>2</sup>) dx?", "options": ["cos(x<sup>2</sup>) + C", "sin(x<sup>2</sup>) + C", "2 sin(x<sup>2</sup>) + C", "x<sup>2</sup> sin(x<sup>2</sup>) + C"], "answer": 1, "explanation": "With u = x<sup>2</sup>, du = 2x dx, so the integral becomes &int; cos u du = sin u + C = sin(x<sup>2</sup>) + C." },
+      { "q": "Integrate by parts: &int; x e<sup>x</sup> dx = ?", "options": ["e<sup>x</sup> + C", "x e<sup>x</sup> + C", "(x + 1) e<sup>x</sup> + C", "(x &minus; 1) e<sup>x</sup> + C"], "answer": 3, "explanation": "Take u = x, dv = e<sup>x</sup> dx. Then &int; x e<sup>x</sup> dx = x e<sup>x</sup> &minus; &int; e<sup>x</sup> dx = x e<sup>x</sup> &minus; e<sup>x</sup> + C = (x &minus; 1) e<sup>x</sup> + C." },
+      { "q": "In the partial-fraction split 1/[(x &minus; 1)(x + 2)] = A/(x &minus; 1) + B/(x + 2), what is A?", "options": ["1", "1/3", "&minus;1/3", "3"], "answer": 1, "explanation": "Multiply through and set x = 1: 1 = A(1 + 2), so A = 1/3. (Setting x = &minus;2 gives B = &minus;1/3.)" },
+      { "q": "Evaluate the definite integral &int;<sub>0</sub><sup>1</sup> x<sup>2</sup> dx.", "options": ["1", "1/2", "1/3", "1/4"], "answer": 2, "explanation": "The antiderivative is x<sup>3</sup>/3. Evaluating from 0 to 1 gives 1/3 &minus; 0 = 1/3." },
+      { "q": "Using the property for odd functions, what is &int;<sub>&minus;2</sub><sup>2</sup> x<sup>3</sup> dx?", "options": ["8", "4", "16", "0"], "answer": 3, "explanation": "x<sup>3</sup> is odd, and &int;<sub>&minus;a</sub><sup>a</sup> f(x) dx = 0 when f is odd, so the integral is 0." },
+      { "q": "What is &int; sec<sup>2</sup> x dx?", "options": ["tan x + C", "sec x + C", "cot x + C", "&minus;tan x + C"], "answer": 0, "explanation": "Since d/dx (tan x) = sec<sup>2</sup> x, the standard form gives &int; sec<sup>2</sup> x dx = tan x + C." }
+    ]
+  },
+  "faq": [
+    { "q": "What topics does Class 12 integration cover?", "a": "The CBSE Class 12 chapter covers integration as the reverse of differentiation, standard forms, integration by substitution, by parts, using partial fractions, definite integrals as limits of a sum, the fundamental theorem of calculus and the properties of definite integrals." },
+    { "q": "When should I use integration by parts instead of substitution?", "a": "Substitution works when part of the integrand is the derivative of another part, such as 2x cos(x squared). Integration by parts suits a product of two unlike functions, like x times e to the x, where the ILATE rule helps you choose which factor to differentiate." },
+    { "q": "How do partial fractions help with integration?", "a": "A proper rational function with a factorable denominator can be split into simpler fractions like A/(x minus 1) + B/(x + 2). Each piece integrates to a logarithm or a standard form, which is far easier than integrating the original fraction directly." },
+    { "q": "Which properties of definite integrals are most useful in exams?", "a": "The most used are that the integral of an odd function over a symmetric interval is zero, the even-function doubling rule, the king property that replaces x with a plus b minus x, and splitting the interval at a convenient point. These often turn a hard integral into a quick one." },
+    { "q": "Where can I get Class 12 integration worksheets with solutions?", "a": "Our Class 12 integration worksheet e-book has graded practice across every method &mdash; standard forms, substitution, by parts, partial fractions and definite integrals &mdash; each with fully worked solutions in an instant printable PDF. The link is in the box below." }
+  ]
+}

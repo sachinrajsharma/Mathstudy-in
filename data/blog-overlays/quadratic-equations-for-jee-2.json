@@ -1,0 +1,30 @@
+{
+  "slug": "quadratic-equations-for-jee-2",
+  "meta_title": "Quadratic Equations for JEE + Free Quiz",
+  "meta_desc": "Master JEE quadratics: discriminant, nature of roots, sum and product, common roots, range and location of roots, with a free 8-question quiz to test yourself.",
+  "category": "JEE",
+  "cta_product_slug": "jee-dpp-trigonometric-functions-equations",
+  "quiz": {
+    "title": "Quadratic Equations for JEE Quiz",
+    "intro": "Eight JEE-level questions on discriminant, nature and location of roots, common roots and inequalities. Pick an answer for each, then press Check my score.",
+    "about": "JEE Main and Advanced quadratic equations",
+    "level": "JEE",
+    "questions": [
+      { "q": "For what values of k does x&sup2; &minus; 4x + k = 0 have real and distinct roots?", "options": ["k &gt; 4", "k &lt; 4", "k = 4", "k &ge; 4"], "answer": 1, "explanation": "Distinct real roots need discriminant D &gt; 0. Here D = 16 &minus; 4k &gt; 0, so k &lt; 4." },
+      { "q": "If &alpha; and &beta; are the roots of 2x&sup2; &minus; 5x + 3 = 0, what is &alpha; + &beta;?", "options": ["3/2", "5/2", "&minus;5/2", "2/5"], "answer": 1, "explanation": "For ax&sup2; + bx + c = 0, the sum of roots is &minus;b/a = 5/2 and the product is c/a = 3/2." },
+      { "q": "The equation x&sup2; + px + 12 = 0 has equal roots. What is the value of p (p &gt; 0)?", "options": ["6", "4&radic;3", "2&radic;3", "12"], "answer": 1, "explanation": "Equal roots mean D = 0, so p&sup2; = 4&middot;12 = 48, giving p = 4&radic;3 for the positive value." },
+      { "q": "If x&sup2; &minus; 3x + 2 = 0 and x&sup2; &minus; 5x + 6 = 0 have a common root, that root is:", "options": ["1", "2", "3", "6"], "answer": 1, "explanation": "Subtract the equations: (&minus;3x + 2) &minus; (&minus;5x + 6) = 2x &minus; 4 = 0, so x = 2, which satisfies both." },
+      { "q": "For all real x, x&sup2; + 2x + k &gt; 0. What is the condition on k?", "options": ["k &gt; 1", "k &lt; 1", "k = 1", "k &ge; 1"], "answer": 0, "explanation": "A quadratic with positive leading coefficient is always positive when D &lt; 0. Here D = 4 &minus; 4k &lt; 0, so k &gt; 1." },
+      { "q": "Both roots of x&sup2; &minus; 2mx + (m&sup2; &minus; 1) = 0 lie between &minus;2 and 4. This uses which conditions on f(x)?", "options": ["Only D &ge; 0", "f(&minus;2) &gt; 0, f(4) &gt; 0, D &ge; 0 and &minus;2 &lt; vertex &lt; 4", "Only f(&minus;2) &lt; 0", "Only that the product of roots is positive"], "answer": 1, "explanation": "Location-of-roots for both roots inside (p, q): D &ge; 0, a&middot;f(p) &gt; 0, a&middot;f(q) &gt; 0, and p &lt; &minus;b/2a &lt; q." },
+      { "q": "If &alpha; and &beta; are roots of x&sup2; &minus; 6x + 4 = 0, what is &alpha;&sup2; + &beta;&sup2;?", "options": ["28", "32", "36", "20"], "answer": 0, "explanation": "&alpha;&sup2; + &beta;&sup2; = (&alpha; + &beta;)&sup2; &minus; 2&alpha;&beta; = 36 &minus; 2&middot;4 = 28." },
+      { "q": "The set of values of x satisfying x&sup2; &minus; 5x + 6 &lt; 0 is:", "options": ["x &lt; 2 or x &gt; 3", "2 &lt; x &lt; 3", "x &le; 2", "x &gt; 3"], "answer": 1, "explanation": "Factor as (x &minus; 2)(x &minus; 3) &lt; 0. An upward parabola is negative between its roots, so 2 &lt; x &lt; 3." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the discriminant tell you about a quadratic's roots?", "a": "For ax&sup2; + bx + c = 0, the discriminant D = b&sup2; &minus; 4ac decides everything. D &gt; 0 gives two distinct real roots, D = 0 gives equal (repeated) real roots, and D &lt; 0 gives a pair of complex conjugate roots." },
+    { "q": "How do you find a common root of two quadratic equations?", "a": "Subtract the two equations to eliminate the x&sup2; term; that gives a linear equation whose solution is the common root. Substitute it back to confirm, or use the cross-multiplication condition for both quadratics." },
+    { "q": "What is the condition for a quadratic to be positive for all real x?", "a": "For ax&sup2; + bx + c to be positive for every real x you need a &gt; 0 and D &lt; 0, so the parabola opens upward and never touches the x-axis. If it must be non-negative, allow D &le; 0." },
+    { "q": "What is the location-of-roots method in JEE quadratics?", "a": "It places roots relative to a number or interval using the graph of f(x) = ax&sup2; + bx + c. You combine the sign of D, the sign of a&middot;f at the boundary points, and the position of the vertex &minus;b/2a to pin down where the roots lie." },
+    { "q": "Where can I get JEE practice problems on quadratics and related topics?", "a": "Our JEE Daily Practice Problems e-book covers trigonometric functions and equations with fully worked solutions and the same discriminant, roots and inequality techniques used here &mdash; an instant PDF you can revise from anytime. The link is in the box below." }
+  ]
+}
