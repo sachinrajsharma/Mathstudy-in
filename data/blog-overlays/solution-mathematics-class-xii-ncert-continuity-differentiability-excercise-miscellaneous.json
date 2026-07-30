@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-miscellaneous",
+  "meta_title": "Class 12 Continuity & Differentiability Misc Solutions",
+  "meta_desc": "NCERT Class 12 Continuity & Differentiability Miscellaneous Exercise solutions with chain, implicit, log & parametric derivatives, plus a free quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Class 12 Continuity & Differentiability Quiz",
+    "intro": "Eight mixed differentiation questions from the Miscellaneous Exercise &mdash; chain rule, implicit, logarithmic, parametric and second-order. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Continuity & Differentiability, Miscellaneous Exercise",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the derivative of sin(x&sup2;) with respect to x?", "options": ["2x cos(x&sup2;)", "cos(x&sup2;)", "2x sin(x&sup2;)", "&minus;2x cos(x&sup2;)"], "answer": 0, "explanation": "Chain rule: differentiate the outer sine to get cos(x&sup2;), then multiply by the derivative of the inner x&sup2;, which is 2x. So the answer is 2x cos(x&sup2;)." },
+      { "q": "If x&sup2; + y&sup2; = 25, what is dy/dx?", "options": ["x/y", "&minus;x/y", "y/x", "&minus;y/x"], "answer": 1, "explanation": "Differentiate implicitly: 2x + 2y(dy/dx) = 0. Solving gives dy/dx = &minus;x/y." },
+      { "q": "The derivative of x&#8319; (x raised to x) is:", "options": ["x&middot;x&#8319;&#8315;&#185;", "x&#8319; ln x", "x&#8319;(1 + ln x)", "x&#8319;(1 &minus; ln x)"], "answer": 2, "explanation": "Take logs: ln y = x ln x. Differentiate: (1/y)(dy/dx) = ln x + 1. So dy/dx = x&#8319;(1 + ln x)." },
+      { "q": "For a &gt; 0, the derivative of a&#8339; with respect to x is:", "options": ["x&middot;a&#8339;&#8315;&#185;", "a&#8339;", "a&#8339; / ln a", "a&#8339; ln a"], "answer": 3, "explanation": "Write a&#8339; = e&#8339;&#8407;&#8319;&#7491;. Differentiating gives a&#8339; ln a, since the exponent x ln a has derivative ln a." },
+      { "q": "If y = sin x, what is d&sup2;y/dx&sup2;?", "options": ["&minus;sin x", "cos x", "&minus;cos x", "sin x"], "answer": 0, "explanation": "First derivative is cos x; differentiating again gives &minus;sin x." },
+      { "q": "A curve is given parametrically by x = at&sup2;, y = 2at. What is dy/dx?", "options": ["t", "1/t", "2t", "1/(2t)"], "answer": 1, "explanation": "dy/dt = 2a and dx/dt = 2at, so dy/dx = (dy/dt)/(dx/dt) = 2a/(2at) = 1/t." },
+      { "q": "For f(x) = x&sup2; &minus; 4 on [&minus;2, 2], Rolle's theorem guarantees a c in (&minus;2, 2) with f'(c) = 0. That c is:", "options": ["&minus;2", "2", "0", "1"], "answer": 2, "explanation": "f is continuous and differentiable with f(&minus;2) = f(2) = 0. Since f'(x) = 2x, setting 2c = 0 gives c = 0, which lies in the interval." },
+      { "q": "The derivative of log(sin x) with respect to x is:", "options": ["tan x", "1/sin x", "&minus;cot x", "cot x"], "answer": 3, "explanation": "Chain rule: derivative of log u is (1/u)&middot;u'. Here u = sin x and u' = cos x, giving cos x / sin x = cot x." }
+    ]
+  },
+  "faq": [
+    { "q": "What does the Miscellaneous Exercise of Continuity and Differentiability cover?", "a": "It mixes every technique from the chapter in one place: chain rule, product and quotient rules, implicit differentiation, logarithmic differentiation for functions like x^x, derivatives of exponential and logarithmic functions, parametric forms, second-order derivatives, and the mean value results (Rolle's and Lagrange's theorems)." },
+    { "q": "When should I use logarithmic differentiation?", "a": "Use it whenever the variable appears in the exponent, such as x^x or (sin x)^x, or when a function is a long product or quotient of terms. Taking the natural log turns products into sums and powers into multipliers, which makes the differentiation far cleaner." },
+    { "q": "How is implicit differentiation different from the usual method?", "a": "When y is not written explicitly in terms of x &mdash; for example x&sup2; + y&sup2; = 25 &mdash; you differentiate both sides with respect to x and treat y as a function of x, so every y term picks up a dy/dx factor by the chain rule. Then you solve the equation for dy/dx." },
+    { "q": "What is the difference between Rolle's theorem and the Mean Value Theorem?", "a": "Both need the function continuous on a closed interval and differentiable on the open interval. Rolle's theorem adds the condition that the endpoint values are equal, giving a point where f'(c) = 0. The Mean Value Theorem drops that condition and instead gives a point where f'(c) equals the average rate of change over the interval." },
+    { "q": "Where can I get more solved problems on Continuity and Differentiability?", "a": "Our Class 12 Continuity and Differentiability case-study collection has application-style problems with full step-by-step solutions and MCQs, ideal for board and competitive practice. The link is in the box below." }
+  ]
+}

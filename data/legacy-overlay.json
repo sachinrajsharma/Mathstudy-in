@@ -850,16 +850,6 @@
     "route": "OVERLAY"
   },
   {
-    "cta": "chapter-wise-test-papers-for-class-12-maths",
-    "fmt": "html",
-    "slug": "class-12-chapter-wise-important-questions",
-    "title": "Class 12 Chapter Wise Important Questions",
-    "views": 36,
-    "wc": 1298,
-    "isCanon": false,
-    "route": "OVERLAY"
-  },
-  {
     "cta": "class-12-matrices-chapter-practice-tests",
     "fmt": "html",
     "slug": "ncert-mathematics-class-xii-solution-chapter-matrices-excercise-3-1",

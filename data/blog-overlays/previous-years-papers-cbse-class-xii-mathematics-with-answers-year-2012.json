@@ -1,0 +1,30 @@
+{
+  "slug": "previous-years-papers-cbse-class-xii-mathematics-with-answers-year-2012",
+  "meta_title": "CBSE Class 12 Maths 2012 Paper with Answers + Quiz",
+  "meta_desc": "Solve the CBSE Class 12 Mathematics 2012 paper with full answers, then test yourself with a free 8-question quiz on calculus, vectors and probability.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-mathematics-sample-papers-for-2021-examination-c-b-s-e",
+  "quiz": {
+    "title": "CBSE Class 12 Maths 2012 Practice Quiz",
+    "intro": "Eight board-level questions in the style of the 2012 paper, spanning calculus, matrices, vectors, three-dimensional geometry, probability, integrals and differential equations. Choose an answer for each, then press Check my score.",
+    "about": "CBSE Class 12 Mathematics 2012 board paper",
+    "level": "Class 12",
+    "questions": [
+      { "q": "If y = e<sup>2x</sup>, then d<sup>2</sup>y/dx<sup>2</sup> equals:", "options": ["e<sup>2x</sup>", "2e<sup>2x</sup>", "4e<sup>2x</sup>", "8e<sup>2x</sup>"], "answer": 2, "explanation": "Differentiating twice: dy/dx = 2e<sup>2x</sup>, and d<sup>2</sup>y/dx<sup>2</sup> = 4e<sup>2x</sup>. Each derivative brings down a factor of 2." },
+      { "q": "If A is a 3 &times; 3 matrix with det(A) = 2, then det(2A) equals:", "options": ["6", "8", "4", "16"], "answer": 3, "explanation": "For an n &times; n matrix, det(kA) = k<sup>n</sup>det(A). Here det(2A) = 2<sup>3</sup> &times; 2 = 8 &times; 2 = 16." },
+      { "q": "If a and b are vectors with a &middot; b = 6, |a| = 3 and |b| = 4, the angle between them is:", "options": ["60&deg;", "90&deg;", "45&deg;", "30&deg;"], "answer": 0, "explanation": "cos&theta; = (a &middot; b)/(|a||b|) = 6/(3 &times; 4) = 1/2, so &theta; = 60&deg;." },
+      { "q": "The direction cosines of the x-axis are:", "options": ["0, 0, 1", "1, 0, 0", "0, 1, 0", "1, 1, 1"], "answer": 1, "explanation": "The x-axis points along the unit vector i, so its direction cosines are (1, 0, 0)." },
+      { "q": "Two fair coins are tossed together. The probability of getting exactly one head is:", "options": ["1/4", "1/3", "1/2", "3/4"], "answer": 2, "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head occurs in HT and TH, so the probability is 2/4 = 1/2." },
+      { "q": "Evaluate &int; from 0 to &pi;/2 of cos x dx.", "options": ["1", "0", "&pi;/2", "2"], "answer": 0, "explanation": "The antiderivative of cos x is sin x, so the value is sin(&pi;/2) &minus; sin(0) = 1 &minus; 0 = 1." },
+      { "q": "The order of the differential equation (d<sup>2</sup>y/dx<sup>2</sup>)<sup>2</sup> + (dy/dx)<sup>3</sup> + y = 0 is:", "options": ["1", "2", "3", "4"], "answer": 1, "explanation": "The order is the highest derivative present. Here the highest is d<sup>2</sup>y/dx<sup>2</sup>, so the order is 2 (the powers do not affect order)." },
+      { "q": "The function f(x) = x<sup>2</sup> is strictly increasing on the interval:", "options": ["(&minus;&infin;, 0)", "(&minus;&infin;, &infin;)", "(&minus;1, 1)", "(0, &infin;)"], "answer": 3, "explanation": "f&prime;(x) = 2x, which is positive only when x &gt; 0. So f is strictly increasing on (0, &infin;)." }
+    ]
+  },
+  "faq": [
+    { "q": "How difficult was the CBSE Class 12 Mathematics 2012 paper?", "a": "The 2012 paper stuck to the familiar board pattern of that period, mixing one-mark, four-mark and six-mark questions across calculus, algebra, vectors and probability. Nearly every question mapped straight onto an NCERT concept, so a student who had finished the textbook found it manageable." },
+    { "q": "Which topics carried the most marks in the 2012 paper?", "a": "Calculus led the way, as it almost always does in Class 12 &mdash; differentiation, applications of derivatives, integrals and differential equations together made up the biggest block. Matrices, determinants, vectors, three-dimensional geometry, probability and linear programming shared the remaining marks." },
+    { "q": "Is the 2012 paper still useful for today's students?", "a": "Yes. Core chapters like integrals, vectors and differential equations have changed little, so the paper is solid practice for accuracy and timing. Do cross-check the current CBSE blueprint for the exact weightage and any topics that have since been trimmed." },
+    { "q": "What is the best way to practise with an old board paper?", "a": "Attempt it in one timed sitting with no notes, then grade it honestly against the answer key. List every mistake, go back to that concept in your textbook, and re-solve similar questions a few days later so the fix truly sticks." },
+    { "q": "Where can I get more Class 12 Maths papers with full solutions?", "a": "Our Class 12 Mathematics sample papers e-book offers exam-pattern papers with complete step-by-step solutions and answer keys, ready to print and practise. The link is in the box below." }
+  ]
+}

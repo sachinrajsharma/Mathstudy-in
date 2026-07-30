@@ -1,0 +1,30 @@
+{
+  "slug": "solutions-mathematics-class-xii-ncert-inverse-trigonometric-functions-excercise-2-2",
+  "meta_title": "NCERT Class 12 Inverse Trig Ex 2.2 Solutions + Quiz",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths Inverse Trigonometric Functions Exercise 2.2 solutions on properties and identities, plus a free 8-question quiz.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-inverse-trigonometric-functions-case-studies-with-solutions",
+  "quiz": {
+    "title": "Inverse Trig Exercise 2.2 Quiz",
+    "intro": "Eight questions on the properties used in Exercise 2.2 &mdash; complementary pairs, the double-angle forms, the addition formula and simplifying expressions. Answer each, then press Check my score.",
+    "about": "NCERT Class 12 inverse trigonometric functions: properties and simplification",
+    "level": "Class 12",
+    "questions": [
+      { "q": "For every x in [&minus;1, 1], sin&minus;&sup1;x + cos&minus;&sup1;x equals:", "options": ["&pi;", "&pi;/2", "&pi;/4", "0"], "answer": 1, "explanation": "sin&minus;&sup1;x and cos&minus;&sup1;x are complementary, so their sum is &pi;/2 for all x in the domain." },
+      { "q": "For |x| &lt; 1, 2&nbsp;tan&minus;&sup1;x can be written as:", "options": ["tan&minus;&sup1;(2x/(1+x&sup2;))", "tan&minus;&sup1;(2x/(1&minus;x&sup2;))", "sin&minus;&sup1;(2x/(1&minus;x&sup2;))", "cos&minus;&sup1;(2x/(1+x&sup2;))"], "answer": 1, "explanation": "The double-angle result is 2&nbsp;tan&minus;&sup1;x = tan&minus;&sup1;(2x/(1&minus;x&sup2;)) when |x| &lt; 1." },
+      { "q": "tan&minus;&sup1;(1/2) + tan&minus;&sup1;(1/3) equals:", "options": ["&pi;/6", "&pi;/3", "&pi;/4", "&pi;/2"], "answer": 2, "explanation": "Using tan&minus;&sup1;x + tan&minus;&sup1;y = tan&minus;&sup1;((x+y)/(1&minus;xy)): (1/2+1/3)/(1&minus;1/6) = (5/6)/(5/6) = 1, so the sum is tan&minus;&sup1;1 = &pi;/4." },
+      { "q": "For 0 &lt; x &lt; &pi;/2, tan&minus;&sup1;((cos x &minus; sin x)/(cos x + sin x)) simplifies to:", "options": ["x &minus; &pi;/4", "&pi;/4 + x", "&pi;/4 &minus; x", "&pi;/2 &minus; x"], "answer": 2, "explanation": "Divide numerator and denominator by cos x to get (1&minus;tan x)/(1+tan x) = tan(&pi;/4 &minus; x), so the value is &pi;/4 &minus; x." },
+      { "q": "Written as a single inverse tangent, 2&nbsp;tan&minus;&sup1;(1/3) equals:", "options": ["tan&minus;&sup1;(2/3)", "tan&minus;&sup1;(1/4)", "tan&minus;&sup1;(6/7)", "tan&minus;&sup1;(3/4)"], "answer": 3, "explanation": "2&nbsp;tan&minus;&sup1;(1/3) = tan&minus;&sup1;((2&middot;1/3)/(1&minus;1/9)) = tan&minus;&sup1;((2/3)/(8/9)) = tan&minus;&sup1;(3/4)." },
+      { "q": "For 0 &lt; x &lt; &pi;, tan&minus;&sup1;(&radic;((1&minus;cos x)/(1+cos x))) simplifies to:", "options": ["x", "2x", "x/2", "&pi; &minus; x"], "answer": 2, "explanation": "(1&minus;cos x)/(1+cos x) = tan&sup2;(x/2), so the square root is tan(x/2) and the expression equals x/2." },
+      { "q": "The identity 3&nbsp;sin&minus;&sup1;x = sin&minus;&sup1;(&hellip;) has which right-hand side?", "options": ["sin&minus;&sup1;(3x &minus; 4x&sup3;)", "sin&minus;&sup1;(4x&sup3; &minus; 3x)", "sin&minus;&sup1;(3x)", "cos&minus;&sup1;(1 &minus; 2x&sup2;)"], "answer": 0, "explanation": "Since sin&nbsp;3&theta; = 3&nbsp;sin&theta; &minus; 4&nbsp;sin&sup3;&theta;, putting &theta; = sin&minus;&sup1;x gives 3&nbsp;sin&minus;&sup1;x = sin&minus;&sup1;(3x &minus; 4x&sup3;)." },
+      { "q": "The formula tan&minus;&sup1;x + tan&minus;&sup1;y = tan&minus;&sup1;((x+y)/(1&minus;xy)) holds directly when:", "options": ["xy &gt; 1", "xy &lt; 1", "x = y", "x + y = 0"], "answer": 1, "explanation": "The addition formula applies as written when xy &lt; 1; for xy &gt; 1 a correction of &plusmn;&pi; is needed." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 2.2 of Inverse Trigonometric Functions cover?", "a": "It focuses on the properties of inverse trigonometric functions &mdash; the complementary relations such as sin&minus;&sup1;x + cos&minus;&sup1;x = &pi;/2, the double-angle forms of 2&nbsp;tan&minus;&sup1;x, the addition formula for tan&minus;&sup1;x + tan&minus;&sup1;y, and using these to simplify or prove expressions." },
+    { "q": "How is Exercise 2.2 different from Exercise 2.1?", "a": "Exercise 2.1 is about finding principal values of a single inverse function. Exercise 2.2 assumes you know those and asks you to apply identities &mdash; combining, converting and simplifying inverse-trig expressions rather than reading a value off the unit circle." },
+    { "q": "When can I use tan&minus;&sup1;x + tan&minus;&sup1;y = tan&minus;&sup1;((x+y)/(1&minus;xy))?", "a": "Use it directly only when xy &lt; 1. If xy &gt; 1 the true sum lies outside the principal range, so you add &pi; (for positive x, y) or subtract &pi; (for negative x, y) to correct it." },
+    { "q": "What is the fastest way to simplify expressions like tan&minus;&sup1;(&radic;((1&minus;cos x)/(1+cos x)))?", "a": "Convert to half-angle form. Here (1&minus;cos x)/(1+cos x) = tan&sup2;(x/2), so the expression collapses to x/2. Recognising the half-angle and Pythagorean identities is the key skill in this exercise." },
+    { "q": "Where can I get full solutions and extra practice for this exercise?", "a": "Our Class 12 Inverse Trigonometric Functions case-study e-book gives worked solutions and application-based questions with step-by-step answers, ideal after finishing Exercise 2.2. The link is in the box below." }
+  ]
+}
