@@ -1,0 +1,30 @@
+{
+  "slug": "solution-mathematics-class-xii-ncert-continuity-differentiability-excercise-5-2",
+  "meta_title": "NCERT Class 12 Maths Solutions Ex 5.2 (Chain Rule)",
+  "meta_desc": "Step-by-step NCERT Class 12 Maths solutions for Exercise 5.2 on the chain rule and composite functions, plus a free 8-question quiz to test yourself.",
+  "category": "Class 12 Maths",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "quiz": {
+    "title": "Chain Rule &amp; Composite Functions Quiz (Ex 5.2)",
+    "intro": "Eight questions on differentiating composite functions with the chain rule, straight from the ideas in Exercise 5.2. Pick an answer for each, then press Check my score.",
+    "about": "NCERT Class 12 Maths, Continuity and Differentiability, Exercise 5.2",
+    "level": "Class 12",
+    "questions": [
+      { "q": "What is the derivative of sin(x&sup2;)?", "options": ["cos(x&sup2;)", "2x cos(x&sup2;)", "2x sin(x&sup2;)", "-cos(x&sup2;)"], "answer": 1, "explanation": "By the chain rule, differentiate the outer sin to get cos(x&sup2;), then multiply by the derivative of the inner x&sup2;, which is 2x. So the answer is 2x cos(x&sup2;)." },
+      { "q": "Differentiate (2x + 3)&#8309; with respect to x.", "options": ["5(2x + 3)&#8308;", "10(2x + 3)&#8308;", "5(2x + 3)&#8309;", "2(2x + 3)&#8308;"], "answer": 1, "explanation": "The power rule gives 5(2x + 3)&#8308;, then multiply by the derivative of the inner 2x + 3, which is 2. That gives 10(2x + 3)&#8308;." },
+      { "q": "What is the derivative of e^(sin x)?", "options": ["e^(sin x)", "cos x &middot; e^(cos x)", "cos x &middot; e^(sin x)", "sin x &middot; e^(sin x)"], "answer": 2, "explanation": "Differentiate the outer e^u to get e^(sin x), then multiply by the derivative of the inner sin x, which is cos x. The result is cos x &middot; e^(sin x)." },
+      { "q": "Differentiate cos(3x) with respect to x.", "options": ["-3 sin(3x)", "3 sin(3x)", "-sin(3x)", "3 cos(3x)"], "answer": 0, "explanation": "The derivative of cos is -sin, so we get -sin(3x), then multiply by the derivative of the inner 3x, which is 3. That gives -3 sin(3x)." },
+      { "q": "What is the derivative of &radic;(x&sup2; + 1)?", "options": ["x / &radic;(x&sup2; + 1)", "1 / (2&radic;(x&sup2; + 1))", "2x / &radic;(x&sup2; + 1)", "x&sup2; / &radic;(x&sup2; + 1)"], "answer": 0, "explanation": "Write it as (x&sup2; + 1)^(1/2). Its derivative is (1/2)(x&sup2; + 1)^(-1/2) times the inner derivative 2x, which simplifies to x / &radic;(x&sup2; + 1)." },
+      { "q": "Differentiate sin(cos x) with respect to x.", "options": ["cos(cos x)", "-sin x &middot; cos(cos x)", "sin x &middot; cos(cos x)", "-cos(cos x) &middot; sin x"], "answer": 1, "explanation": "The outer derivative is cos(cos x); multiply by the derivative of the inner cos x, which is -sin x. The result is -sin x &middot; cos(cos x)." },
+      { "q": "What is the derivative of tan(2x)?", "options": ["sec&sup2;(2x)", "2 sec&sup2;(2x)", "2 tan(2x)", "sec(2x) tan(2x)"], "answer": 1, "explanation": "The derivative of tan u is sec&sup2; u, giving sec&sup2;(2x); multiply by the inner derivative of 2x, which is 2. That gives 2 sec&sup2;(2x)." },
+      { "q": "Differentiate (sin x)&sup3; with respect to x.", "options": ["3(sin x)&sup2;", "3 cos&sup3; x", "3 sin&sup2; x cos x", "cos&sup3; x"], "answer": 2, "explanation": "By the power rule the outer derivative is 3(sin x)&sup2;; multiply by the derivative of the inner sin x, which is cos x. The result is 3 sin&sup2; x cos x." }
+    ]
+  },
+  "faq": [
+    { "q": "What does Exercise 5.2 of Class 12 Maths cover?", "a": "Exercise 5.2 sits inside the Continuity and Differentiability chapter and focuses on the chain rule &mdash; differentiating composite functions such as sin(x&sup2;), (2x + 3)&#8309; and e^(sin x). You work from the outer function inward, multiplying by each inner derivative." },
+    { "q": "How does the chain rule actually work?", "a": "If y = f(g(x)), then dy/dx = f'(g(x)) &middot; g'(x). In plain terms, differentiate the outermost function while leaving the inside untouched, then multiply by the derivative of the inside. Repeat this for every nested layer." },
+    { "q": "What is the most common mistake in these problems?", "a": "Forgetting to multiply by the inner derivative. Students often write the derivative of sin(x&sup2;) as cos(x&sup2;) and stop, missing the extra factor of 2x. Always finish by multiplying through by the derivative of the inside." },
+    { "q": "How do I differentiate a function with several nested layers?", "a": "Peel it one layer at a time. For sin(&radic;x) you differentiate sin first, then &radic;x, then x, and multiply all three results together. Working outside-in keeps the layers in order and avoids skipping a factor." },
+    { "q": "Where can I get full solutions and extra practice for this exercise?", "a": "Our Class 12 Continuity and Differentiability case studies with solutions gives worked chain-rule problems and application-based questions with complete answer keys as an instant PDF. The link is in the box below." }
+  ]
+}
