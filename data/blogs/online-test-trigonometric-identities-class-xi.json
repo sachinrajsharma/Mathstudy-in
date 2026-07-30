@@ -1,0 +1,91 @@
+{
+  "slug": "online-test-trigonometric-identities-class-xi",
+  "title": "Online Test: Trigonometric Identities Class 11 (8-Q Quiz + Proof Method)",
+  "meta_title": "Trigonometric Identities Class 11 Online Test",
+  "meta_desc": "Free trigonometric identities Class 11 online test: 8 questions on Pythagorean, sum, double and triple angle formulas, plus how to prove any identity.",
+  "excerpt": "Most Class 11 students get stuck proving trig identities not because they lack formulas, but because they pick the wrong one. Here are the identities that matter, a reliable proof method, and an 8-question online test with worked solutions.",
+  "category": "Class 11 Maths",
+  "cover_image": "/wp-content/uploads/class-11-case-studies-trigonometric-functions.jpg",
+  "cta_product_slug": "class-11-trigonometric-functions-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>You are two lines into proving that (1 + tan&sup2;&theta;)&nbsp;cos&sup2;&theta; = 1, the working is spilling across the page, and the two sides simply refuse to meet. Almost every student hits this wall in the trigonometric identities Class 11 chapter. The fix is rarely more formulas &mdash; it is knowing which identity to reach for and, more often, converting everything to sine and cosine and letting the mess cancel itself. This guide covers the identities the CBSE and NCERT syllabus actually tests, a proof method that stops the flailing, and the traps that quietly cost marks &mdash; then hands you an 8-question online test to check where you stand.</p><p>Treat the quiz at the end as a diagnostic, not the practice itself. It tells you which family of identities you are shaky on so your revision goes where it is needed.</p><h2>Start with the three Pythagorean identities</h2><p>Everything in this chapter grows from one line: sin&sup2;&theta; + cos&sup2;&theta; = 1. The other two are not new facts to cram &mdash; they are that same line divided through. Divide by cos&sup2;&theta; and you get 1 + tan&sup2;&theta; = sec&sup2;&theta;. Divide by sin&sup2;&theta; and you get 1 + cot&sup2;&theta; = cosec&sup2;&theta;.</p><ul><li><strong>sin&sup2;&theta; + cos&sup2;&theta; = 1</strong> &mdash; the parent identity.</li><li><strong>1 + tan&sup2;&theta; = sec&sup2;&theta;</strong> &mdash; parent &divide; cos&sup2;&theta;.</li><li><strong>1 + cot&sup2;&theta; = cosec&sup2;&theta;</strong> &mdash; parent &divide; sin&sup2;&theta;.</li></ul><p>Derive the second and third yourself twice and you will never mix up which one carries the tan and which the cot. That is worth ten minutes now and a saved mark in every exam after.</p><h2>Sum and difference formulas</h2><p>These are the workhorses of the chapter. The one detail that trips people is the sign in the cosine formula &mdash; it is the reverse of what your instinct expects.</p><ul><li>sin(A &plusmn; B) = sin&nbsp;A cos&nbsp;B &plusmn; cos&nbsp;A sin&nbsp;B</li><li>cos(A &plusmn; B) = cos&nbsp;A cos&nbsp;B &#8723; sin&nbsp;A sin&nbsp;B &mdash; note the flipped sign.</li><li>tan(A &plusmn; B) = (tan&nbsp;A &plusmn; tan&nbsp;B) &frasl; (1 &#8723; tan&nbsp;A tan&nbsp;B)</li></ul><p>The classic use is evaluating an &lsquo;awkward&rsquo; angle by splitting it into two standard ones. To find cos&nbsp;75&deg;, write it as cos(45&deg; + 30&deg;) and expand: cos&nbsp;45&deg;&nbsp;cos&nbsp;30&deg; &minus; sin&nbsp;45&deg;&nbsp;sin&nbsp;30&deg;. No calculator, one line of algebra.</p><h2>Double and triple angle formulas</h2><p>The double-angle set follows straight from the sum formulas by putting B = A. Cosine is the interesting one because it has three equivalent forms, and the whole trick in a proof is choosing the right one.</p><ul><li>sin&nbsp;2A = 2&nbsp;sin&nbsp;A cos&nbsp;A</li><li>cos&nbsp;2A = cos&sup2;A &minus; sin&sup2;A = 2&nbsp;cos&sup2;A &minus; 1 = 1 &minus; 2&nbsp;sin&sup2;A</li><li>tan&nbsp;2A = (2&nbsp;tan&nbsp;A) &frasl; (1 &minus; tan&sup2;A)</li><li>sin&nbsp;3A = 3&nbsp;sin&nbsp;A &minus; 4&nbsp;sin&sup3;A; &nbsp; cos&nbsp;3A = 4&nbsp;cos&sup3;A &minus; 3&nbsp;cos&nbsp;A</li></ul><p>Here is the counter-intuitive bit students miss: which form of cos&nbsp;2A you pick decides whether the proof is two lines or ten. If the other side of your equation contains sin&sup2;, reach for cos&nbsp;2A = 1 &minus; 2&nbsp;sin&sup2;A. If it contains cos&sup2;, reach for 2&nbsp;cos&sup2;A &minus; 1. Matching the form to the target is the single most useful habit in this chapter.</p><h2>Product-to-sum and sum-to-product</h2><p>These convert a product of two trig terms into a sum, or a sum into a product &mdash; priceless when a fraction will only simplify after the numerator becomes a product. They look intimidating but each is just the sum and difference formulas added or subtracted.</p><ul><li>2&nbsp;sin&nbsp;A cos&nbsp;B = sin(A + B) + sin(A &minus; B)</li><li>2&nbsp;cos&nbsp;A cos&nbsp;B = cos(A + B) + cos(A &minus; B)</li><li>sin&nbsp;C + sin&nbsp;D = 2&nbsp;sin&nbsp;((C + D)&frasl;2)&nbsp;cos&nbsp;((C &minus; D)&frasl;2)</li></ul><p>When you see a ratio like (sin&nbsp;C + sin&nbsp;D) &frasl; (cos&nbsp;C + cos&nbsp;D), do not panic &mdash; apply sum-to-product on top and bottom, and the whole thing collapses to tan&nbsp;((C + D)&frasl;2). That single move is a frequent 3-mark question.</p><h2>How to actually prove a trigonometric identity</h2><p>Formulas are only half the battle. A proof goes wrong when you shove both sides around at once and lose track. In my experience marking Class 11 papers, the students who score full marks follow the same quiet routine every time.</p><table><thead><tr><th>Step</th><th>What to do</th><th>Why it works</th></tr></thead><tbody><tr><td>1</td><td>Pick the more complicated side and leave the other untouched</td><td>You have a fixed target to aim for, so you know when to stop</td></tr><tr><td>2</td><td>Convert everything to sin and cos</td><td>Removes tan, sec, cot, cosec so terms actually combine</td></tr><tr><td>3</td><td>Combine over a common denominator</td><td>Exposes sin&sup2; + cos&sup2; = 1 hiding in the numerator</td></tr><tr><td>4</td><td>Substitute a Pythagorean identity, then simplify</td><td>The &lsquo;1&rsquo; you need usually appears right here</td></tr></tbody></table><p>Work down one side until it becomes the other. If a side is truly stubborn, prove LHS = X and RHS = X separately, then conclude they are equal &mdash; but never write moves on both sides of the equals sign in the same line, because that assumes the very thing you are trying to prove.</p><h2>The traps that cost marks</h2><ul><li><strong>Distributing over a sum:</strong> cos(A + B) is <em>not</em> cos&nbsp;A + cos&nbsp;B, and sin&nbsp;2A is <em>not</em> 2&nbsp;sin&nbsp;A. Trig functions do not split like that.</li><li><strong>Losing the &plusmn; sign:</strong> when you take a square root, both signs are live until the quadrant tells you which to keep.</li><li><strong>Ignoring the domain:</strong> tan&nbsp;&theta; and sec&nbsp;&theta; are undefined at &theta; = 90&deg;, so an identity can fail exactly where a function blows up.</li></ul><h2>Take the trigonometric identities test below</h2><p>The 8-question online test that follows is pitched at Class 11 CBSE level and spans Pythagorean identities, sum and difference, double and triple angle, and product-to-sum. Attempt each honestly before checking, and read every solution &mdash; even for the ones you got right. When you want longer, exam-style practice, the Class 11 Trigonometric Functions case-studies e-book at the end carries the same format forward with full solutions.</p>",
+  "quiz": {
+    "title": "Trigonometric Identities Class 11 Online Test",
+    "intro": "Eight Class 11 questions on Pythagorean identities, sum and difference, double and triple angle, and product-to-sum. Choose one option per question, then press Check my score and read every solution.",
+    "about": "Trigonometric Identities for Class 11",
+    "level": "Class 11 Maths",
+    "questions": [
+      {
+        "q": "The expression sec^2 A - tan^2 A simplifies to:",
+        "options": ["0", "1", "2 tan^2 A", "sec^2 A"],
+        "answer": 1,
+        "explanation": "From the Pythagorean identity 1 + tan^2 A = sec^2 A, we get sec^2 A - tan^2 A = 1."
+      },
+      {
+        "q": "The value of cos 15 degrees is:",
+        "options": ["(root6 - root2)/4", "(root6 + root2)/4", "(root3 - 1)/2", "(root3 + 1)/2"],
+        "answer": 1,
+        "explanation": "Write 15 as 45 - 30. cos(45-30) = cos45 cos30 + sin45 sin30 = (root2/2)(root3/2) + (root2/2)(1/2) = (root6 + root2)/4."
+      },
+      {
+        "q": "sin 2A equals:",
+        "options": ["2 sin A", "sin^2 A - cos^2 A", "2 sin A cos A", "1 - 2 sin^2 A"],
+        "answer": 2,
+        "explanation": "The double-angle formula is sin 2A = 2 sin A cos A. It follows from sin(A+A). Note sin 2A is not 2 sin A."
+      },
+      {
+        "q": "If cos 2A = 1 - 2 sin^2 A, then 1 - cos 2A equals:",
+        "options": ["2 cos^2 A", "2 sin^2 A", "sin^2 A", "cos^2 A"],
+        "answer": 1,
+        "explanation": "Rearranging cos 2A = 1 - 2 sin^2 A gives 1 - cos 2A = 2 sin^2 A. Choosing this form of cos 2A is the shortcut."
+      },
+      {
+        "q": "The value of tan(A + B) when tan A = 1 and tan B = 1/2 is:",
+        "options": ["3", "1/2", "3/2", "1/3"],
+        "answer": 0,
+        "explanation": "tan(A+B) = (tanA + tanB)/(1 - tanA tanB) = (1 + 1/2)/(1 - 1x1/2) = (3/2)/(1/2) = 3."
+      },
+      {
+        "q": "sin 3A equals:",
+        "options": ["4 sin^3 A - 3 sin A", "3 cos A - 4 cos^3 A", "3 sin A - 4 sin^3 A", "3 sin A + 4 sin^3 A"],
+        "answer": 2,
+        "explanation": "The triple-angle formula is sin 3A = 3 sin A - 4 sin^3 A. (For cosine it is cos 3A = 4 cos^3 A - 3 cos A.)"
+      },
+      {
+        "q": "The product 2 sin A cos B is equal to:",
+        "options": ["sin(A+B) - sin(A-B)", "cos(A+B) + cos(A-B)", "sin(A+B) + sin(A-B)", "2 sin(A+B)"],
+        "answer": 2,
+        "explanation": "The product-to-sum formula: 2 sin A cos B = sin(A+B) + sin(A-B), obtained by adding the sin(A+B) and sin(A-B) expansions."
+      },
+      {
+        "q": "The expression (sin C + sin D)/(cos C + cos D) simplifies to:",
+        "options": ["tan((C-D)/2)", "cot((C+D)/2)", "tan((C+D)/2)", "tan(C+D)"],
+        "answer": 2,
+        "explanation": "Apply sum-to-product to top and bottom. Both share the cos((C-D)/2) factor, which cancels, leaving sin((C+D)/2)/cos((C+D)/2) = tan((C+D)/2)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many trigonometric identities do I need for Class 11?",
+      "a": "The core set is small: three Pythagorean identities, the sum and difference formulas for sin, cos and tan, the double and triple angle formulas, and the product-to-sum and sum-to-product pairs. Everything else in the NCERT chapter is derived from these, so understanding how they connect matters more than counting them."
+    },
+    {
+      "q": "What is the best way to prove a trigonometric identity?",
+      "a": "Work on the more complicated side only, convert every term to sine and cosine, combine over a common denominator, then substitute sin&sup2;&theta; + cos&sup2;&theta; = 1 and simplify until it matches the other side. Never rearrange both sides at once &mdash; that quietly assumes the result you are trying to prove."
+    },
+    {
+      "q": "Why does the cosine sum formula have a flipped sign?",
+      "a": "In cos(A + B) = cos&nbsp;A cos&nbsp;B &minus; sin&nbsp;A sin&nbsp;B the sign is the opposite of the angle&rsquo;s. It falls straight out of the geometric derivation, but the practical takeaway is to memorise it deliberately, because writing a plus there is one of the most common slips in the chapter."
+    },
+    {
+      "q": "Which cos 2A form should I use in a proof?",
+      "a": "Match the form to the target. If the rest of the equation has sin&sup2;, use cos&nbsp;2A = 1 &minus; 2&nbsp;sin&sup2;A. If it has cos&sup2;, use 2&nbsp;cos&sup2;A &minus; 1. If it mixes both, cos&sup2;A &minus; sin&sup2;A often works. Choosing the right form is what turns a ten-line proof into a two-line one."
+    },
+    {
+      "q": "Where can I get more Class 11 trigonometry practice with solutions?",
+      "a": "Take the 8-question online test above first to spot your weak family of identities, then move to exam-style sets. Our Class 11 Trigonometric Functions case-studies e-book gives application-based questions with full step-by-step solutions in the same format &mdash; the link is in the box below."
+    }
+  ]
+}
