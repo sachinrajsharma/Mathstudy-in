@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-patterns-mcq-online-test",
+  "title": "CTET Paper 1 Maths Patterns: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Patterns MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Patterns online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Patterns online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-patterns-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-patterns-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Patterns</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET patterns</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Patterns covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Number patterns and skip counting</li><li>Shape and repeating patterns</li><li>Finding the rule of a pattern</li><li>Filling in missing terms</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>A growing pattern changes by a fixed amount (5, 10, 15, 20 → rule +5).</li><li>A repeating pattern has a unit that repeats (▲■▲■).</li><li>To continue a pattern, first find the rule linking the terms.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Guessing the next term without checking the rule against all given terms.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Patterns questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Patterns online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Patterns Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Patterns. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Patterns",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A child creates a pattern using coloured tiles: Red, Blue, Green, Red, Blue, Green, Red... What will be the colour of the 15th tile?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Cannot be determined"
+        ],
+        "answer": 2,
+        "explanation": "The pattern unit 'Red, Blue, Green' has 3 elements. To find the 15th tile, divide 15 by 3: 15 ÷ 3 = 5 with remainder 0. A remainder of 0 means it is the last element of the core, which is Green."
+      },
+      {
+        "q": "Which of the following letters of the English alphabet does NOT have any line of symmetry?",
+        "options": [
+          "A",
+          "M",
+          "F",
+          "H"
+        ],
+        "answer": 2,
+        "explanation": "A has a vertical line of symmetry. M has a vertical line of symmetry. H has both vertical and horizontal lines of symmetry. F has no line of symmetry because neither vertical nor horizontal division creates mirror images."
+      },
+      {
+        "q": "Observe the pattern: 2, 4, 8, 16, 32, ... What is the rule governing this pattern?",
+        "options": [
+          "Add 2 to the previous term",
+          "Add 4 to the previous term",
+          "Multiply the previous term by 2",
+          "Multiply the previous term by 4"
+        ],
+        "answer": 2,
+        "explanation": "Each term is double the previous term (2×2=4, 4×2=8, 8×2=16, 16×2=32). The rule is 'Multiply by 2'."
+      },
+      {
+        "q": "A shopkeeper reduces prices in a promotional offer as follows: ₹150, ₹135, ₹120, ₹105, __. What will be the next price in this decreasing pattern?",
+        "options": [
+          "₹85",
+          "₹90",
+          "₹95",
+          "₹100"
+        ],
+        "answer": 1,
+        "explanation": "The pattern decreases by subtracting ₹15 from each term (150 - 15 = 135, 135 - 15 = 120, 120 - 15 = 105). Subtracting 15 from 105 gives 90."
+      },
+      {
+        "q": "A subtraction pattern is formed as follows: 200, 190, 175, 155, 130, __. What is the next number in this sequence?",
+        "options": [
+          "105",
+          "100",
+          "95",
+          "110"
+        ],
+        "answer": 1,
+        "explanation": "The subtracted amounts increase by 5 in each step: 200 - 10 = 190; 190 - 15 = 175; 175 - 20 = 155; 155 - 25 = 130. Next step subtracts 30: 130 - 30 = 100."
+      },
+      {
+        "q": "Find the missing symbol in the pattern: ◯, 🛈, ✦, ◯, 🛈, __, ◯, 🛈, ✦",
+        "options": [
+          "◯",
+          "🛈",
+          "✦",
+          "◼"
+        ],
+        "answer": 2,
+        "explanation": "The repeating core is [◯, 🛈, ✦]. The element following '◯, 🛈' in the second unit is '✦'."
+      },
+      {
+        "q": "Which of the following geometric letters exhibits both horizontal and vertical line symmetry, making it ideal for reflectional pattern activities in Class III?",
+        "options": [
+          "Letter A",
+          "Letter B",
+          "Letter H",
+          "Letter F"
+        ],
+        "answer": 2,
+        "explanation": "The letter 'H' can be divided into identical halves along both a vertical axis and a horizontal axis, possessing two lines of symmetry."
+      },
+      {
+        "q": "Identify the pattern core in the sequence: ♠ ♣ ♣ ♠ ♣ ♣ ♠ ♣ ♣ ...",
+        "options": [
+          "♠ ♣",
+          "♣ ♣ ♠",
+          "♠ ♣ ♣",
+          "♣ ♠"
+        ],
+        "answer": 2,
+        "explanation": "Look for the smallest repeating unit. The sequence goes: ♠ ♣ ♣ | ♠ ♣ ♣ | ♠ ♣ ♣. The repeating block is ♠ ♣ ♣, which is an ABB pattern."
+      },
+      {
+        "q": "In a rangoli design, a basic motif is repeated by sliding it along a straight line without turning or flipping it. This type of symmetry is called:",
+        "options": [
+          "Reflection symmetry",
+          "Rotational symmetry",
+          "Translation symmetry",
+          "Glide reflection symmetry"
+        ],
+        "answer": 2,
+        "explanation": "Translation symmetry occurs when a figure is slid (translated) along a line to a new position without rotation or reflection. Rangoli and border designs often use translation symmetry."
+      },
+      {
+        "q": "A ribbon design follows the sequence: [Square, Diamond, Oval, Square, Diamond, Oval, Square, Diamond...]. What is the core unit of repetition in this design?",
+        "options": [
+          "Square, Diamond",
+          "Square, Diamond, Oval",
+          "Diamond, Oval",
+          "Square, Oval"
+        ],
+        "answer": 1,
+        "explanation": "The smallest block of shapes that repeats continuously in exact order is 'Square, Diamond, Oval'."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find the rule of a number pattern?",
+      "a": "Look at the change between consecutive terms — a constant difference, a doubling, or a repeating unit — then apply it to continue the pattern."
+    },
+    {
+      "q": "Are patterns important for CTET Paper 1?",
+      "a": "Yes. Patterns build early algebraic thinking, and CTET tests both continuing patterns and finding the rule behind them."
+    },
+    {
+      "q": "Where can I get more Patterns practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Patterns Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

@@ -55,6 +55,7 @@ const STEPS = [
   ['Seed curated blog articles', 'seed-blog-articles.js', false],
   ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js', false],
   ['Scrub injected spam links from blogs', 'clean-spam-links.js', false],
+  ['Import CTET Paper 1 Maths SEO blogs (quiz + CTA)', 'import-ctet-blogs.js', false],
   ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 

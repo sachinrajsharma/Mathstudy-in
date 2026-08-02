@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-properties-of-shapes-mcq-online-test",
+  "title": "CTET Paper 1 Maths Properties of Shapes: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Properties of Shapes MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Properties of Shapes online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Properties of Shapes online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-properties-of-shapes-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-properties-of-shapes-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Properties of Shapes</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET properties of shapes</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Properties of Shapes covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Sides, corners and equal sides of 2-D shapes</li><li>Spatial position words — above/below, inside/outside, near/far</li><li>Comparing shapes by their properties</li><li>Using position language correctly in the primary classroom</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>Every square is a rectangle (all angles 90°), but not every rectangle is a square.</li><li>Opposite sides of a rectangle are equal; all sides of a square are equal.</li><li>Position words describe where an object is relative to another — a core Class I–II skill.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Assuming a rectangle must be \"long\" — a square is a rectangle too.</li><li>Mixing up \"inside/outside\" with \"above/below\" in word problems.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Properties of Shapes questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Properties of Shapes online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Properties of Shapes Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Properties of Shapes. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Properties of Shapes",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "Which pair correctly matches a 3-D object with its corresponding flat 2-D face shape?",
+        "options": [
+          "Sphere — Square face",
+          "Cone — Triangular base face only",
+          "Cube — Square face",
+          "Cylinder — Triangular end face"
+        ],
+        "answer": 2,
+        "explanation": "A cube is composed of 6 identical flat square faces. A sphere has no flat faces, a cone has a circular flat base, and a cylinder has circular flat faces."
+      },
+      {
+        "q": "A square pyramid has a flat square base and triangular sides meeting at an apex. How many total faces, edges, and vertices does a square pyramid possess?",
+        "options": [
+          "5 faces, 8 edges, 5 vertices",
+          "6 faces, 12 edges, 8 vertices",
+          "4 faces, 6 edges, 4 vertices",
+          "5 faces, 9 edges, 6 vertices"
+        ],
+        "answer": 0,
+        "explanation": "A square pyramid has 1 square base + 4 triangular faces = 5 faces. It has 4 base edges + 4 slant edges = 8 edges. It has 4 base vertices + 1 top apex = 5 vertices."
+      },
+      {
+        "q": "A wooden sphere is placed on a table under a light bulb hanging directly above it. What shape will the shadow cast on the flat floor directly below be?",
+        "options": [
+          "Square",
+          "Circle",
+          "Ellipse",
+          "Triangle"
+        ],
+        "answer": 1,
+        "explanation": "A sphere projects a uniform circular shadow when illuminated by a light source directly above it onto a parallel horizontal plane."
+      },
+      {
+        "q": "Which basic 2-D shape is produced if you place a flat square wooden tile on paper and trace along its outer boundary with a pencil?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Cube"
+        ],
+        "answer": 1,
+        "explanation": "Tracing the outer boundary of a flat square tile onto paper transfers its 2-D outline directly, producing a square."
+      },
+      {
+        "q": "Which of the following flat figures has 3 vertices and 3 straight sides?",
+        "options": [
+          "Rectangle",
+          "Circle",
+          "Triangle",
+          "Cube"
+        ],
+        "answer": 2,
+        "explanation": "A triangle is a 2-D closed polygon defined by having exactly 3 straight line segments (sides) and 3 corner points (vertices)."
+      },
+      {
+        "q": "Which of the following 2-D shapes will be produced if you place a flat circular coin on paper and trace its perimeter with a pencil?",
+        "options": [
+          "Sphere",
+          "Circle",
+          "Oval",
+          "Cylinder"
+        ],
+        "answer": 1,
+        "explanation": "Tracing the outer rim of a flat circular coin onto paper generates a 2-D plane figure known as a circle."
+      },
+      {
+        "q": "If a student stands facing East and makes a half-turn (180 degrees), which cardinal direction is she facing now?",
+        "options": [
+          "North",
+          "South",
+          "West",
+          "East"
+        ],
+        "answer": 2,
+        "explanation": "A half-turn (180 degrees) completely reverses one's facing orientation. The cardinal direction directly opposite to East is West."
+      },
+      {
+        "q": "A student standing in the school playground faces North. If she makes a quarter-turn (90 degrees) to her left, which cardinal direction is she facing now?",
+        "options": [
+          "East",
+          "West",
+          "South",
+          "North"
+        ],
+        "answer": 1,
+        "explanation": "From facing North, turning 90 degrees counter-clockwise (to the left) reorients a person to face West."
+      },
+      {
+        "q": "A teacher unrolls the curved side surface of a hollow cylindrical pipe made of cardboard. What 2-D shape does this unrolled piece of cardboard form?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Rectangle",
+          "Sector of a circle"
+        ],
+        "answer": 2,
+        "explanation": "The net of the curved surface of a right circular cylinder unfolds into a 2-D rectangle, where the length equals the circumference of the cylinder's base (2\\pi r) and the breadth equals the height (h) of the cylinder."
+      },
+      {
+        "q": "A solid polyhedron consists of 2 congruent pentagonal bases and 5 rectangular side faces. How many total vertices, edges, and faces does this pentagonal prism have?",
+        "options": [
+          "7 faces, 15 edges, 10 vertices",
+          "10 faces, 15 edges, 7 vertices",
+          "7 faces, 10 edges, 15 vertices",
+          "5 faces, 12 edges, 8 vertices"
+        ],
+        "answer": 0,
+        "explanation": "A pentagonal prism has 2 + 5 = 7 faces, 5 + 5 + 5 = 15 edges, and 5 + 5 = 10 vertices. Checking Euler's formula: F + V - E = 7 + 10 - 15 = 2."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What are spatial words in CTET Maths?",
+      "a": "They are position and direction words such as above, below, inside, outside, near and far — young children use them to describe where things are, and CTET tests how you teach them."
+    },
+    {
+      "q": "Is a square a rectangle?",
+      "a": "Yes. A square meets every condition of a rectangle (opposite sides equal, all right angles) and additionally has all four sides equal."
+    },
+    {
+      "q": "Where can I get more Properties of Shapes practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Properties of Shapes Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

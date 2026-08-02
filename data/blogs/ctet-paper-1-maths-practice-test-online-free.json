@@ -1,0 +1,149 @@
+{
+  "slug": "ctet-paper-1-maths-practice-test-online-free",
+  "title": "CTET Paper 1 Maths Free Online Practice Test (All Chapters) + 30 Papers",
+  "meta_title": "CTET Paper 1 Maths Free Online Practice Test",
+  "meta_desc": "Free CTET Paper 1 Maths online practice test covering all chapters: 10 mixed MCQs with answers, plus 30 full practice papers (900 MCQs) with solutions.",
+  "excerpt": "A free, mixed CTET Paper I Maths online practice test spanning every chapter &mdash; instant scoring and explanations, plus a route to 30 full practice papers with 900 solved MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-30-practice-papers.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-30-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The CTET Paper I (Classes I&ndash;V) Mathematics section rewards candidates who practise across <em>all</em> chapters, not just their favourites. This <strong>free online practice test</strong> mixes questions from numbers, operations, geometry, measurement, time, money, data handling and patterns &mdash; exactly the spread you meet in the real paper.</p><p>Take the 10-question mixed test below, review every explanation, and then move to full-length practice with the 30-paper e-book at the end.</p><h2>Why full-length practice matters for CTET Maths</h2><p>Chapter practice builds accuracy; full papers build <strong>stamina and topic-switching</strong>. In the exam you jump from a place-value question to a clock to a bar graph in seconds, and that switching is a skill of its own.</p><ul><li>Cover every chapter so no topic surprises you</li><li>Practise timing &mdash; the paper is as much about speed as accuracy</li><li>Balance content questions with pedagogy questions</li><li>Review solutions to fix the exact steps you miss</li></ul><p>Learn any weak topic free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>.</p><h2>Take the free mixed online test (10 questions)</h2><p>No sign-up, instant scoring. Answer all ten, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Paper 1 Maths Mixed Practice Quiz",
+    "intro": "Ten mixed CTET Paper I &ndash; pattern questions from across the syllabus. Pick an answer, then press Check my score.",
+    "about": "CTET Paper 1 Maths: all chapters",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A teacher writes the numbers 789, 798, 879, 897 on the board and asks for the descending order. Which is correct?",
+        "options": [
+          "789, 798, 879, 897",
+          "897, 879, 798, 789",
+          "897, 798, 879, 789",
+          "879, 897, 789, 798"
+        ],
+        "answer": 1,
+        "explanation": "Descending means largest to smallest. All have 3 digits. Compare hundreds: 8,8,7,7. 897 and 879 are larger. Compare tens of 897 (9) and 879 (7): 9 > 7, so 897 > 879. Next come 798 and 789. Tens: 9 > 8, so 798 > 789. Full order: 897, 879, 798, 789."
+      },
+      {
+        "q": "In a park, there are 156 red flowers and 178 yellow flowers. How many flowers are there in total?",
+        "options": [
+          "22",
+          "324",
+          "334",
+          "234"
+        ],
+        "answer": 2,
+        "explanation": "This is a 'combining' addition problem. Total flowers = 156 + 178 = 334."
+      },
+      {
+        "q": "A rectangular chart paper has a length of 18 cm and a breadth of 12 cm. What is its area in square centimeters?",
+        "options": [
+          "60 cm²",
+          "180 cm²",
+          "216 cm²",
+          "240 cm²"
+        ],
+        "answer": 2,
+        "explanation": "Area of rectangle = Length \\times Breadth = 18 \\times 12 = 216\\text{ cm}^2."
+      },
+      {
+        "q": "What is the quotient when 315 is divided by 3?",
+        "options": [
+          "15",
+          "105",
+          "150",
+          "100"
+        ],
+        "answer": 1,
+        "explanation": "Dividing step by step: 3 \\div 3 = 1 (hundreds place), 1 \\div 3 = 0 (tens place), and 15 \\div 3 = 5 (ones place). The quotient is 105."
+      },
+      {
+        "q": "A square and a rectangle have the same perimeter. The side of the square is 8 cm. If the length of the rectangle is 10 cm, its breadth is:",
+        "options": [
+          "6 cm",
+          "8 cm",
+          "12 cm",
+          "4 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter of square = 4 × 8 = 32 cm. Perimeter of rectangle = 2 × (10 + b) = 32 ⇒ 10 + b = 16 ⇒ b = 6 cm."
+      },
+      {
+        "q": "How many vertices (corners) does a triangle have?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "A triangle has 3 vertices — the same as its number of sides."
+      },
+      {
+        "q": "A cricket match starts at 10:00 a.m. and ends at 5:30 p.m. There is a 45-minute lunch break. What is the actual playing time?",
+        "options": [
+          "7 hours 30 minutes",
+          "6 hours 45 minutes",
+          "6 hours 30 minutes",
+          "8 hours 15 minutes"
+        ],
+        "answer": 1,
+        "explanation": "Total time from 10:00 a.m. to 5:30 p.m. = 7 hours 30 minutes. Subtract the lunch break: 7 hours 30 minutes - 45 minutes = 6 hours 45 minutes. (Borrow 1 hour: 6 hours 90 minutes - 45 minutes = 6 hours 45 minutes)."
+      },
+      {
+        "q": "A bar graph shows the heights of saplings. The scale is: 1 unit = 2 cm. The bar for Sapling A is 4.5 units high. What is the height of Sapling A?",
+        "options": [
+          "4.5 cm",
+          "9 cm",
+          "6.5 cm",
+          "2 cm"
+        ],
+        "answer": 1,
+        "explanation": "Height = 4.5 units × 2 cm/unit = 9 cm."
+      },
+      {
+        "q": "Express 6005 paise in standard rupee and paise format.",
+        "options": [
+          "₹60.50",
+          "₹600.5",
+          "₹60.05",
+          "₹6.005"
+        ],
+        "answer": 2,
+        "explanation": "Since 100 paise = ₹1, divide 6005 by 100: 6005 / 100 = ₹60.05 (60 Rupees and 5 Paise)."
+      },
+      {
+        "q": "Identify the missing alphanumeric term: Z10, Y20, X30, W40, __.",
+        "options": [
+          "V50",
+          "U50",
+          "V60",
+          "W50"
+        ],
+        "answer": 0,
+        "explanation": "The letters decrease backward through the alphabet (Z, Y, X, W ightarrow V). The numbers skip count forward by 10s (10, 20, 30, 40 ightarrow 50). Combining both gives V50."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers should I solve for CTET Paper 1 Maths?",
+      "a": "Aim for at least 15&ndash;30 full-length papers alongside chapter practice. The 30-paper e-book below gives 900 MCQs balanced across every chapter, each with answer keys and step-by-step solutions."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes, the 10-question mixed test on this page is completely free with instant scoring and explanations. For full-length practice, the linked e-book has 30 papers of 30 questions each."
+    },
+    {
+      "q": "Does CTET Paper 1 Maths include pedagogy questions?",
+      "a": "Yes. Roughly half the section tests how children learn maths (pedagogy) alongside the content itself, so practise both."
+    },
+    {
+      "q": "Where can I get CTET Paper 1 Maths practice papers with solutions?",
+      "a": "The CTET Paper 1 Maths 30 Practice Papers e-book has 900 MCQs with answer keys and detailed solutions, as an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

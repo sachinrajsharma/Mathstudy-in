@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-symmetry-mcq-online-test",
+  "title": "CTET Paper 1 Maths Symmetry: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Symmetry MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Symmetry online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Symmetry online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-symmetry-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-symmetry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Symmetry</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET symmetry</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Symmetry covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Line (axis) of symmetry</li><li>Recognising symmetric shapes</li><li>Counting the number of lines of symmetry</li><li>Paper-folding as a teaching tool</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>A square has 4 lines of symmetry, a rectangle 2, an equilateral triangle 3, and a circle infinitely many.</li><li>A figure is symmetric if folding along a line makes the two halves match exactly.</li><li>A scalene triangle has no line of symmetry.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Assuming every rectangle has 4 lines of symmetry (it has only 2).</li><li>Confusing rotational symmetry with line symmetry.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Symmetry questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Symmetry online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Symmetry Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Symmetry. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Symmetry",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A student expresses a 4-digit number as '3 thousands, 15 hundreds, and 7 ones'. What is the standard numeral represented?",
+        "options": [
+          "3157",
+          "4507",
+          "4570",
+          "3507"
+        ],
+        "answer": 1,
+        "explanation": "3 thousands = 3000; 15 hundreds = 1500; 7 ones = 7. Total = 3000 + 1500 + 7 = 4507."
+      },
+      {
+        "q": "Find the next number in the skip counting sequence: 110, 135, 160, 185, ___",
+        "options": [
+          "200",
+          "210",
+          "215",
+          "225"
+        ],
+        "answer": 1,
+        "explanation": "The pattern increases by adding 25 to each successive term: 185 + 25 = 210."
+      },
+      {
+        "q": "What is the product of the place value of 3 and the face value of 4 in the number 3,452?",
+        "options": [
+          "12,000",
+          "1,200",
+          "120,000",
+          "7,000"
+        ],
+        "answer": 0,
+        "explanation": "In 3,452, the place value of 3 is 3,000. The face value of 4 is 4. Their product is 3,000 × 4 = 12,000."
+      },
+      {
+        "q": "If 'a' is an odd number and 'b' is an even number, which of the following expressions will ALWAYS result in an odd number?",
+        "options": [
+          "a + b",
+          "a × b",
+          "2a + b",
+          "a + 2b + 1"
+        ],
+        "answer": 0,
+        "explanation": "The sum of an odd number and an even number is always odd (e.g., 3 + 4 = 7). For B: Odd × Even = Even. For C: 2(Odd) + Even = Even + Even = Even. For D: Odd + Even + Odd = Even."
+      },
+      {
+        "q": "Which of the following numbers CANNOT be represented using standard basic Roman numerals taught at the primary level without using an overline (bar) symbol?",
+        "options": [
+          "3999",
+          "4000",
+          "500",
+          "1000"
+        ],
+        "answer": 1,
+        "explanation": "In standard Roman numerals without a vinculum (a horizontal line over a symbol multiplying its value by 1000), symbols M (1000) can only be repeated up to three times (MMM = 3000). Thus 3,999 (MMMCMXCIX) is the maximum, and 4,000 requires a bar notation."
+      },
+      {
+        "q": "A Grade II student asserts that '0.5 is smaller than 0.45 because 5 is smaller than 45.' What type of error is the student demonstrating?",
+        "options": [
+          "Whole-number thinking misconception",
+          "Additive composition error",
+          "One-to-one correspondence error",
+          "Subitizing confusion"
+        ],
+        "answer": 0,
+        "explanation": "This is a classic 'whole-number misconception' where students treat decimal digits as whole numbers (thinking 45 is larger than 5), ignoring the place value of the tenths and hundredths positions."
+      },
+      {
+        "q": "What is the sum of the place value of 5 and the face value of 9 in the number 6,594?",
+        "options": [
+          "509",
+          "590",
+          "59",
+          "5009"
+        ],
+        "answer": 0,
+        "explanation": "In 6,594, the digit 5 is in the hundreds place, so its place value is 500. The face value of 9 is simply 9. The sum is 500 + 9 = 509."
+      },
+      {
+        "q": "Which statement is TRUE when comparing 6,048 and 6,408?",
+        "options": [
+          "6,048 > 6,408",
+          "6,048 = 6,408",
+          "6,408 < 6,048",
+          "6,048 < 6,408"
+        ],
+        "answer": 3,
+        "explanation": "Comparing digits from left to right: both numbers have 6 in the thousands place. In the hundreds place, 0 is less than 4. Therefore, 6,048 < 6,408."
+      },
+      {
+        "q": "Which statement correctly compares the numbers 4,059 and 4,509?",
+        "options": [
+          "4,059 > 4,509",
+          "4,059 = 4,509",
+          "4,059 < 4,509",
+          "4,509 < 4,059"
+        ],
+        "answer": 2,
+        "explanation": "Comparing digits from left to right: both numbers have 4 in the thousands place. In the hundreds place, 0 is less than 5. Therefore, 4,059 < 4,509."
+      },
+      {
+        "q": "Which of the following is the expanded form of 9,070?",
+        "options": [
+          "9000 + 700",
+          "9000 + 70",
+          "9000 + 7",
+          "900 + 70"
+        ],
+        "answer": 1,
+        "explanation": "9,070 consists of 9 thousands (9000), 0 hundreds (0), 7 tens (70), and 0 ones (0). The correct expanded notation is 9000 + 70."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many lines of symmetry does a square have?",
+      "a": "Four — two through the mid-points of opposite sides and two along the diagonals."
+    },
+    {
+      "q": "What is the best way to teach symmetry in primary class?",
+      "a": "Paper-folding. Children fold a shape and check whether the halves match, which makes the line of symmetry concrete before any counting."
+    },
+    {
+      "q": "Where can I get more Symmetry practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Symmetry Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

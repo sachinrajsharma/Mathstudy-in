@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-measurement-mcq-online-test",
+  "title": "CTET Paper 1 Maths Measurement: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Measurement MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Measurement online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Measurement online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-measurement-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-measurement-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Measurement</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET measurement</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Measurement covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Non-standard and standard units of length</li><li>Unit conversion (mm, cm, m, km)</li><li>Perimeter of simple shapes</li><li>Estimation of length</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>1 cm = 10 mm, 1 m = 100 cm, 1 km = 1000 m.</li><li>Perimeter of a rectangle = 2 × (length + breadth); of a square = 4 × side.</li><li>Non-standard units (handspan, cubit) vary from person to person; standard units do not.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing units in one calculation (adding cm to m without converting).</li><li>Starting to measure from the edge of the ruler instead of the 0 mark.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Measurement questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Measurement online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Measurement Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Measurement. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Measurement",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "Which of the following is the best estimate for the length of a new pencil?",
+        "options": [
+          "15 mm",
+          "15 cm",
+          "15 m",
+          "15 km"
+        ],
+        "answer": 1,
+        "explanation": "A new pencil is about 15 cm long. 15 mm is too short, while 15 m and 15 km are far too long."
+      },
+      {
+        "q": "A square has a perimeter of 36 cm. The length of one side of the square is:",
+        "options": [
+          "6 cm",
+          "9 cm",
+          "12 cm",
+          "18 cm"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter of square = 4 × side. Hence side = Perimeter ÷ 4 = 36 cm ÷ 4 = 9 cm."
+      },
+      {
+        "q": "A tailor had 5 m 20 cm of cloth. He sold 2 m 50 cm. How much cloth is left?",
+        "options": [
+          "3 m 30 cm",
+          "2 m 70 cm",
+          "2 m 30 cm",
+          "3 m 70 cm"
+        ],
+        "answer": 1,
+        "explanation": "Total = 5 m 20 cm = 520 cm. Sold = 2 m 50 cm = 250 cm. Remaining = 520 – 250 = 270 cm = 2 m 70 cm."
+      },
+      {
+        "q": "3 km 50 m is equal to:",
+        "options": [
+          "3050 m",
+          "350 m",
+          "30050 m",
+          "3500 m"
+        ],
+        "answer": 0,
+        "explanation": "3 km = 3000 m, so 3 km 50 m = 3000 + 50 = 3050 m."
+      },
+      {
+        "q": "1 kilometre = ______ centimetres.",
+        "options": [
+          "1,000",
+          "10,000",
+          "1,00,000",
+          "10,00,000"
+        ],
+        "answer": 2,
+        "explanation": "1 km = 1000 m and 1 m = 100 cm, so 1 km = 1000 × 100 = 1,00,000 cm."
+      },
+      {
+        "q": "Each side of a regular pentagon is 4 cm. Its perimeter is:",
+        "options": [
+          "16 cm",
+          "20 cm",
+          "24 cm",
+          "12 cm"
+        ],
+        "answer": 1,
+        "explanation": "A regular pentagon has 5 equal sides. Perimeter = 5 × 4 cm = 20 cm."
+      },
+      {
+        "q": "The perimeter of a rectangle with length 8 cm and breadth 5 cm is:",
+        "options": [
+          "13 cm",
+          "40 cm",
+          "26 cm",
+          "16 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter of rectangle = 2 × (length + breadth) = 2 × (8 + 5) = 2 × 13 = 26 cm."
+      },
+      {
+        "q": "1.5 kilometres is equal to:",
+        "options": [
+          "150 m",
+          "1500 m",
+          "15000 m",
+          "15 m"
+        ],
+        "answer": 1,
+        "explanation": "1 km = 1000 m, so 1.5 km = 1.5 × 1000 = 1500 m."
+      },
+      {
+        "q": "The height of an adult human is about:",
+        "options": [
+          "1.7 cm",
+          "1.7 m",
+          "1.7 km",
+          "170 mm"
+        ],
+        "answer": 1,
+        "explanation": "Average adult height is around 1.7 metres. 1.7 cm and 170 mm (17 cm) are far too small, and 1.7 km is far too large."
+      },
+      {
+        "q": "The height of a classroom ceiling is about 3 ____.",
+        "options": [
+          "mm",
+          "cm",
+          "m",
+          "km"
+        ],
+        "answer": 2,
+        "explanation": "A typical classroom ceiling height is around 3 metres. Centimetres and millimetres are too small; kilometres are far too large."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why do we need standard units of measurement?",
+      "a": "Because non-standard units like a handspan differ from person to person, giving different results. Standard units (cm, m, km) are fixed for everyone."
+    },
+    {
+      "q": "How do you find the perimeter of a rectangle?",
+      "a": "Add the length and breadth and double it: perimeter = 2 × (length + breadth)."
+    },
+    {
+      "q": "Where can I get more Measurement practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Measurement Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}
