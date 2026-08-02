@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-addition-and-subtraction-mcq-online-test",
+  "title": "CTET Paper 1 Maths Addition and Subtraction: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Addition and Subtraction MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Addition and Subtraction online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Addition and Subtraction online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-addition-and-subtraction-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-addition-and-subtraction-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Addition and Subtraction</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET addition and subtraction</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Addition and Subtraction covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Addition and subtraction with carrying and borrowing</li><li>Mental-maths strategies</li><li>Estimation by rounding</li><li>Solving word problems</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>Addition is commutative (7 + 5 = 5 + 7); subtraction is not.</li><li>Addition and subtraction are inverse operations: if 8 + 6 = 14 then 14 − 6 = 8.</li><li>Estimate by rounding each number to the nearest ten or hundred before adding.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to carry over when a column exceeds 9.</li><li>Borrowing incorrectly when the top digit is smaller.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Addition and Subtraction questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Addition and Subtraction online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Addition and Subtraction Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Addition and Subtraction. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Addition and Subtraction",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "What is 24 − 13?",
+        "options": [
+          "11",
+          "12",
+          "10",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "Subtract, borrowing where the top digit is smaller: 24 − 13 = 11."
+      },
+      {
+        "q": "A teacher asks, 'Will the sum of 349 and 451 be more or less than 800?' What concept is she trying to develop?",
+        "options": [
+          "Exact computation skills",
+          "Estimation and number sense",
+          "Algebraic reasoning",
+          "Multiplication as repeated addition"
+        ],
+        "answer": 1,
+        "explanation": "The teacher is asking for a reasoned approximation without calculating exactly. This develops number sense—understanding the magnitude of numbers and the effect of operations. 349 is close to 350, 451 is close to 450; sum is about 800."
+      },
+      {
+        "q": "What is the estimated difference of 843 - 271 if we round to the nearest ten?",
+        "options": [
+          "560",
+          "580",
+          "570",
+          "600"
+        ],
+        "answer": 2,
+        "explanation": "843 rounds to 840 (ones digit is 3 < 5). 271 rounds to 270 (ones digit is 1 < 5). Estimated difference ≈ 840 - 270 = 570."
+      },
+      {
+        "q": "What is 46 − 27?",
+        "options": [
+          "19",
+          "20",
+          "18",
+          "21"
+        ],
+        "answer": 0,
+        "explanation": "Subtract, borrowing where the top digit is smaller: 46 − 27 = 19."
+      },
+      {
+        "q": "When rounding the number 3,462 to the nearest thousand, which of the following is correct?",
+        "options": [
+          "3,000",
+          "3,500",
+          "4,000",
+          "3,460"
+        ],
+        "answer": 0,
+        "explanation": "To round to the nearest 1000, we look at the hundreds digit. In 3,462, the hundreds digit is 4 (less than 5), so we round down, keeping the thousands digit 3. The number becomes 3,000."
+      },
+      {
+        "q": "A library has 852 books. 478 books are issued out. How many books are left in the library?",
+        "options": [
+          "484",
+          "374",
+          "474",
+          "384"
+        ],
+        "answer": 1,
+        "explanation": "852 - 478. Ones: 2 < 8, borrow 1 from 5 tens (leaving 4), 12 - 8 = 4. Tens: 4 < 7, borrow 1 from 8 hundreds (leaving 7), 14 - 7 = 7. Hundreds: 7 - 4 = 3. Books left = 374."
+      },
+      {
+        "q": "In the addition sum 45 + 36, what step do we do first?",
+        "options": [
+          "Add the digits in the tens place.",
+          "Add the digits in the ones place.",
+          "Count the total number of digits.",
+          "Start from the leftmost digit."
+        ],
+        "answer": 1,
+        "explanation": "In multi-digit addition, we always start from the rightmost column, which is the ones place."
+      },
+      {
+        "q": "What is 123 − 89?",
+        "options": [
+          "35",
+          "34",
+          "33",
+          "36"
+        ],
+        "answer": 1,
+        "explanation": "Subtract, borrowing where the top digit is smaller: 123 − 89 = 34."
+      },
+      {
+        "q": "Which of the following subtraction problems requires borrowing from the hundreds place because the tens digit is zero?",
+        "options": [
+          "456 - 238",
+          "703 - 256",
+          "582 - 345",
+          "670 - 183"
+        ],
+        "answer": 1,
+        "explanation": "In 703 - 256, the ones (3 < 6) need to borrow. The tens digit is 0, so it must borrow from the hundreds place first. 7 hundreds becomes 6 hundreds, 0 tens becomes 10 tens. Then borrow for ones."
+      },
+      {
+        "q": "A train had 538 passengers. At station A, 127 passengers got off and 145 got on. How many passengers are on the train now?",
+        "options": [
+          "556",
+          "520",
+          "266",
+          "810"
+        ],
+        "answer": 0,
+        "explanation": "Multi-step problem: First subtract those who got off: 538 - 127 = 411. Then add those who got on: 411 + 145 = 556."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How is subtraction different from addition in CTET questions?",
+      "a": "Addition combines quantities and is commutative; subtraction finds a difference and is not commutative. CTET often tests the link between them and mental strategies."
+    },
+    {
+      "q": "What is the split (place-value) strategy?",
+      "a": "You add tens and ones separately — for 36 + 47, do 30 + 40 = 70 and 6 + 7 = 13, then 70 + 13 = 83."
+    },
+    {
+      "q": "Where can I get more Addition and Subtraction practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Addition and Subtraction Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-division-mcq-online-test",
+  "title": "CTET Paper 1 Maths Division: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Division MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Division online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Division online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-division-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-division-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Division</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET division</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Division covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Division as equal sharing and equal grouping</li><li>Division facts</li><li>Quotient and remainder</li><li>Long division at an elementary level</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>Division is the inverse of multiplication: 12 ÷ 4 = 3 because 4 × 3 = 12.</li><li>In 17 ÷ 5, the quotient is 3 and the remainder is 2.</li><li>The remainder is always smaller than the divisor.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Leaving a remainder equal to or larger than the divisor.</li><li>Confusing \"sharing\" (how many each) with \"grouping\" (how many groups).</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Division questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Division online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Division Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Division. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Division",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "What is the quotient when 816 is divided by 8?",
+        "options": [
+          "12",
+          "102",
+          "120",
+          "1002"
+        ],
+        "answer": 1,
+        "explanation": "Dividing digit by digit: 8 \\div 8 = 1 (hundreds place). Next, 1 \\div 8 = 0 (tens place). Bringing down 6 gives 16, and 16 \\div 8 = 2 (ones place). Thus, 816 \\div 8 = 102."
+      },
+      {
+        "q": "Given the multiplication fact 8 \\times 5 = 40, which of the following is a corresponding division fact?",
+        "options": [
+          "40 \\div 8 = 5",
+          "40 \\div 4 = 10",
+          "40 - 8 = 32",
+          "8 \\div 5 = 1.6"
+        ],
+        "answer": 0,
+        "explanation": "From the multiplication fact 8 \\times 5 = 40, the two inverse division facts are 40 \\div 8 = 5 and 40 \\div 5 = 8."
+      },
+      {
+        "q": "When a certain number is divided by 15, the quotient is 18 and the remainder is the largest possible remainder for that divisor. What is the number?",
+        "options": [
+          "270",
+          "284",
+          "285",
+          "269"
+        ],
+        "answer": 1,
+        "explanation": "Divisor = 15. The largest possible remainder for a divisor of 15 is 15 - 1 = 14. Quotient = 18. Using \\text{Dividend} = (\\text{Divisor} \\times \\text{Quotient}) + \\text{Remainder}: \\text{Dividend} = (15 \\times 18) + 14 = 270 + 14 = 284."
+      },
+      {
+        "q": "When 29 is divided by 4, what are the quotient and the remainder?",
+        "options": [
+          "Quotient = 6, Remainder = 5",
+          "Quotient = 7, Remainder = 1",
+          "Quotient = 7, Remainder = 2",
+          "Quotient = 8, Remainder = 3"
+        ],
+        "answer": 1,
+        "explanation": "Using \\text{Dividend} = (\\text{Divisor} \\times \\text{Quotient}) + \\text{Remainder}: 29 = (4 \\times 7) + 1. The quotient is 7 and the remainder is 1."
+      },
+      {
+        "q": "A teacher has 30 marbles and distributes them equally among 5 groups of students. How many marbles does each group receive?",
+        "options": [
+          "5 marbles",
+          "6 marbles",
+          "10 marbles",
+          "25 marbles"
+        ],
+        "answer": 1,
+        "explanation": "Total marbles = 30. Number of groups = 5. Marbles per group = 30 \\div 5 = 6 marbles."
+      },
+      {
+        "q": "Which of the following mathematical expressions correctly shows 15 \\div 3 as repeated subtraction?",
+        "options": [
+          "15 - 5 - 5 - 5 = 0",
+          "15 - 3 - 3 - 3 - 3 - 3 = 0",
+          "15 - 3 = 12",
+          "15 - 3 - 5 = 7"
+        ],
+        "answer": 1,
+        "explanation": "Division as repeated subtraction involves subtracting the divisor (3) repeatedly from the dividend (15) until zero is reached. Subtracting 3 a total of 5 times yields 15 \\div 3 = 5."
+      },
+      {
+        "q": "A student wants to model 16 \\div 4 on a number line using repeated subtraction. Starting at 16, how many backward jumps of 4 units each must be made to reach 0?",
+        "options": [
+          "3 jumps",
+          "4 jumps",
+          "5 jumps",
+          "12 jumps"
+        ],
+        "answer": 1,
+        "explanation": "Moving backward from 16 by 4 units each step yields: 16 \\rightarrow 12 \\rightarrow 8 \\rightarrow 4 \\rightarrow 0. A total of 4 jumps of size 4 are required to reach 0."
+      },
+      {
+        "q": "In a division sum, the divisor is 5 times the remainder, and the quotient is 2. If the remainder is 4, what is the dividend?",
+        "options": [
+          "40",
+          "44",
+          "24",
+          "36"
+        ],
+        "answer": 1,
+        "explanation": "Given: Remainder R = 4. Divisor d = 5 \\times R = 5 \\times 4 = 20. Quotient Q = 2. Using \\text{Dividend} = (d \\times Q) + R: \\text{Dividend} = (20 \\times 2) + 4 = 40 + 4 = 44."
+      },
+      {
+        "q": "A mother shares 18 cookies equally among her 3 children. Which division expression represents this situation?",
+        "options": [
+          "18 + 3 = 21",
+          "18 - 3 = 15",
+          "18 \\div 3 = 6",
+          "18 \\times 3 = 54"
+        ],
+        "answer": 2,
+        "explanation": "Distributing a total amount (18 cookies) equally into a known number of groups (3 children) is represented by 18 \\div 3 = 6 cookies per child."
+      },
+      {
+        "q": "What is the result of 408 \\div 4?",
+        "options": [
+          "12",
+          "102",
+          "120",
+          "1002"
+        ],
+        "answer": 1,
+        "explanation": "Dividing digit by digit: 4 \\div 4 = 1 (hundreds place). Next digit is 0: 0 \\div 4 = 0 (tens place). Next digit is 8: 8 \\div 4 = 2 (ones place). Thus, 408 \\div 4 = 102."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What are the two meanings of division?",
+      "a": "Equal sharing (how many in each group) and equal grouping (how many groups). Both are tested at the primary level."
+    },
+    {
+      "q": "Can the remainder be bigger than the divisor?",
+      "a": "No. If it is, the division is not complete — the remainder must always be less than the divisor."
+    },
+    {
+      "q": "Where can I get more Division practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Division Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

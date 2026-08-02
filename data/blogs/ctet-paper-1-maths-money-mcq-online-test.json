@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-money-mcq-online-test",
+  "title": "CTET Paper 1 Maths Money: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Money MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Money online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Money online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-money-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-money-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Money</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET money</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Money covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Indian currency — coins and notes</li><li>Counting money and making amounts</li><li>Finding change</li><li>Money word problems</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>₹1 = 100 paise.</li><li>Change = amount paid − cost of the item.</li><li>Total cost of many identical items is found by multiplication.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding rupees and paise without aligning the units.</li><li>Confusing the cost with the change in word problems.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Money questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Money online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Money Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Money. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Money",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "Gita bought a second-hand bicycle for ₹800, spent ₹150 on its repair, and then sold it for ₹1,100. Did she make a profit or a loss, and by how much?",
+        "options": [
+          "Profit of ₹300",
+          "Profit of ₹150",
+          "Loss of ₹150",
+          "Profit of ₹250"
+        ],
+        "answer": 1,
+        "explanation": "Total Cost Price = Purchase price + Repair cost = ₹800 + ₹150 = ₹950. Selling Price = ₹1,100. Since SP > CP, Profit = SP - Total CP = ₹1,100 - ₹950 = ₹150."
+      },
+      {
+        "q": "You have to pay ₹150 for groceries. Which of the following combination is NOT correct?",
+        "options": [
+          "One ₹100 note + One ₹50 note",
+          "Three ₹50 notes",
+          "Seven ₹20 notes + One ₹10 note",
+          "One ₹200 note + One ₹50 note"
+        ],
+        "answer": 3,
+        "explanation": "{\"step_by_step\":[\"Check option A: 100 + 50 = 150. (Correct combination)\",\"Check option B: 3 * 50 = 150. (Correct combination)\",\"Check option C: 7 * 20 = 140, plus 10 = 150. (Correct combination)\",\"Check option D: 200 + 50 = 250. (Incorrect, exceeds required amount)\"],\"final_answer\":\"D\",\"ctet_pedagogy_tip\":\"Questions with 'NOT' require careful reading. Teachers must train students to read the question stem completely before scanning the options.\"}"
+      },
+      {
+        "q": "Express 3575 paise into rupees and paise.",
+        "options": [
+          "₹3.575",
+          "₹357.5",
+          "₹35 and 75 paise",
+          "₹3.57 and 5 paise"
+        ],
+        "answer": 2,
+        "explanation": "Since 100 paise = ₹1, 3575 paise divided by 100 gives 35 as the quotient and 75 as the remainder. Thus, 3575 paise = ₹35 and 75 paise (or ₹35.75)."
+      },
+      {
+        "q": "A Class II student has two ₹5 coins, three ₹2 coins, and four 50-paise coins. What is the total amount of money the student has?",
+        "options": [
+          "₹16.00",
+          "₹18.00",
+          "₹17.50",
+          "₹20.00"
+        ],
+        "answer": 1,
+        "explanation": "Calculations: Two ₹5 coins = 2 × ₹5 = ₹10. Three ₹2 coins = 3 × ₹2 = ₹6. Four 50-paise coins = 4 × 50 paise = 200 paise = ₹2. Total amount = ₹10 + ₹6 + ₹2 = ₹18.00."
+      },
+      {
+        "q": "Which of the following is the correct way to write 'Sixty-seven rupees and twenty paise' in figures?",
+        "options": [
+          "₹67.02",
+          "₹67.20",
+          "67.20₹",
+          "₹6720"
+        ],
+        "answer": 1,
+        "explanation": "{\"step_by_step\":[\"Rupees part: Sixty-seven = 67.\",\"Paise part: Twenty = 20.\",\"Structure: ₹ [Rupees].[Paise].\",\"Since paise takes up two decimal places, twenty paise is written as .20.\",\"Final figure: ₹67.20.\"],\"final_answer\":\"₹67.20\",\"ctet_pedagogy_tip\":\"Students often reverse the symbol (placing it on the right) or forget that paise requires two digits. Comparing ₹67.20 with ₹67.02 helps build visual discrimination.\"}"
+      },
+      {
+        "q": "Sita read the price of a toy as 'Two hundred three rupees and fifty paise'. She wrote it as ₹203.50. Is she correct?",
+        "options": [
+          "Yes, completely correct",
+          "No, she should write ₹200.30.50",
+          "No, it should be ₹23.50",
+          "No, it should be ₹203.05"
+        ],
+        "answer": 0,
+        "explanation": "{\"step_by_step\":[\"Analyze 'Two hundred three rupees': This is 203.\",\"Analyze 'fifty paise': This is 50.\",\"Figure: 203 Rupees and 50 Paise.\",\"Correct notation: ₹203.50.\",\"Sita is absolutely correct.\"],\"final_answer\":\"Yes, completely correct\",\"ctet_pedagogy_tip\":\"This checks for the 'zero' confusion in hundreds. 'Two hundred three' retains the tens place zero. Teachers should contrast 'Two hundred thirty (230)' and 'Two hundred three (203)'.\"}"
+      },
+      {
+        "q": "In a book store, 2 dictionaries cost as much as 5 storybooks. If 1 storybook costs ₹80, what is the cost of 1 dictionary?",
+        "options": [
+          "₹160",
+          "₹200",
+          "₹240",
+          "₹180"
+        ],
+        "answer": 1,
+        "explanation": "Cost of 1 storybook = ₹80. Cost of 5 storybooks = 5 × ₹80 = ₹400. Since 2 dictionaries cost ₹400, cost of 1 dictionary = ₹400 / 2 = ₹200."
+      },
+      {
+        "q": "Which mathematical symbol was officially adopted by the Government of India for the Indian Rupee in 2010?",
+        "options": [
+          "₹",
+          "Rs.",
+          "INR",
+          ""
+        ],
+        "answer": 0,
+        "explanation": "The official symbol for the Indian Rupee ('₹'), designed by Udaya Kumar, was officially approved and adopted by the Government of India on July 15, 2010."
+      },
+      {
+        "q": "Express 6005 paise in standard rupee and paise format.",
+        "options": [
+          "₹60.50",
+          "₹600.5",
+          "₹60.05",
+          "₹6.005"
+        ],
+        "answer": 2,
+        "explanation": "Since 100 paise = ₹1, divide 6005 by 100: 6005 / 100 = ₹60.05 (60 Rupees and 5 Paise)."
+      },
+      {
+        "q": "Radha has a 50 paise coin, a ₹1 coin, a ₹2 coin, and a ₹5 coin. What is the total amount of money she has in rupees?",
+        "options": [
+          "₹7.50",
+          "₹8.50",
+          "₹8.00",
+          "₹7.00"
+        ],
+        "answer": 1,
+        "explanation": "{\"step_by_step\":[\"List the coin values: 50 paise, ₹1, ₹2, ₹5.\",\"Convert 50 paise to rupees: 50 paise = ₹50/100 = ₹0.50.\",\"Add all values in rupees: ₹0.50 + ₹1 + ₹2 + ₹5.\",\"Step 1: 0.50 + 1.00 = 1.50\",\"Step 2: 1.50 + 2.00 = 3.50\",\"Step 3: 3.50 + 5.00 = 8.50\",\"Total = ₹8.50\"],\"final_answer\":\"₹8.50\",\"ctet_pedagogy_tip\":\"For CTET, ensure that students understand decimal representation of money. Use real coins as Teaching-Learning Material (TLM) to build the concept of conversion of paise to rupees.\"}"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How is money taught in primary class?",
+      "a": "Through real coins and notes and shop role-play, so children count amounts, make totals and give change with confidence."
+    },
+    {
+      "q": "How do you calculate change?",
+      "a": "Subtract the cost of the item from the amount paid: change = amount paid − cost."
+    },
+    {
+      "q": "Where can I get more Money practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Money Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

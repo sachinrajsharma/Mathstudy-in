@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-time-mcq-online-test",
+  "title": "CTET Paper 1 Maths Time: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Time MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Time online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Time online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-time-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-time-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Time</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET time</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Time covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Reading clocks (hours and minutes)</li><li>12-hour time, a.m. and p.m.</li><li>Units of time and the calendar</li><li>Elapsed time</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>1 hour = 60 minutes; 1 minute = 60 seconds.</li><li>1 week = 7 days; 1 year = 12 months = 365 days (366 in a leap year).</li><li>The short hand shows hours, the long hand shows minutes.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Reading the hour hand as if it points exactly at a number when it is between two.</li><li>Forgetting February has 29 days in a leap year.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Time questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Time online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Time Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Time. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Time",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "If today is Wednesday, what day will it be after 15 days?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Tuesday",
+          "Monday"
+        ],
+        "answer": 1,
+        "explanation": "15 days = 2 weeks (14 days) + 1 day. After complete weeks, the day remains the same. The remaining 1 odd day shifts Wednesday to Thursday. Therefore, after 15 days it will be Thursday."
+      },
+      {
+        "q": "A clock shows 11:58 p.m. How will this time be shown after 4 minutes?",
+        "options": [
+          "12:02 a.m.",
+          "12:02 p.m.",
+          "11:62 p.m.",
+          "00:02 p.m."
+        ],
+        "answer": 0,
+        "explanation": "11:58 p.m. is 2 minutes before midnight. Adding 4 minutes crosses midnight (12:00 a.m.). 2 minutes take it to 12:00 a.m., and the remaining 2 minutes make it 12:02 a.m. of the next day."
+      },
+      {
+        "q": "What is the standard unit of time in the International System of Units (SI)?",
+        "options": [
+          "Minute",
+          "Hour",
+          "Day",
+          "Second"
+        ],
+        "answer": 3,
+        "explanation": "The second (symbol: s) is the base unit of time in the International System of Units (SI). Other units like minutes, hours, and days are derived units based on the second."
+      },
+      {
+        "q": "What does 'a.m.' stand for?",
+        "options": [
+          "After Midnight",
+          "Ante Meridiem",
+          "After Morning",
+          "Approaching Midday"
+        ],
+        "answer": 1,
+        "explanation": "a.m. is the abbreviation for the Latin term 'Ante Meridiem', which translates to 'before midday'. It covers the period from midnight (12:00 a.m.) to just before noon (11:59 a.m.)."
+      },
+      {
+        "q": "A train journey takes 2 hours and 45 minutes. How many minutes is the total journey?",
+        "options": [
+          "245 minutes",
+          "105 minutes",
+          "145 minutes",
+          "165 minutes"
+        ],
+        "answer": 3,
+        "explanation": "1 hour = 60 minutes. 2 hours = 2 × 60 = 120 minutes. Total journey = 120 + 45 = 165 minutes."
+      },
+      {
+        "q": "How many months have exactly 30 days?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The months with exactly 30 days are: April, June, September, and November. That is 4 months. (February has 28/29 days, and the remaining 7 months have 31 days)."
+      },
+      {
+        "q": "How many days are there in the month of August?",
+        "options": [
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "answer": 3,
+        "explanation": "August is the 8th month of the year. It has 31 days. Using the knuckle method, August falls on a knuckle, indicating a 31-day month."
+      },
+      {
+        "q": "A bus leaves Delhi at 6:45 a.m. and reaches Agra at 11:10 a.m. How long is the journey?",
+        "options": [
+          "4 hours 25 minutes",
+          "5 hours 25 minutes",
+          "4 hours 35 minutes",
+          "5 hours 15 minutes"
+        ],
+        "answer": 0,
+        "explanation": "From 6:45 a.m. to 11:00 a.m.: 4 hours 15 minutes (6:45-7:45=1h, 7:45-8:45=2h, 8:45-9:45=3h, 9:45-10:45=4h, 10:45-11:00=15min). From 11:00 to 11:10: 10 minutes. Total = 4 hours 15 min + 10 min = 4 hours 25 minutes."
+      },
+      {
+        "q": "If it is 3:00 p.m. now, what time was it 4 hours and 30 minutes ago?",
+        "options": [
+          "11:30 a.m.",
+          "10:30 a.m.",
+          "10:30 p.m.",
+          "7:30 a.m."
+        ],
+        "answer": 1,
+        "explanation": "Counting backward from 3:00 p.m.: 3:00 p.m. minus 3 hours is 12:00 p.m. (noon). Going back 1 more hour makes it 11:00 a.m. Going back the final 30 minutes gives 10:30 a.m. So, the time 4 hours 30 minutes before 3:00 p.m. was 10:30 a.m."
+      },
+      {
+        "q": "Sita wakes up at 7 o'clock in the morning. How should she write this time using a.m. or p.m.?",
+        "options": [
+          "7:00 p.m.",
+          "7:00 a.m.",
+          "19:00 a.m.",
+          "07:00 p.m."
+        ],
+        "answer": 1,
+        "explanation": "7 o'clock in the morning falls in the period from midnight to noon. This period is denoted by a.m. The correct representation is 7:00 a.m. 'a.m.' means 'before midday'."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many minutes are there in an hour?",
+      "a": "60 minutes. And one minute has 60 seconds."
+    },
+    {
+      "q": "What does \"half past 4\" mean?",
+      "a": "It means 30 minutes after 4 o'clock, written as 4:30."
+    },
+    {
+      "q": "Where can I get more Time practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Time Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

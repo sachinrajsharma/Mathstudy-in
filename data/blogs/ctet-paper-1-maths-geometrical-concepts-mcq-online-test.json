@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-geometrical-concepts-mcq-online-test",
+  "title": "CTET Paper 1 Maths Geometrical Concepts: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Geometrical Concepts MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Geometrical Concepts online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Geometrical Concepts online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-geometrical-concepts-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-geometrical-concepts-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Geometrical Concepts</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET geometrical concepts</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Geometrical Concepts covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Point, line, line segment and ray</li><li>Open and closed figures</li><li>Reading a number line</li><li>How these ideas build toward angles</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>A line segment has two endpoints; a ray has one; a line has none.</li><li>A closed figure starts and ends at the same point with no gaps.</li><li>Two rays sharing an endpoint form an angle.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Confusing a ray (one endpoint, endless one way) with a line segment (two endpoints).</li><li>Thinking a line \"stops\" — a line extends endlessly in both directions.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Geometrical Concepts questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Geometrical Concepts online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Geometrical Concepts Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Geometrical Concepts. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Geometrical Concepts",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "Which of the following three-dimensional shapes has zero edges and zero flat faces?",
+        "options": [
+          "Cone",
+          "Cylinder",
+          "Sphere",
+          "Cube"
+        ],
+        "answer": 2,
+        "explanation": "A sphere is a completely round solid shape bounded by a single curved surface. It has 0 flat faces, 0 straight edges, and 0 vertices (corners)."
+      },
+      {
+        "q": "What is the total number of faces on a solid triangular prism (a shape with 2 triangular bases and 3 rectangular sides)?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "A triangular prism consists of 2 triangular end faces + 3 rectangular side faces = 5 faces in total."
+      },
+      {
+        "q": "Which 3D shape features 2 parallel circular flat faces connected by a single curved surface?",
+        "options": [
+          "Sphere",
+          "Cylinder",
+          "Cone",
+          "Cube"
+        ],
+        "answer": 1,
+        "explanation": "A right circular cylinder is bounded by 2 identical parallel flat circular bases and 1 curved lateral surface."
+      },
+      {
+        "q": "A glob of dough rolled into a round ball represents which 3D shape?",
+        "options": [
+          "Sphere",
+          "Cone",
+          "Cylinder",
+          "Cube"
+        ],
+        "answer": 0,
+        "explanation": "A round ball made of dough has a continuous curved surface with zero flat faces or edges, making it a sphere."
+      },
+      {
+        "q": "Which of the following real-life objects is shaped like a cuboid?",
+        "options": [
+          "A fresh orange",
+          "A matchbox",
+          "A party hat",
+          "A tennis ball"
+        ],
+        "answer": 1,
+        "explanation": "A matchbox has 6 rectangular faces, 12 edges, and 8 vertices, making it a classic real-life example of a cuboid."
+      },
+      {
+        "q": "A teacher rolls a tin can along a flat table. What happens if the teacher flips the tin can onto one of its flat ends and pushes it?",
+        "options": [
+          "It continues to roll in a circle.",
+          "It slides smoothly across the table.",
+          "It bounces off the table.",
+          "It stops moving completely."
+        ],
+        "answer": 1,
+        "explanation": "A tin can (cylinder) rolls on its curved side, but when placed on its flat circular face, contact friction and surface flatness cause it to slide."
+      },
+      {
+        "q": "Which solid shape can exhibit BOTH rolling and sliding behaviors, but CANNOT be stacked securely on top of an identical copy of itself?",
+        "options": [
+          "Cube",
+          "Cylinder",
+          "Cone",
+          "Cuboid"
+        ],
+        "answer": 2,
+        "explanation": "A cone can roll (on its curved surface) and slide (on its flat base). However, because its top tapers to a single pointed vertex, another cone cannot be stacked stably on top of it."
+      },
+      {
+        "q": "A solid pyramid has a flat triangular base and 3 triangular side faces. How many total vertices does this triangular pyramid (tetrahedron) have?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "A triangular pyramid has 3 vertices at the triangular base and 1 top apex vertex, giving a total of 4 vertices."
+      },
+      {
+        "q": "How many curved edges does a right circular cylinder have?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "A cylinder has 2 circular edges where its top and bottom flat faces meet its curved side wall."
+      },
+      {
+        "q": "Which statement is TRUE for parallel lines?",
+        "options": [
+          "They meet at one point",
+          "They meet at two points",
+          "They never meet",
+          "They are curved"
+        ],
+        "answer": 2,
+        "explanation": "By definition, parallel lines are straight lines in a plane that do not intersect regardless of how far they are extended."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between a line and a line segment?",
+      "a": "A line segment is a straight path with two fixed endpoints. A line is straight and endless in both directions, with no endpoints."
+    },
+    {
+      "q": "What is a ray?",
+      "a": "A ray starts at one endpoint and continues without end in a single direction — like a beam of light from a torch."
+    },
+    {
+      "q": "Where can I get more Geometrical Concepts practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Geometrical Concepts Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

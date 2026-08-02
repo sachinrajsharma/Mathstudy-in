@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-weight-mass-mcq-online-test",
+  "title": "CTET Paper 1 Maths Weight (Mass): Free Online Test + Practice MCQs",
+  "meta_title": "CTET Weight (Mass) MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Weight (Mass) online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Weight (Mass) online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-weight-mass-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-weight-mass-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Weight (Mass)</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET weight mass</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Weight (Mass) covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Heavy and light comparisons</li><li>Grams and kilograms</li><li>Converting between g and kg</li><li>Using a balance and solving word problems</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>1 kg = 1000 g.</li><li>To change kg to g multiply by 1000; g to kg divide by 1000.</li><li>A pan balance shows equal mass when it is level.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting 1 kg = 1000 g in conversions.</li><li>Confusing capacity (litres) with mass (grams/kilograms).</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Weight (Mass) questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Weight (Mass) online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Weight (Mass) Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Weight (Mass). Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Weight (Mass)",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A delivery van carries 35 sacks of rice. The total weight of the sacks is 1750 kg. What is the mass of one sack of rice?",
+        "options": [
+          "50 kg",
+          "45 kg",
+          "55 kg",
+          "40 kg"
+        ],
+        "answer": 0,
+        "explanation": "Weight of 1 sack = 1750 kg ÷ 35 = 50 kg."
+      },
+      {
+        "q": "Which of the following lists correctly orders the given masses in DESCENDING order (heaviest to lightest)?",
+        "options": [
+          "4.8 kg > 4 kg 80 g > 4008 g > 480 g",
+          "4.8 kg > 4008 g > 4 kg 80 g > 480 g",
+          "480 g > 4008 g > 4 kg 80 g > 4.8 kg",
+          "4.8 kg > 4 kg 80 g > 480 g > 4008 g"
+        ],
+        "answer": 0,
+        "explanation": "Convert all values to grams: • 4.8 kg = 4800 g • 4 kg 80 g = 4080 g • 4008 g • 480 g Descending order: 4800 g > 4080 g > 4008 g > 480 g."
+      },
+      {
+        "q": "A fruit vendor sold 14 kg 350 g of apples in the morning and 17 kg 850 g of apples in the evening. What was the total mass of apples sold during the day?",
+        "options": [
+          "32 kg 200 g",
+          "32 kg 100 g",
+          "31 kg 200 g",
+          "32 kg 300 g"
+        ],
+        "answer": 0,
+        "explanation": "Morning: 14 kg 350 g Evening: 17 kg 850 g Grams sum = 350 g + 850 g = 1200 g = 1 kg 200 g Kilograms sum = 14 kg + 17 kg + 1 kg = 32 kg Total = 32 kg 200 g."
+      },
+      {
+        "q": "Which of the following fractional/decimal expressions is NOT equivalent to 5 ¾ kg?",
+        "options": [
+          "5075 g",
+          "5750 g",
+          "5 kg 750 g",
+          "5.75 kg"
+        ],
+        "answer": 0,
+        "explanation": "5 ¾ kg = 5 kg + 750 g = 5750 g = 5.75 kg. 5075 g equals 5 kg 75 g, which is NOT equal to 5 ¾ kg."
+      },
+      {
+        "q": "A family consumes 1 kg 250 g of sugar every week. How much sugar will the family consume in a 30-day month (assuming exactly 4 weeks)?",
+        "options": [
+          "5 kg 000 g",
+          "4 kg 500 g",
+          "5 kg 250 g",
+          "6 kg 000 g"
+        ],
+        "answer": 0,
+        "explanation": "Weekly consumption = 1250 g. For 4 weeks = 1250 g × 4 = 5000 g = 5 kg."
+      },
+      {
+        "q": "Which of the following fractional/decimal representations is NOT equivalent to 2.05 kg?",
+        "options": [
+          "2 kg 50 g",
+          "2050 g",
+          "2 kg 500 g",
+          "2 1/20 kg"
+        ],
+        "answer": 2,
+        "explanation": "2.05 kg = 2 kg + 0.05 kg = 2 kg + (0.05 × 1000 g) = 2 kg 50 g = 2050 g = 2 1/20 kg. However, 2 kg 500 g equals 2.5 kg or 2500 g, which is NOT equal to 2.05 kg."
+      },
+      {
+        "q": "Which of the following objects would be most appropriate to measure using 'grams' (g) rather than 'kilograms' (kg) in a primary mathematics classroom?",
+        "options": [
+          "A single metal key",
+          "A student's school desk",
+          "A sack of rice for mid-day meals",
+          "An adult bicycle"
+        ],
+        "answer": 0,
+        "explanation": "Grams are suited for measuring light, small items such as keys, coins, or paper clips. Desks, sacks of grain, and bicycles are measured in kilograms."
+      },
+      {
+        "q": "A packet of organic tea leaves weighs 7 kg 8 g. What is its mass expressed entirely in grams?",
+        "options": [
+          "7008 g",
+          "7080 g",
+          "7800 g",
+          "780 g"
+        ],
+        "answer": 0,
+        "explanation": "Convert kilograms to grams: 7 kg = 7 × 1000 g = 7000 g. Total mass = 7000 g + 8 g = 7008 g."
+      },
+      {
+        "q": "A baker uses 350 g of flour to bake one cake. If he has a sack containing 7 kg of flour, how many such cakes can he bake without any flour remaining?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": 1,
+        "explanation": "Convert sack weight to grams: 7 kg = 7000 g. Flour per cake = 350 g. Number of cakes = 7000 ÷ 350 = 20."
+      },
+      {
+        "q": "Which of the following representations is NOT equal to 3 ¼ kg?",
+        "options": [
+          "3250 g",
+          "3 kg 250 g",
+          "3.25 kg",
+          "3025 g"
+        ],
+        "answer": 3,
+        "explanation": "3 ¼ kg = 3 kg + 250 g = 3250 g = 3.25 kg. 3025 g equals 3 kg 25 g, which is NOT equal to 3 ¼ kg."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many grams are in a kilogram?",
+      "a": "1 kilogram = 1000 grams. To convert kg to g, multiply by 1000."
+    },
+    {
+      "q": "How is mass measured in primary class?",
+      "a": "First by comparing \"heavier\" and \"lighter\" on a balance, then using standard units — grams and kilograms."
+    },
+    {
+      "q": "Where can I get more Weight (Mass) practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Weight (Mass) Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

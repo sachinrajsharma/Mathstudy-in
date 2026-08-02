@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-data-handling-mcq-online-test",
+  "title": "CTET Paper 1 Maths Data Handling: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Data Handling MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Data Handling online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Data Handling online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Data Handling</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET data handling</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Data Handling covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Collecting and organising data</li><li>Tally marks and tables</li><li>Pictographs</li><li>Bar graphs and reading data</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>In a tally, a bundle of five is four vertical lines crossed by a fifth.</li><li>In a pictograph, always read the key — one symbol may stand for more than one item.</li><li>A bar graph shows values by the height of each bar on a scale.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ignoring the key of a pictograph and counting symbols as one each.</li><li>Misreading the scale of a bar graph.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Data Handling questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Data Handling online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Data Handling Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Data Handling. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Data Handling",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A pictograph uses the symbol ☀ to represent 3 sunny days. The row for June has 4 such symbols. How many sunny days were there in June?",
+        "options": [
+          "4",
+          "12",
+          "7",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Number of sunny days = 4 × 3 = 12."
+      },
+      {
+        "q": "A teacher asks students to collect data on the birthdays of their classmates and arrange them month-wise in a table. This activity primarily develops:",
+        "options": [
+          "Data collection and organisation skills",
+          "Art and craft skills",
+          "Singing skills",
+          "Recitation skills"
+        ],
+        "answer": 0,
+        "explanation": "The activity involves gathering real data and organising it systematically, which are fundamental data handling skills."
+      },
+      {
+        "q": "A teacher gives students the following raw data: 'A, B, A, C, A, B, C, A, B'. After constructing a frequency table, what should the sum of the 'Frequency' column be?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "The frequency table will have A: 4, B: 3, C: 2. The sum of the frequency column is the total number of observations listed in the raw data. Total = 4 + 3 + 2 = 9. This sum acts as a check for the table's accuracy."
+      },
+      {
+        "q": "A pictograph uses a heart symbol ♥ to represent 2 students. How many students do 5 such symbols stand for?",
+        "options": [
+          "5",
+          "7",
+          "10",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Total students = 5 × 2 = 10."
+      },
+      {
+        "q": "A bar graph displays favourite fruits. The scale is: 1 cm on the vertical axis = 2 children. If the bar for Mango is 7.5 cm high, how many children like Mango?",
+        "options": [
+          "7.5",
+          "9.5",
+          "15",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Number of children = 7.5 cm × 2 children/cm = 15 children."
+      },
+      {
+        "q": "A bar graph shows the number of absentees on different days. The tallest bar indicates:",
+        "options": [
+          "The day with the least absentees",
+          "The day with the most absentees",
+          "The average number of absentees",
+          "The total number of absentees"
+        ],
+        "answer": 1,
+        "explanation": "In a bar graph, the height of a bar represents the value; the tallest bar corresponds to the maximum value, i.e., the day with the most absentees."
+      },
+      {
+        "q": "A pictograph uses the symbol ● to represent 2 apples. Which of the following shows 7 apples correctly?",
+        "options": [
+          "3 full ● and 1 half ●",
+          "4 full ●",
+          "2 full ● and 1 half ●",
+          "1 full ● and 3 half ●"
+        ],
+        "answer": 0,
+        "explanation": "3 full ● give 6 apples, and a half ● gives 1 apple (half of 2). Total = 7 apples."
+      },
+      {
+        "q": "A teacher has data: 45, 90, 75, 30. She wants to create a bar graph with the vertical axis not exceeding 100. Which scale is most suitable for the graph?",
+        "options": [
+          "1 unit = 1",
+          "1 unit = 10",
+          "1 unit = 2",
+          "1 unit = 5"
+        ],
+        "answer": 1,
+        "explanation": "With 1 unit = 10, the highest bar (90) will be 9 units tall, which fits neatly and is easy to draw. Scales like 1 unit = 1 would make bars too tall (up to 90 units), while 1 unit = 2 gives up to 45 units, still large. 1 unit = 5 gives 18 units, manageable but 10 is simpler and more common for such numbers."
+      },
+      {
+        "q": "A pictograph uses the symbol ☺ to represent 2 children. The row for 'Cricket' has 6 such symbols. How many children like Cricket?",
+        "options": [
+          "6",
+          "8",
+          "12",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Number of children = Number of symbols × Value of one symbol = 6 × 2 = 12."
+      },
+      {
+        "q": "A pictograph uses the symbol ★ to represent 3 stars. If there are 5 such symbols, how many stars does it represent?",
+        "options": [
+          "5",
+          "8",
+          "15",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "5 symbols × 3 stars per symbol = 15 stars."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is a pictograph?",
+      "a": "A pictograph shows data using pictures or symbols, where each symbol stands for a fixed number given in the key."
+    },
+    {
+      "q": "Why read the key first in a pictograph?",
+      "a": "Because one symbol often represents more than one item (for example, one face = 2 children), so the count depends on the key."
+    },
+    {
+      "q": "Where can I get more Data Handling practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Data Handling Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}

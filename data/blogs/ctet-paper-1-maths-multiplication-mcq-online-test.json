@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-1-maths-multiplication-mcq-online-test",
+  "title": "CTET Paper 1 Maths Multiplication: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Multiplication MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 1 Maths Multiplication online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Multiplication online test for CTET Paper I Maths &mdash; with instant scoring, full explanations, key facts and a path to 150 more practice MCQs.",
+  "category": "CTET Paper 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-1-maths-multiplication-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-1-maths-multiplication-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Multiplication</strong> chapter is a dependable source of marks in the CTET Paper I (Classes I&ndash;V) Mathematics section &mdash; and it is one you can master quickly with the right practice. This guide explains what <strong>CTET multiplication</strong> actually tests, the facts and formulas worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to check where you stand.</p><p>Work through the quiz below first, read the explanation for anything you miss, then use the chapter-test e-book at the end for full, exam-style practice. That \"test &rarr; review &rarr; practise\" loop is how serious CTET candidates turn a weak topic into a strong one.</p><h2>What Multiplication covers in CTET Paper I Maths</h2><p>At the primary level this chapter blends <em>content</em> knowledge with <em>pedagogy</em> &mdash; how young children learn the idea. Expect questions on:</p><ul><li>Multiplication as repeated addition</li><li>Arrays and equal groups</li><li>Multiplication tables</li><li>Properties — commutative, multiply by 0, 1 and 10</li></ul><p>Practise the full syllabus free on the <a href=\"https://vidaara.org/ctet/paper-1\" target=\"_blank\" rel=\"noopener\">CTET Paper I Mathematics course at vidaara.org</a>, then test yourself here.</p><h2>Key facts and formulas to remember</h2><ul><li>4 × 3 means 4 groups of 3, i.e. 3 + 3 + 3 + 3 = 12.</li><li>Multiplication is commutative: 6 × 8 = 8 × 6.</li><li>Any number × 0 = 0; any number × 1 = itself; × 10 adds a zero.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Teaching tables by rote before the equal-groups idea is understood.</li><li>Forgetting that multiplying by zero gives zero.</li></ul><h2>How to use this free online test</h2><p>The 10 questions below are drawn from real CTET Paper I &ndash; pattern Multiplication questions, with a full explanation for each. Attempt every question before checking your score, note the ones you get wrong, and revisit the fact list above. When you are ready for depth, the linked e-book gives you <strong>150 more MCQs across 5 worksheets</strong> with complete step-by-step solutions.</p><h2>Take the free Multiplication online test (10 questions)</h2><p>No sign-up, instant scoring. Pick an answer for each question, then press <em>Check my score</em> and read the explanations.</p>",
+  "quiz": {
+    "title": "CTET Multiplication Practice Quiz",
+    "intro": "Ten CTET Paper I &ndash; pattern questions on Multiplication. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 1 Maths: Multiplication",
+    "level": "CTET Paper I",
+    "questions": [
+      {
+        "q": "A teacher places 4 plates on a table, putting 5 cookies on each plate. Which expression shows the total number of cookies as a repeated addition sentence?",
+        "options": [
+          "4 + 4 + 4 + 4",
+          "5 + 5 + 5 + 5",
+          "4 + 5",
+          "5 + 4 + 5 + 4"
+        ],
+        "answer": 1,
+        "explanation": "4 plates with 5 cookies each means adding 5 cookies four times: 5 + 5 + 5 + 5 = 20."
+      },
+      {
+        "q": "Which of the following expressions has the exact same value as 15 \\times 24?",
+        "options": [
+          "30 \\times 12",
+          "10 \\times 24 + 5",
+          "15 \\times 20 + 4",
+          "5 \\times 3 + 24"
+        ],
+        "answer": 0,
+        "explanation": "Doubling one factor (15 \\times 2 = 30) and halving the other (24 \\div 2 = 12) keeps the product invariant: 15 \\times 24 = 360 and 30 \\times 12 = 360."
+      },
+      {
+        "q": "Which multiplication expression is represented on a number line by starting at 0 and making 6 consecutive jumps of 4 units each?",
+        "options": [
+          "4 \\times 4",
+          "6 + 4",
+          "6 \\times 4",
+          "24 \\div 6"
+        ],
+        "answer": 2,
+        "explanation": "Making 6 equal jumps of size 4 on a number line directly represents 6 \\times 4 = 24."
+      },
+      {
+        "q": "A toy car has 4 wheels. How many wheels are required to assemble 18 toy cars?",
+        "options": [
+          "22",
+          "64",
+          "72",
+          "80"
+        ],
+        "answer": 2,
+        "explanation": "Total wheels = Number of cars \\times Wheels per car = 18 \\times 4 = 72."
+      },
+      {
+        "q": "A bicycle factory produces 25 bicycles every hour. How many bicycles will be produced in an 8-hour shift?",
+        "options": [
+          "160",
+          "180",
+          "200",
+          "220"
+        ],
+        "answer": 2,
+        "explanation": "Total bicycles = Rate per hour \\times Total hours = 25 \\times 8 = 200."
+      },
+      {
+        "q": "Which mathematical sentence correctly displays the Identity Property of Multiplication?",
+        "options": [
+          "12 \\times 0 = 0",
+          "12 \\times 1 = 12",
+          "12 + 0 = 12",
+          "12 \\times 2 = 24"
+        ],
+        "answer": 1,
+        "explanation": "The Multiplicative Identity Property states that a \\times 1 = a."
+      },
+      {
+        "q": "A school purchase order includes 12 packets of sketch pens at ₹45 per packet and 8 drawing pads at ₹35 each. What is the total cost of these items?",
+        "options": [
+          "₹780",
+          "₹820",
+          "₹860",
+          "₹900"
+        ],
+        "answer": 1,
+        "explanation": "Pen packets cost = 12 \\times 45 = 540. Drawing pads cost = 8 \\times 35 = 280. Total = 540 + 280 = ₹820."
+      },
+      {
+        "q": "Which mathematical property explains why 9 \\times 6 = 54 and 6 \\times 9 = 54 yield the same result?",
+        "options": [
+          "Distributive Property",
+          "Commutative Property",
+          "Associative Property",
+          "Multiplicative Identity Property"
+        ],
+        "answer": 1,
+        "explanation": "The Commutative Property of Multiplication guarantees that changing the order of two factors does not alter their product (a \\times b = b \\times a)."
+      },
+      {
+        "q": "An array model displays 5 rows and 9 columns of stars. How many stars are displayed in total?",
+        "options": [
+          "14",
+          "40",
+          "45",
+          "54"
+        ],
+        "answer": 2,
+        "explanation": "Total items in an array = Rows \\times Columns = 5 \\times 9 = 45."
+      },
+      {
+        "q": "Which of the following multiplication facts gives a product of 63?",
+        "options": [
+          "7 \\times 8",
+          "9 \\times 7",
+          "6 \\times 9",
+          "8 \\times 8"
+        ],
+        "answer": 1,
+        "explanation": "9 \\times 7 = 63. (7 \\times 8 = 56, 6 \\times 9 = 54, 8 \\times 8 = 64)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How should multiplication be introduced in primary class?",
+      "a": "As repeated addition of equal groups, using objects or arrays, before moving to the × symbol and tables."
+    },
+    {
+      "q": "Is multiplication commutative?",
+      "a": "Yes. 3 × 4 and 4 × 3 both equal 12 — the order of the factors does not change the product."
+    },
+    {
+      "q": "Where can I get more Multiplication practice questions with answers?",
+      "a": "The CTET Paper 1 Maths Multiplication Chapter Tests e-book has 150 exam-pattern MCQs in 5 worksheets, each with an answer key and step-by-step solutions. It is an instant PDF download &mdash; the link is in the box below."
+    }
+  ]
+}
