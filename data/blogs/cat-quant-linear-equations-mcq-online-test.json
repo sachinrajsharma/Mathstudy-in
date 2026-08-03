@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-linear-equations-mcq-online-test",
+  "title": "CAT Quant Linear Equations: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Linear Equations Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Linear Equations online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Linear Equations online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-linear-equations-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-linear-equations-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Linear Equations</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Linear Equations</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Linear Equations</h2><p>Solving linear equations and systems, conditions for unique / infinite / no solution, and word problems with integer constraints.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Unique solution if a₁/a₂ ≠ b₁/b₂.</li><li>Infinite solutions if a₁/a₂ = b₁/b₂ = c₁/c₂.</li><li>No solution if a₁/a₂ = b₁/b₂ ≠ c₁/c₂.</li><li>Translate each sentence into one equation; count unknowns.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Confusing the infinite-solution and no-solution conditions.</li><li>Ignoring integer/positivity constraints in word problems.</li><li>Arithmetic slips in elimination.</li></ul><h2>Free Linear Equations online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-linear-equations-chapter-tests\"><strong>CAT Quant Linear Equations Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Linear Equations Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Linear Equations",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "How many solutions does the system 1x + 2y = 3 and 2x + 4y = 6 have?",
+        "options": [
+          "Infinitely many solutions",
+          "Unique solution",
+          "No solution",
+          "Exactly two solutions"
+        ],
+        "answer": 0,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ Infinitely many solutions"
+      },
+      {
+        "q": "How many solutions does the system 1x + 2y = 3 and 2x + 4y = 8 have?",
+        "options": [
+          "Unique solution",
+          "No solution",
+          "Infinitely many solutions",
+          "Exactly two solutions"
+        ],
+        "answer": 1,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ No solution"
+      },
+      {
+        "q": "How many solutions does the system 1x + 3y = 5 and 2x + 1y = 4 have?",
+        "options": [
+          "No solution",
+          "Infinitely many solutions",
+          "Unique solution",
+          "Exactly two solutions"
+        ],
+        "answer": 2,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ Unique solution"
+      },
+      {
+        "q": "How many solutions does the system 2x + 3y = 7 and 4x + 6y = 14 have?",
+        "options": [
+          "Unique solution",
+          "No solution",
+          "Exactly two solutions",
+          "Infinitely many solutions"
+        ],
+        "answer": 3,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ Infinitely many solutions"
+      },
+      {
+        "q": "How many solutions does the system 3x + 1y = 2 and 6x + 2y = 9 have?",
+        "options": [
+          "No solution",
+          "Unique solution",
+          "Infinitely many solutions",
+          "Exactly two solutions"
+        ],
+        "answer": 0,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ No solution"
+      },
+      {
+        "q": "How many solutions does the system 1x + 1y = 4 and 3x + 2y = 9 have?",
+        "options": [
+          "No solution",
+          "Unique solution",
+          "Infinitely many solutions",
+          "Exactly two solutions"
+        ],
+        "answer": 1,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ Unique solution"
+      },
+      {
+        "q": "A two-digit number is 13. When its digits are reversed, by how much does the value change?",
+        "options": [
+          "44",
+          "36",
+          "18",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "|13 − 31| = 9×|1−3| = 18"
+      },
+      {
+        "q": "A two-digit number is 15. When its digits are reversed, by how much does the value change?",
+        "options": [
+          "66",
+          "54",
+          "45",
+          "36"
+        ],
+        "answer": 3,
+        "explanation": "|15 − 51| = 9×|1−5| = 36"
+      },
+      {
+        "q": "A two-digit number is 17. When its digits are reversed, by how much does the value change?",
+        "options": [
+          "54",
+          "88",
+          "72",
+          "63"
+        ],
+        "answer": 0,
+        "explanation": "|17 − 71| = 9×|1−7| = 54"
+      },
+      {
+        "q": "A two-digit number is 18. When its digits are reversed, by how much does the value change?",
+        "options": [
+          "99",
+          "63",
+          "81",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "|18 − 81| = 9×|1−8| = 63"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When does a 2-variable system have no solution?",
+      "a": "When the coefficient ratios are equal but the constant ratio differs — the lines are parallel and distinct."
+    },
+    {
+      "q": "How to attack CAT word problems?",
+      "a": "Name variables, turn each condition into an equation, solve, then check the answer against any integer or positivity constraint."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

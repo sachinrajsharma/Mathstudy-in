@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-time-and-work-mcq-online-test",
+  "title": "CAT Quant Time & Work: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Time & Work Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Time & Work online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Time & Work online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-time-and-work-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-time-and-work-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Time &amp; Work</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Time &amp; Work</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Time &amp; Work</h2><p>Work rates, combined work, efficiency comparison, pipes and cisterns, and wages in proportion to work done.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>If A finishes in a days, A’s one-day work = 1/a.</li><li>Together A and B take ab/(a+b) days.</li><li>Work ∝ men × days × hours (chain rule M₁D₁H₁/W₁ = M₂D₂H₂/W₂).</li><li>Wages are shared in the ratio of work done.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding days instead of adding rates (1/a + 1/b).</li><li>Ignoring an outlet pipe when computing net fill.</li><li>Not accounting for different efficiencies.</li></ul><h2>Free Time &amp; Work online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-time-and-work-chapter-tests\"><strong>CAT Quant Time &amp; Work Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Time & Work Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Time & Work",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "If 6 men or 8 women can complete a piece of work in 24 days, in how many days can 9 men and 12 women working together complete the same work?",
+        "options": [
+          "10 days",
+          "8 days",
+          "12 days",
+          "16 days"
+        ],
+        "answer": 1,
+        "explanation": "1. Equating total work: 6M * 24 = 8W * 24 =  6M = 8W => 3M = 4W.\n2. Total work in terms of men = 6 * 24 = 144 man-days.\n3. We need work done by (9M + 12W).\n4. Convert 12W into equivalent men: Since 4W = 3M, 12W = 3 * 3M = 9M.\n5. Total workforce = 9M + 9M = 18M.\n6. Days required = Total work / Total workforce = 144 / 18"
+      },
+      {
+        "q": "A and B together can do a piece of work in 12 days. B alone can do it in 30 days. In how many days can A alone finish the work?",
+        "options": [
+          "18 days",
+          "24 days",
+          "20 days",
+          "15 days"
+        ],
+        "answer": 2,
+        "explanation": "1. Let total work = LCM(12, 30) = 60 units.\n2. Combined efficiency (A + B) = 60 / 12 = 5 units/day.\n3. B's efficiency = 60 / 30 = 2 units/day.\n4. A's efficiency = (A + B) - B = 5 - 2 = 3 units/day.\n5. Time taken by A alone = 60 / 3 = 20 days."
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 15 days. Working together, in how many days will they finish it?",
+        "options": [
+          "25 days",
+          "12.5 days",
+          "7 days",
+          "6 days"
+        ],
+        "answer": 3,
+        "explanation": "Together = 10×15/(10+15) = 6 days"
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 20 days. Working together, in how many days will they finish it?",
+        "options": [
+          "6.67 days",
+          "30 days",
+          "15 days",
+          "7.67 days"
+        ],
+        "answer": 0,
+        "explanation": "Together = 10×20/(10+20) = 6.67 days"
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 30 days. Working together, in how many days will they finish it?",
+        "options": [
+          "40 days",
+          "7.5 days",
+          "20 days",
+          "8.5 days"
+        ],
+        "answer": 1,
+        "explanation": "Together = 10×30/(10+30) = 7.5 days"
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 36 days. Working together, in how many days will they finish it?",
+        "options": [
+          "46 days",
+          "23 days",
+          "7.83 days",
+          "8.83 days"
+        ],
+        "answer": 2,
+        "explanation": "Together = 10×36/(10+36) = 7.83 days"
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 40 days. Working together, in how many days will they finish it?",
+        "options": [
+          "50 days",
+          "25 days",
+          "9 days",
+          "8 days"
+        ],
+        "answer": 3,
+        "explanation": "Together = 10×40/(10+40) = 8 days"
+      },
+      {
+        "q": "A can do a piece of work in 10 days and B in 60 days. Working together, in how many days will they finish it?",
+        "options": [
+          "8.57 days",
+          "70 days",
+          "35 days",
+          "9.57 days"
+        ],
+        "answer": 0,
+        "explanation": "Together = 10×60/(10+60) = 8.57 days"
+      },
+      {
+        "q": "A can do a piece of work in 12 days and B in 15 days. Working together, in how many days will they finish it?",
+        "options": [
+          "27 days",
+          "6.67 days",
+          "13.5 days",
+          "7.67 days"
+        ],
+        "answer": 1,
+        "explanation": "Together = 12×15/(12+15) = 6.67 days"
+      },
+      {
+        "q": "A can do a piece of work in 12 days and B in 20 days. Working together, in how many days will they finish it?",
+        "options": [
+          "32 days",
+          "16 days",
+          "7.5 days",
+          "8.5 days"
+        ],
+        "answer": 2,
+        "explanation": "Together = 12×20/(12+20) = 7.5 days"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why add rates, not days?",
+      "a": "Rates are additive (work per day); days are not. Together their rate is 1/a + 1/b, so time = ab/(a+b)."
+    },
+    {
+      "q": "How are pipes and cisterns handled?",
+      "a": "Inlets add +1/a, outlets subtract −1/b; the net rate fills (or empties) the tank."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-maxima-and-minima-mcq-online-test",
+  "title": "CAT Quant Maxima & Minima: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Maxima & Minima Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Maxima & Minima online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Maxima & Minima online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-maxima-and-minima-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-maxima-and-minima-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Maxima &amp; Minima</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Maxima &amp; Minima</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Maxima &amp; Minima</h2><p>Maximum and minimum values using AM–GM and the vertex of a quadratic — without calculus, the CAT way.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Quadratic ax²+bx+c: vertex at x = −b/2a; min if a&gt;0, max if a&lt;0.</li><li>For fixed sum, a product is largest when the terms are equal.</li><li>For fixed product, a sum is smallest when the terms are equal.</li><li>x + k/x (x&gt;0) has minimum 2√k.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using calculus where AM–GM is faster (and expected).</li><li>Getting the max/min direction wrong from the sign of a.</li><li>Forgetting the equality condition of AM–GM.</li></ul><h2>Free Maxima &amp; Minima online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-maxima-and-minima-chapter-tests\"><strong>CAT Quant Maxima &amp; Minima Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Maxima & Minima Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Maxima & Minima",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Find the minimum value of |x − 2| + |x − 9|.",
+        "options": [
+          "7",
+          "11",
+          "9",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Min = distance between points = |9 − 2| = 7"
+      },
+      {
+        "q": "Find the minimum value of |x − 2| + |x − 11|.",
+        "options": [
+          "13",
+          "9",
+          "11",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Min = distance between points = |11 − 2| = 9"
+      },
+      {
+        "q": "Find the minimum value of |x − 2| + |x − 13|.",
+        "options": [
+          "15",
+          "13",
+          "11",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Min = distance between points = |13 − 2| = 11"
+      },
+      {
+        "q": "Find the minimum value of |x − 2| + |x − 15|.",
+        "options": [
+          "17",
+          "15",
+          "11",
+          "13"
+        ],
+        "answer": 3,
+        "explanation": "Min = distance between points = |15 − 2| = 13"
+      },
+      {
+        "q": "Find the minimum value of |x − 3| + |x − 9|.",
+        "options": [
+          "6",
+          "12",
+          "8",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "Min = distance between points = |9 − 3| = 6"
+      },
+      {
+        "q": "Find the minimum value of |x − 3| + |x − 11|.",
+        "options": [
+          "14",
+          "8",
+          "10",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Min = distance between points = |11 − 3| = 8"
+      },
+      {
+        "q": "Find the minimum value of |x − 3| + |x − 13|.",
+        "options": [
+          "16",
+          "12",
+          "10",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Min = distance between points = |13 − 3| = 10"
+      },
+      {
+        "q": "Find the minimum value of |x − 3| + |x − 15|.",
+        "options": [
+          "18",
+          "14",
+          "10",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Min = distance between points = |15 − 3| = 12"
+      },
+      {
+        "q": "Find the minimum value of |x − 5| + |x − 9|.",
+        "options": [
+          "4",
+          "14",
+          "6",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Min = distance between points = |9 − 5| = 4"
+      },
+      {
+        "q": "Find the minimum value of |x − 5| + |x − 11|.",
+        "options": [
+          "16",
+          "6",
+          "8",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Min = distance between points = |11 − 5| = 6"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I do maxima–minima without calculus?",
+      "a": "Use AM–GM for products/sums and complete the square (vertex −b/2a) for quadratics — both are quicker than differentiating for CAT."
+    },
+    {
+      "q": "When is a product maximum?",
+      "a": "For a fixed sum, the product is maximum when all the parts are equal."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

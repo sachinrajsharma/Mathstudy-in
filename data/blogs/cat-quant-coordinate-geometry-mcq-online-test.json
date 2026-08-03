@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-coordinate-geometry-mcq-online-test",
+  "title": "CAT Quant Coordinate Geometry: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Coordinate Geometry Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Coordinate Geometry online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Coordinate Geometry online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-coordinate-geometry-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-coordinate-geometry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Coordinate Geometry</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Coordinate Geometry</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Coordinate Geometry</h2><p>Distance, section and midpoint, slope, equations of lines and the area of a triangle from coordinates.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Distance = √((x₂−x₁)²+(y₂−y₁)²).</li><li>Slope m = (y₂−y₁)/(x₂−x₁); line y = mx + c.</li><li>Parallel lines have equal slopes; perpendicular lines have m₁m₂ = −1.</li><li>Triangle area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up the section-formula ratio order.</li><li>Sign errors in the slope of perpendicular lines.</li><li>Dropping the absolute value in the area formula.</li></ul><h2>Free Coordinate Geometry online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-coordinate-geometry-chapter-tests\"><strong>CAT Quant Coordinate Geometry Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Coordinate Geometry Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Coordinate Geometry",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Find the distance between the points (0, 0) and (3, 4).",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "d = √((3)²+(4)²) = 5"
+      },
+      {
+        "q": "Find the distance between the points (1, 2) and (4, 6).",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "d = √((3)²+(4)²) = 5"
+      },
+      {
+        "q": "Find the distance between the points (2, 1) and (5, 5).",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "d = √((3)²+(4)²) = 5"
+      },
+      {
+        "q": "Find the distance between the points (-1, 3) and (2, 7).",
+        "options": [
+          "7",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "d = √((3)²+(4)²) = 5"
+      },
+      {
+        "q": "Find the distance between the points (0, 0) and (6, 8).",
+        "options": [
+          "10",
+          "14",
+          "11",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "d = √((6)²+(8)²) = 10"
+      },
+      {
+        "q": "Find the distance between the points (1, 2) and (7, 10).",
+        "options": [
+          "14",
+          "10",
+          "11",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "d = √((6)²+(8)²) = 10"
+      },
+      {
+        "q": "Find the distance between the points (2, 1) and (8, 9).",
+        "options": [
+          "14",
+          "11",
+          "10",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "d = √((6)²+(8)²) = 10"
+      },
+      {
+        "q": "Find the distance between the points (-1, 3) and (5, 11).",
+        "options": [
+          "14",
+          "11",
+          "9",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "d = √((6)²+(8)²) = 10"
+      },
+      {
+        "q": "Find the distance between the points (0, 0) and (5, 12).",
+        "options": [
+          "13",
+          "17",
+          "14",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "d = √((5)²+(12)²) = 13"
+      },
+      {
+        "q": "Find the distance between the points (1, 2) and (6, 14).",
+        "options": [
+          "17",
+          "13",
+          "14",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "d = √((5)²+(12)²) = 13"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How to test if two lines are perpendicular?",
+      "a": "Their slopes multiply to −1 (m₁·m₂ = −1)."
+    },
+    {
+      "q": "How to find the area of a triangle from vertices?",
+      "a": "Use ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|; a zero value means the points are collinear."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

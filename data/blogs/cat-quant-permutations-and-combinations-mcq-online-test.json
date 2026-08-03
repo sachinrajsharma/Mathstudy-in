@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-permutations-and-combinations-mcq-online-test",
+  "title": "CAT Quant Permutations & Combinations: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Permutations & Combinations Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Permutations & Combinations online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Permutations & Combinations online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-permutations-and-combinations-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-permutations-and-combinations-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Permutations &amp; Combinations</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Permutations &amp; Combinations</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Permutations &amp; Combinations</h2><p>Arrangements and selections, circular permutations, arrangements with repetition and the fundamental counting principle.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>ⁿPᵣ = n!/(n−r)! (order matters); ⁿCᵣ = n!/(r!(n−r)!) (order doesn’t).</li><li>n distinct in a row: n!; in a circle: (n−1)!.</li><li>r places filled from n with repetition: nʳ.</li><li>ⁿCᵣ = ⁿCₙ₋ᵣ; ΣⁿCᵣ = 2ⁿ.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using permutations where order does not matter (or vice versa).</li><li>Using n! instead of (n−1)! for circular arrangements.</li><li>Double counting identical items.</li></ul><h2>Free Permutations &amp; Combinations online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-permutations-and-combinations-chapter-tests\"><strong>CAT Quant Permutations &amp; Combinations Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Permutations & Combinations Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Permutations & Combinations",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "A person has 4 shirts and 3 pairs of trousers. In how many ways can he dress himself?",
+        "options": [
+          "12",
+          "7",
+          "24",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: By the Fundamental Counting Principle, the number of ways = (ways to choose shirt) × (ways to choose trousers).\nStep 2: = 4 × 3 = 12.\nAnswer: 12"
+      },
+      {
+        "q": "In how many ways can 4 different books be arranged on a shelf?",
+        "options": [
+          "12",
+          "24",
+          "48",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: This is the number of permutations of 4 distinct objects = 4!\nStep 2: 4! = 4 × 3 × 2 × 1 = 24.\nAnswer: 24"
+      },
+      {
+        "q": "Find the value of 5P2.",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: nPr = n! / (n - r)!, so 5P2 = 5! / 3!.\nStep 2: 5P2 = (5 × 4 × 3!) / 3! = 5 × 4 = 20.\nAnswer: 20"
+      },
+      {
+        "q": "Find the value of 6C2.",
+        "options": [
+          "12",
+          "18",
+          "30",
+          "15"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: nCr = n! / (r! × (n-r)!), so 6C2 = 6! / (2! × 4!).\nStep 2: 6C2 = (6 × 5) / (2 × 1) = 30 / 2 = 15.\nAnswer: 15"
+      },
+      {
+        "q": "How many 3-letter words (with or without meaning) can be formed from the letters A, B, C, D, E without repetition?",
+        "options": [
+          "60",
+          "120",
+          "30",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: We need to arrange 3 letters chosen from 5 distinct letters without repetition = 5P3.\nStep 2: 5P3 = 5 × 4 × 3 = 60.\nAnswer: 60"
+      },
+      {
+        "q": "In how many ways can 3 students be selected from a group of 7?",
+        "options": [
+          "21",
+          "35",
+          "70",
+          "42"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Order does not matter, so we need 7C3.\nStep 2: 7C3 = 7! / (3! × 4!) = (7 × 6 × 5) / (3 × 2 × 1) = 210 / 6 = 35.\nAnswer: 35"
+      },
+      {
+        "q": "In how many ways can the letters of the word MATHS be arranged?",
+        "options": [
+          "60",
+          "24",
+          "120",
+          "720"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: MATHS has 5 distinct letters.\nStep 2: Number of arrangements = 5! = 5 × 4 × 3 × 2 × 1 = 120.\nAnswer: 120"
+      },
+      {
+        "q": "In how many ways can 5 people be seated around a circular table?",
+        "options": [
+          "120",
+          "60",
+          "48",
+          "24"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: For circular permutations of n objects, one position is fixed and the rest are arranged: (n-1)!\nStep 2: (5-1)! = 4! = 24.\nAnswer: 24"
+      },
+      {
+        "q": "How many 2-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+        "options": [
+          "20",
+          "25",
+          "10",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Choose the tens digit: 5 options. Choose the units digit from remaining 4: 4 options.\nStep 2: Total = 5 × 4 = 20.\nAnswer: 20"
+      },
+      {
+        "q": "Find the value of 8C3.",
+        "options": [
+          "28",
+          "56",
+          "112",
+          "42"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: 8C3 = 8! / (3! × 5!) = (8 × 7 × 6) / (3 × 2 × 1).\nStep 2: = 336 / 6 = 56.\nAnswer: 56"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Permutation or combination?",
+      "a": "Use permutation when the order matters (arrangements) and combination when it does not (selections)."
+    },
+    {
+      "q": "Why (n−1)! for a circle?",
+      "a": "Rotations of the same circular arrangement are identical, so we fix one position — giving (n−1)!."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

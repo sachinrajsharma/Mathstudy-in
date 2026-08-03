@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-practice-test-online-free",
+  "title": "CAT Quant Practice Test: Free Online Mock (10 MCQs)",
+  "meta_title": "CAT Quant Practice Test (Free Online Mock)",
+  "meta_desc": "Free CAT Quant practice test: 10 mixed MCQs with answers and explanations, plus 900 more questions across 30 full practice papers.",
+  "excerpt": "A free 10-question mixed online test for CAT Quant — instant scoring, full explanations and a path to 30 complete practice papers.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-30-practice-papers.jpg",
+  "cta_product_slug": "cat-quant-30-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Full Syllabus</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Full Syllabus</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Full Syllabus</h2><p>A balanced mix of questions from every CAT Quant chapter — arithmetic, algebra, geometry, mensuration, number system and modern maths.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Attempt full papers under time to build exam stamina.</li><li>Review every wrong answer — note the concept, not just the option.</li><li>Regular mocks are the best predictor of your real Quant score.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Practising only chapter-wise and never a full mixed paper.</li><li>Skipping the review step after a mock.</li><li>Ignoring time management until exam day.</li></ul><h2>Free Full Syllabus online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for the real thing? The <a href=\"/shop/product/cat-quant-30-practice-papers\"><strong>CAT Quant 30 Practice Papers</strong> e-book</a> gives you <strong>30 full papers — 900 MCQs</strong> balanced across all 29 chapters, each with an answer key and step-by-step solutions, for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Quant Practice Quiz",
+    "intro": "Ten CAT-pattern questions across topics. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: full syllabus",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "If A is 125% of B, then B is what percentage of (A + B)?",
+        "options": [
+          "44.44%",
+          "40%",
+          "55.56%",
+          "60%"
+        ],
+        "answer": 0,
+        "explanation": "Let B = 100. Since A is 125% of B, A = 125. The sum (A + B) = 125 + 100 = 225. We need to find what percentage B is of (A + B). Required percentage = (B / (A + B)) * 100 = (100 / 225) * 100 = (4 / 9) * 100 = 44.44%."
+      },
+      {
+        "q": "A merchant marks his goods up by 40% and then offers a discount of 20%. What is his overall profit percentage?",
+        "options": [
+          "12%",
+          "8%",
+          "20%",
+          "28%"
+        ],
+        "answer": 0,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "If a: b = 2: 3, b: c = 4: 5, and c: d = 6: 7, find the continued ratio a: b: c: d.",
+        "options": [
+          "8: 12: 15: 21",
+          "16: 20: 25: 35",
+          "12: 18: 24: 28",
+          "16: 24: 30: 35"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: a:b=2:3, b:c=4:5, c:d=6:7.\nStep 2: Make b common. LCM(3,4)=12. a:b=8:12, b:c=12:15. So a:b:c=8:12:15.\nStep 3: Make c common. LCM(15,6)=30. Multiply a:b:c by 2 → 16:24:30. Multiply c:d by 5 → c:d=30:35.\nAnswer: a:b:c:d = 16:24:30:35."
+      },
+      {
+        "q": "The average age of a group of 10 people is 25 years. If a new person aged 35 joins the group, what is the new average age?",
+        "options": [
+          "26",
+          "27",
+          "25.909",
+          "26.5"
+        ],
+        "answer": 0,
+        "explanation": "Total age of 10 people = 10 * 25 = 250 years. Adding the new person: 250 + 35 = 285. New average = 285 / 11 ≈ 25.909. However, the closest integer is 26."
+      },
+      {
+        "q": "In what ratio must a mixture of 20% alcohol and another mixture of 40% alcohol be mixed to obtain a 25% alcohol solution?",
+        "options": [
+          "1:3",
+          "1:2",
+          "2:1",
+          "3:1"
+        ],
+        "answer": 0,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "A sum of money invested at simple interest amounts to Rs. 880 in 2 years and to Rs. 920 in 3 years. Find the principal and the rate of interest per annum.",
+        "options": [
+          "Rs. 800, 5%",
+          "Rs. 750, 6%",
+          "Rs. 800, 4%",
+          "Rs. 700, 7%"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Understand that simple interest remains constant every year.\nStep 2: SI for 1 year = Amount in 3 years - Amount in 2 years = 920 - 880 = Rs. 40.\nStep 3: SI for 2 years = 2 * 40 = Rs. 80.\nStep 4: Principal = Amount in 2 years - SI for 2 years = 880 - 80 = Rs. 800.\nStep 5: Rate of Interest = (SI for 1 year / Prin"
+      },
+      {
+        "q": "How many solutions does the system 1x + 2y = 3 and 2x + 4y = 6 have?",
+        "options": [
+          "Infinitely many solutions",
+          "Unique solution",
+          "No solution",
+          "Exactly two solutions"
+        ],
+        "answer": 0,
+        "explanation": "Compare a1/a2, b1/b2, c1/c2 ⇒ Infinitely many solutions"
+      },
+      {
+        "q": "If a,b,c are odd integers and ax²+bx+c=0 has real roots, then",
+        "options": [
+          "both roots are rational",
+          "both roots are irrational",
+          "both roots are positive",
+          "roots are of opposite signs"
+        ],
+        "answer": 1,
+        "explanation": "b²-4ac: an odd square is ≡1 (mod 8) and 4ac≡4 (mod 8), so the discriminant ≡5 (mod 8), which is never a perfect square. Hence the (real) roots are irrational."
+      },
+      {
+        "q": "The solution set of log_(2x+3)(6x²+23x+21)=4-log_(3x+7)(4x²+12x+9) is",
+        "options": [
+          "\u0001-2,-(1)/(4)\u0002",
+          "\u0001-(1)/(4)\u0002",
+          "\u0001-2\u0002",
+          "none of these"
+        ],
+        "answer": 1,
+        "explanation": "Factoring both quadratics and applying log domain conditions ( 2x+3 0,≠1 etc.) leaves only x=-(1)/(4)."
+      },
+      {
+        "q": "Positive numbers α,β,γ are in A.P. If α x²+2β x+γ=0 and x²+2px+1=0 ( p≠1 ) have a common root, then (α)/(γ), p, (γ)/(α) are in",
+        "options": [
+          "A.P.",
+          "G.P.",
+          "H.P.",
+          "none of these"
+        ],
+        "answer": 0,
+        "explanation": "Since 2β=α+γ, the first equation factors with root x=-1 (rejected as p≠1 ) and x=-γ/α. Using the common root in the second gives 2p=(α)/(γ)+(γ)/(α), i.e. p is the mean — so (α)/(γ),p,(γ)/(α) are in A.P."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How should I use these practice papers?",
+      "a": "Sit one paper at a time under timed conditions, score it with the answer key, then study the step-by-step solutions for every question you missed."
+    },
+    {
+      "q": "Are the papers balanced across chapters?",
+      "a": "Yes — every paper draws from all 29 CAT Quant chapters, just like the real exam."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — a free 10-question mixed test is above. The full set of 30 papers (900 MCQs) is in the Rs 27 e-book."
+    }
+  ]
+}

@@ -49,6 +49,7 @@ const STEPS = [
   ['Seed Class-8 chapter-test e-books', 'seed-grade8-chapter-tests.js', false],
   ['Seed CTET Paper 1 Maths chapter-test e-books', 'seed-ctet-paper1-chapter-tests.js', false],
   ['Seed CTET Paper 2 Maths chapter-test e-books', 'seed-ctet-paper2-chapter-tests.js', false],
+  ['Seed CAT Quant chapter-test e-books', 'seed-cat-quant-chapter-tests.js', false],
   ['Merge each class into one "Grade N Math" category', 'merge-class-categories.js', false],
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
@@ -56,7 +57,8 @@ const STEPS = [
   ['Seed curated blog articles', 'seed-blog-articles.js', false],
   ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js', false],
   ['Scrub injected spam links from blogs', 'clean-spam-links.js', false],
-  ['Import CTET Paper 1 Maths SEO blogs (quiz + CTA)', 'import-ctet-blogs.js', false],
+  ['Import CTET Maths SEO blogs (Paper 1 & 2, quiz + CTA)', 'import-ctet-blogs.js', false],
+  ['Import CAT Quant SEO blogs (quiz + CTA)', 'import-cat-blogs.js', false],
   ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 

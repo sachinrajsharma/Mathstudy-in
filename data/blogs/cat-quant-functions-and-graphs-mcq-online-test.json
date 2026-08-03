@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-functions-and-graphs-mcq-online-test",
+  "title": "CAT Quant Functions & Graphs: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Functions & Graphs Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Functions & Graphs online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Functions & Graphs online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-functions-and-graphs-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-functions-and-graphs-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Functions &amp; Graphs</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Functions &amp; Graphs</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Functions &amp; Graphs</h2><p>Domain and range, composition of functions, even/odd functions, modulus and greatest-integer functions and reading graphs.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>1/√g(x) needs g(x) &gt; 0; log g(x) needs g(x) &gt; 0.</li><li>Even: f(−x) = f(x); Odd: f(−x) = −f(x).</li><li>(f∘g)(x) = f(g(x)).</li><li>A function is invertible iff it is one-one and onto.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ignoring domain restrictions from square roots and logs.</li><li>Reversing the order in composition.</li><li>Confusing |x| (range ≥ 0) with x.</li></ul><h2>Free Functions &amp; Graphs online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-functions-and-graphs-chapter-tests\"><strong>CAT Quant Functions &amp; Graphs Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Functions & Graphs Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Functions & Graphs",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "If f(x) = x/(x + 1) for x ≠ −1, then f(f(f(x))) equals:",
+        "options": [
+          "x/(3x + 1)",
+          "x/(x + 3)",
+          "3x/(x + 1)",
+          "x/(2x + 1)"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: f(f(x)) = f(x/(x+1)). Let u = x/(x+1): f(u) = u/(u+1) = [x/(x+1)]/[(2x+1)/(x+1)] = x/(2x+1).\nStep 2: f(f(f(x))) = f(x/(2x+1)). Let v = x/(2x+1): f(v) = v/(v+1) = [x/(2x+1)]/[(3x+1)/(2x+1)] = x/(3x+1).\nAnswer: x/(3x + 1)"
+      },
+      {
+        "q": "The range of f(x) = (x² + x + 1)/(x² − x + 1) for all real x is:",
+        "options": [
+          "(1/3, 3)",
+          "[1/3, 3]",
+          "[0, 3]",
+          "[1/3, ∞)"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Let y = (x²+x+1)/(x²−x+1). Cross-multiply: y(x²−x+1) = x²+x+1.\nStep 2: x²(y−1) − x(y+1) + (y−1) = 0. Discriminant ≥ 0: (y+1)² − 4(y−1)² ≥ 0.\nStep 3: −3y² + 10y − 3 ≥ 0 → (3y−1)(y−3) ≤ 0 → 1/3 ≤ y ≤ 3.\nStep 4: Both endpoints are achieved (y=1/3 at x=−1, y=3 at x=1).\nAnswer: [1/3, 3]"
+      },
+      {
+        "q": "The number of real solutions to |x² − 4| = x + 2 is:",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Case 1 (x²≥4, i.e. x≤−2 or x≥2): x²−4 = x+2 → x²−x−6=0 → (x−3)(x+2)=0 → x=3 or x=−2 (both valid). ✓✓\nStep 2: Case 2 (−2 x<2): 4−x² = x+2 → x²+x−2=0 → (x+2)(x−1)=0 → x=1 (valid, since −2<1<2). ✓\nStep 3: Total: 3 real solutions: x = −2, 1, 3.\nAnswer: 3"
+      },
+      {
+        "q": "For f(x) = x + ⌊x⌋, the range of f on x ∈ [0, 1) is:",
+        "options": [
+          "[0, 2)",
+          "[0, 1] ∪ 2",
+          "0",
+          "[0, 1)"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: For x ∈ [0, 1), ⌊x⌋ = 0.\nStep 2: f(x) = x + 0 = x.\nStep 3: As x ranges over [0, 1), f(x) ranges over [0, 1).\nAnswer: [0, 1)"
+      },
+      {
+        "q": "If f satisfies f(x + y) = f(x)·f(y) for all real x, y, with f(0) ≠ 0, then f(0) equals:",
+        "options": [
+          "1",
+          "0",
+          "e",
+          "−1"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Set x = y = 0: f(0+0) = f(0)·f(0) → f(0) = [f(0)]².\nStep 2: f(0)[f(0) − 1] = 0 → f(0) = 0 or f(0) = 1.\nStep 3: Since f(0) ≠ 0, we must have f(0) = 1.\nAnswer: 1"
+      },
+      {
+        "q": "The range of f(x) = (x² + 2)/(x² + 1) for all real x is:",
+        "options": [
+          "[1, 2]",
+          "(1, 2]",
+          "[1, 2)",
+          "(1, 2)"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Write f(x) = 1 + 1/(x²+1). Since x²+1 ∈ [1,∞), 1/(x²+1) ∈ (0, 1].\nStep 2: f(x) ∈ (1, 2]. At x=0: f=2 (maximum, achieved). As x→∞: f→1 (not reached).\nAnswer: (1, 2]"
+      },
+      {
+        "q": "If f: R → R satisfies f(xy) = xf(y) + yf(x) for all x, y ∈ R, then f(0) equals:",
+        "options": [
+          "1",
+          "Undefined",
+          "0",
+          "Any real number"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Set x = y = 0: f(0) = 0·f(0) + 0·f(0) = 0 + 0 = 0.\nStep 2: f(0) = 0 is the only possibility.\nAnswer: 0"
+      },
+      {
+        "q": "The number of real solutions to 2ˣ + 3ˣ = 5ˣ is:",
+        "options": [
+          "0",
+          "2",
+          "Infinitely many",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Divide both sides by 5ˣ: (2/5)ˣ + (3/5)ˣ = 1.\nStep 2: At x = 1: 2/5 + 3/5 = 1. ✓ So x = 1 is a solution.\nStep 3: Let g(x) = (2/5)ˣ + (3/5)ˣ. Since both terms are strictly decreasing in x, g is strictly decreasing. Hence exactly one solution.\nAnswer: 1"
+      },
+      {
+        "q": "If f(x) = 2 − x and g(x) = 1/(x + 1), then (f ∘ g ∘ f)(x) equals:",
+        "options": [
+          "(5 − 2x)/(3 − x)",
+          "1/(3 − x)",
+          "(2 − x)/(3 − x)",
+          "(3 − 2x)/(3 − x)"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: (g ∘ f)(x) = g(f(x)) = g(2−x) = 1/((2−x)+1) = 1/(3−x).\nStep 2: (f ∘ g ∘ f)(x) = f(1/(3−x)) = 2 − 1/(3−x) = (2(3−x) − 1)/(3−x) = (6−2x−1)/(3−x) = (5−2x)/(3−x).\nAnswer: (5 − 2x)/(3 − x)"
+      },
+      {
+        "q": "The value of ⌊2.5⌋² − ⌊2.5²⌋ equals:",
+        "options": [
+          "0",
+          "−2",
+          "2",
+          "−4"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: ⌊2.5⌋ = 2, so ⌊2.5⌋² = 2² = 4.\nStep 2: 2.5² = 6.25, so ⌊6.25⌋ = 6.\nStep 3: 4 − 6 = −2.\nAnswer: −2"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I find a domain quickly?",
+      "a": "Set denominators ≠ 0, expressions under even roots ≥ 0, and log arguments > 0, then take the intersection."
+    },
+    {
+      "q": "When is a function invertible?",
+      "a": "Exactly when it is one-one (injective) and onto (surjective) on its stated domain and codomain."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-set-theory-mcq-online-test",
+  "title": "CAT Quant Set Theory: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Set Theory Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Set Theory online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Set Theory online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-set-theory-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-set-theory-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Set Theory</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Set Theory</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Set Theory</h2><p>Venn diagrams, union–intersection formulae for two and three sets, and counting \"exactly/at-least\" cases.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>n(A∪B) = n(A)+n(B)−n(A∩B).</li><li>n(A∪B∪C) = Σn(A) − Σn(A∩B) + n(A∩B∩C).</li><li>A set of n elements has 2ⁿ subsets.</li><li>De Morgan: (A∪B)′ = A′∩B′.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to add back n(A∩B∩C) in the three-set formula.</li><li>Confusing \"exactly one\" with \"at least one\".</li><li>Miscounting the neither region.</li></ul><h2>Free Set Theory online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-set-theory-chapter-tests\"><strong>CAT Quant Set Theory Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Set Theory Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Set Theory",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "In a class of 100, exactly 70 passed in at least one subject. 50 passed Subject 1, 48 passed Subject 2. If exactly 50 passed in exactly one subject, find n(S1∩S2).",
+        "options": [
+          "20",
+          "25",
+          "18",
+          "22"
+        ],
+        "answer": 0,
+        "explanation": "Exactly one = n(S1∪S2)-n(S1∩S2) = 70-n(S1∩S2) = 50; n(S1∩S2) = 20."
+      },
+      {
+        "q": "In a survey of 500 people, 200 like brand X, 180 like Y, 160 like Z. X∩Y=70, Y∩Z=60, X∩Z=80, all three=30. What percentage like none of the brands?",
+        "options": [
+          "20%",
+          "28%",
+          "25%",
+          "32%"
+        ],
+        "answer": 1,
+        "explanation": "n(X∪Y∪Z) = 200+180+160-70-60-80+30 = 360; none = 500-360 = 140 = 28%."
+      },
+      {
+        "q": "A college has Drama (D), Music (M), Sports (S) clubs. n(D)=80, n(M)=70, n(S)=65, D∩M=25, M∩S=20, D∩S=22, all three=8. How many join exactly two clubs?",
+        "options": [
+          "35",
+          "40",
+          "43",
+          "50"
+        ],
+        "answer": 2,
+        "explanation": "Exactly two = (25-8)+(20-8)+(22-8) = 17+12+14 = 43."
+      },
+      {
+        "q": "If n(A)=a, n(B)=b, and n(A∩B)=c, then n(A△B) in terms of a, b, c is:",
+        "options": [
+          "a+b-c",
+          "a-b+c",
+          "2(a+b)-c",
+          "a+b-2c"
+        ],
+        "answer": 3,
+        "explanation": "n(A△B) = n(A-B)+n(B-A) = (a-c)+(b-c) = a+b-2c."
+      },
+      {
+        "q": "Out of 100 students, 72 passed Mathematics, 55 passed Statistics. The number who failed in both is 8% of total students. Find n(M∩S).",
+        "options": [
+          "35",
+          "30",
+          "40",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Failed both = 8% of 100 = 8; passed at least one = 92; n(M∩S) = 72+55-92 = 35."
+      },
+      {
+        "q": "Three sets A, B, C partition U (120 elements total, all in at least one). n(A)=60, n(B)=50, n(C)=45, n(A∩B)=20, n(B∩C)=15, n(A∩B∩C)=5. Find n(A∩C).",
+        "options": [
+          "10",
+          "8",
+          "5",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "120 = 60+50+45-20-15-n(A∩C)+5; 120 = 125-n(A∩C); n(A∩C) = 5."
+      },
+      {
+        "q": "n(A∪B∪C)=500, exactly two=120, exactly three=30, n(A)+n(B)+n(C)=700. Find n(A∩B)+n(B∩C)+n(A∩C).",
+        "options": [
+          "200",
+          "210",
+          "220",
+          "230"
+        ],
+        "answer": 3,
+        "explanation": "Using inclusion-exclusion: 500=700-[n(A∩B)+n(B∩C)+n(A∩C)]+30; sum of pairwise = 230."
+      },
+      {
+        "q": "Out of 50 students, 25 take Mathematics, 22 take Physics, 18 take Chemistry. M∩P=8, P∩C=6, M∩C=7, all three=3. How many take none of these subjects?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "n(M∪P∪C) = 25+22+18-8-6-7+3 = 47; none = 50-47 = 3."
+      },
+      {
+        "q": "In a survey of 120 people, 12 like neither of two products A and B. The ratio of people who like only A: only B: both is 4:3:2. Find n(A).",
+        "options": [
+          "60",
+          "72",
+          "48",
+          "84"
+        ],
+        "answer": 1,
+        "explanation": "4k+3k+2k = 108; 9k=108; k=12; only A=48, both=24; n(A)=48+24=72."
+      },
+      {
+        "q": "If n(A)=40, n(B)=50, n(A∩B)=20, and C is a set such that C ⊆ A∩B, what is the maximum value of n(A∪B∪C)?",
+        "options": [
+          "90",
+          "80",
+          "70",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "Since C⊆A∩B⊆A and C⊆B, we have A∪B∪C=A∪B; n(A∪B)=40+50-20=70."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the three-set inclusion–exclusion formula?",
+      "a": "n(A∪B∪C) = n(A)+n(B)+n(C) − n(A∩B) − n(B∩C) − n(C∩A) + n(A∩B∩C)."
+    },
+    {
+      "q": "How many subsets does a set have?",
+      "a": "2ⁿ for n elements (2ⁿ − 1 proper subsets)."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

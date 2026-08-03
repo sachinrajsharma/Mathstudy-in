@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-inequalities-mcq-online-test",
+  "title": "CAT Quant Inequalities: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Inequalities Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Inequalities online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Inequalities online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-inequalities-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-inequalities-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Inequalities</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Inequalities</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Inequalities</h2><p>Linear, quadratic, rational and modulus inequalities, integer-solution counts and the AM–GM inequality for max/min.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Multiplying by a negative reverses the inequality.</li><li>(x−a)(x−b) &lt; 0 ⇒ a &lt; x &lt; b (a&lt;b).</li><li>|x| &lt; a ⇒ −a &lt; x &lt; a; |x| &gt; a ⇒ x &lt; −a or x &gt; a.</li><li>For x&gt;0, x + k/x has minimum 2√k at x = √k.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to flip the sign when multiplying/dividing by a negative.</li><li>Including the point where a rational expression is undefined.</li><li>Mishandling squared factors like (x−1)².</li></ul><h2>Free Inequalities online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-inequalities-chapter-tests\"><strong>CAT Quant Inequalities Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Inequalities Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Inequalities",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Two positive numbers have a sum of 10. Find the maximum possible value of their product.",
+        "options": [
+          "10",
+          "25",
+          "100",
+          "35"
+        ],
+        "answer": 1,
+        "explanation": "Max product when both = 5 ⇒ 5² = 25"
+      },
+      {
+        "q": "Solve: |x − 2| ≤ 3",
+        "options": [
+          "5 ≤ x ≤ -1",
+          "x ≤ 5",
+          "x ≥ -1",
+          "-1 ≤ x ≤ 5"
+        ],
+        "answer": 3,
+        "explanation": "2−3 ≤ x ≤ 2+3 ⇒ -1 ≤ x ≤ 5"
+      },
+      {
+        "q": "Solve: |x − 3| ≤ 3",
+        "options": [
+          "6 ≤ x ≤ 0",
+          "x ≤ 6",
+          "x ≥ 0",
+          "0 ≤ x ≤ 6"
+        ],
+        "answer": 3,
+        "explanation": "3−3 ≤ x ≤ 3+3 ⇒ 0 ≤ x ≤ 6"
+      },
+      {
+        "q": "Solve: |x − 4| ≤ 1",
+        "options": [
+          "5 ≤ x ≤ 3",
+          "3 ≤ x ≤ 5",
+          "x ≤ 5",
+          "x ≥ 3"
+        ],
+        "answer": 1,
+        "explanation": "4−1 ≤ x ≤ 4+1 ⇒ 3 ≤ x ≤ 5"
+      },
+      {
+        "q": "Solve: |x − 4| ≤ 2",
+        "options": [
+          "6 ≤ x ≤ 2",
+          "x ≤ 6",
+          "2 ≤ x ≤ 6",
+          "x ≥ 2"
+        ],
+        "answer": 2,
+        "explanation": "4−2 ≤ x ≤ 4+2 ⇒ 2 ≤ x ≤ 6"
+      },
+      {
+        "q": "Solve: |x − 4| ≤ 3",
+        "options": [
+          "7 ≤ x ≤ 1",
+          "x ≤ 7",
+          "x ≥ 1",
+          "1 ≤ x ≤ 7"
+        ],
+        "answer": 3,
+        "explanation": "4−3 ≤ x ≤ 4+3 ⇒ 1 ≤ x ≤ 7"
+      },
+      {
+        "q": "Solve: |x − 4| ≤ 4",
+        "options": [
+          "0 ≤ x ≤ 8",
+          "8 ≤ x ≤ 0",
+          "x ≤ 8",
+          "x ≥ 0"
+        ],
+        "answer": 0,
+        "explanation": "4−4 ≤ x ≤ 4+4 ⇒ 0 ≤ x ≤ 8"
+      },
+      {
+        "q": "Solve: |x − 5| ≤ 3",
+        "options": [
+          "8 ≤ x ≤ 2",
+          "x ≤ 8",
+          "x ≥ 2",
+          "2 ≤ x ≤ 8"
+        ],
+        "answer": 3,
+        "explanation": "5−3 ≤ x ≤ 5+3 ⇒ 2 ≤ x ≤ 8"
+      },
+      {
+        "q": "Solve: |x − 6| ≤ 1",
+        "options": [
+          "7 ≤ x ≤ 5",
+          "5 ≤ x ≤ 7",
+          "x ≤ 7",
+          "x ≥ 5"
+        ],
+        "answer": 1,
+        "explanation": "6−1 ≤ x ≤ 6+1 ⇒ 5 ≤ x ≤ 7"
+      },
+      {
+        "q": "Solve: |x − 6| ≤ 2",
+        "options": [
+          "8 ≤ x ≤ 4",
+          "x ≤ 8",
+          "4 ≤ x ≤ 8",
+          "x ≥ 4"
+        ],
+        "answer": 2,
+        "explanation": "6−2 ≤ x ≤ 6+2 ⇒ 4 ≤ x ≤ 8"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I solve a product inequality?",
+      "a": "Find the roots, mark them on a number line, and read off the intervals where the sign matches (use the wavy-curve method)."
+    },
+    {
+      "q": "What is AM–GM used for?",
+      "a": "To find quick minimum/maximum values — e.g. x + k/x ≥ 2√k for positive x."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

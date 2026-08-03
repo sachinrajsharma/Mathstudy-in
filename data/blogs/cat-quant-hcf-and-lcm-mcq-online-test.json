@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-hcf-and-lcm-mcq-online-test",
+  "title": "CAT Quant HCF & LCM: Free Online Test + Practice MCQs",
+  "meta_title": "CAT HCF & LCM Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant HCF & LCM online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question HCF & LCM online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-hcf-and-lcm-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-hcf-and-lcm-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>HCF &amp; LCM</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT HCF &amp; LCM</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on HCF &amp; LCM</h2><p>Finding HCF and LCM, their product relation, HCF/LCM of fractions and remainder-based word problems.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>HCF × LCM = product of the two numbers.</li><li>HCF = common primes (lowest powers); LCM = all primes (highest powers).</li><li>HCF of fractions = HCF(numerators)/LCM(denominators).</li><li>Largest number dividing a,b,c with the same remainder = HCF of their differences.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Swapping the fraction rules for HCF and LCM.</li><li>Using HCF×LCM = product for more than two numbers (only valid for two).</li><li>Sign/remainder slips in \"same remainder\" problems.</li></ul><h2>Free HCF &amp; LCM online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-hcf-and-lcm-chapter-tests\"><strong>CAT Quant HCF &amp; LCM Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT HCF & LCM Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: HCF & LCM",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Find the HCF (GCD) of 12 and 16.",
+        "options": [
+          "4",
+          "48",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "HCF(12, 16) = 4"
+      },
+      {
+        "q": "Find the HCF (GCD) of 12 and 27.",
+        "options": [
+          "108",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "HCF(12, 27) = 3"
+      },
+      {
+        "q": "Find the HCF (GCD) of 12 and 40.",
+        "options": [
+          "120",
+          "5",
+          "4",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "HCF(12, 40) = 4"
+      },
+      {
+        "q": "Find the HCF (GCD) of 12 and 54.",
+        "options": [
+          "108",
+          "7",
+          "12",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "HCF(12, 54) = 6"
+      },
+      {
+        "q": "Find the HCF (GCD) of 12 and 72.",
+        "options": [
+          "12",
+          "72",
+          "13",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "HCF(12, 72) = 12"
+      },
+      {
+        "q": "Find the HCF (GCD) of 12 and 90.",
+        "options": [
+          "180",
+          "6",
+          "7",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "HCF(12, 90) = 6"
+      },
+      {
+        "q": "Find the HCF (GCD) of 18 and 16.",
+        "options": [
+          "144",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "HCF(18, 16) = 2"
+      },
+      {
+        "q": "Find the HCF (GCD) of 18 and 27.",
+        "options": [
+          "54",
+          "10",
+          "18",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "HCF(18, 27) = 9"
+      },
+      {
+        "q": "Find the HCF (GCD) of 18 and 40.",
+        "options": [
+          "2",
+          "360",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "HCF(18, 40) = 2"
+      },
+      {
+        "q": "Find the HCF (GCD) of 18 and 54.",
+        "options": [
+          "54",
+          "18",
+          "19",
+          "36"
+        ],
+        "answer": 1,
+        "explanation": "HCF(18, 54) = 18"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Does HCF × LCM = product always hold?",
+      "a": "Only for two numbers. It does not generalise to three or more."
+    },
+    {
+      "q": "How to find HCF/LCM of fractions?",
+      "a": "HCF = HCF(numerators)/LCM(denominators); LCM = LCM(numerators)/HCF(denominators)."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

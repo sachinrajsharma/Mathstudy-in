@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-mixtures-and-alligations-mcq-online-test",
+  "title": "CAT Quant Mixtures & Alligations: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Mixtures & Alligations Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Mixtures & Alligations online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Mixtures & Alligations online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-mixtures-and-alligations-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-mixtures-and-alligations-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Mixtures &amp; Alligations</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Mixtures &amp; Alligations</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Mixtures &amp; Alligations</h2><p>The alligation rule, repeated replacement of liquid, and multi-ingredient mixing to a target price or concentration.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Alligation: (cheaper qty)/(dearer qty) = (dearer − mean)/(mean − cheaper).</li><li>After n replacements of x from V: pure left = V(1 − x/V)ⁿ.</li><li>Mixing prices c, d in ratio m:n gives mean = (mc + nd)/(m+n).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Swapping the numerator and denominator in the alligation rule.</li><li>Using arithmetic (not the (1−x/V)ⁿ formula) for repeated replacement.</li><li>Mixing quantities measured in different units.</li></ul><h2>Free Mixtures &amp; Alligations online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-mixtures-and-alligations-chapter-tests\"><strong>CAT Quant Mixtures &amp; Alligations Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Mixtures & Alligations Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Mixtures & Alligations",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "In what ratio must a mixture of 20% alcohol and another mixture of 40% alcohol be mixed to obtain a 25% alcohol solution?",
+        "options": [
+          "1:3",
+          "1:2",
+          "2:1",
+          "3:1"
+        ],
+        "answer": 0,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "A shopkeeper sells two types of tea: Type A at ₹120/kg and Type B at ₹180/kg. In what ratio should these teas be mixed to sell the mixture at ₹150/kg?",
+        "options": [
+          "1:2",
+          "2:1",
+          "3:1",
+          "1:3"
+        ],
+        "answer": 1,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "Three varieties of sugar costing Rs. 24, Rs. 36, and Rs. 50 per kg are mixed in the ratio 2:3:5 by weight. What is the average cost of the mixture per kg?",
+        "options": [
+          "41.20",
+          "39.80",
+          "38.50",
+          "40.00"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Apply weighted average formula: Average Cost = (W1*P1 + W2*P2 + W3*P3) / (W1 + W2 + W3).\nStep 2: Substitute values: (2 * 24 + 3 * 36 + 5 * 50) / (2 + 3 + 5).\nStep 3: Calculate numerator: 48 + 108 + 250 = 406.\nStep 4: Calculate denominator: 2 + 3 + 5 = 10.\nStep 5: Average Cost = 406 / 10 = Rs. 40.60? Wait, let's"
+      },
+      {
+        "q": "Two vessels contain milk and water in the ratios 5:3 and 1:2. In what ratio should the contents be mixed so that the new mixture has milk and water in the ratio 1:1?",
+        "options": [
+          "3:8",
+          "3:5",
+          "5:8",
+          "8:3"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Fraction of milk in Vessel 1 = 5/8.\nStep 2: Fraction of milk in Vessel 2 = 1/3.\nStep 3: Fraction of milk in target mixture (1:1) = 1/2.\nStep 4: Apply alligation using fractions:\nVessel 1 (5/8) --- Target (1/2 = 4/8) --- Vessel 2 (1/3 = 8/24)\nLet's use common denominator 24:\nVessel 1 = 15/24, Target = 12/24, Ves"
+      },
+      {
+        "q": "A goldsmith melts two gold-copper alloys. Alloy 1 has 85% gold and Alloy 2 has 70% gold. In what ratio must they be mixed to produce an alloy containing 78% gold?",
+        "options": [
+          "4:7",
+          "7:8",
+          "5:6",
+          "8:7"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Set up alligation with percentages: Alloy 1 = 85%, Alloy 2 = 70%, Mean = 78%.\nStep 2: Find cross differences:\nDifference 1 (Alloy 2 from Mean) = 78 - 70 = 8.\nDifference 2 (Alloy 1 from Mean) = 85 - 78 = 7.\nStep 3: Ratio of Alloy 1 to Alloy 2 = 8: 7."
+      },
+      {
+        "q": "In what ratio must a 10% salt solution be mixed with a 30% salt solution to obtain a 15% salt solution?",
+        "options": [
+          "2:1",
+          "1:1",
+          "1:2",
+          "3:1"
+        ],
+        "answer": 0,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "A shopkeeper sells two types of tea: Type X at ₹150/kg and Type Y at ₹200/kg. In what ratio should these teas be mixed to sell the mixture at ₹175/kg?",
+        "options": [
+          "1:1",
+          "3:1",
+          "2:1",
+          "1:3"
+        ],
+        "answer": 1,
+        "explanation": "[object Object]"
+      },
+      {
+        "q": "Three varieties of tea costing Rs. 120, Rs. 150, and Rs. 200 per kg are mixed in the ratio 1:2:2 by weight. What is the average cost of the mixture per kg?",
+        "options": [
+          "160",
+          "164",
+          "155",
+          "170"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Apply weighted average formula: Average Cost = (W1*P1 + W2*P2 + W3*P3) / (W1 + W2 + W3).\nStep 2: Substitute values: (1 * 120 + 2 * 150 + 2 * 200) / (1 + 2 + 2).\nStep 3: Calculate numerator: 120 + 300 + 400 = 820.\nStep 4: Calculate denominator: 1 + 2 + 2 = 5.\nStep 5: Average Cost = 820 / 5 = Rs. 164 per kg."
+      },
+      {
+        "q": "A jeweler mixes two types of gold. Type 1 has purity of 0.92 and Type 2 has purity of 0.80. In what ratio must they be mixed to obtain an alloy of purity 0.88?",
+        "options": [
+          "1:2",
+          "3:2",
+          "2:1",
+          "2:3"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Set up alligation with purities: Type 1 = 0.92, Type 2 = 0.80, Mean = 0.88.\nStep 2: Find cross differences:\nDifference 1 (Type 2 from Mean) = 0.88 - 0.80 = 0.08 (parts of Type 1).\nDifference 2 (Type 1 from Mean) = 0.92 - 0.88 = 0.04 (parts of Type 2).\nStep 3: Ratio of Type 1 to Type 2 = 0.08: 0.04 = 8: 4 = 2: 1"
+      },
+      {
+        "q": "Three varieties of tea costing Rs. 100, Rs. 160, and Rs. 220 per kg are mixed in the ratio 1:2:3 by weight. What is the average cost of the mixture per kg?",
+        "options": [
+          "174",
+          "180",
+          "168",
+          "170"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Apply weighted average formula: Average Cost = (W1*P1 + W2*P2 + W3*P3) / (W1 + W2 + W3).\nStep 2: Substitute values: (1 * 100 + 2 * 160 + 3 * 220) / (1 + 2 + 3).\nStep 3: Calculate numerator: 100 + 320 + 660 = 1080.\nStep 4: Calculate denominator: 1 + 2 + 3 = 6.\nStep 5: Average Cost = 1080 / 6 = Rs. 180 per kg? Wa"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When do I use alligation?",
+      "a": "Whenever two things at different rates/concentrations are mixed to a known average — it gives the mixing ratio in one step."
+    },
+    {
+      "q": "What is the replacement formula?",
+      "a": "If x litres are removed and replaced with water n times from a V-litre vessel, pure liquid left = V(1 − x/V)ⁿ."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}
