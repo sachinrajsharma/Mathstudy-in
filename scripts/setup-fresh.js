@@ -48,6 +48,7 @@ const STEPS = [
   ['Seed Class-10 chapter-test e-books', 'seed-grade10-chapter-tests.js', false],
   ['Seed Class-8 chapter-test e-books', 'seed-grade8-chapter-tests.js', false],
   ['Seed CTET Paper 1 Maths chapter-test e-books', 'seed-ctet-paper1-chapter-tests.js', false],
+  ['Seed CTET Paper 2 Maths chapter-test e-books', 'seed-ctet-paper2-chapter-tests.js', false],
   ['Merge each class into one "Grade N Math" category', 'merge-class-categories.js', false],
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
