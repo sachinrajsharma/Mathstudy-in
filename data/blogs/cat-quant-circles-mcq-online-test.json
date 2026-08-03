@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the circumference of a circle of radius 7 cm. (π = 22/7)",
+        "q": "Two parallel chords of a circle of radius 13 cm have lengths 24 cm and 10 cm and lie on OPPOSITE sides of the centre. The distance between them is",
         "options": [
-          "44 cm",
-          "154 cm",
-          "22 cm",
-          "48 cm"
-        ],
-        "answer": 0,
-        "explanation": "C = 2πr = 2×22/7×7 = 44 cm"
-      },
-      {
-        "q": "Find the circumference of a circle of radius 14 cm. (π = 22/7)",
-        "options": [
-          "616 cm",
-          "88 cm",
-          "44 cm",
-          "92 cm"
+          "7 cm",
+          "17 cm",
+          "5 cm",
+          "12 cm"
         ],
         "answer": 1,
-        "explanation": "C = 2πr = 2×22/7×14 = 88 cm"
+        "explanation": "Distances from centre: √(13²−12²)=5 and √(13²−5²)=12. Opposite sides ⇒ add: 5+12 = 17 cm."
       },
       {
-        "q": "Find the circumference of a circle of radius 21 cm. (π = 22/7)",
+        "q": "Two concentric circles have radii 13 cm and 5 cm. A chord of the larger circle touches the smaller circle. The length of this chord is",
         "options": [
-          "1386 cm",
-          "66 cm",
-          "132 cm",
-          "136 cm"
+          "12 cm",
+          "18 cm",
+          "24 cm",
+          "8 cm"
         ],
         "answer": 2,
-        "explanation": "C = 2πr = 2×22/7×21 = 132 cm"
+        "explanation": "The chord is tangent to the inner circle, so its distance from the centre = 5. Chord = 2√(R²−r²) = 2√(13²−5²) = 2×12 = 24 cm."
       },
       {
-        "q": "Find the circumference of a circle of radius 28 cm. (π = 22/7)",
+        "q": "Two chords AB and CD of a circle meet at an interior point P with PA = 8 cm, PB = 3 cm and PC = 6 cm. Then PD =",
         "options": [
-          "2464 cm",
-          "88 cm",
-          "180 cm",
-          "176 cm"
-        ],
-        "answer": 3,
-        "explanation": "C = 2πr = 2×22/7×28 = 176 cm"
-      },
-      {
-        "q": "Find the circumference of a circle of radius 35 cm. (π = 22/7)",
-        "options": [
-          "220 cm",
-          "3850 cm",
-          "110 cm",
-          "224 cm"
-        ],
-        "answer": 0,
-        "explanation": "C = 2πr = 2×22/7×35 = 220 cm"
-      },
-      {
-        "q": "Find the circumference of a circle of radius 42 cm. (π = 22/7)",
-        "options": [
-          "5544 cm",
-          "264 cm",
-          "132 cm",
-          "268 cm"
+          "8 cm",
+          "4 cm",
+          "3 cm",
+          "5 cm"
         ],
         "answer": 1,
-        "explanation": "C = 2πr = 2×22/7×42 = 264 cm"
+        "explanation": "Intersecting chords: PA·PB = PC·PD ⇒ 8×3 = 6×PD ⇒ PD = 24/6 = 4 cm."
       },
       {
-        "q": "Find the circumference of a circle of radius 49 cm. (π = 22/7)",
+        "q": "PA and PB are two tangents to a circle with centre O, and ∠APB = 70°. The measure of ∠AOB is",
         "options": [
-          "7546 cm",
-          "154 cm",
-          "308 cm",
-          "312 cm"
+          "70°",
+          "35°",
+          "110°",
+          "140°"
         ],
         "answer": 2,
-        "explanation": "C = 2πr = 2×22/7×49 = 308 cm"
+        "explanation": "In quadrilateral PAOB, ∠OAP = ∠OBP = 90°, so ∠AOB = 360°−90°−90°−70° = 110°."
       },
       {
-        "q": "Find the circumference of a circle of radius 56 cm. (π = 22/7)",
+        "q": "A horse is tied to a peg at a corner of a square field by a 14 m rope. Over how much area can it graze? (π = 22/7)",
         "options": [
-          "9856 cm",
-          "176 cm",
-          "356 cm",
-          "352 cm"
+          "616 m²",
+          "308 m²",
+          "154 m²",
+          "196 m²"
         ],
-        "answer": 3,
-        "explanation": "C = 2πr = 2×22/7×56 = 352 cm"
+        "answer": 2,
+        "explanation": "At a corner the horse sweeps a quarter circle: ¼×πr² = ¼×22/7×14² = 154 m²."
       },
       {
-        "q": "Find the circumference of a circle of radius 63 cm. (π = 22/7)",
+        "q": "A minor segment is cut off by a chord subtending 90° at the centre of a circle of radius 14 cm. Its area is (π = 22/7)",
         "options": [
-          "396 cm",
-          "12474 cm",
-          "198 cm",
-          "400 cm"
+          "56 cm²",
+          "154 cm²",
+          "98 cm²",
+          "196 cm²"
         ],
         "answer": 0,
-        "explanation": "C = 2πr = 2×22/7×63 = 396 cm"
+        "explanation": "Segment = quarter-sector − right triangle = (¼×22/7×14²) − (½×14²) = 154 − 98 = 56 cm²."
       },
       {
-        "q": "Find the circumference of a circle of radius 70 cm. (π = 22/7)",
+        "q": "A right-angled triangle has legs 8 cm and 15 cm. The radius of its inscribed circle is",
         "options": [
-          "15400 cm",
-          "440 cm",
-          "220 cm",
-          "444 cm"
+          "3 cm",
+          "8.5 cm",
+          "4 cm",
+          "17 cm"
         ],
-        "answer": 1,
-        "explanation": "C = 2πr = 2×22/7×70 = 440 cm"
+        "answer": 0,
+        "explanation": "For a right triangle the inradius = (a+b−c)/2 = (8+15−17)/2 = 3 cm."
+      },
+      {
+        "q": "Two parallel chords of lengths 24 cm and 10 cm lie on the SAME side of the centre of a circle of radius 13 cm. The distance between them is",
+        "options": [
+          "12 cm",
+          "13 cm",
+          "9 cm",
+          "7 cm"
+        ],
+        "answer": 3,
+        "explanation": "Distances from centre: √(13²−12²) and √(13²−5²); same side ⇒ subtract ⇒ 7 cm."
+      },
+      {
+        "q": "A chord subtends an angle of 60° at the centre of a circle of radius 10 cm. Its length is",
+        "options": [
+          "20 cm",
+          "12 cm",
+          "10 cm",
+          "5 cm"
+        ],
+        "answer": 2,
+        "explanation": "Chord = 2r·sin(θ/2) = 2×10×sin(30°) = 10 cm."
+      },
+      {
+        "q": "A perpendicular drawn from the centre of a circle to a chord of length 16 cm has length 6 cm. The radius of the circle is",
+        "options": [
+          "8 cm",
+          "14 cm",
+          "12 cm",
+          "10 cm"
+        ],
+        "answer": 3,
+        "explanation": "The perpendicular bisects the chord, so radius = √(6²+8²) = √100 = 10 cm."
       }
     ]
   },

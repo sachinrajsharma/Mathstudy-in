@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the area of a rectangle 8 cm by 5 cm.",
+        "q": "Find the area of a triangle whose sides are 13 cm, 14 cm and 15 cm.",
         "options": [
-          "40 cm²",
-          "26 cm²",
-          "13 cm²",
-          "48 cm²"
+          "84 cm²",
+          "90 cm²",
+          "21 cm²",
+          "91 cm²"
         ],
         "answer": 0,
-        "explanation": "Area = 8×5 = 40 cm²"
+        "explanation": "s = (13+14+15)/2 = 21; area = √(s(s−a)(s−b)(s−c)) = √(21×8×7×6) = 84 cm²."
       },
       {
-        "q": "Find the area of a rectangle 8 cm by 6 cm.",
+        "q": "The height of an equilateral triangle of side 6 cm is",
         "options": [
-          "28 cm²",
-          "48 cm²",
-          "14 cm²",
-          "56 cm²"
-        ],
-        "answer": 1,
-        "explanation": "Area = 8×6 = 48 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle 8 cm by 7 cm.",
-        "options": [
-          "30 cm²",
-          "15 cm²",
-          "56 cm²",
-          "64 cm²"
-        ],
-        "answer": 2,
-        "explanation": "Area = 8×7 = 56 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle 8 cm by 9 cm.",
-        "options": [
-          "34 cm²",
-          "17 cm²",
-          "80 cm²",
-          "72 cm²"
+          "6 cm",
+          "3 cm",
+          "12 cm",
+          "3√3 cm"
         ],
         "answer": 3,
-        "explanation": "Area = 8×9 = 72 cm²"
+        "explanation": "Height = (√3/2)·a = (√3/2)×6 = 3√3 cm."
       },
       {
-        "q": "Find the area of a rectangle 8 cm by 11 cm.",
+        "q": "The area of a regular hexagon of side 6 cm is",
         "options": [
-          "88 cm²",
-          "38 cm²",
-          "19 cm²",
-          "96 cm²"
+          "54√3 cm²",
+          "36 cm²",
+          "54 cm²",
+          "216 cm²"
         ],
         "answer": 0,
-        "explanation": "Area = 8×11 = 88 cm²"
+        "explanation": "Area = (3√3/2)a² = (3√3/2)×6² = 54√3 cm²."
       },
       {
-        "q": "Find the area of a rectangle 8 cm by 13 cm.",
+        "q": "A circular wire of radius 21 cm is cut and bent into a rectangle of length 40 cm. Its breadth is (π = 22/7)",
         "options": [
-          "42 cm²",
-          "104 cm²",
-          "21 cm²",
-          "112 cm²"
+          "22 cm",
+          "26 cm",
+          "20 cm",
+          "32 cm"
         ],
         "answer": 1,
-        "explanation": "Area = 8×13 = 104 cm²"
+        "explanation": "Circumference = 2×22/7×21 = 132 = perimeter; 2(40+b) = 132 ⇒ b = 26 cm."
       },
       {
-        "q": "Find the area of a rectangle 10 cm by 5 cm.",
+        "q": "A square of side 14 cm has a semicircle drawn outward on one side. The perimeter of the whole figure is (π = 22/7)",
         "options": [
-          "30 cm²",
-          "15 cm²",
+          "64 cm",
+          "66 cm",
+          "58 cm",
+          "44 cm"
+        ],
+        "answer": 0,
+        "explanation": "Three sides of square (3×14 = 42) + semicircular arc (½×22/7×14 = 22) = 64 cm."
+      },
+      {
+        "q": "An isosceles triangle has two equal sides of 13 cm and a base of 10 cm. Its area is",
+        "options": [
+          "65 cm²",
+          "68 cm²",
           "50 cm²",
           "60 cm²"
         ],
-        "answer": 2,
-        "explanation": "Area = 10×5 = 50 cm²"
+        "answer": 3,
+        "explanation": "Height = √(13²−(10/2)²) = 12; area = ½×10×12 = 60 cm²."
       },
       {
-        "q": "Find the area of a rectangle 10 cm by 6 cm.",
+        "q": "A verandah 20 m by 15 m is paved with square marble slabs of side 50 cm. The number of slabs is",
         "options": [
-          "32 cm²",
-          "16 cm²",
-          "70 cm²",
-          "60 cm²"
+          "600",
+          "300",
+          "1200",
+          "900"
+        ],
+        "answer": 2,
+        "explanation": "Area = 2000×1500 = 3000000 cm²; slab = 2500 cm²; slabs = 1200."
+      },
+      {
+        "q": "The perimeters of two similar triangles are in the ratio 4: 7. The ratio of their areas is",
+        "options": [
+          "4: 7",
+          "7: 4",
+          "16: 49",
+          "2: √7"
+        ],
+        "answer": 2,
+        "explanation": "Area ratio = (perimeter ratio)² = 16: 49."
+      },
+      {
+        "q": "The area of the ring between two concentric circles of radii 21 cm and 14 cm is (π = 22/7)",
+        "options": [
+          "1386 cm²",
+          "154 cm²",
+          "245 cm²",
+          "385 cm²"
         ],
         "answer": 3,
-        "explanation": "Area = 10×6 = 60 cm²"
+        "explanation": "Ring = π(R²−r²) = 22/7×(21²−14²) = 22/7×245 = 385 cm²."
       },
       {
-        "q": "Find the area of a rectangle 10 cm by 7 cm.",
+        "q": "A rhombus-shaped field has diagonals 30 m and 16 m. Fencing it (perimeter) at Rs 20/m costs",
         "options": [
-          "70 cm²",
-          "34 cm²",
-          "17 cm²",
-          "80 cm²"
-        ],
-        "answer": 0,
-        "explanation": "Area = 10×7 = 70 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle 10 cm by 9 cm.",
-        "options": [
-          "38 cm²",
-          "90 cm²",
-          "19 cm²",
-          "100 cm²"
+          "Rs 680",
+          "Rs 1360",
+          "Rs 2720",
+          "Rs 960"
         ],
         "answer": 1,
-        "explanation": "Area = 10×9 = 90 cm²"
+        "explanation": "Side = √(15²+8²) = 17; perimeter = 68 m; cost = 68×20 = Rs 1360."
       }
     ]
   },

@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "If 6 men or 8 women can complete a piece of work in 24 days, in how many days can 9 men and 12 women working together complete the same work?",
+        "q": "A and B can do a work in 10 and 15 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "10 days",
-          "8 days",
           "12 days",
-          "16 days"
-        ],
-        "answer": 1,
-        "explanation": "1. Equating total work: 6M * 24 = 8W * 24 =  6M = 8W => 3M = 4W.\n2. Total work in terms of men = 6 * 24 = 144 man-days.\n3. We need work done by (9M + 12W).\n4. Convert 12W into equivalent men: Since 4W = 3M, 12W = 3 * 3M = 9M.\n5. Total workforce = 9M + 9M = 18M.\n6. Days required = Total work / Total workforce = 144 / 18"
-      },
-      {
-        "q": "A and B together can do a piece of work in 12 days. B alone can do it in 30 days. In how many days can A alone finish the work?",
-        "options": [
-          "18 days",
-          "24 days",
-          "20 days",
-          "15 days"
-        ],
-        "answer": 2,
-        "explanation": "1. Let total work = LCM(12, 30) = 60 units.\n2. Combined efficiency (A + B) = 60 / 12 = 5 units/day.\n3. B's efficiency = 60 / 30 = 2 units/day.\n4. A's efficiency = (A + B) - B = 5 - 2 = 3 units/day.\n5. Time taken by A alone = 60 / 3 = 20 days."
-      },
-      {
-        "q": "A can do a piece of work in 10 days and B in 15 days. Working together, in how many days will they finish it?",
-        "options": [
-          "25 days",
-          "12.5 days",
-          "7 days",
+          "13 days",
+          "11 days",
           "6 days"
         ],
-        "answer": 3,
-        "explanation": "Together = 10×15/(10+15) = 6 days"
-      },
-      {
-        "q": "A can do a piece of work in 10 days and B in 20 days. Working together, in how many days will they finish it?",
-        "options": [
-          "6.67 days",
-          "30 days",
-          "15 days",
-          "7.67 days"
-        ],
         "answer": 0,
-        "explanation": "Together = 10×20/(10+20) = 6.67 days"
+        "explanation": "Alternate-day work reaches 1 on day 12"
       },
       {
-        "q": "A can do a piece of work in 10 days and B in 30 days. Working together, in how many days will they finish it?",
+        "q": "A and B can do a work in 10 and 20 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "40 days",
-          "7.5 days",
-          "20 days",
-          "8.5 days"
+          "14 days",
+          "13 days",
+          "12 days",
+          "7 days"
         ],
         "answer": 1,
-        "explanation": "Together = 10×30/(10+30) = 7.5 days"
+        "explanation": "Alternate-day work reaches 1 on day 13"
       },
       {
-        "q": "A can do a piece of work in 10 days and B in 36 days. Working together, in how many days will they finish it?",
+        "q": "A and B can do a work in 10 and 30 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "46 days",
-          "23 days",
-          "7.83 days",
-          "8.83 days"
-        ],
-        "answer": 2,
-        "explanation": "Together = 10×36/(10+36) = 7.83 days"
-      },
-      {
-        "q": "A can do a piece of work in 10 days and B in 40 days. Working together, in how many days will they finish it?",
-        "options": [
-          "50 days",
-          "25 days",
-          "9 days",
+          "16 days",
+          "14 days",
+          "15 days",
           "8 days"
         ],
-        "answer": 3,
-        "explanation": "Together = 10×40/(10+40) = 8 days"
+        "answer": 2,
+        "explanation": "Alternate-day work reaches 1 on day 15"
       },
       {
-        "q": "A can do a piece of work in 10 days and B in 60 days. Working together, in how many days will they finish it?",
+        "q": "A and B can do a work in 10 and 40 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "8.57 days",
-          "70 days",
-          "35 days",
-          "9.57 days"
+          "17 days",
+          "15 days",
+          "8 days",
+          "16 days"
+        ],
+        "answer": 3,
+        "explanation": "Alternate-day work reaches 1 on day 16"
+      },
+      {
+        "q": "A and B can do a work in 12 and 15 days. If they work on alternate days starting with A, in how many days is the work completed?",
+        "options": [
+          "14 days",
+          "15 days",
+          "13 days",
+          "7 days"
         ],
         "answer": 0,
-        "explanation": "Together = 10×60/(10+60) = 8.57 days"
+        "explanation": "Alternate-day work reaches 1 on day 14"
       },
       {
-        "q": "A can do a piece of work in 12 days and B in 15 days. Working together, in how many days will they finish it?",
+        "q": "A and B can do a work in 12 and 20 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "27 days",
-          "6.67 days",
-          "13.5 days",
-          "7.67 days"
+          "16 days",
+          "15 days",
+          "14 days",
+          "8 days"
         ],
         "answer": 1,
-        "explanation": "Together = 12×15/(12+15) = 6.67 days"
+        "explanation": "Alternate-day work reaches 1 on day 15"
       },
       {
-        "q": "A can do a piece of work in 12 days and B in 20 days. Working together, in how many days will they finish it?",
+        "q": "A and B can do a work in 12 and 30 days. If they work on alternate days starting with A, in how many days is the work completed?",
         "options": [
-          "32 days",
+          "18 days",
           "16 days",
-          "7.5 days",
-          "8.5 days"
+          "17 days",
+          "9 days"
         ],
         "answer": 2,
-        "explanation": "Together = 12×20/(12+20) = 7.5 days"
+        "explanation": "Alternate-day work reaches 1 on day 17"
+      },
+      {
+        "q": "A and B can do a work in 12 and 40 days. If they work on alternate days starting with A, in how many days is the work completed?",
+        "options": [
+          "20 days",
+          "18 days",
+          "9 days",
+          "19 days"
+        ],
+        "answer": 3,
+        "explanation": "Alternate-day work reaches 1 on day 19"
+      },
+      {
+        "q": "A and B can do a work in 15 and 20 days. If they work on alternate days starting with A, in how many days is the work completed?",
+        "options": [
+          "17 days",
+          "18 days",
+          "16 days",
+          "9 days"
+        ],
+        "answer": 0,
+        "explanation": "Alternate-day work reaches 1 on day 17"
+      },
+      {
+        "q": "If 12 men can build a wall in 15 days, how many days will 8 men take to build the same wall?",
+        "options": [
+          "22.5 days",
+          "10 days",
+          "24.5 days",
+          "20.5 days"
+        ],
+        "answer": 0,
+        "explanation": "12×15 = 8×d ⇒ d = 22.5 days"
       }
     ]
   },

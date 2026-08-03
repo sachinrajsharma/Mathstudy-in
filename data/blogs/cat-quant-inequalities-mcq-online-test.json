@@ -28,103 +28,103 @@
         "explanation": "Max product when both = 5 ⇒ 5² = 25"
       },
       {
-        "q": "Solve: |x − 2| ≤ 3",
+        "q": "Solve: |x − 6| ≤ 4",
         "options": [
-          "5 ≤ x ≤ -1",
-          "x ≤ 5",
-          "x ≥ -1",
-          "-1 ≤ x ≤ 5"
-        ],
-        "answer": 3,
-        "explanation": "2−3 ≤ x ≤ 2+3 ⇒ -1 ≤ x ≤ 5"
-      },
-      {
-        "q": "Solve: |x − 3| ≤ 3",
-        "options": [
-          "6 ≤ x ≤ 0",
-          "x ≤ 6",
-          "x ≥ 0",
-          "0 ≤ x ≤ 6"
-        ],
-        "answer": 3,
-        "explanation": "3−3 ≤ x ≤ 3+3 ⇒ 0 ≤ x ≤ 6"
-      },
-      {
-        "q": "Solve: |x − 4| ≤ 1",
-        "options": [
-          "5 ≤ x ≤ 3",
-          "3 ≤ x ≤ 5",
-          "x ≤ 5",
-          "x ≥ 3"
-        ],
-        "answer": 1,
-        "explanation": "4−1 ≤ x ≤ 4+1 ⇒ 3 ≤ x ≤ 5"
-      },
-      {
-        "q": "Solve: |x − 4| ≤ 2",
-        "options": [
-          "6 ≤ x ≤ 2",
-          "x ≤ 6",
-          "2 ≤ x ≤ 6",
+          "2 ≤ x ≤ 10",
+          "10 ≤ x ≤ 2",
+          "x ≤ 10",
           "x ≥ 2"
         ],
-        "answer": 2,
-        "explanation": "4−2 ≤ x ≤ 4+2 ⇒ 2 ≤ x ≤ 6"
+        "answer": 0,
+        "explanation": "6−4 ≤ x ≤ 6+4 ⇒ 2 ≤ x ≤ 10"
       },
       {
-        "q": "Solve: |x − 4| ≤ 3",
+        "q": "The number of integer solutions (x, y) of |x| + |y| ≤ 2 is",
         "options": [
-          "7 ≤ x ≤ 1",
-          "x ≤ 7",
-          "x ≥ 1",
-          "1 ≤ x ≤ 7"
-        ],
-        "answer": 3,
-        "explanation": "4−3 ≤ x ≤ 4+3 ⇒ 1 ≤ x ≤ 7"
-      },
-      {
-        "q": "Solve: |x − 4| ≤ 4",
-        "options": [
-          "0 ≤ x ≤ 8",
-          "8 ≤ x ≤ 0",
-          "x ≤ 8",
-          "x ≥ 0"
+          "13",
+          "12",
+          "9",
+          "25"
         ],
         "answer": 0,
-        "explanation": "4−4 ≤ x ≤ 4+4 ⇒ 0 ≤ x ≤ 8"
+        "explanation": "|x|+|y| = 0 gives 1 point, = 1 gives 4, = 2 gives 8; total 13."
       },
       {
-        "q": "Solve: |x − 5| ≤ 3",
+        "q": "x² ≥ 4 holds for",
         "options": [
-          "8 ≤ x ≤ 2",
-          "x ≤ 8",
-          "x ≥ 2",
-          "2 ≤ x ≤ 8"
+          "x ≤ −2 or x ≥ 2",
+          "−2 ≤ x ≤ 2",
+          "x ≥ 2 only",
+          "all real x"
         ],
-        "answer": 3,
-        "explanation": "5−3 ≤ x ≤ 5+3 ⇒ 2 ≤ x ≤ 8"
+        "answer": 0,
+        "explanation": "x² − 4 ≥ 0 ⇒ (x−2)(x+2) ≥ 0 ⇒ x ≤ −2 or x ≥ 2."
       },
       {
-        "q": "Solve: |x − 6| ≤ 1",
+        "q": "The solution of |x + 2| ≥ 5 is",
         "options": [
-          "7 ≤ x ≤ 5",
-          "5 ≤ x ≤ 7",
-          "x ≤ 7",
-          "x ≥ 5"
+          "x ≥ 3 or x ≤ −7",
+          "−7 ≤ x ≤ 3",
+          "x ≥ 3 only",
+          "−3 ≤ x ≤ 7"
         ],
-        "answer": 1,
-        "explanation": "6−1 ≤ x ≤ 6+1 ⇒ 5 ≤ x ≤ 7"
+        "answer": 0,
+        "explanation": "x+2 ≥ 5 or x+2 ≤ −5 ⇒ x ≥ 3 or x ≤ −7."
       },
       {
-        "q": "Solve: |x − 6| ≤ 2",
+        "q": "The maximum value of 5 − |x − 3| for real x is",
         "options": [
-          "8 ≤ x ≤ 4",
-          "x ≤ 8",
-          "4 ≤ x ≤ 8",
-          "x ≥ 4"
+          "5",
+          "3",
+          "0",
+          "unbounded"
         ],
-        "answer": 2,
-        "explanation": "6−2 ≤ x ≤ 6+2 ⇒ 4 ≤ x ≤ 8"
+        "answer": 0,
+        "explanation": "|x−3| ≥ 0, so 5 − |x−3| ≤ 5, with maximum 5 at x = 3."
+      },
+      {
+        "q": "The set of real x satisfying |x − 1| + |x − 2| = 1 is",
+        "options": [
+          "[1, 2]",
+          "1, 2",
+          "(1, 2)",
+          "only x = 1.5"
+        ],
+        "answer": 0,
+        "explanation": "The sum of distances from 1 and 2 equals the gap (1) exactly on the segment between them: 1 ≤ x ≤ 2."
+      },
+      {
+        "q": "The minimum value of |x − 1| + |x − 5| for real x is",
+        "options": [
+          "4",
+          "0",
+          "6",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "The sum of distances from 1 and 5 is least on [1, 5], where it equals the gap 4."
+      },
+      {
+        "q": "x² + x − 6 ≥ 0 holds for",
+        "options": [
+          "x ≤ −3 or x ≥ 2",
+          "−3 ≤ x ≤ 2",
+          "x ≥ 2 only",
+          "all real x"
+        ],
+        "answer": 0,
+        "explanation": "(x+3)(x−2) ≥ 0 ⇒ x ≤ −3 or x ≥ 2."
+      },
+      {
+        "q": "The number of integer values of x for which (x − 2)/(x + 1) is negative is",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "The ratio is negative for −1   x < 2; the integers strictly inside are 0 and 1 — two values."
       }
     ]
   },

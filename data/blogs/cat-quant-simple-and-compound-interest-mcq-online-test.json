@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "A sum of money invested at simple interest amounts to Rs. 880 in 2 years and to Rs. 920 in 3 years. Find the principal and the rate of interest per annum.",
+        "q": "Find the difference between compound and simple interest on Rs. 5000 at 5% per annum for 2 years.",
         "options": [
-          "Rs. 800, 5%",
-          "Rs. 750, 6%",
-          "Rs. 800, 4%",
-          "Rs. 700, 7%"
+          "Rs. 12.5",
+          "Rs. 25",
+          "Rs. 22.5",
+          "Rs. 2.5"
         ],
         "answer": 0,
-        "explanation": "Step 1: Understand that simple interest remains constant every year.\nStep 2: SI for 1 year = Amount in 3 years - Amount in 2 years = 920 - 880 = Rs. 40.\nStep 3: SI for 2 years = 2 * 40 = Rs. 80.\nStep 4: Principal = Amount in 2 years - SI for 2 years = 880 - 80 = Rs. 800.\nStep 5: Rate of Interest = (SI for 1 year / Prin"
+        "explanation": "Diff = 5000×(5/100)² = Rs. 12.5"
       },
       {
-        "q": "If a certain sum becomes 3 times of itself in 8 years at simple interest, in how many years will it become 5 times of itself at the same rate of interest?",
+        "q": "Find the difference between compound and simple interest on Rs. 5000 at 10% per annum for 2 years.",
         "options": [
-          "12 years",
-          "16 years",
-          "15 years",
-          "18 years"
-        ],
-        "answer": 1,
-        "explanation": "Step 1: Let the principal be P. The amount becomes 3P in 8 years, meaning the simple interest earned is 3P - P = 2P.\nStep 2: Interest of 2P is accumulated in 8 years. Therefore, interest of P takes 4 years.\nStep 3: To become 5 times, the total amount must be 5P, which means the interest required is 5P - P = 4P.\nStep 4:"
-      },
-      {
-        "q": "A man lends Rs. 6000 at 5% per annum and Rs. 4000 at 4% per annum simple interest. What is the overall effective rate of interest per annum on the total sum lent?",
-        "options": [
-          "4.4%",
-          "4.5%",
-          "4.6%",
-          "4.8%"
-        ],
-        "answer": 2,
-        "explanation": "Step 1: Calculate total principal = 6000 + 4000 = Rs. 10000.\nStep 2: Calculate annual interest from first part = (6000 * 5) / 100 = Rs. 300.\nStep 3: Calculate annual interest from second part = (4000 * 4) / 100 = Rs. 160.\nStep 4: Total annual interest = 300 + 160 = Rs. 460.\nStep 5: Effective rate = (Total Interest / To"
-      },
-      {
-        "q": "Find the difference between Simple Interest and Compound Interest on a sum of Rs. 10,000 for 2 years at 10% per annum, where interest is compounded annually.",
-        "options": [
+          "Rs. 100",
           "Rs. 50",
-          "Rs. 150",
-          "Rs. 200",
-          "Rs. 100"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: Simple Interest for 2 years at 10% = (10000 * 10 * 2) / 100 = Rs. 2000.\nStep 2: Compound Interest for 2 years at 10% uses effective rate = 10 + 10 + (10*10)/100 = 21%.\nStep 3: Compound Interest = 21% of 10000 = Rs. 2100.\nStep 4: Difference = 2100 - 2000 = Rs. 100."
-      },
-      {
-        "q": "A sum of money placed at compound interest doubles itself in 5 years. In how many years will it become 8 times of itself?",
-        "options": [
-          "15 years",
-          "10 years",
-          "12 years",
-          "20 years"
-        ],
-        "answer": 0,
-        "explanation": "Step 1: In compound interest, if a sum becomes k times in t years, it becomes kⁿ times in n × t years.\nStep 2: Here, k = 2, t = 5 years.\nStep 3: We need the amount to be 8 times, which is 2³ times ( n = 3 ).\nStep 4: Total time = 3 × 5 = 15 years."
-      },
-      {
-        "q": "A sum of money doubles itself in 10 years at simple interest. What is the rate of interest per annum?",
-        "options": [
-          "12%",
-          "10%",
-          "15%",
-          "20%"
+          "Rs. 60",
+          "Rs. 40"
         ],
         "answer": 1,
-        "explanation": "[object Object]"
+        "explanation": "Diff = 5000×(10/100)² = Rs. 50"
       },
       {
-        "q": "The difference between compound interest and simple interest on a principal of ₹10,000 for 2 years at 10% per annum is:",
+        "q": "Find the difference between compound and simple interest on Rs. 5000 at 15% per annum for 2 years.",
         "options": [
-          "₹200",
-          "₹300",
-          "₹100",
-          "₹400"
+          "Rs. 225",
+          "Rs. 122.5",
+          "Rs. 112.5",
+          "Rs. 102.5"
         ],
         "answer": 2,
-        "explanation": "[object Object]"
+        "explanation": "Diff = 5000×(15/100)² = Rs. 112.5"
       },
       {
-        "q": "The population of a town increases by 10% annually. If the present population is 10,000, what will be the population after 3 years?",
+        "q": "Find the difference between compound and simple interest on Rs. 5000 at 20% per annum for 2 years.",
         "options": [
-          "13,000",
-          "13,500",
-          "13,710",
-          "13,310"
+          "Rs. 400",
+          "Rs. 210",
+          "Rs. 190",
+          "Rs. 200"
         ],
         "answer": 3,
-        "explanation": "[object Object]"
+        "explanation": "Diff = 5000×(20/100)² = Rs. 200"
       },
       {
-        "q": "A sum of money becomes 4 times in 20 years at SI. What is the rate of interest per annum?",
+        "q": "Find the difference between compound and simple interest on Rs. 8000 at 5% per annum for 2 years.",
         "options": [
-          "15%",
-          "5%",
-          "10%",
-          "20%"
+          "Rs. 20",
+          "Rs. 40",
+          "Rs. 30",
+          "Rs. 10"
         ],
         "answer": 0,
-        "explanation": "[object Object]"
+        "explanation": "Diff = 8000×(5/100)² = Rs. 20"
       },
       {
-        "q": "A sum of money amounts to Rs. 4,800 in 4 years and to Rs. 6,000 in 7 years at simple interest. Find the annual rate of interest.",
+        "q": "Find the difference between compound and simple interest on Rs. 8000 at 10% per annum for 2 years.",
         "options": [
-          "8%",
-          "10%",
-          "12%",
-          "12.5%"
+          "Rs. 160",
+          "Rs. 80",
+          "Rs. 90",
+          "Rs. 70"
         ],
         "answer": 1,
-        "explanation": "Step 1: Simple interest for 3 years (7 years - 4 years) = Rs. 6,000 - Rs. 4,800 = Rs. 1,200.\nStep 2: Simple interest for 1 year = 1200 / 3 = Rs. 400.\nStep 3: Simple interest for 4 years = 4 * 400 = Rs. 1,600.\nStep 4: Principal = Amount in 4 years - SI for 4 years = 4800 - 1600 = Rs. 3,200.\nStep 5: Rate of Interest = (S"
+        "explanation": "Diff = 8000×(10/100)² = Rs. 80"
+      },
+      {
+        "q": "Find the difference between compound and simple interest on Rs. 8000 at 15% per annum for 2 years.",
+        "options": [
+          "Rs. 360",
+          "Rs. 190",
+          "Rs. 180",
+          "Rs. 170"
+        ],
+        "answer": 2,
+        "explanation": "Diff = 8000×(15/100)² = Rs. 180"
+      },
+      {
+        "q": "Find the difference between compound and simple interest on Rs. 8000 at 20% per annum for 2 years.",
+        "options": [
+          "Rs. 640",
+          "Rs. 330",
+          "Rs. 310",
+          "Rs. 320"
+        ],
+        "answer": 3,
+        "explanation": "Diff = 8000×(20/100)² = Rs. 320"
+      },
+      {
+        "q": "Find the difference between compound and simple interest on Rs. 10000 at 5% per annum for 2 years.",
+        "options": [
+          "Rs. 25",
+          "Rs. 50",
+          "Rs. 35",
+          "Rs. 15"
+        ],
+        "answer": 0,
+        "explanation": "Diff = 10000×(5/100)² = Rs. 25"
+      },
+      {
+        "q": "Find the difference between compound and simple interest on Rs. 15000 at 10% per annum for 2 years.",
+        "options": [
+          "Rs. 300",
+          "Rs. 150",
+          "Rs. 160",
+          "Rs. 140"
+        ],
+        "answer": 1,
+        "explanation": "Diff = 15000×(10/100)² = Rs. 150"
       }
     ]
   },

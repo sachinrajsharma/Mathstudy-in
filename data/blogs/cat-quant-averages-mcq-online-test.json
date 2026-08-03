@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "The average age of a group of 10 people is 25 years. If a new person aged 35 joins the group, what is the new average age?",
+        "q": "A car covers a distance at 30 km/h and returns along the same route at 60 km/h. Find its average speed for the whole journey.",
         "options": [
-          "26",
-          "27",
-          "25.909",
-          "26.5"
+          "40 km/h",
+          "45 km/h",
+          "42 km/h",
+          "38 km/h"
         ],
         "answer": 0,
-        "explanation": "Total age of 10 people = 10 * 25 = 250 years. Adding the new person: 250 + 35 = 285. New average = 285 / 11 ≈ 25.909. However, the closest integer is 26."
+        "explanation": "Avg = 2×30×60/(30+60) = 40 km/h"
       },
       {
-        "q": "A class has 20 boys and 30 girls. The average marks of boys is 40, and the average marks of girls is 50. What is the average marks of the entire class?",
+        "q": "A car covers a distance at 30 km/h and returns along the same route at 80 km/h. Find its average speed for the whole journey.",
         "options": [
-          "44",
-          "46",
-          "47",
-          "45"
+          "55 km/h",
+          "43.64 km/h",
+          "45.64 km/h",
+          "41.64 km/h"
         ],
         "answer": 1,
-        "explanation": "Total marks for boys = 20 * 40 = 800. Total marks for girls = 30 * 50 = 1500. Combined total = 800 + 1500 = 2300. Average = 2300 / 50 = 46."
+        "explanation": "Avg = 2×30×80/(30+80) = 43.64 km/h"
       },
       {
-        "q": "A batsman’s average runs in 10 innings is 45. In the next 5 innings, his average is 60. What is his new average after 15 innings?",
+        "q": "A car covers a distance at 30 km/h and returns along the same route at 40 km/h. Find its average speed for the whole journey.",
         "options": [
-          "48",
-          "52",
-          "50",
-          "54"
+          "35 km/h",
+          "36.29 km/h",
+          "34.29 km/h",
+          "32.29 km/h"
         ],
         "answer": 2,
-        "explanation": "Total runs in first 10 innings = 10 * 45 = 450. Total runs in next 5 innings = 5 * 60 = 300. Combined total = 450 + 300 = 750. New average = 750 / 15 = 50."
+        "explanation": "Avg = 2×30×40/(30+40) = 34.29 km/h"
       },
       {
-        "q": "The average of 3 numbers is 20. If two of the numbers are 15 and 25, what is the third number?",
+        "q": "A car covers a distance at 40 km/h and returns along the same route at 60 km/h. Find its average speed for the whole journey.",
         "options": [
-          "15",
-          "25",
-          "30",
-          "20"
+          "50 km/h",
+          "46 km/h",
+          "52 km/h",
+          "48 km/h"
         ],
         "answer": 3,
-        "explanation": "Total of 3 numbers = 3 * 20 = 60. Sum of two numbers = 15 + 25 = 40. Third number = 60 - 40 = 20."
+        "explanation": "Avg = 2×40×60/(40+60) = 48 km/h"
       },
       {
-        "q": "The average age of a family of 4 members is 30 years. If the youngest member is 10 years old, what is the average age of the other 3 members?",
+        "q": "A car covers a distance at 40 km/h and returns along the same route at 80 km/h. Find its average speed for the whole journey.",
         "options": [
-          "33.33",
-          "35",
-          "40",
-          "45"
+          "53.33 km/h",
+          "60 km/h",
+          "55.33 km/h",
+          "51.33 km/h"
         ],
         "answer": 0,
-        "explanation": "Total age of 4 members = 4 * 30 = 120. Age of the other 3 members = 120 - 10 = 110. Average = 110 / 3 ≈ 36.67. **Correction:** 110 / 3 ≈ 36.67, but options suggest 33.33. Rechecking: If total is 120 and youngest is 10, sum of others = 110. Average = 110/3 ≈ 36.67. **Error in options.** Assuming typo, correct average is"
+        "explanation": "Avg = 2×40×80/(40+80) = 53.33 km/h"
       },
       {
-        "q": "The average of 5 numbers is 10. If each number is increased by 5, what is the new average?",
+        "q": "A car covers a distance at 40 km/h and returns along the same route at 30 km/h. Find its average speed for the whole journey.",
         "options": [
-          "10",
-          "15",
-          "20",
-          "25"
+          "35 km/h",
+          "34.29 km/h",
+          "36.29 km/h",
+          "32.29 km/h"
         ],
         "answer": 1,
-        "explanation": "Original total = 5 * 10 = 50. New total = 50 + 5*5 = 75. New average = 75 / 5 = 15."
+        "explanation": "Avg = 2×40×30/(40+30) = 34.29 km/h"
       },
       {
-        "q": "The average temperature for the first 5 days of a week is 30°C, and for the next 2 days is 25°C. What is the average temperature for the week?",
+        "q": "A car covers a distance at 60 km/h and returns along the same route at 80 km/h. Find its average speed for the whole journey.",
         "options": [
-          "29°C",
-          "29.29°C",
-          "28.57°C",
-          "30°C"
+          "70 km/h",
+          "70.57 km/h",
+          "68.57 km/h",
+          "66.57 km/h"
         ],
         "answer": 2,
-        "explanation": "Total temperature for first 5 days = 5 * 30 = 150. Total for next 2 days = 2 * 25 = 50. Combined total = 200. Average = 200 / 7 ≈ 28.57°C."
+        "explanation": "Avg = 2×60×80/(60+80) = 68.57 km/h"
       },
       {
-        "q": "The average marks of 30 students is 60. If the marks of each student are doubled, what is the new average?",
+        "q": "A car covers a distance at 60 km/h and returns along the same route at 40 km/h. Find its average speed for the whole journey.",
         "options": [
-          "60",
-          "90",
-          "180",
-          "120"
+          "50 km/h",
+          "46 km/h",
+          "52 km/h",
+          "48 km/h"
         ],
         "answer": 3,
-        "explanation": "Original total = 30 * 60 = 1800. New total = 1800 * 2 = 3600. New average = 3600 / 30 = 120."
+        "explanation": "Avg = 2×60×40/(60+40) = 48 km/h"
       },
       {
-        "q": "The average age of 5 men is 40 years. The average age of 5 women is 30 years. What is the average age of all 10 people?",
+        "q": "A car covers a distance at 60 km/h and returns along the same route at 30 km/h. Find its average speed for the whole journey.",
         "options": [
-          "35",
-          "33",
-          "34",
-          "36"
+          "40 km/h",
+          "45 km/h",
+          "42 km/h",
+          "38 km/h"
         ],
         "answer": 0,
-        "explanation": "Total age of men = 5 * 40 = 200. Total age of women = 5 * 30 = 150. Combined total = 350. Average = 350 / 10 = 35."
+        "explanation": "Avg = 2×60×30/(60+30) = 40 km/h"
       },
       {
-        "q": "The average of 7 numbers is 12. If one number is added, the average becomes 13. What is the added number?",
+        "q": "A batsman has an average of 45 after 10 innings. He scores 100 in the next innings. By how much does his average change?",
         "options": [
-          "18",
-          "21",
-          "19",
-          "20"
+          "4",
+          "6",
+          "-5",
+          "+5"
         ],
-        "answer": 1,
-        "explanation": "Total of 7 numbers = 7 * 12 = 84. Total of 8 numbers = 8 * 13 = 104. Added number = 104 - 84 = 20. **Correction:** 104 - 84 = 20, but options suggest 21. **Error in options.** Correct added number is 20."
+        "answer": 3,
+        "explanation": "New avg = (10×45+100)/11 = 50; change 5"
       }
     ]
   },

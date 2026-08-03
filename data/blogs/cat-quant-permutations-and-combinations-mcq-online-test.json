@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "A person has 4 shirts and 3 pairs of trousers. In how many ways can he dress himself?",
+        "q": "In how many ways can 15 students be divided into 3 indistinguishable groups of 5 each?",
         "options": [
-          "12",
-          "7",
-          "24",
-          "10"
+          "126126",
+          "756756",
+          "63063",
+          "252252"
         ],
         "answer": 0,
-        "explanation": "Step 1: By the Fundamental Counting Principle, the number of ways = (ways to choose shirt) × (ways to choose trousers).\nStep 2: = 4 × 3 = 12.\nAnswer: 12"
+        "explanation": "Step 1: If groups were distinguishable: 15C5 × 10C5 × 5C5 = 3003 × 252 × 1 = 756,756.\nStep 2: The 3 groups are indistinguishable, so divide by 3! = 6.\nStep 3: Total = 756,756 / 6 = 126,126.\nAnswer: 126126"
       },
       {
-        "q": "In how many ways can 4 different books be arranged on a shelf?",
+        "q": "In how many ways can 10 people be divided into 5 indistinguishable pairs?",
         "options": [
-          "12",
-          "24",
-          "48",
-          "16"
+          "5040",
+          "945",
+          "1890",
+          "3780"
         ],
         "answer": 1,
-        "explanation": "Step 1: This is the number of permutations of 4 distinct objects = 4!\nStep 2: 4! = 4 × 3 × 2 × 1 = 24.\nAnswer: 24"
+        "explanation": "Step 1: If pairs were labelled: 10C2 × 8C2 × 6C2 × 4C2 × 2C2 = 45 × 28 × 15 × 6 × 1 = 113,400.\nStep 2: Divide by 5! (pairs are indistinguishable): 113,400 / 120 = 945.\nAlternatively: 10! / (2!⁵ × 5!) = 3,628,800 / (32 × 120) = 945.\nAnswer: 945"
       },
       {
-        "q": "Find the value of 5P2.",
+        "q": "Find the number of derangements of 5 objects.",
         "options": [
-          "10",
-          "15",
+          "40",
+          "48",
+          "44",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: D₅ = 5! × (1 - 1/1! + 1/2! - 1/3! + 1/4! - 1/5!).\nStep 2: = 120 × (1 - 1 + 1/2 - 1/6 + 1/24 - 1/120).\nStep 3: = 120 × (60 - 20 + 5 - 1)/120 = 120 × 44/120 = 44.\nAnswer: 44"
+      },
+      {
+        "q": "A committee of 5 is to be chosen from 6 men and 5 women. How many committees have more women than men?",
+        "options": [
+          "126",
+          "196",
+          "231",
+          "181"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Women   Men means 3W+2M, 4W+1M, or 5W+0M.\nStep 2: 3W+2M: 5C3 × 6C2 = 10 × 15 = 150.\nStep 3: 4W+1M: 5C4 × 6C1 = 5 × 6 = 30.\nStep 4: 5W+0M: 5C5 × 6C0 = 1.\nStep 5: Total = 150 + 30 + 1 = 181.\nAnswer: 181"
+      },
+      {
+        "q": "In how many ways can 8 people be arranged in a queue such that person A is always ahead of person B, and B is always ahead of person C (not necessarily consecutively)?",
+        "options": [
+          "6720",
+          "13440",
+          "20160",
+          "40320"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Total arrangements = 8! = 40,320.\nStep 2: Among the 3! = 6 orderings of A, B, C among themselves, exactly 1 has A before B before C.\nStep 3: Required = 8! / 3! = 40,320 / 6 = 6720.\nAnswer: 6720"
+      },
+      {
+        "q": "In how many ways can the letters of MATHEMATICS be arranged such that the vowels (A, A, E, I) never come together?",
+        "options": [
+          "4989600",
+          "4868640",
+          "120960",
+          "2494800"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Total arrangements of MATHEMATICS (11 letters, M×2, A×2, T×2) = 11!/(2!2!2!) = 4,989,600.\nStep 2: Vowels together: treat A,A,E,I as one block → 8 units with M×2, T×2. Arrangements = 8!/(2!2!) × 4!/2! = 10,080 × 12 = 120,960.\nStep 3: Vowels never together = 4,989,600 - 120,960 = 4,868,640.\nAnswer: 4868640"
+      },
+      {
+        "q": "There are n points in space, no 4 of which are coplanar. If the number of tetrahedra that can be formed is 5 times the number of triangles, find n.",
+        "options": [
           "20",
+          "21",
+          "23",
           "25"
         ],
         "answer": 2,
-        "explanation": "Step 1: nPr = n! / (n - r)!, so 5P2 = 5! / 3!.\nStep 2: 5P2 = (5 × 4 × 3!) / 3! = 5 × 4 = 20.\nAnswer: 20"
+        "explanation": "Step 1: Triangles = nC3; Tetrahedra = nC4. Given: nC4 = 5 × nC3.\nStep 2: n!/(4!(n-4)!) = 5 × n!/(3!(n-3)!) → (n-3)/4 = 5 → n-3 = 20 → n = 23.\nAnswer: 23"
       },
       {
-        "q": "Find the value of 6C2.",
+        "q": "In how many ways can 10 distinct balls be distributed into 3 distinct boxes such that no box is empty?",
         "options": [
-          "12",
-          "18",
-          "30",
-          "15"
+          "59049",
+          "56000",
+          "58003",
+          "55980"
         ],
         "answer": 3,
-        "explanation": "Step 1: nCr = n! / (r! × (n-r)!), so 6C2 = 6! / (2! × 4!).\nStep 2: 6C2 = (6 × 5) / (2 × 1) = 30 / 2 = 15.\nAnswer: 15"
+        "explanation": "Step 1: Total distributions = 3¹0 = 59,049.\nStep 2: By inclusion-exclusion, subtract cases with at least one empty box:\nStep 3: = 3¹0 - C(3,1)×2¹0 + C(3,2)×1¹0 = 59,049 - 3×1024 + 3×1 = 59,049 - 3072 + 3 = 55,980.\nAnswer: 55980"
       },
       {
-        "q": "How many 3-letter words (with or without meaning) can be formed from the letters A, B, C, D, E without repetition?",
+        "q": "In how many ways can 10 persons be seated at 2 round tables, one with 4 seats and the other with 6 seats?",
         "options": [
-          "60",
-          "120",
-          "30",
-          "10"
+          "151200",
+          "302400",
+          "75600",
+          "50400"
         ],
         "answer": 0,
-        "explanation": "Step 1: We need to arrange 3 letters chosen from 5 distinct letters without repetition = 5P3.\nStep 2: 5P3 = 5 × 4 × 3 = 60.\nAnswer: 60"
+        "explanation": "Step 1: Choose 4 persons for the smaller table: 10C4 = 210.\nStep 2: Seat them at the round table of 4: (4-1)! = 6.\nStep 3: Seat the remaining 6 at the round table of 6: (6-1)! = 120.\nStep 4: Total = 210 × 6 × 120 = 151,200.\nAnswer: 151200"
       },
       {
-        "q": "In how many ways can 3 students be selected from a group of 7?",
+        "q": "How many 6-digit numbers can be formed using the digits 1, 2, 3, 4 (with repetition) such that every digit appears at least once?",
         "options": [
-          "21",
-          "35",
-          "70",
-          "42"
-        ],
-        "answer": 1,
-        "explanation": "Step 1: Order does not matter, so we need 7C3.\nStep 2: 7C3 = 7! / (3! × 4!) = (7 × 6 × 5) / (3 × 2 × 1) = 210 / 6 = 35.\nAnswer: 35"
-      },
-      {
-        "q": "In how many ways can the letters of the word MATHS be arranged?",
-        "options": [
-          "60",
-          "24",
-          "120",
-          "720"
+          "1680",
+          "1440",
+          "1560",
+          "1320"
         ],
         "answer": 2,
-        "explanation": "Step 1: MATHS has 5 distinct letters.\nStep 2: Number of arrangements = 5! = 5 × 4 × 3 × 2 × 1 = 120.\nAnswer: 120"
-      },
-      {
-        "q": "In how many ways can 5 people be seated around a circular table?",
-        "options": [
-          "120",
-          "60",
-          "48",
-          "24"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: For circular permutations of n objects, one position is fixed and the rest are arranged: (n-1)!\nStep 2: (5-1)! = 4! = 24.\nAnswer: 24"
-      },
-      {
-        "q": "How many 2-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
-        "options": [
-          "20",
-          "25",
-          "10",
-          "15"
-        ],
-        "answer": 0,
-        "explanation": "Step 1: Choose the tens digit: 5 options. Choose the units digit from remaining 4: 4 options.\nStep 2: Total = 5 × 4 = 20.\nAnswer: 20"
-      },
-      {
-        "q": "Find the value of 8C3.",
-        "options": [
-          "28",
-          "56",
-          "112",
-          "42"
-        ],
-        "answer": 1,
-        "explanation": "Step 1: 8C3 = 8! / (3! × 5!) = (8 × 7 × 6) / (3 × 2 × 1).\nStep 2: = 336 / 6 = 56.\nAnswer: 56"
+        "explanation": "Step 1: Total 6-digit numbers from 1,2,3,4 with repetition = 4⁶ = 4096.\nStep 2: Subtract by inclusion-exclusion (at least one digit missing):\n- Missing 1 digit: C(4,1)×3⁶ = 4×729 = 2916.\n- Missing 2 digits: C(4,2)×2⁶ = 6×64 = 384.\n- Missing 3 digits: C(4,3)×1⁶ = 4×1 = 4.\nStep 3: By inclusion-exclusion: 4096 - 2916 + 38"
       }
     ]
   },

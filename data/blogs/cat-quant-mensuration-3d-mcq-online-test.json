@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 3 cm × 2 cm.",
+        "q": "The length of the diagonal of a cube of edge 10 cm is",
         "options": [
-          "24 cm³",
-          "52 cm³",
-          "9 cm³",
-          "28 cm³"
-        ],
-        "answer": 0,
-        "explanation": "V = 4×3×2 = 24 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 3 cm × 5 cm.",
-        "options": [
-          "94 cm³",
-          "60 cm³",
-          "12 cm³",
-          "64 cm³"
+          "10√2 cm",
+          "10√3 cm",
+          "30 cm",
+          "10 cm"
         ],
         "answer": 1,
-        "explanation": "V = 4×3×5 = 60 cm³"
+        "explanation": "Space diagonal of a cube = a√3 = 10√3 cm."
       },
       {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 3 cm × 10 cm.",
+        "q": "The total surface area of a solid cylinder of radius 7 cm and height 3 cm is (π = 22/7)",
         "options": [
-          "164 cm³",
-          "17 cm³",
-          "120 cm³",
-          "124 cm³"
-        ],
-        "answer": 2,
-        "explanation": "V = 4×3×10 = 120 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 4 cm × 2 cm.",
-        "options": [
-          "64 cm³",
-          "10 cm³",
-          "36 cm³",
-          "32 cm³"
+          "308 cm²",
+          "132 cm²",
+          "220 cm²",
+          "440 cm²"
         ],
         "answer": 3,
-        "explanation": "V = 4×4×2 = 32 cm³"
+        "explanation": "TSA = 2πr(r+h) = 2×22/7×7×(7+3) = 44×10 = 440 cm²."
       },
       {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 4 cm × 5 cm.",
+        "q": "The curved surface area of a cone of radius 7 cm and slant height 25 cm is (π = 22/7)",
         "options": [
-          "80 cm³",
-          "112 cm³",
-          "13 cm³",
-          "84 cm³"
-        ],
-        "answer": 0,
-        "explanation": "V = 4×4×5 = 80 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 4 cm × 10 cm.",
-        "options": [
-          "192 cm³",
-          "160 cm³",
-          "18 cm³",
-          "164 cm³"
-        ],
-        "answer": 1,
-        "explanation": "V = 4×4×10 = 160 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 5 cm × 2 cm.",
-        "options": [
-          "76 cm³",
-          "11 cm³",
-          "40 cm³",
-          "44 cm³"
-        ],
-        "answer": 2,
-        "explanation": "V = 4×5×2 = 40 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 5 cm × 5 cm.",
-        "options": [
-          "130 cm³",
-          "14 cm³",
-          "104 cm³",
-          "100 cm³"
+          "154 cm²",
+          "704 cm²",
+          "385 cm²",
+          "550 cm²"
         ],
         "answer": 3,
-        "explanation": "V = 4×5×5 = 100 cm³"
+        "explanation": "CSA = πrl = 22/7×7×25 = 550 cm²."
       },
       {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 5 cm × 10 cm.",
+        "q": "A painted cube is cut into 64 equal small cubes. How many have exactly one face painted?",
         "options": [
-          "200 cm³",
-          "220 cm³",
-          "19 cm³",
-          "204 cm³"
-        ],
-        "answer": 0,
-        "explanation": "V = 4×5×10 = 200 cm³"
-      },
-      {
-        "q": "Find the volume of a cuboid with dimensions 4 cm × 7 cm × 2 cm.",
-        "options": [
-          "100 cm³",
-          "56 cm³",
-          "13 cm³",
-          "60 cm³"
+          "12",
+          "24",
+          "8",
+          "48"
         ],
         "answer": 1,
-        "explanation": "V = 4×7×2 = 56 cm³"
+        "explanation": "One face painted = 6(n−2)² = 6×4 = 24 (n = 4)."
+      },
+      {
+        "q": "The curved surface of a cylindrical pillar of radius 7 m and height 10 m is to be painted at Rs 5 per m². The cost is (π = 22/7)",
+        "options": [
+          "Rs 1100",
+          "Rs 2200",
+          "Rs 4400",
+          "Rs 3080"
+        ],
+        "answer": 1,
+        "explanation": "CSA = 2×22/7×7×10 = 440 m²; cost = 440×5 = Rs 2200."
+      },
+      {
+        "q": "The length of the diagonal of a cuboid 6 cm × 6 cm × 7 cm is",
+        "options": [
+          "19 cm",
+          "12 cm",
+          "7 cm",
+          "11 cm"
+        ],
+        "answer": 3,
+        "explanation": "Diagonal = √(l²+b²+h²) = √(6²+6²+7²) = √121 = 11 cm."
+      },
+      {
+        "q": "The volume of a sphere is numerically equal to its surface area. Its radius is",
+        "options": [
+          "1 unit",
+          "2 units",
+          "4 units",
+          "3 units"
+        ],
+        "answer": 3,
+        "explanation": "4/3πr³ = 4πr² ⇒ r/3 = 1 ⇒ r = 3."
+      },
+      {
+        "q": "Two cylinders have their radii in the ratio 2: 3 and heights in the ratio 5: 4. The ratio of their volumes is",
+        "options": [
+          "2: 3",
+          "10: 12",
+          "5: 9",
+          "4: 9"
+        ],
+        "answer": 2,
+        "explanation": "V ∝ r²h ⇒ (2²×5): (3²×4) = 20: 36 = 5: 9."
+      },
+      {
+        "q": "A cone has radius 14 cm and slant height 25 cm. Its total surface area is (π = 22/7)",
+        "options": [
+          "1100 cm²",
+          "1716 cm²",
+          "616 cm²",
+          "2200 cm²"
+        ],
+        "answer": 1,
+        "explanation": "TSA = πr(r+l) = 22/7×14×(14+25) = 44×39 = 1716 cm²."
+      },
+      {
+        "q": "A cube is cut into 216 equal small cubes. How many have exactly one face painted?",
+        "options": [
+          "48",
+          "64",
+          "54",
+          "96"
+        ],
+        "answer": 3,
+        "explanation": "One-face cubes = 6(n−2)² = 6×16 = 96 (n = 6)."
       }
     ]
   },

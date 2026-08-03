@@ -39,92 +39,92 @@
         "explanation": "Subtracting gives (a-b)x+c(b-a)=0⇒ x=c (common root). Then the other roots are b and a (from the products bc and ca ). The equation with roots a,b is x²-(a+b)x+ab; since a+b=-c, it is x²+cx+ab=0."
       },
       {
-        "q": "f(x)=((x-b)(x-c))/((x-a)) ( a,b,c distinct reals) assumes all real values provided",
+        "q": "Let α,β be the roots of x²-px+r=0 and (α)/(2),2β the roots of x²-qx+r=0. Then r equals",
         "options": [
-          "c lies between a and b",
-          "a lies between b and c",
-          "b lies between a and c",
-          "none of these"
-        ],
-        "answer": 1,
-        "explanation": "Setting f(x)=y gives a quadratic in x; it has real x for every real y iff its discriminant is always ≥0, which holds iff a lies between b and c."
-      },
-      {
-        "q": "If a∈ℝ⁻ and a≠-2, then the equation x²+a|x|+1=0",
-        "options": [
-          "cannot have any real root",
-          "must have exactly two real roots",
-          "must have either exactly two real roots or no real roots",
-          "must have either four real roots or no real roots"
+          "(2)/(9)(p-q)(2q-p)",
+          "(2)/(9)(q-p)(2p-q)",
+          "(2)/(9)(q-2p)(2q-p)",
+          "(2)/(9)(2p-q)(2q-p)"
         ],
         "answer": 3,
-        "explanation": "Put t=|x|≥0: t²+at+1=0 has product 1 0 and sum -a>0. If a<-2 (discriminant >0 ) both roots are positive, giving 4 real x; if -2<a<0 no real t, so no real roots."
+        "explanation": "α+β=p and (α)/(2)+2β=q give α=(2(2p-q))/(3), β=(2q-p)/(3); thus r=αβ=(2)/(9)(2p-q)(2q-p)."
       },
       {
-        "q": "The equations ax²-2bx+c=0, bx²-2cx+a=0 and cx²-2ax+b=0 will have only positive roots, provided",
+        "q": "Let α,β be the roots of px²+qx+r=0 ( p≠0 ). If p,q,r are in A.P. and (1)/(α)+(1)/(β)=4, then |α-β| is",
         "options": [
-          "a=b=c",
-          "a≠ b≠ c",
-          "a≠ b=c",
-          "a=b≠ c"
+          "(√(34))/(9)",
+          "(2√(13))/(9)",
+          "(√(61))/(9)",
+          "(2√(17))/(9)"
+        ],
+        "answer": 1,
+        "explanation": "-(q)/(r)=4⇒ q=-4r; A.P. 2q=p+r⇒ p=-9r. Then α+β=-(4)/(9),αβ=-(1)/(9), so (α-β)²=(52)/(81), |α-β|=(2√(13))/(9)."
+      },
+      {
+        "q": "Find the minimum value of x² − 2x + 5.",
+        "options": [
+          "4",
+          "5",
+          "-4",
+          "3"
         ],
         "answer": 0,
-        "explanation": "Adding the three equations and analysing the discriminant conditions (each must be ≥0 ) forces a=b=c; only then do all three have (equal, positive) real roots."
+        "explanation": "Min = c − b²/4 = 5 − 1 = 4"
       },
       {
-        "q": "If the sum of the roots of ax²+bx+c=0 equals the sum of the squares of their reciprocals, then (b²)/(ac)+(bc)/(a²) is",
+        "q": "Find the minimum value of x² − 2x + 7.",
         "options": [
-          "1",
-          "-1",
-          "2",
-          "-2"
-        ],
-        "answer": 2,
-        "explanation": "The condition α+β=(1)/(α²)+(1)/(β²) simplifies (with α+β=-b/a, αβ=c/a ) to ab²+bc²=2a²c. Dividing by a²c gives (b²)/(ac)+(bc)/(a²)=2."
-      },
-      {
-        "q": "The total number of values of x satisfying (√3+1)²ˣ+(√3-1)²ˣ=2³ˣ is",
-        "options": [
-          "2",
-          "3",
-          "1",
-          "none of these"
-        ],
-        "answer": 2,
-        "explanation": "Rewrite as (4+2√3)ˣ+(4-2√3)ˣ=8ˣ. Dividing by 4ˣ gives a strictly monotonic balance satisfied only at x=1 (check: 8=8 ). So exactly one value."
-      },
-      {
-        "q": "If α,β,γ are the roots of x³-x²-1=0, then (1+α)/(1-α)+(1+β)/(1-β)+(1+γ)/(1-γ) equals",
-        "options": [
-          "-5",
+          "7",
+          "6",
           "-6",
-          "-7",
-          "-2"
+          "5"
         ],
-        "answer": 0,
-        "explanation": "Write each term as -1+(2)/(1-α); the sum is -3+2Σ(1)/(1-α). With P(x)=x³-x²-1, Σ(1)/(1-α)=(P'(1))/(P(1))=(1)/(-1)=-1, giving -3+2(-1)=-5."
+        "answer": 1,
+        "explanation": "Min = c − b²/4 = 7 − 1 = 6"
       },
       {
-        "q": "If α,β are the roots of x²+px+q=0 and α⁴,β⁴ are the roots of x²-rx+s=0, then the equation x²-4qx+(2q²-r)=0 has always",
+        "q": "Find the minimum value of x² − 2x + 9.",
         "options": [
-          "two real roots",
-          "two positive roots",
-          "two negative roots",
-          "one positive and one negative root"
+          "9",
+          "-8",
+          "8",
+          "7"
         ],
-        "answer": 0,
-        "explanation": "Its discriminant is 16q²-4(2q²-r)=4(2q²+r). Since r=α⁴+β⁴=(p²-2q)²-2q², we get 2q²+r=(p²-2q)²≥0, so the discriminant is ≥0 — the equation always has two real roots."
+        "answer": 2,
+        "explanation": "Min = c − b²/4 = 9 − 1 = 8"
       },
       {
-        "q": "If α,β are roots of x²+px+q=0 and α⁴,β⁴ are roots of x²-rx+s=0, then x²-4qx+2q²-r=0 always has",
+        "q": "Find the minimum value of x² − 2x + 10.",
         "options": [
-          "two real roots",
-          "two positive roots",
-          "two negative roots",
-          "one positive and one negative root"
+          "10",
+          "-9",
+          "8",
+          "9"
         ],
-        "answer": 0,
-        "explanation": "With r=α⁴+β⁴=(p²-2q)²-2q², the discriminant is 4(p²-2q)²≥0, so there are always two real roots."
+        "answer": 3,
+        "explanation": "Min = c − b²/4 = 10 − 1 = 9"
+      },
+      {
+        "q": "Find the minimum value of x² − 6x + 9.",
+        "options": [
+          "9",
+          "1",
+          "0",
+          "-1"
+        ],
+        "answer": 2,
+        "explanation": "Min = c − b²/4 = 9 − 9 = 0"
+      },
+      {
+        "q": "Find the minimum value of x² − 10x + 10.",
+        "options": [
+          "10",
+          "15",
+          "-14",
+          "-15"
+        ],
+        "answer": 3,
+        "explanation": "Min = c − b²/4 = 10 − 25 = -15"
       }
     ]
   },

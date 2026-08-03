@@ -105,26 +105,26 @@
         "explanation": "|15 − 51| = 9×|1−5| = 36"
       },
       {
-        "q": "A two-digit number is 17. When its digits are reversed, by how much does the value change?",
+        "q": "A two-digit number is 37. When its digits are reversed, by how much does the value change?",
         "options": [
-          "54",
-          "88",
-          "72",
-          "63"
+          "110",
+          "90",
+          "45",
+          "36"
         ],
-        "answer": 0,
-        "explanation": "|17 − 71| = 9×|1−7| = 54"
+        "answer": 3,
+        "explanation": "|37 − 73| = 9×|3−7| = 36"
       },
       {
-        "q": "A two-digit number is 18. When its digits are reversed, by how much does the value change?",
+        "q": "A boat covers 30 km upstream and 44 km downstream in 10 hours; it covers 40 km upstream and 55 km downstream in 13 hours. The speed of the boat in still water is",
         "options": [
-          "99",
-          "63",
-          "81",
-          "72"
+          "8 km/h",
+          "5 km/h",
+          "11 km/h",
+          "6 km/h"
         ],
-        "answer": 1,
-        "explanation": "|18 − 81| = 9×|1−8| = 63"
+        "answer": 0,
+        "explanation": "Let x = 1/(b−s), y = 1/(b+s). Then 30x+44y = 10 and 40x+55y = 13 ⇒ y = 1/11 (b+s = 11) and x = 1/5 (b−s = 5). So b = 8, s = 3."
       }
     ]
   },

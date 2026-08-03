@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Convert the fraction 1/2 to a decimal.",
+        "q": "Express the recurring decimal 0.1212... (repeating block 12) as a fraction.",
         "options": [
-          "0.5",
-          "2",
-          "0.6",
-          "0.4"
-        ],
-        "answer": 0,
-        "explanation": "1 ÷ 2 = 0.5"
-      },
-      {
-        "q": "Convert the fraction 1/4 to a decimal.",
-        "options": [
-          "4",
-          "0.25",
-          "0.35",
-          "0.15"
-        ],
-        "answer": 1,
-        "explanation": "1 ÷ 4 = 0.25"
-      },
-      {
-        "q": "Convert the fraction 1/5 to a decimal.",
-        "options": [
-          "5",
-          "0.3",
-          "0.2",
-          "0.1"
-        ],
-        "answer": 2,
-        "explanation": "1 ÷ 5 = 0.2"
-      },
-      {
-        "q": "Convert the fraction 1/8 to a decimal.",
-        "options": [
-          "8",
-          "0.23",
-          "0.02",
-          "0.13"
+          "3/25",
+          "2/15",
+          "4/3",
+          "4/33"
         ],
         "answer": 3,
-        "explanation": "1 ÷ 8 = 0.13"
+        "explanation": "0.12̄ = 12/99 = 4/33"
       },
       {
-        "q": "Convert the fraction 1/10 to a decimal.",
+        "q": "Express the recurring decimal 0.2727... (repeating block 27) as a fraction.",
         "options": [
-          "0.1",
-          "10",
-          "0.2",
-          "0"
+          "3/11",
+          "27/100",
+          "3/10",
+          "3/1"
         ],
         "answer": 0,
-        "explanation": "1 ÷ 10 = 0.1"
+        "explanation": "0.27̄ = 27/99 = 3/11"
       },
       {
-        "q": "Convert the fraction 1/20 to a decimal.",
+        "q": "Express the recurring decimal 0.3636... (repeating block 36) as a fraction.",
         "options": [
-          "20",
-          "0.05",
-          "0.15",
-          "-0.05"
+          "9/25",
+          "4/11",
+          "2/5",
+          "4/1"
         ],
         "answer": 1,
-        "explanation": "1 ÷ 20 = 0.05"
+        "explanation": "0.36̄ = 36/99 = 4/11"
       },
       {
-        "q": "Convert the fraction 1/25 to a decimal.",
+        "q": "Express the recurring decimal 0.4545... (repeating block 45) as a fraction.",
         "options": [
-          "25",
-          "0.14",
-          "0.04",
-          "-0.06"
+          "9/20",
+          "1/2",
+          "5/11",
+          "5/1"
         ],
         "answer": 2,
-        "explanation": "1 ÷ 25 = 0.04"
+        "explanation": "0.45̄ = 45/99 = 5/11"
       },
       {
-        "q": "Convert the fraction 3/4 to a decimal.",
+        "q": "Express the recurring decimal 0.1818... (repeating block 18) as a fraction.",
         "options": [
-          "1.33",
-          "0.85",
-          "0.65",
-          "0.75"
+          "9/50",
+          "1/5",
+          "2/1",
+          "2/11"
         ],
         "answer": 3,
-        "explanation": "3 ÷ 4 = 0.75"
+        "explanation": "0.18̄ = 18/99 = 2/11"
       },
       {
-        "q": "Convert the fraction 3/5 to a decimal.",
+        "q": "Express the recurring decimal 0.6363... (repeating block 63) as a fraction.",
         "options": [
-          "0.6",
-          "1.67",
-          "0.7",
-          "0.5"
+          "7/11",
+          "63/100",
+          "7/10",
+          "7/1"
         ],
         "answer": 0,
-        "explanation": "3 ÷ 5 = 0.6"
+        "explanation": "0.63̄ = 63/99 = 7/11"
       },
       {
-        "q": "Convert the fraction 3/8 to a decimal.",
+        "q": "Express the recurring decimal 0.8181... (repeating block 81) as a fraction.",
         "options": [
-          "2.67",
-          "0.38",
-          "0.48",
-          "0.28"
+          "81/100",
+          "9/11",
+          "9/10",
+          "9/1"
         ],
         "answer": 1,
-        "explanation": "3 ÷ 8 = 0.38"
+        "explanation": "0.81̄ = 81/99 = 9/11"
+      },
+      {
+        "q": "A person spends 2/3 of Rs. 120, then 1/2 of the remainder. How much is left?",
+        "options": [
+          "Rs. 80",
+          "Rs. 30",
+          "Rs. 20",
+          "Rs. 10"
+        ],
+        "answer": 2,
+        "explanation": "Spent 80, then 20; left = Rs. 20"
+      },
+      {
+        "q": "A person spends 2/3 of Rs. 120, then 3/8 of the remainder. How much is left?",
+        "options": [
+          "Rs. 25",
+          "Rs. 80",
+          "Rs. 15",
+          "Rs. 35"
+        ],
+        "answer": 0,
+        "explanation": "Spent 80, then 15; left = Rs. 25"
+      },
+      {
+        "q": "A person spends 5/6 of Rs. 240, then 1/2 of the remainder. How much is left?",
+        "options": [
+          "Rs. 200",
+          "Rs. 30",
+          "Rs. 10",
+          "Rs. 20"
+        ],
+        "answer": 3,
+        "explanation": "Spent 200, then 20; left = Rs. 20"
       }
     ]
   },

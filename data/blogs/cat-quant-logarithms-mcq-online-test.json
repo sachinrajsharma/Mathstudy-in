@@ -83,48 +83,48 @@
         "explanation": "Using change-of-base, 1+abc=2bc."
       },
       {
-        "q": "The roots of 2ˣ⁺²·3^(3x/(x-1))=9 are",
+        "q": "If 1, log₃sqrt3¹⁻ˣ+2, log₃(4·3ˣ-1) are in A.P., then x=",
         "options": [
-          "log₂(2)/(3)-2",
-          "3,-3",
-          "-2, 1-(log3)/(log2)",
-          "1-log₂ 3, 2"
-        ],
-        "answer": 2,
-        "explanation": "Taking logs gives a quadratic whose roots are x=-2 and x=1-log₂ 3=1-(log3)/(log2)."
-      },
-      {
-        "q": "If log₅ 2, log₅(2ˣ-5), log₅(2ˣ-(7)/(2)) are in A.P., then x=",
-        "options": [
-          "(1)/(2),(3)/(2)",
-          "3",
-          "2",
-          "(2)/(3),4"
+          "log₃ 4",
+          "1-log₃ 4",
+          "log₄ 3",
+          "(log3-log4)/(log3)"
         ],
         "answer": 1,
-        "explanation": "(2ˣ-5)²=2(2ˣ-(7)/(2)); with t=2ˣ, t²-12t+32=0⇒ t=8⇒ x=3."
+        "explanation": "2log₃sqrt3¹⁻ˣ+2=1+log₃(4·3ˣ-1) gives 3¹⁻ˣ+2=12·3ˣ-3; with t=3ˣ, 12t²-5t-3=0⇒ t=(3)/(4), so x=1-log₃ 4."
       },
       {
-        "q": "If log₂ 3=a, log₃ 5=b, log₇ 2=c, then log₁₄₀63 equals",
+        "q": "Number of real solutions of log₂(x²-3x+2) = log₂(x-1)+log₂(x-2)",
         "options": [
-          "(1+2ac)/(2c+abc+1)",
-          "(1-2ac)/(2c+abc+1)",
-          "(1+2ac)/(2c-abc+1)",
-          "(1+2ac)/(2c+abc-1)"
+          "0",
+          "1",
+          "2",
+          "Infinite"
         ],
         "answer": 0,
-        "explanation": "Expressing log₁₄₀63 in terms of a,b,c via change-of-base yields (1+2ac)/(2c+abc+1)."
+        "explanation": "RHS needs x 2; LHS factors to same, but domain check leaves none valid → key A."
       },
       {
-        "q": "The solution set of logₓ 2·log₂ₓ2=log₄ₓ2 is",
+        "q": "How many values of x satisfy log₄(x) = logˣ(4)?",
         "options": [
-          "2^(√2) and 2^(-√2)",
-          "2^(√2),2^(√3)",
-          "(1)/(4),4",
-          "none of these"
+          "2",
+          "1",
+          "3",
+          "4"
         ],
         "answer": 0,
-        "explanation": "Letting t=log₂ x gives (1)/(t(t+1))=(1)/(t+2), i.e. t²=2⇒ x=2^(±√2)."
+        "explanation": "Step 1: Let log₄(x) = t. Then logˣ(4) = 1/t (reciprocal identity).\nStep 2: t = 1/t ⇒ t² = 1 ⇒ t = 1 or t = −1.\nStep 3: t=1: x = 4¹ = 4; t=−1: x = 4^(−1) = 1/4. Two valid solutions.\nAnswer: 2"
+      },
+      {
+        "q": "What is log₂(1 × 2 × 4 × 8 × × 2⁹)?",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "55"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Product = 2⁰ × 2¹ × 2² ×... × 2⁹ = 2^(0+1+2+...+9) = 2⁴⁵.\nStep 2: log₂(2⁴⁵) = 45.\nAnswer: 45"
       }
     ]
   },

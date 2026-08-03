@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Two angles are complementary. If one angle measures 35°, what is the measure of the other angle?",
+        "q": "In triangle ABC, B and C are the angle bisectors meeting at the incenter I. If angle A = 50°, find angle BIC.",
         "options": [
-          "55°",
-          "45°",
-          "65°",
-          "75°"
-        ],
-        "answer": 0,
-        "explanation": "Step 1: Complementary angles sum to 90°.\nStep 2: Other angle = 90° - 35° = 55°.\nAnswer: 55°"
-      },
-      {
-        "q": "Two angles are supplementary. If one angle measures 110°, what is the other angle?",
-        "options": [
-          "60°",
-          "70°",
-          "80°",
-          "90°"
-        ],
-        "answer": 1,
-        "explanation": "Step 1: Supplementary angles sum to 180°.\nStep 2: Other angle = 180° - 110° = 70°.\nAnswer: 70°"
-      },
-      {
-        "q": "In triangle ABC, angle A = 65° and angle B = 75°. What is the measure of angle C?",
-        "options": [
-          "30°",
-          "35°",
-          "40°",
-          "45°"
-        ],
-        "answer": 2,
-        "explanation": "Step 1: Angle sum property: A + B + C = 180°.\nStep 2: 65° + 75° + C = 180°.\nStep 3: C = 180° - 140° = 40°.\nAnswer: 40°"
-      },
-      {
-        "q": "Two straight lines intersect at a point. One of the four angles formed measures 72°. What is the measure of the vertically opposite angle?",
-        "options": [
-          "108°",
-          "18°",
-          "36°",
-          "72°"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: Vertically opposite angles are formed when two lines intersect.\nStep 2: Vertically opposite angles are always equal.\nStep 3: The vertically opposite angle also measures 72°.\nAnswer: 72°"
-      },
-      {
-        "q": "The exterior angle of a triangle is 115°. One of the two non-adjacent interior angles is 50°. Find the other non-adjacent interior angle.",
-        "options": [
-          "65°",
-          "55°",
-          "70°",
-          "45°"
-        ],
-        "answer": 0,
-        "explanation": "Step 1: Exterior angle theorem: exterior angle = sum of two non-adjacent interior angles.\nStep 2: 115° = 50° + x.\nStep 3: x = 115° - 50° = 65°.\nAnswer: 65°"
-      },
-      {
-        "q": "Two parallel lines are cut by a transversal. If one alternate interior angle measures 48°, what is the other alternate interior angle?",
-        "options": [
-          "132°",
-          "48°",
-          "42°",
-          "90°"
-        ],
-        "answer": 1,
-        "explanation": "Step 1: When parallel lines are cut by a transversal, alternate interior angles are equal.\nStep 2: The other alternate interior angle = 48°.\nAnswer: 48°"
-      },
-      {
-        "q": "What is the measure of each interior angle of an equilateral triangle?",
-        "options": [
-          "45°",
-          "50°",
-          "60°",
-          "90°"
-        ],
-        "answer": 2,
-        "explanation": "Step 1: An equilateral triangle has all three sides equal and all three angles equal.\nStep 2: Sum of angles = 180°, so each angle = 180° / 3 = 60°.\nAnswer: 60°"
-      },
-      {
-        "q": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) is 40°. What is each base angle?",
-        "options": [
-          "140°",
+          "90°",
           "100°",
-          "60°",
-          "70°"
+          "110°",
+          "115°"
         ],
         "answer": 3,
-        "explanation": "Step 1: In an isosceles triangle, the two base angles are equal.\nStep 2: Sum of all angles = 180°. Let each base angle = x.\nStep 3: 40° + 2x = 180° → 2x = 140° → x = 70°.\nAnswer: 70°"
+        "explanation": "Step 1: The incenter formula: angle BIC = 90° + (angle A)/2.\nStep 2: Angle BIC = 90° + 50°/2 = 90° + 25° = 115°.\nStep 3: Verify: angle B and C each contribute (angle B)/2 and (angle C)/2 to angle BIC. In triangle BIC: angle IBC + angle ICB + angle BIC = 180° → (B/2) + (C/2) + angle BIC = 180° → (180-A)/2 + angle BIC = "
       },
       {
-        "q": "A right triangle has legs of length 3 cm and 4 cm. What is the length of the hypotenuse?",
+        "q": "In triangle ABC, D, E, F are the midpoints of BC, CA, AB respectively. The triangle DEF (medial triangle) has area equal to what fraction of triangle ABC?",
         "options": [
-          "5 cm",
-          "6 cm",
-          "7 cm",
-          "8 cm"
+          "1/4",
+          "1/3",
+          "1/2",
+          "2/3"
         ],
         "answer": 0,
-        "explanation": "Step 1: Apply Pythagoras theorem: hypotenuse² = 3² + 4² = 9 + 16 = 25.\nStep 2: Hypotenuse = √25 = 5 cm.\nAnswer: 5 cm"
+        "explanation": "Step 1: By the Midpoint Theorem, DE || AB with DE = AB/2; EF || BC with EF = BC/2; DF || AC with DF = AC/2.\nStep 2: Triangle DEF is similar to triangle ABC with side ratio 1:2.\nStep 3: Area ratio = (1/2)² = 1/4.\nStep 4: Area(DEF) = (1/4) × Area(ABC).\nAnswer: 1/4"
       },
       {
-        "q": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm. What is the length of the other leg?",
+        "q": "In right triangle ABC with right angle at A, the altitude AD is drawn to hypotenuse BC. If BD = 9 and DC = 16, find AB.",
         "options": [
-          "10 cm",
-          "12 cm",
-          "11 cm",
-          "8 cm"
+          "12",
+          "16",
+          "15",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: In a right triangle, the altitude to the hypotenuse creates two smaller triangles similar to each other and to the original.\nStep 2: AB² = BD × BC = BD × (BD + DC) = 9 × (9 + 16) = 9 × 25 = 225.\nStep 3: AB = √225 = 15.\nVerification: AD² = BD × DC = 9 × 16 = 144, AD = 12. AC² = DC × BC = 16 × 25 = 400, AC = 20. "
+      },
+      {
+        "q": "In triangle ABC, O is the circumcenter. Angle AOB = 140° and angle COA = 120°. Find angle BAC.",
+        "options": [
+          "40°",
+          "60°",
+          "70°",
+          "50°"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Sum of central angles: angle AOB + angle BOC + angle COA = 360°.\nStep 2: angle BOC = 360° - 140° - 120° = 100°.\nStep 3: By the inscribed angle theorem: inscribed angle = (1/2) × central angle subtending the same arc.\nStep 4: Angle BAC subtends arc BC, whose central angle is angle BOC = 100°.\nStep 5: Angle BAC ="
+      },
+      {
+        "q": "The inradius r of a triangle satisfies r = Area/semi-perimeter. For a triangle with sides 3, 4, and 5, find the inradius.",
+        "options": [
+          "1 cm",
+          "2 cm",
+          "0.5 cm",
+          "1.5 cm"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: This is a right triangle (3-4-5). Area = (1/2) × 3 × 4 = 6 cm².\nStep 2: Semi-perimeter s = (3+4+5)/2 = 6.\nStep 3: Inradius r = Area/s = 6/6 = 1 cm.\nAlternative formula for right triangle: r = (a + b - c)/2 = (3 + 4 - 5)/2 = 1 cm. ✓\nAnswer: 1 cm"
+      },
+      {
+        "q": "In triangle ABC with angle BAC = 60°, the angle bisector from A meets BC at D. If AB = 4, AC = 8, and BC = 9, find BD.",
+        "options": [
+          "2 cm",
+          "3 cm",
+          "4 cm",
+          "6 cm"
         ],
         "answer": 1,
-        "explanation": "Step 1: Pythagoras theorem: leg² + 5² = 13².\nStep 2: leg² = 169 - 25 = 144.\nStep 3: leg = √144 = 12 cm.\nAnswer: 12 cm"
+        "explanation": "Step 1: By the angle bisector theorem: BD/DC = AB/AC = 4/8 = 1/2.\nStep 2: BD + DC = BC = 9. Let BD = k, DC = 2k → 3k = 9 → k = 3.\nStep 3: BD = 3 cm, DC = 6 cm.\nAnswer: 3 cm"
+      },
+      {
+        "q": "In triangle ABC, the altitudes BE and CF intersect at the orthocenter H. If angle A = 80°, find angle BHC.",
+        "options": [
+          "80°",
+          "90°",
+          "100°",
+          "120°"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: A key property of the orthocenter: angle BHC = 180° - angle A.\nStep 2: Proof: In triangle BHC, angle HBC = 90° - angle C and angle HCB = 90° - angle B.\nStep 3: Angle BHC = 180° - (90° - angle C) - (90° - angle B) = angle B + angle C = 180° - angle A.\nStep 4: Angle BHC = 180° - 80° = 100°.\nAnswer: 100°"
+      },
+      {
+        "q": "In triangle ABC, DE is parallel to BC with D on AB and E on AC. If area(ADE): area(trapezium BCED) = 1:3, find AD/DB.",
+        "options": [
+          "1:2",
+          "1:3",
+          "3:1",
+          "1:1"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Let AD/AB = k. Then area(ADE)/area(ABC) = k² (similar triangles).\nStep 2: area(BCED) = area(ABC) - area(ADE) = (1 - k²) × area(ABC).\nStep 3: area(ADE)/area(BCED) = k²/(1-k²) = 1/3.\nStep 4: 3k² = 1 - k² → 4k² = 1 → k = 1/2.\nStep 5: AD/AB = 1/2 → AD = DB → AD/DB = 1:1.\nAnswer: 1:1"
+      },
+      {
+        "q": "In triangle ABC, the circumradius R = 5. If angle A = 30°, find BC (the side opposite angle A).",
+        "options": [
+          "5",
+          "10",
+          "5√2",
+          "5√3"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: By the extended law of sines: BC/sin(A) = 2R.\nStep 2: BC = 2R × sin(A) = 2 × 5 × sin(30°) = 10 × (1/2) = 5.\nAnswer: 5"
+      },
+      {
+        "q": "In triangle ABC, angle A = 75°, angle B = 60°, angle C = 45°. I is the incenter. Find angle AIC.",
+        "options": [
+          "120°",
+          "90°",
+          "105°",
+          "135°"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Formula for angle AIC: angle AIC = 90° + (angle B)/2.\nStep 2: Angle AIC = 90° + 60°/2 = 90° + 30° = 120°.\nVerification: In triangle AIC, angle IAC = A/2 = 37.5°, angle ICA = C/2 = 22.5°.\nAngle AIC = 180° - 37.5° - 22.5° = 120°. ✓\nAnswer: 120°"
       }
     ]
   },

@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 5 cm.",
+        "q": "The diagonals of a rhombus measure 16 cm and 12 cm. The length of each side is",
         "options": [
-          "40 cm²",
-          "26 cm²",
-          "13 cm²",
-          "48 cm²"
-        ],
-        "answer": 0,
-        "explanation": "Area = 8×5 = 40 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 6 cm.",
-        "options": [
-          "28 cm²",
-          "48 cm²",
-          "14 cm²",
-          "56 cm²"
-        ],
-        "answer": 1,
-        "explanation": "Area = 8×6 = 48 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 7 cm.",
-        "options": [
-          "30 cm²",
-          "15 cm²",
-          "56 cm²",
-          "64 cm²"
+          "14 cm",
+          "11 cm",
+          "10 cm",
+          "8 cm"
         ],
         "answer": 2,
-        "explanation": "Area = 8×7 = 56 cm²"
+        "explanation": "Diagonals bisect at right angles ⇒ side = √((16/2)²+(12/2)²) = √(64+36) = 10 cm."
       },
       {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 9 cm.",
+        "q": "Each side of a rhombus is 17 cm and one diagonal is 16 cm. The other diagonal is",
         "options": [
-          "34 cm²",
-          "17 cm²",
-          "80 cm²",
-          "72 cm²"
+          "15 cm",
+          "16 cm",
+          "32 cm",
+          "30 cm"
         ],
         "answer": 3,
-        "explanation": "Area = 8×9 = 72 cm²"
+        "explanation": "Half the other diagonal = √(s²−(d/2)²) = √(17²−8²) = 15; other diagonal = 30 cm."
       },
       {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 11 cm.",
+        "q": "The parallel sides of a trapezium are 18 cm and 10 cm. The segment joining the midpoints of the non-parallel sides is",
         "options": [
-          "88 cm²",
-          "38 cm²",
-          "19 cm²",
-          "96 cm²"
+          "14 cm",
+          "28 cm",
+          "4 cm",
+          "16 cm"
         ],
         "answer": 0,
-        "explanation": "Area = 8×11 = 88 cm²"
+        "explanation": "Mid-segment = ½(sum of parallel sides) = ½(18+10) = 14 cm."
       },
       {
-        "q": "Find the area of a rectangle with length 8 cm and breadth 14 cm.",
+        "q": "If the diagonal of a square is increased by 50%, its area increases by",
         "options": [
-          "44 cm²",
-          "112 cm²",
+          "125%",
+          "50%",
+          "100%",
+          "150%"
+        ],
+        "answer": 0,
+        "explanation": "Area ∝ diagonal² ⇒ new area ∝ (1.5)² = 2.25, an increase of 125%."
+      },
+      {
+        "q": "The perimeter of a rectangle is 46 cm and its diagonal is 17 cm. Its area is",
+        "options": [
+          "120 cm²",
+          "166 cm²",
+          "195.5 cm²",
+          "289 cm²"
+        ],
+        "answer": 0,
+        "explanation": "l+b = 23; (l+b)² = 529; l²+b² = 17² = 289; 2lb = 529−289 = 240 ⇒ area = 120 cm²."
+      },
+      {
+        "q": "Two adjacent sides of a parallelogram are 12 cm and 10 cm and the angle between them is 30°. Its area is",
+        "options": [
+          "120 cm²",
+          "60 cm²",
           "22 cm²",
-          "120 cm²"
+          "30 cm²"
         ],
         "answer": 1,
-        "explanation": "Area = 8×14 = 112 cm²"
+        "explanation": "Area = ab·sinθ = 12×10×sin30° = 12×10×½ = 60 cm²."
       },
       {
-        "q": "Find the area of a rectangle with length 10 cm and breadth 5 cm.",
+        "q": "In a quadrilateral, a diagonal of 40 cm has perpendicular offsets 12 cm and 8 cm from the two opposite vertices. Its area is",
         "options": [
-          "30 cm²",
-          "15 cm²",
-          "50 cm²",
-          "60 cm²"
+          "800 cm²",
+          "200 cm²",
+          "400 cm²",
+          "480 cm²"
         ],
         "answer": 2,
-        "explanation": "Area = 10×5 = 50 cm²"
+        "explanation": "Area = ½·d·(h₁+h₂) = ½·40·(12+8) = 400 cm²."
       },
       {
-        "q": "Find the area of a rectangle with length 10 cm and breadth 6 cm.",
+        "q": "A path 2 m wide runs inside the boundary of a square field of side 40 m. The area of the path is",
         "options": [
-          "32 cm²",
-          "16 cm²",
-          "70 cm²",
-          "60 cm²"
-        ],
-        "answer": 3,
-        "explanation": "Area = 10×6 = 60 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle with length 10 cm and breadth 7 cm.",
-        "options": [
-          "70 cm²",
-          "34 cm²",
-          "17 cm²",
-          "80 cm²"
-        ],
-        "answer": 0,
-        "explanation": "Area = 10×7 = 70 cm²"
-      },
-      {
-        "q": "Find the area of a rectangle with length 10 cm and breadth 9 cm.",
-        "options": [
-          "38 cm²",
-          "90 cm²",
-          "19 cm²",
-          "100 cm²"
+          "320 m²",
+          "304 m²",
+          "160 m²",
+          "1296 m²"
         ],
         "answer": 1,
-        "explanation": "Area = 10×9 = 90 cm²"
+        "explanation": "Path = 40² − 36² = 1600 − 1296 = 304 m²."
+      },
+      {
+        "q": "A rhombus of side 12 cm has one angle equal to 60°. Its area is",
+        "options": [
+          "72√3 cm²",
+          "144 cm²",
+          "72 cm²",
+          "24 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Area = s²·sin60° = 12²×(√3/2) = 72√3 cm²."
+      },
+      {
+        "q": "If each side of a square is increased by 25%, its area increases by",
+        "options": [
+          "25%",
+          "50%",
+          "62.5%",
+          "56.25%"
+        ],
+        "answer": 3,
+        "explanation": "Area factor = (1.25)² = 1.5625, a 56.25% increase."
       }
     ]
   },

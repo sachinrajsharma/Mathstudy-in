@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the unit digit of 2².",
+        "q": "Find the highest power of 2 contained in 20!.",
         "options": [
-          "4",
-          "5",
-          "6",
-          "9"
+          "18",
+          "19",
+          "17",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2² ends in 4"
+        "explanation": "⌊20/2⌋+⌊20/2²⌋+... = 18"
       },
       {
-        "q": "Find the unit digit of 2³.",
+        "q": "Find the highest power of 3 contained in 20!.",
         "options": [
           "9",
           "8",
-          "0",
-          "3"
+          "7",
+          "6"
         ],
         "answer": 1,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2³ ends in 8"
+        "explanation": "⌊20/3⌋+⌊20/3²⌋+... = 8"
       },
       {
-        "q": "Find the unit digit of 2⁴.",
+        "q": "Find the highest power of 5 contained in 20!.",
         "options": [
-          "7",
-          "8",
-          "6",
-          "1"
-        ],
-        "answer": 2,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁴ ends in 6"
-      },
-      {
-        "q": "Find the unit digit of 2⁵.",
-        "options": [
+          "5",
           "3",
           "4",
-          "7",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "⌊20/5⌋+⌊20/5²⌋+... = 4"
+      },
+      {
+        "q": "Find the highest power of 7 contained in 20!.",
+        "options": [
+          "3",
+          "1",
+          "4",
           "2"
         ],
         "answer": 3,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁵ ends in 2"
+        "explanation": "⌊20/7⌋+⌊20/7²⌋+... = 2"
       },
       {
-        "q": "Find the unit digit of 2⁶.",
+        "q": "Find the highest power of 2 contained in 25!.",
         "options": [
-          "4",
-          "5",
-          "6",
-          "9"
+          "22",
+          "23",
+          "21",
+          "12"
         ],
         "answer": 0,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁶ ends in 4"
+        "explanation": "⌊25/2⌋+⌊25/2²⌋+... = 22"
       },
       {
-        "q": "Find the unit digit of 2⁷.",
+        "q": "Find the highest power of 3 contained in 25!.",
         "options": [
+          "11",
+          "10",
           "9",
-          "8",
-          "0",
-          "3"
-        ],
-        "answer": 1,
-        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁷ ends in 8"
-      },
-      {
-        "q": "Find the unit digit of 3².",
-        "options": [
-          "0",
-          "1",
-          "9",
-          "4"
-        ],
-        "answer": 2,
-        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3² ends in 9"
-      },
-      {
-        "q": "Find the unit digit of 3³.",
-        "options": [
-          "8",
-          "9",
-          "2",
-          "7"
-        ],
-        "answer": 3,
-        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3³ ends in 7"
-      },
-      {
-        "q": "Find the unit digit of 3⁴.",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "6"
-        ],
-        "answer": 0,
-        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3⁴ ends in 1"
-      },
-      {
-        "q": "Find the unit digit of 3⁵.",
-        "options": [
-          "4",
-          "3",
-          "5",
           "8"
         ],
         "answer": 1,
-        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3⁵ ends in 3"
+        "explanation": "⌊25/3⌋+⌊25/3²⌋+... = 10"
+      },
+      {
+        "q": "Find the highest power of 5 contained in 25!.",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "⌊25/5⌋+⌊25/5²⌋+... = 6"
+      },
+      {
+        "q": "Find the highest power of 7 contained in 25!.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "⌊25/7⌋+⌊25/7²⌋+... = 3"
+      },
+      {
+        "q": "Find the highest power of 2 contained in 30!.",
+        "options": [
+          "26",
+          "27",
+          "25",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "⌊30/2⌋+⌊30/2²⌋+... = 26"
+      },
+      {
+        "q": "Find the highest power of 7 contained in 50!.",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "⌊50/7⌋+⌊50/7²⌋+... = 8"
       }
     ]
   },

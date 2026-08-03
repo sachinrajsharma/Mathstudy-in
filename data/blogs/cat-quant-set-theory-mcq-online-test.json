@@ -116,15 +116,15 @@
         "explanation": "4k+3k+2k = 108; 9k=108; k=12; only A=48, both=24; n(A)=48+24=72."
       },
       {
-        "q": "If n(A)=40, n(B)=50, n(A∩B)=20, and C is a set such that C ⊆ A∩B, what is the maximum value of n(A∪B∪C)?",
+        "q": "In a survey of 500, 270 read X, 215 read Y, 185 read Z. X∩Y=85, Y∩Z=70, X∩Z=75, all three=35. 5% read none. How many read exactly two newspapers?",
         "options": [
-          "90",
-          "80",
-          "70",
-          "60"
+          "100",
+          "115",
+          "120",
+          "125"
         ],
-        "answer": 2,
-        "explanation": "Since C⊆A∩B⊆A and C⊆B, we have A∪B∪C=A∪B; n(A∪B)=40+50-20=70."
+        "answer": 3,
+        "explanation": "Exactly two = (85-35)+(70-35)+(75-35) = 50+35+40 = 125."
       }
     ]
   },

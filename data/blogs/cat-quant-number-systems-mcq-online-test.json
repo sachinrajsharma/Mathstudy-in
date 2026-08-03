@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the remainder when 123 is divided by 7.",
+        "q": "How many positive integers less than 10 are coprime to 10?",
         "options": [
-          "4",
           "5",
-          "6",
-          "3"
-        ],
-        "answer": 0,
-        "explanation": "123 = 17×7 + 4; remainder = 4"
-      },
-      {
-        "q": "Find the remainder when 123 is divided by 9.",
-        "options": [
-          "7",
-          "6",
-          "8",
-          "3"
-        ],
-        "answer": 1,
-        "explanation": "123 = 13×9 + 6; remainder = 6"
-      },
-      {
-        "q": "Find the remainder when 123 is divided by 11.",
-        "options": [
           "3",
-          "4",
-          "2",
-          "9"
-        ],
-        "answer": 2,
-        "explanation": "123 = 11×11 + 2; remainder = 2"
-      },
-      {
-        "q": "Find the remainder when 123 is divided by 13.",
-        "options": [
-          "7",
-          "8",
-          "9",
-          "6"
-        ],
-        "answer": 3,
-        "explanation": "123 = 9×13 + 6; remainder = 6"
-      },
-      {
-        "q": "Find the remainder when 247 is divided by 7.",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "answer": 0,
-        "explanation": "247 = 35×7 + 2; remainder = 2"
-      },
-      {
-        "q": "Find the remainder when 247 is divided by 9.",
-        "options": [
-          "5",
-          "4",
           "6",
-          "7"
-        ],
-        "answer": 1,
-        "explanation": "247 = 27×9 + 4; remainder = 4"
-      },
-      {
-        "q": "Find the remainder when 247 is divided by 11.",
-        "options": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "answer": 2,
-        "explanation": "247 = 22×11 + 5; remainder = 5"
-      },
-      {
-        "q": "Find the remainder when 247 is divided by 13.",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "0"
-        ],
-        "answer": 3,
-        "explanation": "247 = 19×13 + 0; remainder = 0"
-      },
-      {
-        "q": "Find the remainder when 356 is divided by 7.",
-        "options": [
-          "6",
-          "0",
-          "1",
-          "2"
-        ],
-        "answer": 0,
-        "explanation": "356 = 50×7 + 6; remainder = 6"
-      },
-      {
-        "q": "Find the remainder when 356 is divided by 9.",
-        "options": [
-          "6",
-          "5",
-          "7",
           "4"
         ],
+        "answer": 3,
+        "explanation": "φ(10) = 4"
+      },
+      {
+        "q": "How many positive integers less than 12 are coprime to 12?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "φ(12) = 4"
+      },
+      {
+        "q": "How many positive integers less than 15 are coprime to 15?",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "10"
+        ],
         "answer": 1,
-        "explanation": "356 = 39×9 + 5; remainder = 5"
+        "explanation": "φ(15) = 8"
+      },
+      {
+        "q": "How many positive integers less than 18 are coprime to 18?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "φ(18) = 6"
+      },
+      {
+        "q": "How many positive integers less than 20 are coprime to 20?",
+        "options": [
+          "9",
+          "7",
+          "12",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "φ(20) = 8"
+      },
+      {
+        "q": "How many positive integers less than 24 are coprime to 24?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "φ(24) = 8"
+      },
+      {
+        "q": "How many positive integers less than 30 are coprime to 30?",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "22"
+        ],
+        "answer": 1,
+        "explanation": "φ(30) = 8"
+      },
+      {
+        "q": "How many positive integers less than 36 are coprime to 36?",
+        "options": [
+          "13",
+          "11",
+          "12",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "φ(36) = 12"
+      },
+      {
+        "q": "How many positive integers less than 40 are coprime to 40?",
+        "options": [
+          "17",
+          "15",
+          "24",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "φ(40) = 16"
+      },
+      {
+        "q": "Find the sum of all factors of 28.",
+        "options": [
+          "56",
+          "28",
+          "57",
+          "55"
+        ],
+        "answer": 0,
+        "explanation": "Sum of divisors of 28 = 56"
       }
     ]
   },

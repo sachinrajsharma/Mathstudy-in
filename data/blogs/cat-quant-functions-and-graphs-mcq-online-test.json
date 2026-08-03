@@ -105,26 +105,26 @@
         "explanation": "Step 1: Divide both sides by 5ˣ: (2/5)ˣ + (3/5)ˣ = 1.\nStep 2: At x = 1: 2/5 + 3/5 = 1. ✓ So x = 1 is a solution.\nStep 3: Let g(x) = (2/5)ˣ + (3/5)ˣ. Since both terms are strictly decreasing in x, g is strictly decreasing. Hence exactly one solution.\nAnswer: 1"
       },
       {
-        "q": "If f(x) = 2 − x and g(x) = 1/(x + 1), then (f ∘ g ∘ f)(x) equals:",
+        "q": "Among integers n with −5 ≤ n ≤ 5, how many satisfy ⌊n/2⌋ = n/2?",
         "options": [
-          "(5 − 2x)/(3 − x)",
-          "1/(3 − x)",
-          "(2 − x)/(3 − x)",
-          "(3 − 2x)/(3 − x)"
+          "5",
+          "6",
+          "4",
+          "3"
         ],
         "answer": 0,
-        "explanation": "Step 1: (g ∘ f)(x) = g(f(x)) = g(2−x) = 1/((2−x)+1) = 1/(3−x).\nStep 2: (f ∘ g ∘ f)(x) = f(1/(3−x)) = 2 − 1/(3−x) = (2(3−x) − 1)/(3−x) = (6−2x−1)/(3−x) = (5−2x)/(3−x).\nAnswer: (5 − 2x)/(3 − x)"
+        "explanation": "Step 1: ⌊n/2⌋ = n/2 exactly when n/2 is an integer, i.e., when n is even.\nStep 2: Even integers from −5 to 5: −4, −2, 0, 2, 4 → five values.\nAnswer: 5"
       },
       {
-        "q": "The value of ⌊2.5⌋² − ⌊2.5²⌋ equals:",
+        "q": "The number of distinct real roots of f(x) = x⁴ − 4x³ + 4x² − 1 is:",
         "options": [
-          "0",
-          "−2",
+          "4",
+          "1",
           "2",
-          "−4"
+          "3"
         ],
-        "answer": 1,
-        "explanation": "Step 1: ⌊2.5⌋ = 2, so ⌊2.5⌋² = 2² = 4.\nStep 2: 2.5² = 6.25, so ⌊6.25⌋ = 6.\nStep 3: 4 − 6 = −2.\nAnswer: −2"
+        "answer": 3,
+        "explanation": "Step 1: Write f(x) = (x²−2x)² − 1 = (x²−2x−1)(x²−2x+1) = (x²−2x−1)(x−1)².\nStep 2: x²−2x−1=0 → x = 1 ± √2. Two real roots.\nStep 3: (x−1)²=0 → x=1. One distinct root.\nStep 4: Distinct roots: 1−√2, 1, 1+√2 → 3 distinct real roots.\nAnswer: 3"
       }
     ]
   },
