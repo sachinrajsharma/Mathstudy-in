@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "If A is 125% of B, then B is what percentage of (A + B)?",
+        "q": "A value increases 10%, then falls 10%, then rises 10%. Net percentage change (approx)?",
         "options": [
-          "44.44%",
-          "40%",
-          "55.56%",
-          "60%"
+          "8.9%",
+          "10%",
+          "11.9%",
+          "5.9%"
         ],
         "answer": 0,
-        "explanation": "Let B = 100. Since A is 125% of B, A = 125. The sum (A + B) = 125 + 100 = 225. We need to find what percentage B is of (A + B). Required percentage = (B / (A + B)) * 100 = (100 / 225) * 100 = (4 / 9) * 100 = 44.44%."
+        "explanation": "(1+10%)(1−10%)(1+10%) − 1 = 8.9%"
       },
       {
-        "q": "A machine depreciates in value by 20% every year. If its value after 3 years is Rs. 51,200, find its initial purchase value.",
+        "q": "A value increases 10%, then falls 10%, then rises 20%. Net percentage change (approx)?",
         "options": [
-          "Rs. 80,000",
-          "Rs. 96,000",
-          "Rs. 100,000",
-          "Rs. 120,000"
-        ],
-        "answer": 2,
-        "explanation": "Let initial value be V. V × (1 - 0.20)³ = 51,200. V × (0.8)³ = 51,200. V × 0.512 = 51,200 ⇒ V = 51200 / 0.512 = 100,000."
-      },
-      {
-        "q": "Two numbers A and B are such that 20% of A is equal to 30% of B. If the average of A and B is 225, find the value of |A - B|.",
-        "options": [
-          "60",
-          "75",
-          "90",
-          "45"
-        ],
-        "answer": 3,
-        "explanation": "Given 0.20A = 0.30B ⇒ 2A = 3B ⇒ A/B = 3/2. Let A = 3x and B = 2x. Average of A and B is (3x + 2x)/2 = 2.5x = 225 ⇒ x = 225 / 2.5 = 90. Therefore, A = 270 and B = 180. Difference |A - B| = 270 - 180 = 90 ? Wait: 3x - 2x = x = 90. Let's check options: 90 is option D. Let's re-verify: Average is (3x+2x)/2 = 2.5x = 225 ⇒ x"
-      },
-      {
-        "q": "If 35% of a number is subtracted from itself, the result is equal to 52% of another number. If the second number is 250, what is the value of the first number?",
-        "options": [
-          "450",
-          "400",
-          "480",
-          "500"
+          "20%",
+          "18.8%",
+          "21.8%",
+          "15.8%"
         ],
         "answer": 1,
-        "explanation": "Let the first number be N₁ and the second number be N₂ = 250. According to the question, N₁ - 0.35N₁ = 0.52N₂ ⇒ 0.65N₁ = 0.52 × 250. 0.65N₁ = 130 ⇒ N₁ = 130 / 0.65 = 20000 / 65 = 400."
+        "explanation": "(1+10%)(1−10%)(1+20%) − 1 = 18.8%"
       },
       {
-        "q": "Two numbers X and Y are such that 35% of X is equal to 55% of Y. If the sum of X and Y is 360, find the value of |X - Y|.",
-        "options": [
-          "60",
-          "72",
-          "90",
-          "80"
-        ],
-        "answer": 3,
-        "explanation": "Given 0.35X = 0.55Y ⇒ 35X = 55Y ⇒ 7X = 11Y ⇒ X/Y = 11/7. Let X = 11k and Y = 7k. Sum 11k + 7k = 18k = 360 ⇒ k = 20. Therefore, X = 220 and Y = 140. Difference |X - Y| = 220 - 140 = 80."
-      },
-      {
-        "q": "A number is increased by 20% and then decreased by 20%. What is the net percentage change in the number?",
+        "q": "A value increases 10%, then falls 20%, then rises 10%. Net percentage change (approx)?",
         "options": [
           "0%",
-          "4% decrease",
-          "2% decrease",
-          "2% increase"
-        ],
-        "answer": 1,
-        "explanation": "Let the original number be 100.,After a 20% increase: 100 + 20% of 100 = 120.,After a 20% decrease on 120: 120 - 20% of 120 = 96.,Net change = 96 - 100 = -4, which is a 4% decrease."
-      },
-      {
-        "q": "A shopkeeper sells an item for ₹1200 at a loss of 20%. What should be the selling price to gain a 20% profit?",
-        "options": [
-          "₹1440",
-          "₹1500",
-          "₹1800",
-          "₹1600"
+          "-0.2%",
+          "-3.2%",
+          "-6.2%"
         ],
         "answer": 2,
-        "explanation": "Let the cost price (CP) be ₹x.,Selling at a 20% loss: 80% of CP = 1200 → 0.8x = 1200 → x = 1500.,To gain 20% profit: Selling Price = 120% of CP = 1.2 * 1500 = ₹1800."
+        "explanation": "(1+10%)(1−20%)(1+10%) − 1 = -3.2%"
       },
       {
-        "q": "If 45% of a number is added to itself, the result becomes equal to 65% of another number. If the second number is 300, find the value of the first number.",
+        "q": "A value increases 10%, then falls 20%, then rises 20%. Net percentage change (approx)?",
         "options": [
-          "180",
-          "200",
-          "225",
-          "150"
+          "10%",
+          "8.6%",
+          "2.6%",
+          "5.6%"
         ],
         "answer": 3,
-        "explanation": "Let the first number be N₁ and the second number be N₂ = 300. According to the problem, N₁ + 0.45N₁ = 0.65N₂ ⇒ 1.45N₁ = 0.65 × 300. 1.45N₁ = 195 ⇒ N₁ = 195 / 1.45 = 19500 / 145 = 150."
+        "explanation": "(1+10%)(1−20%)(1+20%) − 1 = 5.6%"
       },
       {
-        "q": "Two numbers P and Q are such that 40% of P is equal to 60% of Q. If the sum of P and Q is 300, find the value of |P - Q|.",
+        "q": "A value increases 10%, then falls 25%, then rises 10%. Net percentage change (approx)?",
         "options": [
-          "40",
-          "60",
-          "50",
-          "75"
+          "-9.25%",
+          "-5%",
+          "-6.25%",
+          "-12.25%"
+        ],
+        "answer": 0,
+        "explanation": "(1+10%)(1−25%)(1+10%) − 1 = -9.25%"
+      },
+      {
+        "q": "A value increases 10%, then falls 25%, then rises 20%. Net percentage change (approx)?",
+        "options": [
+          "5%",
+          "-1%",
+          "2%",
+          "-4%"
         ],
         "answer": 1,
-        "explanation": "Given 0.40P = 0.60Q ⇒ 2P = 3Q ⇒ P/Q = 3/2. Let P = 3k and Q = 2k. Sum 3k + 2k = 5k = 300 ⇒ k = 60. Therefore, P = 180 and Q = 120. Difference |P - Q| = 180 - 120 = 60."
+        "explanation": "(1+10%)(1−25%)(1+20%) − 1 = -1%"
       },
       {
-        "q": "If 55% of a number is added to itself, the result equals 85% of another number. If the second number is 400, find the value of the first number.",
+        "q": "A value increases 20%, then falls 10%, then rises 10%. Net percentage change (approx)?",
         "options": [
-          "200",
-          "240",
-          "250",
-          "220"
+          "20%",
+          "21.8%",
+          "18.8%",
+          "15.8%"
+        ],
+        "answer": 2,
+        "explanation": "(1+20%)(1−10%)(1+10%) − 1 = 18.8%"
+      },
+      {
+        "q": "A value increases 20%, then falls 10%, then rises 20%. Net percentage change (approx)?",
+        "options": [
+          "30%",
+          "32.6%",
+          "26.6%",
+          "29.6%"
         ],
         "answer": 3,
-        "explanation": "Let the first number be N₁ and the second number be N₂ = 400. Given equation: N₁ + 0.55N₁ = 0.85N₂ ⇒ 1.55N₁ = 0.85 × 400. 1.55N₁ = 340 ⇒ N₁ = 340 / 1.55 = 34000 / 155 = 6800 / 31 = 219.35 ? Wait, let's recompute with clean numbers: let N₂ = 310, then 340 becomes 0.85 × 310 = 263.5. Let's adjust N₂ = 310: 1.55N₁ = 0.85 "
+        "explanation": "(1+20%)(1−10%)(1+20%) − 1 = 29.6%"
+      },
+      {
+        "q": "A value increases 20%, then falls 20%, then rises 10%. Net percentage change (approx)?",
+        "options": [
+          "5.6%",
+          "10%",
+          "8.6%",
+          "2.6%"
+        ],
+        "answer": 0,
+        "explanation": "(1+20%)(1−20%)(1+10%) − 1 = 5.6%"
+      },
+      {
+        "q": "A 40 L solution is 20% acid. 20 L is removed and replaced with water. New acid percentage?",
+        "options": [
+          "20%",
+          "13%",
+          "7%",
+          "10%"
+        ],
+        "answer": 3,
+        "explanation": "Acid = 4 L in 40 L ⇒ 10%"
       }
     ]
   },

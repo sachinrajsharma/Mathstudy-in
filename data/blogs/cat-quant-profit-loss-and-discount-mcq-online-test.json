@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "A merchant marks his goods up by 40% and then offers a discount of 20%. What is his overall profit percentage?",
+        "q": "A man sells two articles at the same price. On one he gains 10% and on the other he loses 10%. His overall percentage loss is:",
         "options": [
-          "12%",
-          "8%",
-          "20%",
-          "28%"
+          "1%",
+          "0%",
+          "10%",
+          "2%"
         ],
         "answer": 0,
-        "explanation": "[object Object]"
+        "explanation": "Net loss = 10²/100 = 1%"
       },
       {
-        "q": "If the selling price of 12 oranges is equal to the cost price of 8 oranges, what is the loss percentage?",
+        "q": "A man sells two articles at the same price. On one he gains 15% and on the other he loses 15%. His overall percentage loss is:",
         "options": [
-          "25%",
-          "33.33%",
-          "20%",
-          "16.67%"
+          "0%",
+          "2.25%",
+          "15%",
+          "3.25%"
         ],
         "answer": 1,
-        "explanation": "[object Object]"
+        "explanation": "Net loss = 15²/100 = 2.25%"
       },
       {
-        "q": "A product is marked at ₹5000. A discount of 10% is offered, and then a further discount of 5% is given on the reduced price. What is the final selling price?",
+        "q": "A man sells two articles at the same price. On one he gains 20% and on the other he loses 20%. His overall percentage loss is:",
         "options": [
-          "₹4300",
-          "₹4400",
-          "₹4275",
-          "₹4250"
+          "0%",
+          "20%",
+          "4%",
+          "5%"
         ],
         "answer": 2,
-        "explanation": "[object Object]"
+        "explanation": "Net loss = 20²/100 = 4%"
       },
       {
-        "q": "A merchant marks his goods up by 50% and then offers a discount of 25%. What is his overall profit percentage?",
+        "q": "A man sells two articles at the same price. On one he gains 25% and on the other he loses 25%. His overall percentage loss is:",
         "options": [
+          "0%",
           "25%",
-          "37.5%",
-          "18.75%",
-          "12.5%"
+          "7.25%",
+          "6.25%"
         ],
         "answer": 3,
-        "explanation": "[object Object]"
+        "explanation": "Net loss = 25²/100 = 6.25%"
       },
       {
-        "q": "If the selling price of 18 books is equal to the cost price of 12 books, what is the loss percentage?",
+        "q": "A man sells two articles at the same price. On one he gains 30% and on the other he loses 30%. His overall percentage loss is:",
         "options": [
-          "33.33%",
-          "25%",
-          "20%",
-          "16.67%"
+          "9%",
+          "0%",
+          "30%",
+          "10%"
         ],
         "answer": 0,
-        "explanation": "[object Object]"
+        "explanation": "Net loss = 30²/100 = 9%"
       },
       {
-        "q": "A product is marked at ₹4000. A discount of 10% is offered, and then a further discount of 5% is given on the reduced price. What is the final selling price?",
+        "q": "A dealer professes to sell at cost price but uses a weight of 800 g for 1 kg. Find his actual gain percent.",
         "options": [
-          "₹3400",
-          "₹3420",
-          "₹3500",
-          "₹3450"
+          "20%",
+          "25%",
+          "28%",
+          "22%"
         ],
         "answer": 1,
-        "explanation": "[object Object]"
+        "explanation": "Gain% = (1000−800)/800 × 100 = 25%"
       },
       {
-        "q": "An article bought for Rs. 200 is sold for Rs. 240. Find the profit percent.",
+        "q": "A dealer professes to sell at 10% profit but uses a weight of 800 g for 1 kg. Find his actual gain percent.",
         "options": [
-          "16.67%",
-          "25%",
           "20%",
-          "15%"
+          "40.5%",
+          "37.5%",
+          "34.5%"
         ],
         "answer": 2,
-        "explanation": "Profit% = 40/200 × 100 = 20%"
+        "explanation": "Gain% = (1100−800)/800 × 100 = 37.5%"
       },
       {
-        "q": "An article bought for Rs. 200 is sold for Rs. 250. Find the profit percent.",
+        "q": "A dealer professes to sell at 20% profit but uses a weight of 800 g for 1 kg. Find his actual gain percent.",
         "options": [
           "20%",
-          "30%",
-          "37.5%",
-          "25%"
+          "53%",
+          "47%",
+          "50%"
         ],
         "answer": 3,
-        "explanation": "Profit% = 50/200 × 100 = 25%"
+        "explanation": "Gain% = (1200−800)/800 × 100 = 50%"
       },
       {
-        "q": "An article bought for Rs. 200 is sold for Rs. 260. Find the profit percent.",
+        "q": "A dealer professes to sell at cost price but uses a weight of 900 g for 1 kg. Find his actual gain percent.",
         "options": [
-          "30%",
-          "23.08%",
-          "35%",
-          "25%"
+          "11.11%",
+          "10%",
+          "14.11%",
+          "8.11%"
         ],
         "answer": 0,
-        "explanation": "Profit% = 60/200 × 100 = 30%"
+        "explanation": "Gain% = (1000−900)/900 × 100 = 11.11%"
       },
       {
-        "q": "An article bought for Rs. 200 is sold for Rs. 280. Find the profit percent.",
+        "q": "A dealer professes to sell at 10% profit but uses a weight of 960 g for 1 kg. Find his actual gain percent.",
         "options": [
-          "28.57%",
-          "40%",
-          "45%",
-          "35%"
+          "4%",
+          "17.58%",
+          "11.58%",
+          "14.58%"
         ],
-        "answer": 1,
-        "explanation": "Profit% = 80/200 × 100 = 40%"
+        "answer": 3,
+        "explanation": "Gain% = (1100−960)/960 × 100 = 14.58%"
       }
     ]
   },

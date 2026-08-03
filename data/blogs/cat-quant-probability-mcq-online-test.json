@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "If 12 persons are seated at a round table, the probability that two particular persons sit together is",
+        "q": "A problem is given to three students A, B, C. P(A solves)=1/2, P(B solves)=1/3, P(C solves)=1/4. All attempt independently. What is the probability the problem is solved?",
         "options": [
-          "(2)/(11)",
-          "(12)/(13)",
-          "(3)/(13)",
-          "none of these"
+          "1/4",
+          "3/4",
+          "1/24",
+          "11/12"
         ],
-        "answer": 0,
-        "explanation": "Total =11!; favourable (glue the pair) =2·10!. Probability =(2·10!)/(11!)=(2)/(11)."
+        "answer": 1,
+        "explanation": "Step 1: P(A doesn't solve) = 1/2, P(B doesn't) = 2/3, P(C doesn't) = 3/4.\nStep 2: P(none solves) = (1/2)(2/3)(3/4) = 6/24 = 1/4.\nStep 3: P(at least one solves) = 1 - 1/4 = 3/4.\nAnswer: 3/4"
       },
       {
-        "q": "6 boys and 6 girls sit in a row randomly. The probability that all 6 girls sit together is",
+        "q": "A bag has 4 red and 4 black balls. Four balls are drawn without replacement. What is the probability of getting exactly 2 red and 2 black?",
         "options": [
-          "(1)/(132)",
-          "(1)/(133)",
-          "(2)/(133)",
-          "none of these"
+          "3/8",
+          "18/35",
+          "9/14",
+          "6/35"
         ],
-        "answer": 0,
-        "explanation": "(7!·6!)/(12!)=(6!)/(12·11·10·9·8)=(720)/(95040)=(1)/(132)."
+        "answer": 2,
+        "explanation": "Step 1: Favourable: C(4,2)×C(4,2) = 6×6 = 36.\nStep 2: Total: C(8,4) = 70.\nStep 3: P = 36/70 = 18/35.\nAnswer: 18/35"
       },
       {
-        "q": "From 7 men and 4 ladies a committee of 6 is formed. The probability that it has exactly 2 ladies is",
+        "q": "Ten cards numbered 1 to 10 are arranged randomly in a row. What is the probability that cards numbered 1 and 2 are adjacent?",
         "options": [
-          "(5)/(11)",
-          "(3)/(11)",
-          "(2)/(11)",
-          "(5)/(12)"
+          "1/5",
+          "2/10",
+          "1/10",
+          "2/9"
         ],
         "answer": 0,
-        "explanation": "(C(4,2)C(7,4))/(C(11,6))=(6·35)/(462)=(210)/(462)=(5)/(11)."
+        "explanation": "Step 1: Treat cards 1 and 2 as a single block: 9 objects can be arranged in 9! ways.\nStep 2: Within the block, 1 and 2 can be arranged in 2! = 2 ways. Favourable = 2 × 9!.\nStep 3: Total = 10!. P = 2×9!/10! = 2/10 = 1/5.\nAnswer: 1/5"
       },
       {
-        "q": "From a pack of 52 cards, three are drawn at random. The probability of drawing a king, a queen and a jack is",
+        "q": "A game involves rolling two dice. The player wins a amount equal to the sum shown. The entry fee is Rs 7. What is the expected profit per game?",
         "options": [
-          "(16)/(5525)",
-          "(13)/(5525)",
-          "(17)/(5525)",
-          "none of these"
+          "Rs 3.5",
+          "Rs 0",
+          "Rs 7",
+          "−Rs 3.5"
         ],
-        "answer": 0,
-        "explanation": "Favourable =4·4·4=64; total =C(52,3)=22100. Probability =(64)/(22100)=(16)/(5525)."
+        "answer": 1,
+        "explanation": "Step 1: E(sum of two dice) = E(die1) + E(die2) = 3.5 + 3.5 = 7.\nStep 2: Expected winnings = Rs 7. Entry fee = Rs 7.\nStep 3: Expected profit = 7 - 7 = Rs 0 (fair game).\nAnswer: Rs 0"
       },
       {
-        "q": "A family has two children. The probability that both are boys, given that at least one is a boy, is",
+        "q": "Cards are drawn with replacement from a 52-card deck. What is the probability of drawing a face card on exactly 2 out of 3 draws?",
         "options": [
-          "(1)/(3)",
-          "(2)/(3)",
-          "(1)/(4)",
-          "none of these"
+          "90/2197",
+          "270/2197",
+          "540/2197",
+          "180/2197"
         ],
-        "answer": 0,
-        "explanation": "Sample \u0001BB,BG,GB,GG\u0002; 'at least one boy' =\u0001BB,BG,GB\u0002; 'both boys' =\u0001BB\u0002. Probability =(1)/(3)."
+        "answer": 2,
+        "explanation": "Step 1: P(face card) = 12/52 = 3/13. P(not face card) = 10/13.\nStep 2: P(exactly 2 face cards) = C(3,2) × (3/13)² × (10/13).\nStep 3: = 3 × 9/169 × 10/13 = 270/2197.\nAnswer: 270/2197"
       },
       {
-        "q": "A die is thrown three times. A: 4 on the third throw; B: 6 on the first and 5 on the second throw. Then P(Amid B) is",
+        "q": "A box has 3 red, 5 white, and 2 green balls. Three balls are drawn without replacement. What is the probability of getting exactly one ball of each colour?",
         "options": [
-          "(1)/(6)",
-          "(2)/(3)",
-          "(1)/(3)",
-          "none of these"
+          "1/2",
+          "3/8",
+          "1/4",
+          "3/10"
         ],
-        "answer": 0,
-        "explanation": "The third throw is independent of the first two, so P(Amid B)=P(4 on third)=(1)/(6)."
+        "answer": 2,
+        "explanation": "Step 1: Favourable: C(3,1)×C(5,1)×C(2,1) = 3×5×2 = 30.\nStep 2: Total: C(10,3) = 120.\nStep 3: P = 30/120 = 1/4.\nAnswer: 1/4"
       },
       {
-        "q": "A die is thrown twice and the sum is observed to be 6. The conditional probability that 4 appeared at least once is",
+        "q": "A bag has n red and (n-2) blue balls. The probability of drawing 2 red balls without replacement is 1/3. Find n.",
         "options": [
-          "(2)/(5)",
-          "(2)/(3)",
-          "(1)/(4)",
-          "none of these"
+          "5",
+          "6",
+          "8",
+          "4"
         ],
-        "answer": 0,
-        "explanation": "Sum =6: \u0001(1,5),(2,4),(3,3),(4,2),(5,1)\u0002 — 5 outcomes; a 4 appears in (2,4),(4,2) — 2. Probability =(2)/(5)."
+        "answer": 3,
+        "explanation": "Step 1: Total balls = n+(n-2) = 2n-2. P(2 red) = C(n,2)/C(2n-2,2) = 1/3.\nStep 2: n(n-1)/[(2n-2)(2n-3)] = 1/3. Since 2n-2 = 2(n-1): n(n-1)/[2(n-1)(2n-3)] = 1/3 → n/[2(2n-3)] = 1/3.\nStep 3: 3n = 2(2n-3) = 4n-6 → n = 6. Verify: C(6,2)/C(10,2) = 15/45 = 1/3. Correct.\nAnswer: 6"
       },
       {
-        "q": "A bag contains four black and five red balls. If three balls are chosen at random, the chance that they are all black is",
+        "q": "Events A and B have P(A)=x, P(B)=y, P(A ∩ B)=z. Which expression gives P(exactly one of A or B occurs)?",
         "options": [
-          "(1)/(21)",
-          "(1)/(2)",
-          "(2)/(3)",
-          "none of these"
+          "x+y-z",
+          "x+y-2z",
+          "x+y+z",
+          "x-y+z"
         ],
-        "answer": 0,
-        "explanation": "(C(4,3))/(C(9,3))=(4)/(84)=(1)/(21)."
+        "answer": 1,
+        "explanation": "Step 1: P(only A) = P(A) - P(A ∩ B) = x - z.\nStep 2: P(only B) = P(B) - P(A ∩ B) = y - z.\nStep 3: P(exactly one) = (x-z)+(y-z) = x+y-2z.\nAnswer: x+y-2z"
       },
       {
-        "q": "If P(A)=(7)/(13), P(B)=(9)/(13), P(A∩ B)=(4)/(13), then P(Amid B) equals",
+        "q": "Two persons alternate rolling a fair die. The first to roll a 6 wins. Person A rolls first. What is the probability A wins?",
         "options": [
-          "(4)/(9)",
-          "(3)/(7)",
-          "(2)/(7)",
-          "none of these"
+          "1/2",
+          "5/11",
+          "6/11",
+          "7/12"
         ],
-        "answer": 0,
-        "explanation": "P(Amid B)=(P(A∩ B))/(P(B))=(4/13)/(9/13)=(4)/(9)."
+        "answer": 3,
+        "explanation": "Step 1: P(A wins on turn 1) = 1/6. P(A wins on turn 3) = (5/6)²×(1/6). Geometric series.\nStep 2: P(A wins) = (1/6)×[1+(5/6)²+(5/6)⁴+...] = (1/6)/(1-(25/36)) = (1/6)/(11/36).\nStep 3: = (1/6)×(36/11) = 6/11.\nAnswer: 6/11"
       },
       {
-        "q": "Ten cards numbered 1 to 10 are placed in a box; one is drawn at random. Given that the number is more than 3, the probability that it is even is",
+        "q": "A bag has 5 red and 3 blue balls. Three balls are drawn without replacement. What is the probability that at least 2 are red?",
         "options": [
-          "(4)/(7)",
-          "(2)/(3)",
-          "(3)/(5)",
-          "none of these"
+          "25/56",
+          "5/7",
+          "3/7",
+          "4/7"
         ],
-        "answer": 0,
-        "explanation": "Numbers  3: \u00014,5,6,7,8,9,10\u0002 (7 of them); even ones: \u00014,6,8,10\u0002 (4). Probability =(4)/(7)."
+        "answer": 3,
+        "explanation": "Step 1: P(exactly 2R,1B) = C(5,2)×C(3,1)/C(8,3) = 10×3/56 = 30/56.\nStep 2: P(exactly 3R,0B) = C(5,3)/C(8,3) = 10/56.\nStep 3: P(at least 2R) = 30/56+10/56 = 40/56 = 5/7.\nAnswer: 5/7"
       }
     ]
   },

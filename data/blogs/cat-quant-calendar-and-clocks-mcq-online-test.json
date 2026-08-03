@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Is the year 1900 a leap year?",
+        "q": "How many times in the given period do the hands of a clock coincide (overlap) in 24 hours?",
         "options": [
-          "No",
-          "Yes",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "22",
+          "11",
+          "44",
+          "24"
         ],
         "answer": 0,
-        "explanation": "1900: fails the leap-year rule ⇒ not leap"
+        "explanation": "Standard clock result: 22 times"
       },
       {
-        "q": "Is the year 2000 a leap year?",
+        "q": "How many times in the given period do the hands of a clock are at right angles in 24 hours?",
         "options": [
-          "No",
-          "Yes",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "11",
+          "44",
+          "22",
+          "24"
         ],
         "answer": 1,
-        "explanation": "2000: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "explanation": "Standard clock result: 44 times"
       },
       {
-        "q": "Is the year 2004 a leap year?",
+        "q": "How many times in the given period do the hands of a clock are in a straight line (opposite) in 24 hours?",
         "options": [
-          "No",
-          "Only in the Julian calendar",
-          "Yes",
-          "Cannot be determined"
+          "11",
+          "44",
+          "22",
+          "24"
         ],
         "answer": 2,
-        "explanation": "2004: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "explanation": "Standard clock result: 22 times"
       },
       {
-        "q": "Is the year 2010 a leap year?",
+        "q": "How many times in the given period do the hands of a clock coincide in 12 hours?",
         "options": [
-          "Yes",
-          "Only in the Julian calendar",
-          "Cannot be determined",
-          "No"
+          "22",
+          "44",
+          "24",
+          "11"
         ],
         "answer": 3,
-        "explanation": "2010: fails the leap-year rule ⇒ not leap"
+        "explanation": "Standard clock result: 11 times"
       },
       {
-        "q": "Is the year 2012 a leap year?",
+        "q": "How many times in the given period do the hands of a clock are at right angles in 12 hours?",
         "options": [
-          "Yes",
-          "No",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "22",
+          "11",
+          "44",
+          "24"
         ],
         "answer": 0,
-        "explanation": "2012: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "explanation": "Standard clock result: 22 times"
       },
       {
-        "q": "Is the year 2018 a leap year?",
+        "q": "How many times in the given period do the hands of a clock point in opposite directions in 12 hours?",
         "options": [
-          "Yes",
-          "No",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "22",
+          "11",
+          "44",
+          "24"
         ],
         "answer": 1,
-        "explanation": "2018: fails the leap-year rule ⇒ not leap"
+        "explanation": "Standard clock result: 11 times"
       },
       {
-        "q": "Is the year 2020 a leap year?",
+        "q": "Through how many degrees does the hour hand of a clock move in 20 minutes?",
         "options": [
-          "No",
-          "Only in the Julian calendar",
-          "Yes",
-          "Cannot be determined"
+          "120°",
+          "12°",
+          "10°",
+          "8°"
         ],
         "answer": 2,
-        "explanation": "2020: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "explanation": "Hour hand: 0.5°/min × 20 = 10°"
       },
       {
-        "q": "Is the year 2024 a leap year?",
+        "q": "Through how many degrees does the hour hand of a clock move in 24 minutes?",
         "options": [
-          "No",
-          "Only in the Julian calendar",
-          "Cannot be determined",
-          "Yes"
+          "144°",
+          "14°",
+          "10°",
+          "12°"
         ],
         "answer": 3,
-        "explanation": "2024: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "explanation": "Hour hand: 0.5°/min × 24 = 12°"
       },
       {
-        "q": "Is the year 2100 a leap year?",
+        "q": "Through how many degrees does the hour hand of a clock move in 36 minutes?",
         "options": [
-          "No",
-          "Yes",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "18°",
+          "216°",
+          "20°",
+          "16°"
         ],
         "answer": 0,
-        "explanation": "2100: fails the leap-year rule ⇒ not leap"
+        "explanation": "Hour hand: 0.5°/min × 36 = 18°"
       },
       {
-        "q": "Is the year 2016 a leap year?",
+        "q": "A clock gains 2 minutes every hour. How many minutes will it gain in 24 hours?",
         "options": [
-          "No",
-          "Yes",
-          "Only in the Julian calendar",
-          "Cannot be determined"
+          "26 minutes",
+          "2 minutes",
+          "50 minutes",
+          "48 minutes"
         ],
-        "answer": 1,
-        "explanation": "2016: divisible by 4 (and 400 rule holds) ⇒ leap"
+        "answer": 3,
+        "explanation": "2 × 24 = 48 minutes"
       }
     ]
   },

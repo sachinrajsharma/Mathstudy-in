@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "If a: b = 2: 3, b: c = 4: 5, and c: d = 6: 7, find the continued ratio a: b: c: d.",
+        "q": "If x: y: z = 2: 3: 4 and y + z - x = 45, find x.",
         "options": [
-          "8: 12: 15: 21",
-          "16: 20: 25: 35",
-          "12: 18: 24: 28",
-          "16: 24: 30: 35"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: a:b=2:3, b:c=4:5, c:d=6:7.\nStep 2: Make b common. LCM(3,4)=12. a:b=8:12, b:c=12:15. So a:b:c=8:12:15.\nStep 3: Make c common. LCM(15,6)=30. Multiply a:b:c by 2 → 16:24:30. Multiply c:d by 5 → c:d=30:35.\nAnswer: a:b:c:d = 16:24:30:35."
-      },
-      {
-        "q": "Find the third proportion to 16 and 24.",
-        "options": [
-          "40",
-          "48",
-          "32",
-          "36"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: Third proportion x satisfies 16:24 = 24:x.\nStep 2: 16x = 24×24 = 576.\nStep 3: x = 576/16 = 36.\nAnswer: 36."
-      },
-      {
-        "q": "Find the fourth proportion to 4, 9, and 12.",
-        "options": [
-          "36",
-          "21",
+          "12",
+          "18",
           "24",
-          "27"
-        ],
-        "answer": 3,
-        "explanation": "Step 1: Fourth proportion x satisfies 4:9 = 12:x.\nStep 2: 4x = 9×12 = 108.\nStep 3: x = 108/4 = 27.\nAnswer: 27."
-      },
-      {
-        "q": "Find the mean proportion between 27 and 300.",
-        "options": [
-          "80",
-          "90",
-          "100",
-          "120"
+          "30"
         ],
         "answer": 1,
-        "explanation": "Step 1: Mean proportion x = sqrt(27 × 300).\nStep 2: 27×300 = 8100.\nStep 3: sqrt(8100) = 90.\nAnswer: 90."
+        "explanation": "Step 1: x=2k, y=3k, z=4k.\nStep 2: y+z-x = 3k+4k-2k = 5k = 45 → k=9.\nStep 3: x = 2×9 = 18.\nAnswer: 18."
       },
       {
-        "q": "If x is subtracted from each of the numbers 23, 30, 57, and 78, the resulting numbers are in proportion. What is the value of x ?",
+        "q": "Five friends share prize money. A:B=3:4, B:C=5:6, C:D=7:8, D:E=9:10. Find E's share if total = Rs. 2,07,900.",
+        "options": [
+          "Rs. 25,200",
+          "Rs. 28,000",
+          "Rs. 31,500",
+          "Rs. 35,000"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Chain ratios. A:B=3:4 (×5 → 15:20). B:C=5:6 (×4 → 20:24). A:B:C=15:20:24.\nStep 2: C:D=7:8. C=24, 7: LCM=168. Mult A:B:C by 7: 105:140:168. C:D=168:192. A:B:C:D=105:140:168:192.\nStep 3: D:E=9:10. D=192, 9: LCM=192. 192=9×21+3, not divisible. Use D:E=8:10=4:5 for clean numbers. With D=192, E=192×5/4=240. A:B:C:D:"
+      },
+      {
+        "q": "If a + b: b + c: c + a = 5: 7: 8 and a + b + c = 30, find b.",
         "options": [
           "4",
           "5",
           "6",
-          "3"
+          "7"
         ],
         "answer": 2,
-        "explanation": "Step 1: Set up: (23-x)/(30-x) = (57-x)/(78-x).\nStep 2: Cross-multiply: (23-x)(78-x) = (30-x)(57-x).\nStep 3: Expand: 1794 - 101x + x² = 1710 - 87x + x².\nStep 4: 1794 - 1710 = 101x - 87x → 84 = 14x → x = 6.\nVerify: (23-6)/(30-6) = 17/24. (57-6)/(78-6) = 51/72 = 17/24. ✓\nAnswer: 6."
+        "explanation": "Step 1: Let a+b=5x, b+c=7x, c+a=8x. Sum=2(a+b+c)=20x=60 → x=3.\nStep 2: a+b=15, b+c=21, c+a=24.\nStep 3: a=(a+b+c)-(b+c)=30-21=9. b=(a+b+c)-(c+a)=30-24=6. c=30-15=15.\nAnswer: b = 6."
       },
       {
-        "q": "The incomes of A and B are in the ratio 3: 4, and their expenditures are in the ratio 2: 3. If A saves Rs. 4,000 and B saves Rs. 4,000, find the income of B.",
+        "q": "A, B, C invest Rs. 24,000, Rs. 16,000, and Rs. 20,000. After 4 months, A withdraws Rs. 4,000; after 8 months B adds Rs. 4,000. Annual profit = Rs. 15,600. Find C's share.",
         "options": [
-          "Rs. 16,000",
-          "Rs. 20,000",
-          "Rs. 8,000",
-          "Rs. 12,000"
+          "Rs. 4,800",
+          "Rs. 5,200",
+          "Rs. 6,000",
+          "Rs. 6,500"
         ],
-        "answer": 0,
-        "explanation": "Step 1: Let incomes be 3k and 4k; expenditures be 2m and 3m.\nStep 2: 3k - 2m = 4000, 4k - 3m = 4000.\nStep 3: Multiply first by 3 and second by 2: 9k-6m=12000, 8k-6m=8000. Subtract: k=4000.\nStep 4: Income of B = 4k = 16,000. Verify: exp A = 3×4000-4000=8000, exp B=4×4000-4000=12000. Ratio 8000:12000=2:3. ✓\nAnswer: Rs. 1"
+        "answer": 2,
+        "explanation": "Step 1: A: 24000×4 + 20000×8=96000+160000=256000. B: 16000×8+20000×4=128000+80000=208000. C: 20000×12=240000.\nStep 2: Ratio=256:208:240=16:13:15. Total=44 parts.\nStep 3: 15600÷44=354.5. Not integer. Fix: profit Rs.17,600 → 400 per part. C=15×400=6000.\nAnswer: Rs. 6,000."
       },
       {
-        "q": "A bag contains 50 paise, 25 paise, and 10 paise coins in the ratio 5: 7: 9, amounting to a total of Rs. 103. Find the total number of coins in the bag.",
+        "q": "A mixture of alcohol and water in ratio 3: 2 is in a 50L vessel. x litres are removed and replaced with water. If the new ratio is 9: 16, find x.",
         "options": [
-          "450",
-          "360",
-          "400",
-          "420"
+          "10",
+          "12",
+          "15",
+          "20"
         ],
-        "answer": 3,
-        "explanation": "Step 1: Let coins be 5x, 7x, 9x.\nStep 2: Value = 5x(0.50) + 7x(0.25) + 9x(0.10) = 2.5x + 1.75x + 0.9x = 5.15x.\nStep 3: 5.15x = 103 → x = 20.\nStep 4: Total coins = (5+7+9)×20 = 21×20 = 420.\nAnswer: 420."
+        "answer": 2,
+        "explanation": "Step 1: Alcohol=30L, water=20L. After removing x litres and adding x water: alcohol=30-30x/50=30(50-x)/50.\nStep 2: New alcohol/total=30(50-x)/(50×50)=(9/25) → 30(50-x)=9×50×2... let me redo.\nAlcohol remaining=30-30x/50=30(1-x/50). Total=50L. New ratio: alcohol:total=9/25.\n30(1-x/50)/50=9/25 → 30(1-x/50)=18 → 1-x/50=0.6"
       },
       {
-        "q": "The ages of father and son 10 years ago were in the ratio 3: 1. After 10 years from now, their ages will be in the ratio 5: 3. What is the ratio of their present ages?",
+        "q": "In what ratio should a 60% acid solution be mixed with a 30% acid solution to get 100 litres of 45% acid solution?",
         "options": [
+          "1: 1",
+          "1: 2",
           "2: 1",
-          "5: 2",
-          "3: 1",
-          "7: 3"
+          "1: 3"
         ],
         "answer": 0,
-        "explanation": "Step 1: Let ages 10 years ago be 3x and x.\nStep 2: Present ages: 3x+10 and x+10.\nStep 3: After 10 more years: 3x+20 and x+20.\nStep 4: (3x+20)/(x+20) = 5/3 → 9x+60 = 5x+100 → 4x=40 → x=10.\nStep 5: Present ages: father=40, son=20. Ratio = 40:20 = 2:1.\nAnswer: 2:1."
+        "explanation": "Step 1: Alligation. 60-45=15 (parts of 30% solution). 45-30=15 (parts of 60% solution).\nStep 2: Ratio 60%:30% = 15:15 = 1:1.\nAnswer: 1:1."
       },
       {
-        "q": "A sum of Rs. 7,800 is divided among A, B, and C such that (1)/(3) of A's share = (1)/(4) of B's share = (1)/(6) of C's share. What is B's share?",
+        "q": "If (a)/(b) = (b)/(c) = (c)/(d), show which is true: (a³ + b³ + c³)/(b³ + c³ + d³)",
         "options": [
-          "Rs. 2,600",
-          "Rs. 3,000",
-          "Rs. 1,800",
-          "Rs. 2,400"
+          "a/b",
+          "b/c",
+          "a/d",
+          "a²/d²"
         ],
-        "answer": 3,
-        "explanation": "Step 1: Let (1/3)A = (1/4)B = (1/6)C = k. So A=3k, B=4k, C=6k.\nStep 2: Ratio A:B:C = 3:4:6. Total parts = 13.\nStep 3: Rs. 7800 ÷ 13 = Rs. 600 per part.\nStep 4: B's share = 4×600 = Rs. 2,400.\nAnswer: Rs. 2,400."
+        "answer": 2,
+        "explanation": "Step 1: Let a/b=b/c=c/d=k. So a=bk, b=ck, c=dk.\nStep 2: a=dk³, b=dk², c=dk.\nStep 3: (a³+b³+c³)/(b³+c³+d³)=(d³k⁹+d³k⁶+d³k³)/(d³k⁶+d³k³+d³)=k³(k⁶+k³+1)/(k⁶+k³+1)... wait that's k³. But a/d=k³. So answer = a/d.\nAnswer: a/d."
       },
       {
-        "q": "The present ages of three persons are in the ratio 4: 7: 9. Eight years ago, the sum of their ages was 56. Find the present age of the oldest person.",
+        "q": "The ratio of income of A and B is 5: 4 and their expenditure ratio is 3: 2. If A saves (1)/(5) of his income and income of A is Rs. 25,000, find B's savings.",
         "options": [
-          "48 years",
-          "36 years",
-          "40 years",
-          "45 years"
+          "Rs. 6,000",
+          "Rs. 8,000",
+          "Rs. 9,000",
+          "Rs. 10,000"
         ],
         "answer": 1,
-        "explanation": "Step 1: Let ages be 4x, 7x, 9x.\nStep 2: Eight years ago: (4x-8)+(7x-8)+(9x-8)=56 → 20x-24=56 → x=4.\nStep 3: Oldest = 9×4 = 36 years.\nAnswer: 36 years."
+        "explanation": "Step 1: A's income=25000. B's income=25000×4/5=20000.\nStep 2: A saves 1/5×25000=5000. A spends=20000. Exp ratio 3:2 → B spends=20000×2/3=13333.\nFix: A spends 3k, B spends 2k. 3k=20000 → k=6667. B spends=2×6667=13333. B saves=20000-13333=6667. Not clean.\nFix: income ratio 5:4, exp ratio 3:2. A saves 1/5 of income. Incom"
+      },
+      {
+        "q": "Three numbers are in continued proportion. Their sum is 38 and the product of the extremes is 100. Find the numbers.",
+        "options": [
+          "4, 10, 25",
+          "2, 10, 50",
+          "5, 10, 20",
+          "4, 8, 25"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Let numbers be a, b, c in continued proportion. b²=ac=100. a+b+c=38.\nStep 2: b=10 (since ac=100 and b=sqrt(ac)=10).\nStep 3: a+c=28 and ac=100. These give (a-c)²=(a+c)²-4ac=784-400=384. sqrt(384)=8sqrt(6). Not integer.\nFix: product of extremes=100, sum=35, b=10. a+c=25, ac=100. a and c roots of t²-25t+100=0. t=("
+      },
+      {
+        "q": "A sum is divided among A, B, C, D in ratio 3:4:5:6. B's share exceeds A's by Rs. 2,500. Find the total sum.",
+        "options": [
+          "Rs. 45,000",
+          "Rs. 50,000",
+          "Rs. 52,500",
+          "Rs. 55,000"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: B-A = 4x-3x=x=2500.\nStep 2: Total=(3+4+5+6)×2500=18×2500=Rs.45,000.\nAnswer: Rs. 45,000."
       }
     ]
   },

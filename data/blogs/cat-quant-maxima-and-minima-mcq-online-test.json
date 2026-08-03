@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "Find the minimum value of |x − 2| + |x − 9|.",
+        "q": "The sum of two positive numbers whose product is 16 is least when it equals",
         "options": [
-          "7",
-          "11",
-          "9",
-          "5"
-        ],
-        "answer": 0,
-        "explanation": "Min = distance between points = |9 − 2| = 7"
-      },
-      {
-        "q": "Find the minimum value of |x − 2| + |x − 11|.",
-        "options": [
-          "13",
-          "9",
-          "11",
-          "7"
-        ],
-        "answer": 1,
-        "explanation": "Min = distance between points = |11 − 2| = 9"
-      },
-      {
-        "q": "Find the minimum value of |x − 2| + |x − 13|.",
-        "options": [
-          "15",
-          "13",
-          "11",
-          "9"
-        ],
-        "answer": 2,
-        "explanation": "Min = distance between points = |13 − 2| = 11"
-      },
-      {
-        "q": "Find the minimum value of |x − 2| + |x − 15|.",
-        "options": [
-          "17",
-          "15",
-          "11",
-          "13"
-        ],
-        "answer": 3,
-        "explanation": "Min = distance between points = |15 − 2| = 13"
-      },
-      {
-        "q": "Find the minimum value of |x − 3| + |x − 9|.",
-        "options": [
-          "6",
-          "12",
           "8",
+          "16",
+          "10",
           "4"
         ],
         "answer": 0,
-        "explanation": "Min = distance between points = |9 − 3| = 6"
+        "explanation": "By AM–GM the sum is least when both numbers are √16 = 4: sum = 2×4 = 8."
       },
       {
-        "q": "Find the minimum value of |x − 3| + |x − 11|.",
+        "q": "The sum of two positive numbers whose product is 144 is least when it equals",
         "options": [
-          "14",
-          "8",
-          "10",
-          "6"
-        ],
-        "answer": 1,
-        "explanation": "Min = distance between points = |11 − 3| = 8"
-      },
-      {
-        "q": "Find the minimum value of |x − 3| + |x − 13|.",
-        "options": [
-          "16",
-          "12",
-          "10",
-          "8"
-        ],
-        "answer": 2,
-        "explanation": "Min = distance between points = |13 − 3| = 10"
-      },
-      {
-        "q": "Find the minimum value of |x − 3| + |x − 15|.",
-        "options": [
-          "18",
-          "14",
-          "10",
+          "24",
+          "144",
+          "26",
           "12"
         ],
-        "answer": 3,
-        "explanation": "Min = distance between points = |15 − 3| = 12"
+        "answer": 0,
+        "explanation": "By AM–GM the sum is least when both numbers are √144 = 12: sum = 2×12 = 24."
       },
       {
-        "q": "Find the minimum value of |x − 5| + |x − 9|.",
+        "q": "The maximum value of −x² + 10x + 4 is",
         "options": [
           "4",
-          "14",
-          "6",
-          "2"
+          "27",
+          "32",
+          "29"
         ],
-        "answer": 0,
-        "explanation": "Min = distance between points = |9 − 5| = 4"
+        "answer": 3,
+        "explanation": "Maximum at x = 5; value = 4 + 10²/4 = 4 + 25 = 29."
       },
       {
-        "q": "Find the minimum value of |x − 5| + |x − 11|.",
+        "q": "A rectangle has area 64 cm². Its perimeter is least when it is a",
         "options": [
-          "16",
-          "6",
+          "rectangle 16×4",
+          "rectangle 32×2",
+          "rectangle 8×8 only by chance",
+          "square of side 8 cm"
+        ],
+        "answer": 3,
+        "explanation": "For a fixed area the perimeter is minimised by a square: side = √64 = 8 cm."
+      },
+      {
+        "q": "The least value of x(x − 10) is",
+        "options": [
+          "0",
+          "25",
+          "-25",
+          "-22"
+        ],
+        "answer": 2,
+        "explanation": "x(x−10) = x²−10x, minimum at x = 5: value = −(10/2)² = -25."
+      },
+      {
+        "q": "For x ≠ 0, the minimum value of x² + 9/x² is",
+        "options": [
+          "9",
           "8",
-          "4"
+          "3",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "AM–GM on x² and 9/x²: x² + 9/x² ≥ 2√(x²·9/x²) = 2√9 = 6."
+      },
+      {
+        "q": "If x + y = 6, the least value of x² + y² is",
+        "options": [
+          "36",
+          "9",
+          "18",
+          "26"
+        ],
+        "answer": 2,
+        "explanation": "Least when x = y = 3: 2×(3)² = 18."
+      },
+      {
+        "q": "For x ≠ 0, the least value of x² + 49/x² is",
+        "options": [
+          "49",
+          "16",
+          "7",
+          "14"
+        ],
+        "answer": 3,
+        "explanation": "AM–GM: x² + 49/x² ≥ 2√49 = 14."
+      },
+      {
+        "q": "Two positive numbers have product 81. The smallest possible value of their sum is",
+        "options": [
+          "81",
+          "18",
+          "20",
+          "9"
         ],
         "answer": 1,
-        "explanation": "Min = distance between points = |11 − 5| = 6"
+        "explanation": "Least sum when both equal √81 = 9: sum = 18."
+      },
+      {
+        "q": "6 is divided into three positive parts with the greatest possible product. That product is",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Greatest when each part is 2: 2³ = 8."
       }
     ]
   },

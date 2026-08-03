@@ -61,70 +61,70 @@
         "explanation": "Each term =(7)/(9)(1-10^(-k)). Summing k=1..20: (7)/(9)big[20-(1)/(9)(1-10⁻²⁰)big]=(7)/(81)(179+10⁻²⁰)."
       },
       {
-        "q": "The sum of the first 2n terms of an A.P. is x and the sum of the next n terms is y. Its common difference is",
+        "q": "Find the sum of the squares of the first 5 natural numbers.",
         "options": [
-          "(x-2y)/(3n²)",
-          "(2y-x)/(3n²)",
-          "(x-2y)/(3n)",
-          "(2y-x)/(3n)"
+          "55",
+          "225",
+          "60",
+          "50"
         ],
-        "answer": 1,
-        "explanation": "S₂ₙ=x and S₃ₙ=x+y. Subtracting the averaged forms: 2a+(2n-1)d=x/n and 2a+(3n-1)d=2(x+y)/(3n). The difference gives nd=(2y-x)/(3n), so d=(2y-x)/(3n²)."
+        "answer": 0,
+        "explanation": "Σn² = 5×6×11/6 = 55"
       },
       {
-        "q": "If 1+k+k²+·s+kˣ=(1+k)(1+k²)(1+k⁴)(1+k⁸)(1+k¹⁶), then x=",
+        "q": "Find the sum of the squares of the first 6 natural numbers.",
         "options": [
+          "441",
+          "91",
+          "97",
+          "85"
+        ],
+        "answer": 1,
+        "explanation": "Σn² = 6×7×13/6 = 91"
+      },
+      {
+        "q": "Find the sum of the squares of the first 7 natural numbers.",
+        "options": [
+          "784",
+          "147",
+          "140",
+          "133"
+        ],
+        "answer": 2,
+        "explanation": "Σn² = 7×8×15/6 = 140"
+      },
+      {
+        "q": "Find the sum of the squares of the first 8 natural numbers.",
+        "options": [
+          "1296",
+          "212",
+          "196",
+          "204"
+        ],
+        "answer": 3,
+        "explanation": "Σn² = 8×9×17/6 = 204"
+      },
+      {
+        "q": "Find the sum of the squares of the first 14 natural numbers.",
+        "options": [
+          "11025",
+          "1029",
+          "1001",
+          "1015"
+        ],
+        "answer": 3,
+        "explanation": "Σn² = 14×15×29/6 = 1015"
+      },
+      {
+        "q": "Insert a single arithmetic mean between 6 and 24.",
+        "options": [
+          "12",
           "15",
-          "16",
-          "32",
-          "31"
-        ],
-        "answer": 3,
-        "explanation": "The RHS telescopes: (1+k)(1+k²)·s(1+k¹⁶)=(k³²-1)/(k-1)=1+k+·s+k³¹. So x=31."
-      },
-      {
-        "q": "If consecutive numbers a,b,c,d are in A.P., then abc, abd, acd, bcd are in",
-        "options": [
-          "none of A.P./G.P./H.P.",
-          "A.P.",
-          "G.P.",
-          "H.P."
-        ],
-        "answer": 3,
-        "explanation": "Dividing each by abcd gives (1)/(d),(1)/(c),(1)/(b),(1)/(a). Since a,b,c,d are in A.P., these reciprocals are in A.P. too, so the original numbers (their reciprocals scaled) are in H.P."
-      },
-      {
-        "q": "If the roots of x³+bx²+cx+d=0 are in A.P., then b,c,d satisfy",
-        "options": [
-          "2b²-27d=9bc",
-          "2b³-27d=9bc",
-          "2b²+27d=9bc",
-          "2b³+27d=9bc"
-        ],
-        "answer": 3,
-        "explanation": "Let roots be p-q,p,p+q; then 3p=-b⇒ p=-b/3, and p is a root, so p³+bp²+cp+d=0. Substituting gives 2b³+27d=9bc."
-      },
-      {
-        "q": "An A.P. has 2n terms. The sum of terms in even positions is P and in odd positions is Q. The n th term of the A.P. is",
-        "options": [
-          "(P)/(n)",
-          "(Q)/(n)",
-          "(P+Q)/(2n)",
-          "none of these"
+          "17",
+          "13"
         ],
         "answer": 1,
-        "explanation": "The n odd-position terms a₁,a₃,…,a₂ₙ₋₁ have average aₙ (mean of first and last), so Q=n aₙ⇒ aₙ=Q/n."
-      },
-      {
-        "q": "The numbers log_b a, 1+log_b a, 2+log_b a+log_a b are in",
-        "options": [
-          "A.P.",
-          "G.P.",
-          "H.P.",
-          "None"
-        ],
-        "answer": 1,
-        "explanation": "Let t=log_b a. The terms are t, 1+t, 2+t+(1)/(t). Then (1+t)²=1+2t+t²=t(2+t+(1)/(t)), the G.P. condition, so they are in G.P."
+        "explanation": "AM = (6+24)/2 = 15"
       }
     ]
   },

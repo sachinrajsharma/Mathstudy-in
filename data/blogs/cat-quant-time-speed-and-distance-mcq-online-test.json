@@ -17,114 +17,114 @@
     "level": "CAT",
     "questions": [
       {
-        "q": "A train running at a speed of 72 km/h crosses a pole in 15 seconds. What is the length of the train in meters?",
+        "q": "A boat goes downstream at 12 km/h and upstream at 6 km/h. Find the speed of the boat in still water.",
         "options": [
-          "250 m",
-          "300 m",
-          "350 m",
-          "200 m"
-        ],
-        "answer": 1,
-        "explanation": "Speed of train = 72 km/h = 72 * (5/18) = 20 m/s. Length of train = Speed * Time = 20 * 15 = 300 meters."
-      },
-      {
-        "q": "A man can row downstream at 12 km/h and upstream at 8 km/h. What is the speed of the current?",
-        "options": [
-          "4 km/h",
-          "10 km/h",
-          "2 km/h",
-          "1 km/h"
-        ],
-        "answer": 2,
-        "explanation": "Speed of current = (Downstream speed - Upstream speed) / 2 = (12 - 8) / 2 = 4 / 2 = 2 km/h."
-      },
-      {
-        "q": "A train 180 meters long is running at a speed of 54 km/h. How much time will it take to cross a platform that is 270 meters long?",
-        "options": [
-          "30 seconds",
-          "25 seconds",
-          "35 seconds",
-          "28 seconds"
+          "9 km/h",
+          "3 km/h",
+          "6 km/h",
+          "10 km/h"
         ],
         "answer": 0,
-        "explanation": "Speed of train = 54 km/h = 54 * (5/18) = 15 m/s. Total distance to cover = Length of train + Length of platform = 180 + 270 = 450 meters. Time = Distance / Speed = 450 / 15 = 30 seconds."
+        "explanation": "Still water = (12+6)/2 = 9 km/h"
       },
       {
-        "q": "The speed of a boat in still water is 14 km/h and the speed of the current is 4 km/h. What is the time taken by the boat to travel 36 km downstream?",
+        "q": "A boat goes downstream at 12 km/h and upstream at 8 km/h. Find the speed of the boat in still water.",
         "options": [
-          "1.5 hours",
-          "2.0 hours",
-          "2.5 hours",
-          "1.8 hours"
+          "2 km/h",
+          "10 km/h",
+          "4 km/h",
+          "11 km/h"
         ],
         "answer": 1,
-        "explanation": "Downstream speed = Speed in still water + Speed of current = 14 + 4 = 18 km/h. Time taken = Distance / Downstream speed = 36 / 18 = 2.0 hours."
+        "explanation": "Still water = (12+8)/2 = 10 km/h"
       },
       {
-        "q": "A traveler covers half of a total distance at 50 km/h and the other half at 75 km/h. What is the average speed of the traveler for the entire journey?",
+        "q": "A boat goes downstream at 12 km/h and upstream at 10 km/h. Find the speed of the boat in still water.",
         "options": [
-          "62.5 km/h",
-          "58 km/h",
-          "60 km/h",
-          "65 km/h"
-        ],
-        "answer": 2,
-        "explanation": "For equal distances, average speed is the harmonic mean: (2 * s1 * s2) / (s1 + s2) = (2 * 50 * 75) / (50 + 75) = 7500 / 125 = 60 km/h."
-      },
-      {
-        "q": "A train 240 meters long passes a telegraph post in 16 seconds. What is the speed of the train in km/h?",
-        "options": [
-          "48 km/h",
-          "60 km/h",
-          "72 km/h",
-          "54 km/h"
-        ],
-        "answer": 3,
-        "explanation": "Speed in m/s = Length / Time = 240 / 16 = 15 m/s. Convert to km/h by multiplying by 18/5: 15 * (18/5) = 3 * 18 = 54 km/h."
-      },
-      {
-        "q": "A boat can row upstream at 9 km/h and downstream at 15 km/h. What is the speed of the boat in still water?",
-        "options": [
-          "12 km/h",
-          "10 km/h",
+          "1 km/h",
+          "2 km/h",
           "11 km/h",
-          "13 km/h"
-        ],
-        "answer": 0,
-        "explanation": "Speed in still water = (Downstream + Upstream) / 2 = (15 + 9) / 2 = 24 / 2 = 12 km/h."
-      },
-      {
-        "q": "A train running at a speed of 90 km/h crosses a pole in 12 seconds. What is the length of the train in meters?",
-        "options": [
-          "250 m",
-          "350 m",
-          "300 m",
-          "200 m"
+          "12 km/h"
         ],
         "answer": 2,
-        "explanation": "Speed of train = 90 km/h = 90 * (5/18) = 25 m/s. Length of train = Speed * Time = 25 * 12 = 300 meters."
+        "explanation": "Still water = (12+10)/2 = 11 km/h"
       },
       {
-        "q": "A boat rows downstream at 16 km/h and upstream at 10 km/h. What is the speed of the stream?",
+        "q": "A boat goes downstream at 15 km/h and upstream at 6 km/h. Find the speed of the boat in still water.",
         "options": [
-          "2 km/h",
-          "4 km/h",
-          "5 km/h",
-          "3 km/h"
+          "4.5 km/h",
+          "9 km/h",
+          "11.5 km/h",
+          "10.5 km/h"
         ],
         "answer": 3,
-        "explanation": "Speed of the stream = (Downstream speed - Upstream speed) / 2 = (16 - 10) / 2 = 6 / 2 = 3 km/h."
+        "explanation": "Still water = (15+6)/2 = 10.5 km/h"
       },
       {
-        "q": "A train running at a speed of 54 km/h crosses a pole in 20 seconds. What is the length of the train in meters?",
+        "q": "A boat goes downstream at 15 km/h and upstream at 8 km/h. Find the speed of the boat in still water.",
         "options": [
-          "250 m",
-          "300 m",
-          "350 m",
-          "200 m"
+          "11.5 km/h",
+          "3.5 km/h",
+          "7 km/h",
+          "12.5 km/h"
+        ],
+        "answer": 0,
+        "explanation": "Still water = (15+8)/2 = 11.5 km/h"
+      },
+      {
+        "q": "A boat goes downstream at 15 km/h and upstream at 10 km/h. Find the speed of the boat in still water.",
+        "options": [
+          "2.5 km/h",
+          "12.5 km/h",
+          "5 km/h",
+          "13.5 km/h"
         ],
         "answer": 1,
-        "explanation": "Speed of train = 54 km/h = 54 * (5/18) = 15 m/s. Length of train = Speed * Time = 15 * 20 = 300 meters."
+        "explanation": "Still water = (15+10)/2 = 12.5 km/h"
+      },
+      {
+        "q": "A boat goes downstream at 15 km/h and upstream at 12 km/h. Find the speed of the boat in still water.",
+        "options": [
+          "1.5 km/h",
+          "3 km/h",
+          "13.5 km/h",
+          "14.5 km/h"
+        ],
+        "answer": 2,
+        "explanation": "Still water = (15+12)/2 = 13.5 km/h"
+      },
+      {
+        "q": "A boat goes downstream at 18 km/h and upstream at 6 km/h. Find the speed of the boat in still water.",
+        "options": [
+          "6 km/h",
+          "13 km/h",
+          "11 km/h",
+          "12 km/h"
+        ],
+        "answer": 3,
+        "explanation": "Still water = (18+6)/2 = 12 km/h"
+      },
+      {
+        "q": "A boat goes downstream at 18 km/h and upstream at 8 km/h. Find the speed of the boat in still water.",
+        "options": [
+          "13 km/h",
+          "5 km/h",
+          "10 km/h",
+          "14 km/h"
+        ],
+        "answer": 0,
+        "explanation": "Still water = (18+8)/2 = 13 km/h"
+      },
+      {
+        "q": "Two trains 120 m and 200 m long run in opposite directions at 72 km/h and 54 km/h. How long do they take to cross each other?",
+        "options": [
+          "64 seconds",
+          "11.14 seconds",
+          "7.14 seconds",
+          "9.14 seconds"
+        ],
+        "answer": 3,
+        "explanation": "Rel speed = 35 m/s; time = (120+200)/35 = 9.14 s"
       }
     ]
   },
