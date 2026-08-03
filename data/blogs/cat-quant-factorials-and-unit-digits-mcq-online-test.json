@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-factorials-and-unit-digits-mcq-online-test",
+  "title": "CAT Quant Factorials & Unit Digits: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Factorials & Unit Digits Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Factorials & Unit Digits online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Factorials & Unit Digits online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-factorials-and-unit-digits-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-factorials-and-unit-digits-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Factorials &amp; Unit Digits</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Factorials &amp; Unit Digits</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Factorials &amp; Unit Digits</h2><p>Factorials, trailing zeros in n!, and unit-digit cyclicity of powers.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Trailing zeros in n! = ⌊n/5⌋ + ⌊n/25⌋ + …</li><li>Unit-digit cycles: 2→(2,4,8,6), 3→(3,9,7,1), 7→(7,9,3,1); length 4.</li><li>Digits 0,1,5,6 keep their unit digit under any power.</li><li>For n ≥ 5, n! ends in 0.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Counting only ⌊n/5⌋ and missing higher powers of 5.</li><li>Using cycle length other than 4 for 2,3,7,8.</li><li>Forgetting 0,1,5,6 are self-repeating.</li></ul><h2>Free Factorials &amp; Unit Digits online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-factorials-and-unit-digits-chapter-tests\"><strong>CAT Quant Factorials &amp; Unit Digits Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Factorials & Unit Digits Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Factorials & Unit Digits",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Find the unit digit of 2².",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2² ends in 4"
+      },
+      {
+        "q": "Find the unit digit of 2³.",
+        "options": [
+          "9",
+          "8",
+          "0",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2³ ends in 8"
+      },
+      {
+        "q": "Find the unit digit of 2⁴.",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁴ ends in 6"
+      },
+      {
+        "q": "Find the unit digit of 2⁵.",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁵ ends in 2"
+      },
+      {
+        "q": "Find the unit digit of 2⁶.",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁶ ends in 4"
+      },
+      {
+        "q": "Find the unit digit of 2⁷.",
+        "options": [
+          "9",
+          "8",
+          "0",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Unit digit cycle of 2: 2,4,8,6; 2⁷ ends in 8"
+      },
+      {
+        "q": "Find the unit digit of 3².",
+        "options": [
+          "0",
+          "1",
+          "9",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3² ends in 9"
+      },
+      {
+        "q": "Find the unit digit of 3³.",
+        "options": [
+          "8",
+          "9",
+          "2",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3³ ends in 7"
+      },
+      {
+        "q": "Find the unit digit of 3⁴.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3⁴ ends in 1"
+      },
+      {
+        "q": "Find the unit digit of 3⁵.",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Unit digit cycle of 3: 3,9,7,1; 3⁵ ends in 3"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many zeros does 100! end with?",
+      "a": "⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24 trailing zeros."
+    },
+    {
+      "q": "How to get the unit digit of a big power?",
+      "a": "Reduce the exponent modulo 4 and read the digit off the base’s cycle."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

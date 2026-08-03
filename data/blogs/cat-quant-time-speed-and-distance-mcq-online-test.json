@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-time-speed-and-distance-mcq-online-test",
+  "title": "CAT Quant Time, Speed & Distance: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Time, Speed & Distance Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Time, Speed & Distance online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Time, Speed & Distance online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-time-speed-and-distance-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-time-speed-and-distance-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Time, Speed &amp; Distance</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Time, Speed &amp; Distance</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Time, Speed &amp; Distance</h2><p>Speed–distance–time, relative speed, trains, boats and streams, races and average speed.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Speed = Distance/Time; x km/h = x·5/18 m/s.</li><li>Two equal distances at u and v: average = 2uv/(u+v) (harmonic mean).</li><li>Relative speed = u−v (same direction), u+v (opposite).</li><li>Boat: downstream b+s, upstream b−s.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Taking the simple mean of two speeds for equal distances (use the harmonic mean).</li><li>Forgetting to add the train’s own length when crossing a platform.</li><li>Sign errors in relative speed.</li></ul><h2>Free Time, Speed &amp; Distance online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-time-speed-and-distance-chapter-tests\"><strong>CAT Quant Time, Speed &amp; Distance Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Time, Speed & Distance Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Time, Speed & Distance",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "A train running at a speed of 72 km/h crosses a pole in 15 seconds. What is the length of the train in meters?",
+        "options": [
+          "250 m",
+          "300 m",
+          "350 m",
+          "200 m"
+        ],
+        "answer": 1,
+        "explanation": "Speed of train = 72 km/h = 72 * (5/18) = 20 m/s. Length of train = Speed * Time = 20 * 15 = 300 meters."
+      },
+      {
+        "q": "A man can row downstream at 12 km/h and upstream at 8 km/h. What is the speed of the current?",
+        "options": [
+          "4 km/h",
+          "10 km/h",
+          "2 km/h",
+          "1 km/h"
+        ],
+        "answer": 2,
+        "explanation": "Speed of current = (Downstream speed - Upstream speed) / 2 = (12 - 8) / 2 = 4 / 2 = 2 km/h."
+      },
+      {
+        "q": "A train 180 meters long is running at a speed of 54 km/h. How much time will it take to cross a platform that is 270 meters long?",
+        "options": [
+          "30 seconds",
+          "25 seconds",
+          "35 seconds",
+          "28 seconds"
+        ],
+        "answer": 0,
+        "explanation": "Speed of train = 54 km/h = 54 * (5/18) = 15 m/s. Total distance to cover = Length of train + Length of platform = 180 + 270 = 450 meters. Time = Distance / Speed = 450 / 15 = 30 seconds."
+      },
+      {
+        "q": "The speed of a boat in still water is 14 km/h and the speed of the current is 4 km/h. What is the time taken by the boat to travel 36 km downstream?",
+        "options": [
+          "1.5 hours",
+          "2.0 hours",
+          "2.5 hours",
+          "1.8 hours"
+        ],
+        "answer": 1,
+        "explanation": "Downstream speed = Speed in still water + Speed of current = 14 + 4 = 18 km/h. Time taken = Distance / Downstream speed = 36 / 18 = 2.0 hours."
+      },
+      {
+        "q": "A traveler covers half of a total distance at 50 km/h and the other half at 75 km/h. What is the average speed of the traveler for the entire journey?",
+        "options": [
+          "62.5 km/h",
+          "58 km/h",
+          "60 km/h",
+          "65 km/h"
+        ],
+        "answer": 2,
+        "explanation": "For equal distances, average speed is the harmonic mean: (2 * s1 * s2) / (s1 + s2) = (2 * 50 * 75) / (50 + 75) = 7500 / 125 = 60 km/h."
+      },
+      {
+        "q": "A train 240 meters long passes a telegraph post in 16 seconds. What is the speed of the train in km/h?",
+        "options": [
+          "48 km/h",
+          "60 km/h",
+          "72 km/h",
+          "54 km/h"
+        ],
+        "answer": 3,
+        "explanation": "Speed in m/s = Length / Time = 240 / 16 = 15 m/s. Convert to km/h by multiplying by 18/5: 15 * (18/5) = 3 * 18 = 54 km/h."
+      },
+      {
+        "q": "A boat can row upstream at 9 km/h and downstream at 15 km/h. What is the speed of the boat in still water?",
+        "options": [
+          "12 km/h",
+          "10 km/h",
+          "11 km/h",
+          "13 km/h"
+        ],
+        "answer": 0,
+        "explanation": "Speed in still water = (Downstream + Upstream) / 2 = (15 + 9) / 2 = 24 / 2 = 12 km/h."
+      },
+      {
+        "q": "A train running at a speed of 90 km/h crosses a pole in 12 seconds. What is the length of the train in meters?",
+        "options": [
+          "250 m",
+          "350 m",
+          "300 m",
+          "200 m"
+        ],
+        "answer": 2,
+        "explanation": "Speed of train = 90 km/h = 90 * (5/18) = 25 m/s. Length of train = Speed * Time = 25 * 12 = 300 meters."
+      },
+      {
+        "q": "A boat rows downstream at 16 km/h and upstream at 10 km/h. What is the speed of the stream?",
+        "options": [
+          "2 km/h",
+          "4 km/h",
+          "5 km/h",
+          "3 km/h"
+        ],
+        "answer": 3,
+        "explanation": "Speed of the stream = (Downstream speed - Upstream speed) / 2 = (16 - 10) / 2 = 6 / 2 = 3 km/h."
+      },
+      {
+        "q": "A train running at a speed of 54 km/h crosses a pole in 20 seconds. What is the length of the train in meters?",
+        "options": [
+          "250 m",
+          "300 m",
+          "350 m",
+          "200 m"
+        ],
+        "answer": 1,
+        "explanation": "Speed of train = 54 km/h = 54 * (5/18) = 15 m/s. Length of train = Speed * Time = 15 * 20 = 300 meters."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the average speed for equal distances?",
+      "a": "The harmonic mean 2uv/(u+v), NOT the arithmetic mean."
+    },
+    {
+      "q": "How long to cross a platform?",
+      "a": "Time = (train length + platform length)/speed; for a pole it is just train length/speed."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

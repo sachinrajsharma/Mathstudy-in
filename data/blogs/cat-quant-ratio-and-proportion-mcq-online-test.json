@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-ratio-and-proportion-mcq-online-test",
+  "title": "CAT Quant Ratio & Proportion: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Ratio & Proportion Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Ratio & Proportion online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Ratio & Proportion online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-ratio-and-proportion-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-ratio-and-proportion-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Ratio &amp; Proportion</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Ratio &amp; Proportion</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Ratio &amp; Proportion</h2><p>Simplifying ratios, proportion, componendo–dividendo, partnership (profit sharing) and mean proportional.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>a:b::c:d ⇒ ad = bc (product of extremes = product of means).</li><li>Mean proportional of a and b is √(ab).</li><li>Componendo–dividendo: a/b = c/d ⇒ (a+b)/(a−b) = (c+d)/(c−d).</li><li>In partnership, profit share ∝ capital × time.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Comparing ratios without bringing them to a common base.</li><li>Forgetting to multiply capital by time in partnership.</li><li>Not simplifying the final ratio.</li></ul><h2>Free Ratio &amp; Proportion online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-ratio-and-proportion-chapter-tests\"><strong>CAT Quant Ratio &amp; Proportion Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Ratio & Proportion Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Ratio & Proportion",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "If a: b = 2: 3, b: c = 4: 5, and c: d = 6: 7, find the continued ratio a: b: c: d.",
+        "options": [
+          "8: 12: 15: 21",
+          "16: 20: 25: 35",
+          "12: 18: 24: 28",
+          "16: 24: 30: 35"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: a:b=2:3, b:c=4:5, c:d=6:7.\nStep 2: Make b common. LCM(3,4)=12. a:b=8:12, b:c=12:15. So a:b:c=8:12:15.\nStep 3: Make c common. LCM(15,6)=30. Multiply a:b:c by 2 → 16:24:30. Multiply c:d by 5 → c:d=30:35.\nAnswer: a:b:c:d = 16:24:30:35."
+      },
+      {
+        "q": "Find the third proportion to 16 and 24.",
+        "options": [
+          "40",
+          "48",
+          "32",
+          "36"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Third proportion x satisfies 16:24 = 24:x.\nStep 2: 16x = 24×24 = 576.\nStep 3: x = 576/16 = 36.\nAnswer: 36."
+      },
+      {
+        "q": "Find the fourth proportion to 4, 9, and 12.",
+        "options": [
+          "36",
+          "21",
+          "24",
+          "27"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Fourth proportion x satisfies 4:9 = 12:x.\nStep 2: 4x = 9×12 = 108.\nStep 3: x = 108/4 = 27.\nAnswer: 27."
+      },
+      {
+        "q": "Find the mean proportion between 27 and 300.",
+        "options": [
+          "80",
+          "90",
+          "100",
+          "120"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Mean proportion x = sqrt(27 × 300).\nStep 2: 27×300 = 8100.\nStep 3: sqrt(8100) = 90.\nAnswer: 90."
+      },
+      {
+        "q": "If x is subtracted from each of the numbers 23, 30, 57, and 78, the resulting numbers are in proportion. What is the value of x ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Set up: (23-x)/(30-x) = (57-x)/(78-x).\nStep 2: Cross-multiply: (23-x)(78-x) = (30-x)(57-x).\nStep 3: Expand: 1794 - 101x + x² = 1710 - 87x + x².\nStep 4: 1794 - 1710 = 101x - 87x → 84 = 14x → x = 6.\nVerify: (23-6)/(30-6) = 17/24. (57-6)/(78-6) = 51/72 = 17/24. ✓\nAnswer: 6."
+      },
+      {
+        "q": "The incomes of A and B are in the ratio 3: 4, and their expenditures are in the ratio 2: 3. If A saves Rs. 4,000 and B saves Rs. 4,000, find the income of B.",
+        "options": [
+          "Rs. 16,000",
+          "Rs. 20,000",
+          "Rs. 8,000",
+          "Rs. 12,000"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Let incomes be 3k and 4k; expenditures be 2m and 3m.\nStep 2: 3k - 2m = 4000, 4k - 3m = 4000.\nStep 3: Multiply first by 3 and second by 2: 9k-6m=12000, 8k-6m=8000. Subtract: k=4000.\nStep 4: Income of B = 4k = 16,000. Verify: exp A = 3×4000-4000=8000, exp B=4×4000-4000=12000. Ratio 8000:12000=2:3. ✓\nAnswer: Rs. 1"
+      },
+      {
+        "q": "A bag contains 50 paise, 25 paise, and 10 paise coins in the ratio 5: 7: 9, amounting to a total of Rs. 103. Find the total number of coins in the bag.",
+        "options": [
+          "450",
+          "360",
+          "400",
+          "420"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Let coins be 5x, 7x, 9x.\nStep 2: Value = 5x(0.50) + 7x(0.25) + 9x(0.10) = 2.5x + 1.75x + 0.9x = 5.15x.\nStep 3: 5.15x = 103 → x = 20.\nStep 4: Total coins = (5+7+9)×20 = 21×20 = 420.\nAnswer: 420."
+      },
+      {
+        "q": "The ages of father and son 10 years ago were in the ratio 3: 1. After 10 years from now, their ages will be in the ratio 5: 3. What is the ratio of their present ages?",
+        "options": [
+          "2: 1",
+          "5: 2",
+          "3: 1",
+          "7: 3"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Let ages 10 years ago be 3x and x.\nStep 2: Present ages: 3x+10 and x+10.\nStep 3: After 10 more years: 3x+20 and x+20.\nStep 4: (3x+20)/(x+20) = 5/3 → 9x+60 = 5x+100 → 4x=40 → x=10.\nStep 5: Present ages: father=40, son=20. Ratio = 40:20 = 2:1.\nAnswer: 2:1."
+      },
+      {
+        "q": "A sum of Rs. 7,800 is divided among A, B, and C such that (1)/(3) of A's share = (1)/(4) of B's share = (1)/(6) of C's share. What is B's share?",
+        "options": [
+          "Rs. 2,600",
+          "Rs. 3,000",
+          "Rs. 1,800",
+          "Rs. 2,400"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Let (1/3)A = (1/4)B = (1/6)C = k. So A=3k, B=4k, C=6k.\nStep 2: Ratio A:B:C = 3:4:6. Total parts = 13.\nStep 3: Rs. 7800 ÷ 13 = Rs. 600 per part.\nStep 4: B's share = 4×600 = Rs. 2,400.\nAnswer: Rs. 2,400."
+      },
+      {
+        "q": "The present ages of three persons are in the ratio 4: 7: 9. Eight years ago, the sum of their ages was 56. Find the present age of the oldest person.",
+        "options": [
+          "48 years",
+          "36 years",
+          "40 years",
+          "45 years"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Let ages be 4x, 7x, 9x.\nStep 2: Eight years ago: (4x-8)+(7x-8)+(9x-8)=56 → 20x-24=56 → x=4.\nStep 3: Oldest = 9×4 = 36 years.\nAnswer: 36 years."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How is partnership profit divided?",
+      "a": "In the ratio of each partner’s capital multiplied by the time it was invested."
+    },
+    {
+      "q": "What is componendo–dividendo used for?",
+      "a": "It quickly simplifies equations of the form (a+b)/(a−b) once you know a/b, saving several algebra steps."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more in the Rs 27 e-book."
+    }
+  ]
+}

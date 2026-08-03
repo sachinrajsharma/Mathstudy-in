@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-logarithms-mcq-online-test",
+  "title": "CAT Quant Logarithms: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Logarithms Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Logarithms online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Logarithms online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-logarithms-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-logarithms-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Logarithms</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Logarithms</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Logarithms</h2><p>The laws of logarithms, change of base, number of digits and log-based equations.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>logₐ(mn) = logₐm + logₐn; logₐ(mᵏ) = k·logₐm.</li><li>Change of base: logₐm = log m / log a.</li><li>a^(logₐm) = m; logₐa = 1, logₐ1 = 0.</li><li>Digits in N = ⌊log₁₀N⌋ + 1.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Writing log(m+n) as logm + logn (only products split).</li><li>Ignoring the domain (arguments &gt; 0, base &gt; 0 and ≠ 1).</li><li>Base-change errors.</li></ul><h2>Free Logarithms online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-logarithms-chapter-tests\"><strong>CAT Quant Logarithms Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Logarithms Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Logarithms",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "The solution set of log_(2x+3)(6x²+23x+21)=4-log_(3x+7)(4x²+12x+9) is",
+        "options": [
+          "\u0001-2,-(1)/(4)\u0002",
+          "\u0001-(1)/(4)\u0002",
+          "\u0001-2\u0002",
+          "none of these"
+        ],
+        "answer": 1,
+        "explanation": "Factoring both quadratics and applying log domain conditions ( 2x+3 0,≠1 etc.) leaves only x=-(1)/(4)."
+      },
+      {
+        "q": "The solution set of log₂(x²-1)=log₁/2(x-1) is",
+        "options": [
+          "(1-√5)/(2)",
+          "(1+√5)/(2)",
+          "(2-√5)/(2)",
+          "(1-√5)/(3)"
+        ],
+        "answer": 1,
+        "explanation": "log₂(x²-1)=-log₂(x-1)⇒(x²-1)(x-1)=1; with x 1 the valid root is (1+√5)/(2)."
+      },
+      {
+        "q": "All real x satisfying 2log₂log₂ x+log₁/2log₂(2√2 x)=1 is/are",
+        "options": [
+          "x=8,2,4",
+          "x=6",
+          "x=8",
+          "x=2"
+        ],
+        "answer": 2,
+        "explanation": "Let t=log₂ x; the equation reduces to (t²)/(t+3/2)=2⇒ t=3 (rejecting the extraneous root), so x=8."
+      },
+      {
+        "q": "The value(s) of x satisfying log₃/4(x²+7)+log₁/2log₁/4(x²+7)⁻¹=-2 is",
+        "options": [
+          "x=±4",
+          "x=±2",
+          "x=±3",
+          "none of these"
+        ],
+        "answer": 2,
+        "explanation": "Simplifying leads to x²+7=16⇒ x=±3."
+      },
+      {
+        "q": "If log_a x,log_b x,log_c x are in A.P. ( x≠1 ), then c² equals",
+        "options": [
+          "(ac)^(log_b a)",
+          "(ab)^(log_a c)",
+          "(ac)^(log_a b)",
+          "none of these"
+        ],
+        "answer": 2,
+        "explanation": "From (2)/(log_b x)=(1)/(log_a x)+(1)/(log_c x) (i.e. 2logₓ b=logₓ a+logₓ c ) one derives c²=(ac)^(log_a b)."
+      },
+      {
+        "q": "If a=log₂₄12, b=log₃₆24, c=log₄₈36, then 1+abc equals",
+        "options": [
+          "2ac",
+          "2bc",
+          "2ab",
+          "none of these"
+        ],
+        "answer": 1,
+        "explanation": "Using change-of-base, 1+abc=2bc."
+      },
+      {
+        "q": "The roots of 2ˣ⁺²·3^(3x/(x-1))=9 are",
+        "options": [
+          "log₂(2)/(3)-2",
+          "3,-3",
+          "-2, 1-(log3)/(log2)",
+          "1-log₂ 3, 2"
+        ],
+        "answer": 2,
+        "explanation": "Taking logs gives a quadratic whose roots are x=-2 and x=1-log₂ 3=1-(log3)/(log2)."
+      },
+      {
+        "q": "If log₅ 2, log₅(2ˣ-5), log₅(2ˣ-(7)/(2)) are in A.P., then x=",
+        "options": [
+          "(1)/(2),(3)/(2)",
+          "3",
+          "2",
+          "(2)/(3),4"
+        ],
+        "answer": 1,
+        "explanation": "(2ˣ-5)²=2(2ˣ-(7)/(2)); with t=2ˣ, t²-12t+32=0⇒ t=8⇒ x=3."
+      },
+      {
+        "q": "If log₂ 3=a, log₃ 5=b, log₇ 2=c, then log₁₄₀63 equals",
+        "options": [
+          "(1+2ac)/(2c+abc+1)",
+          "(1-2ac)/(2c+abc+1)",
+          "(1+2ac)/(2c-abc+1)",
+          "(1+2ac)/(2c+abc-1)"
+        ],
+        "answer": 0,
+        "explanation": "Expressing log₁₄₀63 in terms of a,b,c via change-of-base yields (1+2ac)/(2c+abc+1)."
+      },
+      {
+        "q": "The solution set of logₓ 2·log₂ₓ2=log₄ₓ2 is",
+        "options": [
+          "2^(√2) and 2^(-√2)",
+          "2^(√2),2^(√3)",
+          "(1)/(4),4",
+          "none of these"
+        ],
+        "answer": 0,
+        "explanation": "Letting t=log₂ x gives (1)/(t(t+1))=(1)/(t+2), i.e. t²=2⇒ x=2^(±√2)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Does log(a+b) equal log a + log b?",
+      "a": "No. Only products split: log(ab) = log a + log b. Sums do not simplify."
+    },
+    {
+      "q": "How to count digits of a big power?",
+      "a": "Digits = ⌊log₁₀N⌋ + 1; take log₁₀, use log₁₀2 ≈ 0.301 and log₁₀3 ≈ 0.477."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-sequences-and-series-mcq-online-test",
+  "title": "CAT Quant Sequences & Series: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Sequences & Series Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Sequences & Series online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Sequences & Series online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-sequences-and-series-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-sequences-and-series-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Sequences &amp; Series</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Sequences &amp; Series</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Sequences &amp; Series</h2><p>Arithmetic, geometric and harmonic progressions, sums of series, and the AM ≥ GM ≥ HM relation.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>AP: aₙ = a+(n−1)d, Sₙ = n/2[2a+(n−1)d].</li><li>GP: aₙ = arⁿ⁻¹, Sₙ = a(rⁿ−1)/(r−1); S∞ = a/(1−r) for |r|&lt;1.</li><li>Σn = n(n+1)/2, Σn² = n(n+1)(2n+1)/6.</li><li>For positive numbers, AM ≥ GM ≥ HM.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using the AP sum formula for a GP (or vice versa).</li><li>Applying S∞ when |r| ≥ 1.</li><li>Off-by-one in the number of terms.</li></ul><h2>Free Sequences &amp; Series online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-sequences-and-series-chapter-tests\"><strong>CAT Quant Sequences &amp; Series Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Sequences & Series Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Sequences & Series",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Positive numbers α,β,γ are in A.P. If α x²+2β x+γ=0 and x²+2px+1=0 ( p≠1 ) have a common root, then (α)/(γ), p, (γ)/(α) are in",
+        "options": [
+          "A.P.",
+          "G.P.",
+          "H.P.",
+          "none of these"
+        ],
+        "answer": 0,
+        "explanation": "Since 2β=α+γ, the first equation factors with root x=-1 (rejected as p≠1 ) and x=-γ/α. Using the common root in the second gives 2p=(α)/(γ)+(γ)/(α), i.e. p is the mean — so (α)/(γ),p,(γ)/(α) are in A.P."
+      },
+      {
+        "q": "Let α,β be the roots of x²-x+p=0 and γ,δ the roots of x²-4x+q=0. If α,β,γ,δ are in G.P., then the integral values of p and q respectively are",
+        "options": [
+          "-2, -32",
+          "-2, 3",
+          "-6, 3",
+          "-6, -32"
+        ],
+        "answer": 0,
+        "explanation": "Let the G.P. be A,AR,AR²,AR³. From A(1+R)=1 and AR²(1+R)=4, R²=4. Taking R=-2 (integral p,q ) gives A=-1, p=A²R=-2, q=A²R⁵=-32."
+      },
+      {
+        "q": "The sum 1²+2·2²+3²+2·4²+5²+2·6²+·s for even n is (n(n+1)²)/(2). For odd n it is",
+        "options": [
+          "(n(n+1))/(2)",
+          "(n²(n+1))/(2)",
+          "(n²(n-1))/(2)",
+          "(n(n+1))/(2(n-1))"
+        ],
+        "answer": 1,
+        "explanation": "Replacing the even- n formula by the odd-count adjustment gives the standard result (n²(n+1))/(2) for odd n."
+      },
+      {
+        "q": "The sum of the first 20 terms of the sequence 0.7, 0.77, 0.777,… is",
+        "options": [
+          "(7)/(81)(179-10⁻²⁰)",
+          "(7)/(9)(99-10⁻²⁰)",
+          "(7)/(81)(179+10⁻²⁰)",
+          "(7)/(9)(99+10⁻²⁰)"
+        ],
+        "answer": 2,
+        "explanation": "Each term =(7)/(9)(1-10^(-k)). Summing k=1..20: (7)/(9)big[20-(1)/(9)(1-10⁻²⁰)big]=(7)/(81)(179+10⁻²⁰)."
+      },
+      {
+        "q": "The sum of the first 2n terms of an A.P. is x and the sum of the next n terms is y. Its common difference is",
+        "options": [
+          "(x-2y)/(3n²)",
+          "(2y-x)/(3n²)",
+          "(x-2y)/(3n)",
+          "(2y-x)/(3n)"
+        ],
+        "answer": 1,
+        "explanation": "S₂ₙ=x and S₃ₙ=x+y. Subtracting the averaged forms: 2a+(2n-1)d=x/n and 2a+(3n-1)d=2(x+y)/(3n). The difference gives nd=(2y-x)/(3n), so d=(2y-x)/(3n²)."
+      },
+      {
+        "q": "If 1+k+k²+·s+kˣ=(1+k)(1+k²)(1+k⁴)(1+k⁸)(1+k¹⁶), then x=",
+        "options": [
+          "15",
+          "16",
+          "32",
+          "31"
+        ],
+        "answer": 3,
+        "explanation": "The RHS telescopes: (1+k)(1+k²)·s(1+k¹⁶)=(k³²-1)/(k-1)=1+k+·s+k³¹. So x=31."
+      },
+      {
+        "q": "If consecutive numbers a,b,c,d are in A.P., then abc, abd, acd, bcd are in",
+        "options": [
+          "none of A.P./G.P./H.P.",
+          "A.P.",
+          "G.P.",
+          "H.P."
+        ],
+        "answer": 3,
+        "explanation": "Dividing each by abcd gives (1)/(d),(1)/(c),(1)/(b),(1)/(a). Since a,b,c,d are in A.P., these reciprocals are in A.P. too, so the original numbers (their reciprocals scaled) are in H.P."
+      },
+      {
+        "q": "If the roots of x³+bx²+cx+d=0 are in A.P., then b,c,d satisfy",
+        "options": [
+          "2b²-27d=9bc",
+          "2b³-27d=9bc",
+          "2b²+27d=9bc",
+          "2b³+27d=9bc"
+        ],
+        "answer": 3,
+        "explanation": "Let roots be p-q,p,p+q; then 3p=-b⇒ p=-b/3, and p is a root, so p³+bp²+cp+d=0. Substituting gives 2b³+27d=9bc."
+      },
+      {
+        "q": "An A.P. has 2n terms. The sum of terms in even positions is P and in odd positions is Q. The n th term of the A.P. is",
+        "options": [
+          "(P)/(n)",
+          "(Q)/(n)",
+          "(P+Q)/(2n)",
+          "none of these"
+        ],
+        "answer": 1,
+        "explanation": "The n odd-position terms a₁,a₃,…,a₂ₙ₋₁ have average aₙ (mean of first and last), so Q=n aₙ⇒ aₙ=Q/n."
+      },
+      {
+        "q": "The numbers log_b a, 1+log_b a, 2+log_b a+log_a b are in",
+        "options": [
+          "A.P.",
+          "G.P.",
+          "H.P.",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "Let t=log_b a. The terms are t, 1+t, 2+t+(1)/(t). Then (1+t)²=1+2t+t²=t(2+t+(1)/(t)), the G.P. condition, so they are in G.P."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When does an infinite GP have a finite sum?",
+      "a": "Only when |r| < 1; then S∞ = a/(1−r)."
+    },
+    {
+      "q": "What is the AM–GM–HM order?",
+      "a": "For positive numbers, AM ≥ GM ≥ HM, with equality when all the numbers are equal."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-lines-angles-and-triangles-mcq-online-test",
+  "title": "CAT Quant Lines, Angles & Triangles: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Lines, Angles & Triangles Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Lines, Angles & Triangles online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Lines, Angles & Triangles online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-lines-angles-and-triangles-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-lines-angles-and-triangles-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Lines, Angles &amp; Triangles</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Lines, Angles &amp; Triangles</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Lines, Angles &amp; Triangles</h2><p>Angle relationships, triangle properties, congruence and similarity, the Pythagoras theorem and area.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Angle sum of a triangle = 180°; exterior angle = sum of remote interior angles.</li><li>Pythagoras: hypotenuse² = base² + height².</li><li>Similar triangles: sides in proportion, areas in the square of that ratio.</li><li>Congruence tests: SSS, SAS, ASA, RHS.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using the side ratio (not its square) for areas of similar triangles.</li><li>Assuming similarity without a valid AA/SSS/SAS criterion.</li><li>Mislabelling the exterior angle.</li></ul><h2>Free Lines, Angles &amp; Triangles online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-lines-angles-and-triangles-chapter-tests\"><strong>CAT Quant Lines, Angles &amp; Triangles Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Lines, Angles & Triangles Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Lines, Angles & Triangles",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Two angles are complementary. If one angle measures 35°, what is the measure of the other angle?",
+        "options": [
+          "55°",
+          "45°",
+          "65°",
+          "75°"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Complementary angles sum to 90°.\nStep 2: Other angle = 90° - 35° = 55°.\nAnswer: 55°"
+      },
+      {
+        "q": "Two angles are supplementary. If one angle measures 110°, what is the other angle?",
+        "options": [
+          "60°",
+          "70°",
+          "80°",
+          "90°"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Supplementary angles sum to 180°.\nStep 2: Other angle = 180° - 110° = 70°.\nAnswer: 70°"
+      },
+      {
+        "q": "In triangle ABC, angle A = 65° and angle B = 75°. What is the measure of angle C?",
+        "options": [
+          "30°",
+          "35°",
+          "40°",
+          "45°"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: Angle sum property: A + B + C = 180°.\nStep 2: 65° + 75° + C = 180°.\nStep 3: C = 180° - 140° = 40°.\nAnswer: 40°"
+      },
+      {
+        "q": "Two straight lines intersect at a point. One of the four angles formed measures 72°. What is the measure of the vertically opposite angle?",
+        "options": [
+          "108°",
+          "18°",
+          "36°",
+          "72°"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: Vertically opposite angles are formed when two lines intersect.\nStep 2: Vertically opposite angles are always equal.\nStep 3: The vertically opposite angle also measures 72°.\nAnswer: 72°"
+      },
+      {
+        "q": "The exterior angle of a triangle is 115°. One of the two non-adjacent interior angles is 50°. Find the other non-adjacent interior angle.",
+        "options": [
+          "65°",
+          "55°",
+          "70°",
+          "45°"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Exterior angle theorem: exterior angle = sum of two non-adjacent interior angles.\nStep 2: 115° = 50° + x.\nStep 3: x = 115° - 50° = 65°.\nAnswer: 65°"
+      },
+      {
+        "q": "Two parallel lines are cut by a transversal. If one alternate interior angle measures 48°, what is the other alternate interior angle?",
+        "options": [
+          "132°",
+          "48°",
+          "42°",
+          "90°"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: When parallel lines are cut by a transversal, alternate interior angles are equal.\nStep 2: The other alternate interior angle = 48°.\nAnswer: 48°"
+      },
+      {
+        "q": "What is the measure of each interior angle of an equilateral triangle?",
+        "options": [
+          "45°",
+          "50°",
+          "60°",
+          "90°"
+        ],
+        "answer": 2,
+        "explanation": "Step 1: An equilateral triangle has all three sides equal and all three angles equal.\nStep 2: Sum of angles = 180°, so each angle = 180° / 3 = 60°.\nAnswer: 60°"
+      },
+      {
+        "q": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) is 40°. What is each base angle?",
+        "options": [
+          "140°",
+          "100°",
+          "60°",
+          "70°"
+        ],
+        "answer": 3,
+        "explanation": "Step 1: In an isosceles triangle, the two base angles are equal.\nStep 2: Sum of all angles = 180°. Let each base angle = x.\nStep 3: 40° + 2x = 180° → 2x = 140° → x = 70°.\nAnswer: 70°"
+      },
+      {
+        "q": "A right triangle has legs of length 3 cm and 4 cm. What is the length of the hypotenuse?",
+        "options": [
+          "5 cm",
+          "6 cm",
+          "7 cm",
+          "8 cm"
+        ],
+        "answer": 0,
+        "explanation": "Step 1: Apply Pythagoras theorem: hypotenuse² = 3² + 4² = 9 + 16 = 25.\nStep 2: Hypotenuse = √25 = 5 cm.\nAnswer: 5 cm"
+      },
+      {
+        "q": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm. What is the length of the other leg?",
+        "options": [
+          "10 cm",
+          "12 cm",
+          "11 cm",
+          "8 cm"
+        ],
+        "answer": 1,
+        "explanation": "Step 1: Pythagoras theorem: leg² + 5² = 13².\nStep 2: leg² = 169 - 25 = 144.\nStep 3: leg = √144 = 12 cm.\nAnswer: 12 cm"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do areas of similar triangles compare?",
+      "a": "As the square of the ratio of corresponding sides — if sides are 2:3, areas are 4:9."
+    },
+    {
+      "q": "What are the congruence criteria?",
+      "a": "SSS, SAS, ASA (and AAS), and RHS for right triangles."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}

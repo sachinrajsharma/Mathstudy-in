@@ -1,0 +1,145 @@
+{
+  "slug": "cat-quant-quadrilaterals-mcq-online-test",
+  "title": "CAT Quant Quadrilaterals: Free Online Test + Practice MCQs",
+  "meta_title": "CAT Quadrilaterals Online Test (Free MCQs)",
+  "meta_desc": "Free CAT Quant Quadrilaterals online test: 10 MCQs with answers and explanations, key formulas, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Quadrilaterals online test for CAT Quant — with instant scoring, full explanations, key formulas and 150 more practice MCQs.",
+  "category": "CAT Quant",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/cat-quant-quadrilaterals-chapter-tests.jpg",
+  "cta_product_slug": "cat-quant-quadrilaterals-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Quadrilaterals</strong> chapter is a high-yield part of the CAT Quantitative Aptitude section, and a favourite in XAT, SNAP, NMAT and CMAT too. This guide explains what <strong>CAT Quadrilaterals</strong> tests, the formulas and shortcuts worth memorising, the mistakes that cost marks, and a <strong>free 10-question online test</strong> you can take right now.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CAT asks on Quadrilaterals</h2><p>Properties and areas of rectangle, square, parallelogram, rhombus and trapezium, and their diagonals.</p><h2>Key formulas &amp; shortcuts</h2><ul><li>Parallelogram area = base × height; rhombus area = ½·d₁·d₂.</li><li>Trapezium area = ½(a+b)·h.</li><li>A square’s diagonals are equal and bisect at 90°.</li><li>Angle sum of any quadrilateral = 360°.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using side × side for a rhombus instead of ½·d₁·d₂.</li><li>Confusing the properties of a rhombus and a rectangle.</li><li>Forgetting the 360° angle sum.</li></ul><h2>Free Quadrilaterals online test</h2><p>The 10-question quiz below is CAT-pattern with instant scoring and a full explanation for every answer. Aim for 8/10 before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/cat-quant-quadrilaterals-chapter-tests\"><strong>CAT Quant Quadrilaterals Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>Rs 27</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/cat/quant\" target=\"_blank\" rel=\"noopener\">CAT Quantitative Aptitude course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CAT Quadrilaterals Practice Quiz",
+    "intro": "Ten CAT-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CAT Quant: Quadrilaterals",
+    "level": "CAT",
+    "questions": [
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 5 cm.",
+        "options": [
+          "40 cm²",
+          "26 cm²",
+          "13 cm²",
+          "48 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Area = 8×5 = 40 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 6 cm.",
+        "options": [
+          "28 cm²",
+          "48 cm²",
+          "14 cm²",
+          "56 cm²"
+        ],
+        "answer": 1,
+        "explanation": "Area = 8×6 = 48 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 7 cm.",
+        "options": [
+          "30 cm²",
+          "15 cm²",
+          "56 cm²",
+          "64 cm²"
+        ],
+        "answer": 2,
+        "explanation": "Area = 8×7 = 56 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 9 cm.",
+        "options": [
+          "34 cm²",
+          "17 cm²",
+          "80 cm²",
+          "72 cm²"
+        ],
+        "answer": 3,
+        "explanation": "Area = 8×9 = 72 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 11 cm.",
+        "options": [
+          "88 cm²",
+          "38 cm²",
+          "19 cm²",
+          "96 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Area = 8×11 = 88 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 8 cm and breadth 14 cm.",
+        "options": [
+          "44 cm²",
+          "112 cm²",
+          "22 cm²",
+          "120 cm²"
+        ],
+        "answer": 1,
+        "explanation": "Area = 8×14 = 112 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 10 cm and breadth 5 cm.",
+        "options": [
+          "30 cm²",
+          "15 cm²",
+          "50 cm²",
+          "60 cm²"
+        ],
+        "answer": 2,
+        "explanation": "Area = 10×5 = 50 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 10 cm and breadth 6 cm.",
+        "options": [
+          "32 cm²",
+          "16 cm²",
+          "70 cm²",
+          "60 cm²"
+        ],
+        "answer": 3,
+        "explanation": "Area = 10×6 = 60 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 10 cm and breadth 7 cm.",
+        "options": [
+          "70 cm²",
+          "34 cm²",
+          "17 cm²",
+          "80 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Area = 10×7 = 70 cm²"
+      },
+      {
+        "q": "Find the area of a rectangle with length 10 cm and breadth 9 cm.",
+        "options": [
+          "38 cm²",
+          "90 cm²",
+          "19 cm²",
+          "100 cm²"
+        ],
+        "answer": 1,
+        "explanation": "Area = 10×9 = 90 cm²"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find the area of a rhombus?",
+      "a": "Half the product of its diagonals: ½·d₁·d₂."
+    },
+    {
+      "q": "How do a rhombus and a rectangle differ?",
+      "a": "A rhombus has all sides equal and diagonals meeting at 90°; a rectangle has equal diagonals and all right angles."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes — 10 free MCQs; 150 more for Rs 27."
+    }
+  ]
+}
