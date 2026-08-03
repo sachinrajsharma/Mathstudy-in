@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-practice-test-online-free",
+  "title": "CTET Paper 2 Maths Practice Test: Free Online Mock (10 MCQs)",
+  "meta_title": "CTET Paper 2 Maths Practice Test (Free Online)",
+  "meta_desc": "Free CTET Paper 2 Maths practice test: 10 mixed MCQs with answers and explanations, plus 900 more questions across 30 full practice papers.",
+  "excerpt": "A free 10-question mixed online test for CTET Paper II Maths — instant scoring, full explanations and a path to 30 complete practice papers.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-30-practice-papers.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-30-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>30 Practice Papers</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET 30 Practice Papers</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on 30 Practice Papers</h2><p>These full-length papers mix questions from every CTET Paper II Maths chapter — number system, operations, fractions, algebra, exponents, ratio, geometry, mensuration and data handling — exactly like the real exam.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>CTET Paper II Mathematics &amp; Science has 60 questions; the maths portion rewards speed and accuracy.</li><li>Attempt full papers under time to build exam stamina.</li><li>Review every wrong answer and note the concept, not just the option.</li><li>Balance content questions with pedagogy questions in your revision.</li><li>Regular mock tests are the single best predictor of your real score.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Practising chapter by chapter only and never sitting a full mixed paper.</li><li>Skipping the review step after a mock test.</li><li>Ignoring time management until the exam day.</li></ul><h2>Free 30 Practice Papers online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for the real thing? The <a href=\"/shop/product/ctet-paper-2-maths-30-practice-papers\"><strong>CTET Paper 2 Maths 30 Practice Papers</strong> e-book</a> gives you <strong>30 full papers — 900 MCQs</strong> balanced across every chapter, each with an answer key and step-by-step solutions, for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Paper 2 Maths Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: 30 Practice Papers",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "What is the difference between the place value and the face value of the digit 7 in the number 7,85,632?",
+        "options": [
+          "6,99,993",
+          "6,99,930",
+          "7,00,000",
+          "7,85,625"
+        ],
+        "answer": 0,
+        "explanation": "Place value of 7 in 7,85,632 = 7 × 1,00,000 = 7,00,000. Face value of 7 = 7. Difference = 7,00,000 - 7 = 6,99,993."
+      },
+      {
+        "q": "Which of the following is the smallest whole number?",
+        "options": [
+          "-1",
+          "2",
+          "0",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "Whole numbers start from 0 and include all natural numbers. Hence, 0 is the smallest whole number."
+      },
+      {
+        "q": "What is the sum of the predecessor of -15 and the successor of -8?",
+        "options": [
+          "-23",
+          "-22",
+          "-21",
+          "-24"
+        ],
+        "answer": 0,
+        "explanation": "The predecessor of -15 is -15 - 1 = -16. The successor of -8 is -8 + 1 = -7. Their sum is (-16) + (-7) = -23."
+      },
+      {
+        "q": "What is the value of (2^(-1) + 3^(-1))^(-1)?",
+        "options": [
+          "5",
+          "1",
+          "6/5",
+          "5/6"
+        ],
+        "answer": 2,
+        "explanation": "We know that 2^(-1) = 1/2 and 3^(-1) = 1/3. Therefore, 2^(-1) + 3^(-1) = 1/2 + 1/3 = (3+2)/6 = 5/6. Taking the inverse of this sum, we get (5/6)^(-1) = 6/5."
+      },
+      {
+        "q": "If A : B = 3 : 4 and B : C = 8 : 9, then A : C is equal to:",
+        "options": [
+          "1: 2",
+          "1: 3",
+          "3: 2",
+          "2: 3"
+        ],
+        "answer": 3,
+        "explanation": "Given A : B = 3 : 4 and B : C = 8 : 9. To find A : C, we can multiply the two ratios: (A / B) × (B / C) = (3 / 4) × (8 / 9) = 24 / 36 = 2 / 3. Therefore, A : C = 2 : 3."
+      },
+      {
+        "q": "An angle whose measure is greater than that of a right angle and less than a straight angle is called a:",
+        "options": [
+          "Obtuse angle",
+          "Acute angle",
+          "Straight angle",
+          "Reflex angle"
+        ],
+        "answer": 0,
+        "explanation": "An angle greater than 90 degrees (right angle) and less than 180 degrees (straight angle) is defined as an obtuse angle."
+      },
+      {
+        "q": "A shape has reflection symmetry if it can be divided into two identical halves by a line. Which of the following shapes does NOT have reflection symmetry?",
+        "options": [
+          "Parallelogram",
+          "Equilateral Triangle",
+          "Rectangle",
+          "Circle"
+        ],
+        "answer": 0,
+        "explanation": "A general parallelogram (one that is not a rectangle or a rhombus) cannot be folded along any line so that the two halves match — it has no reflection symmetry at all. The equilateral triangle, rectangle, and circle all have at least one line of symmetry."
+      },
+      {
+        "q": "Which of the following instruments is most appropriate to draw a line segment of a given definite length accurately?",
+        "options": [
+          "Divider",
+          "Set-squares only",
+          "Ruler and Compass",
+          "Protractor"
+        ],
+        "answer": 2,
+        "explanation": "To draw a line segment of a given definite length accurately, a ruler (to measure the length) and a compass (to mark off the exact radius/length) are used together."
+      },
+      {
+        "q": "If the side of a regular hexagon is doubled, how many times does its perimeter become?",
+        "options": [
+          "6 times",
+          "2 times",
+          "8 times",
+          "4 times"
+        ],
+        "answer": 1,
+        "explanation": "The perimeter of a regular hexagon with side length s is given by P = 6s. If the side is doubled to 2s, the new perimeter is P' = 6(2s) = 2(6s) = 2P. Thus, the perimeter becomes 2 times the original."
+      },
+      {
+        "q": "The mean of the first five prime numbers is:",
+        "options": [
+          "5.0",
+          "5.6",
+          "7.2",
+          "4.8"
+        ],
+        "answer": 1,
+        "explanation": "The first five prime numbers are 2, 3, 5, 7, and 11. Their sum = 2 + 3 + 5 + 7 + 11 = 28. The mean = 28 / 5 = 5.6."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How should I use these practice papers?",
+      "a": "Sit one paper at a time under timed conditions, score it with the answer key, then study the step-by-step solutions for every question you missed."
+    },
+    {
+      "q": "Are the questions balanced across chapters?",
+      "a": "Yes. Every paper draws from all 14 CTET Paper II Maths chapters, just like the actual exam."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — a free 10-question mixed test is below. The full set of 30 papers (900 MCQs) is in the ₹23 e-book."
+    }
+  ]
+}

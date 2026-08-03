@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-geometrical-constructions-mcq-online-test",
+  "title": "CTET Paper 2 Maths Geometrical Constructions: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Geometrical Constructions MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Geometrical Constructions online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice…",
+  "excerpt": "A free 10-question Geometrical Constructions online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-geometrical-constructions-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-geometrical-constructions-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Geometrical Constructions</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Geometrical Constructions</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Geometrical Constructions</h2><p>Questions test ruler-and-compass constructions — copying a segment, perpendicular bisectors, angle bisectors, and constructing standard angles such as 60°, 90°, 30° and 45°.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>Standard constructions use only an ungraduated ruler and a pair of compasses (no protractor).</li><li>The perpendicular bisector of a segment passes through its midpoint at 90°.</li><li>Every point on the perpendicular bisector is equidistant from the two endpoints.</li><li>An angle bisector divides an angle into two equal parts.</li><li>Bisecting 60° gives 30°; bisecting 90° gives 45°; 120° = 60° + 60°.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using a protractor where a compass construction is required.</li><li>Changing the compass radius midway through a bisector construction.</li><li>Confusing the perpendicular bisector with the angle bisector.</li></ul><h2>Free Geometrical Constructions online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-geometrical-constructions-chapter-tests\"><strong>CTET Paper 2 Maths Geometrical Constructions Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Geometrical Constructions Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Geometrical Constructions",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "Which of the following instruments is most appropriate to draw a line segment of a given definite length accurately?",
+        "options": [
+          "Divider",
+          "Set-squares only",
+          "Ruler and Compass",
+          "Protractor"
+        ],
+        "answer": 2,
+        "explanation": "To draw a line segment of a given definite length accurately, a ruler (to measure the length) and a compass (to mark off the exact radius/length) are used together."
+      },
+      {
+        "q": "An angle of 15° can be constructed by bisecting which of the following standard angles?",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°"
+        ],
+        "answer": 0,
+        "explanation": "An angle of 15° is half of 30°. Therefore, it is constructed by bisecting a 30° angle (which in turn is half of 60°)."
+      },
+      {
+        "q": "It is possible to construct a unique triangle \\triangle ABC if which of the following measurements are given?",
+        "options": [
+          "Three sides whose sum is less than the third side",
+          "All three angles are given",
+          "Two angles and no side is given",
+          "Two sides and the included angle are given"
+        ],
+        "answer": 3,
+        "explanation": "A unique triangle can be constructed using the SAS (Side-Angle-Side) criterion, where two sides and the included angle are given. Three angles only give similar triangles of various sizes, and the sum of two sides must be greater than the third side."
+      },
+      {
+        "q": "In the construction of the perpendicular bisector of a line segment AB, the radius of the compass taken while drawing arcs from points A and B should be:",
+        "options": [
+          "Equal to half the length of AB",
+          "Less than half the length of AB",
+          "Equal to the full length of AB",
+          "More than half the length of AB"
+        ],
+        "answer": 3,
+        "explanation": "To ensure that the arcs drawn from endpoints A and B intersect each other above and below the line segment, the radius of the compass must be set to more than half the length of AB."
+      },
+      {
+        "q": "Which of the following sets of side lengths can be used to construct a unique triangle?",
+        "options": [
+          "1 cm, 2 cm, 3 cm",
+          "2 cm, 3 cm, 6 cm",
+          "4 cm, 4 cm, 9 cm",
+          "3 cm, 4 cm, 5 cm"
+        ],
+        "answer": 3,
+        "explanation": "According to the triangle inequality theorem, the sum of any two sides must be strictly greater than the third side. For 3 cm, 4 cm, 5 cm: 3 + 4 = 7 > 5, 3 + 5 = 8 > 4, 4 + 5 = 9 > 3 — all conditions hold, so a unique triangle can be constructed. For the other sets, the sum of the two smaller sides is either less than "
+      },
+      {
+        "q": "Which of the following angles CANNOT be constructed using a ruler and a compass alone?",
+        "options": [
+          "135°",
+          "75°",
+          "105°",
+          "40°"
+        ],
+        "answer": 3,
+        "explanation": "Standard ruler and compass constructions allow angles that are multiples of 15° (such as 15°, 30°, 45°, 60°, 75°, 90°, 105°, 120°, 135°, 150°, 180°). An angle of 40° requires a protractor because it cannot be obtained by standard bisections or combinations of 60° and 90°."
+      },
+      {
+        "q": "Which angle can be constructed directly by drawing an arc and intersecting it successively with the same compass radius from the starting point on a circle/arc?",
+        "options": [
+          "120°",
+          "60°",
+          "45°",
+          "90°"
+        ],
+        "answer": 1,
+        "explanation": "The first intersection of an arc with the same radius along a circular arc from the base line creates an equilateral triangle geometry, which corresponds to an angle of 60°."
+      },
+      {
+        "q": "To construct a line parallel to a given line using a ruler and compass, which of the following pairs of constructed angles are typically made equal?",
+        "options": [
+          "Supplementary angles",
+          "Complementary angles",
+          "Vertically opposite angles",
+          "Alternate interior angles or corresponding angles"
+        ],
+        "answer": 3,
+        "explanation": "Constructing parallel lines relies on the foundational Euclidean postulates where either corresponding angles or alternate interior angles are constructed equal across a transversal."
+      },
+      {
+        "q": "If an angle of 90° is bisected twice successively, what is the measure of the final resulting angle?",
+        "options": [
+          "45°",
+          "22.5°",
+          "30°",
+          "15°"
+        ],
+        "answer": 1,
+        "explanation": "Bisecting 90° once gives 45°. Bisecting 45° a second time gives 45° / 2 = 22.5° (or 221/2°)."
+      },
+      {
+        "q": "To construct an angle of 135°, which of the following combinations of angles can be used?",
+        "options": [
+          "100° + 35°",
+          "120° + 15°",
+          "60° + 75°",
+          "90° + 45°"
+        ],
+        "answer": 3,
+        "explanation": "135° can be constructed by adding 45° to a 90° angle (since 90° + 45° = 135°). Alternatively, it is half of 270°, or 180° - 45°."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Which angles can be constructed with just a compass and ruler?",
+      "a": "60°, 90° and 120° directly, and by bisection 30°, 45°, 15°, 135° and more."
+    },
+    {
+      "q": "What is special about the perpendicular bisector?",
+      "a": "Every point on it is the same distance from both endpoints of the segment, and it cuts the segment at its midpoint at a right angle."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — 10 free questions with explanations, plus 150 more in the ₹23 e-book."
+    }
+  ]
+}

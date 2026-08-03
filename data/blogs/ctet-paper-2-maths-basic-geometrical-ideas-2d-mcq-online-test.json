@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-basic-geometrical-ideas-2d-mcq-online-test",
+  "title": "CTET Paper 2 Maths Basic Geometrical Ideas (2-D): Free Online Test + Practice MCQs",
+  "meta_title": "CTET Basic Geometrical MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Basic Geometrical Ideas (2-D) online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice…",
+  "excerpt": "A free 10-question Basic Geometrical Ideas (2-D) online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-basic-geometrical-ideas-2d-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-basic-geometrical-ideas-2d-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Basic Geometrical Ideas (2-D)</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Basic Geometrical Ideas (2-D)</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Basic Geometrical Ideas (2-D)</h2><p>Questions test the building blocks of geometry — points, lines, line segments, rays, angles — and the terms for polygons and circles (vertex, side, diagonal, radius, diameter, chord).</p><h2>Key facts &amp; formulas to remember</h2><ul><li>A line extends endlessly both ways; a ray has one endpoint; a segment has two.</li><li>Intersecting lines meet at a point; parallel lines never meet.</li><li>A polygon is a simple closed figure made of line segments.</li><li>A diagonal joins two non-adjacent vertices of a polygon.</li><li>In a circle: radius = centre to edge, diameter = 2 × radius, chord = any segment joining two points on the circle.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Confusing a line, a ray and a line segment.</li><li>Calling any closed curve a polygon (a polygon has straight sides only).</li><li>Mixing up chord, diameter and radius.</li></ul><h2>Free Basic Geometrical Ideas (2-D) online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-basic-geometrical-ideas-2d-chapter-tests\"><strong>CTET Paper 2 Maths Basic Geometrical Ideas (2-D) Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Basic Geometrical Ideas (2-D) Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Basic Geometrical Ideas (2-D)",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "How many lines can pass through a given single fixed point in a plane?",
+        "options": [
+          "Only one",
+          "Zero",
+          "Infinite",
+          "Exactly two"
+        ],
+        "answer": 2,
+        "explanation": "An infinite number of lines can be drawn passing through a single given point in a plane, as rotation around that point creates countless trajectories."
+      },
+      {
+        "q": "Which of the following 2-D geometric figures has a starting point but no end point, extending endlessly in one direction?",
+        "options": [
+          "Polygon",
+          "Line segment",
+          "Line",
+          "Ray"
+        ],
+        "answer": 3,
+        "explanation": "A ray is a portion of a line that starts at a fixed point (origin) and goes on endlessly in one direction."
+      },
+      {
+        "q": "If three or more points lie on the same straight line, what are they called?",
+        "options": [
+          "Collinear points",
+          "Non-coplanar points",
+          "Concurrent points",
+          "Intersecting points"
+        ],
+        "answer": 0,
+        "explanation": "Points that lie on the same single straight line are termed collinear points. If they do not lie on the same line, they are non-collinear."
+      },
+      {
+        "q": "What is the minimum number of line segments required to form a closed polygon?",
+        "options": [
+          "Two",
+          "Four",
+          "Three",
+          "Five"
+        ],
+        "answer": 2,
+        "explanation": "A polygon is a simple closed curve made up entirely of line segments. The simplest and polygon with the minimum number of sides is a triangle, which requires three line segments."
+      },
+      {
+        "q": "Which of the following differentiates a regular polygon from an irregular polygon?",
+        "options": [
+          "A regular polygon is equilateral and equiangular.",
+          "An irregular polygon cannot be a closed curve.",
+          "An irregular polygon always has curved boundaries.",
+          "A regular polygon must have an even number of sides."
+        ],
+        "answer": 0,
+        "explanation": "A regular polygon is defined as a polygon in which all sides are equal in length (equilateral) and all interior angles are equal in measure (equiangular)."
+      },
+      {
+        "q": "Consider a polygon with 7 sides (heptagon). What is the total number of diagonals that can be drawn inside this polygon?",
+        "options": [
+          "35",
+          "28",
+          "21",
+          "14"
+        ],
+        "answer": 3,
+        "explanation": "The number of diagonals in an n-sided polygon is given by the formula n(n-3)/2. For n = 7: 7(7-3)/2 = (7 imes 4)/2 = 14."
+      },
+      {
+        "q": "If four distinct lines are drawn in a plane, what is the maximum possible number of points of intersection between them?",
+        "options": [
+          "8",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "The maximum number of intersection points for n lines in a plane is given by n(n-1)/2. For 4 lines: 4 imes 3 / 2 = 6 points."
+      },
+      {
+        "q": "Which of the following represents an open curve?",
+        "options": [
+          "A circle",
+          "A triangle",
+          "A rectangle",
+          "The letter 'S' drawn in standard font"
+        ],
+        "answer": 3,
+        "explanation": "An open curve is one that does not enclose an area and has two distinct endpoints (like the letter 'S'). Circles, triangles, and rectangles are closed curves."
+      },
+      {
+        "q": "What is the interior region of a closed curve combined with its boundary known as?",
+        "options": [
+          "The region (or interior plus boundary)",
+          "Only the boundary",
+          "An open set",
+          "The exterior region"
+        ],
+        "answer": 0,
+        "explanation": "In geometry, the interior of a curve together with its boundary forms the closed region bounded by the curve."
+      },
+      {
+        "q": "In a convex polygon, the sum of all interior angles is 1080^\\^c^i^r^c. How many sides does this polygon have?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "The sum of interior angles of an n-sided polygon is (n-2) imes 180^\\^c^i^r^c. Given (n-2) imes 180^\\^c^i^r^c = 1080^\\^c^i^r^c, dividing by 180 gives n-2 = 6, so n = 8 (an octagon)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between a line and a line segment?",
+      "a": "A line has no endpoints and extends forever in both directions; a line segment is a part of a line with two definite endpoints."
+    },
+    {
+      "q": "Is a circle a polygon?",
+      "a": "No. A polygon is bounded by straight line segments; a circle has a curved boundary."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes, 10 free MCQs with explanations; the e-book adds 150 more for ₹23."
+    }
+  ]
+}

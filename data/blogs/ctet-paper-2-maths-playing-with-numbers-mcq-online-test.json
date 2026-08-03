@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-playing-with-numbers-mcq-online-test",
+  "title": "CTET Paper 2 Maths Playing with Numbers: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Playing with Numbers MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Playing with Numbers online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Playing with Numbers online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-playing-with-numbers-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-playing-with-numbers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Playing with Numbers</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Playing with Numbers</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Playing with Numbers</h2><p>Questions focus on factors and multiples, prime and composite numbers, divisibility rules, prime factorisation, and finding HCF and LCM. Divisibility and HCF/LCM word problems are the most common.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>1 is a factor of every number and is neither prime nor composite; 2 is the only even prime.</li><li>Divisibility: by 3 if the digit sum is divisible by 3; by 9 if the digit sum is divisible by 9.</li><li>By 11 if the difference of alternate digit sums is 0 or a multiple of 11.</li><li>HCF × LCM = product of the two numbers.</li><li>Co-prime numbers have HCF = 1 (e.g. 8 and 15).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Calling 1 a prime number.</li><li>Mixing up HCF (greatest common factor) with LCM (least common multiple).</li><li>Forgetting that a number is a multiple of itself and of 1.</li></ul><h2>Free Playing with Numbers online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-playing-with-numbers-chapter-tests\"><strong>CTET Paper 2 Maths Playing with Numbers Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Playing with Numbers Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Playing with Numbers",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "If the 6-digit number 452x30 is divisible by 9, what is the value of the digit x?",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "By the divisibility rule for 9, the sum of the digits must be divisible by 9. Sum of digits = 4 + 5 + 2 + x + 3 + 0 = 14 + x. The smallest multiple of 9 greater than or equal to 14 is 18, so 14 + x = 18, giving x = 4."
+      },
+      {
+        "q": "A number is divisible by both 5 and 12. By which of the following numbers must it always be divisible?",
+        "options": [
+          "120",
+          "30",
+          "60",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "If a number is divisible by two co-prime numbers, it is also divisible by their product. Since HCF(5, 12) = 1, the two numbers are co-prime, so the number must be divisible by 5 x 12 = 60."
+      },
+      {
+        "q": "In the prime factorization of 180, what is the exponent of 3?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Prime factorization of 180 = 2 x 2 x 3 x 3 x 5 = 2^2 x 3^2 x 5^1. The exponent of 3 is 2."
+      },
+      {
+        "q": "The HCF of two co-prime numbers is always equal to:",
+        "options": [
+          "Their product",
+          "Their difference",
+          "1",
+          "0"
+        ],
+        "answer": 2,
+        "explanation": "By definition, two numbers are co-prime if they have no common factor other than 1. Hence their Highest Common Factor is always 1."
+      },
+      {
+        "q": "In a 3 x 3 magic square, if the magic sum (sum of numbers in each row, column, and diagonal) is 45, what is the value of the central number?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "In any 3 x 3 magic square, the magic sum equals 3 times the central entry. So the central number = 45 / 3 = 15."
+      },
+      {
+        "q": "If the 7-digit number 732k814 is divisible by 11, what is the value of digit k?",
+        "options": [
+          "2",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Number the digits from the right: positions 1,3,5,7 hold 4,8,2,7 (sum 21); positions 2,4,6 hold 1,k,3 (sum 4+k). For divisibility by 11 the difference 21-(4+k)=17-k must be a multiple of 11. Taking 17-k=11 gives k=6, which is the only valid single digit."
+      },
+      {
+        "q": "The HCF and LCM of two numbers are 12 and 288 respectively. If one of the numbers is 72, find the other number.",
+        "options": [
+          "108",
+          "96",
+          "36",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "HCF x LCM equals the product of the two numbers, so 12 x 288 = 72 x (other number). The other number = (12 x 288) / 72 = 48. Check: 48 x 72 = 3456 = 12 x 288."
+      },
+      {
+        "q": "Four bells toll together at 9:00 AM. They toll at intervals of 6, 8, 12, and 18 minutes respectively. At what time will they toll together next?",
+        "options": [
+          "10:12 AM",
+          "10:30 AM",
+          "10:18 AM",
+          "9:36 AM"
+        ],
+        "answer": 0,
+        "explanation": "The bells toll together again after a time equal to the LCM of 6, 8, 12, and 18 minutes. LCM = 2^3 x 3^2 = 72 minutes = 1 hour 12 minutes. Adding this to 9:00 AM gives 10:12 AM."
+      },
+      {
+        "q": "How many pairs of natural numbers exist such that their sum is 84 and their HCF is 12?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Let the two numbers be 12a and 12b, where a and b are co-prime. Then 12a + 12b = 84 gives a + b = 7. The pairs of positive integers summing to 7 that are co-prime are (1,6), (2,5), and (3,4) - all three pairs work, giving three number pairs: (12,72), (24,60), and (36,48)."
+      },
+      {
+        "q": "What is the smallest digit 'a' such that the 5-digit number 34a28 is divisible by both 3 and 4?",
+        "options": [
+          "4",
+          "1",
+          "2",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "The last two digits, 28, are divisible by 4 regardless of a, so divisibility by 4 always holds. For divisibility by 3, the digit sum 3+4+a+2+8 = 17+a must be a multiple of 3, which happens for a = 1, 4, or 7. The smallest such digit is 1."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the fastest way to find HCF and LCM?",
+      "a": "Use prime factorisation: HCF is the product of common prime factors at their lowest powers; LCM uses all prime factors at their highest powers. For two numbers you can also use HCF × LCM = product of the numbers."
+    },
+    {
+      "q": "Which divisibility rules are most tested?",
+      "a": "Rules for 3, 4, 6, 8, 9 and 11 appear most often. The rule for 11 (alternating digit-sum difference) is the one candidates forget."
+    },
+    {
+      "q": "Is this test free?",
+      "a": "Yes — 10 free MCQs with explanations. The e-book adds 150 more for ₹23."
+    }
+  ]
+}

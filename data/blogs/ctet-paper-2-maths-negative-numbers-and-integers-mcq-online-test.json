@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-negative-numbers-and-integers-mcq-online-test",
+  "title": "CTET Paper 2 Maths Negative Numbers and Integers: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Negative Numbers MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Negative Numbers and Integers online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice…",
+  "excerpt": "A free 10-question Negative Numbers and Integers online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-negative-numbers-and-integers-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-negative-numbers-and-integers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Negative Numbers and Integers</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Negative Numbers and Integers</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Negative Numbers and Integers</h2><p>Questions test integers on the number line, ordering and comparison, absolute value, and the rules of signs for addition, subtraction, multiplication and division, often set in real-life contexts (temperature, depth, profit and loss).</p><h2>Key facts &amp; formulas to remember</h2><ul><li>Integers are … −3, −2, −1, 0, 1, 2, 3, … ; numbers increase to the right on the number line.</li><li>Same signs add and keep the sign; different signs subtract and take the sign of the larger.</li><li>Product/quotient of like signs is positive; of unlike signs is negative.</li><li>Subtracting an integer means adding its opposite: a − b = a + (−b).</li><li>The additive inverse of a is −a, and a + (−a) = 0.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Getting the sign wrong when subtracting a negative number.</li><li>Assuming a larger digit means a larger integer (−9 is smaller than −2).</li><li>Mishandling two negative signs in multiplication.</li></ul><h2>Free Negative Numbers and Integers online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-negative-numbers-and-integers-chapter-tests\"><strong>CTET Paper 2 Maths Negative Numbers and Integers Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Negative Numbers and Integers Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Negative Numbers and Integers",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "What is the sum of the predecessor of -15 and the successor of -8?",
+        "options": [
+          "-23",
+          "-22",
+          "-21",
+          "-24"
+        ],
+        "answer": 0,
+        "explanation": "The predecessor of -15 is -15 - 1 = -16. The successor of -8 is -8 + 1 = -7. Their sum is (-16) + (-7) = -23."
+      },
+      {
+        "q": "Starting from -4 on the number line, if you move 7 units to the right and then 5 units to the left, at which integer will you land?",
+        "options": [
+          "2",
+          "8",
+          "-2",
+          "-8"
+        ],
+        "answer": 2,
+        "explanation": "Starting at -4, moving 7 units to the right gives: -4 + 7 = 3. Moving 5 units to the left from 3 gives: 3 - 5 = -2."
+      },
+      {
+        "q": "Which of the following sets of integers is correctly arranged in descending order?",
+        "options": [
+          "0, -2, -5, -11, -18",
+          "0, -18, -11, -5, -2",
+          "-18, -11, -5, -2, 0",
+          "-2, -5, 0, -11, -18"
+        ],
+        "answer": 0,
+        "explanation": "Descending order means arranged from greatest to smallest. Since 0 > -2 > -5 > -11 > -18, the sequence 0, -2, -5, -11, -18 is correctly ordered."
+      },
+      {
+        "q": "If x = -12 and y = 15, find the value of |x + y| - (|x| - |y|).",
+        "options": [
+          "0",
+          "6",
+          "-6",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "x = -12, y = 15. |x + y| = |-12 + 15| = |3| = 3. |x| = |-12| = 12, |y| = |15| = 15. So |x| - |y| = 12 - 15 = -3. Therefore, |x + y| - (|x| - |y|) = 3 - (-3) = 3 + 3 = 6."
+      },
+      {
+        "q": "What number must be subtracted from -18 to obtain -35?",
+        "options": [
+          "17",
+          "53",
+          "-53",
+          "-17"
+        ],
+        "answer": 0,
+        "explanation": "Let the required number be N. Then -18 - N = -35. N = -18 - (-35) = -18 + 35 = 17."
+      },
+      {
+        "q": "Which property of integer operations is illustrated by the statement: (-15) * [8 + (-3)] = (-15) * 8 + (-15) * (-3)?",
+        "options": [
+          "Closure property of multiplication",
+          "Commutative property of addition",
+          "Distributive property of multiplication over addition",
+          "Associative property of multiplication"
+        ],
+        "answer": 2,
+        "explanation": "The statement shows a * (b + c) = a * b + a * c, which is the Distributive Property of Multiplication over Addition."
+      },
+      {
+        "q": "Evaluate the expression: [(-36) / (-4)] * [(-15) / 3] - [(-2) * (-5)].",
+        "options": [
+          "35",
+          "-35",
+          "55",
+          "-55"
+        ],
+        "answer": 3,
+        "explanation": "First part: (-36) / (-4) = 9. Second part: (-15) / 3 = -5. Third part: (-2) * (-5) = 10. Expression becomes: 9 * (-5) - 10 = -45 - 10 = -55."
+      },
+      {
+        "q": "Which of the following statements is ALWAYS true for any two integers 'a' and 'b'?",
+        "options": [
+          "|a + b| <= |a| + |b|.",
+          "|a - b| = |a| - |b|.",
+          "a / b is always an integer.",
+          "a - b is always equal to b - a."
+        ],
+        "answer": 0,
+        "explanation": "The inequality |a + b| <= |a| + |b| is the Triangle Inequality, which holds true for all integers. The claim that a - b always equals b - a is false, since subtraction is not commutative. The claim that a / b is always an integer is false, since integers are not closed under division. The claim that |a - b| = |a| - |b|"
+      },
+      {
+        "q": "If 'a' and 'b' are two integers such that a < b < 0, which of the following inequalities MUST be true?",
+        "options": [
+          "|a| < |b|",
+          "-a > -b > 0",
+          "a^2 < b^2",
+          "1/a > 1/b"
+        ],
+        "answer": 1,
+        "explanation": "Since a < b < 0, both are negative and 'a' is further left from 0 than 'b'. Multiplying by -1 reverses the inequality signs: -a > -b > 0. For example, if a = -5 and b = -2, -(-5) = 5 > -(-2) = 2 > 0."
+      },
+      {
+        "q": "Find the value of P = (-1) * (-2) * (-3) * (-4) * ... * (-10).",
+        "options": [
+          "3,628,800",
+          "362,880",
+          "-362,880",
+          "-3,628,800"
+        ],
+        "answer": 0,
+        "explanation": "The product involves 10 negative factors. Since the number of negative factors is even (10), the final product is POSITIVE. The value is 10! = 3,628,800."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you subtract a negative number?",
+      "a": "Change it to addition of the opposite: 5 − (−3) = 5 + 3 = 8."
+    },
+    {
+      "q": "Which is greater, −7 or −3?",
+      "a": "−3 is greater. On the number line −3 lies to the right of −7."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — 10 free questions with worked explanations, plus 150 more in the ₹23 e-book."
+    }
+  ]
+}

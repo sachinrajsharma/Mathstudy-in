@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-introduction-to-algebra-mcq-online-test",
+  "title": "CTET Paper 2 Maths Introduction to Algebra: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Introduction to MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Introduction to Algebra online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Introduction to Algebra online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-introduction-to-algebra-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-introduction-to-algebra-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Introduction to Algebra</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Introduction to Algebra</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Introduction to Algebra</h2><p>Questions cover variables, constants, terms and coefficients, forming and simplifying algebraic expressions, and solving simple linear equations, plus translating word statements into expressions.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>A variable is a letter standing for an unknown; a constant is a fixed number.</li><li>The coefficient is the numerical factor of a term (in 5x it is 5).</li><li>Only like terms can be added or subtracted: 3x + 5x = 8x, but 3x + 5y cannot be combined.</li><li>Golden rule of equations: do the same operation to both sides.</li><li>“5 more than x” is x + 5; “7 less than twice y” is 2y − 7.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Combining unlike terms (adding 3x and 5y).</li><li>Applying an operation to only one side of an equation.</li><li>Confusing an expression (no equals sign) with an equation.</li></ul><h2>Free Introduction to Algebra online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-introduction-to-algebra-chapter-tests\"><strong>CTET Paper 2 Maths Introduction to Algebra Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Introduction to Algebra Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Introduction to Algebra",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "What is the numerical coefficient of the term -7x²y in the algebraic expression 5x³ - 7x²y + 9xy - 4?",
+        "options": [
+          "-7",
+          "-7y",
+          "9",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The numerical coefficient of a term is its constant numerical factor, written without the variables attached to it. In the term -7x²y, that numerical factor is -7."
+      },
+      {
+        "q": "Classify the algebraic expression 3x² - 5xy + 2y² based on the number of terms.",
+        "options": [
+          "Trinomial",
+          "Binomial",
+          "Monomial",
+          "Linear polynomial"
+        ],
+        "answer": 0,
+        "explanation": "An expression containing three unlike terms is called a trinomial. Here, the terms are 3x², -5xy, and 2y²."
+      },
+      {
+        "q": "What is the sum of 3x² - 5x + 2 and -x² + 2x - 7?",
+        "options": [
+          "2x^2 + 3x - 5",
+          "2x^2 - 3x - 5",
+          "2x^2 - 7x - 5",
+          "4x^2 - 7x + 9"
+        ],
+        "answer": 1,
+        "explanation": "Combine like terms: (3x² - x²) + (-5x + 2x) + (2 - 7) = 2x² - 3x - 5."
+      },
+      {
+        "q": "Find the solution of the linear equation: 5x - 3 = 2x + 9.",
+        "options": [
+          "x = 2",
+          "x = 3",
+          "x = 5",
+          "x = 4"
+        ],
+        "answer": 3,
+        "explanation": "Subtract 2x from both sides: 3x - 3 = 9. Add 3 to both sides: 3x = 12. Divide by 3: x = 4."
+      },
+      {
+        "q": "Find the product of the binomials: (2x - 3)(3x + 4).",
+        "options": [
+          "6x^2 + x - 12",
+          "6x^2 - x - 12",
+          "6x^2 + 17x + 12",
+          "6x^2 - 17x - 12"
+        ],
+        "answer": 1,
+        "explanation": "Using FOIL: (2x)(3x) + (2x)(4) + (-3)(3x) + (-3)(4) = 6x² + 8x - 9x - 12 = 6x² - x - 12."
+      },
+      {
+        "q": "Simplify the expression: 4x - [y - \\x - (y - 2x)\\].",
+        "options": [
+          "x - 2y",
+          "7x - 4y",
+          "7x - 2y",
+          "7x + 2y"
+        ],
+        "answer": 2,
+        "explanation": "Work from the innermost bracket outward. Innermost: (y - 2x). Braces: x - (y - 2x) = x - y + 2x = 3x - y. Brackets: y - (3x - y) = y - 3x + y = 2y - 3x. Finally: 4x - (2y - 3x) = 4x - 2y + 3x = 7x - 2y."
+      },
+      {
+        "q": "The present age of a father is three times the age of his son. After 10 years, the father's age will be twice the age of his son. Find the present age of the son.",
+        "options": [
+          "15 years",
+          "10 years",
+          "30 years",
+          "20 years"
+        ],
+        "answer": 1,
+        "explanation": "Let son's present age be x years. Father's present age = 3x. After 10 years, son's age = x + 10, father's age = 3x + 10. Given 3x + 10 = 2(x + 10) \\implies 3x + 10 = 2x + 20 \\implies x = 10."
+      },
+      {
+        "q": "Solve for x: x/2 - 1/4 = x/3 + 1/2.",
+        "options": [
+          "x = 4.5",
+          "x = 9",
+          "x = 3",
+          "x = 4"
+        ],
+        "answer": 0,
+        "explanation": "Rearrange terms with x on one side: x/2 - x/3 = 1/2 + 1/4. The LCM of 2 and 3 is 6, and 1/2+1/4=3/4: 3x - 2x/6 = 3/4 \\implies x/6 = 3/4 \\implies x = 4.5."
+      },
+      {
+        "q": "Think of a number, multiply it by 5, add 7 to the result, and then divide the sum by 2. If the final result is 26, what was the original number?",
+        "options": [
+          "13",
+          "11",
+          "9",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Let the number be x. Equation: 5x + 7/2 = 26 \\implies 5x + 7 = 52 \\implies 5x = 45 \\implies x = 9."
+      },
+      {
+        "q": "Seema has ₹x. Rohit has ₹15 more than twice of what Seema has. Which expression represents total money both have together?",
+        "options": [
+          "2x + 15",
+          "3x - 15",
+          "2x - 15",
+          "3x + 15"
+        ],
+        "answer": 3,
+        "explanation": "Seema's money = x. Rohit's money = 2x + 15. Total money = x + (2x + 15) = 3x + 15."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between an expression and an equation?",
+      "a": "An expression (like 2x + 3) has no equals sign; an equation (like 2x + 3 = 11) states that two expressions are equal and can be solved."
+    },
+    {
+      "q": "How do you solve x + 5 = 12?",
+      "a": "Subtract 5 from both sides: x = 7."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — 10 free questions with explanations, and 150 more in the ₹23 e-book."
+    }
+  ]
+}
