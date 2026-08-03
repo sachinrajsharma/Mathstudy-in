@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-understanding-elementary-shapes-mcq-online-test",
+  "title": "CTET Paper 2 Maths Understanding Elementary Shapes: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Understanding Elementary MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Understanding Elementary Shapes online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice…",
+  "excerpt": "A free 10-question Understanding Elementary Shapes online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-understanding-elementary-shapes-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-understanding-elementary-shapes-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Understanding Elementary Shapes</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Understanding Elementary Shapes</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Understanding Elementary Shapes</h2><p>Questions cover types of angles, classification of triangles and quadrilaterals, and the faces, edges and vertices of 3-D solids, including angle-sum properties.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>Acute &lt; 90°, right = 90°, obtuse is between 90° and 180°, straight = 180°, reflex is between 180° and 360°.</li><li>Angle sum of a triangle = 180°; of a quadrilateral = 360°.</li><li>Triangles by sides: equilateral, isosceles, scalene; by angles: acute, right, obtuse.</li><li>A cube/cuboid has 6 faces, 12 edges and 8 vertices.</li><li>Euler’s formula for solids: F + V − E = 2.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mislabelling a reflex angle as obtuse.</li><li>Forgetting the triangle angle sum is exactly 180°.</li><li>Miscounting faces, edges or vertices of a solid.</li></ul><h2>Free Understanding Elementary Shapes online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-understanding-elementary-shapes-chapter-tests\"><strong>CTET Paper 2 Maths Understanding Elementary Shapes Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Understanding Elementary Shapes Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Understanding Elementary Shapes",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "An angle whose measure is greater than that of a right angle and less than a straight angle is called a:",
+        "options": [
+          "Obtuse angle",
+          "Acute angle",
+          "Straight angle",
+          "Reflex angle"
+        ],
+        "answer": 0,
+        "explanation": "An angle greater than 90 degrees (right angle) and less than 180 degrees (straight angle) is defined as an obtuse angle."
+      },
+      {
+        "q": "If the measure of an angle is 35 degrees, then the measure of its complementary angle is:",
+        "options": [
+          "145 degrees",
+          "55 degrees",
+          "65 degrees",
+          "125 degrees"
+        ],
+        "answer": 1,
+        "explanation": "Two angles are complementary if their sum is 90 degrees. Therefore, the complement of 35 degrees = 90 degrees - 35 degrees = 55 degrees."
+      },
+      {
+        "q": "Two supplementary angles are in the ratio 2 : 3. What is the measure of the smaller angle?",
+        "options": [
+          "108 degrees",
+          "72 degrees",
+          "54 degrees",
+          "36 degrees"
+        ],
+        "answer": 1,
+        "explanation": "Let the angles be 2x and 3x. Since they are supplementary, 2x + 3x = 180 degrees, so 5x = 180 degrees and x = 36 degrees. The smaller angle is 2x = 2 x 36 degrees = 72 degrees."
+      },
+      {
+        "q": "A triangle having sides of lengths 7 cm, 7 cm, and 10 cm is classified as:",
+        "options": [
+          "Scalene triangle",
+          "Right-angled triangle",
+          "Equilateral triangle",
+          "Isosceles triangle"
+        ],
+        "answer": 3,
+        "explanation": "A triangle with two equal sides (7 cm and 7 cm) and one different side is called an isosceles triangle."
+      },
+      {
+        "q": "Which of the following quadrilaterals has diagonals that are always equal in length and bisect each other at right angles?",
+        "options": [
+          "Parallelogram",
+          "Rhombus",
+          "Square",
+          "Trapezium"
+        ],
+        "answer": 2,
+        "explanation": "A square is a quadrilateral whose diagonals are equal in length and perpendicular bisectors of each other."
+      },
+      {
+        "q": "The longest chord of a circle is always its:",
+        "options": [
+          "Diameter",
+          "Arc",
+          "Sector",
+          "Radius"
+        ],
+        "answer": 0,
+        "explanation": "A diameter is a chord that passes through the center of the circle and is the longest possible chord in any circle."
+      },
+      {
+        "q": "How many faces, vertices, and edges does a rectangular prism (cuboid) have respectively?",
+        "options": [
+          "6, 12, 8",
+          "8, 6, 12",
+          "6, 8, 12",
+          "12, 8, 6"
+        ],
+        "answer": 2,
+        "explanation": "A cuboid has 6 rectangular faces, 8 vertices, and 12 edges."
+      },
+      {
+        "q": "The interior angles of a triangle are in the ratio 1 : 2 : 3. What is the measure of the largest angle?",
+        "options": [
+          "120 degrees",
+          "90 degrees",
+          "60 degrees",
+          "30 degrees"
+        ],
+        "answer": 1,
+        "explanation": "Let the angles be x, 2x, and 3x. Sum of angles in a triangle = 180 degrees, so x + 2x + 3x = 180 degrees, 6x = 180 degrees, x = 30 degrees. The largest angle is 3x = 3 x 30 degrees = 90 degrees."
+      },
+      {
+        "q": "In a triangle PQR, side QR is produced to point S. If angle PRS = 110 degrees and angle PQR = 45 degrees, what is the measure of angle QPR?",
+        "options": [
+          "75 degrees",
+          "45 degrees",
+          "55 degrees",
+          "65 degrees"
+        ],
+        "answer": 3,
+        "explanation": "By the exterior angle property, the exterior angle PRS equals the sum of the two opposite interior angles (angle QPR + angle PQR). Therefore, 110 degrees = angle QPR + 45 degrees, so angle QPR = 65 degrees."
+      },
+      {
+        "q": "In a parallelogram ABCD, if angle A = (3x - 10) degrees and angle C = (2x + 30) degrees, find the value of x.",
+        "options": [
+          "40",
+          "50",
+          "20",
+          "30"
+        ],
+        "answer": 0,
+        "explanation": "Opposite angles of a parallelogram are equal. Therefore, angle A = angle C, so 3x - 10 = 2x + 30, giving x = 40."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the angle sum of a quadrilateral?",
+      "a": "360°. You can see this by splitting the quadrilateral into two triangles of 180° each."
+    },
+    {
+      "q": "What is Euler’s formula?",
+      "a": "For any simple polyhedron, Faces + Vertices − Edges = 2 (F + V − E = 2)."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — 10 free questions with explanations, and 150 more in the ₹23 e-book."
+    }
+  ]
+}

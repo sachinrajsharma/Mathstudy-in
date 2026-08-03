@@ -1,6 +1,6 @@
 /**
- * import-ctet-blogs.js — upserts the CTET Paper 1 Maths SEO blog posts
- * (data/blogs/ctet-paper-1-maths-*.json) via the canonical upsert-blog.js.
+ * import-ctet-blogs.js — upserts the CTET Paper 1 & Paper 2 Maths SEO blog posts
+ * (data/blogs/ctet-paper-[12]-maths-*.json) via the canonical upsert-blog.js.
  * Idempotent. Safe to re-run; touches ONLY the CTET blog slugs.
  *   node scripts/import-ctet-blogs.js
  */
@@ -10,7 +10,7 @@ const path = require('path');
 
 const dir = path.join(__dirname, '..', 'data', 'blogs');
 const files = fs.readdirSync(dir)
-  .filter(f => /^ctet-paper-1-maths-.*\.json$/.test(f))
+  .filter(f => /^ctet-paper-[12]-maths-.*\.json$/.test(f))
   .sort();
 
 if (!files.length) { console.log('No CTET blog files found in data/blogs/.'); process.exit(0); }

@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-mensuration-mcq-online-test",
+  "title": "CTET Paper 2 Maths Mensuration: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Mensuration MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Mensuration online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Mensuration online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-mensuration-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-mensuration-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Mensuration</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Mensuration</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Mensuration</h2><p>Questions cover perimeter and area of plane figures (rectangle, square, triangle, parallelogram, circle) and the surface area and volume of cubes, cuboids and cylinders, with plenty of unit-conversion and real-life applications.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>Perimeter of a rectangle = 2(l + b); area = l × b.</li><li>Area of a triangle = ½ × base × height; area of a circle = πr²; circumference = 2πr.</li><li>Volume of a cuboid = l × b × h; of a cube = a³; of a cylinder = πr²h.</li><li>Scaling a length by k multiplies area by k² and volume by k³.</li><li>Perimeter is in units, area in square units, volume in cubic units.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Assuming a bigger perimeter always means a bigger area.</li><li>Mixing up units (using cm and m in the same calculation).</li><li>Confusing area with perimeter, or surface area with volume.</li></ul><h2>Free Mensuration online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-mensuration-chapter-tests\"><strong>CTET Paper 2 Maths Mensuration Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Mensuration Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Mensuration",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "If the side of a regular hexagon is doubled, how many times does its perimeter become?",
+        "options": [
+          "6 times",
+          "2 times",
+          "8 times",
+          "4 times"
+        ],
+        "answer": 1,
+        "explanation": "The perimeter of a regular hexagon with side length s is given by P = 6s. If the side is doubled to 2s, the new perimeter is P' = 6(2s) = 2(6s) = 2P. Thus, the perimeter becomes 2 times the original."
+      },
+      {
+        "q": "What is the area of a square plot of land with a side length of 120 cm in square meters?",
+        "options": [
+          "1.44 m²",
+          "144 m²",
+          "14.4 m²",
+          "0.144 m²"
+        ],
+        "answer": 0,
+        "explanation": "Side length s = 120 cm = 1.2 m. Area of the square = s² = (1.2 m)² = 1.44 m²."
+      },
+      {
+        "q": "A rectangular floor has a length of 8 m and a breadth of 5 m. Find the cost of carpeting the floor at the rate of ₹150 per m².",
+        "options": [
+          "₹6,000",
+          "₹4,000",
+          "₹7,500",
+          "₹5,500"
+        ],
+        "answer": 0,
+        "explanation": "Area of the floor = length × breadth = 8 m × 5 m = 40 m². Total cost = Area × Rate = 40 × 150 = ₹6,000."
+      },
+      {
+        "q": "If the circumference of a circular wheel is 220 cm, what is its radius? (Use π = 22/7)",
+        "options": [
+          "70 cm",
+          "21 cm",
+          "35 cm",
+          "14 cm"
+        ],
+        "answer": 2,
+        "explanation": "Circumference C = 2π r. Given 220 = 2 × 22/7 × r. Therefore, r = (220 × 7)/(2 × 22) = 1540/44 = 35 cm."
+      },
+      {
+        "q": "What is the total surface area of a wooden cube whose edge is 6 cm?",
+        "options": [
+          "108 cm²",
+          "216 cm²",
+          "144 cm²",
+          "36 cm²"
+        ],
+        "answer": 1,
+        "explanation": "Total surface area of a cube = 6a², where a is the edge length. Here, a = 6 cm. Total surface area = 6 × (6)² = 6 × 36 = 216 cm²."
+      },
+      {
+        "q": "Find the volume of a cubic container whose edge length is 0.5 m.",
+        "options": [
+          "0.125 m³",
+          "0.0125 m³",
+          "0.25 m³",
+          "1.25 m³"
+        ],
+        "answer": 0,
+        "explanation": "Volume of a cube = a³. Here, a = 0.5 m. Volume = (0.5)³ = 0.125 m³."
+      },
+      {
+        "q": "The base of a triangular field is three times its height. If the cost of cultivating the field at ₹25 per 100 m² is ₹600, find the height of the triangle.",
+        "options": [
+          "80 m",
+          "40 m",
+          "20 m",
+          "60 m"
+        ],
+        "answer": 1,
+        "explanation": "Total cost = Area × (Rate/100), so Area × (25/100) = 600, giving Area = (600 × 100)/25 = 2400 m². Let the height be h; then the base b = 3h. Area of a triangle = (1/2) × b × h = (1/2) × 3h × h = 1.5h². Setting 1.5h² = 2400 gives h² = 1600, so h = 40 m."
+      },
+      {
+        "q": "The inner circumference of a circular track is 352 m. If the track is uniformly 7 m wide everywhere, find the area of the track. (Use π = 22/7)",
+        "options": [
+          "2585 m²",
+          "2464 m²",
+          "2618 m²",
+          "2772 m²"
+        ],
+        "answer": 3,
+        "explanation": "Inner circumference 2π r1 = 352 ⟹ r1 = (352 × 7)/(2 × 22) = 56 m. Outer radius r2 = r1 + 7 = 56 + 7 = 63 m. Area of the track = π(r2² - r1²) = 22/7(63² - 56²) = 22/7(63+56)(63-56) = 22/7 × 119 × 7 = 22 × 119 = 2772 m²."
+      },
+      {
+        "q": "A metallic cuboid measuring 12 cm × 9 cm × 2 cm is melted and recast into a solid cube. What is the total surface area of the cube so formed?",
+        "options": [
+          "384 cm²",
+          "294 cm²",
+          "486 cm²",
+          "216 cm²"
+        ],
+        "answer": 3,
+        "explanation": "Volume of the cuboid = 12 × 9 × 2 = 216 cm³. Since the metal is simply recast, the cube has the same volume, so edge³ = 216, giving edge = ∛216 = 6 cm. Total surface area of the cube = 6 × edge² = 6 × 36 = 216 cm²."
+      },
+      {
+        "q": "A cuboidal room is 10 m long, 5 m wide, and 3 m high. Find the cost of whitewashing its four walls and ceiling at the rate of ₹25 per m².",
+        "options": [
+          "₹3,500",
+          "₹3,100",
+          "₹2,900",
+          "₹3,250"
+        ],
+        "answer": 0,
+        "explanation": "Area to be whitewashed = area of four walls + area of ceiling = 2h(l+b) + (l×b) = 2(3)(10+5) + (10×5) = 90 + 50 = 140 m². Total cost = 140 × 25 = ₹3,500."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do two shapes with the same perimeter have the same area?",
+      "a": "No. Figures with equal perimeters can have very different areas — a square gives the maximum area for a given perimeter."
+    },
+    {
+      "q": "What value of π should I use?",
+      "a": "Use 22/7 or 3.14 as directed in the question; 22/7 is convenient when the radius is a multiple of 7."
+    },
+    {
+      "q": "Is the test free?",
+      "a": "Yes, 10 free MCQs with explanations; the e-book adds 150 more for ₹23."
+    }
+  ]
+}

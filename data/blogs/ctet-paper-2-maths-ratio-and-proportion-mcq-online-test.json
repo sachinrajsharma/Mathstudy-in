@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-ratio-and-proportion-mcq-online-test",
+  "title": "CTET Paper 2 Maths Ratio and Proportion: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Ratio and Proportion MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Ratio and Proportion online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Ratio and Proportion online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-ratio-and-proportion-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-ratio-and-proportion-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Ratio and Proportion</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Ratio and Proportion</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Ratio and Proportion</h2><p>Questions cover ratio in simplest form, proportion, the unitary method, percentage, and direct and inverse variation, usually as short word problems.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>A ratio compares like quantities and has no unit; write it in simplest form.</li><li>If a : b = c : d then a × d = b × c (product of extremes = product of means).</li><li>Unitary method: find the value of one unit, then multiply.</li><li>x% means x/100; multiply a fraction or ratio by 100 to get a percentage.</li><li>Direct variation: more ⇒ more; inverse variation: more ⇒ less (e.g. speed and time).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Leaving a ratio unsimplified.</li><li>Comparing quantities in different units without converting first.</li><li>Treating an inverse-variation problem as direct.</li></ul><h2>Free Ratio and Proportion online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-ratio-and-proportion-chapter-tests\"><strong>CTET Paper 2 Maths Ratio and Proportion Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Ratio and Proportion Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Ratio and Proportion",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "If A : B = 3 : 4 and B : C = 8 : 9, then A : C is equal to:",
+        "options": [
+          "1: 2",
+          "1: 3",
+          "3: 2",
+          "2: 3"
+        ],
+        "answer": 3,
+        "explanation": "Given A : B = 3 : 4 and B : C = 8 : 9. To find A : C, we can multiply the two ratios: (A / B) × (B / C) = (3 / 4) × (8 / 9) = 24 / 36 = 2 / 3. Therefore, A : C = 2 : 3."
+      },
+      {
+        "q": "Express 0.05 as a percentage.",
+        "options": [
+          "5%",
+          "0.05%",
+          "50%",
+          "0.5%"
+        ],
+        "answer": 0,
+        "explanation": "To convert a decimal into a percentage, multiply it by 100 and add the percentage sign (%): 0.05 × 100% = 5%."
+      },
+      {
+        "q": "If 15 pens cost ₹225, find the cost of 8 such pens using the unitary method.",
+        "options": [
+          "₹120",
+          "₹100",
+          "₹140",
+          "₹160"
+        ],
+        "answer": 0,
+        "explanation": "Cost of 15 pens = ₹225. Cost of 1 pen = 225 / 15 = ₹15. Cost of 8 pens = 15 × 8 = ₹120."
+      },
+      {
+        "q": "What is the simple interest on ₹4000 at a rate of 5% per annum for 3 years?",
+        "options": [
+          "₹800",
+          "₹600",
+          "₹700",
+          "₹500"
+        ],
+        "answer": 1,
+        "explanation": "Simple Interest (SI) = (P × R × T) / 100, where P = 4000, R = 5, and T = 3. SI = (4000 × 5 × 3) / 100 = 60000 / 100 = ₹600."
+      },
+      {
+        "q": "An article marked at ₹800 is sold for ₹680. Find the discount percentage.",
+        "options": [
+          "20%",
+          "15%",
+          "10%",
+          "12%"
+        ],
+        "answer": 1,
+        "explanation": "Marked Price (MP) = ₹800, Selling Price (SP) = ₹680. Discount = MP - SP = 800 - 680 = ₹120. Discount % = (Discount / MP) × 100 = (120 / 800) × 100 = 15%."
+      },
+      {
+        "q": "If the price of petrol increases by 25%, by what percentage must a car owner reduce the consumption of petrol so that the expenditure on petrol remains unchanged?",
+        "options": [
+          "15%",
+          "20%",
+          "30%",
+          "25%"
+        ],
+        "answer": 1,
+        "explanation": "Let initial price be ₹100 and consumption be 100 units. Total expenditure = ₹10,000. New price = ₹125. To keep expenditure at ₹10,000, new consumption = 10000 / 125 = 80 units. Reduction in consumption = 100 - 80 = 20 units, which is a 20% reduction."
+      },
+      {
+        "q": "A sum of money becomes double of itself in 8 years at simple interest. In how many times will it become 4 times itself at the same rate of interest?",
+        "options": [
+          "24 years",
+          "16 years",
+          "32 years",
+          "20 years"
+        ],
+        "answer": 0,
+        "explanation": "Let Principal = P. In 8 years, interest earned is P (since amount becomes 2P). So, interest in 8 years = P. To become 4 times, the total interest needed is 3P. Since P interest takes 8 years, 3P interest will take 8 × 3 = 24 years."
+      },
+      {
+        "q": "If 12 men or 18 women can reap a field in 14 days, in how many days can 8 men and 16 women reap the same field?",
+        "options": [
+          "9 days",
+          "12 days",
+          "15 days",
+          "10 days"
+        ],
+        "answer": 0,
+        "explanation": "Given 12 men = 18 women, so 1 man = 18 / 12 = 1.5 women. Convert 8 men into women equivalents: 8 men = 8 × 1.5 = 12 women. Total women = 12 + 16 = 28 women. Using inverse proportion: 18 women × 14 days = 28 women × D2 \\implies D2 = (18 × 14) / 28 = 9 days."
+      },
+      {
+        "q": "A shopkeeper allows a successive discount of 20% and 10% on an article. If the article is sold for ₹504, find its marked price.",
+        "options": [
+          "₹600",
+          "₹750",
+          "₹700",
+          "₹800"
+        ],
+        "answer": 2,
+        "explanation": "Let Marked Price be MP. Selling Price = MP × (1 - 20/100) × (1 - 10/100) = MP × (80/100) × (90/100) = MP × 0.72. Given SP = 504. So, 0.72 × MP = 504 \\implies MP = 504 / 0.72 = ₹700."
+      },
+      {
+        "q": "The ratio of copper and zinc in an alloy is 9 : 4. If the weight of zinc in the alloy is 24 kg, find the total weight of the alloy.",
+        "options": [
+          "65 kg",
+          "78 kg",
+          "91 kg",
+          "52 kg"
+        ],
+        "answer": 1,
+        "explanation": "Let copper be 9x and zinc be 4x. Given 4x = 24 \\implies x = 6. Total weight of the alloy = 9x + 4x = 13x = 13 × 6 = 78 kg."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you check if four numbers are in proportion?",
+      "a": "They are in proportion if the product of the extremes equals the product of the means (a × d = b × c)."
+    },
+    {
+      "q": "What is the unitary method?",
+      "a": "You first find the value of a single unit, then scale up or down. It is the backbone of most ratio and percentage word problems."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes — 10 free questions with explanations, plus 150 more in the ₹23 e-book."
+    }
+  ]
+}

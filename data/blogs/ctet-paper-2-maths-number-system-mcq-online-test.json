@@ -1,0 +1,145 @@
+{
+  "slug": "ctet-paper-2-maths-number-system-mcq-online-test",
+  "title": "CTET Paper 2 Maths Number System: Free Online Test + Practice MCQs",
+  "meta_title": "CTET Number System MCQ Online Test (Free)",
+  "meta_desc": "Free CTET Paper 2 Maths Number System online test: 10 MCQs with answers and explanations, key facts, common mistakes and 150 more practice questions.",
+  "excerpt": "A free 10-question Number System online test for CTET Paper II Maths — with instant scoring, full explanations, key facts and 150 more practice MCQs.",
+  "category": "CTET Paper 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/ctet-paper-2-maths-number-system-chapter-tests.jpg",
+  "cta_product_slug": "ctet-paper-2-maths-number-system-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>The <strong>Number System</strong> chapter is a dependable source of marks in the CTET Paper II (Classes VI–VIII) Mathematics section. This guide explains what <strong>CTET Number System</strong> actually tests, the facts worth memorising, the mistakes that quietly cost marks, and a <strong>free 10-question online test</strong> you can take right now to see where you stand.</p><p>Take the quiz below first, read the explanation for anything you miss, then use the chapter e-book at the end for full, exam-level practice.</p><h2>What CTET Paper 2 asks on Number System</h2><p>Expect questions on place value and face value, writing and comparing large numbers, the Indian and International systems of numeration, estimation and rounding, and Roman numerals. Most items are direct and quick if your place-value basics are solid.</p><h2>Key facts &amp; formulas to remember</h2><ul><li>Place value = digit × value of its place; face value = the digit itself.</li><li>Indian system: ones, tens, hundreds, thousands, lakhs, crores (1 crore = 10 million).</li><li>International system groups digits in threes: thousand, million, billion.</li><li>Rounding: look at the next digit — 0–4 round down, 5–9 round up.</li><li>Roman numerals: a smaller symbol before a larger subtracts (IX = 9), after it adds (XI = 11).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Confusing place value with face value.</li><li>Placing commas wrongly when switching between Indian and International systems.</li><li>Writing IIII instead of IV — a symbol is not repeated more than three times.</li></ul><h2>Free Number System online test</h2><p>The 10-question quiz below is CTET Paper II (Classes VI–VIII)–pattern with instant scoring and a full explanation for every answer. Aim for 8/10 or better before moving on.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/ctet-paper-2-maths-number-system-chapter-tests\"><strong>CTET Paper 2 Maths Number System Chapter Tests</strong> e-book</a> gives you <strong>150 MCQs in 5 worksheets</strong> with answer keys and step-by-step solutions for just <strong>₹23</strong>.</p><p>Prepare the entire syllabus with the free <a href=\"https://vidaara.org/ctet/paper-2\" target=\"_blank\" rel=\"noopener\">CTET Paper II Mathematics course at vidaara.org</a>, then test yourself chapter by chapter.</p>",
+  "quiz": {
+    "title": "CTET Number System Practice Quiz",
+    "intro": "Ten CTET Paper II–pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "CTET Paper 2 Maths: Number System",
+    "level": "CTET Paper II",
+    "questions": [
+      {
+        "q": "What is the difference between the place value and the face value of the digit 7 in the number 7,85,632?",
+        "options": [
+          "6,99,993",
+          "6,99,930",
+          "7,00,000",
+          "7,85,625"
+        ],
+        "answer": 0,
+        "explanation": "Place value of 7 in 7,85,632 = 7 × 1,00,000 = 7,00,000. Face value of 7 = 7. Difference = 7,00,000 - 7 = 6,99,993."
+      },
+      {
+        "q": "The population of a city is eight million four hundred fifty-two thousand one hundred nine. How is this number written in the Indian System of Numeration?",
+        "options": [
+          "8,45,21,090",
+          "84,52,109",
+          "84,521,09",
+          "8,45,21,009"
+        ],
+        "answer": 1,
+        "explanation": "In International system: 8,452,109 (Eight million four hundred fifty-two thousand one hundred nine). In Indian system, commas are placed after 3 digits from right, then after every 2 digits: 84,52,109 (Eighty-four lakh fifty-two thousand one hundred nine)."
+      },
+      {
+        "q": "What is the predecessor of the smallest 6-digit number?",
+        "options": [
+          "90,000",
+          "9,99,999",
+          "99,999",
+          "100,001"
+        ],
+        "answer": 2,
+        "explanation": "The smallest 6-digit number is 1,00,000. Its predecessor is obtained by subtracting 1: 1,00,000 - 1 = 99,999."
+      },
+      {
+        "q": "Find the difference between the largest and the smallest 5-digit numbers that can be formed using the digits 0, 2, 5, 8, and 9, with each digit used exactly once.",
+        "options": [
+          "78,321",
+          "77,941",
+          "98,520",
+          "77,931"
+        ],
+        "answer": 3,
+        "explanation": "Largest 5-digit number using digits in descending order: 98,520. Smallest 5-digit number (0 cannot be at the highest place): 20,589. Difference = 98,520 - 20,589 = 77,931."
+      },
+      {
+        "q": "When 78,459 is rounded off to the nearest thousand, what is the resulting number?",
+        "options": [
+          "78,000",
+          "79,000",
+          "78,500",
+          "80,000"
+        ],
+        "answer": 0,
+        "explanation": "To round off to the nearest thousand, look at the hundreds digit (4). Since 4 is less than 5, we round down to 78,000."
+      },
+      {
+        "q": "Evaluate the value of the following expression in Hindu-Arabic numerals: CXLVI + LXXIX - XCVIII.",
+        "options": [
+          "147",
+          "127",
+          "117",
+          "137"
+        ],
+        "answer": 1,
+        "explanation": "Convert each Roman numeral to Hindu-Arabic: CXLVI = 100 + (50 - 10) + 5 + 1 = 146. LXXIX = 50 + 10 + 10 + (10 - 1) = 79. XCVIII = (100 - 10) + 5 + 1 + 1 + 1 = 98. Calculation: 146 + 79 - 98 = 225 - 98 = 127."
+      },
+      {
+        "q": "How many total 6-digit numbers exist in the Hindu-Arabic system of numeration?",
+        "options": [
+          "9,99,999",
+          "8,99,999",
+          "9,00,000",
+          "1,00,000"
+        ],
+        "answer": 2,
+        "explanation": "Largest 6-digit number = 9,99,999. Smallest 6-digit number = 1,00,000. Total 6-digit numbers = (Largest 6-digit number - Smallest 6-digit number) + 1 = (9,99,999 - 1,00,000) + 1 = 8,99,999 + 1 = 9,00,000."
+      },
+      {
+        "q": "A factory manufactures 4,875 screws every day. Estimating to the nearest lakh, approximately how many screws will it produce in the month of November?",
+        "options": [
+          "2,00,000",
+          "1,50,000",
+          "2,50,000",
+          "1,00,000"
+        ],
+        "answer": 3,
+        "explanation": "November has 30 days. Total production = 4,875 × 30 = 1,46,250. To round off 1,46,250 to the nearest lakh, observe the ten-thousands digit (4). Since 4 < 5, it rounds down to 1,00,000."
+      },
+      {
+        "q": "Which number is represented by the expanded form: 4 × 10⁵ + 0 × 10⁴ + 3 × 10³ + 8 × 10² + 0 × 10¹ + 6 × 10⁰?",
+        "options": [
+          "4,03,806",
+          "43,806",
+          "4,03,860",
+          "4,30,806"
+        ],
+        "answer": 0,
+        "explanation": "4 × 100000 = 400000, 0 × 10000 = 0, 3 × 1000 = 3000, 8 × 100 = 800, 0 × 10 = 0, 6 × 1 = 6. Sum = 4,00,000 + 3,000 + 800 + 6 = 4,03,806."
+      },
+      {
+        "q": "Which of the following statements correctly expresses the relationship between the Indian and International systems of numeration?",
+        "options": [
+          "100 Thousand is equal to 1 Lakh",
+          "All of the above",
+          "10 Million is equal to 1 Crore",
+          "1 Million is equal to 10 Lakhs"
+        ],
+        "answer": 1,
+        "explanation": "100 Thousand = 100,000 = 1 Lakh. 1 Million = 1,000,000 = 10 Lakhs. 10 Million = 10,000,000 = 1 Crore. Thus, all given statements are correct."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many questions come from Number System in CTET Paper 2?",
+      "a": "Usually 1–3 content questions, plus pedagogy items on how children learn place value and estimation. It is a reliable, quick-scoring topic."
+    },
+    {
+      "q": "What is the difference between place value and face value?",
+      "a": "Face value is the digit itself wherever it appears; place value is the digit multiplied by the value of its position. In 5,732 the face value of 7 is 7 but its place value is 700."
+    },
+    {
+      "q": "Is this online test free?",
+      "a": "Yes. The 10-question test is completely free with instant scoring and explanations. The chapter e-book adds 150 more MCQs for ₹23."
+    }
+  ]
+}
