@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-division-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Division: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Division Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Division online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Division online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-division-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-division-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Division in Class 3 introduces the quotient, the remainder and long-division thinking. This guide explains what the IMO Class 3 division chapter tests, the facts to know, the traps, and a free 10-question online test with answers.</p><h2>What the Class 3 Maths Olympiad Division chapter tests</h2><ul><li>Division facts and fact families</li><li>Division of 2- and 3-digit numbers by a 1-digit number</li><li>Quotient and remainder</li><li>Word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Dividend = Quotient × Divisor + Remainder, and the <strong>remainder is always less than the divisor</strong>.</li><li>Division undoes multiplication: 6 × 4 = 24 → 24 ÷ 6 = 4.</li><li>Any number ÷ 1 = itself; a number ÷ itself = 1.</li><li>0 ÷ any number = 0; you cannot divide by 0.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Leaving a remainder that is bigger than the divisor.</li><li>Forgetting the fact-family link with multiplication.</li><li>Miscounting during long division.</li></ul><h2>Take the free Division test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Division Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Division Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Division",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "In the division 70 ÷ 8 = 8 remainder 6, which number is the divisor?",
+        "options": [
+          "70",
+          "6",
+          "8",
+          "None of these"
+        ],
+        "answer": 2,
+        "explanation": "The divisor is the number we divide BY. Here 70 (dividend) ÷ 8 (divisor) = 8 (quotient), remainder 6."
+      },
+      {
+        "q": "63 apples are shared equally among 7 baskets. How many does each basket holds?",
+        "options": [
+          "10",
+          "9",
+          "8",
+          "56"
+        ],
+        "answer": 1,
+        "explanation": "Divide the total by the number of baskets: 63 ÷ 7 = 9."
+      },
+      {
+        "q": "When 52 is divided by 6, what is the remainder?",
+        "options": [
+          "4",
+          "8",
+          "5",
+          "None of these"
+        ],
+        "answer": 0,
+        "explanation": "6 × 8 = 48, and 52 − 48 = 4. The remainder is 4."
+      },
+      {
+        "q": "Find the quotient and remainder: 850 ÷ 9.",
+        "options": [
+          "94 R 4",
+          "94 R 5",
+          "95 R 4",
+          "93 R 4"
+        ],
+        "answer": 0,
+        "explanation": "9 × 94 = 846; 850 − 846 = 4. Quotient 94, remainder 4."
+      },
+      {
+        "q": "Divide the 3-digit number: 936 ÷ 4 = ?",
+        "options": [
+          "235",
+          "233",
+          "244",
+          "234"
+        ],
+        "answer": 3,
+        "explanation": "936 ÷ 4 = 234, since 4 × 234 = 936."
+      },
+      {
+        "q": "In the division 38 ÷ 4 = 9 remainder 2, which number is the divisor?",
+        "options": [
+          "38",
+          "4",
+          "9",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "The divisor is the number we divide BY. Here 38 (dividend) ÷ 4 (divisor) = 9 (quotient), remainder 2."
+      },
+      {
+        "q": "Divide the 3-digit number: 612 ÷ 6 = ?",
+        "options": [
+          "103",
+          "101",
+          "102",
+          "112"
+        ],
+        "answer": 2,
+        "explanation": "612 ÷ 6 = 102, since 6 × 102 = 612."
+      },
+      {
+        "q": "137 nuts are shared equally among 4 children. How many nuts does each child get, and how many are left over?",
+        "options": [
+          "35 each, 1 left over",
+          "34 each, 2 left over",
+          "33 each, 1 left over",
+          "34 each, 1 left over"
+        ],
+        "answer": 3,
+        "explanation": "137 ÷ 4 = 34 remainder 1. Each child gets 34 nuts, and 1 are left over."
+      },
+      {
+        "q": "Which of these divisions by 9 leaves NO remainder?",
+        "options": [
+          "37 ÷ 9",
+          "34 ÷ 9",
+          "36 ÷ 9",
+          "39 ÷ 9"
+        ],
+        "answer": 2,
+        "explanation": "36 = 9 × 4, so 36 ÷ 9 = 4 exactly; the others leave remainders."
+      },
+      {
+        "q": "Divide the 2-digit number: 84 ÷ 6 = ?",
+        "options": [
+          "15",
+          "14",
+          "13",
+          "24"
+        ],
+        "answer": 1,
+        "explanation": "84 ÷ 6 = 14 exactly, because 6 × 14 = 84."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is a remainder?",
+      "a": "The amount left over when a number does not divide exactly. 23 ÷ 5 = 4 remainder 3, because 4 × 5 + 3 = 23."
+    },
+    {
+      "q": "How is division checked?",
+      "a": "Multiply the quotient by the divisor and add the remainder — it should equal the dividend."
+    },
+    {
+      "q": "Is the Class 3 division test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 3 division questions with solutions for Rs 32."
+    }
+  ]
+}

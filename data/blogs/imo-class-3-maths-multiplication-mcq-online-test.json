@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-multiplication-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Multiplication: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Multiplication Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Multiplication online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Multiplication online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-multiplication-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-multiplication-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Multiplication in Class 3 covers the tables and 2- and 3-digit by 1-digit products — core Maths Olympiad Class 3 content. Here is what it tests, the facts to memorise, the common mix-ups, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Multiplication chapter tests</h2><ul><li>Multiplication tables and facts</li><li>2- and 3-digit by 1-digit multiplication</li><li>Multiplying by 10 and 100</li><li>Properties (order, ×1, ×0) and word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Multiply the ones, then tens, then hundreds, carrying as you go.</li><li><strong>× 10</strong> adds one zero; <strong>× 100</strong> adds two zeros.</li><li>Order does not matter: 6 × 7 = 7 × 6.</li><li>× 1 leaves a number unchanged; × 0 gives 0.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to carry during column multiplication.</li><li>Adding the wrong number of zeros for × 10 / × 100.</li><li>Slipping on a table fact (7 × 8).</li></ul><h2>Take the free Multiplication test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Multiplication Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Multiplication Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Multiplication",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "Asha wrote the sum 4 + 4 + 4 + 4 + 4. Which multiplication fact matches this sum?",
+        "options": [
+          "4 × 5 = 20",
+          "4 × 4 = 16",
+          "5 × 5 = 25",
+          "4 × 6 = 24"
+        ],
+        "answer": 0,
+        "explanation": "4 appears 5 times in the sum, so it shows 4 × 5 = 20."
+      },
+      {
+        "q": "Which repeated addition equals 9 × 2?",
+        "options": [
+          "9 + 9 + 9",
+          "10 + 10",
+          "3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3",
+          "9 + 9"
+        ],
+        "answer": 3,
+        "explanation": "9 × 2 means 9 added 2 times: 9 + 9 = 18."
+      },
+      {
+        "q": "Multiply: 12 × 13 = ?",
+        "options": [
+          "120",
+          "156",
+          "36",
+          "168"
+        ],
+        "answer": 1,
+        "explanation": "12 × 13 = (12 × 10) + (12 × 3) = 120 + 36 = 156."
+      },
+      {
+        "q": "Multiply: 326 × 2 = ?",
+        "options": [
+          "650",
+          "652",
+          "654",
+          "552"
+        ],
+        "answer": 1,
+        "explanation": "326 × 2 = 652 (multiply ones, tens and hundreds and add the carries)."
+      },
+      {
+        "q": "One notebook costs Rs 25. What is the cost of 6 such notebooks?",
+        "options": [
+          "Rs 31",
+          "Rs 150",
+          "Rs 125",
+          "Rs 160"
+        ],
+        "answer": 1,
+        "explanation": "Cost = Rs 25 × 6 = Rs 150."
+      },
+      {
+        "q": "A shopkeeper has 12 boxes of 18 pencils each. He gives away 56 pencils. How many pencils are left?",
+        "options": [
+          "160",
+          "216",
+          "150",
+          "272"
+        ],
+        "answer": 0,
+        "explanation": "Total pencils = 12 × 18 = 216. After giving away 56: 216 − 56 = 160."
+      },
+      {
+        "q": "Find the value of 7 + 7 + 7 + 7.",
+        "options": [
+          "21",
+          "35",
+          "28",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "The same number 7 is added 4 times, so this is 7 × 4 = 28."
+      },
+      {
+        "q": "Multiply: 29 × 8 = ?",
+        "options": [
+          "224",
+          "232",
+          "261",
+          "92"
+        ],
+        "answer": 1,
+        "explanation": "29 × 8: (20 × 8) + (9 × 8) = 160 + 72 = 232."
+      },
+      {
+        "q": "Multiply: 235 × 3 = ?",
+        "options": [
+          "705",
+          "702",
+          "708",
+          "605"
+        ],
+        "answer": 0,
+        "explanation": "235 × 3 = 705 (multiply ones, tens and hundreds and add the carries)."
+      },
+      {
+        "q": "Multiply: 213 × 4 = ?",
+        "options": [
+          "852",
+          "848",
+          "856",
+          "752"
+        ],
+        "answer": 0,
+        "explanation": "213 × 4 = 852 (multiply ones, tens and hundreds and add the carries)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you multiply by 100?",
+      "a": "Write the number and add two zeros: 47 × 100 = 4700."
+    },
+    {
+      "q": "Does the order matter in multiplication?",
+      "a": "No — 6 × 7 and 7 × 6 both equal 42."
+    },
+    {
+      "q": "Is the Class 3 multiplication test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 3 multiplication MCQs with answers for Rs 32."
+    }
+  ]
+}

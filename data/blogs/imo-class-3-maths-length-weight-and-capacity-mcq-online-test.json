@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-length-weight-and-capacity-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Length, Weight and Capacity: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Measurement Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Length, Weight and Capacity online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF)",
+  "excerpt": "A free 10-question Length, Weight and Capacity online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-length-weight-and-capacity-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-length-weight-and-capacity-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Measurement in Class 3 brings standard units and conversions for length, weight and capacity — steady-scoring Olympiad content. This guide covers what the Maths Olympiad Class 3 measurement chapter tests, the facts to memorise, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Length, Weight and Capacity chapter tests</h2><ul><li>Length (mm, cm, m, km) and conversions</li><li>Weight (g, kg)</li><li>Capacity (mL, L)</li><li>Adding and subtracting measures with word problems</li></ul><h2>Key facts your child should know</h2><ul><li>1 cm = <strong>10 mm</strong>; 1 m = <strong>100 cm</strong>; 1 km = <strong>1000 m</strong>.</li><li>1 kg = <strong>1000 g</strong>; 1 L = <strong>1000 mL</strong>.</li><li>To convert a bigger unit to a smaller one, multiply; smaller to bigger, divide.</li><li>Add or subtract the same units, then convert if needed.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Multiplying when you should divide (or vice-versa) in a conversion.</li><li>Mixing units (adding cm to mm without converting).</li><li>Forgetting 1 km = 1000 m.</li></ul><h2>Take the free Measurement test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Length, Weight and Capacity Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Length, Weight and Capacity Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Length, Weight and Capacity",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "Add: 1 L 950 ml + 2 L 300 ml.",
+        "options": [
+          "5 L 250 ml",
+          "4 L 250 ml",
+          "3 L 250 ml",
+          "3 L 1250 ml"
+        ],
+        "answer": 1,
+        "explanation": "In ml: 1950 ml + 2300 ml = 4250 ml = 4 L 250 ml (1 L = 1000 ml)."
+      },
+      {
+        "q": "Add: 2 km 750 m + 1 km 600 m.",
+        "options": [
+          "5 km 350 m",
+          "3 km 350 m",
+          "4 km 350 m",
+          "3 km 1350 m"
+        ],
+        "answer": 2,
+        "explanation": "In metres: 2750 m + 1600 m = 4350 m = 4 km 350 m (1 km = 1000 m)."
+      },
+      {
+        "q": "Which is lighter: a parcel of 3 kg 75 g or a parcel of 3570 g?",
+        "options": [
+          "The parcel of 3570 g",
+          "The parcel of 3 kg 75 g",
+          "Both weigh the same",
+          "Cannot be compared"
+        ],
+        "answer": 1,
+        "explanation": "3 kg 75 g = 3075 g. Since 3075 g < 3570 g, the 3 kg 75 g parcel is lighter."
+      },
+      {
+        "q": "Convert 9 km into m.",
+        "options": [
+          "90000 m",
+          "900 m",
+          "10000 m",
+          "9000 m"
+        ],
+        "answer": 3,
+        "explanation": "Using 1 km = 1000 m: 9 km = 9000 m."
+      },
+      {
+        "q": "Add: 3 km 850 m + 2 km 400 m.",
+        "options": [
+          "7 km 250 m",
+          "5 km 250 m",
+          "5 km 1250 m",
+          "6 km 250 m"
+        ],
+        "answer": 3,
+        "explanation": "In metres: 3850 m + 2400 m = 6250 m = 6 km 250 m (1 km = 1000 m)."
+      },
+      {
+        "q": "Add: 3 m 45 cm + 2 m 80 cm.",
+        "options": [
+          "7 m 25 cm",
+          "6 m 25 cm",
+          "5 m 25 cm",
+          "5 m 125 cm"
+        ],
+        "answer": 1,
+        "explanation": "Change to cm: 345 cm + 280 cm = 625 cm = 6 m 25 cm."
+      },
+      {
+        "q": "Convert 5 km into m.",
+        "options": [
+          "50000 m",
+          "500 m",
+          "5000 m",
+          "6000 m"
+        ],
+        "answer": 2,
+        "explanation": "Using 1 km = 1000 m: 5 km = 5000 m."
+      },
+      {
+        "q": "Convert 5000 g into kg.",
+        "options": [
+          "50 kg",
+          "5 kg",
+          "6 kg",
+          "4 kg"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1000 g, so 5000 g = 5 kg."
+      },
+      {
+        "q": "Convert 7 m into cm.",
+        "options": [
+          "7000 cm",
+          "700 cm",
+          "70 cm",
+          "800 cm"
+        ],
+        "answer": 1,
+        "explanation": "Using 1 m = 100 cm: 7 m = 700 cm."
+      },
+      {
+        "q": "Subtract: 6 km 100 m − 1 km 450 m.",
+        "options": [
+          "5 km 650 m",
+          "3 km 650 m",
+          "4 km 650 m",
+          "5 km 350 m"
+        ],
+        "answer": 2,
+        "explanation": "In metres: 6100 m − 1450 m = 4650 m = 4 km 650 m."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many metres are in a kilometre?",
+      "a": "One thousand. So 2 km = 2000 m, and 2 km 350 m = 2350 m."
+    },
+    {
+      "q": "How do you convert grams to kilograms?",
+      "a": "Divide by 1000. 2500 g = 2 kg 500 g."
+    },
+    {
+      "q": "Is the Class 3 measurement test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 3 measurement MCQs for Rs 32."
+    }
+  ]
+}

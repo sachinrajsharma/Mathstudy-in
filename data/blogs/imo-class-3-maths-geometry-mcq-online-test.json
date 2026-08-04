@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-geometry-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Geometry: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Geometry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Geometry online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Geometry online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-geometry-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-geometry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Geometry in Class 3 covers shapes, faces/edges/vertices, lines and angles, symmetry and perimeter — visual, high-scoring Olympiad content. Here is what the IMO Class 3 geometry chapter tests, the facts to know, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Geometry chapter tests</h2><ul><li>2-D shapes (sides, corners) and 3-D shapes (faces, edges, vertices)</li><li>Points, lines, rays and line segments; angles</li><li>Symmetry</li><li>Perimeter</li></ul><h2>Key facts your child should know</h2><ul><li>A cube and a cuboid each have <strong>6 faces, 12 edges and 8 vertices</strong>.</li><li>A cylinder has <strong>3 faces, 2 edges, 0 vertices</strong>; a cone has 2 faces, 1 edge, 1 vertex; a sphere has 1 curved face.</li><li>A <strong>line segment</strong> has two endpoints; a <strong>ray</strong> goes on one way; a <strong>line</strong> goes on both ways.</li><li><strong>Perimeter</strong> is the distance around a shape — add every side (a square of side 5 cm has perimeter 20 cm).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up edges and vertices on a solid.</li><li>Confusing a ray, a line and a line segment.</li><li>Adding only two sides for the perimeter of a rectangle.</li></ul><h2>Take the free Geometry test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Geometry Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Geometry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Geometry",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "How many corners are shared when two squares are joined along one full side?",
+        "options": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The two squares share the two corners at the ends of the joined side."
+      },
+      {
+        "q": "The edge of a ruler is an example of a",
+        "options": [
+          "curved line",
+          "slanting curve",
+          "straight line",
+          "zig-zag circle"
+        ],
+        "answer": 2,
+        "explanation": "A ruler’s edge is perfectly straight — a straight line."
+      },
+      {
+        "q": "Which two solids have NO vertices at all?",
+        "options": [
+          "Cube and cone",
+          "Cuboid and cube",
+          "Sphere and cylinder",
+          "Cone and cuboid"
+        ],
+        "answer": 2,
+        "explanation": "A sphere and a cylinder have no corners (vertices); a cone has one."
+      },
+      {
+        "q": "A brick is most like which solid?",
+        "options": [
+          "Cube",
+          "Sphere",
+          "Cuboid",
+          "Cone"
+        ],
+        "answer": 2,
+        "explanation": "A brick has 6 rectangular faces, so it is a cuboid."
+      },
+      {
+        "q": "The largest face of a matchbox (cuboid) is dipped in ink and pressed on paper. The print is a",
+        "options": [
+          "square",
+          "circle",
+          "triangle",
+          "rectangle"
+        ],
+        "answer": 3,
+        "explanation": "The faces of a cuboid are rectangles, so the print is a rectangle."
+      },
+      {
+        "q": "How many more vertices than faces does a cuboid have?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "A cuboid has 8 vertices and 6 faces: 8 − 6 = 2 more."
+      },
+      {
+        "q": "What is the total number of faces, edges and vertices of a cube?",
+        "options": [
+          "24",
+          "20",
+          "26",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "Faces 6 + edges 12 + vertices 8 = 26."
+      },
+      {
+        "q": "A line that is neither exactly horizontal nor vertical, but tilted, is called a",
+        "options": [
+          "slanting line",
+          "straight-only line",
+          "curved line",
+          "round line"
+        ],
+        "answer": 0,
+        "explanation": "A tilted line is a slanting (oblique) line."
+      },
+      {
+        "q": "I am a solid with no flat face and no edge; I am curved all over. Who am I?",
+        "options": [
+          "Cylinder",
+          "Sphere",
+          "Cone",
+          "Cube"
+        ],
+        "answer": 1,
+        "explanation": "Only a sphere is curved everywhere with no flat face and no edge."
+      },
+      {
+        "q": "How many more edges does a cube have than a cone?",
+        "options": [
+          "11",
+          "12",
+          "10",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "Cube has 12 edges, cone has 1 edge: 12 - 1 = 11."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find the perimeter of a shape?",
+      "a": "Add the lengths of all its sides. For a rectangle it is 2 × (length + breadth)."
+    },
+    {
+      "q": "How many edges does a cube have?",
+      "a": "Twelve, along with 6 faces and 8 vertices."
+    },
+    {
+      "q": "Is the Class 3 geometry test free?",
+      "a": "Yes — 10 free MCQs with shape pictures. The e-book has 100 Maths Olympiad Class 3 geometry MCQs for Rs 32."
+    }
+  ]
+}

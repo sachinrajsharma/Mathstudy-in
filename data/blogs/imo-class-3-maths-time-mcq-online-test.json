@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-time-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Time: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Time Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Time online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Time online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-time-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-time-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Time in Class 3 covers reading the clock to the minute, a.m./p.m., the 24-hour clock and the calendar. This guide explains what the IMO Class 3 time chapter tests, the facts to know, the traps, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Time chapter tests</h2><ul><li>Reading the clock to the minute</li><li>a.m./p.m. and the 24-hour clock</li><li>The calendar (days, weeks, months, leap year)</li><li>Elapsed time and conversions</li></ul><h2>Key facts your child should know</h2><ul><li>The <strong>short hand</strong> shows the hour; each clock number is <strong>5 minutes</strong> for the long hand.</li><li>a.m. is midnight–noon; p.m. is noon–midnight; 1 p.m. = 13:00.</li><li>1 hour = 60 minutes; 1 day = 24 hours; 1 week = 7 days.</li><li>1 year = 12 months = 365 days (366 in a leap year).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Reading the long hand as the hour.</li><li>Getting a.m./p.m. wrong across noon or midnight.</li><li>Miscounting elapsed time across the hour.</li></ul><h2>Take the free Time test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Time Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Time Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Time",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "How many seconds are there in 5 minutes?",
+        "options": [
+          "360",
+          "500",
+          "300",
+          "270"
+        ],
+        "answer": 2,
+        "explanation": "1 minute = 60 seconds, so 5 x 60 = 300 seconds."
+      },
+      {
+        "q": "The time \"10 minutes to 6\" is the same as ___.",
+        "options": [
+          "6:10",
+          "5:10",
+          "6:50",
+          "5:50"
+        ],
+        "answer": 3,
+        "explanation": "10 minutes to 6 means 10 minutes before 6 o'clock: 5:50."
+      },
+      {
+        "q": "How much time passes from 9:00 am to 11:30 am?",
+        "options": [
+          "2 h 40 min",
+          "3 h 30 min",
+          "2 h 50 min",
+          "2 h 30 min"
+        ],
+        "answer": 3,
+        "explanation": "From 9:00 am to 11:30 am is 150 minutes = 2 h 30 min."
+      },
+      {
+        "q": "The time \"15 minutes to 4\" is the same as ___.",
+        "options": [
+          "4:15",
+          "3:15",
+          "3:45",
+          "4:45"
+        ],
+        "answer": 2,
+        "explanation": "15 minutes to 4 means 15 minutes before 4 o'clock: 3:45."
+      },
+      {
+        "q": "The time 8:15 is read as ___.",
+        "options": [
+          "quarter past 8",
+          "quarter to 8",
+          "45 minutes past 8",
+          "quarter to 9"
+        ],
+        "answer": 0,
+        "explanation": "8:15 means 15 minutes after 8 o'clock, which is called \"quarter past 8\"."
+      },
+      {
+        "q": "How many minutes are there in 6 hours?",
+        "options": [
+          "370",
+          "360",
+          "300",
+          "36"
+        ],
+        "answer": 1,
+        "explanation": "1 hour = 60 minutes, so 6 × 60 = 360 minutes."
+      },
+      {
+        "q": "The time \"20 minutes to 9\" is the same as ___.",
+        "options": [
+          "9:20",
+          "8:20",
+          "8:40",
+          "9:40"
+        ],
+        "answer": 2,
+        "explanation": "20 minutes to 9 means 20 minutes before 9 o'clock: 8:40."
+      },
+      {
+        "q": "A cricket match starts at 10:30 am and runs for 3 h 15 min. At what time does it end?",
+        "options": [
+          "2:45 pm",
+          "7:15 am",
+          "1:45 pm",
+          "12:45 pm"
+        ],
+        "answer": 2,
+        "explanation": "10:30 am + 3 h 15 min = 1:45 pm."
+      },
+      {
+        "q": "If today is Thursday, what day will it be after 2 days?",
+        "options": [
+          "Sunday",
+          "Saturday",
+          "Friday",
+          "Tuesday"
+        ],
+        "answer": 1,
+        "explanation": "Counting 2 days on from Thursday lands on Saturday."
+      },
+      {
+        "q": "Which of these months has exactly 30 days: September, January, February?",
+        "options": [
+          "January",
+          "February",
+          "September",
+          "December"
+        ],
+        "answer": 2,
+        "explanation": "September has 30 days, while January has 31 and February has 28 (or 29 in a leap year)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you write p.m. time in the 24-hour clock?",
+      "a": "Add 12 to the hour: 3 p.m. = 15:00, 8 p.m. = 20:00."
+    },
+    {
+      "q": "How many minutes are in an hour?",
+      "a": "Sixty. Half past is 30 minutes and quarter past is 15 minutes."
+    },
+    {
+      "q": "Is the Class 3 time test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 3 time questions with answers for Rs 32."
+    }
+  ]
+}
