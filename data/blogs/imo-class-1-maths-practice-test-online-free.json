@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-practice-test-online-free",
+  "title": "IMO Class 1 Maths Practice Test: Free Online Mixed MCQs",
+  "meta_title": "IMO Class 1 Maths Practice Test (Free)",
+  "meta_desc": "Free IMO Class 1 Maths practice test: 10 mixed MCQs across all chapters with answers and explanations, plus 25 full practice papers (750 MCQs).",
+  "excerpt": "A free mixed 10-question IMO Class 1 Maths practice test across every chapter — with instant scoring, explanations and 25 more full papers.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-25-practice-papers.jpg",
+  "cta_product_slug": "imo-class-1-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ready for a full Class 1 Maths Olympiad rehearsal? A real IMO paper mixes every chapter — numbers, addition, subtraction, shapes, measurement, data handling and reasoning — in one 30-question set. This free test gives you a 10-question taste, and the practice-papers e-book gives you 25 complete papers.</p><h2>What a Class 1 IMO practice paper looks like</h2><ul><li>30 questions in one paper, balanced across all 8 chapters</li><li>A mix of number work, shapes, measurement, data and reasoning</li><li>An answer key and step-by-step solution for every question</li><li>Graded intermediate to hard, just like the real Olympiad</li></ul><h2>How to use practice papers well</h2><ul><li>Sit one paper in a quiet 30–40 minute slot, no help</li><li>Mark it with the answer key, then read the solution for every wrong one</li><li>Note which chapter the mistakes cluster in and revise that chapter</li><li>Repeat weekly — steady practice beats last-minute cramming</li></ul><h2>Take the free mixed test</h2><p>The 10 questions below are pulled from across the syllabus. The full <strong>25 Practice Papers e-book</strong> has 750 questions — 25 papers of 30 — each fully solved.</p><p>Learn the syllabus first with the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Maths Mixed Quiz",
+    "intro": "Ten questions from across the syllabus. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: all chapters",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "In the number 57, what does the digit 7 stand for?",
+        "options": [
+          "70",
+          "5",
+          "7",
+          "57"
+        ],
+        "answer": 2,
+        "explanation": "In 57, the 7 is in the ones place, so its value is just 7."
+      },
+      {
+        "q": "A digit is hidden: 5_ + 32 = 89. What is the hidden digit?",
+        "options": [
+          "8",
+          "7",
+          "6",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "The first number must be 57, because 57 + 32 = 89. So the hidden digit is 7."
+      },
+      {
+        "q": "What is 15 − 8?",
+        "options": [
+          "3",
+          "17",
+          "8",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Count back from 15: take away 8 and you land on 7. So 15 − 8 = 7."
+      },
+      {
+        "q": "A pattern repeats like this: red, blue, red, blue, ... What is the 10th colour?",
+        "options": [
+          "red",
+          "green",
+          "blue",
+          "pink"
+        ],
+        "answer": 2,
+        "explanation": "The block of 2 repeats. The 10th colour matches the 2nd one in the block, so it is blue."
+      },
+      {
+        "q": "Which day of the week is 3 days before Saturday?",
+        "options": [
+          "Thursday",
+          "Wednesday",
+          "Tuesday",
+          "Saturday"
+        ],
+        "answer": 1,
+        "explanation": "Count 3 days back from Saturday on the week: you land on Wednesday."
+      },
+      {
+        "q": "The table shows stars earned: Wed 6, Thu 11, Fri 8. How many more stars earned on Thu than on Wed?",
+        "options": [
+          "17",
+          "11",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Take away: 11 − 6 = 5."
+      },
+      {
+        "q": "A pile is made from bottom to top: maths book, drawing book, story book, rhyme book, sticker book. Which one is 4th from the top?",
+        "options": [
+          "Drawing book",
+          "Maths book",
+          "Story book",
+          "Rhyme book"
+        ],
+        "answer": 0,
+        "explanation": "The top one is the sticker book. Counting down 4 places gives the drawing book."
+      },
+      {
+        "q": "Bird is to fly as fish is to ___?",
+        "options": [
+          "swim",
+          "jump",
+          "walk",
+          "hop"
+        ],
+        "answer": 0,
+        "explanation": "A bird moves by flying, and a fish moves by swimming."
+      },
+      {
+        "q": "Which numeral shows \"forty-seven\"?",
+        "options": [
+          "47",
+          "74",
+          "57",
+          "37"
+        ],
+        "answer": 0,
+        "explanation": "Forty-seven means 4 tens and 7 ones, so it is 47."
+      },
+      {
+        "q": "Mohan pays for a kite with Rs 10, Rs 10 and Rs 2. How much does the kite cost?",
+        "options": [
+          "Rs 24",
+          "Rs 20",
+          "Rs 27",
+          "Rs 22"
+        ],
+        "answer": 3,
+        "explanation": "Add the money: Rs 10 + Rs 10 + Rs 2 = Rs 22."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers does the e-book have?",
+      "a": "25 full papers of 30 questions each — 750 unique MCQs in all, every one solved."
+    },
+    {
+      "q": "Are the papers balanced across chapters?",
+      "a": "Yes. Every paper draws questions from all 8 Grade-1 chapters, just like a real Olympiad paper."
+    },
+    {
+      "q": "Is this practice test free?",
+      "a": "Yes — 10 free mixed questions with explanations. The 25-paper e-book is Rs 23."
+    }
+  ]
+}

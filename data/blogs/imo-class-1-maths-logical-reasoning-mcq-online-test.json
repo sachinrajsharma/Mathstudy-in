@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-logical-reasoning-mcq-online-test",
+  "title": "IMO Class 1 Maths Logical Reasoning: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Logical Reasoning Test",
+  "meta_desc": "Free IMO Class 1 Logical Reasoning online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Logical Reasoning online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-logical-reasoning-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-logical-reasoning-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Logical reasoning is the section that separates a good Class 1 Olympiad score from a great one — odd one out, series, analogies, mirror images. It is less about facts and more about spotting the rule. Here is what is tested, how to think about each type, the traps, and a free 10-question test.</p><h2>What the Class 1 Logical Reasoning Olympiad tests</h2><ul><li>Odd one out (classification)</li><li>Series — what comes next</li><li>Analogies (A is to B as C is to ?)</li><li>Mirror images and simple picture coding</li></ul><h2>Key facts your child should know</h2><ul><li>For <strong>odd one out</strong>, find what most items share; the one that breaks the rule is the answer.</li><li>For a <strong>series</strong>, work out the rule (size, colour or shape) and continue it.</li><li>For an <strong>analogy</strong>, find how the first pair is linked, then use the same link for the second pair.</li><li>A <strong>mirror image</strong> flips left to right — the left side becomes the right.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Picking an odd-one-out when two rules seem to fit — a well-set question has a single clear rule, so look again.</li><li>Continuing a series by the wrong feature.</li><li>Flipping a mirror image top-to-bottom instead of left-to-right.</li></ul><h2>Take the free Logical Reasoning test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Logical Reasoning Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Logical Reasoning Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Logical Reasoning",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "Happy is to sad as fast is to ___?",
+        "options": [
+          "quick",
+          "slow",
+          "run",
+          "stop"
+        ],
+        "answer": 1,
+        "explanation": "Sad is the opposite of happy, so the opposite of fast is slow."
+      },
+      {
+        "q": "Which of these looks DIFFERENT (flipped) in a mirror: 0, 7, 8, X?",
+        "options": [
+          "0",
+          "7",
+          "8",
+          "X"
+        ],
+        "answer": 1,
+        "explanation": "0, 8, X look the same on both sides, so a mirror does not change them. 7 is not the same on both sides, so its mirror image looks flipped."
+      },
+      {
+        "q": "If A = 1, B = 2, C = 3 and so on, which word do the numbers 2, 1, 7 spell?",
+        "options": [
+          "CAB",
+          "BAT",
+          "BAG",
+          "BIG"
+        ],
+        "answer": 2,
+        "explanation": "2 = B, 1 = A, 7 = G. So the numbers spell BAG."
+      },
+      {
+        "q": "Front is to back as top is to ___?",
+        "options": [
+          "side",
+          "middle",
+          "above",
+          "bottom"
+        ],
+        "answer": 3,
+        "explanation": "Back is the opposite of front, so the opposite of top is bottom."
+      },
+      {
+        "q": "Up is to down as in is to ___?",
+        "options": [
+          "out",
+          "inside",
+          "under",
+          "over"
+        ],
+        "answer": 0,
+        "explanation": "Down is the opposite of up, so the opposite of in is out."
+      },
+      {
+        "q": "One of these is different from the rest: Pen, Pencil, Crayon, Plate. Which one?",
+        "options": [
+          "Pen",
+          "Pencil",
+          "Crayon",
+          "Plate"
+        ],
+        "answer": 3,
+        "explanation": "A plate is used for food; the other three are used for writing or colouring."
+      },
+      {
+        "q": "If A = 1, B = 2, C = 3 and so on, which word do the numbers 4, 15, 7 spell?",
+        "options": [
+          "DOG",
+          "DIG",
+          "GOD",
+          "DOT"
+        ],
+        "answer": 0,
+        "explanation": "4 = D, 15 = O, 7 = G. So the numbers spell DOG."
+      },
+      {
+        "q": "Bird is to fly as fish is to ___?",
+        "options": [
+          "swim",
+          "jump",
+          "walk",
+          "hop"
+        ],
+        "answer": 0,
+        "explanation": "A bird moves by flying, and a fish moves by swimming."
+      },
+      {
+        "q": "Find the odd one out: Cat, Dog, Cow, Crow.",
+        "options": [
+          "Cat",
+          "Dog",
+          "Crow",
+          "Cow"
+        ],
+        "answer": 2,
+        "explanation": "A crow is a bird; the other three are animals."
+      },
+      {
+        "q": "Which number does not belong in this group: 23, 41, 8, 56?",
+        "options": [
+          "23",
+          "41",
+          "56",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "8 has only one digit; all the others are two-digit numbers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you solve odd one out?",
+      "a": "Find the property most of the group shares — shape, number type or category — and pick the one item that does not share it."
+    },
+    {
+      "q": "What is an analogy question?",
+      "a": "It gives a related pair and asks you to complete a second pair using the same relationship, e.g. big is to small as tall is to short."
+    },
+    {
+      "q": "Is the reasoning test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 MCQs with solutions for Rs 23."
+    }
+  ]
+}
