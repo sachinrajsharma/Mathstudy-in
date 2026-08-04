@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-money-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Money: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Money Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Money online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Money online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-money-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-money-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Money in Class 3 works with rupees and paise, bills and change — practical Olympiad content. Here is what the Maths Olympiad Class 3 money chapter tests, the facts to know, the slips, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Money chapter tests</h2><ul><li>Rupees and paise and the ₹ rupees.paise notation</li><li>Converting between rupees and paise</li><li>Adding and subtracting money</li><li>Bills, totals and making change</li></ul><h2>Key facts your child should know</h2><ul><li><strong>1 rupee = 100 paise.</strong> ₹12.50 means 12 rupees 50 paise.</li><li>To convert ₹ to paise, multiply by 100; paise to ₹, divide by 100.</li><li>Line up the decimal points before adding or subtracting money.</li><li>Change = money given − total cost.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Misplacing the decimal point in a money sum.</li><li>Forgetting that 1 rupee = 100 paise when converting.</li><li>Adding the rupees but forgetting the paise.</li></ul><h2>Take the free Money test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Money Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Money Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Money",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "Rahul must pay a bill of Rs 432 using the fewest notes and coins from 500, 200, 100, 50, 20, 10, 5, 2 and 1. How many will Rahul hand over?",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Start with the biggest denominations: 2 × Rs 200, 1 × Rs 20, 1 × Rs 10, 1 × Rs 2. That makes 5 notes/coins."
+      },
+      {
+        "q": "A shopper buys 5 toffees at Rs 6.00 each and 4 biscuits at Rs 3.25 each. What is the total bill?",
+        "options": [
+          "Rs 45.00",
+          "Rs 41.00",
+          "Rs 30.00",
+          "Rs 43.00"
+        ],
+        "answer": 3,
+        "explanation": "5 × Rs 6.00 = Rs 30.00 and 4 × Rs 3.25 = Rs 13.00; total = Rs 43.00."
+      },
+      {
+        "q": "Convert 1305 paise into rupees.",
+        "options": [
+          "Rs 130.50",
+          "Rs 14.25",
+          "Rs 12.10",
+          "Rs 13.05"
+        ],
+        "answer": 3,
+        "explanation": "100 paise = Rs 1, so 1305 paise = 1305 ÷ 100 = Rs 13.05."
+      },
+      {
+        "q": "Find the cost of 9 candys at Rs 5.05 each.",
+        "options": [
+          "Rs 50.50",
+          "Rs 45.45",
+          "Rs 40.40",
+          "Rs 46.45"
+        ],
+        "answer": 1,
+        "explanation": "Multiply the price by the quantity: 9 × Rs 5.05 = Rs 45.45."
+      },
+      {
+        "q": "A sticker sheet costs Rs 14.35. What is its price in paise?",
+        "options": [
+          "1535 paise",
+          "1435 paise",
+          "14350 paise",
+          "143 paise"
+        ],
+        "answer": 1,
+        "explanation": "Rs 1 = 100 paise, so Rs 14.35 = 1435 paise."
+      },
+      {
+        "q": "Kiran has 480 paise saved in a piggy bank. How much money is that in rupees?",
+        "options": [
+          "Rs 5.80",
+          "Rs 4.80",
+          "Rs 4.30",
+          "Rs 48.00"
+        ],
+        "answer": 1,
+        "explanation": "100 paise = Rs 1, so 480 paise = 480 ÷ 100 = Rs 4.80."
+      },
+      {
+        "q": "A shopper buys 3 folders at Rs 22.50 each and 1 geometry boxs at Rs 45.50 each. What is the total bill?",
+        "options": [
+          "Rs 115.00",
+          "Rs 111.00",
+          "Rs 113.00",
+          "Rs 67.50"
+        ],
+        "answer": 2,
+        "explanation": "3 × Rs 22.50 = Rs 67.50 and 1 × Rs 45.50 = Rs 45.50; total = Rs 113.00."
+      },
+      {
+        "q": "A kite reel costs Rs 73.15 and a spinning top costs Rs 46.80. How much more does the kite reel cost?",
+        "options": [
+          "Rs 27.35",
+          "Rs 26.35",
+          "Rs 25.35",
+          "Rs 119.95"
+        ],
+        "answer": 1,
+        "explanation": "Rs 73.15 − Rs 46.80 = Rs 26.35, so the kite reel costs Rs 26.35 more."
+      },
+      {
+        "q": "Find the cost of 8 notebooks at Rs 12.50 each.",
+        "options": [
+          "Rs 112.50",
+          "Rs 87.50",
+          "Rs 101.00",
+          "Rs 100.00"
+        ],
+        "answer": 3,
+        "explanation": "Multiply the price by the quantity: 8 × Rs 12.50 = Rs 100.00."
+      },
+      {
+        "q": "A purse contains 2 Rs 200 notes, 3 Rs 50 notes, 4 Rs 2 coins. How much money is in the purse?",
+        "options": [
+          "Rs 568.00",
+          "Rs 548.00",
+          "Rs 558.00",
+          "Rs 560.00"
+        ],
+        "answer": 2,
+        "explanation": "Rs 400.00 + Rs 150.00 + Rs 8.00 = Rs 558.00."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many paise are in a rupee?",
+      "a": "One hundred. So ₹5 = 500 paise, and 250 paise = ₹2.50."
+    },
+    {
+      "q": "How do you add money amounts?",
+      "a": "Line up the decimal points, then add like ordinary numbers, keeping the ₹ and the two paise digits."
+    },
+    {
+      "q": "Is the Class 3 money test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 3 money questions with answers for Rs 32."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-practice-test-online-free",
+  "title": "IMO Maths Olympiad Class 3 Sample Papers: Free Online Practice Test",
+  "meta_title": "IMO Class 3 Maths Sample Papers (Free Test)",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 practice test: 10 mixed MCQs across all chapters with answers, plus 25 sample & practice papers PDF (750 MCQs).",
+  "excerpt": "A free mixed 10-question IMO Maths Olympiad Class 3 practice test across every chapter — instant scoring, explanations and 25 more full sample papers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-25-practice-papers.jpg",
+  "cta_product_slug": "imo-class-3-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ready for a full Class 3 Maths Olympiad rehearsal? A real IMO or SOF paper mixes every chapter — numbers, the four operations, fractions, money, measurement, time, geometry and data handling — in one 30-question set. This free test gives a 10-question taste, and the practice-papers e-book gives you 25 complete <em>Maths Olympiad Class 3 sample papers with answers</em>.</p><h2>What a Class 3 IMO sample paper looks like</h2><ul><li>30 questions in one paper, balanced across all 10 chapters</li><li>A mix of number work, operations, fractions, money, measurement, time, geometry and data</li><li>An answer key and step-by-step solution for every question</li><li>Graded intermediate to hard, just like the real SOF Olympiad</li></ul><h2>How to use Class 3 Olympiad practice papers</h2><ul><li>Sit one paper in a quiet 30–40 minute slot, no help</li><li>Mark it with the answer key, then read the solution for every wrong one</li><li>Note which chapter the mistakes cluster in and revise that chapter</li><li>Repeat weekly — steady practice beats last-minute cramming</li></ul><h2>Take the free mixed test</h2><p>The 10 questions below are pulled from across the syllabus. The full <strong>25 Practice Papers e-book</strong> has 750 questions — 25 papers of 30 — each fully solved: the best <em>Maths Olympiad class 3 question papers PDF</em> for exam practice.</p><p>Learn the syllabus first with the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Maths Mixed Quiz",
+    "intro": "Ten questions from across the syllabus. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: all chapters",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "Find the difference between the place value and the face value of 8 in 5,842.",
+        "options": [
+          "800",
+          "801",
+          "808",
+          "792"
+        ],
+        "answer": 3,
+        "explanation": "Place value of 8 = 800, face value = 8. Difference = 800 − 8 = 792."
+      },
+      {
+        "q": "What is 905 + 687 + 438?",
+        "options": [
+          "1930",
+          "2030",
+          "2040",
+          "1154"
+        ],
+        "answer": 1,
+        "explanation": "Add them in turn: 905 + 687 = 1592, then 1592 + 438 = 2030."
+      },
+      {
+        "q": "Multiply: 12 × 13 = ?",
+        "options": [
+          "120",
+          "156",
+          "36",
+          "168"
+        ],
+        "answer": 1,
+        "explanation": "12 × 13 = (12 × 10) + (12 × 3) = 120 + 36 = 156."
+      },
+      {
+        "q": "Find the quotient and remainder: 850 ÷ 9.",
+        "options": [
+          "94 R 4",
+          "94 R 5",
+          "95 R 4",
+          "93 R 4"
+        ],
+        "answer": 0,
+        "explanation": "9 × 94 = 846; 850 − 846 = 4. Quotient 94, remainder 4."
+      },
+      {
+        "q": "What is one-fourth of 32?",
+        "options": [
+          "12",
+          "7",
+          "8",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "one-fourth of 32 means 32 ÷ 4 = 8."
+      },
+      {
+        "q": "Kiran has 480 paise saved in a piggy bank. How much money is that in rupees?",
+        "options": [
+          "Rs 5.80",
+          "Rs 4.80",
+          "Rs 4.30",
+          "Rs 48.00"
+        ],
+        "answer": 1,
+        "explanation": "100 paise = Rs 1, so 480 paise = 480 ÷ 100 = Rs 4.80."
+      },
+      {
+        "q": "Convert 5 km into m.",
+        "options": [
+          "50000 m",
+          "500 m",
+          "5000 m",
+          "6000 m"
+        ],
+        "answer": 2,
+        "explanation": "Using 1 km = 1000 m: 5 km = 5000 m."
+      },
+      {
+        "q": "A cricket match starts at 10:30 am and runs for 3 h 15 min. At what time does it end?",
+        "options": [
+          "2:45 pm",
+          "7:15 am",
+          "1:45 pm",
+          "12:45 pm"
+        ],
+        "answer": 2,
+        "explanation": "10:30 am + 3 h 15 min = 1:45 pm."
+      },
+      {
+        "q": "I am a solid with no flat face and no edge; I am curved all over. Who am I?",
+        "options": [
+          "Cylinder",
+          "Sphere",
+          "Cone",
+          "Cube"
+        ],
+        "answer": 1,
+        "explanation": "Only a sphere is curved everywhere with no flat face and no edge."
+      },
+      {
+        "q": "If 1 picture = 2 chocolates, how many pictures are needed to show 24 chocolates?",
+        "options": [
+          "12",
+          "24",
+          "6",
+          "48"
+        ],
+        "answer": 0,
+        "explanation": "24 ÷ 2 = 12 pictures."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers does the e-book have?",
+      "a": "25 full papers of 30 questions each — 750 unique MCQs in all, every one solved."
+    },
+    {
+      "q": "Are the papers like the real IMO/SOF Class 3 exam?",
+      "a": "Yes. Every paper draws from all 10 Grade-3 chapters and follows the Olympiad MCQ pattern."
+    },
+    {
+      "q": "Is this practice test free?",
+      "a": "Yes — 10 free mixed questions with explanations. The 25-paper e-book is Rs 32."
+    }
+  ]
+}

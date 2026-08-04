@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-data-handling-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Data Handling: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Data Handling Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Data Handling online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Data Handling online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Data handling in Class 3 adds bar graphs to pictographs, tally marks and tables — careful-reading Olympiad questions. Here is what the Maths Olympiad Class 3 data handling chapter tests, the facts, the slips, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Data Handling chapter tests</h2><ul><li>Reading pictographs and their key/scale</li><li>Reading bar graphs</li><li>Tally marks and tables</li><li>Interpreting data — most, fewest, how many more, totals</li></ul><h2>Key facts your child should know</h2><ul><li>In a pictograph, multiply the pictures by the <strong>key</strong> (a symbol may equal 2, 5 or 10).</li><li>On a <strong>bar graph</strong>, read a bar’s height off the scale.</li><li>A <strong>tally</strong> counts in fives; the fifth mark crosses the first four.</li><li>\"How many more\" is a subtraction; the total is the sum of every bar/row.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ignoring the key or the scale.</li><li>Adding when the question asks how many more.</li><li>Misreading a bar between grid lines.</li></ul><h2>Take the free Data Handling test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Data Handling Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Data Handling",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "A pictograph uses 1 face = 4 votes. Team Red has 6 faces and Team Blue has 9 faces. How many more votes has Blue?",
+        "options": [
+          "12",
+          "3",
+          "36",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "Blue = 36, Red = 24; 36 − 24 = 12."
+      },
+      {
+        "q": "On a bar graph, each 1 unit of height stands for 10. A bar is 4 units tall. What value does it show?",
+        "options": [
+          "40",
+          "4",
+          "50",
+          "30"
+        ],
+        "answer": 0,
+        "explanation": "Value = height × scale = 4 × 10 = 40."
+      },
+      {
+        "q": "Trees planted by four houses: House P 16, House Q 28, House R 22, House S 34. Which house planted the fewest trees?",
+        "options": [
+          "House Q",
+          "House R",
+          "House P",
+          "House S"
+        ],
+        "answer": 2,
+        "explanation": "House P planted only 16 trees, the least of the four."
+      },
+      {
+        "q": "A pictograph shows toys made each day: Mon 15, Tue 20, Wed 10, Thu 25. What is the total number of toys?",
+        "options": [
+          "60",
+          "75",
+          "70",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "Add all the values: 15 + 20 + 10 + 25 = 70."
+      },
+      {
+        "q": "In a pictograph 1 symbol = 6 story books, and a half symbol = 3. A row shows 4 full symbols and 1 half symbol. What is the total?",
+        "options": [
+          "27",
+          "24",
+          "30",
+          "33"
+        ],
+        "answer": 0,
+        "explanation": "4 x 6 = 24, plus the half symbol worth 3: 24 + 3 = 27."
+      },
+      {
+        "q": "40 students voted for a favourite colour. Red got 15, Blue got 13, and the rest chose Green. How many chose Green?",
+        "options": [
+          "12",
+          "28",
+          "15",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "Green = 40 − (15 + 13) = 40 − 28 = 12."
+      },
+      {
+        "q": "A pictograph uses 1 symbol = 5 kites. If there are 9 symbols, how many kites are shown?",
+        "options": [
+          "9",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": 2,
+        "explanation": "9 symbols × 5 = 45 kites."
+      },
+      {
+        "q": "Heights (cm): 120, 135, 128, 142. Arranged from shortest to tallest, which comes third?",
+        "options": [
+          "128",
+          "142",
+          "135",
+          "120"
+        ],
+        "answer": 2,
+        "explanation": "Sorted: 120, 128, 135, 142; the third value is 135."
+      },
+      {
+        "q": "Marks scored: Amit 18, Ravi 24, Sara 15, Neha 21. Who scored the second highest?",
+        "options": [
+          "Ravi",
+          "Neha",
+          "Amit",
+          "Sara"
+        ],
+        "answer": 1,
+        "explanation": "From highest to lowest: Ravi 24, Neha 21, Amit 18, Sara 15. The second highest is Neha (21)."
+      },
+      {
+        "q": "If 1 picture = 2 chocolates, how many pictures are needed to show 24 chocolates?",
+        "options": [
+          "12",
+          "24",
+          "6",
+          "48"
+        ],
+        "answer": 0,
+        "explanation": "24 ÷ 2 = 12 pictures."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you read a bar graph?",
+      "a": "Find the top of each bar and read the value off the scale on the side. The tallest bar is the most."
+    },
+    {
+      "q": "What does a pictograph key mean?",
+      "a": "It tells you how many each picture stands for, so you multiply the pictures by the key to get the count."
+    },
+    {
+      "q": "Is the Class 3 data handling test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 3 data handling MCQs for Rs 32."
+    }
+  ]
+}

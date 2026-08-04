@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-addition-and-subtraction-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Addition and Subtraction: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Addition & Subtraction Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Addition and Subtraction online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Addition and Subtraction online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-addition-and-subtraction-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-addition-and-subtraction-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Addition and subtraction in Class 3 reach 3- and 4-digit numbers with carrying and borrowing — high-frequency IMO/SOF Olympiad content. Here is what the chapter tests, the facts worth drilling, the usual mistakes, and a free 10-question test.</p><h2>What the Class 3 Maths Olympiad Addition and Subtraction chapter tests</h2><ul><li>3- and 4-digit addition with carrying</li><li>3- and 4-digit subtraction with borrowing</li><li>Estimation and checking answers</li><li>Missing numbers and one- and two-step word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Add/subtract the <strong>ones first</strong>, then tens, hundreds, thousands.</li><li>Carry when a column reaches 10 or more; borrow when the top digit is too small.</li><li><strong>Estimate</strong> by rounding first: 296 + 405 ≈ 700.</li><li>Check a subtraction by adding the answer back.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to carry or to reduce the next column after borrowing.</li><li>In two-step problems, doing the steps in the wrong order.</li><li>Adding when the problem asks for the difference.</li></ul><h2>Take the free Addition & Subtraction test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Addition and Subtraction Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Addition and Subtraction Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Addition and Subtraction",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "In the subtraction #40 - 573 = 367, which digit is hidden by #?",
+        "options": [
+          "0",
+          "9",
+          "2",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Since 940 - 573 = 367, the hidden hundreds digit of 940 must be 9."
+      },
+      {
+        "q": "What is 905 + 687 + 438?",
+        "options": [
+          "1930",
+          "2030",
+          "2040",
+          "1154"
+        ],
+        "answer": 1,
+        "explanation": "Add them in turn: 905 + 687 = 1592, then 1592 + 438 = 2030."
+      },
+      {
+        "q": "Estimate the difference 726 − 459 by rounding each number to the nearest ten.",
+        "options": [
+          "280",
+          "260",
+          "267",
+          "270"
+        ],
+        "answer": 3,
+        "explanation": "726 rounds to 730 and 459 rounds to 460; estimated difference = 270."
+      },
+      {
+        "q": "Find the missing number: 902 − ____ = 547",
+        "options": [
+          "355",
+          "455",
+          "255",
+          "365"
+        ],
+        "answer": 0,
+        "explanation": "The missing number = starting number − difference, which gives 355."
+      },
+      {
+        "q": "Find the sum: 2,513 + 5,124.",
+        "options": [
+          "7737",
+          "6637",
+          "7637",
+          "7647"
+        ],
+        "answer": 2,
+        "explanation": "No carrying is needed here: 2513 + 5124 = 7637."
+      },
+      {
+        "q": "If 4712 − 1968 = 2744, which addition is the correct check?",
+        "options": [
+          "2744 + 4712 = 1968",
+          "4712 + 1968 = 2744",
+          "2744 + 1968 = 4712",
+          "2744 + 1968 = 4702"
+        ],
+        "answer": 2,
+        "explanation": "Subtraction is checked by adding the answer back to the number taken away: 2744 + 1968 should equal 4712. Indeed 2744 + 1968 = 4712."
+      },
+      {
+        "q": "In the subtraction 7#4 - 286 = 448, which digit is hidden by #?",
+        "options": [
+          "4",
+          "6",
+          "0",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "Since 734 - 286 = 448, the hidden tens digit of 734 must be 3."
+      },
+      {
+        "q": "Subtract: 7,241 − 3,568 = ?",
+        "options": [
+          "3773",
+          "3673",
+          "3663",
+          "4673"
+        ],
+        "answer": 1,
+        "explanation": "Borrowing where needed, 7241 − 3568 = 3673."
+      },
+      {
+        "q": "Arjun bought a school bag for Rs 1240 and gave the shopkeeper a Rs 2000 note. How much change should Arjun get back?",
+        "options": [
+          "860",
+          "760",
+          "750",
+          "3240"
+        ],
+        "answer": 1,
+        "explanation": "Change = Rs 2000 - Rs 1240 = Rs 760."
+      },
+      {
+        "q": "Subtract: 6,305 − 2,748 = ?",
+        "options": [
+          "3657",
+          "3547",
+          "4557",
+          "3557"
+        ],
+        "answer": 3,
+        "explanation": "Borrowing where needed, 6305 − 2748 = 3557."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is regrouping?",
+      "a": "Regrouping is carrying (in addition) or borrowing (in subtraction) between place-value columns when a column overflows or runs short."
+    },
+    {
+      "q": "How do you estimate a sum?",
+      "a": "Round each number to the nearest 10 or 100, then add the rounded values for a quick approximate answer."
+    },
+    {
+      "q": "Is the Class 3 addition & subtraction test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 3 MCQs with answers for Rs 32."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-3-maths-numbers-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 3 Numbers: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 3 Maths Olympiad Numbers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 3 Numbers online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Numbers online test for IMO Maths Olympiad Class 3 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 3",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-3-maths-numbers-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-3-maths-numbers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Numbers is the foundation of the Class 3 Maths Olympiad — place value to thousands, expanded form, rounding and Roman numerals turn up in almost every IMO and SOF paper. This guide covers what the chapter tests, the facts your child needs, the common slips, and a free 10-question online test from our verified bank.</p><h2>What the Class 3 Maths Olympiad Numbers chapter tests</h2><ul><li>Place value in 3- and 4-digit numbers (thousands, hundreds, tens, ones)</li><li>Expanded and standard form, number names, comparing and ordering</li><li>Rounding and estimation (nearest 10 and 100)</li><li>Roman numerals, odd/even and number patterns</li></ul><h2>Key facts your child should know</h2><ul><li>A 4-digit number is <strong>thousands + hundreds + tens + ones</strong>: 3486 = 3000 + 400 + 80 + 6.</li><li>To compare, check the <strong>highest place first</strong>.</li><li>Round to the nearest 10 by looking at the ones (5 or more rounds up); to the nearest 100 by the tens.</li><li>Roman numerals: I=1, V=5, X=10, L=50, C=100; IV=4, IX=9.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Getting the place value of a digit wrong in the expanded form.</li><li>Rounding by the wrong digit.</li><li>Mixing up Roman-numeral add vs subtract (IV is 4, not 6).</li></ul><h2>Take the free Numbers test (IMO Class 3)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 3 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Numbers Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 3 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 3 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 3 Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 3: Numbers",
+    "level": "Class 3",
+    "questions": [
+      {
+        "q": "Find the difference between the place value and the face value of 8 in 5,842.",
+        "options": [
+          "800",
+          "801",
+          "808",
+          "792"
+        ],
+        "answer": 3,
+        "explanation": "Place value of 8 = 800, face value = 8. Difference = 800 − 8 = 792."
+      },
+      {
+        "q": "Write 6000 + 900 + 9 in standard form.",
+        "options": [
+          "6999",
+          "6819",
+          "7909",
+          "6909"
+        ],
+        "answer": 3,
+        "explanation": "Add the parts: 6000 + 900 + 9 = 6909."
+      },
+      {
+        "q": "If 6540, 6045, 6450, 6504 are arranged from largest to smallest, which number comes second?",
+        "options": [
+          "6540",
+          "6045",
+          "6450",
+          "6504"
+        ],
+        "answer": 3,
+        "explanation": "Ordered largest to smallest: 6540, 6504, 6450, 6045. The second number is 6504."
+      },
+      {
+        "q": "A number is made of 9 thousands, 2 hundreds, 6 tens. What is the number?",
+        "options": [
+          "9620",
+          "926",
+          "9260",
+          "9269"
+        ],
+        "answer": 2,
+        "explanation": "9 thousands, 2 hundreds, 6 tens gives 9260; a place that is not mentioned holds the digit 0."
+      },
+      {
+        "q": "How many even numbers are there from 1 to 50?",
+        "options": [
+          "25",
+          "24",
+          "26",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "Every second number is even: 2, 4, …, 50 — that is 25 numbers."
+      },
+      {
+        "q": "In 5387, what is the sum of the place values of the digits 3 and 7?",
+        "options": [
+          "10",
+          "307",
+          "300",
+          "407"
+        ],
+        "answer": 1,
+        "explanation": "Place value of 3 is 300 and place value of 7 is 7. Sum = 300 + 7 = 307."
+      },
+      {
+        "q": "Using the digits 4, 9, 1, 6 once each, form the smallest 4-digit number.",
+        "options": [
+          "9641",
+          "1469",
+          "1559",
+          "4916"
+        ],
+        "answer": 1,
+        "explanation": "For the smallest number, arrange the digits from least to greatest (a 0 cannot start the number): 1469."
+      },
+      {
+        "q": "What comes next: 3, 7, 11, 15, ___?",
+        "options": [
+          "17",
+          "18",
+          "20",
+          "19"
+        ],
+        "answer": 3,
+        "explanation": "The pattern adds 4 each time: 15 + 4 = 19."
+      },
+      {
+        "q": "What is the successor of 6,099?",
+        "options": [
+          "6109",
+          "6099",
+          "6098",
+          "6100"
+        ],
+        "answer": 3,
+        "explanation": "The successor is the number just after it: 6099 + 1 = 6100."
+      },
+      {
+        "q": "How many hundreds are there in 4700?",
+        "options": [
+          "470",
+          "47",
+          "4700",
+          "147"
+        ],
+        "answer": 1,
+        "explanation": "47 hundreds means 47 x 100 = 4700, so there are 47 hundreds in 4700."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is place value in Class 3?",
+      "a": "The value a digit has because of its position. In 3486 the 3 means 3000 (thousands) and the 4 means 400 (hundreds)."
+    },
+    {
+      "q": "How do you round to the nearest 100?",
+      "a": "Look at the tens digit: 5 or more rounds up, less than 5 rounds down. 462 rounds to 500; 431 rounds to 400."
+    },
+    {
+      "q": "Is this Class 3 IMO numbers test free?",
+      "a": "Yes — 10 free MCQs with answers. The e-book adds 100 more Maths Olympiad Class 3 worksheet questions for Rs 32."
+    }
+  ]
+}
