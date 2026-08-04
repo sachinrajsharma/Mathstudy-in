@@ -124,9 +124,10 @@ p  { color:var(--mid); font-size:0.95rem }
 .product-card-img .badge-discount { position:absolute; top:10px; left:10px; background:var(--danger); color:#fff; font-size:0.65rem; font-weight:700; padding:3px 8px; border-radius:4px }
 .product-card-body { padding:14px 16px; flex:1; display:flex; flex-direction:column }
 .product-card-cat  { font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--secondary); margin-bottom:5px }
-.product-card-title{ font-size:0.9rem; font-weight:700; color:var(--dark); line-height:1.4; margin-bottom:6px; flex:1 }
+.product-card-body > a { flex:1 }   /* the title LINK is the flex child — grow it so price+button pin to the bottom */
+.product-card-title{ font-size:0.9rem; font-weight:700; color:var(--dark); line-height:1.4; margin-bottom:6px }
 .product-card-grade{ font-size:0.75rem; color:var(--muted); margin-bottom:10px }
-.product-card-price { display:flex; align-items:center; gap:8px; margin-bottom:12px }
+.product-card-price { display:flex; align-items:center; gap:8px; margin-top:auto; margin-bottom:12px }  /* price+button pinned to card bottom */
 .price-current  { font-size:1.1rem; font-weight:800; color:var(--primary) }
 .price-original { font-size:0.82rem; color:var(--muted); text-decoration:line-through }
 .product-card .btn { width:100%; justify-content:center }
