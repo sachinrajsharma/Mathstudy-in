@@ -68,8 +68,18 @@ const STEPS = [
   ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 
+// Optional targeted run: SETUP_ONLY (or --only=) is a comma-separated list of
+// substrings; only STEPS whose file or label contains one of them are run.
+// Lets /__setup__?only=imo-grade3 run just those steps in seconds instead of
+// re-running the whole ~40-step catalogue. Empty/absent = run everything.
+const onlyArg = (process.env.SETUP_ONLY ||
+  (process.argv.find(a => a.startsWith('--only=')) || '').slice('--only='.length) || '')
+  .split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+if (onlyArg.length) console.log('SETUP_ONLY active — running only steps matching: ' + onlyArg.join(', '));
+
 let ok = 0, skipped = 0, warned = 0;
 for (const [label, file, required] of STEPS) {
+  if (onlyArg.length && !onlyArg.some(t => file.toLowerCase().includes(t) || label.toLowerCase().includes(t))) continue;
   const full = path.join(__dirname, file);
   if (!fs.existsSync(full)) { console.log('\n— SKIP (missing file): ' + file); skipped++; continue; }
   console.log('\n========== ' + label + '  (' + file + ') ==========');
