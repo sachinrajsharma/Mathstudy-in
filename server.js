@@ -166,9 +166,13 @@ app.get('/__setup__', (req, res) => {
   const key = process.env.SETUP_KEY;
   if (!key || req.query.key !== key) return res.status(404).type('text/plain').send('Not found');
   const { execSync } = require('child_process');
+  // Optional targeted run: /__setup__?key=...&only=imo-grade3 runs ONLY the
+  // matching steps (seconds) instead of the whole ~40-step catalogue (minutes).
+  const only = typeof req.query.only === 'string' ? req.query.only : '';
   try {
     const out = execSync(JSON.stringify(process.execPath) + ' ' + JSON.stringify(path.join(__dirname, 'scripts', 'setup-fresh.js')),
-      { cwd: __dirname, encoding: 'utf8', timeout: 180000, maxBuffer: 20 * 1024 * 1024 });
+      { cwd: __dirname, encoding: 'utf8', timeout: 180000, maxBuffer: 20 * 1024 * 1024,
+        env: Object.assign({}, process.env, only ? { SETUP_ONLY: only } : {}) });
     res.type('text/plain').send('SETUP OK ✅\n\n' + out);
   } catch (e) {
     res.status(500).type('text/plain').send('SETUP FAILED ❌\n\n' + (e.stdout || '') + '\n--- stderr ---\n' + (e.stderr || '') + '\n--- message ---\n' + (e.message || ''));
