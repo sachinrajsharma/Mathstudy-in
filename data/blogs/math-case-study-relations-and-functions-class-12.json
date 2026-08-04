@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-relations-and-functions-class-12",
+  "title": "Relations and Functions Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Relations and Functions Case Study Test",
+  "meta_desc": "Free Relations and Functions case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 more in t",
+  "excerpt": "A real Class 12 Relations and Functions case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-relations-and-functions.jpg",
+  "cta_product_slug": "class-12-relations-and-functions-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Relations and Functions</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Relations and Functions case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Relations and Functions case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: The Team Contact List</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>Four members of a project team — labelled 1,2,3 and 4 — use an internal messaging app. The app stores a relation R on the set A={1,2,3,4}, where (x,y)∈ R means “member x has saved member y's number”. After the first week the stored relation is R={(1,1),(2,2),(3,3),(4,4),(1,2),(2,1),(2,3),(3,2)}. The administrator wants to describe this relation using the three standard properties studied in class — reflexive, symmetric and transitive — and to decide whether it is an equivalence relation. If it is not, she would like to know the fewest new entries that would turn it into one, and how the team would then split into groups where everyone has saved everyone else in the group. She checks each property against the actual pairs rather than guessing from the picture.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Relations and Functions?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Relations and Functions Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: The Team Contact List",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Relations and Functions",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "Judging only from the stored pairs, the relation R is",
+        "options": [
+          "reflexive and symmetric",
+          "reflexive and transitive",
+          "symmetric and transitive",
+          "an equivalence relation"
+        ],
+        "answer": 0,
+        "explanation": "Diagonal pairs (1,1),(2,2),(3,3),(4,4) are all present, so R is reflexive. Every off-diagonal pair has its reverse: (1,2)&(2,1) and (2,3)&(3,2), so R is symmetric. It is not transitive (see (iii)), so R is reflexive and symmetric only. (a)."
+      },
+      {
+        "q": "R is symmetric because",
+        "options": [
+          "it contains every pair (k,k)",
+          "it is a subset of A× A",
+          "for every (x,y)∈ R the reverse (y,x) is also in R",
+          "it contains (2,3)"
+        ],
+        "answer": 2,
+        "explanation": "Symmetry is precisely the statement that whenever (x,y)∈ R, the reverse pair (y,x) also lies in R; both mixed pairs here satisfy it. (c)."
+      },
+      {
+        "q": "R fails to be transitive because",
+        "options": [
+          "(2,2)∉ R",
+          "(1,2),(2,3)∈ R but (1,3)∉ R",
+          "(1,2),(2,1)∈ R but (1,1)∉ R",
+          "it is symmetric"
+        ],
+        "answer": 1,
+        "explanation": "(1,2)∈ R and (2,3)∈ R, so transitivity would require (1,3)∈ R; but (1,3)∉ R, so transitivity fails. (b)."
+      },
+      {
+        "q": "The least number of ordered pairs that must be added to make R an equivalence relation is",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "To repair transitivity within {1,2,3} we must add (1,3) and (3,1); these two pairs also keep symmetry, and then {1,2,3} is fully related. Hence 2 pairs suffice. (c)."
+      },
+      {
+        "q": "After that completion, the equivalence classes of the team are",
+        "options": [
+          "{1},{2},{3},{4}",
+          "{1,2,3,4}",
+          "{1,2},{3,4}",
+          "{1,2,3},{4}"
+        ],
+        "answer": 3,
+        "explanation": "Members 1,2,3 become mutually related while 4 stays alone, so the classes are {1,2,3} and {4}. (d)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Relations and Functions in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Relations and Functions is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Relations and Functions e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Relations and Functions case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}

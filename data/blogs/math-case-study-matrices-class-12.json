@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-matrices-class-12",
+  "title": "Matrices Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Matrices Case Study Test",
+  "meta_desc": "Free Matrices case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 more in the e-book.",
+  "excerpt": "A real Class 12 Matrices case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-matrices.jpg",
+  "cta_product_slug": "class-12-matrices-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Matrices</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Matrices case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Matrices case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: A Cultural-Fest Seating Grid</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>A school cultural-fest committee arranges chairs in a hall as a rectangular grid and records the layout as a matrix, one entry for each chair. For the prize ceremony they must seat exactly 36 guests in a perfect rectangle with no empty chair, so the head usher lists every possible number of rows and columns. For the choir they fix a 3×4 block and number its chairs by the rule a_(ij)=4(i-1)+j, read row by row. A last-minute change forces two overlapping seat counts to agree: the committee writes a single matrix equation whose corresponding entries give the unknown counts of boys and girls. Throughout, the usher keeps repeating one rule of thumb — first fix the order of a layout, because the order alone decides whether two seating charts can even be compared, before you ever look at the individual chairs.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Matrices?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Matrices Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: A Cultural-Fest Seating Grid",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Matrices",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The number of distinct rectangular layouts (orders m× n) that seat exactly 36 guests is",
+        "options": [
+          "5",
+          "9",
+          "18",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "A rectangle with 36 chairs has an order m× n for each factor pair of 36: 1×36,\\ 2×18,\\ 3×12,\\ 4×9,\\ 6×6,\\ 9×4,\\ 12×3,\\ 18×2,\\ 36×1 — nine orders. (b)."
+      },
+      {
+        "q": "In the choir block with a_(ij)=4(i-1)+j, the chair number a₃₂ is",
+        "options": [
+          "9",
+          "6",
+          "10",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Using a_(ij)=4(i-1)+j with i=3,\\ j=2: a₃₂=4(3-1)+2=8+2=10. (c)."
+      },
+      {
+        "q": "If [x+y 8 ; 5 x-y]=[10 8 ; 5 4], then x equals",
+        "options": [
+          "7",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Equating entries: x+y=10 and x-y=4. Adding gives 2x=14, so x=7 (and y=3). (a)."
+      },
+      {
+        "q": "Among the layouts seating 36 guests, the one that is a <em>square</em> matrix has order",
+        "options": [
+          "4×9",
+          "3×12",
+          "2×18",
+          "6×6"
+        ],
+        "answer": 3,
+        "explanation": "A square matrix needs equal rows and columns; among the factor pairs of 36 only 6×6 qualifies. (d)."
+      },
+      {
+        "q": "Two seating charts A and B describe the very same arrangement (A=B) exactly when",
+        "options": [
+          "they seat the same number of guests",
+          "they have the same order and equal corresponding entries",
+          "they have the same total of entries",
+          "one is the transpose of the other"
+        ],
+        "answer": 1,
+        "explanation": "By the definition of equality, A=B requires the same order and a_(ij)=b_(ij) for every i,j. (b)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Matrices in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Matrices is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Matrices e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Matrices case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}

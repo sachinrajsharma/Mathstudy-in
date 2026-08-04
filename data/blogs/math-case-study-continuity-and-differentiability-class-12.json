@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-continuity-and-differentiability-class-12",
+  "title": "Continuity and Differentiability Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Continuity and Differentiability Case Study Test",
+  "meta_desc": "Free Continuity and Differentiability case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 ",
+  "excerpt": "A real Class 12 Continuity and Differentiability case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-continuity-and-differentiability.jpg",
+  "cta_product_slug": "class-12-continuity-and-differentiability-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Continuity and Differentiability</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Continuity and Differentiability case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Continuity and Differentiability case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: Stepped Electricity Tariff</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>The State Electricity Board bills domestic users on a two-slab tariff. For the first 200 units of energy consumed in a month the charge builds up along one straight-line rule, and for every unit beyond 200 a steeper rule takes over. A consumer's monthly charge in rupees is modelled by f(x)=6x+150 for 0≤ x≤ 200 and f(x)=9x+k for x&gt;200, where x is the number of units used and k is a constant fixed by the board. Customers complained that in an earlier scheme the bill jumped abruptly the moment usage crossed 200 units. To keep the tariff fair, the board now wants the two pieces to meet exactly at 200 units, so that a customer using slightly more than 200 units pays only slightly more — in other words, the charge function must be continuous at x=200.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Continuity and Differentiability?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Continuity and Differentiability Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: Stepped Electricity Tariff",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Continuity and Differentiability",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The left-hand limit lim\\limits_(x→ 200⁻) f(x) of the monthly charge is",
+        "options": [
+          "₹ 1350",
+          "₹ 1200",
+          "₹ 1800",
+          "₹ 1500"
+        ],
+        "answer": 0,
+        "explanation": "LHL =lim\\limits_(x→200⁻)(6x+150)=6(200)+150=1350 rupees. (a)."
+      },
+      {
+        "q": "The right-hand limit lim\\limits_(x→ 200⁺) f(x), in terms of k, is",
+        "options": [
+          "1800",
+          "1350+k",
+          "1800+k",
+          "9k+200"
+        ],
+        "answer": 2,
+        "explanation": "RHL =lim\\limits_(x→200⁺)(9x+k)=9(200)+k=1800+k. (c)."
+      },
+      {
+        "q": "For the charge to be continuous at x=200 units, the constant k must equal",
+        "options": [
+          "450",
+          "-1350",
+          "0",
+          "-450"
+        ],
+        "answer": 3,
+        "explanation": "Continuity at 200 needs RHL = LHL: 1800+k=1350, so k=-450. (d)."
+      },
+      {
+        "q": "With this value of k, at x=200 the charge function is",
+        "options": [
+          "discontinuous (a jump)",
+          "continuous",
+          "undefined",
+          "a removable discontinuity"
+        ],
+        "answer": 1,
+        "explanation": "With k=-450 both pieces give 1350 at x=200, and f(200)=1350; all three agree, so f is continuous. (b)."
+      },
+      {
+        "q": "If the board mistakenly set k=0, the bill at x=200 units would jump by",
+        "options": [
+          "₹ 450",
+          "₹ 0",
+          "₹ 1800",
+          "₹ 150"
+        ],
+        "answer": 0,
+        "explanation": "If k=0, RHL =1800 while LHL =1350, so the jump is 1800-1350=₹ 450. (a)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Continuity and Differentiability in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Continuity and Differentiability is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Continuity and Differentiability e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Continuity and Differentiability case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}
