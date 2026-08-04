@@ -9,7 +9,7 @@
   "cta_product_slug": "imo-class-4-maths-perimeter-and-area-chapter-tests",
   "author": "Sachin Sharma",
   "status": "published",
-  "content": "<p>Perimeter and area make their Class 4 debut — and Olympiad papers immediately mix them with cost and fencing twists. Here is what the IMO Class 4 perimeter and area chapter tests, the formulas, the classic mix-up, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Perimeter and Area chapter tests</h2><ul><li>Perimeter of squares, rectangles and irregular shapes</li><li>Area of squares and rectangles; counting squares on a grid</li><li>Choosing the right units (cm vs sq cm)</li><li>Fencing, tiling and cost word problems</li></ul><h2>Key facts your child should know</h2><ul><li>P(rectangle) = 2 × (l + b); P(square) = 4 × side.</li><li>A(rectangle) = l × b; A(square) = side × side.</li><li>Perimeter is a length (cm, m); <strong>area is in square units</strong> (sq cm, sq m).</li><li>Fencing/border → perimeter; tiling/carpet → area; cost = amount × rate.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using area when the problem is about a border or fence.</li><li>Adding only two sides for a rectangle’s perimeter.</li><li>Writing area in cm instead of sq cm.</li></ul><h2>Take the free Perimeter & Area test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Perimeter and Area Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "content": "<p>Perimeter and area make their Class 4 debut — and Olympiad papers immediately mix them with cost and fencing twists. Here is what the IMO Class 4 perimeter and area chapter tests, the formulas, the classic mix-up, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Perimeter and Area chapter tests</h2><ul><li>Perimeter of squares, rectangles and irregular shapes</li><li>Area of squares and rectangles; counting squares on a grid</li><li>Choosing the right units (cm vs sq cm)</li><li>Fencing, tiling and cost word problems</li></ul><h2>Key facts your child should know</h2><ul><li>P(rectangle) = 2 × (l + b); P(square) = 4 × side.</li><li>A(rectangle) = l × b; A(square) = side × side.</li><li>Perimeter is a length (cm, m); <strong>area is in square units</strong> (sq cm, sq m).</li><li>Fencing/border → perimeter; tiling/carpet → area; cost = amount × rate.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using area when the problem is about a border or fence.</li><li>Adding only two sides for a rectangle’s perimeter.</li><li>Writing area in cm instead of sq cm.</li></ul><h2>Take the free Perimeter & Area test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Perimeter and Area Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
   "quiz": {
     "title": "IMO Class 4 Perimeter and Area Quiz",
     "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
@@ -25,7 +25,8 @@
           "21 cm"
         ],
         "answer": 3,
-        "explanation": "Length + breadth = perimeter ÷ 2 = 72 ÷ 2 = 36 cm. So length = 36 − 15 = 21 cm."
+        "explanation": "Length + breadth = perimeter ÷ 2 = 72 ÷ 2 = 36 cm. So length = 36 − 15 = 21 cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <text x=\"125\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7c3aed\" font-weight=\"700\">Perimeter = 72 cm</text>\n    <rect x=\"58\" y=\"38\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">?</text>\n    <text x=\"50\" y=\"74\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">15 cm</text></svg>"
       },
       {
         "q": "A square scarf has each side 11 dm. A bigger square scarf has sides twice as long. What is the area of the bigger scarf?",
@@ -36,7 +37,8 @@
           "88 sq dm"
         ],
         "answer": 1,
-        "explanation": "The bigger side = 2 × 11 = 22 dm. Area = 22 × 22 = 484 sq dm (four times the small area of 121 sq dm)."
+        "explanation": "The bigger side = 2 × 11 = 22 dm. Area = 22 × 22 = 484 sq dm (four times the small area of 121 sq dm).",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 210 106\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"65\" y=\"24\" width=\"76\" height=\"76\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <text x=\"103\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">11 dm</text></svg>"
       },
       {
         "q": "The length of a rectangular garden is 12 m and its breadth is 8 m. What is its perimeter?",
@@ -47,7 +49,8 @@
           "32 m"
         ],
         "answer": 0,
-        "explanation": "Perimeter of a rectangle = 2 × (length + breadth) = 2 × (12 + 8) = 2 × 20 = 40 m."
+        "explanation": "Perimeter of a rectangle = 2 × (length + breadth) = 2 × (12 + 8) = 2 × 20 = 40 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">8 m</text></svg>"
       },
       {
         "q": "A kitchen wall measuring 16 m by 8 m is to be covered fully with square tiles of side 4 m. How many tiles are needed?",
@@ -58,7 +61,8 @@
           "8"
         ],
         "answer": 3,
-        "explanation": "Floor area = 16 × 8 = 128 sq m. One tile covers 4 × 4 = 16 sq m. Tiles needed = 128 ÷ 16 = 8."
+        "explanation": "Floor area = 16 × 8 = 128 sq m. One tile covers 4 × 4 = 16 sq m. Tiles needed = 128 ÷ 16 = 8.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">16 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">8 m</text></svg>"
       },
       {
         "q": "On a 1-cm squared grid, a star shape covers 12 full squares and 8 half squares. What is its area?",
@@ -69,7 +73,8 @@
           "28 sq cm"
         ],
         "answer": 0,
-        "explanation": "Each full square = 1 sq cm and 2 half squares make 1 sq cm. Area = 12 + 8 ÷ 2 = 12 + 4 = 16 sq cm."
+        "explanation": "Each full square = 1 sq cm and 2 half squares make 1 sq cm. Area = 12 + 8 ÷ 2 = 12 + 4 = 16 sq cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 236 88\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"52\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"74\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"96\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"118\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"140\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"162\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"184\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"206\" y=\"8\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"8\" y=\"30\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"30\" width=\"20\" height=\"20\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.2\"/><rect x=\"8\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M8 78 L8 58 L28 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M30 78 L30 58 L50 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"52\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M52 78 L52 58 L72 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"74\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M74 78 L74 58 L94 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"96\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M96 78 L96 58 L116 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"118\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M118 78 L118 58 L138 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"140\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M140 78 L140 58 L160 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><rect x=\"162\" y=\"58\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#0d9488\" stroke-width=\"1.2\"/><path d=\"M162 78 L162 58 L182 78 Z\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.2\"/></svg>"
       },
       {
         "q": "Two rectangular mats, one 12 m by 4 m and another 10 m by 6 m, have equal perimeters. How much larger is the area of the second mat?",
@@ -80,7 +85,8 @@
           "8 sq m"
         ],
         "answer": 1,
-        "explanation": "Both perimeters equal 32 m. Areas: 12 × 4 = 48 sq m and 10 × 6 = 60 sq m. Difference = 60 − 48 = 12 sq m."
+        "explanation": "Both perimeters equal 32 m. Areas: 12 × 4 = 48 sq m and 10 × 6 = 60 sq m. Difference = 60 − 48 = 12 sq m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 263 97\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <rect x=\"30\" y=\"51\" width=\"90\" height=\"30\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"75\" y=\"47\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12 m × 4 m</text>\n    <text x=\"146\" y=\"58.5\" font-size=\"18\" text-anchor=\"middle\" fill=\"#ea580c\" font-weight=\"800\">+</text>\n    <rect x=\"172\" y=\"36\" width=\"75\" height=\"45\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2.5\"/>\n    <text x=\"209.5\" y=\"32\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">10 m × 6 m</text></svg>"
       },
       {
         "q": "The area of a rectangular carpet is 96 sq m. If its length is 12 m, what is its breadth?",
@@ -91,7 +97,8 @@
           "8 m"
         ],
         "answer": 3,
-        "explanation": "Breadth = area ÷ length = 96 ÷ 12 = 8 m."
+        "explanation": "Breadth = area ÷ length = 96 ÷ 12 = 8 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <text x=\"125\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7c3aed\" font-weight=\"700\">Area = 96 sq m</text>\n    <rect x=\"58\" y=\"38\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12 m</text>\n    <text x=\"50\" y=\"74\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">?</text></svg>"
       },
       {
         "q": "It costs Rs 200 per square metre to polish a rectangular stage floor that is 9 m by 7 m. Find the total cost.",
@@ -102,7 +109,8 @@
           "Rs 12800"
         ],
         "answer": 2,
-        "explanation": "Area = 9 × 7 = 63 sq m. Cost = 63 × 200 = Rs 12600."
+        "explanation": "Area = 9 × 7 = 63 sq m. Cost = 63 × 200 = Rs 12600.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">9 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">7 m</text></svg>"
       },
       {
         "q": "The perimeter of a rectangular vegetable patch is 40 m and its length is 12 m. Find its breadth.",
@@ -113,7 +121,8 @@
           "10 m"
         ],
         "answer": 1,
-        "explanation": "Length + breadth = perimeter ÷ 2 = 40 ÷ 2 = 20 m. So breadth = 20 − 12 = 8 m."
+        "explanation": "Length + breadth = perimeter ÷ 2 = 40 ÷ 2 = 20 m. So breadth = 20 − 12 = 8 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <text x=\"125\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7c3aed\" font-weight=\"700\">Perimeter = 40 m</text>\n    <rect x=\"58\" y=\"38\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12 m</text>\n    <text x=\"50\" y=\"74\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">?</text></svg>"
       },
       {
         "q": "A rectangular rose garden is 20 m long and 15 m wide. Fencing costs Rs 8 per metre. What is the total cost of fencing it once around?",
@@ -124,7 +133,8 @@
           "Rs 560"
         ],
         "answer": 3,
-        "explanation": "Fence length = perimeter = 2 × (20 + 15) = 70 m. Cost = 70 × 8 = Rs 560."
+        "explanation": "Fence length = perimeter = 2 × (20 + 15) = 70 m. Cost = 70 × 8 = Rs 560.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">20 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">15 m</text></svg>"
       }
     ]
   },
