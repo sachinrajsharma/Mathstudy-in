@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-numbers-and-operations-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Numbers and Operations: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Numbers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Numbers and Operations online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Numbers and Operations online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-numbers-and-operations-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-numbers-and-operations-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Numbers and operations anchor the Class 4 Maths Olympiad — large numbers, place value, rounding, Roman numerals and the four operations appear across every IMO and SOF paper. This guide covers what the chapter tests, the facts your child needs, the common slips, and a free 10-question online test from our verified bank.</p><h2>What the Class 4 Maths Olympiad Numbers and Operations chapter tests</h2><ul><li>Large numbers — place value, expanded form and number names</li><li>Comparing, ordering and rounding</li><li>Roman numerals (I to M)</li><li>The four operations with word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Compare numbers by digits first, then the <strong>highest place</strong>.</li><li>Round by the digit to the right of the target place — <strong>5 or more rounds up</strong>.</li><li>Roman numerals: smaller before bigger subtracts (XL = 40); after adds (LX = 60).</li><li>Dividend = Quotient × Divisor + Remainder; the remainder is less than the divisor.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Misreading the place value in a large number.</li><li>Rounding by the wrong digit.</li><li>Choosing the wrong operation in a two-step word problem.</li></ul><h2>Take the free Numbers test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Numbers and Operations Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Numbers and Operations Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Numbers and Operations",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "A newspaper prints the crowd of 2,64,718 rounded to the nearest 1,000. Which number appears?",
+        "options": [
+          "2,64,000",
+          "2,64,718",
+          "2,65,000",
+          "2,66,000"
+        ],
+        "answer": 2,
+        "explanation": "2,64,718 lies between 2,64,000 and 2,65,000; it is nearer to 2,65,000, so it rounds to 2,65,000."
+      },
+      {
+        "q": "6,003 chocolates are shared equally among 7 friends. How many chocolates remain unshared?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "6,003 ÷ 7 gives quotient 857 (7 × 857 = 5,999), so the remainder is 4."
+      },
+      {
+        "q": "A factory makes 1,275 toys every day. In 25 days, 348 toys are found defective and removed. How many good toys are left?",
+        "options": [
+          "31,875",
+          "31,527",
+          "32,223",
+          "31,427"
+        ],
+        "answer": 1,
+        "explanation": "Toys made = 1,275 × 25 = 31,875. Good toys = 31,875 − 348 = 31,527."
+      },
+      {
+        "q": "13,508 + ▢ = 60,204. Which number goes in the box?",
+        "options": [
+          "47,696",
+          "46,596",
+          "46,706",
+          "46,696"
+        ],
+        "answer": 3,
+        "explanation": "The box holds 60,204 − 13,508 = 46,696."
+      },
+      {
+        "q": "Zoya rounds 8,462 and 5,317 to the nearest 1,000 and then subtracts them. What answer does she get?",
+        "options": [
+          "3,145",
+          "4,000",
+          "2,000",
+          "3,000"
+        ],
+        "answer": 3,
+        "explanation": "8,462 rounds to 8,000 and 5,317 rounds to 5,000; 8,000 − 5,000 = 3,000."
+      },
+      {
+        "q": "847 mangoes are packed equally into 7 crates. How many mangoes go into each crate?",
+        "options": [
+          "121",
+          "120",
+          "122",
+          "131"
+        ],
+        "answer": 0,
+        "explanation": "847 ÷ 7 = 121, since 7 × 121 = 847."
+      },
+      {
+        "q": "A rope 7,215 metres long is cut into 5 equal pieces. How long is each piece, in metres?",
+        "options": [
+          "1,442",
+          "1,443",
+          "1,444",
+          "1,453"
+        ],
+        "answer": 1,
+        "explanation": "7,215 ÷ 5 = 1,443, because 5 × 1,443 = 7,215."
+      },
+      {
+        "q": "How many ten-thousands make one lakh?",
+        "options": [
+          "100",
+          "10",
+          "1000",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "1,00,000 ÷ 10,000 = 10. So 10 ten-thousands make one lakh."
+      },
+      {
+        "q": "A prize of ₹9,000 is shared equally among 6 winners. Each winner then donates ₹750 to charity. How much money does each winner keep?",
+        "options": [
+          "1,500",
+          "850",
+          "500",
+          "750"
+        ],
+        "answer": 3,
+        "explanation": "Each winner gets ₹9,000 ÷ 6 = ₹1,500. After donating, each keeps ₹1,500 − ₹750 = ₹750."
+      },
+      {
+        "q": "Ishita multiplies 687 by 56. What answer should she get?",
+        "options": [
+          "37,785",
+          "39,159",
+          "38,372",
+          "38,472"
+        ],
+        "answer": 3,
+        "explanation": "687 × 56 = 687 × 50 + 687 × 6 = 34,350 + 4,122 = 38,472."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the successor and predecessor of a number?",
+      "a": "The successor is one more and the predecessor is one less. Their difference is always 2."
+    },
+    {
+      "q": "How do you round to the nearest 100?",
+      "a": "Look at the tens digit: 5 or more rounds up, otherwise round down. 462 → 500; 431 → 400."
+    },
+    {
+      "q": "Is this Class 4 IMO numbers test free?",
+      "a": "Yes — 10 free MCQs with answers. The e-book adds 100 more Maths Olympiad Class 4 worksheet questions for Rs 32."
+    }
+  ]
+}

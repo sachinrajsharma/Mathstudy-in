@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-factors-and-multiples-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Factors and Multiples: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Factors & Multiples Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Factors and Multiples online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Factors and Multiples online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-factors-and-multiples-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-factors-and-multiples-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Factors, multiples, primes and divisibility rules are classic Class 4 Olympiad scoring territory — quick marks if the rules are cold. Here is what the IMO Class 4 factors and multiples chapter tests, the facts to drill, the traps, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Factors and Multiples chapter tests</h2><ul><li>Factors and multiples of a number</li><li>Prime and composite numbers</li><li>Divisibility rules for 2, 3, 5, 9 and 10</li><li>HCF and LCM basics</li></ul><h2>Key facts your child should know</h2><ul><li>A <strong>prime</strong> has exactly two factors; <strong>1 is neither</strong> prime nor composite; <strong>2 is the only even prime</strong>.</li><li>Factors are finite; multiples never end.</li><li>Divisible by 3 ⇔ digit sum divisible by 3; by 9 ⇔ digit sum divisible by 9.</li><li>HCF(12, 18) = 6; LCM(4, 6) = 12.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Calling 1 a prime number.</li><li>Missing a factor when counting them all.</li><li>Mixing up HCF and LCM in word problems.</li></ul><h2>Take the free Factors & Multiples test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Factors and Multiples Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Factors and Multiples Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Factors and Multiples",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "Which of these shows 72 as a product of prime factors?",
+        "options": [
+          "2 × 2 × 3 × 3",
+          "2 × 2 × 2 × 3 × 3",
+          "8 × 9",
+          "2 × 3 × 3 × 3"
+        ],
+        "answer": 1,
+        "explanation": "Dividing by primes step by step: 72 = 2 × 2 × 2 × 3 × 3. Every factor in this product is prime and the product equals 72."
+      },
+      {
+        "q": "Mira claims all of 60, 84, 106, 132 are multiples of 12. Which number proves her wrong?",
+        "options": [
+          "60",
+          "106",
+          "84",
+          "132"
+        ],
+        "answer": 1,
+        "explanation": "60 = 12 × 5, 84 = 12 × 7, 132 = 12 × 11, but 106 ÷ 12 = 8 remainder 10, so 106 is not a multiple of 12."
+      },
+      {
+        "q": "Which of these is NOT a multiple of 8: 48, 72, 84, 96?",
+        "options": [
+          "48",
+          "72",
+          "96",
+          "84"
+        ],
+        "answer": 3,
+        "explanation": "48 = 8 × 6, 72 = 8 × 9, 96 = 8 × 12, but 84 ÷ 8 = 10 remainder 4, so 84 is not a multiple of 8."
+      },
+      {
+        "q": "How many prime numbers are there from 1 to 20?",
+        "options": [
+          "7",
+          "9",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "The primes here are 2, 3, 5, 7, 11, 13, 17, 19 — 8 in all."
+      },
+      {
+        "q": "What is the HCF of the three numbers 12, 18 and 30?",
+        "options": [
+          "6",
+          "12",
+          "4",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Common factors of 12, 18 and 30 are 1, 2, 3, 6. The greatest of these is 6."
+      },
+      {
+        "q": "What is the third common multiple of 5 and 10?",
+        "options": [
+          "10",
+          "20",
+          "40",
+          "30"
+        ],
+        "answer": 3,
+        "explanation": "Common multiples of 5 and 10 are 10, 20, 30, … The third one is 30."
+      },
+      {
+        "q": "Count the numbers that are factors of BOTH 20 and 36. How many are there?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The common factors of 20 and 36 are exactly the factors of their HCF 4: 1, 2, 4 — 3 numbers."
+      },
+      {
+        "q": "Rina lists all the factors of 64 and crosses out 64. What is the biggest factor left in her list?",
+        "options": [
+          "64",
+          "16",
+          "32",
+          "33"
+        ],
+        "answer": 2,
+        "explanation": "Factors of 64: 1, 2, 4, 8, 16, 32, 64. Leaving out 64 itself, the largest one is 32 (it equals 64 ÷ 2)."
+      },
+      {
+        "q": "Which is the largest multiple of 6 that is less than 100?",
+        "options": [
+          "90",
+          "102",
+          "98",
+          "96"
+        ],
+        "answer": 3,
+        "explanation": "6 × 16 = 96, while 6 × 17 = 102 crosses 100. So the answer is 96."
+      },
+      {
+        "q": "Which of these is NOT a factor of 90?",
+        "options": [
+          "9",
+          "15",
+          "12",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "90 ÷ 9 = 10, 90 ÷ 15 = 6, 90 ÷ 18 = 5 — all exact. But 90 ÷ 12 does not give a whole number, so 12 is not a factor."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why is 1 not a prime number?",
+      "a": "A prime needs exactly two different factors. The number 1 has only one factor (itself), so it is neither prime nor composite."
+    },
+    {
+      "q": "What is the divisibility rule for 9?",
+      "a": "Add the digits; if the sum divides by 9, so does the number. 729 → 7+2+9 = 18 → divisible."
+    },
+    {
+      "q": "Is the Class 4 factors test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 4 MCQs with answers for Rs 32."
+    }
+  ]
+}

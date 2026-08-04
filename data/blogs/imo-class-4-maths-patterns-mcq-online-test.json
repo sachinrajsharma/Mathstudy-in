@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-patterns-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Patterns: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Patterns Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Patterns online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Patterns online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-patterns-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-patterns-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Patterns are the reasoning heart of the Class 4 Olympiad — number sequences, growing patterns and letter codes that reward rule-spotting. This guide covers what the Maths Olympiad Class 4 patterns chapter tests, how to crack each type, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Patterns chapter tests</h2><ul><li>Number patterns with constant and growing steps</li><li>Doubling/halving and square-number patterns</li><li>Shape and letter patterns</li><li>Simple coding rules</li></ul><h2>Key facts your child should know</h2><ul><li>Write the <strong>differences</strong> between terms — a constant step or a growing step jumps out.</li><li>3, 6, 12, 24 doubles each time; 1, 4, 9, 16 are square numbers.</li><li>For letter patterns, count the alphabet steps (A→C is +2).</li><li>Apply the SAME rule from the solved pair to the asked pair.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Continuing by the wrong feature (colour vs shape).</li><li>Missing that the step itself grows (+1, +2, +3, …).</li><li>Counting alphabet steps inclusively.</li></ul><h2>Take the free Patterns test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Patterns Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Patterns Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Patterns",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "In a 3×3 magic square, the centre number is 9. What is the magic sum of each row, column and diagonal?",
+        "options": [
+          "18",
+          "30",
+          "81",
+          "27"
+        ],
+        "answer": 3,
+        "explanation": "In every 3×3 magic square the magic sum is 3 times the centre number: 3 × 9 = 27."
+      },
+      {
+        "q": "A 3×3 magic square uses each of the numbers 3 to 11 exactly once. What is the magic sum of each row, column and diagonal?",
+        "options": [
+          "24",
+          "21",
+          "18",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "The total of all nine numbers is 63; divided among 3 rows, each row sums to 21."
+      },
+      {
+        "q": "A growing pattern of dots has 2, 7, 12, 17 dots in its first four figures. How many dots will the 5th figure have?",
+        "options": [
+          "27",
+          "21",
+          "17",
+          "22"
+        ],
+        "answer": 3,
+        "explanation": "Each figure grows by 5 dots: 17 + 5 = 22."
+      },
+      {
+        "q": "A pattern repeats: A, B, B, A, B, B, … What is the 10th letter?",
+        "options": [
+          "B",
+          "C",
+          "A",
+          "Both"
+        ],
+        "answer": 2,
+        "explanation": "The block A,B,B has length 3. 10 = 3×3 + 1, so the 10th letter starts a new block: A."
+      },
+      {
+        "q": "Fill in the missing number: 14, 26, ___, 50, 62.",
+        "options": [
+          "50",
+          "26",
+          "38",
+          "39"
+        ],
+        "answer": 2,
+        "explanation": "The pattern adds 12 each time, so the missing term is 38."
+      },
+      {
+        "q": "A pattern starts at 1 and adds 8 each time (1, 9, 17, …). What is the 11th term?",
+        "options": [
+          "81",
+          "89",
+          "73",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "The 11th term = 1 + 8 × 10 = 1 + 80 = 81."
+      },
+      {
+        "q": "A pattern starts at 7 and adds 3 each time (7, 10, 13, …). What is the 12th term?",
+        "options": [
+          "43",
+          "40",
+          "37",
+          "84"
+        ],
+        "answer": 1,
+        "explanation": "The 12th term = 7 + 3 × 11 = 7 + 33 = 40."
+      },
+      {
+        "q": "What comes next: 91, 83, 75, 67, 59, ___?",
+        "options": [
+          "43",
+          "50",
+          "52",
+          "51"
+        ],
+        "answer": 3,
+        "explanation": "Each term decreases by 8: 59 − 8 = 51."
+      },
+      {
+        "q": "Fill in the missing number: 8, ___, 30, 41, 52.",
+        "options": [
+          "19",
+          "30",
+          "8",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "The pattern adds 11 each time, so the missing term is 19."
+      },
+      {
+        "q": "Tara counts down from 100 in steps of 8: 100, 92, 84, … Which of these numbers will she say?",
+        "options": [
+          "52",
+          "53",
+          "54",
+          "49"
+        ],
+        "answer": 0,
+        "explanation": "Every number said differs from 100 by a multiple of 8; 100 − 8 × 6 = 52, so 52 is said."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find a number pattern rule?",
+      "a": "Subtract neighbouring terms. Equal differences mean a constant step; growing differences mean the step increases each time."
+    },
+    {
+      "q": "What comes next in 2, 3, 5, 8, 12?",
+      "a": "17 — the steps are +1, +2, +3, +4, so the next step is +5."
+    },
+    {
+      "q": "Is the Class 4 patterns test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 4 pattern questions with answers for Rs 32."
+    }
+  ]
+}

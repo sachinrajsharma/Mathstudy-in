@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-perimeter-and-area-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Perimeter and Area: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Perimeter & Area Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Perimeter and Area online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Perimeter and Area online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-perimeter-and-area-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-perimeter-and-area-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Perimeter and area make their Class 4 debut — and Olympiad papers immediately mix them with cost and fencing twists. Here is what the IMO Class 4 perimeter and area chapter tests, the formulas, the classic mix-up, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Perimeter and Area chapter tests</h2><ul><li>Perimeter of squares, rectangles and irregular shapes</li><li>Area of squares and rectangles; counting squares on a grid</li><li>Choosing the right units (cm vs sq cm)</li><li>Fencing, tiling and cost word problems</li></ul><h2>Key facts your child should know</h2><ul><li>P(rectangle) = 2 × (l + b); P(square) = 4 × side.</li><li>A(rectangle) = l × b; A(square) = side × side.</li><li>Perimeter is a length (cm, m); <strong>area is in square units</strong> (sq cm, sq m).</li><li>Fencing/border → perimeter; tiling/carpet → area; cost = amount × rate.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Using area when the problem is about a border or fence.</li><li>Adding only two sides for a rectangle’s perimeter.</li><li>Writing area in cm instead of sq cm.</li></ul><h2>Take the free Perimeter & Area test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Perimeter and Area Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Perimeter and Area Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Perimeter and Area",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "The perimeter of a rectangular drawing sheet is 72 cm and its breadth is 15 cm. What is its length?",
+        "options": [
+          "57 cm",
+          "36 cm",
+          "24 cm",
+          "21 cm"
+        ],
+        "answer": 3,
+        "explanation": "Length + breadth = perimeter ÷ 2 = 72 ÷ 2 = 36 cm. So length = 36 − 15 = 21 cm."
+      },
+      {
+        "q": "A square scarf has each side 11 dm. A bigger square scarf has sides twice as long. What is the area of the bigger scarf?",
+        "options": [
+          "242 sq dm",
+          "484 sq dm",
+          "121 sq dm",
+          "88 sq dm"
+        ],
+        "answer": 1,
+        "explanation": "The bigger side = 2 × 11 = 22 dm. Area = 22 × 22 = 484 sq dm (four times the small area of 121 sq dm)."
+      },
+      {
+        "q": "The length of a rectangular garden is 12 m and its breadth is 8 m. What is its perimeter?",
+        "options": [
+          "40 m",
+          "96 m",
+          "20 m",
+          "32 m"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter of a rectangle = 2 × (length + breadth) = 2 × (12 + 8) = 2 × 20 = 40 m."
+      },
+      {
+        "q": "A kitchen wall measuring 16 m by 8 m is to be covered fully with square tiles of side 4 m. How many tiles are needed?",
+        "options": [
+          "128",
+          "32",
+          "12",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Floor area = 16 × 8 = 128 sq m. One tile covers 4 × 4 = 16 sq m. Tiles needed = 128 ÷ 16 = 8."
+      },
+      {
+        "q": "On a 1-cm squared grid, a star shape covers 12 full squares and 8 half squares. What is its area?",
+        "options": [
+          "16 sq cm",
+          "20 sq cm",
+          "12 sq cm",
+          "28 sq cm"
+        ],
+        "answer": 0,
+        "explanation": "Each full square = 1 sq cm and 2 half squares make 1 sq cm. Area = 12 + 8 ÷ 2 = 12 + 4 = 16 sq cm."
+      },
+      {
+        "q": "Two rectangular mats, one 12 m by 4 m and another 10 m by 6 m, have equal perimeters. How much larger is the area of the second mat?",
+        "options": [
+          "48 sq m",
+          "12 sq m",
+          "60 sq m",
+          "8 sq m"
+        ],
+        "answer": 1,
+        "explanation": "Both perimeters equal 32 m. Areas: 12 × 4 = 48 sq m and 10 × 6 = 60 sq m. Difference = 60 − 48 = 12 sq m."
+      },
+      {
+        "q": "The area of a rectangular carpet is 96 sq m. If its length is 12 m, what is its breadth?",
+        "options": [
+          "84 m",
+          "10 m",
+          "16 m",
+          "8 m"
+        ],
+        "answer": 3,
+        "explanation": "Breadth = area ÷ length = 96 ÷ 12 = 8 m."
+      },
+      {
+        "q": "It costs Rs 200 per square metre to polish a rectangular stage floor that is 9 m by 7 m. Find the total cost.",
+        "options": [
+          "Rs 6400",
+          "Rs 6300",
+          "Rs 12600",
+          "Rs 12800"
+        ],
+        "answer": 2,
+        "explanation": "Area = 9 × 7 = 63 sq m. Cost = 63 × 200 = Rs 12600."
+      },
+      {
+        "q": "The perimeter of a rectangular vegetable patch is 40 m and its length is 12 m. Find its breadth.",
+        "options": [
+          "28 m",
+          "8 m",
+          "20 m",
+          "10 m"
+        ],
+        "answer": 1,
+        "explanation": "Length + breadth = perimeter ÷ 2 = 40 ÷ 2 = 20 m. So breadth = 20 − 12 = 8 m."
+      },
+      {
+        "q": "A rectangular rose garden is 20 m long and 15 m wide. Fencing costs Rs 8 per metre. What is the total cost of fencing it once around?",
+        "options": [
+          "Rs 2400",
+          "Rs 70",
+          "Rs 568",
+          "Rs 560"
+        ],
+        "answer": 3,
+        "explanation": "Fence length = perimeter = 2 × (20 + 15) = 70 m. Cost = 70 × 8 = Rs 560."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When do I use perimeter and when area?",
+      "a": "Perimeter for anything going around (fence, border, frame, lace); area for anything covering the surface (tiles, carpet, paint)."
+    },
+    {
+      "q": "What is the area of a 16 dm × 13 dm sheet?",
+      "a": "16 × 13 = 208 sq dm — multiply length by breadth."
+    },
+    {
+      "q": "Is the Class 4 perimeter & area test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 4 MCQs with solutions for Rs 32."
+    }
+  ]
+}

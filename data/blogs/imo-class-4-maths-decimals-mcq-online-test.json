@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-decimals-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Decimals: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Decimals Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Decimals online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Decimals online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-decimals-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-decimals-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Decimals arrive in Class 4 with tenths and hundredths — and Olympiad papers love decimal-fraction conversions and comparisons. Here is what the IMO Class 4 decimals chapter tests, the facts, the traps, and a free 10-question test with answers.</p><h2>What the Class 4 Maths Olympiad Decimals chapter tests</h2><ul><li>Decimal place value (tenths and hundredths)</li><li>Fraction ↔ decimal conversion</li><li>Comparing and ordering decimals</li><li>Adding and subtracting decimals</li></ul><h2>Key facts your child should know</h2><ul><li>In 3.47: 4 is <strong>tenths</strong> (4/10) and 7 is <strong>hundredths</strong> (7/100).</li><li>3/10 = 0.3; 45/100 = 0.45; 1/4 = 0.25; 1/2 = 0.5.</li><li>Padding zeros changes nothing: 0.5 = 0.50, so 0.5 &gt; 0.45.</li><li>Line up the decimal points before adding or subtracting.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Thinking 0.45 &gt; 0.5 because 45 &gt; 5.</li><li>Misaligning decimal points in a sum.</li><li>Writing 7/100 as 0.7 instead of 0.07.</li></ul><h2>Take the free Decimals test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Decimals Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Decimals Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Decimals",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "A carpenter joins a plank of 1.85 m with another of 2.35 m. How long is the joined plank?",
+        "options": [
+          "4.20 m",
+          "3.20 m",
+          "4.30 m",
+          "0.50 m"
+        ],
+        "answer": 0,
+        "explanation": "1.85 + 2.35 = 4.20 m."
+      },
+      {
+        "q": "Which decimal equals the fraction 5/100?",
+        "options": [
+          "0.5",
+          "5.0",
+          "0.55",
+          "0.05"
+        ],
+        "answer": 3,
+        "explanation": "5 hundredths = 0.05; a zero is needed in the tenths place."
+      },
+      {
+        "q": "A square is divided into 100 equal parts and 45 parts are shaded. Which decimal shows the shaded part?",
+        "options": [
+          "0.55",
+          "0.45",
+          "4.5",
+          "0.04"
+        ],
+        "answer": 1,
+        "explanation": "45 out of 100 equal parts means 45 hundredths = 0.45."
+      },
+      {
+        "q": "In which place does the digit 5 sit in 61.58, and what is its value?",
+        "options": [
+          "Hundredths; 0.05",
+          "Ones; 5",
+          "Tenths; 0.5",
+          "Tens; 50"
+        ],
+        "answer": 2,
+        "explanation": "5 is the first digit after the decimal point, so it is in the tenths place with value 0.5."
+      },
+      {
+        "q": "3.5 is the same as how many tenths?",
+        "options": [
+          "35",
+          "350",
+          "3",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "3.5 = 35/10, so it contains 35 tenths."
+      },
+      {
+        "q": "6 + 0.09 = ?",
+        "options": [
+          "6.9",
+          "6.90",
+          "0.69",
+          "6.09"
+        ],
+        "answer": 3,
+        "explanation": "6 ones + 9 hundredths, with 0 tenths, gives 6.09."
+      },
+      {
+        "q": "How many hundredths make 1.2?",
+        "options": [
+          "1200",
+          "120",
+          "12",
+          "130"
+        ],
+        "answer": 1,
+        "explanation": "1.2 = 120/100, so it contains 120 hundredths."
+      },
+      {
+        "q": "A notebook costs ₹24.50 and a pen costs ₹8.75. How much do they cost together?",
+        "options": [
+          "₹32.25",
+          "₹33.35",
+          "₹33.25",
+          "₹15.75"
+        ],
+        "answer": 2,
+        "explanation": "₹24.50 + ₹8.75 = ₹33.25."
+      },
+      {
+        "q": "What is the place value of 6 in 3.96?",
+        "options": [
+          "6",
+          "0.6",
+          "0.06",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "The 6 is in the hundredths place, so its value is 6 hundredths = 0.06."
+      },
+      {
+        "q": "As a fraction, 0.3 is the same as ___.",
+        "options": [
+          "3/10",
+          "3/100",
+          "10/3",
+          "13/10"
+        ],
+        "answer": 0,
+        "explanation": "0.3 means 3 tenths = 3/10."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you compare two decimals?",
+      "a": "Compare the whole parts first, then tenths, then hundredths. Pad with zeros to the same length if it helps."
+    },
+    {
+      "q": "What is 3/4 as a decimal?",
+      "a": "0.75 — because 3 ÷ 4 = 0.75, the same as 75/100."
+    },
+    {
+      "q": "Is this Class 4 decimals test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 4 decimal MCQs for Rs 32."
+    }
+  ]
+}

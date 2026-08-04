@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-geometry-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Geometry: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Geometry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Geometry online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Geometry online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-geometry-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-geometry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Geometry in Class 4 spans lines, angles, circles, solids and symmetry — visual questions where knowing the exact facts wins. This guide covers what the IMO Class 4 geometry chapter tests, the facts to know cold, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Geometry chapter tests</h2><ul><li>Lines, rays, segments; parallel and perpendicular lines</li><li>Angle types (acute, right, obtuse, straight)</li><li>Circles — radius, diameter and d = 2r</li><li>Solids (cube/cuboid facts) and lines of symmetry</li></ul><h2>Key facts your child should know</h2><ul><li>Acute &lt; 90°; right = 90°; obtuse between 90° and 180°; straight = 180°.</li><li><strong>Diameter = 2 × radius</strong>; radius = diameter ÷ 2.</li><li>A cube/cuboid has 6 faces, 12 edges, 8 vertices; opposite dice faces total 7.</li><li>Lines of symmetry: square 4, rectangle 2, equilateral triangle 3, circle unlimited.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up radius and diameter.</li><li>Counting edges as vertices on a solid.</li><li>Assuming every triangle has a line of symmetry (a scalene has none).</li></ul><h2>Take the free Geometry test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Geometry Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Geometry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Geometry",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "How many lines of symmetry does the capital letter Z have?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The capital letter Z has 0 lines of symmetry."
+      },
+      {
+        "q": "Which of these regular shapes CANNOT tile a floor all by itself without gaps?",
+        "options": [
+          "Square",
+          "Equilateral triangle",
+          "Regular pentagon",
+          "Regular hexagon"
+        ],
+        "answer": 2,
+        "explanation": "The angles of a regular pentagon (108°) cannot add up to 360° around a point, so gaps are always left; the other three tessellate."
+      },
+      {
+        "q": "How many lines of symmetry does the capital letter O have?",
+        "options": [
+          "many (unlimited)",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "The capital letter O has many (unlimited) lines of symmetry."
+      },
+      {
+        "q": "Two lines that never meet, however far they are extended, are called",
+        "options": [
+          "perpendicular lines",
+          "intersecting lines",
+          "crossing lines",
+          "parallel lines"
+        ],
+        "answer": 3,
+        "explanation": "Lines keeping the same distance apart and never meeting are parallel."
+      },
+      {
+        "q": "All the radii of one circle are",
+        "options": [
+          "equal in length",
+          "different lengths",
+          "half the chord",
+          "longer than the diameter"
+        ],
+        "answer": 0,
+        "explanation": "Every radius of a circle has the same length."
+      },
+      {
+        "q": "How many diameters can be drawn in one circle?",
+        "options": [
+          "Only 1",
+          "Only 2",
+          "Only 4",
+          "Unlimited (countless)"
+        ],
+        "answer": 3,
+        "explanation": "A diameter can be drawn through the centre in any direction — endlessly many."
+      },
+      {
+        "q": "Two angles together make one right angle. If one of them is 35°, what is the other?",
+        "options": [
+          "65°",
+          "45°",
+          "55°",
+          "145°"
+        ],
+        "answer": 2,
+        "explanation": "A right angle is 90°, so the other angle is 90 - 35 = 55°."
+      },
+      {
+        "q": "The rungs (steps) of a straight ladder are an example of",
+        "options": [
+          "parallel line segments",
+          "perpendicular line segments",
+          "intersecting line segments",
+          "curved line segments"
+        ],
+        "answer": 0,
+        "explanation": "The rungs of a ladder stay the same distance apart and never meet — they are parallel."
+      },
+      {
+        "q": "An angle measures 89°. What type of angle is it?",
+        "options": [
+          "Right angle",
+          "Obtuse angle",
+          "Straight angle",
+          "Acute angle"
+        ],
+        "answer": 3,
+        "explanation": "89° is less than 90°, so it is an acute angle."
+      },
+      {
+        "q": "The capital letter T shows mainly which pair of lines?",
+        "options": [
+          "Parallel lines",
+          "Perpendicular lines",
+          "Curved lines",
+          "Slanting lines only"
+        ],
+        "answer": 1,
+        "explanation": "In T, the top stroke meets the vertical stroke at 90° — perpendicular."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between radius and diameter?",
+      "a": "The radius runs from the centre to the circle; the diameter crosses the whole circle through the centre and equals two radii."
+    },
+    {
+      "q": "How many right angles make a straight angle?",
+      "a": "Two — 90° + 90° = 180°."
+    },
+    {
+      "q": "Is the Class 4 geometry test free?",
+      "a": "Yes — 10 free MCQs with figures. The e-book has 100 Maths Olympiad Class 4 geometry MCQs for Rs 32."
+    }
+  ]
+}

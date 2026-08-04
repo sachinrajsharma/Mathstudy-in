@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-measurement-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Measurement: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Measurement Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Measurement online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Measurement online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-measurement-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-measurement-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Measurement in Class 4 is all about conversions — mm to km, mg to kg, mL to L — plus adding and comparing measures. This guide covers what the IMO Class 4 measurement chapter tests, the conversion facts, the slips, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Measurement chapter tests</h2><ul><li>Length (mm, cm, m, km) and conversions</li><li>Weight (mg, g, kg)</li><li>Capacity (mL, L)</li><li>Adding, subtracting and comparing measures in word problems</li></ul><h2>Key facts your child should know</h2><ul><li>1 cm = 10 mm; 1 m = 100 cm; 1 km = 1000 m.</li><li>1 g = 1000 mg; 1 kg = 1000 g; 1 L = 1000 mL.</li><li>Bigger → smaller unit: multiply. Smaller → bigger: divide.</li><li>Convert to the same unit before adding: 6 kg 750 g + 2 kg 850 g = 9 kg 600 g.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Multiplying instead of dividing (or vice-versa) in conversions.</li><li>Adding mixed units without converting first.</li><li>Dropping a zero in ×1000 conversions.</li></ul><h2>Take the free Measurement test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Measurement Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Measurement Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Measurement",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "How many metres make 12 km?",
+        "options": [
+          "1200 m",
+          "12,000 m",
+          "1,20,000 m",
+          "12,012 m"
+        ],
+        "answer": 1,
+        "explanation": "12 km = 12 x 1000 = 12,000 m."
+      },
+      {
+        "q": "How many metres are there in 9 km?",
+        "options": [
+          "900 m",
+          "90,000 m",
+          "9090 m",
+          "9000 m"
+        ],
+        "answer": 3,
+        "explanation": "1 km = 1000 m, so 9 km = 9 x 1000 = 9000 m."
+      },
+      {
+        "q": "An electric wire of 14 m 10 cm is bought, and 6 m 45 cm of it is used for wiring a room. How much wire is left?",
+        "options": [
+          "8 m 65 cm",
+          "6 m 65 cm",
+          "7 m 65 cm",
+          "7 m 75 cm"
+        ],
+        "answer": 2,
+        "explanation": "In cm: 14 m 10 cm = 1410 cm and 6 m 45 cm = 645 cm. 1410 - 645 = 765 cm = 7 m 65 cm."
+      },
+      {
+        "q": "A canteen buys 3 cans of oil, each of 1 L 500 mL. It uses 2 L 800 mL for frying. How much oil remains?",
+        "options": [
+          "1 L 800 mL",
+          "1 L 700 mL",
+          "1 L 600 mL",
+          "2 L 800 mL"
+        ],
+        "answer": 1,
+        "explanation": "Bought = 1500 x 3 = 4500 mL. Remaining = 4500 - 2800 = 1700 mL = 1 L 700 mL."
+      },
+      {
+        "q": "How many millilitres are there in 7 L?",
+        "options": [
+          "7000 mL",
+          "700 mL",
+          "70,000 mL",
+          "7070 mL"
+        ],
+        "answer": 0,
+        "explanation": "1 L = 1000 mL, so 7 L = 7 x 1000 = 7000 mL."
+      },
+      {
+        "q": "A jogging loop in a park is 250 m around. How many rounds make 1 km 500 m?",
+        "options": [
+          "7",
+          "5",
+          "10",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "1 km 500 m = 1500 m. Rounds = 1500 / 250 = 6."
+      },
+      {
+        "q": "A curtain piece measures 725 cm. Express this length in metres and centimetres.",
+        "options": [
+          "8 m 25 cm",
+          "6 m 25 cm",
+          "7 m 25 cm",
+          "72 m 50 cm"
+        ],
+        "answer": 2,
+        "explanation": "100 cm = 1 m. 725 cm = 7 m and 25 cm, i.e. 7 m 25 cm."
+      },
+      {
+        "q": "Each bag of rice weighs 2 kg 500 g. What is the total weight of 3 such bags?",
+        "options": [
+          "7 kg 600 g",
+          "7 kg 400 g",
+          "5 kg",
+          "7 kg 500 g"
+        ],
+        "answer": 3,
+        "explanation": "2 kg 500 g = 2500 in the smallest unit. 2500 × 3 = 7500, which is 7 kg 500 g."
+      },
+      {
+        "q": "An underground water pipeline is 9905 m. Express this distance in kilometres and metres.",
+        "options": [
+          "10 km 5 m",
+          "9 km 805 m",
+          "9 km 905 m",
+          "99 km 5 m"
+        ],
+        "answer": 2,
+        "explanation": "1000 m = 1 km. 9905 m = 9 km and 905 m, i.e. 9 km 905 m."
+      },
+      {
+        "q": "A courier van covers 1 km 300 m to the depot, 2 km 750 m to the market and 4 km 200 m to the mall. What is the total distance covered?",
+        "options": [
+          "8 km 250 m",
+          "8 km 350 m",
+          "8 km 150 m",
+          "9 km 250 m"
+        ],
+        "answer": 0,
+        "explanation": "In metres: 1300 + 2750 + 4200 = 8250 m = 8 km 250 m."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many grams are in 2.5 kg?",
+      "a": "2500 g — multiply by 1000 when converting kilograms to grams."
+    },
+    {
+      "q": "How do you add 1 m 40 cm and 2 m 75 cm?",
+      "a": "Convert to cm (140 + 275 = 415 cm) then back: 4 m 15 cm."
+    },
+    {
+      "q": "Is the Class 4 measurement test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 4 measurement MCQs for Rs 32."
+    }
+  ]
+}
