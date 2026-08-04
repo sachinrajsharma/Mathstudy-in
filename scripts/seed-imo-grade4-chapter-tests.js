@@ -39,13 +39,13 @@ const BOOKS = [
   { chap: 'measurement', title: 'Measurement', pc: 52, short: 'Measurement', topics: 'length, weight and capacity with conversions (mm to km, mg to kg, mL to L) and word problems' },
   { chap: 'time', title: 'Time', pc: 52, short: 'Time', topics: 'the 24-hour clock, elapsed time, the calendar, leap years and time conversions' },
   { chap: 'geometry', title: 'Geometry', pc: 54, short: 'Geometry', topics: 'lines and angles, triangles, circles (radius and diameter), solids and symmetry' },
-  { chap: 'perimeter-and-area', title: 'Perimeter and Area', pc: 53, short: 'Perimeter & Area', topics: 'perimeter and area of squares and rectangles, grids, and fencing and tiling word problems' },
+  { chap: 'perimeter-and-area', title: 'Perimeter and Area', pc: 65, short: 'Perimeter & Area', topics: 'perimeter and area of squares and rectangles, grids, and fencing and tiling word problems' },
   { chap: 'patterns', title: 'Patterns', pc: 52, short: 'Patterns', topics: 'number, shape and letter patterns, growing sequences and simple coding' },
-  { chap: 'data-handling', title: 'Data Handling', pc: 53, short: 'Data Handling', topics: 'pictographs with keys, bar graphs, tally marks, tables and interpreting data' },
+  { chap: 'data-handling', title: 'Data Handling', pc: 73, short: 'Data Handling', topics: 'pictographs with keys, bar graphs, tally marks, tables and interpreting data' },
 ];
 
 const PRACTICE = {
-  chap: '25-practice-papers', title: '25 Practice Papers', pc: 263, isPractice: true, short: '25 Practice Papers',
+  chap: '25-practice-papers', title: '25 Practice Papers', pc: 283, isPractice: true, short: '25 Practice Papers',
   topics: 'all eleven Grade-4 chapters — numbers and operations, factors and multiples, fractions, decimals, money, measurement, time, geometry, perimeter and area, patterns and data handling',
 };
 
