@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-practice-test-online-free",
+  "title": "IMO Maths Olympiad Class 4 Sample Papers: Free Online Practice Test",
+  "meta_title": "IMO Class 4 Maths Sample Papers (Free Test)",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 practice test: 10 mixed MCQs across all chapters with answers, plus 25 sample & practice papers PDF (750 MCQs).",
+  "excerpt": "A free mixed 10-question IMO Maths Olympiad Class 4 practice test across every chapter — instant scoring, explanations and 25 more full sample papers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-25-practice-papers.jpg",
+  "cta_product_slug": "imo-class-4-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ready for a full Class 4 Maths Olympiad rehearsal? A real IMO or SOF paper mixes every chapter — numbers, factors, fractions, decimals, money, measurement, time, geometry, perimeter and area, patterns and data handling — in one 30-question set. This free test gives a 10-question taste, and the practice-papers e-book gives you 25 complete <em>Maths Olympiad Class 4 sample papers with answers</em>.</p><h2>What a Class 4 IMO sample paper looks like</h2><ul><li>30 questions in one paper, balanced across all 11 chapters</li><li>A mix of number work, factors, fractions, decimals, money, measurement, time, geometry and data</li><li>An answer key and step-by-step solution for every question</li><li>Graded intermediate to hard, just like the real SOF Olympiad</li></ul><h2>How to use Class 4 Olympiad practice papers</h2><ul><li>Sit one paper in a quiet 30–40 minute slot, no help</li><li>Mark it with the answer key, then read the solution for every wrong one</li><li>Note which chapter the mistakes cluster in and revise that chapter</li><li>Repeat weekly — steady practice beats last-minute cramming</li></ul><h2>Take the free mixed test</h2><p>The 10 questions below are pulled from across the syllabus. The full <strong>25 Practice Papers e-book</strong> has 750 questions — 25 papers of 30 — each fully solved: the best <em>Maths Olympiad class 4 question papers PDF</em> for exam practice.</p><p>Learn the syllabus first with the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Maths Mixed Quiz",
+    "intro": "Ten questions from across the syllabus. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: all chapters",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "A newspaper prints the crowd of 2,64,718 rounded to the nearest 1,000. Which number appears?",
+        "options": [
+          "2,64,000",
+          "2,64,718",
+          "2,65,000",
+          "2,66,000"
+        ],
+        "answer": 2,
+        "explanation": "2,64,718 lies between 2,64,000 and 2,65,000; it is nearer to 2,65,000, so it rounds to 2,65,000."
+      },
+      {
+        "q": "A gardener has 36 rose plants and 54 lily plants. He plants them in rows so that every row has the same number of plants and only one kind of plant. What is the greatest possible number of plants in each row?",
+        "options": [
+          "12",
+          "20",
+          "18",
+          "36"
+        ],
+        "answer": 2,
+        "explanation": "The row size must divide 36 and also 54. The greatest such number is the HCF of 36 and 54 = 18."
+      },
+      {
+        "q": "What is the sum of 3/11 and 5/11?",
+        "options": [
+          "8/22",
+          "2/11",
+          "8/11",
+          "9/11"
+        ],
+        "answer": 2,
+        "explanation": "The denominators are the same, so add the numerators: 3 + 5 = 8, giving 8/11."
+      },
+      {
+        "q": "The fraction 9/10 equals which decimal?",
+        "options": [
+          "0.9",
+          "0.09",
+          "9.10",
+          "1.9"
+        ],
+        "answer": 0,
+        "explanation": "9 tenths = 0.9."
+      },
+      {
+        "q": "School shoes are marked Rs 1290, and a festival offer takes Rs 195 off the price. What is the price after the discount?",
+        "options": [
+          "Rs 1095",
+          "Rs 1485",
+          "Rs 1100",
+          "Rs 1090"
+        ],
+        "answer": 0,
+        "explanation": "Price paid = marked price - discount = Rs 1290 - Rs 195 = Rs 1095."
+      },
+      {
+        "q": "The distance between Riya's house and her school is 3475 m. Express this distance in kilometres and metres.",
+        "options": [
+          "3 km 475 m",
+          "3 km 575 m",
+          "3 km 375 m",
+          "34 km 75 m"
+        ],
+        "answer": 0,
+        "explanation": "1000 m = 1 km. 3475 m = 3 km and 475 m, i.e. 3 km 475 m."
+      },
+      {
+        "q": "A train leaves at 10:40 pm. After 3 h 30 min, at what time will it reach its destination?",
+        "options": [
+          "2:40 am",
+          "1:40 am",
+          "2:10 pm",
+          "2:10 am"
+        ],
+        "answer": 3,
+        "explanation": "10:40 pm + 3 h 30 min crosses midnight, so the answer is 2:10 am the next day."
+      },
+      {
+        "q": "The two strokes of the capital letter X are the best example of",
+        "options": [
+          "parallel lines",
+          "curved lines",
+          "lines that never meet",
+          "intersecting lines"
+        ],
+        "answer": 3,
+        "explanation": "The strokes of X cross each other at a point — they are intersecting lines."
+      },
+      {
+        "q": "A veranda measuring 18 m by 12 m is to be covered fully with square tiles of side 3 m. How many tiles are needed?",
+        "options": [
+          "216",
+          "24",
+          "72",
+          "28"
+        ],
+        "answer": 1,
+        "explanation": "Floor area = 18 × 12 = 216 sq m. One tile covers 3 × 3 = 9 sq m. Tiles needed = 216 ÷ 9 = 24."
+      },
+      {
+        "q": "Fill in the missing number: 9, 16, ___, 30, 37.",
+        "options": [
+          "30",
+          "16",
+          "23",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "The pattern adds 7 each time, so the missing term is 23."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers does the e-book have?",
+      "a": "25 full papers of 30 questions each — 750 unique MCQs in all, every one solved."
+    },
+    {
+      "q": "Are the papers like the real IMO/SOF Class 4 exam?",
+      "a": "Yes. Every paper draws from all 11 Grade-4 chapters and follows the Olympiad MCQ pattern."
+    },
+    {
+      "q": "Is this practice test free?",
+      "a": "Yes — 10 free mixed questions with explanations. The 25-paper e-book is Rs 32."
+    }
+  ]
+}

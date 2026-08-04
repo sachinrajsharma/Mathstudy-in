@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-data-handling-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Data Handling: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Data Handling Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Data Handling online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Data Handling online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Data handling in Class 4 reads pictographs with keys, bar graphs and tables — careful-counting marks that add up fast. Here is what the IMO Class 4 data handling chapter tests, the facts, the slips, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Data Handling chapter tests</h2><ul><li>Pictographs with keys/scales (including half-symbols)</li><li>Bar graphs and their scales</li><li>Tally marks and tables</li><li>Interpretation — most/fewest, how many more, totals</li></ul><h2>Key facts your child should know</h2><ul><li>Multiply symbols × <strong>key</strong>; a half-symbol is half the key.</li><li>Read each bar against the scale, not by eye.</li><li>Tallies count in fives — the fifth mark crosses the four.</li><li>\"How many more\" → subtract; total → add every row.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ignoring the key and counting symbols as 1.</li><li>Misreading a bar that ends between grid lines.</li><li>Adding rows when the question asks for a difference.</li></ul><h2>Take the free Data Handling test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Data Handling Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Data Handling",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "A table records visitors to a science exhibition over five days: Wed 70, Thu 65, Fri 85, Sat 110, Sun 95. What is the total for all five days?",
+        "options": [
+          "415",
+          "425",
+          "435",
+          "330"
+        ],
+        "answer": 1,
+        "explanation": "Total = 70 + 65 + 85 + 110 + 95 = 425."
+      },
+      {
+        "q": "A pie chart shows the favourite fruits of some students, 200 students in all. One quarter of the pie shows those who chose mango. How many students is that?",
+        "options": [
+          "50",
+          "100",
+          "150",
+          "200"
+        ],
+        "answer": 0,
+        "explanation": "A quarter of 200 = 200 ÷ 4 = 50 students."
+      },
+      {
+        "q": "The pencils bought by some children were: 4, 6, 6, 8, 6, 10, 4. What is the mode of this data?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "The mode is the value that appears most often. 6 appears 3 times — more than any other value."
+      },
+      {
+        "q": "A bar graph uses the scale 1 unit = 5. How many units tall should the bar for children who chose football be, if the value is 45?",
+        "options": [
+          "45",
+          "9",
+          "10",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Height in units = value ÷ scale = 45 ÷ 5 = 9 units."
+      },
+      {
+        "q": "A table shows rainfall over four weeks: Week 1 35, Week 2 50, Week 3 20, Week 4 45. What is the total rainfall in mm?",
+        "options": [
+          "150",
+          "140",
+          "160",
+          "155"
+        ],
+        "answer": 0,
+        "explanation": "Total = 35 + 50 + 20 + 45 = 150."
+      },
+      {
+        "q": "A monitor makes a tally chart of 37 ducklings counted at a village pond, marking bundles of five. How many complete bundles of five will the tally have?",
+        "options": [
+          "2",
+          "8",
+          "32",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "37 = 7 × 5 + 2, so there are 7 complete bundles and 2 single marks left over."
+      },
+      {
+        "q": "A bar graph uses the scale 1 unit = 20. How many units tall should the bar for trees planted by Class 4 be, if the value is 140?",
+        "options": [
+          "140",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Height in units = value ÷ scale = 140 ÷ 20 = 7 units."
+      },
+      {
+        "q": "On a bar graph the scale is 1 unit = 10. The bar showing mangoes picked on Tuesday is 9 units tall. What value does the bar show?",
+        "options": [
+          "9",
+          "100",
+          "80",
+          "90"
+        ],
+        "answer": 3,
+        "explanation": "Value = height × scale = 9 × 10 = 90."
+      },
+      {
+        "q": "Here are the fruits picked on chits in a class game, in order: guava, litchi, guava, papaya, guava, litchi, cherry. Which one is the mode of this data?",
+        "options": [
+          "litchi",
+          "guava",
+          "papaya",
+          "cherry"
+        ],
+        "answer": 1,
+        "explanation": "The mode is the item that occurs most often. \"guava\" occurs 3 times, more than any other."
+      },
+      {
+        "q": "A graph shows mango trees in four orchards: Orchard K 58, Orchard L 72, Orchard M 66, Orchard N 49. Which one is the second highest?",
+        "options": [
+          "Orchard K",
+          "Orchard L",
+          "Orchard M",
+          "Orchard N"
+        ],
+        "answer": 2,
+        "explanation": "From highest to lowest: Orchard L 72, Orchard M 66, Orchard K 58, Orchard N 49. The second highest is Orchard M (66)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What does a half-symbol mean in a pictograph?",
+      "a": "Half the key. If one symbol = 10 books, a half-symbol = 5 books."
+    },
+    {
+      "q": "How do you read a bar graph scale?",
+      "a": "Check what each grid line stands for (1, 2, 5, 10 …) and read the bar top against it."
+    },
+    {
+      "q": "Is the Class 4 data handling test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 4 data handling MCQs for Rs 32."
+    }
+  ]
+}

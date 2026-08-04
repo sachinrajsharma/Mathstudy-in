@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-time-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Time: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Time Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Time online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Time online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-time-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-time-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Time questions in Class 4 use the 24-hour clock, elapsed time and the calendar — small facts, easy marks, frequent slips. Here is what the Maths Olympiad Class 4 time chapter tests, the facts to memorise, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Time chapter tests</h2><ul><li>The 24-hour clock (conversions both ways)</li><li>Elapsed time across hours and noon/midnight</li><li>The calendar, days between dates and leap years</li><li>Conversions (seconds, minutes, hours, days, weeks)</li></ul><h2>Key facts your child should know</h2><ul><li>For p.m. (except 12 p.m.) <strong>add 12</strong>: 3:30 p.m. = 15:30; midnight = 00:00.</li><li>Count elapsed time in steps: to the next hour, then whole hours, then the rest.</li><li>1 h = 60 min; 1 min = 60 s; 1 day = 24 h; 1 week = 7 days.</li><li>Leap year: divisible by 4 (century years by 400) — February gets 29 days.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding 12 to a.m. times when converting to 24-hour.</li><li>Miscounting elapsed time across noon or midnight.</li><li>Forgetting the leap-year rule for century years.</li></ul><h2>Take the free Time test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Time Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Time Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Time",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "An exam begins at 10:40 am and lasts 2 h 35 min. At what time does the exam end?",
+        "options": [
+          "1:45 pm",
+          "12:45 pm",
+          "1:15 pm",
+          "1:15 am"
+        ],
+        "answer": 2,
+        "explanation": "10:40 am + 2 h 35 min takes us past 12 noon: the end time is 1:15 pm."
+      },
+      {
+        "q": "How many days come strictly between 25 April and 9 May, leaving out both dates?",
+        "options": [
+          "13 days",
+          "14 days",
+          "15 days",
+          "12 days"
+        ],
+        "answer": 0,
+        "explanation": "After 25 April there are 5 days left in April, and before 9 May there are 8 days: 5 + 8 = 13 days."
+      },
+      {
+        "q": "The station clock shows 13:05. What time is this on a 12-hour clock?",
+        "options": [
+          "1:05 am",
+          "1:05 pm",
+          "2:05 pm",
+          "12:05 pm"
+        ],
+        "answer": 1,
+        "explanation": "13:05 is past 12 noon, so subtract 12 from the hours: 13 - 12 = 1. The time is 1:05 pm."
+      },
+      {
+        "q": "A chemistry practical begins at 09:35 and goes on for 2 h 20 min. Write the finishing time on the 24-hour clock.",
+        "options": [
+          "12:25",
+          "11:25",
+          "12:55",
+          "11:55"
+        ],
+        "answer": 3,
+        "explanation": "09:35 + 2 h 20 min = 11:55 on the 24-hour clock."
+      },
+      {
+        "q": "The station clock shows 15:10. What time is this on a 12-hour clock?",
+        "options": [
+          "3:10 am",
+          "4:10 pm",
+          "2:10 pm",
+          "3:10 pm"
+        ],
+        "answer": 3,
+        "explanation": "15:10 is past 12 noon, so subtract 12 from the hours: 15 - 12 = 3. The time is 3:10 pm."
+      },
+      {
+        "q": "A delivery van leaves the warehouse at 16:50 and goes on for 3 h 5 min. Write the finishing time on the 24-hour clock.",
+        "options": [
+          "19:55",
+          "20:25",
+          "19:25",
+          "20:55"
+        ],
+        "answer": 0,
+        "explanation": "16:50 + 3 h 5 min = 19:55 on the 24-hour clock."
+      },
+      {
+        "q": "A handicraft exhibition runs from 18 November to 3 December, counting both dates. For how many days is it open?",
+        "options": [
+          "15 days",
+          "17 days",
+          "14 days",
+          "16 days"
+        ],
+        "answer": 3,
+        "explanation": "November gives 13 days (from 18 to 30, both counted) and December gives 3 more: 16 days in all."
+      },
+      {
+        "q": "A ferry sets off at 09:50 and docks at 15:35. How long is the crossing?",
+        "options": [
+          "5 h 55 min",
+          "5 h 45 min",
+          "5 h 35 min",
+          "6 h 45 min"
+        ],
+        "answer": 1,
+        "explanation": "From 09:50 to 15:35 is 5 h 45 min (count on to the next full hour, then add the rest)."
+      },
+      {
+        "q": "The egg timer was set to 6 min 20 s. How many seconds is that?",
+        "options": [
+          "620 s",
+          "380 s",
+          "320 s",
+          "395 s"
+        ],
+        "answer": 1,
+        "explanation": "6 min = 6 x 60 = 360 s. Then 360 + 20 = 380 s."
+      },
+      {
+        "q": "A summer camp runs from 25 March to 8 April, counting both days. For how many days does the camp run?",
+        "options": [
+          "15 days",
+          "14 days",
+          "16 days",
+          "17 days"
+        ],
+        "answer": 0,
+        "explanation": "March has 31 days: from 25 March to 31 March is 7 days (both counted), then 8 more days of April gives 15 days."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is 14:20 in 12-hour time?",
+      "a": "2:20 p.m. — subtract 12 from hours 13 and above."
+    },
+    {
+      "q": "How do you count elapsed time?",
+      "a": "Count on from the start: to the next full hour, then whole hours, then the leftover minutes, and add the pieces."
+    },
+    {
+      "q": "Is this Class 4 time test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 4 time questions with answers for Rs 32."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-4-maths-fractions-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 4 Fractions: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 4 Maths Olympiad Fractions Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 4 Fractions online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Fractions online test for IMO Maths Olympiad Class 4 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 4",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-4-maths-fractions-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-4-maths-fractions-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Fractions in Class 4 stretch to improper fractions, mixed numbers, simplest form and comparisons — a favourite Olympiad hunting ground. This guide explains what the Maths Olympiad Class 4 fractions chapter tests, the key ideas, the traps, and a free 10-question test.</p><h2>What the Class 4 Maths Olympiad Fractions chapter tests</h2><ul><li>Proper, improper and mixed fractions (conversions both ways)</li><li>Equivalent fractions and simplest form</li><li>Comparing and ordering fractions</li><li>Adding/subtracting like fractions and fraction of a number</li></ul><h2>Key facts your child should know</h2><ul><li>7/4 = 1 3/4 because 7 ÷ 4 = 1 remainder 3.</li><li><strong>Simplest form</strong>: divide top and bottom by their HCF — 8/12 = 2/3.</li><li>Same numerator → the smaller denominator is the bigger fraction.</li><li>3/4 of 20 = 20 ÷ 4 × 3 = 15.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding denominators when adding like fractions.</li><li>Leaving an answer unsimplified when simplest form is asked.</li><li>Flipping the comparison for same-numerator fractions.</li></ul><h2>Take the free Fractions test (IMO Class 4)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 4 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Fractions Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 4 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 4 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 4 Fractions Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 4: Fractions",
+    "level": "Class 4",
+    "questions": [
+      {
+        "q": "A train has completed 4/7 of its journey. What fraction of the journey is still remaining?",
+        "options": [
+          "3/7",
+          "4/7",
+          "2/7",
+          "5/7"
+        ],
+        "answer": 0,
+        "explanation": "Whole journey = 7/7. Remaining = 7/7 - 4/7 = 3/7."
+      },
+      {
+        "q": "Which of the following is a proper fraction?",
+        "options": [
+          "3/8",
+          "7/4",
+          "9/5",
+          "11/6"
+        ],
+        "answer": 0,
+        "explanation": "In 3/8 the numerator 3 is less than the denominator 8, so it is a proper fraction."
+      },
+      {
+        "q": "4 2/5 is the same as which improper fraction?",
+        "options": [
+          "22/5",
+          "18/5",
+          "14/5",
+          "6/5"
+        ],
+        "answer": 0,
+        "explanation": "Multiply the whole part by the denominator and add the numerator: 4 x 5 + 2 = 22, so 4 2/5 = 22/5."
+      },
+      {
+        "q": "Write 3 1/6 as an improper fraction.",
+        "options": [
+          "17/6",
+          "9/6",
+          "4/6",
+          "19/6"
+        ],
+        "answer": 3,
+        "explanation": "Multiply the whole part by the denominator and add the numerator: 3 x 6 + 1 = 19, so 3 1/6 = 19/6."
+      },
+      {
+        "q": "Aman ate 5/12 of a chocolate bar. What fraction of the bar is left?",
+        "options": [
+          "7/12",
+          "5/12",
+          "6/12",
+          "8/12"
+        ],
+        "answer": 0,
+        "explanation": "The whole bar is 12/12. Left = 12/12 - 5/12 = 7/12."
+      },
+      {
+        "q": "Sonal painted 3/10 of a wall before lunch and 4/10 after lunch. What fraction of the wall did she paint in total?",
+        "options": [
+          "7/20",
+          "1/10",
+          "8/10",
+          "7/10"
+        ],
+        "answer": 3,
+        "explanation": "Same denominators, so add numerators: 3 + 4 = 7, giving 7/10."
+      },
+      {
+        "q": "A jar is 1/6 full of sugar. Another 5/18 of the jar is filled. What fraction of the jar is now full, in simplest form?",
+        "options": [
+          "6/24",
+          "4/9",
+          "6/18",
+          "8/18"
+        ],
+        "answer": 1,
+        "explanation": "Change 1/6 to denominator 18: 1/6 = 3/18. Then 3/18 + 5/18 = 8/18 = 4/9."
+      },
+      {
+        "q": "1/8 + 5/8 = ? (Give the answer in simplest form.)",
+        "options": [
+          "6/16",
+          "3/4",
+          "4/8",
+          "6/8"
+        ],
+        "answer": 1,
+        "explanation": "The denominators are the same, so add the numerators: 1 + 5 = 6, giving 6/8 = 3/4 in simplest form."
+      },
+      {
+        "q": "2/5 = 8/?. Which number goes in place of the question mark?",
+        "options": [
+          "25",
+          "20",
+          "15",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "The numerator 2 was multiplied by 4 to get 8, so the denominator becomes 5 x 4 = 20."
+      },
+      {
+        "q": "2/9 = ?/27. Find the missing numerator.",
+        "options": [
+          "8",
+          "4",
+          "6",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "The denominator 9 was multiplied by 3 to get 27, so the numerator becomes 2 x 3 = 6."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you convert an improper fraction to a mixed number?",
+      "a": "Divide the top by the bottom: the quotient is the whole part and the remainder sits over the same denominator. 11/4 = 2 3/4."
+    },
+    {
+      "q": "What is simplest form?",
+      "a": "A fraction whose top and bottom share no common factor except 1 — divide both by their HCF to get it."
+    },
+    {
+      "q": "Is the Class 4 fractions test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 4 fraction questions with solutions for Rs 32."
+    }
+  ]
+}
