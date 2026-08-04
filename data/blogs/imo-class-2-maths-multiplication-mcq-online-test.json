@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-multiplication-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Multiplication: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Multiplication Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Multiplication online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Multiplication online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-multiplication-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-multiplication-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Multiplication starts in Class 2 with equal groups, arrays and the 2–10 tables — core content for the Maths Olympiad Class 2 syllabus. Here is what it tests, the facts to memorise, the common mix-ups, and a free 10-question test.</p><h2>What the Class 2 Maths Olympiad Multiplication chapter tests</h2><ul><li>Equal groups and repeated addition (4 + 4 + 4 = 3 × 4)</li><li>Arrays (rows × columns)</li><li>Multiplication tables 2 to 10 and multiplication facts</li><li>Word problems with \"each\", \"every\" and \"groups of\"</li></ul><h2>Key facts your child should know</h2><ul><li><strong>3 × 4 = 12</strong> is 3 groups of 4, the same as 4 + 4 + 4.</li><li>Order does not matter: <strong>3 × 4 = 4 × 3</strong>.</li><li>× 1 leaves a number unchanged; <strong>× 0 gives 0</strong>.</li><li>An array of r rows and c columns has r × c items.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding instead of multiplying for equal groups.</li><li>Miscounting a table fact (e.g. 7 × 8).</li><li>Reversing rows and columns yet expecting a different answer.</li></ul><h2>Take the free Multiplication test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Multiplication Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Multiplication Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Multiplication",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "A classroom has 4 rows of 7 desks and 3 more desks near the door. How many desks are there?",
+        "options": [
+          "28",
+          "14",
+          "25",
+          "31"
+        ],
+        "answer": 3,
+        "explanation": "Rows first: 4 × 7 = 28 desks. Add the extra 3: 28 + 3 = 31."
+      },
+      {
+        "q": "Which number does NOT come in the table of 6: 24, 36, 44, 54?",
+        "options": [
+          "24",
+          "44",
+          "36",
+          "54"
+        ],
+        "answer": 1,
+        "explanation": "24 = 6 × 4, 36 = 6 × 6 and 54 = 6 × 9, but no number times 6 gives 44."
+      },
+      {
+        "q": "An album page holds 10 stamps. Ishan fills 3 pages and has 7 loose stamps. How many stamps does he have?",
+        "options": [
+          "30",
+          "20",
+          "37",
+          "23"
+        ],
+        "answer": 2,
+        "explanation": "Rows first: 3 × 10 = 30 stamps. Add the extra 7: 30 + 7 = 37."
+      },
+      {
+        "q": "Find the sum of 6 × 0 and 6 × 1.",
+        "options": [
+          "0",
+          "12",
+          "7",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "6 × 0 = 0 and 6 × 1 = 6. Their sum is 0 + 6 = 6."
+      },
+      {
+        "q": "A farm has 2 spiders and 3 ants. Each of the spiders has 8 legs and each of the ants has 6 legs. How many legs are there in all?",
+        "options": [
+          "34",
+          "16",
+          "5",
+          "40"
+        ],
+        "answer": 0,
+        "explanation": "spiders: 2 × 8 = 16 legs. ants: 3 × 6 = 18 legs. Together: 16 + 18 = 34."
+      },
+      {
+        "q": "Each of the stools has 3 legs. How many legs do 8 stools have altogether?",
+        "options": [
+          "11",
+          "21",
+          "32",
+          "24"
+        ],
+        "answer": 3,
+        "explanation": "8 stools × 3 legs each = 8 × 3 = 24 legs."
+      },
+      {
+        "q": "Kavya has 3 vases with 9 roses in each. How many roses are there in all?",
+        "options": [
+          "12",
+          "18",
+          "27",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "3 vases of 9 each means 3 × 9 = 27 roses."
+      },
+      {
+        "q": "A farm has 6 cats and 5 pigeons. Each of the cats has 4 legs and each of the pigeons has 2 legs. How many legs are there in all?",
+        "options": [
+          "24",
+          "11",
+          "34",
+          "44"
+        ],
+        "answer": 2,
+        "explanation": "cats: 6 × 4 = 24 legs. pigeons: 5 × 2 = 10 legs. Together: 24 + 10 = 34."
+      },
+      {
+        "q": "A packet has 8 biscuits. Riya takes 5 packets to school and shares 2 packets equally between two class parties. How many biscuits does EACH party get?",
+        "options": [
+          "40",
+          "16",
+          "0",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "2 packets have 2 × 8 = 16 biscuits. Split equally in two: 8 each."
+      },
+      {
+        "q": "Ravi knows 6 × 9 = 54. Without multiplying again, what is 9 × 6?",
+        "options": [
+          "63",
+          "48",
+          "54",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "Turning the numbers around does not change the product: 9 × 6 = 6 × 9 = 54."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How is multiplication like addition?",
+      "a": "Multiplication is repeated addition of equal groups: 3 × 4 means 4 added three times, which is 12."
+    },
+    {
+      "q": "Does the order matter in multiplication?",
+      "a": "No. 3 × 4 and 4 × 3 both equal 12 — that is the order (commutative) rule."
+    },
+    {
+      "q": "Is the Class 2 multiplication test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 2 multiplication MCQs with answers for Rs 32."
+    }
+  ]
+}

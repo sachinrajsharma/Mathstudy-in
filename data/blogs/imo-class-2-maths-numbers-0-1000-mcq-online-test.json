@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-numbers-0-1000-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Numbers (0–1000): Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Numbers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Numbers (0–1000) online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Numbers (0–1000) online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-numbers-0-1000-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-numbers-0-1000-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Numbers up to 1000 is the backbone of the Class 2 Maths Olympiad — place value, expanded form and ordering appear in almost every IMO and SOF paper. This guide covers what the chapter tests, the facts a Class 2 child needs, the slips that cost marks, and a free 10-question online test drawn from our verified question bank.</p><h2>What the Class 2 Maths Olympiad Numbers (0–1000) chapter tests</h2><ul><li>Place value — reading a 3-digit number as hundreds, tens and ones</li><li>Expanded and standard form, and number names to 1000</li><li>Comparing and ordering 3-digit numbers with &lt;, &gt; and =</li><li>Skip counting, ordinal numbers and odd/even</li></ul><h2>Key facts your child should know</h2><ul><li>A three-digit number is <strong>hundreds + tens + ones</strong>: 346 = 300 + 40 + 6.</li><li>To compare, look at the <strong>hundreds first</strong>, then tens, then ones. So 642 &gt; 624.</li><li>Skip counting by 100 keeps the tens and ones the same: 100, 200, 300…</li><li><strong>Even</strong> numbers end in 0, 2, 4, 6, 8; <strong>odd</strong> in 1, 3, 5, 7, 9.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Writing the expanded form with the wrong place values (e.g. 40 instead of 4 for the tens digit).</li><li>Comparing the ones before the hundreds when ordering.</li><li>Confusing the ordinal (3rd) with the number of items (3).</li></ul><h2>Take the free Numbers test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Numbers (0–1000) Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Numbers (0–1000) Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Numbers (0–1000)",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Veer starts at 578 and counts on 7 tens. Which number does Veer reach?",
+        "options": [
+          "585",
+          "508",
+          "1278",
+          "648"
+        ],
+        "answer": 3,
+        "explanation": "7 tens = 70, so 578 + 70 = 648."
+      },
+      {
+        "q": "In a race, Riya finishes just after the 7th runner. What is Riya's position?",
+        "options": [
+          "6th",
+          "7th",
+          "8th",
+          "9th"
+        ],
+        "answer": 2,
+        "explanation": "Just after the 7th runner means one place later, so Riya is 8th."
+      },
+      {
+        "q": "Arrange in ascending order: 345, 354, 435, 343.",
+        "options": [
+          "435, 354, 345, 343",
+          "345, 354, 435, 343",
+          "343, 435, 354, 345",
+          "343, 345, 354, 435"
+        ],
+        "answer": 3,
+        "explanation": "Ascending order means smallest to largest: 343, 345, 354, 435."
+      },
+      {
+        "q": "What is the 2nd letter of the word PENCIL?",
+        "options": [
+          "E",
+          "P",
+          "N",
+          "C"
+        ],
+        "answer": 0,
+        "explanation": "Count the letters of PENCIL from the left: the 2nd letter is E."
+      },
+      {
+        "q": "Which numeral shows \"nine hundred two\"?",
+        "options": [
+          "920",
+          "92",
+          "290",
+          "902"
+        ],
+        "answer": 3,
+        "explanation": "Nine hundred two means 9 hundreds, 0 tens and 2 ones, which is 902."
+      },
+      {
+        "q": "Write \"five hundred twenty-four\" as a numeral.",
+        "options": [
+          "542",
+          "425",
+          "524",
+          "520"
+        ],
+        "answer": 2,
+        "explanation": "Five hundred twenty-four means 5 hundreds, 2 tens and 4 ones, which is 524."
+      },
+      {
+        "q": "What is 800 + 3 in standard form?",
+        "options": [
+          "803",
+          "83",
+          "830",
+          "308"
+        ],
+        "answer": 0,
+        "explanation": "Add the parts: 800 + 3 = 803."
+      },
+      {
+        "q": "Continue the pattern 236, 336, 436, … What is the next number?",
+        "options": [
+          "636",
+          "536",
+          "537",
+          "535"
+        ],
+        "answer": 1,
+        "explanation": "The numbers grow by 100 each time, so 436 + 100 = 536."
+      },
+      {
+        "q": "A 3-digit number has 8 in the ones place. Is the number odd or even?",
+        "options": [
+          "Odd",
+          "Cannot say without the other digits",
+          "Even",
+          "Sometimes odd, sometimes even"
+        ],
+        "answer": 2,
+        "explanation": "Only the ones digit decides odd or even. 8 is even, so the number is even."
+      },
+      {
+        "q": "Veer counts back 4 ones from 502. Which number does Veer land on?",
+        "options": [
+          "506",
+          "462",
+          "498",
+          "497"
+        ],
+        "answer": 2,
+        "explanation": "Count back by ones: 502 - 4 = 498."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is place value for Class 2?",
+      "a": "It is the value a digit has because of its position. In 346 the 3 is worth 300 (hundreds), the 4 is 40 (tens) and the 6 is 6 (ones)."
+    },
+    {
+      "q": "How do you compare 3-digit numbers?",
+      "a": "Compare the hundreds digit first. The number with more hundreds is bigger; if equal, compare tens, then ones."
+    },
+    {
+      "q": "Is this Class 2 IMO numbers test free?",
+      "a": "Yes — 10 free MCQs with answers. The e-book adds 100 more Maths Olympiad Class 2 worksheet questions for Rs 32."
+    }
+  ]
+}

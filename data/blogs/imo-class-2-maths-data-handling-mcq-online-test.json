@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-data-handling-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Data Handling: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Data Handling Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Data Handling online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Data Handling online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Data handling teaches Class 2 children to read pictographs, tally marks and tables — careful-counting Olympiad questions. Here is what the Maths Olympiad Class 2 data handling chapter tests, the facts, the slips, and a free 10-question test.</p><h2>What the Class 2 Maths Olympiad Data Handling chapter tests</h2><ul><li>Reading a pictograph and its key (a symbol may equal 2, 5 or 10)</li><li>Tally marks</li><li>Simple tables</li><li>Interpreting data — most, fewest, how many more, totals</li></ul><h2>Key facts your child should know</h2><ul><li>In a pictograph, multiply the pictures by the <strong>key</strong> to get the count.</li><li>A <strong>tally</strong> counts in groups of five — the fifth mark crosses the first four.</li><li><strong>Most</strong> = the biggest number; <strong>fewest</strong> = the smallest.</li><li>\"How many more\" is a subtraction; the total is the sum of every row.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ignoring the key and counting each symbol as 1.</li><li>Adding rows when the question asks how many more.</li><li>Miscounting tally groups of five.</li></ul><h2>Take the free Data Handling test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Data Handling Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Data Handling",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Umesh counted birds on a wire using tally marks. The count shows 2 bundles of five and 4 single marks. What is the number counted?",
+        "options": [
+          "6",
+          "15",
+          "13",
+          "14"
+        ],
+        "answer": 3,
+        "explanation": "Each bundle is 5. So 2 bundles make 10, and 4 more singles give 10 + 4 = 14."
+      },
+      {
+        "q": "The table shows plants in gardens: Front 17, Back 21, Side 13, Terrace 15. What is the total shown by the whole table?",
+        "options": [
+          "67",
+          "66",
+          "65",
+          "38"
+        ],
+        "answer": 1,
+        "explanation": "Add all four rows: 17 + 21 + 13 + 15 = 66."
+      },
+      {
+        "q": "The table shows pets in a colony: Dogs 17, Cats 23, Rabbits 12, Parrots 20. Which pet is seen the most in the colony?",
+        "options": [
+          "Dogs",
+          "Rabbits",
+          "Parrots",
+          "Cats"
+        ],
+        "answer": 3,
+        "explanation": "Compare the numbers: 17, 23, 12, 20. The biggest is 23, which belongs to Cats."
+      },
+      {
+        "q": "In a tally chart, white sheep are shown by 3 bundles of five and 2 singles, while black sheep are shown by 1 bundles of five and 4 singles. How many more are the white sheep than the black sheep?",
+        "options": [
+          "8",
+          "26",
+          "17",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "white sheep: 15 + 2 = 17. black sheep: 5 + 4 = 9. Difference: 17 − 9 = 8."
+      },
+      {
+        "q": "In a pictograph, 1 symbol stands for 5 beads. Omkar's row has 9 symbols. How many beads is that?",
+        "options": [
+          "9",
+          "50",
+          "40",
+          "45"
+        ],
+        "answer": 3,
+        "explanation": "Each symbol means 5 beads. Count in fives: 9 × 5 = 45 beads."
+      },
+      {
+        "q": "In a pictograph, 1 symbol stands for 1 feather. Isha's row shows 12 symbols and Om's row shows 7 symbols. How many feathers do the two rows show altogether?",
+        "options": [
+          "20",
+          "19",
+          "18",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Each symbol is 1 feather. Add the two rows: 12 + 7 = 19 feathers."
+      },
+      {
+        "q": "In a pictograph, 1 symbol stands for 2 balloons. Kunal's row has 10 symbols. How many balloons does Kunal's row show?",
+        "options": [
+          "10",
+          "22",
+          "18",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "Each symbol means 2 balloons. So 10 symbols show 10 × 2 = 20 balloons."
+      },
+      {
+        "q": "Tanu counted cars passing the school gate using tally marks. The count shows 5 bundles of five and 1 single marks. What is the number counted?",
+        "options": [
+          "6",
+          "27",
+          "26",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Each bundle is 5. So 5 bundles make 25, and 1 more singles give 25 + 1 = 26."
+      },
+      {
+        "q": "The table shows fish in tanks: Tank A 13, Tank B 22, Tank C 16, Tank D 12. What is the total shown by the whole table?",
+        "options": [
+          "64",
+          "62",
+          "35",
+          "63"
+        ],
+        "answer": 3,
+        "explanation": "Add all four rows: 13 + 22 + 16 + 12 = 63."
+      },
+      {
+        "q": "A table shows trading cards with four children: Trading cards owned — Qamar 30, Rishi 24, Sonu 35, Tanya 19. Who has the second highest number of trading cards?",
+        "options": [
+          "Qamar",
+          "Rishi",
+          "Sonu",
+          "Tanya"
+        ],
+        "answer": 0,
+        "explanation": "From most to least: Sonu (35), Qamar (30), Rishi (24), Tanya (19). The second highest is Qamar."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is a pictograph key?",
+      "a": "It tells you how many each picture stands for — one symbol might mean 2, 5 or 10 items, so you multiply to get the real count."
+    },
+    {
+      "q": "How do you read tally marks?",
+      "a": "Count in fives: every fifth mark crosses the previous four, so groups of five are quick to add."
+    },
+    {
+      "q": "Is the Class 2 data handling test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 2 data handling MCQs for Rs 32."
+    }
+  ]
+}

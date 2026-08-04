@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-geometry-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Geometry: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Geometry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Geometry online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Geometry online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-geometry-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-geometry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Geometry in Class 2 covers flat and solid shapes, their faces, edges and vertices, symmetry and patterns — visual, high-scoring Olympiad content. Here is what the IMO Class 2 geometry chapter tests, the shape facts to know cold, and a free 10-question test.</p><h2>What the Class 2 Maths Olympiad Geometry chapter tests</h2><ul><li>2-D shapes and their sides and corners</li><li>3-D shapes — faces, edges and vertices</li><li>Lines and curves</li><li>Symmetry and patterns</li></ul><h2>Key facts your child should know</h2><ul><li>A triangle has <strong>3 sides and 3 corners</strong>; a square has 4 equal sides.</li><li>A cube and a cuboid each have <strong>6 faces, 12 edges and 8 vertices</strong>.</li><li>A cylinder has <strong>3 faces, 2 edges and 0 vertices</strong>; a cone has 2 faces, 1 edge and 1 vertex; a sphere has 1 curved face.</li><li>A shape has a <strong>line of symmetry</strong> if a fold makes two matching halves.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up edges and vertices on a solid.</li><li>Calling every box a cube — a cube has all equal sides.</li><li>Continuing a pattern by the wrong feature (colour vs shape).</li></ul><h2>Take the free Geometry test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Geometry Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Geometry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Geometry",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "A bead string reads blue, yellow, blue, blue, yellow, blue. Which bead goes on next?",
+        "options": [
+          "yellow",
+          "blue",
+          "green",
+          "red"
+        ],
+        "answer": 1,
+        "explanation": "The block \"blue, yellow, blue\" repeats again and again, so after 6 items the next one is blue."
+      },
+      {
+        "q": "Riddle: I am a solid with 6 square faces, 12 edges and 8 vertices, like a dice. Who am I?",
+        "options": [
+          "Cube",
+          "Cuboid",
+          "Cylinder",
+          "Sphere"
+        ],
+        "answer": 0,
+        "explanation": "A dice is a cube: 6 faces, 12 edges, 8 vertices, and every face is a square."
+      },
+      {
+        "q": "An egg is most like which flat shape?",
+        "options": [
+          "Circle",
+          "Hexagon",
+          "Square",
+          "Oval"
+        ],
+        "answer": 3,
+        "explanation": "An egg is a stretched round shape — an oval."
+      },
+      {
+        "q": "Count the sides of a hexagon. How many are there?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Hexa means six — a hexagon has 6 straight sides."
+      },
+      {
+        "q": "Riya draws a pentagon using only straight lines. How many lines does she draw?",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Each side of a pentagon is one straight line, and a pentagon has 5 sides."
+      },
+      {
+        "q": "A cylinder, shaped like a cold-drink can, has how many faces?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "A cylinder has 2 flat circle faces and 1 curved face — 3 faces in all."
+      },
+      {
+        "q": "How many more faces than edges does a cylinder have?",
+        "options": [
+          "0",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "A cylinder has 3 faces and 2 edges: 3 - 2 = 1."
+      },
+      {
+        "q": "Which solid can both roll on its curved side and slide on its flat faces?",
+        "options": [
+          "Sphere",
+          "Cube",
+          "Cylinder",
+          "Cuboid"
+        ],
+        "answer": 2,
+        "explanation": "A cylinder rolls on its curved surface and slides on its two flat circle faces."
+      },
+      {
+        "q": "To draw one square, how many straight lines must you draw?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Each side of a square is one straight line, and a square has 4 sides."
+      },
+      {
+        "q": "Riddle: I have exactly one side more than a square. Which shape am I?",
+        "options": [
+          "Hexagon",
+          "Triangle",
+          "Pentagon",
+          "Rectangle"
+        ],
+        "answer": 2,
+        "explanation": "A square has 4 sides, so I have 4 + 1 = 5 sides — a pentagon."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many faces does a cube have?",
+      "a": "Six, plus 12 edges and 8 vertices. A cuboid (like a brick) has the same counts."
+    },
+    {
+      "q": "What is a vertex?",
+      "a": "A vertex is a corner — the point where edges meet on a solid shape."
+    },
+    {
+      "q": "Is the Class 2 geometry test free?",
+      "a": "Yes — 10 free MCQs with shape pictures. The e-book has 100 Maths Olympiad Class 2 geometry MCQs for Rs 32."
+    }
+  ]
+}

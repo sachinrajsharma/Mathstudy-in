@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-logical-reasoning-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Logical Reasoning: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Reasoning Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Logical Reasoning online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Logical Reasoning online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-logical-reasoning-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-logical-reasoning-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Logical reasoning is the section that separates a good Class 2 Olympiad score from a great one — series, odd one out, analogies, coding and mirror images. This guide explains how to think about each type, the traps, and a free 10-question test.</p><h2>What the Class 2 Maths Olympiad Logical Reasoning chapter tests</h2><ul><li>Series — what comes next (numbers and figures)</li><li>Classification (odd one out)</li><li>Analogies (A is to B as C is to ?)</li><li>Coding-decoding, mirror images and spatial reasoning</li></ul><h2>Key facts your child should know</h2><ul><li>For a <strong>series</strong>, find the rule (a number step or a repeating shape/colour) and continue it.</li><li>For <strong>odd one out</strong>, find what most items share; the one that breaks the rule is the answer.</li><li>For an <strong>analogy</strong>, use the same link in the second pair as in the first.</li><li>A <strong>mirror image</strong> flips left to right.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Picking an odd-one-out when two rules seem to fit — look for the single clear rule.</li><li>Continuing a series by the wrong feature.</li><li>Flipping a mirror image top-to-bottom instead of left-to-right.</li></ul><h2>Take the free Reasoning test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Logical Reasoning Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Logical Reasoning Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Logical Reasoning",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "If A = 1, B = 2, C = 3 and so on, which word do the numbers 10, 1, 13 spell?",
+        "options": [
+          "MAJ",
+          "JAR",
+          "HAM",
+          "JAM"
+        ],
+        "answer": 3,
+        "explanation": "10 = J, 1 = A, 13 = M. So the numbers spell JAM."
+      },
+      {
+        "q": "Complete the number pair: 3 : 6 :: 8 : ___?",
+        "options": [
+          "15",
+          "17",
+          "16",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "In the first pair each number is doubled (3 becomes 6). Doing the same to 8 gives 16."
+      },
+      {
+        "q": "Arjun is standing 4th from the left in a row of 15 children. What is Arjun's position from the RIGHT end?",
+        "options": [
+          "11th",
+          "13th",
+          "14th",
+          "12th"
+        ],
+        "answer": 3,
+        "explanation": "From the right, Arjun's place is 15 + 1 − 4 = 12. So Arjun is 12th from the right."
+      },
+      {
+        "q": "The pattern uses two rules again and again (+6, then −2): 7, 13, 11, 17, 15, ___?",
+        "options": [
+          "21",
+          "20",
+          "22",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "The rules take turns: add 6, then take away 2. The last move was taking away 2, so now we add 6: 15 + 6 = 21."
+      },
+      {
+        "q": "Three of these numbers follow the same rule. Which number breaks the rule: 5, 10, 15, 12?",
+        "options": [
+          "5",
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "5, 10, 15 all belong to the table of 5, but 12 is not in the table of 5."
+      },
+      {
+        "q": "What number comes next in the pattern: 14, 17, 20, 23, ___?",
+        "options": [
+          "26",
+          "25",
+          "27",
+          "29"
+        ],
+        "answer": 0,
+        "explanation": "The numbers grow by 3 each time: 23 + 3 = 26."
+      },
+      {
+        "q": "Which small word is hiding inside the word CHAIRS?",
+        "options": [
+          "HEAD",
+          "HAIR",
+          "COMB",
+          "RICE"
+        ],
+        "answer": 1,
+        "explanation": "Read the letters of CHAIRS in order: the letters H-A-I-R sit together and spell HAIR."
+      },
+      {
+        "q": "If A = 1, B = 2, C = 3 and so on, which word do the numbers 4, 15, 7 spell?",
+        "options": [
+          "GOD",
+          "DOG",
+          "DIG",
+          "DOT"
+        ],
+        "answer": 1,
+        "explanation": "4 = D, 15 = O, 7 = G. So the numbers spell DOG."
+      },
+      {
+        "q": "Which letter comes next: T, R, P, N, ___?",
+        "options": [
+          "M",
+          "K",
+          "J",
+          "L"
+        ],
+        "answer": 3,
+        "explanation": "The letters jump backward by 2 each time, so after N comes L."
+      },
+      {
+        "q": "Clean is to dirty as Loud is to ___? (Think of opposites.)",
+        "options": [
+          "noisy",
+          "bright",
+          "slow",
+          "quiet"
+        ],
+        "answer": 3,
+        "explanation": "Dirty is the opposite of clean, and quiet is the opposite of loud."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you solve odd one out?",
+      "a": "Find the property most of the group shares — shape, number type or category — and pick the one that does not share it."
+    },
+    {
+      "q": "What is an analogy question?",
+      "a": "A related pair is given and you complete a second pair using the same relationship, e.g. clean is to dirty as loud is to quiet."
+    },
+    {
+      "q": "Is the Class 2 reasoning test free?",
+      "a": "Yes — 10 free MCQs. The e-book has 100 IMO Class 2 logical reasoning questions with answers for Rs 32."
+    }
+  ]
+}
