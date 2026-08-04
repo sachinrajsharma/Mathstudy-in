@@ -55,12 +55,12 @@ const STEPS = [
   ['Apply bundle pricing', 'seed-bundles-pricing.js', false],
   ['Apply product SEO meta', 'seed-product-seo.js', false],
   ['Wire Google-Drive download links', 'import-download-urls.js', false],
+  ['Import IMO Class 1 Maths SEO blogs (quiz + CTA)', 'import-imo-grade1-blogs.js', false],
   ['Seed curated blog articles', 'seed-blog-articles.js', false],
   ['Import 437 WordPress posts (original slugs)', 'import-wp-blogs.js', false],
   ['Scrub injected spam links from blogs', 'clean-spam-links.js', false],
   ['Import CTET Maths SEO blogs (Paper 1 & 2, quiz + CTA)', 'import-ctet-blogs.js', false],
   ['Import CAT Quant SEO blogs (quiz + CTA)', 'import-cat-blogs.js', false],
-  ['Import IMO Class 1 Maths SEO blogs (quiz + CTA)', 'import-imo-grade1-blogs.js', false],
   ['Repoint product covers to local images', 'fix-product-covers.js', false],
 ];
 
