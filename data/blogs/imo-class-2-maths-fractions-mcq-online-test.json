@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-fractions-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Fractions: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Fractions Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Fractions online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Fractions online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-fractions-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-fractions-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Fractions begin in Class 2 with halves, thirds and quarters — equal parts of a whole. This guide covers what the Maths Olympiad Class 2 fractions chapter tests, the key ideas, the comparison trap, and a free 10-question test.</p><h2>What the Class 2 Maths Olympiad Fractions chapter tests</h2><ul><li>Equal parts of a whole</li><li>Half, one-third and one-fourth</li><li>Identifying and comparing simple fractions</li><li>A unit fraction of a small number (half of 8)</li></ul><h2>Key facts your child should know</h2><ul><li>A fraction needs <strong>equal parts</strong> — the pieces must be the same size.</li><li>1/2 is 1 of 2 equal parts; 1/4 is 1 of 4 equal parts.</li><li>With the same whole, <strong>1/2 &gt; 1/3 &gt; 1/4</strong> — more parts means each is smaller.</li><li>To find a unit fraction of a number, divide: half of 8 = 8 ÷ 2 = 4.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Calling unequal parts a fraction.</li><li>Thinking 1/4 is bigger than 1/2 because 4 is bigger than 2.</li><li>Confusing the top and bottom numbers.</li></ul><h2>Take the free Fractions test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Fractions Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Fractions Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Fractions",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Meera cuts 5 oranges into halves. How many half pieces does she get?",
+        "options": [
+          "5",
+          "12",
+          "9",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Each whole gives 2 halves, so 5 wholes give 2 x 5 = 10 halves."
+      },
+      {
+        "q": "Which is smaller: 1/3 or 1/4?",
+        "options": [
+          "1/3",
+          "1/4",
+          "Both are equal",
+          "Cannot say"
+        ],
+        "answer": 1,
+        "explanation": "4 equal parts are smaller than 3 equal parts of the same whole, so 1/4 is smaller."
+      },
+      {
+        "q": "What do you get when you take 1/3 of 30?",
+        "options": [
+          "12",
+          "27",
+          "9",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "One-third means 3 equal parts: 30 split into 3 equal parts gives 10 in each part."
+      },
+      {
+        "q": "Which number is one-half of 56?",
+        "options": [
+          "56",
+          "28",
+          "29",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "Half means 2 equal parts: 56 shared into 2 equal parts gives 28."
+      },
+      {
+        "q": "1/4 of the 32 crayons in a box are red. How many red crayons are there?",
+        "options": [
+          "16",
+          "8",
+          "10",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "One-fourth of 32 means 32 split into 4 equal groups: 8 in each group."
+      },
+      {
+        "q": "Zoya painted 1/3 of a fence. What fraction of the fence is not painted yet?",
+        "options": [
+          "2/3",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "answer": 0,
+        "explanation": "The fence has 3 equal parts in all: 3/3 - 1/3 = 2/3 is not painted."
+      },
+      {
+        "q": "Find 1/2 of 64.",
+        "options": [
+          "64",
+          "33",
+          "32",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "Half means 2 equal parts: 64 shared into 2 equal parts gives 32."
+      },
+      {
+        "q": "A tray of barfi has 4 equal pieces and guests eat 3 pieces. What fraction of the barfi is eaten?",
+        "options": [
+          "1/4",
+          "2/3",
+          "3/4",
+          "1/2"
+        ],
+        "answer": 2,
+        "explanation": "3 out of 4 equal parts are eaten, so the fraction eaten is 3/4."
+      },
+      {
+        "q": "What is half of half of 20?",
+        "options": [
+          "10",
+          "4",
+          "5",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "Half of 20 = 10, and half of 10 = 5."
+      },
+      {
+        "q": "Arjun gave 1/3 of his 27 stamps to a friend. How many stamps does he still have?",
+        "options": [
+          "9",
+          "27",
+          "16",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "1/3 of 27 = 9. Left = 27 - 9 = 18."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why is 1/2 bigger than 1/4?",
+      "a": "With the same whole, more equal parts makes each part smaller. Two parts are bigger than four, so a half is bigger than a quarter."
+    },
+    {
+      "q": "How do you find half of a number?",
+      "a": "Divide the number by 2. Half of 8 is 8 ÷ 2 = 4."
+    },
+    {
+      "q": "Is the Class 2 fractions test free?",
+      "a": "Yes, 10 free questions with pictures. The e-book has 100 Maths Olympiad Class 2 fraction MCQs for Rs 32."
+    }
+  ]
+}

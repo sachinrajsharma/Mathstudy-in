@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-practice-test-online-free",
+  "title": "IMO Maths Olympiad Class 2 Sample Papers: Free Online Practice Test",
+  "meta_title": "IMO Class 2 Maths Sample Papers (Free Test)",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 practice test: 10 mixed MCQs across all chapters with answers, plus 30 sample & practice papers PDF (900 MCQs).",
+  "excerpt": "A free mixed 10-question IMO Maths Olympiad Class 2 practice test across every chapter — instant scoring, explanations and 30 more full sample papers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-30-practice-papers.jpg",
+  "cta_product_slug": "imo-class-2-maths-30-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ready for a full Class 2 Maths Olympiad rehearsal? A real IMO or SOF paper mixes every chapter — numbers, addition, subtraction, multiplication, division, fractions, geometry, measurement, data handling and reasoning — in one 30-question set. This free test gives a 10-question taste, and the practice-papers e-book gives you 30 complete <em>Maths Olympiad Class 2 sample papers with answers</em>.</p><h2>What a Class 2 IMO sample paper looks like</h2><ul><li>30 questions in one paper, balanced across all 10 chapters</li><li>A mix of number work, tables, fractions, shapes, measurement, data and reasoning</li><li>An answer key and step-by-step solution for every question</li><li>Graded intermediate to hard, just like the real SOF Olympiad</li></ul><h2>How to use Class 2 Olympiad practice papers</h2><ul><li>Sit one paper in a quiet 30–40 minute slot, no help</li><li>Mark it with the answer key, then read the solution for every wrong one</li><li>Note which chapter the mistakes cluster in and revise that chapter</li><li>Repeat weekly — steady practice beats last-minute cramming</li></ul><h2>Take the free mixed test</h2><p>The 10 questions below are pulled from across the syllabus. The full <strong>30 Practice Papers e-book</strong> has 900 questions — 30 papers of 30 — each fully solved: the best <em>Maths Olympiad class 2 question papers PDF</em> for exam practice.</p><p>Learn the syllabus first with the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Maths Mixed Quiz",
+    "intro": "Ten questions from across the syllabus. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: all chapters",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Veer starts at 578 and counts on 7 tens. Which number does Veer reach?",
+        "options": [
+          "585",
+          "508",
+          "1278",
+          "648"
+        ],
+        "answer": 3,
+        "explanation": "7 tens = 70, so 578 + 70 = 648."
+      },
+      {
+        "q": "Add the three numbers: 24 + 39 + 28 = ___",
+        "options": [
+          "81",
+          "101",
+          "63",
+          "91"
+        ],
+        "answer": 3,
+        "explanation": "Add two at a time: 24 + 39 = 63, then 63 + 28 = 91."
+      },
+      {
+        "q": "Subtract 29 from 84.",
+        "options": [
+          "65",
+          "45",
+          "55",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "The ones need a borrow: take 1 ten from 84. Then 84 − 29 = 55."
+      },
+      {
+        "q": "Find the sum of 6 × 0 and 6 × 1.",
+        "options": [
+          "0",
+          "12",
+          "7",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "6 × 0 = 0 and 6 × 1 = 6. Their sum is 0 + 6 = 6."
+      },
+      {
+        "q": "Find the missing number: 40 ÷ ___ = 5.",
+        "options": [
+          "5",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Think of the table: 8 × 5 = 40, so 40 ÷ 8 = 5. The missing number is 8."
+      },
+      {
+        "q": "Zoya painted 1/3 of a fence. What fraction of the fence is not painted yet?",
+        "options": [
+          "2/3",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "answer": 0,
+        "explanation": "The fence has 3 equal parts in all: 3/3 - 1/3 = 2/3 is not painted."
+      },
+      {
+        "q": "How many more faces than edges does a cylinder have?",
+        "options": [
+          "0",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "A cylinder has 3 faces and 2 edges: 3 - 2 = 1."
+      },
+      {
+        "q": "Zoya has a lace 100 cm long. She cuts off 55 cm to make a frock. How much lace is left?",
+        "options": [
+          "55 cm",
+          "40 cm",
+          "155 cm",
+          "45 cm"
+        ],
+        "answer": 3,
+        "explanation": "Take away the cut piece: 100 cm - 55 cm = 45 cm of lace is left."
+      },
+      {
+        "q": "The table shows fish in tanks: Tank A 13, Tank B 22, Tank C 16, Tank D 12. What is the total shown by the whole table?",
+        "options": [
+          "64",
+          "62",
+          "35",
+          "63"
+        ],
+        "answer": 3,
+        "explanation": "Add all four rows: 13 + 22 + 16 + 12 = 63."
+      },
+      {
+        "q": "Clean is to dirty as Loud is to ___? (Think of opposites.)",
+        "options": [
+          "noisy",
+          "bright",
+          "slow",
+          "quiet"
+        ],
+        "answer": 3,
+        "explanation": "Dirty is the opposite of clean, and quiet is the opposite of loud."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers does the e-book have?",
+      "a": "30 full papers of 30 questions each — 900 unique MCQs in all, every one solved."
+    },
+    {
+      "q": "Are the papers like the real IMO/SOF Class 2 exam?",
+      "a": "Yes. Every paper draws from all 10 Grade-2 chapters and follows the Olympiad MCQ pattern."
+    },
+    {
+      "q": "Is this practice test free?",
+      "a": "Yes — 10 free mixed questions with explanations. The 30-paper e-book is Rs 32."
+    }
+  ]
+}

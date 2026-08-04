@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-subtraction-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Subtraction: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Subtraction Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Subtraction online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Subtraction online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-subtraction-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-subtraction-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Subtraction with borrowing is where many Class 2 children lose Olympiad marks. This guide sets out what the IMO Class 2 subtraction chapter tests, the facts that fix most errors, and a free 10-question test with answers.</p><h2>What the Class 2 Maths Olympiad Subtraction chapter tests</h2><ul><li>2-digit and 3-digit subtraction, with and without borrowing</li><li>Missing-number sentences like ▢ − 20 = 60</li><li>Checking a subtraction by adding back</li><li>Word problems using \"left\", \"fewer\" and \"how many more\"</li></ul><h2>Key facts your child should know</h2><ul><li>Subtract the <strong>ones first</strong>, then tens, then hundreds; borrow when the top digit is too small.</li><li>Borrowing takes 1 from the next column and adds 10 to the current one.</li><li>Check by <strong>adding back</strong>: if 90 − 35 = 55, then 55 + 35 = 90.</li><li>\"How many more\" means subtract the smaller from the larger.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Subtracting the smaller ones digit from the larger regardless of position.</li><li>Forgetting to reduce the next column after borrowing.</li><li>Reading \"how many more\" as an addition.</li></ul><h2>Take the free Subtraction test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Subtraction Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Subtraction Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Subtraction",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Subtract 529 from 800.",
+        "options": [
+          "329",
+          "271",
+          "371",
+          "281"
+        ],
+        "answer": 1,
+        "explanation": "Borrow across the zero: a 0 becomes 9 after lending. So 800 − 529 = 271."
+      },
+      {
+        "q": "Subtract 98 from 615 in your head. What is the answer?",
+        "options": [
+          "517",
+          "515",
+          "520",
+          "527"
+        ],
+        "answer": 0,
+        "explanation": "Take away 100 first: 615 − 100 = 515. You took 2 too many, so give back 2: 515 + 2 = 517."
+      },
+      {
+        "q": "Subtract 29 from 84.",
+        "options": [
+          "65",
+          "45",
+          "55",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "The ones need a borrow: take 1 ten from 84. Then 84 − 29 = 55."
+      },
+      {
+        "q": "What is 703 − 458?",
+        "options": [
+          "355",
+          "345",
+          "255",
+          "245"
+        ],
+        "answer": 3,
+        "explanation": "Borrow across the zero: a 0 becomes 9 after lending. So 703 − 458 = 245."
+      },
+      {
+        "q": "Subtract 99 from 840 in your head. What is the answer?",
+        "options": [
+          "740",
+          "741",
+          "743",
+          "751"
+        ],
+        "answer": 1,
+        "explanation": "Take away 100 first: 840 − 100 = 740. You took 1 too many, so give back 1: 740 + 1 = 741."
+      },
+      {
+        "q": "Work out: 654 − 321 = ___.",
+        "options": [
+          "343",
+          "333",
+          "323",
+          "433"
+        ],
+        "answer": 1,
+        "explanation": "No borrowing is needed. Subtract ones, tens and hundreds: 654 − 321 = 333."
+      },
+      {
+        "q": "What is 945 − 400?",
+        "options": [
+          "645",
+          "445",
+          "555",
+          "545"
+        ],
+        "answer": 3,
+        "explanation": "Only the hundreds change: 9 hundreds − 4 hundreds. So 945 − 400 = 545."
+      },
+      {
+        "q": "What number is 50 less than 624?",
+        "options": [
+          "574",
+          "584",
+          "564",
+          "674"
+        ],
+        "answer": 0,
+        "explanation": "Count back by tens: 624 − 50 = 574."
+      },
+      {
+        "q": "A dairy sent 250 milk bottles to a shop. 86 bottles were sold by noon. How many bottles are unsold?",
+        "options": [
+          "236",
+          "174",
+          "154",
+          "164"
+        ],
+        "answer": 3,
+        "explanation": "Subtract what is gone: 250 − 86 = 164 bottles."
+      },
+      {
+        "q": "What is 795 − 342?",
+        "options": [
+          "463",
+          "443",
+          "553",
+          "453"
+        ],
+        "answer": 3,
+        "explanation": "No borrowing is needed. Subtract ones, tens and hundreds: 795 − 342 = 453."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is borrowing in subtraction?",
+      "a": "When the top digit is smaller than the bottom one, you take one from the next column, turning it into 10 extra so you can subtract."
+    },
+    {
+      "q": "How can a child check a subtraction?",
+      "a": "Add the answer to the number taken away. If it gives back the starting number, the answer is right."
+    },
+    {
+      "q": "Is this Class 2 subtraction test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 2 subtraction questions with solutions for Rs 32."
+    }
+  ]
+}

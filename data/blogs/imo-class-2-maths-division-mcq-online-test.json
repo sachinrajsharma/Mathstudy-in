@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-2-maths-division-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 2 Division: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 2 Maths Olympiad Division Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 2 Division online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Division online test for IMO Maths Olympiad Class 2 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 2",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-2-maths-division-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-2-maths-division-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Division in Class 2 is fair sharing and grouping, and it undoes multiplication. This guide explains what the IMO Class 2 division chapter tests, the facts to know, the traps, and a free 10-question online test with answers.</p><h2>What the Class 2 Maths Olympiad Division chapter tests</h2><ul><li>Equal sharing (how many each?) and grouping (how many groups?)</li><li>Division facts and fact families</li><li>The link between multiplication and division</li><li>Simple word problems</li></ul><h2>Key facts your child should know</h2><ul><li><strong>12 ÷ 4 = 3</strong>: 12 shared among 4 gives 3 each.</li><li>Division and multiplication are a <strong>fact family</strong>: 4 × 3 = 12 → 12 ÷ 4 = 3.</li><li><strong>Sharing</strong> asks how many each; <strong>grouping</strong> asks how many groups.</li><li>A number divided by 1 stays the same; divided by itself gives 1.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up sharing and grouping in a word problem.</li><li>Forgetting that division is the opposite of multiplication.</li><li>Getting the fact family the wrong way round.</li></ul><h2>Take the free Division test (IMO Class 2)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 2 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Division Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets with full solutions — the ideal <em>Maths Olympiad for Class 2 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 2 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 2 Division Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 2: Division",
+    "level": "Class 2",
+    "questions": [
+      {
+        "q": "Since 8 × 7 = 56, what is 56 ÷ 7?",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "Multiplication and division are opposites: because 8 × 7 = 56, we get 56 ÷ 7 = 8."
+      },
+      {
+        "q": "Sara divides 40 chocolates equally between 8 cousins. How many chocolates go to each?",
+        "options": [
+          "7",
+          "4",
+          "5",
+          "32"
+        ],
+        "answer": 2,
+        "explanation": "Sharing equally means dividing: 40 ÷ 8 = 5 chocolates for each."
+      },
+      {
+        "q": "Ayaan divides 40 by 5 and then adds 5 to the answer. What number does Ayaan get?",
+        "options": [
+          "8",
+          "13",
+          "14",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "First 40 ÷ 5 = 8. Then 8 + 5 = 13."
+      },
+      {
+        "q": "A shopkeeper packs 54 pencils into boxes of 6 each. How many boxes are filled?",
+        "options": [
+          "10",
+          "8",
+          "48",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "54 pencils put 6 at a time make 54 ÷ 6 = 9 full boxes."
+      },
+      {
+        "q": "Find the missing number: 40 ÷ ___ = 5.",
+        "options": [
+          "5",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Think of the table: 8 × 5 = 40, so 40 ÷ 8 = 5. The missing number is 8."
+      },
+      {
+        "q": "A librarian packs 49 books into piles of 7 each. How many piles are filled?",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "42"
+        ],
+        "answer": 2,
+        "explanation": "49 books put 7 at a time make 49 ÷ 7 = 7 full piles."
+      },
+      {
+        "q": "Arjun shares 45 sweets equally among 5 friends. How many sweets does each one get?",
+        "options": [
+          "10",
+          "9",
+          "8",
+          "40"
+        ],
+        "answer": 1,
+        "explanation": "45 ÷ 5 = 9, so each of the 5 friends gets 9 sweets."
+      },
+      {
+        "q": "Which gives the greater answer: 24 ÷ 4 or 30 ÷ 5?",
+        "options": [
+          "24 ÷ 4",
+          "30 ÷ 5",
+          "Cannot say",
+          "Both are equal"
+        ],
+        "answer": 3,
+        "explanation": "24 ÷ 4 = 6 and 30 ÷ 5 = 6. Both answers are the same."
+      },
+      {
+        "q": "Dev divides 36 by 6 and then adds 3 to the answer. What number does Dev get?",
+        "options": [
+          "6",
+          "10",
+          "3",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "First 36 ÷ 6 = 6. Then 6 + 3 = 9."
+      },
+      {
+        "q": "What is 48 ÷ 8?",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "From the table of 8: 8 × 6 = 48, so 48 ÷ 8 = 6."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How is division related to multiplication?",
+      "a": "They are opposites. Because 4 × 3 = 12, we know 12 ÷ 4 = 3 and 12 ÷ 3 = 4 — the same fact family."
+    },
+    {
+      "q": "What is the difference between sharing and grouping?",
+      "a": "Sharing splits a total into a set number of equal groups; grouping makes groups of a fixed size and counts them."
+    },
+    {
+      "q": "Is this Class 2 division test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 2 division questions with solutions for Rs 32."
+    }
+  ]
+}
