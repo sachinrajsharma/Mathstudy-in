@@ -189,6 +189,8 @@ window.MathJax = {
 .quiz-q{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:16px 18px;margin-bottom:14px}
 .quiz-q-text{font-weight:700;color:#0f172a;font-size:.98rem;margin:0 0 12px;line-height:1.5;display:flex;gap:9px;align-items:flex-start}
 .quiz-num{flex:0 0 auto;width:24px;height:24px;background:#1e3a8a;color:#fff;border-radius:50%;font-size:.8rem;display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+.quiz-fig{margin:2px 0 12px 33px}
+.quiz-fig svg{max-width:260px;height:auto;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:6px}
 .quiz-opts{display:grid;gap:8px}
 .quiz-opt{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1.5px solid #e2e8f0;border-radius:9px;cursor:pointer;transition:border-color .12s,background .12s;font-size:.92rem;color:#334155}
 .quiz-opt:hover{border-color:#93c5fd;background:#f0f7ff}
@@ -348,6 +350,7 @@ window.MathJax = {
     <% quiz.questions.forEach(function(q, qi){ %>
     <div class="quiz-q" data-answer="<%= q.answer %>" data-qi="<%= qi %>">
       <p class="quiz-q-text"><span class="quiz-num"><%= qi+1 %></span> <%= q.q %></p>
+      <% if (q.figure) { %><div class="quiz-fig"><%- q.figure %></div><% } %>
       <div class="quiz-opts">
         <% q.options.forEach(function(opt, oi){ %>
         <label class="quiz-opt">
