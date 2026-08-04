@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-linear-programming-class-12",
+  "title": "Linear Programming Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Linear Programming Case Study Test",
+  "meta_desc": "Free Linear Programming case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 more in the e-",
+  "excerpt": "A real Class 12 Linear Programming case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-linear-programming.jpg",
+  "cta_product_slug": "class-12-linear-programming-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Linear Programming</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Linear Programming case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Linear Programming case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: Furniture Workshop</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>A small furniture workshop in Jodhpur makes two products for a hotel order: wooden bookshelves and cabinets. Each bookshelf takes 3 hours of carpentry and 1 hour of finishing, while each cabinet takes 2 hours of carpentry and 2 hours of finishing. In a working week the single carpenter is available for 36 hours and the finishing bench for 24 hours; neither can be exceeded. The owner earns a profit of ₹ 200 on every bookshelf and ₹ 160 on every cabinet sold, and wants to plan the week's output to make the profit as large as possible. Before drawing any graph she writes the problem as a linear programming model, letting x stand for the number of bookshelves and y for the number of cabinets built that week, then sketches the feasible region shown.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Linear Programming?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Linear Programming Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: Furniture Workshop",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Linear Programming",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The objective function the owner wants to maximise is",
+        "options": [
+          "Maximise Z=200x+160y",
+          "Maximise Z=160x+200y",
+          "Minimise Z=200x+160y",
+          "Maximise Z=200x-160y"
+        ],
+        "answer": 0,
+        "explanation": "Profit is ₹ 200 per bookshelf (x) and ₹ 160 per cabinet (y), to be made as large as possible: Maximise Z=200x+160y. (a)."
+      },
+      {
+        "q": "The carpentry-time constraint is",
+        "options": [
+          "3x+2y≥ 36",
+          "2x+3y≤ 36",
+          "3x+2y≤ 36",
+          "x+2y≤ 36"
+        ],
+        "answer": 2,
+        "explanation": "Carpentry uses 3 h per bookshelf and 2 h per cabinet, capped at 36 h: 3x+2y≤ 36. (c)."
+      },
+      {
+        "q": "The finishing-time constraint is",
+        "options": [
+          "2x+y≤ 24",
+          "x+2y≤ 24",
+          "x+2y≥ 24",
+          "x+y≤ 24"
+        ],
+        "answer": 1,
+        "explanation": "Finishing uses 1 h per bookshelf and 2 h per cabinet, capped at 24 h: x+2y≤ 24. (b)."
+      },
+      {
+        "q": "Together with the resource limits, the model must also include",
+        "options": [
+          "x≤ 0,\\ y≤ 0",
+          "x=y",
+          "x+y=0",
+          "x≥ 0,\\ y≥ 0"
+        ],
+        "answer": 3,
+        "explanation": "Counts of items cannot be negative, so the non-negativity restrictions x≥ 0,\\ y≥ 0 must be added. (d)."
+      },
+      {
+        "q": "Is the plan (x,y)=(8,6) feasible for this workshop?",
+        "options": [
+          "Yes, it is feasible",
+          "No, it exceeds carpentry hours",
+          "No, it exceeds finishing hours",
+          "No, a variable is negative"
+        ],
+        "answer": 0,
+        "explanation": "Carpentry: 3(8)+2(6)=36≤ 36; finishing: 8+2(6)=20≤ 24; both ≥ 0. All constraints hold, so (8,6) is feasible. (a)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Linear Programming in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Linear Programming is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Linear Programming e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Linear Programming case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}

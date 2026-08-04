@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-application-of-derivatives-class-12",
+  "title": "Application of Derivatives Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Application of Derivatives Case Study Test",
+  "meta_desc": "Free Application of Derivatives case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 more i",
+  "excerpt": "A real Class 12 Application of Derivatives case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-application-of-derivatives.jpg",
+  "cta_product_slug": "class-12-application-of-derivatives-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Application of Derivatives</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Application of Derivatives case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Application of Derivatives case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: The Spreading Oil Slick</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>A tanker develops a small leak just outside a harbour, and a thin film of oil begins to spread across the calm sea as a growing circle. Marine officers on the pier observe that the radius of the circular slick increases at a steady 2 metres every second. Because the area covered is A=π r², the officers can predict how quickly the polluted region expands and how fast its circular boundary lengthens as clean-up boats are dispatched. When the radius reaches 25 metres they record the instantaneous rate at which the area is growing. Some time later a shift in the current makes the enclosed area itself increase at a constant 80π square metres per second; with the radius then 10 metres, they work backwards to find how fast the radius is moving outward at that instant.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Application of Derivatives?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Application of Derivatives Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: The Spreading Oil Slick",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Application of Derivatives",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "With dr/dt=2 m/s, the rate at which the area grows when r=25 m is",
+        "options": [
+          "100π m²/s",
+          "50π m²/s",
+          "200π m²/s",
+          "25π m²/s"
+        ],
+        "answer": 0,
+        "explanation": "A=π r²⇒ dA/dt=2π rdr/dt=2π(25)(2)=100π m²/s. (a)."
+      },
+      {
+        "q": "The rate at which the circular boundary (circumference C=2π r) lengthens is",
+        "options": [
+          "2π m/s",
+          "4π m/s",
+          "8π m/s",
+          "it depends on r"
+        ],
+        "answer": 1,
+        "explanation": "C=2π r⇒ dC/dt=2\\pidr/dt=2π(2)=4π m/s (independent of r). (b)."
+      },
+      {
+        "q": "The radius at which the area is growing at 200π m²/s is",
+        "options": [
+          "25 m",
+          "40 m",
+          "50 m",
+          "100 m"
+        ],
+        "answer": 2,
+        "explanation": "2π r(2)=200π⇒ 4π r=200π⇒ r=50 m. (c)."
+      },
+      {
+        "q": "As the slick grows, the area-rate dA/dt (at fixed dr/dt) is",
+        "options": [
+          "constant",
+          "proportional to r²",
+          "proportional to \\tfrac1r",
+          "proportional to r"
+        ],
+        "answer": 3,
+        "explanation": "dA/dt=2π rdr/dt=4π r; with dr/dt fixed this is proportional to r. (d)."
+      },
+      {
+        "q": "When the area increases at 80π m²/s and r=10 m, the radius is moving outward at",
+        "options": [
+          "4 m/s",
+          "2 m/s",
+          "8 m/s",
+          "5 m/s"
+        ],
+        "answer": 0,
+        "explanation": "dA/dt=2π rdr/dt⇒ 80π=2π(10)dr/dt⇒ dr/dt=(80π)/(20π)=4 m/s. (a)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Application of Derivatives in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Application of Derivatives is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Application of Derivatives e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Application of Derivatives case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}

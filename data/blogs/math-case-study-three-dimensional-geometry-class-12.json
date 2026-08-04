@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-three-dimensional-geometry-class-12",
+  "title": "Three Dimensional Geometry Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Three Dimensional Geometry Case Study Test",
+  "meta_desc": "Free Three Dimensional Geometry case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 more i",
+  "excerpt": "A real Class 12 Three Dimensional Geometry case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-three-dimensional-geometry.jpg",
+  "cta_product_slug": "class-12-three-dimensional-geometry-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Three Dimensional Geometry</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Three Dimensional Geometry case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Three Dimensional Geometry case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: A Surveyor's Drone Climb</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>A land-survey team launches a mapping drone that rises in a perfectly straight line from its launch pad at A(2,3,1) to a hover point B(5,7,13), all coordinates in metres on the site grid (with x east, y north and z vertical). The pilot needs the drone's heading described both as a set of direction ratios and as direction cosines, because the flight-control software stores a bearing as a unit direction. Knowing the exact climb also lets the team check the length of a tethered power cable running along the same path. They treat the pad and the hover point as two fixed points in space, read off the displacement between them, and reduce it to the three cosines of the angles the path makes with the east, north and vertical axes before uploading the route.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Three Dimensional Geometry?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Three Dimensional Geometry Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: A Surveyor's Drone Climb",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Three Dimensional Geometry",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The direction ratios of the drone's flight path are",
+        "options": [
+          "(3,4,12)",
+          "(7,10,14)",
+          "(5,7,13)",
+          "(2,3,1)"
+        ],
+        "answer": 0,
+        "explanation": "Direction ratios are the coordinate differences B-A=(5-2,\\ 7-3,\\ 13-1)=(3,4,12). (a)."
+      },
+      {
+        "q": "The length of the climb AB is",
+        "options": [
+          "√(194) m",
+          "169 m",
+          "13 m",
+          "19 m"
+        ],
+        "answer": 2,
+        "explanation": "AB=√(3²+4²+12²)=√(9+16+144)=√(169)=13 m. (c)."
+      },
+      {
+        "q": "The direction cosines of the path are",
+        "options": [
+          "(3,4,12)",
+          "(3/13,4/13,12/13)",
+          "(3/19,4/19,12/19)",
+          "(3/169,4/169,12/169)"
+        ],
+        "answer": 1,
+        "explanation": "Divide each ratio by the magnitude 13: (3/13,4/13,12/13). (b)."
+      },
+      {
+        "q": "The cosine of the angle the path makes with the vertical (z) axis is",
+        "options": [
+          "3/13",
+          "4/13",
+          "5/13",
+          "12/13"
+        ],
+        "answer": 3,
+        "explanation": "The cosine of the angle with the z-axis is the third direction cosine, n=12/13. (d)."
+      },
+      {
+        "q": "For these direction cosines, the value of l²+m²+n² is",
+        "options": [
+          "169",
+          "13",
+          "0",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "Direction cosines always satisfy l²+m²+n²=(9+16+144)/169=169/169=1. (d)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Three Dimensional Geometry in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Three Dimensional Geometry is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Three Dimensional Geometry e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Three Dimensional Geometry case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}

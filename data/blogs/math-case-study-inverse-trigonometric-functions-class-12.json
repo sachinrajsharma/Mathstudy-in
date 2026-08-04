@@ -1,0 +1,90 @@
+{
+  "slug": "math-case-study-inverse-trigonometric-functions-class-12",
+  "title": "Inverse Trigonometric Functions Case Study Class 12 — Free Online MCQ Test with Solutions",
+  "meta_title": "Class 12 Inverse Trigonometric Functions Case Study Test",
+  "meta_desc": "Free Inverse Trigonometric Functions case study for Class 12 with solutions: real board-pattern passage + 5 MCQs online test with step-by-step answers, and 10 m",
+  "excerpt": "A real Class 12 Inverse Trigonometric Functions case study — read the passage, take the free 5-question MCQ test with instant scoring and full solutions.",
+  "category": "Class 12",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/class-12-case-studies-inverse-trigonometric-functions.jpg",
+  "cta_product_slug": "class-12-inverse-trigonometric-functions-case-studies-with-solutions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p><strong>Inverse Trigonometric Functions</strong> is one of the chapters where CBSE and ISC Class 12 board papers now ask <strong>case study questions</strong> — a short real-life passage followed by MCQs that test whether you can apply the chapter, not just recall it. Below is a complete <strong>Inverse Trigonometric Functions case study for Class 12 with solutions</strong>: read the passage, then attempt the 5-question online MCQ test. Every question comes with a step-by-step explanation the moment you check your score.</p><h2>How to attempt a Inverse Trigonometric Functions case study</h2><ul><li>Read the passage twice — the data you need is always inside it.</li><li>Note what is <strong>given</strong> and what each question actually asks before touching the options.</li><li>Work each MCQ on paper first; distractors are built from the common mistakes.</li><li>After checking your score, read the explanation even for questions you got right.</li></ul><h2>Case Study: A Wheelchair Access Ramp</h2><p><em>Read the passage carefully, then answer the 5 MCQs in the test below.</em></p><blockquote><p>A city library installs a wheelchair access ramp so that visitors can reach the raised entrance safely. Accessibility guidelines fix a maximum angle that any ramp may make with the level ground, because a ramp that is too steep becomes dangerous to use. If a ramp climbs a vertical height h over a horizontal run r, the angle it makes with the ground is the principal value of the arctangent, θ=tan⁻¹ (h/r). Since both h and r are positive here, this angle is always acute. The main ramp rises 1 m over a run of √3 m, while a shorter service ramp rises 1 m over a run of 1 m. The surveyor records each angle exactly, and also works out the least horizontal run needed to keep a 1 m rise within the guideline limit.</p></blockquote><p>Now scroll to the <strong>free online MCQ test</strong> below and attempt all five questions. This is exactly the board pattern — one passage, five one-mark MCQs.</p><h2>Want all 10 case studies for Inverse Trigonometric Functions?</h2><p>This page has 1 of the 10 case studies from our <strong>Class 12 Inverse Trigonometric Functions Case Studies e-book</strong> — 10 fresh passages with 50 MCQs in all, every answer solved step by step, in a print-ready PDF. Use the button below to get the full e-book, or browse all chapters on the <a href=\"/blog/math-case-studies-class-12\">Class 12 Maths case studies hub</a>.</p>",
+  "quiz": {
+    "title": "Case Study MCQ Test: A Wheelchair Access Ramp",
+    "intro": "Based on the passage above. Pick an answer for each question, then press Check my score for step-by-step solutions.",
+    "about": "Class 12 Maths case study: Inverse Trigonometric Functions",
+    "level": "Class 12",
+    "questions": [
+      {
+        "q": "The angle of the main ramp, tan⁻¹ (1/(√3)), equals",
+        "options": [
+          "(π)/6",
+          "(π)/4",
+          "(π)/3",
+          "(π)/2"
+        ],
+        "answer": 0,
+        "explanation": "tan⁻¹ (1/(√3)): we need θ∈(-(π)/2,(π)/2) with tanθ=1/(√3). Since tan(π)/6=1/(√3), the angle is (π)/6. (a)."
+      },
+      {
+        "q": "For the service ramp the rise equals the run, so its angle is",
+        "options": [
+          "(π)/6",
+          "(π)/3",
+          "(π)/2",
+          "(π)/4"
+        ],
+        "answer": 3,
+        "explanation": "Rise = run ⇒tanθ=1⇒θ=tan⁻¹1=(π)/4. (d)."
+      },
+      {
+        "q": "The principal value branch (range) of tan⁻¹x is",
+        "options": [
+          "[0,π]",
+          "[-(π)/2,(π)/2]",
+          "(-(π)/2,(π)/2)",
+          "(0,π)"
+        ],
+        "answer": 2,
+        "explanation": "The principal branch of tan⁻¹ is the open interval (-(π)/2,(π)/2). (c)."
+      },
+      {
+        "q": "A downhill exit ramp has slope -1/(√3); its angle tan⁻¹ (-1/(√3)) is",
+        "options": [
+          "(π)/6",
+          "-(π)/6",
+          "(5π)/6",
+          "-(π)/3"
+        ],
+        "answer": 1,
+        "explanation": "Tangent is odd, so tan⁻¹ (-1/(√3))=-tan⁻¹1/(√3)=-(π)/6. (b)."
+      },
+      {
+        "q": "To keep a 1 m rise at an angle of at most (π)/6, the run must be at least",
+        "options": [
+          "1 m",
+          "√2 m",
+          "2 m",
+          "√3 m"
+        ],
+        "answer": 3,
+        "explanation": "We need tanθ=1/r≤tan(π)/6=1/(√3), so r≥√3 m. (d)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are case study questions asked from Inverse Trigonometric Functions in the Class 12 board exam?",
+      "a": "Yes. The CBSE Class 12 Maths paper includes case-study based questions, and Inverse Trigonometric Functions is a regularly used chapter. Each case study gives a passage and MCQs or short parts based on it."
+    },
+    {
+      "q": "How many case studies does the full Inverse Trigonometric Functions e-book have?",
+      "a": "Ten. Each has a fresh real-life passage, a diagram and 5 board-pattern MCQs — 50 questions in all, with every answer explained step by step at the back."
+    },
+    {
+      "q": "Is this Inverse Trigonometric Functions case study test free?",
+      "a": "Yes — the case study on this page and its 5-question online MCQ test are completely free, with instant scoring and full solutions. The complete 10-case-study e-book is Rs 35."
+    }
+  ]
+}
