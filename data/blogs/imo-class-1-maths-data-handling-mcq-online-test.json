@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-data-handling-mcq-online-test",
+  "title": "IMO Class 1 Maths Data Handling: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Data Handling Test",
+  "meta_desc": "Free IMO Class 1 Data Handling online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Data Handling online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Data handling is the child's first taste of reading information — counting pictures in a graph, reading a small table, comparing groups. It rewards careful counting over cleverness. Here is what the Olympiad tests, the facts to hold on to, the slips to avoid, and a free 10-question test.</p><h2>What the Class 1 Data Handling Olympiad tests</h2><ul><li>Reading a picture graph (pictograph) and counting objects</li><li>Reading a simple table</li><li>Finding which group has the most or the fewest</li><li>Working out how many more one group has, and the total of all groups</li></ul><h2>Key facts your child should know</h2><ul><li>In a picture graph, each picture stands for a count — read a row by counting its pictures.</li><li><strong>Most</strong> means the largest number; <strong>fewest</strong> means the smallest.</li><li>\"How many more\" between two rows is a <strong>subtraction</strong>.</li><li>The <strong>total</strong> is the sum of every row.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Miscounting the pictures in a row by one.</li><li>Adding two rows when the question asks how many more (a subtraction).</li><li>Reading \"fewest\" as \"most\".</li></ul><h2>Take the free Data Handling test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Data Handling Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Data Handling",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "In a picture graph, 1 picture stands for 2 kites. Sara's row has 7 pictures. How many kites does Sara have?",
+        "options": [
+          "7",
+          "16",
+          "14",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Each picture means 2 kites. So 7 pictures show 7 × 2 = 14 kites."
+      },
+      {
+        "q": "In a picture graph, 1 picture stands for 2 toy trains. Veer's row has 3 pictures. How many toy trains does Veer have?",
+        "options": [
+          "3",
+          "6",
+          "8",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Each picture means 2 toy trains. So 3 pictures show 3 × 2 = 6 toy trains."
+      },
+      {
+        "q": "Children chose a favourite fruit: 12 chose mango, 9 chose apple, 6 chose grapes, 4 chose banana. Which two choices together were made by exactly 18 children?",
+        "options": [
+          "mango and apple",
+          "mango and banana",
+          "mango and grapes",
+          "apple and grapes"
+        ],
+        "answer": 2,
+        "explanation": "mango got 12 and grapes got 6; 12 + 6 = 18."
+      },
+      {
+        "q": "In a picture graph, 1 picture stands for 2 balloons. Riya's row has 6 pictures. How many balloons does Riya have?",
+        "options": [
+          "12",
+          "6",
+          "14",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Each picture means 2 balloons. So 6 pictures show 6 × 2 = 12 balloons."
+      },
+      {
+        "q": "In a picture graph, 1 picture stands for 2 toffees. How many pictures are needed to show 10 toffees?",
+        "options": [
+          "10",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Put the toffees in pairs: 10 makes 5 pairs, so 5 pictures are needed."
+      },
+      {
+        "q": "The table shows stars earned: Wed 6, Thu 11, Fri 8. How many more stars earned on Thu than on Wed?",
+        "options": [
+          "17",
+          "11",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Take away: 11 − 6 = 5."
+      },
+      {
+        "q": "In a class survey about a favourite game, 9 children chose cricket, 8 chose hide-and-seek and 3 chose hopscotch. How many children were asked in all?",
+        "options": [
+          "19",
+          "21",
+          "17",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "Add everyone: 9 + 8 + 3 = 20 children."
+      },
+      {
+        "q": "In a survey about a favourite toy, 5 children like teddy bear, 10 like toy train and 7 like kite. How many more children like toy train than teddy bear?",
+        "options": [
+          "15",
+          "10",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Take away: 10 − 5 = 5 more children like toy train."
+      },
+      {
+        "q": "A pet shop has 4 puppies, 6 kittens and 3 rabbits. How many animals are there in all?",
+        "options": [
+          "13",
+          "12",
+          "14",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Add all three groups: 4 + 6 + 3 = 13 animals."
+      },
+      {
+        "q": "Children chose a favourite pet: 14 chose dog, 9 chose cat, 5 chose fish, 2 chose parrot. Which two choices together were made by exactly 14 children?",
+        "options": [
+          "dog and cat",
+          "dog and fish",
+          "dog and parrot",
+          "cat and fish"
+        ],
+        "answer": 3,
+        "explanation": "cat got 9 and fish got 5; 9 + 5 = 14."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is a pictograph?",
+      "a": "A picture graph where each picture represents a number of things, so you count the pictures to read the data."
+    },
+    {
+      "q": "How do you find \"how many more\"?",
+      "a": "Subtract the smaller count from the larger one."
+    },
+    {
+      "q": "Is the data-handling test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 MCQs with solutions for Rs 23."
+    }
+  ]
+}

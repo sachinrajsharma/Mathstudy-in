@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-measurement-mcq-online-test",
+  "title": "IMO Class 1 Maths Measurement: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Measurement Test",
+  "meta_desc": "Free IMO Class 1 Measurement online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Measurement online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-measurement-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-measurement-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Measurement in Class 1 is wonderfully practical — longer and shorter, heavier and lighter, telling the hour, counting coins. Olympiad questions dress these up in everyday scenes. Here is what is tested, the facts to know, the usual slips, and a free 10-question test.</p><h2>What the Class 1 Measurement Olympiad tests</h2><ul><li>Comparing length (longer / shorter / taller) and weight (heavier / lighter)</li><li>Capacity — which holds more or less</li><li>Time — days of the week, months, and reading the hour on a clock</li><li>Money — recognising coins and notes and simple totals</li></ul><h2>Key facts your child should know</h2><ul><li>There are <strong>7 days</strong> in a week and <strong>12 months</strong> in a year.</li><li>On a clock the <strong>short hand shows the hour</strong>; when the long hand points to 12 it is \"o’clock\".</li><li>On a balance the <strong>heavier</strong> object goes <strong>down</strong> and the lighter one rises.</li><li>Common Indian coins are ₹1, ₹2, ₹5 and ₹10; small amounts can be made by combining them.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Confusing \"taller\" with \"longer\" — tall is up-and-down, long is end-to-end.</li><li>Reading the long hand as the hour instead of the short hand.</li><li>Adding coin values carelessly, e.g. counting ₹5 + ₹2 as ₹6.</li></ul><h2>Take the free Measurement test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Measurement Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Measurement Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Measurement",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "Which day of the week is the day just before Monday?",
+        "options": [
+          "Monday",
+          "Saturday",
+          "Tuesday",
+          "Sunday"
+        ],
+        "answer": 3,
+        "explanation": "Count 1 day back from Monday on the week: you land on Sunday."
+      },
+      {
+        "q": "A tank becomes full with 12 buckets of water. 4 buckets have already been poured in. How many more buckets are needed to fill it?",
+        "options": [
+          "12",
+          "8",
+          "4",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "12 buckets fill the tank, and 4 are already in. 12 take away 4 = 8 more buckets."
+      },
+      {
+        "q": "A pencil costs Rs 12. Neha pays with a Rs 20 note. How much change does she get back?",
+        "options": [
+          "Rs 10",
+          "Rs 6",
+          "Rs 8",
+          "Rs 20"
+        ],
+        "answer": 2,
+        "explanation": "Change = money given take away the cost: Rs 20 - Rs 12 = Rs 8."
+      },
+      {
+        "q": "A bucket becomes full with 8 mugs of water. 3 mugs have already been poured in. How many more mugs are needed to fill it?",
+        "options": [
+          "8",
+          "3",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "8 mugs fill the bucket, and 3 are already in. 8 take away 3 = 5 more mugs."
+      },
+      {
+        "q": "Which day of the week is 3 days before Saturday?",
+        "options": [
+          "Thursday",
+          "Wednesday",
+          "Tuesday",
+          "Saturday"
+        ],
+        "answer": 1,
+        "explanation": "Count 3 days back from Saturday on the week: you land on Wednesday."
+      },
+      {
+        "q": "The little hand of a clock points to 9 and the big hand points to 12. What time does the clock show?",
+        "options": [
+          "10 o'clock",
+          "8 o'clock",
+          "9 o'clock",
+          "3 o'clock"
+        ],
+        "answer": 2,
+        "explanation": "When the big hand is on 12, we read the little hand. It points to 9, so it is 9 o'clock."
+      },
+      {
+        "q": "Tara's stick is 18 cm long. Kabir's stick is 25 cm long. Whose stick is longer, and by how much?",
+        "options": [
+          "Kabir's, by 7 cm",
+          "Tara's, by 7 cm",
+          "Kabir's, by 9 cm",
+          "Both are the same length"
+        ],
+        "answer": 0,
+        "explanation": "25 is more than 18. 25 take away 18 is 7. So Kabir's stick is longer by 7 cm."
+      },
+      {
+        "q": "Which coins together make exactly Rs 9?",
+        "options": [
+          "one Rs 5 coin and one Rs 2 coin",
+          "one Rs 5 coin and two Rs 2 coins",
+          "two Rs 5 coins",
+          "three Rs 2 coins"
+        ],
+        "answer": 1,
+        "explanation": "one Rs 5 coin and two Rs 2 coins give Rs 5 + Rs 2 + Rs 2 = Rs 9. The other sets do not add up to Rs 9."
+      },
+      {
+        "q": "Anu and Balu sit on a seesaw. Anu's side goes down. Who is heavier?",
+        "options": [
+          "Balu",
+          "Both weigh the same",
+          "Anu",
+          "Cannot say"
+        ],
+        "answer": 2,
+        "explanation": "The heavier side always goes down. Anu's side is down, so Anu is heavier and Balu is lighter. The heavier one is Anu."
+      },
+      {
+        "q": "Mohan pays for a kite with Rs 10, Rs 10 and Rs 2. How much does the kite cost?",
+        "options": [
+          "Rs 24",
+          "Rs 20",
+          "Rs 27",
+          "Rs 22"
+        ],
+        "answer": 3,
+        "explanation": "Add the money: Rs 10 + Rs 10 + Rs 2 = Rs 22."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you read the hour on a clock?",
+      "a": "Look at the short hand. Whichever number it points to is the hour, and the long hand on 12 means o’clock."
+    },
+    {
+      "q": "How many months are in a year?",
+      "a": "Twelve, from January to December."
+    },
+    {
+      "q": "Is the measurement test free?",
+      "a": "Yes — 10 free questions. The e-book adds 100 solved MCQs for Rs 23."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-shapes-and-patterns-mcq-online-test",
+  "title": "IMO Class 1 Maths Shapes and Patterns: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Shapes and Patterns Test",
+  "meta_desc": "Free IMO Class 1 Shapes and Patterns online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Shapes and Patterns online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-shapes-and-patterns-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-shapes-and-patterns-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Shapes, patterns and symmetry are the most visual part of the Class 1 Olympiad — and the part where a clear picture in the child's head beats memorising. This guide sets out what is tested, the shape facts to know cold, the common mix-ups, and a free 10-question test.</p><h2>What the Class 1 Shapes and Patterns Olympiad tests</h2><ul><li>Naming 2-D shapes (circle, square, rectangle, triangle, oval) and counting sides and corners</li><li>Naming 3-D shapes (cube, cuboid, sphere, cylinder, cone) and their faces</li><li>Continuing a repeating pattern</li><li>Spotting a line of symmetry</li></ul><h2>Key facts your child should know</h2><ul><li>A triangle has <strong>3 sides and 3 corners</strong>; a square has <strong>4 equal sides</strong>; a circle has <strong>no corners</strong>.</li><li>A cube has <strong>6 faces, 8 corners and 12 edges</strong>; a cuboid is the same but like a brick.</li><li>A cylinder has <strong>2 flat faces and 1 curved</strong>; a sphere (a ball) has <strong>no flat face</strong>.</li><li>A shape has a <strong>line of symmetry</strong> when a fold makes two matching halves.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up corners and sides when counting.</li><li>Calling every box a cube — a cube has all equal sides, a cuboid does not.</li><li>Continuing a pattern by colour when the rule is really about shape (or the other way round).</li></ul><h2>Take the free Shapes and Patterns test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Shapes and Patterns Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Shapes and Patterns Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Shapes and Patterns",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "Which of these shapes has NO corners at all?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": 0,
+        "explanation": "A circle is one smooth curve with no corners. The other three all have corners."
+      },
+      {
+        "q": "Which of these is NOT a flat (2D) shape?",
+        "options": [
+          "Circle",
+          "Cube",
+          "Triangle",
+          "Square"
+        ],
+        "answer": 1,
+        "explanation": "A cube is a solid (3D) shape you can hold; the others are flat shapes you draw."
+      },
+      {
+        "q": "How many corners does a oval have?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "An oval is one smooth egg-like curve, so it has no corners."
+      },
+      {
+        "q": "A pattern repeats like this: red, blue, red, blue, ... What is the 10th colour?",
+        "options": [
+          "red",
+          "green",
+          "blue",
+          "pink"
+        ],
+        "answer": 2,
+        "explanation": "The block of 2 repeats. The 10th colour matches the 2nd one in the block, so it is blue."
+      },
+      {
+        "q": "Which of these letters looks the same when you fold it down the middle?",
+        "options": [
+          "A",
+          "F",
+          "J",
+          "G"
+        ],
+        "answer": 0,
+        "explanation": "Fold A down its middle and the two halves match exactly."
+      },
+      {
+        "q": "Which of these does NOT look the same on both of its sides?",
+        "options": [
+          "A butterfly",
+          "A shoe",
+          "A heart shape",
+          "A ball"
+        ],
+        "answer": 1,
+        "explanation": "A shoe curves for one foot, so its two sides are different. The others have matching halves."
+      },
+      {
+        "q": "Fill in the missing number: 2, 4, ___, 8.",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Each number is 2 more than the one before it, so the blank is 6."
+      },
+      {
+        "q": "A door is shaped most like a ___.",
+        "options": [
+          "Circle",
+          "Rectangle",
+          "Triangle",
+          "Oval"
+        ],
+        "answer": 1,
+        "explanation": "A door is longer than it is wide, with 4 corners — a rectangle."
+      },
+      {
+        "q": "Look at the letter pattern: A B B A B B. Which letter comes next?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0,
+        "explanation": "The letters repeat in the block \"A B B\". After 6 letters the pattern needs A next."
+      },
+      {
+        "q": "A brick used for building a wall has which solid shape?",
+        "options": [
+          "Cube",
+          "Sphere",
+          "Cuboid",
+          "Cone"
+        ],
+        "answer": 2,
+        "explanation": "A brick is box-shaped but longer than it is tall, so it is a cuboid."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many faces does a cube have?",
+      "a": "Six. All six faces of a cube are equal squares, and it also has 8 corners and 12 edges."
+    },
+    {
+      "q": "What is a line of symmetry?",
+      "a": "A line that splits a shape into two halves that match exactly when folded along it."
+    },
+    {
+      "q": "Is the shapes test free?",
+      "a": "Yes, 10 free questions with pictures. The e-book has 100 MCQs with colourful diagrams for Rs 23."
+    }
+  ]
+}

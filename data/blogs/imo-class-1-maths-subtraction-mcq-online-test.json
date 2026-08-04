@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-subtraction-mcq-online-test",
+  "title": "IMO Class 1 Maths Subtraction: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Subtraction Test",
+  "meta_desc": "Free IMO Class 1 Subtraction online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Subtraction online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-subtraction-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-subtraction-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Subtraction trips up more Class 1 children than any other topic, mostly because of borrowing and the \"how many more\" wording. Here is what the Olympiad tests, the handful of facts that fix most errors, and a free 10-question test.</p><h2>What the Class 1 Subtraction Olympiad tests</h2><ul><li>Taking away and finding how many are left</li><li>Two-digit subtraction, with and without borrowing</li><li>Missing-number sentences like ▢ − 4 = 6</li><li>Word problems using \"left\", \"fewer\" and \"how many more\"</li></ul><h2>Key facts your child should know</h2><ul><li>Taking away 0 changes nothing (8 − 0 = 8); taking a number from itself gives 0 (8 − 8 = 0).</li><li>Subtract the <strong>ones first</strong>, then the tens; borrow a ten when the top ones digit is too small.</li><li>Check any subtraction by <strong>adding back</strong>: if 12 − 5 = 7, then 7 + 5 should be 12.</li><li>\"How many more\" is a subtraction: the bigger amount minus the smaller.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Subtracting the smaller ones digit from the larger regardless of position — doing 34 − 19 as 9 − 4 in the ones.</li><li>Forgetting to reduce the tens digit after borrowing.</li><li>Reading \"how many more\" as an addition.</li></ul><h2>Take the free Subtraction test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Subtraction Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Subtraction Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Subtraction",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "Find the missing number: 52 − __ = 19.",
+        "options": [
+          "33",
+          "71",
+          "43",
+          "23"
+        ],
+        "answer": 0,
+        "explanation": "The missing number is 52 − 19 = 33, because 52 − 33 = 19."
+      },
+      {
+        "q": "What is 17 take away 9?",
+        "options": [
+          "18",
+          "9",
+          "8",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Start at 17 and take away 9. 17 − 9 = 8."
+      },
+      {
+        "q": "What is 15 − 8?",
+        "options": [
+          "3",
+          "17",
+          "8",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Count back from 15: take away 8 and you land on 7. So 15 − 8 = 7."
+      },
+      {
+        "q": "Gita has 53 stickers and Farhan has 26 stickers. How many more stickers does Gita have than Farhan?",
+        "options": [
+          "79",
+          "33",
+          "37",
+          "27"
+        ],
+        "answer": 3,
+        "explanation": "Compare by subtracting: 53 − 26 = 27 more stickers."
+      },
+      {
+        "q": "Take the smaller number from the bigger number: 19 and 53.",
+        "options": [
+          "72",
+          "44",
+          "24",
+          "34"
+        ],
+        "answer": 3,
+        "explanation": "The bigger number is 53 and the smaller is 19. 53 − 19 = 34."
+      },
+      {
+        "q": "There were 32 birds on a tree. First 15 flew away, then 6 more flew away. How many birds are still on the tree?",
+        "options": [
+          "17",
+          "26",
+          "11",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "First 32 − 15 = 17. Then 17 − 6 = 11 birds."
+      },
+      {
+        "q": "Find the missing number: __ − 26 = 30.",
+        "options": [
+          "56",
+          "4",
+          "66",
+          "46"
+        ],
+        "answer": 0,
+        "explanation": "Add back what was taken away: 26 + 30 = 56. Check: 56 − 26 = 30."
+      },
+      {
+        "q": "Take the smaller number from the bigger number: 34 and 61.",
+        "options": [
+          "95",
+          "37",
+          "27",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "The bigger number is 61 and the smaller is 34. 61 − 34 = 27."
+      },
+      {
+        "q": "How many must be added to 28 to make 50?",
+        "options": [
+          "78",
+          "22",
+          "32",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Find the jump from 28 up to 50: 50 − 28 = 22."
+      },
+      {
+        "q": "Meera picked 55 flowers. She gave 23 to her mother and 14 to her teacher. How many flowers does she have left?",
+        "options": [
+          "18",
+          "32",
+          "41",
+          "28"
+        ],
+        "answer": 0,
+        "explanation": "First 55 − 23 = 32. Then 32 − 14 = 18 flowers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is borrowing in subtraction?",
+      "a": "When the top ones digit is smaller than the bottom one, you take one ten from the tens column, turning it into 10 extra ones so you can subtract."
+    },
+    {
+      "q": "How can a child check a subtraction?",
+      "a": "Add the answer back to the number taken away. If it returns the starting number, the subtraction is right."
+    },
+    {
+      "q": "Is this subtraction test free?",
+      "a": "Yes — 10 free questions. The e-book adds 100 solved MCQs for Rs 23."
+    }
+  ]
+}

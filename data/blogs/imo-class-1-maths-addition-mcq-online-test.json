@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-addition-mcq-online-test",
+  "title": "IMO Class 1 Maths Addition: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Addition Test",
+  "meta_desc": "Free IMO Class 1 Addition online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Addition online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-addition-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-addition-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Addition in Class 1 is more than \"put two numbers together\" — Olympiad questions hide it inside number bonds, missing-number boxes and short word problems. This guide covers what gets tested, the facts worth drilling, the usual slip-ups, and a free 10-question quiz.</p><h2>What the Class 1 Addition Olympiad tests</h2><ul><li>Single-digit sums and number bonds (the pairs that make 10, 20 and so on)</li><li>Two-digit addition, with and without carrying</li><li>Missing-number sentences like 6 + ▢ = 10</li><li>Word problems where words such as \"in all\" and \"altogether\" signal addition</li></ul><h2>Key facts your child should know</h2><ul><li>You may add in <strong>any order</strong>: 3 + 8 is the same as 8 + 3.</li><li>Adding <strong>0</strong> leaves a number unchanged: 7 + 0 = 7.</li><li>Add the <strong>ones first</strong>, then the tens; if the ones make 10 or more, carry one ten across.</li><li>Addition and subtraction undo each other, so 6 + ▢ = 10 means ▢ = 10 − 6.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to carry the ten when the ones add up to 10 or more (34 + 27).</li><li>Adding the tens and ones in a jumble instead of column by column.</li><li>In a word problem, adding when the question actually asks how many are left.</li></ul><h2>Take the free Addition test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Addition Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Addition Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Addition",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "Work out 38 + 27.",
+        "options": [
+          "55",
+          "75",
+          "65",
+          "64"
+        ],
+        "answer": 2,
+        "explanation": "Ones: 8 + 7 = 15. Write 5 and carry 1 ten. So 38 + 27 = 65."
+      },
+      {
+        "q": "A digit is hidden: 5_ + 32 = 89. What is the hidden digit?",
+        "options": [
+          "8",
+          "7",
+          "6",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "The first number must be 57, because 57 + 32 = 89. So the hidden digit is 7."
+      },
+      {
+        "q": "Which pair of numbers adds up to make 13?",
+        "options": [
+          "5 and 9",
+          "8 and 3",
+          "6 and 7",
+          "4 and 8"
+        ],
+        "answer": 2,
+        "explanation": "6 + 7 = 13, so this pair makes 13."
+      },
+      {
+        "q": "A digit is hidden: 2_ + 34 = 59. What is the hidden digit?",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "The first number must be 25, because 25 + 34 = 59. So the hidden digit is 5."
+      },
+      {
+        "q": "To add 6 + 8 + 4 quickly, which two numbers should you add first to make 10?",
+        "options": [
+          "6 and 8",
+          "8 and 4",
+          "8 and 8",
+          "6 and 4"
+        ],
+        "answer": 3,
+        "explanation": "6 + 4 = 10, then 10 + 8 = 18. Making a 10 first is quicker!"
+      },
+      {
+        "q": "A digit is hidden: _6 + 21 = 57. What is the hidden digit?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The first number must be 36, because 36 + 21 = 57. So the hidden digit is 3."
+      },
+      {
+        "q": "Work out 36 + 45.",
+        "options": [
+          "71",
+          "91",
+          "80",
+          "81"
+        ],
+        "answer": 3,
+        "explanation": "Ones: 6 + 5 = 11. Write 1 and carry 1 ten. So 36 + 45 = 81."
+      },
+      {
+        "q": "Find the missing number: 18 = 7 + __",
+        "options": [
+          "12",
+          "10",
+          "11",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Count on from 7 up to 18. You need 11 more, because 7 + 11 = 18."
+      },
+      {
+        "q": "Dev collected 32 beads in the morning and 19 beads in the evening. Later Dev found 8 more. How many beads does Dev have now?",
+        "options": [
+          "51",
+          "58",
+          "59",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "First, 32 + 19 = 51. Then add the 8 found later: 51 + 8 = 59."
+      },
+      {
+        "q": "What is the double of 28?",
+        "options": [
+          "56",
+          "54",
+          "58",
+          "46"
+        ],
+        "answer": 0,
+        "explanation": "Double means add the number to itself: 28 + 28 = 56."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What are number bonds?",
+      "a": "Number bonds are the pairs of numbers that make a total. 6 and 4 are a bond for 10, because 6 + 4 = 10."
+    },
+    {
+      "q": "When do you carry in addition?",
+      "a": "When the ones column adds to 10 or more. You write the ones digit and carry the extra ten into the tens column."
+    },
+    {
+      "q": "Is the addition test free?",
+      "a": "Yes, 10 questions free with instant scoring. The full e-book has 100 MCQs and step-by-step solutions for Rs 23."
+    }
+  ]
+}

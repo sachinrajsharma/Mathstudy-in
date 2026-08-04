@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-1-maths-spatial-reasoning-mcq-online-test",
+  "title": "IMO Class 1 Maths Spatial Reasoning: Free Online Test + Practice MCQs",
+  "meta_title": "IMO Class 1 Spatial Reasoning Test",
+  "meta_desc": "Free IMO Class 1 Spatial Reasoning online test: 10 MCQs with answers and explanations, key facts, common mistakes and 100 more practice questions.",
+  "excerpt": "A free 10-question Spatial Reasoning online test for IMO Class 1 — instant scoring, full explanations, key facts and 100 more practice MCQs.",
+  "category": "IMO Class 1",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-1-maths-spatial-reasoning-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-1-maths-spatial-reasoning-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Spatial reasoning — inside and outside, left and right, positions in a line — is where Class 1 children first learn to describe exactly where things are. It is also where a careless left-for-right costs a mark. Here is what is tested, the facts, the traps, and a free 10-question test.</p><h2>What the Class 1 Spatial Reasoning Olympiad tests</h2><ul><li>Inside / outside and near / far</li><li>Left and right, top and bottom</li><li>Ordinal positions (1st, 2nd, 3rd …) in a row or queue</li><li>Position and direction</li></ul><h2>Key facts your child should know</h2><ul><li>Always check <strong>which end</strong> you count from — left or right, front or back.</li><li>Positions have their own words: 1st, 2nd, 3rd, 4th, 5th and so on.</li><li>Left is the side of your left hand; right is the side of your right hand, when you face the same way as the picture.</li><li>Inside means within the boundary; outside means beyond it.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Counting a position from the wrong end (3rd from the left is not 3rd from the right).</li><li>Swapping left and right when the figure faces you.</li><li>Missing the difference between \"next to\" and \"in front of / behind\".</li></ul><h2>Take the free Spatial Reasoning test</h2><p>The 10-question quiz below is drawn from our verified IMO Class 1 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Spatial Reasoning Chapter Tests e-book</strong> has 100 MCQs in 10 worksheets with full solutions.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 1 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 1 Spatial Reasoning Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Class 1 Maths: Spatial Reasoning",
+    "level": "Class 1",
+    "questions": [
+      {
+        "q": "From Sia's house, the library is 6 steps away and the market is 11 steps away. Which is nearer, and by how many steps?",
+        "options": [
+          "The library, by 5 steps",
+          "The market, by 5 steps",
+          "The library, by 7 steps",
+          "The market, by 17 steps"
+        ],
+        "answer": 0,
+        "explanation": "6 steps is less than 11 steps, so the library is nearer — by 11 − 6 = 5 steps."
+      },
+      {
+        "q": "In a line from left to right: cap, shoe, sock, belt, glove. Which one is between the sock and the glove?",
+        "options": [
+          "Cap",
+          "Shoe",
+          "Sock",
+          "Belt"
+        ],
+        "answer": 3,
+        "explanation": "Only one thing sits between the sock and the glove — the belt."
+      },
+      {
+        "q": "In a row of children, how many children are there between the 2nd one and the 5th one?",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Count the places after 2nd and before 5th: 5 − 2 − 1 = 2."
+      },
+      {
+        "q": "Piled up from bottom to top: gold coin, silver coin, copper coin, shiny coin. How many things are above the copper coin?",
+        "options": [
+          "0",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "Count the ones named after the copper coin: shiny coin — that is 1."
+      },
+      {
+        "q": "Stacked from bottom to top: thick pillow, soft pillow, flat pillow, striped pillow, dotted pillow. How many things are below the flat pillow?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "Count the ones named before the flat pillow: thick pillow, soft pillow — that is 2."
+      },
+      {
+        "q": "Stacked from bottom to top: maths book, drawing book, story book, rhyme book, sticker book. How many things are below the rhyme book?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Count the ones named before the rhyme book: maths book, drawing book, story book — that is 3."
+      },
+      {
+        "q": "A pile is made from bottom to top: maths book, drawing book, story book, rhyme book, sticker book. Which one is 4th from the top?",
+        "options": [
+          "Drawing book",
+          "Maths book",
+          "Story book",
+          "Rhyme book"
+        ],
+        "answer": 0,
+        "explanation": "The top one is the sticker book. Counting down 4 places gives the drawing book."
+      },
+      {
+        "q": "Piled up from bottom to top: red book, blue book, green book, yellow book, pink book. How many things are above the red book?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Count the ones named after the red book: blue book, green book, yellow book, pink book — that is 4."
+      },
+      {
+        "q": "Stacked from bottom to top: big box, brown box, white box, small box. How many things are below the white box?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Count the ones named before the white box: big box, brown box — that is 2."
+      },
+      {
+        "q": "Anya stands 1st from the right in a line of 11 children. What is her place from the left?",
+        "options": [
+          "10th",
+          "12th",
+          "11th",
+          "13th"
+        ],
+        "answer": 2,
+        "explanation": "From the left: 11 + 1 − 1 = 11. Anya is 11th from the left."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find an ordinal position?",
+      "a": "Decide which end to start from, then count along: the first item is 1st, the next 2nd, and so on."
+    },
+    {
+      "q": "Why do left and right get confused?",
+      "a": "When a figure faces you its left is on your right. Turn to face the same way as the figure to get it right."
+    },
+    {
+      "q": "Is the spatial-reasoning test free?",
+      "a": "Yes — 10 free questions. The e-book adds 100 solved MCQs for Rs 23."
+    }
+  ]
+}
