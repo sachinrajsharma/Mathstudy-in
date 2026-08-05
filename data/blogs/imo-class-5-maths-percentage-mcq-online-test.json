@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-5-maths-percentage-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Percentage: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Percentage Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Percentage online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Percentage online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-percentage-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-percentage-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Percentage makes its debut in Class 5 — conversions, percent-of, and increase/decrease. It's the bridge to profit-loss and data questions, and Olympiad papers lean on it. Here is what the chapter tests, with a free 10-question test.</p><h2>What the Class 5 Maths Olympiad Percentage chapter tests</h2><ul><li>Percent ↔ fraction ↔ decimal conversions</li><li>Percentage of a quantity</li><li>What percent one number is of another</li><li>Percentage increase and decrease</li></ul><h2>Key facts your child should know</h2><ul><li>Per cent means per hundred: 45% = 45/100 = 0.45.</li><li>x% of N = (x/100) × N — 30% of 250 = 75.</li><li>\"What % is a of b\" = (a ÷ b) × 100.</li><li>25% = 1/4, 50% = 1/2, 75% = 3/4, 20% = 1/5.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Dividing by the wrong number in \"what percent\" questions.</li><li>Adding percentage points instead of computing on the original.</li><li>Forgetting the whole is always 100%.</li></ul><h2>Take the free Percentage test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Percentage Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Percentage Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Percentage",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "Which fraction in lowest terms equals 16%?",
+        "options": [
+          "16/100",
+          "21/25",
+          "4/25",
+          "4/50"
+        ],
+        "answer": 2,
+        "explanation": "16% = 16/100; dividing top and bottom by 4 gives 4/25."
+      },
+      {
+        "q": "In a classroom activity, 54 tiles on a 100-tile floor are blue. What percentage does this represent?",
+        "options": [
+          "54%",
+          "46%",
+          "58%",
+          "48%"
+        ],
+        "answer": 0,
+        "explanation": "Percent means \"per hundred\". 54 out of 100 is exactly 54%."
+      },
+      {
+        "q": "There are 21 houses with solar panels in a colony of 50. What percentage is this?",
+        "options": [
+          "21%",
+          "42%",
+          "44%",
+          "58%"
+        ],
+        "answer": 1,
+        "explanation": "Scale to 100: 21 out of 50 = 42 out of 100 = 42%."
+      },
+      {
+        "q": "What decimal number is equal to 9%?",
+        "options": [
+          "0.09",
+          "0.9",
+          "0.009",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "9% means 9 ÷ 100 = 0.09."
+      },
+      {
+        "q": "Out of 40 children in a dance club, 22 are girls. What percent are they?",
+        "options": [
+          "55%",
+          "22%",
+          "45%",
+          "61%"
+        ],
+        "answer": 0,
+        "explanation": "(22 ÷ 40) × 100 = 55%."
+      },
+      {
+        "q": "A school has 840 students and 55% of them come by bus. How many students come by bus?",
+        "options": [
+          "378",
+          "486",
+          "462",
+          "450"
+        ],
+        "answer": 2,
+        "explanation": "55% of 840 = (55 × 840) ÷ 100 = 462 students."
+      },
+      {
+        "q": "Find 30% of 120.",
+        "options": [
+          "66",
+          "36",
+          "72",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "30% of 120 = (30 × 120) ÷ 100 = 36."
+      },
+      {
+        "q": "Express the fraction 3/4 as a percentage.",
+        "options": [
+          "12%",
+          "50%",
+          "75%",
+          "85%"
+        ],
+        "answer": 2,
+        "explanation": "3/4 = 75/100, so it equals 75%."
+      },
+      {
+        "q": "Write 80% as a decimal.",
+        "options": [
+          "8",
+          "80",
+          "0.08",
+          "0.8"
+        ],
+        "answer": 3,
+        "explanation": "80% = 80/100 = 0.8."
+      },
+      {
+        "q": "Express the fraction 7/20 as a percentage.",
+        "options": [
+          "140%",
+          "30%",
+          "45%",
+          "35%"
+        ],
+        "answer": 3,
+        "explanation": "7/20 = 35/100, so it equals 35%."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you find 30% of a number?",
+      "a": "Multiply by 30 and divide by 100 — or find 10% and triple it. 30% of 250 = 75."
+    },
+    {
+      "q": "What fraction is 75%?",
+      "a": "Three-quarters: 75/100 simplifies to 3/4."
+    },
+    {
+      "q": "Is the Class 5 percentage test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 5 percentage questions with answers for Rs 32."
+    }
+  ]
+}

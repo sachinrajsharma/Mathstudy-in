@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-5-maths-temperature-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Temperature: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Temperature Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Temperature online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Temperature online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-temperature-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-temperature-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Temperature is the Class 5 chapter students underestimate — Celsius-Fahrenheit conversions and change-through-zero questions catch the unprepared. Here is what the IMO Class 5 temperature chapter tests, with a free 10-question test.</p><h2>What the Class 5 Maths Olympiad Temperature chapter tests</h2><ul><li>Reading thermometers in °C and °F</li><li>Conversions: °F = 9C/5 + 32 and back</li><li>Temperature rise, fall and differences (through negatives)</li><li>Benchmark temperatures (freezing, body, boiling)</li></ul><h2>Key facts your child should know</h2><ul><li>Water freezes at 0°C / 32°F and boils at 100°C / 212°F.</li><li>Body temperature ≈ 37°C = 98.6°F.</li><li><strong>°F = (9/5 × °C) + 32</strong>; °C = 5/9 × (°F − 32).</li><li>From −4° a rise of 10° reaches 6° — count through zero.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding 32 before multiplying by 9/5.</li><li>Sign slips on temperatures below zero.</li><li>Confusing a temperature with a temperature difference.</li></ul><h2>Take the free Temperature test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Temperature Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Temperature Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Temperature",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "Tea served at 85 °C cools down to 31 °C. Through how many degrees does it cool?",
+        "options": [
+          "54 °C",
+          "116 °C",
+          "58 °C",
+          "50 °C"
+        ],
+        "answer": 0,
+        "explanation": "85 − 31 = 54 °C."
+      },
+      {
+        "q": "The average temperature over three days was 20 °C. The first two days recorded 18 °C and 19 °C. What was the temperature on the third day?",
+        "options": [
+          "20 °C",
+          "23 °C",
+          "25 °C",
+          "60 °C"
+        ],
+        "answer": 1,
+        "explanation": "Total for 3 days = 20 × 3 = 60 °C. Third day = 60 − 18 − 19 = 23 °C."
+      },
+      {
+        "q": "The temperature falls steadily by 2 °C every hour. If it is 30 °C now, what will it be after 5 hours?",
+        "options": [
+          "20 °C",
+          "28 °C",
+          "22 °C",
+          "40 °C"
+        ],
+        "answer": 0,
+        "explanation": "Total fall = 2 × 5 = 10 °C; 30 − 10 = 20 °C."
+      },
+      {
+        "q": "During a cold wave the temperature in a valley was 4 °C at 9 pm. It fell by 11 °C by 4 am. What was the temperature at 4 am?",
+        "options": [
+          "7 °C",
+          "−7 °C",
+          "15 °C",
+          "−5 °C"
+        ],
+        "answer": 1,
+        "explanation": "4 − 11 = −7, so the temperature was −7 °C (below zero)."
+      },
+      {
+        "q": "The temperature at a hill station was 6 °C at 6 pm. It dropped 2 °C every hour. At what time did it reach 0 °C?",
+        "options": [
+          "8 pm",
+          "9 pm",
+          "10 pm",
+          "7 pm"
+        ],
+        "answer": 1,
+        "explanation": "A drop of 6 °C is needed; at 2 °C per hour that takes 3 hours: 6 pm + 3 h = 9 pm."
+      },
+      {
+        "q": "The normal temperature of a healthy human body is about",
+        "options": [
+          "98 °C",
+          "27 °C",
+          "40 °C",
+          "37 °C"
+        ],
+        "answer": 3,
+        "explanation": "Normal body temperature is about 37 °C (98.6 °F)."
+      },
+      {
+        "q": "The temperature is rising steadily by 4 °C every hour. If it is −6 °C now, what will it be after 4 hours?",
+        "options": [
+          "−2 °C",
+          "10 °C",
+          "6 °C",
+          "−22 °C"
+        ],
+        "answer": 1,
+        "explanation": "Total rise = 4 × 4 = 16 °C; -6 + 16 = 10 °C."
+      },
+      {
+        "q": "The temperature falls steadily by 2 °C every hour. If it is 25 °C now, what will it be after 7 hours?",
+        "options": [
+          "23 °C",
+          "13 °C",
+          "11 °C",
+          "39 °C"
+        ],
+        "answer": 2,
+        "explanation": "Total fall = 2 × 7 = 14 °C; 25 − 14 = 11 °C."
+      },
+      {
+        "q": "The temperatures on three days were 12 °C, 16 °C, 14 °C. What was the average temperature?",
+        "options": [
+          "14 °C",
+          "16 °C",
+          "42 °C",
+          "12 °C"
+        ],
+        "answer": 0,
+        "explanation": "Average = (12 + 16 + 14) ÷ 3 = 42 ÷ 3 = 14 °C."
+      },
+      {
+        "q": "Early morning at a ski resort the temperature was −8 °C. Bright sunshine raised it by 5 °C by 11 am. What was the temperature at 11 am?",
+        "options": [
+          "−3 °C",
+          "−13 °C",
+          "3 °C",
+          "0 °C"
+        ],
+        "answer": 0,
+        "explanation": "-8 + 5 = −3 °C."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is 100°C in Fahrenheit?",
+      "a": "212°F — multiply by 9/5 (180) and add 32."
+    },
+    {
+      "q": "How much did the temperature change from −4°C to 6°C?",
+      "a": "It rose 10 degrees — 4 degrees to reach zero and 6 more above it."
+    },
+    {
+      "q": "Is this Class 5 temperature test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 5 temperature questions with answers for Rs 32."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "imo-class-5-maths-data-handling-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Data Handling: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Data Handling Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Data Handling online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Data Handling online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-data-handling-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-data-handling-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Class 5 data handling brings double-bar graphs, pie charts and the mean-median-mode trio — read-carefully marks with a statistics flavour. Here is what the IMO Class 5 data handling chapter tests, with a free 10-question test with charts.</p><h2>What the Class 5 Maths Olympiad Data Handling chapter tests</h2><ul><li>Bar and double-bar graphs</li><li>Pie charts as fractions of a whole</li><li>Mean, median and mode</li><li>Pictographs, tally and interpretation</li></ul><h2>Key facts your child should know</h2><ul><li>Mean = sum ÷ count; median = middle after ordering; mode = most frequent.</li><li>A pie sector worth 1/4 of the circle is 1/4 of the total.</li><li>Missing value from a mean: sum = mean × count.</li><li>Always read the scale or key first.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting to ORDER the data before taking the median.</li><li>Reading a double-bar pair against the wrong series.</li><li>Averaging without counting all the values.</li></ul><h2>Take the free Data Handling test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Data Handling Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Data Handling",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "A pie chart of Kabir's day shows that 1/2 of it goes to study and 1/4 to play; the rest is sleep. What fraction of the pie is sleep?",
+        "options": [
+          "1/4",
+          "1/2",
+          "1/3",
+          "3/4"
+        ],
+        "answer": 0,
+        "explanation": "Sleep = 1 − 1/2 − 1/4 = 4/4 − 2/4 − 1/4 = 1/4 = 1/4.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 90 108\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle cx=\"45\" cy=\"45\" r=\"38\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><path d=\"M45 45 L45.0 7.0 A38 38 0 0 1 45.0 83.0 Z\" fill=\"#db2777\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"0.85\"/><path d=\"M45 45 L45.0 83.0 A38 38 0 0 1 45.0 7.0 Z\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"1\"/><text x=\"45\" y=\"98\" font-size=\"13\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">1/2 of the pie</text></svg>"
+      },
+      {
+        "q": "Four boxes hold these many pencils: 23, 27, 31, 19. What is the mean (average) value?",
+        "options": [
+          "27",
+          "23",
+          "25",
+          "100"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (23 + 27 + 31 + 19) ÷ 4 = 100 ÷ 4 = 25 pencils.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 260 54\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"36\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">23</text><rect x=\"70\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"98\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">27</text><rect x=\"132\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"1.6\"/><text x=\"160\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">31</text><rect x=\"194\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.6\"/><text x=\"222\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">19</text></svg>"
+      },
+      {
+        "q": "The number of story books read by seven children: 2, 3, 3, 5, 3, 2, 7. What is the mode of this data?",
+        "options": [
+          "2",
+          "5",
+          "7",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "3 appears 3 times, more often than any other value, so the mode is 3.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 446 54\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"36\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">2</text><rect x=\"70\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"98\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">3</text><rect x=\"132\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"160\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">3</text><rect x=\"194\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"1.6\"/><text x=\"222\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">5</text><rect x=\"256\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"284\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">3</text><rect x=\"318\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"346\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">2</text><rect x=\"380\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.6\"/><text x=\"408\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">7</text></svg>"
+      },
+      {
+        "q": "A pie chart shows which enclosure 90 zoo visitors liked best. The sector for the lion enclosure takes exactly half of the pie. How many visitors does that sector stand for?",
+        "options": [
+          "45",
+          "90",
+          "22.5",
+          "55"
+        ],
+        "answer": 0,
+        "explanation": "Half of the whole means half of 90: 90 ÷ 2 = 45 visitors.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 90 108\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle cx=\"45\" cy=\"45\" r=\"38\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><path d=\"M45 45 L45.0 7.0 A38 38 0 0 1 45.0 83.0 Z\" fill=\"#db2777\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"0.85\"/><path d=\"M45 45 L45.0 83.0 A38 38 0 0 1 45.0 7.0 Z\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"1\"/><text x=\"45\" y=\"98\" font-size=\"13\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">1/2 of the pie</text></svg>"
+      },
+      {
+        "q": "A juice stall counted its daily customers for seven days: 34, 21, 40, 18, 27, 45, 30. Find the median of the data.",
+        "options": [
+          "27",
+          "30",
+          "34",
+          "33"
+        ],
+        "answer": 1,
+        "explanation": "Sorted: 18, 21, 27, 30, 34, 40, 45. There are 7 values, so the median is the 4th value: 30.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 446 54\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"36\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">34</text><rect x=\"70\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"98\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">21</text><rect x=\"132\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"1.6\"/><text x=\"160\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">40</text><rect x=\"194\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.6\"/><text x=\"222\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">18</text><rect x=\"256\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#ede9fe\" stroke=\"#7c3aed\" stroke-width=\"1.6\"/><text x=\"284\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">27</text><rect x=\"318\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"1.6\"/><text x=\"346\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">45</text><rect x=\"380\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"408\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">30</text></svg>"
+      },
+      {
+        "q": "A double bar graph shows library books borrowed by Grade 5 and Grade 6 over four weeks: Week 1 (Grade 5 24, Grade 6 20); Week 2 (Grade 5 30, Grade 6 26); Week 3 (Grade 5 18, Grade 6 25); Week 4 (Grade 5 28, Grade 6 31). Taking all categories together, which series has the higher total, and by how much?",
+        "options": [
+          "Grade 5, by 2",
+          "Grade 6, by 7",
+          "Grade 6, by 2",
+          "Grade 5, by 4"
+        ],
+        "answer": 2,
+        "explanation": "Total Grade 5 = 100 and total Grade 6 = 102, so Grade 6 is ahead by 102 − 100 = 2."
+      },
+      {
+        "q": "A double bar graph records rose and marigold plants growing in five public gardens: Garden 1 (roses 25, marigolds 32); Garden 2 (roses 40, marigolds 26); Garden 3 (roses 35, marigolds 43); Garden 4 (roses 20, marigolds 22); Garden 5 (roses 30, marigolds 27). What is the mean (average) of all the \"marigolds\" values?",
+        "options": [
+          "32",
+          "30",
+          "28",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (32 + 26 + 43 + 22 + 27) ÷ 5 = 150 ÷ 5 = 30.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><line x1=\"14\" y1=\"132\" x2=\"334\" y2=\"132\" stroke=\"#334155\" stroke-width=\"2\"/><rect x=\"24\" y=\"73.86046511627907\" width=\"18\" height=\"58.139534883720934\" rx=\"2\" fill=\"#2563eb\"/><text x=\"33\" y=\"69.86046511627907\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">25</text><rect x=\"44\" y=\"57.581395348837205\" width=\"18\" height=\"74.4186046511628\" rx=\"2\" fill=\"#ea580c\"/><text x=\"53\" y=\"53.581395348837205\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">32</text><text x=\"43\" y=\"145\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\">Garden</text><rect x=\"86\" y=\"38.9767441860465\" width=\"18\" height=\"93.0232558139535\" rx=\"2\" fill=\"#2563eb\"/><text x=\"95\" y=\"34.9767441860465\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">40</text><rect x=\"106\" y=\"71.53488372093022\" width=\"18\" height=\"60.46511627906977\" rx=\"2\" fill=\"#ea580c\"/><text x=\"115\" y=\"67.53488372093022\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">26</text><text x=\"105\" y=\"145\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\">Garden</text><rect x=\"148\" y=\"50.60465116279069\" width=\"18\" height=\"81.39534883720931\" rx=\"2\" fill=\"#2563eb\"/><text x=\"157\" y=\"46.60465116279069\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">35</text><rect x=\"168\" y=\"32\" width=\"18\" height=\"100\" rx=\"2\" fill=\"#ea580c\"/><text x=\"177\" y=\"28\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">43</text><text x=\"167\" y=\"145\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\">Garden</text><rect x=\"210\" y=\"85.48837209302326\" width=\"18\" height=\"46.51162790697675\" rx=\"2\" fill=\"#2563eb\"/><text x=\"219\" y=\"81.48837209302326\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">20</text><rect x=\"230\" y=\"80.83720930232558\" width=\"18\" height=\"51.162790697674424\" rx=\"2\" fill=\"#ea580c\"/><text x=\"239\" y=\"76.83720930232558\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">22</text><text x=\"229\" y=\"145\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\">Garden</text><rect x=\"272\" y=\"62.23255813953487\" width=\"18\" height=\"69.76744186046513\" rx=\"2\" fill=\"#2563eb\"/><text x=\"281\" y=\"58.23255813953487\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">30</text><rect x=\"292\" y=\"69.20930232558139\" width=\"18\" height=\"62.79069767441861\" rx=\"2\" fill=\"#ea580c\"/><text x=\"301\" y=\"65.20930232558139\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">27</text><text x=\"291\" y=\"145\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#334155\">Garden</text><rect x=\"14\" y=\"154\" width=\"10\" height=\"10\" fill=\"#2563eb\"/><text x=\"28\" y=\"163\" font-size=\"10\" fill=\"#334155\">roses</text><rect x=\"74\" y=\"154\" width=\"10\" height=\"10\" fill=\"#ea580c\"/><text x=\"88\" y=\"163\" font-size=\"10\" fill=\"#334155\">marigolds</text></svg>"
+      },
+      {
+        "q": "A pie chart sorts the 240 books in a mobile library: 1/2 of the pie is for fiction and 1/6 is for comics. How many more books does the fiction sector represent than the comics sector?",
+        "options": [
+          "160",
+          "120",
+          "80",
+          "40"
+        ],
+        "answer": 2,
+        "explanation": "fiction = 1/2 of 240 = 120 and comics = 1/6 of 240 = 40; the difference is 120 − 40 = 80 books.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 90 108\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><circle cx=\"45\" cy=\"45\" r=\"38\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><path d=\"M45 45 L45.0 7.0 A38 38 0 0 1 45.0 83.0 Z\" fill=\"#db2777\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"0.85\"/><path d=\"M45 45 L45.0 83.0 A38 38 0 0 1 45.0 7.0 Z\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"1.6\" opacity=\"1\"/><text x=\"45\" y=\"98\" font-size=\"13\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">1/2 of the pie</text></svg>"
+      },
+      {
+        "q": "A pie chart sorts 60 cars in a parking lot by colour; 30 of them are white. What fraction of the pie does the sector for white cars take?",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "3/4"
+        ],
+        "answer": 2,
+        "explanation": "The fraction is 30 out of 60 = 30/60, which simplifies to 1/2."
+      },
+      {
+        "q": "Four students have an average score of 50. 3 of them are 46, 58, 41. What did the fourth student score?",
+        "options": [
+          "58",
+          "52",
+          "200",
+          "55"
+        ],
+        "answer": 3,
+        "explanation": "The 4 values must add to 50 × 4 = 200. The known ones add to 145, so the missing value is 200 − 145 = 55.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 198 54\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"36\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">46</text><rect x=\"70\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"98\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">58</text><rect x=\"132\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"1.6\"/><text x=\"160\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">41</text></svg>"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the median of 23, 11, 19, 30, 16?",
+      "a": "Order them (11, 16, 19, 23, 30) — the middle value is 19."
+    },
+    {
+      "q": "How do you find a missing value when the mean is given?",
+      "a": "Multiply the mean by the count to get the total, then subtract the known values."
+    },
+    {
+      "q": "Is the Class 5 data handling test free?",
+      "a": "Yes — 10 free MCQs with charts. The e-book has 100 Maths Olympiad Class 5 data handling MCQs for Rs 32."
+    }
+  ]
+}
