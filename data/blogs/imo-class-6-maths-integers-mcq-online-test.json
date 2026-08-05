@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-integers-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Integers: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Integers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Integers online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Integers online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-integers-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-integers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Integers are Class 6's big new idea — numbers below zero. Ordering, absolute value and signed addition catch students who rush. Here is what the IMO Class 6 integers chapter tests, the sign rules, and a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Integers chapter tests</h2><ul><li>Integers on the number line and ordering</li><li>Absolute value and opposites</li><li>Adding and subtracting integers (sign rules)</li><li>Real-life problems: temperature, sea level, profit-loss</li></ul><h2>Key facts your child should know</h2><ul><li>Every positive integer beats every negative — and −3 > −7.</li><li>|−7| = 7: absolute value is distance from zero.</li><li>Same signs: add and keep the sign. Different: subtract, take the bigger size's sign.</li><li><strong>a − b = a + (−b)</strong> — subtracting is adding the opposite, so 3 − (−4) = 7.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Ordering −3 below −7 because 3 < 7.</li><li>Dropping the sign flip in 5 − (−2).</li><li>Treating a fall of 6° from −2°C as +4°C instead of −8°C.</li></ul><h2>Take the free Integers test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Integers Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Integers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Integers",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Find the integer which is 20 less than 7.",
+        "options": [
+          "-7",
+          "-20",
+          "-13",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Using integer properties and number line, the answer is -13."
+      },
+      {
+        "q": "Find: (-47) + (83)",
+        "options": [
+          "36",
+          "46",
+          "-36",
+          "-130"
+        ],
+        "answer": 0,
+        "explanation": "(-47) + (83) = 36."
+      },
+      {
+        "q": "Find: (-888) + (444)",
+        "options": [
+          "-434",
+          "444",
+          "-444",
+          "-1332"
+        ],
+        "answer": 2,
+        "explanation": "(-888) + (444) = -444."
+      },
+      {
+        "q": "Find: (189) - (-276)",
+        "options": [
+          "465",
+          "470",
+          "-465",
+          "-87"
+        ],
+        "answer": 0,
+        "explanation": "(189) - (-276) = 465."
+      },
+      {
+        "q": "Find: (-12) x (15)",
+        "options": [
+          "1800",
+          "-192",
+          "-180",
+          "180"
+        ],
+        "answer": 2,
+        "explanation": "(-12) x (15) = -180. Different signs give negative."
+      },
+      {
+        "q": "Find: (-21) x (-5)",
+        "options": [
+          "105",
+          "-105",
+          "84",
+          "1050"
+        ],
+        "answer": 0,
+        "explanation": "(-21) x (-5) = 105. Same signs give positive."
+      },
+      {
+        "q": "Find: (504) / (-7)",
+        "options": [
+          "720",
+          "-71",
+          "-72",
+          "72"
+        ],
+        "answer": 2,
+        "explanation": "(504) / (-7) = -72."
+      },
+      {
+        "q": "Simplify: 15 x (-4) + 60 / (-12)",
+        "options": [
+          "-65",
+          "-60",
+          "65",
+          "-130"
+        ],
+        "answer": 0,
+        "explanation": "Using BODMAS with integer rules: 15 x (-4) + 60 / (-12) = -65."
+      },
+      {
+        "q": "Simplify: (25 - 40) x (12 - 20)",
+        "options": [
+          "125",
+          "-120",
+          "120",
+          "240"
+        ],
+        "answer": 2,
+        "explanation": "Using BODMAS with integer rules: (25 - 40) x (12 - 20) = 120."
+      },
+      {
+        "q": "Find the value of (-1)^99 + (-1)^100.",
+        "options": [
+          "0",
+          "2",
+          "-2",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "(-1)^99 = -1, (-1)^100 = 1. Sum = 0."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Which is greater, −3 or −7?",
+      "a": "−3. On the number line −3 is to the right of −7, and numbers increase to the right."
+    },
+    {
+      "q": "What is 3 − (−4)?",
+      "a": "7. Subtracting a negative means adding its opposite: 3 + 4 = 7."
+    },
+    {
+      "q": "Is the Class 6 integers test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 6 integer questions with solutions for Rs 32."
+    }
+  ]
+}

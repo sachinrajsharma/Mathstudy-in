@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-whole-numbers-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Whole Numbers: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Whole Numbers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Whole Numbers online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Whole Numbers online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-whole-numbers-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-whole-numbers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Whole numbers look easy — until the Olympiad asks which property justifies a step, or what division by zero means. This chapter is about the STRUCTURE of arithmetic. Here is what the IMO Class 6 whole numbers chapter tests, with a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Whole Numbers chapter tests</h2><ul><li>Whole numbers, successors and predecessors on the number line</li><li>Commutative, associative and identity properties</li><li>Distributivity for smart mental maths</li><li>Number patterns and division facts</li></ul><h2>Key facts your child should know</h2><ul><li>0 is a whole number but not a natural number.</li><li>a × (b + c) = ab + ac — the distributive law powers tricks like 104 × 25.</li><li>a + 0 = a and a × 1 = a (identities); a × 0 = 0.</li><li><strong>Division by zero is undefined.</strong></li></ul><h2>Common mistakes to avoid</h2><ul><li>Assuming subtraction and division are commutative.</li><li>Giving 0 a predecessor in whole numbers.</li><li>Writing a ÷ 0 = 0 instead of undefined.</li></ul><h2>Take the free Whole Numbers test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Whole Numbers Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Whole Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Whole Numbers",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Using the distributive property, simplify: 35 x 98 + 35 x 2",
+        "options": [
+          "3400",
+          "3600",
+          "3500",
+          "3502"
+        ],
+        "answer": 2,
+        "explanation": "35 x 98 + 35 x 2 = 35 x (98 + 2) = 35 x 100 = 3500."
+      },
+      {
+        "q": "On a number line, A is at 24 and B is at 58. What number is exactly midway between A and B?",
+        "options": [
+          "41",
+          "42",
+          "40",
+          "82"
+        ],
+        "answer": 0,
+        "explanation": "Midpoint = (24 + 58) / 2 = 82 / 2 = 41."
+      },
+      {
+        "q": "What number is obtained by finding the predecessor 6 times starting from 3991?",
+        "options": [
+          "3986",
+          "3984",
+          "3985",
+          "3997"
+        ],
+        "answer": 2,
+        "explanation": "Starting at 3991, taking predecessor 6 times: 3991 - 6 = 3985."
+      },
+      {
+        "q": "Simplify: (36 + 14) x 5 - 100",
+        "options": [
+          "150",
+          "155",
+          "147",
+          "300"
+        ],
+        "answer": 0,
+        "explanation": "Using BODMAS: (36 + 14) x 5 - 100 = 150."
+      },
+      {
+        "q": "Simplify: (90 - 30) / (3 x 5)",
+        "options": [
+          "9",
+          "1",
+          "4",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Using BODMAS: (90 - 30) / (3 x 5) = 4."
+      },
+      {
+        "q": "Simplify: 5 x 5 x 5 - 100",
+        "options": [
+          "25",
+          "30",
+          "22",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "Using BODMAS: 5 x 5 x 5 - 100 = 25."
+      },
+      {
+        "q": "Find: 1 x 8 + 1 = ?",
+        "options": [
+          "8",
+          "10",
+          "9",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "1 x 8 + 1 = 9 = 3^2."
+      },
+      {
+        "q": "A number when divided by 7 gives quotient 245 and remainder 3. Find the number.",
+        "options": [
+          "1718",
+          "1715",
+          "17220",
+          "1722"
+        ],
+        "answer": 0,
+        "explanation": "Number = Divisor x Quotient + Remainder = 7 x 245 + 3 = 1718."
+      },
+      {
+        "q": "Find: 125 x 64",
+        "options": [
+          "8100",
+          "7900",
+          "8000",
+          "7500"
+        ],
+        "answer": 2,
+        "explanation": "125 x 64 = 125 x 8 x 8 = 1000 x 8 = 8000."
+      },
+      {
+        "q": "A number leaves remainder 5 when divided by 8 and remainder 3 when divided by 5. What is the smallest such number?",
+        "options": [
+          "13",
+          "23",
+          "33",
+          "43"
+        ],
+        "answer": 0,
+        "explanation": "13 / 8 = 1 R5 and 13 / 5 = 2 R3. The smallest such number is 13."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is every natural number a whole number?",
+      "a": "Yes — the whole numbers are the naturals plus zero. So every natural is whole, but 0 is whole and not natural."
+    },
+    {
+      "q": "What is the distributive property?",
+      "a": "Multiplication distributes over addition: a × (b + c) = a × b + a × c. It lets you compute 104 × 25 as 2600 + 100."
+    },
+    {
+      "q": "Is the Class 6 whole numbers test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 6 MCQs with answers for Rs 32."
+    }
+  ]
+}

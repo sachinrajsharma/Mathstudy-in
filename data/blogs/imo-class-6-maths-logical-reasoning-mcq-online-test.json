@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-logical-reasoning-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Logical Reasoning: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Logical Reasoning Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Logical Reasoning online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Logical Reasoning online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-logical-reasoning-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-logical-reasoning-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Every SOF IMO paper has a dedicated Logical Reasoning section — series, analogies, coding, directions and ranking. It is pure pattern-spotting, and it is trainable. Here is what the Class 6 reasoning section tests, the methods, and a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Logical Reasoning chapter tests</h2><ul><li>Number and letter series</li><li>Analogies and odd-one-out</li><li>Coding-decoding (letter shifts and number codes)</li><li>Directions, ranking and blood relations</li></ul><h2>Key facts your child should know</h2><ul><li>Write the DIFFERENCES to expose a number rule (+3, ×2, squares…).</li><li>In a row of N people: left position + right position = N + 1.</li><li>Right turn = 90° clockwise; track facing and displacement separately.</li><li>For number codes, match the repeated word across phrases to pin its digit.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Reading letter series without writing alphabet positions.</li><li>Forgetting the N + 1 rule in ranking questions.</li><li>Turning the wrong way on \"left\" after facing south.</li></ul><h2>Take the free Logical Reasoning test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Logical Reasoning Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Logical Reasoning Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Logical Reasoning",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Find the missing number: 5, 10, 20, ?, 80, 160",
+        "options": [
+          "30",
+          "50",
+          "40",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "Each x 2. 20 x 2 = 40."
+      },
+      {
+        "q": "Find the next: 1, 3, 6, 10, 15, 21, ?",
+        "options": [
+          "28",
+          "27",
+          "36",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "Triangular numbers. 21 + 7 = 28."
+      },
+      {
+        "q": "If A=1, B=2, ..., Z=26, what is the code for CAT?",
+        "options": [
+          "3-2-20",
+          "3-1-21",
+          "3-1-20",
+          "2-1-20"
+        ],
+        "answer": 2,
+        "explanation": "C=3, A=1, T=20."
+      },
+      {
+        "q": "In a code, 1=A, 2=E, 3=I, 4=O, 5=U. What does 3-1-4 spell?",
+        "options": [
+          "IAO",
+          "AEI",
+          "OAI",
+          "EIO"
+        ],
+        "answer": 0,
+        "explanation": "3=I, 1=A, 4=O."
+      },
+      {
+        "q": "Ravi walks 5 km North, then 3 km East. How far is he from the starting point?",
+        "options": [
+          "8 km",
+          "2 km",
+          "sqrt(34) km",
+          "15 km"
+        ],
+        "answer": 2,
+        "explanation": "Distance = sqrt(25+9) = sqrt(34) km."
+      },
+      {
+        "q": "If sunset is to your right and you face South, sunrise is behind you. True or false?",
+        "options": [
+          "False",
+          "True",
+          "Cannot determine",
+          "Sometimes true"
+        ],
+        "answer": 0,
+        "explanation": "Facing South: right = West (sunset), behind = North (not sunrise). Sunrise = East = left. False."
+      },
+      {
+        "q": "In the above diagram, how many like at least one subject?",
+        "options": [
+          "35",
+          "20",
+          "27",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "Total = 20 + 15 - 8 = 27."
+      },
+      {
+        "q": "If all Roses are Flowers, and all Flowers are Beautiful, then what can we conclude?",
+        "options": [
+          "All Roses are Beautiful",
+          "All Beautiful things are Roses",
+          "Some Flowers are not Roses",
+          "All Flowers are Roses"
+        ],
+        "answer": 0,
+        "explanation": "If A implies B and B implies C, then A implies C. All Roses are Beautiful."
+      },
+      {
+        "q": "If all cats are animals and some animals are pets, which is definitely true?",
+        "options": [
+          "All cats are pets",
+          "No cats are pets",
+          "Some cats may be pets",
+          "All animals are cats"
+        ],
+        "answer": 2,
+        "explanation": "We cannot conclude all cats are pets, only that some may be."
+      },
+      {
+        "q": "In a code, 537 means \"sky is blue\", 842 means \"roses are red\", and 358 means \"blue are beautiful\". What is the code for \"are\"?",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "\"are\" is the only word common to \"roses are red\" (842) and \"blue are beautiful\" (358), and 8 is the only digit those codes share. So \"are\" = 8."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I crack number series questions?",
+      "a": "Write the differences between terms; if they are not constant, check ratios, squares or alternating patterns."
+    },
+    {
+      "q": "What is the ranking formula?",
+      "a": "In a row of N, position from left + position from right = N + 1."
+    },
+    {
+      "q": "Is the Class 6 reasoning test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 6 reasoning questions with solutions for Rs 32."
+    }
+  ]
+}

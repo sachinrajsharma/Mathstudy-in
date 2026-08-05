@@ -1,0 +1,147 @@
+{
+  "slug": "imo-class-6-maths-basic-geometrical-ideas-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Basic Geometrical Ideas: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Basic Geometry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Basic Geometrical Ideas online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Basic Geometrical Ideas online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-basic-geometrical-ideas-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-basic-geometrical-ideas-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Points, lines, angles, polygons and circles — Basic Geometrical Ideas builds the vocabulary every later geometry chapter depends on, and the Olympiad tests it with precise definitions and angle arithmetic. Here is what it covers, with a free 10-question test with figures.</p><h2>What the Class 6 Maths Olympiad Basic Geometrical Ideas chapter tests</h2><ul><li>Points, lines, rays, segments and curves</li><li>Angles, complements and supplements</li><li>Polygons, diagonals, triangles and quadrilaterals</li><li>Circle parts: radius, diameter, chord, arc, sector</li></ul><h2>Key facts your child should know</h2><ul><li>Exactly ONE line passes through two distinct points.</li><li>Complementary angles add to 90°; supplementary to 180°.</li><li>Diagonals of an n-gon = <strong>n(n − 3)/2</strong> — a hexagon has 9.</li><li>The diameter is the longest chord: d = 2r.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up complement (90°) and supplement (180°).</li><li>Counting sides as diagonals in polygons.</li><li>Calling a radius a chord (a chord joins two points ON the circle).</li></ul><h2>Take the free Basic Geometry test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Basic Geometrical Ideas Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Basic Geometry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Basic Geometrical Ideas",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "How many endpoints does a line segment have?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Infinite"
+        ],
+        "answer": 2,
+        "explanation": "A line segment has two endpoints."
+      },
+      {
+        "q": "What is the complement of 37 degrees?",
+        "options": [
+          "53 degrees",
+          "143 degrees",
+          "63 degrees",
+          "127 degrees"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90 - 37 = 53 degrees.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 220 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <line x1=\"110\" y1=\"86\" x2=\"188\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.5\"/>\n    <line x1=\"110\" y1=\"86\" x2=\"172.3\" y2=\"39.1\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <path d=\"M 130 86 A 20 20 0 0 0 126.0 74.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/>\n    <text x=\"140\" y=\"78\" font-size=\"11.5\" fill=\"#2563eb\" font-weight=\"700\">37°</text>\n    <line x1=\"110\" y1=\"86\" x2=\"110.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\"/><text x=\"124\" y=\"34\" font-size=\"14\" fill=\"#ea580c\" font-weight=\"800\">?</text></svg>"
+      },
+      {
+        "q": "The angles of a triangle are in the ratio 2 : 3 : 5. Find the largest angle.",
+        "options": [
+          "50 degrees",
+          "80 degrees",
+          "90 degrees",
+          "100 degrees"
+        ],
+        "answer": 2,
+        "explanation": "2x+3x+5x = 180. 10x = 180. x = 18. Largest = 90."
+      },
+      {
+        "q": "What is the sum of interior angles of a hexagon?",
+        "options": [
+          "720 degrees",
+          "540 degrees",
+          "1080 degrees",
+          "360 degrees"
+        ],
+        "answer": 0,
+        "explanation": "(6-2) x 180 = 720 degrees."
+      },
+      {
+        "q": "In an isosceles triangle, the unequal side is 8 cm and the equal sides are 5 cm each. Find the perimeter.",
+        "options": [
+          "13 cm",
+          "20 cm",
+          "18 cm",
+          "15 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 5 + 5 + 8 = 18 cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 120 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"60,14 106,92 14,92\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "q": "The point where all three angle bisectors meet is called what?",
+        "options": [
+          "Incentre",
+          "Centroid",
+          "Circumcentre",
+          "Orthocentre"
+        ],
+        "answer": 0,
+        "explanation": "Angle bisectors meet at the incentre."
+      },
+      {
+        "q": "The distance from the centre to any point on the circle is called what?",
+        "options": [
+          "Diameter",
+          "Chord",
+          "Radius",
+          "Circumference"
+        ],
+        "answer": 2,
+        "explanation": "The radius is the distance from centre to circle."
+      },
+      {
+        "q": "How many diagonals does a decagon (10-sided polygon) have?",
+        "options": [
+          "35",
+          "40",
+          "30",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "n(n-3)/2 = 10(7)/2 = 35."
+      },
+      {
+        "q": "A quadrilateral has angles 3x, 5x, 7x, and 9x. Find the largest angle.",
+        "options": [
+          "105 degrees",
+          "90 degrees",
+          "135 degrees",
+          "120 degrees"
+        ],
+        "answer": 2,
+        "explanation": "24x = 360. x = 15. Largest = 135."
+      },
+      {
+        "q": "What is the angle subtended by a diameter at the circumference of a circle?",
+        "options": [
+          "90 degrees",
+          "180 degrees",
+          "45 degrees",
+          "60 degrees"
+        ],
+        "answer": 0,
+        "explanation": "Angle in a semicircle = 90 degrees."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the supplement of 115°?",
+      "a": "65° — supplementary angles add to 180°."
+    },
+    {
+      "q": "How many diagonals does a hexagon have?",
+      "a": "n(n − 3)/2 with n = 6 gives 9 diagonals."
+    },
+    {
+      "q": "Is the Class 6 geometry test free?",
+      "a": "Yes — 10 free MCQs with figures. The e-book has 100 Maths Olympiad Class 6 geometry MCQs for Rs 32."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-algebra-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Algebra: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Algebra Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Algebra online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Algebra online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-algebra-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-algebra-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Algebra makes its official debut in Class 6 — variables, expressions, matchstick patterns and simple equations. Olympiad papers use it to separate rule-followers from pattern-spotters. Here is what the IMO Class 6 algebra chapter tests, with a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Algebra chapter tests</h2><ul><li>Variables and matchstick/dot patterns</li><li>Writing expressions from statements</li><li>Evaluating expressions by substitution</li><li>Solving simple equations (one inverse step)</li></ul><h2>Key facts your child should know</h2><ul><li>A variable stands for ANY number — that is why rules written with n work everywhere.</li><li>\"5 more than x\" is x + 5; \"one-fourth of p\" is p/4.</li><li>If x = 4, then 3x + 2 = 14 — substitute, then follow BODMAS.</li><li>Solve by inverse operations and CHECK by substituting back.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Writing \"7 less than y\" as 7 − y instead of y − 7.</li><li>Treating 3x as 3 + x.</li><li>Skipping the substitute-back check on equations.</li></ul><h2>Take the free Algebra test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Algebra Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Algebra Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Algebra",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Write an expression for: 7 added to thrice a number n.",
+        "options": [
+          "7n + 3",
+          "3 + 7n",
+          "3n + 7",
+          "7 - 3n"
+        ],
+        "answer": 2,
+        "explanation": "Thrice n = 3n. Adding 7 gives 3n + 7."
+      },
+      {
+        "q": "Solve: x + 15 = 42",
+        "options": [
+          "27",
+          "28",
+          "26",
+          "57"
+        ],
+        "answer": 0,
+        "explanation": "x = 42 - 15 = 27."
+      },
+      {
+        "q": "Solve: x/3 + x/4 = 7",
+        "options": [
+          "7",
+          "14",
+          "12",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "4x/12 + 3x/12 = 7. 7x/12 = 7. x = 12."
+      },
+      {
+        "q": "A father is 4 times as old as his son. If the sum of their ages is 45, find the son age.",
+        "options": [
+          "9",
+          "12",
+          "15",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "s + 4s = 45. 5s = 45. s = 9."
+      },
+      {
+        "q": "If T(n) = 2n + 3, find T(10).",
+        "options": [
+          "20",
+          "25",
+          "23",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "T(10) = 2(10) + 3 = 23."
+      },
+      {
+        "q": "If y = 3x - 2, and y = 13, find x.",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "3x = 15. x = 5."
+      },
+      {
+        "q": "Solve: |x - 5| = 3. Find the sum of all solutions.",
+        "options": [
+          "8",
+          "2",
+          "10",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "x - 5 = 3 or x - 5 = -3. x = 8 or x = 2. Sum = 10."
+      },
+      {
+        "q": "A shopkeeper sold an item for Rs (5x + 20). If the selling price is Rs 95, find x.",
+        "options": [
+          "15",
+          "20",
+          "10",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "5x + 20 = 95. 5x = 75. x = 15."
+      },
+      {
+        "q": "A two-digit number is 4 times the sum of its digits. If the tens digit is 1, find the number.",
+        "options": [
+          "14",
+          "16",
+          "12",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "Let unit = u. 10 + u = 4(1 + u). 10 + u = 4 + 4u. 6 = 3u. u = 2. Number = 12."
+      },
+      {
+        "q": "If a = 2, b = -3, find 2a^3 - 3a^2b + ab^2.",
+        "options": [
+          "70",
+          "60",
+          "80",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "2(8) - 3(4)(-3) + 2(9) = 16 + 36 + 18 = 70."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is a variable?",
+      "a": "A letter that stands for a number that can change — writing 3n + 1 describes the stick count for EVERY number of squares n at once."
+    },
+    {
+      "q": "How do you solve x + 7 = 12?",
+      "a": "Undo the +7: x = 12 − 7 = 5. Check: 5 + 7 = 12. ✓"
+    },
+    {
+      "q": "Is the Class 6 algebra test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 6 algebra questions with solutions for Rs 32."
+    }
+  ]
+}
