@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-decimals-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Decimals: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Decimals Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Decimals online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Decimals online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-decimals-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-decimals-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Decimal place value, fraction-decimal conversions and lining up the point — Class 6 decimals are precision marks on every Olympiad paper, and the bridge to money and measurement questions. Here is what the chapter tests, with a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Decimals chapter tests</h2><ul><li>Place value to thousandths</li><li>Fraction ↔ decimal conversions</li><li>Comparing and ordering decimals</li><li>Addition, subtraction and decimals in money/measures</li></ul><h2>Key facts your child should know</h2><ul><li>4.375 = 4 + 3/10 + 7/100 + 5/1000.</li><li>0.5 = 0.50 = 0.500 — padding zeros changes nothing.</li><li>1/8 = 0.125; 3/4 = 0.75; 1/5 = 0.2.</li><li>Line up the decimal points before adding or subtracting.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Comparing 0.5 and 0.45 digit-count-wise (0.5 is greater).</li><li>Misaligning points in addition.</li><li>Dropping the zero in answers like 0.07.</li></ul><h2>Take the free Decimals test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Decimals Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Decimals Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Decimals",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "In 45.678, how many tenths are there?",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "The answer is 6."
+      },
+      {
+        "q": "Which is greater: 45.678 or 45.687?",
+        "options": [
+          "45.687",
+          "45.678",
+          "Both are equal",
+          "Cannot compare"
+        ],
+        "answer": 0,
+        "explanation": "Comparing digit by digit: 45.687 is greater."
+      },
+      {
+        "q": "Convert 7/9 to a decimal. Is it terminating or repeating?",
+        "options": [
+          "0.7777... (terminating)",
+          "7.9",
+          "0.7777... (repeating)",
+          "1.29"
+        ],
+        "answer": 2,
+        "explanation": "7/9 = 0.7777.... It is repeating."
+      },
+      {
+        "q": "Add: 100.001 + 99.999",
+        "options": [
+          "200",
+          "200.100",
+          "199.990",
+          "201.000"
+        ],
+        "answer": 0,
+        "explanation": "100.001 + 99.999 = 200."
+      },
+      {
+        "q": "Subtract: 67.8 - 23.456",
+        "options": [
+          "44.444",
+          "44.334",
+          "44.344",
+          "45.344"
+        ],
+        "answer": 2,
+        "explanation": "67.8 - 23.456 = 44.344."
+      },
+      {
+        "q": "Multiply: 6.4 x 2.5",
+        "options": [
+          "16",
+          "160",
+          "1.6",
+          "16.1"
+        ],
+        "answer": 0,
+        "explanation": "6.4 x 2.5 = 16."
+      },
+      {
+        "q": "Divide: 7.56 / 0.36",
+        "options": [
+          "210",
+          "2.1",
+          "21",
+          "22"
+        ],
+        "answer": 2,
+        "explanation": "7.56 / 0.36 = 21."
+      },
+      {
+        "q": "A bag of rice weighs 5.750 kg. If 2.375 kg is used, how much remains?",
+        "options": [
+          "3.375 kg",
+          "3.475 kg",
+          "3.275 kg",
+          "2.375 kg"
+        ],
+        "answer": 0,
+        "explanation": "The answer is 3.375 kg."
+      },
+      {
+        "q": "What decimal is exactly halfway between 0.3 and 0.4?",
+        "options": [
+          "0.34",
+          "0.36",
+          "0.35",
+          "0.33"
+        ],
+        "answer": 2,
+        "explanation": "The answer is 0.35."
+      },
+      {
+        "q": "What value of x satisfies 0.3x + 1.2 = 3.6?",
+        "options": [
+          "8",
+          "6",
+          "10",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "0.3x = 2.4. x = 8."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you compare 0.5 and 0.45?",
+      "a": "Pad to the same length: 0.50 vs 0.45 — so 0.5 is greater."
+    },
+    {
+      "q": "What is 1/8 as a decimal?",
+      "a": "0.125 — divide 1 by 8, or halve 0.25."
+    },
+    {
+      "q": "Is this Class 6 decimals test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 6 decimal MCQs for Rs 32."
+    }
+  ]
+}

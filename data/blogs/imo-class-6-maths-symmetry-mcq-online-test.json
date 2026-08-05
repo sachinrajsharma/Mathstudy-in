@@ -1,0 +1,149 @@
+{
+  "slug": "imo-class-6-maths-symmetry-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Symmetry: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Symmetry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Symmetry online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Symmetry online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-symmetry-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-symmetry-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Symmetry is Class 6's most visual chapter — fold lines, mirror letters, rotations and reflected coordinates. Olympiad setters love it because the standard counts must be KNOWN, not guessed. Here is what the chapter tests, with a free 10-question test with figures.</p><h2>What the Class 6 Maths Olympiad Symmetry chapter tests</h2><ul><li>Lines of symmetry in triangles, quadrilaterals and regular polygons</li><li>Letters of the alphabet: vertical, horizontal, both, none</li><li>Mirror reflection and rotational symmetry</li><li>Reflecting points across the axes</li></ul><h2>Key facts your child should know</h2><ul><li>Regular n-gon: n lines of symmetry; circle: infinitely many.</li><li>Rhombus: 2 lines (its diagonals) — NOT 4.</li><li>H, I, O and X have BOTH vertical and horizontal symmetry.</li><li>Reflect (2, 3) in the x-axis → (2, −3); in the y-axis → (−2, 3).</li></ul><h2>Common mistakes to avoid</h2><ul><li>Giving a rectangle 4 lines of symmetry (the diagonals are not lines of symmetry).</li><li>Counting N, S and Z as line-symmetric (they have only rotational symmetry).</li><li>Flipping the wrong coordinate when reflecting across an axis.</li></ul><h2>Take the free Symmetry test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Symmetry Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Symmetry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Symmetry",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "How many lines of symmetry does a scalene triangle have?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "The answer is 0.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 120 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"60,14 106,92 14,92\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "q": "How many lines of symmetry does the letter S have?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "The answer is 0.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 120 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <rect x=\"4\" y=\"6\" width=\"112\" height=\"88\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/>\n    <text x=\"60\" y=\"72\" font-size=\"58\" text-anchor=\"middle\" font-family=\"Georgia, serif\" font-weight=\"800\" fill=\"#2563eb\" letter-spacing=\"6\">S</text></svg>"
+      },
+      {
+        "q": "In mirror reflection, the image is laterally what?",
+        "options": [
+          "Upside down",
+          "Unchanged",
+          "Inverted",
+          "Rotated"
+        ],
+        "answer": 2,
+        "explanation": "The answer is Inverted."
+      },
+      {
+        "q": "When a point (4, -1) is reflected in the y-axis, its image is at what?",
+        "options": [
+          "(-4, -1)",
+          "(4, 1)",
+          "(-4, 1)",
+          "(1, -4)"
+        ],
+        "answer": 0,
+        "explanation": "The answer is (-4, -1).",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <line x1=\"10\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#334155\" stroke-width=\"1.6\"/>\n    <line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"190\" stroke=\"#334155\" stroke-width=\"1.6\"/>\n    <text x=\"184\" y=\"94\" font-size=\"10\" fill=\"#334155\">x</text>\n    <text x=\"106\" y=\"18\" font-size=\"10\" fill=\"#334155\">y</text>\n    <line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"190\" stroke=\"#dc2626\" stroke-width=\"3\"/>\n    <circle cx=\"144\" cy=\"111\" r=\"4.5\" fill=\"#2563eb\"/>\n    <text x=\"151\" y=\"104\" font-size=\"11\" fill=\"#2563eb\" font-weight=\"800\">(4, -1)</text></svg>"
+      },
+      {
+        "q": "A point (x, y) reflected across the line y = x becomes what?",
+        "options": [
+          "(-x, -y)",
+          "(-y, -x)",
+          "(y, x)",
+          "(x, -y)"
+        ],
+        "answer": 2,
+        "explanation": "The answer is (y, x)."
+      },
+      {
+        "q": "A figure has rotational symmetry if it looks the same after a rotation of less than how many degrees?",
+        "options": [
+          "360 degrees",
+          "180 degrees",
+          "90 degrees",
+          "270 degrees"
+        ],
+        "answer": 0,
+        "explanation": "The answer is 360 degrees."
+      },
+      {
+        "q": "If a figure has rotational symmetry of order 5, the angle of rotation is what?",
+        "options": [
+          "60 degrees",
+          "36 degrees",
+          "72 degrees",
+          "45 degrees"
+        ],
+        "answer": 2,
+        "explanation": "The answer is 72 degrees."
+      },
+      {
+        "q": "What is the smallest angle of rotation for a regular 12-sided polygon?",
+        "options": [
+          "30 degrees",
+          "15 degrees",
+          "36 degrees",
+          "45 degrees"
+        ],
+        "answer": 0,
+        "explanation": "The answer is 30 degrees."
+      },
+      {
+        "q": "The point (3, 4) reflected across y = 0 (x-axis) gives what?",
+        "options": [
+          "(-3, 4)",
+          "(-3, -4)",
+          "(3, -4)",
+          "(4, 3)"
+        ],
+        "answer": 2,
+        "explanation": "The answer is (3, -4).",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <line x1=\"10\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#334155\" stroke-width=\"1.6\"/>\n    <line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"190\" stroke=\"#334155\" stroke-width=\"1.6\"/>\n    <text x=\"184\" y=\"94\" font-size=\"10\" fill=\"#334155\">x</text>\n    <text x=\"106\" y=\"18\" font-size=\"10\" fill=\"#334155\">y</text>\n    <line x1=\"10\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#dc2626\" stroke-width=\"3\"/>\n    <circle cx=\"133\" cy=\"56\" r=\"4.5\" fill=\"#2563eb\"/>\n    <text x=\"140\" y=\"49\" font-size=\"11\" fill=\"#2563eb\" font-weight=\"800\">(3, 4)</text></svg>"
+      },
+      {
+        "q": "A dartboard with 20 equal sectors has rotational symmetry of order what?",
+        "options": [
+          "20",
+          "10",
+          "40",
+          "360"
+        ],
+        "answer": 0,
+        "explanation": "The answer is 20."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many lines of symmetry does a rhombus have?",
+      "a": "Two — its diagonals. Only the square (a special rhombus) has four."
+    },
+    {
+      "q": "Which capital letters have both vertical and horizontal symmetry?",
+      "a": "H, I, O and X."
+    },
+    {
+      "q": "Is the Class 6 symmetry test free?",
+      "a": "Yes — 10 free MCQs with figures. The e-book has 100 Maths Olympiad Class 6 symmetry MCQs for Rs 32."
+    }
+  ]
+}

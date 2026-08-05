@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-fractions-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Fractions: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Fractions Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Fractions online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Fractions online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-fractions-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-fractions-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Class 6 fractions bring all four operations — unlike denominators, mixed numbers and division by fractions. It is one of the highest-weight Olympiad chapters every year. Here is what it tests, the rules, the traps, and a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Fractions chapter tests</h2><ul><li>Equivalent fractions and simplest form</li><li>Add/subtract with unlike denominators (LCM method)</li><li>Multiply and divide fractions (reciprocals)</li><li>Comparing, ordering and fraction word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Common denominator = LCM: 1/2 + 1/3 = 5/6.</li><li>Dividing = multiplying by the <strong>reciprocal</strong>: 3/4 ÷ 2/5 = 15/8.</li><li>Simplest form: divide top and bottom by the HCF.</li><li>3/5 of 40 = 24 — divide by the bottom, times the top.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Adding tops and bottoms straight across.</li><li>Forgetting to flip the second fraction when dividing.</li><li>Leaving answers unsimplified when simplest form is asked.</li></ul><h2>Take the free Fractions test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Fractions Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Fractions Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Fractions",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Reduce 63/105 to its simplest form.",
+        "options": [
+          "31.5/52.5",
+          "4/5",
+          "3/5",
+          "3/6"
+        ],
+        "answer": 2,
+        "explanation": "GCD(63, 105) = 21. 63/105 = 3/5."
+      },
+      {
+        "q": "Which is greater: 8/15 or 7/13?",
+        "options": [
+          "7/13",
+          "8/15",
+          "They are equal",
+          "15/28"
+        ],
+        "answer": 0,
+        "explanation": "Cross multiply: 8x13 = 104, 7x15 = 105. 105 > 104. So 7/13 is greater."
+      },
+      {
+        "q": "Add: 2/7 + 5/14",
+        "options": [
+          "10/14",
+          "7/21",
+          "9/14",
+          "9/15"
+        ],
+        "answer": 2,
+        "explanation": "2/7 + 5/14 = 63/98 = 9/14."
+      },
+      {
+        "q": "Subtract: 7/8 - 3/10",
+        "options": [
+          "23/40",
+          "24/40",
+          "4/18",
+          "23/42"
+        ],
+        "answer": 0,
+        "explanation": "7/8 - 3/10 = 46/80 = 23/40."
+      },
+      {
+        "q": "Subtract: 17/24 - 7/18",
+        "options": [
+          "24/72",
+          "10/6",
+          "23/72",
+          "23/74"
+        ],
+        "answer": 2,
+        "explanation": "17/24 - 7/18 = 138/432 = 23/72."
+      },
+      {
+        "q": "Multiply: 7/18 x 12/35 (Give the answer in simplest form.)",
+        "options": [
+          "2/15",
+          "3/15",
+          "84/630",
+          "4/15"
+        ],
+        "answer": 0,
+        "explanation": "7/18 x 12/35 = 84/630 = 2/15."
+      },
+      {
+        "q": "Divide: 8/11 by 4/33",
+        "options": [
+          "7",
+          "32/363",
+          "6",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "8/11 / 4/33 = 8/11 x 33/4 = 264/44 = 6."
+      },
+      {
+        "q": "Divide: 3 3/4 by 1 1/4",
+        "options": [
+          "3",
+          "4",
+          "2 1/2",
+          "3 1/2"
+        ],
+        "answer": 0,
+        "explanation": "15/4 / 5/4 = 15/4 x 4/5 = 15/5 = 3."
+      },
+      {
+        "q": "The product of two fractions is 15/56. If one fraction is 5/8, find the other.",
+        "options": [
+          "5/7",
+          "7/8",
+          "3/7",
+          "8/7"
+        ],
+        "answer": 2,
+        "explanation": "15/56 / 5/8 = 15/56 x 8/5 = 120/280 = 3/7."
+      },
+      {
+        "q": "If x/5 + x/7 = 24, find x.",
+        "options": [
+          "70",
+          "60",
+          "84",
+          "35"
+        ],
+        "answer": 0,
+        "explanation": "7x/35 + 5x/35 = 24. 12x/35 = 24. x = 24 x 35/12 = 70."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you add fractions with different denominators?",
+      "a": "Rewrite both over their LCM, then add the numerators: 1/2 + 1/3 = 3/6 + 2/6 = 5/6."
+    },
+    {
+      "q": "What is a reciprocal?",
+      "a": "The fraction flipped over — the reciprocal of 2/5 is 5/2. Dividing by a fraction means multiplying by its reciprocal."
+    },
+    {
+      "q": "Is the Class 6 fractions test free?",
+      "a": "Yes — 10 free MCQs. The e-book adds 100 IMO Class 6 fraction questions with solutions for Rs 32."
+    }
+  ]
+}

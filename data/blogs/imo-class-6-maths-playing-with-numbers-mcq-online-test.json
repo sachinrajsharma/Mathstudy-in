@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-playing-with-numbers-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Playing with Numbers: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Playing with Numbers Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Playing with Numbers online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Playing with Numbers online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-playing-with-numbers-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-playing-with-numbers-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Primes, divisibility tests, HCF and LCM — Playing with Numbers is the highest-yield chapter of Class 6 number theory, and a favourite for Olympiad word problems. Here is what it tests, the rules to know cold, and a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Playing with Numbers chapter tests</h2><ul><li>Factors, multiples, primes, composites, co-primes and twin primes</li><li>Divisibility tests for 2–11</li><li>Prime factorisation, HCF and LCM</li><li>HCF/LCM word problems (bells, rods, stacks)</li></ul><h2>Key facts your child should know</h2><ul><li>1 is neither prime nor composite; 2 is the only even prime.</li><li>Digit sum ÷ 3 ⇒ number ÷ 3; alternating sum ⇒ test for 11.</li><li><strong>HCF × LCM = product of the two numbers.</strong></li><li>Greatest/exact-cut → HCF; together-again/smallest-common → LCM.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Calling 1 a prime.</li><li>Choosing HCF when the problem needs LCM (and vice-versa).</li><li>Missing a prime factor in the tree.</li></ul><h2>Take the free Playing with Numbers test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Playing with Numbers Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Playing with Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Playing with Numbers",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "How many factors does 504 have?",
+        "options": [
+          "26",
+          "22",
+          "24",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "Listing all divisors of 504, there are 24 factors."
+      },
+      {
+        "q": "Is 143 a prime number or a composite number?",
+        "options": [
+          "Composite",
+          "Prime",
+          "Neither",
+          "Cannot determine"
+        ],
+        "answer": 0,
+        "explanation": "143 = 11 x 13, so it is composite."
+      },
+      {
+        "q": "Is 8,640 divisible by 6?",
+        "options": [
+          "No",
+          "Only if divided by 12",
+          "Yes",
+          "Cannot determine"
+        ],
+        "answer": 2,
+        "explanation": "8,640 / 6 = 1440. Yes, it is divisible."
+      },
+      {
+        "q": "Find the prime factorisation of 504.",
+        "options": [
+          "2^3 x 3^2 x 7",
+          "2^4 x 3^3 x 7^2",
+          "2 x 2 x 2 x 3 x 3 x 11",
+          "252 x 3"
+        ],
+        "answer": 0,
+        "explanation": "504 = 2^3 x 3^2 x 7."
+      },
+      {
+        "q": "Find the prime factorisation of 924.",
+        "options": [
+          "2^3 x 3^2 x 7^2 x 11^2",
+          "2 x 2 x 3 x 7 x 13",
+          "2^2 x 3 x 7 x 11",
+          "462 x 3"
+        ],
+        "answer": 2,
+        "explanation": "924 = 2^2 x 3 x 7 x 11."
+      },
+      {
+        "q": "Find the HCF of 396 and 660.",
+        "options": [
+          "132",
+          "264",
+          "396",
+          "133"
+        ],
+        "answer": 0,
+        "explanation": "Using prime factorisation: HCF(396, 660) = 132."
+      },
+      {
+        "q": "Find the LCM of 18 and 30.",
+        "options": [
+          "108",
+          "540",
+          "90",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "LCM(18, 30) = 90."
+      },
+      {
+        "q": "Find the LCM of 56 and 96.",
+        "options": [
+          "672",
+          "728",
+          "5376",
+          "576"
+        ],
+        "answer": 0,
+        "explanation": "LCM(56, 96) = 672."
+      },
+      {
+        "q": "Find the greatest number that divides 105, 140, and 175 exactly.",
+        "options": [
+          "7",
+          "5",
+          "35",
+          "70"
+        ],
+        "answer": 2,
+        "explanation": "HCF(105, 140, 175) = 35."
+      },
+      {
+        "q": "Find the HCF of 2^3 x 3^2 x 5 and 2^2 x 3^3 x 7.",
+        "options": [
+          "2^2 x 3^2",
+          "2^3 x 3^3",
+          "2 x 3",
+          "2^2 x 3^2 x 5 x 7"
+        ],
+        "answer": 0,
+        "explanation": "HCF = minimum powers of common primes = 2^2 x 3^2 = 36."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I know whether to use HCF or LCM?",
+      "a": "Largest piece, greatest length, exact division → HCF. Ringing together, meeting again, smallest common quantity → LCM."
+    },
+    {
+      "q": "What are co-prime numbers?",
+      "a": "Two numbers whose HCF is 1, like 8 and 15 — they need not themselves be prime."
+    },
+    {
+      "q": "Is the Class 6 playing with numbers test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 6 MCQs with answers for Rs 32."
+    }
+  ]
+}

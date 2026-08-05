@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-6-maths-ratio-and-proportion-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 6 Ratio and Proportion: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 6 Maths Olympiad Ratio & Proportion Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 6 Ratio and Proportion online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Ratio and Proportion online test for IMO Maths Olympiad Class 6 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 6",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-6-maths-ratio-and-proportion-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-6-maths-ratio-and-proportion-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ratio and proportion is Class 6's most word-problem-heavy chapter — dividing amounts in a ratio, testing proportions and the unitary method. Here is what the IMO Class 6 chapter tests, the facts, and a free 10-question test.</p><h2>What the Class 6 Maths Olympiad Ratio and Proportion chapter tests</h2><ul><li>Ratios in simplest form (same units!)</li><li>Dividing a quantity in a given ratio</li><li>Proportion: a : b :: c : d ⇔ ad = bc</li><li>The unitary method for cost, speed and work</li></ul><h2>Key facts your child should know</h2><ul><li>A ratio compares quantities in the SAME unit and has no units itself.</li><li>To divide ₹250 in the ratio 3 : 2 — 5 parts, one part 50, shares 150 and 100.</li><li><strong>Product of extremes = product of means</strong>: 2 : 3 :: 8 : 12 since 2×12 = 3×8.</li><li>Unitary method: go DOWN to one unit, then UP to what is asked.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Comparing metres with centimetres without converting.</li><li>Splitting in a ratio without totalling the parts first.</li><li>Multiplying instead of dividing in the unitary step.</li></ul><h2>Take the free Ratio & Proportion test (IMO Class 6)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 6 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Ratio and Proportion Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 6 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 6 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 6 Ratio & Proportion Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 6: Ratio and Proportion",
+    "level": "Class 6",
+    "questions": [
+      {
+        "q": "Divide Rs 4500 in the ratio 2 : 3 : 4. Find the largest share.",
+        "options": [
+          "Rs 1500",
+          "Rs 1000",
+          "Rs 2000",
+          "Rs 2500"
+        ],
+        "answer": 2,
+        "explanation": "Total parts = 9. Largest = 4/9 x 4500 = 2000."
+      },
+      {
+        "q": "Is 3 : 5 :: 9 : 15 a proportion?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if simplified",
+          "Cannot determine"
+        ],
+        "answer": 0,
+        "explanation": "3x15 = 45 = 5x9. Yes, it is a proportion."
+      },
+      {
+        "q": "Find the mean proportional between 9 and 16.",
+        "options": [
+          "12.5",
+          "144",
+          "12",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "sqrt(9 x 16) = sqrt(144) = 12."
+      },
+      {
+        "q": "If 12 identical machines produce 1800 items in 6 hours, how many items will 8 machines produce in 9 hours?",
+        "options": [
+          "1800",
+          "1200",
+          "2700",
+          "1600"
+        ],
+        "answer": 0,
+        "explanation": "1 machine in 1 hour = 1800/(12x6) = 25. 8 x 9 x 25 = 1800."
+      },
+      {
+        "q": "If the shadow of a 6 m pole is 4 m long, find the shadow of a 15 m tree at the same time.",
+        "options": [
+          "8 m",
+          "12 m",
+          "10 m",
+          "9 m"
+        ],
+        "answer": 2,
+        "explanation": "6:4 :: 15:x. x = 4x15/6 = 10 m."
+      },
+      {
+        "q": "If 40% of a number is equal to 2/3 of another number, find the ratio of the first to the second.",
+        "options": [
+          "5 : 3",
+          "3 : 5",
+          "2 : 3",
+          "4 : 3"
+        ],
+        "answer": 0,
+        "explanation": "0.4a = 2b/3. a/b = (2/3)/0.4 = 10/6 = 5/3. Ratio = 5:3."
+      },
+      {
+        "q": "Divide 3600 into three parts such that the second is twice the first and the third is thrice the first.",
+        "options": [
+          "400, 800, 2400",
+          "900, 1800, 900",
+          "600, 1200, 1800",
+          "500, 1000, 2100"
+        ],
+        "answer": 2,
+        "explanation": "x + 2x + 3x = 6x = 3600. x = 600."
+      },
+      {
+        "q": "A gear with 20 teeth meshes with one having 35 teeth. If the smaller gear makes 70 revolutions, how many does the larger make?",
+        "options": [
+          "40",
+          "35",
+          "50",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "20 x 70 = 35 x n. n = 1400/35 = 40."
+      },
+      {
+        "q": "If a : b = 5 : 8, find (a + b) : (a - b) given a < b.",
+        "options": [
+          "13 : 3",
+          "5 : 13",
+          "13 : (-3)",
+          "8 : 3"
+        ],
+        "answer": 2,
+        "explanation": "a=5k, b=8k. (5k+8k):(5k-8k) = 13k:(-3k) = 13:(-3)."
+      },
+      {
+        "q": "The ratio of speed of a cycle to a car is 2 : 5. If the car covers 100 km in 2 hours, find the cycle speed.",
+        "options": [
+          "20 km/h",
+          "25 km/h",
+          "15 km/h",
+          "40 km/h"
+        ],
+        "answer": 0,
+        "explanation": "Car speed = 50 km/h. Cycle = 2/5 x 50 = 20 km/h."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do you divide ₹250 in the ratio 3 : 2?",
+      "a": "Total parts = 5, one part = ₹50, so the shares are ₹150 and ₹100."
+    },
+    {
+      "q": "How do you check if four numbers are in proportion?",
+      "a": "Multiply the extremes and the means — 2, 3, 8, 12 are in proportion because 2 × 12 = 3 × 8 = 24."
+    },
+    {
+      "q": "Is the Class 6 ratio test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 6 ratio MCQs for Rs 32."
+    }
+  ]
+}
