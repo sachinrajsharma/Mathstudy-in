@@ -1,0 +1,148 @@
+{
+  "slug": "imo-class-5-maths-practice-test-online-free",
+  "title": "IMO Maths Olympiad Class 5 Sample Papers: Free Online Practice Test",
+  "meta_title": "IMO Class 5 Maths Sample Papers (Free Test)",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 practice test: 10 mixed MCQs across all chapters with answers, plus 25 sample & practice papers PDF (750 MCQs).",
+  "excerpt": "A free mixed 10-question IMO Maths Olympiad Class 5 practice test across every chapter — instant scoring, explanations and 25 more full sample papers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-25-practice-papers.jpg",
+  "cta_product_slug": "imo-class-5-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Ready for a full Class 5 Maths Olympiad rehearsal? A real IMO or SOF paper mixes every chapter — large numbers, factors, fractions, decimals, percentage, measurement, geometry, mensuration, temperature, money and data handling — in one 30-question set. This free test gives a 10-question taste, and the practice-papers e-book gives you 25 complete <em>Maths Olympiad Class 5 sample papers with answers</em>.</p><h2>What a Class 5 IMO sample paper looks like</h2><ul><li>30 questions in one paper, balanced across all 11 chapters</li><li>A mix of number work, fractions, decimals, percentage, mensuration, temperature and data</li><li>An answer key and step-by-step solution for every question</li><li>Graded intermediate to hard, just like the real SOF Olympiad</li></ul><h2>How to use Class 5 Olympiad practice papers</h2><ul><li>Sit one paper in a quiet 30–40 minute slot, no help</li><li>Mark it with the answer key, then read the solution for every wrong one</li><li>Note which chapter the mistakes cluster in and revise that chapter</li><li>Repeat weekly — steady practice beats last-minute cramming</li></ul><h2>Take the free mixed test</h2><p>The 10 questions below are pulled from across the syllabus. The full <strong>25 Practice Papers e-book</strong> has 750 questions — 25 papers of 30 — each fully solved, with colourful diagrams wherever they help: the best <em>Maths Olympiad class 5 question papers PDF</em> for exam practice.</p><p>Learn the syllabus first with the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Maths Mixed Quiz",
+    "intro": "Ten questions from across the syllabus. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: all chapters",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "What is 60,58,349 + 19,46,758?",
+        "options": [
+          "81,05,107",
+          "79,05,107",
+          "80,05,107",
+          "80,06,107"
+        ],
+        "answer": 2,
+        "explanation": "Line up the digits by place and add with carrying: 60,58,349 + 19,46,758 = 80,05,107."
+      },
+      {
+        "q": "Find the smallest digit that can fill the blank so that 27_4 is divisible by 6.",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "The number must be even and have a digit sum divisible by 3. With 2, the number 2724 is even and its digit sum 15 is a multiple of 3."
+      },
+      {
+        "q": "Riya had Rs 240. She spent 1/3 of it on a book and then 1/4 of the remaining money on a pen. How much money is left with her?",
+        "options": [
+          "Rs 160",
+          "Rs 120",
+          "Rs 180",
+          "Rs 123"
+        ],
+        "answer": 1,
+        "explanation": "First step: 1/3 of 240 is used, so 240 − 80 = 160 remain. Second step: 1/4 of 160 = 40 is used, leaving 160 − 40 = 120."
+      },
+      {
+        "q": "Which of these is the expanded form of 9.254?",
+        "options": [
+          "9 + 2 + 5 + 4",
+          "9 + 0.2 + 0.05 + 0.004",
+          "9 + 0.2 + 0.04 + 0.005",
+          "9 + 0.2 + 0.5 + 0.4"
+        ],
+        "answer": 1,
+        "explanation": "9.254 = 9 ones + 2 tenths + 5 hundredths + 4 thousandths = 9 + 0.2 + 0.05 + 0.004."
+      },
+      {
+        "q": "Out of 40 children in a dance club, 22 are girls. What percent are they?",
+        "options": [
+          "55%",
+          "22%",
+          "45%",
+          "61%"
+        ],
+        "answer": 0,
+        "explanation": "(22 ÷ 40) × 100 = 55%."
+      },
+      {
+        "q": "A canteen shares 9 L 100 mL of soup equally among 7 tureens. How much soup goes into each tureen?",
+        "options": [
+          "1 L 300 mL",
+          "1 L 400 mL",
+          "1 L 200 mL",
+          "1 L 800 mL"
+        ],
+        "answer": 0,
+        "explanation": "9 L 100 mL = 9,100 mL; 9,100 ÷ 7 = 1,300 mL = 1 L 300 mL."
+      },
+      {
+        "q": "The circumference of a circle of radius 21 cm is (take π = 22/7)",
+        "options": [
+          "1386 cm",
+          "66 cm",
+          "132 cm",
+          "42 cm"
+        ],
+        "answer": 2,
+        "explanation": "Circumference = 2πr = 2 × 22/7 × 21 = 132 cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <circle cx=\"80\" cy=\"60\" r=\"46\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <circle cx=\"80\" cy=\"60\" r=\"3\" fill=\"#334155\"/>\n    <line x1=\"80\" y1=\"60\" x2=\"126\" y2=\"60\" stroke=\"#16a34a\" stroke-width=\"2.2\"/><text x=\"100\" y=\"50\" font-size=\"11.5\" text-anchor=\"middle\" fill=\"#16a34a\" font-weight=\"700\">r = 21 cm</text></svg>"
+      },
+      {
+        "q": "A regular nonagon (9 equal sides) has a perimeter of 108 cm. Find one side.",
+        "options": [
+          "15 cm",
+          "12 cm",
+          "9 cm",
+          "24 cm"
+        ],
+        "answer": 1,
+        "explanation": "All 9 sides of a regular nonagon are equal, so each side = 108 ÷ 9 = 12 cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 210 142\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <polygon points=\"105.0,16.0 137.1,27.7 154.2,57.3 148.3,91.0 122.1,113.0 87.9,113.0 61.7,91.0 55.8,57.3 72.9,27.7\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/>\n    <text x=\"105.0\" y=\"129.0\" text-anchor=\"middle\" font-size=\"12\" fill=\"#334155\" font-weight=\"700\">108 cm</text></svg>"
+      },
+      {
+        "q": "Riya's marks in five class tests were 12, 15, 18, 15, 20. What is the mean (average) value?",
+        "options": [
+          "18",
+          "14",
+          "16",
+          "80"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (12 + 15 + 18 + 15 + 20) ÷ 5 = 80 ÷ 5 = 16 marks.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 322 54\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"8\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.6\"/><text x=\"36\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12</text><rect x=\"70\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"98\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">15</text><rect x=\"132\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"1.6\"/><text x=\"160\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">18</text><rect x=\"194\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.6\"/><text x=\"222\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">15</text><rect x=\"256\" y=\"8\" width=\"56\" height=\"30\" rx=\"15\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.6\"/><text x=\"284\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">20</text></svg>"
+      },
+      {
+        "q": "Rs 2500 is put into a seed loan at 8% simple interest per year for 3 years. What is the total amount at the end?",
+        "options": [
+          "Rs 600",
+          "Rs 3250",
+          "Rs 2900",
+          "Rs 3100"
+        ],
+        "answer": 3,
+        "explanation": "SI = 2500 × 8 × 3 / 100 = Rs 600. Amount = 2500 + 600 = Rs 3100."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many practice papers does the e-book have?",
+      "a": "25 full papers of 30 questions each — 750 unique MCQs in all, every one solved."
+    },
+    {
+      "q": "Are the papers like the real IMO/SOF Class 5 exam?",
+      "a": "Yes. Every paper draws from all 11 Grade-5 chapters and follows the Olympiad MCQ pattern."
+    },
+    {
+      "q": "Is this practice test free?",
+      "a": "Yes — 10 free mixed questions with explanations. The 25-paper e-book is Rs 32."
+    }
+  ]
+}

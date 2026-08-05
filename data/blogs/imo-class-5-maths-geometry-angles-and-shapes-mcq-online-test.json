@@ -1,0 +1,149 @@
+{
+  "slug": "imo-class-5-maths-geometry-angles-and-shapes-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Geometry — Angles and Shapes: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Geometry Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Geometry — Angles and Shapes online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF",
+  "excerpt": "A free 10-question Geometry — Angles and Shapes online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-geometry-angles-and-shapes-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-geometry-angles-and-shapes-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Angles, triangles, circles and Euler's formula — Class 5 geometry rewards exact facts and clean diagrams. Here is what the IMO Class 5 geometry chapter tests, the facts to know cold, and a free 10-question test with figures.</p><h2>What the Class 5 Maths Olympiad Geometry — Angles and Shapes chapter tests</h2><ul><li>Angle types, complements and supplements</li><li>Triangle angle-sum and triangle types</li><li>Circles — radius, diameter, chord and circumference (π = 22/7)</li><li>Polygons, symmetry and Euler's formula for solids</li></ul><h2>Key facts your child should know</h2><ul><li>Complementary angles add to 90°; supplementary to 180°.</li><li>The angles of every triangle total 180°.</li><li>d = 2r and C = 2πr — with π = 22/7, r = 7 gives C = 44.</li><li><strong>Euler's formula: F + V − E = 2</strong> for every polyhedron.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Mixing up complement (90°) and supplement (180°).</li><li>Forgetting a triangle can have at most one right/obtuse angle.</li><li>Using the radius where the diameter is needed.</li></ul><h2>Take the free Geometry test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Geometry — Angles and Shapes Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Geometry Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Geometry — Angles and Shapes",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "What is the reflex angle corresponding to an angle of 135°?",
+        "options": [
+          "45°",
+          "225°",
+          "95°",
+          "205°"
+        ],
+        "answer": 1,
+        "explanation": "Reflex angle = 360° − 135° = 225°.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 220 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <line x1=\"110\" y1=\"86\" x2=\"188\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.5\"/>\n    <line x1=\"110\" y1=\"86\" x2=\"54.8\" y2=\"30.8\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <path d=\"M 130 86 A 20 20 0 0 0 95.9 71.9\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/>\n    <text x=\"140\" y=\"78\" font-size=\"11.5\" fill=\"#2563eb\" font-weight=\"700\">135°</text>\n    <path d=\"M 136 86 A 26 26 0 1 1 91.6 67.6\" fill=\"none\" stroke=\"#ea580c\" stroke-width=\"2\" stroke-dasharray=\"5 4\" transform=\"scale(1,-1) translate(0,-172)\"/><text x=\"104\" y=\"112\" font-size=\"14\" fill=\"#ea580c\" font-weight=\"800\">?</text></svg>"
+      },
+      {
+        "q": "The smaller angle between the hands of a clock at 4 o'clock is",
+        "options": [
+          "90°",
+          "120°",
+          "60°",
+          "150°"
+        ],
+        "answer": 1,
+        "explanation": "Each hour mark is 30°; at 4 o'clock the gap is 4 × 30° = 120°.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 110 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <circle cx=\"55\" cy=\"55\" r=\"44\" fill=\"#fff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n    <line x1=\"55.0\" y1=\"15.0\" x2=\"55.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"55.0\" y=\"35.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">12</text><line x1=\"75.0\" y1=\"20.4\" x2=\"71.5\" y2=\"26.4\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"67.0\" y=\"38.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">1</text><line x1=\"89.6\" y1=\"35.0\" x2=\"83.6\" y2=\"38.5\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75.8\" y=\"47.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">2</text><line x1=\"95.0\" y1=\"55.0\" x2=\"88.0\" y2=\"55.0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"79.0\" y=\"59.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">3</text><line x1=\"89.6\" y1=\"75.0\" x2=\"83.6\" y2=\"71.5\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75.8\" y=\"71.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">4</text><line x1=\"75.0\" y1=\"89.6\" x2=\"71.5\" y2=\"83.6\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"67.0\" y=\"79.8\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">5</text><line x1=\"55.0\" y1=\"95.0\" x2=\"55.0\" y2=\"88.0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"55.0\" y=\"83.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">6</text><line x1=\"35.0\" y1=\"89.6\" x2=\"38.5\" y2=\"83.6\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"43.0\" y=\"79.8\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">7</text><line x1=\"20.4\" y1=\"75.0\" x2=\"26.4\" y2=\"71.5\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"34.2\" y=\"71.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">8</text><line x1=\"15.0\" y1=\"55.0\" x2=\"22.0\" y2=\"55.0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"31.0\" y=\"59.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">9</text><line x1=\"20.4\" y1=\"35.0\" x2=\"26.4\" y2=\"38.5\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"34.2\" y=\"47.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">10</text><line x1=\"35.0\" y1=\"20.4\" x2=\"38.5\" y2=\"26.4\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"43.0\" y=\"38.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#334155\">11</text>\n    <line x1=\"55\" y1=\"55\" x2=\"72.3\" y2=\"65.0\" stroke=\"#dc2626\" stroke-width=\"3.5\" stroke-linecap=\"round\"/>\n    <line x1=\"55\" y1=\"55\" x2=\"55\" y2=\"19\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <circle cx=\"55\" cy=\"55\" r=\"3.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "q": "A quadrilateral with all sides equal and all angles 90° is a",
+        "options": [
+          "square",
+          "rectangle",
+          "rhombus",
+          "parallelogram"
+        ],
+        "answer": 0,
+        "explanation": "Equal sides + right angles define a square."
+      },
+      {
+        "q": "Each angle of an equilateral triangle measures",
+        "options": [
+          "90°",
+          "45°",
+          "30°",
+          "60°"
+        ],
+        "answer": 3,
+        "explanation": "The three equal angles share 180°: 180 ÷ 3 = 60°."
+      },
+      {
+        "q": "Two angles form a straight line. If one measures 77°, the other measures",
+        "options": [
+          "13°",
+          "113°",
+          "77°",
+          "103°"
+        ],
+        "answer": 3,
+        "explanation": "Angles on a straight line total 180°: 180 − 77 = 103°."
+      },
+      {
+        "q": "The longest chord that can be drawn in a circle is its",
+        "options": [
+          "diameter",
+          "radius",
+          "arc",
+          "tangent"
+        ],
+        "answer": 0,
+        "explanation": "A chord through the centre is the diameter — no other chord of the circle can be longer."
+      },
+      {
+        "q": "In triangle PQR, angle P = 28° and angle Q = 105°. What is the measure of angle R?",
+        "options": [
+          "59°",
+          "47°",
+          "133°",
+          "39°"
+        ],
+        "answer": 1,
+        "explanation": "The angles of a triangle add to 180°: angle R = 180° − (28° + 105°) = 180° − 133° = 47°."
+      },
+      {
+        "q": "Through how many degrees does the minute hand of a clock turn in 30 minutes?",
+        "options": [
+          "90°",
+          "240°",
+          "30°",
+          "180°"
+        ],
+        "answer": 3,
+        "explanation": "The minute hand turns 360° in 60 minutes, i.e. 6° per minute. In 30 minutes it turns 30 × 6° = 180°."
+      },
+      {
+        "q": "Each base angle of an isosceles triangle measures 72°. Find its vertex angle.",
+        "options": [
+          "36°",
+          "72°",
+          "54°",
+          "144°"
+        ],
+        "answer": 0,
+        "explanation": "Vertex angle = 180° − 72° − 72° = 180° − 144° = 36°.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 120 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"60,14 106,92 14,92\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "q": "A triangle whose sides are 5 cm, 7 cm and 9 cm is",
+        "options": [
+          "equilateral",
+          "isosceles",
+          "scalene",
+          "impossible"
+        ],
+        "answer": 2,
+        "explanation": "All three sides are different ⇒ scalene.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 120 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"60,14 106,92 14,92\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the supplement of 134°?",
+      "a": "46° — supplementary angles add to 180°."
+    },
+    {
+      "q": "What is Euler's formula?",
+      "a": "For any polyhedron, Faces + Vertices − Edges = 2. A cube: 6 + 8 − 12 = 2."
+    },
+    {
+      "q": "Is the Class 5 geometry test free?",
+      "a": "Yes — 10 free MCQs with figures. The e-book has 100 Maths Olympiad Class 5 geometry MCQs for Rs 32."
+    }
+  ]
+}

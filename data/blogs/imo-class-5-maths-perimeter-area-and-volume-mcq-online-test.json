@@ -1,0 +1,154 @@
+{
+  "slug": "imo-class-5-maths-perimeter-area-and-volume-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Perimeter, Area and Volume: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Perimeter Area Volume Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Perimeter, Area and Volume online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Perimeter, Area and Volume online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-perimeter-area-and-volume-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-perimeter-area-and-volume-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Class 5 mensuration adds triangles and VOLUME to perimeter and area — with composite shapes and cost problems. One of the most diagram-friendly Olympiad chapters. Here is what it tests, the formulas, and a free 10-question test with figures.</p><h2>What the Class 5 Maths Olympiad Perimeter, Area and Volume chapter tests</h2><ul><li>Perimeter of rectangles, squares and regular polygons</li><li>Area of rectangles, squares and triangles (½ × base × height)</li><li>Volume of cubes and cuboids</li><li>Composite shapes, unit choices and cost problems</li></ul><h2>Key facts your child should know</h2><ul><li>P(rect) = 2(l + b); regular polygon P = sides × length.</li><li><strong>A(triangle) = ½ × base × height.</strong></li><li>V(cuboid) = l × b × h; V(cube) = side³.</li><li><strong>1 litre = 1000 cu cm</strong> connects capacity and volume.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Forgetting the ½ in the triangle area formula.</li><li>Writing volume in sq units instead of cu units.</li><li>Using perimeter where the problem needs area (or volume).</li></ul><h2>Take the free Perimeter Area Volume test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Perimeter, Area and Volume Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Perimeter Area Volume Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Perimeter, Area and Volume",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "A wall is 12 m long and 8 m high. What is the cost of painting it at Rs 15 per square metre?",
+        "options": [
+          "Rs 96",
+          "Rs 1440",
+          "Rs 1455",
+          "Rs 300"
+        ],
+        "answer": 1,
+        "explanation": "Area = 12 × 8 = 96 sq. m. Cost = 96 × 15 = Rs 1440.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">12 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">8 m</text></svg>"
+      },
+      {
+        "q": "A four-sided plot has sides 26 m, 19 m, 33 m and 22 m. What is the length of its boundary?",
+        "options": [
+          "106 m",
+          "95 m",
+          "100 m",
+          "112 m"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = sum of all the sides = 26 + 19 + 33 + 22 = 100 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 240 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <polygon points=\"50,26 200,36 186,112 34,102\" fill=\"#fce7f3\" stroke=\"#db2777\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/>\n    <text x=\"125\" y=\"22\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#334155\" font-weight=\"700\">26 m</text>\n    <text x=\"212\" y=\"76\" font-size=\"11.5\" fill=\"#334155\" font-weight=\"700\">19 m</text>\n    <text x=\"110\" y=\"128\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#334155\" font-weight=\"700\">33 m</text>\n    <text x=\"2\" y=\"66\" font-size=\"11.5\" fill=\"#334155\" font-weight=\"700\">22 m</text></svg>"
+      },
+      {
+        "q": "A rectangular sports ground measures 83 m by 46 m. Find the distance around it.",
+        "options": [
+          "129 m",
+          "3818 m",
+          "258 m",
+          "266 m"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter of a rectangle = 2 × (length + breadth) = 2 × (83 + 46) = 2 × 129 = 258 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">83 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">46 m</text></svg>"
+      },
+      {
+        "q": "A square courtyard has a side of 43 m. Find the area of the courtyard.",
+        "options": [
+          "172 sq. m",
+          "1849 sq. m",
+          "1892 sq. m",
+          "86 sq. m"
+        ],
+        "answer": 1,
+        "explanation": "Area of a square = side × side = 43 × 43 = 1849 sq. m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 210 106\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"65\" y=\"24\" width=\"76\" height=\"76\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <text x=\"103\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">43 m</text></svg>"
+      },
+      {
+        "q": "A cubical gift box has each edge 9 cm long. Find its volume.",
+        "options": [
+          "81 cu. cm",
+          "486 cu. cm",
+          "729 cu. cm",
+          "27 cu. cm"
+        ],
+        "answer": 2,
+        "explanation": "Volume of a cube = edge × edge × edge = 9 × 9 × 9 = 729 cu. cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <polygon points=\"60,50 170,50 205,26 95,26\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <rect x=\"60\" y=\"50\" width=\"110\" height=\"62\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <polygon points=\"170,50 205,26 205,88 170,112\" fill=\"#c7dbff\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <text x=\"115\" y=\"130\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">9 cm</text>\n    <text x=\"222\" y=\"62\" font-size=\"12\" fill=\"#334155\" font-weight=\"700\">9 cm</text>\n    <text x=\"196\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">9 cm</text></svg>"
+      },
+      {
+        "q": "An aquarium of size 80 cm by 25 cm by 20 cm is filled to the brim. How many litres of water are in it? (1 litre = 1000 cu. cm)",
+        "options": [
+          "40000 litres",
+          "40 litres",
+          "400 litres",
+          "45 litres"
+        ],
+        "answer": 1,
+        "explanation": "Volume = 80 × 25 × 20 = 40000 cu. cm. Since 1000 cu. cm = 1 litre, the tank holds 40000 ÷ 1000 = 40 litres.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <polygon points=\"60,50 170,50 205,26 95,26\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <rect x=\"60\" y=\"50\" width=\"110\" height=\"62\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <polygon points=\"170,50 205,26 205,88 170,112\" fill=\"#c7dbff\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <text x=\"115\" y=\"130\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">80 cm</text>\n    <text x=\"222\" y=\"62\" font-size=\"12\" fill=\"#334155\" font-weight=\"700\">20 cm</text>\n    <text x=\"196\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">25 cm</text></svg>"
+      },
+      {
+        "q": "A school stage backdrop measures 25 m by 12 m. Find the cost of painting it at Rs 32 per square metre.",
+        "options": [
+          "Rs 300",
+          "Rs 9632",
+          "Rs 9600",
+          "Rs 1184"
+        ],
+        "answer": 2,
+        "explanation": "Area = 25 × 12 = 300 sq. m. Cost = 300 × 32 = Rs 9600.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    \n    <rect x=\"58\" y=\"28\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">25 m</text>\n    <text x=\"50\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">12 m</text></svg>"
+      },
+      {
+        "q": "A road-safety sign is an equilateral triangle with each side 27 cm. What is its perimeter?",
+        "options": [
+          "81 cm",
+          "108 cm",
+          "54 cm",
+          "729 cm"
+        ],
+        "answer": 0,
+        "explanation": "An equilateral triangle has 3 equal sides, so perimeter = 3 × 27 = 81 cm."
+      },
+      {
+        "q": "A square window pane has an area of 400 sq. cm. Find the perimeter of the pane.",
+        "options": [
+          "90 cm",
+          "20 cm",
+          "80 cm",
+          "200 cm"
+        ],
+        "answer": 2,
+        "explanation": "Since 20 × 20 = 400, the side is 20 cm. Perimeter = 4 × 20 = 80 cm.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 210 118\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <text x=\"105\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7c3aed\" font-weight=\"700\">Area = 400 sq cm</text>\n    <rect x=\"65\" y=\"36\" width=\"76\" height=\"76\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n    <text x=\"103\" y=\"30\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">?</text></svg>"
+      },
+      {
+        "q": "A rectangular fish pond has an area of 300 sq. m and a length of 20 m. What is its perimeter?",
+        "options": [
+          "74 m",
+          "35 m",
+          "70 m",
+          "64 m"
+        ],
+        "answer": 2,
+        "explanation": "Breadth = 300 ÷ 20 = 15. Perimeter = 2 × (20 + 15) = 70 m.",
+        "figure": "<svg class=\"qfig\" viewBox=\"0 0 250 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n    <text x=\"125\" y=\"14\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7c3aed\" font-weight=\"700\">Area = 300 sq m</text>\n    <rect x=\"58\" y=\"38\" width=\"150\" height=\"66\" fill=\"#ccfbf1\" stroke=\"#0d9488\" stroke-width=\"2.5\"/>\n    <text x=\"133\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" fill=\"#334155\" font-weight=\"700\">20 m</text>\n    <text x=\"50\" y=\"74\" font-size=\"12\" text-anchor=\"end\" fill=\"#334155\" font-weight=\"700\">?</text></svg>"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the area of a triangle with base 12 cm and height 8 cm?",
+      "a": "½ × 12 × 8 = 48 sq cm."
+    },
+    {
+      "q": "How many litres fill a 100 × 60 × 50 cm tank?",
+      "a": "Volume = 300,000 cu cm; at 1000 cu cm per litre that is 300 litres."
+    },
+    {
+      "q": "Is the Class 5 mensuration test free?",
+      "a": "Yes, 10 free questions with diagrams. The e-book has 100 MCQs with colourful figures for Rs 32."
+    }
+  ]
+}

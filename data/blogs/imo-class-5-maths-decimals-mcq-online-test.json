@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-5-maths-decimals-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Decimals: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Decimals Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Decimals online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Decimals online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-decimals-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-decimals-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Decimals to thousandths, point-shifting by 10/100/1000 and decimal arithmetic — precision marks on every Class 5 Olympiad paper. Here is what the IMO Class 5 decimals chapter tests, with a free 10-question test.</p><h2>What the Class 5 Maths Olympiad Decimals chapter tests</h2><ul><li>Place value to thousandths</li><li>Multiplying and dividing by 10, 100, 1000</li><li>All four operations on decimals</li><li>Fraction ↔ decimal conversions and rounding</li></ul><h2>Key facts your child should know</h2><ul><li>× 10/100/1000 moves the point right; ÷ moves it left.</li><li>0.5 = 0.50 = 0.500 — padding zeros changes nothing.</li><li>Count decimal places when multiplying: 0.3 × 0.7 = 0.21.</li><li>1/8 = 0.125; 3/4 = 0.75; 1/5 = 0.2.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Moving the point the wrong way.</li><li>Misaligning points in addition.</li><li>Dropping the zero in answers like 0.07.</li></ul><h2>Take the free Decimals test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Decimals Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Decimals Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Decimals",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "Arrange in ascending order: 0.606, 0.66, 0.06, 0.6.",
+        "options": [
+          "0.66, 0.606, 0.6, 0.06",
+          "0.606, 0.66, 0.06, 0.6",
+          "0.06, 0.6, 0.606, 0.66",
+          "0.606, 0.06, 0.66, 0.6"
+        ],
+        "answer": 2,
+        "explanation": "Write each with 3 decimal places, then sort smallest to largest: 0.06, 0.6, 0.606, 0.66."
+      },
+      {
+        "q": "Convert 307/1000 to a decimal.",
+        "options": [
+          "3.07",
+          "0.307",
+          "0.031",
+          "30.7"
+        ],
+        "answer": 1,
+        "explanation": "307/1000 means 307 divided by 1000, so it is 0.307."
+      },
+      {
+        "q": "6.05 − 4.275 = ?",
+        "options": [
+          "1.775",
+          "2.775",
+          "1.675",
+          "1.785"
+        ],
+        "answer": 0,
+        "explanation": "Line up the decimal points (write 6.05 as 6.050) and subtract: 6.05 − 4.275 = 1.775."
+      },
+      {
+        "q": "Which of these is the expanded form of 9.254?",
+        "options": [
+          "9 + 2 + 5 + 4",
+          "9 + 0.2 + 0.05 + 0.004",
+          "9 + 0.2 + 0.04 + 0.005",
+          "9 + 0.2 + 0.5 + 0.4"
+        ],
+        "answer": 1,
+        "explanation": "9.254 = 9 ones + 2 tenths + 5 hundredths + 4 thousandths = 9 + 0.2 + 0.05 + 0.004."
+      },
+      {
+        "q": "Express 2.35 as a mixed fraction in lowest terms.",
+        "options": [
+          "2 7/20",
+          "2 350/1000",
+          "2 7/40",
+          "3 7/20"
+        ],
+        "answer": 0,
+        "explanation": "2.35 = 2 + 350/1000. Dividing 350/1000 by the HCF 50 gives 7/20, so the answer is 2 7/20."
+      },
+      {
+        "q": "Which number name matches 9.304?",
+        "options": [
+          "Nine and thirty-four thousandths",
+          "Nine and three hundred four thousandths",
+          "Nine and three hundred four hundredths",
+          "Ninety-three and four thousandths"
+        ],
+        "answer": 1,
+        "explanation": "9.304 = 9 + 304/1000, read as nine and three hundred four thousandths."
+      },
+      {
+        "q": "Express 0.6 as a fraction in its lowest terms.",
+        "options": [
+          "3/5",
+          "600/1000",
+          "3/10",
+          "6/5"
+        ],
+        "answer": 0,
+        "explanation": "0.6 = 600/1000. Divide the top and bottom by 200 to get 3/5."
+      },
+      {
+        "q": "Find the sum of 0.605 and 0.395.",
+        "options": [
+          "0.645",
+          "1",
+          "1.1",
+          "0.999"
+        ],
+        "answer": 1,
+        "explanation": "Line up the decimal points and add: 0.605 + 0.395 = 1."
+      },
+      {
+        "q": "In the number 9.187, what is the place value of the digit 7?",
+        "options": [
+          "0.007",
+          "7",
+          "0.07",
+          "0.001"
+        ],
+        "answer": 0,
+        "explanation": "The digit 7 sits in the thousandths place, so its place value is 7 thousandths = 0.007."
+      },
+      {
+        "q": "Write 6 ones + 5 hundredths + 8 thousandths as a decimal.",
+        "options": [
+          "6.058",
+          "6.13",
+          "0.613",
+          "60.58"
+        ],
+        "answer": 0,
+        "explanation": "Put each part in its own place and fill empty places with 0: 6 ones + 5 hundredths + 8 thousandths = 6.058."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What happens when you multiply a decimal by 100?",
+      "a": "The decimal point moves two places to the right: 3.45 × 100 = 345."
+    },
+    {
+      "q": "How do you compare 0.5 and 0.45?",
+      "a": "Pad to the same length: 0.50 vs 0.45 — so 0.5 is greater."
+    },
+    {
+      "q": "Is this Class 5 decimals test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 5 decimal MCQs for Rs 32."
+    }
+  ]
+}

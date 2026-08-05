@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-5-maths-money-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Money: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Money Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Money online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Money online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-money-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-money-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Class 5 money questions graduate to profit & loss and discounts — the first taste of commercial maths. Here is what the Maths Olympiad Class 5 money chapter tests, the facts, and a free 10-question test.</p><h2>What the Class 5 Maths Olympiad Money chapter tests</h2><ul><li>Money arithmetic with decimals</li><li>Unit cost, better buys and bills</li><li>Profit and loss (CP vs SP)</li><li>Discounts off the marked price</li></ul><h2>Key facts your child should know</h2><ul><li>Profit = SP − CP; Loss = CP − SP.</li><li>Unit cost = total ÷ number; compare per-unit to find the better buy.</li><li>Discount is taken off the marked price: 20% off ₹450 → ₹360.</li><li>Line up decimal points in every money sum.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Swapping CP and SP.</li><li>Taking the discount percent of the wrong amount.</li><li>Forgetting paise digits when subtracting.</li></ul><h2>Take the free Money test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Money Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Money Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Money",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "Rs 1200 is taken as a savings deposit at 10% simple interest per year for 5 years. What total amount must be paid back?",
+        "options": [
+          "Rs 600",
+          "Rs 2000",
+          "Rs 1700",
+          "Rs 1800"
+        ],
+        "answer": 3,
+        "explanation": "SI = 1200 × 10 × 5 / 100 = Rs 600. Amount = P + SI = Rs 1200 + Rs 600 = Rs 1800."
+      },
+      {
+        "q": "Zoya buys 2 kg of oranges at Rs 75 each and 1 melon at Rs 60 each and pays with a Rs 500 note. How much change should Zoya get back?",
+        "options": [
+          "Rs 210",
+          "Rs 310",
+          "Rs 290",
+          "Rs 275"
+        ],
+        "answer": 2,
+        "explanation": "2 × 75 = 150; 1 × 60 = 60. Bill = Rs 210. Change = 500 − 210 = Rs 290."
+      },
+      {
+        "q": "A dozen bananas cost Rs 84. What is the cost of 30 bananas at the same rate?",
+        "options": [
+          "Rs 210",
+          "Rs 217",
+          "Rs 168",
+          "Rs 196"
+        ],
+        "answer": 0,
+        "explanation": "One banana costs 84 ÷ 12 = Rs 7. Cost of 30 bananas = 30 × 7 = Rs 210."
+      },
+      {
+        "q": "In how many years will Rs 2000 earn Rs 480 as simple interest at 8% per year?",
+        "options": [
+          "4 years",
+          "5 years",
+          "2 years",
+          "3 years"
+        ],
+        "answer": 3,
+        "explanation": "T = SI × 100 / (P × R) = 480 × 100 / (2000 × 8) = 3 years."
+      },
+      {
+        "q": "A carpenter bought a dining table for Rs 4800 but could sell it only for Rs 4320. What is the loss per cent?",
+        "options": [
+          "15%",
+          "11%",
+          "7%",
+          "10%"
+        ],
+        "answer": 3,
+        "explanation": "Loss = 4800 − 4320 = Rs 480. Loss% = 480/4800 × 100 = 10%."
+      },
+      {
+        "q": "Deepak lends Rs 4800 at 7% simple interest per year for 2 years. Find the simple interest.",
+        "options": [
+          "Rs 792",
+          "Rs 672",
+          "Rs 336",
+          "Rs 612"
+        ],
+        "answer": 1,
+        "explanation": "SI = P × R × T / 100 = 4800 × 7 × 2 / 100 = Rs 672."
+      },
+      {
+        "q": "A dealer bought a second-hand TV for Rs 5000 and sold it for Rs 5750. What is the profit per cent?",
+        "options": [
+          "20%",
+          "13%",
+          "15%",
+          "25%"
+        ],
+        "answer": 2,
+        "explanation": "Profit = SP − CP = Rs 5750 − Rs 5000 = Rs 750. Profit% = profit/CP × 100 = 750/5000 × 100 = 15%."
+      },
+      {
+        "q": "Ramesh deposits Rs 2000 in a bank at 5% simple interest per year for 3 years. How much interest is earned?",
+        "options": [
+          "Rs 400",
+          "Rs 100",
+          "Rs 250",
+          "Rs 300"
+        ],
+        "answer": 3,
+        "explanation": "SI = P × R × T / 100 = 2000 × 5 × 3 / 100 = Rs 300."
+      },
+      {
+        "q": "Nita buys a water purifier for Rs 5600 and wants to earn a profit of 25%. At what price must she sell it?",
+        "options": [
+          "Rs 4200",
+          "Rs 7080",
+          "Rs 7000",
+          "Rs 6940"
+        ],
+        "answer": 2,
+        "explanation": "Profit = 25% of 5600 = Rs 1400. SP = 5600 + 1400 = Rs 7000."
+      },
+      {
+        "q": "Rs 2500 is put into a seed loan at 8% simple interest per year for 3 years. What is the total amount at the end?",
+        "options": [
+          "Rs 600",
+          "Rs 3250",
+          "Rs 2900",
+          "Rs 3100"
+        ],
+        "answer": 3,
+        "explanation": "SI = 2500 × 8 × 3 / 100 = Rs 600. Amount = 2500 + 600 = Rs 3100."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the difference between profit and loss?",
+      "a": "Profit when selling price exceeds cost price (SP − CP); loss when cost exceeds selling (CP − SP)."
+    },
+    {
+      "q": "How do you find the price after a 20% discount?",
+      "a": "Find 20% of the marked price and subtract: ₹450 − ₹90 = ₹360."
+    },
+    {
+      "q": "Is the Class 5 money test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 5 money MCQs for Rs 32."
+    }
+  ]
+}

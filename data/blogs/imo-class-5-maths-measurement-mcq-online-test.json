@@ -1,0 +1,145 @@
+{
+  "slug": "imo-class-5-maths-measurement-mcq-online-test",
+  "title": "IMO Maths Olympiad Class 5 Measurement: Free Online Test + Worksheets PDF",
+  "meta_title": "Class 5 Maths Olympiad Measurement Test",
+  "meta_desc": "Free IMO Maths Olympiad Class 5 Measurement online test: 10 MCQs with answers and explanations, key facts and 100 more worksheet questions (PDF).",
+  "excerpt": "A free 10-question Measurement online test for IMO Maths Olympiad Class 5 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 5",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-5-maths-measurement-chapter-tests.jpg",
+  "cta_product_slug": "imo-class-5-maths-measurement-chapter-tests",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "content": "<p>Class 5 measurement runs the full metric ladder — mm to km, mg to kg, mL to kL — with decimal conversions. Pure rule-application marks. Here is what the IMO Class 5 measurement chapter tests, with a free 10-question test.</p><h2>What the Class 5 Maths Olympiad Measurement chapter tests</h2><ul><li>The metric ladder (km hm dam m dm cm mm)</li><li>Decimal conversions between units</li><li>Operations on measures (with carrying between units)</li><li>Choosing sensible units and word problems</li></ul><h2>Key facts your child should know</h2><ul><li>Each ladder step = × 10 down, ÷ 10 up.</li><li>1 km = 1000 m; 1 kg = 1000 g; 1 L = 1000 mL; 1 kL = 1000 L.</li><li>2.75 km = 2750 m; 4380 g = 4.38 kg.</li><li>Convert to the SAME unit before adding or comparing.</li></ul><h2>Common mistakes to avoid</h2><ul><li>Multiplying when you should divide in conversions.</li><li>Adding mixed units without converting.</li><li>Slipping a zero in ×1000 conversions.</li></ul><h2>Take the free Measurement test (IMO Class 5)</h2><p>The 10-question quiz below is drawn from our verified IMO Class 5 question bank. Read each question, pick an answer, then check your score for instant explanations. Want more? The <strong>Measurement Chapter Worksheets e-book</strong> has 100 MCQs in 10 worksheets, colourful diagrams with the questions, and full solutions — the ideal <em>Maths Olympiad for Class 5 worksheets PDF with answers</em>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 5 chapter.</p>",
+  "quiz": {
+    "title": "IMO Class 5 Measurement Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 5: Measurement",
+    "level": "Class 5",
+    "questions": [
+      {
+        "q": "A volleyball net stretches 12 m 5 cm tall. What is this length in centimetres?",
+        "options": [
+          "125 cm",
+          "12,050 cm",
+          "1,205 cm",
+          "1,215 cm"
+        ],
+        "answer": 2,
+        "explanation": "12 m 5 cm = 12 × 100 cm + 5 cm = 1,205 cm."
+      },
+      {
+        "q": "A bus route has two legs of 3 km 750 m and then 4 km 850 m. What is the total distance?",
+        "options": [
+          "7 km 600 m",
+          "8 km 600 m",
+          "9 km 600 m",
+          "7 km 1600 m"
+        ],
+        "answer": 1,
+        "explanation": "3,750 m + 4,850 m = 8,600 m = 8 km 600 m."
+      },
+      {
+        "q": "A silver bar weighs 2 kg. What is this mass in milligrams?",
+        "options": [
+          "2,00,000 mg",
+          "20,00,000 mg",
+          "2,00,00,000 mg",
+          "2,000 mg"
+        ],
+        "answer": 1,
+        "explanation": "2 kg = 2,000 g. Since 1 g = 1000 mg, the mass is 2,000 × 1000 = 20,00,000 mg."
+      },
+      {
+        "q": "A schoolboy jogs 3 km 600 m in 20 minutes. Find his speed in metres per minute.",
+        "options": [
+          "200 m/min",
+          "160 m/min",
+          "360 m/min",
+          "180 m/min"
+        ],
+        "answer": 3,
+        "explanation": "3 km 600 m = 3,600 m; speed = 3,600 ÷ 20 = 180 m/min."
+      },
+      {
+        "q": "A glass holds 425 mL of lemonade. How much lemonade is needed to fill 8 such glasses? Answer in litres and millilitres.",
+        "options": [
+          "4 L 400 mL",
+          "3 L 400 mL",
+          "2 L 400 mL",
+          "3,400 L"
+        ],
+        "answer": 1,
+        "explanation": "425 × 8 = 3,400 mL = 3 L 400 mL."
+      },
+      {
+        "q": "A canteen shares 9 L 100 mL of soup equally among 7 tureens. How much soup goes into each tureen?",
+        "options": [
+          "1 L 300 mL",
+          "1 L 400 mL",
+          "1 L 200 mL",
+          "1 L 800 mL"
+        ],
+        "answer": 0,
+        "explanation": "9 L 100 mL = 9,100 mL; 9,100 ÷ 7 = 1,300 mL = 1 L 300 mL."
+      },
+      {
+        "q": "A fruit vendor had 8 kg 500 g of mangoes and sold 5 kg 675 g. How much is left?",
+        "options": [
+          "3 kg 825 g",
+          "1 kg 825 g",
+          "2 kg 825 g",
+          "3 kg 675 g"
+        ],
+        "answer": 2,
+        "explanation": "8,500 g − 5,675 g = 2,825 g = 2 kg 825 g."
+      },
+      {
+        "q": "A mountain tunnel is 6 km long. What is this length in centimetres?",
+        "options": [
+          "6,00,000 cm",
+          "60,000 cm",
+          "60,00,000 cm",
+          "6,000 cm"
+        ],
+        "answer": 0,
+        "explanation": "6 km = 6,000 m. Since 1 m = 100 cm, the length is 6,000 × 100 = 6,00,000 cm."
+      },
+      {
+        "q": "A bag of jaggery weighs 3 kg 750 g. What is this mass in milligrams?",
+        "options": [
+          "3,75,000 mg",
+          "37,50,000 mg",
+          "3,75,00,000 mg",
+          "3,750 mg"
+        ],
+        "answer": 1,
+        "explanation": "3 kg 750 g = 3,750 g. Since 1 g = 1000 mg, the mass is 3,750 × 1000 = 37,50,000 mg."
+      },
+      {
+        "q": "A school bus route is 2 km 450 m one way. How far does the bus travel in 5 one-way trips?",
+        "options": [
+          "13 km 250 m",
+          "11 km 250 m",
+          "10 km 450 m",
+          "12 km 250 m"
+        ],
+        "answer": 3,
+        "explanation": "2 km 450 m = 2,450 m; 2,450 × 5 = 12,250 m = 12 km 250 m."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many metres are in 2.75 km?",
+      "a": "2750 m — multiply by 1000 when going from kilometres to metres."
+    },
+    {
+      "q": "What is 4380 g in kilograms?",
+      "a": "4.38 kg, or 4 kg 380 g — divide by 1000."
+    },
+    {
+      "q": "Is the Class 5 measurement test free?",
+      "a": "Yes, 10 free questions. The e-book has 100 Maths Olympiad Class 5 measurement MCQs for Rs 32."
+    }
+  ]
+}
