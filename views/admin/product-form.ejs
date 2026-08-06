@@ -1,5 +1,36 @@
 <% locals.layout = 'layout' %>
 <link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
+<style>
+/* ── MathStudy Editor (Gutenberg-style) ────────────────────────────────── */
+.mse-tabs{display:flex;gap:6px;align-items:center}
+.mse-tab{border:1.5px solid #e2e8f0;background:#fff;color:#475569;font-weight:700;font-size:0.78rem;padding:5px 12px;border-radius:7px;cursor:pointer;line-height:1}
+.mse-tab.active{background:#0f766e;border-color:#0f766e;color:#fff}
+.mse-tab.mse-fs{font-size:0.95rem;padding:4px 9px}
+/* editor canvas — clean writing surface like the WP block editor */
+#pf-desc{background:#fff}
+#pf-desc .ql-editor{min-height:340px;font-size:1.02rem;line-height:1.75;padding:22px 26px;color:#1f2937}
+#pf-desc .ql-editor h2{font-size:1.35rem;margin:1em 0 .4em}
+#pf-desc .ql-editor h3{font-size:1.12rem;margin:1em 0 .35em}
+#pf-desc .ql-editor blockquote{border-left:4px solid #0f766e;background:#f0fdfa;padding:8px 14px;margin:10px 0}
+.ql-toolbar.ql-snow{position:sticky;top:0;z-index:5;background:#fafafa;border-radius:8px 8px 0 0}
+.ql-container.ql-snow{border-radius:0 0 8px 8px}
+/* HTML source view */
+.mse-code{width:100%;min-height:340px;resize:vertical;border:1.5px solid #e2e8f0;border-radius:8px;padding:16px 18px;font-family:Consolas,Menlo,monospace;font-size:0.86rem;line-height:1.6;color:#0f172a;background:#f8fafc;white-space:pre-wrap}
+.mse-code:focus{outline:2px solid #0f766e;border-color:#0f766e}
+/* status bar */
+.mse-status{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px;font-size:0.8rem;color:#64748b;flex-wrap:wrap}
+/* raw-HTML repair banner */
+#mse-htmlbanner{display:none;align-items:center;justify-content:space-between;gap:10px;background:#fef3c7;border:1.5px solid #f59e0b;border-radius:8px;padding:9px 14px;margin-bottom:10px;font-size:0.87rem;color:#78350f;flex-wrap:wrap}
+#mse-render-btn{background:#f59e0b;border:none;color:#3b1a05;font-weight:800;padding:7px 14px;border-radius:7px;cursor:pointer;font-size:0.82rem}
+/* paste toast */
+#mse-toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);background:#0f766e;color:#fff;font-weight:700;font-size:0.86rem;padding:10px 20px;border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .25s;z-index:2000}
+#mse-toast.show{opacity:1}
+/* fullscreen (distraction-free) mode */
+#mse-box.mse-full{position:fixed;inset:0;z-index:1500;margin:0;border-radius:0;overflow:auto;background:#fff;box-shadow:none}
+#mse-box.mse-full .adm-box-b{max-width:900px;margin:0 auto;padding-bottom:60px}
+#mse-box.mse-full #pf-desc .ql-editor{min-height:calc(100vh - 260px)}
+#mse-box.mse-full .mse-code{min-height:calc(100vh - 240px)}
+</style>
 <div class="admin-wrap">
   <%- include('../partials/admin-sidebar', { active: 'products' }) %>
   <div class="admin-main">
@@ -30,11 +61,27 @@
             </div>
           </div>
 
-          <div class="adm-box">
-            <div class="adm-box-h">Description</div>
+          <div class="adm-box" id="mse-box">
+            <div class="adm-box-h" style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span>Description</span>
+              <span class="mse-tabs">
+                <button type="button" id="mse-visual-btn" class="mse-tab active">Visual</button>
+                <button type="button" id="mse-code-btn" class="mse-tab">HTML</button>
+                <button type="button" id="mse-fs-btn" class="mse-tab mse-fs" title="Fullscreen (distraction-free)">⛶</button>
+              </span>
+            </div>
             <div class="adm-box-b">
+              <div id="mse-htmlbanner">
+                <span>⚠️ This description looks like <b>raw HTML code</b> (tags showing as text).</span>
+                <button type="button" id="mse-render-btn">Render it as formatted content</button>
+              </div>
               <div id="pf-desc" class="adm-quill"><%- product && product.description ? product.description : '' %></div>
+              <textarea id="pf-desc-code" class="mse-code" spellcheck="false" placeholder="&lt;p&gt;Write or paste raw HTML here — it is rendered on the product page exactly as valid HTML.&lt;/p&gt;" style="display:none"></textarea>
               <textarea name="description" id="pf-desc-input" hidden></textarea>
+              <div class="mse-status">
+                <span id="mse-count">0 words</span>
+                <span class="hint" style="display:inline">Paste formatted text <b>or</b> raw HTML — both are detected and rendered. Use the <b>HTML</b> tab to edit the source directly.</span>
+              </div>
               <div class="adm-field" style="margin-top:14px">
                 <label>Short description <span class="hint" style="display:inline">(shown on product cards · max 300)</span></label>
                 <textarea name="short_desc" rows="2" maxlength="300" placeholder="One or two lines for listing cards"><%= product ? product.short_desc || '' : '' %></textarea>
@@ -188,14 +235,132 @@
 <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
 <script>
 (function(){
-  // Rich-text description
+  // ── MathStudy Editor: Gutenberg-style rich text + HTML source view ──
   var quill = new Quill('#pf-desc', {
     theme: 'snow',
-    placeholder: 'Describe what is inside the e-book — chapters, number of questions, who it is for…',
-    modules: { toolbar: [[{ header: [2, 3, false] }], ['bold','italic','underline'], [{ list:'ordered' }, { list:'bullet' }], ['blockquote','link'], ['clean']] }
+    placeholder: 'Write, or paste formatted text / raw HTML — everything renders correctly…',
+    modules: { toolbar: [
+      [{ header: [2, 3, false] }],
+      ['bold','italic','underline','strike'],
+      [{ color: [] }, { background: [] }],
+      [{ script: 'sub' }, { script: 'super' }],
+      [{ list: 'ordered' }, { list: 'bullet' }],
+      [{ align: [] }],
+      ['blockquote','code-block','link'],
+      ['clean']
+    ] }
   });
+
+  var codeArea   = document.getElementById('pf-desc-code');
+  var visualBtn  = document.getElementById('mse-visual-btn');
+  var codeBtn    = document.getElementById('mse-code-btn');
+  var fsBtn      = document.getElementById('mse-fs-btn');
+  var banner     = document.getElementById('mse-htmlbanner');
+  var descBox    = document.getElementById('pf-desc');
+  var mode       = 'visual';
+
+  // Anything with a real opening tag of a common element counts as HTML source.
+  function looksLikeHtml(t){
+    return /<\s*(p|div|ul|ol|li|h[1-6]|strong|em|b|i|u|a|br|table|tr|td|th|span|blockquote|img|pre|code|sup|sub)\b[^>]*>/i.test(t || '');
+  }
+  // Readable line breaks for the HTML tab.
+  function prettyHtml(h){
+    return (h || '')
+      .replace(/></g, '>\n<')
+      .replace(/\n<(li|strong|em|b|i|u|a|span|sup|sub|br)\b/g, '<$1')
+      .replace(/(<\/(li|strong|em|b|i|u|a|span|sup|sub)>)\n/g, '$1');
+  }
+  function setQuillHtml(h){
+    quill.setContents(quill.clipboard.convert(h), 'silent');
+  }
+  function currentHtml(){
+    return mode === 'code' ? codeArea.value : quill.root.innerHTML;
+  }
+
+  function toast(msg){
+    var t = document.getElementById('mse-toast');
+    if (!t) { t = document.createElement('div'); t.id = 'mse-toast'; document.body.appendChild(t); }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._h); t._h = setTimeout(function(){ t.classList.remove('show'); }, 3200);
+  }
+
+  // Visual ⇄ HTML tabs (like the WordPress Visual / Code editor).
+  function showVisual(){
+    if (mode === 'code') setQuillHtml(codeArea.value);
+    mode = 'visual';
+    codeArea.style.display = 'none';
+    descBox.style.display = '';
+    document.querySelector('.ql-toolbar').style.display = '';
+    visualBtn.classList.add('active'); codeBtn.classList.remove('active');
+    updateCount();
+  }
+  function showCode(){
+    if (mode === 'visual') codeArea.value = prettyHtml(quill.root.innerHTML);
+    mode = 'code';
+    descBox.style.display = 'none';
+    document.querySelector('.ql-toolbar').style.display = 'none';
+    codeArea.style.display = 'block';
+    codeBtn.classList.add('active'); visualBtn.classList.remove('active');
+    codeArea.focus();
+  }
+  visualBtn.addEventListener('click', showVisual);
+  codeBtn.addEventListener('click', showCode);
+
+  // Fullscreen writing mode.
+  fsBtn.addEventListener('click', function(){
+    document.getElementById('mse-box').classList.toggle('mse-full');
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') document.getElementById('mse-box').classList.remove('mse-full');
+  });
+
+  // Smart paste: HTML source pasted into the VISUAL editor is rendered, not
+  // shown as literal tags. (Copying code from Notepad/VS Code yields a plain
+  // text flavour — or a text/html flavour with the tags entity-escaped.)
+  quill.root.addEventListener('paste', function(e){
+    var cd = e.clipboardData;
+    if (!cd) return;
+    var plain = cd.getData('text/plain');
+    var rich  = cd.getData('text/html');
+    var richIsCode = !rich || rich.indexOf('&lt;') !== -1 || /<(pre|code)\b/i.test(rich);
+    if (plain && looksLikeHtml(plain) && richIsCode) {
+      e.preventDefault(); e.stopImmediatePropagation();
+      var sel = quill.getSelection(true);
+      if (quill.getLength() <= 1) setQuillHtml(plain);
+      else quill.clipboard.dangerouslyPasteHTML(sel ? sel.index : quill.getLength() - 1, plain);
+      toast('HTML code detected — rendered as formatted content ✓');
+    }
+  }, true);
+
+  // Repair banner: an existing description saved as escaped HTML (tags visible
+  // as text) is detected on load and fixed with one click.
+  function checkEscaped(){
+    var plainText = quill.getText();
+    var hasRealMarkup = descBox.querySelectorAll('ul,ol,h1,h2,h3,strong,em,blockquote,table').length > 0;
+    if (!hasRealMarkup && looksLikeHtml(plainText)) banner.style.display = 'flex';
+    else banner.style.display = 'none';
+  }
+  document.getElementById('mse-render-btn').addEventListener('click', function(){
+    setQuillHtml(quill.getText());
+    banner.style.display = 'none';
+    toast('Description rendered as formatted content ✓');
+    updateCount();
+  });
+  checkEscaped();
+
+  // Word / character count.
+  function updateCount(){
+    var t = quill.getText().trim();
+    var words = t ? t.split(/\s+/).length : 0;
+    document.getElementById('mse-count').textContent = words + ' words · ' + t.length + ' characters';
+  }
+  quill.on('text-change', updateCount);
+  updateCount();
+
+  // Submit: whichever view is active is the source of truth.
   document.getElementById('productForm').addEventListener('submit', function(){
-    document.getElementById('pf-desc-input').value = quill.root.innerHTML;
+    document.getElementById('pf-desc-input').value = currentHtml();
   });
 
   // Auto slug from title
