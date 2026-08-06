@@ -30,16 +30,22 @@ window.SEOAssistant = (function () {
     var m = word.match(/[aeiouy]{1,2}/g);
     return m ? m.length : 1;
   }
-  function norm(s) { return (s || '').toLowerCase().replace(/[^a-z0-9\s-]/g, ' ').replace(/\s+/g, ' ').trim(); }
+  function norm(s) { return (s || '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9\s-]/g, ' ').replace(/\s+/g, ' ').trim(); }
   function containsPhrase(haystack, phrase) {
     if (!phrase) return false;
     return norm(haystack).indexOf(norm(phrase)) !== -1;
   }
-  // All keyphrase words present, any order / with words in between ("IMO Class 7
+  // Function words that carry no search meaning — ignored when matching the
+  // keyphrase word-by-word (Google and Yoast both treat them as optional).
+  var STOPWORDS = ['a','an','the','and','or','of','in','on','for','to','with','at','by','from','vs'];
+  function contentWords(phrase) {
+    return norm(phrase).split(' ').filter(function (w) { return w && STOPWORDS.indexOf(w) === -1; });
+  }
+  // All content words present, any order / with words in between ("IMO Class 7
   // Maths Integers" satisfies "IMO Class 7 Integers") — how Yoast matches too.
   function containsWords(haystack, phrase) {
     var h = ' ' + norm(haystack) + ' ';
-    var ws = norm(phrase).split(' ').filter(Boolean);
+    var ws = contentWords(phrase);
     return ws.length > 0 && ws.every(function (w) { return h.indexOf(' ' + w + ' ') !== -1; });
   }
   function countPhrase(haystack, phrase) {
@@ -110,7 +116,7 @@ window.SEOAssistant = (function () {
       var slugNorm = norm((input.slug || '').replace(/-/g, ' '));
       if (slugNorm.indexOf(norm(kp)) !== -1 || containsWords(slugNorm, kp)) add(seo, 'kp-slug', 'good', 'Keyphrase in URL slug', 'All keyphrase words are in the slug.');
       else {
-        var kpW = norm(kp).split(' ').filter(Boolean);
+        var kpW = contentWords(kp);
         var hits = kpW.filter(function (w) { return slugNorm.indexOf(w) !== -1; }).length;
         add(seo, 'kp-slug', hits >= Math.ceil(kpW.length / 2) ? 'ok' : 'bad', 'Keyphrase in URL slug', hits ? 'Partly found (' + hits + ' of ' + kpW.length + ' words).' : 'Not found — use the keyphrase words, hyphen-separated.');
       }
