@@ -492,6 +492,16 @@
     var ed = document.querySelector('#pf-desc .ql-editor');
     return ed ? ed.innerHTML : '';
   }
+  function coverInfo(){
+    // The cover counts as the page image: an existing cover shows in the
+    // preview <img>, a fresh upload sits in the file input. Its alt text on
+    // the shop page is the product title.
+    var prev = document.getElementById('pf-cover-prev');
+    var file = document.getElementById('pf-cover');
+    var present = !!(file && file.files && file.files.length) ||
+                  !!(prev && prev.getAttribute('src') && prev.style.display !== 'none');
+    return { present: present, alt: val('pf-title') };
+  }
   function gather(){
     return {
       keyphrase: val('pf-keyphrase'),
@@ -500,6 +510,7 @@
       metaTitle: val('pf-metatitle'),
       metaDesc: val('pf-metadesc'),
       html: descHtml(),
+      cover: coverInfo(),
       siteHost: 'mathstudy.in'
     };
   }
@@ -546,6 +557,8 @@
   });
   var edRoot = document.querySelector('#pf-desc .ql-editor');
   if (edRoot) new MutationObserver(refreshSoon).observe(edRoot, { childList:true, subtree:true, characterData:true });
+  var coverEl = document.getElementById('pf-cover');
+  if (coverEl) coverEl.addEventListener('change', refreshSoon);
   var codeEl = document.getElementById('pf-desc-code');
   if (codeEl) codeEl.addEventListener('input', refreshSoon);
 

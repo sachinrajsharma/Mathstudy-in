@@ -1374,6 +1374,35 @@ pool.query(`ALTER TABLE products ADD COLUMN focus_keyword VARCHAR(255) NULL`)
       console.error('[schema] focus_keyword:', e.message);
   });
 
+// Cover self-heal: admin-uploaded covers live in the git-ignored
+// public/uploads/products folder, which a fresh deploy checkout does NOT
+// contain — so those covers 404 after every deploy. For products whose cover
+// is missing on disk (or never set), fall back to a repo-committed cover in
+// /wp-content/uploads matched by slug prefix. Idempotent; runs on every boot.
+(async function healCovers() {
+  const REPO_COVERS = {
+    'imo-class-7-maths-integers':              '/wp-content/uploads/imo-class-7-maths-integers.jpg',
+    'imo-class-7-maths-fractions':             '/wp-content/uploads/imo-class-7-maths-fractions-decimals.jpg',
+    'imo-class-7-maths-rational-numbers':      '/wp-content/uploads/imo-class-7-maths-rational-numbers.jpg',
+    'imo-class-7-maths-exponents':             '/wp-content/uploads/imo-class-7-maths-exponents-powers.jpg',
+    'imo-class-7-maths-algebraic-expressions': '/wp-content/uploads/imo-class-7-maths-algebraic-expressions.jpg'
+  };
+  try {
+    const [rows] = await pool.query(`SELECT id, slug, cover_image FROM products`);
+    for (const p of rows) {
+      const prefix = Object.keys(REPO_COVERS).find((k) => (p.slug || '').indexOf(k) === 0);
+      if (!prefix) continue;
+      const coverMissing = !p.cover_image ||
+        (p.cover_image.indexOf('/uploads/products/') === 0 &&
+         !fs.existsSync(path.join(__dirname, 'public', p.cover_image)));
+      if (coverMissing && p.cover_image !== REPO_COVERS[prefix]) {
+        await pool.query(`UPDATE products SET cover_image=? WHERE id=?`, [REPO_COVERS[prefix], p.id]);
+        console.log('[covers] healed', p.slug, '->', REPO_COVERS[prefix]);
+      }
+    }
+  } catch (e) { console.error('[covers] self-heal:', e.message); }
+})();
+
 // Blog SEO engine columns (idempotent): an embedded MCQ test (quiz_json), a
 // per-blog product CTA (cta_product_slug) and an FAQ block (faq_json) so every
 // article can carry an interactive practice test + a buy button + FAQ schema.
