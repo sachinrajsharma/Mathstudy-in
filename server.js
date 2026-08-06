@@ -1068,14 +1068,14 @@ app.get('/admin/products/:id/edit', requireAdmin, async (req, res) => {
 
 // Admin — Save product (new)
 app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'), verifyCsrf, async (req, res) => {
-  const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
+  const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : null;
   try {
     const bundleJson = await parseBundleItems(req.body, null);
     await pool.query(
-      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,price_locked,cover_image,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url,bundle_items)
-       VALUES (?,?,?,?,?,?,?,1,?,?,?,?,?,?,?,?,?,?)`,
-      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson]
+      `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,price_locked,cover_image,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url,bundle_items)
+       VALUES (?,?,?,?,?,?,?,1,?,?,?,?,?,?,?,?,?,?,?)`,
+      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,focus_keyword||null,is_featured?1:0,is_published?1:0,download_url||null,bundleJson]
     );
     res.redirect('/admin/products');
   } catch(e) {
@@ -1087,13 +1087,13 @@ app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'),
 
 // Admin — Save product (edit)
 app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_image'), verifyCsrf, async (req, res) => {
-  const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,is_featured,is_published,download_url } = req.body;
+  const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : req.body.existing_cover;
   try {
     const bundleJson = await parseBundleItems(req.body, req.params.id);
     await pool.query(
-      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,price_locked=1,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
-      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,is_featured?1:0,is_published?1:0,download_url||null,bundleJson,req.params.id]
+      `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,price_locked=1,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,focus_keyword=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
+      [title,slug,description,short_desc,category_id||null,parseFloat(price),parseFloat(original_price)||null,cover,grade,board,page_count||null,meta_title,meta_desc,focus_keyword||null,is_featured?1:0,is_published?1:0,download_url||null,bundleJson,req.params.id]
     );
     res.redirect('/admin/products');
   } catch(e) {
@@ -1364,6 +1364,14 @@ pool.query(`ALTER TABLE products ADD COLUMN price_locked TINYINT(1) NOT NULL DEF
   .catch(function(e) {
     if (!/duplicate column|check that column\/key exists/i.test(e.message))
       console.error('[schema] price_locked:', e.message);
+  });
+
+// SEO Assistant: the focus keyphrase each product page is optimised for.
+pool.query(`ALTER TABLE products ADD COLUMN focus_keyword VARCHAR(255) NULL`)
+  .then(function() { console.log('[schema] added products.focus_keyword'); })
+  .catch(function(e) {
+    if (!/duplicate column|check that column\/key exists/i.test(e.message))
+      console.error('[schema] focus_keyword:', e.message);
   });
 
 // Blog SEO engine columns (idempotent): an embedded MCQ test (quiz_json), a
