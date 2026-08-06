@@ -143,9 +143,16 @@ window.SEOAssistant = (function () {
         add(seo, 'kp-dist', zHits >= 2 ? 'good' : 'ok', 'Keyphrase distribution', zHits >= 2 ? 'Spread through the content, not bunched in one place.' : 'All mentions sit in one part of the text — spread them out.');
       }
 
-      var altHit = imgs.some(function (im) { return containsPhrase(im.getAttribute('alt') || '', kp); });
-      if (imgs.length) add(seo, 'img-alt', altHit ? 'good' : 'ok', 'Image alt text', altHit ? 'An image alt contains the keyphrase.' : imgs.length + ' image(s) in the description — put the keyphrase in one alt text.');
-      else add(seo, 'img-alt', 'ok', 'Images', 'No images inside the description (the cover image is shown automatically). Optional: add one supporting image with keyphrase alt text.');
+      // Image check: the product COVER counts as the page image. It is shown
+      // on the page and in og:image, with the product title as its alt text.
+      var cover = input.cover || {};
+      var altHit = imgs.some(function (im) { return containsPhrase(im.getAttribute('alt') || '', kp) || containsWords(im.getAttribute('alt') || '', kp); });
+      var coverAltHit = containsPhrase(cover.alt || '', kp) || containsWords(cover.alt || '', kp);
+      if (imgs.length && altHit) add(seo, 'img-alt', 'good', 'Images', 'A description image alt contains the keyphrase' + (cover.present ? ', and the cover image is set.' : '.'));
+      else if (imgs.length) add(seo, 'img-alt', 'ok', 'Images', imgs.length + ' image(s) in the description — put the keyphrase in one alt text.');
+      else if (cover.present && coverAltHit) add(seo, 'img-alt', 'good', 'Images', 'The product cover image is set. It is shown on the page and shared as the social image, with the keyphrase in its alt text (the product title).');
+      else if (cover.present) add(seo, 'img-alt', 'good', 'Images', 'The product cover image is set and is shown on the page. Tip: keeping the keyphrase in the product title puts it in the image alt text too.');
+      else add(seo, 'img-alt', 'bad', 'Images', 'No cover image and no description images — upload a product cover.');
     }
 
     // length + technical checks (independent of keyphrase)
