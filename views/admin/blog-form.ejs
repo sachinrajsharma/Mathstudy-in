@@ -15,30 +15,9 @@ window.MathJax = {
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <style>
-/* ── Admin shell ────────────────────────────────────────────────── */
-.admin-wrap{display:flex;min-height:100vh;background:#f8fafc}
-.admin-sidebar{width:220px;background:#1e293b;display:flex;flex-direction:column;flex-shrink:0}
-.admin-sidebar-brand{padding:20px 20px 12px;font-size:0.95rem;font-weight:700;color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
-.admin-nav{display:flex;flex-direction:column;padding:8px 0}
-.admin-nav a{padding:10px 20px;color:rgba(255,255,255,.7);text-decoration:none;font-size:0.875rem;font-weight:500;transition:background .12s}
-.admin-nav a:hover,.admin-nav a.active{background:rgba(255,255,255,.1);color:#fff}
-.admin-main{flex:1;padding:32px 36px;overflow-x:hidden;max-width:1200px}
-.admin-title{font-size:1.4rem;font-weight:800;color:#0f172a}
-.admin-sub{font-size:0.82rem;color:#94a3b8;margin-top:3px}
-.form-label{font-size:0.72rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:6px}
-.form-input{width:100%;padding:10px 13px;border:1.5px solid #e2e8f0;border-radius:9px;font-family:inherit;font-size:0.92rem;outline:none;box-sizing:border-box;transition:border-color .15s}
-.form-input:focus{border-color:#2563eb}
-.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;border-radius:8px;font-size:0.875rem;font-weight:600;cursor:pointer;border:none;text-decoration:none;transition:opacity .15s;font-family:inherit}
-.btn:hover{opacity:.85}
-.btn-primary{background:#2563eb;color:#fff}
-.btn-outline{background:transparent;border:1.5px solid #e2e8f0;color:#475569}
-.btn-sm{padding:5px 12px;font-size:0.78rem}
-.card{background:#fff;border:1.5px solid #e2e8f0;border-radius:12px;padding:16px}
-.error-box{background:#fef2f2;border:1px solid #fca5a5;color:#991b1b;padding:12px 16px;border-radius:8px;margin-bottom:20px;font-size:0.88rem}
-
-/* ── SimpleMDE overrides ────────────────────────────────────────── */
+/* ── SimpleMDE overrides (writing surface like the WP editor) ───────── */
 .CodeMirror{font-family:'JetBrains Mono','Fira Code','Courier New',monospace;font-size:0.95rem;line-height:1.7;border-radius:0 0 10px 10px!important;border:1.5px solid #e2e8f0!important;border-top:none!important;min-height:420px}
-.editor-toolbar{border-radius:10px 10px 0 0!important;border:1.5px solid #e2e8f0!important;background:#f8fafc;padding:6px 10px}
+.editor-toolbar{border-radius:10px 10px 0 0!important;border:1.5px solid #e2e8f0!important;background:#f8fafc;padding:6px 10px;position:sticky;top:0;z-index:5}
 .editor-toolbar button{color:#475569!important}
 .editor-toolbar button:hover,.editor-toolbar button.active{background:#dbeafe!important;color:#1d4ed8!important;border-color:#bfdbfe!important}
 .editor-preview{font-size:1rem;line-height:1.75;padding:20px 24px;font-family:'Inter',sans-serif}
@@ -55,170 +34,208 @@ window.MathJax = {
 .editor-preview td{padding:9px 14px;border:1px solid #e2e8f0}
 .editor-preview tr:nth-child(even) td{background:#f8fafc}
 .editor-preview hr{border:none;border-top:2px solid #f1f5f9;margin:28px 0}
-.editor-preview ul{padding-left:22px;margin-bottom:16px}
-.editor-preview ol{padding-left:22px;margin-bottom:16px}
+.editor-preview ul,.editor-preview ol{padding-left:22px;margin-bottom:16px}
 .editor-preview li{margin-bottom:5px}
 .editor-statusbar{font-size:0.78rem;color:#94a3b8;padding:4px 10px;border-top:1px solid #f1f5f9}
-
 /* Markdown cheatsheet hint */
 .md-hint{font-size:0.75rem;color:#94a3b8;margin-top:8px;line-height:1.6}
 .md-hint code{background:#f1f5f9;padding:1px 5px;border-radius:3px;font-size:0.72rem;color:#475569}
-
-@media(max-width:900px){
-  .admin-wrap{flex-direction:column}
-  .admin-sidebar{width:100%;flex-direction:row}
-  .admin-nav{flex-direction:row;padding:0}
-  .admin-nav a{padding:8px 14px;font-size:0.8rem}
-  .admin-main{padding:20px 16px}
-  .grid-form{grid-template-columns:1fr!important}
-}
+/* ── SEO Assistant panel (same system as the product editor) ────────── */
+.sa-tabs,.sa-devices{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.sa-tabbtn{border:1.5px solid #e2e8f0;background:#fff;color:#475569;font-weight:700;font-size:0.8rem;padding:6px 14px;border-radius:8px;cursor:pointer}
+.sa-tabbtn.active{background:#0f766e;border-color:#0f766e;color:#fff}
+.sa-list{list-style:none;margin:0;padding:0}
+.sa-list li{display:flex;gap:10px;align-items:flex-start;padding:8px 2px;border-bottom:1px dashed #eef2f7;font-size:0.88rem}
+.sa-list li b{display:block;color:#1f2937}
+.sa-list li span{color:#64748b;font-size:0.83rem}
+.sa-dot{flex:none;width:12px;height:12px;border-radius:50%;margin-top:4px}
+.sa-dot.sa-good{background:#22c55e}
+.sa-dot.sa-ok{background:#f59e0b}
+.sa-dot.sa-bad{background:#ef4444}
+.sa-badge{display:inline-block;font-weight:800;font-size:0.78rem;padding:4px 12px;border-radius:20px;margin-left:6px}
+.sa-badge.sa-good{background:#dcfce7;color:#15803d}
+.sa-badge.sa-ok{background:#fef3c7;color:#b45309}
+.sa-badge.sa-bad{background:#fee2e2;color:#b91c1c}
+/* Google snippet preview */
+.sa-snippet{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:18px 20px;max-width:600px;font-family:Arial,sans-serif}
+.sa-snippet.sa-mobile{max-width:400px;border-radius:16px;box-shadow:0 1px 6px rgba(32,33,36,.18)}
+.sa-crumb{display:flex;gap:10px;align-items:center;font-size:12px;color:#4d5156;line-height:1.3;margin-bottom:6px}
+.sa-crumb b{color:#202124;font-size:14px;font-weight:400}
+.sa-favicon{flex:none;width:28px;height:28px;border-radius:50%;background:#0f766e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+.sa-title{color:#1a0dab;font-size:20px;line-height:1.3;margin:2px 0 4px;cursor:pointer}
+.sa-title:hover{text-decoration:underline}
+.sa-snippet.sa-mobile .sa-title{font-size:16px}
+.sa-desc{color:#4d5156;font-size:14px;line-height:1.58}
 </style>
 
 <div class="admin-wrap">
-  <aside class="admin-sidebar">
-    <div class="admin-sidebar-brand">MathStudy Admin</div>
-    <nav class="admin-nav">
-      <a href="/admin">Dashboard</a>
-      <a href="/admin/products">Products</a>
-      <a href="/admin/orders">Orders</a>
-      <a href="/admin/users">Users</a>
-      <a href="/admin/blog" class="active">Blog</a>
-    </nav>
-  </aside>
-
+  <%- include('../partials/admin-sidebar', { active: 'blog' }) %>
   <div class="admin-main">
-
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:12px">
-      <div>
-        <div class="admin-title"><%= post ? 'Edit Post' : 'New Post' %></div>
-        <div class="admin-sub"><a href="/admin/blog" style="color:#2563eb">&#8592; Back to all posts</a></div>
+    <div style="display:flex;gap:14px;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap">
+      <div style="display:flex;gap:14px;align-items:center">
+        <a href="/admin/blog" class="btn btn-ghost btn-sm">&larr; Back</a>
+        <div class="admin-title" style="margin:0"><%= post ? 'Edit Post' : 'New Post' %></div>
       </div>
-      <% if (post) { %>
-      <a href="/blog/<%= post.slug %>" target="_blank" class="btn btn-outline btn-sm">View on site &#8599;</a>
+      <% if (post && post.slug) { %>
+      <a href="/blog/<%= post.slug %>" target="_blank" class="btn btn-ghost btn-sm">View on site &#8599;</a>
       <% } %>
     </div>
+    <% if (locals.error && error) { %><div class="alert alert-error" style="margin-bottom:16px"><%= error %></div><% } %>
 
-    <% if (error) { %>
-    <div class="error-box"><%= error %></div>
-    <% } %>
-
-    <form method="POST" action="<%= post ? '/admin/blog/'+post.id+'/edit' : '/admin/blog/new' %>" id="post-form">
-        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
-
-      <div class="grid-form" style="display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start">
+    <form method="POST" action="<%= post && post.id ? '/admin/blog/'+post.id+'/edit' : '/admin/blog/new' %>" id="post-form">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <div class="adm-editor">
 
         <!-- ── Main column ── -->
-        <div style="display:flex;flex-direction:column;gap:20px">
-
-          <!-- Title -->
-          <div>
-            <label class="form-label">Post Title *</label>
-            <input type="text" name="title" id="post-title" required class="form-input"
-              style="font-size:1.1rem;font-weight:700;padding:12px 14px"
-              value="<%= post ? post.title : '' %>"
-              placeholder="e.g. Probability Case Study Class 12 — 5 Solved Examples">
-          </div>
-
-          <!-- Markdown editor -->
-          <div>
-            <label class="form-label">
-              Content *
-              <span id="word-count" style="font-weight:400;text-transform:none;color:#94a3b8;margin-left:8px"></span>
-            </label>
-            <!-- SimpleMDE mounts directly on this textarea -->
-            <textarea name="content" id="content-editor"><%= post ? post.content : '' %></textarea>
-            <div class="md-hint">
-              <strong>Markdown guide:</strong>
-              <code>## Heading</code> &nbsp;
-              <code>**bold**</code> &nbsp;
-              <code>*italic*</code> &nbsp;
-              <code>$x^2$</code> inline math &nbsp;
-              <code>$$P(A|B)=...$$</code> display math &nbsp;
-              <code>&gt; blockquote</code> &nbsp;
-              <code>- list</code> &nbsp;
-              <code>---</code> divider
+        <div>
+          <div class="adm-box">
+            <div class="adm-box-b">
+              <div class="adm-field">
+                <label>Post title *</label>
+                <input type="text" name="title" id="bf-title" value="<%= post ? post.title || '' : '' %>" required placeholder="e.g. Probability Case Study Class 12 — 5 Solved Examples">
+              </div>
+              <div class="adm-field">
+                <label>URL slug</label>
+                <input type="text" name="slug" id="bf-slug" value="<%= post ? post.slug || '' : '' %>" placeholder="probability-case-study-class-12">
+                <div class="hint">Used in the post URL: /blog/<b id="bf-slug-prev"><%= post && post.slug ? post.slug : 'your-slug' %></b><% if (post && post.status === 'published') { %> · <b>Careful:</b> changing the slug of a published post changes its URL — old links and Google results will stop working.<% } %></div>
+              </div>
             </div>
           </div>
 
-          <!-- Excerpt -->
-          <div>
-            <label class="form-label">Excerpt <span style="font-weight:400;text-transform:none">(1–2 sentence summary for blog listing)</span></label>
-            <textarea name="excerpt" rows="3" class="form-input" style="resize:vertical"
-              placeholder="Brief description shown in the blog grid..."
-            ><%= post ? post.excerpt : '' %></textarea>
+          <div class="adm-box">
+            <div class="adm-box-h" style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span>Content</span>
+              <span class="hint" style="display:inline" id="bf-word-count"></span>
+            </div>
+            <div class="adm-box-b">
+              <!-- SimpleMDE mounts directly on this textarea -->
+              <textarea name="content" id="content-editor"><%= post ? post.content || '' : '' %></textarea>
+              <div class="md-hint">
+                <strong>Markdown guide:</strong>
+                <code>## Heading</code> &nbsp;
+                <code>**bold**</code> &nbsp;
+                <code>*italic*</code> &nbsp;
+                <code>[text](url)</code> link &nbsp;
+                <code>$x^2$</code> inline math &nbsp;
+                <code>$$P(A|B)=...$$</code> display math &nbsp;
+                <code>&gt; blockquote</code> &nbsp;
+                <code>- list</code> &nbsp;
+                <code>---</code> divider
+                &nbsp;·&nbsp; Pasting a full <b>raw-HTML article</b> also works — the blog page renders both.
+              </div>
+              <div class="adm-field" style="margin-top:14px">
+                <label>Excerpt <span class="hint" style="display:inline">(1–2 sentence summary shown in the blog grid)</span></label>
+                <textarea name="excerpt" id="bf-excerpt" rows="2" placeholder="Brief description shown on the blog listing…"><%= post ? post.excerpt || '' : '' %></textarea>
+              </div>
+            </div>
           </div>
 
+          <div class="adm-box">
+            <div class="adm-box-h">Search engine optimisation</div>
+            <div class="adm-box-b">
+              <div class="adm-field">
+                <label>Focus keyphrase <span class="hint" style="display:inline">(the search term this post should rank for)</span></label>
+                <input type="text" name="focus_keyword" id="bf-keyphrase" maxlength="255" value="<%= post ? post.focus_keyword || '' : '' %>" placeholder="e.g. probability case study class 12">
+              </div>
+              <div class="adm-field">
+                <label>Meta title <span class="hint" id="mt-count" style="display:inline"></span></label>
+                <input type="text" name="meta_title" id="bf-metatitle" maxlength="70" value="<%= post ? post.meta_title || '' : '' %>" placeholder="Leave blank to use the post title">
+              </div>
+              <div class="adm-field">
+                <label>Meta description <span class="hint" id="md-count" style="display:inline"></span></label>
+                <textarea name="meta_desc" id="bf-metadesc" rows="2" maxlength="160" placeholder="120–155 chars shown in Google results, with a mild call to action."><%= post ? post.meta_desc || '' : '' %></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box" id="sa-box">
+            <div class="adm-box-h" style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap">
+              <span>SEO analysis</span>
+              <span id="sa-scores"></span>
+            </div>
+            <div class="adm-box-b">
+              <div class="sa-tabs">
+                <button type="button" class="sa-tabbtn active" data-tab="seo">SEO checks</button>
+                <button type="button" class="sa-tabbtn" data-tab="read">Readability</button>
+                <button type="button" class="sa-tabbtn" data-tab="prev">Google preview</button>
+              </div>
+              <div id="sa-tab-seo" class="sa-pane"></div>
+              <div id="sa-tab-read" class="sa-pane" style="display:none"></div>
+              <div id="sa-tab-prev" class="sa-pane" style="display:none">
+                <div class="sa-devices">
+                  <button type="button" id="sa-desktop-btn" class="sa-tabbtn active">Desktop</button>
+                  <button type="button" id="sa-mobile-btn" class="sa-tabbtn">Mobile</button>
+                </div>
+                <div id="sa-snippet-wrap"></div>
+                <div class="hint" id="sa-pixel-info" style="margin-top:10px"></div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- ── Sidebar ── -->
-        <div style="display:flex;flex-direction:column;gap:14px">
-
-          <!-- Publish box -->
-          <div class="card">
-            <div class="form-label" style="margin-bottom:12px">Publish</div>
-            <div style="display:flex;gap:8px;margin-bottom:14px">
-              <label style="flex:1;display:flex;align-items:center;gap:8px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;cursor:pointer;font-size:0.875rem;font-weight:600">
-                <input type="radio" name="status" value="draft" <%= (!post||post.status==='draft')?'checked':'' %>>
-                Draft
-              </label>
-              <label style="flex:1;display:flex;align-items:center;gap:8px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;cursor:pointer;font-size:0.875rem;font-weight:600">
-                <input type="radio" name="status" value="published" <%= (post&&post.status==='published')?'checked':'' %>>
-                Published
-              </label>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:11px 0;font-size:0.95rem">
-              <%= post ? 'Save Changes' : 'Create Post' %>
-            </button>
-          </div>
-
-          <!-- Category -->
-          <div class="card">
-            <div class="form-label" style="margin-bottom:10px">Category</div>
-            <input type="text" name="category" list="cat-list" class="form-input"
-              value="<%= post ? post.category : '' %>"
-              placeholder="e.g. CBSE, JEE, Study Tips">
-            <datalist id="cat-list">
-              <option value="Mathematics">
-              <option value="CBSE">
-              <option value="JEE Preparation">
-              <option value="Study Tips">
-              <option value="Worksheets">
-              <option value="ICSE">
-              <option value="NCERT">
-            </datalist>
-          </div>
-
-          <!-- Cover Image -->
-          <div class="card">
-            <div class="form-label" style="margin-bottom:10px">Cover Image URL</div>
-            <input type="text" name="cover_image" id="cover-url" class="form-input" style="font-size:0.82rem"
-              value="<%= post ? post.cover_image : '' %>"
-              placeholder="https://example.com/image.jpg"
-              oninput="previewCover(this.value)">
-            <div id="cover-preview" style="margin-top:10px;display:<%= (post && post.cover_image) ? 'block' : 'none' %>">
-              <img id="cover-img" src="<%= post && post.cover_image ? post.cover_image : '' %>"
-                   style="width:100%;border-radius:8px;max-height:140px;object-fit:cover" alt="Cover">
+        <!-- ── Sidebar column ── -->
+        <div>
+          <div class="adm-box">
+            <div class="adm-box-h">Publish</div>
+            <div class="adm-box-b">
+              <div style="display:flex;gap:8px;margin-bottom:14px">
+                <label style="flex:1;display:flex;align-items:center;gap:8px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;cursor:pointer;font-size:0.875rem;font-weight:600">
+                  <input type="radio" name="status" value="draft" <%= (!post || post.status !== 'published') ? 'checked' : '' %>>
+                  Draft
+                </label>
+                <label style="flex:1;display:flex;align-items:center;gap:8px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;cursor:pointer;font-size:0.875rem;font-weight:600">
+                  <input type="radio" name="status" value="published" <%= (post && post.status === 'published') ? 'checked' : '' %>>
+                  Published
+                </label>
+              </div>
+              <div class="adm-save-row">
+                <button type="submit" class="btn btn-primary" style="flex:1;justify-content:center"><%= post && post.id ? 'Save changes' : 'Create post' %></button>
+              </div>
             </div>
           </div>
 
-          <!-- SEO -->
-          <div class="card">
-            <div class="form-label" style="margin-bottom:10px">SEO</div>
-            <label style="font-size:0.75rem;color:#64748b;display:block;margin-bottom:4px">Meta Title (max 60 chars)</label>
-            <input type="text" name="meta_title" maxlength="70" class="form-input" style="font-size:0.82rem;margin-bottom:12px"
-              value="<%= post ? post.meta_title : '' %>"
-              placeholder="Leave blank to use post title">
-            <label style="font-size:0.75rem;color:#64748b;display:block;margin-bottom:4px">
-              Meta Description
-              <span id="meta-count" style="float:right;color:#94a3b8">0 / 160</span>
-            </label>
-            <textarea name="meta_desc" rows="3" maxlength="160" id="meta-desc" class="form-input"
-              style="font-size:0.82rem;resize:vertical"
-              placeholder="120–160 chars shown in Google results."
-            ><%= post ? post.meta_desc : '' %></textarea>
-            <div id="seo-tip" style="font-size:0.72rem;margin-top:6px;color:#94a3b8"></div>
+          <div class="adm-box">
+            <div class="adm-box-h">Category</div>
+            <div class="adm-box-b">
+              <div class="adm-field" style="margin:0">
+                <input type="text" name="category" list="cat-list" value="<%= post ? post.category || '' : '' %>" placeholder="e.g. CBSE, JEE, Study Tips">
+                <datalist id="cat-list">
+                  <option value="Mathematics">
+                  <option value="CBSE">
+                  <option value="JEE Preparation">
+                  <option value="Study Tips">
+                  <option value="Worksheets">
+                  <option value="ICSE">
+                  <option value="NCERT">
+                </datalist>
+              </div>
+            </div>
           </div>
 
+          <div class="adm-box">
+            <div class="adm-box-h">Cover image</div>
+            <div class="adm-box-b">
+              <div class="adm-field" style="margin:0">
+                <label>Image URL</label>
+                <input type="url" name="cover_image" id="bf-cover" value="<%= post ? post.cover_image || '' : '' %>" placeholder="https://…/image.jpg">
+                <div class="hint">Shown on the post, the blog grid and as the social-share (og:image) picture.</div>
+              </div>
+              <div id="bf-cover-preview" style="margin-top:10px;display:<%= (post && post.cover_image) ? 'block' : 'none' %>">
+                <img id="bf-cover-img" src="<%= post && post.cover_image ? post.cover_image : '' %>" style="width:100%;border-radius:8px;max-height:140px;object-fit:cover" alt="Cover preview">
+              </div>
+            </div>
+          </div>
+
+          <div class="adm-box">
+            <div class="adm-box-h">🛒 Product CTA (optional)</div>
+            <div class="adm-box-b">
+              <div class="adm-field" style="margin:0">
+                <label>Product slug to advertise</label>
+                <input type="text" name="cta_product_slug" value="<%= post ? post.cta_product_slug || '' : '' %>" placeholder="e.g. imo-class-7-maths-integers">
+                <div class="hint">Shows a buy box for this e-book under the article. Leave empty for none. Comma-separate several slugs to let the first published one win.</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </form>
@@ -230,6 +247,7 @@ window.MathJax = {
 // ── SimpleMDE initialisation ─────────────────────────────────────────────────
 var simplemde = new SimpleMDE({
   element: document.getElementById('content-editor'),
+  autoDownloadFontAwesome: false,
   spellChecker: false,
   autofocus: false,
   tabSize: 2,
@@ -256,7 +274,6 @@ var simplemde = new SimpleMDE({
       action: function(editor) {
         var cm = editor.codemirror;
         var sel = cm.getSelection();
-        var pos = cm.getCursor();
         cm.replaceSelection('\n$$\n' + (sel || 'P(A|B) = \\frac{P(B|A)P(A)}{P(B)}') + '\n$$\n');
       },
       className: 'fa fa-subscript',
@@ -274,7 +291,9 @@ var simplemde = new SimpleMDE({
 // ── Markdown + Math renderer for preview ─────────────────────────────────────
 function renderMarkdownWithMath(md) {
   if (!md) return '';
-  // Protect display math $$...$$ from marked
+  // An HTML post (imported articles) previews as-is.
+  if (/^\s*</.test(md)) return md;
+  // Protect math from marked
   var mathBlocks = [];
   var protected_md = md
     .replace(/\$\$([\s\S]*?)\$\$/g, function(m, p) {
@@ -306,45 +325,130 @@ function renderMarkdownWithMath(md) {
   return html;
 }
 
-// ── Word count ───────────────────────────────────────────────────────────────
-simplemde.codemirror.on('change', function() {
-  var text = simplemde.value().trim();
+// ── Word count + reading time ────────────────────────────────────────────────
+function updateWordCount() {
+  var text = simplemde.value().replace(/<[^>]+>/g, ' ').trim();
   var words = text ? text.split(/\s+/).filter(Boolean).length : 0;
-  document.getElementById('word-count').textContent = words + ' words';
+  document.getElementById('bf-word-count').textContent =
+    words + ' words · ' + Math.max(1, Math.ceil(words / 220)) + ' min read';
+}
+simplemde.codemirror.on('change', updateWordCount);
+updateWordCount();
+
+// ── Auto slug from title (until manually edited) ─────────────────────────────
+function slugify(s){ return s.toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-'); }
+var titleEl = document.getElementById('bf-title'), slugEl = document.getElementById('bf-slug'), slugPrev = document.getElementById('bf-slug-prev');
+var slugTouched = <%= (post && post.slug) ? 'true' : 'false' %>;
+slugEl.addEventListener('input', function(){ slugTouched = true; slugPrev.textContent = slugEl.value || 'your-slug'; });
+titleEl.addEventListener('input', function(){ if (!slugTouched) { slugEl.value = slugify(titleEl.value); slugPrev.textContent = slugEl.value || 'your-slug'; } });
+
+// ── Cover image live preview ─────────────────────────────────────────────────
+var coverEl = document.getElementById('bf-cover');
+coverEl.addEventListener('input', function(){
+  var url = coverEl.value.trim();
+  var wrap = document.getElementById('bf-cover-preview');
+  if (url && /^https?:\/\//i.test(url)) {
+    document.getElementById('bf-cover-img').src = url;
+    wrap.style.display = 'block';
+  } else wrap.style.display = 'none';
 });
 
-// ── Cover image preview ───────────────────────────────────────────────────────
-function previewCover(url) {
-  var preview = document.getElementById('cover-preview');
-  var img     = document.getElementById('cover-img');
-  if (url && /^https?:\/\/.+\.(jpe?g|png|webp|gif|svg)/i.test(url)) {
-    img.src = url;
-    preview.style.display = 'block';
-  } else {
-    preview.style.display = 'none';
-  }
-}
-
-// ── Meta description counter ──────────────────────────────────────────────────
-var metaDescEl  = document.getElementById('meta-desc');
-var metaCountEl = document.getElementById('meta-count');
-var seoTip      = document.getElementById('seo-tip');
-function updateMetaCount() {
-  var n = metaDescEl.value.length;
-  metaCountEl.textContent = n + ' / 160';
-  metaCountEl.style.color = n > 155 ? '#ef4444' : n >= 120 ? '#22c55e' : '#94a3b8';
-  seoTip.textContent = n < 120 ? 'Tip: aim for 120-155 characters for best Google display.' :
-                       n > 155 ? 'Too long — Google will truncate this.' :
-                       'Good length!';
-}
-metaDescEl.addEventListener('input', updateMetaCount);
-updateMetaCount();
+// ── SEO field counters ───────────────────────────────────────────────────────
+function counter(el, out, max){ function u(){ out.textContent = el.value.length + '/' + max; } el.addEventListener('input', u); u(); }
+counter(document.getElementById('bf-metatitle'), document.getElementById('mt-count'), 70);
+counter(document.getElementById('bf-metadesc'), document.getElementById('md-count'), 160);
 
 // ── Auto-fill meta title from post title ─────────────────────────────────────
-document.getElementById('post-title').addEventListener('blur', function() {
-  var metaTitleInput = document.querySelector('input[name="meta_title"]');
-  if (!metaTitleInput.value.trim() && this.value.trim()) {
-    metaTitleInput.value = this.value.trim().substring(0, 60);
+titleEl.addEventListener('blur', function() {
+  var mt = document.getElementById('bf-metatitle');
+  if (!mt.value.trim() && this.value.trim()) {
+    mt.value = this.value.trim().substring(0, 70);
+    mt.dispatchEvent(new Event('input'));
   }
 });
+</script>
+<script src="/js/seo-assistant.js"></script>
+<script>
+(function(){
+  // ── SEO Assistant wiring: live Yoast-style analysis of the blog form ──
+  if (!window.SEOAssistant) return;
+  var SA = window.SEOAssistant;
+  var device = 'desktop';
+
+  function val(id){ var el = document.getElementById(id); return el ? el.value : ''; }
+  // The assistant analyses HTML. Markdown posts are converted with the same
+  // renderer the editor preview uses (marked); math is neutralised so formulas
+  // don't skew the readability statistics. HTML posts are analysed as-is.
+  function contentHtml(){
+    var raw = simplemde.value();
+    if (/^\s*</.test(raw)) return raw;
+    var md = raw
+      .replace(/\$\$[\s\S]*?\$\$/g, ' ')
+      .replace(/\$[^\$\n]{1,200}?\$/g, ' formula ');
+    try { return simplemde.markdown(md); } catch(e) { return ''; }
+  }
+  function coverInfo(){
+    var url = val('bf-cover').trim();
+    // The cover is shown on the post and shared as og:image, with the post
+    // title as its alt text on the blog page.
+    return { present: /^https?:\/\//i.test(url), alt: val('bf-title') };
+  }
+  function gather(){
+    return {
+      keyphrase: val('bf-keyphrase'),
+      title: val('bf-title'),
+      slug: val('bf-slug'),
+      metaTitle: val('bf-metatitle') || val('bf-title'),
+      metaDesc: val('bf-metadesc') || val('bf-excerpt'),
+      html: contentHtml(),
+      cover: coverInfo(),
+      siteHost: 'mathstudy.in',
+      basePath: '/blog/'
+    };
+  }
+
+  function refresh(){
+    var input = gather();
+    var r = SA.analyze(input);
+    document.getElementById('sa-scores').innerHTML =
+      '<span class="hint" style="display:inline">SEO</span>' + SA.badge(r.seoScore) +
+      ' <span class="hint" style="display:inline;margin-left:8px">Readability</span>' + SA.badge(r.readScore);
+    document.getElementById('sa-tab-seo').innerHTML = SA.listHtml(r.seo);
+    document.getElementById('sa-tab-read').innerHTML = SA.listHtml(r.readability);
+    document.getElementById('sa-snippet-wrap').innerHTML = SA.snippetHtml(input, device === 'mobile');
+    document.getElementById('sa-pixel-info').innerHTML =
+      'Title: <b>' + SA.pixelWidth(input.metaTitle || input.title, 20) + 'px</b> of 580px &nbsp;·&nbsp; ' +
+      'Description: <b>' + SA.pixelWidth(input.metaDesc, 14) + 'px</b> of ~920px per line';
+  }
+  var _t = null;
+  function refreshSoon(){ clearTimeout(_t); _t = setTimeout(refresh, 350); }
+
+  // Tabs
+  [].slice.call(document.querySelectorAll('#sa-box .sa-tabs .sa-tabbtn')).forEach(function(btn){
+    btn.addEventListener('click', function(){
+      [].slice.call(document.querySelectorAll('#sa-box .sa-tabs .sa-tabbtn')).forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      document.getElementById('sa-tab-seo').style.display  = btn.dataset.tab === 'seo'  ? '' : 'none';
+      document.getElementById('sa-tab-read').style.display = btn.dataset.tab === 'read' ? '' : 'none';
+      document.getElementById('sa-tab-prev').style.display = btn.dataset.tab === 'prev' ? '' : 'none';
+    });
+  });
+  document.getElementById('sa-desktop-btn').addEventListener('click', function(){
+    device = 'desktop'; this.classList.add('active');
+    document.getElementById('sa-mobile-btn').classList.remove('active'); refresh();
+  });
+  document.getElementById('sa-mobile-btn').addEventListener('click', function(){
+    device = 'mobile'; this.classList.add('active');
+    document.getElementById('sa-desktop-btn').classList.remove('active'); refresh();
+  });
+
+  // Re-analyse on every relevant change.
+  ['bf-keyphrase','bf-title','bf-slug','bf-metatitle','bf-metadesc','bf-cover','bf-excerpt'].forEach(function(id){
+    var el = document.getElementById(id);
+    if (el) el.addEventListener('input', refreshSoon);
+  });
+  simplemde.codemirror.on('change', refreshSoon);
+
+  refresh();
+})();
 </script>
