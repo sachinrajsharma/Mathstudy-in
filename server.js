@@ -1409,7 +1409,8 @@ pool.query(`ALTER TABLE products ADD COLUMN focus_keyword VARCHAR(255) NULL`)
 Promise.allSettled(
   ['ALTER TABLE blogs ADD COLUMN quiz_json LONGTEXT NULL',
    'ALTER TABLE blogs ADD COLUMN cta_product_slug VARCHAR(512) NULL',
-   'ALTER TABLE blogs ADD COLUMN faq_json LONGTEXT NULL'
+   'ALTER TABLE blogs ADD COLUMN faq_json LONGTEXT NULL',
+   'ALTER TABLE blogs ADD COLUMN focus_keyword VARCHAR(255) NULL'
   ].map(function(sql) {
     return pool.query(sql).catch(function(e) {
       if (!/duplicate column|check that column\/key exists/i.test(e.message))
@@ -1535,20 +1536,20 @@ app.get('/admin/blog/new', requireAdmin, (req, res) => {
 
 app.post('/admin/blog/new', requireAdmin, async (req, res, next) => {
   try {
-    const { title, content, excerpt, category, meta_title, meta_desc, cover_image, status } = req.body;
+    const { title, content, excerpt, category, meta_title, meta_desc, cover_image, status, focus_keyword, cta_product_slug } = req.body;
     if (!title || !title.trim()) {
       return res.render('admin/blog-form', { title:'New Post — Admin', metaDesc:'', canonical:null, post: req.body, error: 'Post title is required.' });
     }
     if (!content || content.trim() === '' || content.trim() === '<p><br></p>') {
       return res.render('admin/blog-form', { title:'New Post — Admin', metaDesc:'', canonical:null, post: req.body, error: 'Post content cannot be empty — please write something in the editor.' });
     }
-    let slug = slugify(title.trim());
+    let slug = slugify(((req.body.slug || '').trim() || title).trim());
     if (!slug) slug = 'post-' + Date.now();
     const [ex] = await pool.query(`SELECT id FROM blogs WHERE slug=?`, [slug]);
     if (ex.length) slug = slug + '-' + Date.now().toString().slice(-4);
     await pool.query(
-      `INSERT INTO blogs (title,slug,content,excerpt,cover_image,category,meta_title,meta_desc,status,author) VALUES (?,?,?,?,?,?,?,?,?,?)`,
-      [title.trim(), slug, content, excerpt||'', cover_image||'', category||'', meta_title||title.trim(), meta_desc||excerpt||'', status||'draft', 'MathStudy Editorial']
+      `INSERT INTO blogs (title,slug,content,excerpt,cover_image,category,meta_title,meta_desc,status,author,focus_keyword,cta_product_slug) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
+      [title.trim(), slug, content, excerpt||'', cover_image||'', category||'', meta_title||title.trim(), meta_desc||excerpt||'', status||'draft', 'MathStudy Editorial', focus_keyword||'', cta_product_slug||null]
     );
     res.redirect('/admin/blog?success=Post+created+successfully');
   } catch(e) { next(e); }
@@ -1564,7 +1565,7 @@ app.get('/admin/blog/:id/edit', requireAdmin, async (req, res, next) => {
 
 app.post('/admin/blog/:id/edit', requireAdmin, async (req, res, next) => {
   try {
-    const { title, content, excerpt, category, meta_title, meta_desc, cover_image, status } = req.body;
+    const { title, content, excerpt, category, meta_title, meta_desc, cover_image, status, focus_keyword, cta_product_slug } = req.body;
     if (!title || !title.trim()) {
       const [[post]] = await pool.query(`SELECT * FROM blogs WHERE id=?`, [req.params.id]);
       return res.render('admin/blog-form', { title:'Edit Post — Admin', metaDesc:'', canonical:null, post: Object.assign({}, post, req.body), error: 'Post title is required.' });
@@ -1573,9 +1574,20 @@ app.post('/admin/blog/:id/edit', requireAdmin, async (req, res, next) => {
       const [[post]] = await pool.query(`SELECT * FROM blogs WHERE id=?`, [req.params.id]);
       return res.render('admin/blog-form', { title:'Edit Post — Admin', metaDesc:'', canonical:null, post: Object.assign({}, post, req.body), error: 'Post content cannot be empty.' });
     }
+    // Slug is editable but must stay unique. Empty keeps the existing slug.
+    const [[current]] = await pool.query(`SELECT slug FROM blogs WHERE id=?`, [req.params.id]);
+    let slug = slugify((req.body.slug || '').trim()) || (current ? current.slug : '');
+    if (!slug) slug = 'post-' + Date.now();
+    if (current && slug !== current.slug) {
+      const [ex] = await pool.query(`SELECT id FROM blogs WHERE slug=? AND id<>?`, [slug, req.params.id]);
+      if (ex.length) {
+        const [[post]] = await pool.query(`SELECT * FROM blogs WHERE id=?`, [req.params.id]);
+        return res.render('admin/blog-form', { title:'Edit Post — Admin', metaDesc:'', canonical:null, post: Object.assign({}, post, req.body), error: 'That URL slug is already used by another post — pick a different one.' });
+      }
+    }
     await pool.query(
-      `UPDATE blogs SET title=?,content=?,excerpt=?,cover_image=?,category=?,meta_title=?,meta_desc=?,status=?,updated_at=NOW() WHERE id=?`,
-      [title.trim(), content, excerpt||'', cover_image||'', category||'', meta_title||title.trim(), meta_desc||excerpt||'', status||'draft', req.params.id]
+      `UPDATE blogs SET title=?,slug=?,content=?,excerpt=?,cover_image=?,category=?,meta_title=?,meta_desc=?,focus_keyword=?,cta_product_slug=?,status=?,updated_at=NOW() WHERE id=?`,
+      [title.trim(), slug, content, excerpt||'', cover_image||'', category||'', meta_title||title.trim(), meta_desc||excerpt||'', focus_keyword||'', cta_product_slug||null, status||'draft', req.params.id]
     );
     res.redirect('/admin/blog?success=Post+updated+successfully');
   } catch(e) { next(e); }

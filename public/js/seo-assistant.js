@@ -148,11 +148,11 @@ window.SEOAssistant = (function () {
       var cover = input.cover || {};
       var altHit = imgs.some(function (im) { return containsPhrase(im.getAttribute('alt') || '', kp) || containsWords(im.getAttribute('alt') || '', kp); });
       var coverAltHit = containsPhrase(cover.alt || '', kp) || containsWords(cover.alt || '', kp);
-      if (imgs.length && altHit) add(seo, 'img-alt', 'good', 'Images', 'A description image alt contains the keyphrase' + (cover.present ? ', and the cover image is set.' : '.'));
-      else if (imgs.length) add(seo, 'img-alt', 'ok', 'Images', imgs.length + ' image(s) in the description — put the keyphrase in one alt text.');
-      else if (cover.present && coverAltHit) add(seo, 'img-alt', 'good', 'Images', 'The product cover image is set. It is shown on the page and shared as the social image, with the keyphrase in its alt text (the product title).');
-      else if (cover.present) add(seo, 'img-alt', 'good', 'Images', 'The product cover image is set and is shown on the page. Tip: keeping the keyphrase in the product title puts it in the image alt text too.');
-      else add(seo, 'img-alt', 'bad', 'Images', 'No cover image and no description images — upload a product cover.');
+      if (imgs.length && altHit) add(seo, 'img-alt', 'good', 'Images', 'A content image alt contains the keyphrase' + (cover.present ? ', and the cover image is set.' : '.'));
+      else if (imgs.length) add(seo, 'img-alt', 'ok', 'Images', imgs.length + ' image(s) in the content — put the keyphrase in one alt text.');
+      else if (cover.present && coverAltHit) add(seo, 'img-alt', 'good', 'Images', 'The cover image is set. It is shown on the page and shared as the social image, with the keyphrase in its alt text (the page title).');
+      else if (cover.present) add(seo, 'img-alt', 'good', 'Images', 'The cover image is set and is shown on the page. Tip: keeping the keyphrase in the title puts it in the image alt text too.');
+      else add(seo, 'img-alt', 'bad', 'Images', 'No cover image and no content images — set a cover image.');
     }
 
     // length + technical checks (independent of keyphrase)
@@ -242,7 +242,7 @@ window.SEOAssistant = (function () {
 
   function snippetHtml(input, mobile) {
     var host = input.siteHost || 'mathstudy.in';
-    var path = '/shop/product/' + (input.slug || 'your-slug');
+    var path = (input.basePath || '/shop/product/') + (input.slug || 'your-slug');
     var crumb = host + ' ' + path.split('/').filter(Boolean).map(function (p) { return '› ' + p; }).join(' ');
     var title = truncateToWidth(input.metaTitle || input.title || 'SEO title preview', 20, mobile ? 360 : 580);
     var desc = input.metaDesc || 'The meta description will be shown here exactly as Google displays it.';
