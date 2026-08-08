@@ -6,8 +6,8 @@
     <div class="admin-sub">Welcome back, <%= user.name %></div>
 
     <div class="stat-cards">
-      <div class="stat-card"><div class="stat-label">Total Revenue</div><div class="stat-value">&#8377;<%= parseFloat(stats.revenue).toFixed(0) %></div><div class="stat-icon">💰</div></div>
-      <div class="stat-card"><div class="stat-label">Paid Orders</div><div class="stat-value"><%= stats.orders %></div><div class="stat-icon">📦</div></div>
+      <a href="/admin/analytics" class="stat-card" style="text-decoration:none;color:inherit"><div class="stat-label">Total Revenue</div><div class="stat-value">&#8377;<%= parseFloat(stats.revenue).toFixed(0) %></div><div class="stat-icon">💰</div></a>
+      <a href="/admin/analytics" class="stat-card" style="text-decoration:none;color:inherit"><div class="stat-label">Paid Orders</div><div class="stat-value"><%= stats.orders %></div><div class="stat-icon">📦</div></a>
       <a href="/admin/orders" class="stat-card <%= stats.pending > 0 ? 'alert' : '' %>" style="text-decoration:none;color:inherit"><div class="stat-label">Pending approval</div><div class="stat-value"><%= stats.pending %></div><div class="stat-icon">⏳</div></a>
       <a href="/admin/products" class="stat-card" style="text-decoration:none;color:inherit"><div class="stat-label">E-Books in catalogue</div><div class="stat-value"><%= stats.products %></div><div class="stat-icon">📚</div></a>
       <a href="/admin/blog" class="stat-card" style="text-decoration:none;color:inherit"><div class="stat-label">Blog Posts</div><div class="stat-value"><%= stats.blogs %></div><div class="stat-icon">✍️</div></a>
