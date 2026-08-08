@@ -18,7 +18,7 @@
     "level": "Class 7",
     "questions": [
       {
-        "q": "In the expression 7y<sup>2</sup> − 3y + 15, what is the coefficient of the term with the highest degree?",
+        "q": "In the expression 7y² − 3y + 15, what is the coefficient of the term with the highest degree?",
         "options": [
           "7",
           "−3",
@@ -26,7 +26,7 @@
           "2"
         ],
         "answer": 0,
-        "explanation": "The highest-degree term is 7y<sup>2</sup> (degree 2). Its coefficient is 7."
+        "explanation": "The highest-degree term is 7y² (degree 2). Its coefficient is 7."
       },
       {
         "q": "The expression 2x + 3y is a:",
@@ -40,15 +40,15 @@
         "explanation": "It has two unlike terms, 2x and 3y. An expression with two terms is a binomial."
       },
       {
-        "q": "If A = 3x<sup>2</sup> + 2x − 7 and B = −x<sup>2</sup> + 5x + 4, find A + B.",
+        "q": "If A = 3x² + 2x − 7 and B = −x² + 5x + 4, find A + B.",
         "options": [
-          "2x<sup>2</sup> + 7x − 3",
-          "4x<sup>2</sup> + 7x − 3",
-          "2x<sup>2</sup> − 3x − 3",
-          "2x<sup>2</sup> + 7x + 11"
+          "2x² + 7x − 3",
+          "4x² + 7x − 3",
+          "2x² − 3x − 3",
+          "2x² + 7x + 11"
         ],
         "answer": 0,
-        "explanation": "x<sup>2</sup> terms: 3 − 1 = 2. x terms: 2 + 5 = 7. Constants: −7 + 4 = −3. A + B = 2x<sup>2</sup> + 7x − 3."
+        "explanation": "x² terms: 3 − 1 = 2. x terms: 2 + 5 = 7. Constants: −7 + 4 = −3. A + B = 2x² + 7x − 3."
       },
       {
         "q": "Simplify: (5x + 8) − (3x − 12).",
@@ -62,7 +62,7 @@
         "explanation": "Distribute the minus sign: 5x + 8 − 3x + 12. = 2x + 20."
       },
       {
-        "q": "If x = −2 and y = 3, evaluate 3x<sup>2</sup> − 2xy + y<sup>2</sup>.",
+        "q": "If x = −2 and y = 3, evaluate 3x² − 2xy + y².",
         "options": [
           "33",
           "21",
@@ -70,21 +70,21 @@
           "12"
         ],
         "answer": 0,
-        "explanation": "3x<sup>2</sup> = 3 × 4 = 12. −2xy = −2 × (−2) × 3 = +12. y<sup>2</sup> = 9. Total = 12 + 12 + 9 = 33."
+        "explanation": "3x² = 3 × 4 = 12. −2xy = −2 × (−2) × 3 = +12. y² = 9. Total = 12 + 12 + 9 = 33."
       },
       {
-        "q": "What is the product of the monomials 4a<sup>2</sup> b and −3ab<sup>3</sup>?",
+        "q": "What is the product of the monomials 4a² b and −3ab³?",
         "options": [
-          "−12a<sup>3</sup> b<sup>4</sup>",
-          "12a<sup>3</sup> b<sup>4</sup>",
-          "−12a<sup>2</sup> b<sup>3</sup>",
-          "−7a<sup>3</sup> b<sup>4</sup>"
+          "−12a³ b⁴",
+          "12a³ b⁴",
+          "−12a² b³",
+          "−7a³ b⁴"
         ],
         "answer": 0,
-        "explanation": "Coefficients: 4 × (−3) = −12. Variables: a<sup>2</sup> × a = a<sup>3</sup> and b × b<sup>3</sup> = b<sup>4</sup>. Product: −12a<sup>3</sup> b<sup>4</sup>."
+        "explanation": "Coefficients: 4 × (−3) = −12. Variables: a² × a = a³ and b × b³ = b⁴. Product: −12a³ b⁴."
       },
       {
-        "q": "If (2x + 3y)<sup>2</sup> = 4x<sup>2</sup> + Axy + 9y<sup>2</sup>, find A.",
+        "q": "If (2x + 3y)² = 4x² + Axy + 9y², find A.",
         "options": [
           "12",
           "6",
@@ -92,10 +92,10 @@
           "36"
         ],
         "answer": 0,
-        "explanation": "The middle term of (a + b)<sup>2</sup> is 2ab. 2 × 2x × 3y = 12xy, so A = 12."
+        "explanation": "The middle term of (a + b)² is 2ab. 2 × 2x × 3y = 12xy, so A = 12."
       },
       {
-        "q": "In the identity (x + a)<sup>2</sup> = x<sup>2</sup> + 8x + 16, find the value of a.",
+        "q": "In the identity (x + a)² = x² + 8x + 16, find the value of a.",
         "options": [
           "4",
           "±4",
@@ -103,7 +103,7 @@
           "16"
         ],
         "answer": 0,
-        "explanation": "Compare middle terms: 2a = 8, so a = 4. Check: a<sup>2</sup> = 16 ✓."
+        "explanation": "Compare middle terms: 2a = 8, so a = 4. Check: a² = 16 ✓."
       },
       {
         "q": "Sachin has x books. He buys 12 more, then loses 5. Which expression gives his total now?",
@@ -117,7 +117,7 @@
         "explanation": "After buying: x + 12. After losing 5: x + 12 − 5 = x + 7."
       },
       {
-        "q": "If a + b = 5 and a − b = 3, find a<sup>2</sup> + b<sup>2</sup>.",
+        "q": "If a + b = 5 and a − b = 3, find a² + b².",
         "options": [
           "17",
           "34",
@@ -125,7 +125,7 @@
           "16"
         ],
         "answer": 0,
-        "explanation": "(a + b)<sup>2</sup> + (a − b)<sup>2</sup> = 2(a<sup>2</sup> + b<sup>2</sup>). 25 + 9 = 34, so a<sup>2</sup> + b<sup>2</sup> = 17."
+        "explanation": "(a + b)² + (a − b)² = 2(a² + b²). 25 + 9 = 34, so a² + b² = 17."
       }
     ]
   },

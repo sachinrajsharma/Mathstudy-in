@@ -18,29 +18,29 @@
     "level": "Class 7",
     "questions": [
       {
-        "q": "Simplify: 3<sup>4</sup> × 3<sup>2</sup> × 3<sup>1</sup>.",
+        "q": "Simplify: 3⁴ × 3² × 3¹.",
         "options": [
-          "3<sup>7</sup>",
-          "3<sup>8</sup>",
-          "27<sup>7</sup>",
-          "3<sup>6</sup>"
+          "3⁷",
+          "3⁸",
+          "27⁷",
+          "3⁶"
         ],
         "answer": 0,
-        "explanation": "Product rule: a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup> — keep the base, add the exponents. 4 + 2 + 1 = 7, so the answer is 3<sup>7</sup>."
+        "explanation": "Product rule: a^(m) × aⁿ = a^(m+n) — keep the base, add the exponents. 4 + 2 + 1 = 7, so the answer is 3⁷."
       },
       {
-        "q": "Express (10<sup>2</sup>)<sup>3</sup> in exponential form and give its value.",
+        "q": "Express (10²)³ in exponential form and give its value.",
         "options": [
-          "10<sup>6</sup> = 1,000,000",
-          "10<sup>5</sup> = 100,000",
-          "10<sup>8</sup> = 100,000,000",
-          "10<sup>6</sup> = 100,000"
+          "10⁶ = 1,000,000",
+          "10⁵ = 100,000",
+          "10⁸ = 100,000,000",
+          "10⁶ = 100,000"
         ],
         "answer": 0,
-        "explanation": "(10<sup>2</sup>)<sup>3</sup> = 10<sup>6</sup>. 10<sup>6</sup> = 1,000,000 (a 1 followed by six zeros)."
+        "explanation": "(10²)³ = 10⁶. 10⁶ = 1,000,000 (a 1 followed by six zeros)."
       },
       {
-        "q": "Simplify: (6<sup>2</sup> × 6<sup>3</sup>) ÷ 6<sup>4</sup> + 6<sup>0</sup>.",
+        "q": "Simplify: (6² × 6³) ÷ 6⁴ + 6⁰.",
         "options": [
           "7",
           "6",
@@ -48,10 +48,10 @@
           "1"
         ],
         "answer": 0,
-        "explanation": "6<sup>2+3</sup> ÷ 6<sup>4</sup> = 6<sup>5−4</sup> = 6. Add 6<sup>0</sup> = 1: total 7."
+        "explanation": "6²⁺³ ÷ 6⁴ = 6^(5−4) = 6. Add 6⁰ = 1: total 7."
       },
       {
-        "q": "Simplify: (2<sup>5</sup> × 4<sup>3</sup>) ÷ 8<sup>2</sup>.",
+        "q": "Simplify: (2⁵ × 4³) ÷ 8².",
         "options": [
           "32",
           "16",
@@ -59,10 +59,10 @@
           "8"
         ],
         "answer": 0,
-        "explanation": "Base 2: 4<sup>3</sup> = 2<sup>6</sup> and 8<sup>2</sup> = 2<sup>6</sup>. 2<sup>5+6−6</sup> = 2<sup>5</sup> = 32."
+        "explanation": "Base 2: 4³ = 2⁶ and 8² = 2⁶. 2^(5+6−6) = 2⁵ = 32."
       },
       {
-        "q": "Find the value of x if 2<sup>x+1</sup> = 8<sup>2</sup>.",
+        "q": "Find the value of x if 2^(x+1) = 8².",
         "options": [
           "5",
           "3",
@@ -70,10 +70,10 @@
           "7"
         ],
         "answer": 0,
-        "explanation": "8<sup>2</sup> = (2<sup>3</sup>)<sup>2</sup> = 2<sup>6</sup>. x + 1 = 6, so x = 5."
+        "explanation": "8² = (2³)² = 2⁶. x + 1 = 6, so x = 5."
       },
       {
-        "q": "If 7<sup>x−2</sup> = 49<sup>2x−5</sup>, find x.",
+        "q": "If 7^(x−2) = 49^(2x−5), find x.",
         "options": [
           "8/3",
           "3",
@@ -81,43 +81,43 @@
           "3/8"
         ],
         "answer": 0,
-        "explanation": "49 = 7<sup>2</sup>, so RHS = 7<sup>4x−10</sup>. x − 2 = 4x − 10 gives 3x = 8. x = 8/3."
+        "explanation": "49 = 7², so RHS = 7^(4x−10). x − 2 = 4x − 10 gives 3x = 8. x = 8/3."
       },
       {
         "q": "Express 0.000045 in scientific notation.",
         "options": [
-          "4.5 × 10<sup>-5</sup>",
-          "4.5 × 10<sup>-6</sup>",
-          "45 × 10<sup>-6</sup>",
-          "4.5 × 10<sup>5</sup>"
+          "4.5 × 10⁻⁵",
+          "4.5 × 10⁻⁶",
+          "45 × 10⁻⁶",
+          "4.5 × 10⁵"
         ],
         "answer": 0,
-        "explanation": "Move the decimal point 5 places right: 4.5. Moving right means a negative exponent: 4.5 × 10<sup>-5</sup>."
+        "explanation": "Move the decimal point 5 places right: 4.5. Moving right means a negative exponent: 4.5 × 10⁻⁵."
       },
       {
         "q": "Express 0.000000000205 in scientific notation.",
         "options": [
-          "2.05 × 10<sup>-10</sup>",
-          "2.05 × 10<sup>-9</sup>",
-          "2.05 × 10<sup>-11</sup>",
-          "205 × 10<sup>-12</sup>"
+          "2.05 × 10⁻¹⁰",
+          "2.05 × 10⁻⁹",
+          "2.05 × 10⁻¹¹",
+          "205 × 10⁻¹²"
         ],
         "answer": 0,
-        "explanation": "Move the decimal 10 places right to reach 2.05. Result: 2.05 × 10<sup>-10</sup>."
+        "explanation": "Move the decimal 10 places right to reach 2.05. Result: 2.05 × 10⁻¹⁰."
       },
       {
-        "q": "Which is larger: 2<sup>30</sup> or 3<sup>20</sup>?",
+        "q": "Which is larger: 2³⁰ or 3²⁰?",
         "options": [
-          "3<sup>20</sup>",
-          "2<sup>30</sup>",
+          "3²⁰",
+          "2³⁰",
           "They are equal",
           "Cannot be compared"
         ],
         "answer": 0,
-        "explanation": "Make the exponents equal: 2<sup>30</sup> = (2<sup>3</sup>)<sup>10</sup> = 8<sup>10</sup> and 3<sup>20</sup> = (3<sup>2</sup>)<sup>10</sup> = 9<sup>10</sup>. Since 9 > 8, we get 9<sup>10</sup> > 8<sup>10</sup>, so 3<sup>2"
+        "explanation": "Make the exponents equal: 2³⁰ = (2³)¹⁰ = 8¹⁰ and 3²⁰ = (3²)¹⁰ = 9¹⁰. Since 9 > 8, we get 9¹⁰ > 8¹⁰, so 3²⁰ is larger."
       },
       {
-        "q": "Find the value of (2<sup>-1</sup> + 3<sup>-1</sup> + 4<sup>-1</sup>)<sup>-1</sup>.",
+        "q": "Find the value of (2⁻¹ + 3⁻¹ + 4⁻¹)⁻¹.",
         "options": [
           "12/13",
           "13/12",

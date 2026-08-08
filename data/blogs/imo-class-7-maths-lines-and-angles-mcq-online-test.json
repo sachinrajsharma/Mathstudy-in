@@ -20,112 +20,112 @@
       {
         "q": "Two lines are perpendicular to each other. The angle between them measures:",
         "options": [
-          "90&deg;",
-          "180&deg;",
-          "45&deg;",
-          "60&deg;"
+          "90°",
+          "180°",
+          "45°",
+          "60°"
         ],
         "answer": 0,
-        "explanation": "Perpendicular lines form a right angle by definition. A right angle measures 90&deg;."
+        "explanation": "Perpendicular lines form a right angle by definition. A right angle measures 90°."
       },
       {
         "q": "The measure of an angle is 5 times its complement. The angle is:",
         "options": [
-          "75&deg;",
-          "72&deg;",
-          "60&deg;",
-          "80&deg;"
+          "75°",
+          "72°",
+          "60°",
+          "80°"
         ],
         "answer": 0,
-        "explanation": "x = 5(90 &minus; x) gives x = 450 &minus; 5x. 6x = 450, so x = 75&deg;."
+        "explanation": "x = 5(90 − x) gives x = 450 − 5x. 6x = 450, so x = 75°."
       },
       {
         "q": "An angle equals one-fourth of its supplement. The angle is:",
         "options": [
-          "36&deg;",
-          "45&deg;",
-          "30&deg;",
-          "40&deg;"
+          "36°",
+          "45°",
+          "30°",
+          "40°"
         ],
         "answer": 0,
-        "explanation": "x = &frac14;(180 &minus; x); multiply by 4: 4x = 180 &minus; x. 5x = 180, so x = 36&deg;."
+        "explanation": "x = ¼(180 − x); multiply by 4: 4x = 180 − x. 5x = 180, so x = 36°."
       },
       {
         "q": "The supplement of an angle is 3 times its complement. The angle is:",
         "options": [
-          "45&deg;",
-          "60&deg;",
-          "30&deg;",
-          "67.5&deg;"
+          "45°",
+          "60°",
+          "30°",
+          "67.5°"
         ],
         "answer": 0,
-        "explanation": "180 &minus; x = 3(90 &minus; x) = 270 &minus; 3x. 2x = 90, so x = 45&deg;."
+        "explanation": "180 − x = 3(90 − x) = 270 − 3x. 2x = 90, so x = 45°."
       },
       {
-        "q": "Ray OC stands on line AB with &ang;AOC = (2x &minus; 10)&deg; and &ang;BOC = (3x + 20)&deg;. Then x is:",
+        "q": "Ray OC stands on line AB with ∠AOC = (2x − 10)° and ∠BOC = (3x + 20)°. Then x is:",
         "options": [
-          "34&deg;",
-          "38&deg;",
-          "30&deg;",
-          "36&deg;"
+          "34°",
+          "38°",
+          "30°",
+          "36°"
         ],
         "answer": 0,
-        "explanation": "(2x &minus; 10) + (3x + 20) = 180. 5x + 10 = 180, so x = 34&deg;."
+        "explanation": "(2x − 10) + (3x + 20) = 180. 5x + 10 = 180, so x = 34°."
       },
       {
-        "q": "Lines AB and CD intersect at O with &ang;AOC = (3x + 15)&deg; and &ang;BOD = (5x &minus; 5)&deg;. Then &ang;AOC is:",
+        "q": "Lines AB and CD intersect at O with ∠AOC = (3x + 15)° and ∠BOD = (5x − 5)°. Then ∠AOC is:",
         "options": [
-          "45&deg;",
-          "40&deg;",
-          "50&deg;",
-          "55&deg;"
+          "45°",
+          "40°",
+          "50°",
+          "55°"
         ],
         "answer": 0,
-        "explanation": "Vertically opposite: 3x + 15 = 5x &minus; 5 gives x = 10. &ang;AOC = 3(10) + 15 = 45&deg;."
+        "explanation": "Vertically opposite: 3x + 15 = 5x − 5 gives x = 10. ∠AOC = 3(10) + 15 = 45°."
       },
       {
-        "q": "A transversal cuts two parallel lines and one alternate interior angle is 55&deg;. The corresponding angle measures:",
+        "q": "A transversal cuts two parallel lines and one alternate interior angle is 55°. The corresponding angle measures:",
         "options": [
-          "55&deg;",
-          "125&deg;",
-          "35&deg;",
-          "110&deg;"
+          "55°",
+          "125°",
+          "35°",
+          "110°"
         ],
         "answer": 0,
-        "explanation": "Alternate interior angles are equal, and so are corresponding angles. Both equal 55&deg;."
+        "explanation": "Alternate interior angles are equal, and so are corresponding angles. Both equal 55°."
       },
       {
         "q": "Co-interior angles are in the ratio 2 : 7. The smaller measures:",
         "options": [
-          "40&deg;",
-          "140&deg;",
-          "36&deg;",
-          "20&deg;"
+          "40°",
+          "140°",
+          "36°",
+          "20°"
         ],
         "answer": 0,
-        "explanation": "9x = 180&deg; gives x = 20&deg;. Smaller = 40&deg;."
+        "explanation": "9x = 180° gives x = 20°. Smaller = 40°."
       },
       {
-        "q": "In triangle ABC, &ang;A = 45&deg; and &ang;B = 75&deg;. Ray CD meets AB at D with &ang;ACD = 20&deg;. Then &ang;BCD is:",
+        "q": "In triangle ABC, ∠A = 45° and ∠B = 75°. Ray CD meets AB at D with ∠ACD = 20°. Then ∠BCD is:",
         "options": [
-          "40&deg;",
-          "30&deg;",
-          "45&deg;",
-          "35&deg;"
+          "40°",
+          "30°",
+          "45°",
+          "35°"
         ],
         "answer": 0,
-        "explanation": "&ang;C = 180 &minus; 45 &minus; 75 = 60&deg;. &ang;BCD = 60 &minus; 20 = 40&deg;."
+        "explanation": "∠C = 180 − 45 − 75 = 60°. ∠BCD = 60 − 20 = 40°."
       },
       {
-        "q": "Ray OS stands on line POQ. Rays OT and OU bisect &ang;POS and &ang;SOQ. The angle &ang;TOU measures:",
+        "q": "Ray OS stands on line POQ. Rays OT and OU bisect ∠POS and ∠SOQ. The angle ∠TOU measures:",
         "options": [
-          "90&deg;",
-          "60&deg;",
-          "120&deg;",
-          "180&deg;"
+          "90°",
+          "60°",
+          "120°",
+          "180°"
         ],
         "answer": 0,
-        "explanation": "Let &ang;POS = 2a, &ang;SOQ = 2b with 2a + 2b = 180&deg;, so a + b = 90&deg;. &ang;TOU = a + b = 90&deg; — the bisectors of a linear pair are always perpendicular."
+        "explanation": "Let ∠POS = 2a, ∠SOQ = 2b with 2a + 2b = 180°, so a + b = 90°. ∠TOU = a + b = 90° — the bisectors of a linear pair are always perpendicular."
       }
     ]
   },

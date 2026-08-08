@@ -40,15 +40,15 @@
         "explanation": "LCM 35: 3/5 = 21/35 and −2/7 = −10/35. 21/35 − 10/35 = 11/35."
       },
       {
-        "q": "If A = 3x<sup>2</sup> + 2x − 7 and B = −x<sup>2</sup> + 5x + 4, find A + B.",
+        "q": "If A = 3x² + 2x − 7 and B = −x² + 5x + 4, find A + B.",
         "options": [
-          "2x<sup>2</sup> + 7x − 3",
-          "4x<sup>2</sup> + 7x − 3",
-          "2x<sup>2</sup> − 3x − 3",
-          "2x<sup>2</sup> + 7x + 11"
+          "2x² + 7x − 3",
+          "4x² + 7x − 3",
+          "2x² − 3x − 3",
+          "2x² + 7x + 11"
         ],
         "answer": 0,
-        "explanation": "x<sup>2</sup> terms: 3 − 1 = 2. x terms: 2 + 5 = 7. Constants: −7 + 4 = −3. A + B = 2x<sup>2</sup> + 7x − 3."
+        "explanation": "x² terms: 3 − 1 = 2. x terms: 2 + 5 = 7. Constants: −7 + 4 = −3. A + B = 2x² + 7x − 3."
       },
       {
         "q": "The number subtracted from each term of 17 : 33 to give 7 : 15 is:",
@@ -75,24 +75,24 @@
       {
         "q": "An angle equals one-fourth of its supplement. The angle is:",
         "options": [
-          "36&deg;",
-          "45&deg;",
-          "30&deg;",
-          "40&deg;"
+          "36°",
+          "45°",
+          "30°",
+          "40°"
         ],
         "answer": 0,
-        "explanation": "x = &frac14;(180 &minus; x); multiply by 4: 4x = 180 &minus; x. 5x = 180, so x = 36&deg;."
+        "explanation": "x = ¼(180 − x); multiply by 4: 4x = 180 − x. 5x = 180, so x = 36°."
       },
       {
-        "q": "In ΔPQR, &ang;P = (2x)&deg;, &ang;Q = (3x)&deg;, &ang;R = (5x)&deg;. The angles are:",
+        "q": "In ΔPQR, ∠P = (2x)°, ∠Q = (3x)°, ∠R = (5x)°. The angles are:",
         "options": [
-          "36&deg;, 54&deg;, 90&deg;",
-          "40&deg;, 60&deg;, 80&deg;",
-          "20&deg;, 30&deg;, 130&deg;",
-          "30&deg;, 45&deg;, 105&deg;"
+          "36°, 54°, 90°",
+          "40°, 60°, 80°",
+          "20°, 30°, 130°",
+          "30°, 45°, 105°"
         ],
         "answer": 0,
-        "explanation": "10x = 180 gives x = 18. Angles: 36&deg;, 54&deg;, 90&deg;."
+        "explanation": "10x = 180 gives x = 18. Angles: 36°, 54°, 90°."
       },
       {
         "q": "A wire of length 480 cm forming a square is rebent into a rectangle of length 140 cm. The breadth is:",

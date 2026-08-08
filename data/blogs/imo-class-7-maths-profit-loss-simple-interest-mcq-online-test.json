@@ -48,7 +48,7 @@
           "2% loss"
         ],
         "answer": 0,
-        "explanation": "Equal SPs with equal gain and loss % always give a LOSS of (x/10)&sup2;%. Here (20/10)&sup2; = 4% loss."
+        "explanation": "Equal SPs with equal gain and loss % always give a LOSS of (x/10)²%. Here (20/10)² = 4% loss."
       },
       {
         "q": "An article marked at Rs. 8,000 is sold at a 15% discount. The selling price is:",
@@ -92,7 +92,7 @@
           "25%"
         ],
         "answer": 0,
-        "explanation": "Charges 1.1 × 1000 = Rs. 1,100 (cost of 1 g = Re. 1) for goods costing Rs. 900. Profit = 200/900 &asymp; 22.22%."
+        "explanation": "Charges 1.1 × 1000 = Rs. 1,100 (cost of 1 g = Re. 1) for goods costing Rs. 900. Profit = 200/900 ≈ 22.22%."
       },
       {
         "q": "The simple interest on Rs. 5,000 for 3 years at 8% per annum is:",

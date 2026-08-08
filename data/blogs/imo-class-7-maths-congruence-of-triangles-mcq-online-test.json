@@ -40,7 +40,7 @@
         "explanation": "AB = EF = 8, BC = DF = 10, AC = DE = 6. SSS."
       },
       {
-        "q": "ΔABC and ΔDEF have AB = DE = 5, BC = EF = 6 and &ang;ABC = &ang;DEF = 70&deg;. The criterion is:",
+        "q": "ΔABC and ΔDEF have AB = DE = 5, BC = EF = 6 and ∠ABC = ∠DEF = 70°. The criterion is:",
         "options": [
           "SAS",
           "ASA",
@@ -48,7 +48,7 @@
           "AAS"
         ],
         "answer": 0,
-        "explanation": "&ang;B is included between AB and BC. SAS."
+        "explanation": "∠B is included between AB and BC. SAS."
       },
       {
         "q": "The ASA criterion needs two angles and:",
@@ -62,7 +62,7 @@
         "explanation": "The side must lie between the two angles. If the side is non-included, the criterion is AAS instead."
       },
       {
-        "q": "Right triangles PQR and STU have &ang;Q = &ang;T = 90&deg;, PQ = ST = 6 cm and hypotenuses PR = SU = 10 cm. The remaining sides QR and TU equal:",
+        "q": "Right triangles PQR and STU have ∠Q = ∠T = 90°, PQ = ST = 6 cm and hypotenuses PR = SU = 10 cm. The remaining sides QR and TU equal:",
         "options": [
           "8 cm each",
           "7 cm each",
@@ -70,10 +70,10 @@
           "12 cm each"
         ],
         "answer": 0,
-        "explanation": "&radic;(10&sup2; &minus; 6&sup2;) = &radic;64 = 8. Both triangles have third side 8 cm — congruent by RHS."
+        "explanation": "√(10² − 6²) = √64 = 8. Both triangles have third side 8 cm — congruent by RHS."
       },
       {
-        "q": "E, F are midpoints of the equal sides AB, AC of isosceles ΔABC. ΔBEC &cong; ΔCFB by:",
+        "q": "E, F are midpoints of the equal sides AB, AC of isosceles ΔABC. ΔBEC ≅ ΔCFB by:",
         "options": [
           "SAS",
           "SSS",
@@ -81,10 +81,10 @@
           "AAA"
         ],
         "answer": 0,
-        "explanation": "BE = CF (halves of equal sides), &ang;EBC = &ang;FCB (base angles), BC common. SAS — so the \"cross\" segments CE and BF are equal."
+        "explanation": "BE = CF (halves of equal sides), ∠EBC = ∠FCB (base angles), BC common. SAS — so the \"cross\" segments CE and BF are equal."
       },
       {
-        "q": "In square ABCD, the diagonals AC and BD are equal because ΔABC &cong; ΔBAD by:",
+        "q": "In square ABCD, the diagonals AC and BD are equal because ΔABC ≅ ΔBAD by:",
         "options": [
           "SAS",
           "SSS",
@@ -92,7 +92,7 @@
           "RHS"
         ],
         "answer": 0,
-        "explanation": "AB = BA, BC = AD, and the included right angles &ang;B = &ang;A. SAS, so AC = BD by CPCT."
+        "explanation": "AB = BA, BC = AD, and the included right angles ∠B = ∠A. SAS, so AC = BD by CPCT."
       },
       {
         "q": "A square has how many lines of symmetry?",
@@ -114,7 +114,7 @@
           "1"
         ],
         "answer": 0,
-        "explanation": "Matches after every 90&deg; turn. Order 4."
+        "explanation": "Matches after every 90° turn. Order 4."
       },
       {
         "q": "All 8 lines of symmetry of a regular octagon are drawn. The octagon is divided into congruent right triangles numbering:",
@@ -125,7 +125,7 @@
           "24"
         ],
         "answer": 0,
-        "explanation": "The 8 mirror lines through the centre create 16 sectors. Each is a right triangle with central angle 22.5&deg;."
+        "explanation": "The 8 mirror lines through the centre create 16 sectors. Each is a right triangle with central angle 22.5°."
       }
     ]
   },
