@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-lines-and-angles-mcq-online-test",
+  "title": "IMO Class 7 Lines and Angles Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Lines and Angles online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Lines and Angles online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Lines and Angles online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-lines-and-angles.png",
+  "cta_product_slug": "imo-class-7-maths-lines-and-angles",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Lines and Angles online test",
+  "content": "<p>Geometry marks in Class 7 begin here, and the scoring pattern is blunt. Name the angle pair, and the mark takes ten seconds. Fail to name it, and you are guessing. The good news: there are only six pairs to know. Take the free <strong>IMO Class 7 Lines and Angles online test</strong> below. It has 10 Olympiad-pattern MCQs with instant scoring. Every answer comes with a worked explanation. Aim for 8 out of 10.</p><h2>What the IMO asks from Lines and Angles in Class 7</h2><ul><li>Complementary and supplementary angles.</li><li>Adjacent angles, linear pairs and vertically opposite angles.</li><li>Angles at a point (360&deg;).</li><li>Parallel lines with a transversal: corresponding, alternate, co-interior.</li><li>Algebra mixed in: angles as 4x and 5x.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Linear pair sums to 180&deg;; vertically opposite angles are EQUAL.</li><li>Complement of x is 90&deg; &minus; x; supplement is 180&deg; &minus; x.</li><li>Parallel lines: alternate angles equal, co-interior angles sum to 180&deg;.</li><li>If two angles on a line are 4x and 5x, then 9x = 180&deg;, so x = 20&deg;.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Mixing up complementary (90&deg;) and supplementary (180&deg;).</li><li>Claiming alternate angles are equal WITHOUT parallel lines.</li><li>Reading vertically opposite pairs off a badly-drawn figure instead of the definition.</li></ul><h2>Free IMO Class 7 Lines and Angles online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-lines-and-angles\"><strong>IMO Class 7 Maths — Lines and Angles e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Lines and Angles Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Lines and Angles",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Two lines are perpendicular to each other. The angle between them measures:",
+        "options": [
+          "90&deg;",
+          "180&deg;",
+          "45&deg;",
+          "60&deg;"
+        ],
+        "answer": 0,
+        "explanation": "Perpendicular lines form a right angle by definition. A right angle measures 90&deg;."
+      },
+      {
+        "q": "The measure of an angle is 5 times its complement. The angle is:",
+        "options": [
+          "75&deg;",
+          "72&deg;",
+          "60&deg;",
+          "80&deg;"
+        ],
+        "answer": 0,
+        "explanation": "x = 5(90 &minus; x) gives x = 450 &minus; 5x. 6x = 450, so x = 75&deg;."
+      },
+      {
+        "q": "An angle equals one-fourth of its supplement. The angle is:",
+        "options": [
+          "36&deg;",
+          "45&deg;",
+          "30&deg;",
+          "40&deg;"
+        ],
+        "answer": 0,
+        "explanation": "x = &frac14;(180 &minus; x); multiply by 4: 4x = 180 &minus; x. 5x = 180, so x = 36&deg;."
+      },
+      {
+        "q": "The supplement of an angle is 3 times its complement. The angle is:",
+        "options": [
+          "45&deg;",
+          "60&deg;",
+          "30&deg;",
+          "67.5&deg;"
+        ],
+        "answer": 0,
+        "explanation": "180 &minus; x = 3(90 &minus; x) = 270 &minus; 3x. 2x = 90, so x = 45&deg;."
+      },
+      {
+        "q": "Ray OC stands on line AB with &ang;AOC = (2x &minus; 10)&deg; and &ang;BOC = (3x + 20)&deg;. Then x is:",
+        "options": [
+          "34&deg;",
+          "38&deg;",
+          "30&deg;",
+          "36&deg;"
+        ],
+        "answer": 0,
+        "explanation": "(2x &minus; 10) + (3x + 20) = 180. 5x + 10 = 180, so x = 34&deg;."
+      },
+      {
+        "q": "Lines AB and CD intersect at O with &ang;AOC = (3x + 15)&deg; and &ang;BOD = (5x &minus; 5)&deg;. Then &ang;AOC is:",
+        "options": [
+          "45&deg;",
+          "40&deg;",
+          "50&deg;",
+          "55&deg;"
+        ],
+        "answer": 0,
+        "explanation": "Vertically opposite: 3x + 15 = 5x &minus; 5 gives x = 10. &ang;AOC = 3(10) + 15 = 45&deg;."
+      },
+      {
+        "q": "A transversal cuts two parallel lines and one alternate interior angle is 55&deg;. The corresponding angle measures:",
+        "options": [
+          "55&deg;",
+          "125&deg;",
+          "35&deg;",
+          "110&deg;"
+        ],
+        "answer": 0,
+        "explanation": "Alternate interior angles are equal, and so are corresponding angles. Both equal 55&deg;."
+      },
+      {
+        "q": "Co-interior angles are in the ratio 2 : 7. The smaller measures:",
+        "options": [
+          "40&deg;",
+          "140&deg;",
+          "36&deg;",
+          "20&deg;"
+        ],
+        "answer": 0,
+        "explanation": "9x = 180&deg; gives x = 20&deg;. Smaller = 40&deg;."
+      },
+      {
+        "q": "In triangle ABC, &ang;A = 45&deg; and &ang;B = 75&deg;. Ray CD meets AB at D with &ang;ACD = 20&deg;. Then &ang;BCD is:",
+        "options": [
+          "40&deg;",
+          "30&deg;",
+          "45&deg;",
+          "35&deg;"
+        ],
+        "answer": 0,
+        "explanation": "&ang;C = 180 &minus; 45 &minus; 75 = 60&deg;. &ang;BCD = 60 &minus; 20 = 40&deg;."
+      },
+      {
+        "q": "Ray OS stands on line POQ. Rays OT and OU bisect &ang;POS and &ang;SOQ. The angle &ang;TOU measures:",
+        "options": [
+          "90&deg;",
+          "60&deg;",
+          "120&deg;",
+          "180&deg;"
+        ],
+        "answer": 0,
+        "explanation": "Let &ang;POS = 2a, &ang;SOQ = 2b with 2a + 2b = 180&deg;, so a + b = 90&deg;. &ang;TOU = a + b = 90&deg; — the bisectors of a linear pair are always perpendicular."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Lines and Angles test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-lines-and-angles\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

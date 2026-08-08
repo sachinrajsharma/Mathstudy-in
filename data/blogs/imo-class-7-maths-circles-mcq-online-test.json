@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-circles-mcq-online-test",
+  "title": "IMO Class 7 Circles Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Circles online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Circles online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Circles online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-circles.png",
+  "cta_product_slug": "imo-class-7-maths-circles",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Circles online test",
+  "content": "<p>Two numbers — 22/7 and 3.14 — and two formulas carry this whole chapter. What the IMO adds is judgement. A wheel question wants circumference; a ring question wants area. Choosing fast is the skill. Scroll down for the free <strong>IMO Class 7 Circles online test</strong>. Ten Olympiad-pattern MCQs, instant scoring. Under every question sits an explanation you can learn from.</p><h2>What the IMO asks from Circles in Class 7</h2><ul><li>Radius, diameter, chord and arc vocabulary.</li><li>Circumference problems: wheels and rotations.</li><li>Area of circles, semicircles and rings.</li><li>Combined figures: circle in a square.</li><li>Choosing 22/7 vs 3.14 wisely.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Diameter = 2 &times; radius: a 14 cm radius means a 28 cm diameter.</li><li>A wheel covers exactly one circumference per rotation.</li><li>Ring area = &pi;(R&sup2; &minus; r&sup2;) — subtract areas, not radii.</li><li>Perimeter of a semicircle = &pi;r + 2r (students forget the diameter).</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Using radius where the question gives diameter.</li><li>Leaving out the straight edge in a semicircle perimeter.</li><li>Subtracting radii instead of areas for a ring.</li></ul><h2>Free IMO Class 7 Circles online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-circles\"><strong>IMO Class 7 Maths — Circles e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Circles Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Circles",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "A circle has radius 14 cm. Its diameter is:",
+        "options": [
+          "28 cm",
+          "14 cm",
+          "44 cm",
+          "7 cm"
+        ],
+        "answer": 0,
+        "explanation": "d = 2r = 28 cm."
+      },
+      {
+        "q": "A circle has radius 10.5 cm. Its circumference is (π = 22/7):",
+        "options": [
+          "66 cm",
+          "33 cm",
+          "69.3 cm",
+          "63 cm"
+        ],
+        "answer": 0,
+        "explanation": "2 × (22/7) × 10.5 = 66 cm."
+      },
+      {
+        "q": "A chord of length 30 cm lies 8 cm from the centre. The DIAMETER is:",
+        "options": [
+          "34 cm",
+          "17 cm",
+          "30 cm",
+          "46 cm"
+        ],
+        "answer": 0,
+        "explanation": "r = √(225 + 64) = 17 cm. Diameter = 34 cm."
+      },
+      {
+        "q": "Parallel chords 6 cm and 8 cm lie on OPPOSITE sides of the centre of a circle of radius 5 cm. The distance between them is:",
+        "options": [
+          "7 cm",
+          "5 cm",
+          "6 cm",
+          "8 cm"
+        ],
+        "answer": 0,
+        "explanation": "Distances: √(25 − 9) = 4 and √(25 − 16) = 3. Total = 7 cm."
+      },
+      {
+        "q": "The area of a sector of radius 14 cm and angle 45° is (π = 22/7):",
+        "options": [
+          "77 cm²",
+          "154 cm²",
+          "88 cm²",
+          "66 cm²"
+        ],
+        "answer": 0,
+        "explanation": "(45/360)(22/7)(196). = 77 cm²."
+      },
+      {
+        "q": "The area of a sector of radius 21 cm and angle 60° is (π = 22/7):",
+        "options": [
+          "231 cm²",
+          "462 cm²",
+          "198 cm²",
+          "154 cm²"
+        ],
+        "answer": 0,
+        "explanation": "(1/6)(22/7)(441). = 231 cm²."
+      },
+      {
+        "q": "Chord AB subtends 80° at the centre. On the major arc it subtends:",
+        "options": [
+          "40°",
+          "80°",
+          "100°",
+          "160°"
+        ],
+        "answer": 0,
+        "explanation": "Half of 80°. = 40°."
+      },
+      {
+        "q": "ABCD is cyclic with ∠B = 110° and ∠D = (3x + 10)°. Then x is:",
+        "options": [
+          "20",
+          "30",
+          "25",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "110 + 3x + 10 = 180. x = 20."
+      },
+      {
+        "q": "Chords AB and CD meet at P with AP = 5, PB = 8, DP = 4 cm. Then CP is:",
+        "options": [
+          "10 cm",
+          "8 cm",
+          "6.4 cm",
+          "12 cm"
+        ],
+        "answer": 0,
+        "explanation": "40 = CP × 4. CP = 10 cm."
+      },
+      {
+        "q": "A bicycle wheel makes 1,000 revolutions in 2.2 km. Its radius is:",
+        "options": [
+          "35 cm",
+          "70 cm",
+          "17.5 cm",
+          "44 cm"
+        ],
+        "answer": 0,
+        "explanation": "One revolution = 220 cm. 2πr = 220 gives r = 35 cm."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Circles test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-circles\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

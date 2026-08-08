@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-profit-loss-simple-interest-mcq-online-test",
+  "title": "IMO Class 7 Profit and Loss Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Profit and Loss online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Profit and Loss online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Profit and Loss online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-profit-loss-simple-interest.png",
+  "cta_product_slug": "imo-class-7-maths-profit-loss-simple-interest",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Profit and Loss online test",
+  "content": "<p>Buy at Rs. 1,200, sell at Rs. 1,500 — profit 25%, not 20%. Why? Because profit per cent always stands on the COST price. That single sentence sorts out most of this chapter. The free <strong>IMO Class 7 Profit and Loss online test</strong> below has 10 exam-pattern MCQs with instant scoring. Treat it as a diagnostic. Every explanation tells you what to revise.</p><h2>What the IMO asks from Profit and Loss in Class 7</h2><ul><li>Profit, loss and their percentages (on cost price).</li><li>Finding SP from CP with profit/loss %, and the reverse.</li><li>Discount on marked price.</li><li>Simple interest: SI = P &times; R &times; T / 100.</li><li>Finding principal, rate or time from SI.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Profit % = profit/CP &times; 100 — the denominator is ALWAYS cost price.</li><li>SP = CP &times; (100 + profit%)/100 in one step.</li><li>At 15% loss, SP of a Rs. 1,400 cycle is 1400 &times; 0.85 = Rs. 1,190.</li><li>SI is the same every year — interest of Rs. 240 over 2 years means Rs. 120 per year.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Computing profit % on the selling price.</li><li>Treating discount % as profit % (discount stands on MARKED price).</li><li>Using months directly as T in the SI formula (convert to years).</li></ul><h2>Free IMO Class 7 Profit and Loss online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-profit-loss-simple-interest\"><strong>IMO Class 7 Maths — Profit and Loss e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Profit and Loss Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Profit and Loss",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "A man buys a cycle for Rs. 1,400 and sells it at a loss of 15%. The selling price is:",
+        "options": [
+          "Rs. 1,190",
+          "Rs. 1,210",
+          "Rs. 1,260",
+          "Rs. 1,120"
+        ],
+        "answer": 0,
+        "explanation": "SP = CP × (1 − loss%) = 1400 × 0.85. SP = Rs. 1,190."
+      },
+      {
+        "q": "The cost price of 10 chairs equals the selling price of 5 chairs. The profit percent is:",
+        "options": [
+          "100%",
+          "50%",
+          "200%",
+          "75%"
+        ],
+        "answer": 0,
+        "explanation": "SP of 5 chairs = CP of 10 chairs, so SP of 1 chair = 2 × CP. Profit = CP, i.e. 100%."
+      },
+      {
+        "q": "A man sells two articles for Rs. 4,000 each, gaining 20% on one and losing 20% on the other. His net result is:",
+        "options": [
+          "4% loss",
+          "no profit, no loss",
+          "4% profit",
+          "2% loss"
+        ],
+        "answer": 0,
+        "explanation": "Equal SPs with equal gain and loss % always give a LOSS of (x/10)&sup2;%. Here (20/10)&sup2; = 4% loss."
+      },
+      {
+        "q": "An article marked at Rs. 8,000 is sold at a 15% discount. The selling price is:",
+        "options": [
+          "Rs. 6,800",
+          "Rs. 7,200",
+          "Rs. 6,500",
+          "Rs. 7,000"
+        ],
+        "answer": 0,
+        "explanation": "SP = 8000 × 0.85 = Rs. 6,800."
+      },
+      {
+        "q": "A shopkeeper marks goods 30% above cost and allows a 10% discount. His profit percent is:",
+        "options": [
+          "17%",
+          "20%",
+          "13%",
+          "15%"
+        ],
+        "answer": 0,
+        "explanation": "CP 100 → MP 130 → SP = 130 × 0.9 = 117. Profit = 17%."
+      },
+      {
+        "q": "A marked price of Rs. 5,000 gets successive discounts of 20% and 20%. The selling price is:",
+        "options": [
+          "Rs. 3,200",
+          "Rs. 3,000",
+          "Rs. 3,600",
+          "Rs. 2,800"
+        ],
+        "answer": 0,
+        "explanation": "5000 × 0.8 = 4000; 4000 × 0.8 = Rs. 3,200."
+      },
+      {
+        "q": "A merchant marks up 10% and uses a 900 g weight for 1 kg. His total gain percent is about:",
+        "options": [
+          "22.22%",
+          "10%",
+          "19.5%",
+          "25%"
+        ],
+        "answer": 0,
+        "explanation": "Charges 1.1 × 1000 = Rs. 1,100 (cost of 1 g = Re. 1) for goods costing Rs. 900. Profit = 200/900 &asymp; 22.22%."
+      },
+      {
+        "q": "The simple interest on Rs. 5,000 for 3 years at 8% per annum is:",
+        "options": [
+          "Rs. 1,200",
+          "Rs. 1,000",
+          "Rs. 1,500",
+          "Rs. 1,320"
+        ],
+        "answer": 0,
+        "explanation": "SI = PRT/100 = (5000 × 8 × 3)/100. SI = Rs. 1,200."
+      },
+      {
+        "q": "Rs. 23,500 is invested at 10.5% per annum for 3 years. The simple interest is:",
+        "options": [
+          "Rs. 7,402.50",
+          "Rs. 7,050",
+          "Rs. 7,500",
+          "Rs. 6,982.50"
+        ],
+        "answer": 0,
+        "explanation": "SI = (23500 × 10.5 × 3)/100. SI = Rs. 7,402.50."
+      },
+      {
+        "q": "An article sold at 20% profit would, if bought 10% cheaper and sold Rs. 15 cheaper, give 25% profit. Its cost price is:",
+        "options": [
+          "Rs. 200",
+          "Rs. 150",
+          "Rs. 250",
+          "Rs. 300"
+        ],
+        "answer": 0,
+        "explanation": "New CP = 0.9x, new SP = 1.2x − 15. For 25% gain: 1.2x − 15 = 1.125x. 0.075x = 15 gives x = Rs. 200."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Profit and Loss test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-profit-loss-simple-interest\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-rational-numbers-mcq-online-test",
+  "title": "IMO Class 7 Rational Numbers Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Rational Numbers online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Rational Numbers online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Rational Numbers online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-rational-numbers.jpg",
+  "cta_product_slug": "imo-class-7-maths-rational-numbers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Rational Numbers online test",
+  "content": "<p>Rational numbers are where Class 7 maths grows up: suddenly numbers have signs AND fraction bars at the same time. One misplaced minus and a whole question collapses. The free <strong>IMO Class 7 Rational Numbers online test</strong> below has 10 exam-pattern MCQs with instant scoring. Treat it as a diagnostic. Every explanation tells you what to revise.</p><h2>What the IMO asks from Rational Numbers in Class 7</h2><ul><li>Standard form (positive denominator, lowest terms).</li><li>Comparing and ordering with negatives, e.g. &minus;2/5 vs &minus;5/6.</li><li>All four operations on rational numbers.</li><li>Rational numbers between two given numbers.</li><li>Representing p/q on the number line.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>48/&minus;60 in standard form is &minus;4/5 — the minus always moves up.</li><li>Between any two rational numbers there are infinitely many more — average them to find one.</li><li>&minus;2/5 = &minus;0.4 beats &minus;5/6 &asymp; &minus;0.833 — with negatives, closer to zero is BIGGER.</li><li>q can never be 0 in p/q: division by zero is undefined.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Ranking negatives by digit size instead of number-line position.</li><li>Leaving answers with a negative denominator.</li><li>Assuming there is a \"next\" rational number after a given one.</li></ul><h2>Free IMO Class 7 Rational Numbers online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-rational-numbers\"><strong>IMO Class 7 Maths — Rational Numbers e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Rational Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Rational Numbers",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "A rational number is written as p/q where p and q are integers. Which of the following can q never be?",
+        "options": [
+          "0",
+          "1",
+          "−3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "A rational number p/q requires q ≠ 0, because division by zero is undefined. So q can never be 0."
+      },
+      {
+        "q": "Arrange in descending order: −2/5, 3/(−4), −5/6, 7/(−12).",
+        "options": [
+          "−2/5, 7/(−12), 3/(−4), −5/6",
+          "−5/6, 3/(−4), 7/(−12), −2/5",
+          "−2/5, 3/(−4), 7/(−12), −5/6",
+          "7/(−12), −2/5, −5/6, 3/(−4)"
+        ],
+        "answer": 0,
+        "explanation": "As decimals: −2/5 = −0.4, 7/(−12) ≈ −0.583, 3/(−4) = −0.75, −5/6 ≈ −0.833. Descending (largest first): −0.4 > −0.583 > −0.75 > −0.833."
+      },
+      {
+        "q": "What is the sum of 3/5 and −2/7?",
+        "options": [
+          "11/35",
+          "1/35",
+          "−1/35",
+          "21/35"
+        ],
+        "answer": 0,
+        "explanation": "LCM 35: 3/5 = 21/35 and −2/7 = −10/35. 21/35 − 10/35 = 11/35."
+      },
+      {
+        "q": "Multiply 4/3 by the reciprocal of 5/6.",
+        "options": [
+          "8/5",
+          "5/8",
+          "10/9",
+          "20/18"
+        ],
+        "answer": 0,
+        "explanation": "The reciprocal of 5/6 is 6/5. (4/3) × (6/5) = 24/15 = 8/5."
+      },
+      {
+        "q": "Which property is illustrated by (a/b) + (c/d) = (c/d) + (a/b)?",
+        "options": [
+          "Commutative",
+          "Closure",
+          "Associative",
+          "Identity"
+        ],
+        "answer": 0,
+        "explanation": "The order of the two addends is swapped without changing the sum. That is the commutative property of addition."
+      },
+      {
+        "q": "What is the additive inverse of −7/12?",
+        "options": [
+          "7/12",
+          "−7/12",
+          "12/7",
+          "−12/7"
+        ],
+        "answer": 0,
+        "explanation": "The additive inverse of x is −x: the number that adds to it to give 0. −7/12 + 7/12 = 0, so the answer is 7/12."
+      },
+      {
+        "q": "Simplify: 2/3 + (−5/6) × (−3/4) ÷ (5/8).",
+        "options": [
+          "5/3",
+          "2/3",
+          "1",
+          "−1/3"
+        ],
+        "answer": 0,
+        "explanation": "Multiplication first: (−5/6) × (−3/4) = 15/24 = 5/8. Division: (5/8) ÷ (5/8) = 1. Finally 2/3 + 1 = 5/3."
+      },
+      {
+        "q": "If x + 1/3 = 5/6, what is the value of x?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/6",
+          "5/6"
+        ],
+        "answer": 0,
+        "explanation": "x = 5/6 − 1/3 = 5/6 − 2/6. = 3/6 = 1/2."
+      },
+      {
+        "q": "Find the rational number exactly midway between −7/9 and 4/15.",
+        "options": [
+          "−23/90",
+          "−23/45",
+          "23/90",
+          "−1/2"
+        ],
+        "answer": 0,
+        "explanation": "−7/9 + 4/15 = −35/45 + 12/45 = −23/45. Half of that: −23/90."
+      },
+      {
+        "q": "Evaluate: [(3/4 − 1/2) ÷ (2/3) + (−5/6)] × (−2/5).",
+        "options": [
+          "11/60",
+          "−11/60",
+          "11/24",
+          "−1/5"
+        ],
+        "answer": 0,
+        "explanation": "3/4 − 1/2 = 1/4; (1/4) ÷ (2/3) = 3/8. 3/8 − 5/6 = 9/24 − 20/24 = −11/24. (−11/24) × (−2/5) = 22/120 = 11/60."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Rational Numbers test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-rational-numbers\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

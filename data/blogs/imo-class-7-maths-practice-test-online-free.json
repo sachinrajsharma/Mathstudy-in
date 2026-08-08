@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-practice-test-online-free",
+  "title": "IMO Class 7 Practice Test Online: Free Mixed Mock (10 MCQs)",
+  "meta_title": "IMO Class 7 practice test — Free Online Mock",
+  "meta_desc": "Free IMO Class 7 practice test: 10 mixed MCQs from ten Class 7 chapters with instant scoring and explanations, plus 25 full-length practice papers (750…",
+  "excerpt": "A free mixed 10-question IMO Class 7 practice test spanning ten chapters — instant scoring, explanations, and 25 full-length papers to continue.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-25-practice-papers.png",
+  "cta_product_slug": "imo-class-7-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 practice test",
+  "content": "<p>Chapter practice tells you what your child knows; a mixed paper tells you what they can DO in 60 minutes. The real IMO never asks thirty integer questions in a row — it hops from percentages to angles to a reasoning puzzle, and that switching is a skill of its own. Take the free <strong>IMO Class 7 practice test</strong> below: 10 questions drawn from ten different Class 7 chapters, with instant scoring and worked explanations.</p><h2>Why mixed practice beats one more chapter revision</h2><ul><li>The real paper switches topics every question — chapter-order practice never trains that.</li><li>Mixed tests expose the chapter your child avoids (everyone has one).</li><li>Timing only becomes real against a full 30-question paper.</li><li>Confidence on exam day comes from having \"been here before\" — twenty-five times.</li></ul><h2>How to use this free test</h2><ul><li>Attempt all 10 in one sitting, without help.</li><li>Score 8+ — move to full-length papers. Score below 6 — revise the weakest chapter first.</li><li>Read every explanation, including for correct answers.</li><li>Note the time taken. Ten mixed questions in under 12 minutes is Olympiad pace; under 15 is solid; over 20 means the weak chapter is stealing time from the strong ones.</li></ul><h2>Free IMO Class 7 practice test</h2><p>The quiz below mixes Integers, Rational Numbers, Algebra, Ratio, Percentages, Geometry, Data Handling and Reasoning — exactly the spread of a real IMO paper.</p><h2>Then do the real thing — 25 times</h2><p>The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\"><strong>IMO Class 7 Maths — 25 Practice Papers e-book</strong></a> has <strong>25 full-length papers (750 MCQs)</strong>, every paper balanced across all 18 chapters, with an answer key after each paper and step-by-step solutions for all 750 questions — including diagram questions, exactly like the exam. Chapter-wise drills are on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>, and the theory is free on the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">vidaara.org IMO course</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Mixed Practice Test",
+    "intro": "Ten questions, ten different chapters — just like the real paper. Press Check my score at the end.",
+    "about": "IMO Maths Olympiad Class 7: mixed practice",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Evaluate: −7 + (−3) − (−5) + 2.",
+        "options": [
+          "−3",
+          "−7",
+          "3",
+          "−17"
+        ],
+        "answer": 0,
+        "explanation": "−7 + (−3) = −10. −10 − (−5) = −10 + 5 = −5. −5 + 2 = −3."
+      },
+      {
+        "q": "What is the sum of 3/5 and −2/7?",
+        "options": [
+          "11/35",
+          "1/35",
+          "−1/35",
+          "21/35"
+        ],
+        "answer": 0,
+        "explanation": "LCM 35: 3/5 = 21/35 and −2/7 = −10/35. 21/35 − 10/35 = 11/35."
+      },
+      {
+        "q": "If A = 3x<sup>2</sup> + 2x − 7 and B = −x<sup>2</sup> + 5x + 4, find A + B.",
+        "options": [
+          "2x<sup>2</sup> + 7x − 3",
+          "4x<sup>2</sup> + 7x − 3",
+          "2x<sup>2</sup> − 3x − 3",
+          "2x<sup>2</sup> + 7x + 11"
+        ],
+        "answer": 0,
+        "explanation": "x<sup>2</sup> terms: 3 − 1 = 2. x terms: 2 + 5 = 7. Constants: −7 + 4 = −3. A + B = 2x<sup>2</sup> + 7x − 3."
+      },
+      {
+        "q": "The number subtracted from each term of 17 : 33 to give 7 : 15 is:",
+        "options": [
+          "3",
+          "5",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "(17 − x)/(33 − x) = 7/15. 255 − 15x = 231 − 7x, so 24 = 8x. x = 3."
+      },
+      {
+        "q": "When 35% of a number is subtracted from the number itself, the result is 520. The number is:",
+        "options": [
+          "800",
+          "750",
+          "820",
+          "780"
+        ],
+        "answer": 0,
+        "explanation": "x − 0.35x = 0.65x = 520. x = 520 / 0.65 = 800."
+      },
+      {
+        "q": "An angle equals one-fourth of its supplement. The angle is:",
+        "options": [
+          "36&deg;",
+          "45&deg;",
+          "30&deg;",
+          "40&deg;"
+        ],
+        "answer": 0,
+        "explanation": "x = &frac14;(180 &minus; x); multiply by 4: 4x = 180 &minus; x. 5x = 180, so x = 36&deg;."
+      },
+      {
+        "q": "In ΔPQR, &ang;P = (2x)&deg;, &ang;Q = (3x)&deg;, &ang;R = (5x)&deg;. The angles are:",
+        "options": [
+          "36&deg;, 54&deg;, 90&deg;",
+          "40&deg;, 60&deg;, 80&deg;",
+          "20&deg;, 30&deg;, 130&deg;",
+          "30&deg;, 45&deg;, 105&deg;"
+        ],
+        "answer": 0,
+        "explanation": "10x = 180 gives x = 18. Angles: 36&deg;, 54&deg;, 90&deg;."
+      },
+      {
+        "q": "A wire of length 480 cm forming a square is rebent into a rectangle of length 140 cm. The breadth is:",
+        "options": [
+          "100 cm",
+          "104 cm",
+          "96 cm",
+          "110 cm"
+        ],
+        "answer": 0,
+        "explanation": "2(140 + b) = 480. b = 100 cm."
+      },
+      {
+        "q": "With a scale of 1 unit = 15 students, a bar of height 7.5 units represents:",
+        "options": [
+          "112.5 students",
+          "105 students",
+          "120 students",
+          "90 students"
+        ],
+        "answer": 0,
+        "explanation": "7.5 × 15 = 112.5."
+      },
+      {
+        "q": "Find the odd one out: 12, 24, 36, 48, 55.",
+        "options": [
+          "55",
+          "48",
+          "24",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "All the others are multiples of 12."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many questions does the real IMO Class 7 paper have?",
+      "a": "The SOF IMO paper for Class 7 has 50 questions in 60 minutes across Logical Reasoning, Mathematical Reasoning, Everyday Mathematics and the Achievers section."
+    },
+    {
+      "q": "Is this mixed test free?",
+      "a": "Yes — 10 questions with scoring and explanations, free. The e-book continues with 25 full papers and 750 solved MCQs for Rs 45."
+    },
+    {
+      "q": "When should my child start full-length papers?",
+      "a": "Once most chapters are done. From then on, one timed paper every two or three days with honest marking beats any amount of extra reading."
+    }
+  ]
+}

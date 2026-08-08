@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-data-handling-mcq-online-test",
+  "title": "IMO Class 7 Data Handling Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Data Handling online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Data Handling online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Data Handling online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-data-handling.png",
+  "cta_product_slug": "imo-class-7-maths-data-handling",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Data Handling online test",
+  "content": "<p>Data Handling looks like the easiest chapter in Class 7. Then the IMO asks for the median of an even-sized list. Or the probability of \"at least one head\". That is when careful practice shows. The free <strong>IMO Class 7 Data Handling online test</strong> below has 10 exam-pattern MCQs with instant scoring. Treat it as a diagnostic. Every explanation tells you what to revise.</p><h2>What the IMO asks from Data Handling in Class 7</h2><ul><li>Mean, median and mode (including even-sized lists).</li><li>Range and organising data.</li><li>Reading and drawing bar graphs and double bar graphs.</li><li>Chance and probability basics.</li><li>Choosing the right average for a situation.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Median of an even count = average of the two middle values (after sorting!).</li><li>Mean changes if EVERY value changes; mode only cares about frequency.</li><li>Probability = favourable/total: a die shows a prime with probability 3/6 = 1/2.</li><li>Range = maximum &minus; minimum — a spread measure, not an average.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Finding the median without sorting first.</li><li>Averaging two averages without weighting by group sizes.</li><li>Counting 1 as a prime when listing die outcomes.</li></ul><h2>Free IMO Class 7 Data Handling online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-data-handling\"><strong>IMO Class 7 Maths — Data Handling e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Data Handling",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Buying a market-research report on teenagers' screen time and using its figures means using:",
+        "options": [
+          "secondary data",
+          "primary data",
+          "raw data",
+          "experimental data"
+        ],
+        "answer": 0,
+        "explanation": "The investigator did not collect it first-hand. Pre-existing published data is secondary."
+      },
+      {
+        "q": "The sum of the lower and upper limits of a class is 135 and their difference is 15. The lower limit is:",
+        "options": [
+          "60",
+          "75",
+          "67.5",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "U + L = 135, U − L = 15. U = 75 and L = 60."
+      },
+      {
+        "q": "With a scale of 1 unit = 15 students, a bar of height 7.5 units represents:",
+        "options": [
+          "112.5 students",
+          "105 students",
+          "120 students",
+          "90 students"
+        ],
+        "answer": 0,
+        "explanation": "7.5 × 15 = 112.5."
+      },
+      {
+        "q": "State X produced 450 tonnes — 20% more than State Y. State Y produced:",
+        "options": [
+          "375 tonnes",
+          "360 tonnes",
+          "400 tonnes",
+          "540 tonnes"
+        ],
+        "answer": 0,
+        "explanation": "1.2Y = 450. Y = 375."
+      },
+      {
+        "q": "The mean weight of 9 students is 45 kg. A 55-kg student joins. The new mean is:",
+        "options": [
+          "46 kg",
+          "47 kg",
+          "50 kg",
+          "45.5 kg"
+        ],
+        "answer": 0,
+        "explanation": "Total = 405 + 55 = 460. 460/10 = 46 kg."
+      },
+      {
+        "q": "Each observation of a data set with mean x̄ is multiplied by k and then increased by m. The new mean is:",
+        "options": [
+          "kx̄ + m",
+          "kx̄",
+          "x̄ + m",
+          "(x̄ + m)/k"
+        ],
+        "answer": 0,
+        "explanation": "The mean follows the same operations as the data. New mean = kx̄ + m."
+      },
+      {
+        "q": "The median of the first 9 prime numbers is:",
+        "options": [
+          "11",
+          "13",
+          "7",
+          "17"
+        ],
+        "answer": 0,
+        "explanation": "The first 9 primes are 2, 3, 5, 7, 11, 13, 17, 19, 23. With 9 values the median is the 5th one: 11."
+      },
+      {
+        "q": "The mode of 14, 22, 14, 25, 30, 22, 14, 35, 22, 22 is:",
+        "options": [
+          "22",
+          "14",
+          "25",
+          "both 14 and 22"
+        ],
+        "answer": 0,
+        "explanation": "22 appears 4 times; 14 only 3. Mode = 22."
+      },
+      {
+        "q": "A bag has 5 red, 8 blue and 7 green marbles. P(neither red nor green) is:",
+        "options": [
+          "2/5",
+          "1/4",
+          "3/5",
+          "7/20"
+        ],
+        "answer": 0,
+        "explanation": "Neither red nor green = blue: 8 of 20. 8/20 = 2/5."
+      },
+      {
+        "q": "A die is rolled twice. P(the sum is prime) is:",
+        "options": [
+          "5/12",
+          "7/18",
+          "4/9",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "Prime sums 2, 3, 5, 7, 11 give 1 + 2 + 4 + 6 + 2 = 15 outcomes of 36. 15/36 = 5/12."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Data Handling test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-data-handling\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

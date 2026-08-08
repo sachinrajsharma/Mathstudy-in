@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-hots-mcq-online-test",
+  "title": "IMO Class 7 HOTS Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 HOTS online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 HOTS online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet questions.",
+  "excerpt": "A free 10-question HOTS online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-hots.png",
+  "cta_product_slug": "imo-class-7-maths-hots",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 HOTS online test",
+  "content": "<p>The last five questions of an IMO paper carry the medal. These Achievers-section problems mix two chapters in one question — and pay double. HOTS practice is how ordinary preparation becomes a rank. The free <strong>IMO Class 7 HOTS online test</strong> below has 10 exam-pattern MCQs with instant scoring. Treat it as a diagnostic. Every explanation tells you what to revise.</p><h2>What the IMO asks from HOTS in Class 7</h2><ul><li>Multi-chapter word problems (percentages inside geometry, ratios inside data).</li><li>Digit puzzles and number crunchers.</li><li>Optimisation and counting arguments.</li><li>Achievers-section style double-weight questions.</li><li>Reading precision: \"at least\", \"at most\", \"not more than\".</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>A 2-digit number with digit-sum 12 that grows by 18 when reversed is 57 — set up 10a + b properly and it falls out.</li><li>Achievers questions reward WRITTEN working — mental shortcuts break on 3-step problems.</li><li>Most HOTS questions are two easy steps glued together, not one hard step.</li><li>Elimination is a legitimate strategy: test the options against the conditions.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Attempting HOTS first and burning paper time.</li><li>Answering the intermediate value instead of what was asked.</li><li>Ignoring qualifier words like \"at least\" and \"smallest such number\".</li></ul><h2>Free IMO Class 7 HOTS online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-hots\"><strong>IMO Class 7 Maths — HOTS e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 HOTS Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: HOTS",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "The product of two consecutive even numbers is 168. The numbers are:",
+        "options": [
+          "12 and 14",
+          "10 and 12",
+          "14 and 16",
+          "8 and 10"
+        ],
+        "answer": 0,
+        "explanation": "12 × 14 = 168."
+      },
+      {
+        "q": "2, 6, 12, 20, 30, 42, ?",
+        "options": [
+          "56",
+          "54",
+          "52",
+          "58"
+        ],
+        "answer": 0,
+        "explanation": "Gaps 4, 6, 8, 10, 12, 14. 42 + 14 = 56."
+      },
+      {
+        "q": "The units digit of 3²⁰²⁶ is:",
+        "options": [
+          "9",
+          "3",
+          "7",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Cycle 3, 9, 7, 1; 2026 mod 4 = 2. Second in the cycle: 9."
+      },
+      {
+        "q": "If f(x + y) = f(x) × f(y) and f(1) = 3, then f(4) is:",
+        "options": [
+          "81",
+          "12",
+          "27",
+          "64"
+        ],
+        "answer": 0,
+        "explanation": "f(2) = 9, f(3) = 27. f(4) = 3⁴ = 81."
+      },
+      {
+        "q": "Each day, half the mangoes plus 2 more are eaten. After 3 days one mango remains. The basket began with:",
+        "options": [
+          "36",
+          "30",
+          "40",
+          "28"
+        ],
+        "answer": 0,
+        "explanation": "Backwards: (1 + 2) × 2 = 6; (6 + 2) × 2 = 16; (16 + 2) × 2 = 36."
+      },
+      {
+        "q": "P scored more than Q but less than T; S scored less than Q; R scored more than T. The topper is:",
+        "options": [
+          "R",
+          "T",
+          "P",
+          "Q"
+        ],
+        "answer": 0,
+        "explanation": "S < Q < P < T < R. R is highest."
+      },
+      {
+        "q": "What is integer x? (I) x² = 25. (II) x³ = −125.",
+        "options": [
+          "statement II ALONE is sufficient",
+          "statement I alone is sufficient",
+          "both needed",
+          "neither suffices"
+        ],
+        "answer": 0,
+        "explanation": "I allows ±5. II forces x = −5 by itself."
+      },
+      {
+        "q": "Pipes filling in 6 h and 8 h are opened together. The tank fills in:",
+        "options": [
+          "24/7 h ≈ 3.43 h",
+          "7 h",
+          "14/3 h",
+          "3 h"
+        ],
+        "answer": 0,
+        "explanation": "1/6 + 1/8 = 7/24 per hour. Time = 24/7 hours."
+      },
+      {
+        "q": "40 L of milk has 4 L replaced by water three times. Milk remaining:",
+        "options": [
+          "29.16 L",
+          "28 L",
+          "30.4 L",
+          "27 L"
+        ],
+        "answer": 0,
+        "explanation": "40 × (0.9)³. = 29.16 litres."
+      },
+      {
+        "q": "If x + 1/x = 5, then x³ + 1/x³ equals:",
+        "options": [
+          "110",
+          "125",
+          "115",
+          "105"
+        ],
+        "answer": 0,
+        "explanation": "a³ + b³ = (a + b)³ − 3(a + b) here. 125 − 15 = 110."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this HOTS test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-hots\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

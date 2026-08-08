@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-triangles-mcq-online-test",
+  "title": "IMO Class 7 Triangles Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Triangles online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Triangles online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Triangles online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-triangles.png",
+  "cta_product_slug": "imo-class-7-maths-triangles",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Triangles online test",
+  "content": "<p>Three facts power practically every Triangles question: angle sum 180&deg;, the exterior angle theorem, and the triangle inequality. The chapter is small. The mileage is enormous. Scroll down for the free <strong>IMO Class 7 Triangles online test</strong>. Ten Olympiad-pattern MCQs, instant scoring. Under every question sits an explanation you can learn from.</p><h2>What the IMO asks from Triangles in Class 7</h2><ul><li>Angle sum property and exterior angle theorem.</li><li>Classifying triangles by sides and angles.</li><li>Medians and altitudes.</li><li>Triangle inequality: can 3, 4, 8 form a triangle?</li><li>Pythagoras property in right triangles (3-4-5 families).</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Exterior angle = sum of the two INTERIOR OPPOSITE angles.</li><li>Sides 3, 4, 5 make a right triangle: 3&sup2; + 4&sup2; = 5&sup2;.</li><li>Any side must be shorter than the sum of the other two.</li><li>In an isosceles triangle with AB = BC and &ang;B = 40&deg;, each base angle is 70&deg;.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Adding the wrong pair for the exterior angle theorem.</li><li>Calling a 3, 4, 8 \"triangle\" (3 + 4 &lt; 8 — impossible).</li><li>Assuming the longest side is opposite the smallest angle.</li></ul><h2>Free IMO Class 7 Triangles online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-triangles\"><strong>IMO Class 7 Maths — Triangles e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Triangles Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Triangles",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "A triangle has sides 3 cm, 4 cm and 5 cm. It is:",
+        "options": [
+          "scalene and right-angled",
+          "isosceles and acute",
+          "scalene and obtuse",
+          "isosceles and right-angled"
+        ],
+        "answer": 0,
+        "explanation": "All sides differ, so it is scalene. 3&sup2; + 4&sup2; = 25 = 5&sup2;, so by Pythagoras it is right-angled."
+      },
+      {
+        "q": "A triangle with angles 30&deg;, 60&deg; and 90&deg; is right-angled. The side opposite the 90&deg; angle is called the:",
+        "options": [
+          "hypotenuse",
+          "base",
+          "altitude",
+          "median"
+        ],
+        "answer": 0,
+        "explanation": "The side opposite the right angle is the hypotenuse — always the longest side."
+      },
+      {
+        "q": "In ΔPQR, &ang;P = (2x)&deg;, &ang;Q = (3x)&deg;, &ang;R = (5x)&deg;. The angles are:",
+        "options": [
+          "36&deg;, 54&deg;, 90&deg;",
+          "40&deg;, 60&deg;, 80&deg;",
+          "20&deg;, 30&deg;, 130&deg;",
+          "30&deg;, 45&deg;, 105&deg;"
+        ],
+        "answer": 0,
+        "explanation": "10x = 180 gives x = 18. Angles: 36&deg;, 54&deg;, 90&deg;."
+      },
+      {
+        "q": "In an isosceles triangle each base angle is twice the vertical angle. The vertical angle is:",
+        "options": [
+          "36&deg;",
+          "45&deg;",
+          "30&deg;",
+          "40&deg;"
+        ],
+        "answer": 0,
+        "explanation": "x + 2x + 2x = 180 gives x = 36&deg;. Angles: 36&deg;, 72&deg;, 72&deg;."
+      },
+      {
+        "q": "In ΔPQR the exterior angles at P and Q are 150&deg; and 130&deg;. Then &ang;R is:",
+        "options": [
+          "100&deg;",
+          "80&deg;",
+          "90&deg;",
+          "110&deg;"
+        ],
+        "answer": 0,
+        "explanation": "Interior angles: P = 30&deg;, Q = 50&deg;. &ang;R = 180 &minus; 80 = 100&deg; — obtuse-angled triangle."
+      },
+      {
+        "q": "In ΔPQR, &ang;P = 80&deg;, &ang;Q = 55&deg; and PS &perp; QR. Then &ang;RPS is:",
+        "options": [
+          "45&deg;",
+          "35&deg;",
+          "55&deg;",
+          "40&deg;"
+        ],
+        "answer": 0,
+        "explanation": "&ang;R = 45&deg;. In right ΔPSR: &ang;RPS = 180 &minus; 90 &minus; 45 = 45&deg; (and &ang;SPQ = 35&deg;)."
+      },
+      {
+        "q": "In ΔABC, &ang;A = 50&deg; and &ang;B = 60&deg;. The internal bisectors of &ang;A and &ang;B meet at I. Then &ang;AIB is:",
+        "options": [
+          "125&deg;",
+          "115&deg;",
+          "135&deg;",
+          "110&deg;"
+        ],
+        "answer": 0,
+        "explanation": "&ang;AIB = 90&deg; + &ang;C/2 = 90 + 35 = 125&deg;."
+      },
+      {
+        "q": "A triangle has sides 7 cm, 24 cm, 25 cm. Its area is:",
+        "options": [
+          "84 cm&sup2;",
+          "87.5 cm&sup2;",
+          "168 cm&sup2;",
+          "78 cm&sup2;"
+        ],
+        "answer": 0,
+        "explanation": "7&sup2; + 24&sup2; = 625 = 25&sup2; — right-angled with legs 7 and 24. Area = &frac12; × 7 × 24 = 84 cm&sup2;."
+      },
+      {
+        "q": "The centroid of ΔPQR is G(4, 5) and P is (1, 2). The midpoint S of QR is:",
+        "options": [
+          "(5.5, 6.5)",
+          "(7, 8)",
+          "(2.5, 3.5)",
+          "(6, 7)"
+        ],
+        "answer": 0,
+        "explanation": "G divides PS with PG : GS = 2 : 1, so G = (P + 2S)/3. (12, 15) = (1, 2) + 2S gives S = (5.5, 6.5)."
+      },
+      {
+        "q": "In ΔABC, &ang;A = 80&deg; and &ang;B = 40&deg;. The internal bisector of &ang;A and the external bisector of &ang;B meet at O. Then &ang;AOB is:",
+        "options": [
+          "30&deg;",
+          "60&deg;",
+          "70&deg;",
+          "40&deg;"
+        ],
+        "answer": 0,
+        "explanation": "O is the excentre opposite A: &ang;OAB = 40&deg; and &ang;OBA = 20&deg; + 90&deg; = 110&deg;. &ang;AOB = 180 &minus; 150 = 30&deg; = &ang;C/2."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Triangles test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-triangles\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

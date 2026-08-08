@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-integers-mcq-online-test",
+  "title": "IMO Class 7 Integers Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Integers online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Integers online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Integers online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-integers.jpg",
+  "cta_product_slug": "imo-class-7-maths-integers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Integers online test",
+  "content": "<p>Ask any Class 7 Olympiad topper which chapter they refuse to lose marks in, and Integers comes up first. The questions look easy — and that is exactly the trap. Take the free <strong>IMO Class 7 Integers online test</strong> below. It has 10 Olympiad-pattern MCQs with instant scoring. Every answer comes with a worked explanation. Aim for 8 out of 10.</p><h2>What the IMO asks from Integers in Class 7</h2><ul><li>Ordering, comparing and absolute value.</li><li>All four operations with negative numbers.</li><li>Properties: closure, commutativity, distributivity.</li><li>Number-line journeys, temperatures, depths and money.</li><li>Multi-step puzzles: magic squares, digit games.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>(&minus;) &times; (&minus;) = (+), and (&minus;) &times; (+) = (&minus;) — sign first, digits second.</li><li>Subtracting an integer means adding its opposite: a &minus; (&minus;b) = a + b.</li><li>|&minus;7| = 7: absolute value is distance from zero, never negative.</li><li>Division by zero is undefined — 0 &divide; 5 = 0, but 5 &divide; 0 does not exist.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Computing &minus;3&sup2; as 9 (it is &minus;9 unless the minus is inside the bracket).</li><li>Jumping the wrong way on the number line for subtraction.</li><li>Forgetting that the sum of an integer and its opposite is 0, not the number itself.</li></ul><h2>Free IMO Class 7 Integers online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-integers\"><strong>IMO Class 7 Maths — Integers e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Integers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Integers",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Which of the following is <em>not</em> an integer?",
+        "options": [
+          "0",
+          "−3",
+          "5/2",
+          "100"
+        ],
+        "answer": 2,
+        "explanation": "An integer is any number from the set {…, −3, −2, −1, 0, 1, 2, 3, …}. 0, −3 and 100 all belong to this set. 5/2 = 2.5 is a rational number, not an integer."
+      },
+      {
+        "q": "What is the absolute difference between the largest negative integer and the smallest positive integer?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "−2"
+        ],
+        "answer": 2,
+        "explanation": "The largest negative integer is −1 and the smallest positive integer is 1. |(−1) − 1| = |−2| = 2."
+      },
+      {
+        "q": "Evaluate: −7 + (−3) − (−5) + 2.",
+        "options": [
+          "−3",
+          "−7",
+          "3",
+          "−17"
+        ],
+        "answer": 0,
+        "explanation": "−7 + (−3) = −10. −10 − (−5) = −10 + 5 = −5. −5 + 2 = −3."
+      },
+      {
+        "q": "Simplify: 45 ÷ (−9) × 3.",
+        "options": [
+          "−15",
+          "15",
+          "−5",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Work left to right: 45 ÷ (−9) = −5. −5 × 3 = −15."
+      },
+      {
+        "q": "Which of the following operations on the set of integers does NOT possess the closure property?",
+        "options": [
+          "Addition",
+          "Subtraction",
+          "Multiplication",
+          "Division"
+        ],
+        "answer": 3,
+        "explanation": "Adding, subtracting or multiplying two integers always produces an integer. Division can leave the set: 5 ÷ 2 = 2.5 is not an integer. So integers are not closed under division."
+      },
+      {
+        "q": "Evaluate using a suitable property: (−85) × 98 + (−85) × 2.",
+        "options": [
+          "−8500",
+          "8500",
+          "−850",
+          "−8330"
+        ],
+        "answer": 0,
+        "explanation": "Take out the common factor −85 (distributive property). (−85) × (98 + 2) = (−85) × 100 = −8500."
+      },
+      {
+        "q": "At midnight the temperature was −8°C. By 6 AM it rose by 5°C. By noon it fell by 9°C. What was the temperature at noon?",
+        "options": [
+          "−12°C",
+          "−4°C",
+          "12°C",
+          "−22°C"
+        ],
+        "answer": 0,
+        "explanation": "6 AM: −8 + 5 = −3°C. Noon: −3 − 9 = −12°C."
+      },
+      {
+        "q": "In an exam, +4 marks are given per correct answer, −2 per incorrect answer, and 0 for unattempted questions. Rohan answers 18 correctly and 7 incorrectly. What is his total score?",
+        "options": [
+          "58",
+          "72",
+          "44",
+          "86"
+        ],
+        "answer": 0,
+        "explanation": "Correct: 18 × 4 = 72. Incorrect: 7 × (−2) = −14. Total = 72 − 14 = 58."
+      },
+      {
+        "q": "If a * b = a + b − ab, evaluate (−3) * 4.",
+        "options": [
+          "13",
+          "−11",
+          "11",
+          "−13"
+        ],
+        "answer": 0,
+        "explanation": "a + b = −3 + 4 = 1. ab = (−3) × 4 = −12. So a + b − ab = 1 − (−12) = 13."
+      },
+      {
+        "q": "The product of three consecutive integers is −504. What is their sum?",
+        "options": [
+          "−24",
+          "−21",
+          "24",
+          "−27"
+        ],
+        "answer": 0,
+        "explanation": "8³ = 512 is close to 504, and the product is negative. Test (−9) × (−8) × (−7) = −504. It works. Sum = −9 − 8 − 7 = −24."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Integers test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-integers\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-perimeter-and-area-mcq-online-test",
+  "title": "IMO Class 7 Perimeter and Area Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Perimeter and Area online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Perimeter and Area online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Perimeter and Area online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-perimeter-and-area.png",
+  "cta_product_slug": "imo-class-7-maths-perimeter-and-area",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Perimeter and Area online test",
+  "content": "<p>A wire bent into a square of side 10 cm is reshaped into a rectangle of length 12 cm. Does that sentence instantly say \"same perimeter, breadth 8\" to your child? Then this chapter is in good shape. Take the free <strong>IMO Class 7 Perimeter and Area online test</strong> below. It has 10 Olympiad-pattern MCQs with instant scoring. Every answer comes with a worked explanation. Aim for 8 out of 10.</p><h2>What the IMO asks from Perimeter and Area in Class 7</h2><ul><li>Perimeter and area of squares, rectangles, parallelograms and triangles.</li><li>Area of paths and borders.</li><li>Circumference and area of circles.</li><li>Cost-based problems (fencing, tiling).</li><li>Reshaping problems: same wire, new figure.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Area of a parallelogram = base &times; height — the SLANT side is not the height.</li><li>Area of a triangle = &frac12; &times; base &times; height.</li><li>Circumference = 2&pi;r; area = &pi;r&sup2; — with r doubled, area becomes 4&times;.</li><li>Same wire = same perimeter, almost never the same area.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Using the slant side of a parallelogram as its height.</li><li>Mixing units (metres for length, cm for breadth) inside one formula.</li><li>Doubling area when the radius doubles.</li></ul><h2>Free IMO Class 7 Perimeter and Area online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-perimeter-and-area\"><strong>IMO Class 7 Maths — Perimeter and Area e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Perimeter and Area Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Perimeter and Area",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "The perimeter of a rectangle is 80 cm and its length is 3 times its breadth. Its dimensions are:",
+        "options": [
+          "30 cm × 10 cm",
+          "24 cm × 8 cm",
+          "36 cm × 12 cm",
+          "27 cm × 9 cm"
+        ],
+        "answer": 0,
+        "explanation": "2(3x + x) = 8x = 80 gives x = 10. Length 30 cm, breadth 10 cm."
+      },
+      {
+        "q": "A rectangle has area 240 cm² and length 15 cm. Its breadth is:",
+        "options": [
+          "16 cm",
+          "18 cm",
+          "12 cm",
+          "15 cm"
+        ],
+        "answer": 0,
+        "explanation": "240 ÷ 15 = 16 cm."
+      },
+      {
+        "q": "A wire of length 480 cm forming a square is rebent into a rectangle of length 140 cm. The breadth is:",
+        "options": [
+          "100 cm",
+          "104 cm",
+          "96 cm",
+          "110 cm"
+        ],
+        "answer": 0,
+        "explanation": "2(140 + b) = 480. b = 100 cm."
+      },
+      {
+        "q": "The perimeter of a triangle is 40 cm; the longest side is twice the shortest, and the third is 5 cm less than the longest. The sides are:",
+        "options": [
+          "9, 13, 18 cm",
+          "8, 14, 18 cm",
+          "10, 12, 18 cm",
+          "9, 14, 17 cm"
+        ],
+        "answer": 0,
+        "explanation": "x + 2x + (2x − 5) = 40 gives x = 9. Sides 9, 13, 18 cm."
+      },
+      {
+        "q": "A parallelogram has area 180 cm² and height 9 cm. If the base is increased by 5 cm, the new area is:",
+        "options": [
+          "225 cm²",
+          "205 cm²",
+          "245 cm²",
+          "215 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Base = 20 cm → 25 cm. New area = 25 × 9 = 225 cm²."
+      },
+      {
+        "q": "A 45 m × 33 m garden gets a 2-m wide outer path. Paving it at Rs. 11 per m² costs:",
+        "options": [
+          "Rs. 3,608",
+          "Rs. 3,256",
+          "Rs. 3,376",
+          "Rs. 3,848"
+        ],
+        "answer": 0,
+        "explanation": "Outer 49 × 37 = 1813; inner 1485 → path 328 m². 328 × 11 = Rs. 3,608."
+      },
+      {
+        "q": "A circle has area 154 cm². Its circumference is (π = 22/7):",
+        "options": [
+          "44 cm",
+          "38 cm",
+          "48 cm",
+          "56 cm"
+        ],
+        "answer": 0,
+        "explanation": "r² = 49 gives r = 7. C = 2(22/7)(7) = 44 cm."
+      },
+      {
+        "q": "A square of side 10 cm and an 8 cm × 5 cm rectangle are joined. The total area is:",
+        "options": [
+          "140 cm²",
+          "130 cm²",
+          "150 cm²",
+          "120 cm²"
+        ],
+        "answer": 0,
+        "explanation": "100 + 40 = 140 cm²."
+      },
+      {
+        "q": "A room's floor has perimeter 40 m and the room is 4 m high. The area of its four walls is:",
+        "options": [
+          "160 m²",
+          "120 m²",
+          "200 m²",
+          "80 m²"
+        ],
+        "answer": 0,
+        "explanation": "Walls area = perimeter × height. 40 × 4 = 160 m²."
+      },
+      {
+        "q": "A park's length is 5 m less than twice its breadth. A 2.5-m path surrounds it and the outer boundary is 64 m. The breadth is:",
+        "options": [
+          "9 m",
+          "7 m",
+          "11 m",
+          "8 m"
+        ],
+        "answer": 0,
+        "explanation": "Outer perimeter = 2(2b + b + 5) = 6b + 10 = 64. b = 9 m."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Perimeter and Area test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-perimeter-and-area\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

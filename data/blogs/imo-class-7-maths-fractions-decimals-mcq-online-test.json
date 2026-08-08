@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-fractions-decimals-mcq-online-test",
+  "title": "IMO Class 7 Fractions and Decimals Online Test: Free MCQs",
+  "meta_title": "IMO Class 7 Fractions and Decimals online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Fractions and Decimals online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Fractions and Decimals online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-fractions-decimals.jpg",
+  "cta_product_slug": "imo-class-7-maths-fractions-decimals",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Fractions and Decimals online test",
+  "content": "<p>Half the errors we see in Class 7 mock tests trace back to one skill. Switching cleanly between fractions and decimals. IMO setters know it — and build entire question sets around it. Scroll down for the free <strong>IMO Class 7 Fractions and Decimals online test</strong>. Ten Olympiad-pattern MCQs, instant scoring. Under every question sits an explanation you can learn from.</p><h2>What the IMO asks from Fractions and Decimals in Class 7</h2><ul><li>All four operations on fractions and mixed numbers.</li><li>Multiplying and dividing decimals (watching the point).</li><li>\"Of\" problems: 3/5 of a quantity.</li><li>Comparing and ordering mixed sets like 0.54, 11/20, 3/5.</li><li>Word problems on sharing, cooking and measurement.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>To divide by a fraction, multiply by its reciprocal: 3/4 &divide; 2/5 = 3/4 &times; 5/2.</li><li>Multiplying by 0.1 moves the decimal point one place LEFT.</li><li>To compare fractions fast, cross-multiply — no LCM needed.</li><li>1/8 = 0.125, 1/4 = 0.25, 3/8 = 0.375 — memorise the eighths family.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Adding numerators AND denominators (2/3 + 1/3 is 1, not 3/6).</li><li>Losing the decimal point when multiplying by 10, 100, 1000.</li><li>Cancelling across a plus sign — you can only cancel factors.</li></ul><h2>Free IMO Class 7 Fractions and Decimals online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-fractions-decimals\"><strong>IMO Class 7 Maths — Fractions and Decimals e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Fractions and Decimals Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Fractions and Decimals",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Convert 27/5 to a mixed fraction, then find the product of its whole number part and the numerator of its fractional part.",
+        "options": [
+          "10",
+          "12",
+          "7",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "27 ÷ 5 = 5 remainder 2, so 27/5 = 5 2/5. Whole number part = 5; numerator of the fractional part = 2. Product = 5 × 2 = 10."
+      },
+      {
+        "q": "Which is larger: 5/8 or 7/12?",
+        "options": [
+          "5/8",
+          "7/12",
+          "They are equal",
+          "Cannot be compared"
+        ],
+        "answer": 0,
+        "explanation": "LCM of 8 and 12 is 24. 5/8 = 15/24 and 7/12 = 14/24. 15/24 > 14/24, so 5/8 is larger."
+      },
+      {
+        "q": "Simplify: 3/8 + 5/12.",
+        "options": [
+          "19/24",
+          "8/20",
+          "2/5",
+          "15/24"
+        ],
+        "answer": 0,
+        "explanation": "LCM of 8 and 12 is 24. 3/8 = 9/24 and 5/12 = 10/24. 9/24 + 10/24 = 19/24."
+      },
+      {
+        "q": "Multiply: 4/9 × 3/10. Give the answer in simplest form.",
+        "options": [
+          "2/15",
+          "12/90",
+          "7/19",
+          "4/15"
+        ],
+        "answer": 0,
+        "explanation": "4/9 × 3/10 = 12/90. Divide top and bottom by 6: 2/15."
+      },
+      {
+        "q": "In the decimal 2.035, what is the place value of 3?",
+        "options": [
+          "0.03",
+          "0.3",
+          "3",
+          "0.003"
+        ],
+        "answer": 0,
+        "explanation": "The digit 3 sits in the hundredths place. Place value = 3 × 0.01 = 0.03."
+      },
+      {
+        "q": "Multiply: 0.06 × 0.5.",
+        "options": [
+          "0.03",
+          "0.3",
+          "0.003",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "6 × 5 = 30; the factors have 2 + 1 = 3 decimal places. So 0.06 × 0.5 = 0.030 = 0.03."
+      },
+      {
+        "q": "Express 0.625 as a fraction in simplest form.",
+        "options": [
+          "5/8",
+          "5/6",
+          "62/100",
+          "3/5"
+        ],
+        "answer": 0,
+        "explanation": "0.625 = 625/1000. Divide top and bottom by 125: 5/8."
+      },
+      {
+        "q": "Find the reciprocal of the sum of 1/4 and 1/6.",
+        "options": [
+          "12/5",
+          "5/12",
+          "10/24",
+          "24/10"
+        ],
+        "answer": 0,
+        "explanation": "1/4 + 1/6 = 3/12 + 2/12 = 5/12. The reciprocal of 5/12 is 12/5 = 2 2/5."
+      },
+      {
+        "q": "A book has 240 pages. Sam reads 3/8 of it on Monday and 1/5 of the remainder on Tuesday. How many pages are left?",
+        "options": [
+          "120",
+          "90",
+          "150",
+          "130"
+        ],
+        "answer": 0,
+        "explanation": "Monday: 240 × 3/8 = 90 pages; remainder = 150. Tuesday: 150 × 1/5 = 30 pages. Left = 240 − 90 − 30 = 120 pages."
+      },
+      {
+        "q": "A rope is cut into three pieces. The first piece is 2/7 of the whole and the second is 3/8 of the remainder. If the third piece is 25 m long, find the total length of the rope.",
+        "options": [
+          "56 m",
+          "48 m",
+          "64 m",
+          "70 m"
+        ],
+        "answer": 0,
+        "explanation": "Let the total be x. First piece = 2x/7, remainder = 5x/7. Second piece = (3/8)(5x/7) = 15x/56. Third piece = x − 16x/56 − 15x/56 = 25x/56 = 25. So x = 56 m."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Fractions and Decimals test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-fractions-decimals\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

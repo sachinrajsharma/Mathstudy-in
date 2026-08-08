@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-percentages-mcq-online-test",
+  "title": "IMO Class 7 Percentages Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Percentages online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Percentages online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Percentages online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-percentages.png",
+  "cta_product_slug": "imo-class-7-maths-percentages",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Percentages online test",
+  "content": "<p>A number is decreased by 30%, then increased by 30% — and half of every class answers \"no change\". That one reflex, more than anything, is what the IMO Percentages questions are designed to catch. Scroll down for the free <strong>IMO Class 7 Percentages online test</strong>. Ten Olympiad-pattern MCQs, instant scoring. Under every question sits an explanation you can learn from.</p><h2>What the IMO asks from Percentages in Class 7</h2><ul><li>Conversions between fractions, decimals and per cent.</li><li>Finding x% of a quantity; expressing one number as % of another.</li><li>Percentage increase and decrease.</li><li>Successive changes (the 30%-down-30%-up trap).</li><li>Word problems: marks, population, discounts.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Successive changes MULTIPLY: &minus;30% then +30% is 0.7 &times; 1.3 = 0.91 — a 9% decrease.</li><li>5 : 8 as a percentage is 5/8 &times; 100 = 62.5%.</li><li>0.00875 = 0.875% — moving to per cent multiplies by 100.</li><li>To undo a 20% increase you decrease by 16&frac23;%, not 20%.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Adding successive percentage changes.</li><li>Taking the percentage of the wrong base (new vs original).</li><li>Confusing percentage POINTS with percentage change.</li></ul><h2>Free IMO Class 7 Percentages online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-percentages\"><strong>IMO Class 7 Maths — Percentages e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Percentages Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Percentages",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Express 0.00875 as a percentage.",
+        "options": [
+          "0.875%",
+          "8.75%",
+          "0.0875%",
+          "87.5%"
+        ],
+        "answer": 0,
+        "explanation": "Multiply by 100 to convert a decimal to a percentage. 0.00875 × 100 = 0.875%."
+      },
+      {
+        "q": "If 60% of a number is 36, then 160% of the same number is:",
+        "options": [
+          "96",
+          "90",
+          "100",
+          "108"
+        ],
+        "answer": 0,
+        "explanation": "0.6x = 36 gives x = 60. 160% of 60 = 96."
+      },
+      {
+        "q": "When 35% of a number is subtracted from the number itself, the result is 520. The number is:",
+        "options": [
+          "800",
+          "750",
+          "820",
+          "780"
+        ],
+        "answer": 0,
+        "explanation": "x − 0.35x = 0.65x = 520. x = 520 / 0.65 = 800."
+      },
+      {
+        "q": "If x is 25% less than y, then y is more than x by:",
+        "options": [
+          "33&frac13;%",
+          "25%",
+          "30%",
+          "20%"
+        ],
+        "answer": 0,
+        "explanation": "x = 0.75y = 3y/4, so y = 4x/3. y − x = x/3, i.e. 33&frac13;% more."
+      },
+      {
+        "q": "A number is increased by 20% and then decreased by 20%. The net change is:",
+        "options": [
+          "4% decrease",
+          "no change",
+          "4% increase",
+          "2% decrease"
+        ],
+        "answer": 0,
+        "explanation": "Multiplier = 1.20 × 0.80 = 0.96. Equal up-down changes of x% always lose (x&sup2;/100)% = 4%."
+      },
+      {
+        "q": "The side of a square is increased by 30%. Its area increases by:",
+        "options": [
+          "69%",
+          "60%",
+          "30%",
+          "90%"
+        ],
+        "answer": 0,
+        "explanation": "Area multiplier = (1.3)&sup2; = 1.69. Successive form: 30 + 30 + (30 × 30)/100 = 69%."
+      },
+      {
+        "q": "Petrol becomes 25% costlier. To keep expenditure unchanged, consumption must fall by:",
+        "options": [
+          "20%",
+          "25%",
+          "22.5%",
+          "12.5%"
+        ],
+        "answer": 0,
+        "explanation": "Reduction = r/(100 + r) × 100 = 25/125 × 100 = 20%."
+      },
+      {
+        "q": "A town grows 10%, then 20%, then falls 25% over three years. Its present population is 29,700. Three years ago it was:",
+        "options": [
+          "30,000",
+          "29,000",
+          "33,000",
+          "27,500"
+        ],
+        "answer": 0,
+        "explanation": "Multiplier = 1.1 × 1.2 × 0.75 = 0.99. 0.99P = 29,700 gives P = 30,000."
+      },
+      {
+        "q": "An acid solution is 30% acid. Adding 20 litres of water drops the strength to 20%. The initial volume was:",
+        "options": [
+          "40 litres",
+          "30 litres",
+          "50 litres",
+          "60 litres"
+        ],
+        "answer": 0,
+        "explanation": "Acid is unchanged: 0.3X = 0.2(X + 20). 0.1X = 4 gives X = 40 litres."
+      },
+      {
+        "q": "Of 20,000 votes, 15% were invalid. Candidate A got 45% of the valid votes. Candidate B got:",
+        "options": [
+          "9,350",
+          "9,000",
+          "7,650",
+          "10,350"
+        ],
+        "answer": 0,
+        "explanation": "Valid = 85% of 20,000 = 17,000. B got 55% of 17,000 = 9,350."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Percentages test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-percentages\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

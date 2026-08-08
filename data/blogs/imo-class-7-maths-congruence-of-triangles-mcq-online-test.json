@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-congruence-of-triangles-mcq-online-test",
+  "title": "IMO Class 7 Congruence of Triangles Online Test: Free MCQs",
+  "meta_title": "IMO Class 7 Congruence of Triangles online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Congruence of Triangles online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100…",
+  "excerpt": "A free 10-question Congruence of Triangles online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-congruence-of-triangles.png",
+  "cta_product_slug": "imo-class-7-maths-congruence-of-triangles",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Congruence of Triangles online test",
+  "content": "<p>Congruence is the first chapter where Class 7 students write PROOFS. It is also where the IMO checks a famous fact: AAA is NOT enough. Corresponding parts, in the right order, are everything. The free <strong>IMO Class 7 Congruence of Triangles online test</strong> below has 10 exam-pattern MCQs with instant scoring. Treat it as a diagnostic. Every explanation tells you what to revise.</p><h2>What the IMO asks from Congruence of Triangles in Class 7</h2><ul><li>Congruence criteria: SSS, SAS, ASA, RHS.</li><li>Matching corresponding parts (CPCT).</li><li>Reading congruence statements like &Delta;XYZ &cong; &Delta;PQR.</li><li>Why AAA and SSA fail.</li><li>Simple two-step congruence arguments.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>&Delta;XYZ &cong; &Delta;PQR means X&harr;P, Y&harr;Q, Z&harr;R — the ORDER carries the information.</li><li>SAS needs the angle BETWEEN the two sides — an angle elsewhere proves nothing.</li><li>AAA gives the same SHAPE (similar), not the same SIZE.</li><li>RHS works only in right triangles: hypotenuse + one side.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Using SSA as if it were a valid test.</li><li>Reading corresponding parts from the figure instead of the congruence statement.</li><li>Forgetting the included-angle condition in SAS.</li></ul><h2>Free IMO Class 7 Congruence of Triangles online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-congruence-of-triangles\"><strong>IMO Class 7 Maths — Congruence of Triangles e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Congruence of Triangles Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Congruence of Triangles",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "Two figures are congruent when they have:",
+        "options": [
+          "the same shape AND the same size",
+          "the same shape only",
+          "the same size only",
+          "equal perimeters only"
+        ],
+        "answer": 0,
+        "explanation": "Congruent figures cover each other exactly. Same shape alone gives similarity; congruence also needs equal size."
+      },
+      {
+        "q": "ΔABC has AB = 8, BC = 10, AC = 6; ΔDEF has DE = 6, EF = 8, DF = 10. They are congruent by:",
+        "options": [
+          "SSS",
+          "SAS",
+          "RHS",
+          "they are not congruent"
+        ],
+        "answer": 0,
+        "explanation": "AB = EF = 8, BC = DF = 10, AC = DE = 6. SSS."
+      },
+      {
+        "q": "ΔABC and ΔDEF have AB = DE = 5, BC = EF = 6 and &ang;ABC = &ang;DEF = 70&deg;. The criterion is:",
+        "options": [
+          "SAS",
+          "ASA",
+          "SSS",
+          "AAS"
+        ],
+        "answer": 0,
+        "explanation": "&ang;B is included between AB and BC. SAS."
+      },
+      {
+        "q": "The ASA criterion needs two angles and:",
+        "options": [
+          "the INCLUDED side",
+          "any side",
+          "the longest side",
+          "the hypotenuse"
+        ],
+        "answer": 0,
+        "explanation": "The side must lie between the two angles. If the side is non-included, the criterion is AAS instead."
+      },
+      {
+        "q": "Right triangles PQR and STU have &ang;Q = &ang;T = 90&deg;, PQ = ST = 6 cm and hypotenuses PR = SU = 10 cm. The remaining sides QR and TU equal:",
+        "options": [
+          "8 cm each",
+          "7 cm each",
+          "9 cm each",
+          "12 cm each"
+        ],
+        "answer": 0,
+        "explanation": "&radic;(10&sup2; &minus; 6&sup2;) = &radic;64 = 8. Both triangles have third side 8 cm — congruent by RHS."
+      },
+      {
+        "q": "E, F are midpoints of the equal sides AB, AC of isosceles ΔABC. ΔBEC &cong; ΔCFB by:",
+        "options": [
+          "SAS",
+          "SSS",
+          "RHS",
+          "AAA"
+        ],
+        "answer": 0,
+        "explanation": "BE = CF (halves of equal sides), &ang;EBC = &ang;FCB (base angles), BC common. SAS — so the \"cross\" segments CE and BF are equal."
+      },
+      {
+        "q": "In square ABCD, the diagonals AC and BD are equal because ΔABC &cong; ΔBAD by:",
+        "options": [
+          "SAS",
+          "SSS",
+          "AAS",
+          "RHS"
+        ],
+        "answer": 0,
+        "explanation": "AB = BA, BC = AD, and the included right angles &ang;B = &ang;A. SAS, so AC = BD by CPCT."
+      },
+      {
+        "q": "A square has how many lines of symmetry?",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Two diagonals + horizontal and vertical mid-lines. 4 lines."
+      },
+      {
+        "q": "The order of rotational symmetry of a square is:",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Matches after every 90&deg; turn. Order 4."
+      },
+      {
+        "q": "All 8 lines of symmetry of a regular octagon are drawn. The octagon is divided into congruent right triangles numbering:",
+        "options": [
+          "16",
+          "8",
+          "12",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "The 8 mirror lines through the centre create 16 sectors. Each is a right triangle with central angle 22.5&deg;."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Congruence of Triangles test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-congruence-of-triangles\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

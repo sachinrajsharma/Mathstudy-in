@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-7-maths-visualising-solid-shapes-mcq-online-test",
+  "title": "IMO Class 7 Solid Shapes Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 7 Solid Shapes online test — Free MCQs",
+  "meta_desc": "Free IMO Class 7 Solid Shapes online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Solid Shapes online test for IMO Class 7 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 7",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-7-maths-visualising-solid-shapes.png",
+  "cta_product_slug": "imo-class-7-maths-visualising-solid-shapes",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 7 Solid Shapes online test",
+  "content": "<p>Can your child see the hidden cubes in a stack? Or say which net folds into a dice with opposite faces summing to 7? Visualising Solid Shapes is the IMO&rsquo;s test of mental rotation. It is wonderfully coachable. Take the free <strong>IMO Class 7 Solid Shapes online test</strong> below. It has 10 Olympiad-pattern MCQs with instant scoring. Every answer comes with a worked explanation. Aim for 8 out of 10.</p><h2>What the IMO asks from Solid Shapes in Class 7</h2><ul><li>Faces, edges and vertices of solids.</li><li>Nets of cubes, cuboids, cylinders and cones.</li><li>Euler&rsquo;s relation F + V &minus; E = 2.</li><li>Views: top, front, side.</li><li>Cross-sections and shadow shapes.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>A cube: 6 faces, 12 edges, 8 vertices — and F + V &minus; E = 6 + 8 &minus; 12 = 2.</li><li>A cube net always has exactly 6 squares — but not every 6-square arrangement folds.</li><li>A cylinder&rsquo;s net: two circles + one rectangle.</li><li>On a standard dice net, opposite faces sum to 7.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Counting hidden cubes wrongly in stack pictures (work layer by layer).</li><li>Accepting any 6-square arrangement as a cube net.</li><li>Confusing edges with vertices in the Euler check.</li></ul><h2>Free IMO Class 7 Solid Shapes online test</h2><p>The 10-question quiz below comes from our verified IMO Class 7 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-7-maths-visualising-solid-shapes\"><strong>IMO Class 7 Maths — Solid Shapes e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 7 title on the <a href=\"/shop/category/grade-7-math\">Grade 7 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 7 chapter. The <a href=\"/shop/product/imo-class-7-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 7 Solid Shapes Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 7: Solid Shapes",
+    "level": "Class 7",
+    "questions": [
+      {
+        "q": "A triangular prism has this many faces:",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "2 triangular bases + 3 rectangles. = 5 faces."
+      },
+      {
+        "q": "A solid has 10 faces and 15 vertices. By Euler's formula it has this many edges:",
+        "options": [
+          "23",
+          "25",
+          "21",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "10 + 15 − E = 2. E = 23."
+      },
+      {
+        "q": "A pyramid on an n-sided base has this many edges:",
+        "options": [
+          "2n",
+          "n + 1",
+          "3n",
+          "n + 2"
+        ],
+        "answer": 0,
+        "explanation": "n base edges + n slant edges. = 2n."
+      },
+      {
+        "q": "The net of a cone consists of:",
+        "options": [
+          "a circular sector and a circle",
+          "two circles and a rectangle",
+          "a triangle and a circle",
+          "two sectors"
+        ],
+        "answer": 0,
+        "explanation": "The slant surface opens into a sector. The base is a circle."
+      },
+      {
+        "q": "A sphere is sliced through its centre. The cross-section is:",
+        "options": [
+          "a great circle",
+          "an ellipse",
+          "a semicircle",
+          "an oval"
+        ],
+        "answer": 0,
+        "explanation": "The largest possible circle, with the sphere's own radius."
+      },
+      {
+        "q": "The front, side and top views are all identical circles. The solid is a:",
+        "options": [
+          "sphere",
+          "cylinder",
+          "cone",
+          "hemisphere"
+        ],
+        "answer": 0,
+        "explanation": "A sphere looks circular from every direction."
+      },
+      {
+        "q": "A painted cube is cut into 125 small cubes. Cubes with exactly THREE painted faces number:",
+        "options": [
+          "8",
+          "12",
+          "6",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "Only the corner cubes. Always 8."
+      },
+      {
+        "q": "Three 2-cm cubes joined in a row form a cuboid of surface area:",
+        "options": [
+          "56 cm²",
+          "72 cm²",
+          "48 cm²",
+          "64 cm²"
+        ],
+        "answer": 0,
+        "explanation": "6 × 2 × 2 cuboid: 2(12 + 4 + 12). = 56 cm²."
+      },
+      {
+        "q": "A cone of radius 3 and height 4 is carved out of a cylinder of the same base and height. Remaining : cone volume is:",
+        "options": [
+          "2 : 1",
+          "3 : 1",
+          "1 : 2",
+          "3 : 2"
+        ],
+        "answer": 0,
+        "explanation": "Cylinder 36π; cone 12π; remaining 24π. 24π : 12π = 2 : 1."
+      },
+      {
+        "q": "A cube of side 10 cm has a 4-cm-diameter hole drilled straight through. The surface area becomes:",
+        "options": [
+          "600 + 32π cm²",
+          "600 − 8π cm²",
+          "600 + 24π cm²",
+          "600 + 40π cm²"
+        ],
+        "answer": 0,
+        "explanation": "Lose two circles (8π), gain the tunnel wall 40π. 600 + 32π cm²."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Solid Shapes test really free?",
+      "a": "Yes — all 10 questions, scoring and explanations are free. The e-book adds 100 more MCQs with full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 7 students preparing for the SOF IMO and similar maths Olympiads. Strong Class 6 students use it for a head start too."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above, redo the test after two days, then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-7-maths-visualising-solid-shapes\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}
