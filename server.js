@@ -290,6 +290,27 @@ const uploadCover = multer({ storage: storageCovers, limits: { fileSize: 5*1024*
 const uploadPdf   = multer({ storage: storagePdfs,   limits: { fileSize: 50*1024*1024 },
   fileFilter: (req, file, cb) => cb(null, file.mimetype === 'application/pdf') });
 
+// Covers live in git-ignored public/uploads/products, which every Hostinger
+// redeploy replaces with an empty checkout — so a cover that exists only on
+// disk is lost on the next deploy (this happened to live products). The byte
+// content therefore also goes into MySQL, which deploys never touch; disk is
+// just a cache that boot-time healCovers() and the /uploads/products fallback
+// route rebuild from the DB.
+const COVER_MIME = { '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.webp':'image/webp' };
+async function persistCoverToDb(filename) {
+  const file = path.join(__dirname, 'public/uploads/products', filename);
+  const mime = COVER_MIME[path.extname(filename).toLowerCase()] || 'application/octet-stream';
+  await pool.query(
+    `INSERT INTO product_cover_files (filename, mime, data) VALUES (?,?,?)
+     ON DUPLICATE KEY UPDATE mime=VALUES(mime), data=VALUES(data)`,
+    [filename, mime, fs.readFileSync(file)]);
+}
+function restoreCoverFromDbRow(row) {
+  const dir = path.join(__dirname, 'public/uploads/products');
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, row.filename), row.data);
+}
+
 function sha256(str) { return crypto.createHash('sha256').update(str).digest('hex'); }
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -583,6 +604,24 @@ app.get('/terms', (req, res) => res.render('terms', {
   metaDesc: 'Terms for buying MathStudy.in math e-books: UPI payment, same-day download delivery, personal-use licence, re-downloads and our refund policy.',
   canonical: BASE_URL + '/terms'
 }));
+
+// Cover fallback: express.static served the file if it exists on disk, so a
+// request landing here means a redeploy emptied public/uploads/products.
+// Serve the bytes from MySQL and write the file back so the next request is
+// static again.
+app.get('/uploads/products/:file', async (req, res) => {
+  const filename = req.params.file;
+  if (!/^[A-Za-z0-9._-]+$/.test(filename)) return res.status(404).end();
+  try {
+    const [[row]] = await pool.query(
+      `SELECT filename, mime, data FROM product_cover_files WHERE filename=?`, [filename]);
+    if (!row) return res.status(404).end();
+    try { restoreCoverFromDbRow(row); } catch (e) { console.error('[covers] disk restore:', e.message); }
+    res.set('Content-Type', row.mime);
+    res.set('Cache-Control', 'public, max-age=86400');
+    res.send(row.data);
+  } catch (e) { console.error('[covers] db fallback:', e.message); res.status(404).end(); }
+});
 
 const contactLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 5, standardHeaders: true, legacyHeaders: false,
   handler: (req, res) => res.status(429).render('error', { title: 'Too many messages', metaDesc: '', canonical: null,
@@ -1089,6 +1128,10 @@ app.post('/admin/products/new', requireAdmin, uploadCover.single('cover_image'),
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : null;
   try {
+    // Deploy-proof the cover BEFORE the product row exists: if this insert
+    // fails the blob is orphaned but harmless; if it succeeds the cover can
+    // always be rebuilt from MySQL.
+    if (req.file) await persistCoverToDb(req.file.filename);
     const bundleJson = await parseBundleItems(req.body, null);
     await pool.query(
       `INSERT INTO products (title,slug,description,short_desc,category_id,price,original_price,price_locked,cover_image,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url,bundle_items)
@@ -1108,6 +1151,7 @@ app.post('/admin/products/:id/edit', requireAdmin, uploadCover.single('cover_ima
   const { title,slug,description,short_desc,category_id,price,original_price,grade,board,page_count,meta_title,meta_desc,focus_keyword,is_featured,is_published,download_url } = req.body;
   const cover = req.file ? '/uploads/products/'+req.file.filename : req.body.existing_cover;
   try {
+    if (req.file) await persistCoverToDb(req.file.filename);
     const bundleJson = await parseBundleItems(req.body, req.params.id);
     await pool.query(
       `UPDATE products SET title=?,slug=?,description=?,short_desc=?,category_id=?,price=?,original_price=?,price_locked=1,cover_image=?,grade=?,board=?,page_count=?,meta_title=?,meta_desc=?,focus_keyword=?,is_featured=?,is_published=?,download_url=?,bundle_items=? WHERE id=?`,
@@ -1392,12 +1436,31 @@ pool.query(`ALTER TABLE products ADD COLUMN focus_keyword VARCHAR(255) NULL`)
       console.error('[schema] focus_keyword:', e.message);
   });
 
-// Cover self-heal: admin-uploaded covers live in the git-ignored
-// public/uploads/products folder, which a fresh deploy checkout does NOT
-// contain — so those covers 404 after every deploy. For products whose cover
-// is missing on disk (or never set), fall back to a repo-committed cover in
-// /wp-content/uploads matched by slug prefix. Idempotent; runs on every boot.
+// Byte copies of every admin-uploaded cover. MEDIUMBLOB (16 MB) comfortably
+// holds the 5 MB multer cap. Deploys replace the checkout but never MySQL,
+// so this table is the durable home of a cover; disk is only a cache.
+const coverTableReady = pool.query(
+  `CREATE TABLE IF NOT EXISTS product_cover_files (
+     filename   VARCHAR(255) PRIMARY KEY,
+     mime       VARCHAR(100) NOT NULL,
+     data       MEDIUMBLOB   NOT NULL,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   )`)
+  .then(function() { console.log('[schema] product_cover_files ready'); })
+  .catch(function(e) { console.error('[schema] product_cover_files:', e.message); });
+
+// Cover self-heal, runs on every boot (idempotent). Admin-uploaded covers live
+// in git-ignored public/uploads/products, which every deploy checkout empties.
+// Recovery order for each product whose cover file is missing on disk:
+//   1. product_cover_files (MySQL byte copy, written on every upload) — restore
+//      the exact file to disk, cover_image unchanged.
+//   2. A repo-committed /wp-content/uploads/<slug>.(png|jpg|jpeg|webp) —
+//      repoint cover_image there (rescues covers uploaded before the DB copy
+//      existed: commit the image named after the slug and redeploy).
+//   3. Legacy prefix map from the first heal pass (files whose names don't
+//      match their slug).
 (async function healCovers() {
+  await coverTableReady;
   const REPO_COVERS = {
     'imo-class-7-maths-integers':              '/wp-content/uploads/imo-class-7-maths-integers.jpg',
     'imo-class-7-maths-fractions':             '/wp-content/uploads/imo-class-7-maths-fractions-decimals.jpg',
@@ -1408,14 +1471,33 @@ pool.query(`ALTER TABLE products ADD COLUMN focus_keyword VARCHAR(255) NULL`)
   try {
     const [rows] = await pool.query(`SELECT id, slug, cover_image FROM products`);
     for (const p of rows) {
-      const prefix = Object.keys(REPO_COVERS).find((k) => (p.slug || '').indexOf(k) === 0);
-      if (!prefix) continue;
-      const coverMissing = !p.cover_image ||
-        (p.cover_image.indexOf('/uploads/products/') === 0 &&
-         !fs.existsSync(path.join(__dirname, 'public', p.cover_image)));
-      if (coverMissing && p.cover_image !== REPO_COVERS[prefix]) {
-        await pool.query(`UPDATE products SET cover_image=? WHERE id=?`, [REPO_COVERS[prefix], p.id]);
-        console.log('[covers] healed', p.slug, '->', REPO_COVERS[prefix]);
+      const isUploadPath = (p.cover_image || '').indexOf('/uploads/products/') === 0;
+      const onDisk = p.cover_image && fs.existsSync(path.join(__dirname, 'public', p.cover_image));
+      if (p.cover_image && !isUploadPath) continue;      // repo-served path, nothing to heal
+      if (isUploadPath && onDisk) continue;              // upload present, nothing to heal
+
+      // 1. Restore the exact uploaded file from its MySQL copy.
+      if (isUploadPath) {
+        const filename = p.cover_image.slice('/uploads/products/'.length);
+        const [[row]] = await pool.query(
+          `SELECT filename, mime, data FROM product_cover_files WHERE filename=?`, [filename]);
+        if (row) {
+          try { restoreCoverFromDbRow(row); console.log('[covers] restored from db:', filename); continue; }
+          catch (e) { console.error('[covers] restore ' + filename + ':', e.message); }
+        }
+      }
+      // 2. Slug-named repo cover.
+      const ext = ['.png', '.jpg', '.jpeg', '.webp'].find((x) =>
+        fs.existsSync(path.join(__dirname, 'public/wp-content/uploads', p.slug + x)));
+      let target = ext ? '/wp-content/uploads/' + p.slug + ext : null;
+      // 3. Legacy prefix map.
+      if (!target) {
+        const prefix = Object.keys(REPO_COVERS).find((k) => (p.slug || '').indexOf(k) === 0);
+        if (prefix) target = REPO_COVERS[prefix];
+      }
+      if (target && p.cover_image !== target) {
+        await pool.query(`UPDATE products SET cover_image=? WHERE id=?`, [target, p.id]);
+        console.log('[covers] healed', p.slug, '->', target);
       }
     }
   } catch (e) { console.error('[covers] self-heal:', e.message); }
