@@ -154,7 +154,17 @@ app.use(expressLayouts);
 app.set('layout', 'layout');
 
 // ── Static files & body parsing ───────────────────────────────────────────────
-app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'ignore', index: false }));
+// Cache-bust main.css/main.js per deploy: a fresh checkout stamps new mtimes,
+// so ?v= changes and every browser refetches — without this, visitors kept
+// day-old cached CSS after deploys and "couldn't see" shipped changes.
+app.locals.assetVer = (() => {
+  try {
+    return Math.floor(Math.max(
+      fs.statSync(path.join(__dirname, 'public/css/main.css')).mtimeMs,
+      fs.statSync(path.join(__dirname, 'public/js/main.js')).mtimeMs)).toString(36);
+  } catch (e) { return Date.now().toString(36); }
+})();
+app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'ignore', index: false, maxAge: '7d' }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
