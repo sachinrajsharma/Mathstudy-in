@@ -304,16 +304,19 @@ app.get('/', async (req, res) => {
     // Only stocked categories get a tile. Empty ones read "0 books" and lead to
     // a bare shelf (or a redirect) — and, worse, they were crowding the stocked
     // case-study categories out of the 12-tile grid.
+    // The keypad section maps categories to Grades 1–12, so pull every stocked
+    // category (not just 12) — an empty result would leave dead calculator keys.
     const [cats] = await pool.query(
       `SELECT c.id,c.name,c.slug, COUNT(p.id) AS product_count
        FROM categories c LEFT JOIN products p ON p.category_id=c.id AND p.is_published=1
-       GROUP BY c.id HAVING product_count > 0 ORDER BY c.sort_order LIMIT 12`
+       GROUP BY c.id HAVING product_count > 0 ORDER BY c.sort_order LIMIT 20`
     );
-    // Live catalogue size — the trust bar shows this, so it grows with the shop
-    // instead of going stale like a hardcoded number.
+    // Live catalogue size — the hero counter shows this, so it grows with the
+    // shop instead of going stale like a hardcoded number.
     const [[{ totalBooks }]] = await pool.query(
       `SELECT COUNT(*) AS totalBooks FROM products WHERE is_published=1`);
-    res.render('home', {
+    res.render('home-v2', {
+      layout: false,
       title: 'MathStudy.in — Premium Math E-Books for CBSE, JEE, ICSE',
       metaDesc: 'Buy premium math e-books for Grades 1–12, JEE, CAT, CUET. CBSE & ICSE aligned worksheets, case studies and sample papers. Instant PDF download.',
       canonical: process.env.BASE_URL || 'https://mathstudy.in',
@@ -321,9 +324,12 @@ app.get('/', async (req, res) => {
     });
   } catch(e) {
     console.error(e);
-    res.render('home', { title:'MathStudy.in', metaDesc:'Premium math ebooks', canonical:null, featured:[], cats:[], totalBooks:0 });
+    res.render('home-v2', { layout:false, title:'MathStudy.in — Premium Math E-Books for CBSE, JEE, ICSE', metaDesc:'Buy premium math e-books for Grades 1–12, JEE, CAT, CUET. CBSE & ICSE aligned worksheets, case studies and sample papers. Instant PDF download.', canonical:null, featured:[], cats:[], totalBooks:0 });
   }
 });
+
+// The design preview URL shipped; keep it working as a permanent redirect.
+app.get('/home-v2', (req, res) => res.redirect(301, '/'));
 
 // ════════════════════════════════════════════════════════════════════════════
 // ROUTES — SHOP
@@ -565,6 +571,18 @@ const contactView = (req, res, extra) => res.render('contact', Object.assign({
   error: null, form: {}
 }, extra || {}));
 app.get('/contact', (req, res) => contactView(req, res));
+
+// ── Legal pages (linked from every footer) ──────────────────────────────────
+app.get('/privacy-policy', (req, res) => res.render('privacy-policy', {
+  title: 'Privacy Policy — MathStudy.in',
+  metaDesc: 'How MathStudy.in collects, uses and protects your data: accounts, UPI order verification, cookies and analytics. We never sell your personal information.',
+  canonical: BASE_URL + '/privacy-policy'
+}));
+app.get('/terms', (req, res) => res.render('terms', {
+  title: 'Terms & Conditions — MathStudy.in',
+  metaDesc: 'Terms for buying MathStudy.in math e-books: UPI payment, same-day download delivery, personal-use licence, re-downloads and our refund policy.',
+  canonical: BASE_URL + '/terms'
+}));
 
 const contactLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 5, standardHeaders: true, legacyHeaders: false,
   handler: (req, res) => res.status(429).render('error', { title: 'Too many messages', metaDesc: '', canonical: null,
