@@ -11,6 +11,7 @@ const multer         = require('multer');
 const fs             = require('fs');
 const notify         = require('./lib/notify');
 const ordersLib      = require('./lib/orders');
+const analytics      = require('./lib/analytics');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
 const antispam       = require('./lib/antispam');
@@ -1073,6 +1074,46 @@ app.get('/admin/delivery-status', requireAdmin, async (req, res) => {
       <p style="margin-top:16px"><a href="/admin">← Back to admin</a></p>
     </body></html>`);
   } catch (e) { console.error(e); res.status(500).send('Delivery status error: ' + e.message); }
+});
+
+// Admin — Sales analytics: all-time + monthly + book-wise performance, computed
+// live from the orders tables (every past sale in the DB is included). Optional
+// filters: ?month=YYYY-MM (book table + KPIs for that month), ?product=<id>
+// (per-book monthly drill-down), ?export=monthly|books (CSV download).
+app.get('/admin/analytics', requireAdmin, async (req, res) => {
+  try {
+    const month = /^\d{4}-\d{2}$/.test(req.query.month || '') ? req.query.month : null;
+    const productId = /^\d+$/.test(req.query.product || '') ? Number(req.query.product) : null;
+
+    if (req.query.export === 'monthly') {
+      const months = await analytics.monthly(pool);
+      const csv = analytics.toCsv(
+        ['Month', 'Paid orders', 'Books sold', 'Revenue (INR)', 'Avg order value (INR)', 'Buyers', 'New buyers'],
+        months.map((r) => [r.ym, r.orders, r.units, r.revenue.toFixed(2), r.aov.toFixed(2), r.buyers, r.new_buyers]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', 'attachment; filename="mathstudy-sales-monthly.csv"');
+      return res.send(csv);
+    }
+    if (req.query.export === 'books') {
+      const books = await analytics.bookWise(pool, month);
+      const csv = analytics.toCsv(
+        ['Book', 'Slug', 'Category', 'List price (INR)', 'Units sold', 'Revenue (INR)', 'Revenue share %', 'First sale', 'Last sale'],
+        books.map((r) => [r.title, r.slug, r.category, r.price, r.units, r.revenue.toFixed(2),
+          r.share.toFixed(1), new Date(r.first_sale).toISOString().slice(0, 10),
+          new Date(r.last_sale).toISOString().slice(0, 10)]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition',
+        `attachment; filename="mathstudy-sales-books${month ? '-' + month : ''}.csv"`);
+      return res.send(csv);
+    }
+
+    const data = await analytics.overview(pool, { month, productId });
+    const [[{ pending }]] = await pool.query(`SELECT COUNT(*) AS pending FROM orders WHERE status='pending'`);
+    res.render('admin/analytics', {
+      title: 'Sales Analytics — Admin — MathStudy.in', metaDesc: '', canonical: null,
+      ...data, month, pendingCount: pending,
+    });
+  } catch (e) { console.error(e); res.status(500).send('Analytics error: ' + e.message); }
 });
 
 // Admin — Products list
