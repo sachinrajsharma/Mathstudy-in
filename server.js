@@ -904,6 +904,15 @@ app.post('/checkout/upi-confirm', checkoutLimiter, requireLogin, async (req, res
       baseUrl: BASE_URL
     }).catch(e => console.error('admin notify failed:', e.message));
 
+    // Tell the buyer their payment claim is in: verified manually within ~4h,
+    // download link comes by email, don't pay twice — best effort.
+    notify.userOrderReceived({
+      order: { id: orderId, payment_id: orderRef, total_amount: total },
+      items: cart.map(c => ({ title: c.title, price: c.price })),
+      user: req.session.user,
+      baseUrl: BASE_URL
+    }).catch(e => console.error('buyer order-received notify failed:', e.message));
+
     req.session.cart = [];
     req.session.save(err => {
       if (err) return res.status(500).json({ error:'Session error.' });
