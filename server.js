@@ -242,6 +242,9 @@ app.use((req, res, next) => {
   res.locals.cart = req.session.cart || [];
   res.locals.cartCount = (req.session.cart || []).length;
   res.locals.baseUrl = process.env.BASE_URL || 'https://mathstudy.in';
+  // Absolute URL of the page being rendered — the footer share buttons share
+  // whichever page the visitor is on (home, shop, a product, a blog post).
+  res.locals.currentUrl = (process.env.BASE_URL || 'https://mathstudy.in') + req.originalUrl;
   res.locals.title = 'MathStudy.in — Premium Math E-Books';
   res.locals.metaDesc = 'Download premium math e-books for CBSE, ICSE, JEE, CAT. Grades 1–12 worksheets, case studies and sample papers.';
   res.locals.canonical = null;
