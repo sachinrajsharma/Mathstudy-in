@@ -1550,6 +1550,13 @@ Promise.allSettled(
       console.log('[blog-overlay] files=' + ov.total + ' applied=' + ov.applied + ' skipped=' + ov.skipped);
       return archiveRedirectedBlogs(pool).then(function(a) {
         console.log('[blog-redirects] archived duplicates=' + a.archived);
+        // Product SEO overlays (data/product-seo/*.json): re-applied on every
+        // boot so tuned SEO copy survives redeploys and manual seed re-runs.
+        const { applyProductSeo } = require('./lib/product-seo-import');
+        return applyProductSeo(pool).then(function(ps) {
+          console.log('[product-seo] files=' + ps.files + ' updated=' + ps.updated +
+                      ' unchanged=' + ps.unchanged + ' missing=' + ps.missing);
+        });
       });
     });
   } catch (e) { console.error('[blog-import] failed:', e.message); }

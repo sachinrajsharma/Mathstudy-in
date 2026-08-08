@@ -9,28 +9,124 @@
   "cta_product_slug": "cat-sample-papers-with-solutions-pdf",
   "author": "Sachin Sharma",
   "status": "published",
-  "content": "<p>Almost every CAT aspirant I have coached starts the same way: they collect a folder of CAT exam papers, solve two or three end to end, feel wrecked, and then quietly avoid them for a month. That is the wrong instinct. A past paper is not a test of how ready you are &mdash; it is a diagnostic tool, and the score barely matters compared to what you do in the two hours <em>after</em> you finish. Get the after-paper routine right and your percentile climbs even when your raw score looks flat.</p><p>This guide covers what CAT exam papers actually contain, how past papers and mock tests differ, a sectional way to prepare, the quant topics that carry the most weight, and the analysis loop that turns a stack of papers into a rising score.</p><h2>What a CAT exam paper actually contains</h2><p>The CAT is a computer-based test of 120 minutes, split into three sections of 40 minutes each. You cannot move between sections &mdash; the timer locks you into one at a time, in a fixed order. In recent years the paper has run around 66 to 68 questions. Some are standard MCQs with a &minus;1 penalty for a wrong answer; others are TITA (Type In The Answer) with no negative marking, which changes how boldly you should attempt them.</p><table><thead><tr><th>Section</th><th>Full name</th><th>Approx. questions</th><th>Time</th></tr></thead><tbody><tr><td>VARC</td><td>Verbal Ability &amp; Reading Comprehension</td><td>24</td><td>40 min</td></tr><tr><td>DILR</td><td>Data Interpretation &amp; Logical Reasoning</td><td>20&ndash;22</td><td>40 min</td></tr><tr><td>QA</td><td>Quantitative Aptitude</td><td>22</td><td>40 min</td></tr></tbody></table><p>The sectional lock matters more than beginners expect. A brilliant quant score cannot rescue a weak DILR section, because most top B-schools set a sectional percentile cut-off alongside the overall one. So when you work through CAT exam papers, treat each section as its own exam with its own strategy.</p><h2>Past papers versus mocks &mdash; use both, differently</h2><p>People lump these together, but they do separate jobs.</p><ul><li><strong>Official past papers</strong> are the closest thing to the real difficulty and the examiner&rsquo;s style. Use them to calibrate: this is genuinely what a CAT set feels like, this is how a DILR set is worded, this is how quant questions hide the trick in a single clause.</li><li><strong>Mock tests</strong> are for volume and stamina. You need a lot of full-length attempts to build the 120-minute concentration muscle and to experiment with section strategy without &lsquo;wasting&rsquo; a precious real paper.</li></ul><p>My rule of thumb: reserve the last few years of official CAT exam papers for the final six to eight weeks, when your fundamentals are solid and you want a true readiness check. Burn through mocks and older papers before that, while you are still fixing gaps.</p><h2>A sectional way to prepare</h2><p>Trying to fix all three sections at once is how aspirants stall. Sequence it instead. In the first phase, build QA and VARC fundamentals in parallel, because both reward daily, low-intensity practice &mdash; twenty quant problems and one reading-comprehension passage a day does more over three months than a weekend marathon.</p><h3>Why DILR needs its own block</h3><p>DILR is the section that decides most serious results, and it improves through pattern exposure rather than formulas. Give it a dedicated block once your arithmetic is reliable. Solve two full sets a day, and time each set &mdash; a good DILR set is a 12 to 15 minute investment, and knowing when to abandon a hostile set is a skill in itself. The candidates who crack a 99 in DILR are usually the ones who got ruthless about walking away from a bad set early.</p><h2>Quant topics that carry the most weight</h2><p>Quantitative Aptitude looks vast, but the marks cluster. Across years of CAT exam papers, arithmetic quietly dominates &mdash; percentages, ratios, averages, time-speed-distance and profit-loss appear again and again, often disguised inside a wordy problem. Get arithmetic automatic before you chase exotic topics.</p><table><thead><tr><th>Area</th><th>What to prioritise</th><th>Rough weight</th></tr></thead><tbody><tr><td>Arithmetic</td><td>Percentages, ratio, averages, TSD, profit &amp; loss, mixtures</td><td>High</td></tr><tr><td>Algebra</td><td>Linear &amp; quadratic equations, functions, inequalities</td><td>Medium&ndash;High</td></tr><tr><td>Number systems</td><td>Remainders, factors, base changes</td><td>Medium</td></tr><tr><td>Geometry &amp; mensuration</td><td>Triangles, circles, coordinate basics</td><td>Medium</td></tr><tr><td>Modern maths</td><td>Permutations, combinations, probability</td><td>Low&ndash;Medium</td></tr></tbody></table><p>One honest caveat: do not over-invest in modern maths hoping for a shortcut. A single probability question is not worth the weeks some aspirants pour into it while their arithmetic accuracy still wobbles under time pressure. Fix the high-frequency topics first; they pay every single paper.</p><h2>The post-paper analysis routine</h2><p>This is the part that separates a 90 from a 99, and it is the part almost everyone skips. Solving a paper takes two hours. Analysing it well takes at least that long again. When I mark a student&rsquo;s CAT exam paper, we sort every question into four buckets:</p><ul><li><strong>Correct and fast</strong> &mdash; good, move on.</li><li><strong>Correct but slow</strong> &mdash; the danger zone. You got it, but it cost three minutes you did not have. Learn the faster method.</li><li><strong>Wrong but attempted</strong> &mdash; was it a concept gap or a silly slip? Tag it, because slips need a checklist, not more theory.</li><li><strong>Left blank</strong> &mdash; could you have attempted it, or was skipping it the right call? Selection is a skill worth grading.</li></ul><p>Keep a running error log across papers. After five or six analysed CAT exam papers, patterns jump out &mdash; maybe you consistently misread &lsquo;at least&rsquo; as &lsquo;exactly&rsquo;, or you always burn time on geometry you should have skipped. That log, not the raw scores, is what actually moves your percentile.</p><h2>Try the quiz, then a full paper</h2><p>Below is a short, free eight-question quiz pitched at CAT quant level &mdash; arithmetic, algebra and number systems, the topics that show up most. Attempt it under a soft timer, then read every explanation, including the ones you got right. When you are ready for full-length practice, the CAT sample papers with worked solutions in the box below give you complete sets to run this analysis routine on.</p>",
+  "content": "<p>Almost every CAT aspirant I have coached starts the same way: they collect a folder of CAT exam papers, solve two or three end to end, feel wrecked, and then quietly avoid them for a month. That is the wrong instinct. A past paper is not a test of how ready you are &mdash; it is a diagnostic tool, and the score barely matters compared to what you do in the two hours <em>after</em> you finish. Get the after-paper routine right and your percentile climbs even when your raw score looks flat.</p><p>This guide covers what CAT exam papers actually contain, how past papers and mock tests differ, a sectional way to prepare, the quant topics that carry the most weight, and the analysis loop that turns a stack of papers into a rising score.</p><h2>What CAT exam papers actually contain</h2><p>The CAT is a computer-based test of 120 minutes, split into three sections of 40 minutes each. You cannot move between sections &mdash; the timer locks you into one at a time, in a fixed order. In recent years the paper has run around 66 to 68 questions. Some are standard MCQs with a &minus;1 penalty for a wrong answer; others are TITA (Type In The Answer) with no negative marking, which changes how boldly you should attempt them.</p><table><thead><tr><th>Section</th><th>Full name</th><th>Approx. questions</th><th>Time</th></tr></thead><tbody><tr><td>VARC</td><td>Verbal Ability &amp; Reading Comprehension</td><td>24</td><td>40 min</td></tr><tr><td>DILR</td><td>Data Interpretation &amp; Logical Reasoning</td><td>20&ndash;22</td><td>40 min</td></tr><tr><td>QA</td><td>Quantitative Aptitude</td><td>22</td><td>40 min</td></tr></tbody></table><p>The sectional lock matters more than beginners expect. A brilliant quant score cannot rescue a weak DILR section, because most top B-schools set a sectional percentile cut-off alongside the overall one. So when you work through CAT exam papers, treat each section as its own exam with its own strategy.</p><h2>Past papers versus mocks &mdash; use both, differently</h2><p>People lump these together, but they do separate jobs.</p><ul><li><strong>Official past papers</strong> are the closest thing to the real difficulty and the examiner&rsquo;s style. Use them to calibrate: this is genuinely what a CAT set feels like, this is how a DILR set is worded, this is how quant questions hide the trick in a single clause.</li><li><strong>Mock tests</strong> are for volume and stamina. You need a lot of full-length attempts to build the 120-minute concentration muscle and to experiment with section strategy without &lsquo;wasting&rsquo; a precious real paper.</li></ul><p>My rule of thumb: reserve the last few years of official CAT exam papers for the final six to eight weeks, when your fundamentals are solid and you want a true readiness check. Burn through mocks and older papers before that, while you are still fixing gaps.</p><h2>A sectional way to prepare</h2><p>Trying to fix all three sections at once is how aspirants stall. Sequence it instead. In the first phase, build QA and VARC fundamentals in parallel, because both reward daily, low-intensity practice &mdash; twenty quant problems and one reading-comprehension passage a day does more over three months than a weekend marathon.</p><h3>Why DILR needs its own block</h3><p>DILR is the section that decides most serious results, and it improves through pattern exposure rather than formulas. Give it a dedicated block once your arithmetic is reliable. Solve two full sets a day, and time each set &mdash; a good DILR set is a 12 to 15 minute investment, and knowing when to abandon a hostile set is a skill in itself. The candidates who crack a 99 in DILR are usually the ones who got ruthless about walking away from a bad set early.</p><h2>Quant topics that carry the most weight</h2><p>Quantitative Aptitude looks vast, but the marks cluster. Across years of CAT exam papers, arithmetic quietly dominates &mdash; percentages, ratios, averages, time-speed-distance and profit-loss appear again and again, often disguised inside a wordy problem. Get arithmetic automatic before you chase exotic topics.</p><table><thead><tr><th>Area</th><th>What to prioritise</th><th>Rough weight</th></tr></thead><tbody><tr><td>Arithmetic</td><td>Percentages, ratio, averages, TSD, profit &amp; loss, mixtures</td><td>High</td></tr><tr><td>Algebra</td><td>Linear &amp; quadratic equations, functions, inequalities</td><td>Medium&ndash;High</td></tr><tr><td>Number systems</td><td>Remainders, factors, base changes</td><td>Medium</td></tr><tr><td>Geometry &amp; mensuration</td><td>Triangles, circles, coordinate basics</td><td>Medium</td></tr><tr><td>Modern maths</td><td>Permutations, combinations, probability</td><td>Low&ndash;Medium</td></tr></tbody></table><p>One honest caveat: do not over-invest in modern maths hoping for a shortcut. A single probability question is not worth the weeks some aspirants pour into it while their arithmetic accuracy still wobbles under time pressure. Fix the high-frequency topics first; they pay every single paper.</p><h2>The post-paper analysis routine</h2><p>This is the part that separates a 90 from a 99, and it is the part almost everyone skips. Solving a paper takes two hours. Analysing it well takes at least that long again. When I mark a student&rsquo;s CAT exam paper, we sort every question into four buckets:</p><ul><li><strong>Correct and fast</strong> &mdash; good, move on.</li><li><strong>Correct but slow</strong> &mdash; the danger zone. You got it, but it cost three minutes you did not have. Learn the faster method.</li><li><strong>Wrong but attempted</strong> &mdash; was it a concept gap or a silly slip? Tag it, because slips need a checklist, not more theory.</li><li><strong>Left blank</strong> &mdash; could you have attempted it, or was skipping it the right call? Selection is a skill worth grading.</li></ul><p>Keep a running error log across papers. After five or six analysed CAT exam papers, patterns jump out &mdash; maybe you consistently misread &lsquo;at least&rsquo; as &lsquo;exactly&rsquo;, or you always burn time on geometry you should have skipped. That log, not the raw scores, is what actually moves your percentile.</p><h2>Try the quiz, then a full paper</h2><p>Below is a short, free eight-question quiz pitched at CAT quant level &mdash; arithmetic, algebra and number systems, the topics that show up most. Attempt it under a soft timer, then read every explanation, including the ones you got right. When you are ready for full-length practice, the CAT sample papers with worked solutions in the box below give you complete sets to run this analysis routine on.</p><h2>Where to go next</h2><p>Put the plan into action: work the <a href=\"/shop/product/cat-sample-papers-with-solutions-pdf\">CAT sample papers with solutions</a>, drill weak areas from the <a href=\"/shop/category/cat-quant-math\">CAT Quant chapter-test shelf</a>, or start with the free <a href=\"/blog/cat-quant-practice-test-online-free\">CAT Quant practice test</a>.</p>",
   "quiz": {
     "title": "CAT Quant Practice Quiz",
     "intro": "Eight CAT-level quant questions across arithmetic, algebra and number systems. Attempt each under a soft timer, then press Check my score and read every explanation.",
     "about": "CAT Quantitative Aptitude fundamentals",
     "level": "CAT",
     "questions": [
-      { "q": "A shopkeeper marks goods 40% above cost and then offers a 25% discount. His profit percent is:", "options": ["10%", "15%", "5%", "20%"], "answer": 2, "explanation": "Marked price = 1.40C. Selling price = 1.40C &times; 0.75 = 1.05C, so profit is 5% of cost." },
-      { "q": "A train 180 m long crosses a pole in 12 seconds. Its speed is:", "options": ["54 km/h", "60 km/h", "45 km/h", "50 km/h"], "answer": 0, "explanation": "Speed = 180 &divide; 12 = 15 m/s. Multiply by 18/5 to get 54 km/h." },
-      { "q": "The average of 5 numbers is 30. If one of them, 20, is removed, the average of the remaining four is:", "options": ["30", "32.5", "34", "31"], "answer": 1, "explanation": "Total = 150. After removing 20, sum = 130 over 4 numbers, so the average is 32.5." },
-      { "q": "20 litres of a mixture has milk and water in the ratio 3:2. How much water must be added to make the ratio 3:4?", "options": ["4 litres", "6 litres", "10 litres", "8 litres"], "answer": 3, "explanation": "Milk = 12 L, water = 8 L. For 3:4 with milk fixed at 12, water must be 16 L, so add 8 litres." },
-      { "q": "The remainder when 7 raised to the power 100 is divided by 4 is:", "options": ["3", "0", "1", "2"], "answer": 2, "explanation": "7 leaves remainder &minus;1 (mod 4). Raising &minus;1 to an even power 100 gives 1." },
-      { "q": "If x + 1/x = 3, then x&sup2; + 1/x&sup2; equals:", "options": ["7", "9", "11", "6"], "answer": 0, "explanation": "Square both sides: x&sup2; + 2 + 1/x&sup2; = 9, so x&sup2; + 1/x&sup2; = 7." },
-      { "q": "Rs 10,000 is invested at 10% per annum compound interest for 2 years. The amount is:", "options": ["Rs 12,000", "Rs 12,100", "Rs 11,000", "Rs 12,210"], "answer": 1, "explanation": "Amount = 10000 &times; (1.1)&sup2; = 10000 &times; 1.21 = Rs 12,100." },
-      { "q": "The area of a triangle whose sides are 3 cm, 4 cm and 5 cm is:", "options": ["10 cm&sup2;", "8 cm&sup2;", "5 cm&sup2;", "6 cm&sup2;"], "answer": 3, "explanation": "3-4-5 is a right triangle, so area = &frac12; &times; 3 &times; 4 = 6 cm&sup2;." }
+      {
+        "q": "A shopkeeper marks goods 40% above cost and then offers a 25% discount. His profit percent is:",
+        "options": [
+          "10%",
+          "15%",
+          "5%",
+          "20%"
+        ],
+        "answer": 2,
+        "explanation": "Marked price = 1.40C. Selling price = 1.40C &times; 0.75 = 1.05C, so profit is 5% of cost."
+      },
+      {
+        "q": "A train 180 m long crosses a pole in 12 seconds. Its speed is:",
+        "options": [
+          "54 km/h",
+          "60 km/h",
+          "45 km/h",
+          "50 km/h"
+        ],
+        "answer": 0,
+        "explanation": "Speed = 180 &divide; 12 = 15 m/s. Multiply by 18/5 to get 54 km/h."
+      },
+      {
+        "q": "The average of 5 numbers is 30. If one of them, 20, is removed, the average of the remaining four is:",
+        "options": [
+          "30",
+          "32.5",
+          "34",
+          "31"
+        ],
+        "answer": 1,
+        "explanation": "Total = 150. After removing 20, sum = 130 over 4 numbers, so the average is 32.5."
+      },
+      {
+        "q": "20 litres of a mixture has milk and water in the ratio 3:2. How much water must be added to make the ratio 3:4?",
+        "options": [
+          "4 litres",
+          "6 litres",
+          "10 litres",
+          "8 litres"
+        ],
+        "answer": 3,
+        "explanation": "Milk = 12 L, water = 8 L. For 3:4 with milk fixed at 12, water must be 16 L, so add 8 litres."
+      },
+      {
+        "q": "The remainder when 7 raised to the power 100 is divided by 4 is:",
+        "options": [
+          "3",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "7 leaves remainder &minus;1 (mod 4). Raising &minus;1 to an even power 100 gives 1."
+      },
+      {
+        "q": "If x + 1/x = 3, then x&sup2; + 1/x&sup2; equals:",
+        "options": [
+          "7",
+          "9",
+          "11",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Square both sides: x&sup2; + 2 + 1/x&sup2; = 9, so x&sup2; + 1/x&sup2; = 7."
+      },
+      {
+        "q": "Rs 10,000 is invested at 10% per annum compound interest for 2 years. The amount is:",
+        "options": [
+          "Rs 12,000",
+          "Rs 12,100",
+          "Rs 11,000",
+          "Rs 12,210"
+        ],
+        "answer": 1,
+        "explanation": "Amount = 10000 &times; (1.1)&sup2; = 10000 &times; 1.21 = Rs 12,100."
+      },
+      {
+        "q": "The area of a triangle whose sides are 3 cm, 4 cm and 5 cm is:",
+        "options": [
+          "10 cm&sup2;",
+          "8 cm&sup2;",
+          "5 cm&sup2;",
+          "6 cm&sup2;"
+        ],
+        "answer": 3,
+        "explanation": "3-4-5 is a right triangle, so area = &frac12; &times; 3 &times; 4 = 6 cm&sup2;."
+      }
     ]
   },
   "faq": [
-    { "q": "How many sections are there in the CAT exam paper?", "a": "Three &mdash; VARC (Verbal Ability &amp; Reading Comprehension), DILR (Data Interpretation &amp; Logical Reasoning) and QA (Quantitative Aptitude). Each has its own 40-minute timer and you cannot switch between them once a section starts." },
-    { "q": "Do CAT exam papers have negative marking?", "a": "Yes for standard MCQs &mdash; you lose 1 mark for a wrong answer and gain 3 for a correct one. TITA (type-in-the-answer) questions carry no negative marking, so those are worth a reasoned attempt even when you are unsure." },
-    { "q": "Are old CAT papers still relevant given the changing pattern?", "a": "The section names and question count shift a little year to year, but the underlying skills &mdash; reading speed, DILR set selection, arithmetic accuracy &mdash; are stable. Older papers are excellent for topic practice; save the most recent ones for realistic final mocks." },
-    { "q": "Which quant topics should I prioritise from CAT papers?", "a": "Arithmetic first &mdash; percentages, ratios, averages, time-speed-distance and profit-loss appear most often and reward accuracy. Build those to automatic before spending weeks on permutations or probability." },
-    { "q": "Where can I get CAT sample papers with full solutions?", "a": "Our CAT sample papers e-book gives you complete practice sets with worked, step-by-step solutions so you can run the four-bucket analysis on every question &mdash; an instant PDF you can print and reuse. The link is in the box below." }
-  ]
+    {
+      "q": "How many sections are there in the CAT exam paper?",
+      "a": "Three &mdash; VARC (Verbal Ability &amp; Reading Comprehension), DILR (Data Interpretation &amp; Logical Reasoning) and QA (Quantitative Aptitude). Each has its own 40-minute timer and you cannot switch between them once a section starts."
+    },
+    {
+      "q": "Do CAT exam papers have negative marking?",
+      "a": "Yes for standard MCQs &mdash; you lose 1 mark for a wrong answer and gain 3 for a correct one. TITA (type-in-the-answer) questions carry no negative marking, so those are worth a reasoned attempt even when you are unsure."
+    },
+    {
+      "q": "Are old CAT papers still relevant given the changing pattern?",
+      "a": "The section names and question count shift a little year to year, but the underlying skills &mdash; reading speed, DILR set selection, arithmetic accuracy &mdash; are stable. Older papers are excellent for topic practice; save the most recent ones for realistic final mocks."
+    },
+    {
+      "q": "Which quant topics should I prioritise from CAT papers?",
+      "a": "Arithmetic first &mdash; percentages, ratios, averages, time-speed-distance and profit-loss appear most often and reward accuracy. Build those to automatic before spending weeks on permutations or probability."
+    },
+    {
+      "q": "Where can I get CAT sample papers with full solutions?",
+      "a": "Our CAT sample papers e-book gives you complete practice sets with worked, step-by-step solutions so you can run the four-bucket analysis on every question &mdash; an instant PDF you can print and reuse. The link is in the box below."
+    }
+  ],
+  "focus_keyword": "CAT exam papers"
 }
