@@ -606,7 +606,12 @@ const contactView = (req, res, extra) => res.render('contact', Object.assign({
 }, extra || {}));
 app.get('/contact', (req, res) => contactView(req, res));
 
-// ── Legal pages (linked from every footer) ──────────────────────────────────
+// ── Company + legal pages (linked from every footer) ────────────────────────
+app.get('/about', (req, res) => res.render('about', {
+  title: 'About MathStudy.in — Affordable Solved Math E-Books',
+  metaDesc: 'MathStudy.in publishes fully solved math e-books for Grades 1–12, JEE, CAT and IMO — the paid side of the free learning portal vidaara.org.',
+  canonical: BASE_URL + '/about'
+}));
 app.get('/privacy-policy', (req, res) => res.render('privacy-policy', {
   title: 'Privacy Policy — MathStudy.in',
   metaDesc: 'How MathStudy.in collects, uses and protects your data: accounts, UPI order verification, cookies and analytics. We never sell your personal information.',
