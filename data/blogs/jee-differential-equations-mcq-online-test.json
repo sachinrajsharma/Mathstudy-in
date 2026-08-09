@@ -1,0 +1,130 @@
+{
+  "slug": "jee-differential-equations-mcq-online-test",
+  "title": "JEE Differential Equations Online Test: 15 Free MCQs",
+  "meta_title": "JEE Differential Equations online test — 15 Free MCQs",
+  "meta_desc": "Free JEE Differential Equations online test with 15 MCQs, worked answers, order and degree rules and method tips. Take the free test.",
+  "excerpt": "A free JEE Differential Equations online test with 15 verified MCQs, instant scoring, full solutions and the order-degree rules.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-differential-equations.jpg",
+  "cta_product_slug": "jee-maths-dpp-differential-equations",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Differential Equations online test",
+  "content": "<p>Differential equations reward the students who name the type before touching a pen. Spot the linear form, the homogeneous form or a neat substitution, and half the battle ends there. This free JEE Differential Equations online test drills that first decision. It has 15 MCQs with instant scoring. Every answer names the method, then solves it. So classify first, integrate second. Then the rest is just clean, quick work.</p><h2>What JEE asks from Differential Equations </h2><ul><li>Order and degree of an equation. </li><li>Variable separable and linear first-order forms. </li><li>Integrating factors for linear equations. </li><li>Homogeneous equations with the y equals v x swap. </li><li>Families of curves from a general solution. </li></ul><h2>Formulas and facts to revise first </h2><ul><li>Order is the highest derivative present. </li><li>Degree needs a polynomial form in derivatives. </li><li>The integrating factor is e to the integral of P dx. </li><li>A trig or root term in a derivative leaves degree undefined. </li></ul><h2>Mistakes that cost JEE marks </h2><ul><li>Calling an equation homogeneous when a constant breaks it. </li><li>Forgetting the constant after integrating. </li><li>Using the linear method on a nonlinear equation. </li><li>Reading degree off a non-polynomial form. </li></ul><h2>Free JEE Differential Equations online test </h2><p>The 15 question quiz below comes from our verified DPP bank. Keep a pen and rough sheet at hand. First, label each equation by type. Then choose the method and answer. Check every explanation you miss, because the method is the mark. So run this JEE Differential Equations online test like a timed sheet. </p><h2>Practise the whole chapter </h2><p>Ready for the full drill? The <a href=\"/shop/product/jee-maths-dpp-differential-equations\"><strong>JEE Maths DPP Differential Equations e-book</strong></a> sorts problems by type and gives step by step solutions. It costs just Rs 49. So the low price is not a block. You can also open the <a href=\"/shop/category/jee-mathematics\">full JEE Maths DPP shelf</a> for every chapter and paper. And the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> teaches each method first. </p>",
+  "quiz": {
+    "title": "JEE Differential Equations Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Differential Equations",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The order and degree of d²y/dx² + (dy/dx)² + y = 0 are respectively",
+        "options": ["2 and 1", "1 and 2", "2 and 2", "1 and 1"],
+        "answer": 0,
+        "explanation": "The highest derivative is d²y/dx², so the order is 2. Its power is 1, so the degree is 1."
+      },
+      {
+        "q": "What is the degree of y′′′ + 2(y′′)² + (y′)³ + sin(y′) = 0?",
+        "options": ["1", "2", "3", "Not defined"],
+        "answer": 3,
+        "explanation": "The sin(y′) term blocks any polynomial form in the derivatives. So the degree is not defined."
+      },
+      {
+        "q": "Which method best solves dy/dx = (x + y)²?",
+        "options": ["variable separable directly", "homogeneous substitution y = vx", "linear DE formula", "substitution x + y = v"],
+        "answer": 3,
+        "explanation": "Put x + y = v, so dv/dx = 1 + dy/dx. Then dv/dx = v² + 1, which separates cleanly."
+      },
+      {
+        "q": "The degree of (d²y/dx²)^(1/2) + dy/dx = 0 is",
+        "options": ["2", "1", "Not defined", "4"],
+        "answer": 2,
+        "explanation": "The square-root term keeps it non-polynomial in the derivatives. So the degree is not defined."
+      },
+      {
+        "q": "The differential equation y(dy/dx) + x = c represents a family of",
+        "options": ["straight lines", "parabolas", "circles", "hyperbolas"],
+        "answer": 2,
+        "explanation": "Integrate y dy = (c − x) dx to get x² + y² − 2cx = constant, a family of circles."
+      },
+      {
+        "q": "The solution of dy/dx = y tan x is",
+        "options": ["y = C sec x", "y = C cos x", "y = C sin x", "y = C tan x"],
+        "answer": 0,
+        "explanation": "Separate: dy/y = tan x dx. Integrate to get ln y = ln sec x, so y = C sec x."
+      },
+      {
+        "q": "If a curve satisfies dy/dx = y/x, then the curve is a",
+        "options": ["parabola", "circle", "straight line through the origin", "hyperbola"],
+        "answer": 2,
+        "explanation": "Separate: dy/y = dx/x. Integrate to get y = Cx, a straight line through the origin."
+      },
+      {
+        "q": "The solution of dy/dx = y/x + 1 is",
+        "options": ["y = x ln x + Cx", "y = ln x + C", "y = C/x", "y = x² + C"],
+        "answer": 0,
+        "explanation": "Write dy/dx − y/x = 1, a linear form with IF = 1/x. Solving gives y = x ln x + Cx."
+      },
+      {
+        "q": "The general solution of dy/dx = 1/(1 + x²) is",
+        "options": ["y = sin⁻¹x + C", "y = tan⁻¹x + C", "y = cos⁻¹x + C", "y = log(1 + x²) + C"],
+        "answer": 1,
+        "explanation": "Integrate dx/(1 + x²). The antiderivative is tan⁻¹x, so y = tan⁻¹x + C."
+      },
+      {
+        "q": "The solution of dy/dx = −y/x is a family of",
+        "options": ["circles", "straight lines", "parabolas", "rectangular hyperbolas"],
+        "answer": 3,
+        "explanation": "Separate: dy/y = −dx/x. Integrate to get xy = C, a family of rectangular hyperbolas."
+      },
+      {
+        "q": "The particular solution of dy/dx = 2x with y(1) = 2 is",
+        "options": ["y = x²", "y = x² + 1", "y = 2x²", "y = x² + 2"],
+        "answer": 1,
+        "explanation": "Integrate to get y = x² + C. Then y(1) = 2 gives C = 1, so y = x² + 1."
+      },
+      {
+        "q": "Solve dy/dx = sin x given y(0) = 1.",
+        "options": ["y = −cos x", "y = cos x + 1", "y = −cos x + 2", "y = sin x + 1"],
+        "answer": 2,
+        "explanation": "Integrate to get y = −cos x + C. Then y(0) = 1 gives C = 2, so y = −cos x + 2."
+      },
+      {
+        "q": "The integrating factor of dy/dx + (4/x)y = x² is",
+        "options": ["e^(4x)", "x⁴", "4 ln x", "x⁵"],
+        "answer": 1,
+        "explanation": "IF = e^(∫P dx) with P = 4/x. So IF = e^(4 ln x) = x⁴."
+      },
+      {
+        "q": "Which of the following is a homogeneous differential equation?",
+        "options": ["dy/dx = (x + y)/x", "dy/dx = (x + y + 1)/x", "dy/dx = x² + y", "dy/dx = sin x + y"],
+        "answer": 0,
+        "explanation": "Only (x + y)/x stays unchanged when x and y both scale by λ. So it is homogeneous of degree zero."
+      },
+      {
+        "q": "The right substitution for the homogeneous equation dy/dx = f(y/x) is",
+        "options": ["x = vy", "y = vx", "y = x/v", "x = y/v"],
+        "answer": 1,
+        "explanation": "Put y = vx, so dy/dx = v + x(dv/dx). That turns it into a separable equation."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Differential Equations test free?",
+      "a": "Yes. The 15 MCQs, scoring and explanations cost nothing. The e-book adds every worksheet with full solutions for Rs 49."
+    },
+    {
+      "q": "Is it JEE Main or Advanced level?",
+      "a": "Both. It covers Main style order-degree and integrating-factor items, plus tougher classification calls."
+    },
+    {
+      "q": "How many questions are in the e-book?",
+      "a": "The chapter e-book holds the full DPP set with answer keys. See the <a href=\"/shop/product/jee-maths-dpp-differential-equations\">Differential Equations e-book</a>."
+    },
+    {
+      "q": "What is the fastest way to improve?",
+      "a": "Name the equation type before solving. Once the type is clear, the method and integrating factor follow."
+    }
+  ]
+}

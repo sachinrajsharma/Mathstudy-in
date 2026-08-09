@@ -1,0 +1,205 @@
+{
+  "slug": "jee-mathematical-reasoning-mcq-online-test",
+  "title": "JEE Mathematical Reasoning Online Test: 15 Free MCQs",
+  "meta_title": "JEE Mathematical Reasoning online test — 15 Free MCQs",
+  "meta_desc": "Free JEE Mathematical Reasoning online test: 15 exam-style MCQs on logic, negation and De Morgan, with instant scoring and solutions. Take the free test.",
+  "excerpt": "A free 15-question JEE Mathematical Reasoning online test with instant scoring, full solutions, and a chapter e-book for deeper practice.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-mathematical-reasoning.jpg",
+  "cta_product_slug": "jee-maths-dpp-mathematical-reasoning",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Mathematical Reasoning online test",
+  "content": "<p>Reasoning gives you the softest marks in the JEE paper. Yet many students still drop them. They rush the negation, and the answer flips. So take the free <strong>JEE Mathematical Reasoning online test</strong> below. It has 15 exam-style MCQs. Scoring is instant. Every answer carries a short reason. Aim for 12 out of 15.</p><h2>What JEE asks from Mathematical Reasoning</h2><ul><li>Converse, inverse and contrapositive of a rule.</li><li>Negation of for all and there exists lines.</li><li>De Morgan laws on AND and OR.</li><li>Truth tables and tautologies.</li><li>The truth value of an if-then line.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>The negation of p then q is p and not q.</li><li>The contrapositive keeps the same truth value.</li><li>Negate for all x and you get there exists x, not.</li><li>De Morgan turns not (p and q) into not p or not q.</li><li>A false start makes any if-then line true.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Students swap the converse and the contrapositive.</li><li>Many negate some are as all are not.</li><li>People forget that AND flips to OR.</li></ul><h2>Free Mathematical Reasoning online test for JEE</h2><p>The 15 questions below come from our verified JEE bank. Attempt each one. Then press Check my score. Read the reason for anything you miss. This JEE Mathematical Reasoning online test matches JEE Main logic.</p><h2>How to score full marks here</h2><p>Read each statement twice before you pick. First fix the connective. Is it AND, OR, or if-then? Then apply the matching rule. For a quantifier, flip for all to there exists. For a compound, use De Morgan. Slow reading beats fast guessing every time. So do not rush the easy ones.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href=\"/shop/product/jee-maths-dpp-mathematical-reasoning\">JEE Maths DPP Mathematical Reasoning e-book</a> drills the full chapter. It costs Rs 49. Every sheet ends with an answer key. Every question shows a worked reason. You can also browse the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP shelf</a>. For theory first, try the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>. It covers reasoning free.</p>",
+  "quiz": {
+    "title": "JEE Mathematical Reasoning Quiz",
+    "intro": "Fifteen JEE-pattern logic questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Main and Advanced: Mathematical Reasoning",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Consider the statement: \"If a sequence is an AP, then its differences are constant\". Its contrapositive is:",
+        "options": [
+          "If its differences are constant, then a sequence is an AP",
+          "If not a sequence is an AP, then not its differences are constant",
+          "If a sequence is an AP, then not its differences are constant",
+          "If not its differences are constant, then not a sequence is an AP"
+        ],
+        "answer": 3,
+        "explanation": "The contrapositive of p implies q is not q implies not p. So it reads: if the differences are not constant, then the sequence is not an AP."
+      },
+      {
+        "q": "The negation of the statement 'All equilateral triangles are isosceles' is:",
+        "options": [
+          "No equilateral triangles are isosceles.",
+          "All equilateral triangles are not isosceles.",
+          "There exists at least one equilateral triangle which is not isosceles.",
+          "There exists at least one isosceles triangle which is not equilateral."
+        ],
+        "answer": 2,
+        "explanation": "Negating a for-all statement gives a there-exists statement with the property denied. So it names one equilateral triangle that is not isosceles."
+      },
+      {
+        "q": "The negation of the statement \"Every natural number is positive\" is:",
+        "options": [
+          "The statement cannot be negated",
+          "No natural number is positive",
+          "Every natural number is positive, sometimes",
+          "There exists a natural number that is not positive"
+        ],
+        "answer": 3,
+        "explanation": "Negating for all gives there exists not. So the correct negation is: there exists a natural number that is not positive."
+      },
+      {
+        "q": "The negation of the compound statement \"(a number ends in 0) and (it is divisible by 5)\" is:",
+        "options": [
+          "(not a number ends in 0) or (not it is divisible by 5)",
+          "(a number ends in 0) or (it is divisible by 5)",
+          "(not it is divisible by 5) and (a number ends in 0)",
+          "(not a number ends in 0) and (not it is divisible by 5)"
+        ],
+        "answer": 0,
+        "explanation": "By De Morgan, not (p and q) becomes not p or not q. The AND flips to OR and both parts get negated."
+      },
+      {
+        "q": "Consider the statement: \"If a number ends in 0, then it is divisible by 5\". Its inverse is:",
+        "options": [
+          "If not it is divisible by 5, then not a number ends in 0",
+          "If not a number ends in 0, then not it is divisible by 5",
+          "If it is divisible by 5, then a number ends in 0",
+          "If a number ends in 0, then not it is divisible by 5"
+        ],
+        "answer": 1,
+        "explanation": "The inverse of p implies q is not p implies not q. So negate both parts but keep the order."
+      },
+      {
+        "q": "If p is false and q is true, then the truth value of p implies q is:",
+        "options": [
+          "false",
+          "cannot be determined",
+          "true",
+          "true and false"
+        ],
+        "answer": 2,
+        "explanation": "A conditional is false only when the hypothesis is true and the conclusion false. Here the hypothesis is false, so the implication is true."
+      },
+      {
+        "q": "The negation of the statement \"Some integers are negative\" is:",
+        "options": [
+          "The statement cannot be negated",
+          "No integer is negative",
+          "Some integers are negative, sometimes",
+          "All integers are negative"
+        ],
+        "answer": 1,
+        "explanation": "Negating there exists gives for all not. So some are negative becomes none are: no integer is negative."
+      },
+      {
+        "q": "Consider the statement: \"If n is divisible by 9, then n is divisible by 3\". Its inverse is:",
+        "options": [
+          "If n is divisible by 9, then not n is divisible by 3",
+          "If not n is divisible by 3, then not n is divisible by 9",
+          "If not n is divisible by 9, then not n is divisible by 3",
+          "If n is divisible by 3, then n is divisible by 9"
+        ],
+        "answer": 2,
+        "explanation": "The inverse negates both parts of p implies q without swapping them. So: if n is not divisible by 9, then n is not divisible by 3."
+      },
+      {
+        "q": "Negate the statement: 'If Amit studies, then he will pass the exam.'",
+        "options": [
+          "If Amit does not study, then he will not pass the exam.",
+          "Amit does not study or he will pass the exam.",
+          "Amit studies and he will not pass the exam.",
+          "If Amit passes the exam, then he studied."
+        ],
+        "answer": 2,
+        "explanation": "The negation of p implies q is p and not q. So: Amit studies and he will not pass the exam."
+      },
+      {
+        "q": "The negation of the statement \"Every parallelogram is a rhombus\" is:",
+        "options": [
+          "Every parallelogram is a rhombus, sometimes",
+          "No parallelogram is a rhombus",
+          "The statement cannot be negated",
+          "There exists a parallelogram that is not a rhombus"
+        ],
+        "answer": 3,
+        "explanation": "Negating for all gives there exists not. So the negation names one parallelogram that is not a rhombus."
+      },
+      {
+        "q": "The converse and the inverse of a conditional statement are always logically equivalent to each other.",
+        "options": [
+          "True",
+          "False",
+          "Only for tautologies",
+          "Only for fallacies"
+        ],
+        "answer": 0,
+        "explanation": "The inverse not p implies not q is the contrapositive of the converse q implies p. A statement and its contrapositive match, so converse and inverse are equivalent."
+      },
+      {
+        "q": "The negation of the statement \"Some matrices are invertible\" is:",
+        "options": [
+          "The statement cannot be negated",
+          "No matrix is invertible",
+          "Some matrices are invertible, sometimes",
+          "All matrices are invertible"
+        ],
+        "answer": 1,
+        "explanation": "Negating there exists gives for all not. So some are invertible becomes: no matrix is invertible."
+      },
+      {
+        "q": "Which of the following compound statements is a Tautology?",
+        "options": [
+          "(p and q) implies p",
+          "p and not p",
+          "p implies (p and q)",
+          "p or q"
+        ],
+        "answer": 0,
+        "explanation": "If p and q is true then p is true, giving true implies true. If p and q is false the implication is vacuously true. So (p and q) implies p is always true."
+      },
+      {
+        "q": "Consider the statement: \"If n is divisible by 9, then n is divisible by 3\". Its converse is:",
+        "options": [
+          "If not n is divisible by 9, then not n is divisible by 3",
+          "If n is divisible by 9, then not n is divisible by 3",
+          "If n is divisible by 3, then n is divisible by 9",
+          "If not n is divisible by 3, then not n is divisible by 9"
+        ],
+        "answer": 2,
+        "explanation": "The converse of p implies q swaps the parts to q implies p. So: if n is divisible by 3, then n is divisible by 9."
+      },
+      {
+        "q": "The negation of the statement \"All polygons have five sides\" is:",
+        "options": [
+          "All polygons have five sides, sometimes",
+          "The statement cannot be negated",
+          "No polygons have five sides",
+          "Some polygons do not have five sides"
+        ],
+        "answer": 3,
+        "explanation": "Negating for all gives there exists not. So the negation says some polygons do not have five sides."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Mathematical Reasoning test really free?",
+      "a": "Yes. All 15 questions, the scoring and the explanations are free. The e-book then adds full chapter practice with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is this JEE Main or Advanced level?",
+      "a": "Reasoning appears mainly in JEE Main, and this test matches that level. Strong students still use it as a quick warm-up before Advanced sessions."
+    },
+    {
+      "q": "Why do students lose marks in reasoning?",
+      "a": "Most slips come from negating quantifiers wrongly and confusing the converse with the contrapositive. Drill both patterns and the marks become almost automatic."
+    },
+    {
+      "q": "How do I practise the full chapter?",
+      "a": "Grab the <a href=\"/shop/product/jee-maths-dpp-mathematical-reasoning\">Mathematical Reasoning DPP e-book</a>. It runs from basic truth tables to exam-style single-statement logic, with a solution for every question."
+    }
+  ]
+}

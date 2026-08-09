@@ -1,0 +1,126 @@
+{
+  "slug": "jee-circles-mcq-online-test",
+  "title": "JEE Circles Online Test: 15 Free MCQs with Answers",
+  "meta_title": "JEE Circles online test — 15 free solved MCQs",
+  "meta_desc": "Free JEE Circles online test with 15 exam-pattern MCQs, instant scoring and worked answers. Practise chord length, tangents and locus. Take the free test.",
+  "excerpt": "A free 15-question JEE Circles online test with instant scoring, worked answers and the chord, tangent and locus problems JEE keeps repeating.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-circles.jpg",
+  "cta_product_slug": "jee-maths-dpp-circles",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Circles online test",
+  "content": "<p>Circles rewards one clear picture of centre, radius and chord distance. JEE leans hard on chord length, tangent conditions and locus questions here. Take the free JEE Circles online test below. It carries 15 exam-pattern MCQs with instant scoring and worked answers. Aim for 12 out of 15, then revisit the misses.</p><h2>What JEE asks from Circles</h2><ul><li>General and standard forms of a circle equation. </li><li>Length of a chord from its distance to the centre. </li><li>Tangent conditions and the length of a tangent. </li><li>Position of a line against a given circle. </li><li>Locus problems that quietly resolve into a circle. </li><li>Length of a tangent drawn from an external point. </li></ul><h2>Formulas and facts to revise first</h2><ul><li>Half a chord equals root of radius squared minus centre distance squared. </li><li>A line touches a circle when its centre distance equals the radius. </li><li>The radius squared equals g squared plus f squared minus c. </li><li>A negative radius squared marks an imaginary circle. </li><li>Three points fix exactly one circle through them. </li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Forgetting to halve the coefficients while reading the centre. </li><li>Skipping the check that the radius squared stays positive. </li><li>Confusing the tangent length with the chord length. </li><li>Dropping a sign when shifting a circle to standard form. </li></ul><h2>Free JEE Circles online test</h2><p>The 15 questions below come from our verified JEE DPP question bank. They span chord length, tangents and neat locus problems. Attempt each one, then press Check my score. Read the explanation for every miss, since a single formula solves most of them.</p><h2>Practise the whole chapter</h2><p>Wrapped up the JEE Circles online test? Then continue with the <a href=\"/shop/product/jee-maths-dpp-circles\"><strong>JEE Maths DPP Circles e-book</strong></a> at Rs 49. Full practice papers cost Rs 79 each. You can also explore more on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-books shelf</a>. Cover the theory free through the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Circles Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Circles",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Find the tangents to x² + y² = 25 that run parallel to 3x − 4y = 0.",
+        "options": ["3x − 4y = ± 20", "3x − 4y = ± 25", "4x − 3y = ± 25", "4x + 3y = ± 20"],
+        "answer": 1,
+        "explanation": "Parallel tangents to a radius 5 circle sit at distance 5. That gives 3x − 4y = ± 25."
+      },
+      {
+        "q": "A chord of a circle of radius 10 lies 3 from the centre. Its length is:",
+        "options": ["2√(109)", "14", "2√(91)", "√(91)"],
+        "answer": 2,
+        "explanation": "Half the chord is the root of 100 minus 9. So the chord is 2√91."
+      },
+      {
+        "q": "Find the area of an equilateral triangle inscribed in x² + y² = a².",
+        "options": ["(√3/4)a²", "(3√3/2)a²", "3a²", "(3√3/4)a²"],
+        "answer": 3,
+        "explanation": "The circumradius is a and the side is a√3. So the area works out to (3√3/4)a²."
+      },
+      {
+        "q": "A radar at the origin tracks up to 50 km. A flight follows 3x + 4y = 150. For how far does it stay in range?",
+        "options": ["80 km", "40 km", "60 km", "100 km"],
+        "answer": 0,
+        "explanation": "The path sits 30 km from the origin. The tracked chord is 2 times the root of 50² minus 30², which is 80 km."
+      },
+      {
+        "q": "A chord of a circle of radius 6 lies 4 from the centre. Its length is:",
+        "options": ["√(20)", "2√(52)", "4", "2√(20)"],
+        "answer": 3,
+        "explanation": "Half the chord is the root of 36 minus 16. So the chord is 2√20."
+      },
+      {
+        "q": "The circle through (5, 0), (0, 5) and (−5, 0) has centre:",
+        "options": ["(5, 5)", "(−5, 0)", "(0, 0)", "(0, 5)"],
+        "answer": 2,
+        "explanation": "All three points sit 5 units from the origin. So the centre is (0, 0)."
+      },
+      {
+        "q": "The line x + y = 4 meets the circle x² + y² = 9 at:",
+        "options": ["No points", "One point", "Two points", "None of these"],
+        "answer": 2,
+        "explanation": "The line lies about 2.83 from the origin, less than the radius 3. So it cuts at two points."
+      },
+      {
+        "q": "The circle through (1, 0), (−1, 0) and (0, 1) is:",
+        "options": ["x² + y² = 1", "x² + y² = 2", "(x − 1)² + y² = 1", "x² + (y − 1)² = 1"],
+        "answer": 0,
+        "explanation": "All three points lie on the unit circle. So the equation is x² + y² = 1."
+      },
+      {
+        "q": "A chord of a circle of radius 8 lies 5 from the centre. Its length is:",
+        "options": ["√(39)", "2√(39)", "2√(89)", "6"],
+        "answer": 1,
+        "explanation": "Half the chord is the root of 64 minus 25. So the chord is 2√39."
+      },
+      {
+        "q": "The line x + y = 5 touches a circle centred at (1, 1). Its radius is:",
+        "options": ["5/√2", "3/√2", "2√2", "4"],
+        "answer": 1,
+        "explanation": "The centre lies |1 + 1 − 5| over √2 from the line. That distance, 3/√2, is the radius."
+      },
+      {
+        "q": "A chord of a circle of radius 9 lies 7 from the centre. Its length is:",
+        "options": ["4", "2√(130)", "2√(32)", "√(32)"],
+        "answer": 2,
+        "explanation": "Half the chord is the root of 81 minus 49. So the chord is 2√32."
+      },
+      {
+        "q": "AB is a diameter and C lies on the circle. The area of triangle ABC is:",
+        "options": ["Maximum when the triangle is isosceles", "Minimum when the triangle is isosceles", "Maximum when the triangle is equilateral", "None of these"],
+        "answer": 0,
+        "explanation": "The base AB stays fixed. The height peaks when C sits at the top, making the triangle isosceles."
+      },
+      {
+        "q": "A point moves so the sum of squares of its distances from the sides of a unit square is 9. Its locus is a:",
+        "options": ["Straight line", "Circle", "Parabola", "None of these"],
+        "answer": 1,
+        "explanation": "The condition reduces to x² + y² − x − y − 7/2 = 0. That equation is a circle."
+      },
+      {
+        "q": "A chord of a circle of radius 8 lies 1 from the centre. Its length is:",
+        "options": ["2√(63)", "2√(65)", "14", "√(63)"],
+        "answer": 0,
+        "explanation": "Half the chord is the root of 64 minus 1. So the chord is 2√63."
+      },
+      {
+        "q": "A chord of a circle of radius 7 lies 5 from the centre. Its length is:",
+        "options": ["4", "2√(74)", "√(24)", "2√(24)"],
+        "answer": 3,
+        "explanation": "Half the chord is the root of 49 minus 25. So the chord is 2√24."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Circles test free?",
+      "a": "Yes. Every MCQ, the scoring and the explanations are free. The e-book then adds many more solved DPPs for Rs 49."
+    },
+    {
+      "q": "What does the test focus on?",
+      "a": "It covers chord length, tangents, the position of a line and locus problems that form a circle."
+    },
+    {
+      "q": "Is it enough for JEE Advanced?",
+      "a": "Use it as a warm up. For Advanced depth, drill the full <a href=\"/shop/product/jee-maths-dpp-circles\">Circles e-book</a> with its harder solved sets."
+    }
+  ]
+}

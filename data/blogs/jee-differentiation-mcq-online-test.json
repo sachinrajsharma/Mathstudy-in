@@ -1,0 +1,205 @@
+{
+  "slug": "jee-differentiation-mcq-online-test",
+  "title": "JEE Differentiation Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Differentiation online test — 15 free MCQs",
+  "meta_desc": "Free JEE Differentiation online test with 15 solved MCQs on the product, quotient and chain rules, plus common traps. Take the free test.",
+  "excerpt": "A free JEE Differentiation online test with 15 solved MCQs on the product, quotient and chain rules, with instant scoring.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-differentiation.jpg",
+  "cta_product_slug": "jee-maths-dpp-differentiation",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Differentiation online test",
+  "content": "<p>First principles feel slow, but JEE loves testing them. One clean rule beats memorising twenty derivatives. Master the product, quotient and chain rules, and speed follows. Take the free <strong>JEE Differentiation online test</strong> below. It has 15 exam-pattern MCQs with instant scoring. Aim for 12 out of 15.</p><h2>What JEE asks from differentiation</h2><ul><li>Derivatives from first principles for simple functions.</li><li>Product, quotient and chain rules in combination.</li><li>Implicit and logarithmic differentiation.</li><li>Derivatives of inverse trigonometric forms.</li><li>Continuity and differentiability of piecewise functions.</li></ul><h2>Rules to revise first</h2><ul><li>The power rule gives d/dx of x^n as n·x^(n−1).</li><li>The product rule reads (uv) prime = u prime v + uv prime.</li><li>The chain rule multiplies the outer and inner derivatives.</li><li>For y = x^x, take logs first, then differentiate.</li><li>An even function has an odd derivative, and the reverse holds.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Dropping u prime v in a hurried product rule.</li><li>Forgetting the inner derivative in the chain rule.</li><li>Assuming a continuous function is always differentiable.</li></ul><h2>Free JEE Differentiation online test</h2><p>The 15-question quiz below comes from our verified DPP question bank. It matches the paid e-book question for question. Answer all 15, then press Check my score. Practise the chain rule first, because it hides in most problems.</p><h2>How to use this test</h2><p>Set a clock for 30 minutes. Do the plain power-rule ones first. Those are quick marks. Then take on the product and chain rules. Write each step by hand. Do not skip a line. Name the rule before you use it. Check the inner part with care. If an answer looks off, redo it once. Mark every slip you make. Try the set again in two days. Your speed will climb, and your errors will drop. Stay calm. Trust each step. Hard work pays off.</p><h2>Practise the whole chapter</h2><p>Want more drills? The <a href=\"/shop/product/jee-maths-dpp-differentiation\"><strong>JEE Maths DPP Differentiation e-book</strong></a> holds the full chapter for Rs 49. Every question carries a clear solution, so each rule clicks. You can also open the whole <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-book shelf</a>, and the practice papers cost Rs 79. Working through calculus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> builds differentiation step by step. Then this JEE Differentiation online test proves it worked.</p>",
+  "quiz": {
+    "title": "JEE Differentiation Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Differentiation",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Geometrically, the derivative of y = f(x) at P(a, f(a)) represents:",
+        "options": [
+          "The slope of the tangent to the curve at P",
+          "The area under the curve at P",
+          "The slope of the normal to the curve at P",
+          "The y-intercept of the curve"
+        ],
+        "answer": 0,
+        "explanation": "The derivative f prime(a) equals the slope of the tangent line to the curve at x = a."
+      },
+      {
+        "q": "If f is an even differentiable function, then f prime(x) must be:",
+        "options": [
+          "An even function",
+          "An odd function",
+          "A constant function",
+          "Neither even nor odd"
+        ],
+        "answer": 1,
+        "explanation": "Differentiating f(−x) = f(x) gives f prime(−x) = −f prime(x), which defines an odd function."
+      },
+      {
+        "q": "If s(t) is displacement at time t, then s prime(t) represents:",
+        "options": [
+          "Total distance travelled",
+          "Instantaneous acceleration",
+          "Instantaneous velocity",
+          "Average speed"
+        ],
+        "answer": 2,
+        "explanation": "The rate of change of displacement with time is the instantaneous velocity, ds/dt."
+      },
+      {
+        "q": "A function has a sharp corner at x = c. Which statement holds at x = c?",
+        "options": [
+          "It is both continuous and differentiable",
+          "It is differentiable but not continuous",
+          "It is neither continuous nor differentiable",
+          "It is continuous but not differentiable"
+        ],
+        "answer": 3,
+        "explanation": "A sharp corner keeps the graph continuous but denies a unique tangent, so the function is not differentiable there."
+      },
+      {
+        "q": "The derivative of f(x) = 3x² + 5x − 2 is:",
+        "options": [
+          "6x + 5",
+          "6x + 5x",
+          "3x + 5",
+          "6x − 2"
+        ],
+        "answer": 0,
+        "explanation": "By the power and sum rules, the derivative is 6x + 5, since the constant term vanishes."
+      },
+      {
+        "q": "The derivative of e^x is:",
+        "options": [
+          "x·e^(x−1)",
+          "e^x",
+          "e^x log x",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "The natural exponential is its own derivative, so d/dx(e^x) = e^x."
+      },
+      {
+        "q": "The derivative of f(x) = √x is:",
+        "options": [
+          "2√x",
+          "1/√x",
+          "1/(2√x)",
+          "1/(x√x)"
+        ],
+        "answer": 2,
+        "explanation": "Write √x as x^(1/2). The power rule gives (1/2)x^(−1/2) = 1/(2√x)."
+      },
+      {
+        "q": "The derivative of f(x) = x logₑ x is:",
+        "options": [
+          "1",
+          "logₑ x",
+          "x + logₑ x",
+          "1 + logₑ x"
+        ],
+        "answer": 3,
+        "explanation": "By the product rule, the derivative is 1·logₑ x + x·(1/x) = logₑ x + 1."
+      },
+      {
+        "q": "The derivative of x^(1/3) is:",
+        "options": [
+          "1/(3x^(2/3))",
+          "3x^(2/3)",
+          "1/(3x^(1/3))",
+          "x^(2/3)"
+        ],
+        "answer": 0,
+        "explanation": "The power rule gives (1/3)x^(−2/3) = 1/(3x^(2/3))."
+      },
+      {
+        "q": "The derivative of f(x) = (sin x)/x is:",
+        "options": [
+          "(x sin x − cos x)/x²",
+          "(x cos x − sin x)/x²",
+          "cos x",
+          "(sin x − x cos x)/x²"
+        ],
+        "answer": 1,
+        "explanation": "By the quotient rule, the derivative is [x cos x − sin x]/x²."
+      },
+      {
+        "q": "The derivative of f(x) = e^x/x is:",
+        "options": [
+          "e^x(1 − x)/x²",
+          "e^x/x²",
+          "e^x(x − 1)/x²",
+          "e^x"
+        ],
+        "answer": 2,
+        "explanation": "By the quotient rule, the derivative is [x e^x − e^x]/x² = e^x(x − 1)/x²."
+      },
+      {
+        "q": "The derivative of y = x^x is:",
+        "options": [
+          "x^x",
+          "x^x log x",
+          "x^(x−1)",
+          "x^x(1 + log x)"
+        ],
+        "answer": 3,
+        "explanation": "Take logs to get log y = x log x. Differentiating gives dy/dx = x^x(1 + log x)."
+      },
+      {
+        "q": "For s(t) = t³ − 6t² + 9t, the velocity is zero at:",
+        "options": [
+          "t = 1s and t = 3s",
+          "t = 1s and t = 2s",
+          "t = 3s only",
+          "t = 2s and t = 3s"
+        ],
+        "answer": 0,
+        "explanation": "Velocity is 3t² − 12t + 9 = 3(t − 1)(t − 3). It vanishes at t = 1 and t = 3."
+      },
+      {
+        "q": "If f(x + y) = f(x)f(y) for all x, y, with f(0) = 1 and f prime(0) = 2, then f prime(x) equals:",
+        "options": [
+          "f(x)",
+          "2 f(x)",
+          "f(x)/2",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "From first principles, f prime(x) = f(x)·f prime(0) = 2 f(x)."
+      },
+      {
+        "q": "If f(x) = ax² + bx for x ≤ 1 and cx + d for x > 1 is differentiable at x = 1, then:",
+        "options": [
+          "a + b = c + d",
+          "2a + b = c",
+          "Both a + b = c + d and 2a + b = c",
+          "a = c and b = d"
+        ],
+        "answer": 2,
+        "explanation": "Continuity forces a + b = c + d, and matching derivatives forces 2a + b = c. So both hold."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Differentiation test free?",
+      "a": "Yes. All 15 questions, scoring and explanations cost nothing. The e-book adds the full chapter with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions follow JEE Main and Advanced patterns, so either target fits."
+    },
+    {
+      "q": "What is inside the e-book?",
+      "a": "It carries every DPP worksheet with step-by-step solutions. See the <a href=\"/shop/product/jee-maths-dpp-differentiation\">Differentiation DPP page</a>."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one worksheet a day, mark your errors, then redo the chain-rule ones after two days. That drill pays off."
+    }
+  ]
+}

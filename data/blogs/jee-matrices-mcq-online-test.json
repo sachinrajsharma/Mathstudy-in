@@ -1,0 +1,126 @@
+{
+  "slug": "jee-matrices-mcq-online-test",
+  "title": "JEE Matrices Online Test: 15 Free MCQs with Answers",
+  "meta_title": "JEE Matrices online test — 15 free solved MCQs",
+  "meta_desc": "Free JEE Matrices online test with 15 exam-pattern MCQs, instant scoring and worked answers. Revise formulas and common traps. Take the free test.",
+  "excerpt": "A free 15-question JEE Matrices online test with instant scoring, worked answers and the exact traps that cost marks in the real exam.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-matrices.jpg",
+  "cta_product_slug": "jee-maths-dpp-matrices",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Matrices online test",
+  "content": "<p>Matrices look mechanical, so students race through them and drop easy marks. The real traps hide in order compatibility and the fact that AB rarely equals BA. Take the free JEE Matrices online test below. It holds 15 exam-pattern MCQs with instant scoring and worked answers. Aim for 12 out of 15, then fix the ones you miss.</p><h2>What JEE asks from Matrices</h2><ul><li>Order, equality and the common types of matrices. </li><li>Addition, scalar multiplication and their basic properties. </li><li>Matrix multiplication and its non commutative nature. </li><li>Transpose along with symmetric and skew symmetric forms. </li><li>Invertible matrices, adjoint and the trace property. </li></ul><h2>Formulas and facts to revise first</h2><ul><li>Two matrices add only when they share the same order. </li><li>The product AB exists only when columns of A match rows of B. </li><li>Trace of AB equals trace of BA, even though AB and BA differ. </li><li>A matrix has an inverse only when it stays non singular. </li><li>The zero matrix acts as the additive identity for its order. </li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Assuming AB equals BA and cancelling matrices like plain numbers. </li><li>Multiplying two orders that simply do not line up. </li><li>Reading AB equals zero as A zero or B zero. </li><li>Forgetting that a singular matrix has no inverse at all. </li></ul><h2>Free JEE Matrices online test</h2><p>The 15 questions below come from our verified JEE DPP question bank. They mix quick definition checks with product and property problems. Attempt every one, then press Check my score. Read each explanation before you move on, because the method matters more than the answer.</p><h2>Practise the whole chapter</h2><p>You just cleared the JEE Matrices online test, so keep the momentum going. The <a href=\"/shop/product/jee-maths-dpp-matrices\"><strong>JEE Maths DPP Matrices e-book</strong></a> carries many more solved MCQs at Rs 49. Full practice papers run Rs 79 each. You can also browse every title on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-books shelf</a>. For free theory first, work through the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Matrices Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Matrices",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "If A and B are square matrices of the same order, which trace property always holds?",
+        "options": ["Trace(AB) = Trace(A)Trace(B)", "Trace(AB) = Trace(BA)", "Trace(AB) = 0", "Trace(A') = −Trace(A)"],
+        "answer": 1,
+        "explanation": "The trace stays invariant under cyclic order. So Trace(AB) always equals Trace(BA)."
+      },
+      {
+        "q": "If A and B are square matrices of order 3 with AB = A and BA = B, then A² + B² equals:",
+        "options": ["A + B", "2AB", "I", "O"],
+        "answer": 0,
+        "explanation": "A² = A(BA) = (AB)A = A, and likewise B² = B. Adding them gives A + B."
+      },
+      {
+        "q": "A permutation matrix is always:",
+        "options": ["Orthogonal", "Symmetric", "Diagonal", "Idempotent"],
+        "answer": 0,
+        "explanation": "Its transpose equals its inverse, so a permutation matrix is orthogonal."
+      },
+      {
+        "q": "If a matrix has 12 elements, which orders can it take?",
+        "options": ["1 × 12, 12 × 1, 2 × 6, 6 × 2", "3 × 4, 4 × 3", "1 × 12, 12 × 1, 2 × 6, 6 × 2, 3 × 4, 4 × 3", "2 × 6, 6 × 2, 3 × 4, 4 × 3"],
+        "answer": 2,
+        "explanation": "Each order is a factor pair of 12. All six pairs are valid."
+      },
+      {
+        "q": "A matrix with only one row and any number of columns is called a:",
+        "options": ["Column matrix", "Square matrix", "Row matrix", "Diagonal matrix"],
+        "answer": 2,
+        "explanation": "A single row of entries defines a row matrix."
+      },
+      {
+        "q": "Which statement defines an identity matrix of order n?",
+        "options": ["A diagonal matrix where all diagonal elements are 0", "A scalar matrix with non-zero diagonal elements", "A diagonal matrix where all diagonal elements are 1", "A square matrix with all elements as 1"],
+        "answer": 2,
+        "explanation": "An identity matrix is diagonal with every diagonal entry equal to 1."
+      },
+      {
+        "q": "If two matrices A and B are equal, then they must have:",
+        "options": ["The same number of rows but any number of columns", "The same number of columns but any number of rows", "Different orders but the same elements", "The same order and corresponding elements equal"],
+        "answer": 3,
+        "explanation": "Equal matrices share the same order, and every matching entry agrees."
+      },
+      {
+        "q": "A scalar matrix is a diagonal matrix whose principal diagonal elements are all:",
+        "options": ["Different", "Equal", "Zero", "One"],
+        "answer": 1,
+        "explanation": "A scalar matrix repeats one constant along the diagonal, so all diagonal entries are equal."
+      },
+      {
+        "q": "Which property holds for matrix addition?",
+        "options": ["Commutative but not associative", "Associative but not commutative", "Neither commutative nor associative", "Both commutative and associative"],
+        "answer": 3,
+        "explanation": "Matrix addition follows both A + B = B + A and A + (B + C) = (A + B) + C."
+      },
+      {
+        "q": "The additive identity for a matrix A of order m × n is:",
+        "options": ["Identity matrix of order n", "Zero matrix of order m × n", "Matrix −A", "Scalar 1"],
+        "answer": 1,
+        "explanation": "Adding the zero matrix of the same order leaves A unchanged."
+      },
+      {
+        "q": "If A has order 3 × 4 and B has order 4 × 5, what is the order of AB?",
+        "options": ["3 × 4", "4 × 5", "3 × 5", "Not defined"],
+        "answer": 2,
+        "explanation": "The inner sizes match, so the product takes the outer sizes 3 × 5."
+      },
+      {
+        "q": "If A has order 2 × 3 and B has order 3 × 2, then:",
+        "options": ["Only AB is defined", "Only BA is defined", "Both AB and BA have the same order", "Both AB and BA are defined but with different orders"],
+        "answer": 3,
+        "explanation": "AB is 2 × 2 while BA is 3 × 3, so both exist with different orders."
+      },
+      {
+        "q": "In general, matrix multiplication is:",
+        "options": ["Always commutative", "Never commutative", "Not commutative", "Commutative only for rectangular matrices"],
+        "answer": 2,
+        "explanation": "For most matrices AB differs from BA, so multiplication is not commutative."
+      },
+      {
+        "q": "For matrices A, B and C with compatible orders, the associative law states:",
+        "options": ["A(BC) = (AB)C", "A(B+C) = AB + AC", "(A+B)C = AC + BC", "AB = BA"],
+        "answer": 0,
+        "explanation": "Grouping does not change a product, so A(BC) equals (AB)C."
+      },
+      {
+        "q": "If A and B satisfy AB = O, the zero matrix, then:",
+        "options": ["A = O or B = O is necessary", "Neither A = O nor B = O is necessary", "Both A and B must be zero matrices", "A must be an identity matrix"],
+        "answer": 1,
+        "explanation": "Two non-zero matrices can multiply to the zero matrix, so neither must be zero."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Matrices test free?",
+      "a": "Yes. All 15 questions, the scoring and the explanations cost nothing. The e-book then adds many more solved MCQs for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions follow the JEE Main and Advanced pattern, from quick concepts to property based reasoning."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve the set in one timed sitting. Then review every wrong answer with the <a href=\"/shop/product/jee-maths-dpp-matrices\">Matrices e-book</a>."
+    }
+  ]
+}

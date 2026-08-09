@@ -1,0 +1,130 @@
+{
+  "slug": "jee-3d-geometry-mcq-online-test",
+  "title": "JEE 3D Geometry Online Test: 15 Free Solved MCQs",
+  "meta_title": "JEE 3D Geometry online test — 15 free solved MCQs",
+  "meta_desc": "Take the free JEE 3D Geometry online test: 15 solved MCQs on distance, section formula and octants, with instant scoring. Start now.",
+  "excerpt": "A free JEE 3D Geometry online test with 15 solved MCQs on distance, section formula and octants, fully explained.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-three-dimensional-geometry.jpg",
+  "cta_product_slug": "jee-maths-dpp-three-dimensional-geometry",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE 3D Geometry online test",
+  "content": "<p>Three dimensional geometry looks heavy, but the basics carry most marks. Master distance, the section formula and octants first. So the smart move is to bank those marks. Try the free <strong>JEE 3D Geometry online test</strong> below. It gives 15 solved MCQs with instant scoring. Aim for 12.</p><h2>What JEE asks from 3D geometry</h2><ul><li>Distance between two points in space.</li> <li>Section formula, and the midpoint as its special case.</li> <li>Which octant a point sits in.</li> <li>Where a plane cuts a segment, and in what ratio.</li> <li>Simple loci, like distance from an axis.</li> <li>Foot of a perpendicular dropped onto an axis.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>Use distance = root of (Δx² + Δy² + Δz²).</li> <li>Split a segment with the section formula ratio m to n.</li> <li>Read octants from the signs of x, y and z.</li> <li>Get distance from the x axis as root of (y² + z²).</li> <li>Find the centroid by averaging the three vertices.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Swapping internal and external division signs.</li> <li>Using distance from a plane instead of an axis.</li> <li>Misreading an octant when one sign turns negative.</li> <li>Forgetting z in the space distance formula.</li> <li>Reversing a ratio, and so flipping the point.</li></ul><h2>Free JEE 3D geometry online test</h2><p>This 15 question quiz comes from our verified DPP bank. It matches the level of a real JEE paper. So work each step cleanly. Answer all 15, then press Check my score. Redo each miss, and come back after a day.</p><h2>Practise the whole chapter</h2><p>Ready for full drills? The <a href=\"/shop/product/jee-maths-dpp-three-dimensional-geometry\"><strong>JEE Maths DPP Three Dimensional Geometry e-book</strong></a> adds many more solved MCQs. Each chapter e-book costs Rs 49, and each practice paper set costs Rs 79. Every question ships with a full worked solution. You can browse every title on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP shelf</a>. Preparing the whole syllabus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> covers every chapter.</p>",
+  "quiz": {
+    "title": "JEE 3D Geometry Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Three Dimensional Geometry",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The perpendicular distance of P(3, 4, 5) from the y-axis is:",
+        "options": ["5", "√34", "3", "4"],
+        "answer": 1,
+        "explanation": "Distance from the y-axis is root of (x² + z²). So it is root of (9 + 25) = √34."
+      },
+      {
+        "q": "In what ratio does the yz-plane divide the segment from (−2, 4, 7) to (3, −5, 8)?",
+        "options": ["2:3 internally", "2:3 externally", "3:2 internally", "3:2 externally"],
+        "answer": 0,
+        "explanation": "The yz-plane means x = 0, so the ratio is −x₁/x₂ = 2/3. A positive value marks internal division, so 2:3 internally."
+      },
+      {
+        "q": "Which pair of equations represents the x-axis?",
+        "options": ["x = 0", "y = 0", "y = 0, z = 0", "x = 0, y = 0"],
+        "answer": 2,
+        "explanation": "On the x-axis both y and z stay zero. So y = 0 and z = 0 together define it."
+      },
+      {
+        "q": "Points A(1, 2, 3), B(−1, −1, −1) and C(3, 5, 7) are:",
+        "options": ["a right triangle", "collinear points", "an equilateral triangle", "an isosceles triangle"],
+        "answer": 1,
+        "explanation": "Here AB = AC = √29 and BC = 2√29. Since AB + AC = BC, the three points lie on one line."
+      },
+      {
+        "q": "The point (3, −4, −5) lies in which octant?",
+        "options": ["Octant IV", "Octant VIII", "Octant VII", "Octant V"],
+        "answer": 1,
+        "explanation": "The signs are (+, −, −). That combination belongs to Octant VIII."
+      },
+      {
+        "q": "The distance between (2, −1, 3) and (−2, 1, 3) is:",
+        "options": ["4", "2√5", "6", "√24"],
+        "answer": 1,
+        "explanation": "The gaps are −4, 2 and 0. So the distance is root of (16 + 4 + 0) = 2√5."
+      },
+      {
+        "q": "A point moves so its distance from the yz-plane is twice its distance from the xz-plane. Its locus is:",
+        "options": ["x² = 4y²", "y² = 4x²", "x² = 2y²", "y² = 2x²"],
+        "answer": 0,
+        "explanation": "Distance from the yz-plane is |x| and from the xz-plane is |y|. So |x| = 2|y|, which squares to x² = 4y²."
+      },
+      {
+        "q": "The locus of a point with y = 0 and z = 0 is:",
+        "options": ["the xy-plane", "the yz-plane", "the z-axis", "the x-axis"],
+        "answer": 3,
+        "explanation": "With y and z both zero, x stays free. So the locus is the x-axis."
+      },
+      {
+        "q": "The distance of P(−4, 3, 5) from the origin is:",
+        "options": ["5", "50", "5√2", "10√2"],
+        "answer": 2,
+        "explanation": "Distance is root of (16 + 9 + 25) = √50. So it equals 5√2."
+      },
+      {
+        "q": "If the distance between (a, 0, 1) and (0, 1, 2) is √27, then a is:",
+        "options": ["±4", "±3", "±25", "±5"],
+        "answer": 3,
+        "explanation": "The distance formula gives a² + 1 + 1 = 27. So a² = 25 and a = ±5."
+      },
+      {
+        "q": "The octant with coordinate signs (−, +, −) is:",
+        "options": ["Octant II", "Octant III", "Octant VI", "Octant VII"],
+        "answer": 2,
+        "explanation": "The pair (−, +) sits in the second quadrant, and a negative z drops below. That gives Octant VI."
+      },
+      {
+        "q": "The midpoint of the segment joining (3, 4, 5) and (1, 2, 3) is:",
+        "options": ["(1, 1, 1)", "(2, 2, 2)", "(2, 3, 4)", "(4, 6, 8)"],
+        "answer": 2,
+        "explanation": "Average the coordinates in pairs. So the midpoint is (2, 3, 4)."
+      },
+      {
+        "q": "Which point is farthest from the origin?",
+        "options": ["(1, 2, 2)", "(2, 2, 2)", "(3, 1, 1)", "(1, 1, 4)"],
+        "answer": 3,
+        "explanation": "The squared distances are 9, 12, 11 and 18. The largest is 18, so (1, 1, 4) wins."
+      },
+      {
+        "q": "The centroid of the triangle with vertices (2, 4, 6), (3, 6, 9) and (1, −1, 0) is:",
+        "options": ["(2, 3, 5)", "(3, 3, 5)", "(2, 4, 6)", "(6, 9, 15)"],
+        "answer": 0,
+        "explanation": "Average each coordinate across the three vertices. So the centroid is (2, 3, 5)."
+      },
+      {
+        "q": "If x = y = z ≠ 0, the point lies on:",
+        "options": ["a line equally inclined to all axes", "the x-axis", "the xy-plane", "the yz-plane"],
+        "answer": 0,
+        "explanation": "All points with x = y = z lie on a diagonal through the origin. That line is equally inclined to the three axes."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this 3D geometry test free?",
+      "a": "Yes. All 15 questions, the scoring and every explanation stay free. The e-book then adds many more solved MCQs for Rs 49."
+    },
+    {
+      "q": "What does the test cover?",
+      "a": "It mixes distance in space, the section formula, octants, the midpoint and simple loci around the axes."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-three-dimensional-geometry\">chapter e-book</a> carries many more graded MCQs with full step-by-step solutions."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set under a timer, mark it, then redo only the ones you missed after two days."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "jee-limits-continuity-mcq-online-test",
+  "title": "JEE Limits and Continuity Online Test: 15 Free MCQs",
+  "meta_title": "JEE Limits and Continuity online test — 15 MCQs",
+  "meta_desc": "Free JEE Limits and Continuity online test with 15 solved MCQs on standard limits, continuity and differentiability. Take the free test.",
+  "excerpt": "A free JEE Limits and Continuity online test with 15 solved MCQs on standard limits and continuity, with instant scoring.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-limits-and-continuity.jpg",
+  "cta_product_slug": "jee-maths-dpp-limits-and-continuity",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Limits and Continuity online test",
+  "content": "<p>Limits look like plug-and-play until the form goes 0/0. Then you need the standard limits, not a calculator. That single skill decides your calculus score. Take the free <strong>JEE Limits and Continuity online test</strong> below. It has 15 exam-pattern MCQs with instant scoring. Aim for 12 out of 15.</p><h2>What JEE asks from limits</h2><ul><li>Algebraic limits using factor and rationalise tricks.</li><li>Trigonometric limits built on sin x over x.</li><li>Exponential and logarithmic standard limits.</li><li>Limits at infinity for rational functions.</li><li>Continuity and differentiability at a joint point.</li></ul><h2>Standard limits to revise first</h2><ul><li>The limit of sin x over x is 1, as x goes to 0.</li><li>The limit of (a^x − 1) over x equals ln a.</li><li>Also (1 − cos x) over x² tends to 1/2.</li><li>For (x^n − 1) over (x − 1), the limit is n at x = 1.</li><li>A function stays continuous when both side limits meet its value.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Applying L Hopital before checking the 0/0 form.</li><li>Cancelling a factor that is not really common.</li><li>Forgetting that a jump discontinuity breaks differentiability.</li></ul><h2>Free JEE Limits and Continuity online test</h2><p>The 15-question quiz below comes from our verified DPP question bank. It mirrors the paid e-book exactly. Answer all 15, then press Check my score. Redo the trig limits first, because they repeat every year.</p><h2>How to use this test</h2><p>Put 30 minutes on a clock. Do the standard limits first. Those are quick wins. Then tackle the tricky forms. Write each step by hand. Do not skip a line. Spot the 0/0 form before you act. Pick the right standard limit. If a value looks odd, redo it once. Mark every slip you make. Try the set again in two days. Your speed will rise, and your errors will drop.</p><h2>Practise the whole chapter</h2><p>Want the full set? The <a href=\"/shop/product/jee-maths-dpp-limits-and-continuity\"><strong>JEE Maths DPP Limits and Continuity e-book</strong></a> covers every worksheet for Rs 49. Each question ships with a worked solution, so the logic stays with you. You can also browse the whole <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-book shelf</a>, and the practice papers cost Rs 79. Preparing all of calculus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> teaches limits from scratch. Then this JEE Limits and Continuity online test checks your grip.</p>",
+  "quiz": {
+    "title": "JEE Limits and Continuity Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Limits and Continuity",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Evaluate lim(h→0) (2^(3+h) − 8)/h.",
+        "options": [
+          "8 log 2",
+          "8",
+          "3 log 2",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "Write 2^(3+h) = 8·2^h, so the expression is 8(2^h − 1)/h. As h → 0 the ratio tends to log 2, giving 8 log 2."
+      },
+      {
+        "q": "Evaluate lim(x→π/4) (sin x − cos x)/(x − π/4).",
+        "options": [
+          "1",
+          "√2",
+          "1/√2",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "The numerator equals √2 sin(x − π/4). Using sin θ / θ → 1, the limit is √2."
+      },
+      {
+        "q": "Evaluate lim(x→0) log(1 + x)/(3^x − 1).",
+        "options": [
+          "log(3)",
+          "1",
+          "log(e)/log(3)",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Divide top and bottom by x. The numerator tends to 1 and the denominator to log 3, giving log(e)/log(3)."
+      },
+      {
+        "q": "Evaluate lim(x→0) (e^x − 1 − x)/x².",
+        "options": [
+          "1",
+          "0",
+          "Limit does not exist",
+          "1/2"
+        ],
+        "answer": 3,
+        "explanation": "Expand e^x = 1 + x + x²/2 + …, so e^x − 1 − x = x²/2 + …. Dividing by x² gives 1/2."
+      },
+      {
+        "q": "Evaluate lim(x→π/2) (1 − sin x)/(π/2 − x)².",
+        "options": [
+          "1/2",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Let y = π/2 − x, so 1 − sin x = 1 − cos y. Then (1 − cos y)/y² → 1/2."
+      },
+      {
+        "q": "Evaluate lim(x→0) (1 − cos x)/x².",
+        "options": [
+          "1",
+          "1/2",
+          "0",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "Use 1 − cos x = 2 sin²(x/2). The limit reduces to 1/2."
+      },
+      {
+        "q": "If lim(x→1) (x⁴ − 1)/(x − 1) = lim(x→k) (x³ − k³)/(x² − k²), then k equals:",
+        "options": [
+          "3/8",
+          "4",
+          "8/3",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "The left side is 4. The right side simplifies to (3/2)k. Setting 4 = (3/2)k gives k = 8/3."
+      },
+      {
+        "q": "Evaluate lim(x→∞) (3x² + 5x − 1)/(2x² − 3).",
+        "options": [
+          "0",
+          "∞",
+          "−1/3",
+          "3/2"
+        ],
+        "answer": 3,
+        "explanation": "Both are degree two, so the limit is the ratio of leading coefficients, which is 3/2."
+      },
+      {
+        "q": "Evaluate lim(x→∞) [√(x² + x) − x].",
+        "options": [
+          "1/2",
+          "1",
+          "0",
+          "∞"
+        ],
+        "answer": 0,
+        "explanation": "Multiply by the conjugate to get x/[√(x² + x) + x]. Dividing by x gives 1/2."
+      },
+      {
+        "q": "Evaluate lim(x→0) (tan 7x)/(2x).",
+        "options": [
+          "2/7",
+          "7/2",
+          "1",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "Rewrite as (7/2)·(tan 7x)/(7x). Since tan θ / θ → 1, the limit is 7/2."
+      },
+      {
+        "q": "Evaluate lim(x→0) (2^x − 1)/x.",
+        "options": [
+          "1",
+          "0",
+          "log 2",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "The standard limit (a^x − 1)/x → log a gives log 2 for a = 2."
+      },
+      {
+        "q": "Evaluate lim(x→0) (1 − cos 3x)/x².",
+        "options": [
+          "3/2",
+          "1/2",
+          "9",
+          "9/2"
+        ],
+        "answer": 3,
+        "explanation": "Use (1 − cos ax)/x² → a²/2. With a = 3 the value is 9/2."
+      },
+      {
+        "q": "Evaluate lim(x→0) [√(2 + x) − √2]/x.",
+        "options": [
+          "1/(2√2)",
+          "√2",
+          "1/√2",
+          "2√2"
+        ],
+        "answer": 0,
+        "explanation": "Rationalise the numerator to reach 1/[√(2 + x) + √2]. At x = 0 this is 1/(2√2)."
+      },
+      {
+        "q": "Let g(x) = |f(x)| for all x. Which property does g inherit from f?",
+        "options": [
+          "Onto if f is onto",
+          "Continuous if f is continuous",
+          "One-one if f is one-one",
+          "Differentiable if f is differentiable"
+        ],
+        "answer": 1,
+        "explanation": "The absolute value of a continuous function stays continuous. Onto, one-one and differentiability need not carry over."
+      },
+      {
+        "q": "Which function is differentiable at x = 0?",
+        "options": [
+          "|x|",
+          "|x| + |x − 1|",
+          "x|x|",
+          "sin |x|"
+        ],
+        "answer": 2,
+        "explanation": "For x|x| the left and right derivatives at 0 both equal 0. The others have a corner at 0."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Limits and Continuity test free?",
+      "a": "Yes. All 15 questions, scoring and explanations cost nothing. The e-book adds the full chapter with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions follow JEE Main and Advanced patterns, so either target fits."
+    },
+    {
+      "q": "What is inside the e-book?",
+      "a": "It carries every DPP worksheet with step-by-step solutions. See the <a href=\"/shop/product/jee-maths-dpp-limits-and-continuity\">Limits and Continuity DPP page</a>."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one worksheet a day, mark your slips, then redo the trig limits after two days. Repetition fixes them."
+    }
+  ]
+}

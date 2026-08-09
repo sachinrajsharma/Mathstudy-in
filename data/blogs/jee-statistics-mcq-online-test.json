@@ -1,0 +1,130 @@
+{
+  "slug": "jee-statistics-mcq-online-test",
+  "title": "JEE Statistics Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Statistics online test — 15 Free MCQs with Answers",
+  "meta_desc": "Free JEE Statistics online test with 15 MCQs, worked answers, mean, variance, combined mean and corrected-value tips. Take the free test.",
+  "excerpt": "A free JEE Statistics online test with 15 verified MCQs, instant scoring, full solutions and the mean, variance and combined-mean rules.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-statistics.jpg",
+  "cta_product_slug": "jee-maths-dpp-statistics",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Statistics online test",
+  "content": "<p>Statistics looks like the easy chapter, until a shifted mean quietly wrecks your variance. Get the combined mean or a corrected value wrong, and every later step inherits the error. This free JEE Statistics online test targets those exact slips. It runs 15 MCQs with instant scoring. Every answer walks through the arithmetic. So read the numbers twice, then compute. A slow, sure sum beats a fast wrong one.</p><h2>What JEE asks from Statistics </h2><ul><li>Mean, median and mode of a data set. </li><li>Combined mean of two groups. </li><li>Variance and standard deviation. </li><li>Corrected mean after a wrong reading. </li><li>Coefficient of variation for comparison. </li></ul><h2>Formulas and facts to revise first </h2><ul><li>Mean is the sum over the count. </li><li>Variance of first n natural numbers is (n squared minus 1) over 12. </li><li>Coefficient of variation is standard deviation over mean times 100. </li><li>Karl Pearson links mode to 3 median minus 2 mean. </li></ul><h2>Mistakes that cost JEE marks </h2><ul><li>Taking a simple average instead of a weighted one. </li><li>Confusing variance with standard deviation. </li><li>Forgetting to fix the total after a correction. </li><li>Reading the median off the wrong ogive point. </li></ul><h2>Free JEE Statistics online test </h2><p>The 15 question quiz below comes from our verified DPP bank. Keep a pen and rough sheet at hand. First, note whether the mean is simple or weighted. Then work each formula step by step. Check every explanation you miss, because one slip moves the whole answer. So treat this JEE Statistics online test as arithmetic drill. </p><h2>Practise the whole chapter </h2><p>Want the full practice? The <a href=\"/shop/product/jee-maths-dpp-statistics\"><strong>JEE Maths DPP Statistics e-book</strong></a> sorts questions by type and shows each calculation in full. It costs just Rs 49. You can also open the <a href=\"/shop/category/jee-mathematics\">full JEE Maths DPP shelf</a> for every chapter and paper. And the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> revises each formula first. </p>",
+  "quiz": {
+    "title": "JEE Statistics Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Statistics",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "A group of 30 students has mean 41 and another of 20 students has mean 60. The combined mean is",
+        "options": ["48.6", "50.5", "52.4", "49.6"],
+        "answer": 0,
+        "explanation": "Combined mean = (30 x 41 + 20 x 60)/50 = 2430/50 = 48.6, a weighted average."
+      },
+      {
+        "q": "The standard deviation of the first 10 natural numbers is about",
+        "options": ["2.87", "3.12", "8.25", "9.15"],
+        "answer": 0,
+        "explanation": "Variance = (n² − 1)/12 = 99/12 = 8.25. Its square root is about 2.87."
+      },
+      {
+        "q": "A group of 30 students has mean 40 and another of 10 students has mean 30. The combined mean is",
+        "options": ["35", "32.5", "38.5", "37.5"],
+        "answer": 3,
+        "explanation": "Combined mean = (30 x 40 + 10 x 30)/40 = 1500/40 = 37.5, again weighted."
+      },
+      {
+        "q": "The variance of the first 21 natural numbers is",
+        "options": ["221/6", "77/2", "110/3", "220/3"],
+        "answer": 2,
+        "explanation": "Variance of 1 to n is (n² − 1)/12. For n = 21 this gives 440/12 = 110/3."
+      },
+      {
+        "q": "For a moderately skewed distribution, the empirical relation is",
+        "options": ["Mode = 2 Median − 3 Mean", "Median = 3 Mode − 2 Mean", "Mean = 3 Median − 2 Mode", "Mode = 3 Median − 2 Mean"],
+        "answer": 3,
+        "explanation": "Karl Pearson's empirical rule states Mode = 3 Median − 2 Mean."
+      },
+      {
+        "q": "The mean of 20 readings is 58. One value 85 was wrong; the correct value is 70. The correct mean is",
+        "options": ["57.25", "58", "58.75", "53.75"],
+        "answer": 0,
+        "explanation": "Correct total = 20 x 58 − 85 + 70 = 1145. So the correct mean is 1145/20 = 57.25."
+      },
+      {
+        "q": "Calculate the mean deviation about the mean for 1, 2, 3, 4, 5.",
+        "options": ["1", "1.2", "1.5", "2"],
+        "answer": 1,
+        "explanation": "Mean is 3. Absolute deviations 2, 1, 0, 1, 2 sum to 6, so the mean deviation is 6/5 = 1.2."
+      },
+      {
+        "q": "Daily profits (in thousands) are 10, 15, 12, 20, 18. Find the standard deviation.",
+        "options": ["3.68", "4.12", "5.00", "13.6"],
+        "answer": 0,
+        "explanation": "Mean is 15. Squared deviations sum to 68, so variance is 13.6 and the SD is about 3.68."
+      },
+      {
+        "q": "The formula for the coefficient of variation is",
+        "options": ["(Mean / Standard Deviation) x 100", "(Standard Deviation / Mean) x 100", "(Variance / Mean) x 100", "(Mean / Variance) x 100"],
+        "answer": 1,
+        "explanation": "The coefficient of variation compares spread to size: (Standard Deviation / Mean) x 100."
+      },
+      {
+        "q": "Graphically, the mode can be read from which of these?",
+        "options": ["Ogive", "Frequency Polygon", "Histogram", "Pie Chart"],
+        "answer": 2,
+        "explanation": "A histogram shows the mode: draw cross lines from the tallest bar's top corners."
+      },
+      {
+        "q": "The 'less than' and 'more than' ogives intersect at a point giving which measure?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": 1,
+        "explanation": "The x-coordinate where the two cumulative-frequency curves cross gives the median."
+      },
+      {
+        "q": "Scores 80, 90 and 70 carry weights 2, 3 and 1. The weighted mean is",
+        "options": ["80", "81.67", "83.33", "85"],
+        "answer": 2,
+        "explanation": "Weighted mean = (2 x 80 + 3 x 90 + 1 x 70)/6 = 500/6 = 83.33."
+      },
+      {
+        "q": "For 100 readings, the sum of deviations from an assumed mean of 50 is −20. Find the mean.",
+        "options": ["48", "49.8", "50.2", "52"],
+        "answer": 1,
+        "explanation": "Mean = assumed mean + (sum of deviations)/n = 50 + (−20)/100 = 49.8."
+      },
+      {
+        "q": "What is the mean of the first 5 prime numbers?",
+        "options": ["5", "6.2", "7.4", "5.6"],
+        "answer": 3,
+        "explanation": "The first five primes 2, 3, 5, 7, 11 sum to 28. So the mean is 28/5 = 5.6."
+      },
+      {
+        "q": "The sum of squared deviations of a data set is minimum about the",
+        "options": ["Median", "Mode", "Mean", "Origin"],
+        "answer": 2,
+        "explanation": "The sum of (xᵢ − A)² is smallest when A is the arithmetic mean, a key property of the mean."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Statistics test free?",
+      "a": "Yes. The 15 MCQs, scoring and explanations cost nothing. The e-book adds every worksheet with full solutions for Rs 49."
+    },
+    {
+      "q": "Is it JEE Main or Advanced level?",
+      "a": "Mostly Main level, since Statistics is a Main scoring chapter. The e-book still stretches to tougher mixed sums."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "The chapter e-book carries the full DPP set with answer keys. See the <a href=\"/shop/product/jee-maths-dpp-statistics\">Statistics e-book</a>."
+    },
+    {
+      "q": "Where do students lose marks here?",
+      "a": "On weighted means and corrected values. Slow, careful arithmetic fixes most of it."
+    }
+  ]
+}

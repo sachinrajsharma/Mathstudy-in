@@ -1,0 +1,205 @@
+{
+  "slug": "jee-binomial-theorem-mcq-online-test",
+  "title": "JEE Binomial Theorem Online Test: 15 Free MCQs with Answers",
+  "meta_title": "JEE Binomial Theorem online test: 15 free MCQs",
+  "meta_desc": "Free JEE Binomial Theorem online test with 15 solved MCQs on general term, middle term and greatest term, plus key facts. Take the free test.",
+  "excerpt": "A free JEE Binomial Theorem online test with 15 solved MCQs, instant scoring, key formulas and the middle-term traps that cost marks.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-binomial-theorem.jpg",
+  "cta_product_slug": "jee-maths-dpp-binomial-theorem",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Binomial Theorem online test",
+  "content": "<p>Binomial questions look formula-heavy, yet most rest on one general term. Nail that term, and the middle-term and greatest-term problems fall in line. So take the free <strong>JEE Binomial Theorem online test</strong> below. It has 15 exam MCQs and scores you at once. Each answer shows the key step. Aim for 12 out of 15.</p><h2>What JEE asks from this chapter</h2><p>The paper circles a few sure ideas. First come general-term and middle-term problems. Then greatest-term and coefficient questions appear. Short identities round it off.</p><ul><li>The general term and its coefficient.</li><li>The middle term for even and odd powers.</li><li>The greatest term for a given value.</li><li>Sum of coefficients and the constant term.</li><li>Pascal and hockey-stick style identities.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>The general term is nCr times a to the (n minus r) times b to the r.</li><li>For even n, one middle term sits at n over 2 plus 1.</li><li>Put x equal to 1 to get the sum of all coefficients.</li><li>Pascal gives nCr plus nC(r minus 1) equals (n + 1)Cr.</li><li>A constant term needs the power of x to drop to zero.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Counting one middle term for an odd power, when there are two.</li><li>Mixing the greatest term with the greatest coefficient.</li><li>Dropping a sign inside a bracket like (3 minus 2x).</li><li>Claiming a constant term when the power of x never hits zero.</li></ul><h2>Free JEE Binomial Theorem online test</h2><p>Here is the main event. The test below has 15 questions. We took them from our JEE DPP bank. So they match the real Main and Advanced level. Try them all, then press Check my score.</p><h2>Practise the whole chapter</h2><p>Want more drill? The <a href=\"/shop/product/jee-binomial-theorem-mcq-online-test\"><strong>JEE Maths DPP — Binomial Theorem e-book</strong></a> adds many more solved problems. Each one has clear steps. It costs Rs 49, and the practice papers cost Rs 79. You can also browse the <a href=\"/shop/category/jee-mathematics\">all JEE Maths DPP e-books</a> shelf. For free theory first, try the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Binomial Theorem Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Binomial Theorem",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The value of 2C2 + 3C2 + 4C2 + 5C2 equals:",
+        "options": [
+          "6C3",
+          "5C3",
+          "6C2",
+          "7C3"
+        ],
+        "answer": 0,
+        "explanation": "The hockey-stick identity sums these to 6C3. Directly, 1 + 3 + 6 + 10 = 20 = 6C3."
+      },
+      {
+        "q": "The sum of the coefficients of the two middle terms of (1 + x) to the power (2n − 1) is:",
+        "options": [
+          "(2n−1)C(n−1)",
+          "(2n)Cn",
+          "(2n−1)Cn",
+          "(2n−2)C(n−1)"
+        ],
+        "answer": 1,
+        "explanation": "The two middle coefficients are (2n−1)C(n−1) and (2n−1)Cn. By Pascal rule they add to (2n)Cn."
+      },
+      {
+        "q": "The coefficient of the middle term in (1 + x) to the power 14 is:",
+        "options": [
+          "3003",
+          "1716",
+          "3432",
+          "1001"
+        ],
+        "answer": 2,
+        "explanation": "For n = 14 the single middle term is at r = 7. Its coefficient is 14C7 = 3432."
+      },
+      {
+        "q": "The constant term in (1 + x) to the power n times (1 + 1/x) to the power n is:",
+        "options": [
+          "2 to the power n",
+          "nCn",
+          "(2n)!/n!",
+          "2nCn"
+        ],
+        "answer": 3,
+        "explanation": "Combine to (1 + x) to the power 2n over x to the power n. The constant term is the coefficient of x to the power n, which is 2nCn."
+      },
+      {
+        "q": "The numerically greatest term in (2 + 3x) to the power 9 at x = 1 is:",
+        "options": [
+          "T6",
+          "T5",
+          "T7",
+          "T8"
+        ],
+        "answer": 0,
+        "explanation": "Test the ratio of consecutive terms. It stays at least 1 up to the 6th term, so T6 is greatest."
+      },
+      {
+        "q": "The numerically greatest term in (3 − 2x) to the power 10 at x = 1 is the:",
+        "options": [
+          "4th term",
+          "5th term",
+          "6th term",
+          "7th term"
+        ],
+        "answer": 1,
+        "explanation": "Track the magnitude ratio with the sign inside the bracket. It peaks at the 5th term."
+      },
+      {
+        "q": "The greatest coefficient in the expansion of (1 + 2x) to the power 8 is:",
+        "options": [
+          "8C4 2⁴",
+          "8C6 2⁶",
+          "8C5 2⁵",
+          "8C7 2⁷"
+        ],
+        "answer": 2,
+        "explanation": "Compare successive coefficients nCr times 2 to the r. The largest occurs at r = 5, giving 8C5 2⁵."
+      },
+      {
+        "q": "The ratio of the greatest binomial coefficient in (1+x) to the power 2n to that in (1+x) to the power (2n−1) is:",
+        "options": [
+          "1:1",
+          "n:1",
+          "2n:1",
+          "2:1"
+        ],
+        "answer": 3,
+        "explanation": "The peaks are (2n)Cn and (2n−1)Cn. Their ratio simplifies to 2, so it is 2:1."
+      },
+      {
+        "q": "If a cube side grows by 1 percent, the approximate percentage rise in its volume is:",
+        "options": [
+          "3%",
+          "1%",
+          "2%",
+          "4%"
+        ],
+        "answer": 0,
+        "explanation": "Volume is the side cubed, so a 1 percent side rise scales it by about 1.01 cubed. That is close to a 3 percent gain."
+      },
+      {
+        "q": "Assertion: In (1 + x) to the power 2n the middle coefficient beats every other. Reason: coefficients rise to the middle and then fall by symmetry.",
+        "options": [
+          "Assertion true but Reason false.",
+          "Both statements are true, and the Reason correctly explains the Assertion.",
+          "Assertion false but Reason true.",
+          "Both are true, but the Reason does not explain the Assertion."
+        ],
+        "answer": 1,
+        "explanation": "The middle coefficient is the largest because coefficients rise then fall. So both hold and the reason explains it."
+      },
+      {
+        "q": "Assertion: nCr + nC(r−1) = (n+1)Cr. Reason: this is Pascal identity, the recurrence behind Pascal triangle.",
+        "options": [
+          "Both are true, but the Reason does not explain the Assertion.",
+          "Assertion true but Reason false.",
+          "Both statements are true, and the Reason correctly explains the Assertion.",
+          "Assertion false but Reason true."
+        ],
+        "answer": 2,
+        "explanation": "Pascal identity is a standard result, and the reason names it correctly. So both are true and linked."
+      },
+      {
+        "q": "Assertion: the sum of the coefficients in (2x − 3y) to the power 10 is 1. Reason: you get that sum by setting every variable to 1.",
+        "options": [
+          "Assertion true but Reason false.",
+          "Both are true, but the Reason does not explain the Assertion.",
+          "Assertion false but Reason true.",
+          "Both statements are true, and the Reason correctly explains the Assertion."
+        ],
+        "answer": 3,
+        "explanation": "Setting x and y to 1 gives (2 − 3) to the power 10, which is 1. The rule about substituting 1 explains it."
+      },
+      {
+        "q": "Assertion: the greatest term in (1 + 1/2) to the power 10 is the 5th term. Reason: the greatest term sits near r = (n + 1)x over (1 + x).",
+        "options": [
+          "Assertion is false but Reason is true.",
+          "Both are true and the Reason explains the Assertion.",
+          "Both are true but the Reason does not explain it.",
+          "Assertion true but Reason false."
+        ],
+        "answer": 0,
+        "explanation": "The formula gives r near 3.67, so the greatest term is the 4th, not the 5th. The assertion fails while the reason holds."
+      },
+      {
+        "q": "Assertion: for even n, (1 + x) to the power n has exactly one middle term. Reason: the expansion has n + 1 terms, which is odd when n is even.",
+        "options": [
+          "Assertion true but Reason false.",
+          "Both statements are true, and the Reason correctly explains the Assertion.",
+          "Assertion false but Reason true.",
+          "Both are true, but the Reason does not explain the Assertion."
+        ],
+        "answer": 1,
+        "explanation": "An even n gives an odd count of terms, so one middle term. Both statements are true and connected."
+      },
+      {
+        "q": "Assertion: for odd n, (a + b) to the power n has two middle terms. Reason: the expansion has n + 1 terms, which is even when n is odd.",
+        "options": [
+          "Both are true, but the Reason does not explain the Assertion.",
+          "Assertion true but Reason false.",
+          "Both statements are true, and the Reason correctly explains the Assertion.",
+          "Assertion false but Reason true."
+        ],
+        "answer": 2,
+        "explanation": "An odd n gives an even count of terms, so two middle terms. Both statements are true and connected."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Binomial Theorem test free?",
+      "a": "Yes. All 15 questions, the scoring and the explanations are free. The e-book then adds many more solved problems for Rs 49."
+    },
+    {
+      "q": "Is it aimed at JEE Main or Advanced?",
+      "a": "Both. The questions follow the Main and Advanced pattern, so they fit either target."
+    },
+    {
+      "q": "How many problems does the chapter e-book have?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-binomial-theorem\">chapter e-book</a> carries a full graded set with step-by-step solutions, from basics to Advanced level."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set in a timed sitting, mark your errors, then redo the missed types after a day."
+    }
+  ]
+}

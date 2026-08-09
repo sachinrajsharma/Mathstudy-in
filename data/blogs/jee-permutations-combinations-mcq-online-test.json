@@ -1,0 +1,205 @@
+{
+  "slug": "jee-permutations-combinations-mcq-online-test",
+  "title": "JEE Permutations and Combinations Online Test: 15 Free MCQs",
+  "meta_title": "JEE Permutations and Combinations online test",
+  "meta_desc": "Free JEE Permutations and Combinations online test with 15 solved MCQs on arrangements and selections, plus key rules and traps. Take the free test.",
+  "excerpt": "A free JEE Permutations and Combinations online test with 15 solved MCQs, instant scoring, key rules and the counting traps that cost marks.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-permutations-and-combinations.jpg",
+  "cta_product_slug": "jee-maths-dpp-permutations-and-combinations",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Permutations and Combinations online test",
+  "content": "<p>This chapter punishes one habit: counting the same case twice. Order counts in some problems and not in others. So take the free <strong>JEE Permutations and Combinations online test</strong> below. It has 15 exam MCQs and scores you at once. Each answer shows the count. Aim for 12 out of 15.</p><h2>What JEE asks from this chapter</h2><p>The paper tests counting under clear rules. First come word-order problems. Then team and choice questions follow. Round tables and digit puzzles add the twist. Repeats and blocks show up a lot too.</p><ul><li>Ways to arrange letters, with and without repeats.</li><li>Ways to pick a team with nCr.</li><li>Grouping vowels or people to sit together.</li><li>Counting round a table and on a necklace.</li><li>Making numbers under digit and size limits.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>Use nPr when order counts, and nCr when it does not.</li><li>Set n items round a circle in (n minus 1) factorial ways.</li><li>A necklace halves that count, since a flip repeats it.</li><li>Tie a group as one block, then place it and its parts.</li><li>For a repeated letter, divide by the factorial of the repeat.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Using nPr when the problem never cares about order.</li><li>Not dividing by repeats in a word like INDEPENDENCE.</li><li>Missing the flip factor in a necklace count.</li><li>Ignoring the no-leading-zero rule while making numbers.</li></ul><h2>Free JEE Permutations and Combinations online test</h2><p>Here is the main event. The test below has 15 questions. We took them from our JEE DPP bank. So they match the real Main and Advanced level. Try them all, then press Check my score.</p><h2>Practise the whole chapter</h2><p>Want more drill? The <a href=\"/shop/product/jee-permutations-combinations-mcq-online-test\"><strong>JEE Maths DPP — Permutations and Combinations e-book</strong></a> adds many more solved problems. Each one has clear steps. It costs Rs 49, and the practice papers cost Rs 79. You can also browse the <a href=\"/shop/category/jee-mathematics\">all JEE Maths DPP e-books</a> shelf. For free theory first, try the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Permutations and Combinations Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Permutations and Combinations",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "In how many ways can the letters of HISTORY be arranged with both vowels together?",
+        "options": [
+          "1440",
+          "240",
+          "5040",
+          "720"
+        ],
+        "answer": 0,
+        "explanation": "HISTORY has 7 letters with 2 vowels. Treat the vowels as one block: 6! times 2! = 1440."
+      },
+      {
+        "q": "In how many ways can the letters of EQUATION be arranged with all vowels together?",
+        "options": [
+          "720",
+          "2880",
+          "1440",
+          "40320"
+        ],
+        "answer": 1,
+        "explanation": "EQUATION has 5 vowels and 3 consonants. Group the vowels as one unit: 4! times 5! = 2880."
+      },
+      {
+        "q": "In how many ways can 5 identical balls go into 10 identical boxes with at most one per box?",
+        "options": [
+          "10!",
+          "10P5",
+          "10C5",
+          "None of these"
+        ],
+        "answer": 2,
+        "explanation": "Both balls and boxes are identical, so only the choice of boxes matters. Picking 5 of 10 boxes gives 10C5."
+      },
+      {
+        "q": "A committee of 6 is formed from 9 men and 8 women with at least 2 women. The number of ways is:",
+        "options": [
+          "12376",
+          "38220",
+          "7757",
+          "11284"
+        ],
+        "answer": 3,
+        "explanation": "Add the valid splits with 2, 3, 4, 5 or 6 women drawn from 8, and the rest from 9 men. The total is 11284."
+      },
+      {
+        "q": "How many distinct necklaces use 8 different beads, treating rotations and flips as the same?",
+        "options": [
+          "2520",
+          "720",
+          "20160",
+          "5040"
+        ],
+        "answer": 0,
+        "explanation": "Fix a circle of 8 beads for (8 − 1)! = 5040. A necklace can flip, so halve it to 2520."
+      },
+      {
+        "q": "Two women pick chairs from 1 to 4, then three men pick from the rest of chairs 1 to 8. The count is:",
+        "options": [
+          "4C2 × 6C3",
+          "4P2 × 6P3",
+          "4P2 × 6C3",
+          "None of these"
+        ],
+        "answer": 1,
+        "explanation": "Women pick and arrange 2 of 4 chairs: 4P2. Men then arrange 3 of the remaining 6: 6P3."
+      },
+      {
+        "q": "In how many orders can 4 speakers present to an audience?",
+        "options": [
+          "4 ways",
+          "12 ways",
+          "24 ways",
+          "256 ways"
+        ],
+        "answer": 2,
+        "explanation": "Four speakers fill four ordered slots. So the count is 4! = 24."
+      },
+      {
+        "q": "In how many ways can 16 identical balls go into 5 distinct boxes with every box non-empty?",
+        "options": [
+          "4368",
+          "1370",
+          "4845",
+          "1365"
+        ],
+        "answer": 3,
+        "explanation": "Give each box one ball first, then share the rest. Stars and bars gives 15C4 = 1365."
+      },
+      {
+        "q": "A set A has 10 distinct elements. The number of functions from A to A is:",
+        "options": [
+          "10^10",
+          "10!",
+          "2^10",
+          "10^2"
+        ],
+        "answer": 0,
+        "explanation": "Each of the 10 elements can map to any of 10 images. So the count is 10 raised to the 10th power."
+      },
+      {
+        "q": "How many numbers greater than 3000 can be formed from 0,1,2,3,4,5 without repetition?",
+        "options": [
+          "180",
+          "1380",
+          "360",
+          "1500"
+        ],
+        "answer": 1,
+        "explanation": "Count the 4-digit, 5-digit and 6-digit numbers above 3000 with no repeats. They add up to 1380."
+      },
+      {
+        "q": "The number of arrangements of the letters of INDEPENDENCE is:",
+        "options": [
+          "3326400",
+          "831600",
+          "1663200",
+          "1209600"
+        ],
+        "answer": 2,
+        "explanation": "INDEPENDENCE has 12 letters with N, D and E repeating 3, 2 and 4 times. So 12! over (3! 2! 4!) = 1663200."
+      },
+      {
+        "q": "In how many ways can 9 people sit around a circular table with a fixed group of 4 together?",
+        "options": [
+          "480",
+          "40320",
+          "17280",
+          "2880"
+        ],
+        "answer": 3,
+        "explanation": "Tie the 4 as one block, so 6 units sit in a circle: (6 − 1)! = 120. The block arranges in 4! = 24, giving 2880."
+      },
+      {
+        "q": "In how many ways can 6 distinct rings be worn on 4 fingers?",
+        "options": [
+          "4096",
+          "729",
+          "24",
+          "4048"
+        ],
+        "answer": 0,
+        "explanation": "Each of the 6 distinct rings can go on any of 4 fingers. So the count is 4 raised to the 6th power, which is 4096."
+      },
+      {
+        "q": "A hall has 10 lamps, each switched independently. In how many ways can it be lit?",
+        "options": [
+          "2^10",
+          "1023",
+          "2^10 − 1",
+          "10!"
+        ],
+        "answer": 1,
+        "explanation": "Each lamp is on or off, giving 2^10 states. Remove the all-off case to get 1023."
+      },
+      {
+        "q": "Five men and five women sit around a circular table with no two women together. The number of ways is:",
+        "options": [
+          "1440",
+          "14400",
+          "2880",
+          "5760"
+        ],
+        "answer": 2,
+        "explanation": "Seat the 5 men first for (5 − 1)! = 24. The 5 gaps hold the women in 5! = 120 ways, giving 2880."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Permutations and Combinations test free?",
+      "a": "Yes. All 15 questions, the scoring and the explanations are free. The e-book then adds many more solved problems for Rs 49."
+    },
+    {
+      "q": "Is it aimed at JEE Main or Advanced?",
+      "a": "Both. The questions follow the Main and Advanced pattern, so they suit either target."
+    },
+    {
+      "q": "How many problems does the chapter e-book have?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-permutations-and-combinations\">chapter e-book</a> carries a full graded set with step-by-step solutions, from basics to Advanced level."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set in a timed sitting, mark your errors, then redo the missed types after a day."
+    }
+  ]
+}
