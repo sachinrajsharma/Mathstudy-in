@@ -1,0 +1,126 @@
+{
+  "slug": "jee-straight-lines-mcq-online-test",
+  "title": "JEE Straight Lines Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Straight Lines online test — 15 free MCQs",
+  "meta_desc": "Free JEE Straight Lines online test with 15 MCQs, instant scoring and worked answers. Nail angles, distance and triangle centres. Take the free test.",
+  "excerpt": "A free 15-question JEE Straight Lines online test with instant scoring, worked answers and every triangle centre the exam loves to ask.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-straight-lines.jpg",
+  "cta_product_slug": "jee-maths-dpp-straight-lines",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Straight Lines online test",
+  "content": "<p>Straight Lines is where JEE quietly tests speed with slope, distance and intercept forms. Most droppers I coach leak marks on the angle between two lines and the foot of the perpendicular. Take the free JEE Straight Lines online test below. It holds 15 exam-pattern MCQs with instant scoring and worked answers. Target 12 out of 15.</p><h2>What JEE asks from Straight Lines</h2><ul><li>Slope, inclination and the intercept forms of a line. </li><li>Angle between two lines and the perpendicular condition. </li><li>Distance of a point from a line and between parallels. </li><li>Foot of perpendicular, image and reflection problems. </li><li>Centroid, orthocentre and circumcentre of a triangle. </li></ul><h2>Formulas and facts to revise first</h2><ul><li>Parallel lines share a slope, so their coefficients stay proportional. </li><li>Two lines meet at right angles when the slope product equals minus one. </li><li>The point to line distance divides the line value by root a squared plus b squared. </li><li>The centroid simply averages the three vertex coordinates. </li><li>A right triangle puts its circumcentre at the hypotenuse midpoint. </li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Forgetting the modulus in the point to line distance formula. </li><li>Swapping a slope for its negative reciprocal at the wrong step. </li><li>Confusing the orthocentre with the circumcentre in a right triangle. </li><li>Reading intercepts off the wrong axis under time pressure. </li></ul><h2>Free JEE Straight Lines online test</h2><p>The 15 problems below come from our verified JEE DPP question bank. They cover angles, distances and the three triangle centres. Work through each one, then press Check my score. Read every explanation to lock the method, because most of these repeat every year.</p><h2>Practise the whole chapter</h2><p>Done with the JEE Straight Lines online test? Then the <a href=\"/shop/product/jee-maths-dpp-straight-lines\"><strong>JEE Maths DPP Straight Lines e-book</strong></a> adds many more solved MCQs at Rs 49. Full practice papers sit at Rs 79 each. You can also see the full range on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-books shelf</a>. Build the basics first with the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Straight Lines Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Straight Lines",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "A line has a positive slope and a negative y-intercept. Which quadrants does it pass through?",
+        "options": ["I, II and III", "II, III and IV", "I, II and IV", "I, III and IV"],
+        "answer": 3,
+        "explanation": "It rises left to right and cuts the y-axis below the origin. So it crosses quadrants I, III and IV."
+      },
+      {
+        "q": "A line passes through (2, 2) and its axis intercepts sum to 9. One such line is:",
+        "options": ["x + y = 4", "2x + y = 6", "x + 2y = 8", "3x + y = 8"],
+        "answer": 1,
+        "explanation": "With intercepts a and 9 − a, the point gives a = 3 or 6. The choice a = 3 yields 2x + y = 6."
+      },
+      {
+        "q": "The lines y = mx + c and y = mx + d with c ≠ d have how many solutions?",
+        "options": ["Exactly one", "Infinite solutions", "Zero", "Two"],
+        "answer": 2,
+        "explanation": "Equal slopes with different intercepts stay parallel. Parallel lines never meet, so there are zero solutions."
+      },
+      {
+        "q": "Which triangle do the lines x + y = 0, 3x + y − 4 = 0 and x + 3y − 4 = 0 form?",
+        "options": ["Equilateral", "Right-angled", "Scalene", "Isosceles"],
+        "answer": 3,
+        "explanation": "Two of the angles share the same tangent value. So the triangle is isosceles."
+      },
+      {
+        "q": "A ray through (1, 2) reflects off the x-axis and then passes through (5, 3). Find the x-coordinate of the reflection point.",
+        "options": ["13/5", "11/5", "3", "5/2"],
+        "answer": 0,
+        "explanation": "Reflect (1, 2) to (1, −2), then join it to (5, 3). Setting y = 0 gives x = 13/5."
+      },
+      {
+        "q": "Find the distance between the parallel lines x + y = 1 and x + y = 5.",
+        "options": ["2", "2√2", "4", "4/√2"],
+        "answer": 3,
+        "explanation": "Distance = |5 − 1| divided by the root of 1 plus 1. That equals 4/√2."
+      },
+      {
+        "q": "The line 3x − √3y + 2 = 0 makes what angle with the x-axis?",
+        "options": ["30°", "120°", "60°", "150°"],
+        "answer": 2,
+        "explanation": "The slope works out to √3, whose inclination is 60°."
+      },
+      {
+        "q": "Find the line through (2, −1) perpendicular to y = 4x + 3.",
+        "options": ["x + 4y + 2 = 0", "4x + y − 7 = 0", "x − 4y − 6 = 0", "4x − y + 9 = 0"],
+        "answer": 0,
+        "explanation": "The perpendicular slope is −1/4. The point-slope form then gives x + 4y + 2 = 0."
+      },
+      {
+        "q": "Find the distance between 3x + 4y − 9 = 0 and 6x + 8y − 15 = 0.",
+        "options": ["3/10", "3/5", "1/2", "9/10"],
+        "answer": 0,
+        "explanation": "Rewrite the first as 6x + 8y − 18 = 0. The gap is 3 over the root of 100, which is 3/10."
+      },
+      {
+        "q": "Find the acute angle between y − √3x − 5 = 0 and √3y − x + 6 = 0.",
+        "options": ["15°", "45°", "60°", "30°"],
+        "answer": 3,
+        "explanation": "The slopes are √3 and 1/√3. The angle formula then gives 30°."
+      },
+      {
+        "q": "Find the foot of the perpendicular from the origin to x + y − 4 = 0.",
+        "options": ["(1, 3)", "(3, 1)", "(2, 2)", "(4, 0)"],
+        "answer": 2,
+        "explanation": "The perpendicular through the origin is y = x. It meets the line at (2, 2)."
+      },
+      {
+        "q": "When are a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 parallel?",
+        "options": ["a1a2 + b1b2 = 0", "a1/a2 = b1/b2 ≠ c1/c2", "a1b2 + a2b1 = 0", "a1/b1 = a2/b2 = c1/c2"],
+        "answer": 1,
+        "explanation": "Parallel lines share a slope, so a1/a2 = b1/b2. Distinct lines keep the c ratio different."
+      },
+      {
+        "q": "Find the orthocentre of the triangle with vertices (0, 0), (4, 0) and (0, 3).",
+        "options": ["(4/3, 1)", "(2, 1.5)", "(0, 0)", "(4, 3)"],
+        "answer": 2,
+        "explanation": "The right angle sits at the origin. In a right triangle the orthocentre is that vertex."
+      },
+      {
+        "q": "Find the centroid of the triangle with vertices (0, 0), (4, 0) and (0, 3).",
+        "options": ["(4/3, 1)", "(2, 3/2)", "(0, 0)", "(1, 4/3)"],
+        "answer": 0,
+        "explanation": "Average the coordinates directly. The centroid is (4/3, 1)."
+      },
+      {
+        "q": "Find the circumcentre of the right triangle with vertices (0, 0), (4, 0) and (0, 3).",
+        "options": ["(4/3, 1)", "(2, 3/2)", "(0, 0)", "(4, 3)"],
+        "answer": 1,
+        "explanation": "The circumcentre of a right triangle is the hypotenuse midpoint. That midpoint is (2, 3/2)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Straight Lines test free?",
+      "a": "Yes. All 15 MCQs, the scoring and the explanations are free. The e-book then adds many more solved DPPs for Rs 49."
+    },
+    {
+      "q": "Which topics does the test cover?",
+      "a": "It spans slope, the angle between lines, distance formulas and the three triangle centres."
+    },
+    {
+      "q": "Is it Main or Advanced level?",
+      "a": "Both. The mix follows JEE Main and Advanced, so it works for revision and mock practice alike."
+    }
+  ]
+}

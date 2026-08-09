@@ -1,0 +1,126 @@
+{
+  "slug": "jee-determinants-mcq-online-test",
+  "title": "JEE Determinants Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Determinants online test — 15 free MCQs",
+  "meta_desc": "Free JEE Determinants online test with 15 exam-pattern MCQs, instant scoring and worked solutions. Master Cramer rule and areas. Take the free test.",
+  "excerpt": "A free 15-question JEE Determinants online test with instant scoring, worked solutions and the property tricks that speed up expansion.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-determinants.jpg",
+  "cta_product_slug": "jee-maths-dpp-determinants",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Determinants online test",
+  "content": "<p>Determinants reward students who spot structure before they expand. One clever row operation can collapse a full 3 by 3 into a single line. Take the free JEE Determinants online test below. It packs 15 exam-pattern MCQs with instant scoring and worked solutions. Push for 12 out of 15, then patch every gap.</p><h2>What JEE asks from Determinants</h2><ul><li>Expansion of 2 by 2 and 3 by 3 determinants. </li><li>Row and column operations that simplify a determinant. </li><li>Cramer rule and the consistency of a linear system. </li><li>Area of a triangle from three vertex coordinates. </li><li>Adjoint, inverse and the product property of determinants. </li><li>Singular matrices and the moment an inverse fails to exist. </li></ul><h2>Formulas and facts to revise first</h2><ul><li>Swapping two rows flips the sign of the determinant. </li><li>Adding a multiple of one row to another leaves it unchanged. </li><li>The product rule gives determinant of AB as determinant A times determinant B. </li><li>A unique solution appears when the coefficient determinant stays non zero. </li><li>Two identical rows force the determinant straight to zero. </li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Scaling a row and forgetting the determinant scales too. </li><li>Mixing up the sign pattern while expanding along a row. </li><li>Treating a zero determinant as proof of no solution. </li><li>Dropping the modulus in the triangle area formula. </li></ul><h2>Free JEE Determinants online test</h2><p>These 15 questions come straight from our verified JEE DPP question bank. They blend property questions with Cramer rule and area problems. Solve each one, then hit Check my score. Study the explanation for anything you miss, since one trick often unlocks a whole set.</p><h2>Practise the whole chapter</h2><p>Finished the JEE Determinants online test? Then keep going with the <a href=\"/shop/product/jee-maths-dpp-determinants\"><strong>JEE Maths DPP Determinants e-book</strong></a> at Rs 49. Full practice papers cost Rs 79 each. You can also browse the rest on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-books shelf</a>. For theory support first, follow the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Determinants Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Determinants",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Solve 2x + 3y = 7 and 3x + y = 7 by Cramer rule.",
+        "options": ["x = 2, y = 1", "x = 1, y = 2", "x = 3, y = −1", "x = −1, y = 3"],
+        "answer": 0,
+        "explanation": "Here D = −7, Dx = −14 and Dy = −7. So x = 2 and y = 1."
+      },
+      {
+        "q": "Assertion (A): AX = 0 has a non-trivial solution if |A| = 0. Reason (R): if |A| ≠ 0, the only solution to AX = 0 is X = 0.",
+        "options": ["Both A and R are true, and R correctly explains A.", "Both A and R are true, but R does not explain A.", "A is true, but R is false.", "A is false, but R is true."],
+        "answer": 1,
+        "explanation": "Both statements are true. But R describes the trivial case, so it does not explain the non-trivial one."
+      },
+      {
+        "q": "If the elements of a determinant form an arithmetic progression, its value is:",
+        "options": ["Positive", "Negative", "Zero", "Sum of the elements"],
+        "answer": 2,
+        "explanation": "Row differences produce two equal rows. Equal rows send the determinant to zero."
+      },
+      {
+        "q": "If A is a 3 × 3 matrix with A² = A, then |A| equals:",
+        "options": ["Only 1", "Only 0", "Any real number", "Either 0 or 1"],
+        "answer": 3,
+        "explanation": "Taking determinants gives |A|² = |A|. So |A| is 0 or 1."
+      },
+      {
+        "q": "The determinant with rows (x+1, x−1) and (x−1, x+1) equals:",
+        "options": ["2x", "4x", "4", "2"],
+        "answer": 1,
+        "explanation": "The value is (x+1)² − (x−1)², which expands to 4x."
+      },
+      {
+        "q": "If A is an orthogonal matrix, then |A| can be:",
+        "options": ["0", "±1", "±2", "Any real number"],
+        "answer": 1,
+        "explanation": "From A·Aᵀ = I we get |A|² = 1. So |A| is plus or minus one."
+      },
+      {
+        "q": "Find the area of the triangle with vertices (1, 0), (6, 0) and (4, 3).",
+        "options": ["15/2 sq units", "15 sq units", "7 sq units", "12/5 sq units"],
+        "answer": 0,
+        "explanation": "The base is 5 and the height is 3. Area = ½ × 5 × 3 = 15/2."
+      },
+      {
+        "q": "For what value of x is the matrix with rows (1−x, 2) and (18, 6−x) singular?",
+        "options": ["Only 0", "Only 1", "0 and 7", "−3 and 10"],
+        "answer": 3,
+        "explanation": "Set (1−x)(6−x) − 36 = 0. This gives x = −3 or x = 10."
+      },
+      {
+        "q": "If A is an invertible matrix of order 2, then det(A⁻¹) equals:",
+        "options": ["det(A)", "0", "1/det(A)", "1"],
+        "answer": 2,
+        "explanation": "Since A·A⁻¹ = I, the determinants multiply to 1. So det(A⁻¹) = 1/det(A)."
+      },
+      {
+        "q": "If A is a non-singular 2 × 2 matrix with |A| = 4, then |(adj A)⁻¹| is:",
+        "options": ["1/4", "4", "1/16", "16"],
+        "answer": 0,
+        "explanation": "For order 2, |adj A| = |A| = 4. Its inverse determinant is 1/4."
+      },
+      {
+        "q": "For the system AX = B with |A| ≠ 0, the system has:",
+        "options": ["No solution", "Infinitely many solutions", "A unique solution", "Two solutions"],
+        "answer": 2,
+        "explanation": "A non-zero determinant makes A invertible. So X = A⁻¹B is the one solution."
+      },
+      {
+        "q": "If |A| = 2 and |B| = 3 for 3 × 3 matrices, then |2AB⁻¹| equals:",
+        "options": ["16/3", "4/3", "8/3", "2/3"],
+        "answer": 0,
+        "explanation": "|2AB⁻¹| = 2³ × |A| × 1/|B| = 8 × 2 / 3 = 16/3."
+      },
+      {
+        "q": "If |A| = 0 and (adj A)B ≠ O, then AX = B is:",
+        "options": ["Consistent with a unique solution", "Consistent with infinite solutions", "Inconsistent", "Trivial"],
+        "answer": 2,
+        "explanation": "This is the exact condition for no common solution. So the system is inconsistent."
+      },
+      {
+        "q": "Which row operation changes the value of a determinant?",
+        "options": ["Adding 5 times the first row to the second", "Interchanging the first and second rows", "Adding the second row to the third", "Leaving the matrix unchanged"],
+        "answer": 1,
+        "explanation": "Row addition keeps the value. Only interchanging two rows flips its sign."
+      },
+      {
+        "q": "Which row operation preserves the value of a determinant?",
+        "options": ["Interchanging two rows", "Multiplying a row by a scalar", "None of these", "Adding a multiple of one row to another"],
+        "answer": 3,
+        "explanation": "Adding a multiple of one row to another leaves the determinant fixed. The other operations change it."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Determinants test free?",
+      "a": "Yes. Every question, the scoring and the explanations are free. The e-book then adds many more solved DPPs for Rs 49."
+    },
+    {
+      "q": "Does it match JEE Main and Advanced?",
+      "a": "Yes. The set moves from property questions to Cramer rule and area problems, just like the real papers."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-determinants\">Determinants e-book</a> carries many more graded MCQs, each with a full step by step solution."
+    }
+  ]
+}

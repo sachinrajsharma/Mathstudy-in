@@ -1,0 +1,130 @@
+{
+  "slug": "jee-definite-integration-mcq-online-test",
+  "title": "JEE Definite Integration Online Test: 15 Free MCQs with Answers",
+  "meta_title": "JEE Definite Integration online test — 15 Free MCQs",
+  "meta_desc": "Free JEE Definite Integration online test with 15 MCQs, worked answers, key properties and common traps. Take the free test.",
+  "excerpt": "A free JEE Definite Integration online test with 15 verified MCQs, instant scoring, full explanations and the properties JEE loves to test.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-definite-integration.jpg",
+  "cta_product_slug": "jee-maths-dpp-definite-integration",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Definite Integration online test",
+  "content": "<p>Most students lose definite integration marks on the setup, not the calculus. Miss a symmetry or flip a limit, and a two minute problem eats ten. This free JEE Definite Integration online test puts that exact skill under pressure. It holds 15 MCQs with instant scoring. Every answer carries a short worked reason. So aim for 11 out of 15, then fix the gaps. </p><h2>What JEE asks from Definite Integration </h2><ul><li>Property integrals using f of a plus b minus x. </li><li>Definite integrals read as the limit of a sum. </li><li>The fundamental theorem and derivatives of integral functions. </li><li>Area, plus physics like distance from acceleration. </li><li>Applied sums on cost, demand and water flow. </li></ul><h2>Formulas and facts to revise first </h2><ul><li>Integral of x from zero to one is one half. </li><li>Fold an integral with f of x equal to f of a plus b minus x. </li><li>For an odd function on minus a to a, the integral is zero. </li><li>The area under y equal to e to the x from zero to one is e minus one. </li></ul><h2>Mistakes that cost JEE marks </h2><ul><li>Splitting a modulus integral at the wrong point. </li><li>Forgetting to apply limits after substitution. </li><li>Dropping the chain rule in Leibniz differentiation. </li><li>Reading a geometric area as signed when it flips. </li></ul><h2>Free JEE Definite Integration online test </h2><p>The 15 question quiz below comes from our verified DPP bank. First, answer all fifteen. Then press Check my score. Read every explanation you missed, because those are marks. So treat this JEE Definite Integration online test like a timed mock. </p><h2>Practise the whole chapter </h2><p>Want the full set? The <a href=\"/shop/product/jee-maths-dpp-definite-integration\"><strong>JEE Maths DPP Definite Integration e-book</strong></a> carries every worksheet with answer keys and step by step solutions. It costs just Rs 49. You can also open the <a href=\"/shop/category/jee-mathematics\">full JEE Maths DPP shelf</a> for all chapters and papers. And for concept revision, the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> walks through each method first. </p>",
+  "quiz": {
+    "title": "JEE Definite Integration Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Definite Integration",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "If ∫₀¹ x dx = 1/2, then for any positive integer n, the value of ∫₀¹ xⁿ dx is",
+        "options": ["1", "2", "1/(n+1)", "1/n"],
+        "answer": 2,
+        "explanation": "Integrate the power: ∫₀¹ xⁿ dx = [xⁿ⁺¹/(n+1)]₀¹ = 1/(n+1)."
+      },
+      {
+        "q": "Evaluate ∫₀^(π/2) (√cot x)/(1 + √cot x) dx.",
+        "options": ["π/4", "π/2", "0", "1"],
+        "answer": 0,
+        "explanation": "Apply the f(x) → f(a−x) property and add the two forms. Then 2I = π/2, so I = π/4."
+      },
+      {
+        "q": "Evaluate ∫₂³ (√x)/(√(5 − x) + √x) dx.",
+        "options": ["5/2", "1/2", "1", "2"],
+        "answer": 1,
+        "explanation": "Use the a+b−x property with a+b = 5. Adding both forms gives 2I = 1, so I = 1/2."
+      },
+      {
+        "q": "If f is continuous with f(x) = f(2a − x) for all x, and ∫₀^(2a) f(x) dx = I, then ∫₀^a f(x) dx equals",
+        "options": ["I/2", "2I", "3I", "6I"],
+        "answer": 0,
+        "explanation": "Symmetry about x = a splits the integral into equal halves. So ∫₀^a f(x) dx = I/2."
+      },
+      {
+        "q": "Evaluate lim n→∞ (1/n)[(1/n)² + (2/n)² + … + (n/n)²].",
+        "options": ["1/4", "1", "1/3", "1/2"],
+        "answer": 2,
+        "explanation": "The sum is a Riemann sum for ∫₀¹ x² dx, which equals 1/3."
+      },
+      {
+        "q": "The points of extremum of f(x) = ∫₀ˣ t(t − 1)(t − 2) dt are",
+        "options": ["0, 1, 2", "0, 2", "1", "All of these"],
+        "answer": 3,
+        "explanation": "By the fundamental theorem, f′(x) = x(x−1)(x−2). It vanishes at x = 0, 1 and 2."
+      },
+      {
+        "q": "A train starts from rest with acceleration a(t) = 6t m/s². What distance does it cover in the first 2 seconds?",
+        "options": ["12 m", "4 m", "16 m", "8 m"],
+        "answer": 3,
+        "explanation": "Velocity v(t) = ∫6t dt = 3t². Distance = ∫₀² 3t² dt = [t³]₀² = 8 m."
+      },
+      {
+        "q": "The area bounded by y = eˣ, the x-axis and the ordinate x = 1 is",
+        "options": ["e", "1", "e − 1", "None of these"],
+        "answer": 2,
+        "explanation": "Area = ∫₀¹ eˣ dx = e¹ − e⁰ = e − 1."
+      },
+      {
+        "q": "The marginal cost is MC = 100 + 2x, where x is the number of units. Find the added cost of raising output from 10 to 20 units.",
+        "options": ["₹ 1500", "₹ 1300", "₹ 1200", "₹ 1000"],
+        "answer": 1,
+        "explanation": "Added cost = ∫₁₀²⁰ (100 + 2x) dx = [100x + x²] = 2400 − 1100 = ₹ 1300."
+      },
+      {
+        "q": "The demand function is p(x) = 100 − x². If the equilibrium quantity is 6, find the consumer surplus at price p(6).",
+        "options": ["₹ 144", "₹ 216", "₹ 72", "₹ 288"],
+        "answer": 0,
+        "explanation": "Equilibrium price = 64. Surplus = ∫₀⁶ (36 − x²) dx = 216 − 72 = ₹ 144."
+      },
+      {
+        "q": "What is the value of ∫₀¹ 1/(1 + x²) dx?",
+        "options": ["π/2", "π/4", "π", "1"],
+        "answer": 1,
+        "explanation": "The antiderivative is tan⁻¹x. So the value is tan⁻¹1 − tan⁻¹0 = π/4."
+      },
+      {
+        "q": "Water flows into a tank at rate R(t) = 10e^(0.2t) litres per minute. How much is added in the first 5 minutes?",
+        "options": ["50(e − 1) L", "10(e − 1) L", "25(e − 1) L", "50e L"],
+        "answer": 0,
+        "explanation": "Volume = ∫₀⁵ 10e^(0.2t) dt = 50[e¹ − e⁰] = 50(e − 1) litres."
+      },
+      {
+        "q": "Evaluate ∫₀¹ 1/√(1 − x²) dx.",
+        "options": ["π", "π/4", "1", "π/2"],
+        "answer": 3,
+        "explanation": "The antiderivative is sin⁻¹x. So the value is sin⁻¹1 − sin⁻¹0 = π/2."
+      },
+      {
+        "q": "Evaluate ∫₀^(π/2) (sin x)/(sin x + cos x) dx.",
+        "options": ["π/2", "π", "0", "π/4"],
+        "answer": 3,
+        "explanation": "Use f(x) → f(a−x) and add the two forms. Then 2I = π/2, so I = π/4."
+      },
+      {
+        "q": "Find the value of ∫₁⁴ |x − 2| dx.",
+        "options": ["2", "5/2", "3", "7/2"],
+        "answer": 1,
+        "explanation": "Split at x = 2: ∫₁²(2−x)dx + ∫₂⁴(x−2)dx = 1/2 + 2 = 5/2."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Definite Integration test free?",
+      "a": "Yes. All 15 MCQs, scoring and explanations cost nothing. The e-book adds every worksheet and full solutions for Rs 49."
+    },
+    {
+      "q": "Is it JEE Main or Advanced level?",
+      "a": "Both. The bank mixes Main style property questions with tougher Advanced applications."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "Each chapter e-book carries the full DPP set with answer keys. See the <a href=\"/shop/product/jee-maths-dpp-definite-integration\">Definite Integration e-book</a> for the exact count."
+    },
+    {
+      "q": "How should I use DPPs?",
+      "a": "Solve one sheet daily under a timer. Then review every miss the same day, so the method sticks."
+    }
+  ]
+}

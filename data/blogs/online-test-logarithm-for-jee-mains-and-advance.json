@@ -6,7 +6,7 @@
   "excerpt": "Logarithm looks like a two-formula chapter until an inequality flips a sign on you in the exam hall. Here are the JEE-relevant ideas, the traps that cost ranks, and an 8-question online test with worked solutions.",
   "category": "JEE",
   "cover_image": "https://mathstudy.in/wp-content/uploads/dpp-complex-numbers.jpg",
-  "cta_product_slug": "jee-mains-advance-dpp-complex-numbers",
+  "cta_product_slug": "jee-maths-30-practice-papers",
   "author": "Sachin Sharma",
   "status": "published",
   "content": "<p>Every year a chunk of JEE aspirants lose an easy logarithm mark not because the algebra is hard, but because they forgot that log<sub>a</sub>x is only defined for a &gt; 0, a &ne; 1 and x &gt; 0. Domain first, algebra second &mdash; that order is the whole game in this chapter. Logarithm rarely gets a standalone question in JEE Main; instead it hides inside limits, definite integrals, inequalities and complex numbers. Get it wrong early and you carry the error into a five-mark problem.</p><p>This is a working guide to the logarithm concepts JEE actually tests, followed by an 8-question online test pitched at real Main and Advanced difficulty. Treat the quiz as a diagnostic: it is not the practice, it tells you where the practice needs to go.</p><h2>The laws that do the heavy lifting</h2><p>You already know the three product-quotient-power laws. What JEE checks is whether you apply them <em>without breaking the domain</em>. The classic trap: log(x&sup2;) = 2&nbsp;log&nbsp;x is <strong>false</strong> in general. It only holds for x &gt; 0. For all real x &ne; 0 you must write log(x&sup2;) = 2&nbsp;log|x|. Drop the modulus and you have quietly halved the domain of your answer.</p><ul><li><strong>Product:</strong> log<sub>a</sub>(mn) = log<sub>a</sub>m + log<sub>a</sub>n, provided m, n &gt; 0.</li><li><strong>Power:</strong> log<sub>a</sub>(m<sup>p</sup>) = p&nbsp;log<sub>a</sub>m &mdash; and the modulus caveat above when p is even.</li><li><strong>Reciprocal of base:</strong> log<sub>a</sub>b &middot; log<sub>b</sub>a = 1, a neat check that saves time in Advanced.</li></ul><h2>Change of base: your most-used tool</h2><p>Change of base, log<sub>a</sub>b = (log<sub>c</sub>b)&nbsp;&frasl;&nbsp;(log<sub>c</sub>a), is the single most useful identity in the chapter. It lets you drag every logarithm in a problem to one common base &mdash; usually base e or base 10 &mdash; so terms actually combine. A frequent Advanced move is substitution: put t = log<sub>2</sub>x, rewrite the whole equation in t, solve the resulting quadratic, then back-substitute and reject roots that violate x &gt; 0. Miss the rejection step and you gain an extraneous root. Two identities worth keeping on the tip of your tongue for speed: a<sup>log<sub>a</sub>x</sup> = x, and the base-swap log<sub>a</sub>b = 1&nbsp;&frasl;&nbsp;log<sub>b</sub>a, which drops straight out of change of base and often saves a full line of working in an Advanced multi-step sum.</p><h3>The base itself is a variable to watch</h3><p>When the base contains x &mdash; say log<sub>x</sub>5 &mdash; you have two hidden conditions running silently: x &gt; 0 and x &ne; 1. JEE loves setting a problem where the &lsquo;obvious&rsquo; answer x = 1 is exactly the value the base forbids.</p><h2>Log inequalities: where sign errors live</h2><p>This is the highest-yield trap in the chapter. The rule you must never forget: <strong>the direction of a log inequality depends on whether the base is greater than or less than 1.</strong></p><ul><li>If a &gt; 1, log<sub>a</sub>x is increasing, so log<sub>a</sub>x &gt; log<sub>a</sub>y &rArr; x &gt; y (keep the sign).</li><li>If 0 &lt; a &lt; 1, log<sub>a</sub>x is decreasing, so log<sub>a</sub>x &gt; log<sub>a</sub>y &rArr; x &lt; y (flip the sign).</li></ul><p>In my experience coaching JEE batches, students who write down &lsquo;base &gt; 1 or base &lt; 1?&rsquo; in the margin before touching a log inequality make almost no errors here. Those who skip that one line lose the question about half the time. And never forget the invisible constraint: both sides must be positive before you even compare them.</p><h2>Characteristic and mantissa: the digit-counting question</h2><p>JEE Main still throws in the occasional common-logarithm (base 10) question about the number of digits or leading zeros. Write log<sub>10</sub>N as characteristic + mantissa, where the mantissa is the non-negative fractional part in [0, 1).</p><ul><li>If N &ge; 1 and the characteristic is n, then N has (n + 1) digits before the decimal point.</li><li>If 0 &lt; N &lt; 1 and the characteristic is &minus;m (written as bar m), there are (m &minus; 1) zeros immediately after the decimal point.</li></ul><p>So the number of digits in a big power like 2<sup>50</sup> is just &lfloor;50&nbsp;log<sub>10</sub>2&rfloor; + 1. With log<sub>10</sub>2 &asymp; 0.3010 that is &lfloor;15.05&rfloor; + 1 = 16 digits. One formula, one mark, ten seconds.</p><h2>How to prep this chapter for JEE</h2><table><thead><tr><th>Concept</th><th>Where JEE hides it</th><th>The trap to rehearse</th></tr></thead><tbody><tr><td>Domain of log<sub>a</sub>x</td><td>Function questions, inequalities</td><td>Forgetting a &ne; 1 and x &gt; 0</td></tr><tr><td>Power law</td><td>Simplification, integrals</td><td>log&nbsp;x&sup2; &ne; 2&nbsp;log&nbsp;x (need modulus)</td></tr><tr><td>Change of base</td><td>Equations, substitution</td><td>Not reducing to one common base</td></tr><tr><td>Inequalities</td><td>Standalone + calculus</td><td>Not flipping the sign when 0 &lt; a &lt; 1</td></tr><tr><td>Characteristic/mantissa</td><td>Number-of-digits questions</td><td>Off-by-one on digit count</td></tr></tbody></table><p>A realistic plan: one focused day to re-derive every identity yourself (no formula sheet), then two days of mixed inequalities and change-of-base equations, then timed DPP sets so speed becomes automatic. Do the derivations by hand at least once &mdash; a formula you can rebuild is a formula you will not misremember under pressure.</p><h2>Take the logarithm online test below</h2><p>The 8-question test that follows is calibrated to JEE Main and Advanced level &mdash; it covers log laws, change of base, inequalities, the modulus trap and mantissa. Attempt each question honestly before checking, then read every solution, even for the ones you got right. When you want a full timed set of daily practice problems with detailed solutions, the JEE DPP e-book at the end carries the format forward.</p>",
@@ -18,49 +18,89 @@
     "questions": [
       {
         "q": "If log_2 x + log_2 (x - 2) = 3, then x equals:",
-        "options": ["2", "4", "-2", "8"],
+        "options": [
+          "2",
+          "4",
+          "-2",
+          "8"
+        ],
         "answer": 1,
         "explanation": "Combine: log_2[x(x-2)] = 3, so x(x-2) = 8, giving x^2 - 2x - 8 = 0, i.e. (x-4)(x+2)=0. x = -2 is rejected (domain needs x > 2), so x = 4."
       },
       {
         "q": "The value of log_9 27 is:",
-        "options": ["3/2", "2/3", "3", "9"],
+        "options": [
+          "3/2",
+          "2/3",
+          "3",
+          "9"
+        ],
         "answer": 0,
         "explanation": "Write in base 3: log_9 27 = (log_3 27)/(log_3 9) = 3/2. Change of base to a common base is the fastest route."
       },
       {
         "q": "For all real x with x is not 0, log(x^2) equals:",
-        "options": ["2 log x", "2 log |x|", "(log x)^2", "log 2 + log x"],
+        "options": [
+          "2 log x",
+          "2 log |x|",
+          "(log x)^2",
+          "log 2 + log x"
+        ],
         "answer": 1,
         "explanation": "log(x^2) = 2 log|x| for every non-zero real x. Writing 2 log x silently drops all negative x from the domain. This is the single most common JEE slip."
       },
       {
         "q": "The solution set of log_(0.5)(x) > 2 is:",
-        "options": ["x > 4", "0 < x < 1/4", "x > 1/4", "0 < x < 4"],
+        "options": [
+          "x > 4",
+          "0 < x < 1/4",
+          "x > 1/4",
+          "0 < x < 4"
+        ],
         "answer": 1,
         "explanation": "Base 0.5 < 1, so log is decreasing and the inequality flips: x < (0.5)^2 = 1/4. With the domain x > 0, the set is 0 < x < 1/4."
       },
       {
         "q": "If log_10 2 is approximately 0.3010, the number of digits in 2^50 is:",
-        "options": ["15", "17", "16", "51"],
+        "options": [
+          "15",
+          "17",
+          "16",
+          "51"
+        ],
         "answer": 2,
         "explanation": "Digits = floor(50 x 0.3010) + 1 = floor(15.05) + 1 = 15 + 1 = 16."
       },
       {
         "q": "The value of log_2 3 . log_3 4 . log_4 5 . log_5 8 is:",
-        "options": ["3", "8", "1", "2"],
+        "options": [
+          "3",
+          "8",
+          "1",
+          "2"
+        ],
         "answer": 0,
         "explanation": "By change of base the chain telescopes to log_2 8 = 3. A product of consecutive-base logs always collapses to log(first base) of the last argument."
       },
       {
         "q": "If log_x 16 = 2, then x equals (x > 0, x is not 1):",
-        "options": ["8", "2", "-4", "4"],
+        "options": [
+          "8",
+          "2",
+          "-4",
+          "4"
+        ],
         "answer": 3,
         "explanation": "log_x 16 = 2 means x^2 = 16, so x = 4 or x = -4. A logarithm base must be positive and not 1, so x = -4 is rejected. x = 4."
       },
       {
         "q": "The domain of f(x) = log_10 (x - 3) + log_10 (5 - x) is:",
-        "options": ["x > 3", "3 < x < 5", "x < 5", "all real x"],
+        "options": [
+          "x > 3",
+          "3 < x < 5",
+          "x < 5",
+          "all real x"
+        ],
         "answer": 1,
         "explanation": "Both arguments must be positive: x - 3 > 0 gives x > 3, and 5 - x > 0 gives x < 5. The domain is the intersection 3 < x < 5."
       }

@@ -1,0 +1,130 @@
+{
+  "slug": "jee-vector-algebra-mcq-online-test",
+  "title": "JEE Vector Algebra Online Test: 15 Free Solved MCQs",
+  "meta_title": "JEE Vector Algebra online test — 15 solved MCQs",
+  "meta_desc": "Take the free JEE Vector Algebra online test: 15 solved MCQs on dot product, cross product and section formula, with instant scoring. Start now.",
+  "excerpt": "A free JEE Vector Algebra online test with 15 solved MCQs on dot product, cross product and geometry, fully explained.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-vector-algebra.jpg",
+  "cta_product_slug": "jee-maths-dpp-vector-algebra",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Vector Algebra online test",
+  "content": "<p>Vectors reward the student who pictures them, not just pushes symbols. A dot product measures overlap. A cross product measures spread. So picture the vectors first, then compute. Try the free <strong>JEE Vector Algebra online test</strong> below. It carries 15 solved MCQs with instant scoring. Shoot for 12.</p><h2>What JEE asks from vector algebra</h2><ul><li>Dot product for angle, and for perpendicular checks.</li> <li>Cross product for area, and for direction.</li> <li>Section formula for a dividing point.</li> <li>Centroid from three position vectors.</li> <li>Scalar triple product for volume and coplanarity.</li> <li>Projection of one vector along another, and its sign.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>Take a·b = |a||b| cos θ for the angle between vectors.</li> <li>Use |a×b| = |a||b| sin θ for the area of a parallelogram.</li> <li>Note a·b = 0 means the two vectors sit perpendicular.</li> <li>Recall |a×b|² + (a·b)² = |a|²|b|² always holds.</li> <li>Find a midpoint or centroid by averaging position vectors.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Confusing the dot product with the cross product.</li> <li>Reading collinear as always the same direction.</li> <li>Dropping the half in the triangle area formula.</li> <li>Forgetting the cross product flips under a swap.</li> <li>Squaring a magnitude, but dropping the dot term.</li></ul><h2>Free JEE vector algebra online test</h2><p>This 15 question quiz comes from our verified DPP bank. It holds the same weight as a real JEE paper. So slow down and reason. Answer all 15, then press Check my score. Rework each miss, and return after a day. Then read every explanation slowly and with care.</p><h2>Practise the whole chapter</h2><p>Ready for full drills? The <a href=\"/shop/product/jee-maths-dpp-vector-algebra\"><strong>JEE Maths DPP Vector Algebra e-book</strong></a> adds many more solved MCQs. Each chapter e-book costs Rs 49, and each practice paper set costs Rs 79. Every question ships with a full worked solution. You can browse every title on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP shelf</a>. Preparing the whole syllabus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> covers every chapter.</p>",
+  "quiz": {
+    "title": "JEE Vector Algebra Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Vector Algebra",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "If two vectors are collinear, which statement is always false?",
+        "options": ["They are scalar multiples of each other", "They can have different magnitudes", "They must point the same way", "Their components are proportional"],
+        "answer": 2,
+        "explanation": "Collinear vectors run parallel, yet they may point opposite ways. So they need not point the same way."
+      },
+      {
+        "q": "If a and b are unit vectors with angle θ, then |a − b| equals:",
+        "options": ["2 sin(θ/2)", "2 cos(θ/2)", "sin(θ/2)", "cos(θ/2)"],
+        "answer": 0,
+        "explanation": "|a−b|² = 2 − 2cos θ = 4 sin²(θ/2). Taking the root gives 2 sin(θ/2)."
+      },
+      {
+        "q": "For r = i + 2j + 3k, the direction ratios are:",
+        "options": ["1/√14, 2/√14, 3/√14", "i, j, k", "1, 4, 9", "1, 2, 3"],
+        "answer": 3,
+        "explanation": "The scalar components of a vector are its direction ratios. So they are 1, 2, 3."
+      },
+      {
+        "q": "The area of a parallelogram with diagonals 3i + j − 2k and i − 3j + 4k is:",
+        "options": ["10√3", "15", "20", "5√3"],
+        "answer": 3,
+        "explanation": "Area = (1/2)|d₁ × d₂|. The cross product has magnitude 10√3, so the area is 5√3."
+      },
+      {
+        "q": "P and Q have position vectors 3a − 2b and a + b. R divides PQ in 2:1 internally. R is:",
+        "options": ["5a/3", "(5a + b)/3", "(a + 4b)/3", "2a"],
+        "answer": 0,
+        "explanation": "By the section formula, R = (2(a+b) + (3a−2b))/3 = 5a/3."
+      },
+      {
+        "q": "For unit vectors a and b with angle θ, the maximum of |a + b| + |a − b| is:",
+        "options": ["2", "2√2", "4", "2√3"],
+        "answer": 1,
+        "explanation": "The sum equals 2cos(θ/2) + 2sin(θ/2). Its maximum is √(4+4) = 2√2."
+      },
+      {
+        "q": "Vertices have position vectors i + j, j + k and k + i. The centroid is:",
+        "options": ["(i + j + k)/3", "2i + 2j + 2k", "(2i + 2j + 2k)/3", "i + j + k"],
+        "answer": 2,
+        "explanation": "The centroid is the average of the three vectors. That gives (2i + 2j + 2k)/3."
+      },
+      {
+        "q": "Vector a has dot products −1, 6, 5 with 3i − 5k, 2i + 7j and i + j + k. Then a is:",
+        "options": ["3i + 2k", "3i + j − k", "i + 2j + 2k", "3i + k"],
+        "answer": 0,
+        "explanation": "Set a = xi + yj + zk and solve the three equations. This gives x = 3, y = 0, z = 2, so a = 3i + 2k."
+      },
+      {
+        "q": "The angle between i − 2j + 3k and 3i − 2j + k is:",
+        "options": ["cos⁻¹(5/7)", "cos⁻¹(10/14)", "cos⁻¹(5/14)", "Both the first and second"],
+        "answer": 3,
+        "explanation": "The dot product is 10 and each magnitude is √14. So cos θ = 10/14 = 5/7, and the first two options match."
+      },
+      {
+        "q": "The locus of P with r·a = 0, for a fixed non-zero a, is:",
+        "options": ["a sphere", "a line", "a plane through the origin", "a cone"],
+        "answer": 2,
+        "explanation": "Every r with r·a = 0 stays perpendicular to a. Those points form a plane through the origin."
+      },
+      {
+        "q": "If |a + b| = |a − b|, then a and b are:",
+        "options": ["parallel", "perpendicular", "equal", "collinear"],
+        "answer": 1,
+        "explanation": "Squaring both sides gives 4a·b = 0. So a·b = 0, which means a and b sit perpendicular."
+      },
+      {
+        "q": "The angle between i + j and i is:",
+        "options": ["30°", "45°", "60°", "90°"],
+        "answer": 1,
+        "explanation": "cos θ = 1/√2 here. So the angle is 45°."
+      },
+      {
+        "q": "The angle between i + j and i − j is:",
+        "options": ["0°", "45°", "90°", "180°"],
+        "answer": 2,
+        "explanation": "Their dot product is zero. So the angle is 90°."
+      },
+      {
+        "q": "If |a| = 2, |b| = 3 and a·b = 4, then |a × b| equals:",
+        "options": ["√10", "√20", "2", "6"],
+        "answer": 1,
+        "explanation": "Use |a×b|² + (a·b)² = |a|²|b|². So |a×b|² = 36 − 16 = 20, giving √20."
+      },
+      {
+        "q": "A vector of magnitude 5 parallel to the resultant of 2i + 3j − k and i − 2j + k is:",
+        "options": ["(15i + 5j)/√10", "15i + 5j", "(3i + j)/√10", "5(3i + j)"],
+        "answer": 0,
+        "explanation": "The resultant is 3i + j with magnitude √10. Scaling the unit vector by 5 gives (15i + 5j)/√10."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this vector algebra test free?",
+      "a": "Yes. All 15 questions, the scoring and every explanation stay free. The e-book then adds many more solved MCQs for Rs 49."
+    },
+    {
+      "q": "What sub-topics does it cover?",
+      "a": "It mixes the dot product, the cross product, the section formula, centroids and the scalar triple product."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-vector-algebra\">chapter e-book</a> carries many more graded MCQs with full step-by-step solutions."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set under a timer, mark it, then redo only the ones you missed after two days."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "jee-parabola-mcq-online-test",
+  "title": "JEE Parabola Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Parabola online test — 15 free solved MCQs",
+  "meta_desc": "Free JEE Parabola online test with 15 MCQs, instant scoring and worked answers. Practise latus rectum, focal chords and directrix. Take the free test.",
+  "excerpt": "A free 15-question JEE Parabola online test with instant scoring, worked answers and the focal chord and modelling problems JEE favours.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-parabola.jpg",
+  "cta_product_slug": "jee-maths-dpp-parabola",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Parabola online test",
+  "content": "<p>Parabola turns real objects into equations, from park fountains to headlight reflectors. JEE mixes latus rectum, focal chords and directrix questions almost every year. Take the free JEE Parabola online test below. It offers 15 exam-pattern MCQs with instant scoring and worked answers. Push for 12 out of 15, then close the gaps.</p><h2>What JEE asks from Parabola</h2><ul><li>Standard forms and the direction a parabola opens. </li><li>Focus, directrix and the length of the latus rectum. </li><li>Focal chord length from the parameter t. </li><li>Real world modelling with arches and reflectors. </li><li>Locus problems that neatly define a parabola. </li><li>Tangent and normal lines at a point on the curve. </li></ul><h2>Formulas and facts to revise first</h2><ul><li>For y squared equals 4ax the focus lies at distance a from the vertex. </li><li>The latus rectum length equals four times a. </li><li>A focal chord length uses a times t plus one over t, squared. </li><li>The directrix never touches the parabola it defines. </li><li>The semi latus rectum is the harmonic mean of the focal chord segments. </li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Reading a sign wrong and opening the parabola the wrong way. </li><li>Mixing up four a with a while placing the focus. </li><li>Forgetting the directrix sits opposite the focus across the vertex. </li><li>Skipping the vertex shift in a translated parabola. </li></ul><h2>Free JEE Parabola online test</h2><p>The 15 questions below come from our verified JEE DPP question bank. They blend pure theory with modelling problems from Indian life. Solve each one, then press Check my score. Read every explanation to fix the method, because parabola questions reward a steady setup.</p><h2>Practise the whole chapter</h2><p>Finished the JEE Parabola online test? Then push further with the <a href=\"/shop/product/jee-maths-dpp-parabola\"><strong>JEE Maths DPP Parabola e-book</strong></a> at Rs 49. Full practice papers run Rs 79 each. You can also browse the shelf of <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-books</a>. Start from theory with the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Parabola Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Parabola",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The parabola x² = 4ay passes through (2, 1). Its latus rectum length is:",
+        "options": ["1 unit", "2 units", "8 units", "4 units"],
+        "answer": 3,
+        "explanation": "Substituting (2, 1) gives 4 = 4a. The latus rectum length 4a is then 4 units."
+      },
+      {
+        "q": "Find the axis of symmetry of 3x² + 4y = 0.",
+        "options": ["x = 0", "y = 0", "x = 4/3", "y = −3/4"],
+        "answer": 0,
+        "explanation": "The curve is x² = −(4/3)y, opening downwards from the origin. So its axis is x = 0."
+      },
+      {
+        "q": "A fountain sprays a parabolic arc with vertex (5, 5) and lands 10 m away. Find its equation.",
+        "options": ["(x − 5)² = −5(y − 5)", "(x − 5)² = −10(y − 5)", "(y − 5)² = −5(x − 5)", "x² = −5y"],
+        "answer": 0,
+        "explanation": "The arc starts at (0, 0), which fixes 4a = 5. So the equation is (x − 5)² = −5(y − 5)."
+      },
+      {
+        "q": "Find the distance between the focus and the directrix of x² = −16y.",
+        "options": ["4 units", "8 units", "16 units", "32 units"],
+        "answer": 1,
+        "explanation": "Here 4a = 16, so a = 4. The focus to directrix gap is 2a, which is 8 units."
+      },
+      {
+        "q": "Which point lies on the directrix of (y − 2)² = 8(x − 3)?",
+        "options": ["(1, 0)", "(1, 2)", "(3, 0)", "(2, 1)"],
+        "answer": 1,
+        "explanation": "The parabola opens right with directrix x = 1. Only (1, 2) fits that line."
+      },
+      {
+        "q": "A ball follows y = 2x − 0.1x² in metres. Find its maximum height.",
+        "options": ["5 m", "10 m", "15 m", "20 m"],
+        "answer": 1,
+        "explanation": "Completing the square gives a vertex at (10, 10). So the peak height is 10 m."
+      },
+      {
+        "q": "For y² = 8x, the focal chord with one end at t = 2 has length:",
+        "options": ["25/2", "18", "5", "8"],
+        "answer": 0,
+        "explanation": "Length = a(t + 1/t)² = 2 × (2.5)² = 25/2."
+      },
+      {
+        "q": "A circle drawn on any focal chord of a parabola as diameter always touches the:",
+        "options": ["Axis of symmetry", "Tangent at the vertex", "Latus rectum", "Directrix"],
+        "answer": 3,
+        "explanation": "This is a standard property. Such a circle always touches the directrix."
+      },
+      {
+        "q": "A truck headlight reflector is 20 cm wide and 5 cm deep. How far from the vertex is the bulb?",
+        "options": ["2 cm", "4 cm", "5 cm", "10 cm"],
+        "answer": 2,
+        "explanation": "With y² = 4ax and rim point (5, 10), we get a = 5. So the focus sits 5 cm from the vertex."
+      },
+      {
+        "q": "For y² = 44x, the focal chord with one end at t = 2 has length:",
+        "options": ["44", "55/2", "99", "275/4"],
+        "answer": 3,
+        "explanation": "Length = a(t + 1/t)² = 11 × (2.5)² = 275/4."
+      },
+      {
+        "q": "The parabola x² = −4ay with a > 0 opens:",
+        "options": ["Upwards", "To the right", "Downwards", "To the left"],
+        "answer": 2,
+        "explanation": "The x² term with a negative y coefficient means the parabola opens downwards."
+      },
+      {
+        "q": "The centre of a circle that touches a fixed line and passes through a fixed point traces a:",
+        "options": ["Circle", "Ellipse", "Parabola", "Hyperbola"],
+        "answer": 2,
+        "explanation": "The centre stays equidistant from the point and the line. That definition gives a parabola."
+      },
+      {
+        "q": "A parabola has vertex (−2, 2), passes through (−6, 6) and opens left. Find its focus.",
+        "options": ["(−3, 2)", "(−4, 2)", "(−2.5, 2)", "(−5, 2)"],
+        "answer": 0,
+        "explanation": "The point fixes a = 1. So the focus sits one unit left of the vertex, at (−3, 2)."
+      },
+      {
+        "q": "Does the directrix of x² = 4ay ever meet the parabola?",
+        "options": ["Yes, at two points", "Yes, at one point", "No, never", "Depends on the value of a"],
+        "answer": 2,
+        "explanation": "The parabola needs y ≥ 0, but the directrix is y = −a. So they never meet."
+      },
+      {
+        "q": "The semi latus rectum of a parabola is the ______ of the two focal chord segments.",
+        "options": ["Arithmetic Mean", "Harmonic Mean", "Geometric Mean", "Product"],
+        "answer": 1,
+        "explanation": "A standard result names the semi latus rectum the harmonic mean of the two segments."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Parabola test free?",
+      "a": "Yes. All 15 MCQs, the scoring and the explanations cost nothing. The e-book then adds many more solved DPPs for Rs 49."
+    },
+    {
+      "q": "Does it include real world problems?",
+      "a": "Yes. Several questions model fountains, arches and reflectors, exactly the way JEE frames them."
+    },
+    {
+      "q": "Is it Main or Advanced level?",
+      "a": "Both. The set blends JEE Main basics with Advanced style focal chord and locus questions."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "jee-hyperbola-mcq-online-test",
+  "title": "JEE Hyperbola Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Hyperbola online test — 15 free solved MCQs",
+  "meta_desc": "Free JEE Hyperbola online test with 15 solved MCQs on foci, asymptotes, directrices and axes, plus answers. Take the free test.",
+  "excerpt": "A free JEE Hyperbola online test with 15 solved MCQs on foci, asymptotes and axes, plus instant scoring and explanations.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-hyperbola.jpg",
+  "cta_product_slug": "jee-maths-dpp-hyperbola",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Hyperbola online test",
+  "content": "<p>The hyperbola trips students who just learned the ellipse. One sign flips, and c² = a² + b² instead of minus. Get that reflex right and the marks follow. Take the free <strong>JEE Hyperbola online test</strong> below. It has 15 exam-pattern MCQs with instant scoring. Aim for 12 out of 15.</p><h2>What JEE asks from the hyperbola</h2><ul><li>Transverse and conjugate axes from the standard form.</li><li>Foci and eccentricity using c² = a² + b².</li><li>Asymptotes and the angle between them.</li><li>Directrices, latus rectum and focal chords.</li><li>Position of a point relative to the branches.</li></ul><h2>Formulas to revise first</h2><ul><li>For x²/a²−y²/b²=1, the foci sit at x = ± c.</li><li>Here c² = a² + b², so eccentricity e stays above 1.</li><li>Asymptotes run as y = ± (b/a)x through the centre.</li><li>The latus rectum length equals 2b²/a, as with the ellipse.</li><li>The director circle is x² + y² = a² − b², when a exceeds b.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Using minus for c², which belongs to the ellipse.</li><li>Swapping a and b when the transverse axis turns vertical.</li><li>Reading the asymptote slope as a/b instead of b/a.</li></ul><h2>Free JEE Hyperbola online test</h2><p>The 15-question quiz below comes from our verified DPP question bank. It mirrors the paid e-book exactly. Answer all 15, then press Check my score. Fix the sign slips first, because they cost the most.</p><h2>How to use this test</h2><p>Give yourself about 30 minutes. Do the axes and foci first. Those come fast. Then face the asymptote and directrix ones. Write each line by hand. Do not rush the sign. Recall that c uses a plus here. Check that one point before you move on. If a value looks wrong, redo it once. Note every slip you make. Try the set again in two days. Your speed will grow, and your slips will fall.</p><h2>Practise the whole chapter</h2><p>Want the full chapter? The <a href=\"/shop/product/jee-maths-dpp-hyperbola\"><strong>JEE Maths DPP Hyperbola e-book</strong></a> holds every worksheet for Rs 49. Each question carries a step-by-step solution, so the method sticks. You can also open the whole <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-book shelf</a>, and the practice papers cost Rs 79. Building the full syllabus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> covers the hyperbola end to end. Then this JEE Hyperbola online test shows what stuck.</p>",
+  "quiz": {
+    "title": "JEE Hyperbola Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Hyperbola",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "For the hyperbola x²/16 − y²/9 = 1, the transverse and conjugate axes are:",
+        "options": [
+          "8 and 6",
+          "4 and 3",
+          "10 and 8",
+          "6 and 8"
+        ],
+        "answer": 0,
+        "explanation": "The transverse axis is 2a = 8 (along the positive term) and the conjugate axis is 2b = 6."
+      },
+      {
+        "q": "The foci of x²/225 − y²/64 = 1 are:",
+        "options": [
+          "(± 12.69, 0)",
+          "(± 17, 0)",
+          "(0, ± 17)",
+          "(± 15, 0)"
+        ],
+        "answer": 1,
+        "explanation": "For a hyperbola c = √(a² + b²) = √(225 + 64) = 17. So the foci are (± 17, 0)."
+      },
+      {
+        "q": "The asymptotes of x²/256 − y²/900 = 1 are:",
+        "options": [
+          "y = ± (17/8)x",
+          "y = ± (8/15)x",
+          "y = ± (15/8)x",
+          "x = ± (15/8)y + 1"
+        ],
+        "answer": 2,
+        "explanation": "The asymptotes satisfy x²/a² − y²/b² = 0, giving y = ± (b/a)x = ± (15/8)x."
+      },
+      {
+        "q": "The distance between the directrices of x²/400 − y²/441 = 1 is:",
+        "options": [
+          "58",
+          "29/10",
+          "400/29",
+          "800/29"
+        ],
+        "answer": 3,
+        "explanation": "The directrices are x = ± a²/c, so the distance is 2a²/c. With a² = 400 and c = 29, that gives 800/29."
+      },
+      {
+        "q": "The director circle of x²/1296 − y²/225 = 1 is:",
+        "options": [
+          "x² + y² = 1071",
+          "x² + y² = 1521",
+          "x² + y² = 1296",
+          "x² + y² = 225"
+        ],
+        "answer": 0,
+        "explanation": "The director circle is x² + y² = a² − b² = 1296 − 225 = 1071, valid because a² exceeds b²."
+      },
+      {
+        "q": "The endpoints of the latus rectum through the focus (26, 0) of x²/100 − y²/576 = 1 are:",
+        "options": [
+          "(10, ± 288/5)",
+          "(26, ± 288/5)",
+          "(26, ± 25/6)",
+          "(26, ± 576/5)"
+        ],
+        "answer": 1,
+        "explanation": "At x = c = 26 the equation gives y = ± b²/a = ± 576/10 = ± 288/5. So the endpoints are (26, ± 288/5)."
+      },
+      {
+        "q": "The foci of x²/36 − y²/64 = 1 are:",
+        "options": [
+          "(0, ± 10)",
+          "(± 6, 0)",
+          "(± 10, 0)",
+          "(± 5.29, 0)"
+        ],
+        "answer": 2,
+        "explanation": "For a hyperbola c = √(a² + b²) = √(36 + 64) = 10. So the foci are (± 10, 0)."
+      },
+      {
+        "q": "For the hyperbola x²/441 − y²/400 = 1, the transverse and conjugate axes are:",
+        "options": [
+          "40 and 42",
+          "58 and 42",
+          "21 and 20",
+          "42 and 40"
+        ],
+        "answer": 3,
+        "explanation": "The transverse axis is 2a = 42 (along the positive term) and the conjugate axis is 2b = 40."
+      },
+      {
+        "q": "The asymptotes of x²/576 − y²/49 = 1 are:",
+        "options": [
+          "y = ± (7/24)x",
+          "y = ± (24/7)x",
+          "y = ± (25/24)x",
+          "x = ± (7/24)y + 1"
+        ],
+        "answer": 0,
+        "explanation": "The asymptotes satisfy x²/a² − y²/b² = 0, giving y = ± (b/a)x = ± (7/24)x."
+      },
+      {
+        "q": "The foci of x²/81 − y²/1600 = 1 are:",
+        "options": [
+          "(± 9, 0)",
+          "(± 41, 0)",
+          "(± 38.97, 0)",
+          "(0, ± 41)"
+        ],
+        "answer": 1,
+        "explanation": "For a hyperbola c = √(a² + b²) = √(81 + 1600) = 41. So the foci are (± 41, 0)."
+      },
+      {
+        "q": "The director circle of x²/900 − y²/256 = 1 is:",
+        "options": [
+          "x² + y² = 256",
+          "x² + y² = 900",
+          "x² + y² = 644",
+          "x² + y² = 1156"
+        ],
+        "answer": 2,
+        "explanation": "The director circle is x² + y² = a² − b² = 900 − 256 = 644, valid because a² exceeds b²."
+      },
+      {
+        "q": "The distance between the directrices of x²/64 − y²/225 = 1 is:",
+        "options": [
+          "17/4",
+          "64/17",
+          "34",
+          "128/17"
+        ],
+        "answer": 3,
+        "explanation": "Distance = 2a²/c with a² = 64 and c = 17. So it equals 128/17."
+      },
+      {
+        "q": "For the hyperbola x²/64 − y²/36 = 1, the point (5, 3) lies:",
+        "options": [
+          "outside",
+          "inside a branch",
+          "on the hyperbola",
+          "on an asymptote"
+        ],
+        "answer": 0,
+        "explanation": "Compute 25/64 − 9/36 − 1, which is negative. A negative value places the point in the region between the branches, so outside."
+      },
+      {
+        "q": "For the hyperbola x²/576 − y²/100 = 1, the transverse and conjugate axes are:",
+        "options": [
+          "52 and 48",
+          "48 and 20",
+          "24 and 10",
+          "20 and 48"
+        ],
+        "answer": 1,
+        "explanation": "The transverse axis is 2a = 48 (along the positive term) and the conjugate axis is 2b = 20."
+      },
+      {
+        "q": "The product of the perpendicular distances from any point of x²/2304 − y²/196 = 1 to its asymptotes is:",
+        "options": [
+          "336/31",
+          "625/112896",
+          "112896/625",
+          "451584"
+        ],
+        "answer": 2,
+        "explanation": "This product equals a²b²/(a² + b²) = (2304)(196)/2500 = 112896/625, constant for every point on the curve."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Hyperbola test free?",
+      "a": "Yes. All 15 questions, scoring and explanations cost nothing. The e-book adds the full chapter with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions match JEE Main and Advanced patterns, so either target fits."
+    },
+    {
+      "q": "What is inside the e-book?",
+      "a": "It carries every DPP worksheet with step-by-step solutions. See the <a href=\"/shop/product/jee-maths-dpp-hyperbola\">Hyperbola DPP page</a>."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one worksheet a day, mark your errors, then redo them after two days. Small daily reps win here."
+    }
+  ]
+}

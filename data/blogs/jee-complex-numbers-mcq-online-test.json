@@ -1,0 +1,205 @@
+{
+  "slug": "jee-complex-numbers-mcq-online-test",
+  "title": "JEE Complex Numbers Online Test: 15 Free MCQs with Answers",
+  "meta_title": "JEE Complex Numbers online test: 15 free MCQs",
+  "meta_desc": "Free JEE Complex Numbers online test with 15 solved MCQs on modulus, argument and locus, plus key formulas and common traps. Take the free test.",
+  "excerpt": "A free JEE Complex Numbers online test with 15 solved MCQs, instant scoring, key formulas and the modulus traps that cost marks.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-complex-numbers.jpg",
+  "cta_product_slug": "jee-maths-dpp-complex-numbers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Complex Numbers online test",
+  "content": "<p>Complex numbers reward the student who thinks in pictures. Plot z on the plane, and half the problems fall out. So try the free <strong>JEE Complex Numbers online test</strong> below. It has 15 exam MCQs and scores you at once. Each answer gives a short reason. Aim for 12 out of 15.</p><h2>What JEE asks from complex numbers</h2><p>The paper leans on modulus, argument and locus. First come algebra and conjugates. Then modulus and power problems appear. Locus questions often close the set.</p><ul><li>Real and imaginary parts, plus the conjugate.</li><li>Modulus and argument of a number.</li><li>Powers and the De Moivre rule.</li><li>The path of z from a modulus rule.</li><li>Distance and triangle area on the plane.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>The modulus of z is the root of x² plus y².</li><li>So the modulus is never a negative value.</li><li>Add z to its conjugate to get 2x, and subtract to get 2iy.</li><li>The rule |z − c| = r draws a circle of radius r about c.</li><li>The rule |z − a| = |z − b| draws the line halfway between a and b.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Reading a locus circle as a straight line, or the reverse.</li><li>Dropping the value range while you fix an argument.</li><li>Forgetting that a pure imaginary z has zero real part.</li><li>Squaring a modulus but missing the cross term.</li></ul><h2>Free JEE Complex Numbers online test</h2><p>Here is the main event. The test below has 15 questions. We took them from our JEE DPP bank. So they match the real Main and Advanced level. Try them all, then press Check my score.</p><h2>Practise the whole chapter</h2><p>Want more drill? The <a href=\"/shop/product/jee-complex-numbers-mcq-online-test\"><strong>JEE Maths DPP — Complex Numbers e-book</strong></a> adds many more solved problems. Each one has clear steps. It costs Rs 49, and the practice papers cost Rs 79. You can also browse the <a href=\"/shop/category/jee-mathematics\">all JEE Maths DPP e-books</a> shelf. For free theory first, try the <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">JEE Maths course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "JEE Complex Numbers Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Complex Numbers",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "Which of these has modulus 1?",
+        "options": [
+          "(1 + i)/√2",
+          "1 + i",
+          "2i",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "The modulus of (1 + i)/√2 is √2 divided by √2, which equals 1."
+      },
+      {
+        "q": "The area of the triangle with vertices 0, 1 + i and 2 + 3i on the Argand plane is:",
+        "options": [
+          "1",
+          "2",
+          "5/2",
+          "1/2"
+        ],
+        "answer": 3,
+        "explanation": "Area equals half the size of the imaginary part of z1 times the conjugate of z2. That product is 5 − i, so the area is 1/2."
+      },
+      {
+        "q": "If z = 1 + √3 i, its argument is:",
+        "options": [
+          "60°",
+          "30°",
+          "45°",
+          "90°"
+        ],
+        "answer": 0,
+        "explanation": "tan θ = √3 over 1, and the point sits in the first quadrant. So the argument is 60 degrees."
+      },
+      {
+        "q": "The equation z² + (2 + i)z + (1 + 2i) = 0 has:",
+        "options": [
+          "Two real roots",
+          "One real and one complex root",
+          "Two complex roots",
+          "No real roots"
+        ],
+        "answer": 3,
+        "explanation": "The discriminant works out to −1 − 4i, which is complex. A complex discriminant means no real roots."
+      },
+      {
+        "q": "The set of z with |z − 1| ≤ |z + 1| and |z| ≤ 2 represents:",
+        "options": [
+          "Left half of a disc",
+          "Upper half of a disc",
+          "Right half of a disc",
+          "Lower half of a disc"
+        ],
+        "answer": 2,
+        "explanation": "The first condition keeps points with x at least 0, the right half-plane. Combined with |z| ≤ 2, you get the right half of the disc."
+      },
+      {
+        "q": "If z lies in the third quadrant, its conjugate lies in the:",
+        "options": [
+          "First quadrant",
+          "Second quadrant",
+          "Third quadrant",
+          "Fourth quadrant"
+        ],
+        "answer": 1,
+        "explanation": "In the third quadrant both parts are negative. The conjugate flips the sign of y, so the real part stays negative and the imaginary part turns positive, giving the second quadrant."
+      },
+      {
+        "q": "The locus of z satisfying |z − i| = |z + i| is:",
+        "options": [
+          "Real axis",
+          "Imaginary axis",
+          "A circle",
+          "The line y = x"
+        ],
+        "answer": 0,
+        "explanation": "The equation asks for points equidistant from i and −i. That locus is the perpendicular bisector, which is the real axis."
+      },
+      {
+        "q": "The equation |z − 2| = 3 on the Argand plane represents:",
+        "options": [
+          "A straight line",
+          "A parabola",
+          "A circle",
+          "An ellipse"
+        ],
+        "answer": 2,
+        "explanation": "|z − c| = r is the standard circle. Here the centre is 2 and the radius is 3."
+      },
+      {
+        "q": "If the modulus of a complex number z is 0, then:",
+        "options": [
+          "z = 1",
+          "z = 0",
+          "z = i",
+          "z is any real number"
+        ],
+        "answer": 1,
+        "explanation": "The modulus is the square root of x² plus y², and it is 0. That forces x = 0 and y = 0, so z is 0."
+      },
+      {
+        "q": "If a non-zero complex number z is purely imaginary, then:",
+        "options": [
+          "z = z̄",
+          "|z| = 1",
+          "z² > 0",
+          "z + z̄ = 0"
+        ],
+        "answer": 3,
+        "explanation": "Write z = iy, so its conjugate is −iy. Adding them cancels to 0."
+      },
+      {
+        "q": "The principal argument of the complex number 0 is:",
+        "options": [
+          "0",
+          "π",
+          "Not defined",
+          "π/2"
+        ],
+        "answer": 2,
+        "explanation": "Zero sits at the origin with no direction. So its argument stays undefined."
+      },
+      {
+        "q": "A bus travels z1 = 3 + 4i km and another travels z2 = 6 − 2i km. The straight-line gap between their end points is:",
+        "options": [
+          "5 km",
+          "3√5 km",
+          "45 km",
+          "9 km"
+        ],
+        "answer": 1,
+        "explanation": "The gap is the modulus of z1 minus z2, which is |−3 + 6i| = √45. That simplifies to 3√5 km."
+      },
+      {
+        "q": "A garden has corners at 1 + i, −1 + i, −1 − i and 1 − i in metres. Its area is:",
+        "options": [
+          "4 square metres",
+          "2 square metres",
+          "8 square metres",
+          "1 square metre"
+        ],
+        "answer": 0,
+        "explanation": "The four points make a square of side 2 metres. So the area is 2 times 2, which is 4 square metres."
+      },
+      {
+        "q": "A profit function is P(x) = |3 + 4i| x − 20 in rupees. Selling 10 items gives a profit of:",
+        "options": [
+          "Rs 20",
+          "Rs 40",
+          "Rs 30",
+          "Rs 50"
+        ],
+        "answer": 2,
+        "explanation": "|3 + 4i| = 5, so profit equals 5x − 20. At x = 10 that gives 50 − 20 = 30."
+      },
+      {
+        "q": "The product (2 + i)(3 + 2i) equals:",
+        "options": [
+          "8 + 7i",
+          "4 + 7i",
+          "6 + 5i",
+          "4 + 5i"
+        ],
+        "answer": 1,
+        "explanation": "Expand to 6 + 4i + 3i + 2i². Since i² = −1, this becomes 4 + 7i."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Complex Numbers test free?",
+      "a": "Yes. All 15 questions, the scoring and the explanations are free. The e-book then adds many more solved problems for Rs 49."
+    },
+    {
+      "q": "Is it aimed at JEE Main or Advanced?",
+      "a": "Both. The questions follow the Main and Advanced pattern, so they work for either target."
+    },
+    {
+      "q": "How many problems does the chapter e-book have?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-complex-numbers\">chapter e-book</a> carries a full graded set with step-by-step solutions, from basics to Advanced level."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set in a timed sitting, mark your errors, then redo the missed types after a day."
+    }
+  ]
+}

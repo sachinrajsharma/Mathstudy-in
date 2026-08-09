@@ -1,0 +1,205 @@
+{
+  "slug": "jee-applications-of-derivatives-mcq-online-test",
+  "title": "JEE Applications of Derivatives Online Test: 15 Free MCQs",
+  "meta_title": "JEE Applications of Derivatives online test: 15 MCQs",
+  "meta_desc": "Free JEE Applications of Derivatives online test with 15 solved MCQs on related rates, tangents, maxima and minima. Take the free test.",
+  "excerpt": "A free JEE Applications of Derivatives online test: 15 solved MCQs on related rates, maxima and minima, with instant scoring.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-applications-of-derivatives.jpg",
+  "cta_product_slug": "jee-maths-dpp-applications-of-derivatives",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Applications of Derivatives online test",
+  "content": "<p>Related rates and maxima-minima carry serious weight in JEE. One correct derivative, one boundary check, and you bank the marks. This chapter rewards clean setups over clever tricks. Take the free <strong>JEE Applications of Derivatives online test</strong> below. It has 15 exam-pattern MCQs with instant scoring. Aim for 12 out of 15.</p><h2>What JEE asks here</h2><ul><li>Rate of change and related-rate word problems.</li><li>Tangents and normals to a given curve.</li><li>Strictly increasing and decreasing intervals.</li><li>Maxima, minima and real optimisation setups.</li><li>Marginal cost and revenue from calculus.</li></ul><h2>Facts to revise first</h2><ul><li>A function rises where its derivative stays positive.</li><li>At a maximum or minimum, the first derivative hits 0.</li><li>Related rates link two rates through one equation.</li><li>The tangent slope equals the derivative at that point.</li><li>Marginal cost is the derivative of the cost function.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Skipping the second derivative test for the nature of a point.</li><li>Ignoring endpoints in a closed-interval optimisation.</li><li>Mixing up which rate the question actually wants.</li></ul><h2>Free JEE Applications of Derivatives online test</h2><p>The 15-question quiz below comes from our verified DPP question bank. It matches the paid e-book closely. Answer all 15, then press Check my score. Draw a quick figure first, because it prevents rate mix-ups.</p><h2>How to use this test</h2><p>Set a clock for 30 minutes. Do the rate-of-change ones first. Those come fast. Then take on the maxima and minima. Sketch a small figure each time. Name what the question wants. Write each step by hand. Do not skip a line. If a value looks wrong, redo it once. Mark every slip you make. Try the set again in two days. Your speed will grow, and your errors will drop. Stay calm. Trust each step. Hard work pays off.</p><h2>Practise the whole chapter</h2><p>Want the full drill set? The <a href=\"/shop/product/jee-maths-dpp-applications-of-derivatives\"><strong>JEE Maths DPP Applications of Derivatives e-book</strong></a> covers every worksheet for Rs 49. Each question carries a full solution, so the setup makes sense. You can also browse the whole <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-book shelf</a>, and the practice papers cost Rs 79. Learning calculus in order? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> teaches these applications clearly. Then this JEE Applications of Derivatives online test confirms your progress.</p>",
+  "quiz": {
+    "title": "JEE Applications of Derivatives Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Applications of Derivatives",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "A cube volume grows at 8 cm³/s. How fast is its surface area growing when the edge is 12 cm?",
+        "options": [
+          "8/3 cm²/s",
+          "4/3 cm²/s",
+          "2 cm²/s",
+          "8 cm²/s"
+        ],
+        "answer": 0,
+        "explanation": "From V = x³, dx/dt = 8/(3x²). Then dS/dt = 12x·dx/dt = 32/x, which is 8/3 at x = 12."
+      },
+      {
+        "q": "A 5 m ladder slides so its foot moves out at 2 cm/s. How fast does the top drop when the foot is 4 m from the wall?",
+        "options": [
+          "3/8 cm/s",
+          "8/3 cm/s",
+          "8 cm/s",
+          "4/3 cm/s"
+        ],
+        "answer": 1,
+        "explanation": "From x² + y² = 25 at x = 4, y = 3. Then 4(2) + 3(dy/dt) = 0, so the top drops at 8/3 cm/s."
+      },
+      {
+        "q": "A wave spreads on a lake so its radius grows at 5 cm/s. How fast does the enclosed area grow when r = 8 cm?",
+        "options": [
+          "40π cm²/s",
+          "8π cm²/s",
+          "80π cm²/s",
+          "160π cm²/s"
+        ],
+        "answer": 2,
+        "explanation": "From A = πr², dA/dt = 2πr·dr/dt = 2π(8)(5) = 80π cm²/s."
+      },
+      {
+        "q": "A balloon radius grows at 10 cm/s. Find the rate of change of volume when r = 15 cm.",
+        "options": [
+          "4500π cm³/s",
+          "3000π cm³/s",
+          "900π cm³/s",
+          "9000π cm³/s"
+        ],
+        "answer": 3,
+        "explanation": "From V = (4/3)πr³, dV/dt = 4πr²·dr/dt = 4π(225)(10) = 9000π cm³/s."
+      },
+      {
+        "q": "The tangent to y = x³ − 3x + 2 where it crosses the y-axis is:",
+        "options": [
+          "3x + y − 2 = 0",
+          "3x − y = 0",
+          "x + 3y − 2 = 0",
+          "x − 3y = 0"
+        ],
+        "answer": 0,
+        "explanation": "At x = 0, y = 2 and the slope is −3. So the tangent is y − 2 = −3x, that is 3x + y − 2 = 0."
+      },
+      {
+        "q": "The point on y = x³ − 11x + 5 where the tangent is y = x − 11 is:",
+        "options": [
+          "(1, −5)",
+          "(2, −9)",
+          "(−2, 19)",
+          "(3, −1)"
+        ],
+        "answer": 1,
+        "explanation": "Set 3x² − 11 = 1, so x = ± 2. At x = 2, y = −9, and that point lies on the given line."
+      },
+      {
+        "q": "For C(x) = 0.007x³ − 0.003x² + 15x + 4000, the marginal cost at 17 units is:",
+        "options": [
+          "22.107",
+          "18.567",
+          "20.967",
+          "25.007"
+        ],
+        "answer": 2,
+        "explanation": "Marginal cost is C prime(x) = 0.021x² − 0.006x + 15. At x = 17 this equals 20.967."
+      },
+      {
+        "q": "The function f(x) = 2x³ − 3x² − 36x + 7 is strictly decreasing on:",
+        "options": [
+          "(−∞, −2)",
+          "(3, ∞)",
+          "(−3, 2)",
+          "(−2, 3)"
+        ],
+        "answer": 3,
+        "explanation": "Here f prime(x) = 6(x − 3)(x + 2), which is negative on (−2, 3). So the function decreases there."
+      },
+      {
+        "q": "The point on y² = 4x nearest to (2, −8) is:",
+        "options": [
+          "(4, −4)",
+          "(1, −2)",
+          "(9, −6)",
+          "(16, −8)"
+        ],
+        "answer": 0,
+        "explanation": "Minimising the squared distance in y gives y = −4, so x = 4. The nearest point is (4, −4)."
+      },
+      {
+        "q": "Which function is strictly increasing on (0, π/2)?",
+        "options": [
+          "cos x",
+          "tan x",
+          "cot x",
+          "cosec x"
+        ],
+        "answer": 1,
+        "explanation": "The derivative of tan x is sec²x, positive on (0, π/2). The other three decrease there."
+      },
+      {
+        "q": "The interval in which y = x²e^(−x) is strictly increasing is:",
+        "options": [
+          "(−∞, 0)",
+          "(2, ∞)",
+          "(0, 2)",
+          "(−2, 0)"
+        ],
+        "answer": 2,
+        "explanation": "Here dy/dx = x e^(−x)(2 − x), positive when 0 < x < 2. So the function rises on (0, 2)."
+      },
+      {
+        "q": "For a fixed surface area, a closed cylinder has maximum volume when its height equals:",
+        "options": [
+          "Its radius",
+          "Twice its diameter",
+          "Half its radius",
+          "Its diameter"
+        ],
+        "answer": 3,
+        "explanation": "The standard optimisation result gives h = 2r, so the height equals the base diameter."
+      },
+      {
+        "q": "An open-top box with a square base must hold 32000 cm³. The base that uses least material is:",
+        "options": [
+          "40 cm × 40 cm",
+          "20 cm × 20 cm",
+          "30 cm × 30 cm",
+          "50 cm × 50 cm"
+        ],
+        "answer": 0,
+        "explanation": "Minimising S = x² + 128000/x gives x³ = 64000, so x = 40. The base is 40 cm × 40 cm."
+      },
+      {
+        "q": "For C(x) = Rs (1000 + 5x + x²/10), the minimum average cost per unit is:",
+        "options": [
+          "Rs 50",
+          "Rs 25",
+          "Rs 10",
+          "Rs 15"
+        ],
+        "answer": 1,
+        "explanation": "Average cost is 1000/x + 5 + x/10. Setting its derivative to zero gives x = 100 and a minimum of Rs 25."
+      },
+      {
+        "q": "Fuel cost per hour is v²/4 rupees and other costs are Rs 100 per hour. The most economical speed is:",
+        "options": [
+          "10 km/h",
+          "15 km/h",
+          "20 km/h",
+          "25 km/h"
+        ],
+        "answer": 2,
+        "explanation": "Total cost per unit distance is v/4 + 100/v. Its derivative vanishes at v² = 400, so v = 20 km/h."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Applications of Derivatives test free?",
+      "a": "Yes. All 15 questions, scoring and explanations cost nothing. The e-book adds the full chapter with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions follow JEE Main and Advanced patterns, so either target fits."
+    },
+    {
+      "q": "What is inside the e-book?",
+      "a": "It carries every DPP worksheet with step-by-step solutions. See the <a href=\"/shop/product/jee-maths-dpp-applications-of-derivatives\">Applications of Derivatives DPP page</a>."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one worksheet a day, sketch every rate problem, then redo the maxima-minima ones after two days."
+    }
+  ]
+}

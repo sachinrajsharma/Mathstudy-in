@@ -1,0 +1,205 @@
+{
+  "slug": "jee-ellipse-mcq-online-test",
+  "title": "JEE Ellipse Online Test: 15 Free MCQs with Solutions",
+  "meta_title": "JEE Ellipse online test — 15 free solved MCQs",
+  "meta_desc": "Free JEE Ellipse online test with 15 solved MCQs on foci, tangents, directrices and the director circle, plus answers. Take the free test.",
+  "excerpt": "A free JEE Ellipse online test with 15 solved MCQs on foci, tangents and directrices, plus instant scoring and explanations.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-ellipse.jpg",
+  "cta_product_slug": "jee-maths-dpp-ellipse",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Ellipse online test",
+  "content": "<p>Every JEE topper treats conics as free marks, and the ellipse sits right in that zone. One clean formula for foci, one for the director circle, and the question falls apart. Try the free <strong>JEE Ellipse online test</strong> below. It has 15 exam-pattern MCQs with instant scoring. Aim for 12 out of 15.</p><h2>What JEE asks from the ellipse</h2><ul><li>Foci, vertices and eccentricity from the standard form.</li><li>Tangent and normal conditions at a given point.</li><li>The director circle and pairs of perpendicular tangents.</li><li>Directrices, latus rectum and focal distances.</li><li>Position of a point, inside or outside the curve.</li></ul><h2>Formulas to revise first</h2><ul><li>For x²/a²+y²/b²=1 with a above b, c² = a² − b².</li><li>Eccentricity e = c/a, and it always stays below 1.</li><li>The latus rectum length equals 2b²/a.</li><li>The director circle is x² + y² = a² + b².</li><li>Directrices sit at x = ± a/e, so they lie outside.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Mixing up a and b when the major axis turns vertical.</li><li>Using a² + b² for the ellipse foci, which suits the hyperbola.</li><li>Forgetting to check a above b before fixing the axis.</li></ul><h2>Free JEE Ellipse online test</h2><p>The 15-question quiz below comes from our verified DPP question bank. It matches the paid e-book question for question. Answer all 15, then press Check my score. Read every explanation, and note the ones you rushed.</p><h2>How to use this test</h2><p>Set a clock for 30 minutes. Do the foci and axes first. Those are quick marks. Then take on the tangent and director-circle ones. Write each step by hand. Do not skip a line. Check whether a is more than b. Fix the axis before you plug in. If a value looks off, redo it once. Mark every slip you make. Try the set again in two days. Your speed will climb, and your errors will drop.</p><h2>Practise the whole chapter</h2><p>Want more than 15 questions? The <a href=\"/shop/product/jee-maths-dpp-ellipse\"><strong>JEE Maths DPP Ellipse e-book</strong></a> carries the full chapter for Rs 49. Every question ships with a worked solution, so you learn the method, not just the answer. You can also browse the whole <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP e-book shelf</a>, and the practice papers cost Rs 79. Preparing the entire syllabus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> walks through the ellipse from basics. Then this JEE Ellipse online test tells you if it stuck.</p>",
+  "quiz": {
+    "title": "JEE Ellipse Quiz",
+    "intro": "Fifteen exam-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Ellipse",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The foci of the ellipse x²/225 + y²/81 = 1 are:",
+        "options": [
+          "(± 12, 0)",
+          "(± 15, 0)",
+          "(0, ± 12)",
+          "(± 9, 0)"
+        ],
+        "answer": 0,
+        "explanation": "Here c = √(a² − b²) = √(225 − 81) = 12, with the major axis along x. So the foci are (± 12, 0)."
+      },
+      {
+        "q": "The foci of 16x² + y² = 16 are:",
+        "options": [
+          "(± √15, 0)",
+          "(0, ± √15)",
+          "(0, ± 4)",
+          "(± 4, 0)"
+        ],
+        "answer": 1,
+        "explanation": "Rewrite as x²/1 + y²/16 = 1, so the major axis is the y-axis. Then c = √(16 − 1) = √15 and the foci are (0, ± √15)."
+      },
+      {
+        "q": "The foci of the ellipse x²/841 + y²/441 = 1 are:",
+        "options": [
+          "(± 29, 0)",
+          "(± 21, 0)",
+          "(± 20, 0)",
+          "(0, ± 20)"
+        ],
+        "answer": 2,
+        "explanation": "Here c = √(841 − 441) = √400 = 20, with the major axis along x. So the foci are (± 20, 0)."
+      },
+      {
+        "q": "The line y = 2x + c touches the ellipse x²/676 + y²/576 = 1 when c equals:",
+        "options": [
+          "± 52",
+          "± √2980",
+          "± √2128",
+          "± √3280"
+        ],
+        "answer": 3,
+        "explanation": "The tangency condition is c² = a²m² + b² = 676(4) + 576 = 3280. So c = ± √3280."
+      },
+      {
+        "q": "The line y = 2x + c touches the ellipse x²/841 + y²/400 = 1 when c equals:",
+        "options": [
+          "± √3764",
+          "± √2441",
+          "± √2964",
+          "± 58"
+        ],
+        "answer": 0,
+        "explanation": "Apply c² = a²m² + b² = 841(4) + 400 = 3764. So c = ± √3764."
+      },
+      {
+        "q": "The line y = 3x + c touches the ellipse x²/289 + y²/64 = 1 when c equals:",
+        "options": [
+          "± 51",
+          "± √2665",
+          "± √2537",
+          "± √865"
+        ],
+        "answer": 1,
+        "explanation": "Use c² = a²m² + b² = 289(9) + 64 = 2665. So c = ± √2665."
+      },
+      {
+        "q": "Perpendicular tangents to x²/100 + y²/36 = 1 meet on the locus:",
+        "options": [
+          "x² + y² = 120",
+          "x² + y² = 100",
+          "x² + y² = 136",
+          "x² + y² = 64"
+        ],
+        "answer": 2,
+        "explanation": "Perpendicular tangents meet on the director circle x² + y² = a² + b² = 100 + 36 = 136."
+      },
+      {
+        "q": "Perpendicular tangents to x²/25 + y²/16 = 1 meet on the locus:",
+        "options": [
+          "x² + y² = 9",
+          "x² + y² = 25",
+          "x² + y² = 40",
+          "x² + y² = 41"
+        ],
+        "answer": 3,
+        "explanation": "The director circle is x² + y² = a² + b² = 25 + 16 = 41."
+      },
+      {
+        "q": "The distance between the two directrices of x²/289 + y²/64 = 1 is:",
+        "options": [
+          "578/15",
+          "289/15",
+          "30",
+          "30/17"
+        ],
+        "answer": 0,
+        "explanation": "The directrices are x = ± a²/c, so the distance is 2a²/c. With a² = 289 and c = 15, that gives 578/15."
+      },
+      {
+        "q": "The distance between the two directrices of x²/25 + y²/9 = 1 is:",
+        "options": [
+          "25/4",
+          "25/2",
+          "8",
+          "8/5"
+        ],
+        "answer": 1,
+        "explanation": "Distance = 2a²/c with a² = 25 and c = 4. So it equals 50/4 = 25/2."
+      },
+      {
+        "q": "The length of the latus rectum of 16x² + y² = 16 is:",
+        "options": [
+          "1/8",
+          "1/4",
+          "1/2",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Rewrite as x²/1 + y²/16 = 1, a vertical ellipse with a² = 1 and b = 4. The latus rectum is 2a²/b = 2(1)/4 = 1/2."
+      },
+      {
+        "q": "The length of the latus rectum of 25x² + 16y² = 400 is:",
+        "options": [
+          "50/4",
+          "25/2",
+          "16/5",
+          "32/5"
+        ],
+        "answer": 3,
+        "explanation": "Rewrite as x²/16 + y²/25 = 1, a vertical ellipse with a² = 16 and b = 5. The latus rectum is 2a²/b = 32/5."
+      },
+      {
+        "q": "The point (19, 7) lies ______ the ellipse x²/841 + y²/441 = 1.",
+        "options": [
+          "inside",
+          "outside",
+          "on the ellipse",
+          "cannot be determined"
+        ],
+        "answer": 0,
+        "explanation": "Evaluate 361/841 + 49/441, which is less than 1. So the point lies inside the ellipse."
+      },
+      {
+        "q": "The point (11, 11) lies ______ the ellipse x²/169 + y²/144 = 1.",
+        "options": [
+          "inside",
+          "outside",
+          "on the ellipse",
+          "cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "Evaluate 121/169 + 121/144, which is greater than 1. So the point lies outside the ellipse."
+      },
+      {
+        "q": "The point (24, 12) lies ______ the ellipse x²/841 + y²/441 = 1.",
+        "options": [
+          "inside",
+          "on the ellipse",
+          "outside",
+          "cannot be determined"
+        ],
+        "answer": 2,
+        "explanation": "Evaluate 576/841 + 144/441, which is greater than 1. So the point lies outside the ellipse."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this JEE Ellipse test free?",
+      "a": "Yes. All 15 questions, scoring and explanations cost nothing. The e-book adds the full chapter with worked solutions for Rs 49."
+    },
+    {
+      "q": "Is it for JEE Main or Advanced?",
+      "a": "Both. The questions follow JEE Main and Advanced patterns, so they suit either target."
+    },
+    {
+      "q": "What is inside the e-book?",
+      "a": "The chapter e-book carries every DPP worksheet with step-by-step solutions. Browse it on the <a href=\"/shop/product/jee-maths-dpp-ellipse\">Ellipse DPP page</a>."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one worksheet a day, mark your errors, then redo them after two days. Consistency beats cramming."
+    }
+  ]
+}

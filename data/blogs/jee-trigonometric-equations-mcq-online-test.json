@@ -1,0 +1,130 @@
+{
+  "slug": "jee-trigonometric-equations-mcq-online-test",
+  "title": "JEE Trigonometric Equations Online Test: 15 Free MCQs",
+  "meta_title": "JEE Trigonometric Equations online test — 15 MCQs",
+  "meta_desc": "Take the free JEE Trigonometric Equations online test: 15 solved MCQs on general and principal solutions, with instant scoring. Start now.",
+  "excerpt": "A free JEE Trigonometric Equations online test with 15 solved MCQs, instant scoring and a worked explanation for each.",
+  "category": "JEE Mathematics",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/jee-maths-dpp-trigonometric-equations.jpg",
+  "cta_product_slug": "jee-maths-dpp-trigonometric-equations",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "JEE Trigonometric Equations online test",
+  "content": "<p>A trig equation almost never has one answer. It has a whole family, wrapped up in that little n. Miss the general form, and you lose an easy mark. Try the free <strong>JEE Trigonometric Equations online test</strong> below. It gives 15 solved MCQs with instant scoring. Target 12 correct.</p><h2>What JEE asks from trigonometric equations</h2><ul><li>Principal solutions inside 0 to 2 pi.</li> <li>General solutions with the n term for sin, cos and tan.</li> <li>Equations of the form a sin x plus b cos x equals c.</li> <li>Quadratics in sin x or cos x, so factor first.</li> <li>Bound checks that rule out impossible values.</li></ul><h2>Formulas and facts to revise first</h2><ul><li>Set sin x = sin a to x = n pi + (−1)^n a.</li> <li>Solve cos x = cos a with x = 2 n pi ± a.</li> <li>Solve tan x = tan a with x = n pi + a.</li> <li>Keep a sin x plus b cos x within root of a squared plus b squared.</li> <li>Reject any solution that makes a function undefined.</li></ul><h2>Mistakes that cost JEE marks</h2><ul><li>Cancelling sin x, and so losing the x = n pi roots.</li> <li>Writing only the principal value, not the general one.</li> <li>Missing that a sin x plus b cos x has a fixed maximum.</li> <li>Squaring the equation, then keeping extra false roots.</li></ul><h2>Free JEE trigonometric equations online test</h2><p>This 15 question quiz comes straight from our verified DPP bank. It matches the difficulty of a real JEE sitting. So treat it like the exam. Answer all 15, then press Check my score. Fix each miss, and repeat after a day.</p><h2>Practise the whole chapter</h2><p>Ready for full drills? The <a href=\"/shop/product/jee-maths-dpp-trigonometric-equations\"><strong>JEE Maths DPP Trigonometric Equations e-book</strong></a> adds many more solved MCQs. Each chapter e-book costs Rs 49, and each practice paper set costs Rs 79. Every question ships with a full worked solution. You can browse every title on the <a href=\"/shop/category/jee-mathematics\">JEE Maths DPP shelf</a>. Preparing the whole syllabus? The <a href=\"https://vidaara.org/courses\" target=\"_blank\" rel=\"noopener\">free JEE Maths course at vidaara.org</a> covers every chapter.</p>",
+  "quiz": {
+    "title": "JEE Trigonometric Equations Quiz",
+    "intro": "Fifteen JEE-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "JEE Maths DPP: Trigonometric Equations",
+    "level": "JEE Main & Advanced",
+    "questions": [
+      {
+        "q": "The principal solutions of sin x = √3/2 are:",
+        "options": ["π/3, 2π/3", "π/6, 5π/6", "π/3, 4π/3", "π/4, 3π/4"],
+        "answer": 0,
+        "explanation": "sin x is positive in the first and second quadrants. So x = π/3 and x = π − π/3 = 2π/3."
+      },
+      {
+        "q": "Solve 2cos²x + 3cos x + 1 = 0 for the general solution (n ∈ Z).",
+        "options": ["2nπ ± 2π/3 or (2n+1)π", "nπ ± 2π/3 or 2nπ", "2nπ ± π/3 or (2n+1)π", "2nπ ± 2π/3 or (2n−1)π/2"],
+        "answer": 0,
+        "explanation": "Factor to (2cos x + 1)(cos x + 1) = 0. So cos x = −1/2 or −1, giving x = 2nπ ± 2π/3 or (2n+1)π."
+      },
+      {
+        "q": "The principal solutions of cos x = −1/2 are:",
+        "options": ["π/3, 5π/3", "2π/3, 4π/3", "5π/6, 7π/6", "2π/3, 5π/3"],
+        "answer": 1,
+        "explanation": "cos x is negative in the second and third quadrants. So the solutions are 2π/3 and 4π/3."
+      },
+      {
+        "q": "The equation 9 sin x + 40 cos x = 43 has:",
+        "options": ["infinitely many solutions", "exactly two solutions in [0, 2π]", "exactly one solution in [0, 2π]", "no solution"],
+        "answer": 3,
+        "explanation": "The expression ranges from −41 to 41 since √(81+1600) = 41. As 43 > 41, no solution exists."
+      },
+      {
+        "q": "The principal solutions of tan x = −1/√3 are:",
+        "options": ["π/6, 7π/6", "2π/3, 5π/3", "5π/6, 11π/6", "5π/6, 7π/6"],
+        "answer": 2,
+        "explanation": "tan x is negative in the second and fourth quadrants. So x = 5π/6 and 11π/6."
+      },
+      {
+        "q": "Solve cos²x − sin x = 1/4 (n ∈ Z).",
+        "options": ["nπ + (−1)ⁿ(π/6)", "nπ + (−1)ⁿ(π/3)", "2nπ ± π/6", "nπ ± π/6"],
+        "answer": 0,
+        "explanation": "Replace cos²x with 1 − sin²x. This gives 4sin²x + 4sin x − 3 = 0, so sin x = 1/2 and x = nπ + (−1)ⁿ(π/6)."
+      },
+      {
+        "q": "The principal solutions of cosec x = −2 are:",
+        "options": ["4π/3, 5π/3", "5π/6, 7π/6", "7π/6, 5π/3", "7π/6, 11π/6"],
+        "answer": 3,
+        "explanation": "cosec x = −2 means sin x = −1/2. The values in the third and fourth quadrants are 7π/6 and 11π/6."
+      },
+      {
+        "q": "The equation 7 sin x + 24 cos x = 28 has:",
+        "options": ["exactly one solution in [0, 2π]", "exactly two solutions in [0, 2π]", "infinitely many solutions", "no solution"],
+        "answer": 3,
+        "explanation": "The range is −25 to 25 since √(49+576) = 25. As 28 > 25, no solution exists."
+      },
+      {
+        "q": "The principal solutions of sec x = √2 are:",
+        "options": ["π/4, 3π/4", "π/4, 7π/4", "3π/4, 5π/4", "5π/4, 7π/4"],
+        "answer": 1,
+        "explanation": "sec x = √2 gives cos x = 1/√2, positive in the first and fourth quadrants. So x = π/4 and 7π/4."
+      },
+      {
+        "q": "The principal solutions of cot x = 1 are:",
+        "options": ["π/4, 3π/4", "π/4, 5π/4", "3π/4, 7π/4", "5π/4, 7π/4"],
+        "answer": 1,
+        "explanation": "cot x = 1 means tan x = 1, positive in the first and third quadrants. So x = π/4 and 5π/4."
+      },
+      {
+        "q": "The general solution of sin 2x = 0 is (n ∈ Z):",
+        "options": ["x = nπ", "x = nπ/2", "x = 2nπ", "x = nπ/4"],
+        "answer": 1,
+        "explanation": "sin θ = 0 gives θ = nπ. So 2x = nπ, which means x = nπ/2."
+      },
+      {
+        "q": "Solve sin x tan x − 1 = tan x − sin x in [0, 2π).",
+        "options": ["π/4, 5π/4", "π/2, 3π/2", "3π/4, 7π/4", "No solution"],
+        "answer": 2,
+        "explanation": "Factor to (tan x + 1)(sin x − 1) = 0. Reject sin x = 1 since tan x is undefined there, so tan x = −1 gives 3π/4 and 7π/4."
+      },
+      {
+        "q": "The general solution of cos(x/2) = 0 is (n ∈ Z):",
+        "options": ["2nπ", "(2n+1)π/2", "nπ", "(2n+1)π"],
+        "answer": 3,
+        "explanation": "cos θ = 0 gives θ = (2n+1)π/2. So x/2 = (2n+1)π/2, which means x = (2n+1)π."
+      },
+      {
+        "q": "The general solution of tan 3x = 0 is (n ∈ Z):",
+        "options": ["x = nπ", "x = 3nπ", "x = nπ/3", "x = 2nπ/3"],
+        "answer": 2,
+        "explanation": "tan θ = 0 gives θ = nπ. So 3x = nπ, which means x = nπ/3."
+      },
+      {
+        "q": "The general solution of sin x = 1/2 is (n ∈ Z):",
+        "options": ["nπ + (−1)ⁿ(π/6)", "nπ + (−1)ⁿ(π/3)", "2nπ ± π/6", "nπ ± π/6"],
+        "answer": 0,
+        "explanation": "sin x = sin(π/6). The rule sin x = sin a gives x = nπ + (−1)ⁿa, so x = nπ + (−1)ⁿ(π/6)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this trigonometric equations test free?",
+      "a": "Yes. All 15 questions, the scoring and every explanation stay free. The e-book then adds many more solved MCQs for Rs 49."
+    },
+    {
+      "q": "Does it cover general and principal solutions?",
+      "a": "Both. The set mixes principal-value questions with general-form solutions and a few range-based problems."
+    },
+    {
+      "q": "How many questions does the e-book hold?",
+      "a": "The <a href=\"/shop/product/jee-maths-dpp-trigonometric-equations\">chapter e-book</a> carries many more graded MCQs with full step-by-step solutions."
+    },
+    {
+      "q": "How should I use these DPPs?",
+      "a": "Solve one set under a timer, mark it, then redo only the ones you missed after two days."
+    }
+  ]
+}
