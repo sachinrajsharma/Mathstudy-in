@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-data-handling-mcq-online-test",
+  "title": "IMO Class 8 Data Handling Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Data Handling online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Data Handling online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Data Handling online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-data-handling.png",
+  "cta_product_slug": "imo-class-8-maths-data-handling",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Data Handling online test",
+  "content": "<p>Everyone thinks Data Handling is free marks. Then the paper asks for the pie-chart angle of a 35% slice, or the probability of at least one head in two tosses — and the \"easy\" chapter quietly takes five marks back. Below sits a free <strong>IMO Class 8 Data Handling online test</strong> — 10 Olympiad-pattern MCQs with instant scoring and a worked explanation under every answer. Eight out of ten is the score to beat.</p><h2>What the IMO asks from Data Handling in Class 8</h2><ul><li>Grouped frequency tables and class intervals.</li><li>Histograms — reading them and knowing when bars must touch.</li><li>Pie charts: converting values to sector angles.</li><li>Probability with coins, dice, spinners and cards.</li><li>Comparing data sets with double bar graphs.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Pie-chart sector angle = (part/whole) &times; 360&deg; — a 35% slice spans 126&deg;.</li><li>Histogram bars touch because class intervals are continuous; bar-graph bars do not.</li><li>Two coins: P(at least one head) = 3/4, because only TT fails.</li><li>The class mark of interval 20&ndash;30 is (20 + 30)/2 = 25.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Reporting a pie slice&rsquo;s percentage when the question asked for its ANGLE.</li><li>Listing 3 outcomes for two coins (HH, HT, TT) — HT and TH are different outcomes.</li><li>Using class limits instead of class marks when a question needs the midpoint.</li></ul><h2>Free IMO Class 8 Data Handling online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-data-handling\"><strong>IMO Class 8 Maths — Data Handling e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Data Handling Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Data Handling",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "A grouped frequency distribution has classes 10-20, 20-30, 30-40, 40-50, and 50-60 with frequencies 7, 12, 18, 9, and 4 respectively. The total number of observations is:",
+        "options": [
+          "45",
+          "50",
+          "55",
+          "60"
+        ],
+        "answer": 1,
+        "explanation": "Total observations = sum of all frequencies = 7 + 12 + 18 + 9 + 4 = 50."
+      },
+      {
+        "q": "A histogram has 6 bars of equal width with heights 3, 8, 14, 11, 6, and 2. The total number of observations represented by this histogram is:",
+        "options": [
+          "38",
+          "42",
+          "48",
+          "44"
+        ],
+        "answer": 3,
+        "explanation": "Since the class widths are equal, the heights directly give frequencies. Total = 3 + 8 + 14 + 11 + 6 + 2 = 44."
+      },
+      {
+        "q": "The estimated mean of the following grouped data is: Class: 10-20, 20-30, 30-40, 40-50, 50-60 Frequency: 5, 8, 12, 10, 5",
+        "options": [
+          "33.5",
+          "35.5",
+          "37.5",
+          "39.5"
+        ],
+        "answer": 1,
+        "explanation": "Class marks: 15, 25, 35, 45, 55. Sum of frequencies = 5 + 8 + 12 + 10 + 5 = 40. Sum of (f x class mark) = 5x15 + 8x25 + 12x35 + 10x45 + 5x55 = 75 + 200 + 420 + 450 + 275 = 1420. Estimated mean = 1420 / 40 = 35.5."
+      },
+      {
+        "q": "In a pie chart, a sector representing 35% of the total data has a central angle of:",
+        "options": [
+          "105°",
+          "70°",
+          "120°",
+          "126°"
+        ],
+        "answer": 3,
+        "explanation": "Central angle = (Percentage / 100) × 360° = (35/100) × 360° = 126°."
+      },
+      {
+        "q": "The ratio of central angles of two sectors in a pie chart is 3:5. If the smaller sector represents 135 items, the number of items the larger sector represents is:",
+        "options": [
+          "200",
+          "215",
+          "225",
+          "270"
+        ],
+        "answer": 2,
+        "explanation": "The number of items is proportional to the central angle. If smaller sector (angle ratio 3) = 135 items, then each unit = 135/3 = 45 items. Larger sector (angle ratio 5) = 5 × 45 = 225 items."
+      },
+      {
+        "q": "In a pie chart, two sectors P and Q together subtend an angle of 216° at the centre. If sector P subtends 40° more than sector Q, the central angle of sector Q is:",
+        "options": [
+          "72°",
+          "88°",
+          "84°",
+          "76°"
+        ],
+        "answer": 1,
+        "explanation": "Let Q = a°. Then P = (a + 40)°. Given P + Q = 216: (a + 40) + a = 216. 2a + 40 = 216. 2a = 176. a = 88. So Q = 88°."
+      },
+      {
+        "q": "The marks distribution of 50 students is: 0-20 (5 students), 20-40 (10), 40-60 (20), 60-80 (10), 80-100 (5). What percentage of students scored 40 or above?",
+        "options": [
+          "65%",
+          "70%",
+          "75%",
+          "60%"
+        ],
+        "answer": 1,
+        "explanation": "Students scoring 40 or above = 20 + 10 + 5 = 35. Total students = 50. Percentage = (35/50) × 100 = 70%."
+      },
+      {
+        "q": "A number is chosen at random from 1 to 20. The probability that it is a prime number is:",
+        "options": [
+          "1/4",
+          "2/5",
+          "3/10",
+          "7/20"
+        ],
+        "answer": 1,
+        "explanation": "Prime numbers from 1 to 20: 2, 3, 5, 7, 11, 13, 17, 19 = 8 primes. Total numbers = 20. Probability = 8/20 = 2/5."
+      },
+      {
+        "q": "A card is drawn at random from a standard deck of 52 cards. The probability that it is a face card (Jack, Queen, or King) is:",
+        "options": [
+          "1/4",
+          "4/13",
+          "1/13",
+          "3/13"
+        ],
+        "answer": 3,
+        "explanation": "Face cards = 3 per suit x 4 suits = 12. P(face card) = 12/52 = 3/13."
+      },
+      {
+        "q": "Two dice are thrown simultaneously. The probability of getting a sum of 7 is:",
+        "options": [
+          "7/36",
+          "1/12",
+          "1/6",
+          "5/36"
+        ],
+        "answer": 2,
+        "explanation": "Pairs giving sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 outcomes. Total outcomes = 6 × 6 = 36. Probability = 6/36 = 1/6."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Data Handling test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-data-handling\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

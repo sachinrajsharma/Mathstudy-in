@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-cubes-cube-roots-mcq-online-test",
+  "title": "IMO Class 8 Cube Roots Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Cube Roots online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Cube Roots online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Cube Roots online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-cubes-cube-roots.png",
+  "cta_product_slug": "imo-class-8-maths-cubes-cube-roots",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Cube Roots online test",
+  "content": "<p>Here is a two-second party trick: the cube of a number ending in 2 always ends in 8, and vice versa. The whole chapter runs on patterns like that — and the IMO checks who has actually internalised them. Take the free <strong>IMO Class 8 Cube Roots online test</strong> below before any revision. Ten MCQs, instant score, full explanations — it will tell you exactly what to fix first.</p><h2>What the IMO asks from Cube Roots in Class 8</h2><ul><li>Recognising perfect cubes; unit-digit reasoning.</li><li>Smallest multiplier or divisor to reach a perfect cube.</li><li>Cube roots by prime factorisation (triples, not pairs).</li><li>Estimating cube roots by grouping the last three digits.</li><li>Hardy&ndash;Ramanujan-style two-way sums and cube patterns.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Unit digits swap in fixed pairs: 2 &harr; 8 and 3 &harr; 7; every other digit keeps its own.</li><li>A perfect cube needs every prime factor in a group of THREE — 500 = 2&sup2; &times; 5&sup3; fails on the 2s.</li><li>1729 = 1&sup3; + 12&sup3; = 9&sup3; + 10&sup3; — the smallest number expressible as two cube-sums.</li><li>Grouping digits: for 12167, the last three digits end in 7, so the cube root ends in 3.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Pairing prime factors (square habit) when cubes need triples.</li><li>Multiplying by 2 when dividing by 2 would reach the cube faster — read the question.</li><li>Assuming &#8731;(a + b) equals &#8731;a + &#8731;b.</li></ul><h2>Free IMO Class 8 Cube Roots online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-cubes-cube-roots\"><strong>IMO Class 8 Maths — Cubes and Cube Roots e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Cube Roots Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Cubes and Cube Roots",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Which of the following numbers is a perfect cube?",
+        "options": [
+          "216",
+          "300",
+          "200",
+          "250"
+        ],
+        "answer": 0,
+        "explanation": "216 = 6³ = 6 × 6 x 6. To verify: 6 × 6 = 36, 36 × 6 = 216. The other numbers cannot be expressed as the cube of any integer (200 = 2³ x 5², 250 = 2 × 5³, 300 = 2² x 3 × 5² -- none have all exponents divisible by 3)."
+      },
+      {
+        "q": "What is the units digit of 17³?",
+        "options": [
+          "9",
+          "3",
+          "1",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "The units digit of a cube depends only on the units digit of the base. Units digit of 17 is 7. Now 7³ = 343, whose units digit is 3. (Verify: 17³ = 4913, units digit 3.)"
+      },
+      {
+        "q": "The smallest natural number by which 72 must be multiplied to make it a perfect cube is:",
+        "options": [
+          "2",
+          "6",
+          "3",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Prime factorise 72: 72 = 2³ x 3². For a perfect cube, every prime factor's exponent must be a multiple of 3. The exponent of 2 is already 3. The exponent of 3 is 2, which needs 1 more to become 3. So multiply by 3¹ = 3. "
+      },
+      {
+        "q": "The value of (-4)³ is:",
+        "options": [
+          "12",
+          "64",
+          "-64",
+          "-12"
+        ],
+        "answer": 2,
+        "explanation": "(-4)³ = (-4) × (-4) × (-4). First: (-4) × (-4) = 16. Then 16 × (-4) = -64. The cube of a negative number is always negative."
+      },
+      {
+        "q": "The sum of cubes of the first 4 natural numbers (1³ + 2³ + 3³ + 4³) equals:",
+        "options": [
+          "90",
+          "110",
+          "100",
+          "120"
+        ],
+        "answer": 2,
+        "explanation": "1³ + 2³ + 3³ + 4³ = 1 + 8 + 27 + 64 = 100. Note that this equals (1 + 2 + 3 + 4)² = 10² = 100, illustrating the identity: the sum of cubes of first n natural numbers equals the square of their sum."
+      },
+      {
+        "q": "If n³ = 2744, then n equals:",
+        "options": [
+          "14",
+          "13",
+          "15",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "Prime factorise 2744: 2744 / 2 = 1372, 1372 / 2 = 686, 686 / 2 = 343, 343 / 7 = 49, 49 / 7 = 7, 7 / 7 = 1. So 2744 = 2³ x 7³ = (2 × 7)³ = 14³. Hence n = 14."
+      },
+      {
+        "q": "The cube of (-10) is:",
+        "options": [
+          "-1000",
+          "-100",
+          "-30",
+          "1000"
+        ],
+        "answer": 0,
+        "explanation": "(-10)³ = (-10) × (-10) × (-10) = 100 × (-10) = -1000. The cube of a negative number is always negative."
+      },
+      {
+        "q": "Given 13824 = 2⁹ x 3³, the value of ∛(13824) is:",
+        "options": [
+          "26",
+          "22",
+          "18",
+          "24"
+        ],
+        "answer": 3,
+        "explanation": "∛(13824) = ∛(2⁹ x 3³) = 2^(9/3) x 3^(3/3) = 2³ x 3¹ = 8 × 3 = 24. Verification: 24³ = 24 × 24 × 24 = 576 × 24 = 13824."
+      },
+      {
+        "q": "If the volume of a cube is 64 cm³, its total surface area is:",
+        "options": [
+          "96 cm²",
+          "128 cm²",
+          "24 cm²",
+          "64 cm²"
+        ],
+        "answer": 0,
+        "explanation": "Edge = ∛(64) = 4 cm. Total surface area of a cube = 6 x edge² = 6 × 16 = 96 cm²."
+      },
+      {
+        "q": "If ∛(x) = 1.5, then x equals:",
+        "options": [
+          "3.25",
+          "3.375",
+          "4.5",
+          "2.25"
+        ],
+        "answer": 1,
+        "explanation": "If ∛(x) = 1.5, then x = 1.5³ = 1.5 × 1.5 × 1.5 = 2.25 × 1.5 = 3.375. Alternatively, 1.5 = 3/2, so x = (3/2)³ = 27/8 = 3.375."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Cube Roots test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-cubes-cube-roots\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

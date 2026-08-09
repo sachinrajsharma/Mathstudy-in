@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-direct-inverse-proportions-mcq-online-test",
+  "title": "IMO Class 8 Proportions Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Proportions online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Proportions online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Proportions online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-direct-inverse-proportions.png",
+  "cta_product_slug": "imo-class-8-maths-direct-inverse-proportions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Proportions online test",
+  "content": "<p>Every proportion question asks one silent question first: when x grows, does y grow with it or shrink? Answer that in the first ten seconds — direct or inverse — and the arithmetic that follows is Class 5 level. Start by testing the ground. The free <strong>IMO Class 8 Proportions online test</strong> below asks 10 exam-pattern MCQs and scores them on the spot. Each explanation shows the intended one-minute route.</p><h2>What the IMO asks from Proportions in Class 8</h2><ul><li>Spotting direct vs inverse proportion from a table or story.</li><li>Direct proportion: x/y constant — maps, recipes, cost, shadows.</li><li>Inverse proportion: xy constant — workers and days, speed and time, pipes.</li><li>Two-step problems mixing both types.</li><li>Finding the constant and predicting a missing value.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Direct: the RATIO x/y stays fixed. Inverse: the PRODUCT xy stays fixed. Test the pair you are given.</li><li>More taps, less filling time — sharing a fixed job is the classic inverse setup.</li><li>Map scale problems are direct proportion in disguise: 1 cm : 5 km never changes.</li><li>If 6 workers need 12 days, the job is 72 worker-days — then ANY crew size divides into it.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Setting up a direct proportion for workers-and-days problems.</li><li>Inverting the wrong side of the equation when solving for the unknown.</li><li>Forgetting to convert units before comparing (minutes vs hours ruins the constant).</li></ul><h2>Free IMO Class 8 Proportions online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-direct-inverse-proportions\"><strong>IMO Class 8 Maths — Direct and Inverse Proportions e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Proportions Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Direct and Inverse Proportions",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "If 12 notebooks cost Rs 540, what is the cost of 18 such notebooks?",
+        "options": [
+          "Rs 720",
+          "Rs 900",
+          "Rs 810",
+          "Rs 960"
+        ],
+        "answer": 2,
+        "explanation": "Cost and number of notebooks are in direct proportion. Cost per notebook = 540 / 12 = Rs 45. Cost of 18 notebooks = 45 × 18 = Rs 810."
+      },
+      {
+        "q": "If x varies directly as y and x = 15 when y = 9, find the value of y when x = 35.",
+        "options": [
+          "18",
+          "24",
+          "21",
+          "19"
+        ],
+        "answer": 2,
+        "explanation": "Since x varies directly as y, x/y = constant. k = 15/9 = 5/3. When x = 35: 35/y = 5/3, so y = 35 × 3/5 = 21."
+      },
+      {
+        "q": "If P is directly proportional to Q², and P = 48 when Q = 4, find Q when P = 75.",
+        "options": [
+          "8",
+          "7",
+          "6",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "P = kQ². Substituting: 48 = k(16), so k = 3. When P = 75: 75 = 3Q², Q² = 25, Q = 5."
+      },
+      {
+        "q": "Two quantities in direct proportion have the ratio 2 : 1. When both are increased by 5, their new ratio becomes 3 : 2. Find the original smaller quantity.",
+        "options": [
+          "5",
+          "4",
+          "4.5",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Let the quantities be 2a and a. After increasing by 5: (2a + 5)/(a + 5) = 3/2. Cross-multiplying: 2(2a + 5) = 3(a + 5), so 4a + 10 = 3a + 15, giving a = 5. The smaller quantity is 5."
+      },
+      {
+        "q": "If x and y are inversely proportional and x = 8 when y = 15, what is the value of xy when x = 12?",
+        "options": [
+          "180",
+          "144",
+          "150",
+          "120"
+        ],
+        "answer": 3,
+        "explanation": "In inverse proportion, the product xy is constant. xy = 8 × 15 = 120. This constant remains 120 regardless of the values of x and y."
+      },
+      {
+        "q": "15 workers can build a bridge in 20 days. After 4 days of work by all 15, 3 workers leave. How many more days will the remaining 12 workers take to finish?",
+        "options": [
+          "20",
+          "16",
+          "18",
+          "19"
+        ],
+        "answer": 0,
+        "explanation": "Total work = 15 × 20 = 300 worker-days. Work done in 4 days = 15 × 4 = 60. Remaining work = 240 worker-days. With 12 workers: 240/12 = 20 more days."
+      },
+      {
+        "q": "A vehicle travelling at 45 km/h covers a distance in 4 hours 40 minutes. At what speed should it travel to cover the same distance in 3 hours 30 minutes?",
+        "options": [
+          "60 km/h",
+          "50 km/h",
+          "65 km/h",
+          "55 km/h"
+        ],
+        "answer": 0,
+        "explanation": "4 h 40 min = 14/3 hours. Distance = 45 × 14/3 = 210 km. 3 h 30 min = 7/2 hours. Required speed = 210 / (7/2) = 210 × 2/7 = 60 km/h."
+      },
+      {
+        "q": "Three identical pipes can fill a tank in 6 hours. If one pipe is closed, how long will the remaining two pipes take to fill the tank?",
+        "options": [
+          "9 hours",
+          "7 hours",
+          "8 hours",
+          "7.5 hours"
+        ],
+        "answer": 0,
+        "explanation": "3 pipes fill at rate = 1/6 per hour. Each pipe fills at 1/18 per hour. Two pipes fill at 2/18 = 1/9 per hour. Time = 9 hours."
+      },
+      {
+        "q": "A can do a piece of work in 20 days and B in 30 days. They work together for 4 days, then A leaves. How many more days will B take to finish the work alone?",
+        "options": [
+          "24",
+          "16",
+          "20",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "A's rate = 1/20 per day. B's rate = 1/30 per day. Together = 1/20 + 1/30 = 5/60 = 1/12 per day. Work done in 4 days = 4/12 = 1/3. Remaining = 2/3. Time for B alone = (2/3) / (1/30) = 20 days."
+      },
+      {
+        "q": "A pasture feeds 24 cows for 40 days or 21 cows for 60 days, with grass growing at a constant rate. How many cows can the pasture feed for 120 days?",
+        "options": [
+          "20",
+          "22",
+          "18",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "Let initial grass = G, daily growth = g, daily consumption per cow = c. Equations: 24 × 40 x c = G + 40g (so 960c = G + 40g) and 21 × 60 x c = G + 60g (so 1260c = G + 60g). Subtracting: 300c = 20g, so g = 15c. Then G = 9"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Proportions test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-direct-inverse-proportions\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

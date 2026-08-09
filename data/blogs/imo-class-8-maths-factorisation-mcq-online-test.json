@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-factorisation-mcq-online-test",
+  "title": "IMO Class 8 Factorisation Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Factorisation online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Factorisation online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Factorisation online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-factorisation.png",
+  "cta_product_slug": "imo-class-8-maths-factorisation",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Factorisation online test",
+  "content": "<p>Factorisation is multiplication played backwards — and like all backwards games, it punishes half-measures. The IMO&rsquo;s favourite trick is a factorisation that LOOKS finished but hides one more step inside. Take the free <strong>IMO Class 8 Factorisation online test</strong> below before any revision. Ten MCQs, instant score, full explanations — it will tell you exactly what to fix first.</p><h2>What the IMO asks from Factorisation in Class 8</h2><ul><li>Taking out the HCF; factoring by grouping.</li><li>Identities in reverse: a&sup2; &minus; b&sup2; and perfect-square trinomials.</li><li>Splitting the middle term of x&sup2; + px + q.</li><li>Dividing a polynomial by a monomial or a binomial.</li><li>Multi-layer factorisations like x&#x2074; &minus; 16.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Always pull out the HCF first: 12x&sup2; + 18x = 6x(2x + 3) in one step.</li><li>x&sup2; + 5x + 6 wants two numbers with SUM 5 and PRODUCT 6 — that is 2 and 3.</li><li>x&#x2074; &minus; 16 = (x&sup2; + 4)(x + 2)(x &minus; 2) — the difference of squares fires TWICE.</li><li>Check any division instantly: dividend = divisor &times; quotient.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Stopping at (x&sup2; + 4)(x&sup2; &minus; 4) — the second bracket still factors.</li><li>Cancelling single terms across a + sign in algebraic fractions.</li><li>Dividing only the first term of the numerator by the denominator.</li></ul><h2>Free IMO Class 8 Factorisation online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-factorisation\"><strong>IMO Class 8 Maths — Factorisation e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Factorisation Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Factorisation",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "If 4x²y - kxy² + 8xy = 4xy(x - 3y + 2), find the value of k.",
+        "options": [
+          "8",
+          "6",
+          "16",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Expand the right side: 4xy(x - 3y + 2) = 4x²y - 12xy² + 8xy. Comparing with 4x²y - kxy² + 8xy, we get k = 12."
+      },
+      {
+        "q": "Factorise by regrouping: x² + xy - 2x - 2y",
+        "options": [
+          "(x + y)(x + 2)",
+          "(x + y)(x - 2)",
+          "(x - y)(x - 2)",
+          "(x - y)(x + 2)"
+        ],
+        "answer": 1,
+        "explanation": "Group the terms: (x² + xy) + (-2x - 2y) = x(x + y) - 2(x + y) = (x + y)(x - 2)."
+      },
+      {
+        "q": "Factorise completely: x³ + 3x² - x - 3",
+        "options": [
+          "(x + 3)(x - 1)²",
+          "(x + 3)(x + 1)(x - 1)",
+          "(x + 3)(x² + 1)",
+          "(x - 3)(x + 1)(x - 1)"
+        ],
+        "answer": 1,
+        "explanation": "Group: x²(x + 3) - 1(x + 3) = (x + 3)(x² - 1). Now x² - 1 = (x + 1)(x - 1). So the answer is (x + 3)(x + 1)(x - 1)."
+      },
+      {
+        "q": "Factorise: 49x² - 64y²",
+        "options": [
+          "(7x + 8y)(7x + 8y)",
+          "(49x + 64y)(x - y)",
+          "(7x - 8y)(7x - 8y)",
+          "(7x + 8y)(7x - 8y)"
+        ],
+        "answer": 3,
+        "explanation": "Using a² - b² = (a + b)(a - b) with a = 7x and b = 8y: 49x² - 64y² = (7x)² - (8y)² = (7x + 8y)(7x - 8y)."
+      },
+      {
+        "q": "Factorise: x² + 14x + 49",
+        "options": [
+          "(x - 7)²",
+          "(x + 49)(x + 1)",
+          "(x + 7)²",
+          "(x + 7)(x - 7)"
+        ],
+        "answer": 2,
+        "explanation": "Check if it matches a² + 2ab + b²: x² + 2(x)(7) + 7² = (x + 7)²."
+      },
+      {
+        "q": "If a + b = 7 and ab = 12, find the value of a² + b².",
+        "options": [
+          "49",
+          "13",
+          "25",
+          "37"
+        ],
+        "answer": 2,
+        "explanation": "Using the identity (a + b)² = a² + 2ab + b²: 49 = a² + b² + 24. Therefore a² + b² = 49 - 24 = 25."
+      },
+      {
+        "q": "If (x - 2) is a factor of x³ - 3x² + kx - 6, find the value of k.",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Since (x - 2) is a factor, substituting x = 2 must give 0: 8 - 12 + 2k - 6 = 0, so 2k - 10 = 0, k = 5. Verification: x³ - 3x² + 5x - 6 at x = 2 gives 8 - 12 + 10 - 6 = 0."
+      },
+      {
+        "q": "Factorise: 6x² + 11x - 10",
+        "options": [
+          "(2x - 5)(3x + 2)",
+          "(6x + 5)(x - 2)",
+          "(2x + 5)(3x + 2)",
+          "(2x + 5)(3x - 2)"
+        ],
+        "answer": 3,
+        "explanation": "Product = 6 × (-10) = -60. Find two numbers with product -60 and sum 11: 15 and -4. Split: 6x² + 15x - 4x - 10 = 3x(2x + 5) - 2(2x + 5) = (2x + 5)(3x - 2)."
+      },
+      {
+        "q": "Divide: (8x³ - 12x² + 4x) / 4x",
+        "options": [
+          "2x² - 3x",
+          "2x² + 3x - 1",
+          "2x - 3 + 1/x",
+          "2x² - 3x + 1"
+        ],
+        "answer": 3,
+        "explanation": "Divide each term by 4x: 8x³/4x = 2x²; -12x²/4x = -3x; 4x/4x = 1. Result: 2x² - 3x + 1."
+      },
+      {
+        "q": "Factorise: 10x² + 31x + 15",
+        "options": [
+          "(5x + 1)(2x + 15)",
+          "(2x + 3)(5x + 5)",
+          "(2x + 5)(5x + 3)",
+          "(10x + 3)(x + 5)"
+        ],
+        "answer": 2,
+        "explanation": "Product = 10 × 15 = 150. Find two numbers with product 150 and sum 31: 25 and 6. Split: 10x² + 25x + 6x + 15 = 5x(2x + 5) + 3(2x + 5) = (2x + 5)(5x + 3)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Factorisation test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-factorisation\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-squares-square-roots-mcq-online-test",
+  "title": "IMO Class 8 Square Roots Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Square Roots online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Square Roots online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Square Roots online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-squares-square-roots.png",
+  "cta_product_slug": "imo-class-8-maths-squares-square-roots",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Square Roots online test",
+  "content": "<p>Squares and Square Roots is the most pattern-rich chapter of Class 8. Unit digits, odd-number ladders, Pythagorean triplets — the IMO loves it because strong students finish these questions in seconds while everyone else multiplies. Start by testing the ground. The free <strong>IMO Class 8 Square Roots online test</strong> below asks 10 exam-pattern MCQs and scores them on the spot. Each explanation shows the intended one-minute route.</p><h2>What the IMO asks from Square Roots in Class 8</h2><ul><li>Spotting perfect squares by unit digit and trailing zeros.</li><li>Patterns: 1 + 3 + 5 + &hellip; and squares of numbers ending in 5.</li><li>Pythagorean triplets from 2m, m&sup2; &minus; 1, m&sup2; + 1.</li><li>Square roots by prime factorisation and by long division.</li><li>Smallest multiplier or divisor that produces a perfect square.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>A perfect square never ends in 2, 3, 7 or 8 — and never in an ODD number of zeros.</li><li>The sum of the first n odd numbers is n&sup2;: that is why 1 + 3 + &hellip; + 19 = 100.</li><li>Between n&sup2; and (n + 1)&sup2; sit exactly 2n non-square numbers.</li><li>For m = 6, the triplet 2m, m&sup2; &minus; 1, m&sup2; + 1 gives 12&ndash;35&ndash;37.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Simplifying &radic;(a&sup2; + b&sup2;) to a + b — 3-4-5 exists precisely because that fails.</li><li>Halving a number instead of taking its square root.</li><li>Finding the right multiplier but forgetting to report the NEW square root.</li></ul><h2>Free IMO Class 8 Square Roots online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-squares-square-roots\"><strong>IMO Class 8 Maths — Squares and Square Roots e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Square Roots Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Squares and Square Roots",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "If n is a natural number such that n² has 9 as its units digit, then the units digit of n must be:",
+        "options": [
+          "7 only",
+          "3 or 7",
+          "3 only",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "We need units digit d such that d² ends in 9. Checking: 3² = 9 (units digit 9) and 7² = 49 (units digit 9). No other single digit squared ends in 9. So the units digit of n is 3 or 7."
+      },
+      {
+        "q": "If (n + 1)² - n² = 101, then the value of n is:",
+        "options": [
+          "51",
+          "50",
+          "100",
+          "49"
+        ],
+        "answer": 1,
+        "explanation": "(n + 1)² - n² = n² + 2n + 1 - n² = 2n + 1. Setting 2n + 1 = 101 gives 2n = 100, so n = 50."
+      },
+      {
+        "q": "The number of perfect squares between 1 and 1000 (inclusive) that are divisible by both 4 and 9 is:",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "A number divisible by both 4 and 9 is divisible by lcm(4, 9) = 36. A perfect square divisible by 36 must have n divisible by 6 (since 36 = 6²). So n = 6, 12, 18, 24, 30 give n² = 36, 144, 324, 576, 900 — all at most 1000"
+      },
+      {
+        "q": "The square root of 1764, found by prime factorisation, is:",
+        "options": [
+          "38",
+          "40",
+          "42",
+          "44"
+        ],
+        "answer": 2,
+        "explanation": "1764 = 2 × 882 = 2 × 2 x 441 = 2² x 441. 441 = 21² = 3² x 7². So 1764 = 2² x 3² x 7². √(1764) = 2 × 3 x 7 = 42."
+      },
+      {
+        "q": "The value of √(0.0196) is:",
+        "options": [
+          "0.14",
+          "1.4",
+          "0.014",
+          "0.44"
+        ],
+        "answer": 0,
+        "explanation": "0.0196 = 196/10000. √(196/10000) = √(196)/√(10000) = 14/100 = 0.14."
+      },
+      {
+        "q": "Between which two consecutive integers does √(78) lie?",
+        "options": [
+          "8 and 9",
+          "6 and 7",
+          "9 and 10",
+          "7 and 8"
+        ],
+        "answer": 0,
+        "explanation": "8² = 64 and 9² = 81. Since 64 < 78 < 81, we have 8 < √(78) < 9."
+      },
+      {
+        "q": "A perfect square has 12 digits. The number of digits in its square root is:",
+        "options": [
+          "6",
+          "7",
+          "6 or 7",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "For a number with n digits, its square root has ceil(n/2) digits. For n = 12: ceil(12/2) = 6. The smallest 12-digit number is 10¹¹ and √(10¹¹) = 316227... (6 digits); the largest is just under 10¹² and √(10¹² - 1) = 9999"
+      },
+      {
+        "q": "Using the formula (2m, m² - 1, m² + 1), the Pythagorean triplet for m = 7 is:",
+        "options": [
+          "(14, 48, 50)",
+          "(14, 49, 50)",
+          "(7, 48, 49)",
+          "(7, 24, 25)"
+        ],
+        "answer": 0,
+        "explanation": "2m = 14, m² - 1 = 49 - 1 = 48, m² + 1 = 49 + 1 = 50. The triplet is (14, 48, 50). Verification: 14² + 48² = 196 + 2304 = 2500 = 50²."
+      },
+      {
+        "q": "Two sides of a right triangle are 36 and 77. The hypotenuse is:",
+        "options": [
+          "85",
+          "87",
+          "89",
+          "83"
+        ],
+        "answer": 0,
+        "explanation": "Hypotenuse = √(36² + 77²) = √(1296 + 5929) = √(7225). Since 85² = 7225, the hypotenuse is 85."
+      },
+      {
+        "q": "The number of primitive Pythagorean triplets (where gcd of all three members is 1) that contain 12 as a member is:",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "If 12 is a leg: we need (c - b)(c + b) = 144 with both factors of the same parity. Factoring: 2 × 72 gives (12, 35, 37) with gcd 1; 8 × 18 gives (5, 12, 13) with gcd 1; 4 × 36 gives (12, 16, 20) with gcd 4; 6 × 24 gives "
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Square Roots test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-squares-square-roots\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

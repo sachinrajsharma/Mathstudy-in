@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-exponents-powers-mcq-online-test",
+  "title": "IMO Class 8 Exponents and Powers Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Exponents and Powers online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Exponents and Powers online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Exponents and Powers online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-exponents-powers.png",
+  "cta_product_slug": "imo-class-8-maths-exponents-powers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Exponents and Powers online test",
+  "content": "<p>Negative exponents make Class 8 students nervous — until someone says the quiet part aloud: a MINUS in the exponent just means \"flip the fraction\". After that, this becomes the fastest chapter on the paper. Below sits a free <strong>IMO Class 8 Exponents and Powers online test</strong> — 10 Olympiad-pattern MCQs with instant scoring and a worked explanation under every answer. Eight out of ten is the score to beat.</p><h2>What the IMO asks from Exponents and Powers in Class 8</h2><ul><li>Negative exponents and reciprocals.</li><li>All five exponent laws, now with negative powers.</li><li>Standard form for very small numbers.</li><li>Comparing and simplifying power expressions.</li><li>Solving for x in equations like 5&#x02E3; &divide; 5&#x207B;&sup3; = 5&#x2075;.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>a&#x207B;&#x207F; = 1/a&#x207F;: a negative exponent flips, it never makes the value negative.</li><li>(2/3)&#x207B;&sup2; = (3/2)&sup2; = 9/4 — flip first, then square.</li><li>0.000035 in standard form is 3.5 &times; 10&#x207B;&#x2075; — count the hops to just past the first non-zero digit.</li><li>Laws work for negatives too: 5&#x02E3; &divide; 5&#x207B;&sup3; = 5&#x02E3;&#x207A;&sup3;.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Reading 2&#x207B;&sup3; as &minus;8 (it is 1/8).</li><li>Moving the decimal point the wrong way for small-number standard form.</li><li>Adding exponents when the bases are different.</li></ul><h2>Free IMO Class 8 Exponents and Powers online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-exponents-powers\"><strong>IMO Class 8 Maths — Exponents and Powers e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Exponents and Powers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Exponents and Powers",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Simplify: (2⁴)³ × (2³)² ÷ 2¹⁵",
+        "options": [
+          "16",
+          "4",
+          "2",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Using the power-of-a-power rule: (2⁴)³ = 2¹² and (2³)² = 2⁶. So the expression becomes 2¹² × 2⁶ ÷ 2¹⁵ = 2¹²⁺⁶⁻¹⁵ = 2³ = 8."
+      },
+      {
+        "q": "Evaluate: (6²)³ ÷ (2⁶ × 3⁴)",
+        "options": [
+          "6",
+          "36",
+          "9",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "(6²)³ = 6⁶ = (2 × 3)⁶ = 2⁶ × 3⁶. Dividing by 2⁶ × 3⁴ gives 3⁶⁻⁴ = 3² = 9."
+      },
+      {
+        "q": "If 2²ˣ⁺¹ = 8ˣ ÷ 4, find x.",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "8ˣ = (2³)ˣ = 2³ˣ and 4 = 2². So 8ˣ ÷ 4 = 2³ˣ⁻². Setting 2²ˣ⁺¹ = 2³ˣ⁻²: 2x + 1 = 3x - 2, so x = 3."
+      },
+      {
+        "q": "The value of 2⁻³ is:",
+        "options": [
+          "-6",
+          "1/8",
+          "8",
+          "-8"
+        ],
+        "answer": 1,
+        "explanation": "By definition, a⁻ⁿ = 1/aⁿ. So 2⁻³ = 1/2³ = 1/8."
+      },
+      {
+        "q": "Find the value of (2/5)⁻³.",
+        "options": [
+          "-8/125",
+          "8/125",
+          "-125/8",
+          "125/8"
+        ],
+        "answer": 3,
+        "explanation": "(2/5)⁻³ = (5/2)³ = 5³/2³ = 125/8."
+      },
+      {
+        "q": "Simplify: (5⁻¹ - 6⁻¹)⁻¹",
+        "options": [
+          "30",
+          "1/11",
+          "11",
+          "1/30"
+        ],
+        "answer": 0,
+        "explanation": "5⁻¹ - 6⁻¹ = 1/5 - 1/6 = 6/30 - 5/30 = 1/30. Taking the inverse: (1/30)⁻¹ = 30."
+      },
+      {
+        "q": "The value of [a^(m-n)]^(m+n) × [a^(n-p)]^(n+p) × [a^(p-m)]^(p+m) is:",
+        "options": [
+          "1",
+          "a^(m+n+p)",
+          "0",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Using (aˣ)^(y) = a^(xy): first term = a^((m-n)(m+n)) = a^(m2)-n². Second = a^(n2)-p². Third = a^(p2)-m². Product = a^(m2)-n²+n²-p²+p²-m² = a⁰ = 1."
+      },
+      {
+        "q": "Which is larger: 3.2 × 10⁶ or 8.1 × 10⁵?",
+        "options": [
+          "Cannot be compared",
+          "3.2 × 10⁶",
+          "Both are equal",
+          "8.1 × 10⁵"
+        ],
+        "answer": 1,
+        "explanation": "3.2 × 10⁶ = 3200000 and 8.1 × 10⁵ = 810000. Since 3200000 > 810000, 3.2 × 10⁶ is larger. When exponents differ, the number with the higher power of 10 is usually larger."
+      },
+      {
+        "q": "How many times is 4 × 10⁷ larger than 8 × 10⁴?",
+        "options": [
+          "500",
+          "50000",
+          "5000",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "(4 × 10⁷) ÷ (8 × 10⁴) = (4/8) × 10⁷⁻⁴ = 0.5 × 10³ = 500."
+      },
+      {
+        "q": "If (3.6 × 10⁵) × (a × 10^(b)) = 1.8 × 10⁹, and a is a single-digit integer, find a × b.",
+        "options": [
+          "10",
+          "15",
+          "12",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "3.6 × a × 10^(5+b) = 1.8 × 10⁹. Try a = 5: 3.6 × 5 = 18 = 1.8 × 10¹. So 1.8 × 10^(1+5+b) = 1.8 × 10⁹, giving 6 + b = 9, b = 3. Therefore a × b = 5 × 3 = 15."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Exponents and Powers test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-exponents-powers\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

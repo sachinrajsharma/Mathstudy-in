@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-introduction-to-graphs-mcq-online-test",
+  "title": "IMO Class 8 Introduction to Graphs Online Test: Free MCQs",
+  "meta_title": "IMO Class 8 Introduction to Graphs online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Introduction to Graphs online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Introduction to Graphs online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-introduction-to-graphs.png",
+  "cta_product_slug": "imo-class-8-maths-introduction-to-graphs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Introduction to Graphs online test",
+  "content": "<p>A graph question is a reading test in disguise. The mathematics is rarely deep — but the paper wants exact coordinates, exact scale, exact story. Children who slow down for ten seconds here outscore faster classmates. Below sits a free <strong>IMO Class 8 Introduction to Graphs online test</strong> — 10 Olympiad-pattern MCQs with instant scoring and a worked explanation under every answer. Eight out of ten is the score to beat.</p><h2>What the IMO asks from Introduction to Graphs in Class 8</h2><ul><li>Plotting points and reading coordinates in the first quadrant.</li><li>Points on the axes: (x, 0) and (0, y).</li><li>Line graphs: temperature, rainfall, growth over time.</li><li>Linear graphs from tables — cost vs quantity, interest vs time.</li><li>Distance&ndash;time journeys: speed, stops and returns.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Coordinates read (x, y): RIGHT first, then UP. (3, 5) and (5, 3) are different places.</li><li>Every point on the x-axis has y = 0; every point on the y-axis has x = 0.</li><li>Three collinear points are the cheap safety check that a \"linear\" graph really is linear.</li><li>On a distance&ndash;time graph, a horizontal stretch means STOPPED — and steeper means faster.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Swapping the x- and y-coordinates while plotting.</li><li>Misreading values between gridlines when the scale is 1 square = 5 units.</li><li>Joining discrete data points into a continuous line where no in-between values exist.</li></ul><h2>Free IMO Class 8 Introduction to Graphs online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-introduction-to-graphs\"><strong>IMO Class 8 Maths — Introduction to Graphs e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Introduction to Graphs Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Introduction to Graphs",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "The abscissa of a point is -8 and the ordinate is -3. The point lies in which quadrant?",
+        "options": [
+          "Third",
+          "First",
+          "Fourth",
+          "Second"
+        ],
+        "answer": 0,
+        "explanation": "The abscissa (x-coordinate) is -8 and the ordinate (y-coordinate) is -3. Both coordinates are negative, so the point (-8, -3) lies in the third quadrant."
+      },
+      {
+        "q": "Point P(2a - 7, 3a + 5) lies in the second quadrant. Which of the following is the valid range for a?",
+        "options": [
+          "a > 7/2",
+          "a < -5/3",
+          "-5/3 < a < 7/2",
+          "-7/2 < a < 5/3"
+        ],
+        "answer": 2,
+        "explanation": "For a point to lie in the second quadrant, its x-coordinate must be negative and y-coordinate must be positive. So 2a - 7 0 gives a > -5/3. Combining these: -5/3 < a < 7/2."
+      },
+      {
+        "q": "A point in the fourth quadrant is 13 units from the origin. If its abscissa is 5, its ordinate is:",
+        "options": [
+          "-12",
+          "-8",
+          "8",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "Let the ordinate be y. Then √(5² + y²) = 13, so 25 + y² = 169, giving y² = 144 and y = +/-12. Since the point is in the fourth quadrant, y < 0. So y = -12. (This uses the 5-12-13 Pythagorean triple.)"
+      },
+      {
+        "q": "The distance of the point (a, a + 1) from the x-axis is twice the distance of the same point from the y-axis. If a > 0, the value of a is:",
+        "options": [
+          "1/2",
+          "2",
+          "1",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Distance from x-axis = |a + 1| = a + 1 (since a > 0 implies a + 1 > 0). Distance from y-axis = |a| = a. Given a + 1 = 2a, solving gives a = 1."
+      },
+      {
+        "q": "A graph passes through the points (1, 3), (2, 5), and (3, 7). The y-coordinate when x = 0 is:",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "answer": 2,
+        "explanation": "The y-values increase by 2 for each unit increase in x, so the relationship is y = 2x + 1. Verify: when x = 1, y = 3; x = 2, y = 5; x = 3, y = 7. All correct. When x = 0, y = 2(0) + 1 = 1."
+      },
+      {
+        "q": "A straight line on a graph passes through (-2, 7) and (4, -5). The y-coordinate when x = 1 is:",
+        "options": [
+          "3",
+          "-1",
+          "2",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "Slope = (-5 - 7)/(4 - (-2)) = -12/6 = -2. Using point (-2, 7): y - 7 = -2(x - (-2)), so y = -2x - 4 + 7 = -2x + 3. When x = 1: y = -2(1) + 3 = 1."
+      },
+      {
+        "q": "For what value of k are the points (1, 2), (3, 6), and (5, k) collinear?",
+        "options": [
+          "9",
+          "8",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Slope from (1, 2) to (3, 6) = (6-2)/(3-1) = 4/2 = 2. For collinearity, slope from (3, 6) to (5, k) must also be 2. So (k-6)/(5-3) = 2, giving k - 6 = 4, hence k = 10."
+      },
+      {
+        "q": "A linear graph passes through (-2, 9) and (4, -3). The value of y when x = 7 is:",
+        "options": [
+          "-7",
+          "-5",
+          "-9",
+          "-11"
+        ],
+        "answer": 2,
+        "explanation": "Slope = (-3 - 9)/(4 - (-2)) = -12/6 = -2. Using point (-2, 9): y - 9 = -2(x + 2), so y = -2x + 5. When x = 7: y = -14 + 5 = -9."
+      },
+      {
+        "q": "A linear graph passes through (2, 3) and (6, 11). The sum of the x-intercept and y-intercept of this line is:",
+        "options": [
+          "1",
+          "-1/2",
+          "-1",
+          "1/2"
+        ],
+        "answer": 1,
+        "explanation": "Slope = (11 - 3)/(6 - 2) = 8/4 = 2. Equation: y - 3 = 2(x - 2), so y = 2x - 1. The y-intercept is -1 (set x = 0). The x-intercept is found by setting y = 0: 0 = 2x - 1, x = 1/2. Sum = 1/2 + (-1) = -1/2."
+      },
+      {
+        "q": "A taxi charges a flat fee of Rs 50 plus Rs 12 per km. From the fare-distance graph, the fare for a 15 km ride is:",
+        "options": [
+          "Rs 200",
+          "Rs 180",
+          "Rs 250",
+          "Rs 230"
+        ],
+        "answer": 3,
+        "explanation": "The fare equation is y = 12x + 50, where x is distance in km and y is fare in Rs. For x = 15: y = 12(15) + 50 = 180 + 50 = Rs 230."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Introduction to Graphs test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-introduction-to-graphs\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

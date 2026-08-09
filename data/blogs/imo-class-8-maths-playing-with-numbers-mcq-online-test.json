@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-playing-with-numbers-mcq-online-test",
+  "title": "IMO Class 8 Playing with Numbers Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Playing with Numbers online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Playing with Numbers online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Playing with Numbers online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-playing-with-numbers.png",
+  "cta_product_slug": "imo-class-8-maths-playing-with-numbers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Playing with Numbers online test",
+  "content": "<p>Write a two-digit number, reverse it, add the two. The total always divides by 11 — every single time. Playing with Numbers turns that kind of magic into technique, and the IMO turns the technique into marks. Start by testing the ground. The free <strong>IMO Class 8 Playing with Numbers online test</strong> below asks 10 exam-pattern MCQs and scores them on the spot. Each explanation shows the intended one-minute route.</p><h2>What the IMO asks from Playing with Numbers in Class 8</h2><ul><li>General form: writing ab as 10a + b and abc as 100a + 10b + c.</li><li>Reverse-and-add, reverse-and-subtract patterns.</li><li>Divisibility tests for 2, 3, 5, 9, 10 and 11.</li><li>Cryptarithms: letters standing for digits.</li><li>Missing-digit puzzles built on divisibility.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>ab + ba = 11(a + b) and ab &minus; ba = 9(a &minus; b) — the two engines of this chapter.</li><li>Divisibility by 9 follows the DIGIT SUM; by 10, only the last digit matters.</li><li>For 11, take the alternating sum of digits; 0 or a multiple of 11 passes.</li><li>abc &minus; cba = 99(a &minus; c) — three-digit reversals always leave a multiple of 99.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Treating ab in general form as a &times; b instead of 10a + b.</li><li>Testing divisibility by 3 with the last digit (that trick belongs to 2, 5 and 10).</li><li>Dropping the carry in a cryptarithm column and \"solving\" an impossible puzzle.</li></ul><h2>Free IMO Class 8 Playing with Numbers online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-playing-with-numbers\"><strong>IMO Class 8 Maths — Playing with Numbers e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Playing with Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Playing with Numbers",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "The sum of a two-digit number and the number formed by reversing its digits is 132. If the tens digit is 8, what is the number?",
+        "options": [
+          "48",
+          "84",
+          "39",
+          "93"
+        ],
+        "answer": 1,
+        "explanation": "Let the number be 10a + b. Sum with reverse: (10a + b) + (10b + a) = 11(a + b) = 132, so a + b = 12. With a = 8, we get b = 4. The number is 84. Check: 84 + 48 = 132."
+      },
+      {
+        "q": "A three-digit number formed by repeating a single non-zero digit three times (like 111, 222, ...) is always divisible by:",
+        "options": [
+          "131",
+          "121",
+          "101",
+          "111"
+        ],
+        "answer": 3,
+        "explanation": "Such a number has the form aaa = 100a + 10a + a = 111a. Since 111a = 111 x a, the number is always divisible by 111. Note that 111 = 3 × 37, so it is also divisible by 3 and 37."
+      },
+      {
+        "q": "The product of the digits of a two-digit number is 14. When 45 is added to the number, the digits are reversed. What is the number?",
+        "options": [
+          "36",
+          "72",
+          "63",
+          "27"
+        ],
+        "answer": 3,
+        "explanation": "Let the number be 10a + b. Product: ab = 14. Reversal condition: 10a + b + 45 = 10b + a, so 9(b - a) = 45, giving b - a = 5, i.e., b = a + 5. Substituting: a(a + 5) = 14, so a² + 5a - 14 = 0, giving (a + 7)(a - 2) = 0. S"
+      },
+      {
+        "q": "How many two-digit numbers equal the square of the sum of their digits?",
+        "options": [
+          "3",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Let the number be 10a + b with digit sum s = a + b. Then 10a + b = s². Since b = s - a, we get 10a + (s - a) = s², so 9a = s² - s = s(s - 1), giving a = s(s-1)/9. For a to be an integer 1-9: s = 9 gives a = 9(8)/9 = 8, b"
+      },
+      {
+        "q": "A number is divisible by 6 if and only if it is divisible by both:",
+        "options": [
+          "6 and 8",
+          "2 and 4",
+          "2 and 3",
+          "2 and 5"
+        ],
+        "answer": 2,
+        "explanation": "A number is divisible by 6 if and only if it is divisible by both 2 and 3, because 6 = 2 × 3 and gcd(2, 3) = 1. Being divisible by 2 and 4 would guarantee divisibility by 4 (not just 6). Being divisible by 2 and 5 gives "
+      },
+      {
+        "q": "The four-digit number 83x6 is divisible by 8. What is the largest value of x?",
+        "options": [
+          "7",
+          "9",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "For divisibility by 8, the last three digits (3x6 = 300 + 10x + 6) must be divisible by 8. Testing: x = 3 -> 336/8 = 42 (yes), x = 7 -> 376/8 = 47 (yes). Other values: 306, 316, 326, 346, 356, 366, 386, 396 are not divis"
+      },
+      {
+        "q": "The six-digit number 73A4B6 is divisible by 72. If both A and B are single digits, find the smallest value of A + B.",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "72 = 8 × 9. Div by 8: last 3 digits 4B6 = 400 + 10B + 6 must be div by 8. Testing: 406, 416, ...; 416/8 = 52 (B=1), 456/8 = 57 (B=5), 496/8 = 62 (B=9). So B = 1, 5, or 9. Div by 9: digit sum = 7+3+A+4+B+6 = 20+A+B must b"
+      },
+      {
+        "q": "Each letter represents a digit. In the addition AB + BA = 121, what is A + B?",
+        "options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "AB + BA = (10A + B) + (10B + A) = 11(A + B) = 121. So A + B = 121/11 = 11. For example, A = 5, B = 6: 56 + 65 = 121."
+      },
+      {
+        "q": "The sum of three consecutive odd numbers is 177. What is the middle number?",
+        "options": [
+          "59",
+          "61",
+          "63",
+          "57"
+        ],
+        "answer": 0,
+        "explanation": "Let the three consecutive odd numbers be n - 2, n, n + 2. Their sum: (n-2) + n + (n+2) = 3n = 177, so n = 59. The three numbers are 57, 59, 61. Check: 57 + 59 + 61 = 177."
+      },
+      {
+        "q": "A number leaves remainder 3 when divided by 4 and remainder 5 when divided by 6. What is the remainder when it is divided by 12?",
+        "options": [
+          "11",
+          "9",
+          "7",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Let N = 4k + 3. Then 4k + 3 leaves remainder 5 when divided by 6: 4k + 3 = 6m + 5, so 4k = 6m + 2, giving 2k = 3m + 1. For k to be integer: m must be odd. Let m = 2j + 1, then 2k = 6j + 4, k = 3j + 2. So N = 4(3j + 2) + "
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Playing with Numbers test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-playing-with-numbers\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

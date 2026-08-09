@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-comparing-quantities-mcq-online-test",
+  "title": "IMO Class 8 Comparing Quantities Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Comparing Quantities online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Comparing Quantities online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Comparing Quantities online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-comparing-quantities.png",
+  "cta_product_slug": "imo-class-8-maths-comparing-quantities",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Comparing Quantities online test",
+  "content": "<p>This is the chapter your child will use for the rest of their life: discounts, GST, compound interest. The IMO&rsquo;s favourite trap sits right in the middle of it — two successive 10% discounts are NOT 20% off. Below sits a free <strong>IMO Class 8 Comparing Quantities online test</strong> — 10 Olympiad-pattern MCQs with instant scoring and a worked explanation under every answer. Eight out of ten is the score to beat.</p><h2>What the IMO asks from Comparing Quantities in Class 8</h2><ul><li>Percentage increase and decrease; successive changes.</li><li>Marked price, discount and successive discounts.</li><li>GST and sales-tax bills.</li><li>Compound interest — annual and half-yearly compounding.</li><li>CI vs SI comparisons over 2 and 3 years.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Successive discounts multiply: 10% then 10% is 0.9 &times; 0.9 = 0.81 — an 19% cut, not 20%.</li><li>A = P(1 + r/100)&#x1D57; does compound interest in one line.</li><li>Half-yearly compounding: HALVE the rate, DOUBLE the periods.</li><li>CI &minus; SI over 2 years = P(r/100)&sup2; — the interest earned by the first year&rsquo;s interest.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Adding successive percentage changes instead of multiplying factors.</li><li>Charging the second year&rsquo;s interest on the original principal only — that is SI, not CI.</li><li>Computing discount % on cost price (it stands on the MARKED price).</li></ul><h2>Free IMO Class 8 Comparing Quantities online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-comparing-quantities\"><strong>IMO Class 8 Maths — Comparing Quantities e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Comparing Quantities Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Comparing Quantities",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "A number is first increased by 20% and then decreased by 20%. What is the net percentage change?",
+        "options": [
+          "4% increase",
+          "No change",
+          "4% decrease",
+          "2% decrease"
+        ],
+        "answer": 2,
+        "explanation": "Let the number be 100. After 20% increase: 100 × 1.20 = 120. After 20% decrease: 120 × 0.80 = 96. Net change = (96 - 100)/100 × 100 = -4%. Hence a 4% decrease."
+      },
+      {
+        "q": "An article is sold at a discount of 20% on the marked price and still there is a profit of 20%. If the cost price is Rs 500, what is the marked price?",
+        "options": [
+          "Rs 750",
+          "Rs 700",
+          "Rs 650",
+          "Rs 800"
+        ],
+        "answer": 0,
+        "explanation": "SP = CP x 1.20 = 500 × 1.20 = Rs 600. SP = MP x 0.80. So MP = 600 / 0.80 = Rs 750."
+      },
+      {
+        "q": "A retailer buys a fan for Rs 1,500 and marks it 40% above the cost price. He then offers a 25% discount. Find the profit percent.",
+        "options": [
+          "5%",
+          "10%",
+          "2.5%",
+          "7.5%"
+        ],
+        "answer": 0,
+        "explanation": "MP = 1,500 × 1.40 = Rs 2,100. SP = 2,100 × 0.75 = Rs 1,575. Profit = 1,575 - 1,500 = Rs 75. Profit% = (75/1,500) × 100 = 5%."
+      },
+      {
+        "q": "A TV set costs Rs 15,000 before tax. If 18% GST is charged, what is the total amount to be paid?",
+        "options": [
+          "Rs 17,500",
+          "Rs 18,000",
+          "Rs 16,800",
+          "Rs 17,700"
+        ],
+        "answer": 3,
+        "explanation": "GST = 18% of 15,000 = Rs 2,700. Total = 15,000 + 2,700 = Rs 17,700."
+      },
+      {
+        "q": "The difference between CI and SI on a certain sum at 10% per annum for 2 years is Rs 50. Find the sum.",
+        "options": [
+          "Rs 5,000",
+          "Rs 6,000",
+          "Rs 5,500",
+          "Rs 4,000"
+        ],
+        "answer": 0,
+        "explanation": "For 2 years, CI - SI = P x (r/100)². So P x (10/100)² = 50. P x 0.01 = 50. P = Rs 5,000."
+      },
+      {
+        "q": "A sum of Rs 15,625 amounts to Rs 17,576 in 3 years at compound interest compounded annually. Find the rate.",
+        "options": [
+          "5%",
+          "4%",
+          "3%",
+          "6%"
+        ],
+        "answer": 1,
+        "explanation": "A/P = (1 + r/100)³. 17,576/15,625 = (26/25)³ since 26³ = 17,576 and 25³ = 15,625. So 1 + r/100 = 26/25 = 1.04. r = 4%."
+      },
+      {
+        "q": "The population of a town is 50,000 and it increases at 4% per annum. What will the population be after 2 years?",
+        "options": [
+          "54,000",
+          "54,080",
+          "53,080",
+          "54,800"
+        ],
+        "answer": 1,
+        "explanation": "Population after 2 years = 50,000 × (1 + 4/100)² = 50,000 × 1.0816 = 54,080."
+      },
+      {
+        "q": "If the price of sugar rises by 25%, by what percentage must a household reduce consumption so that expenditure remains unchanged?",
+        "options": [
+          "20%",
+          "18%",
+          "25%",
+          "22%"
+        ],
+        "answer": 0,
+        "explanation": "Required reduction = (increase / (100 + increase)) × 100 = (25/125) × 100 = 20%."
+      },
+      {
+        "q": "A merchant marks goods 80% above CP. He sells half at 20% discount and the rest at 40% discount. Find the overall profit percent.",
+        "options": [
+          "28%",
+          "26%",
+          "30%",
+          "32%"
+        ],
+        "answer": 1,
+        "explanation": "Let total CP = 200 (each half = 100, MP for each = 180). SP first half: 180 × 0.80 = 144. SP second half: 180 × 0.60 = 108. Total SP = 252. Profit = 52. Profit% = 52/200 × 100 = 26%."
+      },
+      {
+        "q": "A manufacturer sells goods worth Rs 1,50,000 at 18% IGST to a wholesaler. The wholesaler adds 20% margin and sells inter-state at 18% IGST. What IGST must the wholesaler remit?",
+        "options": [
+          "Rs 5,400",
+          "Rs 32,400",
+          "Rs 4,500",
+          "Rs 27,000"
+        ],
+        "answer": 0,
+        "explanation": "Input IGST = 18% of 1,50,000 = Rs 27,000. Selling base = 1,50,000 × 1.20 = Rs 1,80,000. Output IGST = 18% of 1,80,000 = Rs 32,400. Net = 32,400 - 27,000 = Rs 5,400."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Comparing Quantities test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-comparing-quantities\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

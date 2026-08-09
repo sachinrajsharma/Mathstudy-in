@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-understanding-quadrilaterals-mcq-online-test",
+  "title": "IMO Class 8 Quadrilaterals Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Quadrilaterals online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Quadrilaterals online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Quadrilaterals online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-understanding-quadrilaterals.png",
+  "cta_product_slug": "imo-class-8-maths-understanding-quadrilaterals",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Quadrilaterals online test",
+  "content": "<p>Understanding Quadrilaterals is two skills in one. First, find angles with two short formulas. Second, know the family tree — every square is a rhombus, but a rhombus need not be a square. The IMO tests both, again and again. Take the free <strong>IMO Class 8 Quadrilaterals online test</strong> below before any revision. Ten MCQs, instant score, full explanations — it will tell you exactly what to fix first.</p><h2>What the IMO asks from Quadrilaterals in Class 8</h2><ul><li>Interior angle sum of a polygon: (n &minus; 2) &times; 180&deg;.</li><li>Exterior angles — always 360&deg; in total, for any polygon.</li><li>Regular polygons: each interior and each exterior angle.</li><li>Parallelogram facts: sides, angles, diagonals.</li><li>The special shapes: rhombus, rectangle, square, kite, trapezium.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Exterior angles of any convex polygon add to 360&deg;. So a regular n-gon has each exterior angle 360/n.</li><li>In a parallelogram, adjacent angles add to 180&deg;. Opposite angles are equal.</li><li>Diagonals tell the shapes apart. Rhombus: they cross at 90&deg;. Rectangle: they are equal. Square: both.</li><li>A kite has two pairs of equal ADJACENT sides. It is not a parallelogram.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Using (n &minus; 2) &times; 180&deg; on a question about exterior angles.</li><li>Assuming the diagonals of a parallelogram are equal. Only a rectangle promises that.</li><li>Calling a shape with four equal sides a square. Without right angles, it is a rhombus.</li></ul><h2>Free IMO Class 8 Quadrilaterals online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-understanding-quadrilaterals\"><strong>IMO Class 8 Maths — Understanding Quadrilaterals e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Quadrilaterals Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Understanding Quadrilaterals",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "A convex polygon has all its interior angles less than 180 degrees. If a polygon has exactly one interior angle that is greater than 180 degrees, what type of polygon is it?",
+        "options": [
+          "Concave polygon",
+          "Convex polygon",
+          "Regular polygon",
+          "Irregular convex polygon"
+        ],
+        "answer": 0,
+        "explanation": "A polygon is classified as concave (or non-convex) if at least one interior angle exceeds 180 degrees (a reflex angle). A convex polygon has ALL interior angles strictly less than 180 degrees. Since this polygon has exac"
+      },
+      {
+        "q": "Each exterior angle of a regular polygon measures 40 degrees. How many sides does the polygon have?",
+        "options": [
+          "9",
+          "10",
+          "12",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "The sum of all exterior angles of any convex polygon is 360 degrees. For a regular polygon, each exterior angle = 360/n. So 360/n = 40, which gives n = 360/40 = 9."
+      },
+      {
+        "q": "In a regular polygon, each interior angle is 5 times its exterior angle. How many sides does the polygon have?",
+        "options": [
+          "12",
+          "18",
+          "15",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Let the exterior angle be E. Then interior angle = 5E. Since interior + exterior = 180 degrees, 5E + E = 180, so 6E = 180, giving E = 30 degrees. Number of sides = 360/30 = 12."
+      },
+      {
+        "q": "The sum of the interior angles of a polygon is 2520 degrees. How many diagonals does this polygon have?",
+        "options": [
+          "104",
+          "90",
+          "96",
+          "112"
+        ],
+        "answer": 0,
+        "explanation": "From (n - 2) × 180 = 2520, we get n - 2 = 14, so n = 16. Number of diagonals = 16(16 - 3)/2 = 16 × 13/2 = 208/2 = 104."
+      },
+      {
+        "q": "Four angles of a pentagon measure 80 degrees, 100 degrees, 120 degrees, and 140 degrees. What is the fifth angle?",
+        "options": [
+          "110 degrees",
+          "120 degrees",
+          "90 degrees",
+          "100 degrees"
+        ],
+        "answer": 3,
+        "explanation": "Sum of interior angles of a pentagon = (5 - 2) × 180 = 540 degrees. Fifth angle = 540 - (80 + 100 + 120 + 140) = 540 - 440 = 100 degrees."
+      },
+      {
+        "q": "In a convex polygon, three of the interior angles are each 120 degrees, and the remaining interior angles are each 160 degrees. How many sides does the polygon have?",
+        "options": [
+          "15",
+          "12",
+          "10",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "Let the polygon have n sides. Sum of interior angles = (n - 2) × 180. So 3(120) + (n - 3)(160) = (n - 2)(180). Expanding: 360 + 160n - 480 = 180n - 360. Simplifying: 160n - 120 = 180n - 360. So 240 = 20n, giving n = 12."
+      },
+      {
+        "q": "In a convex polygon, the number of diagonals exceeds the number of sides by 12. How many vertices does the polygon have?",
+        "options": [
+          "7",
+          "10",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "n(n - 3)/2 - n = 12. Multiply by 2: n(n - 3) - 2n = 24, so n² - 3n - 2n = 24, giving n² - 5n - 24 = 0. Factoring: (n - 8)(n + 3) = 0. Since n must be positive, n = 8."
+      },
+      {
+        "q": "In a parallelogram ABCD, AB = 8 cm and the perimeter is 30 cm. Find the length of AD.",
+        "options": [
+          "22 cm",
+          "6 cm",
+          "7 cm",
+          "8 cm"
+        ],
+        "answer": 2,
+        "explanation": "In a parallelogram, opposite sides are equal, so AB = CD = 8 cm and AD = BC. Perimeter = 2(AB + AD) = 30. So AB + AD = 15, giving AD = 15 - 8 = 7 cm."
+      },
+      {
+        "q": "ABCD is a rhombus with angle A = 60 degrees. Find angle B.",
+        "options": [
+          "120 degrees",
+          "90 degrees",
+          "60 degrees",
+          "150 degrees"
+        ],
+        "answer": 0,
+        "explanation": "A rhombus is a parallelogram, so consecutive angles are supplementary. Angle B = 180 - 60 = 120 degrees."
+      },
+      {
+        "q": "A parallelogram has adjacent sides of length 7 cm and 11 cm. If one diagonal measures 14 cm, find the length of the other diagonal.",
+        "options": [
+          "16 cm",
+          "14 cm",
+          "12 cm",
+          "10 cm"
+        ],
+        "answer": 2,
+        "explanation": "By the parallelogram law, d1² + d2² = 2(a² + b²). So 14² + d2² = 2(7² + 11²) = 2(49 + 121) = 2(170) = 340. Thus 196 + d2² = 340, giving d2² = 144, and d2 = 12 cm."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Quadrilaterals test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-understanding-quadrilaterals\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

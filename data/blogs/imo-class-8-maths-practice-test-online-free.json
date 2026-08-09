@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-practice-test-online-free",
+  "title": "IMO Class 8 Practice Test Online: Free Mixed Mock (10 MCQs)",
+  "meta_title": "IMO Class 8 practice test — Free Online Mock",
+  "meta_desc": "Free IMO Class 8 practice test: 10 mixed MCQs from ten Class 8 chapters with instant scoring and explanations, plus 25 full-length practice papers (750…",
+  "excerpt": "A free mixed 10-question IMO Class 8 practice test spanning ten chapters — instant scoring, explanations, and 25 full-length papers to continue.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-25-practice-papers.png",
+  "cta_product_slug": "imo-class-8-maths-25-practice-papers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 practice test",
+  "content": "<p>Chapter revision shows what your child knows. A mixed paper shows what they can DO in 60 minutes. Those are very different things. The real IMO never asks thirty rational-number questions in a row. It jumps from interest to a cylinder to a coding puzzle. That switching is a skill of its own. So take the free <strong>IMO Class 8 practice test</strong> below. It has 10 questions from ten different Class 8 chapters, with instant scoring and worked explanations.</p><h2>Why mixed practice beats one more chapter revision</h2><ul><li>The real paper changes topic on every question. Chapter-order drilling never trains that reflex.</li><li>Mixed tests expose the avoided chapter. Every student has one.</li><li>Time pressure only turns real against a full 30-question paper.</li><li>Exam-day calm comes from having \"been here before\" — twenty-five times.</li></ul><h2>How to use this free test</h2><ul><li>Attempt all 10 in one sitting, without help.</li><li>Score 8 or more? Move on to full papers. Below 6? Revise the weakest chapter first.</li><li>Read every explanation, even for the questions answered correctly.</li><li>Track the clock too. Ten mixed questions in 12 minutes is Olympiad pace. Under 15 is solid. Over 20 means one weak chapter steals time from the rest.</li></ul><h2>Free IMO Class 8 practice test</h2><p>The quiz below mixes ten chapters. Numbers, shapes, roots, interest, identities, mensuration, proportion, graphs, number play and reasoning. That is the spread of a real IMO paper, in miniature.</p><p>One more tip: mark it honestly. No half marks, no \"I nearly had it\". A clean 7 with real working beats a lucky 9 every time. And the trend across three or four tests tells you far more than any single score ever will.</p><h2>Then do the real thing — 25 times</h2><p>The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\"><strong>IMO Class 8 Maths — 25 Practice Papers e-book</strong></a> has <strong>25 full papers — 750 MCQs</strong>. Every paper takes exactly two questions from each of the 15 chapters. An answer key follows each paper. Then come step-by-step solutions for all 750 questions. That includes 159 diagram questions with real figures, just like the exam. Chapter drills sit on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>. The theory is free on the <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">vidaara.org IMO course</a>.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Mixed Practice Test",
+    "intro": "Ten questions, ten different chapters — just like the real paper. Press Check my score at the end.",
+    "about": "IMO Maths Olympiad Class 8: mixed practice",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Using a suitable property, simplify: (3/7) × (2/5) + (3/7) × (3/5)",
+        "options": [
+          "9/35",
+          "15/35",
+          "3/7",
+          "6/35"
+        ],
+        "answer": 2,
+        "explanation": "Apply the distributive property in reverse (taking 3/7 as common factor): (3/7) × (2/5) + (3/7) × (3/5) = (3/7) × (2/5 + 3/5) = (3/7) × (5/5) = (3/7) × 1 = 3/7."
+      },
+      {
+        "q": "In a regular polygon, each interior angle is 5 times its exterior angle. How many sides does the polygon have?",
+        "options": [
+          "12",
+          "10",
+          "18",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "Let the exterior angle be E. Then interior angle = 5E. Since interior + exterior = 180 degrees, 5E + E = 180, so 6E = 180, giving E = 30 degrees. Number of sides = 360/30 = 12."
+      },
+      {
+        "q": "The number of perfect squares between 1 and 1000 (inclusive) that are divisible by both 4 and 9 is:",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "A number divisible by both 4 and 9 is divisible by lcm(4, 9) = 36. A perfect square divisible by 36 must have n divisible by 6 (since 36 = 6²). So n = 6, 12, 18, 24, 30 give n² = 36, 144, 324, 576, 900 — all at most 1000"
+      },
+      {
+        "q": "A retailer buys a fan for Rs 1,500 and marks it 40% above the cost price. He then offers a 25% discount. Find the profit percent.",
+        "options": [
+          "7.5%",
+          "10%",
+          "2.5%",
+          "5%"
+        ],
+        "answer": 3,
+        "explanation": "MP = 1,500 × 1.40 = Rs 2,100. SP = 2,100 × 0.75 = Rs 1,575. Profit = 1,575 - 1,500 = Rs 75. Profit% = (75/1,500) × 100 = 5%."
+      },
+      {
+        "q": "For what value of k does (x + 2) divide x³ + kx² - 4x + 12 exactly?",
+        "options": [
+          "-3",
+          "3",
+          "1",
+          "-1"
+        ],
+        "answer": 0,
+        "explanation": "By the factor theorem, f(-2) = 0. f(-2) = -8 + 4k + 8 + 12 = 4k + 12 = 0, so k = -3. Verify: x³ - 3x² - 4x + 12 = (x + 2)(x - 2)(x - 3)."
+      },
+      {
+        "q": "A trapezium ABCD has parallel sides AB = 25 cm and DC = 11 cm. The non-parallel sides AD = 13 cm and BC = 15 cm. Find the area of the trapezium.",
+        "options": [
+          "180 cm²",
+          "196 cm²",
+          "240 cm²",
+          "216 cm²"
+        ],
+        "answer": 3,
+        "explanation": "Drop perpendiculars from D and C onto AB. Let the foot from D be at distance a from A. Then AD² = a² + h² gives 169 = a² + h². The foot from C is at distance (a + 11) from A, so (25 - a - 11)² + h² = BC² gives (14 - a)² "
+      },
+      {
+        "q": "If P is directly proportional to Q², and P = 48 when Q = 4, find Q when P = 75.",
+        "options": [
+          "8",
+          "7",
+          "6",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "P = kQ². Substituting: 48 = k(16), so k = 3. When P = 75: 75 = 3Q², Q² = 25, Q = 5."
+      },
+      {
+        "q": "A point in the fourth quadrant is 13 units from the origin. If its abscissa is 5, its ordinate is:",
+        "options": [
+          "-12",
+          "-8",
+          "8",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "Let the ordinate be y. Then √(5² + y²) = 13, so 25 + y² = 169, giving y² = 144 and y = +/-12. Since the point is in the fourth quadrant, y < 0. So y = -12. (This uses the 5-12-13 Pythagorean triple.)"
+      },
+      {
+        "q": "The product of the digits of a two-digit number is 14. When 45 is added to the number, the digits are reversed. What is the number?",
+        "options": [
+          "72",
+          "36",
+          "27",
+          "63"
+        ],
+        "answer": 2,
+        "explanation": "Let the number be 10a + b. Product: ab = 14. Reversal condition: 10a + b + 45 = 10b + a, so 9(b - a) = 45, giving b - a = 5, i.e., b = a + 5. Substituting: a(a + 5) = 14, so a² + 5a - 14 = 0, giving (a + 7)(a - 2) = 0. S"
+      },
+      {
+        "q": "Find the next letter in the series: A, C, F, J, O, ___",
+        "options": [
+          "V",
+          "T",
+          "U",
+          "S"
+        ],
+        "answer": 2,
+        "explanation": "The positions of the letters are 1, 3, 6, 10, 15. The gaps between positions are +2, +3, +4, +5, which increase by 1 each time. The next gap is +6, so the next position = 15 + 6 = 21, which is the letter U."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How many questions does the real IMO Class 8 paper have?",
+      "a": "The SOF IMO paper for Class 8 has 50 questions in 60 minutes across Logical Reasoning, Mathematical Reasoning, Everyday Mathematics and the Achievers section."
+    },
+    {
+      "q": "Is this mixed test free?",
+      "a": "Yes — 10 questions with scoring and explanations, free. The e-book continues with 25 full papers and 750 solved MCQs for Rs 95."
+    },
+    {
+      "q": "When should my child start full-length papers?",
+      "a": "Once most chapters are done. From then on, one timed paper every two or three days with honest marking beats any amount of extra reading."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-rational-numbers-mcq-online-test",
+  "title": "IMO Class 8 Rational Numbers Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Rational Numbers online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Rational Numbers online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Rational Numbers online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-rational-numbers.png",
+  "cta_product_slug": "imo-class-8-maths-rational-numbers",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Rational Numbers online test",
+  "content": "<p>Class 8 opens quietly. Rational numbers look like last year&rsquo;s work. Then the paper asks WHICH property was used in a step. Or it wants three rationals between &minus;1/2 and &minus;1/3. That is where prepared students pull ahead. Below sits a free <strong>IMO Class 8 Rational Numbers online test</strong> — 10 Olympiad-pattern MCQs with instant scoring and a worked explanation under every answer. Eight out of ten is the score to beat.</p><h2>What the IMO asks from Rational Numbers in Class 8</h2><ul><li>Standard form and equivalent rational numbers.</li><li>The properties by name: closure, commutative, associative, distributive.</li><li>Additive inverses, reciprocals, and the roles of 0 and 1.</li><li>Rational numbers between two given numbers.</li><li>Number-line work and multi-step word problems.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>The average (a + b)/2 always sits between a and b. It is the fastest \"find one between\" tool.</li><li>The reciprocal of a negative rational stays negative. Zero has no reciprocal at all.</li><li>Spot the shortcut: 7/9 &times; 5/13 + 7/9 &times; 8/13 = 7/9 &times; (5/13 + 8/13) = 7/9.</li><li>Standard form needs a POSITIVE denominator in lowest terms. So 48/&minus;60 becomes &minus;4/5.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Ranking negatives by digit size. &minus;5/6 is SMALLER than &minus;2/3, not bigger.</li><li>Leaving a minus sign in the denominator of a final answer.</li><li>Mixing up the additive inverse (&minus;x) with the reciprocal (1/x).</li></ul><h2>Free IMO Class 8 Rational Numbers online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-rational-numbers\"><strong>IMO Class 8 Maths — Rational Numbers e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Rational Numbers Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Rational Numbers",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Which property of rational numbers is illustrated by the equation 3/5 + (-3/5) = 0?",
+        "options": [
+          "Commutative property of addition",
+          "Existence of multiplicative inverse",
+          "Closure property",
+          "Existence of additive inverse"
+        ],
+        "answer": 3,
+        "explanation": "The additive inverse of a rational number a/b is -a/b such that a/b + (-a/b) = 0. Here 3/5 + (-3/5) = 0, which is the definition of additive inverse. This is not commutativity (which relates to order) or closure (which r"
+      },
+      {
+        "q": "What is the multiplicative inverse of -7/11?",
+        "options": [
+          "-7/11",
+          "-11/7",
+          "11/7",
+          "7/11"
+        ],
+        "answer": 1,
+        "explanation": "The multiplicative inverse of a/b is b/a (provided a/b is non-zero). So the multiplicative inverse of -7/11 is 11/(-7) = -11/7. Verification: (-7/11) × (-11/7) = 77/77 = 1. Note that 7/11 (option A) is the additive-inver"
+      },
+      {
+        "q": "Using a suitable property, simplify: (3/7) × (2/5) + (3/7) × (3/5)",
+        "options": [
+          "15/35",
+          "9/35",
+          "6/35",
+          "3/7"
+        ],
+        "answer": 3,
+        "explanation": "Apply the distributive property in reverse (taking 3/7 as common factor): (3/7) × (2/5) + (3/7) × (3/5) = (3/7) × (2/5 + 3/5) = (3/7) × (5/5) = (3/7) × 1 = 3/7."
+      },
+      {
+        "q": "Which of the following sets is closed under division (excluding division by zero)?",
+        "options": [
+          "Set of all non-zero rational numbers",
+          "Set of all whole numbers",
+          "Set of all integers",
+          "Set of all natural numbers"
+        ],
+        "answer": 0,
+        "explanation": "If a/b and c/d are non-zero rationals, then (a/b) / (c/d) = (a/b) × (d/c) = ad/(bc), which is also a non-zero rational. For integers: 1 / 2 = 0.5, not an integer, so not closed. For natural numbers: 1 / 2 = 0.5, not natu"
+      },
+      {
+        "q": "Arrange the following rational numbers in ascending order: -3/5, -7/10, -1/2",
+        "options": [
+          "-1/2, -3/5, -7/10",
+          "-3/5, -7/10, -1/2",
+          "-7/10, -1/2, -3/5",
+          "-7/10, -3/5, -1/2"
+        ],
+        "answer": 3,
+        "explanation": "Convert all to denominator 10: -3/5 = -6/10, -7/10 = -7/10, -1/2 = -5/10. Comparing: -7/10 < -6/10 < -5/10 (further left on the number line = smaller). So ascending order: -7/10, -3/5, -1/2."
+      },
+      {
+        "q": "For two rational numbers a/b and c/d where b > 0 and d > 0, if a/b < c/d, which of the following MUST be true?",
+        "options": [
+          "a/c < b/d",
+          "ad < bc",
+          "a < c",
+          "a + c < b + d"
+        ],
+        "answer": 1,
+        "explanation": "Since b > 0 and d > 0, multiply both sides of a/b 6 + 2 = 8. Option D fails when a = 0 or signs vary."
+      },
+      {
+        "q": "If a, b, c are rational numbers on a number line with a < b < c, and b - a = c - b, then b equals:",
+        "options": [
+          "a x c",
+          "a + c",
+          "(a x c)^(1/2)",
+          "(a + c)/2"
+        ],
+        "answer": 3,
+        "explanation": "From b - a = c - b, add b to both sides and add a: 2b = a + c, so b = (a + c)/2. This is the arithmetic mean of a and c. The condition b - a = c - b means b is equally spaced between a and c."
+      },
+      {
+        "q": "How many rational numbers with denominator exactly 12 (when written in lowest terms) lie strictly between -1 and 1?",
+        "options": [
+          "10",
+          "22",
+          "8",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "We need p/12 in lowest terms, so gcd(|p|, 12) = 1, with -12 < p < 12 and p is not 0 (since 0/12 = 0 has denominator 1 in lowest terms). Since 12 = 2² x 3, the values of |p| from 1 to 11 coprime to 12 are: 1, 5, 7, 11. Th"
+      },
+      {
+        "q": "How many rational numbers exist between 1/5 and 2/5?",
+        "options": [
+          "10",
+          "Infinitely many",
+          "100",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Between any two distinct rational numbers, there exist infinitely many rational numbers. This is called the density property of rational numbers. For example, 1/5 = 2/10 and 2/5 = 4/10, so 3/10 is between them. But then "
+      },
+      {
+        "q": "If x is a rational number such that -2/3 < x < -1/2, which of the following MUST be true about x²?",
+        "options": [
+          "1/4 < x² < 4/9",
+          "x² < 1/4",
+          "x² > 1",
+          "x² > 4/9"
+        ],
+        "answer": 0,
+        "explanation": "From -2/3 < x < -1/2, take absolute values (reversing because x is negative): 1/2 < |x| < 2/3. Squaring all parts (all positive, so inequality preserved): (1/2)² < x² < (2/3)², giving 1/4 < x² < 4/9."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Rational Numbers test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-rational-numbers\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

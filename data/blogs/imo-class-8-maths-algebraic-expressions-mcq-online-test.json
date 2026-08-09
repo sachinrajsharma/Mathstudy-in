@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-algebraic-expressions-mcq-online-test",
+  "title": "IMO Class 8 Algebraic Expressions Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Algebraic Expressions online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Algebraic Expressions online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Algebraic Expressions online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-algebraic-expressions.png",
+  "cta_product_slug": "imo-class-8-maths-algebraic-expressions",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Algebraic Expressions online test",
+  "content": "<p>Four identities carry this whole chapter. Students who see 103 &times; 97 and think \"(100 + 3)(100 &minus; 3) = 9991\" bank the mark in ten seconds. Students who multiply long-hand spend ninety — and often slip. Start by testing the ground. The free <strong>IMO Class 8 Algebraic Expressions online test</strong> below asks 10 exam-pattern MCQs and scores them on the spot. Each explanation shows the intended one-minute route.</p><h2>What the IMO asks from Algebraic Expressions in Class 8</h2><ul><li>Adding, subtracting and multiplying polynomials.</li><li>The identities: (a + b)&sup2;, (a &minus; b)&sup2;, a&sup2; &minus; b&sup2;, (x + a)(x + b).</li><li>Mental products like 103 &times; 97 and 998 &times; 1002.</li><li>Evaluating a&sup2; + 1/a&sup2; from a + 1/a.</li><li>Simplifying and comparing expression values.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>(a + b)(a &minus; b) = a&sup2; &minus; b&sup2; — so 998 &times; 1002 = 10&#x2076; &minus; 4 = 999996.</li><li>(x + a)(x + b) = x&sup2; + (a + b)x + ab — the middle term is a SUM, the last a PRODUCT.</li><li>If a + 1/a = 5, then a&sup2; + 1/a&sup2; = 5&sup2; &minus; 2 = 23.</li><li>(a + b)&sup2; &minus; (a &minus; b)&sup2; = 4ab — a one-line bridge between sums and products.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Expanding (a + b)&sup2; as a&sup2; + b&sup2; — the 2ab term is the whole point.</li><li>Getting the middle sign wrong in (a &minus; b)&sup2; = a&sup2; &minus; 2ab + b&sup2;.</li><li>Multiplying x&sup2; &times; x&sup3; as x&#x2076; instead of x&#x2075;.</li></ul><h2>Free IMO Class 8 Algebraic Expressions online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-algebraic-expressions\"><strong>IMO Class 8 Maths — Algebraic Expressions and Identities e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Algebraic Expressions Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Algebraic Expressions and Identities",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Simplify (2a + 3b)(4a - 5b).",
+        "options": [
+          "8a² + 2ab - 15b²",
+          "8a² + 2ab + 15b²",
+          "8a² - 2ab - 15b²",
+          "8a² - 2ab + 15b²"
+        ],
+        "answer": 0,
+        "explanation": "(2a + 3b)(4a - 5b) = 2a*4a + 2a*(-5b) + 3b*4a + 3b*(-5b) = 8a² - 10ab + 12ab - 15b² = 8a² + 2ab - 15b²."
+      },
+      {
+        "q": "If (2x + 3)(x - 4) - (x + 6)(2x - 5) = ax + b, find a² + b².",
+        "options": [
+          "360",
+          "504",
+          "468",
+          "450"
+        ],
+        "answer": 2,
+        "explanation": "(2x + 3)(x - 4) = 2x² - 5x - 12. (x + 6)(2x - 5) = 2x² + 7x - 30. Difference = -12x + 18. So a = -12, b = 18. a² + b² = 144 + 324 = 468."
+      },
+      {
+        "q": "For what value of k does (x + 2) divide x³ + kx² - 4x + 12 exactly?",
+        "options": [
+          "1",
+          "-3",
+          "3",
+          "-1"
+        ],
+        "answer": 1,
+        "explanation": "By the factor theorem, f(-2) = 0. f(-2) = -8 + 4k + 8 + 12 = 4k + 12 = 0, so k = -3. Verify: x³ - 3x² - 4x + 12 = (x + 2)(x - 2)(x - 3)."
+      },
+      {
+        "q": "Find 997² using a suitable identity.",
+        "options": [
+          "994009",
+          "994000",
+          "993009",
+          "994001"
+        ],
+        "answer": 0,
+        "explanation": "997² = (1000 - 3)² = 1000000 - 6000 + 9 = 994009."
+      },
+      {
+        "q": "What is the product (3x - 4)(3x + 4)(9x² + 16)?",
+        "options": [
+          "81x⁴ - 576",
+          "9x⁴ - 256",
+          "81x⁴ - 256",
+          "81x⁴ + 256"
+        ],
+        "answer": 2,
+        "explanation": "(3x - 4)(3x + 4) = 9x² - 16. Then (9x² - 16)(9x² + 16) = 81x⁴ - 256."
+      },
+      {
+        "q": "The value of (0.87)² + (0.13)² + 2 × 0.87 × 0.13 is:",
+        "options": [
+          "0.7569",
+          "1",
+          "0.8746",
+          "0.9874"
+        ],
+        "answer": 1,
+        "explanation": "This expression has the form a² + b² + 2ab = (a + b)². So (0.87 + 0.13)² = 1² = 1."
+      },
+      {
+        "q": "Expand (x + 2)(x - 2)(x² + 4).",
+        "options": [
+          "x⁴ + 16",
+          "x⁴ - 8",
+          "x² - 16",
+          "x⁴ - 16"
+        ],
+        "answer": 3,
+        "explanation": "(x + 2)(x - 2) = x² - 4. Then (x² - 4)(x² + 4) = x⁴ - 16."
+      },
+      {
+        "q": "Find the product (x + 9)(x - 4).",
+        "options": [
+          "x² + 5x + 36",
+          "x² - 5x - 36",
+          "x² + 5x - 36",
+          "x² + 13x - 36"
+        ],
+        "answer": 2,
+        "explanation": "(x + 9)(x - 4) = x² + (9 + (-4))x + (9)(-4) = x² + 5x - 36."
+      },
+      {
+        "q": "Evaluate 10.1 × 9.9 using identities.",
+        "options": [
+          "99.99",
+          "100.01",
+          "99.9",
+          "100"
+        ],
+        "answer": 0,
+        "explanation": "10.1 × 9.9 = (10 + 0.1)(10 - 0.1) = 100 - 0.01 = 99.99."
+      },
+      {
+        "q": "If (x + p)(x + q) = x² - 3x - 40, find p² + q².",
+        "options": [
+          "43",
+          "49",
+          "1609",
+          "89"
+        ],
+        "answer": 3,
+        "explanation": "p + q = -3 and pq = -40. p² + q² = (p + q)² - 2pq = 9 - 2(-40) = 9 + 80 = 89."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Algebraic Expressions test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-algebraic-expressions\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

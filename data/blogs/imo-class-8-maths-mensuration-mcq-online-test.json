@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-mensuration-mcq-online-test",
+  "title": "IMO Class 8 Mensuration Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Mensuration online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Mensuration online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more worksheet…",
+  "excerpt": "A free 10-question Mensuration online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-mensuration.png",
+  "cta_product_slug": "imo-class-8-maths-mensuration",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Mensuration online test",
+  "content": "<p>Mensuration pays double for care. The formulas are short — trapezium, rhombus, cylinder. The marks are lost in units. Mix cm with m once, and a perfect set-up scores zero. Take the free <strong>IMO Class 8 Mensuration online test</strong> below before any revision. Ten MCQs, instant score, full explanations — it will tell you exactly what to fix first.</p><h2>What the IMO asks from Mensuration in Class 8</h2><ul><li>Areas: trapezium, rhombus, and a quadrilateral split by a diagonal.</li><li>Composite figures — fields, windows, borders and paths.</li><li>Surface areas: cubes, cuboids, cylinders, painted walls, open boxes.</li><li>Volumes and capacity in litres.</li><li>Melt-and-recast and water-displacement classics.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Trapezium area = &frac12;(a + b) &times; h. Rhombus area = &frac12; d&#8321;d&#8322;.</li><li>Cylinder: CSA = 2&pi;rh and volume = &pi;r&sup2;h. With &pi; = 22/7, radii in 7s cancel fast.</li><li>1 m&sup3; = 1000 litres. 1 litre = 1000 cm&sup3;. Capacity sums live on these two lines.</li><li>Melting keeps the VOLUME. Recast metal keeps its volume, never its surface area.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Using the slant side of a trapezium as its height.</li><li>Finding TSA when the question wants only the walls.</li><li>Forgetting that an open box is missing exactly one face.</li></ul><h2>Free IMO Class 8 Mensuration online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-mensuration\"><strong>IMO Class 8 Maths — Mensuration e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Mensuration Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Mensuration",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "A rhombus has area 120 cm². If one of its diagonals is 15 cm, what is the length of the other diagonal?",
+        "options": [
+          "16 cm",
+          "12 cm",
+          "8 cm",
+          "10 cm"
+        ],
+        "answer": 0,
+        "explanation": "Area = 1/2 x d1 x d2. So 120 = 1/2 × 15 x d2. This gives d2 = 240/15 = 16 cm."
+      },
+      {
+        "q": "The diagonals of a rhombus are 24 cm and 10 cm. What is the perimeter of the rhombus?",
+        "options": [
+          "56 cm",
+          "52 cm",
+          "48 cm",
+          "40 cm"
+        ],
+        "answer": 1,
+        "explanation": "The diagonals of a rhombus bisect each other at right angles. Half-diagonals are 12 cm and 5 cm. Side = √(12² + 5²) = √(144 + 25) = √(169) = 13 cm. Perimeter = 4 × 13 = 52 cm."
+      },
+      {
+        "q": "A trapezium ABCD has parallel sides AB = 25 cm and DC = 11 cm. The non-parallel sides AD = 13 cm and BC = 15 cm. Find the area of the trapezium.",
+        "options": [
+          "180 cm²",
+          "196 cm²",
+          "240 cm²",
+          "216 cm²"
+        ],
+        "answer": 3,
+        "explanation": "Drop perpendiculars from D and C onto AB. Let the foot from D be at distance a from A. Then AD² = a² + h² gives 169 = a² + h². The foot from C is at distance (a + 11) from A, so (25 - a - 11)² + h² = BC² gives (14 - a)² "
+      },
+      {
+        "q": "Rhombus-shaped tiles, each with diagonals 6 cm and 8 cm, are used to cover a rectangular floor of dimensions 48 cm by 36 cm. How many tiles are needed?",
+        "options": [
+          "80",
+          "96",
+          "64",
+          "72"
+        ],
+        "answer": 3,
+        "explanation": "Area of floor = 48 × 36 = 1728 cm². Area of each tile = 1/2 × 6 x 8 = 24 cm². Number of tiles = 1728/24 = 72."
+      },
+      {
+        "q": "Find the curved surface area of a cylinder with radius 7 cm and height 15 cm. (Use pi = 22/7)",
+        "options": [
+          "770 cm²",
+          "660 cm²",
+          "440 cm²",
+          "924 cm²"
+        ],
+        "answer": 1,
+        "explanation": "CSA of cylinder = 2 x pi x r x h = 2 × 22/7 × 7 x 15 = 44 × 15 = 660 cm²."
+      },
+      {
+        "q": "Two identical cubes of edge 5 cm are joined face-to-face to form a cuboid. Find the total surface area of the resulting cuboid.",
+        "options": [
+          "300 cm²",
+          "200 cm²",
+          "225 cm²",
+          "250 cm²"
+        ],
+        "answer": 3,
+        "explanation": "When two cubes of edge 5 are joined, the resulting cuboid is 10 × 5 x 5. TSA = 2(10x5 + 5x5 + 10x5) = 2(50 + 25 + 50) = 2 × 125 = 250 cm². Alternatively: total TSA of both cubes = 2 × 6 x 25 = 300. Joining removes two 5 "
+      },
+      {
+        "q": "A cube of edge 6 cm is placed centrally on top of a cuboid of dimensions 6 cm x 6 cm x 10 cm. Find the total surface area of the combined solid.",
+        "options": [
+          "456 cm²",
+          "384 cm²",
+          "420 cm²",
+          "528 cm²"
+        ],
+        "answer": 0,
+        "explanation": "The cube sits perfectly on the cuboid since both have 6 × 6 top/bottom faces. The combined solid is effectively a cuboid of 6 × 6 x 16. TSA = 2(6x6 + 6x16 + 6x16) = 2(36 + 96 + 96) = 2 × 228 = 456 cm². Alternatively: TSA"
+      },
+      {
+        "q": "The volume of a cube is 1331 cm³. Find the edge of the cube.",
+        "options": [
+          "11 cm",
+          "12 cm",
+          "9 cm",
+          "10 cm"
+        ],
+        "answer": 0,
+        "explanation": "Edge = cube root of 1331 = 11 cm, since 11 × 11 × 11 = 1331."
+      },
+      {
+        "q": "A cuboid has its length twice its breadth and its breadth twice its height. If the volume is 512 cm³, find the height.",
+        "options": [
+          "6 cm",
+          "3 cm",
+          "5 cm",
+          "4 cm"
+        ],
+        "answer": 3,
+        "explanation": "Let height = h. Then breadth = 2h and length = 4h. Volume = 4h x 2h x h = 8h³. So 8h³ = 512, giving h³ = 64 and h = 4 cm."
+      },
+      {
+        "q": "Which holds more water and by how much: a cubical container of edge 11 cm, or a cylindrical container of radius 7 cm and height 7 cm? (Use pi = 22/7)",
+        "options": [
+          "Cylinder by 352 cm³",
+          "Cube by 253 cm³",
+          "Cylinder by 253 cm³",
+          "Cube by 352 cm³"
+        ],
+        "answer": 1,
+        "explanation": "Volume of cube = 11³ = 1331 cm³. Volume of cylinder = 22/7 × 7² x 7 = 22 × 49 = 1078 cm³. The cube holds more by 1331 - 1078 = 253 cm³."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Mensuration test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-mensuration\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}

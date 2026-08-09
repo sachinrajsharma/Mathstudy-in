@@ -1,0 +1,146 @@
+{
+  "slug": "imo-class-8-maths-logical-reasoning-mcq-online-test",
+  "title": "IMO Class 8 Logical Reasoning Online Test: 10 Free MCQs + PDF",
+  "meta_title": "IMO Class 8 Logical Reasoning online test — Free MCQs",
+  "meta_desc": "Free IMO Class 8 Logical Reasoning online test: 10 Olympiad-pattern MCQs with answers and explanations, key formulas, common mistakes and 100 more…",
+  "excerpt": "A free 10-question Logical Reasoning online test for IMO Class 8 — instant scoring, full explanations and 100 more worksheet MCQs with answers.",
+  "category": "IMO Class 8",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/imo-class-8-maths-logical-reasoning.png",
+  "cta_product_slug": "imo-class-8-maths-logical-reasoning",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "IMO Class 8 Logical Reasoning online test",
+  "content": "<p>Twenty of the fifty questions on an SOF IMO paper are not school maths at all — they are reasoning. Series, coding, directions, ranking. No textbook chapter covers them, which is exactly why practised students gain a full section on the field. Take the free <strong>IMO Class 8 Logical Reasoning online test</strong> below before any revision. Ten MCQs, instant score, full explanations — it will tell you exactly what to fix first.</p><h2>What the IMO asks from Logical Reasoning in Class 8</h2><ul><li>Number and letter series; alphabet position work.</li><li>Coding&ndash;decoding with shifts and patterns.</li><li>Direction sense and distance after a walk.</li><li>Ranking and ordering; simple Venn logic.</li><li>Mirror images, water images and embedded figures.</li></ul><h2>Key facts and formulas to revise first</h2><ul><li>Anchor letters with EJOTY: E = 5, J = 10, O = 15, T = 20, Y = 25 — positions come instantly.</li><li>The opposite of any letter sits at 27 minus its position: C (3) pairs with X (24).</li><li>Mirror images swap left&ndash;right; water images flip top&ndash;bottom. Different questions, different flips.</li><li>When a series misbehaves, take differences OF the differences — second layers hide there.</li></ul><h2>Mistakes that cost Olympiad marks</h2><ul><li>Tracking turns mentally in direction puzzles instead of sketching the path.</li><li>Using rank-from-left + rank-from-right without subtracting the double-counted person.</li><li>Forcing one constant difference onto a series that alternates two rules.</li></ul><h2>Free IMO Class 8 Logical Reasoning online test</h2><p>The 10-question quiz below comes from our verified IMO Class 8 question bank. It is the same bank behind the paid worksheets. Answer all ten, then press Check my score. Read the explanation for anything you missed.</p><h2>Practise the whole chapter</h2><p>Ready for more? The <a href=\"/shop/product/imo-class-8-maths-logical-reasoning\"><strong>IMO Class 8 Maths — Logical Reasoning e-book</strong></a> continues with <strong>100 MCQs in 10 worksheets</strong>. Every worksheet ends with an answer key. Every question has a step-by-step solution. Colourful diagrams sit beside the questions that need them. All of it for Rs 45. You can also browse every Class 8 title on the <a href=\"/shop/category/grade-8-math\">Grade 8 Math shelf</a>.</p><p>Preparing the whole syllabus? The <a href=\"https://vidaara.org/olympiad/imo\" target=\"_blank\" rel=\"noopener\">free IMO Maths Olympiad course at vidaara.org</a> covers every Class 8 chapter. The <a href=\"/shop/product/imo-class-8-maths-25-practice-papers\">25 full-length practice papers e-book</a> then ties it all together.</p>",
+  "quiz": {
+    "title": "IMO Class 8 Logical Reasoning Quiz",
+    "intro": "Ten Olympiad-pattern questions. Pick an answer for each, then press Check my score.",
+    "about": "IMO Maths Olympiad Class 8: Logical Reasoning",
+    "level": "Class 8",
+    "questions": [
+      {
+        "q": "Find the next number in the series: 2, 6, 12, 20, 30, ___",
+        "options": [
+          "44",
+          "36",
+          "42",
+          "40"
+        ],
+        "answer": 2,
+        "explanation": "The differences between consecutive terms are 4, 6, 8, 10. These differences increase by 2 each time, so the next difference is 12. Therefore, the next term = 30 + 12 = 42."
+      },
+      {
+        "q": "Find the next number in the series: 1, 4, 13, 40, 121, ___",
+        "options": [
+          "362",
+          "363",
+          "364",
+          "365"
+        ],
+        "answer": 2,
+        "explanation": "Each term is obtained by multiplying the previous term by 3 and adding 1. So: 1 × 3 + 1 = 4, 4 × 3 + 1 = 13, 13 × 3 + 1 = 40, 40 × 3 + 1 = 121, 121 × 3 + 1 = 364."
+      },
+      {
+        "q": "Find the next letter in the series: A, C, F, J, O, ___",
+        "options": [
+          "V",
+          "T",
+          "S",
+          "U"
+        ],
+        "answer": 3,
+        "explanation": "The positions of the letters are 1, 3, 6, 10, 15. The gaps between positions are +2, +3, +4, +5, which increase by 1 each time. The next gap is +6, so the next position = 15 + 6 = 21, which is the letter U."
+      },
+      {
+        "q": "If '+' means 'x', '-' means '+', and 'x' means '-', then what is the value of 6 + 3 - 8 × 2?",
+        "options": [
+          "20",
+          "24",
+          "22",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "Replace the symbols according to the given code: 6 × 3 + 8 - 2. Applying BODMAS: 6 × 3 = 18, then 18 + 8 - 2 = 24."
+      },
+      {
+        "q": "In a certain code, TIGER is written as UJHFS. How is MOUSE written in the same code?",
+        "options": [
+          "MQWUG",
+          "MOVSE",
+          "NPVTF",
+          "NPUTF"
+        ],
+        "answer": 2,
+        "explanation": "Each letter is shifted forward by 1 position in the alphabet: T+1=U, I+1=J, G+1=H, E+1=F, R+1=S. Applying the same rule to MOUSE: M+1=N, O+1=P, U+1=V, S+1=T, E+1=F. The code is NPVTF."
+      },
+      {
+        "q": "In a survey of 100 people, 60 like tea, 45 like coffee, and 20 like both tea and coffee. How many people like only tea?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "answer": 3,
+        "explanation": "People who like only tea = Total who like tea - Those who like both = 60 - 20 = 40."
+      },
+      {
+        "q": "In a class of 60 students, 35 passed in Mathematics and 30 passed in Science. If 10 students passed in both subjects, how many students failed in both?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Students who passed at least one subject = 35 + 30 - 10 = 55. Students who failed both = 60 - 55 = 5."
+      },
+      {
+        "q": "Introducing a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+        "options": [
+          "Mother",
+          "Grandmother",
+          "Sister",
+          "Aunt"
+        ],
+        "answer": 0,
+        "explanation": "The only daughter of the woman's mother is the woman herself. So the man's mother is the woman. The woman is the man's mother."
+      },
+      {
+        "q": "Aman walks 12 m North, then turns left and walks 5 m, then turns left and walks 12 m. How far is he from the starting point and in which direction?",
+        "options": [
+          "5 m West",
+          "12 m North",
+          "5 m East",
+          "7 m West"
+        ],
+        "answer": 0,
+        "explanation": "Starting at (0,0). Walk 12 m North: (0,12). Turn left (face West), walk 5 m: (-5,12). Turn left (face South), walk 12 m: (-5,0). He is at (-5,0), which is 5 m West of the starting point."
+      },
+      {
+        "q": "At what time between 4 o'clock and 5 o'clock do the hour and minute hands of a clock coincide?",
+        "options": [
+          "21 minutes past 4",
+          "20 minutes past 4",
+          "21 and 9/11 minutes past 4",
+          "22 minutes past 4"
+        ],
+        "answer": 2,
+        "explanation": "At 4:00, the hour hand is at 120 degrees and the minute hand at 0 degrees. The minute hand gains 5.5 degrees per minute over the hour hand. Time to close the 120-degree gap = 120 / 5.5 = 240/11 = 21 and 9/11 minutes. The"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this Logical Reasoning test really free?",
+      "a": "Yes. All 10 questions, the scoring and the explanations cost nothing. The e-book continues with 100 more MCQs and full solutions for Rs 45."
+    },
+    {
+      "q": "Which class is this test for?",
+      "a": "Class 8 students preparing for the SOF IMO and similar maths Olympiads. Ambitious Class 7 students use it to read ahead."
+    },
+    {
+      "q": "What if my child scores below 6?",
+      "a": "Revise the key facts above and retake the test after two days. Then drill worksheet by worksheet with the <a href=\"/shop/product/imo-class-8-maths-logical-reasoning\">chapter e-book</a> — it is graded from basics to Olympiad level."
+    }
+  ]
+}
