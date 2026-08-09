@@ -50,6 +50,7 @@ const STEPS = [
   ['Seed CTET Paper 1 Maths chapter-test e-books', 'seed-ctet-paper1-chapter-tests.js', false],
   ['Seed CTET Paper 2 Maths chapter-test e-books', 'seed-ctet-paper2-chapter-tests.js', false],
   ['Seed CAT Quant chapter-test e-books', 'seed-cat-quant-chapter-tests.js', false],
+  ['Seed JEE Maths DPP chapter e-books', 'seed-jee-dpp-chapter-tests.js', false],
   ['Seed IMO Class 1 Maths chapter-test e-books', 'seed-imo-grade1-chapter-tests.js', false],
   ['Seed IMO Class 2 Maths chapter-test e-books', 'seed-imo-grade2-chapter-tests.js', false],
   ['Seed IMO Class 3 Maths chapter-test e-books', 'seed-imo-grade3-chapter-tests.js', false],
