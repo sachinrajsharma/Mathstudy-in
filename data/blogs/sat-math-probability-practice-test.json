@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-probability-practice-test",
+  "title": "SAT Math Probability Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Probability Practice Test: 15 Free MCQs",
+  "meta_desc": "Free SAT Math Probability practice test: 15 Digital SAT MCQs with instant answers and solutions on marbles, coins and tables. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Probability practice test &mdash; Digital SAT-style MCQs on single and compound events, complements and tables, scored instantly.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-probability.png",
+  "cta_product_slug": "sat-math-probability-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Probability practice test",
+  "content": "<p>Ask ten students the odds of at least one head in four coin tosses, and most start listing outcomes. The fast ones flip the question. They find the chance of no heads, then subtract from 1. That instinct &mdash; count the opposite &mdash; is worth real marks on a <strong>SAT Math Probability practice test</strong>. Scroll down for 15 Digital SAT-style MCQs with instant scoring and full solutions.</p><h2>What a SAT Math Probability practice test really asks</h2><p>The Digital SAT keeps probability concrete. You get marbles, coins, dice and, more and more, two-way tables. So the arithmetic stays light, and the thinking carries the weight. Here is what turns up most:</p><ul><li>Single events as favourable over total.</li><li>Compound events, with and without replacement.</li><li>&lsquo;At least one&rsquo; solved by the complement.</li><li>Conditional probability read from a table.</li><li>Independent events multiplied together.</li></ul><h2>The three rules that carry most questions</h2><p>You do not need a thick formula sheet. First, probability is favourable outcomes over total outcomes, always. Second, &lsquo;and&rsquo; means multiply, while &lsquo;or&rsquo; usually means add. Third, without replacement, the second draw meets a smaller bag. Hold those three, and the marble problems fall quickly.</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>At least one success</td><td>List every winning case</td><td>Compute 1 &minus; P(none)</td></tr><tr><td>Both drawn, no replacement</td><td>Square the first fraction</td><td>Shrink the total on the second draw</td></tr><tr><td>Percent from a two-way table</td><td>Divide by the grand total</td><td>Divide by the group the question names</td></tr></tbody></table><h2>Without replacement, worked</h2><p>Take a box with four red and three blue marbles. Draw two, and ask for both red. On the first draw, red is 4 out of 7. Now the bag holds three reds among six, so the second draw is 3 out of 6. Multiply: (4/7) &times; (3/6) = 2/7. The trap is squaring 4/7, which forgets that the bag shrank.</p><h3>Why the complement is your friend</h3><p>&lsquo;At least one&rsquo; hides many cases, and listing them wastes time. So flip it. The opposite of at least one head is zero heads. For four fair coins, zero heads is (1/2)&#8308; = 1/16. Then subtract from 1, and the answer is 15/16. One line, and no listing at all.</p><h2>A caveat on two-way tables</h2><p>Conditional probability trips strong students on wording. The phrase &lsquo;given that a student takes science&rsquo; changes the denominator. So you no longer divide by the whole class; you divide by the science group only. First underline the condition, then compute. That habit alone rescues a mark on most SAT Math Probability practice test tables.</p><h2>Turn every miss into a rule</h2><p>Practice pays only when you review with intent. So after the quiz, sort your misses into three bins. One bin is counting slips, where the setup was right but the arithmetic wobbled. Another is rule slips, like adding when you should multiply. The last is reading slips, where the condition got missed. Then fix the biggest bin first. In my experience, most students live in the rule bin, so drilling &lsquo;and versus or&rsquo; pays off fastest. Also, keep a tiny card: favourable over total, the complement, and the shrinking bag. Read it before each set for a week. After that the rules stick, and you can drop the card. Steady review beats a heroic cram every time.</p><p>One more tip helps under time pressure. Read the question twice before you write anything. The first read sets the story; the second catches the word &lsquo;not&rsquo; or &lsquo;without&rsquo;. So a slow first look often saves a fast wrong answer.</p><h2>Take the free SAT Math Probability practice test</h2><p>The 15-question quiz below is drawn from our reviewed Digital SAT bank. It blends single draws, without-replacement pairs, complements and a table item or two. Answer all fifteen, then press Check my score. For each miss, read the solution and retry after a pause.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-probability-practice-mcqs'><strong>SAT Math &mdash; Probability e-book</strong></a> holds 100 solved MCQs across ten worksheets, each with an answer key and full working. It grades you from warm-ups to 750+ traps. For full-length timing, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Probability Quiz",
+    "intro": "Fifteen Digital SAT-style probability questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Probability",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A bag contains 6 blue, 5 red, and 3 yellow marbles. One marble is drawn at random. What is the probability that it is yellow?",
+        "options": [
+          "3/14",
+          "3/11",
+          "11/14",
+          "3/7"
+        ],
+        "answer": 0,
+        "explanation": "P(yellow) = favorable/total = 3/14 = 3/14."
+      },
+      {
+        "q": "In an experiment, a coin was tried 72 times and landed heads 14 times. What is the experimental probability of that outcome?",
+        "options": [
+          "29/36",
+          "7/36",
+          "7/29",
+          "36/7"
+        ],
+        "answer": 1,
+        "explanation": "Experimental probability = successes/trials = 14/72 = 7/36."
+      },
+      {
+        "q": "A box has 4 red and 3 blue marbles. Two are drawn at random without replacement. What is the probability that both are red?",
+        "options": [
+          "16/49",
+          "4/7",
+          "2/7",
+          "1/2"
+        ],
+        "answer": 2,
+        "explanation": "Without replacement: P = (4/7) × (3/6) = 2/7."
+      },
+      {
+        "q": "A fair six-sided die is rolled once. What is the probability of rolling a number that is a prime factor of 12?",
+        "options": [
+          "1/6",
+          "1/2",
+          "2/3",
+          "1/3"
+        ],
+        "answer": 3,
+        "explanation": "The sample space for a fair six-sided die is 1, 2, 3, 4, 5, 6. The prime factors of 12 are 2 and 3, so the favorable outcomes are 2, 3. Probability = Number of favorable outcomes / Total outcomes = 2/6 = 1/3."
+      },
+      {
+        "q": "Two fair coins are tossed simultaneously. What is the probability of getting exactly one head?",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1/3"
+        ],
+        "answer": 0,
+        "explanation": "The sample space for two coins is HH, HT, TH, TT. Favorable outcomes for exactly one head are HT, TH. Probability = 2/4 = 1/2."
+      },
+      {
+        "q": "A bag has 4 blue, 7 yellow, and 9 red marbles. What is the probability of drawing a marble that is yellow or red?",
+        "options": [
+          "7/20",
+          "4/5",
+          "9/20",
+          "1/5"
+        ],
+        "answer": 1,
+        "explanation": "P(yellow or red) = (7 + 9)/20 = 4/5."
+      },
+      {
+        "q": "A spinner has 4 equal sections numbered 1 to 4. It is spun twice. What is the probability of landing on section 1 both times?",
+        "options": [
+          "1/4",
+          "1/2",
+          "1/16",
+          "1/8"
+        ],
+        "answer": 2,
+        "explanation": "P(section 1) = 1/4 each spin; independent, so (1/4)² = 1/16."
+      },
+      {
+        "q": "A bag contains 6 red, 12 yellow, and 10 blue marbles. One marble is drawn at random. What is the probability that it is red?",
+        "options": [
+          "3/11",
+          "11/14",
+          "3/7",
+          "3/14"
+        ],
+        "answer": 3,
+        "explanation": "P(red) = favorable/total = 6/28 = 3/14."
+      },
+      {
+        "q": "A box has 6 red and 7 blue marbles. Two are drawn without replacement. What is the probability that both are blue?",
+        "options": [
+          "7/26",
+          "49/169",
+          "7/13",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "Without replacement: P = (7/13) × (6/12) = 7/26."
+      },
+      {
+        "q": "In a class of 40 students, 18 students play soccer. If a student is selected at random, what is the probability that the student does NOT play soccer?",
+        "options": [
+          "9/20",
+          "11/20",
+          "13/20",
+          "3/5"
+        ],
+        "answer": 1,
+        "explanation": "The probability of a student playing soccer is 18/40 = 9/20. The probability of the complementary event (not playing soccer) is 1 - 9/20 = 11/20."
+      },
+      {
+        "q": "A class has 30 students. 12 students take math, 15 take science, and 5 take both. If a student is selected at random, what is the probability that the student takes science but NOT math?",
+        "options": [
+          "1/2",
+          "2/5",
+          "1/3",
+          "3/10"
+        ],
+        "answer": 2,
+        "explanation": "Students taking science but not math = Total science - Both = 15 - 5 = 10. Probability = 10/30 = 1/3."
+      },
+      {
+        "q": "A bag has 9 yellow, 8 black, and 2 green marbles. What is the probability that a marble drawn at random is NOT green?",
+        "options": [
+          "2/19",
+          "17/20",
+          "9/19",
+          "17/19"
+        ],
+        "answer": 3,
+        "explanation": "P(not green) = (19 − 2)/19 = 17/19."
+      },
+      {
+        "q": "4 fair coins are tossed. What is the probability that all of them land heads?",
+        "options": [
+          "1/16",
+          "1/8",
+          "1/4",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "Coins are independent with P(head) = 1/2, so P(all heads) = (1/2)⁴ = 1/16."
+      },
+      {
+        "q": "A box has 5 red and 3 blue marbles. Two are drawn without replacement. What is the probability that both are blue?",
+        "options": [
+          "9/64",
+          "3/28",
+          "3/8",
+          "2/7"
+        ],
+        "answer": 1,
+        "explanation": "Without replacement: P = (3/8) × (2/7) = 3/28."
+      },
+      {
+        "q": "A spinner has 8 equal sections labeled 1 through 8. What is the probability of landing on a number that is a multiple of 3?",
+        "options": [
+          "1/8",
+          "3/8",
+          "1/4",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "Multiples of 3 between 1 and 8 are 3 and 6. Favorable outcomes = 2. Probability = 2/8 = 1/4."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Probability practice test really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused practice."
+    },
+    {
+      "q": "How do I solve an &lsquo;at least one&rsquo; question fast?",
+      "a": "Find the probability of none, then subtract from 1. For four coins, no heads is 1/16, so at least one head is 15/16 in a single line."
+    },
+    {
+      "q": "What changes when there is no replacement?",
+      "a": "The second draw sees a smaller bag. Reduce both the favourable count and the total by one before you multiply the two fractions."
+    },
+    {
+      "q": "How do I read conditional probability from a table?",
+      "a": "The condition sets the denominator. &lsquo;Given science&rsquo; means you divide by the science group only, never by the whole class."
+    },
+    {
+      "q": "Where can I get more probability practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same reviewed bank, graded from basics to exam-level."
+    }
+  ]
+}

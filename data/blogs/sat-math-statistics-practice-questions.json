@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-statistics-practice-questions",
+  "title": "SAT Math Statistics Practice Questions: 15 Free MCQs",
+  "meta_title": "SAT Math Statistics Practice Questions: 15 MCQs",
+  "meta_desc": "Free SAT Math Statistics practice questions: 15 Digital SAT MCQs with instant answers and worked solutions on mean, median and quartiles. Start now.",
+  "excerpt": "A free 15-question set of SAT Math Statistics practice questions &mdash; Digital SAT-style MCQs on mean, median, quartiles and spread, with instant scoring.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-statistics-fundamentals.png",
+  "cta_product_slug": "sat-math-statistics-fundamentals-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Statistics practice questions",
+  "content": "<p>Picture a small office where nine people earn &#8377;30,000 a month and the boss takes home &#8377;5,00,000. The mean salary leaps past &#8377;80,000, yet not one of the nine earns close to that. The median stays honest at &#8377;30,000. That single gap &mdash; mean versus median under one outlier &mdash; sits at the heart of most <strong>SAT Math Statistics practice questions</strong>. Scroll down for 15 Digital SAT-style MCQs with instant scoring and worked solutions.</p><h2>What SAT Math Statistics practice questions actually test</h2><p>The Digital SAT keeps this topic tight. It rarely wants heavy computation. Instead, it checks whether you read a data set correctly and pick the right measure. So the same skills repeat, and you can drill them fast. Here is the short list that turns up again and again:</p><ul><li>Mean, and the total-sum trick for a missing value.</li><li>Median of an ordered list, for both odd and even counts.</li><li>Mode, range and the interquartile range.</li><li>Quartiles, read straight from a sorted set.</li><li>Standard deviation, judged as spread by eye.</li></ul><h2>Mean or median? Read the outlier first</h2><p>Here is the habit that saves marks. Before you compute, glance for an extreme value. If one number sits far from the rest, the mean chases it, but the median holds firm. So a question about a &lsquo;typical&rsquo; value usually wants the median. A question about a total wants the mean. That one check answers a surprising share of items.</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Missing value given a new mean</td><td>Guess and adjust</td><td>Use total = mean &times; count, then subtract</td></tr><tr><td>An outlier is added to the set</td><td>Recompute the whole list</td><td>Track the mean&rsquo;s jump; the median barely moves</td></tr><tr><td>Compare the spread of two lists</td><td>Compute both deviations by hand</td><td>Judge how far points sit from the centre</td></tr></tbody></table><h2>The total-sum trick, worked</h2><p>Most missing-value problems bend to one idea. The sum equals the mean times the count. Say eight numbers average 14.5, so their total is 116. Add a ninth number, and the average climbs to 15, so the new total is 135. The ninth value is simply 135 &minus; 116 = 19. No guesswork, and no long addition. That rhythm of totals, not lists, runs through these SAT Math Statistics practice questions.</p><h3>Standard deviation without the formula</h3><p>The SAT almost never makes you compute a standard deviation by hand. Instead, it asks which set is more spread out. So picture the mean, then ask how far the points wander from it. A set like 10, 10, 10, 10, 30 has one value flung wide, so its spread beats a tidy 8, 9, 10, 11, 12. Trust the picture, and you save a full minute.</p><h2>A caveat most guides skip</h2><p>Quartiles have more than one convention. Some books include the median in each half, but others leave it out. The Digital SAT sticks to clean data sets, so the answer stays unambiguous, and you should not overthink it. First split the ordered list at the middle. Then take the median of each half. If a practice book disagrees by a hair on Q1, trust the method, not the source.</p><h2>How to practise for a real score gain</h2><p>A quiz helps only if you review it. So treat every miss as a small lesson. First, redo the question without looking at the options. Then name the exact step you fumbled. Was it the median rule, or the total-sum trick? Write that step on a card. Over a week, those cards become your personal fix list. In my experience coaching SAT students, this beats grinding fresh sets blindly. Ten reviewed questions teach more than fifty rushed ones. Also, mix topics as you go. A page of pure mean problems feels easy, yet the real exam jumps between measures. So shuffle mean, median and quartiles in one sitting. That way you train the choice, not just the calculation. Speed then comes on its own.</p><h2>Take the free SAT Math Statistics practice questions</h2><p>The 15-question quiz below comes straight from our reviewed Digital SAT bank. It mixes quick mean-and-median items with quartiles, range and one spread comparison. Answer all fifteen, then press Check my score. For each miss, read the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-statistics-fundamentals-practice-mcqs'><strong>SAT Math &mdash; Statistics Fundamentals e-book</strong></a> holds 100 solved MCQs across ten worksheets, each with an answer key and full working. It builds from warm-ups to 750+ traps. For full-length timing, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Statistics Quiz",
+    "intro": "Fifteen Digital SAT-style questions on mean, median, quartiles and spread. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Statistics Fundamentals",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "For the data set 2, 4, 6, 8, 10, 12, 14, 16, what is the third quartile (Q3)?",
+        "options": [
+          "14",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "The third quartile (Q3) is the median of the second half of the data set. For the set 2, 4, 6, 8, 10, 12, 14, 16, the median is the average of the 4th and 5th numbers: (8 + 10)/2 = 9."
+      },
+      {
+        "q": "A data set has an IQR of 15. If Q1 is 25, what is Q3?",
+        "options": [
+          "30",
+          "40",
+          "35",
+          "45"
+        ],
+        "answer": 1,
+        "explanation": "The interquartile range (IQR) is the difference between Q3 and Q1. Given IQR = 15 and Q1 = 25, we can find Q3 by adding the IQR to Q1: Q3 = Q1 + IQR = 25 + 15 = 40. Therefore, Q3 is 40."
+      },
+      {
+        "q": "A data set consists of 8 positive integers. The mean of the 8 integers is 14.5. When a 9th integer, x, is added to the data set, the new mean becomes 15.0. What is the value of x?",
+        "options": [
+          "15",
+          "18",
+          "19",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "The sum of the original 8 integers is 8 × 14.5 = 116. The sum of the 9 integers after adding x is 9 × 15.0 = 135. Therefore, x = 135 - 116 = 19."
+      },
+      {
+        "q": "The weights, in pounds, of 10 packages shipped from a warehouse are ordered from least to greatest: 4, 7, 9, 12, 15, 18, 22, 25, 30, 42. What is the interquartile range (IQR) of this data set?",
+        "options": [
+          "13",
+          "18",
+          "21",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "With 10 values, the lower half is the first 5 values: 4, 7, 9, 12, 15. The median of this lower half (Q1) is 9. The upper half is the last 5 values: 18, 22, 25, 30, 42. The median of this upper half (Q3) is 25."
+      },
+      {
+        "q": "A table shows the number of books sold by a store over 5 days: Day 1: 20, Day 2: 25, Day 3: 30, Day 4: 35, Day 5: 40. What is the mean number of books sold per day?",
+        "options": [
+          "30",
+          "25",
+          "35",
+          "40"
+        ],
+        "answer": 0,
+        "explanation": "Total books sold = 20 + 25 + 30 + 35 + 40 = 150. Mean = 150 / 5 = 30."
+      },
+      {
+        "q": "A student scored 85, 90, 78, and 92 on four tests. What is the minimum score the student needs on a fifth test to have an average of at least 88?",
+        "options": [
+          "88",
+          "94",
+          "90",
+          "92"
+        ],
+        "answer": 1,
+        "explanation": "To find the minimum score required on the fifth test, first calculate the total points needed for an average of 88 over five tests: 5 * 88 = 440. The sum of the first four test scores is 85 + 90 + 78 + 92 = 345."
+      },
+      {
+        "q": "A data set has the following numbers: 12, 15, 18, 22, 25, 30. If the number 20 is added to the set, what is the new median?",
+        "options": [
+          "18",
+          "20",
+          "19",
+          "22"
+        ],
+        "answer": 2,
+        "explanation": "First, arrange the original set in ascending order: 12, 15, 18, 22, 25, 30. The median of this even-numbered set is the average of the 3rd and 4th numbers: (18 + 22)/2 = 20."
+      },
+      {
+        "q": "A survey recorded the number of books read by students in a month: 3, 5, 5, 6, 6, 6, 7, 8. What is the mode of this data set?",
+        "options": [
+          "5",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "The mode is the number that appears most frequently in the data set. In the given set 3, 5, 5, 6, 6, 6, 7, 8, the number 6 appears three times, which is more frequent than any other number."
+      },
+      {
+        "q": "The range of a set of numbers is 20. If the smallest number in the set is 5, what is the largest number in the set?",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "35"
+        ],
+        "answer": 0,
+        "explanation": "The range is the difference between the largest and smallest numbers in the set. Given that the range is 20 and the smallest number is 5, the largest number can be found by adding the range to the smallest number: 5 + 20 = 25."
+      },
+      {
+        "q": "For the data set 3, 6, 9, 12, 15, 18, 21, what is the second quartile (Q2)?",
+        "options": [
+          "9",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "The second quartile (Q2) is the median of the data set. For the set 3, 6, 9, 12, 15, 18, 21, the median is the 4th number, which is 12. Therefore, the second quartile (Q2) is 12."
+      },
+      {
+        "q": "A data set has an IQR of 12. If Q1 is 15, what is Q3?",
+        "options": [
+          "25",
+          "29",
+          "27",
+          "31"
+        ],
+        "answer": 2,
+        "explanation": "The interquartile range (IQR) is the difference between Q3 and Q1. Given IQR = 12 and Q1 = 15, we can find Q3 by adding the IQR to Q1: Q3 = Q1 + IQR = 15 + 12 = 27. Therefore, Q3 is 27."
+      },
+      {
+        "q": "The mean height of a group of 6 basketball players is 78.5 inches. When a 7th player joins the group, the mean height becomes 79.0 inches. What is the height, in inches, of the 7th player?",
+        "options": [
+          "80.5",
+          "81.0",
+          "82.5",
+          "82.0"
+        ],
+        "answer": 3,
+        "explanation": "The sum of the heights of the first 6 players is 6 × 78.5 = 471 inches. The sum of the heights of all 7 players is 7 × 79.0 = 553 inches. The height of the 7th player is 553 - 471 = 82 inches."
+      },
+      {
+        "q": "Which of the following data sets has the greatest standard deviation?",
+        "options": [
+          "10, 10, 10, 10, 30",
+          "10, 10, 10, 10, 10",
+          "8, 9, 10, 11, 12",
+          "2, 6, 10, 14, 18"
+        ],
+        "answer": 0,
+        "explanation": "Standard deviation measures spread about the mean, so compare the squared deviations. Set A has SD 0, and set B is tightly clustered (SD about 1.4)."
+      },
+      {
+        "q": "A table lists the number of customers visiting a store each hour: Hour 1: 10, Hour 2: 15, Hour 3: 20, Hour 4: 25. What is the median number of customers per hour?",
+        "options": [
+          "15",
+          "17.5",
+          "20",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "Ordered data: 10, 15, 20, 25. Median = (15 + 20)/2 = 17.5."
+      },
+      {
+        "q": "The mean of five numbers is 12. If one of the numbers is 18, what is the mean of the remaining four numbers?",
+        "options": [
+          "10",
+          "11",
+          "10.5",
+          "11.5"
+        ],
+        "answer": 2,
+        "explanation": "The total sum of the five numbers is 5 * 12 = 60. If one of the numbers is 18, the sum of the remaining four numbers is 60 - 18 = 42. The mean of these four numbers is 42 / 4 = 10.5."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Statistics practice questions free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation cost nothing. The e-book then adds 100 more solved MCQs for focused revision."
+    },
+    {
+      "q": "Do I need to memorise the standard-deviation formula?",
+      "a": "No. The Digital SAT asks you to compare spread, not crunch it by hand. Learn to read how far points sit from the mean and you are set."
+    },
+    {
+      "q": "How do I handle a missing-value mean problem?",
+      "a": "Use total = mean &times; count. Find the old total and the new total, then subtract to reveal the missing number in one step."
+    },
+    {
+      "q": "What score here counts as good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, revisit mean-versus-median and quartiles, then retake the test in two days."
+    },
+    {
+      "q": "Where can I get more statistics practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs from the same reviewed bank, graded from basics to exam-level traps."
+    }
+  ]
+}

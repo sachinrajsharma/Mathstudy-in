@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-number-system-practice-test",
+  "title": "SAT Math Number System Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Number System Practice Test: 15 MCQs",
+  "meta_desc": "Free SAT Math Number System practice test with 15 Digital SAT MCQs, instant answers and worked solutions. Start the online quiz and fix weak spots now.",
+  "excerpt": "A free 15-question SAT Math Number System practice test &mdash; Digital SAT-style MCQs on integers, primes, factors and irrationals, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-number-system-fundamentals.png",
+  "cta_product_slug": "sat-math-number-system-fundamentals-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Number System practice test",
+  "content": "<p>Ask a sharp student to rank &radic;50 and 7 without a calculator, and watch the pause. That half-second of doubt is where easy marks leak away. Integers, fractions, primes and irrationals all live on one number line, and the Digital SAT loves to test whether you know that neighbourhood cold. This free <strong>SAT Math Number System practice test</strong> hands you 15 quick MCQs, so you can find the leaks and plug them today.</p>\n<h2>What the number system covers on the SAT</h2>\n<p>The exam never labels a question &lsquo;number system&rsquo;. Instead it hides the topic inside bigger problems. So the basics must be automatic, not effortful. Here is the ground this chapter covers:</p>\n<ul><li>Integers, whole numbers and natural numbers, and how they nest.</li><li>Rational numbers, which you can write as a simple fraction.</li><li>Irrational numbers like &radic;2 and &pi;, which never settle into a neat fraction.</li><li>Place value, factors, multiples and the divisibility rules.</li><li>Absolute value and ordering on the number line.</li></ul>\n<h2>Three habits that raise your SAT Math Number System practice test score</h2>\n<p>Most students do not need fresh theory. They need faster reflexes. First, memorise the squares up to 15 and the cubes up to 5. Then you spot &radic;144 and &radic;169 on sight. Second, learn the divisibility rules for 3, 4, 6, 8, 9 and 11 by heart. They turn slow trial-and-error into a two-second check. Third, read absolute value as distance, never as &lsquo;just make it positive&rsquo;. That framing stops the sign slips that cost careless marks.</p>\n<h2>Traps the SAT sets, and the quick fix</h2>\n<p>The exam rarely asks a bare definition. It leans on the gap between a rushed guess and a clean rule. So study the fixes below, because they show up again and again.</p>\n<table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Is &radic;36 irrational?</td><td>Assume every root is irrational</td><td>&radic;36 = 6, so it is rational</td></tr><tr><td>Order &minus;3, &minus;7, 2</td><td>Read &minus;7 as the larger value</td><td>On the line &minus;7 sits left of &minus;3, so it is smaller</td></tr><tr><td>Zeros at the end of 20!</td><td>Count the even numbers</td><td>Count factors of 5, which gives 4</td></tr></tbody></table>\n<h3>Why the trailing-zero question fools people</h3>\n<p>A trailing zero comes from a factor of 10, and 10 is 2 times 5. In a factorial there are always more 2s than 5s. So the count of 5s decides the answer. For 20 factorial you get four multiples of 5, and no extra from 25. Therefore the product ends in exactly four zeros. Slow down here, and the marks are yours.</p>\n<h2>Why this chapter pays off across the section</h2>\n<p>Here is the counter-intuitive part. The number system looks like the easiest chapter, yet it quietly powers the hard ones. Ratios rely on clean fraction sense. Exponent questions rest on prime factors. Even the word problems in the calculator module hide a divisibility idea. So strong number sense is not busywork. It is leverage. In my experience coaching SAT students, the ones who drill this chapter early make fewer silly errors everywhere else. And fewer silly errors, not flashy tricks, is what pushes a 650 toward 750.</p>\n<h3>Rational versus irrational, settled fast</h3>\n<p>A number is rational when it equals one integer over another. So 0.75 is rational, because it is 3 over 4. A root is rational only when the number under it is a perfect square. Therefore &radic;49 is fine, but &radic;48 is not. Keep that single test ready, and the &lsquo;which of these is irrational&rsquo; item becomes a gift.</p>\n<h2>A quick worked example</h2>\n<p>Suppose a number leaves a remainder of 2 when divided by 5, and a remainder of 3 when divided by 4. Try the small candidates. Numbers that give remainder 2 under 5 are 7, 12, 17, 22 and so on. Now test each against 4. Here 7 leaves 3, so 7 already works. That is the rhythm the SAT rewards: list, test, stop early. You rarely need heavy algebra for these.</p>\n<h2>Take the free SAT Math Number System practice test</h2>\n<p>The 15-question quiz below is drawn straight from our reviewed Digital SAT bank. It mixes routine sums with the divisibility and factor twists that decide close scores. Answer all fifteen, then press Check my score. For every miss, read the explanation, rest a while, and try again.</p>\n<h2>Keep practising the full chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-number-system-fundamentals-practice-mcqs'><strong>SAT Math &mdash; Number System e-book</strong></a> carries 100 solved MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Number System Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Number System",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "In the numeral 738492, by how much does the place value of the digit 3 exceed its face value?",
+        "options": [
+          "29997",
+          "30000",
+          "2997",
+          "29994"
+        ],
+        "answer": 0,
+        "explanation": "The digit 3 sits in the ten-thousands place, so its place value is 30000 and its face value is 3. The required difference is 30000 - 3 = 29997."
+      },
+      {
+        "q": "Evaluate 6248 + 3192 + 1043.",
+        "options": [
+          "10473",
+          "10483",
+          "10583",
+          "10393"
+        ],
+        "answer": 1,
+        "explanation": "6248 + 3192 = 9440, and 9440 + 1043 = 10483."
+      },
+      {
+        "q": "Find the product 360 x 17.",
+        "options": [
+          "6210",
+          "6020",
+          "6120",
+          "6110"
+        ],
+        "answer": 2,
+        "explanation": "360 x 17 = 360 x 10 + 360 x 7 = 3600 + 2520 = 6120."
+      },
+      {
+        "q": "Evaluate 12846 x 593 + 12846 x 407.",
+        "options": [
+          "14203706",
+          "24038606",
+          "24064000",
+          "12846000"
+        ],
+        "answer": 3,
+        "explanation": "Take out the common factor: 12846 x (593 + 407) = 12846 x 1000 = 12846000."
+      },
+      {
+        "q": "The sum of the first 45 natural numbers is",
+        "options": [
+          "1035",
+          "1280",
+          "2070",
+          "2140"
+        ],
+        "answer": 0,
+        "explanation": "Using n(n + 1)/2 = 45 x 46 / 2 = 1035."
+      },
+      {
+        "q": "Two numbers are said to be co-prime when their highest common factor (HCF) is",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "equal to the smaller number"
+        ],
+        "answer": 1,
+        "explanation": "Co-prime numbers share no common factor other than 1, so their HCF is exactly 1."
+      },
+      {
+        "q": "The unit digit of 5⁹9 is",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Any positive power of a number ending in 5 also ends in 5."
+      },
+      {
+        "q": "If a and b are both odd numbers, which of the following is an even number?",
+        "options": [
+          "a + b + 1",
+          "ab",
+          "ab + 2",
+          "a + b"
+        ],
+        "answer": 3,
+        "explanation": "The sum of two odd numbers is even. The product of two odd numbers is odd, so ab and ab + 2 are odd, and a + b + 1 is odd."
+      },
+      {
+        "q": "The product of two consecutive integers is always",
+        "options": [
+          "even",
+          "odd",
+          "prime",
+          "a perfect square"
+        ],
+        "answer": 0,
+        "explanation": "Of any two consecutive integers one is even, so their product is always even."
+      },
+      {
+        "q": "If the three-digit number 24x is divisible by 3, the possible values of x are",
+        "options": [
+          "1, 4, 7",
+          "0, 3, 6, 9",
+          "2, 5, 8",
+          "3, 6, 9 only"
+        ],
+        "answer": 1,
+        "explanation": "The digit sum is 2 + 4 + x = 6 + x, which is a multiple of 3 when x is 0, 3, 6 or 9."
+      },
+      {
+        "q": "The largest five-digit number exactly divisible by 99 is",
+        "options": [
+          "99909",
+          "99981",
+          "99990",
+          "99999"
+        ],
+        "answer": 2,
+        "explanation": "99999 / 99 = 1010.09..., and 99 x 1010 = 99990, which is the largest five-digit multiple of 99."
+      },
+      {
+        "q": "When a number is multiplied by 5 and 9 is subtracted from the product, the result is 156. The number is",
+        "options": [
+          "30",
+          "27",
+          "35",
+          "33"
+        ],
+        "answer": 3,
+        "explanation": "5n - 9 = 156 gives 5n = 165, so n = 33."
+      },
+      {
+        "q": "The value of 2¹0 is",
+        "options": [
+          "1024",
+          "1000",
+          "512",
+          "2048"
+        ],
+        "answer": 0,
+        "explanation": "2¹0 = 1024."
+      },
+      {
+        "q": "How many three-digit numbers are there in all?",
+        "options": [
+          "899",
+          "900",
+          "999",
+          "901"
+        ],
+        "answer": 1,
+        "explanation": "Three-digit numbers run from 100 to 999, giving 999 - 100 + 1 = 900."
+      },
+      {
+        "q": "The number of zeros at the end of the product 1 x 2 x 3 x ... x 20 is",
+        "options": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Trailing zeros are determined by factors of 5: floor(20/5) + floor(20/25) = 4 + 0 = 4."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Number System practice test really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "Do these questions match the Digital SAT?",
+      "a": "They follow the current Digital SAT pattern and difficulty &mdash; a mix of quick divisibility checks and harder factor and remainder items."
+    },
+    {
+      "q": "Can I use a calculator?",
+      "a": "Yes, the Digital SAT allows one on the whole Math section. Still, learn the squares, cubes and divisibility rules so the easy ones take seconds."
+    },
+    {
+      "q": "What score here counts as good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, revise the three habits above, then retake the test in two days before moving on."
+    },
+    {
+      "q": "Where do I get more number system practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam level."
+    }
+  ]
+}

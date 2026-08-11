@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-area-and-perimeter-practice-test-online",
+  "title": "SAT Math Area and Perimeter Practice Test Online + Free Quiz",
+  "meta_title": "SAT Math Area and Perimeter Practice Test Online",
+  "meta_desc": "Free SAT Math Area and Perimeter practice test online: 15 Digital SAT MCQs with instant answers and worked steps. Start the quiz and lift your score now.",
+  "excerpt": "A free 15-question SAT Math Area and Perimeter practice test online &mdash; Digital SAT-style MCQs with instant scoring, worked steps and the composite-figure trick.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-area-and-perimeter.png",
+  "cta_product_slug": "sat-math-area-and-perimeter-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Area and Perimeter practice test online",
+  "content": "<p>A student once handed me a garden problem and multiplied every side he could find. He wanted the length of a fence, yet he solved for the space inside. That single slip, area traded for perimeter, quietly drains marks on test day. This free <strong>SAT Math Area and Perimeter practice test online</strong> targets exactly that mistake. Below sit 15 Digital SAT-style questions, each with an instant answer and a clean worked step.</p>\n<h2>What the Digital SAT really asks here</h2>\n<p>The exam rarely wants a bare formula. Instead, it hides shapes inside gardens, tiles, pools and road signs. So you juggle two jobs at once. First, pick the right measure. Then apply the formula without fumbling the units.</p>\n<ul>\n<li>Perimeter is the distance around a shape, and it uses plain units like cm.</li>\n<li>Area is the space inside, and it uses square units like cm&sup2;.</li>\n<li>Composite figures split into rectangles, triangles and circles you already know.</li>\n<li>Shaded regions ask you to subtract one clean area from a bigger one.</li>\n</ul>\n<h2>How to win this SAT Math Area and Perimeter practice test online</h2>\n<p>Most students do not need more formulas. They need a routine. So read the question twice and underline the word that matters. Fence, border and trim mean perimeter. Paint, turf, carpet and glass mean area. That one habit, in my experience, saves more marks than any clever shortcut.</p>\n<table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody>\n<tr><td>Fence around a plot</td><td>Find the space inside</td><td>Add every side for the perimeter</td></tr>\n<tr><td>Turf for a field</td><td>Add up the sides</td><td>Multiply length by width for the area</td></tr>\n<tr><td>A side is doubled</td><td>Double the area too</td><td>Area grows four times; perimeter only doubles</td></tr>\n</tbody></table>\n<h3>The composite-figure trick</h3>\n<p>Odd shapes scare students, yet they hide friendly parts. So slice the figure into a rectangle and a triangle, find each area, then add. For a shaded ring, find the big area first and subtract the small one. The order barely changes, and that is why it stays calm under the clock.</p>\n<h2>A quick worked example</h2>\n<p>Picture a 20 by 15 metre lawn with a circular pool of radius 5 in the middle. The lawn area is 20 &times; 15 = 300. The pool area is &pi;r&sup2; = 25&pi;. So the grass left over is 300 &minus; 25&pi;. Notice how you never mixed a length with a square. That clean split is the whole game, and it runs through this SAT Math Area and Perimeter practice test online.</p>\n<h2>One trap that still catches strong students</h2>\n<p>Doubling a side does not double the area. If a square side moves from 4 to 8, the area jumps from 16 to 64, four times bigger. Perimeter, though, only doubles. The SAT loves this gap, so slow down whenever a problem scales a shape.</p>\n<h3>Units are the quiet examiner</h3>\n<p>Many answers here hinge on one small label. So write the unit beside every number you find. A perimeter carries cm or m; an area carries cm&sup2; or m&sup2;. If your working shows a square unit for a fence, you already know something slipped. Students also lose easy marks by reporting a bare number. The grid-in still wants the value, yet the option list often splits only on the unit. So the label is not decoration; it is part of the answer. In my experience, that quick unit check catches more errors than a second full solve. Circle the unit in the question, then match it in your final line.</p>\n<h2>Take the free SAT Math Area and Perimeter practice test online</h2>\n<p>Fifteen questions wait below. They mix quick trapezoids and circles with the composite and shaded-region twists that decide scores. Answer all fifteen, then press Check my score. For anything you miss, read the step and retry after a short break.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-area-and-perimeter-practice-mcqs'><strong>SAT Math &mdash; Area and Perimeter e-book</strong></a> holds 100 MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every topic together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Area and Perimeter Quiz",
+    "intro": "Fifteen Digital SAT-style questions on area and perimeter. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Area and Perimeter",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A trapezoid has parallel sides 7 and 6 and height 2. What is its area?",
+        "options": [
+          "13",
+          "26",
+          "42",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(7 + 6)(2) = 13."
+      },
+      {
+        "q": "A circle has radius 13. What is its circumference, in terms of π?",
+        "options": [
+          "169π",
+          "26π",
+          "13π",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "Circumference = 2πr = 26π."
+      },
+      {
+        "q": "A rectangle has a length of 12 meters and a width of 8 meters. If the length is increased by 25% and the width is decreased by 20%, what is the new area of the rectangle in square meters?",
+        "options": [
+          "108",
+          "115.2",
+          "96",
+          "120"
+        ],
+        "answer": 2,
+        "explanation": "New length = 12 + (0.25 * 12) = 15 meters. New width = 8 - (0.20 * 8) = 6.4 meters. New area = 15 * 6.4 = 96 square meters."
+      },
+      {
+        "q": "A rectangular lawn measures 20 meters by 15 meters. A circular pool with a radius of 5 meters is installed right in the center of the lawn. What is the area of the lawn surrounding the pool, in square meters?",
+        "options": [
+          "300 - 50π",
+          "150 - 25π",
+          "300 - 10π",
+          "300 - 25π"
+        ],
+        "answer": 3,
+        "explanation": "The total area of the rectangular lawn is 20 × 15 = 300 square meters. The area of the circular pool is π r² = π (5²) = 25π square meters."
+      },
+      {
+        "q": "A trapezoid has parallel sides 5 and 6 and height 14. What is its area?",
+        "options": [
+          "77",
+          "154",
+          "30",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(5 + 6)(14) = 77."
+      },
+      {
+        "q": "A circle has radius 6. What is its area, in terms of π?",
+        "options": [
+          "12π",
+          "36π",
+          "36",
+          "6π"
+        ],
+        "answer": 1,
+        "explanation": "Area = πr² = 36π."
+      },
+      {
+        "q": "The perimeter of a square is 48 cm. What is the area of the square in square centimeters?",
+        "options": [
+          "192",
+          "230",
+          "144",
+          "288"
+        ],
+        "answer": 2,
+        "explanation": "Side length = 48 / 4 = 12 cm. Area = 12² = 144 square centimeters."
+      },
+      {
+        "q": "A circle is inscribed inside a square whose side length is 12 inches. What is the area of the region inside the square but outside the circle, in square inches?",
+        "options": [
+          "144 - 18π",
+          "72 - 18π",
+          "144 - 72π",
+          "144 - 36π"
+        ],
+        "answer": 3,
+        "explanation": "The area of the square is 12² = 144 square inches. Since the circle is inscribed inside the square, its diameter equals the side length of the square, which is 12 inches, making its radius r = 6 inches."
+      },
+      {
+        "q": "A trapezoid has parallel sides 4 and 6 and height 10. What is its area?",
+        "options": [
+          "50",
+          "100",
+          "24",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(4 + 6)(10) = 50."
+      },
+      {
+        "q": "A circle has radius 7. What is its area, in terms of π?",
+        "options": [
+          "14π",
+          "49π",
+          "49",
+          "7π"
+        ],
+        "answer": 1,
+        "explanation": "Area = πr² = 49π."
+      },
+      {
+        "q": "A right triangle has legs of lengths 9 cm and 12 cm. What is the area of the triangle in square centimeters?",
+        "options": [
+          "27",
+          "72",
+          "54",
+          "108"
+        ],
+        "answer": 2,
+        "explanation": "Area = (1/2) * base * height = (1/2) * 9 * 12 = 54 square centimeters."
+      },
+      {
+        "q": "A square of side 10 cm has a circle inscribed in it. What is the area of the shaded region (the area of the square not covered by the circle) in square centimeters? (Use π ≈ 3.14)",
+        "options": [
+          "28.6",
+          "30.2",
+          "36.4",
+          "21.5"
+        ],
+        "answer": 3,
+        "explanation": "Area of square = 10² = 100 square cm. The inscribed circle has radius 5 cm, so its area = 3.14 * 5² = 78.5 square cm. Shaded area = 100 - 78.5 = 21.5 square cm."
+      },
+      {
+        "q": "A trapezoid has parallel sides 3 and 8 and height 14. What is its area?",
+        "options": [
+          "77",
+          "154",
+          "24",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(3 + 8)(14) = 77."
+      },
+      {
+        "q": "A circle has radius 10. What is its area, in terms of π?",
+        "options": [
+          "20π",
+          "100π",
+          "100",
+          "10π"
+        ],
+        "answer": 1,
+        "explanation": "Area = πr² = 100π."
+      },
+      {
+        "q": "A parallelogram has a base of 10 units and a height of 6 units. If the base is doubled and the height is halved, what is the new area of the parallelogram in square units?",
+        "options": [
+          "30",
+          "120",
+          "60",
+          "240"
+        ],
+        "answer": 2,
+        "explanation": "New base = 20 units, new height = 3 units. New area = 20 * 3 = 60 square units."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Area and Perimeter practice test online really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every worked step cost nothing. The e-book then adds 100 more MCQs with full solutions."
+    },
+    {
+      "q": "How do I tell area from perimeter quickly?",
+      "a": "Read the object, not the numbers. Fence, border or trim means perimeter. Paint, turf, carpet or glass means area. Underline that word before you touch the maths."
+    },
+    {
+      "q": "Can I use a calculator on these questions?",
+      "a": "Yes. The Digital SAT allows a calculator across the whole Math section, so practise the same way. Still, keep &pi;r&sup2; and 2&pi;r sharp in memory."
+    },
+    {
+      "q": "What score here counts as strong?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the composite-figure and shaded-region items, then retake in two days."
+    },
+    {
+      "q": "Where do I get more area and perimeter practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from warm-ups to 750+ traps."
+    }
+  ]
+}

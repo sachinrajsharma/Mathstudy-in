@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-polynomials-practice-test-online",
+  "title": "SAT Math Polynomials Practice Test Online: 15 Free MCQs",
+  "meta_title": "SAT Math Polynomials Practice Test Online + Quiz",
+  "meta_desc": "Free SAT Math Polynomials practice test online: 15 Digital SAT MCQs with instant answers, worked solutions and factoring tips. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Polynomials practice test online &mdash; Digital SAT-style MCQs with instant scoring, full solutions and clean factoring methods.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-polynomials.png",
+  "cta_product_slug": "sat-math-polynomials-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Polynomials practice test online",
+  "content": "<p>A student multiplies (x&minus;3)(x+5) and writes x&sup2; + 2x + 15. The sign on the constant is wrong, and so is the answer. That one slip has quietly cost more Digital SAT points than any hard theorem. So this free <strong>SAT Math Polynomials practice test online</strong> starts where real errors start &mdash; the small ones. Scroll down for 15 SAT-style MCQs with instant answers and worked solutions.</p><h2>What the Digital SAT asks about polynomials</h2><p>The SAT files polynomials under Advanced Math. But the questions stay concrete, and they repeat. You add and subtract expressions. You multiply binomials. Then you factor, and you read structure straight from a form. Here is what shows up again and again:</p><ul><li>Products of binomials, using FOIL and the square patterns.</li><li>Factoring x&sup2; + bx + c and the difference of squares a&sup2; &minus; b&sup2;.</li><li>Matching a polynomial to its zeros, because a factor of (x &minus; r) means r is a root.</li><li>The remainder after dividing by (x &minus; a), which simply equals P(a).</li><li>End behaviour and turning points, read from the degree.</li></ul><h2>Three habits that raise your SAT Math Polynomials practice test online score</h2><p>Most students do not need more rules. Instead, they need cleaner mechanics. First, track signs before you track terms, because a wrong sign ruins an otherwise perfect line. Second, factor by finding two numbers that multiply to the constant and add to the middle. Third, read a factored form as a set of roots, not as more algebra. That third habit saves the most time, and it is the one students skip.</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Expand (x &minus; 4)&sup2;</td><td>Write x&sup2; &minus; 16</td><td>Use (a&minus;b)&sup2;, so x&sup2; &minus; 8x + 16</td></tr><tr><td>Factor x&sup2; &minus; 9</td><td>Call it prime</td><td>See a&sup2; &minus; b&sup2; = (x&minus;3)(x+3)</td></tr><tr><td>P(x) has a factor (x &minus; 2)</td><td>Plug in random numbers</td><td>Know at once that P(2) = 0</td></tr></tbody></table><h2>Mistakes that quietly cost marks</h2><p>The squared-binomial trap catches strong students too. For example, (x + 5)&sup2; is not x&sup2; + 25. You also need the middle term 10x. Another slip hides in subtraction. When you compute A(x) &minus; B(x), the minus sign hits every term of B, not just the first. So distribute it fully, and then combine like terms. Slow down for two seconds, and the marks stay yours.</p><h2>A quick worked example</h2><p>Say P(x) = x&sup2; &minus; x &minus; 12, and the SAT asks for its zeros. First, look for two numbers that multiply to &minus;12 and add to &minus;1. Those are &minus;4 and 3. So P(x) = (x &minus; 4)(x + 3), and therefore the zeros are 4 and &minus;3. Notice the rhythm here. First you factor, then you read the roots off directly. No formula needed, and no guessing either.</p><h3>How to practise polynomials this week</h3><p>Start small, and then build up. On day one, drill only expansion, so FOIL turns automatic. On day two, switch to factoring by inspection, and time yourself lightly. Then on day three, mix the two, because the real test never labels which skill it wants. Also keep a short error log. Write down every sign slip, and read it back before the next session. That log shrinks fast, and your accuracy climbs with it. Here is the counter-intuitive part. Slower drilling early makes you faster later, since clean mechanics remove the re-checking that eats your clock. So resist the urge to rush, and let speed arrive on its own.</p><h2>Take the free SAT Math Polynomials practice test online</h2><p>The 15-question quiz below comes straight from our reviewed Digital SAT bank. It mixes routine expansion with the factoring and root-reading twists that decide scores. Answer all fifteen, and then press Check my score. For anything you miss, read the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-polynomials-practice-mcqs'><strong>SAT Math &mdash; Polynomials e-book</strong></a> holds 100 MCQs across 10 worksheets, and each one carries an answer key and a full solution. When you want full-length practice, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "Polynomials Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Polynomials",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "If x = 2 is a zero of the polynomial P(x) = x³ - 3x² + kx + 6 , what is the value of k ?",
+        "options": [
+          "-1",
+          "1",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Substitute x = 2 into P(x) : 8 - 12 + 2k + 6 = 0 . Simplify: 2k + 2 = 0 → k = -1 ."
+      },
+      {
+        "q": "The polynomial P(x) = (a-2)x³ + bx² + (c+1)x + d has degree 2 and leading coefficient 5. If b = 5, what must be the value of a?",
+        "options": [
+          "0",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "For P(x) to have degree 2, the coefficient of x³ must be zero, so a - 2 = 0, which gives a = 2. With a = 2, the x³ term vanishes. The degree is then determined by the x² term, which has coefficient b."
+      },
+      {
+        "q": "Multiply: (2x-1)(x² + 3x - 5).",
+        "options": [
+          "2x³ + 7x² - 7x + 5",
+          "2x³ + 5x² - 7x - 5",
+          "2x³ + 5x² - 13x + 5",
+          "2x³ + 7x² - 13x - 5"
+        ],
+        "answer": 2,
+        "explanation": "Distribute each term of (2x-1) to the trinomial. For 2x: 2x * x² = 2x³; 2x * 3x = 6x²; 2x * (-5) = -10x. For -1: -1 * x² = -x²; -1 * 3x = -3x; -1 * (-5) = 5."
+      },
+      {
+        "q": "Factor completely: 3x² - 12x.",
+        "options": [
+          "3(x² - 4x)",
+          "x(3x - 12)",
+          "3x(x - 12)",
+          "3x(x - 4)"
+        ],
+        "answer": 3,
+        "explanation": "Factor out the greatest common factor (GCF). The GCF of 3x² and -12x is 3x. Factoring out 3x gives 3x(x - 4). Option B is not fully factored since the GCF is not completely factored out."
+      },
+      {
+        "q": "If P(x) = 3x³ + 2x² - 5x + 7 and Q(x) = -2x³ + 4x² + x - 3 , what is the coefficient of the x² term in P(x) + Q(x) ?",
+        "options": [
+          "6",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Add the coefficients of the x² terms in P(x) and Q(x) : 2 + 4 = 6 ."
+      },
+      {
+        "q": "If P(x) = x³ - 6x² + 11x - 6 , which of the following is a factor of P(x) by the Factor Theorem?",
+        "options": [
+          "(x - 4)",
+          "(x - 1)",
+          "(x + 1)",
+          "(x + 2)"
+        ],
+        "answer": 1,
+        "explanation": "Test x = 1 : P(1) = 1 - 6 + 11 - 6 = 0 . Thus, (x - 1) is a factor."
+      },
+      {
+        "q": "A polynomial is defined by f(x) = (m+3)x⁴ - 5x³ + 2x - 1. For what value of m will f(x) NOT be a quartic polynomial?",
+        "options": [
+          "0",
+          "1",
+          "-3",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "A quartic polynomial has degree 4, meaning the coefficient of x⁴ must be non-zero. For f(x) to NOT be quartic, the x⁴ coefficient must be zero. Here, the x⁴ coefficient is (m + 3). Setting m + 3 = 0 yields m = -3."
+      },
+      {
+        "q": "If (x+2)(x² + kx - 5) = x³ + 7x² + 7x - 10, what is the value of k?",
+        "options": [
+          "3",
+          "7",
+          "9",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Expand the left side: (x+2)(x² + kx - 5) = x(x² + kx - 5) + 2(x² + kx - 5) = x³ + kx² - 5x + 2x² + 2kx - 10. Combine like terms: x³ + (k + 2)x² + (-5 + 2k)x - 10. Equate to x³ + 7x² + 7x - 10. For x² terms: k + 2 = 7, so k = 5."
+      },
+      {
+        "q": "Factor: 2x² + 7x + 3.",
+        "options": [
+          "(2x+1)(x+3)",
+          "(2x+3)(x+1)",
+          "(2x-1)(x-3)",
+          "(2x+1)(x-3)"
+        ],
+        "answer": 0,
+        "explanation": "To factor 2x² + 7x + 3, find factors of 2*3=6 that add to 7: 6 and 1. Rewrite: 2x² + 6x + x + 3. Group: (2x² + 6x) + (x + 3) = 2x(x+3) + 1(x+3) = (2x+1)(x+3). Check: (2x+1)(x+3) = 2x² + 6x + x + 3 = 2x² + 7x + 3. Correct."
+      },
+      {
+        "q": "Given A(x) = 5x⁴ - 3x³ + 2x - 1 and B(x) = 2x⁴ + x³ - 4x + 5 , what is the constant term in A(x) - B(x) ?",
+        "options": [
+          "-4",
+          "-6",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the constant terms of A(x) and B(x) : -1 - 5 = -6 ."
+      },
+      {
+        "q": "What is the sum of the zeros of the polynomial p(x) = 2x² - 12x + 7?",
+        "options": [
+          "3.5",
+          "-6",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "For a quadratic ax² + bx + c, the sum of zeros is -b/a. Here, -(-12)/2 = 12/2 = 6."
+      },
+      {
+        "q": "Consider the polynomial P(x) = (a - 4)x⁵ + 3x³ - 2x + a. If P(x) has degree 3, what is the value of a?",
+        "options": [
+          "3",
+          "5",
+          "0",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "For P(x) to have degree 3, the coefficient of the highest power, x⁵, must be zero, since otherwise the degree would be 5. Set coefficient of x⁵: a - 4 = 0, so a = 4."
+      },
+      {
+        "q": "Expand: (x - 5)².",
+        "options": [
+          "x² - 10x + 25",
+          "x² - 25",
+          "x² + 10x + 25",
+          "x² - 5x + 25"
+        ],
+        "answer": 0,
+        "explanation": "(x - 5)² = (x - 5)(x - 5). Using FOIL: x * x = x²; x * (-5) = -5x; -5 * x = -5x; -5 * (-5) = 25. Combine: x² - 10x + 25. Remember, (a - b)² = a² - 2ab + b². Option A incorrectly omits the middle term. Option C has a plus sign."
+      },
+      {
+        "q": "Factor: x² - 8x + 16.",
+        "options": [
+          "(x+4)²",
+          "(x-4)²",
+          "(x-8)²",
+          "(x-4)(x+4)"
+        ],
+        "answer": 1,
+        "explanation": "This is a perfect square trinomial: x² - 8x + 16 = (x - 4)². Check: 2*(-4)*x = -8x, and (-4)² = 16. Alternatively, find two numbers that multiply to 16 and add to -8: -4 and -4. So (x - 4)(x - 4) = (x - 4)²."
+      },
+      {
+        "q": "If (2x + 3)(x - 4) is expanded, what is the coefficient of the x term?",
+        "options": [
+          "-2",
+          "2",
+          "-5",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Expand the expression: 2x · x + 2x · (-4) + 3 · x + 3 · (-4) = 2x² - 8x + 3x - 12 . The coefficient of x is -8 + 3 = -5 ."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Polynomials practice test online really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every solution are free. The e-book then adds 100 more MCQs with full working for focused practice."
+    },
+    {
+      "q": "Do I have to memorise long division of polynomials?",
+      "a": "Rarely. The Digital SAT leans on factoring and the remainder idea, so knowing that P(a) gives the remainder after dividing by (x &minus; a) covers most items."
+    },
+    {
+      "q": "How many factoring patterns do I actually need?",
+      "a": "Three carry you a long way: x&sup2; + bx + c, the difference of squares a&sup2; &minus; b&sup2;, and pulling out a common factor first. Spot those on sight."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the three habits above, then retake the test in two days before moving on."
+    },
+    {
+      "q": "Where do I get more polynomials practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same question bank behind this test, graded from basics to exam-level."
+    }
+  ]
+}

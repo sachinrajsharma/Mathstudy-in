@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-quadratic-functions-practice-questions",
+  "title": "SAT Math Quadratic Functions Practice Questions: 15 Free MCQs",
+  "meta_title": "SAT Math Quadratic Functions Practice Questions",
+  "meta_desc": "Free SAT Math Quadratic Functions practice questions: 15 Digital SAT MCQs on parabolas, vertex form and max-min, with instant answers. Take the quiz now.",
+  "excerpt": "Free SAT Math Quadratic Functions practice questions &mdash; 15 Digital SAT MCQs on parabolas, vertex form and max-min, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-quadratic-functions.png",
+  "cta_product_slug": "sat-math-quadratic-functions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Quadratic Functions practice questions",
+  "content": "<p>A ball is thrown, and its height follows h = &minus;16t&sup2; + 48t + 6. The SAT asks for the greatest height. Half the room starts plugging in random values of t. The other half reads the vertex and finishes in one line. That split is exactly why these <strong>SAT Math Quadratic Functions practice questions</strong> matter. A parabola hides its answer in plain sight, once you know where to look. Scroll down for 15 SAT-style MCQs with instant answers.</p><h2>Read the parabola, do not fight it</h2><p>A quadratic function draws a parabola. So every question is really about one curve and a few landmarks. Here are the landmarks the Digital SAT keeps asking for:</p><ul><li>The vertex &mdash; the maximum or minimum point of the curve.</li><li>An axis of symmetry, the vertical line through that vertex.</li><li>Two x-intercepts, where the curve meets the axis, also called zeros.</li><li>A y-intercept, which you read by setting x = 0.</li><li>Its direction of opening, up when a is positive and down when a is negative.</li></ul><h2>The three forms behind the SAT Math Quadratic Functions practice questions</h2><p>One function wears three outfits, and each one shows a different landmark. Standard form ax&sup2; + bx + c hands you the y-intercept. Factored form a(x &minus; p)(x &minus; q) hands you the zeros. Vertex form a(x &minus; h)&sup2; + k hands you the turning point at once. So the smart move is to switch to whichever form matches the question. That single decision is worth several points.</p><table><thead><tr><th>The question wants</th><th>Best form to use</th><th>Why</th></tr></thead><tbody><tr><td>The maximum height</td><td>Vertex form</td><td>The value k is the max or min</td></tr><tr><td>The two roots</td><td>Factored form</td><td>Zeros are p and q, read directly</td></tr><tr><td>The y-intercept</td><td>Standard form</td><td>Set x = 0, so the answer is c</td></tr></tbody></table><h2>The mistakes that lower scores</h2><p>First, students forget the sign inside vertex form. In a(x &minus; h)&sup2; + k, the vertex sits at x = h, not x = &minus;h. Second, many find the axis of symmetry with x = &minus;b / 2a and then stop, when the question wanted the actual maximum. So take one more step, and compute the height at that x. Third, a negative a means the parabola opens down, so its vertex is a maximum, not a minimum. Small reads, real marks.</p><h2>A quick worked example</h2><p>Back to h = &minus;16t&sup2; + 48t + 6. The axis of symmetry sits at t = &minus;48 / (2 &times; &minus;16) = 1.5. Then substitute t = 1.5 back in. That gives h = &minus;16(2.25) + 72 + 6 = 42. So the greatest height is 42 feet. Notice the two clean steps. First find the time, and then read the height. No graphing needed at all.</p><h3>Practise by sketching, not just solving</h3><p>Here is advice most students ignore. Before you compute anything, draw a rough parabola. Mark the direction of opening first, then guess where the vertex sits. That quick sketch catches sign errors early, because a wrong answer usually looks wrong on the picture. Also, translate every word problem into one of the three forms straight away. When a question mentions maximum height or profit, reach for vertex form. When it lists two break-even points, reach for factored form. So the sketch and the form work together, and together they turn a wordy problem into a two-line solution. Do five of these a day, and reading parabolas soon feels like reading a clock.</p><h2>Take the free SAT Math Quadratic Functions practice questions</h2><p>The 15-question quiz below comes from our reviewed Digital SAT bank. It mixes graph reading with vertex and max-min word problems. Answer all fifteen, and then press Check my score. For anything you miss, study the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-quadratic-functions-practice-mcqs'><strong>SAT Math &mdash; Quadratic Functions e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a full solution. When you want full-length sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "Quadratic Functions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Quadratic Functions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "For y = x² + bx + 9 to have exactly one x-intercept with b > 0, what is b?",
+        "options": [
+          "6",
+          "3",
+          "9",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "One x-intercept means the discriminant is 0: b² − 36 = 0, so b = ±6. Since b > 0, b = 6."
+      },
+      {
+        "q": "The roots of x² + kx + 12 = 0 have a sum of −8. What is k?",
+        "options": [
+          "−8",
+          "8",
+          "12",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The sum of the roots is −k. Setting −k = −8 gives k = 8."
+      },
+      {
+        "q": "How is y = −(x + 1)² − 4 obtained from y = x²?",
+        "options": [
+          "Reflect over x-axis, right 1, down 4",
+          "Left 1, down 4 (no reflection)",
+          "Reflect over x-axis, left 1, down 4",
+          "Reflect over y-axis, left 1, down 4"
+        ],
+        "answer": 2,
+        "explanation": "The negative reflects over the x-axis; x + 1 shifts left 1; − 4 shifts down 4."
+      },
+      {
+        "q": "A quadratic function f(x) = ax² + bx + c has roots at x = -4 and x = 10. What is the equation of the axis of symmetry of the graph of y = f(x)?",
+        "options": [
+          "x = 6",
+          "x = 7",
+          "x = -7",
+          "x = 3"
+        ],
+        "answer": 3,
+        "explanation": "The axis of symmetry of a parabola passes through the midpoint of its roots. The midpoint of -4 and 10 is (-4 + 10)/(2) = (6)/(2) = 3. Thus, the axis of symmetry is x = 3."
+      },
+      {
+        "q": "The graph of y = x² is translated 5 units to the left and 3 units down to create the graph of g(x). Which of the following defines g(x)?",
+        "options": [
+          "g(x) = (x + 5)² - 3",
+          "g(x) = (x - 5)² + 3",
+          "g(x) = (x + 5)² + 3",
+          "g(x) = (x - 5)² - 3"
+        ],
+        "answer": 0,
+        "explanation": "A horizontal shift to the left by h units is represented by (x + h)², and a vertical shift down by k units is represented by subtracting k from the entire function."
+      },
+      {
+        "q": "What is the vertex of y = x² − 6x + 5?",
+        "options": [
+          "(3, 4)",
+          "(3, −4)",
+          "(6, 5)",
+          "(−3, −4)"
+        ],
+        "answer": 1,
+        "explanation": "Vertex x = −b/(2a) = 6/2 = 3; y = 9 − 18 + 5 = −4. The vertex is (3, −4)."
+      },
+      {
+        "q": "What is the maximum value of y = −x² + 4x + 1?",
+        "options": [
+          "2",
+          "1",
+          "5",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Vertex x = −b/(2a) = −4/(−2) = 2; y = −4 + 8 + 1 = 5. As a < 0 this is the maximum."
+      },
+      {
+        "q": "What is the axis of symmetry of y = 2x² − 8x + 3?",
+        "options": [
+          "x = 4",
+          "x = −2",
+          "x = 8",
+          "x = 2"
+        ],
+        "answer": 3,
+        "explanation": "The axis of symmetry is x = −b/(2a) = 8/4 = 2."
+      },
+      {
+        "q": "The parabola y = x² − 4x + c is tangent to the x-axis. What is c?",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "Tangent means one repeated root, so the discriminant is 0: 16 − 4c = 0, giving c = 4."
+      },
+      {
+        "q": "If the roots of x² + px + q = 0 are 2 and 5, what are p and q?",
+        "options": [
+          "p = 7, q = 10",
+          "p = −7, q = 10",
+          "p = −7, q = −10",
+          "p = 7, q = −10"
+        ],
+        "answer": 1,
+        "explanation": "Sum of roots = −p = 7, so p = −7. Product of roots = q = 10."
+      },
+      {
+        "q": "The quadratic function f(x) = x² - 6x + 5 intersects the x-axis at points (x_1, 0) and (x_2, 0). What is the distance between these two points?",
+        "options": [
+          "1",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "To find the roots, set x² - 6x + 5 = 0. Factoring, we get (x - 5)(x - 1) = 0, so x_1 = 5 and x_2 = 1. The distance between the points (5, 0) and (1, 0) is 5 - 1 = 4."
+      },
+      {
+        "q": "Function f is defined by f(x) = (x - 2)² - 4. Function g is defined by g(x) = -(x - 2)² + 4. How do the graphs of f and g compare?",
+        "options": [
+          "They share the same vertex.",
+          "The graph of g opens upward.",
+          "They open in the same direction.",
+          "They have the same x-intercepts."
+        ],
+        "answer": 3,
+        "explanation": "For f(x) = (x - 2)² - 4, setting f(x) = 0 gives (x - 2)² = 4, so x = 0 or x = 4. For g(x) = -(x - 2)² + 4, setting g(x) = 0 gives the same equation (x - 2)² = 4, so x = 0 or x = 4 as well."
+      },
+      {
+        "q": "Write y = x² + 4x + 1 in vertex form.",
+        "options": [
+          "(x + 2)² − 3",
+          "(x + 2)² + 3",
+          "(x − 2)² − 3",
+          "(x + 2)² − 1"
+        ],
+        "answer": 0,
+        "explanation": "Complete the square: x² + 4x = (x + 2)² − 4, so y = (x + 2)² − 4 + 1 = (x + 2)² − 3."
+      },
+      {
+        "q": "What is the minimum value of y = 2x² − 12x + 7?",
+        "options": [
+          "11",
+          "−11",
+          "3",
+          "−3"
+        ],
+        "answer": 1,
+        "explanation": "Vertex x = 12/4 = 3; y = 18 − 36 + 7 = −11. Since a > 0 this is the minimum."
+      },
+      {
+        "q": "For the vertex of y = x² − 6x + k to lie on the x-axis, what is k?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "0"
+        ],
+        "answer": 2,
+        "explanation": "The vertex is at x = 3 with y = 9 − 18 + k = k − 9. For it to lie on the x-axis, k − 9 = 0, so k = 9."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the fastest way to find a parabola vertex?",
+      "a": "Use x = &minus;b / 2a for the time or x value, and then substitute back to get the height. If the function is already in vertex form, the point is (h, k) directly."
+    },
+    {
+      "q": "How do I know if the vertex is a maximum or a minimum?",
+      "a": "Read the sign of a. A positive a opens the parabola upward, so the vertex is a minimum. A negative a opens it down, so the vertex is a maximum."
+    },
+    {
+      "q": "Do these questions need a graphing calculator?",
+      "a": "No. The Digital SAT allows a calculator, but most vertex and intercept items solve faster by algebra. Learn the forms, and you will rarely need to graph."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, revisit the three forms above, then retake these practice questions in two days before moving on."
+    },
+    {
+      "q": "Where do I get more quadratic function practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this quiz, graded from graph reading to harder modelling."
+    }
+  ]
+}

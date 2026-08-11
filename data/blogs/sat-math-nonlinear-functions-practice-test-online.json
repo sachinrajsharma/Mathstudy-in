@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-nonlinear-functions-practice-test-online",
+  "title": "SAT Math Nonlinear Functions Practice Test Online + Quiz",
+  "meta_title": "SAT Math Nonlinear Functions Practice Test Online",
+  "meta_desc": "Free SAT Math Nonlinear Functions practice test online: 15 Digital SAT MCQs on quadratics and exponentials with instant answers. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Nonlinear Functions practice test online &mdash; quadratics, exponentials, roots and graph transformations with instant scoring and worked steps.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-nonlinear-functions.png",
+  "cta_product_slug": "sat-math-nonlinear-functions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Nonlinear Functions practice test online",
+  "content": "<p>Show me a graph for one second and I will ask a single thing: is it a straight line, a valley or a rocket? A straight line means linear. The gentle U-shape means quadratic. A curve that shoots up means exponential. Students who name the shape fast already own half the mark. This free <strong>SAT Math Nonlinear Functions practice test online</strong> builds that instinct, then tests it. Fifteen worked MCQs sit below.</p>\n<h2>Name the shape before you calculate</h2>\n<p>Each family has a fingerprint. So learn the tells and the algebra follows.</p>\n<ul>\n<li>Quadratic: one squared term, a single U-turn, a vertex at the tip.</li>\n<li>Cubic: an S-shaped bend that can rise, dip and rise again.</li>\n<li>Exponential: a fixed multiplier per step, so it doubles or halves.</li>\n<li>Root: a slow, one-sided curve that starts and then eases off.</li>\n</ul>\n<h2>Vertex form is a gift on this SAT Math Nonlinear Functions practice test online</h2>\n<p>When a parabola arrives as P(x) = a(x &minus; h)&sup2; + k, the answer often stares back at you. The point (h, k) is the vertex. If a is negative, the curve opens down, so k is the maximum. If a is positive, the curve opens up, so k is the minimum. You read the peak profit straight off the k, no calculus needed.</p>\n<table><thead><tr><th>Change to the graph</th><th>What you do to the equation</th></tr></thead><tbody>\n<tr><td>Shift right by 3</td><td>Replace x with (x &minus; 3)</td></tr>\n<tr><td>Shift up by 5</td><td>Add 5 to the whole function</td></tr>\n<tr><td>Reflect over the x-axis</td><td>Multiply the function by &minus;1</td></tr>\n<tr><td>Stretch vertically by 4</td><td>Multiply the function by 4</td></tr>\n</tbody></table>\n<h3>The shift that fools everyone</h3>\n<p>Horizontal shifts run backwards, and that catches nearly every class. So y = (x &minus; 3)&sup2; moves right, not left. The minus sign looks like left, yet the graph slides the other way. Say it out loud a few times and the reflex sticks.</p>\n<h2>Exponential models from a story</h2>\n<p>Doubling and compounding show up often. If a colony doubles every 4 hours from 500, then P(t) = 500&times;2^(t/4). The base 2 is the doubling, and the t/4 counts the cycles. So match the base to the growth and the exponent to the timing. Get those two right and the model writes itself. Compound interest follows the same recipe. A 6% annual rate paid monthly splits into a monthly factor of 1.005, and the exponent becomes 12t. So a yearly story can still hide a monthly base. Read how often the growth happens, then set the exponent to count those steps.</p>\n<h2>A worked maximum</h2>\n<p>A ball follows h(t) = &minus;16t&sup2; + 48t. The peak sits at t = &minus;b/(2a) = &minus;48/(&minus;32) = 1.5. Then h(1.5) = &minus;36 + 72 = 36 feet. Notice you found the time first, then the height. That order keeps these SAT Math Nonlinear Functions practice test online items tidy.</p>\n<h3>Intercepts fall out of the form</h3>\n<p>Two points win many nonlinear questions. The y-intercept turns up when x is 0, so you simply read the constant term. The x-intercepts turn up when y is 0, so you set the function equal to zero and solve. For a parabola in factored form, the roots stare right back at you. So you rarely need a full graph; the equation already hides the key points. This matters for growth stories too, since the y-intercept is often the starting amount. Spot those anchors early and the rest of the curve behaves.</p>\n<h2>Take the free SAT Math Nonlinear Functions practice test online</h2>\n<p>Fifteen questions wait below. They span vertex form, transformations, exponential models and one rational limit. Answer them all, then press Check my score. Read the worked step for each miss, then retake after a break.</p>\n<h2>Practise the whole chapter</h2>\n<p>Hungry for more? The <a href='/shop/product/sat-math-nonlinear-functions-practice-mcqs'><strong>SAT Math &mdash; Nonlinear Functions e-book</strong></a> carries 100 MCQs across ten worksheets, each with an answer key and a full solution. For mixed timing runs, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every topic together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Nonlinear Functions Quiz",
+    "intro": "Fifteen Digital SAT-style questions on nonlinear functions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Nonlinear Functions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "For f(x) = 1x³ + 3, find f(1).",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "f(1) = 1(1)³ + 3 = 1·1 + 3 = 4."
+      },
+      {
+        "q": "The profit P, in thousands of dollars, of a company depends on the price x, in dollars, charged for its product, and is modeled by the function P(x) = -2(x - 15)² + 200. What is the maximum possible profit, in thousands of dollars?",
+        "options": [
+          "15",
+          "200",
+          "170",
+          "230"
+        ],
+        "answer": 1,
+        "explanation": "The profit function is given in vertex form, P(x) = a(x - h)² + k, where (h, k) is the vertex of the parabola. Since a = -2 is negative, the parabola opens downward, meaning the vertex represents the maximum value of the function."
+      },
+      {
+        "q": "Let f(x) = x² - 4x + 7. If the graph of f is translated 3 units to the right to produce the graph of function g, which of the following defines g(x)?",
+        "options": [
+          "g(x) = (x - 5)² - 4(x - 5) + 7",
+          "g(x) = (x + 3)² - 4(x + 3) + 7",
+          "g(x) = x² - 10x + 28",
+          "g(x) = x² - 4x + 10"
+        ],
+        "answer": 2,
+        "explanation": "A horizontal shift of 3 units to the right replaces x with (x - 3), so g(x) = f(x - 3) = (x - 3)² - 4(x - 3) + 7. Expanding gives x² - 6x + 9 - 4x + 12 + 7 = x² - 10x + 28."
+      },
+      {
+        "q": "For f(x) = 2x³ + 4, find f(-1).",
+        "options": [
+          "-2",
+          "6",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "f(-1) = 2(-1)³ + 4 = 2·-1 + 4 = 2."
+      },
+      {
+        "q": "An investment of P_0 dollars earns interest at an annual rate of 6%, compounded monthly. Which of the following functions gives the value V(t), in dollars, of the investment after t years?",
+        "options": [
+          "V(t) = P_0 (1.005)^(12t)",
+          "V(t) = P_0 (1.06)^(12t)",
+          "V(t) = P_0 (1 + (0.06)/(12))^t",
+          "V(t) = P_0 (1.005)^((t)/(12))"
+        ],
+        "answer": 0,
+        "explanation": "An annual rate of 6% compounded monthly means the monthly rate is (0.06)/(12) = 0.005, so the value is multiplied by 1.005 each month. In t years there are 12t compounding periods. Therefore V(t) = P_0(1.005)^(12t)."
+      },
+      {
+        "q": "The function f(x) = 2ˣ is reflected across the x-axis and then vertically stretched by a factor of 3 to create the function g. Which of the following defines g(x)?",
+        "options": [
+          "g(x) = 3(-2)ˣ",
+          "g(x) = -3(2ˣ)",
+          "g(x) = -2(3ˣ)",
+          "g(x) = 3(2⁻ˣ)"
+        ],
+        "answer": 1,
+        "explanation": "Reflecting a function f(x) across the x-axis results in -f(x). Thus, the reflection of f(x) = 2ˣ is -2ˣ. Stretching this vertically by a factor of 3 multiplies the entire function by 3, resulting in g(x) = -3(2ˣ)."
+      },
+      {
+        "q": "Given the rational function f(x) = (3x + 6)/(x² - 4), what is the value of f(x) as x approaches -2, given that x ≠ -2?",
+        "options": [
+          "0",
+          "3",
+          "-(3)/(4)",
+          "Undefined"
+        ],
+        "answer": 2,
+        "explanation": "First, factor the numerator and the denominator: f(x) = (3(x + 2))/((x - 2)(x + 2)). For x ≠ -2, we can cancel the common factor (x + 2) to get f(x) = (3)/(x - 2)."
+      },
+      {
+        "q": "The graph of the function y = √(x) is vertically compressed by a factor of (1)/(2), shifted 4 units to the left, and shifted 5 units up. Which equation represents the resulting function?",
+        "options": [
+          "y = (1)/(2)√(x - 4) + 5",
+          "y = 2√(x + 4) - 5",
+          "y = √((1)/(2)x + 4) + 5",
+          "y = (1)/(2)√(x + 4) + 5"
+        ],
+        "answer": 3,
+        "explanation": "Applying the transformations step by step to y = √(x): 1. Vertical compression by a factor of (1)/(2) gives y = (1)/(2)√(x). 2. Shifting 4 units to the left replaces x with (x + 4), resulting in y = (1)/(2)√(x + 4). 3."
+      },
+      {
+        "q": "A polynomial function p(x) of degree 3 has zeroes at x = -2, x = 1, and x = 4. If p(0) = 24, what is the leading coefficient of p(x)?",
+        "options": [
+          "3",
+          "-3",
+          "-1",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Since p(x) has zeroes at x = -2, x = 1, and x = 4, it can be written in factored form as p(x) = a(x + 2)(x - 1)(x - 4), where a is the leading coefficient. Substituting x = 0 gives p(0) = a(2)(-1)(-4) = 8a."
+      },
+      {
+        "q": "The graph of y = (x - 3)² is a horizontal shift of the graph of y = x² . In which direction and by how many units is the graph shifted?",
+        "options": [
+          "Left by 3 units",
+          "Right by 3 units",
+          "Up by 3 units",
+          "Down by 3 units"
+        ],
+        "answer": 1,
+        "explanation": "The equation y = (x - 3)² represents a horizontal shift of the graph of y = x² to the right by 3 units."
+      },
+      {
+        "q": "The population of a bacterial colony doubles every 4 hours. If the initial population is 500 bacteria, which of the following functions P models the population t hours from the start?",
+        "options": [
+          "P(t) = 500(2)^(4t)",
+          "P(t) = 500(4)^((t)/(2))",
+          "P(t) = 500(2)^((t)/(4))",
+          "P(t) = 500(4)^(2t)"
+        ],
+        "answer": 2,
+        "explanation": "In an exponential growth model of the form P(t) = P_0 (b)^(t / d), where P_0 is the initial amount, b is the growth factor per cycle, and d is the duration of one cycle."
+      },
+      {
+        "q": "If the graph of y = x² is shifted upward by 5 units, what is the equation of the new graph?",
+        "options": [
+          "y = (x + 5)²",
+          "y = x² - 5",
+          "y = (x - 5)²",
+          "y = x² + 5"
+        ],
+        "answer": 3,
+        "explanation": "A vertical shift upward by 5 units is represented by adding 5 to the function: y = x² + 5 ."
+      },
+      {
+        "q": "A ball is thrown upward from the ground with an initial velocity of 48 feet per second. The height h of the ball in feet after t seconds is modeled by the equation h(t) = -16t² + 48t . What is the maximum height the ball reaches?",
+        "options": [
+          "36 feet",
+          "24 feet",
+          "48 feet",
+          "72 feet"
+        ],
+        "answer": 0,
+        "explanation": "The maximum height occurs at the vertex of the parabola. The time at the vertex is t = -(b)/(2a) = -(48)/(2(-16)) = 1.5 seconds. Substituting t = 1.5 into the equation: h(1.5) = -16(1.5)² + 48(1.5) = -36 + 72 = 36 feet."
+      },
+      {
+        "q": "If the graph of y = f(x) is vertically stretched by a factor of 4, what is the equation of the transformed graph?",
+        "options": [
+          "y = f(x + 4)",
+          "y = 4f(x)",
+          "y = f(4x)",
+          "y = f(x) + 4"
+        ],
+        "answer": 1,
+        "explanation": "A vertical stretch by a factor of 4 is represented by multiplying the function by 4: y = 4f(x) ."
+      },
+      {
+        "q": "A population of bacteria doubles every 3 hours. If there are initially 1,000 bacteria, which of the following equations models the population P after t hours?",
+        "options": [
+          "P = 1000 + 2t",
+          "P = 1000(2)^t",
+          "P = 1000(2)^(t/3)",
+          "P = 1000(3)^(2t)"
+        ],
+        "answer": 2,
+        "explanation": "The population doubles every 3 hours, so the growth factor is 2, and the exponent is t/3 . Thus, the equation is P = 1000(2)^(t/3) ."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Nonlinear Functions practice test online free?",
+      "a": "Yes. Every question, the instant score and each worked step are free. The e-book then adds 100 more solved MCQs."
+    },
+    {
+      "q": "How do I read a maximum or minimum quickly?",
+      "a": "Look for vertex form, a(x &minus; h)&sup2; + k. The value k is the peak or the floor, and the sign of a tells you which one."
+    },
+    {
+      "q": "Why does (x &minus; 3)&sup2; shift right, not left?",
+      "a": "Horizontal shifts run opposite to the sign. Subtracting inside the bracket moves the graph right by 3. It feels backwards, so drill it a few times."
+    },
+    {
+      "q": "How do I set up an exponential model from words?",
+      "a": "Match the base to the growth and the exponent to the timing. A quantity that doubles every 4 hours uses base 2 with the exponent t/4."
+    },
+    {
+      "q": "Where can I get more nonlinear practice?",
+      "a": "The printable e-book in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to 750+ traps."
+    }
+  ]
+}

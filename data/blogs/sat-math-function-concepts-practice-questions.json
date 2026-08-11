@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-function-concepts-practice-questions",
+  "title": "SAT Math Function Concepts Practice Questions + Free Quiz",
+  "meta_title": "SAT Math Function Concepts Practice Questions",
+  "meta_desc": "Free SAT Math Function Concepts practice questions: 15 Digital SAT MCQs on f(x), domain, range and composition with instant answers. Start the quiz now.",
+  "excerpt": "Fifteen free SAT Math Function Concepts practice questions &mdash; notation, evaluation, domain, range and composition, each with instant scoring and a plain-English step.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-function-concepts.png",
+  "cta_product_slug": "sat-math-function-concepts-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Function Concepts practice questions",
+  "content": "<p>The letters f(x) throw more students than any hard algebra. One learner told me she froze every time she saw them. Then I called f a machine: you feed it a number, it hands one back. She never froze again. That small reframe is the heart of these <strong>SAT Math Function Concepts practice questions</strong>. Fifteen Digital SAT-style items sit below with instant answers.</p>\n<h2>Notation is just a recipe</h2>\n<p>Read f(4) as a command, not a mystery. It says put 4 wherever you see x, then simplify. So if f(x) = 8x + 6, then f(4) = 8&times;4 + 6 = 38. That is all evaluation ever asks. Practise it until your hand moves before your brain does.</p>\n<ul>\n<li>f(3) = 7 means the input 3 gives the output 7.</li>\n<li>Domain is every input the function allows.</li>\n<li>Range is every output the function can produce.</li>\n<li>Composition f(g(x)) means work the inside first, then feed the result out.</li>\n</ul>\n<h2>Domain and range without the fear</h2>\n<p>Two rules cover almost every SAT case. First, a denominator cannot be zero, so 1/(x&minus;3) bans x = 3. Second, the inside of a square root cannot go negative, so &radic;(x&minus;3) needs x &ge; 3. For range, ask how low or high the output can reach. Since x&sup2; and |x| never go below zero, their graphs sit on a clear floor.</p>\n<table><thead><tr><th>You see</th><th>Ask this</th><th>Result</th></tr></thead><tbody>\n<tr><td>1/(x &minus; 3)</td><td>What breaks the bottom?</td><td>Exclude x = 3 from the domain</td></tr>\n<tr><td>&radic;(x &minus; 3)</td><td>What keeps the inside not negative?</td><td>Domain is x &ge; 3</td></tr>\n<tr><td>x&sup2; + 5</td><td>How low can it fall?</td><td>Range is y &ge; 5</td></tr>\n</tbody></table>\n<h3>Composition, inside out</h3>\n<p>Nested functions look scary, yet they follow one order. So compute the inner value first, then hand it to the outer function. For f(g(3)), find g(3), then drop that number into f. Rush it and you invert the order, which flips the whole answer.</p>\n<h2>Reading functions from a story</h2>\n<p>The SAT loves context. A tank holds C(t) = 7t + 27 litres after t minutes, so C(7) = 76 simply says 76 litres sit there at minute seven. These SAT Math Function Concepts practice questions include that translation on purpose. Match the number to its unit and the meaning falls out. Watch the two roles carefully. The number inside the brackets is the time, and the value outside is the water. So students who swap them describe the wrong quantity entirely. Read the sentence back in plain English, and the error shows up before you commit to an option.</p>\n<h2>A caveat worth remembering</h2>\n<p>f(x) is not f times x. It is one output tied to one input. Students who blur that end up multiplying, and the answer drifts far off. So treat the brackets as a slot, never a multiplication sign.</p>\n<h3>Tables and graphs say the same thing</h3>\n<p>The SAT often gives a function as a table or a graph, not a formula. A table row of x and f(x) is just an input paired with its output. So a row where x is 2 and f(x) is 9 tells you f(2) = 9. On a graph, read up from the x-axis, then across to the height of the curve. Both views answer the same question in a different costume. So get comfortable switching between them, since the exam mixes all three forms freely. When a graph looks messy, mark two clean points and trust them. That habit keeps you steady when the formula never appears.</p>\n<h2>Take the free SAT Math Function Concepts practice questions</h2>\n<p>Fifteen items wait below. They cover evaluation, domain, range, composition and one story problem. Answer them all, then press Check my score. For every miss, read the plain-English step and try again after a short pause.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want deeper drills? The <a href='/shop/product/sat-math-function-concepts-practice-mcqs'><strong>SAT Math &mdash; Function Concepts e-book</strong></a> holds 100 MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every topic together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Function Concepts Quiz",
+    "intro": "Fifteen Digital SAT-style questions on functions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Function Concepts",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "If f(x) = 8x + 6, what is f(4)?",
+        "options": [
+          "38",
+          "18",
+          "26",
+          "80"
+        ],
+        "answer": 0,
+        "explanation": "f(4) = 8(4) + 6 = 38."
+      },
+      {
+        "q": "If f(x) = 6x² + 1, find f(4).",
+        "options": [
+          "49",
+          "97",
+          "577",
+          "95"
+        ],
+        "answer": 1,
+        "explanation": "f(4) = 6(4)² + 1 = 6·16 + 1 = 97."
+      },
+      {
+        "q": "What value of x must be excluded from the domain of f(x) = 1/(x − 3)?",
+        "options": [
+          "-3",
+          "0",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "The denominator cannot be 0: x − 3 = 0 gives x = 3, which is excluded."
+      },
+      {
+        "q": "What is the range of f(x) = |x| + 3?",
+        "options": [
+          "y ≤ 3",
+          "y > 3",
+          "all real numbers",
+          "y ≥ 3"
+        ],
+        "answer": 3,
+        "explanation": "Since |x| ≥ 0, the minimum of f is 3, so the range is y ≥ 3."
+      },
+      {
+        "q": "A tank holds C(t) = 7t + 27 liters of water after t minutes. What does C(7) = 76 mean?",
+        "options": [
+          "After 7 minutes the tank holds 76 liters",
+          "The tank fills 76 liters each minute",
+          "It takes 76 minutes to fill the tank",
+          "The tank started with 76 liters"
+        ],
+        "answer": 0,
+        "explanation": "C(t) gives liters after t minutes, so C(7) = 76 means 76 liters after 7 minutes."
+      },
+      {
+        "q": "If f(x) = 3x + 7 and g(x) = −x − 1, for what value of x does f(x) = g(x)?",
+        "options": [
+          "-1",
+          "-2",
+          "2",
+          "-8"
+        ],
+        "answer": 1,
+        "explanation": "Set them equal: 3x + 7 = -1x − 1. Then 4x = -8, so x = -2."
+      },
+      {
+        "q": "If f(x) = 3x + 5 and g(x) = 3x², what is f(g(3))?",
+        "options": [
+          "76",
+          "14",
+          "86",
+          "588"
+        ],
+        "answer": 2,
+        "explanation": "Inside first: g(3) = 3·3² = 27. Then f(27) = 3·27 + 5 = 86."
+      },
+      {
+        "q": "If f(x) = 6x + 1, what is f(-6)?",
+        "options": [
+          "1",
+          "-37",
+          "-30",
+          "-35"
+        ],
+        "answer": 3,
+        "explanation": "f(-6) = 6(-6) + 1 = -35."
+      },
+      {
+        "q": "If f(x) = 3x² + 3, find f(5).",
+        "options": [
+          "78",
+          "33",
+          "228",
+          "72"
+        ],
+        "answer": 0,
+        "explanation": "f(5) = 3(5)² + 3 = 3·25 + 3 = 78."
+      },
+      {
+        "q": "What is the domain of f(x) = √(x − 3)?",
+        "options": [
+          "x ≤ 3",
+          "x ≥ 3",
+          "x > 3",
+          "x ≥ -3"
+        ],
+        "answer": 1,
+        "explanation": "The expression under a square root must be ≥ 0: x − 3 ≥ 0, so x ≥ 3."
+      },
+      {
+        "q": "What is the range of f(x) = x² + 5?",
+        "options": [
+          "y ≤ 5",
+          "y > 5",
+          "y ≥ 5",
+          "all real numbers"
+        ],
+        "answer": 2,
+        "explanation": "Since x² ≥ 0, the smallest value of f is 5, so the range is y ≥ 5."
+      },
+      {
+        "q": "A tank holds C(t) = 4t + 27 liters of water after t minutes. What does C(3) = 39 mean?",
+        "options": [
+          "The tank fills 39 liters each minute",
+          "It takes 39 minutes to fill the tank",
+          "The tank started with 39 liters",
+          "After 3 minutes the tank holds 39 liters"
+        ],
+        "answer": 3,
+        "explanation": "C(t) gives liters after t minutes, so C(3) = 39 means 39 liters after 3 minutes."
+      },
+      {
+        "q": "If f(x) = 5x − 4 and g(x) = x + 4, for what value of x does f(x) = g(x)?",
+        "options": [
+          "2",
+          "8",
+          "-2",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Set them equal: 5x − 4 = 1x + 4. Then 4x = 8, so x = 2."
+      },
+      {
+        "q": "If f(x) = 4x + 2 and g(x) = -2x², what is f(g(-2))?",
+        "options": [
+          "-72",
+          "-30",
+          "-6",
+          "-34"
+        ],
+        "answer": 1,
+        "explanation": "Inside first: g(-2) = -2·-2² = -8. Then f(-8) = 4·-8 + 2 = -30."
+      },
+      {
+        "q": "If f(x) = 3x + 6, what is f(6)?",
+        "options": [
+          "15",
+          "12",
+          "24",
+          "36"
+        ],
+        "answer": 2,
+        "explanation": "f(6) = 3(6) + 6 = 24."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Function Concepts practice questions free?",
+      "a": "Yes. All 15 questions, the instant scoring and every step are free. The e-book then adds 100 more solved MCQs for focused work."
+    },
+    {
+      "q": "What does f(4) actually mean?",
+      "a": "It means substitute 4 for x, then simplify. So for f(x) = 8x + 6, f(4) = 38. The brackets mark a slot, not a multiply sign."
+    },
+    {
+      "q": "How do I find the domain fast?",
+      "a": "Hunt for two dangers. A denominator cannot equal zero, and a square root cannot hold a negative. Ban the values that break either rule."
+    },
+    {
+      "q": "Do I need to graph to solve these?",
+      "a": "Rarely. Most SAT function items yield to substitution and two domain rules. Sketch only when a range or turning point stays unclear."
+    },
+    {
+      "q": "Where do I get more function practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this quiz, graded from basics to exam-level."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-linear-inequalities-practice-questions",
+  "title": "SAT Math Linear Inequalities Practice Questions: 15 Free MCQs",
+  "meta_title": "SAT Math Linear Inequalities Practice Questions",
+  "meta_desc": "Free SAT Math Linear Inequalities practice questions: 15 Digital SAT MCQs with instant answers, the sign-flip rule and full solutions. Take the quiz now.",
+  "excerpt": "A free set of 15 SAT Math Linear Inequalities practice questions &mdash; Digital SAT MCQs with instant scoring, the sign-flip rule and clear number-line reading.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-linear-inequalities.png",
+  "cta_product_slug": "sat-math-linear-inequalities-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Linear Inequalities practice questions",
+  "content": "<p>Here is the mistake I flag most on inequalities. A student solves &minus;x &ge; 9, divides by &minus;1, and writes x &ge; &minus;9. The sign should have flipped. That one slip turns a right answer into a wrong one, and it costs a mark every single time. This set of <strong>SAT Math Linear Inequalities practice questions</strong> drills exactly that reflex, plus the interval and number-line reading the Digital SAT loves. Scroll down for 15 MCQs with instant scoring and full answers.</p><h2>What the Digital SAT tests in inequalities</h2><p>Inequalities solve almost like equations. So the algebra feels familiar. But two things change, and the SAT tests both. First, the direction of the sign. Second, how you report the answer &mdash; as an interval, a number line, or a smallest or largest integer.</p><ul><li>Solving one-step and two-step inequalities.</li><li>The sign flip when you multiply or divide by a negative.</li><li>Compound inequalities, like &minus;5 &le; 2x + 1 &lt; 7.</li><li>Interval notation, and open versus closed endpoints.</li><li>Word limits: at most, at least, no more than, minimum, maximum.</li></ul><h2>The one rule behind most SAT Math Linear Inequalities practice questions</h2><p>Flip the sign when, and only when, you multiply or divide both sides by a negative number. That is the whole rule. Adding or subtracting never flips it. Multiplying by a positive never flips it. So the danger sits in exactly one move, and you can watch for it every time.</p><h3>Translate the words before you solve</h3><p>SAT inequalities hide inside budgets and limits. So turn the words into a symbol first. At most means &le;, and at least means &ge;. No more than means &le;, and minimum means &ge;. Get the symbol right, and the algebra is short. Every one of these SAT Math Linear Inequalities practice questions rewards a clean translation.</p><h3>Read the endpoints carefully</h3><p>A number line gives you two clues, and both matter. A closed dot includes the value, so it means &le; or &ge;. An open dot leaves the value out, so it means &lt; or &gt;. Read each end on its own, then join them into a compound statement.</p><h2>Traps that flip a right answer to wrong</h2><p>These three catch strong students under time pressure. So slow down when you see them:</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>2(x &minus; 3) &ge; 3(x + 1)</td><td>Keep the sign after dividing by &minus;1</td><td>Flip it to x &le; &minus;9</td></tr><tr><td>Closed dot at &minus;4, open dot at 2</td><td>Use &lt; at both ends</td><td>Write &minus;4 &le; x &lt; 2</td></tr><tr><td>x &le; 8.5, largest integer</td><td>Round up to 9</td><td>Round down to 8</td></tr></tbody></table><h2>A quick worked example</h2><p>Solve &minus;5 &le; 2x + 1 &lt; 7. Work all three parts at once. First, subtract 1 everywhere: &minus;6 &le; 2x &lt; 6. Then divide every part by 2: &minus;3 &le; x &lt; 3. The sign never flipped, because 2 is positive. So the answer is every x from &minus;3 up to, but not including, 3.</p><p>One caveat worth stating plainly. A closed dot and an open dot look almost the same on a small screen, yet they change the answer. A closed dot at &minus;4 includes &minus;4. An open dot at 2 leaves 2 out. On a fast read you can swap them, so check each endpoint before you commit.</p><h3>A quick self-check</h3><p>Track one number as you go: how many times you paused on the sign flip. If it happened more than twice, that reflex is not automatic yet. So drill ten more inequalities with negative coefficients tonight, and the flip will soon feel obvious rather than risky.</p><h2>Take the free SAT Math Linear Inequalities practice questions</h2><p>The quiz below comes from our reviewed Digital SAT bank. It blends plain solves with the sign flip, compound ranges and number-line reading. Answer all fifteen, then press Check my score. For any miss, read the explanation and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more reps? The <a href='/shop/product/sat-math-linear-inequalities-practice-mcqs'><strong>SAT Math &mdash; Linear Inequalities e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a full solution. For full-length sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Linear Inequalities Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Linear Inequalities",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Which interval notation represents the solution to 2x + 1 ≥ 7 ?",
+        "options": [
+          "[3, ∞)",
+          "(3, ∞)",
+          "(-∞, 3)",
+          "(-∞, 3]"
+        ],
+        "answer": 0,
+        "explanation": "Solve 2x + 1 ≥ 7 → 2x ≥ 6 → x ≥ 3 . The interval notation is [3, ∞) ."
+      },
+      {
+        "q": "A rectangle has a perimeter of at most 40 cm. If the length is 12 cm, what is the maximum possible width?",
+        "options": [
+          "6 cm",
+          "8 cm",
+          "7 cm",
+          "9 cm"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter P = 2(l + w) ≤ 40 . Substitute l = 12 : 2(12 + w) ≤ 40 → 12 + w ≤ 20 → w ≤ 8 . The maximum width is 8 cm."
+      },
+      {
+        "q": "If 3x - 7 > 14 , what is the smallest integer value of x that satisfies the inequality?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Solve the inequality: 3x - 7 > 14 → 3x > 21 → x > 7 . The smallest integer greater than 7 is 8."
+      },
+      {
+        "q": "How many integer solutions are there for the inequality -2 ≤ x < 5 ?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "The integers from -2 to 4 (inclusive) are -2, -1, 0, 1, 2, 3, 4. There are 7 integers."
+      },
+      {
+        "q": "A student has at most 50 to spend on notebooks and pens. Each notebook costs 5, and each pen costs 2. If the student buys 4 notebooks, what is the maximum number of pens they can buy?",
+        "options": [
+          "15",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Cost of notebooks: 4 × 5 = 20 . Remaining budget: 50 - 20 = 30 . Maximum pens: 30 / 2 = 15 ."
+      },
+      {
+        "q": "Which of the following values of x satisfies the compound inequality -5 ≤ 2x + 1 < 7 ?",
+        "options": [
+          "-4",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Solve the compound inequality: -5 ≤ 2x + 1 < 7 → -6 ≤ 2x < 6 → -3 ≤ x < 3 . The only value in the options within this range is 2."
+      },
+      {
+        "q": "Which of the following represents the solution set for the inequality 2(x - 3) ≥ 3(x + 1)?",
+        "options": [
+          "x ≥ -9",
+          "x ≥ 9",
+          "x ≤ -9",
+          "x ≤ 9"
+        ],
+        "answer": 2,
+        "explanation": "Distribute: 2x - 6 ≥ 3x + 3. Subtract 3x from both sides: -x - 6 ≥ 3. Add 6: -x ≥ 9. Multiply by -1 and reverse the inequality sign: x ≤ -9."
+      },
+      {
+        "q": "A car travels at a speed of 60 km/h. If the car must travel at least 180 km in 3 hours, what is the minimum additional speed required to meet the distance constraint?",
+        "options": [
+          "10 km/h",
+          "20 km/h",
+          "30 km/h",
+          "0 km/h"
+        ],
+        "answer": 3,
+        "explanation": "Distance = speed × time: 60 × 3 = 180 km. The car already meets the minimum distance, so no additional speed is required."
+      },
+      {
+        "q": "Solve the inequality: (2x + 3)/(4) ≤ 5 . What is the maximum integer value of x that satisfies it?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Multiply both sides by 4: 2x + 3 ≤ 20 → 2x ≤ 17 → x ≤ 8.5 . The largest integer less than or equal to 8.5 is 8."
+      },
+      {
+        "q": "On a number line, a solution set is represented by a closed endpoint at -4 and an open endpoint at 2, with shading between them. Which inequality represents this?",
+        "options": [
+          "-4 < x < 2",
+          "-4 ≤ x < 2",
+          "-4 ≤ x ≤ 2",
+          "-4 < x ≤ 2"
+        ],
+        "answer": 1,
+        "explanation": "A closed endpoint means ≤ or ≥ (inclusive). An open endpoint means < or >. Thus, -4 ≤ x < 2."
+      },
+      {
+        "q": "A company requires that the number of widgets produced, W , must satisfy 100 ≤ W ≤ 200 to meet demand. If 50 widgets have already been produced, how many more widgets must be produced to meet the minimum demand?",
+        "options": [
+          "60",
+          "70",
+          "50",
+          "80"
+        ],
+        "answer": 2,
+        "explanation": "Minimum demand is 100 widgets. If 50 are already produced, 100 - 50 = 50 more are needed."
+      },
+      {
+        "q": "Solve the inequality: (2x + 3)/(4) ≤ 6 . What is the maximum integer value of x that satisfies it?",
+        "options": [
+          "8",
+          "9",
+          "11",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Multiply both sides by 4: 2x + 3 ≤ 24 → 2x ≤ 21 → x ≤ 10.5 . The maximum integer value is 10."
+      },
+      {
+        "q": "Which of the following inequalities is represented by a number line with shading to the right of 5, including 5?",
+        "options": [
+          "x ≥ 5",
+          "x > 5",
+          "x < 5",
+          "x ≤ 5"
+        ],
+        "answer": 0,
+        "explanation": "Shading to the right indicates 'greater than'. Including the point means 'or equal to'. Thus, x ≥ 5."
+      },
+      {
+        "q": "A farmer has 100 meters of fencing to enclose a rectangular garden. If the length is 30 meters, what is the maximum possible width to use all the fencing?",
+        "options": [
+          "15 meters",
+          "20 meters",
+          "25 meters",
+          "30 meters"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter P = 2(l + w) = 100 . Substitute l = 30 : 2(30 + w) = 100 → 30 + w = 50 → w = 20 ."
+      },
+      {
+        "q": "If 0.5x + 1.2 ≥ 4.7 , what is the smallest integer x that satisfies the inequality?",
+        "options": [
+          "6",
+          "8",
+          "7",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Subtract 1.2 from both sides: 0.5x ≥ 3.5 → x ≥ 7 . Because the inequality is inclusive, 7 itself qualifies, so the smallest integer solution is 7."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "When exactly do I flip the inequality sign?",
+      "a": "Only when you multiply or divide both sides by a negative number. Adding, subtracting, or multiplying by a positive never flips the direction."
+    },
+    {
+      "q": "Are these SAT Math Linear Inequalities practice questions free?",
+      "a": "Yes, all 15 are free with instant scoring and full solutions. The e-book then adds 100 more MCQs, graded from basics to exam-level traps."
+    },
+    {
+      "q": "What is the difference between an open and a closed dot?",
+      "a": "A closed dot includes the value, matching &le; or &ge;. An open dot excludes it, matching &lt; or &gt;. Read each endpoint before writing the interval."
+    },
+    {
+      "q": "How do I handle compound inequalities?",
+      "a": "Do the same step to all three parts at once. Subtract, then divide, and keep the middle variable alone. Flip only if you divide the whole line by a negative."
+    },
+    {
+      "q": "Where can I get more inequalities practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs from the same Digital SAT bank, built to push you from warm-ups to harder items."
+    }
+  ]
+}

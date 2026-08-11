@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-radical-expressions-practice-test-online",
+  "title": "SAT Math Radical Expressions Practice Test Online: 15 Free MCQs",
+  "meta_title": "SAT Math Radical Expressions Practice Test Online",
+  "meta_desc": "Free SAT Math Radical Expressions practice test online: 15 Digital SAT MCQs on simplifying roots and extraneous checks, with answers. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Radical Expressions practice test online &mdash; Digital SAT MCQs on simplifying roots and the extraneous-solution check, fully solved.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-radical-expressions.png",
+  "cta_product_slug": "sat-math-radical-expressions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Radical Expressions practice test online",
+  "content": "<p>A student solves &radic;(x + 6) = x and proudly writes x = 3 or x = &minus;2. Both look fine on paper. But only one survives a check in the original equation. That missing check is the single most common radical mistake I see. So this free <strong>SAT Math Radical Expressions practice test online</strong> drills two things together &mdash; clean simplifying and the extraneous-solution catch. Scroll down for 15 SAT-style MCQs with instant answers and solutions.</p><h2>Simplifying roots without the guesswork</h2><p>A square root simplifies when the number inside hides a perfect square. So the whole skill is spotting that hidden factor fast. Here is the toolkit the Digital SAT keeps testing:</p><ul><li>Pull out perfect squares, so &radic;72 becomes 6&radic;2.</li><li>Multiply and divide roots, because &radic;a &times; &radic;b = &radic;(ab).</li><li>Rationalise a denominator by clearing the root from the bottom.</li><li>Rewrite roots as fractional exponents, since &radic;x equals x^(1/2).</li><li>Combine like radicals, treating &radic;2 as its own unit.</li></ul><h2>Why the SAT Math Radical Expressions practice test online rewards a check</h2><p>Squaring both sides is a fair move, but it is not a free one. When you square, you can invent a solution that never worked. That false answer is the extraneous root. So every solved radical equation needs a final step, where you feed each answer back into the original. It costs ten seconds, and it saves a whole question. That is why this practice test online always asks you to verify.</p><table><thead><tr><th>Step</th><th>Weak habit</th><th>Strong habit</th></tr></thead><tbody><tr><td>Simplify &radic;50</td><td>Leave it as &radic;50</td><td>Factor 25 &times; 2, so 5&radic;2</td></tr><tr><td>Clear 3 / &radic;2</td><td>Stop with a root below</td><td>Multiply by &radic;2 / &radic;2, so (3&radic;2)/2</td></tr><tr><td>Solve &radic;(x+6) = x</td><td>Accept both answers</td><td>Check each, so only x = 3 stays</td></tr></tbody></table><h2>The traps hiding in the roots</h2><p>First, &radic;(a + b) is not &radic;a + &radic;b. That split is wrong, and the SAT counts on the reflex. Second, a root always returns the non-negative value, so &radic;(x&sup2;) is |x|, not simply x. Third, when you rationalise, multiply the top and bottom by the same root, because anything else changes the value. Keep these three straight, and radicals stop feeling slippery.</p><h2>A quick worked example</h2><p>Solve &radic;(2x + 3) = x. First, square both sides to get 2x + 3 = x&sup2;. Then move everything over, so x&sup2; &minus; 2x &minus; 3 = 0. That factors to (x &minus; 3)(x + 1) = 0, so x = 3 or x = &minus;1. Now check. The value x = 3 works, but x = &minus;1 fails the original, so it is extraneous. Final answer, x = 3.</p><h3>Build the checking habit on purpose</h3><p>Most radical errors are not maths errors. Instead, they are skipped-step errors. So make the check a fixed ritual, and never treat it as optional. After every radical equation, write the word check, and then substitute each root back yourself. Also, watch the domain from the start. A root cannot take a negative input on the SAT, so a value that breaks that rule is out before you even test it. Here is the honest trade-off. Yes, the check costs a few seconds each time. But those seconds buy certainty, and certainty is what stops silly losses on easy questions. Do this on ten equations, and the ritual becomes automatic.</p><h2>Take the free SAT Math Radical Expressions practice test online</h2><p>The 15-question quiz below comes from our reviewed Digital SAT bank. It mixes quick simplifying with the rationalising and extraneous-root items that decide scores. Answer all fifteen, and then press Check my score. For anything you miss, read the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-radical-expressions-practice-mcqs'><strong>SAT Math &mdash; Radical Expressions e-book</strong></a> carries 100 MCQs across 10 worksheets, each with an answer key and a full solution. When you want full papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "Radical Expressions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Radical Expressions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Rationalize the denominator: 6/√3.",
+        "options": [
+          "2√3",
+          "6√3",
+          "√3",
+          "3√2"
+        ],
+        "answer": 0,
+        "explanation": "Multiply numerator and denominator by √3: 6√3/3 = 2√3."
+      },
+      {
+        "q": "Simplify ∛54.",
+        "options": [
+          "2∛3",
+          "3∛2",
+          "6∛3",
+          "∛27"
+        ],
+        "answer": 1,
+        "explanation": "∛54 = ∛(27 · 2) = 3∛2."
+      },
+      {
+        "q": "Write √x as a power of x.",
+        "options": [
+          "x²",
+          "x^(−1/2)",
+          "x^(1/2)",
+          "2x"
+        ],
+        "answer": 2,
+        "explanation": "A square root is the one-half power: √x = x^(1/2)."
+      },
+      {
+        "q": "Simplify √242.",
+        "options": [
+          "121√2",
+          "11√11",
+          "22√2",
+          "11√2"
+        ],
+        "answer": 3,
+        "explanation": "√242 = √(121 · 2) = 11√2."
+      },
+      {
+        "q": "Simplify: √45 × √3.",
+        "options": [
+          "3√15",
+          "6√15",
+          "3√16",
+          "√135"
+        ],
+        "answer": 0,
+        "explanation": "√45 × √3 = √135. Pull out the largest square factor: √135 = 3√15."
+      },
+      {
+        "q": "Which expression equals 2/√2?",
+        "options": [
+          "2√2",
+          "1√2",
+          "√2",
+          "1/√2"
+        ],
+        "answer": 1,
+        "explanation": "Multiply top and bottom by √2: 2√2/2 = 1√2."
+      },
+      {
+        "q": "Which of the following expressions is equivalent to √(75x⁵y⁸) for x > 0 and y ≠ 0?",
+        "options": [
+          "15x²y⁴√(3x)",
+          "5x⁴y⁶√(3x)",
+          "5x²y⁴√(3x)",
+          "25x²y⁴√(3x)"
+        ],
+        "answer": 2,
+        "explanation": "To simplify √(75x⁵y⁸), we factor out the largest perfect squares from the coefficient and the variable terms: 1. Coefficient: 75 = 25 × 3, so √(25) = 5, leaving √(3). 2. Variable x: x⁵ = x⁴ × x, so √(x⁴) = x², leaving √(x). 3."
+      },
+      {
+        "q": "What is the solution to the equation √(3x + 1) - 2 = x - 3?",
+        "options": [
+          "x = 1 only",
+          "x = 1 and x = 5",
+          "There is no real solution.",
+          "x = 5 only"
+        ],
+        "answer": 3,
+        "explanation": "Isolate the radical: √(3x + 1) = x - 1. Squaring gives 3x + 1 = x² - 2x + 1, so x² - 5x = 0 and x = 0 or x = 5. Checking in the original equation, x = 0 gives -1 ≠ -3 (extraneous) while x = 5 gives 2 = 2 (valid). Thus x = 5 only."
+      },
+      {
+        "q": "Simplify √18 + √2.",
+        "options": [
+          "4√2",
+          "√20",
+          "3√2",
+          "2√10"
+        ],
+        "answer": 0,
+        "explanation": "√18 = 3√2, so 3√2 + √2 = 4√2."
+      },
+      {
+        "q": "Simplify (2√3)(4√6).",
+        "options": [
+          "8√9",
+          "24√2",
+          "6√2",
+          "48√2"
+        ],
+        "answer": 1,
+        "explanation": "(2√3)(4√6) = 8√18 = 8 · 3√2 = 24√2."
+      },
+      {
+        "q": "Rationalize the denominator: 1/√2.",
+        "options": [
+          "2",
+          "2√2",
+          "√2/2",
+          "1/2"
+        ],
+        "answer": 2,
+        "explanation": "Multiply numerator and denominator by √2: √2/2."
+      },
+      {
+        "q": "Simplify ∛128.",
+        "options": [
+          "8∛2",
+          "16∛2",
+          "4∛4",
+          "4∛2"
+        ],
+        "answer": 3,
+        "explanation": "∛128 = ∛(64 · 2) = 4∛2."
+      },
+      {
+        "q": "Evaluate 8^(2/3).",
+        "options": [
+          "4",
+          "16",
+          "2",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "8^(2/3) = (∛8)² = 2² = 4."
+      },
+      {
+        "q": "Simplify √500.",
+        "options": [
+          "100√5",
+          "10√5",
+          "10√50",
+          "50√5"
+        ],
+        "answer": 1,
+        "explanation": "√500 = √(100 · 5) = 10√5."
+      },
+      {
+        "q": "Simplify: √20 × √2.",
+        "options": [
+          "4√10",
+          "√40",
+          "2√10",
+          "2√11"
+        ],
+        "answer": 2,
+        "explanation": "√20 × √2 = √40. Pull out the largest square factor: √40 = 2√10."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is an extraneous solution?",
+      "a": "It is an answer that appears after you square both sides but fails in the original equation. So always substitute each solution back, and drop any that does not check."
+    },
+    {
+      "q": "How do I rationalise a denominator?",
+      "a": "Multiply the top and bottom by the root in the denominator. For 3 / &radic;2, multiply by &radic;2 / &radic;2 to get (3&radic;2)/2, which clears the root cleanly."
+    },
+    {
+      "q": "Is &radic;(a + b) ever the same as &radic;a + &radic;b?",
+      "a": "Only in the trivial case, so treat them as different in general. The SAT often tempts you with that split, and it is wrong for real numbers you will meet."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the simplify-and-check routine above, then retake this practice test online in two days."
+    },
+    {
+      "q": "Where do I get more radicals practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to harder equations."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-exponents-practice-questions",
+  "title": "SAT Math Exponents Practice Questions: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Exponents Practice Questions + Answers",
+  "meta_desc": "Free SAT Math Exponents practice questions: 15 Digital SAT MCQs with instant answers, the five laws and full solutions. Take the online quiz now.",
+  "excerpt": "A free set of 15 SAT Math Exponents practice questions &mdash; Digital SAT MCQs with instant scoring, the five exponent laws and full worked solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-exponents.png",
+  "cta_product_slug": "sat-math-exponents-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Exponents practice questions",
+  "content": "<p>Ask a class to simplify x&#8309; &times; x&#179; and most fire back x&#8312;. Good. Then the SAT wraps that same rule inside scientific notation, negative powers and a word problem, and the marks quietly leak away. This set of <strong>SAT Math Exponents practice questions</strong> fixes that gap, turning five simple laws into automatic speed. Scroll down for 15 MCQs with instant scoring and full answers.</p><h2>The five laws behind every exponent question</h2><p>Speed here comes from five rules, nothing more. So learn them cold, and the SAT questions turn into quick sight-reading. Master these, and the SAT Math Exponents practice questions below become pure speed marks.</p><ul><li>Product rule: add the powers, so x&#8309; &times; x&#179; = x&#8312;.</li><li>Quotient rule: subtract the powers when you divide.</li><li>Power of a power: multiply the powers, so (2&#179;)&#8308; = 2&#185;&#178;.</li><li>Zero power: any non-zero base to the 0 is 1.</li><li>Negative power: flip to the reciprocal, so 2&#8315;&#179; = 1/8.</li></ul><h2>Where these SAT Math Exponents practice questions get tricky</h2><p>The laws are easy. The traps are not. Negative and fractional powers cause most of the lost marks, and scientific notation causes the rest. So learn to read them at a glance.</p><h3>Fractional powers are just roots</h3><p>A power of 1/2 means a square root, and a power of 1/3 means a cube root. So 27^(1/3) is the cube root of 27, which is 3. And &radic;16 is 16^(1/2), which is 4. Read the denominator as the root, and these stop being scary.</p><h3>Scientific notation on the data modules</h3><p>The Digital SAT leans on scientific notation in its data-heavy questions. So 5.97 &times; 10&#178;&#8308; means move the decimal 24 places to the right. But a negative power moves it to the left instead. Keep the direction straight, and the conversion is mechanical. Take a grain of sand at 2.5 &times; 10&#8315;&#8310; kg. The power is negative six, so move the decimal six places left, and you get 0.0000025. Count the jumps carefully, and you will not drop a zero.</p><h2>Traps that drain exponent marks</h2><p>These three catch rushed students. So watch for them:</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>x&#8309; &times; x&#179;</td><td>Multiply the powers to get x&#185;&#8309;</td><td>Add the powers to get x&#8312;</td></tr><tr><td>2&#8315;&#179;</td><td>Write &minus;8</td><td>Flip to 1/8</td></tr><tr><td>(2&#179;)&#8308;</td><td>Add to get 2&#8311;</td><td>Multiply to get 2&#185;&#178;</td></tr></tbody></table><h2>A quick worked example</h2><p>Simplify (2&#179;)&#8308;. Multiply the powers, so you get 2&#185;&#178;. Then check it the slow way: 2&#179; = 8, and 8&#8308; = 4096. And 2&#185;&#178; = 4096 too. Same answer, so the rule holds. That is the pattern to trust under time pressure.</p><p>Here is the counter-intuitive part. A negative exponent never makes a number negative. It makes a reciprocal instead. So 2&#8315;&#179; is 1/8, a small positive number, not &minus;8. Students who rush read the minus sign as the answer&rsquo;s sign, and they lose an easy mark.</p><h3>Drill the laws until they are automatic</h3><p>Exponent marks reward speed, not depth. So the goal is not to grasp the five laws once; it is to apply them without thinking. Ten focused minutes a day for a week beats one long session. Say each rule aloud as you use it, and it soon turns into reflex.</p><h3>What score to aim for</h3><p>Set the bar at 12 out of 15 or better. If you drop below 9, the culprit is usually a negative or fractional power, not the plain laws. So return to those two rows in the table above, redo them slowly, and retake the test in two days.</p><h2>Take the free SAT Math Exponents practice questions</h2><p>The quiz below comes from our reviewed Digital SAT bank. It covers all five laws, plus negative powers, roots and scientific notation. Work through all fifteen, then press Check my score. For any miss, read the explanation and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-exponents-practice-mcqs'><strong>SAT Math &mdash; Exponents e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a step-by-step solution. When you want full-length practice, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Exponents Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Exponents",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Simplify: x⁵ · x³",
+        "options": [
+          "x⁸",
+          "x¹⁵",
+          "x²",
+          "x⁵³"
+        ],
+        "answer": 0,
+        "explanation": "When multiplying expressions with the same base, add the exponents: x⁵ · x³ = x⁵⁺³ = x⁸ . The product rule of exponents states a^m · aⁿ = a^(m+n) . This is one of the foundational laws of exponents."
+      },
+      {
+        "q": "What is the value of 5⁰ × 7⁰ × 9⁰?",
+        "options": [
+          "A 0",
+          "B 1",
+          "C 12",
+          "D 315"
+        ],
+        "answer": 1,
+        "explanation": "The zero exponent property states that any non-zero number raised to the power of 0 is 1. Therefore, 5⁰ = 1, 7⁰ = 1, and 9⁰ = 1. Multiplying these together: 1 × 1 × 1 = 1."
+      },
+      {
+        "q": "What is the value of 2⁻³?",
+        "options": [
+          "A -6",
+          "B -(1)/(6)",
+          "C (1)/(8)",
+          "D -8"
+        ],
+        "answer": 2,
+        "explanation": "A negative exponent indicates the reciprocal of the base raised to the positive exponent. Thus, 2⁻³ = (1)/(2³) = (1)/(8)\\. This extends the pattern: 2³ = 8, 2² = 4, 2¹ = 2, 2⁰ = 1, 2⁻¹ = (1)/(2) 2⁻² = (1)/(4) 2⁻³ = (1)/(8)."
+      },
+      {
+        "q": "Which of the following is equivalent to √(16)?",
+        "options": [
+          "B 16²",
+          "C 16^(-1/2)",
+          "D 16^(1/4)",
+          "A 16^(1/2)"
+        ],
+        "answer": 3,
+        "explanation": "The square root of a number is the same as that number raised to the power of 1/2. Therefore, √(16) = 16^(1/2) = 4. The other options are not equivalent: 16² = 256, 16^(-1/2) = (1)/(4) 16^(1/4) = 2."
+      },
+      {
+        "q": "The mass of Earth is approximately 5.97 × 10²⁴ kg. What is this in standard form?",
+        "options": [
+          "A 5,970,000,000,000,000,000,000,000 kg",
+          "B 597,000,000,000,000,000,000,000 kg",
+          "C 59,700,000,000,000,000,000,000 kg",
+          "D 5,970,000,000,000,000,000,000 kg"
+        ],
+        "answer": 0,
+        "explanation": "To convert 5.97 × 10²⁴ to standard form, we move the decimal point 24 places to the right. Starting with 5.97, this gives 597 followed by 22 zeros. The correct representation is 5,970,000,000,000,000,000,000,000 kg."
+      },
+      {
+        "q": "Which expression is equivalent to ¹²y⁴ ?",
+        "options": [
+          "y³",
+          "y⁸",
+          "y¹⁶",
+          "y⁴⁸"
+        ],
+        "answer": 1,
+        "explanation": "When dividing expressions with the same base, subtract the exponent in the denominator from the exponent in the numerator: ¹²y⁴ = y¹²⁻⁴ = y⁸ . The quotient rule states (a^m)/(aⁿ) = a^(m-n) for any non-zero base a ."
+      },
+      {
+        "q": "What is the value of 11¹?",
+        "options": [
+          "A 0",
+          "B 1",
+          "C 11",
+          "D 121"
+        ],
+        "answer": 2,
+        "explanation": "Any non-zero number raised to the first power equals the number itself. This is a fundamental property of exponents that serves as the basis for all other exponent rules."
+      },
+      {
+        "q": "The population of a town decreases by half every year. If the current population is 1024, what will be the population 3 years from now?",
+        "options": [
+          "B 256",
+          "C 512",
+          "D 64",
+          "A 128"
+        ],
+        "answer": 3,
+        "explanation": "A decrease by half each year means multiplying by (1)/(2) annually, or 2⁻¹\\. After 3 years: 1024 × (2⁻¹)³ = 1024 × 2⁻³ = 1024 × (1)/(8) = 128. This demonstrates exponential decay using negative exponents in a real-world context."
+      },
+      {
+        "q": "What is the value of 27^(1/3)?",
+        "options": [
+          "A 3",
+          "B 9",
+          "C 27",
+          "D 81"
+        ],
+        "answer": 0,
+        "explanation": "The expression 27^(1/3) represents the cube root of 27. Since 3³ = 27, the cube root of 27 is 3. This demonstrates the relationship between rational exponents and roots, where the denominator indicates the degree of the root."
+      },
+      {
+        "q": "Which is larger: 1 × 10³ or 9.9 × 10²?",
+        "options": [
+          "B 9.9 × 10²",
+          "A 1 × 10³",
+          "C They are equal",
+          "D Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "To compare these numbers, we can express them with the same exponent. 1 × 10³ = 10 × 10². Now we compare 10 × 10² and 9.9 × 10². Since 10 > 9.9, it follows that 10 × 10² > 9.9 × 10²."
+      },
+      {
+        "q": "Simplify: (2³)⁴",
+        "options": [
+          "2⁷",
+          "2⁶⁴",
+          "2¹²",
+          "2^(1.33)"
+        ],
+        "answer": 2,
+        "explanation": "When raising a power to another power, multiply the exponents: (2³)⁴ = 2^(3 × 4) = 2¹² . The power of a power rule states (a^m)ⁿ = a^(m · n) . To verify, 2³ = 8 , and 8⁴ = 4096 , which equals 2¹² = 4096 ."
+      },
+      {
+        "q": "A square garden has area 10⁴ m². What is its side length?",
+        "options": [
+          "A 10¹ m",
+          "C 10³ m",
+          "D 10⁴ m",
+          "B 10² m"
+        ],
+        "answer": 3,
+        "explanation": "The area of a square is the side length squared. If the area is 10⁴ square meters, then the side length s satisfies s² = 10⁴. Taking the square root of both sides gives s = √(10⁴) = (10⁴)^(1/2) = 10^(4 × 1/2) = 10² = 100 meters."
+      },
+      {
+        "q": "What is the value of 10⁻² + 10⁻¹?",
+        "options": [
+          "A 0.11",
+          "B 0.1",
+          "C 1.1",
+          "D 0.011"
+        ],
+        "answer": 0,
+        "explanation": "Convert each term to decimal form: 10⁻² = 0.01 and 10⁻¹ = 0.1. Adding these together: 0.01 + 0.1 = 0.11. This demonstrates how negative exponents represent decimal places and how to add numbers with negative exponents."
+      },
+      {
+        "q": "Which of the following is equivalent to [4]16?",
+        "options": [
+          "B 16^(1/2)",
+          "A 16^(1/4)",
+          "C 16^(-1/4)",
+          "D 16^(1/3)"
+        ],
+        "answer": 1,
+        "explanation": "The fourth root of a number is defined as that number raised to the power of 1/4. Therefore, [4]16 = 16^(1/4) = 2. The other options are not equivalent: 16^(1/2) = 4, 16^(-1/4) = (1)/(2), 16^(1/3) = [3]16."
+      },
+      {
+        "q": "The mass of a grain of sand is approximately 2.5 × 10⁻⁶ kg. What is this in standard form?",
+        "options": [
+          "B 0.000025 kg",
+          "C 0.00025 kg",
+          "A 0.0000025 kg",
+          "D 0.0025 kg"
+        ],
+        "answer": 2,
+        "explanation": "To convert 2.5 × 10⁻⁶ to standard form, we move the decimal point 6 places to the left."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What are the five exponent laws the SAT tests?",
+      "a": "Add powers when you multiply, subtract when you divide, multiply for a power of a power, treat any non-zero base to the 0 as 1, and flip a negative power to a reciprocal."
+    },
+    {
+      "q": "Are these SAT Math Exponents practice questions free?",
+      "a": "Yes, all 15 are free with instant scoring and full solutions. The e-book then adds 100 more MCQs, graded from the basic laws to harder mixed problems."
+    },
+    {
+      "q": "Does a negative exponent make a number negative?",
+      "a": "No. A negative exponent means a reciprocal, so 2 to the power &minus;3 is 1/8, a small positive number. The minus sign never lands on the final value."
+    },
+    {
+      "q": "How do fractional powers relate to roots?",
+      "a": "The denominator is the root. A power of 1/2 is a square root and a power of 1/3 is a cube root, so 27 to the power 1/3 is the cube root of 27, which is 3."
+    },
+    {
+      "q": "Where can I get more exponents practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs from this same Digital SAT bank, built to take you from the five laws to exam-level speed."
+    }
+  ]
+}

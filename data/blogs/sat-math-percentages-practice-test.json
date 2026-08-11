@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-percentages-practice-test",
+  "title": "SAT Math Percentages Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Percentages Practice Test: 15 Free MCQs",
+  "meta_desc": "Free SAT Math percentages practice test: 15 Digital SAT MCQs with instant answers, worked solutions and quick methods. Start the online quiz now.",
+  "excerpt": "A free 15-question SAT Math percentages practice test &mdash; Digital SAT-style MCQs with instant scoring, full explanations and quick reverse-percent methods.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-percentages.png",
+  "cta_product_slug": "sat-math-percentages-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math percentages practice test",
+  "content": "<p>Last year a student told me she &lsquo;hated percentages&rsquo;, then worked out a 40%-off price in her head at a store checkout before I could reach for a pen. That gap says everything about this topic. On paper it feels slippery, yet in real life you already reason with it. This free <strong>SAT Math percentages practice test</strong> closes that gap. Scroll down for 15 Digital SAT-style MCQs with instant answers and worked explanations.</p><h2>What the Digital SAT really tests in percentages</h2><p>The SAT rarely asks a bare &lsquo;what is 20% of 80&rsquo;. Instead, it wraps percentages inside money, data and growth. So you need speed on the basics and a clear head for the twists. Here is what shows up again and again:</p><ul><li>Percent of a number, and one number as a percent of another.</li><li>Percent increase and decrease, always measured against the original value.</li><li>Reverse percent &mdash; the price after a discount is given, and you find the start.</li><li>Successive changes, where a rise is followed by a fall.</li><li>Simple and compound growth over a few years.</li></ul><h2>Three ideas that unlock the SAT Math percentages practice test</h2><p>Most students do not need more formulas. They need three reliable habits. First, find 1% and scale from there; it beats memorising a table. Second, read &lsquo;of&rsquo; as multiply and &lsquo;is&rsquo; as equals, so a sentence becomes an equation. Third, divide a change by the ORIGINAL amount, never the new one. That last rule catches more students than any other.</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Up 20%, then down 20%</td><td>Assume you are back to the start</td><td>Multiply &times;1.2 then &times;0.8 = &times;0.96, a 4% fall</td></tr><tr><td>Price is &#8377;480 after 20% off</td><td>Add 20% to &#8377;480</td><td>Divide by 0.8 to get the original &#8377;600</td></tr><tr><td>Change from 50 to 60</td><td>Divide by 60</td><td>Divide the rise of 10 by the original 50 = 20%</td></tr></tbody></table><h2>Mistakes that quietly cost marks</h2><p>The discount-then-tax question trips up strong students too. A 10% discount followed by 8% tax is not a 2% change. You multiply &times;0.9 and then &times;1.08, which gives &times;0.972, a small net fall. Another trap is the &lsquo;percentage point&rsquo; wording. A rise from 30% to 45% is 15 percentage points, but a 50% increase in the rate. The SAT loves that distinction, so slow down when you see it.</p><h2>A quick worked example</h2><p>Say a jacket costs &#8377;89.60 after a 60% markup and then a 30% clearance discount. Work backwards. The sale price is 70% of the marked price, so the marked price is 89.60 &divide; 0.7 = &#8377;128. That marked price is 160% of the cost, so the cost is 128 &divide; 1.6 = &#8377;80. Notice how each step divides by a clean multiplier. That is the rhythm the SAT rewards.</p><h2>Take the free SAT Math percentages practice test</h2><p>The 15-question quiz below comes straight from our reviewed Digital SAT question bank. It mixes routine sums with the reverse-percent and successive-change twists that decide scores. Answer all fifteen, then press Check my score. For anything you miss, read the explanation and try again after a short break.</p><h2>Practise the whole chapter</h2><p>Ready for more than a quiz? The <a href='/shop/product/sat-math-percentages-practice-mcqs'><strong>SAT Math &mdash; Percentages e-book</strong></a> carries 100 MCQs across 10 worksheets, each with an answer key and a full step-by-step solution. It grades you from warm-up sums to 750+ traps. When you want full papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Percentages Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Percentages",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "An art gallery's collection increased in value by 24% over a five-year period. If the value of the collection at the end of the five years is $372,000, what was the value of the collection at the beginning of the five years?",
+        "options": [
+          "300,000",
+          "282,720",
+          "310,000",
+          "461,280"
+        ],
+        "answer": 0,
+        "explanation": "Let V be the initial value of the collection. A 24% increase means the final value is 1.24 times the initial value. Therefore, 1.24V = 372,000. Solving for V: V = (372,000)/(1.24) = 300,000."
+      },
+      {
+        "q": "A merchant sells two items for $240 each. On the first item, she makes a 20% profit on the cost price. On the second item, she incurs a 20% loss on the cost price. What is the overall profit or loss amount for the two items combined?",
+        "options": [
+          "10 loss",
+          "20 loss",
+          "No profit, no loss",
+          "20 profit"
+        ],
+        "answer": 1,
+        "explanation": "For the first item, 1.20C_1 = 240, so C_1 = 200 and the profit is $40. For the second item, 0.80C_2 = 240, so C_2 = 300 and the loss is $60."
+      },
+      {
+        "q": "The population of a town increased by 15% from 2010 to 2015, and then decreased by 10% from 2015 to 2020. What was the net percentage change in the population of the town from 2010 to 2020?",
+        "options": [
+          "+5.0%",
+          "+6.5%",
+          "+3.5%",
+          "+7.0%"
+        ],
+        "answer": 2,
+        "explanation": "Let the initial population in 2010 be P. In 2015, the population is 1.15P. In 2020, the population is 0.90 × 1.15P = 1.035P. The net multiplier is 1.035, which represents a percentage increase of (1.035 - 1) × 100% = +3.5%."
+      },
+      {
+        "q": "An initial deposit of $5,000 is placed in an account that earns interest compounded annually. After 2 years, the balance in the account is $5,832. What is the annual interest rate of the account?",
+        "options": [
+          "7.5%",
+          "8.5%",
+          "9.0%",
+          "8.0%"
+        ],
+        "answer": 3,
+        "explanation": "The formula for compound interest is A = P(1 + r)^t. Here, A = 5832, P = 5000, and t = 2. Thus, 5832 = 5000(1 + r)². Dividing both sides by 5000: (1 + r)² = (5832)/(5000) = 1.1664."
+      },
+      {
+        "q": "In a university election, 65% of the registered voters actually voted. Of those who voted, 52% voted for Candidate A. If Candidate A received 10,140 votes, how many registered voters are there in total?",
+        "options": [
+          "30,000",
+          "15,600",
+          "24,000",
+          "32,500"
+        ],
+        "answer": 0,
+        "explanation": "Let R be the total number of registered voters. The number of people who voted is 0.65R. The number of votes for Candidate A is 0.52 × (0.65R) = 10,140. Calculating 0.52 × 0.65 = 0.338, we get 0.338R = 10,140."
+      },
+      {
+        "q": "A colony of bacteria triples in population every 4 hours. By what percentage does the population increase every 12 hours?",
+        "options": [
+          "300%",
+          "2600%",
+          "800%",
+          "900%"
+        ],
+        "answer": 1,
+        "explanation": "In 12 hours there are 12 ÷ 4 = 3 tripling periods, so the population is multiplied by 3³ = 27. A final population of 27P from an initial population of P is an increase of 26P."
+      },
+      {
+        "q": "A bookstore offers a 15% discount on all books. If a customer buys a book originally priced at 80, how much will they pay after the discount?",
+        "options": [
+          "70",
+          "72",
+          "68",
+          "74"
+        ],
+        "answer": 2,
+        "explanation": "Calculate 15% of 80: 0.15 * 80 = 12. Subtract the discount from the original price: 80 - 12 = 68."
+      },
+      {
+        "q": "The total cost of an item including a regional sales tax of 8% is $324.00. If the sales tax rate increases to 10.5%, how much more will the item cost?",
+        "options": [
+          "8.10",
+          "8.50",
+          "9.00",
+          "7.50"
+        ],
+        "answer": 3,
+        "explanation": "Let P be the pre-tax price. Since 1.08P = 324.00, we get P = 300.00. At the higher rate the total cost is 300 × 1.105 = 331.50, so the item costs 331.50 - 324.00 = $7.50 more."
+      },
+      {
+        "q": "The number of students in a school increased from 400 to 480. What is the percentage increase in the number of students?",
+        "options": [
+          "20%",
+          "15%",
+          "25%",
+          "30%"
+        ],
+        "answer": 0,
+        "explanation": "Calculate the increase: 480 - 400 = 80. Then, (80 / 400) * 100 = 20%."
+      },
+      {
+        "q": "A shirt is on sale for 20% off its original price. If the sale price is 40, what was the original price?",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "55"
+        ],
+        "answer": 1,
+        "explanation": "Let the original price be P. The sale price is 80% of P: 0.80 * P = 40. Solving for P: P = 40 / 0.80 = 50."
+      },
+      {
+        "q": "A store reduced the price of a jacket from 150 to 120. What is the percentage decrease in the price?",
+        "options": [
+          "15%",
+          "25%",
+          "20%",
+          "30%"
+        ],
+        "answer": 2,
+        "explanation": "Calculate the decrease: 150 - 120 = 30. Then, (30 / 150) * 100 = 20%."
+      },
+      {
+        "q": "A state charges a 7% sales tax on all purchases. If a customer buys an item priced at 200, what is the total amount they will pay, including tax?",
+        "options": [
+          "212",
+          "216",
+          "218",
+          "214"
+        ],
+        "answer": 3,
+        "explanation": "Calculate 7% of 200: 0.07 * 200 = 14. Add the tax to the original price: 200 + 14 = 214."
+      },
+      {
+        "q": "A stock's value increased from 100 to 125. What is the percentage increase?",
+        "options": [
+          "25%",
+          "20%",
+          "30%",
+          "35%"
+        ],
+        "answer": 0,
+        "explanation": "Calculate the increase: 125 - 100 = 25. Then, (25 / 100) * 100 = 25%."
+      },
+      {
+        "q": "A bank offers a simple interest rate of 5% per annum. If a customer deposits 500, how much interest will they earn in 2 years?",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "answer": 1,
+        "explanation": "Calculate 5% of 500: 0.05 * 500 = 25 per year. For 2 years: 25 * 2 = 50."
+      },
+      {
+        "q": "In a school district, 45% of the students enrolled are in high school. If there are 3,600 high school students, how many total students are enrolled in the district?",
+        "options": [
+          "6,500",
+          "7,200",
+          "8,000",
+          "9,000"
+        ],
+        "answer": 2,
+        "explanation": "Let T represent the total number of students. We are given that 45% of T equals 3,600, which can be written as 0.45T = 3,600. Solving for T: T = (3600)/(0.45) = 8,000."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math percentages practice test really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more MCQs with full solutions for focused practice."
+    },
+    {
+      "q": "Do these questions match the Digital SAT?",
+      "a": "They follow the current Digital SAT pattern and difficulty &mdash; a mix of moderate and harder items, including reverse-percent and successive-change types."
+    },
+    {
+      "q": "Can I use a calculator?",
+      "a": "Yes. The Digital SAT allows a calculator on the whole Math section, so practise the way you will test. Still, learn the 1% method for the quick ones."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, revise the three habits above, then retake the test in two days before moving to the worksheets."
+    },
+    {
+      "q": "Where do I get more percentages practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same question bank behind this test, graded from basics to exam-level."
+    }
+  ]
+}

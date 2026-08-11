@@ -1,0 +1,209 @@
+{
+  "slug": "digital-sat-math-practice-test",
+  "title": "Digital SAT Math Practice Test: Free Full-Length Quiz",
+  "meta_title": "Digital SAT Math Practice Test: Free Quiz",
+  "meta_desc": "Take a free Digital SAT Math practice test: a timed 15-question quiz plus two-module pacing, score bands and a smart review method. Start now.",
+  "excerpt": "A free Digital SAT Math practice test with a mixed 15-question quiz &mdash; plus the two-module timing, score-band reading and review method that turn full mocks into points.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-20-practice-papers.png",
+  "cta_product_slug": "sat-math-practice-papers-1000-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "Digital SAT Math practice test",
+  "content": "<p>The first time I sat a student down for a full-length Math section, she solved the questions she reached and left six untouched. Her problem was never the algebra. It was pacing, and a full mock is the only place you feel it bite. A single <strong>Digital SAT Math practice test</strong>, taken under a real clock, teaches you more about your score than a week of loose drills. The 15-question mixed quiz below is your warm-up, so treat it as a taste of the full papers.</p>\n<h2>What a full Digital SAT Math practice test looks like</h2>\n<p>The Math section runs in two modules. Each module holds 22 questions and gives you 35 minutes, so the whole section is 44 questions in 70 minutes. Module two adapts to how you did in module one, which means the stakes sit early. A calculator stays with you the whole time, since the built-in Desmos tool never switches off. Practise with that exact shape, or test day will surprise you.</p>\n<table>\n<thead><tr><th>Stage</th><th>Questions</th><th>Time</th><th>Rough pace</th></tr></thead>\n<tbody>\n<tr><td>Module 1</td><td>22</td><td>35 min</td><td>About 95 seconds each</td></tr>\n<tr><td>Module 2 (adaptive)</td><td>22</td><td>35 min</td><td>About 95 seconds each</td></tr>\n<tr><td>Full section</td><td>44</td><td>70 min</td><td>Flag and return, never stall</td></tr>\n</tbody>\n</table>\n<h2>Timing is the skill a Digital SAT Math practice test builds</h2>\n<p>Ninety-five seconds sounds generous until a wordy problem eats three minutes. So the habit that matters most is flag-and-move. Give any single question one honest attempt, then mark it and go. You can circle back with the review tool at the end. In my experience, students who master this one move gain more points than those who grind extra content.</p>\n<h3>A simple pacing rule</h3>\n<p>Split each module into halves. Aim to reach question 11 by the 17-minute mark, and you gain a live check on your speed. Fall behind, and you speed up on the short ones. Run ahead, and you spend the cushion on the hard ones.</p>\n<h2>Reading your score, band by band</h2>\n<p>The Math section scores from 200 to 800. A raw count of correct answers maps onto that scale, and module two&rsquo;s difficulty nudges the ceiling. Here is a rough guide to read your mock result without stress.</p>\n<ul>\n<li>Under 500: shore up the core chapters first, then come back to full papers.</li>\n<li>500 to 640: timing and careless slips usually cost the most, so drill both.</li>\n<li>650 to 720: hunt the hard-module traps, especially word problems and functions.</li>\n<li>730 and up: protect it with steady mock practice and clean review.</li>\n</ul>\n<h2>Sit the mock like the real thing</h2>\n<p>A mock only works when the setting matches test day. Silence your phone, set a single timer for the module, and clear your desk. Use the same on-screen Desmos calculator you will face on the exam. Take the short break between sections, then sit straight back down. Cut these corners and your practice score will flatter you, which helps no one.</p>\n<h2>The review that turns a mock into points</h2>\n<p>A test you never review is just a mood. After each Digital SAT Math practice test, sort every miss into two piles: did not know it, or knew it and slipped. The first pile sends you back to a chapter. The second pile is pure gold, because fixing careless errors is the quickest way to climb. Rework each missed question from scratch, and do not simply reread the solution. That gap between recognising an answer and reproducing it is where real scores grow.</p>\n<h2>Build your stamina, then take the papers</h2>\n<p>Start with the mixed quiz below to warm up, then move to full timed sets. The <a href='/shop/product/sat-math-practice-papers-1000-mcqs'><strong>20 Digital SAT Math practice papers</strong></a> give you 1000 solved MCQs, each with an answer key, so you can rehearse the real pace again and again. If one chapter keeps tripping you, shore it up with the <a href='/shop/product/sat-math-linear-equations-practice-mcqs'>Linear Equations e-book</a> or the <a href='/shop/product/sat-math-quadratic-equations-practice-mcqs'>Quadratic Equations e-book</a>. You can also revise every topic free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>\n<h2>Take the free quiz now</h2>\n<p>Answer the 15 mixed questions below, press Check my score, and review each miss with the two-pile method. When you are ready for the full clock, the practice papers wait for you in the box below.</p>",
+  "quiz": {
+    "title": "Digital SAT Math Practice Test: Mixed Quiz",
+    "intro": "Fifteen mixed Digital SAT-style Math questions across algebra, functions, statistics and geometry. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Full-Length Mixed Set",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "For what value of k does the equation 4(x - 3) + kx = 2(3x - 6) - 2x have infinitely many solutions?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Expand both sides: 4x - 12 + kx = 6x - 12 - 2x, which simplifies to (4+k)x - 12 = 4x - 12. For infinitely many solutions the two sides must be identical, so 4 + k = 4, giving k = 0. Check: with k = 0 both sides equal 4x - 12."
+      },
+      {
+        "q": "A pump can drain a tank in 12 hours. A second pump can drain the same tank in 8 hours. If both pumps work together, how long will it take to drain the tank?",
+        "options": [
+          "5 hours",
+          "4.8 hours",
+          "6 hours",
+          "10 hours"
+        ],
+        "answer": 1,
+        "explanation": "Let t be the time. The rate of pump 1 is 1/12 tank/hour. Rate of pump 2 is 1/8 tank/hour. Combined rate is 1/12 + 1/8 = 2/24 + 3/24 = 5/24. Set (5/24)t = 1. t = 24/5 = 4.8."
+      },
+      {
+        "q": "If -4x = 28, what is the value of x?",
+        "options": [
+          "7",
+          "-112",
+          "-7",
+          "112"
+        ],
+        "answer": 2,
+        "explanation": "To solve the equation -4x = 28, we need to isolate x by dividing both sides by -4. This operation yields x = (28)/(-4) = -7."
+      },
+      {
+        "q": "An item is discounted by 20% and then an additional 15% off the reduced price is applied at checkout. What single discount percentage is equivalent to these two successive discounts?",
+        "options": [
+          "30%",
+          "33%",
+          "35%",
+          "32%"
+        ],
+        "answer": 3,
+        "explanation": "Let the original price be P. After a 20% discount, the price becomes 0.80P. An additional 15% off this reduced price means paying 85% of the reduced price: 0.85 × 0.80P = 0.68P."
+      },
+      {
+        "q": "A laptop is originally priced at 1,200. During a back-to-school sale, it is discounted by 25%. After the sale, the price is marked back up by 25%. What is the final price compared to the original?",
+        "options": [
+          "75 less",
+          "Same as original",
+          "150 less",
+          "75 more"
+        ],
+        "answer": 0,
+        "explanation": "First, 25% off 1,200 gives a sale price of 0.75 × 1,200 = 900. Then, a 25% markup on the sale price adds 25% of 900, which is 225, making the final price 900 + 225 = 1,125."
+      },
+      {
+        "q": "A furniture store marks up its inventory by 40% above wholesale cost. During a clearance event, the store offers a 25% discount on all marked prices. If the wholesale cost of a desk is 300, what is the clearance price?",
+        "options": [
+          "325",
+          "315",
+          "330",
+          "345"
+        ],
+        "answer": 1,
+        "explanation": "First, apply the 40% markup: 300 × 1.40 = 420 (the marked price). Then, apply the 25% discount on the marked price: the clearance price is 75% of 420. 0.75 × 420 = 315."
+      },
+      {
+        "q": "A quadratic function f(x) = ax² + bx + c has f(1) = 4, f(2) = 9, and f(3) = 18. What is the value of a?",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Set up a system using the three points. f(1) = a + b + c = 4. f(2) = 4a + 2b + c = 9. f(3) = 9a + 3b + c = 18. Subtract first from second: 3a + b = 5. Subtract second from third: 5a + b = 9. Subtract these two: 2a = 4, so a = 2."
+      },
+      {
+        "q": "The area of a rectangular floor is x² + 7x + 10 square meters. If the length is x + 5 meters, what is the width?",
+        "options": [
+          "x - 2 meters",
+          "x + 7 meters",
+          "x + 10 meters",
+          "x + 2 meters"
+        ],
+        "answer": 3,
+        "explanation": "Area = length × width, so width = Area / length = (x² + 7x + 10) / (x + 5). Factor the numerator: x² + 7x + 10 = (x + 5)(x + 2). Cancel x + 5 (assuming x ≠ -5), leaving width = x + 2 meters."
+      },
+      {
+        "q": "If (x + 5)² = 49, what is the difference between the largest and smallest solutions?",
+        "options": [
+          "14",
+          "0",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "Take the square root: x + 5 = ± 7. Solutions: x = 2 and x = -12. The largest is 2, the smallest is -12. Their difference is 2 - (-12) = 14."
+      },
+      {
+        "q": "A data set has the following numbers: 12, 15, 18, 22, 25, 30. If the number 20 is added to the set, what is the new median?",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "22"
+        ],
+        "answer": 1,
+        "explanation": "First, arrange the original set in ascending order: 12, 15, 18, 22, 25, 30. The median of this even-numbered set is the average of the 3rd and 4th numbers: (18 + 22)/2 = 20."
+      },
+      {
+        "q": "A survey recorded the number of books read by students in a month: 3, 5, 5, 6, 6, 6, 7, 8. What is the mode of this data set?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "The mode is the number that appears most frequently in the data set. In the given set 3, 5, 5, 6, 6, 6, 7, 8, the number 6 appears three times, which is more frequent than any other number."
+      },
+      {
+        "q": "The range of a set of numbers is 20. If the smallest number in the set is 5, what is the largest number in the set?",
+        "options": [
+          "20",
+          "30",
+          "35",
+          "25"
+        ],
+        "answer": 3,
+        "explanation": "The range is the difference between the largest and smallest numbers in the set. Given that the range is 20 and the smallest number is 5, the largest number can be found by adding the range to the smallest number: 5 + 20 = 25."
+      },
+      {
+        "q": "A line passes through (2, -3) and is parallel to the line y - 4 = (1)/(2)(x + 5). Which equation represents this line?",
+        "options": [
+          "y + 3 = (1)/(2)(x - 2)",
+          "y - 3 = (1)/(2)(x + 2)",
+          "y + 3 = 2(x - 2)",
+          "y - 3 = -(1)/(2)(x + 2)"
+        ],
+        "answer": 0,
+        "explanation": "The given line has slope 1/2 from its point-slope form. Parallel lines share the same slope. Using point (2, -3) and slope 1/2, point-slope form: y - (-3) = 1/2(x - 2) → y + 3 = 1/2(x - 2). Option A is correct."
+      },
+      {
+        "q": "A vertical line passes through (5, -2). What is its equation?",
+        "options": [
+          "y = -2",
+          "x = 5",
+          "y = 5",
+          "x = -2"
+        ],
+        "answer": 1,
+        "explanation": "A vertical line has an undefined slope and its equation is of the form x = constant, where the constant is the x-coordinate of any point on the line. Since it passes through (5, -2), the x-coordinate is 5. Thus, equation is x = 5."
+      },
+      {
+        "q": "The line L has equation y = mx + b. If the line passes through (2, 7) and (6, 19), what is the value of b?",
+        "options": [
+          "2",
+          "-1",
+          "1",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "First find slope m: (19 - 7)/(6 - 2) = 12/4 = 3. So y = 3x + b. Substitute (2,7): 7 = 3(2) + b → 7 = 6 + b → b = 1. Thus equation is y = 3x + 1. Option A is correct."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How long is the Digital SAT Math practice test?",
+      "a": "The real Math section is 44 questions in 70 minutes, split into two 22-question modules of 35 minutes each. A full mock should mirror that exact timing."
+    },
+    {
+      "q": "Is the Digital SAT Math section adaptive?",
+      "a": "Yes. Your performance on module one sets the difficulty of module two, so strong early accuracy raises your scoring ceiling. Treat the first module as the one that counts."
+    },
+    {
+      "q": "Can I use a calculator on the whole Math section?",
+      "a": "You can. A built-in Desmos calculator stays available for every Math question, and you may bring your own approved one too. Practise with the tool you plan to use."
+    },
+    {
+      "q": "What score should I aim for on a mock?",
+      "a": "The Math section runs from 200 to 800. Use your mock band to plan: below 500 means core-chapter work, while 650-plus means hunting hard-module traps in functions and word problems."
+    },
+    {
+      "q": "Where can I get full-length practice papers?",
+      "a": "The <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 practice papers e-book</a> linked in the box below holds 1000 solved MCQs with answer keys &mdash; timed, exam-weighted sets to rehearse the real pace."
+    }
+  ]
+}

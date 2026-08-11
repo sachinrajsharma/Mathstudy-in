@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-ratios-and-proportions-practice-test",
+  "title": "SAT Math Ratios and Proportions Practice Test + Free Quiz",
+  "meta_title": "SAT Math Ratios & Proportions Practice Test",
+  "meta_desc": "Free SAT Math Ratios and Proportions practice test: 15 Digital SAT MCQs on rates and unit price, with instant answers and solutions. Start the quiz now.",
+  "excerpt": "A free SAT Math Ratios and Proportions practice test &mdash; 15 Digital SAT-style MCQs on rates, unit price and proportional reasoning, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-ratio-and-proportion.png",
+  "cta_product_slug": "sat-math-ratios-and-proportions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Ratios and Proportions practice test",
+  "content": "<p>A recipe for 4 people needs 300 grams of rice. You are cooking for 10. How much rice? If you set up 300/4 = x/10 and solved in your head, you already think in proportions. If you froze, this is your chapter. Ratios and rates are the single most-tested skill family in SAT Problem Solving, so small gains here move your score fast. This free <strong>SAT Math Ratios and Proportions practice test</strong> gives you 15 MCQs, with instant answers below.</p>\n<h2>What ratios and proportions cover on the SAT</h2>\n<p>A ratio compares two quantities. A proportion sets two ratios equal. That is the whole idea, yet the SAT stretches it far. It asks about mixtures, maps, speeds and unit prices. So you need one clean set-up that survives any story. Here is the toolkit:</p>\n<ul><li>Writing a ratio and reducing it to lowest terms.</li><li>Solving a proportion by cross-multiplying.</li><li>Unit rates, like price per gram or miles per hour.</li><li>Scaling a recipe, a map or a mixture up or down.</li><li>Splitting a total in a given ratio.</li></ul>\n<h2>The one set-up behind the SAT Math Ratios and Proportions practice test</h2>\n<p>Most students lose marks here for one reason. They mismatch the units across the equals sign. So build a habit that never fails. Label each part of the proportion with its unit, and keep like units on the same side. First write a/b = c/d with words above the numbers. Then cross-multiply, so ad = bc. Finally solve for the unknown. In my experience coaching SAT students, careful labels fix more errors than any speed trick.</p>\n<table><thead><tr><th>The question</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>3 pens cost &#8377;45, find 7 pens</td><td>Add 4 to the price</td><td>Set 45/3 = x/7, so x = &#8377;105</td></tr><tr><td>Split 60 in the ratio 2:3</td><td>Give 2 and 3 directly</td><td>Use 5 parts, so 24 and 36</td></tr><tr><td>Faster car, same distance</td><td>Assume time also rises</td><td>Speed and time move in opposite directions</td></tr></tbody></table>\n<h3>Why unit rate is your best friend</h3>\n<p>Unit rate turns a messy comparison into a single number. Say one pack gives 12 items for &#8377;96, and another gives 8 for &#8377;60. Find the price each. The first is &#8377;8 per item, and the second is &#8377;7.50. So the second is the better buy. One number per option, then compare. That is the fastest route the SAT offers.</p>\n<h2>A trap the SAT sets on purpose</h2>\n<p>Direct and inverse proportion look alike but behave oppositely. More workers finish a job in less time, not more. So when one quantity rises and the other falls, multiply, do not divide across. Here is the counter-intuitive part: the &lsquo;more means more&rsquo; instinct is exactly what the SAT baits. Pause and ask which way the second quantity really moves.</p>\n<h2>Why this chapter moves your score most</h2>\n<p>Here is a claim I will defend. If you fix one chapter before test day, fix this one. Proportional reasoning shows up in data questions, geometry similarity, percent change and science-style word problems. So a single reliable set-up pays off again and again. The College Board leans on rates because they model real decisions, like value for money. Drill the unit-rate move until it is boring, and a whole band of medium questions turns easy. That is where quiet points live.</p>\n<h2>A quick worked example</h2>\n<p>Suppose 5 machines make 200 parts in an hour, and you want the output of 8 machines. Scale by the ratio of machines. The rate per machine is 200 divided by 5, which is 40. Then 8 machines give 8 times 40, so 320 parts. Notice the rhythm: find the unit rate, then scale. That single move handles most rate questions on the exam.</p>\n<h2>Take the free SAT Math Ratios and Proportions practice test</h2>\n<p>The 15-question quiz below is drawn straight from our reviewed Digital SAT bank. It mixes clean proportions with the unit-rate and inverse-variation twists that decide close scores. Answer all fifteen, then press Check my score. For every miss, read the solution and retry after a short break.</p>\n<h2>Keep practising the full chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-ratios-and-proportions-practice-mcqs'><strong>SAT Math &mdash; Ratios and Proportions e-book</strong></a> carries 100 solved MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Ratios and Proportions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Ratios and Proportions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "If (x)/(4) = (y)/(7) and x + y = 88, what is the value of y?",
+        "options": [
+          "56",
+          "28",
+          "32",
+          "60"
+        ],
+        "answer": 0,
+        "explanation": "Cross-multiply: 7x = 4y. From the sum, x = 88 - y. Substitute: 7(88 - y) = 4y => 616 - 7y = 4y => 616 = 11y => y = 56. Option C."
+      },
+      {
+        "q": "The distance d a car travels varies directly with the time t traveled. If the car travels 120 miles in 2 hours, how far will it travel in 5 hours?",
+        "options": [
+          "240 miles",
+          "300 miles",
+          "250 miles",
+          "360 miles"
+        ],
+        "answer": 1,
+        "explanation": "d = kt. 120 = k(2) => k = 60 mph. In 5 hours: d = 60 × 5 = 300 miles. Option C."
+      },
+      {
+        "q": "If 6 workers can build a wall in 10 days, how many days will it take 15 workers, working at the same rate, to build the same wall?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Number of workers and days vary inversely: (workers)×(days) = constant. 6×10 = 60. With 15 workers: 15 × d = 60 => d = 4 days. Option B."
+      },
+      {
+        "q": "A map has a scale of 1:50,000. If two towns are 8 cm apart on the map, what is the actual distance between them in kilometers?",
+        "options": [
+          "3 km",
+          "5 km",
+          "8 km",
+          "4 km"
+        ],
+        "answer": 3,
+        "explanation": "1 cm on map = 50,000 cm actual = 0.5 km. 8 cm => 8 × 0.5 = 4 km. Option B."
+      },
+      {
+        "q": "A water tank is filled at a rate of 5 gallons per minute. How long will it take to fill a tank that measures 3 ft × 2 ft × 1.5 ft? (1 cubic foot ≈ 7.48 gallons)",
+        "options": [
+          "13.5 min",
+          "10.5 min",
+          "15.2 min",
+          "18.0 min"
+        ],
+        "answer": 0,
+        "explanation": "Volume = 3×2×1.5 = 9 cubic feet. Gallons = 9 × 7.48 = 67.32 gallons. Time = 67.32/5 = 13.464 minutes ≈ 13.5 min. Option B."
+      },
+      {
+        "q": "The variable y is directly proportional to x. When x = 6, y = 15. What is the value of y when x = 14?",
+        "options": [
+          "30",
+          "35",
+          "42",
+          "45"
+        ],
+        "answer": 1,
+        "explanation": "Since y is directly proportional to x, we have y = kx. Plugging in the values: 15 = k(6), so k = 15/6 = 2.5. When x = 14, y = 2.5(14) = 35."
+      },
+      {
+        "q": "A printing press can produce 1,500 flyers every 20 minutes. At this rate, how many flyers can the press produce in 2.5 hours?",
+        "options": [
+          "12,500",
+          "15,000",
+          "11,250",
+          "18,750"
+        ],
+        "answer": 2,
+        "explanation": "First, find the rate per minute: 1,500 / 20 = 75 flyers per minute. There are 2.5 × 60 = 150 minutes in 2.5 hours. Total flyers = 75 × 150 = 11,250."
+      },
+      {
+        "q": "The ratio of a to b is 4:5 and the ratio of b to c is 3:2. What is the ratio of a to c?",
+        "options": [
+          "2:1",
+          "3:5",
+          "8:15",
+          "6:5"
+        ],
+        "answer": 3,
+        "explanation": "To combine the ratios, find a common value for b. The least common multiple of 5 and 3 is 15. The ratio a:b = 4:5 is equivalent to 12:15. The ratio b:c = 3:2 is equivalent to 15:10. Thus, a:b:c = 12:15:10."
+      },
+      {
+        "q": "If (2x+1)/(3) = (x+4)/(5), find the value of x.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "Cross-multiply: 5(2x+1) = 3(x+4) => 10x+5 = 3x+12 => 7x = 7 => x = 1. Option A."
+      },
+      {
+        "q": "The perimeter of a regular polygon varies directly with its side length. If a regular pentagon with side length 4 cm has perimeter 20 cm, what is the perimeter of a regular pentagon with side length 7 cm?",
+        "options": [
+          "28 cm",
+          "35 cm",
+          "30 cm",
+          "40 cm"
+        ],
+        "answer": 1,
+        "explanation": "For a regular pentagon, perimeter P = 5s. Direct variation: P = ks. 20 = k(4) => k = 5. So P = 5(7) = 35 cm. Option C."
+      },
+      {
+        "q": "The pressure P of a gas varies inversely with its volume V. If P = 80 when V = 3, find P when V = 12.",
+        "options": [
+          "15",
+          "25",
+          "20",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "P = k/V. 80 = k/3 => k = 240. Then P = 240/12 = 20. Option B."
+      },
+      {
+        "q": "A photograph is enlarged such that its area increases by a factor of 25. By what factor did its side lengths increase?",
+        "options": [
+          "10",
+          "12.5",
+          "25",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Area scales by the square of the linear scale factor. If area factor = 25, linear factor = √25 = 5. Option A."
+      },
+      {
+        "q": "A car's speedometer shows 60 mph. What is the speed in feet per second? (1 mile = 5280 feet)",
+        "options": [
+          "88",
+          "66",
+          "96",
+          "100"
+        ],
+        "answer": 0,
+        "explanation": "60 miles/hr = 60 × 5280 feet/hr = 316800 feet/hr. Divide by 3600 sec/hr: 316800/3600 = 88 feet/sec. Option B."
+      },
+      {
+        "q": "On a map, the distance between two towns is 4.5 inches. The actual distance between the towns is 135 miles. If the distance between two other towns on the same map is 6 inches, what is the actual distance, in miles, between these two towns?",
+        "options": [
+          "160",
+          "180",
+          "200",
+          "210"
+        ],
+        "answer": 1,
+        "explanation": "Set up a proportion: (4.5 inches)/(135 miles) = (6 inches)/(x miles). Cross-multiplying: 4.5x = 135 × 6 = 810. Dividing by 4.5 gives x = 180 miles."
+      },
+      {
+        "q": "A store sells laundry detergent in two sizes. A 50-ounce bottle costs 8.50, and a 120-ounce bottle costs 18.00. What is the difference in price per ounce between the two sizes?",
+        "options": [
+          "0.01",
+          "0.05",
+          "0.02",
+          "0.10"
+        ],
+        "answer": 2,
+        "explanation": "Price per ounce for 50-oz: 8.50 / 50 = 0.17. Price per ounce for 120-oz: 18.00 / 120 = 0.15. The difference is 0.17 - 0.15 = 0.02."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Ratios and Proportions practice test free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "How do I set up a proportion without slipping?",
+      "a": "Label each number with its unit and keep like units on the same side. Then cross-multiply and solve. Matching units is what stops most errors."
+    },
+    {
+      "q": "What is the difference between direct and inverse proportion?",
+      "a": "In direct proportion both quantities rise together. In inverse proportion one rises as the other falls, like more workers finishing a job in less time."
+    },
+    {
+      "q": "What score here is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the unit-rate examples above, then retake the test in two days."
+    },
+    {
+      "q": "Where do I get more practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam level."
+    }
+  ]
+}

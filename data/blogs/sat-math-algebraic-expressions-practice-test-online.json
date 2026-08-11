@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-algebraic-expressions-practice-test-online",
+  "title": "SAT Math Algebraic Expressions Practice Test Online + Answers",
+  "meta_title": "SAT Math Algebraic Expressions Practice Test Online",
+  "meta_desc": "Free SAT Math Algebraic Expressions practice test online: 15 Digital SAT MCQs on simplifying, distributing and translating, with instant answers. Start now.",
+  "excerpt": "A free SAT Math Algebraic Expressions practice test online &mdash; 15 Digital SAT-style MCQs on simplifying, distributing and word translation, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-algebraic-expressions.png",
+  "cta_product_slug": "sat-math-algebraic-expressions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Algebraic Expressions practice test online",
+  "content": "<p>&lsquo;Five less than twice a number.&rsquo; Half the students write 5 &minus; 2x. The right answer is 2x &minus; 5. That tiny flip decides a mark, and the SAT tests it constantly. Turning English into algebra is half the Digital SAT, so getting fluent with expressions pays off on nearly every question. This free <strong>SAT Math Algebraic Expressions practice test online</strong> gives you 15 MCQs to sharpen that translation, with instant answers below. Read the wording slowly, and the algebra almost writes itself.</p>\n<h2>What algebraic expressions cover on the SAT</h2>\n<p>An expression is a mix of numbers, variables and operations with no equals sign. So you build, simplify and evaluate them, but you do not solve them. That distinction matters, because the SAT phrases it carefully. Here is the ground the chapter covers:</p>\n<ul><li>Translating words into an expression.</li><li>Combining like terms without dropping a sign.</li><li>Distributing across brackets, including a negative outside.</li><li>Evaluating an expression for a given value.</li><li>Simplifying nested brackets step by step.</li></ul>\n<h2>Three habits behind the SAT Math Algebraic Expressions practice test online</h2>\n<p>Most errors here are not deep. They are careless. First, track the sign that sits in front of every term, and move it with the term. Second, distribute before you combine, so &minus;2(x &minus; 3) becomes &minus;2x + 6, not &minus;2x &minus; 6. Third, only add like terms, so x&sup2; and x never merge. In my experience coaching SAT students, sign care alone recovers more marks than any clever method.</p>\n<table><thead><tr><th>The phrase or step</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Five less than twice a number</td><td>Write 5 &minus; 2x</td><td>Write 2x &minus; 5</td></tr><tr><td>Expand &minus;3(2x &minus; 4)</td><td>Get &minus;6x &minus; 12</td><td>Get &minus;6x + 12</td></tr><tr><td>Simplify 4x + 2 + 3x</td><td>Combine 2 with an x term</td><td>Group like terms: 7x + 2</td></tr></tbody></table>\n<h3>Why sign errors dominate this chapter</h3>\n<p>A negative outside a bracket flips every term inside. So &minus;(x &minus; 7) becomes &minus;x + 7. Students who rush drop that second flip and lose the mark. The fix is boring but reliable. Distribute the sign first, before anything else. Then combine. Slow by one second, right far more often.</p>\n<h2>A trap the SAT plants in wording</h2>\n<p>Order words hide reversals. &lsquo;Less than&rsquo;, &lsquo;subtracted from&rsquo; and &lsquo;fewer than&rsquo; all reverse the order you read. So &lsquo;7 subtracted from x&rsquo; is x &minus; 7, not 7 &minus; x. Here is the counter-intuitive part: reading faster makes you slower, because a reversed set-up costs a full re-do. Underline the order words, and translate last.</p>\n<h2>Why expressions underpin the whole Math section</h2>\n<p>Here is the point students miss. Expressions are not a topic you finish and forget. They are the language every later chapter speaks. A function is just an expression with a name. Every quadratic is an expression set to zero. And each word problem is an expression waiting to be built. So fluency here is not one skill among many. It is the skill that carries the rest. Drill the translation and the sign rules until they feel automatic, and harder questions stop feeling foreign. That is the quiet edge strong scorers rely on.</p>\n<h2>A quick worked example</h2>\n<p>Evaluate 3(a &minus; 2) + 2a when a = 4. Distribute first, so you get 3a &minus; 6 + 2a. Then combine like terms into 5a &minus; 6. Now substitute, so 5 times 4 minus 6 gives 14. Notice the order: simplify, then plug in. Substituting first works too, but the tidy expression leaves far less room for a slip.</p>\n<h2>Take the free SAT Math Algebraic Expressions practice test online</h2>\n<p>The 15-question quiz below is drawn straight from our reviewed Digital SAT bank. It mixes clean simplifying with the translation and sign traps that decide close scores. Answer all fifteen, then press Check my score. For every miss, read the solution, rest a moment, and try again.</p>\n<h2>Keep practising the full chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-algebraic-expressions-practice-mcqs'><strong>SAT Math &mdash; Algebraic Expressions e-book</strong></a> carries 100 solved MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Algebraic Expressions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Algebraic Expressions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Simplify the expression: 3(2x - 4) + 5x.",
+        "options": [
+          "11x - 12",
+          "11x - 4",
+          "6x - 4",
+          "6x - 12"
+        ],
+        "answer": 0,
+        "explanation": "First, distribute the 3: 3(2x - 4) = 6x - 12. Then add the 5x: 6x - 12 + 5x = 11x - 12. The simplified expression is 11x - 12. Be careful not to add the constant to the variable term. The constant term remains -12."
+      },
+      {
+        "q": "Evaluate the expression 2a - 3b + 4 when a = 5 and b = 2.",
+        "options": [
+          "12",
+          "8",
+          "14",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "Substitute a = 5 and b = 2 into the expression: 2(5) - 3(2) + 4 = 10 - 6 + 4 = 8. Follow the order of operations: multiplication first, then addition and subtraction from left to right. 10 - 6 = 4, then 4 + 4 = 8."
+      },
+      {
+        "q": "A company produces t-shirts. The total cost, in dollars, to produce x t-shirts is given by the expression 5x + 200. What does the number 5 represent in this expression?",
+        "options": [
+          "The fixed cost to start production",
+          "The number of t-shirts produced",
+          "The cost per t-shirt",
+          "The total revenue from sales"
+        ],
+        "answer": 2,
+        "explanation": "In the linear expression 5x + 200, which represents total cost, the term 5x indicates that for each t-shirt produced, the cost increases by 5. The coefficient 5 is the rate of change, meaning it represents the cost per t-shirt."
+      },
+      {
+        "q": "The expression 7y - 4x + 9 contains several terms. Which of the following is a constant term in this expression?",
+        "options": [
+          "7y",
+          "-4x",
+          "7",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "In an algebraic expression, a constant term is a term that does not contain any variables. In 7y - 4x + 9, the term 9 has no variable attached to it, so it is a constant. The term 7 is a coefficient, not a standalone term."
+      },
+      {
+        "q": "How many terms are in the expression 5x³ - 2x² + 7x - 9?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "A term is a part of an algebraic expression separated by addition or subtraction signs. The expression 5x³ - 2x² + 7x - 9 can be written as 5x³ + (-2x²) + 7x + (-9). Counting these, we have four terms: 5x³, -2x², 7x, and -9."
+      },
+      {
+        "q": "In the expression -7x² + 3xy - 4, what is the coefficient of x²?",
+        "options": [
+          "7",
+          "-7",
+          "x²",
+          "-7x"
+        ],
+        "answer": 1,
+        "explanation": "The coefficient of a term is the numerical factor multiplied by the variable part. In the term -7x², the numerical factor is -7, and the variable part is x². Thus, the coefficient of x² is -7. Option A ignores the negative sign."
+      },
+      {
+        "q": "Which of the following is a like term to 5x²y?",
+        "options": [
+          "5xy²",
+          "5x²y²",
+          "-3x²y",
+          "10xy"
+        ],
+        "answer": 2,
+        "explanation": "Like terms have exactly the same variable factors with the same exponents. The term 5x²y has variables x (exponent 2) and y (exponent 1). For a term to be like, it must have x² and y¹."
+      },
+      {
+        "q": "Simplify: 2x + 3x - x.",
+        "options": [
+          "5x",
+          "6x",
+          "5",
+          "4x"
+        ],
+        "answer": 3,
+        "explanation": "All terms are like terms containing x. Add the coefficients: 2 + 3 - 1 = 4. Thus, the expression simplifies to 4x. Option A is correct."
+      },
+      {
+        "q": "Evaluate 2a + 3b when a = 4 and b = -1.",
+        "options": [
+          "5",
+          "11",
+          "3",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Substitute the given values into the expression: 2(4) + 3(-1) = 8 - 3 = 5. The calculation yields 5, which corresponds to option A."
+      },
+      {
+        "q": "A car rental company charges a flat fee of 30 and an additional 0.25 per mile driven. Which expression represents the total cost, in dollars, to rent a car and drive it for m miles?",
+        "options": [
+          "30m + 0.25",
+          "30 + 0.25m",
+          "0.25 + 30m",
+          "30.25m"
+        ],
+        "answer": 1,
+        "explanation": "The total cost consists of a fixed fee of 30 plus a variable charge that depends on the number of miles driven. The variable charge is 0.25 multiplied by the number of miles, m. Therefore, the expression is 30 + 0.25m."
+      },
+      {
+        "q": "In the expression 7a² - 4a + 12, what is the constant term?",
+        "options": [
+          "7",
+          "-4",
+          "12",
+          "a"
+        ],
+        "answer": 2,
+        "explanation": "A constant term is a term in an algebraic expression that has a fixed value and does not contain any variables. In 7a² - 4a + 12, the term 7a² contains the variable a raised to the power 2, and -4a contains the variable a."
+      },
+      {
+        "q": "How many terms are in the algebraic expression 5x³ - 2x² + x - 8?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Terms in an algebraic expression are the parts separated by addition or subtraction signs. The expression 5x³ - 2x² + x - 8 consists of 5x³, -2x², +x, and -8. Each is a distinct term, making a total of four terms."
+      },
+      {
+        "q": "What is the coefficient of y in the expression 3x + 4y - 7?",
+        "options": [
+          "4",
+          "3",
+          "-7",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "A coefficient is the numerical factor multiplied by the variable in a term. In the term 4y, the variable is y and the numerical part is 4. The expression 3x + 4y - 7 has a coefficient of 3 for x, 4 for y, and -7 is a constant."
+      },
+      {
+        "q": "Simplify: 2x + 5y - x + 3y. What is the coefficient of y in the simplified expression?",
+        "options": [
+          "5",
+          "8",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Combine like terms. For x terms: 2x - x = x. For y terms: 5y + 3y = 8y. The simplified expression is x + 8y. The coefficient of y is 8. Therefore, the answer is 8."
+      },
+      {
+        "q": "Simplify: 6x + 4 - 2x + 3",
+        "options": [
+          "8x + 7",
+          "4x + 1",
+          "4x + 7",
+          "8x + 1"
+        ],
+        "answer": 2,
+        "explanation": "To simplify the expression 6x + 4 - 2x + 3, we need to combine like terms. Like terms are terms that have the same variable part. First, combine the terms with x: 6x - 2x = 4x. Next, combine the constant terms: 4 + 3 = 7."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Algebraic Expressions practice test online free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "What is the difference between an expression and an equation?",
+      "a": "An expression has no equals sign, so you simplify or evaluate it. An equation has one, so you solve it. The SAT phrases the two very deliberately."
+    },
+    {
+      "q": "How do I stop making sign errors?",
+      "a": "Distribute any negative outside a bracket first, before you combine terms. So minus one times x minus 7 becomes minus x plus 7. Do that step every time."
+    },
+    {
+      "q": "What score here is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the translation table above, then retake the test in two days."
+    },
+    {
+      "q": "Where do I get more practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam level."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-financial-mathematics-practice-test-online",
+  "title": "SAT Math Financial Mathematics Practice Test Online: 15 MCQs",
+  "meta_title": "SAT Math Financial Mathematics Practice Test Online",
+  "meta_desc": "Free SAT Math Financial Mathematics practice test online: 15 Digital SAT MCQs on interest, growth, tax and discounts with instant answers. Start now.",
+  "excerpt": "A free SAT Math Financial Mathematics practice test online &mdash; 15 Digital SAT-style MCQs on simple and compound interest, tax, discounts and unit price.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-financial-mathematics.png",
+  "cta_product_slug": "sat-math-financial-mathematics-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Financial Mathematics practice test online",
+  "content": "<p>Two shoppers see the same &#8377;200 jacket: 25% off, then 10% tax. One adds the percents and calls it a wash. The other multiplies in order and pays &#8377;165. Money maths punishes shortcuts, and the SAT knows it. That is why a <strong>SAT Math Financial Mathematics practice test online</strong> leans so hard on doing steps in sequence. Scroll down for 15 Digital SAT-style MCQs with instant scoring.</p><h2>What a SAT Math Financial Mathematics practice test online covers</h2><p>The money chapter gathers a few familiar tools. Interest, growth, discounts, tax and unit price &mdash; each is small on its own. So the difficulty comes from stringing them together. Here is the working list:</p><ul><li>Simple interest with I = P&middot;r&middot;t.</li><li>Compound interest and growth as repeated multiplying.</li><li>Depreciation as a yearly percent loss.</li><li>Discount then tax, applied in order.</li><li>Commission, installments and unit-price comparisons.</li></ul><h2>Simple or compound? Read the sentence</h2><p>The words tell you which model to use. &lsquo;Per year&rsquo; on a flat amount points to simple interest. &lsquo;Compounded annually&rsquo; means each year multiplies again. So &#8377;6,000 at 5% simple grows by a flat &#8377;300 a year. The same money compounded gives &#8377;6,000 &times; 1.05&sup2; = &#8377;6,615. That extra &#8377;15 is interest on interest.</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>25% off, then 10% tax</td><td>Net it to 15% off</td><td>Multiply &times;0.75 then &times;1.10</td></tr><tr><td>Compounded for 2 years</td><td>Double the one-year interest</td><td>Multiply by (1 + r) twice</td></tr><tr><td>Best value per bottle</td><td>Compare the pack prices</td><td>Divide price by count, then compare</td></tr></tbody></table><h2>Discount then tax, worked</h2><p>Back to that jacket. First the discount: 200 &times; 0.75 = 150. Then the tax: 150 &times; 1.10 = 165. Percentages act one after another; they never simply add or cancel. So the order of the words becomes the order of your steps. That single rule clears most multi-step money items in one pass.</p><h3>Unit price settles &lsquo;better deal&rsquo;</h3><p>Bulk looks cheaper, yet the SAT hides the truth in the total. So divide. Twelve bottles for &#8377;18 is &#8377;1.50 each. Twenty bottles for &#8377;20 is &#8377;1.00 each. So the bigger pack wins by 50 paise a bottle. Always reduce to one unit before you judge.</p><h2>A caveat on rounding money</h2><p>Financial answers can carry ugly decimals. A compound figure might read 6600.0000001 on a calculator, which really means &#8377;6,600. So round to the sensible money value, and do not let a floating-point tail spook you. The exam wants the clean number, not the machine&rsquo;s noise, and that holds across a SAT Math Financial Mathematics practice test online.</p><h2>Slow down on the multi-step money stories</h2><p>The long word problems scare students more than they should. So break each one into single, clean calculations. First, underline every number and its label. Then decide the model: simple, compound, discount or commission. Handle one step, write the result, and only then start the next. In my experience, the errors come from rushing two steps into one line. Also, watch the order of discount and tax, since the words set the sequence. A quick check helps too. Does the final figure make sense next to the starting amount? A &#8377;200 jacket cannot cost &#8377;600 after a discount. So a rough estimate guards against a slipped decimal. Patience here turns a scary story into three small sums.</p><p>One last guard rail helps on test day. Keep your units steady, and keep the rupee signs consistent. A rate is a percent, a payment is money, and mixing them breeds errors. So label each line as you go. Clear labels make a long money story feel short.</p><h2>Take the free SAT Math Financial Mathematics practice test online</h2><p>The 15-question quiz below is drawn from our reviewed Digital SAT bank. It runs through simple and compound interest, depreciation, discount-then-tax, commission and unit price. Answer all fifteen, then press Check my score. For each miss, read the solution and retry after a pause.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-financial-mathematics-practice-mcqs'><strong>SAT Math &mdash; Financial Mathematics e-book</strong></a> holds 100 solved MCQs across ten worksheets, each with an answer key and full working. When you want full-length timing, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Financial Mathematics Quiz",
+    "intro": "Fifteen Digital SAT-style money-maths questions on interest, growth, tax and discounts. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Financial Mathematics",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A jacket marked at 200 is discounted 25%, and then 10% sales tax is added to the discounted price. What is the final amount paid?",
+        "options": [
+          "165",
+          "150",
+          "200",
+          "170"
+        ],
+        "answer": 0,
+        "explanation": "Discount first: 200 × 0.75 = 150. Then tax: 150 × 1.1 = 165. Percentages act one after another — they never simply add or cancel."
+      },
+      {
+        "q": "An investment of 6000 earns 5% interest, compounded annually. What is its value after 2 years?",
+        "options": [
+          "6600.000000000001",
+          "6615",
+          "615",
+          "6600"
+        ],
+        "answer": 1,
+        "explanation": "Each year multiplies by 1.05. After 2 years: 6000 × 1.05² = 6615. Simple interest would give only 6600 — the difference is interest on interest."
+      },
+      {
+        "q": "A phone is paid off in 10 equal monthly installments of 350. What is the total amount paid, in dollars?",
+        "options": [
+          "360",
+          "350",
+          "3500",
+          "3850"
+        ],
+        "answer": 2,
+        "explanation": "Total = installments × amount = 10 × 350 = 3500."
+      },
+      {
+        "q": "8500 is invested at a simple interest rate of 11% per year for 5 years. How much interest is earned, in dollars?",
+        "options": [
+          "935",
+          "13175",
+          "467.5",
+          "4675"
+        ],
+        "answer": 3,
+        "explanation": "Simple interest = P·r·t = 8500 × 11/100 × 5 = 4675."
+      },
+      {
+        "q": "A machine bought for 2000 loses 25% of its value each year. What is its value after 1 year, in dollars?",
+        "options": [
+          "1500",
+          "1975",
+          "500",
+          "1501"
+        ],
+        "answer": 0,
+        "explanation": "Value = P(1 − r) = 2000 × (1 − 25/100) = 1500."
+      },
+      {
+        "q": "A one-year loan of 4000 charges 11% simple interest. What is the total amount to be repaid, in dollars?",
+        "options": [
+          "440",
+          "4440",
+          "4000",
+          "4880"
+        ],
+        "answer": 1,
+        "explanation": "Interest = 4000 × 11/100 = 440; total repaid = 4000 + 440 = 4440."
+      },
+      {
+        "q": "A salesperson earns a base salary of 600 per week plus 4% commission on sales. In a week with 9000 in sales, what is the total pay?",
+        "options": [
+          "4200",
+          "640",
+          "960",
+          "360"
+        ],
+        "answer": 2,
+        "explanation": "Commission: 9000 × 4/100 = 360. Total pay = 600 + 360 = 960."
+      },
+      {
+        "q": "A loan of 3500 charges simple interest at 3% per year. How much interest accrues in 5 years?",
+        "options": [
+          "4025",
+          "630",
+          "105",
+          "525"
+        ],
+        "answer": 3,
+        "explanation": "Simple interest: I = Prt = 3500 × 3/100 × 5 = 525. The same amount each year, no compounding."
+      },
+      {
+        "q": "Pack A holds 12 bottles for 18; pack B holds 20 bottles for 20. How much cheaper PER BOTTLE is pack B?",
+        "options": [
+          "0.50",
+          "1.00",
+          "2.50",
+          "2.00"
+        ],
+        "answer": 0,
+        "explanation": "Pack A: 18/12 = 1.50 per bottle. Pack B: 20/20 = 1.00. Saving: 0.50 per bottle."
+      },
+      {
+        "q": "9000 is invested at 10% per year compounded annually. What is the amount after 2 years, in dollars?",
+        "options": [
+          "10800",
+          "10890",
+          "9900",
+          "10891"
+        ],
+        "answer": 1,
+        "explanation": "A = P(1 + r)^t = 9000(1 + 10/100)² = 9000 × 1.21 = 10890."
+      },
+      {
+        "q": "A town’s population is 5000 and grows 10% each year. What will the population be after 2 years?",
+        "options": [
+          "6000",
+          "5500",
+          "6050",
+          "5020"
+        ],
+        "answer": 2,
+        "explanation": "Population = P(1 + r)^t = 5000(1.10)² = 6050."
+      },
+      {
+        "q": "A phone is paid off in 11 equal monthly installments of 200. What is the total amount paid, in dollars?",
+        "options": [
+          "211",
+          "200",
+          "2400",
+          "2200"
+        ],
+        "answer": 3,
+        "explanation": "Total = installments × amount = 11 × 200 = 2200."
+      },
+      {
+        "q": "5500 is invested at a simple interest rate of 8% per year for 2 years. How much interest is earned, in dollars?",
+        "options": [
+          "880",
+          "440",
+          "6380",
+          "88"
+        ],
+        "answer": 0,
+        "explanation": "Simple interest = P·r·t = 5500 × 8/100 × 2 = 880."
+      },
+      {
+        "q": "A machine bought for 4000 loses 20% of its value each year. What is its value after 1 year, in dollars?",
+        "options": [
+          "3980",
+          "3200",
+          "800",
+          "3201"
+        ],
+        "answer": 1,
+        "explanation": "Value = P(1 − r) = 4000 × (1 − 20/100) = 3200."
+      },
+      {
+        "q": "A one-year loan of 3000 charges 6% simple interest. What is the total amount to be repaid, in dollars?",
+        "options": [
+          "180",
+          "3000",
+          "3180",
+          "3360"
+        ],
+        "answer": 2,
+        "explanation": "Interest = 3000 × 6/100 = 180; total repaid = 3000 + 180 = 3180."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Financial Mathematics practice test online free?",
+      "a": "Yes. Every question, the instant scoring and each explanation are free. The e-book then adds 100 more solved MCQs for focused revision."
+    },
+    {
+      "q": "How do I tell simple interest from compound?",
+      "a": "Read the wording. &lsquo;Per year&rsquo; on a flat amount is simple interest; &lsquo;compounded annually&rsquo; multiplies by (1 + r) again each year."
+    },
+    {
+      "q": "Do discount and tax cancel out?",
+      "a": "No. Apply them in order: multiply by 0.75 for a 25% discount, then by 1.10 for 10% tax. Percentages act one after another, never as a sum."
+    },
+    {
+      "q": "How do I compare two pack sizes?",
+      "a": "Reduce each to a unit price. Divide the total by the count, then compare. The bigger pack is not always the cheaper choice per item."
+    },
+    {
+      "q": "Where can I get more money-maths practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same reviewed bank, graded from basics to exam-level."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-quadratic-equations-practice-test",
+  "title": "SAT Math Quadratic Equations Practice Test: 15 Free MCQs",
+  "meta_title": "SAT Math Quadratic Equations Practice Test + Quiz",
+  "meta_desc": "Free SAT Math Quadratic Equations practice test: 15 Digital SAT MCQs with instant answers, worked solutions and the factor-or-formula call. Try it now.",
+  "excerpt": "A free 15-question SAT Math Quadratic Equations practice test &mdash; Digital SAT-style MCQs with instant scoring, full solutions and a fast solving plan.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-quadratic-equations.png",
+  "cta_product_slug": "sat-math-quadratic-equations-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Quadratic Equations practice test",
+  "content": "<p>Two students meet the same equation, x&sup2; + 7x + 10 = 0. One reaches straight for the quadratic formula and grinds through a square root. The other spots &minus;2 and &minus;5 in about four seconds. Same marks, very different clocks. That gap is what this free <strong>SAT Math Quadratic Equations practice test</strong> trains &mdash; not just getting the answer, but choosing the fast route. Scroll down for 15 SAT-style MCQs with instant answers and solutions.</p><h2>Factor, formula, or complete the square?</h2><p>Every quadratic offers three doors. But they are not equal in speed. So before you write anything, glance at the numbers and decide. Here is the call I teach:</p><ul><li>Try factoring first when the constant has clean factor pairs.</li><li>Use the quadratic formula when factoring stalls after one look.</li><li>Complete the square when the question asks for vertex form or a centre.</li><li>Check the discriminant when the SAT only wants the number of solutions.</li></ul><h2>What the SAT Math Quadratic Equations practice test rewards</h2><p>The Digital SAT loves the discriminant. That is the b&sup2; &minus; 4ac under the root. When it is positive, you get two real solutions. When it is zero, you get exactly one. And when it is negative, you get none that are real. So a whole question can vanish in one calculation, with no full solving at all. That is the kind of shortcut this practice test rewards.</p><table><thead><tr><th>Discriminant b&sup2; &minus; 4ac</th><th>Sign</th><th>Real solutions</th></tr></thead><tbody><tr><td>Greater than 0</td><td>Positive</td><td>Two distinct roots</td></tr><tr><td>Equal to 0</td><td>Zero</td><td>One repeated root</td></tr><tr><td>Less than 0</td><td>Negative</td><td>No real roots</td></tr></tbody></table><h2>The traps that cost easy points</h2><p>First, watch the leading coefficient. When a is not 1, you cannot just guess two numbers, because the middle term depends on a as well. Second, keep the whole numerator over 2a in the formula, since dropping the &plusmn; half loses a root. Third, respect a &lsquo;sum and product&rsquo; question. For x&sup2; + bx + c, the roots add to &minus;b and multiply to c, so you often skip solving entirely.</p><h2>A quick worked example</h2><p>Solve 2x&sup2; &minus; 5x &minus; 3 = 0. Factoring by grouping works well here. First, split &minus;5x into &minus;6x + x, because &minus;6 and 1 multiply to give 2 &times; &minus;3. Then factor pairs to get (2x + 1)(x &minus; 3) = 0. So x = &minus;&frac12; or x = 3. Notice the plan. You picked a route, and then you followed it without second-guessing.</p><h3>A ten-minute daily routine</h3><p>Consistency beats marathon sessions here. So set a small timer, and do three equations a day. Pick one that factors, one that needs the formula, and one that only asks for the discriminant. Then mark each in under a minute. Also, say the decision out loud before you write. When you name the route first, your hand stops wandering. Here is a caveat worth respecting. The formula never fails, yet it is the slow door, so treat it as a backup and not a habit. Over two weeks, that routine turns the factor-or-formula call into a reflex, and reflexes are exactly what a timed section rewards.</p><h2>Take the free SAT Math Quadratic Equations practice test</h2><p>The 15-question quiz below comes from our reviewed Digital SAT bank. It blends quick factorable equations with formula and discriminant items. Answer all fifteen, and then press Check my score. For anything you miss, read the solution and try it again after a short break.</p><h2>Practise the whole chapter</h2><p>Ready for more than a quiz? The <a href='/shop/product/sat-math-quadratic-equations-practice-mcqs'><strong>SAT Math &mdash; Quadratic Equations e-book</strong></a> carries 100 MCQs across 10 worksheets, each with an answer key and a full step-by-step solution. When you want full papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "Quadratic Equations Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Quadratic Equations",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "The area of a rectangular floor is x² + 7x + 10 square meters. If the length is x + 5 meters, what is the width?",
+        "options": [
+          "x + 2 meters",
+          "x - 2 meters",
+          "x + 7 meters",
+          "x + 10 meters"
+        ],
+        "answer": 0,
+        "explanation": "Area = length × width, so width = Area / length = (x² + 7x + 10) / (x + 5). Factor the numerator: x² + 7x + 10 = (x + 5)(x + 2). Cancel x + 5 (assuming x ≠ -5), leaving width = x + 2 meters."
+      },
+      {
+        "q": "If (x + 5)² = 49, what is the difference between the largest and smallest solutions?",
+        "options": [
+          "0",
+          "14",
+          "7",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Take the square root: x + 5 = ± 7. Solutions: x = 2 and x = -12. The largest is 2, the smallest is -12. Their difference is 2 - (-12) = 14."
+      },
+      {
+        "q": "The quadratic x² - 2mx + (m² - m + 1) = 0 has exactly one real solution. What is m?",
+        "options": [
+          "0",
+          "2",
+          "1",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "For exactly one real solution, the discriminant must be zero: (-2m)² - 4(1)(m² - m + 1) = 4m² - 4m² + 4m - 4 = 4m - 4 = 0. So m = 1. The equation becomes x² - 2x + 1 = 0, or (x-1)² = 0, with the double root x = 1."
+      },
+      {
+        "q": "The quadratic expression x² + kx + 81 is a perfect square for two values of k. What is the positive value of k?",
+        "options": [
+          "9",
+          "27",
+          "81",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "For x² + kx + 81 to be a perfect square, it must be (x + h)² = x² + 2hx + h². Thus h² = 81, so h = ± 9. Then k = 2h = ± 18. The positive value is 18. The expression becomes x² + 18x + 81 = (x+9)² or x² - 18x + 81 = (x-9)²."
+      },
+      {
+        "q": "The function f(x) = a(x - h)² + k represents a parabola with vertex (h, k). If the graph of f(x) passes through the points (0, 5) and (4, 5), and the minimum value of the function is -4, what is the value of a?",
+        "options": [
+          "2.25",
+          "4.5",
+          "9",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Since the parabola passes through (0, 5) and (4, 5), the axis of symmetry must be exactly halfway between x=0 and x=4, which is x=2. Thus, h=2. The minimum value is given as -4, so k=-4. The vertex form is f(x) = a(x - 2)² - 4."
+      },
+      {
+        "q": "If r_1 and r_2 are the roots of the equation 2x² - 10x + 7 = 0, what is the value of r_1² + r_2²?",
+        "options": [
+          "12",
+          "18",
+          "25",
+          "29"
+        ],
+        "answer": 1,
+        "explanation": "From Vieta's formulas, r_1 + r_2 = 10/2 = 5 and r_1r_2 = 7/2 = 3.5. Using the identity r_1² + r_2² = (r_1 + r_2)² - 2r_1r_2, we get 5² - 2(3.5) = 25 - 7 = 18."
+      },
+      {
+        "q": "How many real solutions does the equation 4x² + 4x + 1 = 0 have?",
+        "options": [
+          "0",
+          "2",
+          "1",
+          "Infinite"
+        ],
+        "answer": 2,
+        "explanation": "The discriminant D = 16 - 16 = 0 , indicating exactly one real solution (a repeated root)."
+      },
+      {
+        "q": "A quadratic function f(x) = ax² + bx + c has f(1) = 4, f(2) = 9, and f(3) = 18. What is the value of a?",
+        "options": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "Set up a system using the three points. f(1) = a + b + c = 4. f(2) = 4a + 2b + c = 9. f(3) = 9a + 3b + c = 18. Subtract first from second: 3a + b = 5. Subtract second from third: 5a + b = 9. Subtract these two: 2a = 4, so a = 2."
+      },
+      {
+        "q": "The equation 9x⁴ - 37x² + 4 = 0 is a quadratic in x². How many real solutions does it have?",
+        "options": [
+          "4",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Let u = x². Then 9u² - 37u + 4 = 0. Factor: (9u - 1)(u - 4) = 0. So u = (1)/(9) or u = 4. Since u = x², we have x² = (1)/(9) giving x = ± (1)/(3), and x² = 4 giving x = ± 2. All four are real solutions."
+      },
+      {
+        "q": "The equation |2x + 1| = |x - 4| can be solved by squaring both sides. What is the resulting quadratic equation?",
+        "options": [
+          "3x² + 12x - 15 = 0",
+          "Both B and C are correct",
+          "4x² + 4x + 1 = x² - 8x + 16",
+          "3x² + 12x - 15 = 0 simplified"
+        ],
+        "answer": 1,
+        "explanation": "Square both sides: (2x+1)² = (x-4)². Expand: 4x² + 4x + 1 = x² - 8x + 16. Bring all terms to one side: 3x² + 12x - 15 = 0. Divide by 3: x² + 4x - 5 = 0. Factor: (x+5)(x-1) = 0, giving x = -5 or x = 1."
+      },
+      {
+        "q": "A rectangular garden is surrounded by a 2-foot-wide path. The garden's area is 120 sq ft, and its length is 2 ft more than its width. What is the width of the garden?",
+        "options": [
+          "8 ft",
+          "12 ft",
+          "10 ft",
+          "14 ft"
+        ],
+        "answer": 2,
+        "explanation": "Let w be the width of the garden. Length = w + 2. Area = w(w+2) = 120. So w² + 2w - 120 = 0. Factor: (w+12)(w-10) = 0. Positive solution: w = 10 ft."
+      },
+      {
+        "q": "The function f(x) = -3x² + 18x - 20 has a maximum at x = p. What is f(p)?",
+        "options": [
+          "11",
+          "20",
+          "27",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Complete the square: f(x) = -3(x² - 6x) - 20 = -3(x² - 6x + 9 - 9) - 20 = -3((x-3)² - 9) - 20 = -3(x-3)² + 27 - 20 = -3(x-3)² + 7. The vertex is (3, 7), so p = 3 and f(p) = 7."
+      },
+      {
+        "q": "The expression x² + 6x + 13 can be rewritten in the form (x + m)² + n, where m and n are constants. What is the value of m + n?",
+        "options": [
+          "7",
+          "3",
+          "9",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "To complete the square for x² + 6x, take half of the x-coefficient (6/2=3) and square it (9). Add and subtract 9: (x² + 6x + 9) - 9 + 13 = (x + 3)² + 4. Thus m=3 and n=4. m+n = 3+4 = 7."
+      },
+      {
+        "q": "If the sum of the roots of the quadratic equation 3x² + nx + 5 = 0 is 4, what is the value of n?",
+        "options": [
+          "-4",
+          "-12",
+          "4",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "The sum of the roots is -b/a. Here, a=3, b=n. So, -n/3 = 4. Multiplying by -3 gives n = -12."
+      },
+      {
+        "q": "For which of the following values of c does the equation 2x² + 8x + c = 0 have no real solutions?",
+        "options": [
+          "2",
+          "6",
+          "10",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "No real solutions if b² - 4ac < 0. Here, 8² - 4(2)(c) < 0 ⇒ 64 - 8c < 0 ⇒ 64 < 8c ⇒ c > 8. Among the choices, only 10 is greater than 8."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Should I always use the quadratic formula?",
+      "a": "No. Try factoring first, because it is far quicker when the numbers are clean. Reach for the formula only when a factor pair does not appear after one honest look."
+    },
+    {
+      "q": "What does the discriminant tell me?",
+      "a": "It counts real solutions before you solve. Positive means two, zero means one repeated root, and negative means none that are real &mdash; often a full answer on its own."
+    },
+    {
+      "q": "Is completing the square worth learning?",
+      "a": "Yes, but mostly for vertex questions. When the SAT wants a turning point or a centre, completing the square gives it directly, so keep the method handy."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the factor-or-formula call above, then retake the test in two days before the worksheets."
+    },
+    {
+      "q": "Where do I get more quadratic practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to 750+ traps."
+    }
+  ]
+}
