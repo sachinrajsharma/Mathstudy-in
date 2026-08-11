@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-fractions-and-decimals-practice-test-online",
+  "title": "SAT Math Fractions and Decimals Practice Test Online + Answers",
+  "meta_title": "SAT Math Fractions & Decimals Practice Test Online",
+  "meta_desc": "Free SAT Math Fractions and Decimals practice test online: 15 Digital SAT MCQs with instant answers, conversions and worked solutions. Start the quiz now.",
+  "excerpt": "A free SAT Math Fractions and Decimals practice test online &mdash; 15 Digital SAT-style MCQs on operations, conversions and ordering, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-fractions-and-decimals.png",
+  "cta_product_slug": "sat-math-fractions-and-decimals-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Fractions and Decimals practice test online",
+  "content": "<p>A student once asked me why 1/8 is 0.125 but 1/3 &lsquo;refuses to end&rsquo;. Good question, and the SAT is built on it. Some fractions turn into clean decimals, and some run forever. Knowing which is which saves you real seconds under the clock. This free <strong>SAT Math Fractions and Decimals practice test online</strong> gives you 15 MCQs to build that fluency, with instant answers below. Speed here quietly lifts your whole Math score, because almost every other chapter leans on it.</p>\n<h2>What the SAT expects with fractions and decimals</h2>\n<p>The exam rarely asks for a plain calculation. Instead it buries fractions inside rates, ratios and data. So the four operations must be automatic, not slow. And decimals must feel like fractions in disguise. Here is the ground the chapter covers:</p>\n<ul><li>Adding and subtracting with a common denominator.</li><li>Multiplying straight across, then simplifying.</li><li>Dividing by flipping the second fraction and multiplying.</li><li>Converting between fractions, decimals and percents.</li><li>Comparing and ordering values quickly.</li></ul>\n<h2>Three moves behind the SAT Math Fractions and Decimals practice test online</h2>\n<p>Most students do not need new rules. They need cleaner habits. First, memorise the common families. The eighths give 0.125, 0.25, 0.375 and so on, and the thirds give repeating decimals. Then a conversion takes no thought. Second, never divide by a fraction directly. Flip it and multiply, every single time. Third, simplify before you multiply, not after. That keeps the numbers small and the errors rare.</p>\n<table><thead><tr><th>The question</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Divide 3/4 by 2/5</td><td>Divide top and bottom separately</td><td>Flip to 3/4 &times; 5/2 = 15/8</td></tr><tr><td>Which is larger, 5/8 or 0.6?</td><td>Guess from the digits</td><td>5/8 = 0.625, so 5/8 wins</td></tr><tr><td>Add 2/3 + 1/6</td><td>Add tops and bottoms</td><td>Use sixths: 4/6 + 1/6 = 5/6</td></tr></tbody></table>\n<h3>Why &lsquo;flip and multiply&rsquo; is non-negotiable</h3>\n<p>Division by a fraction trips up strong students under pressure. So make it mechanical. Dividing by 2/5 is the same as multiplying by 5/2. The rule never changes, so you never have to think about it. Practise it until your hand does it for you. That freed-up attention is exactly what harder questions demand.</p>\n<h2>A trap the SAT loves</h2>\n<p>Ordering mixed forms is the classic snare. A list might read 3/5, 0.58 and 62%. Students compare them in three different formats and slip. So convert everything to decimals first. Then 3/5 is 0.6, and the order is clear. Here is the counter-intuitive part: the slow-looking step of converting first is actually the fast route to the right answer.</p>\n<h2>Why fluency here pays off everywhere</h2>\n<p>Here is the part students underrate. Fractions and decimals look like the warm-up chapter, yet they feed the hard ones. Ratios need clean fraction sense. Percent problems are just fractions in another coat. Slopes, rates and probability all rest on the same skill. So the minutes you spend here come back across the whole section. In my experience coaching SAT students, the ones who drill conversions early stop losing marks to silly arithmetic. And fewer silly errors, not fancy tricks, is what nudges a 640 toward 740.</p>\n<h2>A quick worked example</h2>\n<p>Suppose you need 2/3 of 45, then a further 40% off the result. Take two clean steps. First, 2/3 of 45 is 30. Then a 40% cut leaves 60%, so multiply 30 by 0.6 to get 18. Notice the rhythm: one operation at a time, simplify as you go. The SAT rewards that patience far more than clever shortcuts.</p>\n<h2>Take the free SAT Math Fractions and Decimals practice test online</h2>\n<p>The 15-question quiz below is drawn straight from our reviewed Digital SAT bank. It mixes routine operations with the conversion and ordering traps that decide close scores. Answer all fifteen, then press Check my score. For every miss, read the solution, rest a moment, and try again.</p>\n<h2>Keep practising the full chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-fractions-and-decimals-practice-mcqs'><strong>SAT Math &mdash; Fractions and Decimals e-book</strong></a> carries 100 solved MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Fractions and Decimals Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Fractions and Decimals",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Expressed as a decimal, 1/8 is",
+        "options": [
+          "0.125",
+          "0.0125",
+          "0.25",
+          "1.25"
+        ],
+        "answer": 0,
+        "explanation": "1/8 = 125/1000 = 0.125."
+      },
+      {
+        "q": "In the number 47.2506, the digit in the ten-thousandths place is",
+        "options": [
+          "2",
+          "6",
+          "5",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "After the decimal point the places are tenths (2), hundredths (5), thousandths (0) and ten-thousandths (6)."
+      },
+      {
+        "q": "Written as a fraction in lowest terms, 0.875 equals",
+        "options": [
+          "5/8",
+          "3/4",
+          "7/8",
+          "13/16"
+        ],
+        "answer": 2,
+        "explanation": "0.875 = 875/1000 = 7/8."
+      },
+      {
+        "q": "The recurring decimal 0.666... equals",
+        "options": [
+          "1/6",
+          "1/3",
+          "5/6",
+          "2/3"
+        ],
+        "answer": 3,
+        "explanation": "0.666... = 6/9 = 2/3."
+      },
+      {
+        "q": "The difference between the larger and the smaller of the fractions 2/3 and 3/4 is",
+        "options": [
+          "1/12",
+          "1/6",
+          "1/24",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "3/4 - 2/3 = 9/12 - 8/12 = 1/12."
+      },
+      {
+        "q": "337.62 + 8.591 + 34.4 = ?",
+        "options": [
+          "370.611",
+          "380.611",
+          "380.511",
+          "426.97"
+        ],
+        "answer": 1,
+        "explanation": "337.62 + 8.591 = 346.211, and 346.211 + 34.4 = 380.611."
+      },
+      {
+        "q": "0.002 x 0.5 = ?",
+        "options": [
+          "0.0001",
+          "0.01",
+          "0.001",
+          "0.1"
+        ],
+        "answer": 2,
+        "explanation": "2 x 5 = 10, and the total number of decimal places is 3 + 1 = 4, giving 0.0010 = 0.001."
+      },
+      {
+        "q": "4.036 divided by 0.04 gives",
+        "options": [
+          "1.009",
+          "10.09",
+          "1009",
+          "100.9"
+        ],
+        "answer": 3,
+        "explanation": "4.036 / 0.04 = 403.6 / 4 = 100.9."
+      },
+      {
+        "q": "How many digits are there to the right of the decimal point in the product 0.2 x 0.02 x 0.002?",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The product is 0.000008, which has 6 digits after the decimal point."
+      },
+      {
+        "q": "3.14 x 10⁶ equals",
+        "options": [
+          "314000",
+          "3140000",
+          "31400000",
+          "314"
+        ],
+        "answer": 1,
+        "explanation": "Moving the decimal point 6 places to the right gives 3,140,000."
+      },
+      {
+        "q": "A rod 7.5 metres long is cut into pieces of 0.25 metre each. The number of pieces is",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "7.5 / 0.25 = 30 pieces."
+      },
+      {
+        "q": "Which of the following is the largest: 0.5, 0.05, 0.55, 0.505?",
+        "options": [
+          "0.5",
+          "0.505",
+          "0.05",
+          "0.55"
+        ],
+        "answer": 3,
+        "explanation": "Comparing place by place, 0.55 is the largest."
+      },
+      {
+        "q": "If 3.6 divided by 0.04 equals 90, then 36 divided by 4 equals",
+        "options": [
+          "9",
+          "90",
+          "900",
+          "0.9"
+        ],
+        "answer": 0,
+        "explanation": "36 / 4 = 9."
+      },
+      {
+        "q": "0.5 x 0.5 + 0.5 x 0.5 = ?",
+        "options": [
+          "0.25",
+          "0.5",
+          "1",
+          "0.05"
+        ],
+        "answer": 1,
+        "explanation": "0.25 + 0.25 = 0.5."
+      },
+      {
+        "q": "0.9 x 0.9 - 0.1 x 0.1 = ?",
+        "options": [
+          "0.08",
+          "8",
+          "0.8",
+          "0.88"
+        ],
+        "answer": 2,
+        "explanation": "0.81 - 0.01 = 0.8 (also (0.9 + 0.1)(0.9 - 0.1) = 1 x 0.8 = 0.8)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Fractions and Decimals practice test online free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "How do I divide by a fraction?",
+      "a": "Flip the second fraction and multiply. So dividing by 2/5 becomes multiplying by 5/2. The rule never changes, which is why it is safe under time pressure."
+    },
+    {
+      "q": "Do these match the Digital SAT?",
+      "a": "They follow the current Digital SAT pattern &mdash; a mix of quick operations and harder conversion and ordering items that hide fractions inside data."
+    },
+    {
+      "q": "What score here is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, drill the eighths and thirds families above, then retake the test in two days."
+    },
+    {
+      "q": "Where do I get more practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam level."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-surface-area-and-volume-practice-test",
+  "title": "SAT Math Surface Area and Volume Practice Test + Free Quiz",
+  "meta_title": "SAT Math Surface Area and Volume Practice Test",
+  "meta_desc": "Free SAT Math Surface Area and Volume practice test: 15 Digital SAT MCQs with instant answers and worked steps. Master every solid and start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Surface Area and Volume practice test &mdash; boxes, cylinders, cones, pyramids and spheres, each with instant scoring and worked steps.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-surface-area-and-volume.png",
+  "cta_product_slug": "sat-math-surface-area-and-volume-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Surface Area and Volume practice test",
+  "content": "<p>On the Digital SAT you get a reference sheet with every volume formula printed on it. Yet students still lose points here, and the reason surprises them. They reach for volume when the question wants the outside skin, or the reverse. Wrapping paper is surface area; the water inside is volume. This free <strong>SAT Math Surface Area and Volume practice test</strong> trains that split until it feels automatic. Fifteen worked MCQs sit below.</p>\n<h2>The six solids you must know cold</h2>\n<p>The exam reuses the same shapes. So learn their two questions each and move on. Volume fills a solid; surface area covers it.</p>\n<ul>\n<li>Box and cube: multiply the three edges for volume, add the six faces for surface area.</li>\n<li>Cylinder: volume is &pi;r&sup2;h, and it stacks circles up a height.</li>\n<li>Cone and pyramid: both carry the friendly one-third out front.</li>\n<li>Sphere: volume needs four-thirds; surface area is a clean 4&pi;r&sup2;.</li>\n</ul>\n<h2>Reading the story in this SAT Math Surface Area and Volume practice test</h2>\n<p>The wording tells you which measure to grab. So slow down for one beat and picture the object. Filling, holding or pouring points to volume. Painting, wrapping or labelling points to surface area. That single read decides the whole problem.</p>\n<table><thead><tr><th>The question mentions</th><th>Grab this</th><th>Why</th></tr></thead><tbody>\n<tr><td>Water a tank holds</td><td>Volume</td><td>You fill the inside space</td></tr>\n<tr><td>Paint for a box</td><td>Surface area</td><td>You cover the outside faces</td></tr>\n<tr><td>Label around a can</td><td>Curved surface</td><td>Only the side wraps, not the ends</td></tr>\n</tbody></table>\n<h3>Where the one-third hides</h3>\n<p>Cones and pyramids trip up fast workers. Their volume is one-third of the matching cylinder or prism. So a cone under a cylinder of the same base holds a third as much. Forget that fraction and your answer triples, which is a classic trap the SAT plants on purpose. The same idea runs in reverse. If a problem gives the cone volume and wants the cylinder, you multiply by three, not divide. So keep the one-third pointed the right way, and check whether the question moves up or down between the two shapes.</p>\n<h2>A worked example with units</h2>\n<p>Say a cube has surface area 96 cm&sup2;. A cube has six equal faces, so one face is 96 &divide; 6 = 16. Then the side is &radic;16 = 4. So the volume is 4&sup3; = 64 cm&sup3;. Notice the units shift from square to cubic, and that shift is your own answer check.</p>\n<h2>The unit-conversion twist</h2>\n<p>Volume conversions punish quick guesses. One foot is 12 inches, yet one cubic foot is 12&sup3; = 1728 cubic inches. So you cube the ratio, never just multiply by 12. Watch for this whenever a solid switches units mid-question.</p>\n<h3>Painted cubes reward a picture</h3>\n<p>Some solids items look like puzzles, not formulas. Take a 5 cm cube, painted on the outside, then cut into 1 cm cubes. The pieces with two painted faces sit along the edges, away from the corners. So each edge holds 5 &minus; 2 = 3 such cubes, and a cube has 12 edges. That gives 12 &times; 3 = 36. The corner pieces show three faces, and the middle of each face shows only one. Draw a single edge and the whole pattern appears. That small sketch beats blind counting every time, and it turns a scary question into a quick tally.</p>\n<h2>Take the free SAT Math Surface Area and Volume practice test</h2>\n<p>Fifteen questions wait below. They run from quick formula plug-ins to painted-cube counting and unit traps. Answer them all, then press Check my score. Read the worked step for every miss, and retake the set after a rest.</p>\n<h2>Practise the whole chapter</h2>\n<p>Ready for more? The <a href='/shop/product/sat-math-surface-area-and-volume-practice-mcqs'><strong>SAT Math &mdash; Surface Area and Volume e-book</strong></a> packs 100 MCQs across ten worksheets, each with an answer key and a full solution. For mixed timing work, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> pull every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Surface Area and Volume Quiz",
+    "intro": "Fifteen Digital SAT-style questions on solids. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Surface Area and Volume",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A cylinder has radius 8 and height 9. What is its volume, in terms of π?",
+        "options": [
+          "576π",
+          "144π",
+          "72π",
+          "576"
+        ],
+        "answer": 0,
+        "explanation": "Volume = πr²h = π(8)²(9) = 576π."
+      },
+      {
+        "q": "A sphere has radius 7. What is its surface area, in terms of π?",
+        "options": [
+          "49π",
+          "196π",
+          "14π",
+          "196"
+        ],
+        "answer": 1,
+        "explanation": "Surface area = 4πr² = 4π(7)² = 196π."
+      },
+      {
+        "q": "A rectangular box measures 5 by 4 by 2. What is its surface area?",
+        "options": [
+          "40",
+          "38",
+          "76",
+          "44"
+        ],
+        "answer": 2,
+        "explanation": "Surface area = 2(lw + lh + wh) = 2(20 + 10 + 8) = 76."
+      },
+      {
+        "q": "A pyramid has a square base of side 7 and height 3. What is its volume?",
+        "options": [
+          "147",
+          "21",
+          "50",
+          "49"
+        ],
+        "answer": 3,
+        "explanation": "Volume = ⅓ × base area × height = ⅓ × 49 × 3 = 49."
+      },
+      {
+        "q": "A cone has radius 3 and height 11. What is its volume, in terms of π?",
+        "options": [
+          "33π",
+          "99π",
+          "34π",
+          "66π"
+        ],
+        "answer": 0,
+        "explanation": "Volume = ⅓πr²h = ⅓π(3)²(11) = 33π."
+      },
+      {
+        "q": "A rectangular prism has a length of 8 cm, a width of 5 cm, and a height of 12 cm. If the length is doubled and the width is halved, what is the new volume of the prism?",
+        "options": [
+          "120 cm³",
+          "480 cm³",
+          "240 cm³",
+          "960 cm³"
+        ],
+        "answer": 1,
+        "explanation": "Original volume = length × width × height = 8 × 5 × 12 = 480 cm³. New dimensions: length = 16 cm, width = 2.5 cm, height = 12 cm. New volume = 16 × 2.5 × 12 = 480 cm³."
+      },
+      {
+        "q": "A cube of side length 5 cm is painted on all faces and then cut into 1 cm cubes. How many of the smaller cubes have exactly two painted faces?",
+        "options": [
+          "12",
+          "24",
+          "36",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "For a 5 cm cube, the number of smaller cubes with exactly two painted faces is 12 × (5 - 2) = 36."
+      },
+      {
+        "q": "A cube has edge length 11. What is its total surface area?",
+        "options": [
+          "1331",
+          "121",
+          "484",
+          "726"
+        ],
+        "answer": 3,
+        "explanation": "Surface area = 6 × edge² = 6 × 11² = 726."
+      },
+      {
+        "q": "A cylinder has radius 3 and height 3. What is its volume, in terms of π?",
+        "options": [
+          "27π",
+          "18π",
+          "9π",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "Volume = πr²h = π(3)²(3) = 27π."
+      },
+      {
+        "q": "A sphere has radius 9. What is its surface area, in terms of π?",
+        "options": [
+          "81π",
+          "324π",
+          "18π",
+          "324"
+        ],
+        "answer": 1,
+        "explanation": "Surface area = 4πr² = 4π(9)² = 324π."
+      },
+      {
+        "q": "A rectangular box measures 5 by 7 by 4. What is its surface area?",
+        "options": [
+          "140",
+          "83",
+          "166",
+          "64"
+        ],
+        "answer": 2,
+        "explanation": "Surface area = 2(lw + lh + wh) = 2(35 + 20 + 28) = 166."
+      },
+      {
+        "q": "A pyramid has a square base of side 6 and height 12. What is its volume?",
+        "options": [
+          "432",
+          "36",
+          "72",
+          "144"
+        ],
+        "answer": 3,
+        "explanation": "Volume = ⅓ × base area × height = ⅓ × 36 × 12 = 144."
+      },
+      {
+        "q": "A cone has radius 7 and height 9. What is its volume, in terms of π?",
+        "options": [
+          "147π",
+          "441π",
+          "148π",
+          "294π"
+        ],
+        "answer": 0,
+        "explanation": "Volume = ⅓πr²h = ⅓π(7)²(9) = 147π."
+      },
+      {
+        "q": "The surface area of a cube is 96 cm². What is the volume of the cube?",
+        "options": [
+          "16 cm³",
+          "64 cm³",
+          "32 cm³",
+          "128 cm³"
+        ],
+        "answer": 1,
+        "explanation": "Surface area of a cube = 6 × (side length)². So, 6 × s² = 96 → s² = 16 → s = 4 cm. Volume = s³ = 4³ = 64 cm³."
+      },
+      {
+        "q": "A cylinder has a volume of 250 cubic inches. What is its volume in cubic feet? (1 foot = 12 inches)",
+        "options": [
+          "0.116 cubic feet",
+          "0.174 cubic feet",
+          "0.145 cubic feet",
+          "0.208 cubic feet"
+        ],
+        "answer": 2,
+        "explanation": "1 cubic foot = 12³ = 1728 cubic inches. Volume = 250 ÷ 1728 ≈ 0.145 cubic feet."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Surface Area and Volume practice test free?",
+      "a": "Yes, fully. The 15 questions, the instant score and each worked step cost nothing. The e-book then adds 100 more solved MCQs."
+    },
+    {
+      "q": "How do I know when to use volume and when to use surface area?",
+      "a": "Read the verb. Filling, holding or pouring means volume. Painting, wrapping or labelling means surface area. Decide that first, then plug numbers in."
+    },
+    {
+      "q": "Do I need to memorise the formulas?",
+      "a": "The Digital SAT prints most of them on a reference sheet. Even so, knowing 4&pi;r&sup2; and the one-third for cones by heart saves real seconds."
+    },
+    {
+      "q": "Why did my unit conversion go wrong?",
+      "a": "You likely multiplied instead of cubing. One cubic foot is 12&sup3; = 1728 cubic inches, so always cube the length ratio for volume."
+    },
+    {
+      "q": "Where can I get more solids practice?",
+      "a": "The printable e-book in the box below holds 100 solved MCQs on all six solids. It is the same reviewed bank behind this test."
+    }
+  ]
+}

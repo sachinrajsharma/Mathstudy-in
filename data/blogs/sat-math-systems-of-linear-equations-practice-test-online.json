@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-systems-of-linear-equations-practice-test-online",
+  "title": "SAT Math Systems of Linear Equations Practice Test Online: 15 MCQs",
+  "meta_title": "SAT Math Systems of Linear Equations Practice Test Online",
+  "meta_desc": "Free SAT Math Systems of Linear Equations practice test online: 15 Digital SAT MCQs with instant answers, elimination tips and full solutions. Start now.",
+  "excerpt": "A free SAT Math Systems of Linear Equations practice test online &mdash; 15 Digital SAT MCQs with instant scoring, elimination shortcuts and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-systems-of-linear-equations.png",
+  "cta_product_slug": "sat-math-systems-of-linear-equations-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Systems of Linear Equations practice test online",
+  "content": "<p>Two lines. One question. In a session last month, a student solved a system three different ways and got three different answers, all because she rushed the setup. That is the trap here. This <strong>SAT Math Systems of Linear Equations practice test online</strong> trains a calmer path: pick one method, line the equations up, and finish in a few clean steps. Scroll down for 15 Digital SAT-style MCQs with instant scoring and full worked answers.</p><h2>What a system really asks on the Digital SAT</h2><p>A system is just two lines on a grid. So the answer is where they cross. Sometimes they meet once, sometimes never, and sometimes they sit on top of each other. The SAT tests all three, and it tests how fast you get there.</p><ul><li>Substitution, when one variable is already alone.</li><li>Elimination, when adding or subtracting cancels a variable.</li><li>One solution: the lines cross once, at different slopes.</li><li>No solution: parallel lines, same slope, different intercepts.</li><li>Infinitely many: the same line written two ways.</li></ul><h2>Two methods that carry this SAT Math Systems of Linear Equations practice test online</h2><p>You only need two tools. First, substitution. If a variable is already solved for, drop it straight into the other equation. Second, elimination. If you can add or subtract the equations to kill a variable, do that instead. Pick the method the numbers hand you, and most items on this SAT Math Systems of Linear Equations practice test online finish in three lines.</p><h3>Elimination in three lines</h3><p>Take 2x + 5y = 16 and 3x &minus; 5y = &minus;1. The y-terms are opposites, so add the two equations. That gives 5x = 15, and then x = 3. Now plug back: 2(3) + 5y = 16, so 5y = 10 and y = 2. Add first, solve second, substitute last.</p><h3>Read the special cases off the slopes</h3><p>Two lines with different slopes cross once, so there is one solution. Same slope but different intercepts means parallel lines, so no solution. Same slope and same intercept means one line, so infinitely many solutions. You can often see the case before you solve a thing.</p><h2>Traps that cost marks on systems</h2><p>These three catch strong students. So watch for them:</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>No solution, find a</td><td>Match the constants</td><td>Match the slopes, then keep constants unequal</td></tr><tr><td>y = x &minus; 1, then 2x + 3y = 12</td><td>Start elimination from scratch</td><td>Substitute the ready y straight in</td></tr><tr><td>4x &minus; 6y = 10 and 2x &minus; 3y = k</td><td>Guess k</td><td>Halve the first line, then match: k = 5</td></tr></tbody></table><h2>A quick worked example</h2><p>Solve y = x &minus; 1 with 2x + 3y = 12. Substitution is easy here, because y is already alone. So put x &minus; 1 in for y: 2x + 3(x &minus; 1) = 12. That expands to 5x &minus; 3 = 12, and then 5x = 15, so x = 3. Back-substitute: y = 3 &minus; 1 = 2. The pair (3, 2) is the crossing point.</p><p>One caveat that saves marks. Check your units before you trust an answer. In a coins or mixture problem, dollars and cents get mixed up fast, and a right method with a wrong unit still fails. So write what each variable stands for, in full, before you set the system up.</p><h3>Pick your method before you write</h3><p>Here is a habit that saves whole minutes. Before you touch the algebra, glance at both equations and decide: substitution or elimination? Commit to one. Students who switch methods halfway usually make a sign slip, so choosing first is not fussy, it is faster.</p><h2>Take the free SAT Math Systems of Linear Equations practice test online</h2><p>The quiz below comes from our reviewed Digital SAT bank. It mixes substitution, elimination and the one-none-many cases that decide scores. Work through all fifteen, then press Check my score. For any miss, read the explanation and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-systems-of-linear-equations-practice-mcqs'><strong>SAT Math &mdash; Systems of Linear Equations e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a step-by-step solution. When you want full-length practice, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Systems of Linear Equations Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Systems of Linear Equations",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "The system of equations ax + 4y = 10 and 3x - 2y = 5 has no solution. What is the value of a?",
+        "options": [
+          "-6",
+          "-3",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "For no solution, the lines must be parallel, meaning the ratios of coefficients of x and y must be equal but not equal to the ratio of the constants. a/3 = 4/-2 ⇒ a/3 = -2 ⇒ a = -6."
+      },
+      {
+        "q": "A store sells notebooks for n dollars and pens for p dollars. A student buys 3 notebooks and 5 pens for 21. A teacher buys 2 notebooks and 4 pens for 16. What is the price of one notebook?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Set up the system 3n + 5p = 21 and 2n + 4p = 16. Dividing the second equation by 2 gives n + 2p = 8, so n = 8 - 2p. Substituting into the first equation: 3(8 - 2p) + 5p = 21 ⇒ 24 - p = 21 ⇒ p = 3."
+      },
+      {
+        "q": "Line L_1 passes through (1, 3) and (5, 11). Line L_2 is parallel to L_1 and passes through (-2, 0). Which of the following is an equation of L_2?",
+        "options": [
+          "y = 2x - 2",
+          "y = -2x + 4",
+          "y = 2x + 4",
+          "y = (1)/(2)x + 1"
+        ],
+        "answer": 2,
+        "explanation": "Slope of L_1: m = (11-3)/(5-1) = (8)/(4) = 2. Parallel line has same slope. Through (-2,0): y - 0 = 2(x + 2) ⇒ y = 2x + 4. This is option A."
+      },
+      {
+        "q": "A piggy bank contains nickels and dimes, totaling 40 coins with a value of 3.10. If n is the number of nickels and d the number of dimes, which system represents the situation?",
+        "options": [
+          "n+d=40, 10n+5d=310",
+          "n+d=310, 5n+10d=40",
+          "n+d=40, 0.05n+0.10d=310",
+          "n+d=40, 5n+10d=310"
+        ],
+        "answer": 3,
+        "explanation": "Total coins: n+d = 40. Value in cents: 5n + 10d = 310. This matches option A. Note: option D uses dollars but right side 310 is in cents, so inconsistent units."
+      },
+      {
+        "q": "Solve: 5x - 2y = 11 \\\\ 3x + 4y = 1 . What is x?",
+        "options": [
+          "2",
+          "-1",
+          "1",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Add equations: 7x = 21 => x = 3. Option D."
+      },
+      {
+        "q": "A chemist mixes a 10% acid solution with a 30% acid solution to obtain 200 mL of a 25% acid solution. How much of the 10% solution is used?",
+        "options": [
+          "75 mL",
+          "50 mL",
+          "100 mL",
+          "125 mL"
+        ],
+        "answer": 1,
+        "explanation": "Let x = amount of 10%, y = amount of 30%. x + y = 200. Acid: 0.10x + 0.30y = 0.25*200 = 50. Multiply second by 10: x + 3y = 500. Subtract first: (x+3y) - (x+y) = 500 - 200 => 2y = 300 => y = 150, x = 50. Option A."
+      },
+      {
+        "q": "Given the system of equations 2x + 3y = 12 and y = x - 1, what is the value of x + y?",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Substitute y = x - 1 into 2x + 3y = 12: 2x + 3(x - 1) = 12 ⇒ 2x + 3x - 3 = 12 ⇒ 5x = 15 ⇒ x = 3. Then y = 3 - 1 = 2. Therefore, x + y = 3 + 2 = 5."
+      },
+      {
+        "q": "For what value of k does the system 4x - 6y = 10 and 2x - 3y = k have infinitely many solutions?",
+        "options": [
+          "2",
+          "10",
+          "20",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "For infinitely many solutions, the lines must be coincident. Dividing the first equation by 2 gives 2x - 3y = 5. Thus k must be 5."
+      },
+      {
+        "q": "A chemist has a 10% acid solution and a 30% acid solution. How many liters of the 10% solution are needed to mix with the 30% solution to get 10 liters of a 25% acid solution?",
+        "options": [
+          "2.5",
+          "1.5",
+          "3.5",
+          "4.5"
+        ],
+        "answer": 0,
+        "explanation": "Let x be liters of 10% and y be liters of 30%. x+y=10 and 0.1x + 0.3y = 0.25(10) = 2.5. From first, y = 10-x. Substitute: 0.1x + 0.3(10-x) = 2.5 → 0.1x + 3 - 0.3x = 2.5 → -0.2x = -0.5 → x = 2.5."
+      },
+      {
+        "q": "A line passes through the points (a, 0) and (0, b), where a > 0 and b < 0. Which of the following must be true about the slope and y-intercept?",
+        "options": [
+          "Slope is positive, y-intercept is positive",
+          "Slope is positive, y-intercept is negative",
+          "Slope is negative, y-intercept is negative",
+          "Slope is negative, y-intercept is positive"
+        ],
+        "answer": 1,
+        "explanation": "The y-intercept is (0,b) and b < 0, so y-intercept is negative. The slope m = (b - 0)/(0 - a) = (b)/(-a) = -(b)/(a). Since b < 0, -(b)/(a) > 0. Thus slope is positive. Option A is correct."
+      },
+      {
+        "q": "Solve: (x)/(2) + (y)/(3) = 1 \\\\ y = 3x - 6 . What is x?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Substitute y: (x)/(2) + (3x-6)/(3) = 1 => (x)/(2) + x - 2 = 1 => (3x)/(2) = 3 => x = 2. Option A."
+      },
+      {
+        "q": "Given 2x + 5y = 16 and 3x - 5y = -1, find x - y.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Add: 5x=25 => x=5. Then 2(5)+5y=15 => 10+5y=15 => 5y=5 => y=1. x-y=4. Option D."
+      },
+      {
+        "q": "A boat travels 24 miles upstream in 4 hours and downstream in 3 hours. If the boat's speed in still water is b mph and the current's speed is c mph, which system models this situation?",
+        "options": [
+          "4(b-c)=24, 3(b+c)=24",
+          "4(b+c)=24, 3(b-c)=24",
+          "4b + 3c = 24, 3b - 4c = 24",
+          "(24)/(b+c)=4, (24)/(b-c)=3"
+        ],
+        "answer": 0,
+        "explanation": "Upstream speed = b - c, time = 4h, distance = 24: 4(b - c) = 24. Downstream speed = b + c, time = 3h: 3(b + c) = 24. Option B matches. Option D is equivalent but arranged differently. But B is standard form."
+      },
+      {
+        "q": "The lines y = 2x + 1 and y = -x + 4 intersect at point (x, y). What is the y-coordinate of the intersection point?",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "2x + 1 = -x + 4 → 3x = 3 → x = 1. y = 2(1) + 1 = 3."
+      },
+      {
+        "q": "Which of the following systems has exactly one solution?",
+        "options": [
+          "x + y = 2 and 2x + 2y = 4",
+          "x + y = 2 and x + y = 3",
+          "x + y = 2 and x - y = 4",
+          "2x + 3y = 5 and 4x + 6y = 11"
+        ],
+        "answer": 2,
+        "explanation": "A is infinitely many. B is no solution. D is no solution. C has different slopes (1/-1 ≠ 1/1), hence exactly one solution."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Should I use substitution or elimination?",
+      "a": "Let the numbers decide. If one variable is already alone, substitute. If adding or subtracting the equations cancels a variable, eliminate. Pick the shorter path."
+    },
+    {
+      "q": "Is this SAT Math Systems of Linear Equations practice test online free?",
+      "a": "Yes. All 15 questions run in your browser with instant scoring and full solutions. The e-book then adds 100 more solved MCQs for timed practice."
+    },
+    {
+      "q": "How do I tell no solution from infinitely many?",
+      "a": "Compare the lines. Same slope with different intercepts means parallel lines and no solution. Same slope and same intercept means one line and infinitely many."
+    },
+    {
+      "q": "Can a calculator solve systems on the Digital SAT?",
+      "a": "The built-in graphing tool can find the crossing point, and that is a fair check. Still, learn substitution and elimination so you are fast when graphing is slow."
+    },
+    {
+      "q": "Where do I find more systems practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs from this same Digital SAT bank, graded from routine setups to harder word problems."
+    }
+  ]
+}

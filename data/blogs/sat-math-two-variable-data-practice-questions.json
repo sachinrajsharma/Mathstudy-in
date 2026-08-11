@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-two-variable-data-practice-questions",
+  "title": "SAT Math Two Variable Data Practice Questions: 15 MCQs",
+  "meta_title": "SAT Math Two Variable Data Practice Questions",
+  "meta_desc": "Free SAT Math Two Variable Data practice questions: 15 Digital SAT MCQs on scatterplots, best-fit lines and residuals. Start the online quiz now.",
+  "excerpt": "A free set of SAT Math Two Variable Data practice questions &mdash; 15 Digital SAT-style MCQs on best-fit lines, residuals and correlation, scored instantly.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-two-variable-data.png",
+  "cta_product_slug": "sat-math-two-variable-data-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Two Variable Data practice questions",
+  "content": "<p>A best-fit line predicts a car worth &#8377;15 lakh, the actual sale was &#8377;13 lakh, and a student writes the gap with the wrong sign. Residuals reward order: actual minus predicted, every single time. Fix the order and the marks follow. Much of any <strong>SAT Math Two Variable Data practice questions</strong> set turns on exactly that discipline. Scroll down for 15 Digital SAT-style MCQs with instant scoring.</p><h2>What SAT Math Two Variable Data practice questions cover</h2><p>This topic lives on the scatterplot. You get two columns of numbers and a fitted line. So the real work is reading that line and using it well. Here is the core:</p><ul><li>Predicting y from x with the best-fit line.</li><li>Solving for x when y is given.</li><li>Residuals as actual minus predicted.</li><li>Slope read in real units.</li><li>Correlation: strong or weak, positive or negative.</li></ul><h2>Treat the best-fit line as a machine</h2><p>A line like y = 8x + 34 is just a rule. Feed it x = 9, and it returns 106. Need x for a target y instead? Then set the equation equal to that y and solve. First plug in, or first isolate x &mdash; either path is one clean step. No graph-reading gymnastics required.</p><table><thead><tr><th>Task</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Find a residual</td><td>Predicted minus actual</td><td>Actual minus predicted, and keep the sign</td></tr><tr><td>Interpret the slope</td><td>Call it &lsquo;the rate&rsquo; vaguely</td><td>State units of y per one unit of x</td></tr><tr><td>Describe correlation</td><td>Guess strong or weak</td><td>Judge how tightly the points hug the line</td></tr></tbody></table><h2>Residuals, worked with the sign</h2><p>Say the line is y = 5x + 16 and, at x = 3, the point actually sits at 27. First predict: 5(3) + 16 = 31. Then subtract in order: 27 &minus; 31 = &minus;4. The negative sign means the point sits below the line. So a residual is not just a distance; its sign tells you which side. Keep the order, and keep the sign.</p><h3>Slope in plain English</h3><p>Examiners love a slope stated in words. If x is study hours and y is the score, a slope of 3 means three points per extra hour. So read the units off the axes, then attach them. A bare number earns nothing here; the units earn the mark.</p><h2>A caveat on correlation</h2><p>Strong correlation does not prove cause. Ice-cream sales and sunburns rise together, yet neither causes the other; the heat does. So when a choice claims one variable causes the other, pause and reread. The SAT sticks to &lsquo;associated with&rsquo;, and so should you in these SAT Math Two Variable Data practice questions.</p><h2>Drill residuals until the sign is automatic</h2><p>The sign on a residual is where easy marks vanish. So make it automatic. First, always write the predicted value, then the actual value, in that order. Next, subtract actual minus predicted. If the result is positive, the point sits above the line; if negative, below. Say that sentence out loud a few times. In my experience, students who verbalise the rule stop flipping the sign under time pressure. Also, sanity-check with the picture. A point clearly above the line must give a positive residual. So the algebra and the graph should agree. When they do, move on with confidence. When they clash, you caught an error before it cost you.</p><p>Timing matters too, so give these items a steady pace. They are quick points once the sign is safe. So bank them early, then spend the saved minutes on the harder algebra. Aim to finish each one in under a minute.</p><h2>Take the free SAT Math Two Variable Data practice questions</h2><p>The 15-question quiz below is drawn from our reviewed Digital SAT bank. It runs through predictions, solving for x, residuals with signs and correlation reads. Answer all fifteen, then press Check my score. For each miss, read the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Ready for more than a quiz? The <a href='/shop/product/sat-math-two-variable-data-practice-mcqs'><strong>SAT Math &mdash; Two Variable Data e-book</strong></a> holds 100 solved MCQs across ten worksheets, each with an answer key and full working. When you want full-length timing, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Two Variable Data Quiz",
+    "intro": "Fifteen Digital SAT-style questions on scatterplots, best-fit lines and residuals. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Two Variable Data",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A line of best fit for a data set is y = 8x + 34. Use it to predict y when x = 9.",
+        "options": [
+          "106",
+          "72",
+          "314",
+          "38"
+        ],
+        "answer": 0,
+        "explanation": "Substitute x = 9: y = 8(9) + 34 = 106."
+      },
+      {
+        "q": "For a data set comparing a car’s age in years with its value in thousands of dollars, the fitted line is y = -2x + 33. According to this model, what is y at x = 9?",
+        "options": [
+          "17",
+          "15",
+          "13",
+          "48"
+        ],
+        "answer": 1,
+        "explanation": "Substitute x = 9: y = -2(9) + 33 = -18 + 33 = 15."
+      },
+      {
+        "q": "A line of best fit is y = 5x + 16. For x = 3, the actual observed value is 27. What is the residual (actual − predicted)?",
+        "options": [
+          "31",
+          "27",
+          "-4",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Predicted = 5(3) + 16 = 31. Residual = actual − predicted = 27 − 31 = -4."
+      },
+      {
+        "q": "The line of best fit for a car’s age in years versus its value in thousands of dollars is y = -4x + 25. One observation at x = 7 has an actual value of 0. What is the residual?",
+        "options": [
+          "-3",
+          "-25",
+          "-1",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "Residual = actual − predicted. Predicted: -4(7) + 25 = -3. Residual = 0 − -3 = 3. The point sits above the line."
+      },
+      {
+        "q": "The fitted line for hours studied versus test score is y = 3x + 54. For what value of x does the model predict y = 75?",
+        "options": [
+          "7",
+          "8",
+          "21",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Set 3x + 54 = 75. Then 3x = 21, so x = 7."
+      },
+      {
+        "q": "On a scatterplot of the speed of a car (x) versus the time to reach a destination (y), the points lie very close to a line that goes downward from left to right. Which best describes the association?",
+        "options": [
+          "No association",
+          "A strong negative association",
+          "A weak negative association",
+          "A strong positive association"
+        ],
+        "answer": 1,
+        "explanation": "A line going down left-to-right is a negative association, and points close to the line make it strong."
+      },
+      {
+        "q": "What type of correlation would you most likely observe between hours of TV watched and test scores?",
+        "options": [
+          "A correlation greater than 1",
+          "Positive correlation",
+          "Negative correlation",
+          "No correlation"
+        ],
+        "answer": 2,
+        "explanation": "As one increases the other tends to decrease, so the correlation is negative."
+      },
+      {
+        "q": "What type of correlation would you most likely observe between time spent exercising and fitness level?",
+        "options": [
+          "Negative correlation",
+          "No correlation",
+          "A correlation greater than 1",
+          "Positive correlation"
+        ],
+        "answer": 3,
+        "explanation": "As one increases the other tends to increase, so the correlation is positive."
+      },
+      {
+        "q": "A line of best fit for a data set is y = 6x + 34. Use it to predict y when x = 4.",
+        "options": [
+          "58",
+          "24",
+          "142",
+          "-10"
+        ],
+        "answer": 0,
+        "explanation": "Substitute x = 4: y = 6(4) + 34 = 58."
+      },
+      {
+        "q": "A scatterplot relating advertising spend in thousands (x) to monthly revenue in thousands (y) has the line of best fit y = 5x + 12. What value does the line predict for y when x = 5?",
+        "options": [
+          "32",
+          "37",
+          "49",
+          "42"
+        ],
+        "answer": 1,
+        "explanation": "Substitute x = 5: y = 5(5) + 12 = 25 + 12 = 37."
+      },
+      {
+        "q": "A line of best fit is y = 8x + 13. For x = 10, the actual observed value is 96. What is the residual (actual − predicted)?",
+        "options": [
+          "93",
+          "96",
+          "3",
+          "-3"
+        ],
+        "answer": 2,
+        "explanation": "Predicted = 8(10) + 13 = 93. Residual = actual − predicted = 96 − 93 = 3."
+      },
+      {
+        "q": "A model fits y = 6x + 11 to data on advertising spend in thousands (x) and monthly revenue in thousands (y). At x = 8 the measured value is 53. Find the residual for this point.",
+        "options": [
+          "42",
+          "6",
+          "0",
+          "-6"
+        ],
+        "answer": 3,
+        "explanation": "Residual = actual − predicted. Predicted: 6(8) + 11 = 59. Residual = 53 − 59 = -6. The point sits below the line."
+      },
+      {
+        "q": "Using the best-fit model y = -2x + 22 for weekly practice hours and errors per game, find the x-value at which the predicted y equals 6.",
+        "options": [
+          "8",
+          "2",
+          "-16",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "Set -2x + 22 = 6. Then -2x = -16, so x = 8."
+      },
+      {
+        "q": "On a scatterplot of the outside temperature (x) versus ice-cream sales (y), the points loosely follow a line that goes upward from left to right. Which best describes the association?",
+        "options": [
+          "No association",
+          "A weak positive association",
+          "A weak negative association",
+          "A strong positive association"
+        ],
+        "answer": 1,
+        "explanation": "A line going up left-to-right is a positive association, and points loosely around the line make it weak."
+      },
+      {
+        "q": "What type of correlation would you most likely observe between humidity and static electricity?",
+        "options": [
+          "A correlation greater than 1",
+          "Positive correlation",
+          "Negative correlation",
+          "No correlation"
+        ],
+        "answer": 2,
+        "explanation": "As one increases the other tends to decrease, so the correlation is negative."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Two Variable Data practice questions free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for deeper practice."
+    },
+    {
+      "q": "What is the correct order for a residual?",
+      "a": "Actual minus predicted. Find the predicted value from the line first, then subtract it from the observed value and keep the sign it gives you."
+    },
+    {
+      "q": "How do I interpret a slope on the SAT?",
+      "a": "State it in units. A slope of 3 for hours versus score means three extra points per additional hour, not just &lsquo;a rise of three&rsquo;."
+    },
+    {
+      "q": "Does a strong correlation mean causation?",
+      "a": "No. Two variables can move together without one causing the other. The SAT phrases these as association, so avoid any option claiming cause."
+    },
+    {
+      "q": "Where can I get more scatterplot practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same reviewed bank, graded from basics to exam-level traps."
+    }
+  ]
+}

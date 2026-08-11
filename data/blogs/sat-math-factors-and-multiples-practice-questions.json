@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-factors-and-multiples-practice-questions",
+  "title": "SAT Math Factors and Multiples Practice Questions + Free Quiz",
+  "meta_title": "SAT Math Factors & Multiples Practice Questions",
+  "meta_desc": "Free SAT Math Factors and Multiples practice questions: 15 Digital SAT MCQs on GCF, LCM and primes with instant answers and solutions. Start the quiz now.",
+  "excerpt": "Free SAT Math Factors and Multiples practice questions &mdash; 15 Digital SAT-style MCQs on GCF, LCM, primes and divisibility, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-factors-and-multiples.png",
+  "cta_product_slug": "sat-math-factors-and-multiples-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Factors and Multiples practice questions",
+  "content": "<p>Two runners start together on a track. One laps every 6 minutes, the other every 8. When do they meet at the start again? The answer is 24 minutes, and it is pure LCM. That single word problem shows why these <strong>SAT Math Factors and Multiples practice questions</strong> matter more than they look. The SAT dresses up factors and multiples as stories, and your job is to spot the plain arithmetic underneath. Scroll down for 15 quick MCQs with instant answers.</p>\n<h2>What factors and multiples really test on the SAT</h2>\n<p>A factor divides a number cleanly. A multiple is what you get by scaling a number up. That sounds simple, so the SAT adds a disguise. It asks about shared timing, equal groups or remainders. Then the numbers get large enough that guessing fails. Here is the toolkit the chapter rewards:</p>\n<ul><li>Prime factorisation, the backbone of everything else.</li><li>Greatest common factor, or GCF, for splitting into the largest equal groups.</li><li>Least common multiple, or LCM, for the next time things line up.</li><li>Divisibility rules for 3, 4, 6, 8, 9 and 11.</li><li>Counting factors from the prime powers of a number.</li></ul>\n<h2>How to read the SAT Math Factors and Multiples practice questions</h2>\n<p>The wording gives the method away, once you know the code. Watch for two phrases above all. &lsquo;The largest equal groups&rsquo; or &lsquo;the greatest number that divides both&rsquo; means GCF. &lsquo;They happen together again&rsquo; or &lsquo;the next common time&rsquo; means LCM. So read the last line first, then pick the tool. In my experience coaching SAT students, most mistakes here are reading errors, not maths errors.</p>\n<table><thead><tr><th>The question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Largest tiles that fit a floor exactly</td><td>Reach for LCM by habit</td><td>Use GCF of the two side lengths</td></tr><tr><td>Bells ring together again</td><td>Add the two intervals</td><td>Use LCM of the intervals</td></tr><tr><td>How many factors does 72 have?</td><td>List them all and miss one</td><td>72 = 2&sup3; &times; 3&sup2;, so (3+1)(2+1) = 12</td></tr></tbody></table>\n<h3>The factor-count trick, explained</h3>\n<p>The factor-count rule saves real time. First, write the number as prime powers. Then add one to each exponent, and multiply. For 72 you get 2&sup3; &times; 3&sup2;, so the count is 4 &times; 3, which is 12. No listing, no missed factor. This is the kind of two-second method the SAT quietly rewards.</p>\n<h2>A common trap worth naming</h2>\n<p>Students often mix up GCF and LCM under time pressure. So anchor them with size. The GCF is never larger than the smaller number. The LCM is never smaller than the larger number. Therefore, if your &lsquo;GCF&rsquo; comes out bigger than both inputs, you grabbed the wrong tool. That quick sanity check catches most slips before they cost a mark.</p>\n<h2>Why these SAT Math Factors and Multiples practice questions pay off</h2>\n<p>Here is the counter-intuitive bit. This chapter feels like middle-school revision, yet it feeds the hard SAT problems. Simplifying a fraction needs the GCF. Reducing a radical needs prime factors. Even some exponent questions hide a divisibility idea. So strong factor sense is leverage, not busywork. Drill it early, and the rest of the section slows down in your favour.</p>\n<h2>A quick worked example</h2>\n<p>Suppose two lights blink every 12 and 18 seconds, and you want the next moment they blink together. Take the LCM. Write 12 as 2&sup2; &times; 3, and 18 as 2 &times; 3&sup2;. Then take the highest power of each prime, so 2&sup2; &times; 3&sup2; = 36. The lights meet again after 36 seconds. Notice the rhythm: factor, pick highest powers, multiply.</p>\n<h2>Try the free practice test below</h2>\n<p>The 15-question quiz below comes straight from our reviewed Digital SAT bank. It blends quick divisibility checks with GCF and LCM word problems. Answer all fifteen, then press Check my score. For every miss, read the solution and retry after a short break.</p>\n<h2>Keep practising the full chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-factors-and-multiples-practice-mcqs'><strong>SAT Math &mdash; Factors and Multiples e-book</strong></a> carries 100 solved MCQs across ten worksheets, each with an answer key and a full solution. When you want mixed papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Factors and Multiples Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Factors and Multiples",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Which of the following numbers is composite?",
+        "options": [
+          "39",
+          "23",
+          "29",
+          "41"
+        ],
+        "answer": 0,
+        "explanation": "A composite number has at least one positive divisor other than 1 and itself. Check each option for small factors. The number 23 is odd, not divisible by 3 (2+3=5) or 5, and 23 < 25 = 5², so it is prime."
+      },
+      {
+        "q": "What is the greatest common factor of 18 and 24?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor is the largest number that divides both values exactly. Write each number as a product of primes: 18 = 2 × 3² and 24 = 2³ × 3."
+      },
+      {
+        "q": "What is the least common multiple of 4 and 6?",
+        "options": [
+          "24",
+          "2",
+          "12",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple is the smallest positive number that is a multiple of both values. List multiples of each: multiples of 4 are 4, 8, 12, 16, ... and multiples of 6 are 6, 12, 18, ..."
+      },
+      {
+        "q": "Which of the following numbers is divisible by 3?",
+        "options": [
+          "124",
+          "235",
+          "502",
+          "411"
+        ],
+        "answer": 3,
+        "explanation": "A number is divisible by 3 exactly when the sum of its digits is divisible by 3. Apply this test to each option. For 124, the digit sum is 1+2+4 = 7, which is not a multiple of 3."
+      },
+      {
+        "q": "Which expression gives the prime factorization of 100?",
+        "options": [
+          "2² × 5²",
+          "2 × 50",
+          "4 × 25",
+          "10²"
+        ],
+        "answer": 0,
+        "explanation": "A prime factorization expresses a number using only prime factors. Break 100 down step by step: 100 = 4 × 25, then 4 = 2² and 25 = 5², so 100 = 2² × 5², where every factor is prime."
+      },
+      {
+        "q": "A factor tree is drawn for 60 and is fully expanded until every branch ends at a prime number. What is the product of all the prime leaves at the bottom of the tree?",
+        "options": [
+          "30",
+          "60",
+          "120",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "A factor tree repeatedly breaks a number into factors until only primes remain at the ends, called the leaves."
+      },
+      {
+        "q": "Which of the following integers is a prime number?",
+        "options": [
+          "51",
+          "57",
+          "61",
+          "87"
+        ],
+        "answer": 2,
+        "explanation": "A prime number has exactly two positive divisors: 1 and itself. Test each option by checking small prime divisors. For 51, the digit sum 5+1=6 is divisible by 3, so 51 = 3 × 17 is composite."
+      },
+      {
+        "q": "Which of the following is NOT a composite number?",
+        "options": [
+          "33",
+          "35",
+          "39",
+          "37"
+        ],
+        "answer": 3,
+        "explanation": "A composite number has at least one factor other than 1 and itself, while a prime does not. Test each value. The number 33 has digit sum 3+3=6, divisible by 3, so 33 = 3 × 11 is composite."
+      },
+      {
+        "q": "What is the greatest common factor of 16 and 28?",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Write each number as a product of primes and combine the shared factors at their lowest powers. Here 16 = 2⁴ and 28 = 2² × 7. The only prime common to both is 2."
+      },
+      {
+        "q": "What is the least common multiple of 5 and 8?",
+        "options": [
+          "13",
+          "40",
+          "20",
+          "80"
+        ],
+        "answer": 1,
+        "explanation": "The least common multiple is the smallest positive number that both values divide evenly."
+      },
+      {
+        "q": "Which of the following numbers is divisible by both 2 and 5?",
+        "options": [
+          "145",
+          "312",
+          "250",
+          "535"
+        ],
+        "answer": 2,
+        "explanation": "A number divisible by both 2 and 5 must be divisible by 10, and divisibility by 10 happens exactly when the number ends in the digit 0. Check the last digit of each option."
+      },
+      {
+        "q": "Which expression is the prime factorization of 72?",
+        "options": [
+          "2² × 3³",
+          "8 × 9",
+          "2 × 36",
+          "2³ × 3²"
+        ],
+        "answer": 3,
+        "explanation": "Break 72 into primes step by step. Start with 72 = 8 × 9, then 8 = 2³ and 9 = 3², giving 72 = 2³ × 3², where every factor is prime. Check the value: 2³ × 3² = 8 × 9 = 72. The option 2² × 3³ equals 4 × 27 = 108, which is incorrect."
+      },
+      {
+        "q": "A factor tree for 90 is fully expanded until only prime numbers remain at the ends. Which set correctly lists all of the prime leaves?",
+        "options": [
+          "2, 3, 3, 5",
+          "2, 3, 5",
+          "2, 5, 9",
+          "3, 30"
+        ],
+        "answer": 0,
+        "explanation": "Build the tree by repeatedly splitting until every branch ends at a prime. Start with 90 = 9 × 10. Then 9 = 3 × 3 and 10 = 2 × 5. The ends of the tree are therefore 3, 3, 2, and 5, which written in order is 2, 3, 3, 5."
+      },
+      {
+        "q": "How many prime numbers lie strictly between 30 and 40?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "List the integers from 31 to 39 and remove the composites. Even numbers 32, 34, 36, and 38 are divisible by 2. The multiple of 5, namely 35, is composite."
+      },
+      {
+        "q": "Among the numbers 17, 19, 21, and 23, exactly one is composite. Which one is it?",
+        "options": [
+          "17",
+          "19",
+          "21",
+          "23"
+        ],
+        "answer": 2,
+        "explanation": "A composite number has at least one factor other than 1 and itself. Examine each option. The number 17 is odd, not divisible by 3 (1+7 = 8) or 5, and since 17 < 25 = 5² it is prime."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Factors and Multiples practice questions free?",
+      "a": "Yes. All 15 questions, the instant scoring and every explanation are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "When do I use GCF instead of LCM?",
+      "a": "Use GCF for splitting into the largest equal groups or the biggest divisor. Use LCM for the next time two cycles line up again."
+    },
+    {
+      "q": "Do these match the Digital SAT?",
+      "a": "They follow the current Digital SAT pattern &mdash; a mix of quick divisibility checks and harder GCF, LCM and factor-count word problems."
+    },
+    {
+      "q": "What score here is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, review the GCF-versus-LCM cues above, then retake the test in two days."
+    },
+    {
+      "q": "Where do I get more practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam level."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-rational-expressions-practice-test",
+  "title": "SAT Math Rational Expressions Practice Test: 15 Free MCQs",
+  "meta_title": "SAT Math Rational Expressions Practice Test + Quiz",
+  "meta_desc": "Free SAT Math Rational Expressions practice test: 15 Digital SAT MCQs on simplifying, combining and excluded values, with answers. Take the quiz online now.",
+  "excerpt": "A free 15-question SAT Math Rational Expressions practice test &mdash; Digital SAT MCQs on algebraic fractions and the domain restrictions everyone forgets, fully solved.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-rational-expressions.png",
+  "cta_product_slug": "sat-math-rational-expressions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Rational Expressions practice test",
+  "content": "<p>Here is a line I see every week: a student cancels the x in (x + 3)/x and writes 3. It feels like fair cancelling. It is not, because you can only cancel factors, never loose terms. That single reflex leaks points across the whole Advanced Math section. So this free <strong>SAT Math Rational Expressions practice test</strong> fixes the cancelling instinct first, then builds from there. Scroll down for 15 SAT-style MCQs with instant answers.</p><h2>Factor first, cancel second</h2><p>A rational expression is just one polynomial over another. So the golden rule is simple. Factor the top and the bottom fully, and only then cancel matching factors. Here is what the Digital SAT asks you to do with them:</p><ul><li>Simplify a fraction after factoring, so common factors cancel.</li><li>Multiply and divide, remembering that dividing flips the second fraction.</li><li>Add and subtract, which needs a common denominator first.</li><li>Solve equations, often by clearing the denominators in one move.</li><li>State excluded values, the inputs that make a denominator zero.</li></ul><h2>Why the SAT Math Rational Expressions practice test loves excluded values</h2><p>Every denominator carries a hidden rule. It can never equal zero. So each rational expression comes with excluded values, the x that would break it. The SAT tests this often, and quietly. For example, (x&sup2; &minus; 9)/(x &minus; 3) simplifies to x + 3, yet x = 3 is still banned, because it broke the original bottom. That subtle point is exactly what this practice test keeps in view.</p><table><thead><tr><th>Expression</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>(x + 3)/x</td><td>Cancel the x, so write 3</td><td>Leave it, since x is not a factor of the top</td></tr><tr><td>(x&sup2; &minus; 9)/(x &minus; 3)</td><td>Just write x + 3</td><td>Write x + 3, but exclude x = 3</td></tr><tr><td>1/x + 1/2</td><td>Add the tops over x</td><td>Use a common denominator 2x first</td></tr></tbody></table><h2>The traps that cost easy marks</h2><p>First, never cancel across a plus sign, because only whole factors cancel. Second, when you add fractions, build the common denominator before you touch the numerators. Third, after solving a rational equation, check that no answer hits an excluded value. When an answer does, you must reject it, exactly like a radical extraneous root. These three checks stop the most avoidable losses.</p><h2>A quick worked example</h2><p>Simplify (x&sup2; &minus; x &minus; 6)/(x&sup2; &minus; 9). First, factor both parts. The top becomes (x &minus; 3)(x + 2), and the bottom becomes (x &minus; 3)(x + 3). Then cancel the shared (x &minus; 3), which leaves (x + 2)/(x + 3). So the simplified form is (x + 2)/(x + 3), with x = 3 and x = &minus;3 both excluded. Factor first, and the cancelling becomes safe.</p><h3>A short drill that fixes the cancelling reflex</h3><p>Bad cancelling is a habit, so you beat it with a better habit. Try this drill for a week. Take any rational expression, and box every factor before you cancel a thing. If a piece is not boxed as a factor, then it cannot leave. Also, note the excluded values in the margin first, straight from the original denominator. That order matters, because simplifying can hide a value that was banned all along. Here is the surprising payoff. Once boxing becomes routine, addition and equation-solving get easier too, since they all lean on the same clean factoring. So the reflex you fix here quietly lifts your whole Advanced Math score.</p><h2>Take the free SAT Math Rational Expressions practice test</h2><p>The 15-question quiz below comes from our reviewed Digital SAT bank. It mixes quick simplifying with combining and excluded-value items. Answer all fifteen, and then press Check my score. For anything you miss, read the solution and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Ready for more than a quiz? The <a href='/shop/product/sat-math-rational-expressions-practice-mcqs'><strong>SAT Math &mdash; Rational Expressions e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a full solution. When you want full-length papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "Rational Expressions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Rational Expressions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Simplify (x/3) · (6/x²) for x ≠ 0.",
+        "options": [
+          "2/x",
+          "2x",
+          "x/2",
+          "6/x"
+        ],
+        "answer": 0,
+        "explanation": "Multiply: 6x/(3x²) = 2/x."
+      },
+      {
+        "q": "Simplify (3/x) ÷ (9/x²) for x ≠ 0.",
+        "options": [
+          "3/x",
+          "x/3",
+          "27/x",
+          "3x"
+        ],
+        "answer": 1,
+        "explanation": "Multiply by the reciprocal: (3/x)(x²/9) = 3x²/(9x) = x/3."
+      },
+      {
+        "q": "Simplify 1/x + 1/(2x) for x ≠ 0.",
+        "options": [
+          "2/(3x)",
+          "1/(2x)",
+          "3/(2x)",
+          "2/(3x²)"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 2x: 2/(2x) + 1/(2x) = 3/(2x)."
+      },
+      {
+        "q": "Simplify 5/x − 2/x for x ≠ 0.",
+        "options": [
+          "3",
+          "7/x",
+          "3/x²",
+          "3/x"
+        ],
+        "answer": 3,
+        "explanation": "Same denominator: (5 − 2)/x = 3/x."
+      },
+      {
+        "q": "Which values must be excluded from x/(x² − 25)?",
+        "options": [
+          "x = 5 and x = −5",
+          "x = 25",
+          "x = 0",
+          "x = 5 only"
+        ],
+        "answer": 0,
+        "explanation": "x² − 25 = (x − 5)(x + 5) is zero at x = 5 and x = −5, so both are excluded."
+      },
+      {
+        "q": "Simplify (1/2)/(1/4).",
+        "options": [
+          "1/8",
+          "2",
+          "1/2",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Dividing fractions: (1/2) · (4/1) = 4/2 = 2."
+      },
+      {
+        "q": "Which expression equals 1/x + 1/(x + 5)?",
+        "options": [
+          "5/(x(x + 5))",
+          "2/(2x + 5)",
+          "(2x + 5)/(x(x + 5))",
+          "(x + 5)/(x(x + 5))"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator x(x + 5): (x + 5)/(x(x + 5)) + x/(x(x + 5)) = (2x + 5)/(x(x + 5))."
+      },
+      {
+        "q": "Solve for x: 28/(x − 2) = 4.",
+        "options": [
+          "7",
+          "-5",
+          "10",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "Multiply both sides by (x − 2): 28 = 4(x − 2), so x − 2 = 7 and x = 9. Check x ≠ 2: valid."
+      },
+      {
+        "q": "Simplify completely: (x² − 25)/(x² + 5x), for x ≠ 0, −5.",
+        "options": [
+          "(x − 5)/x",
+          "(x − 5)/(x + 5)",
+          "x − 5",
+          "(x + 5)/x"
+        ],
+        "answer": 0,
+        "explanation": "Factor: numerator (x − 5)(x + 5); denominator x(x + 5). Cancel (x + 5): the result is (x − 5)/x."
+      },
+      {
+        "q": "What are all the values of x for which the expression (x² - 9)/(x³ - 2x² - 9x + 18) is undefined?",
+        "options": [
+          "x = 3 and x = -3 only",
+          "x = 3, x = -3, and x = 2",
+          "x = 2 only",
+          "x = -2, x = -3, and x = 3"
+        ],
+        "answer": 1,
+        "explanation": "To find the values of x for which the rational expression is undefined, we need to find the values that make the denominator equal to zero. The denominator is x³ - 2x² - 9x + 18."
+      },
+      {
+        "q": "What is the solution to the equation (3)/(x) + (1)/(2x) = (7)/(4)?",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "(7)/(2)"
+        ],
+        "answer": 2,
+        "explanation": "Combine the terms on the left side by finding a common denominator of 2x: (6)/(2x) + (1)/(2x) = (7)/(2x). The equation becomes (7)/(2x) = (7)/(4)."
+      },
+      {
+        "q": "Simplify (2x + 6)/(x² − 9) for valid x.",
+        "options": [
+          "2/(x + 3)",
+          "2(x + 3)",
+          "(x − 3)/2",
+          "2/(x − 3)"
+        ],
+        "answer": 3,
+        "explanation": "Factor: 2(x + 3)/[(x + 3)(x − 3)] = 2/(x − 3)."
+      },
+      {
+        "q": "Simplify (x + 1)/4 · 8/(x + 1) for x ≠ −1.",
+        "options": [
+          "2",
+          "8",
+          "x + 1",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "The (x + 1) factors cancel: 8/4 = 2."
+      },
+      {
+        "q": "Simplify (x/2) ÷ (x/8) for x ≠ 0.",
+        "options": [
+          "1/4",
+          "4",
+          "x²/16",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "(x/2)(8/x) = 8x/(2x) = 4."
+      },
+      {
+        "q": "Simplify 2/3 + x/3.",
+        "options": [
+          "(2x)/3",
+          "x/3",
+          "(x + 2)/3",
+          "(x + 2)/6"
+        ],
+        "answer": 2,
+        "explanation": "Same denominator: (2 + x)/3 = (x + 2)/3."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Why can I not cancel the x in (x + 3)/x?",
+      "a": "Because x is a term there, not a factor. You may only cancel factors that multiply the whole top and bottom, so this fraction stays as it is."
+    },
+    {
+      "q": "What are excluded values?",
+      "a": "They are the inputs that make a denominator zero, so the expression is undefined there. Find them from the original bottom, even after the fraction simplifies."
+    },
+    {
+      "q": "How do I add two algebraic fractions?",
+      "a": "Build a common denominator first, then combine the numerators over it. Never add numerators and denominators straight across, because that changes the value."
+    },
+    {
+      "q": "What score on this test is good?",
+      "a": "Aim for 12 out of 15 or better. If you land below 9, redo the factor-first routine above, then retake the practice test in two days before the worksheets."
+    },
+    {
+      "q": "Where do I get more rational-expression practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to harder equations."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-triangles-practice-questions",
+  "title": "SAT Math Triangles Practice Questions: 15 Free MCQs",
+  "meta_title": "SAT Math Triangles Practice Questions: 15 MCQs",
+  "meta_desc": "Free SAT Math Triangles practice questions: 15 Digital SAT MCQs on Pythagoras and special triangles with instant answers and solutions. Try it now.",
+  "excerpt": "A free 15-question set of SAT Math Triangles practice questions &mdash; Pythagoras, special right triangles and similarity, with instant scoring.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-triangles.png",
+  "cta_product_slug": "sat-math-triangles-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Triangles practice questions",
+  "content": "<p>A 3-4-5 triangle shows up on the Digital SAT more than any other shape. Spot it, and you skip the Pythagorean arithmetic entirely &mdash; the hypotenuse is simply 5. These <strong>SAT Math Triangles practice questions</strong> lean on a few patterns exactly like that, the ones that shrink a 40-second problem down to ten. Scroll down for 15 MCQs, each with an instant score and a short solution.</p>\n<h2>What these SAT Math Triangles practice questions test</h2>\n<p>The exam circles the same core ideas, so your prep should too. Here is the short list that earns most of the points:</p>\n<ul>\n<li>The angle sum: the three angles of any triangle add to 180 degrees.</li>\n<li>The Pythagorean theorem for right triangles.</li>\n<li>Common Pythagorean triples, which save real time.</li>\n<li>Special triangles, the 45-45-90 and the 30-60-90.</li>\n<li>Similarity and congruence, and the rules that prove them.</li>\n</ul>\n<h2>Memorise these ratios, not the whole table</h2>\n<p>Two special triangles carry a lot of the exam. Learn their side ratios and you rarely need the full theorem at all.</p>\n<table><thead><tr><th>Triangle</th><th>Side pattern</th><th>Quick read</th></tr></thead>\n<tbody>\n<tr><td>45-45-90</td><td>1 : 1 : &radic;2</td><td>Leg to hypotenuse, multiply by &radic;2</td></tr>\n<tr><td>30-60-90</td><td>1 : &radic;3 : 2</td><td>Short leg is half the hypotenuse</td></tr>\n<tr><td>Triple 3-4-5</td><td>3 : 4 : 5</td><td>And its scale-ups, 6-8-10, 9-12-15</td></tr>\n<tr><td>Triple 5-12-13</td><td>5 : 12 : 13</td><td>A favourite SAT hypotenuse</td></tr>\n</tbody></table>\n<p>So a 45-45-90 triangle with legs of 10 has a hypotenuse of 10&radic;2. No squaring, and no square root to simplify at the end. That is the whole point of learning the ratio.</p>\n<h3>Similar triangles scale by one number</h3>\n<p>Similarity trips people up, yet it is really just one multiplier. If a side of 6 in the first triangle matches 30 in the second, the scale factor is 5. Then every other side scales by 5 too. So a side of 7 becomes 35. Find the multiplier once, and the rest follows.</p>\n<h2>The congruence rules, in plain words</h2>\n<p>The SAT still asks which rule proves two triangles congruent. Keep them simple. SSS means all three sides match. SAS means two sides and the angle between them. ASA means two angles and the side between them. And AAS means two angles and a side that is not between them. So when a problem gives two angles and a non-included side, that is AAS.</p>\n<h2>A quick worked example</h2>\n<p>Two angles of a triangle measure 70 and 72 degrees. Because the three angles add to 180, the third is 180 minus 70 minus 72, which is 38 degrees. Short work, yes, but it is the exact skill these SAT Math Triangles practice questions reward, again and again.</p>\n<h2>Try the free triangles quiz</h2>\n<p>The 15 questions below come from our reviewed Digital SAT bank. They blend angle-sum sums, special triangles, similarity and congruence. Answer them all, then press Check my score, and read the reason for anything you miss.</p>\n<h2>Practise the whole chapter</h2>\n<p>Ready for more? The <a href='/shop/product/sat-math-triangles-practice-mcqs'><strong>SAT Math &mdash; Triangles e-book</strong></a> carries 100 solved MCQs across 10 worksheets, each with an answer key and full working. When you want mixed sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Triangles Quiz",
+    "intro": "Fifteen Digital SAT-style questions on angle sum, Pythagoras and special triangles. Pick an answer, then press Check my score.",
+    "about": "Digital SAT Math: Triangles",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "In a 45°-45°-90° triangle, each leg has length 5. What is the length of the hypotenuse?",
+        "options": [
+          "5√2",
+          "10",
+          "5√3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "In a 45-45-90 triangle the hypotenuse is leg × √2 = 5√2."
+      },
+      {
+        "q": "Two triangles are similar. A side of length 6 in the first corresponds to 30 in the second. A side of length 7 in the first corresponds to what length in the second?",
+        "options": [
+          "12",
+          "35",
+          "42",
+          "31"
+        ],
+        "answer": 1,
+        "explanation": "The scale factor is 30/6 = 5, so 7 × 5 = 35."
+      },
+      {
+        "q": "Two angles and a non-included side are equal. Which proves congruence?",
+        "options": [
+          "SSS",
+          "SAS",
+          "AAS",
+          "ASA"
+        ],
+        "answer": 2,
+        "explanation": "This matching of equal parts is the AAS congruence criterion."
+      },
+      {
+        "q": "Two angles of a triangle measure 70° and 72°. What is the third angle, in degrees?",
+        "options": [
+          "142",
+          "110",
+          "19",
+          "38"
+        ],
+        "answer": 3,
+        "explanation": "Angles of a triangle sum to 180°: 180 − 70 − 72 = 38."
+      },
+      {
+        "q": "A right triangle has legs of length 60 and 63. What is the length of the hypotenuse?",
+        "options": [
+          "87",
+          "123",
+          "86",
+          "89"
+        ],
+        "answer": 0,
+        "explanation": "Hypotenuse = √(60² + 63²) = √7569 = 87."
+      },
+      {
+        "q": "In a 45°-45°-90° triangle, each leg has length 10. What is the length of the hypotenuse?",
+        "options": [
+          "20",
+          "10√2",
+          "10√3",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "In a 45-45-90 triangle the hypotenuse is leg × √2 = 10√2."
+      },
+      {
+        "q": "Two triangles are similar. A side of length 7 in the first corresponds to 21 in the second. A side of length 5 in the first corresponds to what length in the second?",
+        "options": [
+          "8",
+          "20",
+          "15",
+          "19"
+        ],
+        "answer": 2,
+        "explanation": "The scale factor is 21/7 = 3, so 5 × 3 = 15."
+      },
+      {
+        "q": "Three sides of one triangle equal three sides of another. Which postulate proves congruence?",
+        "options": [
+          "SAS",
+          "ASA",
+          "AAS",
+          "SSS"
+        ],
+        "answer": 3,
+        "explanation": "This matching of equal parts is the SSS congruence criterion."
+      },
+      {
+        "q": "A triangle has all three sides equal. It is:",
+        "options": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Right"
+        ],
+        "answer": 0,
+        "explanation": "By classification, the answer is \"Equilateral\"."
+      },
+      {
+        "q": "A right triangle has a hypotenuse of 10 and one leg of 6. What is the other leg?",
+        "options": [
+          "4",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Leg = √(10² − 6²) = √64 = 8."
+      },
+      {
+        "q": "In a 45°-45°-90° triangle, each leg has length 6. What is the length of the hypotenuse?",
+        "options": [
+          "12",
+          "6√3",
+          "6√2",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "In a 45-45-90 triangle the hypotenuse is leg × √2 = 6√2."
+      },
+      {
+        "q": "Two triangles are similar. A side of length 2 in the first corresponds to 8 in the second. A side of length 5 in the first corresponds to what length in the second?",
+        "options": [
+          "9",
+          "25",
+          "11",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "The scale factor is 8/2 = 4, so 5 × 4 = 20."
+      },
+      {
+        "q": "Two sides and the included angle are equal. Which postulate proves congruence?",
+        "options": [
+          "SAS",
+          "SSS",
+          "ASA",
+          "AAS"
+        ],
+        "answer": 0,
+        "explanation": "This matching of equal parts is the SAS congruence criterion."
+      },
+      {
+        "q": "Two angles of a triangle measure 55° and 58°. What is the third angle, in degrees?",
+        "options": [
+          "113",
+          "67",
+          "125",
+          "33.5"
+        ],
+        "answer": 1,
+        "explanation": "Angles of a triangle sum to 180°: 180 − 55 − 58 = 67."
+      },
+      {
+        "q": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+        "options": [
+          "7",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Hypotenuse = √(3² + 4²) = √25 = 5."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Triangles practice questions free?",
+      "a": "Yes, all 15 with instant scoring and solutions. The e-book adds 100 more solved MCQs for deeper practice."
+    },
+    {
+      "q": "Which triangle topics appear?",
+      "a": "Angle sum, the Pythagorean theorem, common triples, the 45-45-90 and 30-60-90 triangles, plus similarity and congruence."
+    },
+    {
+      "q": "Do I need to memorise the special-triangle ratios?",
+      "a": "Yes, and it pays off quickly. Knowing 1 : 1 : &radic;2 and 1 : &radic;3 : 2 lets you skip the theorem on many questions."
+    },
+    {
+      "q": "How hard are these compared with the real exam?",
+      "a": "They match Digital SAT difficulty, mixing routine angle-sum items with tougher similarity and triple problems."
+    },
+    {
+      "q": "Where can I practise more triangles?",
+      "a": "The e-book linked in the box below carries 100 solved MCQs from the same bank, graded from warm-ups to exam-level."
+    }
+  ]
+}

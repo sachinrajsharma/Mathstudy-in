@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-quadrilaterals-practice-test-online",
+  "title": "SAT Math Quadrilaterals Practice Test Online: 15 MCQs",
+  "meta_title": "SAT Math Quadrilaterals Practice Test Online",
+  "meta_desc": "Free SAT Math Quadrilaterals practice test online: 15 Digital SAT MCQs on angles, area and diagonals with instant answers and solutions. Start now.",
+  "excerpt": "A free 15-question SAT Math Quadrilaterals practice test online &mdash; parallelograms, trapezoids and diagonals, with instant scoring and solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-quadrilaterals.png",
+  "cta_product_slug": "sat-math-quadrilaterals-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Quadrilaterals practice test online",
+  "content": "<p>Ask a class for the angle sum of a quadrilateral and half of them pause. The answer is 360 degrees, every single time, whether the shape is a tidy square or a lopsided kite. That one fact &mdash; four angles adding to 360 &mdash; opens a real share of the items in this <strong>SAT Math Quadrilaterals practice test online</strong>. Scroll down for 15 Digital SAT-style MCQs, each with an instant score and a short solution.</p>\n<h2>The quadrilateral family, sorted</h2>\n<p>Quadrilaterals are a family, and the SAT loves the family resemblances. A square is a special rectangle, and also a special rhombus. So a property of the parent shape passes straight down to the child. Here are the ones worth memorising:</p>\n<table><thead><tr><th>Shape</th><th>Sides</th><th>Angles and diagonals</th></tr></thead>\n<tbody>\n<tr><td>Parallelogram</td><td>Opposite sides equal and parallel</td><td>Opposite angles equal; diagonals bisect</td></tr>\n<tr><td>Rectangle</td><td>Opposite sides equal</td><td>Four right angles; diagonals equal</td></tr>\n<tr><td>Rhombus</td><td>All four sides equal</td><td>Diagonals meet at right angles</td></tr>\n<tr><td>Square</td><td>All four sides equal</td><td>Right angles and equal diagonals</td></tr>\n</tbody></table>\n<h3>Parallelogram angles, the fast way</h3>\n<p>In a parallelogram, opposite angles are equal, and adjacent angles are supplementary. So if one angle is 63 degrees, the angle across from it is also 63, and each neighbour is 117. That is often the entire question. And it takes seconds once the rule is second nature.</p>\n<h2>The formulas the SAT actually uses</h2>\n<p>You do not need a huge sheet here. A few formulas cover almost every quadrilateral item:</p>\n<ul>\n<li>Rectangle perimeter: 2 times length plus 2 times width.</li>\n<li>Rectangle area: length times width.</li>\n<li>Square diagonal: side times &radic;2.</li>\n<li>Trapezoid area: one half times the sum of the parallel sides, times the height.</li>\n</ul>\n<p>Take a trapezoid with parallel sides 5 and 6 and a height of 18. Add the parallel sides to get 11. Then halve it to get 5.5, and multiply by 18. So the area is 99. Clean and quick.</p>\n<h2>A common trap to avoid</h2>\n<p>Here is the mistake I see most. Students assume every parallelogram has equal diagonals. It does not &mdash; only rectangles and squares do. A plain parallelogram has diagonals that bisect each other, but they are not equal in length. So read the shape name carefully before you claim a property.</p>\n<h2>A quick worked example</h2>\n<p>A square has side length 10. Its diagonal is the side times &radic;2, so the diagonal is 10&radic;2. No Pythagoras needed, because the diagonal splits the square into two 45-45-90 triangles. That shortcut appears throughout this SAT Math Quadrilaterals practice test online.</p>\n<h2>Take the free SAT Math Quadrilaterals practice test online</h2>\n<p>The 15 questions below come from our reviewed Digital SAT bank. They mix angle logic, perimeter, diagonals and trapezoid area. Answer all fifteen, press Check my score, then read the reason for any you miss.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want more sets? The <a href='/shop/product/sat-math-quadrilaterals-practice-mcqs'><strong>SAT Math &mdash; Quadrilaterals e-book</strong></a> holds 100 solved MCQs across 10 worksheets, each with an answer key and full working. When you want full papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Quadrilaterals Quiz",
+    "intro": "Fifteen Digital SAT-style questions on quadrilateral angles, area and diagonals. Pick an answer, then press Check my score.",
+    "about": "Digital SAT Math: Quadrilaterals",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A square has side length 3. What is the length of its diagonal?",
+        "options": [
+          "3√2",
+          "6",
+          "9",
+          "3√3"
+        ],
+        "answer": 0,
+        "explanation": "A square’s diagonal is side × √2 = 3√2."
+      },
+      {
+        "q": "A trapezoid has parallel sides of length 5 and 6 and a height of 18. What is its area?",
+        "options": [
+          "198",
+          "99",
+          "30",
+          "29"
+        ],
+        "answer": 1,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(5 + 6)(18) = 99."
+      },
+      {
+        "q": "In a parallelogram, one angle measures 41°. What is the measure of the opposite angle, in degrees?",
+        "options": [
+          "139",
+          "49",
+          "41",
+          "51"
+        ],
+        "answer": 2,
+        "explanation": "Opposite angles in a parallelogram are equal, so it is also 41°."
+      },
+      {
+        "q": "A rectangle is 11 long and 6 wide. What is its perimeter?",
+        "options": [
+          "66",
+          "17",
+          "28",
+          "34"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2(l + w) = 2(11 + 6) = 34."
+      },
+      {
+        "q": "Which quadrilateral has four right angles and all sides equal?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "answer": 0,
+        "explanation": "By its defining properties, the answer is \"Square\"."
+      },
+      {
+        "q": "A square has side length 10. What is the length of its diagonal?",
+        "options": [
+          "20",
+          "10√2",
+          "100",
+          "10√3"
+        ],
+        "answer": 1,
+        "explanation": "A square’s diagonal is side × √2 = 10√2."
+      },
+      {
+        "q": "A trapezoid has parallel sides of length 7 and 12 and a height of 16. What is its area?",
+        "options": [
+          "304",
+          "84",
+          "152",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(7 + 12)(16) = 152."
+      },
+      {
+        "q": "In a parallelogram, one angle measures 63°. What is the measure of the opposite angle, in degrees?",
+        "options": [
+          "117",
+          "27",
+          "73",
+          "63"
+        ],
+        "answer": 3,
+        "explanation": "Opposite angles in a parallelogram are equal, so it is also 63°."
+      },
+      {
+        "q": "A rectangle is 9 long and 10 wide. What is its perimeter?",
+        "options": [
+          "38",
+          "90",
+          "19",
+          "28"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2(l + w) = 2(9 + 10) = 38."
+      },
+      {
+        "q": "Which quadrilateral has all four sides equal but not necessarily right angles?",
+        "options": [
+          "Rectangle",
+          "Rhombus",
+          "Square",
+          "Trapezoid"
+        ],
+        "answer": 1,
+        "explanation": "By its defining properties, the answer is \"Rhombus\"."
+      },
+      {
+        "q": "A square has side length 12. What is the length of its diagonal?",
+        "options": [
+          "24",
+          "144",
+          "12√2",
+          "12√3"
+        ],
+        "answer": 2,
+        "explanation": "A square’s diagonal is side × √2 = 12√2."
+      },
+      {
+        "q": "A trapezoid has parallel sides of length 11 and 9 and a height of 4. What is its area?",
+        "options": [
+          "80",
+          "99",
+          "24",
+          "40"
+        ],
+        "answer": 3,
+        "explanation": "Area = ½(b₁ + b₂)h = ½(11 + 9)(4) = 40."
+      },
+      {
+        "q": "In a parallelogram, one angle measures 125°. What is the measure of the opposite angle, in degrees?",
+        "options": [
+          "125",
+          "55",
+          "-35",
+          "135"
+        ],
+        "answer": 0,
+        "explanation": "Opposite angles in a parallelogram are equal, so it is also 125°."
+      },
+      {
+        "q": "A rectangle is 16 long and 8 wide. What is its perimeter?",
+        "options": [
+          "128",
+          "48",
+          "24",
+          "40"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2(l + w) = 2(16 + 8) = 48."
+      },
+      {
+        "q": "In which quadrilateral are the diagonals always equal in length?",
+        "options": [
+          "Rhombus",
+          "Trapezoid",
+          "Rectangle",
+          "Kite"
+        ],
+        "answer": 2,
+        "explanation": "By its defining properties, the answer is \"Rectangle\"."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Quadrilaterals practice test online free?",
+      "a": "Yes. All 15 questions, the instant scoring and solutions are free. The e-book adds 100 more solved MCQs."
+    },
+    {
+      "q": "What shapes does the quiz cover?",
+      "a": "Parallelograms, rectangles, rhombuses, squares and trapezoids &mdash; their angles, perimeters, diagonals and areas."
+    },
+    {
+      "q": "What is the angle sum of a quadrilateral?",
+      "a": "Always 360 degrees, for every four-sided shape. That single fact solves a surprising number of the items."
+    },
+    {
+      "q": "Do all parallelograms have equal diagonals?",
+      "a": "No. Only rectangles and squares do. A plain parallelogram has diagonals that bisect each other but are not equal."
+    },
+    {
+      "q": "Where can I get more quadrilateral practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same bank, graded to exam-level."
+    }
+  ]
+}

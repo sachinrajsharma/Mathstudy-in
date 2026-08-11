@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-function-transformations-practice-test-online",
+  "title": "SAT Math Function Transformations Practice Test Online: 15 MCQs",
+  "meta_title": "SAT Math Function Transformations Practice Test Online",
+  "meta_desc": "Free SAT Math Function Transformations practice test online: 15 Digital SAT MCQs with instant answers and worked solutions. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Function Transformations practice test online &mdash; Digital SAT-style MCQs with instant scoring and a clean inside-versus-outside method for shifts, stretches and reflections.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-function-transformations.png",
+  "cta_product_slug": "sat-math-function-transformations-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Function Transformations practice test online",
+  "content": "<p>Ask a class to shift y = x&sup2; right by 3, and half of them write y = (x + 3)&sup2;. The plus sign feels like &lsquo;right&rsquo;, so the hand moves before the brain checks. That backwards horizontal shift is the single most common error on this topic. This free <strong>SAT Math Function Transformations practice test online</strong> fixes it for good, one pattern at a time. Scroll down for 15 Digital SAT-style MCQs with instant answers and worked solutions.</p>\n<h2>Inside the brackets versus outside</h2>\n<p>Every transformation splits into two camps. Changes inside the brackets touch x, the horizontal world. Changes outside touch y, the vertical world. So my first question is simple: does the number sit on x, or stand apart from it? Answer that, and the rest falls into place.</p>\n<p>Here is the twist that trips people. Inside changes run backwards. Replace x with (x &minus; 3) and the graph moves right, not left. Outside changes behave normally. Add 3 on the outside and the graph rises by 3. One camp plays fair, and the other plays contrary.</p>\n<h2>The four moves this SAT Math Function Transformations practice test online drills</h2>\n<p>The SAT recycles four moves. Learn them as reflexes and the questions turn quick.</p>\n<ul>\n<li>Shift: f(x &minus; h) moves right by h, and f(x) + k moves up by k.</li>\n<li>Reflection: &minus;f(x) flips over the x-axis, while f(&minus;x) flips over the y-axis.</li>\n<li>Vertical stretch: a&middot;f(x) with a &gt; 1 pulls the graph taller.</li>\n<li>Vertical compression: a&middot;f(x) with a between 0 and 1 squashes it.</li>\n</ul>\n<table>\n<thead><tr><th>Equation</th><th>What changed</th><th>Effect on the graph</th></tr></thead>\n<tbody>\n<tr><td>y = f(x &minus; 5) + 3</td><td>Inside &minus;5, outside +3</td><td>Right 5, up 3</td></tr>\n<tr><td>y = &minus;f(x)</td><td>Minus outside</td><td>Reflect across the x-axis</td></tr>\n<tr><td>y = f(&minus;x)</td><td>Minus inside</td><td>Reflect across the y-axis</td></tr>\n<tr><td>y = 3f(x)</td><td>Multiply output by 3</td><td>Vertical stretch, factor 3</td></tr>\n</tbody>\n</table>\n<h2>Moving a vertex, step by step</h2>\n<p>Parabolas make the point method easy, because the vertex does all the talking. Suppose a parabola has its vertex at (3, 3), and the graph becomes y = f(x &minus; 5) + 3. The inside &minus;5 shifts x right by 5, so 3 turns into 8. The outside +3 lifts y by 3, so 3 turns into 6. Your new vertex sits at (8, 6). Notice how each number acted alone, and nothing about the curve&rsquo;s shape changed. Only its address moved.</p>\n<p>Try the same idea when the shift goes the other way. A vertex at (-1, 3) under y = f(x &minus; 2) &minus; 4 slides right 2 and down 4, landing at (1, -1). Read the inside for the x-move, read the outside for the y-move, and the vertex tells you the rest.</p>\n<h2>Track a single point, skip the whole graph</h2>\n<p>You rarely need to redraw anything. Pick one labelled point and move it. Say (2, 5) sits on y = f(x), and the question asks about y = f(x &minus; 1) + 4. The inside &minus;1 pushes x right by 1, so 2 becomes 3. The outside +4 lifts y, so 5 becomes 9. Your new point is (3, 9), and no sketch was needed.</p>\n<h3>Where the minus sign sits</h3>\n<p>Reflections ride on the position of the minus. A minus outside, like &minus;3f(x), negates every output and can stretch at the same time. So (-1, 3) becomes (-1, -9): the 3 scales the height, then the minus drops it below the axis. Read where the sign sits first, and only then act.</p>\n<p>This is the caveat I repeat most. A stretch and a reflection can hide in one expression, so never stop at the first change you spot. Check the inside, check the outside, and check the sign. In my experience coaching SAT students, that three-part scan turns the trickiest transformation items into quick, near-automatic points.</p>\n<h2>Take the free practice, then go deeper</h2>\n<p>This SAT Math Function Transformations practice test online sits right below, graded in one click. Answer all fifteen, press Check my score, and study the solution for any you miss. For a full workout, the <a href='/shop/product/sat-math-function-transformations-practice-mcqs'><strong>SAT Math &mdash; Function Transformations e-book</strong></a> carries 100 solved MCQs across ten graded worksheets. When you want complete papers, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Function Transformations Quiz",
+    "intro": "Fifteen Digital SAT-style questions on shifts, stretches and reflections. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Function Transformations",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "The graph of y = x² is shifted right 1 units and up 5 units. Which equation describes the new graph?",
+        "options": [
+          "y = (x − 1)² + 5",
+          "y = (x + 1)² − 5",
+          "y = (x − 1)² − 5",
+          "y = (x + 1)² + 5"
+        ],
+        "answer": 0,
+        "explanation": "A right shift by 1 replaces x with (x − 1) — the sign is opposite to the direction. The vertical shift adds + 5 outside. So y = (x − 1)² + 5."
+      },
+      {
+        "q": "The point (-1, 3) lies on y = f(x). After the transformation y = −3f(x), the corresponding point is:",
+        "options": [
+          "(-1, 9)",
+          "(-1, -9)",
+          "(1, 9)",
+          "(1, -9)"
+        ],
+        "answer": 1,
+        "explanation": "y = −3f(x) keeps x, multiplies the output by 3, then reflects across the x-axis: (-1, 3) → (-1, -9)."
+      },
+      {
+        "q": "A parabola has its vertex at (3, 3). After the graph is translated to y = f(x − 5) + 3, where is the new vertex?",
+        "options": [
+          "(6, 8)",
+          "(8, 0)",
+          "(8, 6)",
+          "(-2, 6)"
+        ],
+        "answer": 2,
+        "explanation": "Inside the brackets moves x (opposite the sign): right 5. Outside moves y: up 3. New vertex: (8, 6)."
+      },
+      {
+        "q": "The graphs of y = f(x) and y = −f(x) are related by one transformation. Which one?",
+        "options": [
+          "A vertical stretch by a factor of 3",
+          "A horizontal shift of 3 units",
+          "A reflection across the y-axis",
+          "A reflection across the x-axis"
+        ],
+        "answer": 3,
+        "explanation": "The minus sign OUTSIDE flips every output: (x, y) → (x, −y), a reflection across the x-axis."
+      },
+      {
+        "q": "The graph of y = √x is shifted right by 7 units. What is the new equation?",
+        "options": [
+          "√(x − 7)",
+          "√x − 7",
+          "√x + 7",
+          "√(x + 7)"
+        ],
+        "answer": 0,
+        "explanation": "Shifting right 7 replaces x with (x − 7)."
+      },
+      {
+        "q": "How do you reflect the graph of y = 5x + 4 across the x-axis?",
+        "options": [
+          "Replace x with −x: y = f(−x)",
+          "Negate the whole function: y = −(5x + 4)",
+          "Add 1 to the function",
+          "Multiply x by 2"
+        ],
+        "answer": 1,
+        "explanation": "Reflection across the x-axis negates the output: y = −f(x)."
+      },
+      {
+        "q": "Multiplying the function y = |x| by 5 to get y = 5(|x|) produces which transformation?",
+        "options": [
+          "A vertical compression by a factor of 5",
+          "A horizontal shift of 5",
+          "A vertical stretch by a factor of 5",
+          "A reflection across the x-axis"
+        ],
+        "answer": 2,
+        "explanation": "Multiplying the output by 5 (>1) stretches the graph vertically by a factor of 5."
+      },
+      {
+        "q": "The function y = √x is changed to y = (1/2)(√x). What transformation is this?",
+        "options": [
+          "A vertical stretch by a factor of 2",
+          "A horizontal stretch of 2",
+          "A shift up 2 units",
+          "A vertical compression by a factor of 2"
+        ],
+        "answer": 3,
+        "explanation": "Multiplying the output by 1/2 (a fraction between 0 and 1) compresses the graph vertically."
+      },
+      {
+        "q": "The point (2, 5) lies on the graph of y = f(x). Which point must lie on the graph of y = f(x − 1) + 4?",
+        "options": [
+          "(3, 9)",
+          "(1, 9)",
+          "(3, 1)",
+          "(1, 1)"
+        ],
+        "answer": 0,
+        "explanation": "f(x − 1) shifts the graph right 1 (x-coordinate increases), and the + 4 outside shifts it up 4. So (2, 5) → (3, 9)."
+      },
+      {
+        "q": "The graph of y = x² is shifted left 4 units and down 6 units. Which equation describes the new graph?",
+        "options": [
+          "y = (x − 4)² + 6",
+          "y = (x + 4)² − 6",
+          "y = (x + 4)² + 6",
+          "y = (x − 4)² − 6"
+        ],
+        "answer": 1,
+        "explanation": "A left shift by 4 replaces x with (x + 4) — the sign is opposite to the direction. The vertical shift adds − 6 outside. So y = (x + 4)² − 6."
+      },
+      {
+        "q": "The point (1, -5) lies on y = f(x). After the transformation y = −2f(x), the corresponding point is:",
+        "options": [
+          "(-1, -10)",
+          "(-1, 10)",
+          "(1, 10)",
+          "(1, -10)"
+        ],
+        "answer": 2,
+        "explanation": "y = −2f(x) keeps x, multiplies the output by 2, then reflects across the x-axis: (1, -5) → (1, 10)."
+      },
+      {
+        "q": "A parabola has its vertex at (-1, 3). After the graph is translated to y = f(x − 2) − 4, where is the new vertex?",
+        "options": [
+          "(-3, -1)",
+          "(-5, 5)",
+          "(1, 7)",
+          "(1, -1)"
+        ],
+        "answer": 3,
+        "explanation": "Inside the brackets moves x (opposite the sign): right 2. Outside moves y: down 4. New vertex: (1, -1)."
+      },
+      {
+        "q": "Which single change turns the graph of y = f(x) into the graph of y = f(−x) ?",
+        "options": [
+          "A reflection across the y-axis",
+          "A vertical stretch by a factor of 4",
+          "A horizontal shift of 4 units",
+          "A reflection across the x-axis"
+        ],
+        "answer": 0,
+        "explanation": "The minus sign INSIDE flips every input: (x, y) → (−x, y), a reflection across the y-axis."
+      },
+      {
+        "q": "The graph of y = √x is shifted left by 2 units. What is the new equation?",
+        "options": [
+          "√x − 2",
+          "√(x + 2)",
+          "√x + 2",
+          "√(x − 2)"
+        ],
+        "answer": 1,
+        "explanation": "Shifting left 2 replaces x with (x + 2)."
+      },
+      {
+        "q": "How do you reflect the graph of y = 5x + 4 across the y-axis?",
+        "options": [
+          "Negate the whole function: y = −(5x + 4)",
+          "Add 1 to the function",
+          "Replace x with −x: y = f(−x)",
+          "Multiply x by 2"
+        ],
+        "answer": 2,
+        "explanation": "Reflection across the y-axis replaces x with −x: y = f(−x)."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Function Transformations practice test online free?",
+      "a": "Yes. All 15 questions, the instant scoring and every worked solution cost nothing. The e-book then adds 100 more MCQs for focused practice."
+    },
+    {
+      "q": "Why does f(x &minus; 3) shift the graph right, not left?",
+      "a": "The input has to grow by 3 to reach the same output it hit before, so the whole graph slides 3 units to the right. Inside changes always run opposite to the sign."
+    },
+    {
+      "q": "What is the difference between &minus;f(x) and f(&minus;x)?",
+      "a": "A minus outside, &minus;f(x), reflects across the x-axis. A minus inside, f(&minus;x), reflects across the y-axis. The position of the sign decides the mirror."
+    },
+    {
+      "q": "How do I handle a stretch and a shift together?",
+      "a": "Take the point you are given and apply the changes in order: stretch or reflect the output first, then shift. Track one point and you avoid redrawing the graph."
+    },
+    {
+      "q": "Where can I get more transformation practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs across ten worksheets &mdash; the same bank behind this quiz, graded from basics to exam-level."
+    }
+  ]
+}

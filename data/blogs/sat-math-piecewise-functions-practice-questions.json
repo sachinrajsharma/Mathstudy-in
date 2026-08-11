@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-piecewise-functions-practice-questions",
+  "title": "SAT Math Piecewise Functions Practice Questions: 15 Free MCQs",
+  "meta_title": "SAT Math Piecewise Functions Practice Questions",
+  "meta_desc": "Free SAT Math Piecewise Functions practice questions: 15 Digital SAT MCQs with instant answers and worked solutions. Start the online quiz now.",
+  "excerpt": "A free 15-question set of SAT Math Piecewise Functions practice questions &mdash; Digital SAT-style MCQs with instant scoring and the branch-checking method that stops silly slips.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-piecewise-functions.png",
+  "cta_product_slug": "sat-math-piecewise-functions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Piecewise Functions practice questions",
+  "content": "<p>Last month a student plugged x = 5 into the wrong branch of a function and lost an easy mark. The rule for x &lt; 5 sat right beside the rule for x &ge; 5, and he grabbed the first one he saw. That single slip is the whole story of this chapter. This free set of <strong>SAT Math Piecewise Functions practice questions</strong> drills the fix: check the condition first, then do the algebra. Scroll down for 15 Digital SAT-style MCQs with instant answers and worked solutions.</p>\n<h2>What a piecewise function actually asks</h2>\n<p>A piecewise function is one function wearing two or three coats. Each coat has a door, and the door is the domain condition. So your first job is never the arithmetic. Your task is to read the input and ask which door it opens. Once you know the branch, the rest is ordinary evaluation. Miss the door, and even perfect algebra gives a wrong answer.</p>\n<p>The Digital SAT leans on this in two ways. First, it hands you a plain rule and an input, and you evaluate. Then it hides the same idea inside a bill, a shipping cost or a phone plan. Same skill, new costume.</p>\n<h2>The habit behind these SAT Math Piecewise Functions practice questions</h2>\n<p>Here is the rule I drill with every student. Circle the condition before you write a single number. Say f(x) = 5x + 3 for x &lt; 2 and f(x) = x&sup2; for x &ge; 2, and you want f(-2). Stop and check: is -2 less than 2? Yes. So you use 5x + 3, and the answer is -7. The square branch never enters the picture. That one move carries most SAT Math Piecewise Functions practice questions.</p>\n<table>\n<thead><tr><th>Input</th><th>Condition to check</th><th>Branch you use</th></tr></thead>\n<tbody>\n<tr><td>x = -2</td><td>Is -2 &lt; 2?</td><td>The first rule, 5x + 3</td></tr>\n<tr><td>x = 4</td><td>Is 4 &ge; 2?</td><td>The second rule, x&sup2;</td></tr>\n<tr><td>f(f(1))</td><td>Work inside out</td><td>Find f(1) first, then feed it back</td></tr>\n</tbody>\n</table>\n<h3>A quick nested example</h3>\n<p>Nested calls look scary, yet they follow the same door rule. Take f(x) = 3x + 2 for x &lt; 4 and f(x) = x &minus; 4 for x &ge; 4, and find f(f(1)). Work from the inside. First, 1 is less than 4, so f(1) = 3(1) + 2 = 5. Next, 5 is at least 4, so f(5) = 5 &minus; 4 = 1. The final answer is 1. Two branches, one careful pass, no guessing.</p>\n<h2>Open circle or closed circle?</h2>\n<p>Graph items add one wrinkle: the endpoints. A filled dot means the point belongs to that piece. An open dot means it does not. So an input that lands exactly on a boundary uses whichever branch owns the equals sign. If the condition reads x &ge; 2, then x = 2 sits on the second branch. Read the sign, not your gut.</p>\n<ul>\n<li>Filled (closed) circle: that point counts and belongs to the piece.</li>\n<li>Open circle: the point drops out, and the other piece covers it.</li>\n<li>Pieces that meet with no gap: the function stays continuous there.</li>\n</ul>\n<h3>Why the boundary matters more than it looks</h3>\n<p>Boundary inputs are the SAT&rsquo;s favourite quiet trap. The equals sign decides everything, yet students skim past it. So when you see x = 2 and a condition of x &ge; 2, slow down for one breath and pick the branch that holds the sign.</p>\n<h2>Bills and plans are piecewise in disguise</h2>\n<p>Many word problems are step-cost stories. A phone plan charges 19 a month and includes 3 GB, then 6 for each extra GB. Use 7 GB and the extra is 4 GB, so 4 &times; 6 = 24, and the bill is 19 + 24 = 43. Watch the tiers though. Only the units above the limit pay the higher rate. Charge every unit at the top rate and you walk straight into the trap the SAT set.</p>\n<h2>Take the free practice, then go deeper</h2>\n<p>These SAT Math Piecewise Functions practice questions sit below, ready to score you in one click. Answer all fifteen, then press Check my score, and read the solution for anything you miss. When you want more, the <a href='/shop/product/sat-math-piecewise-functions-practice-mcqs'><strong>SAT Math &mdash; Piecewise Functions e-book</strong></a> holds 100 solved MCQs across ten graded worksheets. For full exam sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> pull every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Piecewise Functions Quiz",
+    "intro": "Fifteen Digital SAT-style questions on piecewise functions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Piecewise Functions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A phone plan costs 19 per month and includes 3 GB of data; each GB beyond that costs 6. What is the bill in a month using 7 GB?",
+        "options": [
+          "43",
+          "61",
+          "43.50",
+          "37"
+        ],
+        "answer": 0,
+        "explanation": "The first 3 GB are inside the base price. Extra: 4 GB × 6 = 24. Bill: 19 + 24 = 43."
+      },
+      {
+        "q": "Let f(x) = 5x + 3 if x < 2, and f(x) = x² if x ≥ 2. Find f(-2).",
+        "options": [
+          "4",
+          "-7",
+          "-2",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "x = -2 < 2, so use 5x + 3: 5(-2) + 3 = -7."
+      },
+      {
+        "q": "For f(x) = 3x + 2 when x < 4 and f(x) = x − 4 when x ≥ 4, what is f(f(1))?",
+        "options": [
+          "5",
+          "2",
+          "1",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "Inner: x = 1 < 4, so f(1) = 3(1) + 2 = 5. Outer: 5 ≥ 4 → 5 − 4 = 1."
+      },
+      {
+        "q": "Let f(x) = 3x + 1 for x < 5 and f(x) = 30x for x ≥ 5. For what value of x less than 5 does f(x) = 13?",
+        "options": [
+          "3",
+          "12",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "On x < 5 the rule is 3x + 1. Solve 3x + 1 = 13: x = 4, which is indeed less than 5."
+      },
+      {
+        "q": "A water company charges 4 per unit for the first 9 units and 7 per unit after that. What is the bill for 14 units?",
+        "options": [
+          "71",
+          "98",
+          "78",
+          "56"
+        ],
+        "answer": 0,
+        "explanation": "Tier 1: 9 × 4 = 36. Tier 2: 5 × 7 = 35. Bill: 71. Only the units above 9 pay the higher rate."
+      },
+      {
+        "q": "Where a piecewise graph has no break and the pieces connect, the function is said to be:",
+        "options": [
+          "Discontinuous",
+          "Continuous",
+          "Undefined",
+          "Linear"
+        ],
+        "answer": 1,
+        "explanation": "For piecewise graphs, the answer is \"Continuous\"."
+      },
+      {
+        "q": "A piecewise function uses one rule for x < 1 and another for x ≥ 1. Which rule applies when x = 4?",
+        "options": [
+          "The first branch (x < 1)",
+          "Both rules at once",
+          "The second branch (x ≥ 1)",
+          "Neither rule"
+        ],
+        "answer": 2,
+        "explanation": "Since 4 ≥ 1, the second branch applies."
+      },
+      {
+        "q": "Let f(x) = 4x + 4 when x < 3 and f(x) = x² − 6 when x ≥ 3. Evaluate f(1).",
+        "options": [
+          "9",
+          "6",
+          "-5",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Check the condition first: x = 1 < 3, so use the first rule: 4(1) + 4 = 8."
+      },
+      {
+        "q": "Shipping costs 4 for parcels up to 2 kg and 9 for anything heavier. What does a 6-kg parcel cost to ship?",
+        "options": [
+          "9",
+          "54",
+          "13",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "6 kg exceeds the 2-kg limit, so the flat higher band applies: 9. Step charges jump — they are not per-kg rates."
+      },
+      {
+        "q": "A phone plan costs 27 per month and includes 2 GB of data; each GB beyond that costs 5. What is the bill in a month using 8 GB?",
+        "options": [
+          "67",
+          "57",
+          "52",
+          "57.50"
+        ],
+        "answer": 1,
+        "explanation": "The first 2 GB are inside the base price. Extra: 6 GB × 5 = 30. Bill: 27 + 30 = 57."
+      },
+      {
+        "q": "Let f(x) = 2x + 3 if x < 1, and f(x) = x² if x ≥ 1. Find f(-2).",
+        "options": [
+          "4",
+          "1",
+          "-1",
+          "0"
+        ],
+        "answer": 2,
+        "explanation": "x = -2 < 1, so use 2x + 3: 2(-2) + 3 = -1."
+      },
+      {
+        "q": "For f(x) = 2x + 5 when x < 4 and f(x) = x − 4 when x ≥ 4, what is f(f(1))?",
+        "options": [
+          "7",
+          "19",
+          "4",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "Inner: x = 1 < 4, so f(1) = 2(1) + 5 = 7. Outer: 7 ≥ 4 → 7 − 4 = 3."
+      },
+      {
+        "q": "Let f(x) = 2x + 1 for x < 6 and f(x) = 20x for x ≥ 6. For what value of x less than 6 does f(x) = 11?",
+        "options": [
+          "5",
+          "10",
+          "4",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "On x < 6 the rule is 2x + 1. Solve 2x + 1 = 11: x = 5, which is indeed less than 6."
+      },
+      {
+        "q": "Electricity costs 4/unit up to 8 units, then 7/unit beyond. Find the bill for using 13 units.",
+        "options": [
+          "91",
+          "67",
+          "52",
+          "74"
+        ],
+        "answer": 1,
+        "explanation": "Tier 1: 8 × 4 = 32. Tier 2: 5 × 7 = 35. Bill: 67. Only the units above 8 pay the higher rate."
+      },
+      {
+        "q": "On the graph of a piecewise function, a filled (closed) circle at a point means:",
+        "options": [
+          "That point is not included",
+          "The function jumps there",
+          "That point is included",
+          "The graph ends there"
+        ],
+        "answer": 2,
+        "explanation": "For piecewise graphs, the answer is \"That point is included\"."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Piecewise Functions practice questions free?",
+      "a": "Yes. All 15 questions, the instant scoring and every worked solution are free. The e-book then adds 100 more MCQs for focused practice."
+    },
+    {
+      "q": "How do I pick the right branch of a piecewise function?",
+      "a": "Read the input, then test each condition. Use the branch whose inequality the input satisfies &mdash; and remember the equals sign decides who owns a boundary value."
+    },
+    {
+      "q": "What does an open circle mean on the graph?",
+      "a": "An open circle marks a point that is left out of that piece. A filled circle marks a point that belongs to it, so boundary values follow whichever branch carries the equals sign."
+    },
+    {
+      "q": "Can I use a calculator on these?",
+      "a": "Yes. The Digital SAT allows a calculator across the whole Math section, so practise that way. Most piecewise items reward clear reading more than heavy calculation."
+    },
+    {
+      "q": "Where can I get more piecewise practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs across ten worksheets &mdash; the same bank behind this quiz, graded from warm-ups to exam-level."
+    }
+  ]
+}

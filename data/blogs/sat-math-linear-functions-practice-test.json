@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-linear-functions-practice-test",
+  "title": "SAT Math Linear Functions Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Linear Functions Practice Test + Answers",
+  "meta_desc": "Free SAT Math Linear Functions practice test: 15 Digital SAT MCQs with instant answers, slope-as-rate tips and full solutions. Take the online quiz now.",
+  "excerpt": "A free 15-question SAT Math Linear Functions practice test &mdash; Digital SAT MCQs with instant scoring, slope-as-rate thinking and full worked solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-linear-functions.png",
+  "cta_product_slug": "sat-math-linear-functions-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Linear Functions practice test",
+  "content": "<p>Ask ten students what slope means. Most say &lsquo;rise over run&rsquo;. True, yet that phrase freezes them the moment a question talks about dollars per month or metres per second. Slope is a rate, and once you see it that way, half of SAT algebra opens up. This <strong>SAT Math Linear Functions practice test</strong> trains that shift, from bare formulas to the models the Digital SAT actually asks. Scroll down for 15 MCQs with instant scoring and full answers.</p><h2>What linear functions look like on the Digital SAT</h2><p>Nearly everything sits in y = mx + b. So m is the slope, the rate of change, and b is the y-intercept, the starting value. Get those two numbers, and you own the line. The SAT then dresses it up in graphs, tables and short stories.</p><ul><li>Reading slope and intercept straight from y = mx + b.</li><li>Slope between two points, using the rise over the run.</li><li>Point-slope form, when you know a point and a slope.</li><li>Parallel lines, which share a slope, and vertical lines, which have none.</li><li>Word models, where slope is a rate and b is the start.</li></ul><h2>Three moves that carry this SAT Math Linear Functions practice test</h2><p>First, treat slope as a rate. Dollars per unit, miles per hour, growth per year &mdash; it is the same idea every time. Second, read b as the value when x is zero, the start of the story. Third, build the equation from any two clues, whether that is two points or a point and a slope. These three moves solve most of the SAT Math Linear Functions practice test below.</p><h3>Slope is a rate, not a mystery</h3><p>Say a company earns 200 dollars per unit sold, on top of a fixed 5000. So P = 200x + 5000. The 200 is the slope, a rate. And the 5000 is b, the profit at zero units. Sell 150 units, and P = 200(150) + 5000 = 35000. One substitution, and you are done.</p><h3>Special slopes worth memorising</h3><p>A horizontal line has slope 0, and its equation is y = a number. A vertical line has no slope at all, and its equation is x = a number. Students mix these up under time pressure. So anchor them now: flat means zero, and upright means undefined.</p><h2>Traps that cost easy marks</h2><p>These three catch rushed students. So watch for them:</p><table><thead><tr><th>Question says</th><th>Weak move</th><th>Strong move</th></tr></thead><tbody><tr><td>Slope through (&minus;2, 5) and (4, &minus;3)</td><td>Subtract in a different order top and bottom</td><td>Keep one order: (&minus;3 &minus; 5)/(4 &minus; (&minus;2))</td></tr><tr><td>Vertical line through (5, &minus;2)</td><td>Write y = &minus;2</td><td>Write x = 5</td></tr><tr><td>Find b from two points</td><td>Guess the intercept</td><td>Find the slope, then plug a point back in</td></tr></tbody></table><h2>A quick worked example</h2><p>A line passes through (2, 7) and (6, 19). First, find the slope: (19 &minus; 7)/(6 &minus; 2) = 12/4 = 3. So y = 3x + b. Now plug in (2, 7): 7 = 3(2) + b, so b = 1. The line is y = 3x + 1. Notice the order: slope first, then the intercept.</p><p>One honest caveat. The slope formula is order-sensitive, and that trips up strong students. If you subtract the y-values from top to bottom, subtract the x-values in the same direction. Flip one and not the other, and your sign comes out wrong. So pick an order and hold it.</p><h3>What score to aim for</h3><p>Aim for 12 out of 15 or better. If you slip below 9, the gap is almost never the graph reading; it is the slope sign or a rushed intercept. So redo those questions, treat slope as a rate each time, and your score climbs quickly.</p><h2>Take the free SAT Math Linear Functions practice test</h2><p>The quiz below comes from our reviewed Digital SAT bank. It mixes function values, slope, intercepts and the word models that decide scores. Work through all fifteen, then press Check my score. Miss one, read the answer, and retry after a short break.</p><h2>Practise the whole chapter</h2><p>Want more than a quiz? The <a href='/shop/product/sat-math-linear-functions-practice-mcqs'><strong>SAT Math &mdash; Linear Functions e-book</strong></a> holds 100 MCQs across 10 worksheets, each with an answer key and a step-by-step solution. When you want full-length practice, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Linear Functions Quiz",
+    "intro": "Fifteen Digital SAT-style questions. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Linear Functions",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "If f(x) = 3x - 7 , what is the value of f(2) + f(-1) ?",
+        "options": [
+          "-11",
+          "-12",
+          "0",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Evaluate each output separately: f(2) = 3(2) - 7 = -1 and f(-1) = 3(-1) - 7 = -10 . Adding them gives f(2) + f(-1) = -1 + (-10) = -11 ."
+      },
+      {
+        "q": "What is the slope of the line passing through the points (-2, 5) and (4, -3)?",
+        "options": [
+          "-8/6",
+          "-4/3",
+          "4/3",
+          "8/6"
+        ],
+        "answer": 1,
+        "explanation": "Slope m = (y_2 - y_1)/(x_2 - x_1) = (-3 - 5)/(4 - (-2)) = (-8)/(6) = -(4)/(3) ."
+      },
+      {
+        "q": "The equation y = -(1)/(2)x + 4 represents a line. What is the y-intercept of this line?",
+        "options": [
+          "-1/2",
+          "-4",
+          "4",
+          "1/2"
+        ],
+        "answer": 2,
+        "explanation": "In slope-intercept form y = mx + b , b is the y-intercept. Here, b = 4 ."
+      },
+      {
+        "q": "A car's distance from a starting point increases at a constant rate of 60 miles per hour. Which of the following equations represents the distance d (in miles) as a function of time t (in hours)?",
+        "options": [
+          "d = 60 + t",
+          "d = t/60",
+          "d = 60 - t",
+          "d = 60t"
+        ],
+        "answer": 3,
+        "explanation": "The slope (rate of change) is 60 miles per hour, and the initial distance is 0. Thus, d = 60t ."
+      },
+      {
+        "q": "The slope of the line passing through (a, a²) and (a+2, (a+2)²) is 12. What is the value of a?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Using slope formula: m = ((a+2)² - a²)/((a+2) - a) = (a² + 4a + 4 - a²)/2 = (4a + 4)/2 = 2a + 2. Set equal to 12: 2a + 2 = 12 ⇒ 2a = 10 ⇒ a = 5."
+      },
+      {
+        "q": "A line passes through (2, -3) and is parallel to the line y - 4 = (1)/(2)(x + 5). Which equation represents this line?",
+        "options": [
+          "y - 3 = (1)/(2)(x + 2)",
+          "y + 3 = (1)/(2)(x - 2)",
+          "y + 3 = 2(x - 2)",
+          "y - 3 = -(1)/(2)(x + 2)"
+        ],
+        "answer": 1,
+        "explanation": "The given line has slope 1/2 from its point-slope form. Parallel lines share the same slope. Using point (2, -3) and slope 1/2, point-slope form: y - (-3) = 1/2(x - 2) → y + 3 = 1/2(x - 2). Option A is correct."
+      },
+      {
+        "q": "A vertical line passes through (5, -2). What is its equation?",
+        "options": [
+          "y = -2",
+          "y = 5",
+          "x = 5",
+          "x = -2"
+        ],
+        "answer": 2,
+        "explanation": "A vertical line has an undefined slope and its equation is of the form x = constant, where the constant is the x-coordinate of any point on the line. Since it passes through (5, -2), the x-coordinate is 5. Thus, equation is x = 5."
+      },
+      {
+        "q": "The line L has equation y = mx + b. If the line passes through (2, 7) and (6, 19), what is the value of b?",
+        "options": [
+          "2",
+          "-1",
+          "3",
+          "1"
+        ],
+        "answer": 3,
+        "explanation": "First find slope m: (19 - 7)/(6 - 2) = 12/4 = 3. So y = 3x + b. Substitute (2,7): 7 = 3(2) + b → 7 = 6 + b → b = 1. Thus equation is y = 3x + 1. Option A is correct."
+      },
+      {
+        "q": "If the equation (k-1)x + 3y = 6 represents a line with an undefined slope, what is the value of k?",
+        "options": [
+          "1",
+          "0",
+          "3",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "A line has undefined slope when it is vertical. In standard form Ax + By = C, the line is vertical when B = 0 and A ≠ 0. Here B = 3, which is not zero."
+      },
+      {
+        "q": "What is the range of the linear function f(x) = -2x + 7 ?",
+        "options": [
+          "All real numbers except 0",
+          "All real numbers",
+          "All real numbers greater than 7",
+          "All real numbers less than 7"
+        ],
+        "answer": 1,
+        "explanation": "Linear functions have a range of all real numbers unless restricted by domain constraints (none here)."
+      },
+      {
+        "q": "Which of the following describes a line with a negative slope?",
+        "options": [
+          "As x increases, y increases.",
+          "As x decreases, y increases.",
+          "As x increases, y decreases.",
+          "The line is horizontal."
+        ],
+        "answer": 2,
+        "explanation": "A negative slope means that as x increases, y decreases."
+      },
+      {
+        "q": "What is the equation of the line in point-slope form that passes through the point (3, -2) with a slope of 5 ?",
+        "options": [
+          "y - 2 = 5(x + 3)",
+          "y = 5x - 3",
+          "y = 5x + 2",
+          "y + 2 = 5(x - 3)"
+        ],
+        "answer": 3,
+        "explanation": "Point-slope form is y - y_1 = m(x - x_1) . Substituting m = 5 , x_1 = 3 , and y_1 = -2 , we get y - (-2) = 5(x - 3) , which simplifies to y + 2 = 5(x - 3) ."
+      },
+      {
+        "q": "A company's profit P (in dollars) is modeled by the equation P = 200x + 5000 , where x is the number of units sold. What is the profit when 150 units are sold?",
+        "options": [
+          "35,000",
+          "30,000",
+          "32,500",
+          "37,500"
+        ],
+        "answer": 0,
+        "explanation": "Substitute x = 150 into the model: P = 200(150) + 5000 = 30,000 + 5,000 = 35,000 . The profit is 35,000."
+      },
+      {
+        "q": "A line passes through (a, b) and (c, d). If a ≠ c and b = d, what is the slope?",
+        "options": [
+          "undefined",
+          "0",
+          "(b-d)/(a-c)",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Slope = (d - b)/(c - a). Since b = d, numerator = 0. Denominator c - a ≠ 0 because a ≠ c. Therefore, slope = 0. The line is horizontal. All horizontal lines have slope 0 and equation y = b."
+      },
+      {
+        "q": "A line has an x-intercept of -2 and a slope of (3)/(4). Write its equation in point-slope form using the x-intercept.",
+        "options": [
+          "y = (3)/(4)x - 2",
+          "y - 2 = (3)/(4)(x + 2)",
+          "y = (3)/(4)(x + 2)",
+          "y + 2 = (3)/(4)x"
+        ],
+        "answer": 2,
+        "explanation": "The x-intercept of -2 means the point (-2, 0) is on the line. Using point-slope form with point (-2, 0) and slope 3/4: y - 0 = 3/4(x - (-2)) → y = 3/4(x + 2). Option A is correct. Option B is missing parentheses."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is the quickest way to read a linear function?",
+      "a": "Match it to y = mx + b. The number with x is the slope, or rate. The lone number is b, the value when x is zero. Those two facts describe the whole line."
+    },
+    {
+      "q": "Is this SAT Math Linear Functions practice test free?",
+      "a": "Yes, all 15 questions are free with instant scoring and full solutions. The e-book then adds 100 more MCQs, graded from warm-ups to exam-level items."
+    },
+    {
+      "q": "How do I find slope from two points without errors?",
+      "a": "Subtract the y-values top to bottom, then subtract the x-values in the same order. Keeping one consistent direction stops the sign flipping by accident."
+    },
+    {
+      "q": "What are the equations of horizontal and vertical lines?",
+      "a": "A horizontal line is y = a number and has slope 0. A vertical line is x = a number and has an undefined slope. Anchor flat as zero and upright as undefined."
+    },
+    {
+      "q": "Where do I get more linear functions practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from this same Digital SAT bank, built to move you from basics to harder graph and model questions."
+    }
+  ]
+}

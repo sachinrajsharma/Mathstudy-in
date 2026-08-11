@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-advanced-word-problems-practice-test",
+  "title": "SAT Math Advanced Word Problems Practice Test: 15 Free MCQs",
+  "meta_title": "SAT Math Advanced Word Problems Practice Test",
+  "meta_desc": "Free SAT Math Advanced Word Problems practice test: 15 Digital SAT MCQs with instant answers and worked solutions. Start the online quiz now.",
+  "excerpt": "A free 15-question SAT Math Advanced Word Problems practice test &mdash; Digital SAT-style MCQs with instant scoring and one-variable templates for work, rate, percent and mixture stories.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-advanced-word-problems.png",
+  "cta_product_slug": "sat-math-advanced-word-problems-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Advanced Word Problems practice test",
+  "content": "<p>I once watched a strong student burn four minutes on a work-rate question, then set up three variables for a problem that needed just one. The story was short: six workers, five days, how long for two. He panicked at the words, not the maths. That gap is exactly what the hard module tests, and this free <strong>SAT Math Advanced Word Problems practice test</strong> closes it. Scroll down for 15 Digital SAT-style MCQs with instant answers and worked solutions.</p>\n<h2>Why the hard module feels hard</h2>\n<p>Advanced word problems rarely use advanced maths. They lean on ordinary percent, ratio, rate and averages, wrapped in longer sentences. So the real challenge is translation, not calculation. Read the story, name the one quantity that matters, and write a single clean equation. Most students drop marks in the reading, and almost never in the arithmetic.</p>\n<h2>Templates that tame a SAT Math Advanced Word Problems practice test</h2>\n<p>Four templates cover most of what the SAT throws at you. Keep them at your fingertips, and the stories stop feeling random.</p>\n<ul>\n<li>Percent change: divide the change by the original, then times 100.</li>\n<li>Work-rate: worker-days stay constant, so workers times days holds steady.</li>\n<li>Speed: distance equals speed times time, so any one follows from the other two.</li>\n<li>Mixture: total cost over total amount gives the blended price.</li>\n</ul>\n<table>\n<thead><tr><th>Story</th><th>Trap</th><th>Clean move</th></tr></thead>\n<tbody>\n<tr><td>6 workers, 5 days; find 2 workers</td><td>Divide 5 by 2</td><td>6 &times; 5 = 30 worker-days, then 30 &divide; 2 = 15</td></tr>\n<tr><td>Sales 200 up to 240</td><td>Divide by 240</td><td>Divide the rise of 40 by 200 = 20%</td></tr>\n<tr><td>Two batches at the same price</td><td>Average the prices blindly</td><td>Same price in means the same price out</td></tr>\n</tbody>\n</table>\n<h2>Work-rate without the panic</h2>\n<p>Work problems hinge on one idea: the job stays fixed. If six workers finish a wall in five days, that wall is worth 6 &times; 5 = 30 worker-days. Cut the crew to two, and the same 30 worker-days now take 30 &divide; 2 = 15 days. No fractions of a worker, and no second variable. Just hold the job steady and divide.</p>\n<h3>The mixture shortcut students miss</h3>\n<p>Here is a small counter-intuitive point. When two batches carry the same unit price, the mixture keeps that exact price, whatever the amounts. Mix 1 litre and 5 litres both at 70, and the blend still costs 70 a litre. So scan for equal prices before you reach for a weighted average. The SAT plants that shortcut on purpose, and it rewards the reader who spots it.</p>\n<h3>A worked profit story</h3>\n<p>Profit questions look wordy, yet they reduce to one subtraction. Say an item costs 230 and sells for 410. The profit is simply 410 &minus; 230 = 180, in the same currency. Do not let a paragraph of setup fool you into a percentage when the question wants a plain amount. Read the final line twice, and answer the question that is actually asked, not the one you expected.</p>\n<h2>Speed and percent, the everyday pair</h2>\n<p>Two ideas show up in nearly every paper. Speed ties distance, rate and time in one line, so 183 miles in 3 hours give 183 &divide; 3 = 61 mph. Percent change divides by the starting value, never the finish. A jump from 170 to 212.5 is a rise of 42.5, and 42.5 &divide; 170 = 25%. Get these two automatic, and the hard module loses most of its bite.</p>\n<h3>One variable beats two</h3>\n<p>The neatest set-ups use a single unknown. When a story tempts you toward x and y, pause and ask whether one letter can carry the whole thing. Often it can, and the algebra shrinks to a line or two. That habit is the quiet edge that separates a 650 from a 750 on the hardest stories.</p>\n<h2>Take the free practice, then go deeper</h2>\n<p>This SAT Math Advanced Word Problems practice test waits right below, ready to grade you in one click. Answer all fifteen, press Check my score, and study every solution you miss. For a longer run, the <a href='/shop/product/sat-math-advanced-word-problems-practice-mcqs'><strong>SAT Math &mdash; Advanced Word Problems e-book</strong></a> holds 100 solved MCQs across ten graded worksheets. When you want full sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Advanced Word Problems Quiz",
+    "intro": "Fifteen Digital SAT-style word problems on percent, rate, work and mixtures. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Advanced Word Problems",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "Sales rose from 200 units to 240 units. What is the percent increase?",
+        "options": [
+          "20%",
+          "25%",
+          "15%",
+          "40%"
+        ],
+        "answer": 0,
+        "explanation": "Percent increase = (change ÷ original) × 100 = ((240−200)/200) × 100 = 20%."
+      },
+      {
+        "q": "1 liters of juice at 70 are mixed with 5 liters at 70. What is the cost per liter of the mixture, in dollars?",
+        "options": [
+          "140",
+          "70",
+          "75",
+          "71"
+        ],
+        "answer": 1,
+        "explanation": "Average = total cost ÷ total volume = (1×70 + 5×70) ÷ 6 = 70."
+      },
+      {
+        "q": "An item costs 100 and sells for 170. What is the profit, in dollars?",
+        "options": [
+          "270",
+          "100",
+          "70",
+          "170"
+        ],
+        "answer": 2,
+        "explanation": "Profit = selling price − cost = 170 − 100 = 70."
+      },
+      {
+        "q": "If 6 workers build a wall in 5 days, how many days will 2 workers take at the same rate?",
+        "options": [
+          "5",
+          "2",
+          "17",
+          "15"
+        ],
+        "answer": 3,
+        "explanation": "Worker-days stay constant: 6 × 5 = 30. Days = 30 ÷ 2 = 15."
+      },
+      {
+        "q": "A cyclist covers 183 miles in 3 hours. What is the average speed, in mph?",
+        "options": [
+          "61",
+          "180",
+          "46",
+          "66"
+        ],
+        "answer": 0,
+        "explanation": "Speed = distance ÷ time = 183 ÷ 3 = 61 mph."
+      },
+      {
+        "q": "Sales rose from 170 units to 212.5 units. What is the percent increase?",
+        "options": [
+          "30%",
+          "25%",
+          "20%",
+          "43%"
+        ],
+        "answer": 1,
+        "explanation": "Percent increase = (change ÷ original) × 100 = ((212.5−170)/170) × 100 = 25%."
+      },
+      {
+        "q": "5 liters of juice at 50 are mixed with 6 liters at 50. What is the cost per liter of the mixture, in dollars?",
+        "options": [
+          "100",
+          "55",
+          "50",
+          "51"
+        ],
+        "answer": 2,
+        "explanation": "Average = total cost ÷ total volume = (5×50 + 6×50) ÷ 11 = 50."
+      },
+      {
+        "q": "An item costs 230 and sells for 410. What is the profit, in dollars?",
+        "options": [
+          "640",
+          "230",
+          "410",
+          "180"
+        ],
+        "answer": 3,
+        "explanation": "Profit = selling price − cost = 410 − 230 = 180."
+      },
+      {
+        "q": "If 10 workers build a wall in 5 days, how many days will 2 workers take at the same rate?",
+        "options": [
+          "25",
+          "5",
+          "2",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "Worker-days stay constant: 10 × 5 = 50. Days = 50 ÷ 2 = 25."
+      },
+      {
+        "q": "A train covers 160 miles at a steady 40 mph. How many hours does the trip take?",
+        "options": [
+          "120",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Time = distance ÷ speed = 160 ÷ 40 = 4 hours."
+      },
+      {
+        "q": "A town of 1850 people grows 20% in a year. What is the new population?",
+        "options": [
+          "1870",
+          "370",
+          "2220",
+          "1890"
+        ],
+        "answer": 2,
+        "explanation": "New = P(1 + r) = 1850 × (1 + 20/100) = 2220."
+      },
+      {
+        "q": "2 liters of juice at 70 are mixed with 1 liters at 70. What is the cost per liter of the mixture, in dollars?",
+        "options": [
+          "140",
+          "75",
+          "71",
+          "70"
+        ],
+        "answer": 3,
+        "explanation": "Average = total cost ÷ total volume = (2×70 + 1×70) ÷ 3 = 70."
+      },
+      {
+        "q": "A shop sells 20 items at 45 each. What is the total revenue, in dollars?",
+        "options": [
+          "900",
+          "65",
+          "945",
+          "450"
+        ],
+        "answer": 0,
+        "explanation": "Revenue = price × quantity = 45 × 20 = 900."
+      },
+      {
+        "q": "If 2 workers build a wall in 2 days, how many days will 4 workers take at the same rate?",
+        "options": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Worker-days stay constant: 2 × 2 = 4. Days = 4 ÷ 4 = 1."
+      },
+      {
+        "q": "A cyclist covers 132 miles in 4 hours. What is the average speed, in mph?",
+        "options": [
+          "128",
+          "26",
+          "33",
+          "38"
+        ],
+        "answer": 2,
+        "explanation": "Speed = distance ÷ time = 132 ÷ 4 = 33 mph."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Advanced Word Problems practice test free?",
+      "a": "Yes. All 15 questions, the instant scoring and every worked solution are free. The e-book then adds 100 more MCQs for focused practice."
+    },
+    {
+      "q": "How do I solve work-rate questions quickly?",
+      "a": "Hold the job constant. Multiply workers by days to get total worker-days, then divide by the new number of workers. No fractions of a person are ever needed."
+    },
+    {
+      "q": "When can I skip a weighted average in a mixture problem?",
+      "a": "When both batches share the same unit price, the mixture keeps that price no matter the amounts. Scan for equal prices first &mdash; it turns a long sum into one glance."
+    },
+    {
+      "q": "Should I use one variable or two?",
+      "a": "Prefer one whenever the story allows it. A single unknown usually shrinks the algebra to a line or two and cuts the chance of a set-up error under time pressure."
+    },
+    {
+      "q": "Where can I get more word-problem practice?",
+      "a": "The printable e-book linked in the box below carries 100 solved MCQs across ten worksheets &mdash; the same bank behind this quiz, graded from steady warm-ups to 750-level stories."
+    }
+  ]
+}

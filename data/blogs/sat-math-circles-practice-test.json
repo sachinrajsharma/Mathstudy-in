@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-circles-practice-test",
+  "title": "SAT Math Circles Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Circles Practice Test: 15 Free MCQs",
+  "meta_desc": "Free SAT Math Circles practice test: 15 Digital SAT MCQs on area, circumference, arcs and sectors with instant answers and solutions. Try it now.",
+  "excerpt": "A free 15-question SAT Math Circles practice test &mdash; radius, circumference, area, arcs and sectors, with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-circles.png",
+  "cta_product_slug": "sat-math-circles-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Circles practice test",
+  "content": "<p>The Digital SAT almost never wants a decimal for a circle. It wants the answer &lsquo;in terms of &pi;&rsquo;. So an area of 900&pi; beats 2827.4 every time &mdash; keep the &pi; symbolic and you keep the marks. This free <strong>SAT Math Circles practice test</strong> trains that exact habit, across radius, circumference, area, arcs and sectors. Scroll down for 15 MCQs, each with an instant score and a short solution.</p>\n<h2>What the SAT Math Circles practice test covers</h2>\n<p>Circle questions reward vocabulary first, then two or three formulas. Get the words right and the numbers follow:</p>\n<ul>\n<li>Radius: from the centre to the edge.</li>\n<li>Diameter: across the circle through the centre, twice the radius.</li>\n<li>Chord: a segment with both ends on the circle.</li>\n<li>Tangent: a line touching the circle at one point, always perpendicular to the radius there.</li>\n</ul>\n<h2>The four formulas you truly need</h2>\n<p>Nearly every circle item on the exam uses one of these. Learn them, and the rest is just arithmetic:</p>\n<table><thead><tr><th>Quantity</th><th>Formula</th><th>Example, r = 6</th></tr></thead>\n<tbody>\n<tr><td>Circumference</td><td>2&pi;r</td><td>12&pi;</td></tr>\n<tr><td>Area</td><td>&pi;r&sup2;</td><td>36&pi;</td></tr>\n<tr><td>Arc length</td><td>(angle &divide; 360) &times; 2&pi;r</td><td>Depends on the angle</td></tr>\n<tr><td>Sector area</td><td>(angle &divide; 360) &times; &pi;r&sup2;</td><td>Depends on the angle</td></tr>\n</tbody></table>\n<h3>Arcs and sectors are just fractions</h3>\n<p>Here is the idea that ties the last two rows together. An arc is a fraction of the full circumference, and a sector is that same fraction of the full area. The fraction is the central angle over 360. So a 180-degree sector is exactly half the circle. And a 30-degree arc is 30 over 360, or one twelfth, of the way round.</p>\n<h2>A worked example</h2>\n<p>A circle has radius 36. Find the arc length for a 30-degree central angle. First, the full circumference is 2&pi; times 36, or 72&pi;. Then take 30 over 360, which is one twelfth. So the arc is 72&pi; divided by 12, which is 6&pi;. Notice the &pi; stays put right to the end. That is the style this SAT Math Circles practice test drills.</p>\n<h2>The mistake to watch</h2>\n<p>Radius and diameter get swapped constantly. If a question gives the diameter, halve it before you touch a formula, because every formula here uses r. So a diameter of 40 means a radius of 20, and only then do you square it for the area. One careful halving saves a whole question.</p>\n<h2>Take the free SAT Math Circles practice test</h2>\n<p>The 15 questions below come from our reviewed Digital SAT bank. They cover vocabulary, circumference, area, and arc and sector work. Answer all fifteen, press Check my score, then read the reason for anything you miss.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want more? The <a href='/shop/product/sat-math-circles-practice-mcqs'><strong>SAT Math &mdash; Circles e-book</strong></a> holds 100 solved MCQs across 10 worksheets, each with an answer key and full working. When you want mixed sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Circles Quiz",
+    "intro": "Fifteen Digital SAT-style questions on radius, circumference, area, arcs and sectors. Pick an answer, then press Check my score.",
+    "about": "Digital SAT Math: Circles",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A line segment from the center of a circle to a point on the circle is the:",
+        "options": [
+          "Radius",
+          "Diameter",
+          "Chord",
+          "Tangent"
+        ],
+        "answer": 0,
+        "explanation": "By definition, the answer is \"Radius\"."
+      },
+      {
+        "q": "A line that touches a circle at exactly one point is a:",
+        "options": [
+          "Chord",
+          "Tangent",
+          "Secant",
+          "Radius"
+        ],
+        "answer": 1,
+        "explanation": "By definition, the answer is \"Tangent\"."
+      },
+      {
+        "q": "A circle has radius 36. What is the length of an arc that subtends a central angle of 30°, in terms of π?",
+        "options": [
+          "108π",
+          "72π",
+          "6π",
+          "7π"
+        ],
+        "answer": 2,
+        "explanation": "Arc length = (θ/360)·2πr = (30/360)·2π(36) = 6π."
+      },
+      {
+        "q": "A circle has radius 12. What is the area of a sector with central angle 180°, in terms of π?",
+        "options": [
+          "144π",
+          "12π",
+          "73π",
+          "72π"
+        ],
+        "answer": 3,
+        "explanation": "Sector area = (θ/360)·πr² = (180/360)·π(12)² = 72π."
+      },
+      {
+        "q": "A circle has radius 36. What is its circumference, in terms of π?",
+        "options": [
+          "72π",
+          "1296π",
+          "36π",
+          "72"
+        ],
+        "answer": 0,
+        "explanation": "Circumference = 2πr = 2π(36) = 72π."
+      },
+      {
+        "q": "A circle has radius 30. What is its area, in terms of π?",
+        "options": [
+          "60π",
+          "900π",
+          "900",
+          "30π"
+        ],
+        "answer": 1,
+        "explanation": "Area = πr² = π(30)² = 900π."
+      },
+      {
+        "q": "A circle has radius 43. What is its diameter?",
+        "options": [
+          "43",
+          "1849",
+          "86",
+          "45"
+        ],
+        "answer": 2,
+        "explanation": "Diameter = 2 × radius = 2(43) = 86."
+      },
+      {
+        "q": "A line segment whose endpoints both lie on the circle is a:",
+        "options": [
+          "Radius",
+          "Tangent",
+          "Arc",
+          "Chord"
+        ],
+        "answer": 3,
+        "explanation": "By definition, the answer is \"Chord\"."
+      },
+      {
+        "q": "A tangent to a circle is ___ to the radius at the point of contact.",
+        "options": [
+          "Perpendicular",
+          "Parallel",
+          "Equal",
+          "Tangent"
+        ],
+        "answer": 0,
+        "explanation": "By definition, the answer is \"Perpendicular\"."
+      },
+      {
+        "q": "A circle has radius 9. What is the length of an arc that subtends a central angle of 180°, in terms of π?",
+        "options": [
+          "40.5π",
+          "9π",
+          "18π",
+          "10π"
+        ],
+        "answer": 1,
+        "explanation": "Arc length = (θ/360)·2πr = (180/360)·2π(9) = 9π."
+      },
+      {
+        "q": "A circle has radius 14. What is the area of a sector with central angle 180°, in terms of π?",
+        "options": [
+          "196π",
+          "14π",
+          "98π",
+          "99π"
+        ],
+        "answer": 2,
+        "explanation": "Sector area = (θ/360)·πr² = (180/360)·π(14)² = 98π."
+      },
+      {
+        "q": "A circle has radius 35. What is its circumference, in terms of π?",
+        "options": [
+          "1225π",
+          "35π",
+          "70",
+          "70π"
+        ],
+        "answer": 3,
+        "explanation": "Circumference = 2πr = 2π(35) = 70π."
+      },
+      {
+        "q": "A circle has radius 25. What is its area, in terms of π?",
+        "options": [
+          "625π",
+          "50π",
+          "625",
+          "25π"
+        ],
+        "answer": 0,
+        "explanation": "Area = πr² = π(25)² = 625π."
+      },
+      {
+        "q": "A circle has radius 40. What is its diameter?",
+        "options": [
+          "40",
+          "80",
+          "1600",
+          "42"
+        ],
+        "answer": 1,
+        "explanation": "Diameter = 2 × radius = 2(40) = 80."
+      },
+      {
+        "q": "A circle has radius 33. What is the length of an arc that subtends a central angle of 180°, in terms of π?",
+        "options": [
+          "544.5π",
+          "66π",
+          "33π",
+          "34π"
+        ],
+        "answer": 2,
+        "explanation": "Arc length = (θ/360)·2πr = (180/360)·2π(33) = 33π."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Circles practice test free?",
+      "a": "Yes. All 15 questions, the instant scoring and solutions are free. The e-book adds 100 more solved MCQs."
+    },
+    {
+      "q": "What circle topics appear?",
+      "a": "Vocabulary such as radius, chord and tangent, plus circumference, area, arc length and sector area."
+    },
+    {
+      "q": "Why keep answers in terms of &pi;?",
+      "a": "Because the Digital SAT usually asks for the exact form. Leaving &pi; symbolic avoids rounding errors and matches the answer choices."
+    },
+    {
+      "q": "How do I find an arc or sector?",
+      "a": "Take the central angle over 360 as a fraction, then multiply by the circumference for an arc, or the area for a sector."
+    },
+    {
+      "q": "Where can I get more circles practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same bank, graded from basics to exam-level."
+    }
+  ]
+}

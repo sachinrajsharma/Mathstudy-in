@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-exponential-growth-and-decay-practice-test",
+  "title": "SAT Math Exponential Growth and Decay Practice Test + Quiz",
+  "meta_title": "SAT Math Exponential Growth and Decay Practice Test",
+  "meta_desc": "Free SAT Math Exponential Growth and Decay practice test: 15 Digital SAT MCQs on growth factors, decay and doubling with answers. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Exponential Growth and Decay practice test &mdash; growth and decay factors, doubling and half-life, each with instant scoring and worked steps.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-exponential-growth-and-decay.png",
+  "cta_product_slug": "sat-math-exponential-growth-and-decay-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Exponential Growth and Decay practice test",
+  "content": "<p>Here is the mistake I see every week: a student turns a 7% rise into a base of 1.7 instead of 1.07. One misplaced digit and the money answer is wildly off. The whole topic hinges on one clean move, turning a percent into a multiplier. This free <strong>SAT Math Exponential Growth and Decay practice test</strong> drills that move until it is second nature. Fifteen Digital SAT-style MCQs sit below.</p>\n<h2>The base tells you everything</h2>\n<p>Every model looks like y = a&times;b^t. Here a is the start and b is the factor per step. So the base alone decides growth or decay. A base above 1 grows, and a base below 1 shrinks. Read b first, then the story makes sense.</p>\n<ul>\n<li>A base of 1.20 means growth of 20% each period.</li>\n<li>A base of 0.85 means decay of 15% each period.</li>\n<li>Doubling uses a base of 2; halving uses a base of one-half.</li>\n<li>The exponent counts how many periods have passed.</li>\n</ul>\n<h2>Percent to factor, the core of this SAT Math Exponential Growth and Decay practice test</h2>\n<p>This one conversion earns the most marks. So build it slowly, then speed up. For a rise, add the percent to 1. For a fall, subtract it from 1. A 7% gain is &times;1.07, and a 7% loss is &times;0.93. Simple, yet it decides nearly every item here.</p>\n<table><thead><tr><th>The story says</th><th>The factor b</th><th>Behaviour</th></tr></thead><tbody>\n<tr><td>Up 15% a year</td><td>1.15</td><td>Growth</td></tr>\n<tr><td>Down 15% a year</td><td>0.85</td><td>Decay</td></tr>\n<tr><td>Triples each cycle</td><td>3</td><td>Fast growth</td></tr>\n<tr><td>Loses half each cycle</td><td>0.5</td><td>Half-life decay</td></tr>\n</tbody></table>\n<h3>Growth is not linear</h3>\n<p>Students often add the same amount each year, but exponential change multiplies. So a town at 2000 growing 20% yearly reaches 2000&times;1.2&sup2; = 2880 after two years, not 2800. The gap looks small at first, yet it widens fast. That widening is exactly what the SAT probes.</p>\n<h2>A worked decay example</h2>\n<p>A car worth 25000 loses 15% of its value each year. So the factor is 0.85, and after three years the value is 25000&times;0.85&sup3;. That gives 25000&times;0.614125 = 15353.13. Notice you never subtracted 15% three separate times. One factor, raised to a power, does all the work. This is exactly why decay feels slow at first, then stubborn. Each year strips 15% of a smaller amount, so the drops shrink as you go. Trust the single factor, and let the exponent handle the years for you.</p>\n<h2>Reading the rate back out</h2>\n<p>Sometimes the SAT hands you the model and wants the rate. If P(t) = 500&times;1.08^t, then 1 + r = 1.08, so r = 0.08, which is 8% per hour. Flip the conversion and read the percent straight off the base. This reverse skill appears across the SAT Math Exponential Growth and Decay practice test.</p>\n<h3>Doubling time and half-life</h3>\n<p>Two phrases carry real weight here. Doubling time is how long a quantity takes to double, and half-life is how long it takes to halve. So a colony that doubles every 4 hours uses the exponent t divided by 4, with a base of 2. A sample that halves every 6 years uses t over 6, with a base of one-half. Match the period to the exponent and the model stays honest. Students often force the base to 2 while the timing hides in the exponent. So keep the two jobs separate: the base sets the direction, and the exponent counts the cycles. The SAT leans on this pairing in nearly every decay story.</p>\n<h2>Take the free SAT Math Exponential Growth and Decay practice test</h2>\n<p>Fifteen questions wait below. They run from base-reading to compound interest and a decay word problem. Answer them all, then press Check my score. Read the worked step for each miss, then retake the set after a rest.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want more reps? The <a href='/shop/product/sat-math-exponential-growth-and-decay-practice-mcqs'><strong>SAT Math &mdash; Exponential Growth and Decay e-book</strong></a> holds 100 MCQs across ten worksheets, each with an answer key and a full solution. For mixed timing work, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Exponential Growth and Decay Quiz",
+    "intro": "Fifteen Digital SAT-style questions on growth and decay. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Exponential Growth and Decay",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "The model y = 800 · (1.2)^t describes which behavior?",
+        "options": [
+          "Growth at 20% per period",
+          "Decay at 20% per period",
+          "A constant value of 800",
+          "Linear change of 20 per period"
+        ],
+        "answer": 0,
+        "explanation": "A base of 1.2 means the quantity gains 20% each period."
+      },
+      {
+        "q": "A quantity grows by 15% each year. Which expression models its value after t years, starting from a?",
+        "options": [
+          "a(115)^t",
+          "a(1.15)^t",
+          "a(0.85)^t",
+          "a + 15t"
+        ],
+        "answer": 1,
+        "explanation": "A 15% increase per year multiplies by 1.15 each year: value = a(1.15)^t. The linear option a + 15t changes by the same AMOUNT, not the same percent."
+      },
+      {
+        "q": "A quantity starts at 2400 and increases 50% per period. What is its value after 2 periods?",
+        "options": [
+          "4800",
+          "3600",
+          "5400",
+          "2500"
+        ],
+        "answer": 2,
+        "explanation": "Value = P(1 + r)^t = 2400(1 + 50/100)² = 5400."
+      },
+      {
+        "q": "A town of 2000 people grows 20% per year. What is the population after 2 years?",
+        "options": [
+          "2800",
+          "2400",
+          "2040",
+          "2880"
+        ],
+        "answer": 3,
+        "explanation": "Population = P(1 + r)^t = 2000(1.20)² = 2880."
+      },
+      {
+        "q": "10000 is invested at 10% compounded annually. What is the amount after 2 years, in dollars?",
+        "options": [
+          "12100",
+          "12000",
+          "11000",
+          "10010"
+        ],
+        "answer": 0,
+        "explanation": "A = P(1 + r)^t = 10000(1 + 10/100)² = 12100."
+      },
+      {
+        "q": "A population of bacteria grows according to the function P(t) = 500(1.08)^t, where P(t) is the population after t hours. Which of the following best describes the hourly growth rate of the bacteria population?",
+        "options": [
+          "It grows by 0.08% each hour.",
+          "It grows by 8% each hour.",
+          "It grows by 0.8% each hour.",
+          "It grows by 80% each hour."
+        ],
+        "answer": 1,
+        "explanation": "The function is in the form P(t) = a(1+r)^t. Here, 1+r = 1.08, so r = 0.08. Converting the decimal to a percentage, 0.08 × 100% = 8%."
+      },
+      {
+        "q": "If 3ˣ⁺² = 9ˣ⁻¹, what is the value of x?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Rewrite the equation with a common base: 3ˣ⁺² = (3²)ˣ⁻¹. Thus, 3ˣ⁺² = 3²ˣ⁻². Equating the exponents: x+2 = 2x-2. Solving for x, x=4."
+      },
+      {
+        "q": "The model y = 800 · (1.15)^t describes which behavior?",
+        "options": [
+          "Decay at 15% per period",
+          "A constant value of 800",
+          "Linear change of 15 per period",
+          "Growth at 15% per period"
+        ],
+        "answer": 3,
+        "explanation": "A base of 1.15 means the quantity gains 15% each period."
+      },
+      {
+        "q": "A quantity starts at 2000 and increases 10% per period. What is its value after 2 periods?",
+        "options": [
+          "2420",
+          "2400",
+          "2200",
+          "2020"
+        ],
+        "answer": 0,
+        "explanation": "Value = P(1 + r)^t = 2000(1 + 10/100)² = 2420."
+      },
+      {
+        "q": "A town of 12000 people grows 10% per year. What is the population after 2 years?",
+        "options": [
+          "14400",
+          "14520",
+          "13200",
+          "12020"
+        ],
+        "answer": 1,
+        "explanation": "Population = P(1 + r)^t = 12000(1.10)² = 14520."
+      },
+      {
+        "q": "7000 is invested at 10% compounded annually. What is the amount after 2 years, in dollars?",
+        "options": [
+          "8400",
+          "7700",
+          "8470",
+          "7010"
+        ],
+        "answer": 2,
+        "explanation": "A = P(1 + r)^t = 7000(1 + 10/100)² = 8470."
+      },
+      {
+        "q": "The value of a car depreciates according to the function V(t) = 25000(0.85)^t, where V(t) is the value in dollars and t is the age of the car in years. What is the value of the car after 3 years?",
+        "options": [
+          "18,062.50",
+          "21,250.00",
+          "29,411.76",
+          "15,353.13"
+        ],
+        "answer": 3,
+        "explanation": "V(3) = 25000(0.85)³ = 25000(0.614125) = 15353.125. Rounding to the nearest cent gives 15,353.13."
+      },
+      {
+        "q": "Which of the following functions grows at the fastest rate for all x > 0?",
+        "options": [
+          "f(x) = 3ˣ",
+          "f(x) = 2ˣ",
+          "f(x) = 1.5ˣ",
+          "f(x) = 2.5ˣ"
+        ],
+        "answer": 0,
+        "explanation": "For exponential functions of the form f(x) = bˣ with b > 1, the function with the largest base b grows the fastest."
+      },
+      {
+        "q": "The model y = 800 · (1.25)^t describes which behavior?",
+        "options": [
+          "Decay at 25% per period",
+          "Growth at 25% per period",
+          "A constant value of 800",
+          "Linear change of 25 per period"
+        ],
+        "answer": 1,
+        "explanation": "A base of 1.25 means the quantity gains 25% each period."
+      },
+      {
+        "q": "A quantity starts at 800 and increases 20% per period. What is its value after 2 periods?",
+        "options": [
+          "1120",
+          "960",
+          "1152",
+          "840"
+        ],
+        "answer": 2,
+        "explanation": "Value = P(1 + r)^t = 800(1 + 20/100)² = 1152."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Exponential Growth and Decay practice test free?",
+      "a": "Yes. The 15 questions, the instant scoring and every worked step are free. The e-book then adds 100 more solved MCQs."
+    },
+    {
+      "q": "How do I turn a percent into a growth factor?",
+      "a": "Add a rise to 1 and subtract a fall from 1. So +7% becomes &times;1.07 and &minus;7% becomes &times;0.93. That single step drives the whole topic."
+    },
+    {
+      "q": "How do I tell growth from decay?",
+      "a": "Read the base b in y = a&times;b^t. A base above 1 means growth, and a base below 1 means decay. Nothing else matters for that call."
+    },
+    {
+      "q": "Why is exponential growth not the same as adding a percent?",
+      "a": "Each period multiplies the previous total, so the increase itself keeps growing. Adding a fixed amount is linear, and the two answers split apart fast."
+    },
+    {
+      "q": "Where can I get more growth and decay practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs. It is the same reviewed bank behind this test, graded from basics to exam-level."
+    }
+  ]
+}

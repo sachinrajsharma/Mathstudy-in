@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-data-interpretation-practice-test-online",
+  "title": "SAT Math Data Interpretation Practice Test Online: 15 MCQs",
+  "meta_title": "SAT Math Data Interpretation Practice Test Online",
+  "meta_desc": "Free SAT Math Data Interpretation practice test online: 15 Digital SAT MCQs on charts, tables and graphs with instant answers. Start the quiz now.",
+  "excerpt": "A free SAT Math Data Interpretation practice test online &mdash; 15 Digital SAT-style MCQs on bars, lines, pies, tables and scatterplots, scored instantly.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-data-interpretation.png",
+  "cta_product_slug": "sat-math-data-interpretation-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Data Interpretation practice test online",
+  "content": "<p>A student once dropped four marks on a mock, not because the maths was hard, but because she read the wrong bar. The graph showed units in thousands, the label said so, and she skipped the label. That is the quiet danger of chart questions. This free <strong>SAT Math Data Interpretation practice test online</strong> trains the reading, not just the arithmetic. Scroll down for 15 Digital SAT-style MCQs with instant answers.</p><h2>Why the SAT Math Data Interpretation practice test online rewards slow reading</h2><p>The compute step here is easy. A sum, a difference, a percent &mdash; nothing worse. But the trap lives in the labels. So the winning move is simple: read the axis, the units and the legend before you touch a number. Miss the units, and a correct calculation still gives a wrong answer.</p><ul><li>Bar graphs and totals across categories.</li><li>Line graphs and the change between two points.</li><li>Histograms and the tallest interval.</li><li>Pie charts and a percent turned into a count.</li><li>Scatterplots, correlation and a line of best fit.</li><li>Two-way tables and conditional counts.</li></ul><h2>Percent of a group is not percent of the total</h2><p>This distinction decides more marks than any formula. A two-way table gives you rows and columns. So one item may ask for the percent of women who chose tea, while the next asks the percent of all people who are tea-drinking women. Same table, different denominators. First read the &lsquo;of&rsquo; phrase, then pick the matching total.</p><table><thead><tr><th>Chart type</th><th>Common trap</th><th>Fix</th></tr></thead><tbody><tr><td>Pie chart</td><td>Compare two percents directly</td><td>Turn each percent into a count first</td></tr><tr><td>Line graph</td><td>Read the height, not the change</td><td>Subtract the two heights you actually need</td></tr><tr><td>Two-way table</td><td>Use the grand total every time</td><td>Match the denominator to the group asked</td></tr></tbody></table><h2>A worked pie-chart example</h2><p>Suppose 800 visitors split by source, and Friends make up 25%. First convert: 25% of 800 is 200 people. Now say Email is 30%, which is 240 people. The question asks how many more chose Email than Friends. So subtract counts, not percents: 240 &minus; 200 = 40. Always move to real numbers before you compare.</p><h3>Line of best fit, read as a rule</h3><p>Scatterplots bring a small equation, so treat it kindly. Read y = 6x + 24 as a machine. Feed it x = 9, and it returns y = 78. The slope tells you the rate, and the intercept tells you the start. That is all the SAT wants here, so do not over-read the cloud of points.</p><h2>A caveat on &lsquo;trend&rsquo; wording</h2><p>Correlation is not proof of cause. A scatterplot may show study hours and scores rising together, yet the SAT will not claim one causes the other. So when an option says &lsquo;causes&rsquo;, treat it with suspicion. The safer language is &lsquo;is associated with&rsquo;. Small wording, but real marks in a SAT Math Data Interpretation practice test online.</p><h2>Build a checklist before every chart</h2><p>Speed on charts comes from a routine, not from luck. So build a three-second checklist and run it every time. First, read the title. Then read the axis labels and their units. Last, find the legend and what each colour means. Only after that do you look at a single number. This order feels slow at first, yet it saves you from the classic unit slip. In my experience, students who skip the legend lose easy marks on two-way tables. Also, jot the units beside your working. A small &lsquo;in thousands&rsquo; note stops a factor-of-1000 error. So the habit is tiny, but the payoff is steady. Practise the checklist on the quiz below until it runs on autopilot.</p><h2>Take the free SAT Math Data Interpretation practice test online</h2><p>The 15-question quiz below comes straight from our reviewed Digital SAT bank. It runs through bars, lines, histograms, pies, scatterplots and a best-fit line. Answer all fifteen, then press Check my score. For each miss, read the solution and try the item again.</p><h2>Practise the whole chapter</h2><p>Ready for more than a quiz? The <a href='/shop/product/sat-math-data-interpretation-practice-mcqs'><strong>SAT Math &mdash; Data Interpretation e-book</strong></a> holds 100 solved MCQs across ten worksheets, each with an answer key and full working. When you want full-length timing, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> stitch every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Math Data Interpretation Quiz",
+    "intro": "Fifteen Digital SAT-style questions on charts, graphs and tables. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Data Interpretation",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "A bar graph shows the number of goals scored: Store A 11, Store B 35, Store C 23, Store D 25. What is the total number of goals scored?",
+        "options": [
+          "94",
+          "83",
+          "129",
+          "35"
+        ],
+        "answer": 0,
+        "explanation": "Add all the values: 11 + 35 + 23 + 25 = 94."
+      },
+      {
+        "q": "A line graph shows the temperature (°C) recorded at four times: 6 a.m. = 14°, 9 a.m. = 19°, 12 p.m. = 25°, 3 p.m. = 32°. What was the change in temperature from 12 p.m. to 3 p.m., in degrees?",
+        "options": [
+          "25",
+          "7",
+          "32",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "The temperature went from 25° to 32°, a change of 7°."
+      },
+      {
+        "q": "A histogram shows the distribution of test scores for a class: 0–20: 6, 20–40: 3, 40–60: 4, 60–80: 7, 80–100: 6 students. Which score interval has the most students?",
+        "options": [
+          "0–20",
+          "20–40",
+          "60–80",
+          "40–60"
+        ],
+        "answer": 2,
+        "explanation": "The 60–80 interval has the highest frequency (7)."
+      },
+      {
+        "q": "A scatterplot shows that as the number of hours studied increases, test scores tend to increase as well. Which best describes the association?",
+        "options": [
+          "Negative correlation",
+          "No correlation",
+          "Exponential growth",
+          "Positive correlation"
+        ],
+        "answer": 3,
+        "explanation": "When one variable rises as the other rises, the association is positive correlation."
+      },
+      {
+        "q": "A pie chart shows how 800 visitors heard about an event: Social Media 20%, Friends 25%, Email 25%, Posters 30%. Out of 800 visitors, how many are Friends?",
+        "options": [
+          "200",
+          "25",
+          "210",
+          "201"
+        ],
+        "answer": 0,
+        "explanation": "Friends is 25% of 800: 25/100 × 800 = 200."
+      },
+      {
+        "q": "A table shows units sold — North: 30, South: 120, East: 60, West: 60. By what percent did sales increase from North to West?",
+        "options": [
+          "110%",
+          "100%",
+          "50%",
+          "30%"
+        ],
+        "answer": 1,
+        "explanation": "Change = 60 − 30 = 30. Percent change divides by the STARTING value: 30/30 × 100 = 100%."
+      },
+      {
+        "q": "A pie chart splits 600 survey responses: 15% chose walking and 10% chose cycling. How many MORE people chose walking than cycling?",
+        "options": [
+          "150",
+          "36",
+          "30",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Walking: 15% of 600 = 90. Cycling: 10% of 600 = 60. Difference: 30 people — convert percents to counts before comparing."
+      },
+      {
+        "q": "A table shows the number of trees planted: January 29, February 36, March 5, April 20. How many more trees planted were there for January than April?",
+        "options": [
+          "49",
+          "29",
+          "20",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "January had 29 and April had 20, a difference of 29 − 20 = 9."
+      },
+      {
+        "q": "A bar graph shows the number of goals scored: Monday 15, Tuesday 36, Wednesday 37, Thursday 25. What is the total number of goals scored?",
+        "options": [
+          "113",
+          "98",
+          "149",
+          "37"
+        ],
+        "answer": 0,
+        "explanation": "Add all the values: 15 + 36 + 37 + 25 = 113."
+      },
+      {
+        "q": "A line graph shows the temperature (°C) recorded at four times: 6 a.m. = 14°, 9 a.m. = 14°, 12 p.m. = 10°, 3 p.m. = 6°. What was the change in temperature from 9 a.m. to 12 p.m., in degrees?",
+        "options": [
+          "14",
+          "4",
+          "10",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "The temperature went from 14° to 10°, a change of 4°."
+      },
+      {
+        "q": "A histogram shows the distribution of test scores for a class: 0–20: 4, 20–40: 13, 40–60: 10, 60–80: 14, 80–100: 13 students. How many students are there in all?",
+        "options": [
+          "50",
+          "67",
+          "54",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Add the frequencies: 4 + 13 + 10 + 14 + 13 = 54."
+      },
+      {
+        "q": "A scatterplot of hours studied (x) versus test score (y) has line of best fit y = 6x + 24. What score does the model predict for 9 hours of study?",
+        "options": [
+          "54",
+          "39",
+          "30",
+          "78"
+        ],
+        "answer": 3,
+        "explanation": "Substitute x = 9: y = 6(9) + 24 = 78."
+      },
+      {
+        "q": "A pie chart shows how 800 visitors heard about an event: Social Media 10%, Friends 25%, Email 30%, Posters 35%. Out of 800 visitors, how many are Email?",
+        "options": [
+          "240",
+          "30",
+          "280",
+          "250"
+        ],
+        "answer": 0,
+        "explanation": "Email is 30% of 800: 30/100 × 800 = 240."
+      },
+      {
+        "q": "A table shows units sold — 2021: 50, 2022: 90, 2023: 110, 2024: 110. By what percent did sales increase from 2021 to 2024?",
+        "options": [
+          "130%",
+          "120%",
+          "55%",
+          "60%"
+        ],
+        "answer": 1,
+        "explanation": "Change = 110 − 50 = 60. Percent change divides by the STARTING value: 60/50 × 100 = 120%."
+      },
+      {
+        "q": "A pie chart splits 400 survey responses: 25% chose walking and 35% chose cycling. How many MORE people chose cycling than walking?",
+        "options": [
+          "240",
+          "44",
+          "40",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "Walking: 25% of 400 = 100. Cycling: 35% of 400 = 140. Difference: 40 people — convert percents to counts before comparing."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Data Interpretation practice test online free?",
+      "a": "Yes. Every question, the instant scoring and each explanation are free. The e-book then adds 100 more solved MCQs for deeper practice."
+    },
+    {
+      "q": "What is the single biggest mistake on chart questions?",
+      "a": "Ignoring the units. A graph in thousands or a percent read as a raw count sinks an otherwise correct answer. Read the labels first, always."
+    },
+    {
+      "q": "How do I compare two slices of a pie chart?",
+      "a": "Turn each percent into a count before comparing. 30% of 800 is 240 and 25% is 200, so the gap is 40 people, not 5 percent."
+    },
+    {
+      "q": "Does the SAT ask about causation?",
+      "a": "No. It sticks to association. If an option claims one variable causes another, be wary; correlation on a scatterplot is not proof of cause."
+    },
+    {
+      "q": "Where can I get more chart practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same reviewed bank, graded from easy reads to layered traps."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-geometry-practice-test",
+  "title": "SAT Math Geometry Practice Test: 15 Free MCQs + Answers",
+  "meta_title": "SAT Math Geometry Practice Test: 15 Free MCQs",
+  "meta_desc": "Free SAT Math Geometry practice test: 15 Digital SAT MCQs on angles and lines with instant answers and clear worked solutions. Start the quiz now.",
+  "excerpt": "A free 15-question SAT Math Geometry practice test &mdash; Digital SAT-style angle and line MCQs with instant scoring and full solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-geometry-basics.png",
+  "cta_product_slug": "sat-math-geometry-basics-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Geometry practice test",
+  "content": "<p>Picture the corner of your notebook. It makes a right angle, a clean 90 degrees. Fold a diagonal across it, and you split that corner into two angles that still add to 90. That one move &mdash; breaking a known angle into parts &mdash; sits behind most opening geometry items on the exam. This free <strong>SAT Math Geometry practice test</strong> starts right there, with points, lines and angle pairs, then climbs toward the trickier set-ups. Scroll down for 15 Digital SAT-style MCQs, each with an instant score and a short reason.</p>\n<h2>What the SAT Math Geometry practice test covers</h2>\n<p>The Digital SAT keeps its geometry vocabulary tight, so a small list carries a lot of weight. You mostly meet these ideas, again and again:</p>\n<ul>\n<li>Points, lines, rays and segments, and the words that name them.</li>\n<li>Angle types &mdash; acute, right, obtuse and straight.</li>\n<li>Complementary angles that add to 90, and supplementary angles that add to 180.</li>\n<li>Vertical angles, which are always equal.</li>\n<li>Linear pairs on a straight line, where the two angles add to 180.</li>\n</ul>\n<p>Know these five cold and you can label any figure fast. And a labelled figure is already half the solution.</p>\n<h3>Read the figure before you read the question</h3>\n<p>Here is a habit I drill with every student. Look at the picture first. Mark the right angles, tick the equal sides, and write in any angle you already know. Then read the question. So often the answer is sitting right in the diagram, waiting for one subtraction.</p>\n<h2>Turn angle-pair words into equations</h2>\n<p>Most geometry wording is just code for a simple sum. Once you translate it, the algebra is easy. This table shows the swaps that matter most:</p>\n<table><thead><tr><th>The question says</th><th>What it means</th><th>The equation</th></tr></thead>\n<tbody>\n<tr><td>Angles are complementary</td><td>They add to 90&deg;</td><td>a + b = 90</td></tr>\n<tr><td>Angles are supplementary</td><td>They add to 180&deg;</td><td>a + b = 180</td></tr>\n<tr><td>Angles form a linear pair</td><td>On a line, sum 180&deg;</td><td>a + b = 180</td></tr>\n<tr><td>Angles are vertical</td><td>They are equal</td><td>a = b</td></tr>\n</tbody></table>\n<p>Say two angles are complementary in a 3 : 7 ratio. Ten parts share 90 degrees, so one part is 9. Then the larger angle is 7 times 9, or 63 degrees. No guessing, just parts.</p>\n<h2>The mistakes that quietly cost points</h2>\n<p>Two errors show up more than any others. First, students mix up complementary and supplementary. A quick fix: C comes before S in the alphabet, and 90 comes before 180. Second, people trust a figure marked &lsquo;not drawn to scale&rsquo;. Never eyeball those. Use the given numbers and the rules, not the look of the sketch.</p>\n<h2>A quick worked example</h2>\n<p>Two angles lie on a straight line. One measures (3x + 27) degrees, the other measures 117 degrees. Because they form a linear pair, they add to 180. So (3x + 27) + 117 = 180. That gives 3x + 27 = 63, then 3x = 36, and x = 12. Notice the rhythm: name the pair, write the sum, then solve. That is the exact pattern this SAT Math Geometry practice test rewards.</p>\n<h2>Take the free SAT Math Geometry practice test</h2>\n<p>The 15-question quiz below comes straight from our reviewed Digital SAT bank. It mixes plain definition checks with the ratio and linear-pair items that decide scores. Answer all fifteen, then press Check my score. For anything you miss, read the reason and retry after a short break.</p>\n<h2>Practise the whole chapter</h2>\n<p>Want more than a quiz? The <a href='/shop/product/sat-math-geometry-basics-practice-mcqs'><strong>SAT Math &mdash; Geometry Basics e-book</strong></a> holds 100 solved MCQs across 10 worksheets, each with an answer key and full working. It moves you from warm-up definitions to the harder angle traps. When you want mixed sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> pull every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Geometry Basics Quiz",
+    "intro": "Fifteen Digital SAT-style questions on points, lines and angles. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Geometry Basics",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "An angle measures 143°. Which term best describes it?",
+        "options": [
+          "Obtuse",
+          "Acute",
+          "Right",
+          "Straight"
+        ],
+        "answer": 0,
+        "explanation": "Angles below 90° are acute, exactly 90° right, and between 90° and 180° obtuse. 143° is obtuse."
+      },
+      {
+        "q": "Two angles are supplementary and one measures 117°. What is the other angle, in degrees?",
+        "options": [
+          "117",
+          "63",
+          "-27",
+          "243"
+        ],
+        "answer": 1,
+        "explanation": "Supplementary angles sum to 180°: 180 − 117 = 63."
+      },
+      {
+        "q": "Which of these has no length, width, or thickness and shows only a location?",
+        "options": [
+          "A line",
+          "A ray",
+          "A point",
+          "A plane"
+        ],
+        "answer": 2,
+        "explanation": "By definition, the answer is \"A point\"."
+      },
+      {
+        "q": "The common endpoint of the two rays that form an angle is called the:",
+        "options": [
+          "Arc",
+          "Side",
+          "Degree",
+          "Vertex"
+        ],
+        "answer": 3,
+        "explanation": "By definition, the answer is \"Vertex\"."
+      },
+      {
+        "q": "Two lines in a plane that never meet are called:",
+        "options": [
+          "Parallel lines",
+          "Perpendicular lines",
+          "Intersecting lines",
+          "Skew lines"
+        ],
+        "answer": 0,
+        "explanation": "By definition, the answer is \"Parallel lines\"."
+      },
+      {
+        "q": "The measures of two complementary angles are in the ratio 3 : 7. Find the larger one, in degrees.",
+        "options": [
+          "27",
+          "63",
+          "62",
+          "90"
+        ],
+        "answer": 1,
+        "explanation": "3 + 7 = 10 parts share 90°, so one part is 9°. The larger angle: 7 × 9 = 63°."
+      },
+      {
+        "q": "Angles of (3x + 27)° and 117° lie on a straight line. Solve for x.",
+        "options": [
+          "63",
+          "15",
+          "12",
+          "51"
+        ],
+        "answer": 2,
+        "explanation": "A linear pair sums to 180°: (3x + 27) + 117 = 180, so 3x + 27 = 63 and x = 12."
+      },
+      {
+        "q": "Two angles are complementary and one measures 68°. What is the other angle, in degrees?",
+        "options": [
+          "68",
+          "112",
+          "158",
+          "22"
+        ],
+        "answer": 3,
+        "explanation": "Complementary angles sum to 90°: 90 − 68 = 22."
+      },
+      {
+        "q": "Two angles are supplementary and one measures 110°. What is the other angle, in degrees?",
+        "options": [
+          "70",
+          "110",
+          "-20",
+          "250"
+        ],
+        "answer": 0,
+        "explanation": "Supplementary angles sum to 180°: 180 − 110 = 70."
+      },
+      {
+        "q": "How many points are needed to determine exactly one straight line?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Infinitely many"
+        ],
+        "answer": 1,
+        "explanation": "By definition, the answer is \"Two\"."
+      },
+      {
+        "q": "Two rays sharing a common endpoint form a:",
+        "options": [
+          "A line",
+          "A segment",
+          "An angle",
+          "A plane"
+        ],
+        "answer": 2,
+        "explanation": "By definition, the answer is \"An angle\"."
+      },
+      {
+        "q": "A part of a line with two endpoints is called a:",
+        "options": [
+          "Ray",
+          "Plane",
+          "Vertex",
+          "Line segment"
+        ],
+        "answer": 3,
+        "explanation": "By definition, the answer is \"Line segment\"."
+      },
+      {
+        "q": "The measures of two supplementary angles are in the ratio 3 : 6. Find the larger one, in degrees.",
+        "options": [
+          "120",
+          "180",
+          "119",
+          "60"
+        ],
+        "answer": 0,
+        "explanation": "3 + 6 = 9 parts share 180°, so one part is 20°. The larger angle: 6 × 20 = 120°."
+      },
+      {
+        "q": "Two angles form a linear pair. One measures (4x + 20)° and the other measures 120°. What is the value of x?",
+        "options": [
+          "14",
+          "10",
+          "40",
+          "60"
+        ],
+        "answer": 1,
+        "explanation": "A linear pair sums to 180°: (4x + 20) + 120 = 180, so 4x + 20 = 60 and x = 10."
+      },
+      {
+        "q": "An angle measures 136°. Which term best describes it?",
+        "options": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "answer": 2,
+        "explanation": "Angles below 90° are acute, exactly 90° right, and between 90° and 180° obtuse. 136° is obtuse."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is this SAT Math Geometry practice test really free?",
+      "a": "Yes. All 15 questions, the instant scoring and every solution are free. The e-book then adds 100 more solved MCQs for focused chapter practice."
+    },
+    {
+      "q": "What geometry topics does the quiz cover?",
+      "a": "Points, lines, rays and segments, plus angle types and the angle pairs &mdash; complementary, supplementary, vertical and linear-pair angles."
+    },
+    {
+      "q": "Do these questions match the Digital SAT?",
+      "a": "Yes. They follow the current Digital SAT pattern and difficulty, from quick definitions to ratio and linear-pair problems."
+    },
+    {
+      "q": "Can I use a calculator?",
+      "a": "You can, since the Digital SAT allows one across the whole Math section. For these angle sums, though, mental arithmetic is usually faster."
+    },
+    {
+      "q": "Where can I get more geometry practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same bank, graded from basics to exam-level traps."
+    }
+  ]
+}

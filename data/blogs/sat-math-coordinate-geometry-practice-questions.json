@@ -1,0 +1,209 @@
+{
+  "slug": "sat-math-coordinate-geometry-practice-questions",
+  "title": "SAT Math Coordinate Geometry Practice Questions: 15 MCQs",
+  "meta_title": "SAT Math Coordinate Geometry Practice Questions",
+  "meta_desc": "Free SAT Math Coordinate Geometry practice questions: 15 Digital SAT MCQs on distance, slope and midpoint with instant answers and solutions. Try now.",
+  "excerpt": "A free 15-question set of SAT Math Coordinate Geometry practice questions &mdash; distance, midpoint and slope, with instant scoring and solutions.",
+  "category": "SAT Math",
+  "cover_image": "https://mathstudy.in/wp-content/uploads/sat-math-coordinate-geometry.png",
+  "cta_product_slug": "sat-math-coordinate-geometry-practice-mcqs",
+  "author": "Sachin Sharma",
+  "status": "published",
+  "focus_keyword": "SAT Math Coordinate Geometry practice questions",
+  "content": "<p>Plot the points (4, 2) and (-3, 26) and the distance between them looks nasty. It is not. Drop a right triangle under the segment, and the legs are 7 across and 24 up &mdash; a 7-24-25 triple, so the distance is exactly 25. That is coordinate geometry in one breath. These <strong>SAT Math Coordinate Geometry practice questions</strong> reward that picture-first instinct, again and again. Scroll down for 15 MCQs, each with an instant score and a short solution.</p>\n<h2>What these SAT Math Coordinate Geometry practice questions test</h2>\n<p>The grid questions come from a short menu, so your revision can stay focused. These are the tools that carry the section:</p>\n<ul>\n<li>The distance between two points.</li>\n<li>The midpoint of a segment.</li>\n<li>The slope of a line through two points.</li>\n<li>Parallel and perpendicular slope rules.</li>\n<li>Points and lines on the coordinate plane.</li>\n</ul>\n<h2>Three formulas, one plan</h2>\n<p>Distance, midpoint and slope share a shape: subtract first, then combine. Keep them side by side and they stop blurring together.</p>\n<table><thead><tr><th>Tool</th><th>Formula</th><th>In words</th></tr></thead>\n<tbody>\n<tr><td>Slope</td><td>(y2 &minus; y1) &divide; (x2 &minus; x1)</td><td>Rise over run</td></tr>\n<tr><td>Distance</td><td>&radic;[(x2 &minus; x1)&sup2; + (y2 &minus; y1)&sup2;]</td><td>Pythagoras on the grid</td></tr>\n<tr><td>Midpoint</td><td>((x1 + x2)&divide;2 , (y1 + y2)&divide;2)</td><td>Average the coordinates</td></tr>\n</tbody></table>\n<h3>Perpendicular slopes flip and switch sign</h3>\n<p>This rule saves real time. Perpendicular lines have slopes that multiply to &minus;1. So a line of slope 4 is crossed at a right angle by a line of slope &minus;1/4. Flip the fraction, change the sign, done. And parallel lines simply share the same slope.</p>\n<h2>Read the slope sign off the sketch</h2>\n<p>Before you compute, glance at the line. If it rises from left to right, the slope is positive. If it falls, the slope is negative. So when your formula spits out a positive number for a clearly falling line, you know to recheck the subtraction order. A quick sketch catches sign errors that pure algebra hides.</p>\n<h2>A worked example</h2>\n<p>Find the slope through (2, &minus;5) and (&minus;3, 4). Subtract the y-values first: 4 &minus; (&minus;5) is 9. Then the x-values: &minus;3 &minus; 2 is &minus;5. So the slope is 9 over &minus;5, or &minus;9/5. Keep the order the same on top and bottom, and the sign takes care of itself. That discipline is what these SAT Math Coordinate Geometry practice questions build.</p>\n<h2>Take the free coordinate geometry quiz</h2>\n<p>The 15 questions below come from our reviewed Digital SAT bank. They mix distance, midpoint, slope and the perpendicular rule. Answer all fifteen, press Check my score, then read the reason for anything you miss.</p>\n<h2>Practise the whole chapter</h2>\n<p>Ready for more? The <a href='/shop/product/sat-math-coordinate-geometry-practice-mcqs'><strong>SAT Math &mdash; Coordinate Geometry e-book</strong></a> holds 100 solved MCQs across 10 worksheets, each with an answer key and full working. When you want mixed sets, the <a href='/shop/product/sat-math-practice-papers-1000-mcqs'>20 SAT Math practice papers</a> tie every chapter together. You can also revise the theory free on the <a href='https://vidaara.org/sat/math' target='_blank' rel='noopener'>Digital SAT Math course at vidaara.org</a>.</p>",
+  "quiz": {
+    "title": "SAT Coordinate Geometry Quiz",
+    "intro": "Fifteen Digital SAT-style questions on distance, midpoint and slope. Pick an answer for each, then press Check my score.",
+    "about": "Digital SAT Math: Coordinate Geometry",
+    "level": "SAT Math",
+    "questions": [
+      {
+        "q": "In the coordinate plane, point A is located at (3, -4). If point B is 5 units away from A and lies on the line y = 2x + 1, which of the following could be the coordinates of B?",
+        "options": [
+          "(-1, -1)",
+          "(2, 5)",
+          "(4, 9)",
+          "(0, 1)"
+        ],
+        "answer": 0,
+        "explanation": "Each option lies on the line y = 2x + 1, so test the distance condition. For option B, (-1, -1): the distance from A(3, -4) is √[(-1 - 3)² + (-1 - (-4))²] = √(16 + 9) = √25 = 5."
+      },
+      {
+        "q": "What is the slope of the line passing through the points (2, -5) and (-3, 4)?",
+        "options": [
+          "5/9",
+          "-9/5",
+          "-5/9",
+          "9/5"
+        ],
+        "answer": 1,
+        "explanation": "Slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (4 - (-5))/(-3 - 2) = 9/(-5) = -9/5."
+      },
+      {
+        "q": "What is the distance between the points (4, 2) and (-3, 26)?",
+        "options": [
+          "31",
+          "24",
+          "25",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "Distance = √[(Δx)² + (Δy)²] = √(49 + 576) = √625 = 25."
+      },
+      {
+        "q": "What is the slope of the line through (3, 2) and (-4, 5)?",
+        "options": [
+          "-7/3",
+          "4/-7",
+          "-3/-7",
+          "3/-7"
+        ],
+        "answer": 3,
+        "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (5 − 2)/(-4 − 3) = 3/-7."
+      },
+      {
+        "q": "A line has slope 4. What is the slope of a line perpendicular to it?",
+        "options": [
+          "-1/4",
+          "4",
+          "-4",
+          "1/4"
+        ],
+        "answer": 0,
+        "explanation": "Perpendicular slopes are negative reciprocals: −1/4."
+      },
+      {
+        "q": "A point (x, y) lies in the second quadrant. If its distance from the origin is 5 and its x-coordinate is -3, what is the y-coordinate?",
+        "options": [
+          "-4",
+          "4",
+          "3",
+          "-3"
+        ],
+        "answer": 1,
+        "explanation": "In the second quadrant, x < 0 and y > 0. Given x = -3 and distance = 5, use the distance formula: √[(-3)² + y²] = 5 → √(9 + y²) = 5 → 9 + y² = 25 → y² = 16 → y = ±4. Since y > 0 in the second quadrant, y = 4."
+      },
+      {
+        "q": "If the equation of line L is 3x + 2y = 8, which of the following lines is parallel to L?",
+        "options": [
+          "3x - 2y = 5",
+          "2x + 3y = 6",
+          "6x + 4y = 10",
+          "4x - 3y = 12"
+        ],
+        "answer": 2,
+        "explanation": "Parallel lines have the same slope. Rewrite L in slope-intercept form: y = (-3/2)x + 4. Option B: 6x + 4y = 10 → y = (-6/4)x + 10/4 → y = (-3/2)x + 2.5, which has the same slope as L."
+      },
+      {
+        "q": "What is the distance between the points (-3, -2) and (-6, -6)?",
+        "options": [
+          "7",
+          "4",
+          "6",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Distance = √[(Δx)² + (Δy)²] = √(9 + 16) = √25 = 5."
+      },
+      {
+        "q": "What is the slope of the line through (-4, -5) and (-2, 4)?",
+        "options": [
+          "9/2",
+          "2/9",
+          "5",
+          "-9/2"
+        ],
+        "answer": 0,
+        "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (4 − -5)/(-2 − -4) = 9/2."
+      },
+      {
+        "q": "A line has slope 6. What is the slope of a line perpendicular to it?",
+        "options": [
+          "6",
+          "-1/6",
+          "-6",
+          "1/6"
+        ],
+        "answer": 1,
+        "explanation": "Perpendicular slopes are negative reciprocals: −1/6."
+      },
+      {
+        "q": "The midpoint of the line segment joining (a, b) and (c, d) is (4, -2). If (a, b) = (1, 3), what is (c, d)?",
+        "options": [
+          "(3, -5)",
+          "(5, -7)",
+          "(7, -7)",
+          "(7, -5)"
+        ],
+        "answer": 2,
+        "explanation": "Midpoint formula: ((a + c)/2, (b + d)/2) = (4, -2). Given (a, b) = (1, 3), solve for (c, d): (1 + c)/2 = 4 → c = 7; (3 + d)/2 = -2 → d = -7. Thus, (c, d) = (7, -7)."
+      },
+      {
+        "q": "Which of the following lines is perpendicular to the line y = (1/3)x - 2?",
+        "options": [
+          "y = 3x + 1",
+          "y = (1/3)x + 4",
+          "y = -1/3x - 2",
+          "y = -3x + 1"
+        ],
+        "answer": 3,
+        "explanation": "The slope of the given line is 1/3. Perpendicular lines have slopes that are negative reciprocals: m = -3. Option B has a slope of -3."
+      },
+      {
+        "q": "What is the distance between the points (5, -1) and (0, -13)?",
+        "options": [
+          "13",
+          "17",
+          "12",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "Distance = √[(Δx)² + (Δy)²] = √(25 + 144) = √169 = 13."
+      },
+      {
+        "q": "What is the slope of the line through (-4, -6) and (-6, 2)?",
+        "options": [
+          "-1/4",
+          "4/-1",
+          "9/-2",
+          "-4/-1"
+        ],
+        "answer": 1,
+        "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (2 − -6)/(-6 − -4) = 4/-1."
+      },
+      {
+        "q": "A line has slope 5. What is the slope of a line perpendicular to it?",
+        "options": [
+          "5",
+          "-5",
+          "-1/5",
+          "1/5"
+        ],
+        "answer": 2,
+        "explanation": "Perpendicular slopes are negative reciprocals: −1/5."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Are these SAT Math Coordinate Geometry practice questions free?",
+      "a": "Yes, all 15 with instant scoring and solutions. The e-book adds 100 more solved MCQs."
+    },
+    {
+      "q": "Which topics does the quiz cover?",
+      "a": "Distance, midpoint, slope, the parallel and perpendicular slope rules, and points on the coordinate plane."
+    },
+    {
+      "q": "How do I find a perpendicular slope?",
+      "a": "Flip the slope into its reciprocal and change the sign. Slopes of perpendicular lines multiply to &minus;1."
+    },
+    {
+      "q": "Do I need to memorise the distance formula?",
+      "a": "It helps, but it is really just Pythagoras on the grid. Many SAT distances are hidden triples like 3-4-5 or 7-24-25."
+    },
+    {
+      "q": "Where can I get more coordinate geometry practice?",
+      "a": "The printable e-book linked in the box below holds 100 solved MCQs from the same bank, graded to exam-level."
+    }
+  ]
+}
