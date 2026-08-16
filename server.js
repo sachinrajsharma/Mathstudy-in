@@ -15,6 +15,8 @@ const analytics      = require('./lib/analytics');
 const seo            = require('./lib/seo');
 const password       = require('./lib/password');
 const antispam       = require('./lib/antispam');
+const tracking       = require('./lib/tracking');
+const insights       = require('./lib/insights');
 const { redirectFor, archiveRedirectedBlogs } = require('./lib/blog-redirects');
 const MySQLStore     = require('express-mysql-session')(session);
 
@@ -262,6 +264,12 @@ app.use((req, res, next) => {
   res.locals.ogImage = '/images/og-default.png';
   next();
 });
+
+// ── First-party visitor tracking (feeds /admin/insights) ────────────────────
+// Server-side, anonymous, fire-and-forget: records which pages, e-books and
+// blogs real visitors open (bots excluded). See lib/tracking.js for the
+// privacy model. Mounted after session/static/body-parsing, before routes.
+app.use(tracking.middleware(pool));
 
 // ── Auth middleware ───────────────────────────────────────────────────────────
 function requireLogin(req, res, next) {
@@ -986,6 +994,11 @@ app.get('/admin', requireAdmin, async (req, res) => {
     const [[{users}]]    = await pool.query(`SELECT COUNT(*) AS users FROM users`);
     const [[{pending}]]  = await pool.query(`SELECT COUNT(*) AS pending FROM orders WHERE status='pending'`);
     const [[{blogs}]]    = await pool.query(`SELECT COUNT(*) AS blogs FROM blogs`);
+    // Visitors in the last 30 days (0 until the page_views table has data).
+    const [[{visitors}]] = await pool.query(
+      `SELECT COUNT(DISTINCT visitor) AS visitors FROM page_views
+        WHERE kind='view' AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)`
+    ).catch(() => [[{ visitors: 0 }]]);
     const [recent_orders]= await pool.query(
       `SELECT o.id,o.payment_id,u.name AS buyer,u.email,o.total_amount,o.status,o.created_at
        FROM orders o JOIN users u ON o.user_id=u.id ORDER BY o.created_at DESC LIMIT 10`
@@ -995,7 +1008,7 @@ app.get('/admin', requireAdmin, async (req, res) => {
     );
     res.render('admin/index', {
       title:'Admin — MathStudy.in', metaDesc:'', canonical:null,
-      stats:{ products, orders, revenue, users, pending, blogs }, pendingCount: pending,
+      stats:{ products, orders, revenue, users, pending, blogs, visitors }, pendingCount: pending,
       recent_orders, recent_posts
     });
   } catch(e) { console.error(e); res.status(500).send('Admin error: '+e.message); }
@@ -1123,6 +1136,70 @@ app.get('/admin/analytics', requireAdmin, async (req, res) => {
       ...data, month, pendingCount: pending,
     });
   } catch (e) { console.error(e); res.status(500).send('Analytics error: ' + e.message); }
+});
+
+// Admin — Visitor Insights: behavioural analytics from first-party tracking
+// (lib/tracking.js). What sales analytics can't answer: who visits, which
+// e-books they LOOK at, which blogs they read, traffic sources, and the
+// browse→buy funnel — plus an all-time Impact snapshot for donors/CSR
+// partners. Filters: ?days=7|30|90|365. CSV: ?export=daily|products|blogs|impact.
+app.get('/admin/insights', requireAdmin, async (req, res) => {
+  try {
+    const days = [7, 30, 90, 365].includes(Number(req.query.days)) ? Number(req.query.days) : 30;
+
+    if (req.query.export === 'daily') {
+      const rows = await insights.daily(pool, Math.min(days, 90));
+      const csv = analytics.toCsv(
+        ['Date', 'Page views', 'Unique visitors', 'E-book page views', 'Blog reads'],
+        rows.map((r) => [r.day, r.views, r.visitors, r.product_views, r.blog_views]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', `attachment; filename="mathstudy-traffic-daily-${days}d.csv"`);
+      return res.send(csv);
+    }
+    if (req.query.export === 'products') {
+      const rows = await insights.topProducts(pool, days, 1000);
+      const csv = analytics.toCsv(
+        ['E-book', 'Slug', 'Price (INR)', 'Views', 'Unique viewers', 'Units sold', 'Viewer to buyer %'],
+        rows.map((r) => [r.title, r.slug, r.price, r.views, r.viewers, r.units_sold, r.conversion.toFixed(1)]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', `attachment; filename="mathstudy-ebook-views-${days}d.csv"`);
+      return res.send(csv);
+    }
+    if (req.query.export === 'blogs') {
+      const rows = await insights.topBlogs(pool, days, 1000);
+      const csv = analytics.toCsv(
+        ['Blog post', 'Slug', 'Views in period', 'Unique readers', 'All-time views'],
+        rows.map((r) => [r.title, r.slug, r.views, r.readers, r.all_time]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', `attachment; filename="mathstudy-blog-reads-${days}d.csv"`);
+      return res.send(csv);
+    }
+    if (req.query.export === 'impact') {
+      const imp = await insights.impact(pool);
+      const reach = await insights.monthlyReach(pool, 12);
+      const csv = analytics.toCsv(['Metric', 'Value'], [
+        ['Learners reached (unique visitors since tracking began)', imp.learners],
+        ['Tracking since', imp.since ? new Date(imp.since).toISOString().slice(0, 10) : 'no data yet'],
+        ['Total page views tracked', imp.views],
+        ['E-books in library', imp.ebooks],
+        ['Free blog lessons published', imp.blogs],
+        ['Blog reads since launch', imp.blogReads],
+        ['Families who purchased', imp.buyers],
+        ['E-books delivered', imp.booksDelivered],
+        ...reach.map((r) => ['Unique visitors in ' + r.ym, r.visitors]),
+      ]);
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', 'attachment; filename="mathstudy-impact-snapshot.csv"');
+      return res.send(csv);
+    }
+
+    const data = await insights.overview(pool, { days });
+    const [[{ pending }]] = await pool.query(`SELECT COUNT(*) AS pending FROM orders WHERE status='pending'`);
+    res.render('admin/insights', {
+      title: 'Visitor Insights — Admin — MathStudy.in', metaDesc: '', canonical: null,
+      ...data, pendingCount: pending,
+    });
+  } catch (e) { console.error(e); res.status(500).send('Insights error: ' + e.message); }
 });
 
 // Admin — Products list
@@ -1485,6 +1562,11 @@ pool.query(`CREATE TABLE IF NOT EXISTS blogs (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`).catch(function(e) {
   console.error('[Blog] Could not create blogs table:', e.message);
 });
+
+// Visitor-tracking table (page_views) + 2-year retention prune, on every boot.
+tracking.ensureSchema(pool)
+  .then(function() { console.log('[schema] page_views ready'); })
+  .catch(function(e) { console.error('[schema] page_views:', e.message); });
 
 // Ensure products.price_locked exists on boot (the admin save handler and the
 // seeds reference it). Idempotent: a "Duplicate column" error means it is already
