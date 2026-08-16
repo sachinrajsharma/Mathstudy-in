@@ -1,0 +1,276 @@
+<% locals.layout = 'layout' %>
+<%
+  const fmt = (n) => new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(Math.round(Number(n) || 0));
+  const pct = (n) => (Number(n) || 0).toFixed(Number(n) >= 10 ? 0 : 1) + '%';
+  const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const ymLabel = (ym) => { const [y, m] = ym.split('-'); return MONTHS_SHORT[Number(m) - 1] + ' ' + y.slice(2); };
+  const dayLabel = (d) => { const x = new Date(d + 'T00:00:00'); return x.getDate() + ' ' + MONTHS_SHORT[x.getMonth()]; };
+  const dateLabel = (d) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '—';
+  const RANGES = [[7, '7 days'], [30, '30 days'], [90, '90 days'], [365, '12 months']];
+  const maxViews = Math.max(1, ...series.map((r) => r.views));
+  const labelStep = Math.max(1, Math.ceil(series.length / 16));
+  const maxReach = Math.max(1, ...reach.map((r) => r.visitors));
+  const noData = sum.allViews === 0;
+  const fun = funnel;
+  const funnelMax = Math.max(1, fun.visitors);
+%>
+<style>
+  .admin-wrap > .admin-main { min-width:0 }
+  .admin-main .admin-table-wrap { overflow-x:auto }
+  .admin-main .admin-table { min-width:560px }
+  .ana-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:26px }
+  @media(max-width:900px){ .ana-grid2 { grid-template-columns:1fr } }
+  .ana-card { background:var(--white); border:1px solid var(--border); border-radius:14px; padding:20px }
+  .ana-card h3 { margin:0 0 14px; font-size:1rem }
+  .ana-chart { display:flex; align-items:flex-end; gap:4px; height:180px; padding-top:18px; overflow-x:auto }
+  .ana-col { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; min-width:8px }
+  .ana-bar { width:100%; max-width:38px; border-radius:5px 5px 0 0; background:linear-gradient(180deg,#14b8a6,#0d9488); min-height:2px }
+  .ana-bar.alt { background:linear-gradient(180deg,#60a5fa,#2563eb) }
+  .ana-val { font-size:.66rem; font-weight:700; color:var(--mid); margin-bottom:4px; white-space:nowrap }
+  .ana-lab { font-size:.62rem; color:var(--muted); margin-top:6px; white-space:nowrap; transform:rotate(-38deg); transform-origin:top center; height:26px }
+  .ana-hbar-row { display:grid; grid-template-columns:minmax(120px,2fr) 5fr auto; gap:10px; align-items:center; padding:6px 0; border-bottom:1px solid #f3f4f6; font-size:.84rem }
+  .ana-hbar-row:last-child { border-bottom:none }
+  .ana-hbar { height:14px; border-radius:7px; background:linear-gradient(90deg,#14b8a6,#0d9488); min-width:2px }
+  .ana-hbar.cat { background:linear-gradient(90deg,#a78bfa,#7c3aed) }
+  .ana-hbar.dev { background:linear-gradient(90deg,#fbbf24,#d97706) }
+  .ana-toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:0 0 20px }
+  .ana-note { font-size:.76rem; color:var(--muted); margin-top:10px }
+  .ins-range { display:inline-flex; border:1px solid var(--border); border-radius:10px; overflow:hidden }
+  .ins-range a { padding:7px 14px; font-size:.82rem; font-weight:600; color:var(--mid); text-decoration:none; border-right:1px solid var(--border) }
+  .ins-range a:last-child { border-right:none }
+  .ins-range a.on { background:#0d9488; color:#fff }
+  .ins-funnel { display:flex; flex-wrap:wrap; gap:8px; align-items:stretch }
+  .ins-fstep { flex:1; min-width:118px; border:1px solid var(--border); border-radius:12px; padding:12px 10px; text-align:center; position:relative }
+  .ins-fstep .fnum { font-size:1.3rem; font-weight:800 }
+  .ins-fstep .flab { font-size:.7rem; color:var(--muted); margin-top:2px }
+  .ins-fstep .fbar { height:6px; border-radius:3px; background:linear-gradient(90deg,#14b8a6,#0d9488); margin:8px auto 0 }
+  .ins-fstep .fpct { font-size:.68rem; font-weight:700; color:#0d9488; margin-top:4px }
+  .imp-wrap { background:linear-gradient(135deg,#0f766e,#134e4a); border-radius:16px; padding:26px 24px; color:#f0fdfa; margin-bottom:26px }
+  .imp-wrap h3 { margin:0; color:#fff; font-size:1.15rem }
+  .imp-sub { font-size:.8rem; color:#99f6e4; margin:4px 0 18px }
+  .imp-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px }
+  .imp-card { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14); border-radius:12px; padding:14px 12px; text-align:center }
+  .imp-card .num { font-size:1.55rem; font-weight:800; color:#fff }
+  .imp-card .lab { font-size:.72rem; color:#ccfbf1; margin-top:4px; line-height:1.3 }
+  .imp-chart { display:flex; align-items:flex-end; gap:6px; height:110px; margin-top:20px; padding-top:14px }
+  .imp-chart .icol { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100% }
+  .imp-chart .ibar { width:100%; max-width:34px; min-height:2px; border-radius:5px 5px 0 0; background:linear-gradient(180deg,#5eead4,#2dd4bf) }
+  .imp-chart .ival { font-size:.64rem; font-weight:700; color:#ccfbf1; margin-bottom:3px }
+  .imp-chart .ilab { font-size:.62rem; color:#99f6e4; margin-top:5px; white-space:nowrap }
+  .imp-note { font-size:.74rem; color:#99f6e4; margin-top:16px; line-height:1.5 }
+  @media print {
+    .admin-sidebar, .ana-toolbar, .no-print, header, footer, nav { display:none !important }
+    .admin-wrap { display:block !important }
+    .imp-wrap { -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  }
+</style>
+<div class="admin-wrap">
+  <%- include('../partials/admin-sidebar', { active: 'insights', pendingCount: pendingCount }) %>
+  <div class="admin-main">
+    <div class="admin-title">Visitor Insights</div>
+    <div class="admin-sub">
+      What visitors actually do on the site — pages opened, e-books browsed, blogs read, and how browsing turns into purchases.
+      First-party tracking, anonymous, bots excluded<% if (sum.since) { %> — recording since <%= dateLabel(sum.since) %><% } %>.
+    </div>
+
+    <!-- ── Range + exports ─────────────────────────────────────────────── -->
+    <div class="ana-toolbar">
+      <span class="ins-range">
+        <% RANGES.forEach(function(r){ %>
+          <a href="/admin/insights?days=<%= r[0] %>" class="<%= days === r[0] ? 'on' : '' %>"><%= r[1] %></a>
+        <% }); %>
+      </span>
+      <span style="flex:1"></span>
+      <button type="button" class="btn btn-ghost btn-sm no-print" onclick="window.print()">🖨 Print report</button>
+      <a class="btn btn-ghost btn-sm" href="/admin/insights?days=<%= days %>&export=daily">⬇ Daily CSV</a>
+      <a class="btn btn-ghost btn-sm" href="/admin/insights?days=<%= days %>&export=products">⬇ E-book views CSV</a>
+      <a class="btn btn-ghost btn-sm" href="/admin/insights?days=<%= days %>&export=blogs">⬇ Blog reads CSV</a>
+    </div>
+
+    <% if (noData) { %>
+      <div class="ana-card" style="margin-bottom:26px;border-color:#fcd34d;background:#fffbeb">
+        <h3>📡 Tracking just went live</h3>
+        <p style="color:#92400e;font-size:.88rem;margin:0">
+          Visitor tracking starts recording from this deploy onwards — the traffic charts below fill in
+          automatically as real visitors browse the site. The <strong>Impact snapshot</strong> at the bottom
+          already works: it uses the catalogue, blog and sales history that exist today.
+        </p>
+      </div>
+    <% } %>
+
+    <!-- ── KPI cards ───────────────────────────────────────────────────── -->
+    <div class="stat-cards">
+      <div class="stat-card"><div class="stat-label">Unique visitors (<%= days %>d)</div><div class="stat-value"><%= fmt(sum.visitors) %></div><div class="stat-icon">👥</div></div>
+      <div class="stat-card"><div class="stat-label">Page views (<%= days %>d)</div><div class="stat-value"><%= fmt(sum.views) %></div><div class="stat-icon">📄</div></div>
+      <div class="stat-card"><div class="stat-label">E-book pages viewed</div><div class="stat-value"><%= fmt(sum.productViews) %></div><div class="stat-icon">📚</div></div>
+      <div class="stat-card"><div class="stat-label">Blog reads</div><div class="stat-value"><%= fmt(sum.blogViews) %></div><div class="stat-icon">✍️</div></div>
+      <div class="stat-card"><div class="stat-label">Today</div><div class="stat-value"><%= fmt(sum.todayVisitors) %></div><div class="ana-note" style="margin-top:2px"><%= fmt(sum.todayViews) %> page views</div><div class="stat-icon">📅</div></div>
+      <div class="stat-card"><div class="stat-label">Visitor → buyer</div>
+        <div class="stat-value"><%= fun.visitors ? pct((fun.paid / fun.visitors) * 100) : '—' %></div>
+        <div class="ana-note" style="margin-top:2px"><%= fmt(fun.paid) %> paid orders from <%= fmt(fun.visitors) %> visitors</div>
+        <div class="stat-icon">🎯</div></div>
+    </div>
+
+    <!-- ── Daily traffic ───────────────────────────────────────────────── -->
+    <div class="ana-card" style="margin-bottom:26px">
+      <h3>📈 Daily traffic <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= series.length %> days — bar = page views, tooltip shows visitors)</span></h3>
+      <div class="ana-chart">
+        <% series.forEach(function(r, i){ %>
+          <div class="ana-col" title="<%= dayLabel(r.day) %>: <%= fmt(r.views) %> views · <%= fmt(r.visitors) %> visitors · <%= fmt(r.product_views) %> e-book · <%= fmt(r.blog_views) %> blog">
+            <% if (series.length <= 31 && r.views) { %><div class="ana-val"><%= fmt(r.views) %></div><% } %>
+            <div class="ana-bar" style="height:<%= Math.max(2, (r.views / maxViews) * 100) %>%"></div>
+            <div class="ana-lab"><%= i % labelStep === 0 ? dayLabel(r.day) : '' %></div>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+
+    <!-- ── Browse → buy funnel ─────────────────────────────────────────── -->
+    <div class="ana-card" style="margin-bottom:26px">
+      <h3>🚦 Browse → buy funnel <span style="font-weight:400;color:var(--muted);font-size:.78rem">(unique visitors, last <%= days %> days)</span></h3>
+      <div class="ins-funnel">
+        <% [
+          ['Visited the site', fun.visitors, '👥'],
+          ['Viewed an e-book', fun.productViewers, '📚'],
+          ['Added to cart', fun.cartAdders, '🛒'],
+          ['Reached checkout', fun.checkouts, '💳'],
+          ['Placed an order', fun.orders, '🧾'],
+          ['Paid & approved', fun.paid, '✅'],
+        ].forEach(function(s){ %>
+          <div class="ins-fstep">
+            <div class="fnum"><%= fmt(s[1]) %></div>
+            <div class="flab"><%= s[2] %> <%= s[0] %></div>
+            <div class="fbar" style="width:<%= Math.max(3, (s[1] / funnelMax) * 100) %>%"></div>
+            <div class="fpct"><%= fun.visitors ? pct((s[1] / fun.visitors) * 100) : '—' %></div>
+          </div>
+        <% }); %>
+      </div>
+      <div class="ana-note">
+        Order and paid counts come from the orders table (source of truth); earlier stages from tracked behaviour.
+        <%= fmt(fun.downloaders) %> visitors downloaded a purchased e-book in this period.
+      </div>
+    </div>
+
+    <!-- ── Top e-books viewed / top blogs read ─────────────────────────── -->
+    <div class="ana-grid2">
+      <div class="ana-card">
+        <h3>📚 Most-viewed e-books <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span></h3>
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead><tr><th>#</th><th>E-book</th><th>Views</th><th>Viewers</th><th>Sold</th><th>Conv.</th></tr></thead>
+            <tbody>
+              <% products.slice(0, 15).forEach(function(p, i){ %>
+              <tr>
+                <td><%= i + 1 %></td>
+                <td><a class="adm-link" href="/shop/product/<%= p.slug %>" target="_blank" title="<%= p.title %>"><%= p.title.length > 48 ? p.title.substring(0, 48) + '…' : p.title %></a>
+                  <% if (!p.is_published) { %><span style="color:#b91c1c;font-size:.7rem"> · UNPUBLISHED</span><% } %></td>
+                <td><strong><%= fmt(p.views) %></strong></td>
+                <td><%= fmt(p.viewers) %></td>
+                <td><%= fmt(p.units_sold) %></td>
+                <td><%= p.units_sold ? pct(p.conversion) : '—' %></td>
+              </tr>
+              <% }); %>
+              <% if (!products.length) { %><tr><td colspan="6" style="text-align:center;color:var(--muted)">No e-book views recorded yet.</td></tr><% } %>
+            </tbody>
+          </table>
+        </div>
+        <div class="ana-note">"Conv." = unique viewers who bought in the same period. A high-view, zero-sale book may need a better price, cover or description.</div>
+      </div>
+      <div class="ana-card">
+        <h3>✍️ Most-read blog posts <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span></h3>
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead><tr><th>#</th><th>Post</th><th>Reads</th><th>Readers</th><th>All-time</th></tr></thead>
+            <tbody>
+              <% blogs.slice(0, 15).forEach(function(b, i){ %>
+              <tr>
+                <td><%= i + 1 %></td>
+                <td><a class="adm-link" href="/blog/<%= b.slug %>" target="_blank" title="<%= b.title %>"><%= b.title.length > 52 ? b.title.substring(0, 52) + '…' : b.title %></a></td>
+                <td><strong><%= fmt(b.views) %></strong></td>
+                <td><%= fmt(b.readers) %></td>
+                <td><%= fmt(b.all_time) %></td>
+              </tr>
+              <% }); %>
+              <% if (!blogs.length) { %><tr><td colspan="5" style="text-align:center;color:var(--muted)">No blog reads recorded yet.</td></tr><% } %>
+            </tbody>
+          </table>
+        </div>
+        <div class="ana-note">"All-time" is the legacy per-post counter, which pre-dates this tracking system.</div>
+      </div>
+    </div>
+
+    <!-- ── Sources / devices / page mix ────────────────────────────────── -->
+    <div class="ana-grid2">
+      <div class="ana-card">
+        <h3>🌐 Where visitors come from <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span></h3>
+        <% if (!sources.length) { %><p style="color:var(--muted);font-size:.9rem;margin:0">No traffic recorded yet.</p><% } %>
+        <% const maxSrc = Math.max(1, ...sources.map((s) => s.views)); %>
+        <% sources.forEach(function(s){ %>
+          <div class="ana-hbar-row">
+            <div title="<%= s.source %>" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><%= s.source %></div>
+            <div><div class="ana-hbar" style="width:<%= Math.max(2, (s.views / maxSrc) * 100) %>%"></div></div>
+            <div style="white-space:nowrap;font-weight:700"><%= fmt(s.visitors) %> <span style="color:var(--muted);font-weight:400">visitors · <%= pct(s.share) %></span></div>
+          </div>
+        <% }); %>
+        <div class="ana-note">"Direct / typed" includes bookmarks, WhatsApp-app taps and anything that hides its referrer.</div>
+      </div>
+      <div class="ana-card">
+        <h3>📱 Devices <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span></h3>
+        <% if (!devices.length) { %><p style="color:var(--muted);font-size:.9rem;margin:0">No traffic recorded yet.</p><% } %>
+        <% const maxDev = Math.max(1, ...devices.map((d) => d.views)); %>
+        <% devices.forEach(function(d){ %>
+          <div class="ana-hbar-row">
+            <div style="text-transform:capitalize"><%= d.device %></div>
+            <div><div class="ana-hbar dev" style="width:<%= Math.max(2, (d.views / maxDev) * 100) %>%"></div></div>
+            <div style="white-space:nowrap;font-weight:700"><%= fmt(d.visitors) %> <span style="color:var(--muted);font-weight:400">visitors · <%= pct(d.share) %></span></div>
+          </div>
+        <% }); %>
+        <h3 style="margin-top:22px">🧭 What visitors look at</h3>
+        <% const maxType = Math.max(1, ...types.map((t) => t.views)); %>
+        <% types.forEach(function(t){ %>
+          <div class="ana-hbar-row">
+            <div title="<%= t.label %>" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><%= t.label %></div>
+            <div><div class="ana-hbar cat" style="width:<%= Math.max(2, (t.views / maxType) * 100) %>%"></div></div>
+            <div style="white-space:nowrap;font-weight:700"><%= fmt(t.views) %> <span style="color:var(--muted);font-weight:400">· <%= pct(t.share) %></span></div>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+
+    <!-- ── Impact snapshot (donor / CSR-facing) ────────────────────────── -->
+    <div class="imp-wrap">
+      <h3>🌱 Impact snapshot — MathStudy.in</h3>
+      <div class="imp-sub">
+        All-time figures for donors &amp; CSR partners. Every number is real, first-party and verifiable in this database — nothing is estimated.
+      </div>
+      <div class="imp-cards">
+        <div class="imp-card"><div class="num"><%= fmt(impact.learners) %></div><div class="lab">Learners reached<br>(unique visitors<% if (impact.since) { %> since <%= dateLabel(impact.since) %><% } %>)</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.views) %></div><div class="lab">Learning pages opened</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.ebooks) %></div><div class="lab">E-books in the library</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.blogs) %></div><div class="lab">Free blog lessons published</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.blogReads) %></div><div class="lab">Blog lessons read<br>(since launch)</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.buyers) %></div><div class="lab">Families who purchased</div></div>
+        <div class="imp-card"><div class="num"><%= fmt(impact.booksDelivered) %></div><div class="lab">E-books delivered</div></div>
+      </div>
+      <% if (reach.length) { %>
+        <div class="imp-chart">
+          <% reach.forEach(function(r){ %>
+            <div class="icol" title="<%= ymLabel(r.ym) %>: <%= fmt(r.visitors) %> unique visitors">
+              <div class="ival"><%= fmt(r.visitors) %></div>
+              <div class="ibar" style="height:<%= Math.max(3, (r.visitors / maxReach) * 100) %>%"></div>
+              <div class="ilab"><%= ymLabel(r.ym) %></div>
+            </div>
+          <% }); %>
+        </div>
+        <div style="font-size:.72rem;color:#99f6e4;margin-top:4px">Unique learners reached per month</div>
+      <% } %>
+      <div class="imp-note">
+        Methodology: measured server-side with an anonymous first-party cookie — no IP addresses, no personal
+        data, bots and crawlers excluded. Blog "since launch" reads use the per-post counter that pre-dates
+        this tracking system. Use <strong>Print report</strong> above or
+        <a href="/admin/insights?export=impact" style="color:#5eead4">download the snapshot as CSV</a> to share with funders.
+      </div>
+    </div>
+
+  </div>
+</div>
