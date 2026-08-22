@@ -240,15 +240,6 @@ app.post('/__setup__/links', (req, res) => {
   }
 });
 
-// ── CSRF verify on state-changing requests ───────────────────────────────────
-// Multipart forms (admin product create/edit, PDF upload) are checked per-route
-// AFTER multer parses the body; everything else is checked here.
-app.use((req, res, next) => {
-  if (['GET', 'HEAD', 'OPTIONS'].includes(req.method)) return next();
-  if (req.is('multipart/form-data')) return next();
-  return verifyCsrf(req, res, next);
-});
-
 // ── Locals injected to every view ─────────────────────────────────────────────
 app.use((req, res, next) => {
   res.locals.user = req.session.user || null;
@@ -269,6 +260,15 @@ app.use((req, res, next) => {
 // Server-side, anonymous, fire-and-forget: records which pages, e-books and
 // blogs real visitors open (bots excluded). See lib/tracking.js for the
 // privacy model. Mounted after session/static/body-parsing, before routes.
+// ── CSRF verify on state-changing requests ───────────────────────────────────
+// Multipart forms (admin product create/edit, PDF upload) are checked per-route
+// AFTER multer parses the body; everything else is checked here.
+app.use((req, res, next) => {
+  if (['GET', 'HEAD', 'OPTIONS'].includes(req.method)) return next();
+  if (req.is('multipart/form-data')) return next();
+  return verifyCsrf(req, res, next);
+});
+
 app.use(tracking.middleware(pool));
 
 // ── Auth middleware ───────────────────────────────────────────────────────────
@@ -603,17 +603,12 @@ app.post('/shop/product/:id/review', reviewLimiter, async (req, res) => {
 });
 
 // ── Contact / Support ──
-// Anti-spam: math captcha (guests), honeypot, time trap, link heuristic and a
-// per-IP rate limit. Bot signals are dropped SILENTLY (redirect to ?sent=1
-// without emailing) so spammers cannot learn what tripped them.
-const contactView = (req, res, extra) => res.render('contact', Object.assign({
-  title: 'Contact & Support — MathStudy.in',
-  metaDesc: 'Questions about a MathStudy.in e-book, an order or a download? Contact us on WhatsApp or email and we will help you the same day.',
-  canonical: BASE_URL + '/contact', ogType: 'website', sent: req.query.sent === '1',
-  captchaQ: req.session.user ? null : antispam.newCaptcha(req, 'contactCaptcha'),
-  error: null, form: {}
-}, extra || {}));
-app.get('/contact', (req, res) => contactView(req, res));
+// The old free-text contact form (which emailed admin directly) has been
+// retired: every enquiry now goes through the ticketing system at /support,
+// which has CSRF, captcha, honeypot, time-trap, link/spam scoring, duplicate
+// detection and an audit trail. Old links and bookmarks 301 to it.
+app.get("/contact", (req, res) => res.redirect(301, "/support"));
+app.post("/contact", (req, res) => res.redirect(301, "/support"));
 
 // ── Company + legal pages (linked from every footer) ────────────────────────
 app.get('/about', (req, res) => res.render('about', {
@@ -648,41 +643,6 @@ app.get('/uploads/products/:file', async (req, res) => {
     res.set('Cache-Control', 'public, max-age=86400');
     res.send(row.data);
   } catch (e) { console.error('[covers] db fallback:', e.message); res.status(404).end(); }
-});
-
-const contactLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 5, standardHeaders: true, legacyHeaders: false,
-  handler: (req, res) => res.status(429).render('error', { title: 'Too many messages', metaDesc: '', canonical: null,
-    message: 'You have sent several messages in a short time. Please wait a few minutes and try again.' }) });
-
-app.post('/contact', contactLimiter, async (req, res) => {
-  try {
-    const e = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    const b = req.body || {};
-    const name = (b.name || '').toString().trim().slice(0, 120);
-    const contact = (b.contact || '').toString().trim().slice(0, 120);
-    const grade = (b.grade || '').toString().trim().slice(0, 80);
-    const message = (b.message || '').toString().trim().slice(0, 1500);
-
-    // Bot signals -> pretend success, never email.
-    const isBot = antispam.honeypotHit(b) || antispam.tooFast(b, 3) ||
-                  antispam.countLinks(message + ' ' + name + ' ' + grade) >= 3;
-
-    // Humans who mistype the sum get the form back with their text intact.
-    if (!req.session.user && !isBot && !antispam.captchaOk(req, 'contactCaptcha', b.captcha)) {
-      return contactView(req, res, {
-        error: 'The security answer was wrong — please solve the small sum shown.',
-        form: { name, contact, grade, message }
-      });
-    }
-
-    if (name && contact && !isBot) {
-      const html = `<h3>New contact / support enquiry</h3><p><b>Name:</b> ${e(name)}<br><b>Contact:</b> ${e(contact)}<br><b>Topic:</b> ${e(grade) || '-'}</p><p>${e(message) || '(no message)'}</p>`;
-      notify.sendEmail(process.env.ADMIN_EMAIL || 'admin@mathstudy.in', 'New support enquiry — ' + name, html).catch(() => {});
-    } else if (isBot) {
-      console.warn('[antispam] dropped /contact submission from', req.ip);
-    }
-    res.redirect('/contact?sent=1');
-  } catch (err) { console.error('contact', err); res.redirect('/contact?sent=1'); }
 });
 
 // ════════════════════════════════════════════════════════════════════════════
