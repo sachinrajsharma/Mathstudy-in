@@ -199,6 +199,76 @@
       </div>
     </div>
 
+    <!-- ── Visitors by country (for targeting e-books per market) ─────── -->
+    <div class="ana-card" style="margin-bottom:22px">
+      <h3>🌍 Visitors by country <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span>
+        <a class="btn btn-ghost btn-sm" style="float:right" href="/admin/insights?days=<%= days %>&export=countries">⬇ Countries CSV</a></h3>
+      <% if (!countries.length) { %>
+        <p style="color:var(--muted);font-size:.9rem;margin:0">No country data yet — it starts collecting from the first visit after this update.</p>
+      <% } else { %>
+        <% const flag = (c) => c && /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(...[...c].map((ch) => 0x1F1E6 + ch.charCodeAt(0) - 65)) : '🌐'; %>
+        <% const maxC = Math.max(1, ...countries.map((c) => c.visitors)); %>
+        <div class="ana-grid2">
+          <div>
+            <% countries.forEach(function(c){ %>
+              <div class="ana-hbar-row">
+                <div title="<%= c.name %>" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><%= flag(c.code) %> <%= c.name %></div>
+                <div><div class="ana-hbar" style="width:<%= Math.max(2, (c.visitors / maxC) * 100) %>%"></div></div>
+                <div style="white-space:nowrap;font-weight:700"><%= fmt(c.visitors) %> <span style="color:var(--muted);font-weight:400">visitors · <%= pct(c.share) %></span></div>
+              </div>
+            <% }); %>
+            <div class="ana-note">Country is derived from the visitor's IP with an offline lookup at request time; the IP itself is never stored. "Unknown / local" = private networks or unresolvable addresses.</div>
+          </div>
+          <div>
+            <div class="admin-table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>Country</th><th style="text-align:right">Visitors</th><th style="text-align:right">Page views</th><th style="text-align:right">E-book views</th><th style="text-align:right">Blog reads</th></tr></thead>
+                <tbody>
+                  <% countries.forEach(function(c){ %>
+                    <tr>
+                      <td><%= flag(c.code) %> <%= c.name %> <span style="color:var(--muted);font-size:.78rem"><%= c.code || '' %></span></td>
+                      <td style="text-align:right;font-weight:700"><%= fmt(c.visitors) %></td>
+                      <td style="text-align:right"><%= fmt(c.views) %></td>
+                      <td style="text-align:right"><%= fmt(c.product_views) %></td>
+                      <td style="text-align:right"><%= fmt(c.blog_views) %></td>
+                    </tr>
+                  <% }); %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <% const withInterest = countries.filter((c) => (countryProducts[c.code] && countryProducts[c.code].length) || (countryBlogs[c.code] && countryBlogs[c.code].length)); %>
+        <% if (withInterest.length) { %>
+          <h3 style="margin-top:22px">🎯 What each country looks at <span style="font-weight:400;color:var(--muted);font-size:.78rem">— top e-books and blog posts per market, for targeting</span></h3>
+          <div class="ana-grid2">
+            <% withInterest.slice(0, 8).forEach(function(c){ %>
+              <div style="border:1px solid var(--border);border-radius:10px;padding:12px 14px">
+                <div style="font-weight:800;margin-bottom:6px"><%= flag(c.code) %> <%= c.name %> <span style="color:var(--muted);font-weight:400;font-size:.8rem">· <%= fmt(c.visitors) %> visitors</span></div>
+                <% if (countryProducts[c.code] && countryProducts[c.code].length) { %>
+                  <div style="font-size:.78rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.03em;margin:6px 0 3px">E-books viewed</div>
+                  <ol style="margin:0;padding-left:18px;font-size:.88rem;line-height:1.7">
+                    <% countryProducts[c.code].forEach(function(p){ %>
+                      <li><a href="/shop/product/<%= p.slug %>" target="_blank" rel="noopener"><%= p.title %></a> <span style="color:var(--muted)">· <%= fmt(p.viewers) %> viewers</span></li>
+                    <% }); %>
+                  </ol>
+                <% } %>
+                <% if (countryBlogs[c.code] && countryBlogs[c.code].length) { %>
+                  <div style="font-size:.78rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.03em;margin:8px 0 3px">Blog posts read</div>
+                  <ol style="margin:0;padding-left:18px;font-size:.88rem;line-height:1.7">
+                    <% countryBlogs[c.code].forEach(function(b){ %>
+                      <li><a href="/blog/<%= b.slug %>" target="_blank" rel="noopener"><%= b.title %></a> <span style="color:var(--muted)">· <%= fmt(b.readers) %> readers</span></li>
+                    <% }); %>
+                  </ol>
+                <% } %>
+              </div>
+            <% }); %>
+          </div>
+        <% } %>
+      <% } %>
+    </div>
+
     <!-- ── Sources / devices / page mix ────────────────────────────────── -->
     <div class="ana-grid2">
       <div class="ana-card">
