@@ -1134,6 +1134,15 @@ app.get('/admin/insights', requireAdmin, async (req, res) => {
       res.setHeader('Content-Disposition', `attachment; filename="mathstudy-blog-reads-${days}d.csv"`);
       return res.send(csv);
     }
+    if (req.query.export === 'countries') {
+      const rows = await insights.countries(pool, days, 500);
+      const csv = analytics.toCsv(
+        ['Country', 'Code', 'Unique visitors', 'Share of visitors %', 'Page views', 'E-book page views', 'Blog reads'],
+        rows.map((r) => [r.name, r.code, r.visitors, r.share.toFixed(1), r.views, r.product_views, r.blog_views]));
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', `attachment; filename="mathstudy-visitors-by-country-${days}d.csv"`);
+      return res.send(csv);
+    }
     if (req.query.export === 'impact') {
       const imp = await insights.impact(pool);
       const reach = await insights.monthlyReach(pool, 12);
