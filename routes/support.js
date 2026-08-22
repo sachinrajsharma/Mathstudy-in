@@ -26,6 +26,7 @@ const path    = require('path');
 const fs      = require('fs');
 const crypto  = require('crypto');
 const support = require('../lib/support');
+const antispam = require("../lib/antispam");
 
 const UPLOAD_DIR = path.join(__dirname, '..', 'data', 'support-uploads');
 const MAX_FILE   = 10 * 1024 * 1024; // 10 MB per file
@@ -185,7 +186,8 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       const cat = cats.find(c => c.id === parseInt(b.category_id));
 
       if (name.length < 2) errors.push('Please enter your full name.');
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.push('Please enter a valid email address.');
+      if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,24}$/i.test(email)) errors.push('Please enter a valid email address.');
+      if (/https?:\/\/|www\./i.test(name) || /\d{5,}/.test(name)) errors.push('Please enter your real name (no links or long numbers).');
       if (phone && !/^[+\d][\d\s-]{6,20}$/.test(phone)) errors.push('That mobile number does not look right.');
       if (!cat) errors.push('Please choose an issue category.');
       if (subject.length < 5) errors.push('Please give a short subject (at least 5 characters).');
@@ -221,7 +223,17 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
         });
       }
 
-      const score = support.spamScore({ honeypot: b.website, description, subject });
+      const score = support.spamScore({ honeypot: b.website, description, subject, name, email, tooFast: antispam.tooFast(b, 4) });
+      // Obvious bots: pretend success, store nothing, email nobody — they cannot learn what tripped them.
+      if (score >= 10) {
+        cleanupFiles();
+        delete req.session.supportCaptcha;
+        console.warn("[antispam] dropped /support submission from", req.ip, "score=" + score);
+        return res.render("support/created", {
+          title: "Ticket created | MathStudy.in", metaDesc: "", canonical: null,
+          ticket: { ticket_no: "SUP-" + new Date().getFullYear() + "-" + String(Math.floor(1000 + Math.random() * 9000)).padStart(6, "0"), subject, access_token: null, email }, duplicate: false,
+        });
+      }
       const token = support.newAccessToken();
       const priority = cat.default_priority || 'medium';
       const ua = String(b.browser_info || req.headers['user-agent'] || '').slice(0, 400);

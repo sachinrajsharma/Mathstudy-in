@@ -16,6 +16,7 @@
   <form class="sup-card sup-form" method="POST" action="/support" enctype="multipart/form-data" id="supForm">
     <input type="hidden" name="_csrf" value="<%= csrfToken %>">
     <%# Honeypot — humans never see or fill this field %>
+    <input type="hidden" name="form_ts" value="<%= Date.now() %>">
     <div class="sup-hp" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
     <input type="hidden" name="browser_info" id="supBrowserInfo">
     <input type="hidden" name="device_info" id="supDeviceInfo">
