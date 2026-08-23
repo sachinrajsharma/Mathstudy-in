@@ -204,7 +204,7 @@
       <h3>🌍 Visitors by country <span style="font-weight:400;color:var(--muted);font-size:.78rem">(last <%= days %> days)</span>
         <a class="btn btn-ghost btn-sm" style="float:right" href="/admin/insights?days=<%= days %>&export=countries">⬇ Countries CSV</a></h3>
       <% if (!countries.length) { %>
-        <p style="color:var(--muted);font-size:.9rem;margin:0">No country data yet — it starts collecting from the first visit after this update.</p>
+        <p style="color:var(--muted);font-size:.9rem;margin:0">No country data yet — it starts collecting from the first visit after this update.<% if (countries.unknown) { %> (<%= fmt(countries.unknown) %> visitors in this period were recorded before country tracking existed.)<% } %></p>
       <% } else { %>
         <% const flag = (c) => c && /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(...[...c].map((ch) => 0x1F1E6 + ch.charCodeAt(0) - 65)) : '🌐'; %>
         <% const maxC = Math.max(1, ...countries.map((c) => c.visitors)); %>
@@ -217,7 +217,7 @@
                 <div style="white-space:nowrap;font-weight:700"><%= fmt(c.visitors) %> <span style="color:var(--muted);font-weight:400">visitors · <%= pct(c.share) %></span></div>
               </div>
             <% }); %>
-            <div class="ana-note">Country is derived from the visitor's IP with an offline lookup at request time; the IP itself is never stored. "Unknown / local" = private networks or unresolvable addresses.</div>
+            <div class="ana-note">Country is derived from the visitor's IP with an offline lookup at request time; the IP itself is never stored. <% if (countries.unknown) { %><br>Not shown: <%= fmt(countries.unknown) %> visitors with no country (visits recorded before country tracking was added, local/private networks, or unmapped IPs).<% } %></div>
           </div>
           <div>
             <div class="admin-table-wrap">
