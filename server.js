@@ -1137,8 +1137,8 @@ app.get('/admin/insights', requireAdmin, async (req, res) => {
     if (req.query.export === 'countries') {
       const rows = await insights.countries(pool, days, 500);
       const csv = analytics.toCsv(
-        ['Country', 'Code', 'Unique visitors', 'Share of visitors %', 'Page views', 'E-book page views', 'Blog reads'],
-        rows.map((r) => [r.name, r.code, r.visitors, r.share.toFixed(1), r.views, r.product_views, r.blog_views]));
+        ['Country', 'Code', 'Unique visitors', 'Share of visitors %', 'Page views', 'E-book page views', 'Blog reads', 'Likely automated'],
+        rows.map((r) => [r.name, r.code, r.visitors, r.share.toFixed(1), r.views, r.product_views, r.blog_views, r.botLikely ? 'yes' : '']));
       res.setHeader('Content-Type', 'text/csv; charset=utf-8');
       res.setHeader('Content-Disposition', `attachment; filename="mathstudy-visitors-by-country-${days}d.csv"`);
       return res.send(csv);
