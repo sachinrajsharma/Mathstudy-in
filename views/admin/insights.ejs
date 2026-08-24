@@ -212,12 +212,14 @@
           <div>
             <% countries.forEach(function(c){ %>
               <div class="ana-hbar-row">
-                <div title="<%= c.name %>" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><%= flag(c.code) %> <%= c.name %></div>
-                <div><div class="ana-hbar" style="width:<%= Math.max(2, (c.visitors / maxC) * 100) %>%"></div></div>
+                <div title="<%= c.name %>" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><%= flag(c.code) %> <%= c.name %><% if (c.botLikely) { %> <span style="color:#b45309;font-size:.72rem;font-weight:700" title="Most of these &quot;visitors&quot; made exactly one request, arrived with no referrer and never returned — the signature of automated crawlers, not people.">⚠ likely automated</span><% } %></div>
+                <div><div class="ana-hbar" style="width:<%= Math.max(2, (c.visitors / maxC) * 100) %>%<%= c.botLikely ? ';opacity:.35' : '' %>"></div></div>
                 <div style="white-space:nowrap;font-weight:700"><%= fmt(c.visitors) %> <span style="color:var(--muted);font-weight:400">visitors · <%= pct(c.share) %></span></div>
               </div>
             <% }); %>
-            <div class="ana-note">Country is derived from the visitor's IP with an offline lookup at request time; the IP itself is never stored. <% if (countries.unknown) { %><br>Not shown: <%= fmt(countries.unknown) %> visitors with no country (visits recorded before country tracking was added, local/private networks, or unmapped IPs).<% } %></div>
+            <div class="ana-note">Country is derived from the visitor's IP with an offline lookup at request time; the IP itself is never stored.
+              <br>Rows marked <strong>⚠ likely automated</strong> are countries where over 80% of "visitors" made exactly one request with no referrer and never came back — the pattern of scraper/crawler bots that spoof a browser identity (each hit mints a new visitor id because bots keep no cookies). They are excluded from the per-market targeting below; run <code>node scripts/prune-bot-views.js</code> to inspect and remove those rows.
+              <% if (countries.unknown) { %><br>Not shown: <%= fmt(countries.unknown) %> visitors with no country (visits recorded before country tracking was added, local/private networks, or unmapped IPs).<% } %></div>
           </div>
           <div>
             <div class="admin-table-wrap">
@@ -226,7 +228,7 @@
                 <tbody>
                   <% countries.forEach(function(c){ %>
                     <tr>
-                      <td><%= flag(c.code) %> <%= c.name %> <span style="color:var(--muted);font-size:.78rem"><%= c.code || '' %></span></td>
+                      <td><%= flag(c.code) %> <%= c.name %> <span style="color:var(--muted);font-size:.78rem"><%= c.code || '' %></span><% if (c.botLikely) { %> <span style="color:#b45309;font-size:.72rem;font-weight:700">⚠ automated</span><% } %></td>
                       <td style="text-align:right;font-weight:700"><%= fmt(c.visitors) %></td>
                       <td style="text-align:right"><%= fmt(c.views) %></td>
                       <td style="text-align:right"><%= fmt(c.product_views) %></td>
@@ -239,7 +241,7 @@
           </div>
         </div>
 
-        <% const withInterest = countries.filter((c) => (countryProducts[c.code] && countryProducts[c.code].length) || (countryBlogs[c.code] && countryBlogs[c.code].length)); %>
+        <% const withInterest = countries.filter((c) => !c.botLikely && ((countryProducts[c.code] && countryProducts[c.code].length) || (countryBlogs[c.code] && countryBlogs[c.code].length))); %>
         <% if (withInterest.length) { %>
           <h3 style="margin-top:22px">🎯 What each country looks at <span style="font-weight:400;color:var(--muted);font-size:.78rem">— top e-books and blog posts per market, for targeting</span></h3>
           <div class="ana-grid2">
