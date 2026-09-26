@@ -25,6 +25,23 @@
     <div class="sup-stat"><div class="num"><%= stats.avg_rating == null ? '—' : stats.avg_rating + '★' %></div><div class="lbl">Avg rating</div></div>
   </div>
 
+  <div class="sup-card" style="background:#fffbeb;border:1px solid #fde68a;margin-bottom:18px">
+    <h2 style="font-size:1rem;margin:0 0 4px">💳 Send a payment confirmation reminder</h2>
+    <p style="margin:0 0 12px;font-size:0.85rem;color:#78350f">
+      Use this when a payment shows up in your bank/UPI app but the buyer never completed checkout,
+      so no order exists to approve. It opens a "Payment Confirmation Needed" ticket, emails the
+      customer, and shows a "Confirm your payment" button on their dashboard so they can log in and
+      self-report the UTR and which e-book(s) they bought.
+    </p>
+    <form method="POST" action="/admin/support/payment-reminder" class="sup-filters" style="margin-bottom:0">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <input type="email" name="email" placeholder="Customer email" required style="min-width:220px">
+      <input type="number" name="amount" placeholder="Amount ₹ (optional)" min="0" step="0.01" style="max-width:160px">
+      <input type="text" name="note" placeholder="Note to customer (optional)" style="min-width:220px;flex:1">
+      <button type="submit" class="sup-btn-sm">Send reminder</button>
+    </form>
+  </div>
+
   <form class="sup-filters" method="GET" action="/admin/support">
     <% if (f.spam) { %><input type="hidden" name="spam" value="1"><% } %>
     <select name="status" aria-label="Filter by status">

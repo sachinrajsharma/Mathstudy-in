@@ -135,7 +135,7 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
   async function loadTicketByToken(token) {
     if (!/^[a-f0-9]{48}$/.test(String(token || ''))) return null;
     const [[t]] = await pool.query(
-      `SELECT t.*, c.name AS category_name FROM support_tickets t
+      `SELECT t.*, c.name AS category_name, c.slug AS category_slug FROM support_tickets t
        LEFT JOIN support_categories c ON c.id=t.category_id WHERE t.access_token=? LIMIT 1`, [token]);
     return t || null;
   }
@@ -295,7 +295,20 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
     try {
       const t = await loadTicketByToken(req.params.token);
       if (!t) { for (const f of files) { try { fs.unlinkSync(f.path); } catch (e) {} } return res.status(404).send('Not found'); }
-      const body = String((req.body && req.body.message) || '').trim().slice(0, 8000);
+
+      // On a "Payment Confirmation Needed" ticket the reply form also carries the
+      // UTR + book names the customer is self-reporting. Fold them into the message
+      // AND into the ticket's own payment_ref / product_title columns — the same
+      // columns the admin ticket view already renders as "UTR" / "E-book".
+      const utr = String((req.body && req.body.utr) || '').trim().slice(0, 80);
+      const productsClaimed = String((req.body && req.body.products_claimed) || '').trim().slice(0, 255);
+      let body = String((req.body && req.body.message) || '').trim().slice(0, 8000);
+      if (utr || productsClaimed) {
+        const lines = [];
+        if (utr) lines.push(`UPI transaction ID / UTR: ${utr}`);
+        if (productsClaimed) lines.push(`E-book(s) purchased: ${productsClaimed}`);
+        body = lines.join('\n') + (body ? '\n\n' + body : '');
+      }
       if (body.length < 2 && files.length === 0) return res.redirect('/support/ticket/' + t.access_token);
 
       const [msgIns] = await pool.query(
@@ -306,6 +319,10 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
           `INSERT INTO support_attachments (ticket_id, message_id, orig_name, stored_name, mime, size, uploaded_by)
            VALUES (?,?,?,?,?,?, 'customer')`,
           [t.id, msgIns.insertId, String(f.originalname || 'file').slice(0, 255), f.filename, f.mimetype, f.size]);
+      }
+      if (utr || productsClaimed) {
+        await pool.query(`UPDATE support_tickets SET payment_ref=COALESCE(?, payment_ref), product_title=COALESCE(?, product_title) WHERE id=?`,
+          [utr || null, productsClaimed || null, t.id]);
       }
       // A customer reply reopens anything that was waiting on them.
       if (['resolved', 'closed', 'waiting_customer'].includes(t.status)) {
@@ -662,6 +679,62 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       }
       res.redirect('/admin/support');
     } catch (e) { console.error(e); res.status(500).send('Template update failed'); }
+  });
+
+  // Admin — flag a payment that was received (seen in the bank/UPI app) but never
+  // turned into an order because the buyer didn't finish the checkout "I Have Paid"
+  // + UTR step. Creates (or reuses) a "Payment Confirmation Needed" ticket addressed
+  // to the buyer's email; /dashboard shows a "Confirm your payment" button for it.
+  router.post('/admin/support/payment-reminder', requireAdmin, verifyCsrf, async (req, res) => {
+    try {
+      const email = String(req.body.email || '').trim().toLowerCase().slice(0, 190);
+      const amount = parseFloat(req.body.amount);
+      const note = String(req.body.note || '').trim().slice(0, 1000);
+      if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,24}$/i.test(email)) {
+        return res.status(400).render('error', { title: 'Invalid email', metaDesc: '', canonical: null,
+          message: 'Please enter a valid customer email address.' });
+      }
+
+      // Reuse an already-open reminder for this email instead of piling up duplicates.
+      const [[existing]] = await pool.query(
+        `SELECT t.id FROM support_tickets t JOIN support_categories c ON c.id=t.category_id
+         WHERE c.slug='payment-confirmation' AND t.email=? AND t.status NOT IN ('resolved','closed')
+         ORDER BY t.id DESC LIMIT 1`, [email]);
+      if (existing) return res.redirect('/admin/support/' + existing.id);
+
+      const [[cat]] = await pool.query(`SELECT id, default_priority FROM support_categories WHERE slug='payment-confirmation' LIMIT 1`);
+      if (!cat) return res.status(500).send('Payment-confirmation category is not seeded yet — restart the server once and try again.');
+      const [[user]] = await pool.query(`SELECT id, name FROM users WHERE email=? LIMIT 1`, [email]);
+      const name = (user && user.name) || email.split('@')[0];
+
+      const token = support.newAccessToken();
+      const [ins] = await pool.query(
+        `INSERT INTO support_tickets (user_id, name, email, category_id, subject, status, priority, access_token)
+         VALUES (?,?,?,?,?, 'waiting_customer', ?, ?)`,
+        [user ? user.id : null, name, email, cat.id, 'Payment received — please confirm your order details', cat.default_priority, token]);
+      const id = ins.insertId;
+      await support.assignTicketNo(pool, id);
+
+      const amountLine = Number.isFinite(amount) && amount > 0 ? `we received a payment of ₹${amount.toFixed(2)} from you` : 'we received a payment from you';
+      const body = `Hello ${name},\n\n` +
+        `Good news — ${amountLine}, but it hasn't been linked to an order in your account yet because the checkout confirmation step wasn't completed.\n\n` +
+        `To get your download link, please reply on this ticket with:\n` +
+        `1) The UPI transaction ID / UTR number from your payment app\n` +
+        `2) The exact e-book(s) you purchased\n\n` +
+        (note ? `Note from our team: ${note}\n\n` : '') +
+        `We'll verify and send your download link within a few hours.\n\n— Team MathStudy`;
+      await pool.query(
+        `INSERT INTO support_messages (ticket_id, sender, user_id, body, is_internal, read_by_admin, read_by_customer)
+         VALUES (?, 'staff', ?, ?, 0, 1, 0)`, [id, req.session.user.id, body]);
+
+      await support.logEvent(pool, id, 'staff:' + req.session.user.name, 'created',
+        `admin payment-reminder for ${email}` + (Number.isFinite(amount) && amount > 0 ? `, claimed ₹${amount.toFixed(2)}` : ''));
+
+      const [[t]] = await pool.query(`SELECT * FROM support_tickets WHERE id=?`, [id]);
+      await support.emailPaymentReminderCreated(pool, t, Number.isFinite(amount) ? amount : null);
+
+      res.redirect('/admin/support/' + id);
+    } catch (e) { console.error('[support] payment-reminder failed:', e); res.status(500).send('Could not create the payment reminder ticket.'); }
   });
 
   return router;

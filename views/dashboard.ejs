@@ -12,6 +12,16 @@
     </p>
   </div>
 
+  <% if (locals.paymentReminder) { %>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;background:#fffbeb;border:1.5px solid #f59e0b;border-radius:12px;padding:14px 18px;margin-bottom:20px">
+      <div>
+        <div style="font-weight:700;color:#78350f">💳 We received a payment from you</div>
+        <div style="font-size:0.88rem;color:#78350f">It isn't linked to an order yet — confirm the UTR and e-book(s) you bought to get your download link.</div>
+      </div>
+      <a href="/support/ticket/<%= paymentReminder.access_token %>" class="btn btn-primary" style="white-space:nowrap">Confirm your payment</a>
+    </div>
+  <% } %>
+
   <% if (!orders || !orders.length) { %>
     <div style="text-align:center;padding:60px 0;background:#fff;border:1px solid var(--border);border-radius:16px">
       <div style="font-size:3rem;margin-bottom:12px">📚</div>

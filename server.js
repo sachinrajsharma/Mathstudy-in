@@ -936,11 +936,21 @@ app.get('/dashboard', requireLogin, async (req, res) => {
        GROUP BY o.id ORDER BY o.created_at DESC`,
       [req.session.user.id]
     );
+    // Admin-flagged "we saw your payment but no order exists" reminder — see
+    // routes/support.js POST /admin/support/payment-reminder. Surfaced as a
+    // dashboard banner so the buyer can log in, open it and self-report the UTR.
+    const [[paymentReminder]] = await pool.query(
+      `SELECT t.id, t.access_token FROM support_tickets t
+       JOIN support_categories c ON c.id=t.category_id
+       WHERE c.slug='payment-confirmation' AND (t.user_id=? OR t.email=?) AND t.status NOT IN ('resolved','closed')
+       ORDER BY t.id DESC LIMIT 1`,
+      [req.session.user.id, req.session.user.email]
+    );
     res.render('dashboard', {
       title:'My Dashboard — MathStudy.in', metaDesc:'', canonical:null,
-      orders
+      orders, paymentReminder
     });
-  } catch(e) { console.error(e); res.render('dashboard',{ title:'Dashboard', metaDesc:'', canonical:null, orders:[] }); }
+  } catch(e) { console.error(e); res.render('dashboard',{ title:'Dashboard', metaDesc:'', canonical:null, orders:[], paymentReminder:null }); }
 });
 
 // ════════════════════════════════════════════════════════════════════════════

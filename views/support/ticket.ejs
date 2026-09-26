@@ -46,12 +46,29 @@
     </div>
   <% } %>
 
+  <% if (t.category_slug === 'payment-confirmation' && !['resolved','closed'].includes(t.status)) { %>
+    <div class="sup-card" style="background:#fffbeb;border:1px solid #fde68a;margin-bottom:18px">
+      <h2 style="font-size:1rem;margin:0 0 8px">Confirm your payment</h2>
+      <p style="margin:0">We can see a payment from you that hasn't been linked to an order yet. Fill in the UPI transaction ID (UTR) and the e-book(s) you bought below, then send — we verify and email your download link, usually within a few hours.</p>
+    </div>
+  <% } %>
+
   <div class="sup-card">
     <h2 style="font-size:1rem;margin:0 0 12px"><%= ['resolved','closed'].includes(t.status) ? 'Still need help? Reply to reopen this ticket' : 'Reply to this ticket' %></h2>
     <form class="sup-form" method="POST" action="/support/ticket/<%= t.access_token %>/reply" enctype="multipart/form-data">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <% if (t.category_slug === 'payment-confirmation') { %>
+        <div class="sup-row">
+          <label for="sup-utr">UPI transaction ID / UTR</label>
+          <input type="text" id="sup-utr" name="utr" maxlength="80" value="<%= t.payment_ref || '' %>" placeholder="e.g. 302412345678">
+        </div>
+        <div class="sup-row">
+          <label for="sup-products">E-book(s) you purchased</label>
+          <input type="text" id="sup-products" name="products_claimed" maxlength="255" value="<%= t.product_title || '' %>" placeholder="e.g. Class 10 Case Study E-Book">
+        </div>
+      <% } %>
       <div class="sup-row">
-        <textarea name="message" required minlength="2" maxlength="8000" placeholder="Type your reply…"></textarea>
+        <textarea name="message" <%= t.category_slug === 'payment-confirmation' ? '' : 'required minlength="2"' %> maxlength="8000" placeholder="<%= t.category_slug === 'payment-confirmation' ? 'Anything else we should know? (optional)' : 'Type your reply…' %>"></textarea>
       </div>
       <div class="sup-row">
         <div class="sup-files">
