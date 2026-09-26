@@ -715,14 +715,17 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       const id = ins.insertId;
       await support.assignTicketNo(pool, id);
 
-      const amountLine = Number.isFinite(amount) && amount > 0 ? `we received a payment of ₹${amount.toFixed(2)} from you` : 'we received a payment from you';
+      const amountLine = Number.isFinite(amount) && amount > 0
+        ? `a payment of ₹${amount.toFixed(2)} from you towards MathStudy.in e-books`
+        : 'a payment from you towards MathStudy.in e-books';
       const body = `Hello ${name},\n\n` +
-        `Good news — ${amountLine}, but it hasn't been linked to an order in your account yet because the checkout confirmation step wasn't completed.\n\n` +
-        `To get your download link, please reply on this ticket with:\n` +
-        `1) The UPI transaction ID / UTR number from your payment app\n` +
-        `2) The exact e-book(s) you purchased\n\n` +
+        `Our records show ${amountLine} — thank you.\n\n` +
+        `However, your order did not finish on our side. At checkout there is one final step where you enter your UPI transaction ID (UTR number) and tap the "Payment Done" button to confirm. That step was not completed, so your payment is not yet linked to an order and we are unable to release your download link.\n\n` +
+        `To receive your e-books, please confirm your payment in either of these ways:\n` +
+        `1) Log in to your dashboard and click "Confirm your payment", or\n` +
+        `2) Reply on this ticket with (a) your UPI transaction ID (UTR number) and (b) the exact e-book(s) you purchased.\n\n` +
         (note ? `Note from our team: ${note}\n\n` : '') +
-        `We'll verify and send your download link within a few hours.\n\n— Team MathStudy`;
+        `Once we verify it, your download link will be emailed to you — usually within a few hours.\n\nThanks,\nTeam MathStudy.in`;
       await pool.query(
         `INSERT INTO support_messages (ticket_id, sender, user_id, body, is_internal, read_by_admin, read_by_customer)
          VALUES (?, 'staff', ?, ?, 0, 1, 0)`, [id, req.session.user.id, body]);
