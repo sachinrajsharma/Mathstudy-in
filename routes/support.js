@@ -115,6 +115,15 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
     .then(() => console.log('[support] schema ready'))
     .catch(e => console.error('[support] schema init failed:', e.message));
 
+  // Auto-close idle tickets on a timer so they close even if no admin visits the
+  // dashboard. Also runs opportunistically inside GET /admin/support.
+  const autoCloseTick = () => support.autoClose(pool)
+    .then(n => { if (n) console.log(`[support] auto-closed ${n} idle ticket(s)`); })
+    .catch(e => console.error('[support] autoClose tick failed:', e.message));
+  setTimeout(autoCloseTick, 30 * 1000); // once shortly after boot
+  const autoCloseTimer = setInterval(autoCloseTick, 60 * 60 * 1000); // hourly
+  if (autoCloseTimer.unref) autoCloseTimer.unref();
+
   // Shared view vocabulary — scoped so the rest of the site is untouched.
   router.use(['/support', '/dashboard/support', '/admin/support'], (req, res, next) => {
     res.locals.extraCss = '/css/support.css';
@@ -296,6 +305,16 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       const t = await loadTicketByToken(req.params.token);
       if (!t) { for (const f of files) { try { fs.unlinkSync(f.path); } catch (e) {} } return res.status(404).send('Not found'); }
 
+      // A closed ticket cannot be reopened by the customer — only an admin can.
+      // (Tickets auto-close after inactivity; see lib/support.autoClose.)
+      if (t.status === 'closed') {
+        for (const f of files) { try { fs.unlinkSync(f.path); } catch (e) {} }
+        return res.status(403).render('error', {
+          title: 'Ticket closed', metaDesc: '', canonical: null,
+          message: 'This ticket has been closed and can no longer be replied to. If you still need help, please open a new support ticket.',
+        });
+      }
+
       // On a "Payment Confirmation Needed" ticket the reply form also carries the
       // UTR + book names the customer is self-reporting. Fold them into the message
       // AND into the ticket's own payment_ref / product_title columns — the same
@@ -324,8 +343,9 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
         await pool.query(`UPDATE support_tickets SET payment_ref=COALESCE(?, payment_ref), product_title=COALESCE(?, product_title) WHERE id=?`,
           [utr || null, productsClaimed || null, t.id]);
       }
-      // A customer reply reopens anything that was waiting on them.
-      if (['resolved', 'closed', 'waiting_customer'].includes(t.status)) {
+      // A customer reply reopens a ticket that was waiting on them or marked
+      // resolved. It can NOT reopen a 'closed' ticket — that path is blocked above.
+      if (['resolved', 'waiting_customer'].includes(t.status)) {
         await pool.query(`UPDATE support_tickets SET status='open', resolved_at=NULL, closed_at=NULL WHERE id=?`, [t.id]);
         await support.logEvent(pool, t.id, t.name, 'status', `reopened by customer reply (was ${t.status})`);
       }

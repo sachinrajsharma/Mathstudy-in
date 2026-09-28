@@ -53,8 +53,14 @@
     </div>
   <% } %>
 
+  <% if (t.status === 'closed') { %>
+    <div class="sup-card" style="background:#f8fafc;border:1px solid #e2e8f0">
+      <h2 style="font-size:1rem;margin:0 0 8px">This ticket is closed</h2>
+      <p style="margin:0">This ticket has been closed and can no longer be replied to. If you still need help, please <a href="/support">open a new support ticket</a>.</p>
+    </div>
+  <% } else { %>
   <div class="sup-card">
-    <h2 style="font-size:1rem;margin:0 0 12px"><%= ['resolved','closed'].includes(t.status) ? 'Still need help? Reply to reopen this ticket' : 'Reply to this ticket' %></h2>
+    <h2 style="font-size:1rem;margin:0 0 12px"><%= t.status === 'resolved' ? 'Still need help? Reply to reopen this ticket' : 'Reply to this ticket' %></h2>
     <form class="sup-form" method="POST" action="/support/ticket/<%= t.access_token %>/reply" enctype="multipart/form-data">
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <% if (t.category_slug === 'payment-confirmation') { %>
@@ -79,5 +85,6 @@
       <button type="submit" class="btn btn-primary">Send reply</button>
     </form>
   </div>
+  <% } %>
 </main>
 <script src="/js/support.js" defer></script>
