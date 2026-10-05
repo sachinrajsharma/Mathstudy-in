@@ -101,10 +101,33 @@ function rateLimit(kind, max) {
   };
 }
 
+// One captcha per ticket submission covers the form AND its file attachments
+// (they are the same POST). Required for guests and logged-in users alike —
+// registration is open, so a session alone is not proof of a human.
+const CAPTCHA_TTL_MS = 15 * 60 * 1000;
 function newSupportCaptcha(req) {
   const a = 2 + crypto.randomInt(8), b = 1 + crypto.randomInt(9);
   req.session.supportCaptcha = a + b;
+  req.session.supportCaptchaAt = Date.now();
   return a + ' + ' + b;
+}
+function supportCaptchaOk(req, given) {
+  const expected = req.session.supportCaptcha;
+  const at = req.session.supportCaptchaAt || 0;
+  delete req.session.supportCaptcha; delete req.session.supportCaptchaAt; // single-use
+  return !!expected && Date.now() - at < CAPTCHA_TTL_MS && parseInt(given, 10) === expected;
+}
+
+// multer writes uploads to disk before CSRF can be checked (the token is in the
+// multipart body). If the request is then rejected, delete what it left behind
+// so an unauthenticated POST cannot fill the disk.
+function csrfOrCleanup(verify) {
+  return (req, res, next) => {
+    res.once('finish', () => {
+      if (res.statusCode >= 400) for (const f of req.files || []) { try { fs.unlinkSync(f.path); } catch (e) {} }
+    });
+    verify(req, res, next);
+  };
 }
 
 module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, verifyCsrf }) {
@@ -171,13 +194,13 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
         metaDesc: 'Get help with payments, downloads, refunds or your MathStudy.in account. Submit a support ticket — we reply within 24 hours.',
         canonical: (process.env.BASE_URL || 'https://mathstudy.in') + '/support',
         cats, kb: support.KNOWLEDGE_BASE,
-        captchaQ: req.session.user ? null : newSupportCaptcha(req),
+        captchaQ: newSupportCaptcha(req),
         form: {}, errors: [],
       });
     } catch (e) { console.error(e); res.status(500).render('error', { title: 'Error', metaDesc: '', canonical: null, message: 'Could not load the support page. Please try again.' }); }
   });
 
-  router.post('/support', rateLimit('create', 5), safeUpload(upload.array('attachments', 3)), verifyCsrf, async (req, res) => {
+  router.post('/support', rateLimit('create', 5), safeUpload(upload.array('attachments', 3)), csrfOrCleanup(verifyCsrf), async (req, res) => {
     const b = req.body || {};
     const files = verifyMagicBytes(req.files);
     const cleanupFiles = () => { for (const f of files) { try { fs.unlinkSync(f.path); } catch (e) {} } };
@@ -202,12 +225,9 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       if (subject.length < 5) errors.push('Please give a short subject (at least 5 characters).');
       if (description.length < 15) errors.push('Please describe the issue in at least 15 characters.');
 
-      // Guest captcha (logged-in users skip it — their session is the proof).
-      if (!req.session.user) {
-        const given = parseInt(b.captcha || '', 10);
-        if (!req.session.supportCaptcha || given !== req.session.supportCaptcha) {
-          errors.push('The security answer was wrong — please solve the small sum shown.');
-        }
+      // Captcha for everyone (covers the attachments too — same POST).
+      if (!supportCaptchaOk(req, b.captcha)) {
+        errors.push('The security answer was wrong or expired — please solve the small sum shown.');
       }
 
       if (errors.length) {
@@ -215,7 +235,7 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
         return res.status(400).render('support/new', {
           title: 'Customer Support — Submit a Ticket | MathStudy.in', metaDesc: '', canonical: null,
           cats, kb: support.KNOWLEDGE_BASE,
-          captchaQ: req.session.user ? null : newSupportCaptcha(req),
+          captchaQ: newSupportCaptcha(req),
           form: b, errors,
         });
       }
@@ -299,7 +319,7 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
     } catch (e) { console.error(e); res.status(500).render('error', { title: 'Error', metaDesc: '', canonical: null, message: 'Could not load the ticket.' }); }
   });
 
-  router.post('/support/ticket/:token/reply', rateLimit('reply', 20), safeUpload(upload.array('attachments', 3)), verifyCsrf, async (req, res) => {
+  router.post('/support/ticket/:token/reply', rateLimit('reply', 20), safeUpload(upload.array('attachments', 3)), csrfOrCleanup(verifyCsrf), async (req, res) => {
     const files = verifyMagicBytes(req.files);
     try {
       const t = await loadTicketByToken(req.params.token);
