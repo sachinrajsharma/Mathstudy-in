@@ -252,6 +252,16 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
         });
       }
 
+      // Known spammer: pretend success, store nothing, email nobody.
+      if (await support.isBlocked(pool, email, req.ip)) {
+        cleanupFiles();
+        console.warn('[antispam] blocked sender dropped:', email, req.ip);
+        return res.render('support/created', {
+          title: 'Ticket created | MathStudy.in', metaDesc: '', canonical: null,
+          ticket: { ticket_no: 'SUP-' + new Date().getFullYear() + '-' + String(Math.floor(1000 + Math.random() * 9000)).padStart(6, '0'), subject, access_token: null, email }, duplicate: false,
+        });
+      }
+
       const score = support.spamScore({ honeypot: b.website, description, subject, name, email, tooFast: antispam.tooFast(b, 4) });
       // Obvious bots: pretend success, store nothing, email nobody — they cannot learn what tripped them.
       if (score >= 10) {
@@ -489,11 +499,12 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
 
       const [cats] = await pool.query(`SELECT * FROM support_categories ORDER BY sort_order, name`);
       const [templates] = await pool.query(`SELECT * FROM support_templates ORDER BY is_active DESC, id`);
+      const [blocklist] = await pool.query('SELECT * FROM support_blocklist ORDER BY id DESC LIMIT 100');
       const [[{ n: spamCount }]] = await pool.query(`SELECT COUNT(*) n FROM support_tickets WHERE is_spam=1`);
 
       res.render('admin/support-list', {
         title: 'Support Tickets — Admin | MathStudy.in', metaDesc: '', canonical: null,
-        stats, tickets, cats, templates, f, page, pages: Math.ceil(totalRows / PER), totalRows, spamCount,
+        stats, tickets, cats, templates, f, page, pages: Math.ceil(totalRows / PER), totalRows, spamCount, blocklist,
       });
     } catch (e) { console.error(e); res.status(500).render('error', { title: 'Error', metaDesc: '', canonical: null, message: 'Could not load the support dashboard.' }); }
   });
@@ -675,6 +686,24 @@ module.exports = function supportRoutes({ pool, requireLogin, requireAdmin, veri
       await support.logEvent(pool, t.id, 'staff:' + req.session.user.name, 'spam', t.is_spam ? 'unmarked as spam' : 'marked as spam');
       res.redirect('/admin/support/' + t.id);
     } catch (e) { console.error(e); res.status(500).send('Spam toggle failed'); }
+  });
+
+  router.post('/admin/support/:id(\\d+)/spam-block', requireAdmin, verifyCsrf, async (req, res) => {
+    try {
+      const t = await loadAdminTicket(req.params.id);
+      if (!t) return res.redirect('/admin/support');
+      const actor = 'staff:' + req.session.user.name;
+      const b = await support.blockSender(pool, t, actor);
+      await support.logEvent(pool, t.id, actor, 'spam', 'marked spam + blocked ' + [b.email, b.domain, b.ip].filter(Boolean).join(', '));
+      res.redirect('/admin/support/' + t.id);
+    } catch (e) { console.error(e); res.status(500).send('Block failed'); }
+  });
+
+  router.post('/admin/support/blocklist/:id(\\d+)/remove', requireAdmin, verifyCsrf, async (req, res) => {
+    try {
+      await pool.query('DELETE FROM support_blocklist WHERE id=?', [req.params.id]);
+      res.redirect('/admin/support');
+    } catch (e) { console.error(e); res.status(500).send('Unblock failed'); }
   });
 
   router.post('/admin/support/:id(\\d+)/delete', requireAdmin, verifyCsrf, async (req, res) => {

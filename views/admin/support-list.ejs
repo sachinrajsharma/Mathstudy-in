@@ -168,5 +168,17 @@
         <button type="submit" class="sup-btn-sm">Add template</button>
       </form>
     </div>
+    <div class="sup-card">
+      <h2>Blocked spam senders</h2>
+      <% if (!blocklist || !blocklist.length) { %>
+        <p class="sup-hint">None yet. Use "Spam + block sender" on a ticket.</p>
+      <% } else { blocklist.forEach(function(b){ %>
+        <form method="POST" action="/admin/support/blocklist/<%= b.id %>/remove" style="display:flex;gap:8px;align-items:center;margin:4px 0">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <span><b><%= b.kind %></b>: <%= b.value %> <small>(<%= b.reason || '' %>)</small></span>
+          <button type="submit" class="sup-btn-sm ghost">Unblock</button>
+        </form>
+      <% }) } %>
+    </div>
   </div>
 </main>

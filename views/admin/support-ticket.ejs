@@ -99,6 +99,11 @@
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <button type="submit" class="sup-btn-sm ghost"><%= t.is_spam ? 'Not spam' : 'Mark as spam' %></button>
     </form>
+    <form method="POST" action="/admin/support/<%= t.id %>/spam-block" onsubmit="return confirm('Mark as spam and block this sender (email, domain and IP)? Their future tickets will be silently dropped.')">
+      <b>Spammer</b>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <button type="submit" class="sup-btn-sm danger">Spam + block sender</button>
+    </form>
     <form method="POST" action="/admin/support/<%= t.id %>/delete" onsubmit="return confirm('Permanently delete <%= t.ticket_no %> and all its messages and files? This cannot be undone.')">
       <b>Danger zone</b>
       <input type="hidden" name="_csrf" value="<%= csrfToken %>">
